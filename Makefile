@@ -42,47 +42,6 @@ endif
 	@./toolchain/bin/text12ins ./build/dl.sfc
 	@echo "Build of ./build/dl.sfc complete!"
 
-.PHONY: crypt
-crypt:
-ifneq ($(MD5),91d62c4cb790fc2fb38b10b68616e228)
-	$(error dl.rom md5 mismatch, expected 91d62c4cb790fc2fb38b10b68616e228)
-endif
-	@cp $(DLROM) ./build/dl.sfc
-	@echo "Converting fonts to binary..."
-	@./toolchain/bin/makevwf8
-	@./toolchain/bin/makevwf12
-	@echo "Converting scripts to binary..."
-	@./toolchain/bin/text8i
-	@./toolchain/bin/text12i
-	@echo "Converting replacement graphics to binary..."
-	@./toolchain/bin/bmptoimg
-	@./toolchain/bin/bdconv
-	@echo "Compressing graphics..."
-	@./toolchain/bin/dcconv
-	@echo "Assembling intro program..."
-	@./toolchain/bin/xkas ./resources/asm/intro.asm ./build/dl.sfc
-	@echo "Assembling decomp routines..."
-	@./toolchain/bin/xkas ./resources/asm/decomp.asm ./build/dl.sfc
-	@echo "Assembling replacement name table..."
-	@./toolchain/bin/xkas ./resources/asm/name.asm ./build/dl.sfc
-	@echo "Assembling 8x8 text fixes..."
-	@./toolchain/bin/xkas ./resources/asm/text_a.asm ./build/dl.sfc
-	@echo "Assembling 16x16 text fixes..."
-	@./toolchain/bin/xkas ./resources/asm/text_b.asm ./build/dl.sfc
-	@echo "Assembling various text fixes..."
-	@./toolchain/bin/xkas ./resources/asm/text_c.asm ./build/dl.sfc
-	@echo "Assembling new menu positions..."
-	@./toolchain/bin/xkas ./resources/asm/window.asm ./build/dl.sfc
-	@echo "Assembling decryption engine..."
-	@./toolchain/bin/xkas ./resources/asm/decrypt.asm ./build/dl.sfc
-	@echo "Assembling 12x12 font display code..."
-	@./toolchain/bin/xkas ./resources/asm/font12.asm ./build/dl.sfc
-	@echo "Assembling 8x8 font display code..."
-	@./toolchain/bin/xkas ./resources/asm/font8.asm ./build/dl.sfc
-	@echo "Inserting game script..."
-	@./toolchain/bin/crypt ./build/dl.sfc
-	@echo "Build of ./build/dl.sfc complete!"
-
 .PHONY: proper
 proper:
 	@echo "Validating game scripts..."
@@ -111,7 +70,6 @@ toolchain:
 	@echo "Building Der Langrisser toolchain..."
 	$(CC) -w ./toolchain/custom/bdconv.c -o ./toolchain/bin/bdconv -I./toolchain/custom
 	$(CC) -w ./toolchain/custom/bmptoimg.c -o ./toolchain/bin/bmptoimg -I./toolchain/custom
-	$(CC) -w ./toolchain/custom/crypt.c -o ./toolchain/bin/crypt -I./toolchain/custom
 	$(CC) -w ./toolchain/custom/dbconv.c -o ./toolchain/bin/dbconv -I./toolchain/custom
 	$(CC) -w ./toolchain/custom/dcconv.c -o ./toolchain/bin/dcconv -I./toolchain/custom
 	$(CC) -w ./toolchain/custom/decomp.c -o ./toolchain/bin/decomp -I./toolchain/custom
