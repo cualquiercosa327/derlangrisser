@@ -94,6 +94,7 @@ ifneq ($(MD5),91d62c4cb790fc2fb38b10b68616e228)
 	$(error dl.rom md5 mismatch, expected 91d62c4cb790fc2fb38b10b68616e228)
 endif
 	@echo "Dumping game scripts..."
+	@mkdir -p ./resources/scripts/jp
 	@./toolchain/dump.php
 	@echo "Dumping 8x8 text..."
 	@./toolchain/bin/text8d
