@@ -56,7 +56,7 @@ Who is that guy ...?
 Have we seen him before?{end}
 
 Yeah, it's Colonel Zorum again.{06}{07}
-He's General Vargas's
+He's General Vargas'
 right hand man ...
 Well, so he says.{end}
 
@@ -246,7 +246,7 @@ General Leon ...{end}
 
 Laird, you will lead our
 troops to Castle Baldea!{06}{07}
-I must give Vargas's
+I must give Vargas'
 message to Eliza ...
 I will leave immediately.{end}
 

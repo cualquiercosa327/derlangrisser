@@ -782,7 +782,7 @@ can do for you without trouble.{end}
 
 Please accept this cross.
 May it always bring you
-Lushiris's blessing.{end}
+Lushiris' blessing.{end}
 
 Obtained Cross.{end}
 

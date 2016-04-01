@@ -91,7 +91,7 @@ He's using you!{end}
 Once again, I have
 been resurrected!{06}{07}
 And with the waking of
-Chaos's Glory, darkness shall
+Chaos' Glory, darkness shall
 once again rule this world!{end}
 
 That won't happen!
@@ -374,7 +374,7 @@ Perhaps ...
 He may have gone to
 the cursed land ...{end}
 
-Chaos's Glory,
+Chaos' Glory,
 Alhazard ...{06}{07}
 It sleeps in Velzeria's
 darkness until the
@@ -478,6 +478,6 @@ I can go by myself.{end}
 Well then, let's depart!
 Liana, be careful.{end}
 
-May Lushiris's light
+May Lushiris' light
 guide us all ...{end}
 

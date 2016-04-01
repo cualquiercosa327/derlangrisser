@@ -77,7 +77,7 @@ around here?{end}
 He should be in the
 forbidden land, Velzeria.{06}{07}
 There's an ancient
-legend about the darkness's
+legend about the darkness'
 imprisonment there.{06}{07}
 We should take
 the fight to him rather

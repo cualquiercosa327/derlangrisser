@@ -397,7 +397,7 @@ Understood.{end}
 
 Don't let them escape!{end}
 
-Even with General Vargas's
+Even with General Vargas'
 help, I still ...
 My duty is complete ...{06}{07}
 Egbert must have

@@ -85,7 +85,7 @@ Do you see?
 This is Alhazard's power!{06}{07}
 Do you really think you
 mere humans can
-compare to Chaos's Glory!?{end}
+compare to Chaos' Glory!?{end}
 
 We've been through
 far worse than you.{06}{07}

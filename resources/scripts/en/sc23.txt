@@ -42,7 +42,7 @@ sealed the Dark Blade ...
 At least that's my take on it.{end}
 
 Then what's the
-Dark Princess's role?{end}
+Dark Princess' role?{end}
 
 It's her duty to break
 the seal and become

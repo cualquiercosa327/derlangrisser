@@ -167,7 +167,7 @@ be repeating history?{end}
 
 It's different this time.
 We put an end to B{3a}ser,
-darkness's incarnation.{06}{07}
+darkness' incarnation.{06}{07}
 With his demise,
 monsters can't cause
 us much trouble.{end}

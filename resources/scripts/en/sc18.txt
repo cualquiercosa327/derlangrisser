@@ -172,7 +172,7 @@ We can't spare much time.{end}
 
 Leon went to
 notify Lady Eliza of
-General Vargas's death.{06}{07}
+General Vargas' death.{06}{07}
 Explaining such a thing
 is a delicate matter,
 especially since his wife
@@ -191,7 +191,7 @@ Yes, Sir!{end}
 General Leon!{end}
 
 Sorry I'm late.{06}{07}
-I was playing with Vargas's
+I was playing with Vargas'
 child when I told her what
 happened to her husband ...{end}
 

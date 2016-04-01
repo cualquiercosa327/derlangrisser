@@ -301,7 +301,7 @@ Blazing Dragon Army.{06}{07}
 Hundreds of years ago, the
 Descendants of Light reigned over
 Baldea, the kingdom of light,
-blessed by Lushiris's holy power.{06}{07}
+blessed by Lushiris' holy power.{06}{07}
 The legendary blade wielded by
 Sieghart in the days when Baldea
 was known as Elthlead slumbers
@@ -548,7 +548,7 @@ With the prince of darkness having
 left this world, the monsters found
 a new master in Kaiser Bernhardt,
 wielder of the Demons' Might.{06}{07}
-For generations, Chaos's Glory
+For generations, Chaos' Glory
 and the Dispeller of Darkness have
 clashed in epic struggle.{06}{07}
 Having found their wielders in a
@@ -633,7 +633,7 @@ With the prince of darkness having
 left this world, the monsters found
 a new master in Kaiser Bernhardt,
 wielder of the Demons' Might.{06}{07}
-For generations, Chaos's Glory
+For generations, Chaos' Glory
 and the Dispeller of Darkness
 have clashed in epic struggle.{06}{07}
 Having found their wielders in
@@ -742,7 +742,7 @@ secure a ship and take to the sea,
 it was not long before they came
 under attack by sea monsters.{06}{07}
 For such monsters to have appeared
-in this world, the seal on Chaos's
+in this world, the seal on Chaos'
 Glory must have been dissolving.{06}{07}
 Unsure how much time was remained
 before the seal vanished completely,
@@ -924,7 +924,7 @@ prevent the company's advance.{06}{07}
 Hundreds of years ago, the
 Descendants of Light reigned over
 Baldea, the kingdom of light, blessed
-by Lushiris's holy power.{06}{07}
+by Lushiris' holy power.{06}{07}
 The legendary blade wielded by
 Sieghart in the days when Baldea
 was known as Elthlead slumbers
@@ -1074,10 +1074,10 @@ the Empire and the Army of Light,
 the Empire emerged victorious.{06}{07}
 However, Egbert uncovered B{3a}ser's
 true intent in releasing Alhazard--
-the reawakening of Chaos's
+the reawakening of Chaos'
 children, the Demon tribe.{06}{07}
 To stand against B{3a}ser and against
-Chaos's Might, the Empire unsealed
+Chaos' Might, the Empire unsealed
 Langrisser and rushed to Velzeria
 to confront the Prince of Darkness.{06}{07}
 As the company drew near
@@ -1203,7 +1203,7 @@ the hands of the victor.{06}{07}
 {skip 20}T{font0}he {font4}G{font0}reat {font4}R{font0}iver of {font4}R{font0}egret{06}{07}
 B{3a}ser's plot to use Rayguard
 as a pawn to release the full
-power of Chaos's Glory was
+power of Chaos' Glory was
 foreseen by the sorcerer, Egbert.{06}{07}
 A severely wounded B{3a}ser
 and the Army of Light--now on the
@@ -1439,7 +1439,7 @@ into the castle ...{06}{07}
 
 {skip 63}{font4}Scenario {03}
 {skip 31}M{font0}essenger of {font4}D{font0}arkness{06}{07}
-With the seal on Chaos's Glory
+With the seal on Chaos' Glory
 broken, the sword once again
 had the power to summon and
 control hordes of monsters.{06}{07}

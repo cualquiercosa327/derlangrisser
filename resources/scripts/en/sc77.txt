@@ -115,11 +115,11 @@ All units, move into position!
 Prepare to intercept!{end}
 
 How dare you desecrate
-Lushiris's haven!
+Lushiris' haven!
 I won't allow this!{end}
 
 You won't pollute
-Lushiris's holy ground!{end}
+Lushiris' holy ground!{end}
 
 I respect your decision, ...
 but I will not allow you to die.{end}

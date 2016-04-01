@@ -176,13 +176,13 @@ Attack range 1 - 6{end}
 
 A blade of darkness infused{end}
 
-with Chaos's power.{end}
+with Chaos' power.{end}
 
 AT + 12, DF + 1, A + 3, D + 1{end}
 
 A blade of darkness infused{end}
 
-with Chaos's power{end}
+with Chaos' power{end}
 
 AT + 12, DF + 1, A + 3, D + 1{end}
 

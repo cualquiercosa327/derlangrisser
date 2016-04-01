@@ -331,7 +331,7 @@ I'm going too.{end}
 Y, yes!{end}
 
 Get ready, bastards.
-I shall avenge Vargas's death!{end}
+I shall avenge Vargas' death!{end}
 
 All right!
 Time to go!{end}

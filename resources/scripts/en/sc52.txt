@@ -425,7 +425,7 @@ destroy Jessica's troops!{end}
 
 Stop it, Sonya.
 What have you become,
-darkness's lackey?{end}
+darkness' lackey?{end}
 
 Brother ...!{end}
 

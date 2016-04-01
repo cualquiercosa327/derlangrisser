@@ -1262,7 +1262,7 @@ built an orphanage, he sent aid
 to similar facilities and helped
 rebuild in the aftermath of war.{end}
 
-The seal of Chaos's Glory,
+The seal of Chaos' Glory,
 Alhazard, is still broken, and
 countless men lust for power.{06}{07}
 Was the unification by force
@@ -1272,7 +1272,7 @@ keep Alhazard from evil hands.{end}
 
 Years later, the Red Star
 once again rose over
-Yeless's sky in the west ...{06}{07}
+Yeless' sky in the west ...{06}{07}
 The legends say that when this
 occurs, a man of ambition is
 set to make his mark on history.{06}{07}

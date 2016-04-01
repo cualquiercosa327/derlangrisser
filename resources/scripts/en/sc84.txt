@@ -44,7 +44,7 @@ The power to conquer this
 shattered continent ...
 No ..., to conquer the world!{end}
 
-{skip 16}Over Yeless's sky, far from the
+{skip 19}Over Yeless' sky, far from the
 {skip 6}cursed land of Velzeria, a red star
 {skip 4}of ill omen has risen. It heralds the
 {skip 23}arrival of an ambitious man.{end}

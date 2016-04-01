@@ -456,7 +456,7 @@ How could we have failed?{end}
 I came as soon as
 I received word of the
 trouble here ...{06}{07}
-What in Lushiris's name ...!?{end}
+What in Lushiris' name ...!?{end}
 
 Amazing ...!{06}{07}
 The Blue Dragon Knights
