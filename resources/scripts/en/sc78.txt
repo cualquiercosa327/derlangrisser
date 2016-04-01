@@ -1,0 +1,318 @@
+Is this the
+Muscular Shrine?{end}
+
+Errr, {02}.{06}{07}
+I don't think we should
+investigate further ...{end}
+
+I agree with Hein.{06}{07}
+While we're hanging around,
+the Imperial Army could
+retrieve the Holy Blade.{end}
+
+Aaaahh--!
+What is this?{end}
+
+Ugh--!{end}
+
+Aarrghh--!{end}
+
+Ooooh ...!{end}
+
+Sampson! You should
+train your body more!{end}
+
+Sorry, big brother!{end}
+
+Welcome to
+the Muscular Shrine!{06}{07}
+Huuhn huuh!{end}
+
+We've been waiting for you!
+Aaahhh hyah!{end}
+
+I'm sorry, but you
+have to die here.{06}{07}
+We'll escape this cave
+and conquer the world
+with love and muscles!{06}{07}
+Hooo ho yaahhh!{end}
+
+What the hell!{06}{07}
+{02}, they're going to
+try and take over the world
+if we don't do something!{end}
+
+You're right.{06}{07}
+We can't have these guys
+messing with things.
+Everyone, let's go!{end}
+
+Or we could not ...
+and say we did?{end}
+
+Now it's our turn!
+Apostles of Aniki, go!
+Hunn huuh!{end}
+
+Yeah!{end}
+
+You see our muscles?
+Oh yeah!{end}
+
+Errr ...
+I have a bad feeling ...{end}
+
+Hey, little boy there!
+You look too much like
+a puny little girly man!{06}{07}
+Give me twenty push-ups
+and fifteen sit-ups when
+you're done with those!{06}{07}
+Come on! Four laps,
+up and down the stairs!{end}
+
+I can't understand
+a word he's saying ...{end}
+
+It's the language of
+brotherly love and muscles.{06}{07}
+If you keep working on that
+figure, maybe you'll be
+manly enough to make it out!{end}
+
+Zero!{end}
+
+This is it!
+Everyone, run for cover!{06}{07}
+There's no telling what
+their {font4}Sexy Beam{font0} will do.{end}
+
+Whew!
+That's enough of a workout
+for one day.{end}
+
+Noooooo--!{end}
+
+Ooh ...!{end}
+
+What just happened?
+He ... self-destructed?{end}
+
+They posed in the
+same position for so long that
+their veins snapped ...{06}{07}
+Or something like that ...{end}
+
+Liana, you're came up
+with that answer pretty fast.{06}{07}
+Is there something
+you want to tell us about ...?{end}
+
+One!{end}
+
+Two!{end}
+
+Countdown started!
+Three!{end}
+
+That sounds bad ...!{end}
+
+{font4}Sexy Beam{font0} energy
+charged to one-hundred twenty
+eight percent and counting!{end}
+
+What the hell!{06}{07}
+It's one-hundred twenty
+eight percent from
+the very start!? No way!{end}
+
+{font4}Sexy Beam {font0}
+energy charge initiated.{end}
+
+A mysterious stone is fit
+into a strange statue.{06}{07}
+
+Will you touch it?{end}
+
+The stone
+shines like gold.{06}{07}
+
+Obtained Rune Stone.{end}
+
+There are water drops on
+the man-shaped sculpture.{06}{07}
+
+Will you taste some?{end}
+
+Your body became harder.{06}{07}
+
+DF raised by 1!{end}
+
+The manly sculpture is wet with
+some liquid that smells sweaty.{06}{07}
+
+Will you dare to taste some?{end}
+
+AT raised by 1!{06}{07}
+
+But now you smell
+like unwashed gym socks ...{end}
+
+The flat-looking sculpture
+before you begins to speak.{06}{07}
+
+"Do you know who I am?
+Do you dare to call my name?"{06}{07}
+
+What name will you call?{end}
+
+God{end}
+
+Uminin{end}
+
+Umineko{end}
+
+"Incorrect ..."{06}{07}
+
+The sculpture fell silent.{end}
+
+"Correct ..."{06}{07}
+
+AT raised by 2.{end}
+
+"Incorrect ..."{06}{07}
+
+The sculpture fell silent.{end}
+
+There's a dumbbell made of
+iron where Varan was standing.{06}{07}
+
+You take it with your hands
+and feel it is quite heavy.{06}{07}
+
+Perhaps this is how the
+Aniki became so powerful ...{06}{07}
+
+Will you take it with you?{end}
+
+Obtained Iron Dumbbell.{end}
+
+Damn it ...
+Their Vaseline-oiled muscles
+deflected my swor--{end}
+
+Hah hah hah, boys!{06}{07}
+You've got to train
+your body more!{06}{07}
+Oooohhh yeah!{end}
+
+I knew I wasn't pumped
+enough to take
+on Masaya's Aniki  ...{end}
+
+No! I don't want to be
+a big muscle-bound moron.{end}
+
+Don't worry, young lady.
+It only hurts the first time.{06}{07}
+Uuuhnnn hah!{end}
+
+No! Don't come near me!{end}
+
+I can't believe an Aniki
+is going to be the last thing
+my eyes ever see ...{end}
+
+I can't do this any more.{end}
+
+This must be a dream ...
+So many Aniki ...
+Someone wake me up--!{end}
+
+My crocodile ...
+Where have you gone?{06}{07}
+Why did Masaya forget to
+add you to this game ...?{06}{07}
+I hope that wherever
+you are, you're ... free .....{end}
+
+So manly and dreamy ...{end}
+
+{font4}Je t'aime.{end}
+
+{font4}Senorita!{end}
+
+Oh no!
+They managed to break my
+invincible pose ...{end}
+
+Look at meee!{end}
+
+{font4}Aniki!{end}
+
+Pump it up!{end}
+
+You'll never leave a
+scratch on my ultimately
+trained iron body!{end}
+
+I ... I am beautiful ...{end}
+
+Nice body ...
+I should admire it even
+though you're the enemy ...{end}
+
+Nooo!{end}
+
+Nooo!{end}
+
+Hey there, I'm Adon!{end}
+
+Sampson, Sampson!{end}
+
+Nice body!
+I'm Sampson!{end}
+
+Adon, Adon!{end}
+
+Oooohh ...
+You're not too bad, boys!{06}{07}
+Adon, Sampson, get ready
+for the {font4}Sexy Beam!{end}
+
+Okay, big brother.{end}
+
+{font4}Sexy Beam?{06}{07}
+{font0}I don't know what it is,
+but it sounds like
+nothing but trouble!{end}
+
+Hurry! We have to stop
+them before they can fire it!{end}
+
+{font4}Sexy Beam?{06}{07}
+{font0}I don't know what it is,
+but it sounds like
+nothing but trouble!{end}
+
+Is that all ...?
+So this is the end of
+the Aniki's ambition.{06}{07}
+Their conquest of
+our world was over before
+it even began.{06}{07}
+I am still wondering
+about that {font4}Sexy Beam{font0} ...{end}
+
+{02}.{06}{07}
+I told you coming here
+would just be
+a waste of our time!{end}
+
+At any rate ...
+It is time to be
+on our way.{06}{07}
+Let us never
+speak of this again.{end}
+

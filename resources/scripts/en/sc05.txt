@@ -1,0 +1,806 @@
+* Victory Conditions{end}
+
+* Failure Conditions{end}
+
+{skip 3}-{skip 2}{02} perishes{end}
+
+{skip 3}-{skip 2}Best Baldo in combat{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Baldo escapes to the bottom{end}
+
+{skip 10}of the map{end}
+
+{skip 3}-{skip 2}Liana escapes to the top{end}
+
+{skip 10}of the map{end}
+
+{skip 3}-{skip 2}Best all enemies{end}
+
+{skip 3}-{skip 2}Liana perishes{end}
+
+{end}
+
+{skip 3}-{skip 2}Best all enemies{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}The Shrine Priest perishes{end}
+
+{skip 3}-{skip 2}Liana perishes{end}
+
+{skip 3}-{skip 2}Best all enemies{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}All NPCs perish{end}
+
+{end}
+
+{skip 3}-{skip 2}Best Camilla in combat{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Jessica perishes{end}
+
+{end}
+
+{skip 3}-{skip 2}Best all enemies{end}
+
+{skip 3}-{skip 2}Reach the Dark Rod's altar{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Best all enemies{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}All villagers perish{end}
+
+{end}
+
+{skip 3}-{skip 2}Best Kr{38}mer's forces in no{end}
+
+{skip 10}more than 18 turns{end}
+
+{end}
+
+{skip 3}-{skip 2}18 turns pass without victory{end}
+
+{end}
+
+{skip 3}-{skip 2}Best Imelda in combat{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}All villagers perish{end}
+
+{end}
+
+{skip 3}-{skip 2}Kill General Vargas{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Best all enemies{end}
+
+{skip 3}-{skip 2}Acquire Langrisser{end}
+
+{end}
+
+{skip 3}-{skip 2}Leon claims Langrisser{end}
+
+{end}
+
+{skip 3}-{skip 2}Best Leon in combat{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Best Bernhardt in combat{end}
+
+{skip 3}-{skip 2}Best B{3a}ser in combat{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Best Imelda's forces in no{end}
+
+{skip 10}more than 23 turns{end}
+
+{end}
+
+{skip 3}-{skip 2}Fail to obtain a ship{end}
+
+{skip 10}within 23 turns{end}
+
+{skip 3}-{skip 2}Best all enemies within in no{end}
+
+{skip 10}more than 18 turns{end}
+
+{end}
+
+{skip 3}-{skip 2}More than 18 turns pass{end}
+
+{end}
+
+{skip 3}-{skip 2}Best all enemies{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Best all enemies{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Foes claim the Holy Rod and{end}
+
+{skip 10}escape to the map's edge{end}
+
+{skip 3}-{skip 2}Best Sonya in combat{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Best all enemies{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Kill Bernhardt{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Best all enemies{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Best Sonya in combat{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Best all enemies{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Kill Bernhardt{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Best the Vampire Lord,{end}
+
+{skip 10}Esto and Osto{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Best Imelda in combat{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Best all enemies in no{end}
+
+{skip 10}more than 16 turns{end}
+
+{end}
+
+{skip 3}-{skip 2}More than 16 turns pass{end}
+
+{end}
+
+{skip 3}-{skip 2}Best Imelda in combat{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}All villagers perish{end}
+
+{end}
+
+{skip 3}-{skip 2}Best all enemies{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Best all enemies{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Jessica perishes{end}
+
+{end}
+
+{skip 3}-{skip 2}Best all enemies{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Foes claim the Holy Rod and{end}
+
+{skip 10}escape to the map's edge{end}
+
+{skip 3}-{skip 2}Kill Sonya{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Claim the holy rod and{end}
+
+{skip 10}escape to the edge of the map{end}
+
+{skip 3}-{skip 2}Best all enemies{end}
+
+{skip 3}-{skip 2}Foes claim the Holy Rod and{end}
+
+{skip 10}escape to the map's edge{end}
+
+{skip 3}-{skip 2}Kill Sonya{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Best all enemies{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Kill Bernhardt{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Best Lester in combat in no{end}
+
+{skip 10}more than 19 turns{end}
+
+{end}
+
+{skip 3}-{skip 2}19 turns pass without victory{end}
+
+{end}
+
+{skip 3}-{skip 2}Best Cherie in combat{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Best all enemies{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Acquire Langrisser{end}
+
+{skip 3}-{skip 2}Best all enemies{end}
+
+{end}
+
+{skip 3}-{skip 2}The Descendants of Light{end}
+
+{skip 10}claim Langrisser{end}
+
+{skip 3}-{skip 2}Best all enemies{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Best all enemies{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Enemies escape to the{end}
+
+{skip 10}top edge of the map{end}
+
+{skip 3}-{skip 2}Best Aaron in combat{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Best all foes except Liana{end}
+
+{skip 3}-{skip 2}Egbert captures Liana{end}
+
+{end}
+
+{skip 3}-{skip 2}Liana perishes or escapes{end}
+
+{end}
+
+{skip 3}-{skip 2}Best B{3a}ser in combat{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Best Sonya in combat or sway{end}
+
+{skip 10}her from B{3a}ser's side{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Kill B{3a}ser{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Kill Lester{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Kill Cherie{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Kill Jessica{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Kill Lester{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Kill Jessica{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Best Sonya in combat or sway{end}
+
+{skip 10}her from B{3a}ser's side{end}
+
+{end}
+
+{skip 3}-{skip 2}Bernhardt perishes{end}
+
+{end}
+
+{skip 3}-{skip 2}Best all enemies{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Kill B{3a}ser{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Best all enemies{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Best both Egbert and{end}
+
+{skip 10}Bernhardt in combat{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Kill both Scott and Loren{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Scott and Loren escapes to the{end}
+
+{skip 10}top edge of the map{end}
+
+{skip 3}-{skip 2}Best all foes except Liana{end}
+
+{skip 3}-{skip 2}Sonya captures Liana{end}
+
+{end}
+
+{skip 3}-{skip 2}Liana perishes or escapes{end}
+
+{end}
+
+{skip 3}-{skip 2}Best Bernhardt in combat{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Kill Vargas in no more{end}
+
+{skip 10}than 20 turns{end}
+
+{end}
+
+{skip 3}-{skip 2}20 turns pass without victory{end}
+
+{end}
+
+{skip 3}-{skip 2}Kill Imelda in no more{end}
+
+{skip 10}than 25 turns{end}
+
+{end}
+
+{skip 3}-{skip 2}25 turns pass without victory{end}
+
+{end}
+
+{skip 3}-{skip 2}Kill all enemies{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Kill Bernhardt{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Kill all enemies{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Best both Vargas and Imelda{end}
+
+{skip 10}in no more than 20 turns{end}
+
+{end}
+
+{skip 3}-{skip 2}20 turns pass with no victory{end}
+
+{end}
+
+{skip 3}-{skip 2}Best all enemies{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Kill Bernhardt{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Best all enemies{end}
+
+{skip 3}-{skip 2}Reactivate the ruins{end}
+
+{end}
+
+{skip 3}-{skip 2}20 turns pass with no victory{end}
+
+{end}
+
+{skip 3}-{skip 2}Kill Lushiris{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Best all enemies{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Best Uki in combat{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Best the witch in combat{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Kill B{3a}ser{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Kill Lester{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Kill Cherie{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Kill Jessica{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Kill B{3A}ser{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Best Chaos in combat{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 3}-{skip 2}Kill both Bernhardt and B{3a}ser{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+

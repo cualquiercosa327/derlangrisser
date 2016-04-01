@@ -1,0 +1,537 @@
+There has been no
+word from Imelda ...{06}{07}
+Laird, this will
+be our final battle.{06}{07}
+Fight with honour and glory.
+Remember our Kaiser and
+his vision for a new world.{06}{07}
+Let us take the positions
+outside the castle
+that we discussed before.{06}{07}
+Are our men read for
+the spread-formation attack?{end}
+
+Yes, everything is
+ready for your command.{end}
+
+General Leon, forgive me, 
+but what position could be
+better than in a castle?{end}
+
+We have weapons
+that cannot be used inside
+the castle gates.{06}{07}
+Our fields will provide
+{02} with far more
+trouble, I assure you.{end}
+
+I see.{end}
+
+In addition to defending,
+I will head our charge.{end}
+
+Everyone, remember
+my orders. I will repeat
+them one last time.{06}{07}
+The enemy will meet
+our bottleneck, and their
+men will begin to file.{06}{07}
+When this occurs, strike
+them from all angles!
+Do not lose this chance!{06}{07}
+All right, move out!{end}
+
+Twin Castle is just ahead.{end}
+
+You will not pass, {02}.
+Our fates and the Kaiser's
+are one and the same.{end}
+
+So Leon, you've worked up
+the courage to stand.{06}{07}
+I wish you'd thrown
+a bigger party for us.{06}{07}
+This one looks set
+to dull rather quickly.{end}
+
+Be careful, {02}.
+These guys
+aren't messing around.{end}
+
+So I see.{06}{07}
+They stand between us and
+Bernhardt--and for that,
+they will regrettably die.{06}{07}
+The Blue Dragon Knights
+have outlived their Empire.{end}
+
+{02}, this
+will be our last battle.{06}{07}
+You sound ready.
+Let us begin.{end}
+
+Yes, let's get started.
+I believe another
+dead Empire fought here.{06}{07}
+It's a fitting
+site for your grave.{end}
+
+...{06}{07}
+You shall come to
+regret those words.{end}
+
+{02}!{end}
+
+I, I ...{end}
+
+...{06}{07}
+I suppose there is
+nothing more to say.{end}
+
+Leon ...{end}
+
+Glory to our Knights,
+and glory to our Empire!{06}{07}
+Let our righteousness
+shine like the stars!{end}
+
+Fellow Knights, a loss
+here means the end to us ...
+to our noble history.{06}{07}
+If you have a hidden reserve,
+tap it. Leave no ounce of
+your skill from this battle.{06}{07}
+You are the Elite Knights of
+His Majesty's Royal Guard.
+You are the world's finest men.{06}{07}
+Show our enemy why
+we are known as the strongest
+in this great continent!{end}
+
+Yes, Sir!{end}
+
+Leon, there's really no
+reason to fight, is there?
+Let's combine our efforts!{end}
+
+{02}, my hands
+may be dyed in blood ...{06}{07}
+But I will never
+touch filth like you.{end}
+
+Leon, please stop this!{06}{07}
+What matters more? The person
+who brings peace to this
+land, or that there is peace?{06}{07}
+In a few years, the Kaiser
+will be nothing but dust.
+Control will fall to another
+man who may be less able.{06}{07}
+Why are you so against
+darkness? Even your Kaiser
+used it as a tool to achieve
+his Rayguard dream ...{end}
+
+Dark Princess ...
+I ... pity you.{06}{07}
+You are B{3a}ser's toy,
+and when he tires, you
+shall learn what our Empire
+strove to oppose.{end}
+
+Well, I see one thing.
+I see you don't properly
+respect my power.{06}{07}
+Leon, your ideals meant
+nothing. You were simply
+the largest dog in the kennel.{end}
+
+You found a small locked box.
+The outside has an inscription.{06}{07}
+
+"Would you,
+Knowing what's in store,"{06}{07}
+
+"Memory relegated to lore,
+Choose this life once more?"{end}
+
+The small box turned
+to rust and vanished.{end}
+
+The box opens up
+with a satisfying squeak.{06}{07}
+
+You lift out the precious
+gem from within the box.{end}
+
+Obtained Rune Stone.{end}
+
+As you step into a thicket, a
+chain coils around your feet.{06}{07}
+
+Will you cut it off?{end}
+
+The chain instantly turns
+to dust before your eyes.{end}
+
+You carefully remove
+the chain using your hand.{06}{07}
+
+Moments later,
+it begins to sparkle.{end}
+
+Obtained Gleipnir.{end}
+
+After a little while, a
+large tree begins speaking.{06}{07}
+
+"You ... human ... Will you
+please unshackle that chain?"{06}{07}
+
+"That bothersome metal has
+encircled me for so long ..."{end}
+
+Chop it off{end}
+
+Remove it by hand{end}
+
+Ignore the tree{end}
+
+In severing the chain with
+your sword, you injure the tree.{06}{07}
+
+The large tree falls silent.{end}
+
+Using your hands, you
+courteously remove the chain.{06}{07}
+
+"Thank you ... that chain was
+a burden these thousand years."{end}
+
+Obtained Gleipnir.{end}
+
+The tree gives up
+and remains silent.{end}
+
+The war is over,
+and everyone has a score.
+Why are you resisting?{end}
+
+Darkness will not
+rule this land.{06}{07}
+I am a man of
+principles, and that
+is my most dear.{end}
+
+Ugh ... 
+Im, impossible ...{end}
+
+You are beaten, {02}.{06}{07}
+At last ...
+This bitter is nearing
+its end ...{end}
+
+So that was
+my last breath ...{end}
+
+Trying to swing
+a sword, are you, {02}?{end}
+
+F, forgive me ...{end}
+
+Shit, they're vicious ...{end}
+
+I'm ... I'm just ...
+a little tired ...{end}
+
+{font3}Oooohhh ...!{end}
+
+{font3}Aaahhh!{end}
+
+L{37}na ...{end}
+
+Leon, I don't want you to die.
+Won't you please join
+{02} in his cause?{end}
+
+Absolutely not.{end}
+
+Then at least surrender!{end}
+
+That I must also refuse.{06}{07}
+However, as a gentleman,
+I extend you the same offer.{end}
+
+I'm ... I'm afraid I can't.
+I suppose we must fight.
+Get ready, Leon!{end}
+
+Leon ...{end}
+
+Forgive me, L{37}na ...{end}
+
+Aaahhh--!
+Wh, why ...?{end}
+
+Go! This will
+be our final assault!{end}
+
+How can this be ...?
+The Blue Dragon Knights
+reduced to one man ...{06}{07}
+This is too much to bear.
+But ... No, I will fight ...
+I will fight for tomorrow!{end}
+
+{02}, tell me ...{06}{07}
+Why, why have
+you sold your soul?{end}
+
+He with power shall rule.
+Be he man or demon.
+Be it Empire or darkness.{06}{07}
+Do not blame the
+natural order, Leon.{end}
+
+{02} ...
+You're not worthy
+of being human.{end}
+
+The Knights will ...
+We will ... we will ...!
+Arrgghh ...!{06}{07}
+I beg your forgiveness, Laird.
+Tell His Majesty ... Tell him ...{end}
+
+Uugghh ...{end}
+
+Leon, collect yourself.
+Stand ... Leon!{end}
+
+Don't be concerned, Laird.
+I won't die from ...
+a few ... scratches ...{end}
+
+Somebody, escort
+General Leon inside!{end}
+
+Yes, Sir!{end}
+
+Leon, rest easy.
+I shall give my life
+for the cause ...!{end}
+
+Ugh ...
+Nice one ...{end}
+
+General Leon, please retreat!{end}
+
+This battle carries ...
+far too much weight.{06}{07}
+Wounds have no importance ...
+Nothing matters more!{end}
+
+You're correct, General.
+That is why we shall
+succeed in your stead.{end}
+
+That's right.
+Leave this one to us!{end}
+
+Thank you, c, comrades ...
+Very well, for once ...
+I shall do as you say ...{end}
+
+We fight here for the
+future of this world.{06}{07}
+We sought to create
+an Empire, to
+end the bloodshed ...{06}{07}
+{02} will drench
+this world in more
+blood than we have seen.{06}{07}
+If we fail here, the Empire ...
+We shall fail every
+person on this continent.{06}{07}
+We cannot lose!
+Understand!? We cannot!
+Attack! Attack for everyone!{end}
+
+{02} ...
+You have to be stopped!{end}
+
+What ...?
+Wait one moment.{end}
+
+You betrayed Leon.
+I can ... I can never ...
+I can never forgive you!{end}
+
+Prepare yourself!{end}
+
+General Leon, Sir ...
+It appears as though this
+is where I depart ...{end}
+
+Laird, stand up.
+We still have
+a battle to fight.{06}{07}
+Laird, come on.
+Take my ...{06}{07}
+Laird ...?{06}{07}
+Oh Laird!
+You won't die here, 
+I won't permit it ...!{06}{07}
+Laird, get up!{end}
+
+General, thank you ...
+for giving me
+something to fight for.{06}{07}
+Not everyone ...
+has such a privilege ...{end}
+
+Stop talking nonsense!
+Hell won't see
+you before it sees me!{06}{07}
+Open your eyes, Laird.
+Please, open your eyes!{end}
+
+Aaaarrrgghhh!{06}{07}
+Again, I've lost
+my closest friend ...{06}{07}
+Why, {02}?
+No human could do this.
+How can you ...{06}{07}
+God damn you, how!?{end}
+
+So your weakness
+has finally shown.
+Are you finished?{end}
+
+I ... expected nothing.{06}{07}
+{02}, I have my sins,
+but at least I'll leave this world
+knowing I spared it from you.{06}{07}
+I have no purpose save
+for killing you!{end}
+
+You won't
+escape from here!{end}
+
+G, General Leon ...,
+Forgive me ...{end}
+
+I'm sorry, men ...
+I'm sorry you must sacrifice
+yourselves here.{end}
+
+Turn them away!
+Keep them from our Kaiser!{end}
+
+Do you think you can
+breach our ironclad defence?{end}
+
+I, I've been slain ...{end}
+
+No need to fear.
+I will, definitely!{end}
+
+Glory to the
+Rayguard Empire!{end}
+
+I lived by the sword,
+and die by the same ...{end}
+
+Have at you!
+These shall be your
+last breaths!{end}
+
+My mobility wasn't ...
+so great an advantage ...{end}
+
+General Leeooonnn!{end}
+
+O, ouch!
+Death hurts this mu--!?{end}
+
+We will do our best!
+For the glory of Rayguard and
+the Blue Dragon Knights!{end}
+
+As a Blue Dragon Knight,
+I served the
+Empire to the end ...{end}
+
+Let's go!
+Have a taste of my magic!{end}
+
+I shall be the one
+to avenge General Leon!{end}
+
+You ... 
+shall not get ...{end}
+
+I ... have to defeat--{end}
+
+So ends General Leon.
+He was a formidable opponent,
+and that's a certainty.{end}
+
+Leon ...{end}
+
+He had courage,
+but not enough ...,
+I suppose.{06}{07}
+Now we can enter the castle.
+This will finally mark the end
+of the Empire, won't it?{end}
+
+An old man and his
+delusions can scarcely be
+called an Empire.{06}{07}
+After we crush that old man,
+only the Descendants of Light
+shall remain ...{06}{07}
+They should be entertaining.{end}
+
+Liana ...{end}
+
+That's right.
+First, let's defeat Bernhardt.{end}
+
+Bernhardt is the last
+crutch of his own Empire.{06}{07}
+Let's scratch that itch and
+move on to the Descendants.{06}{07}
+After them, the world
+will be ours to enjoy.{06}{07}
+Everyone, move out!{end}
+
+It shall not come to pass!{06}{07}
+Even if Leon falls here,
+others will carry
+the Empire's vision!{end}
+
+Leon, our manoeuvres
+have been successful.{end}
+
+Don't rest yet.
+Our real foe is {02}.{06}{07}
+He won't stop until we
+wrest his life from his hands.{end}
+
+Is it some kind of ambush?
+Hurry! Tell everyone!{end}
+
+Now, it's our turn!
+Everyone, let's go!{end}
+
+Is this it?{end}
+
+Attack from the sky!{end}
+
+Is this it!?{06}{07}
+Has the end finally come?
+At long last, perhaps
+there can be ... balance ...{end}
+

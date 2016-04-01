@@ -1,0 +1,845 @@
+Cherie, how much further
+to the magician's home?{end}
+
+I believe it should be
+just beyond this bridge.{end}
+
+She's over seven hundred
+years old ... I wonder. What
+kind of person could she be?{end}
+
+Everyone, come on!
+Let's hurry!{end}
+
+Excited, aren't you, Hein?{end}
+
+Of course!
+To meet such a magic user is
+a once in a lifetime chance!{06}{07}
+If you're all going to
+drag your feet, then
+I'll run on ahead!{end}
+
+Halt, you bastards!{end}
+
+Me ...?{end}
+
+You fucking Imperials!
+You'll cross this bridge
+over my dead body!{end}
+
+Just a minute!
+We're not the Imperial Army.{06}{07}
+We just came to meet
+with the renowned magician.
+Let us pass!{end}
+
+I won't allow some party
+of strangers from nowhere
+to meet Jessica.{06}{07}
+Get out of my sight!{end}
+
+Wait a moment!{end}
+
+I'm the princess of
+Kalxath, Cherie.{06}{07}
+We came a long way to
+see the great magician.
+Could you please
+show us the way?{end}
+
+You expect me to believe
+you're the princess of
+Kalxath? Don't bullshit me!{06}{07}
+Why would the princess ever
+come to such a remote region?{06}{07}
+Wiggle back wherever you came
+from, cutie, before my lonely
+mates here start getting ideas.{end}
+
+What was that--!?{end}
+
+If there's anything I can
+count on never to change,
+it's your hospitality.{06}{07}
+Long time no see, Lester.{end}
+
+You're ...
+Oh man, Keith!
+It's really Keith!{06}{07}
+So that girl ... really
+is the princess?{end}
+
+Indeed.{end}
+
+Forgive my rudeness,
+Princess. Keith told
+me a lot about you.{end}
+
+A lot ...?
+Like what?{end}
+
+Um, well ...{end}
+
+Nothing much!
+You're better off not knowing.{end}
+
+Keith ...
+I'm going to hurt you.{end}
+
+Well, well ...
+settle down, Princess!
+I'll guide you to Jessica!{end}
+
+Hey mates, stay here
+and guard the area.{end}
+
+Aye aye, boss!{end}
+
+Lady Jessica!
+These people were
+looking for you.{end}
+
+Welcome, everyone.
+I am Jessica.{end}
+
+What!?
+This is the woman who has
+lived for hundreds of years ...?{06}{07}
+She looks so ... young!{end}
+
+Pleased to meet you,
+Jessica, I'm {02}.{06}{07}
+We needed some advice,
+so we came here to see you.
+To tell the truth ...{end}
+
+It's about the
+Dark Blade ... isn't it?{06}{07}
+Then I imagine you want
+to know where you can
+find the Dark Rod.{end}
+
+Amazing.
+How does she do that?{end}
+
+A wave of evil is rippling
+across our world.{06}{07}
+The Imperial Army has begun
+invasions everywhere.{06}{07}
+All this negative energy is a
+sign Alhazard is being used
+for the Kaiser's ambitions.{end}
+
+Amazing!
+She already knows so much ...{end}
+
+Despite this, Alhazard is
+not at its strongest yet.{06}{07}
+You must prevent it from
+awakening to its true form.{end}
+
+That is why we want
+to get hold of the
+Dark Rod before the Empire!{06}{07}
+We want to prevent more
+damage from being done!{end}
+
+The Dark Rod is enshrined in
+the Sanctuary of Reitel.{end}
+
+The Sanctuary of Reitel, eh?
+Hmmm ...{end}
+
+Ha ha ha!
+I see ...{06}{07}
+I would have never
+guessed to look there.{end}
+
+That voice--!?
+Egbert!{end}
+
+E, Egbert!?{06}{07}
+The legendary magician who
+supports the Rayguard
+Empire from the shadows?{06}{07}
+The unknown man who
+follows the evil ways!{end}
+
+I've heard of him too ...{06}{07}
+He's not only a powerful
+magician, but also a
+mighty strategist.{06}{07}
+He's convinced many
+countries to surrender
+to the Empire.{end}
+
+Oh ...?
+My reputation precedes me.{06}{07}
+However, now that I
+know where the Dark Rod
+is, your usefulness has
+come to an end.{06}{07}
+You all shall perish here.{end}
+
+Egbert!
+Stop this!{end}
+
+He he he ...{06}{07}
+If you're so intent on helping
+them, I'm afraid you'll share
+their fate, Jessica.{end}
+
+Egbert!
+You asshole ...{06}{07}
+How dare you show your face
+in front of Jessica again!
+Your evil bullshit ends here!{end}
+
+Sigh ...
+Lester, what are you thinking?{06}{07}
+I've already sent your
+little "mates" to hell.
+Are you planning to end
+their loneliness?{end}
+
+What the fuck!?
+I'll never forgive you!{06}{07}
+You son of a bitch,
+I'll wring your neck until
+your head pops off!
+Prepare to die!{end}
+
+Sigh ... idiot!
+Do you really think I
+would come here alone?{end}
+
+Master Egbert!
+The preparations for
+our plan are complete.{end}
+
+What?
+Something smells like oil ...{end}
+
+Watch out!
+He's planning something!{end}
+
+Two detachments of the
+Water Dragon Navy are here by
+order of General Imelda.{06}{07}
+We've come to give you backup.{end}
+
+You're just in time.
+Engage them at once.{end}
+
+Yes, Sir!
+You can depend on us.{end}
+
+Please listen to me,
+General Vargas!{06}{07}
+I can't let you get in
+trouble on my behalf.{06}{07}
+Besides, as the strongest
+group of magicians in the
+Empire, we have our pride.{06}{07}
+It would affect master
+Egbert's reputation if we
+relied on your help.{end}
+
+What should we do, General?{06}{07}
+We don't have the forces
+we need to win this fight.{06}{07}
+All we can do is
+rely on our tactics ...{end}
+
+It's already been decided.
+We can't let these valiant
+warriors die now, can we?{end}
+
+I understand ...
+Then I, Colonel Zorum, will
+show you all of my power!{end}
+
+You find a question
+scrawled at your feet.{06}{07}
+
+"Could you abandon someone
+who would fight to his death?"{06}{07}
+
+"Who would give all to protect
+you? I doubt you could ..."{end}
+
+Obtained Rune Stone.{end}
+
+Gahh--!
+To have come so far ...{end}
+
+How cruel ...
+To have given me so
+many cuts and bruises ...{end}
+
+Ah--!?
+I'm losing my concentration.
+Sorry, but I must retreat!{end}
+
+Wah, shit!
+I can't fall here!
+I'll withdraw.{end}
+
+Ugh ...
+I made a mistake.{end}
+
+Shit!
+I was too careless.{end}
+
+Egbert ...{06}{07}
+You seem intent on
+breaking the seal of
+Alhazard at any cost ...{end}
+
+Oh!
+So you finally noticed?{06}{07}
+However, Jessica, since you
+have just been reborn, you and
+I both know you lack the
+strength to stop me.{end}
+
+Indeed ...{06}{07}
+With the magic of Rebirth, a
+magician can abandon her
+old body and be reborn anew ...{06}{07}
+Yet it's at the cost of her
+magic power, which is reduced
+to that of a novice.{06}{07}
+Still, ... while I may be weak,
+I can't overlook your
+attempts to revive Alhazard!{end}
+
+Is that right ...?
+Then I won't hold back, teacher.
+You'll share their fate!{end}
+
+No way!
+As long as I'm here,
+you'll never touch her!{end}
+
+Then the easiest
+solution seems to be
+making you "not here."{end}
+
+The Empire is serious
+about breaking the seal
+on Alhazard.{end}
+
+Hurry!
+We can't allow the Empire
+to take the Dark Rod!{end}
+
+Miss Jessica!
+I'll cover your back.
+Please, stay near {02}.{end}
+
+Thank you, Lester.
+I will try to stay near him.{end}
+
+Ahh--!
+The sky is so blue ...{end}
+
+Damn!
+I couldn't protect her!{end}
+
+Everyone has given so much
+to keep protecting me ...
+It's my turn to fight, too!{end}
+
+Liana!{end}
+
+I'm sorry ...
+I wasn't able to help you ...{end}
+
+Don't worry about fighting.
+Worry about your safety and
+leave the battle to us.{end}
+
+I'm so sorry ...{end}
+
+Pathetic ...
+These maggots will die even
+without my intervention.{06}{07}
+Well then, I'll be off to Reitel.{end}
+
+Camilla, come along when
+you've finished with them.{end}
+
+Understood!{end}
+
+You dare attack me ...?{end}
+
+I never imagined you kids
+had so much power ...
+However, it matters not.{06}{07}
+I shall still reach Reitel
+before you can stop me!{end}
+
+But first, let me pay you
+back for this scratch.{end}
+
+Camilla, the rest is
+in your hands.
+Let no one escape.{end}
+
+Leave it to me, Sir.{end}
+
+You can't let them escape.{end}
+
+Yes, Sir!
+Understood.{end}
+
+Don't let them escape!{end}
+
+Even with General Vargas's
+help, I still ...
+My duty is complete ...{06}{07}
+Egbert must have
+gotten it by now ...
+The Dark Rod ... {06}{07}
+Gahh--!{end}
+
+You ... can hurry ...
+in vain ...{06}{07}
+By now Egbert must have
+gotten ... the Dark Rod ...
+Argh--!{end}
+
+Damn, how could you!?
+There's no other choice,
+we must retreat!{end}
+
+But, General Vargas!
+We can still fight easily.{06}{07}
+And the enemy has lost most
+of their main force.
+Victory can still be ours!{end}
+
+Stop it!
+The flames are rising.{06}{07}
+Staying here is dangerous.
+A soldier shouldn't throw
+away his life just to beat
+one lowly enemy.{06}{07}
+There's no glory in
+burning to death.
+Besides, we've got a job to do.{06}{07}
+Fall back!{end}
+
+Yes, Sir!
+I'll follow your command.{end}
+
+Farewell, kids ...
+You better hurry!{end}
+
+One day I'll avenge Zorum,
+but for now, I have
+more pressing orders.{06}{07}
+I can't wait here forever ...{end}
+
+You kids better stay alive!{06}{07}
+I intend to take your
+rotting skulls as a
+grave offering for Zorum!{06}{07}
+Enjoy your short lives ...
+while they last.{end}
+
+Excellent spirit, kids!
+But next time we meet,
+it will be your end!{end}
+
+Damn!
+I can't believe Camilla
+was beaten ...{end}
+
+They're too strong!
+Retreat!{end}
+
+Damn it!
+What a shame ...
+I have to withdraw!{end}
+
+Damn!
+There's no choice
+but to withdraw!{end}
+
+You, how could you do this ...?{end}
+
+We can't let them go!
+Kill them all!
+No matter what it takes!{end}
+
+Have you lost your mind!?
+You'll be burned alive if you
+try something so reckless.{end}
+
+You think so!?
+I don't care if I burn.{06}{07}
+Since the day I enlisted, I've
+been willing to lay down my
+life for the Kaiser's dream!{06}{07}
+Let's go!
+It's time for you to die!{end}
+
+Aaah ...
+I'm dying ...{end}
+
+If we fail today ... we'll never
+be able to face General Imelda.{06}{07}
+In the name of the
+Water Dragon Navy, we must
+not be defeated!{end}
+
+Imelda ...?
+Who is she?{06}{07}
+Someone fearful, no doubt.{end}
+
+General Imelda commands
+the largest division of the
+Water Dragon Navy.{06}{07}
+Rumours say she's an
+especially cruel, cold
+and unforgiving woman.{end}
+
+The Water Dragon Navy?
+We'll deal with them later.{06}{07}
+First, we have to break through
+this line and get to Reitel!{end}
+
+How am I defeated--?{end}
+
+Gahh--!{end}
+
+I can't have come so far ...
+only to die--?{end}
+
+Wahhh!
+Mummy ...!{end}
+
+Ha ha ha!
+This place will be your grave!{end}
+
+Zorum!
+Your opponents are strong!
+Don't be careless!{end}
+
+What are you saying, General?
+There's no way that I, Zorum,
+can be weaker than mere kids.{end}
+
+Let's go!{end}
+
+It's no use!
+You can't defeat me with
+such a pathetic attack!{end}
+
+Gah ...
+This is ... blood?{06}{07}
+Those kids ...
+How could they have ...?
+I--!?{end}
+
+Zorum!
+Fool! What did I say about
+not being careless!?{end}
+
+Heh heh ...
+Sorry General, this time, my
+brashness was inexcusable.{06}{07}
+I never imagined that these
+kids could be so powerful ...{06}{07}
+Seems like this will be our
+last battle together, General.{end}
+
+You can't die!
+I won't allow it!{06}{07}
+As your commander, it's my
+job to decide when and
+where your life should end!
+You can't die!{end}
+
+General Vargas ...
+I will be waiting on the front
+lines of the next world ...{end}
+
+Zorum ...
+Commander Zorum ...
+You died with honour.{06}{07}
+Don't worry, friend.
+Your sacrifice won't be in vain!{end}
+
+Here I come, kids.
+It's time to revisit the defeat
+at Kalxath on you ten fold.{end}
+
+Hold, General Vargas!{06}{07}
+As a ranking officer in the
+Dark Dragon Sorcerers,
+I must uphold the
+honour of my division.{06}{07}
+I cannot accept your help.{end}
+
+Listen, Camilla.
+I came upon this battle while
+on another mission.{06}{07}
+I won't disrupt your operations.
+I'll fight here by myself.{end}
+
+Thank you, General ...
+I won't forget this.{end}
+
+Those damn kids!{end}
+
+General, please retreat!{end}
+
+Fine.
+If there's no other choice ...{end}
+
+General!{end}
+
+Yes!{end}
+
+General Vargas!{end}
+
+The oil's causing the fire
+to spread rapidly.{06}{07}
+If we keep fighting here,
+we'll all be torched alive!{end}
+
+Lady Jessica, please follow me!
+I'll take out all the enemies
+blocking our escape!{end}
+
+Very well!{end}
+
+{02}, take care of her.{end}
+
+By the way, Lady Jessica.
+Would you be my mentor?{06}{07}
+To tell the truth, I'm a student
+and would appreciate
+the chance to be such
+a famous magician's pupil!{end}
+
+Hein, I'm curious, could you
+possibly have picked a worse
+time to ask her about this?{06}{07}
+We should be worrying
+about the fire right now.{end}
+
+But if we're all going to
+die anyway, this may be my
+only chance to ask her!{06}{07}
+Cherie, you don't understand ...
+My future depends on me
+finding a proper mentor.{end}
+
+Sorry ...
+I no longer accept students.{end}
+
+What!?
+Why ...{end}
+
+Hey, cheer up!
+Don't be so disappointed ...{end}
+
+You will go no further!{end}
+
+You think I
+will be easy prey?{end}
+
+I'm fine ...
+It's just a flesh wound!{end}
+
+You can't fight with a
+wound like that!{06}{07}
+Please retreat, and leave
+the enemy for us!{end}
+
+Sorry, the rest ...
+is up to you.{end}
+
+{02}, that's foolish.
+The Imperial Army
+is after Liana.{06}{07}
+It's far too dangerous to send
+her back to Kalxath alone.{06}{07}
+We don't have the time
+or the manpower to escort
+her to Kalxath.{end}
+
+Please, {02}!
+I want to fight alongside you ...{06}{07}
+I know I might be a burden
+on you, but I don't want to
+be alone ever again ...{end}
+
+Wait!{end}
+
+He used the Teleport spell.{06}{07}
+We need to get moving
+or he'll escape.
+We can't let Egbert get
+hold of the Dark Rod.{end}
+
+It seems the odds
+are against you.{06}{07}
+We can't leave the
+Dark Dragon Sorcerers
+in such a mess.{06}{07}
+Zorum, let us help them.{end}
+
+Yes!{end}
+
+General Vargas, you
+needn't protect our
+humble group.{06}{07}
+I'm the unit commander.
+They won't escape,
+even if we have to fight
+to the last man.{end}
+
+You need to learn
+to accept favours.{06}{07}
+There's no use for pride
+in this kind of situation.{end}
+
+Damn ...
+Now, of all times!{end}
+
+{02}, don't let
+yourself lose hope!{06}{07}
+Swear by your circlet that
+you'll have courage.{end}
+
+What ...?
+What does my circlet have
+to do with anything?{end}
+
+We'll talk about it later.
+First, we have to get
+out of here.{end}
+
+Is everyone okay?{end}
+
+Somehow, we're still alive.{end}
+
+However, now that the enemy
+knows where the Dark Rod is,
+we can't stay here.{06}{07}
+I'll aid you with my magic.{end}
+
+Thank you.{end}
+
+Which means I've got a chance
+to show my strength too.{end}
+
+I screwed up this time,
+but watch out!{06}{07}
+Next time I'll defeat the enemy
+before you can even blink!{end}
+
+Lester joins the entourage!{end}
+
+By the way, we were talking
+about your circlet before ...{end}
+
+This circlet is a memento
+of my deceased father.{06}{07}
+I guess it's been
+passed down through my
+family for generations.{06}{07}
+What's so important about it?{end}
+
+Let me answer you.{06}{07}
+Once, long ago, I served
+a certain royal family.
+Their prince had a circlet
+just like yours.{end}
+
+My swordplay instructor,
+Doren, once told me a
+story like that.{06}{07}
+I didn't think it was true.{06}{07}
+Then I really am a descendant
+of the Baldean royal family?{end}
+
+Yes, and you are one
+who is guided by Light.{06}{07}
+Those guided by Light are
+chosen soldiers, destined to
+defeat enemies in a war over
+Alhazard, the cursed sword.{06}{07}
+It is fated for the
+Descendants of Light to
+wage war against
+whoever wields Alhazard.{end}
+
+I see ...{06}{07}
+I'll stop the revival of
+Alhazard not just because
+it's my fate, but for the
+peace of the land.{06}{07}
+If the Empire gains the power
+of Alhazard, war will erupt
+across the continent.{06}{07}
+That's why I have
+to stop the Empire.{end}
+
+By the way, Liana,
+what will you do now?{06}{07}
+If you follow us further,
+only danger lies ahead ...{end}
+
+Liana.{06}{07}
+Remember ...?
+You promised to
+return to Kalxath.{end}
+
+...{end}
+
+...{end}
+
+He's right.{06}{07}
+We can't just let Egbert ...
+or the Empire obtain
+the Dark Rod.{06}{07}
+We have no time to waste.
+We should hurry to Reitel.{end}
+
+Liana ...{06}{07}
+Well, I understand.
+Please be careful on
+the battlefield.{end}
+
+Thank you, {02}!
+I won't let you down!{end}
+
+Thank you, I won't
+let you down! {02}!{end}
+
+Then let's go to Reitel!{end}
+
+He he he ...
+Say goodbye, fools.{06}{07}
+Burn to death in this inferno!{end}
+
+So that's what it was!{06}{07}
+That must be what
+all the oil was for!{end}
+
+We're downwind of the flames!
+If we don't move, we're
+going to be engulfed in no time!{end}
+
+The flames won't reach
+across the river.{06}{07}
+We have to hurry and get
+to the other side.{end}
+

@@ -1,0 +1,412 @@
+What!?
+You still haven't finished yet?{end}
+
+If we don't cut the lines
+in time, General Imelda will
+have my head ...{end}
+
+Hurry up!{06}{07}
+If we take out the bridge,
+it will halt their advance.{06}{07}
+Cut the lines before
+they can get across!{end}
+
+Oh no ...!
+Imperial soldiers!{end}
+
+Curses!
+You're earlier than I thought!{06}{07}
+I, Kr{38}mer of the
+Water Dragon Navy, shall
+let you proceed no further!{end}
+
+The Imperial forces have
+made it this far ahead ...
+Impressive ...{end}
+
+They've already fortified
+the border ...{06}{07}
+I'm sorry our Kalxathian forces
+weren't able to stop them ...{end}
+
+It's all right, Keith.
+It can't be helped.{06}{07}
+The last battle was
+proof Kalxath alone isn't
+strong enough ...
+Besides, we're out of time.{06}{07}
+I'm worried about the
+stronghold up ahead.{06}{07}
+Let's hurry.
+We have to get past them!{end}
+
+{02}!
+Let's break through
+their advance guard!{end}
+
+Yeah,
+the Empire is probably after
+Langrisser as we speak.{end}
+
+All right!
+Let's go, everyone!{end}
+
+The enemy has flying units ...
+We should be careful.{06}{07}
+They move quickly and
+could surround us.{end}
+
+That's right.{06}{07}
+But they can be easily
+defeated by Elves.{06}{07}
+Flying troops are very
+weak to bow attacks.{end}
+
+Is that so?
+You know so much, Hein!{end}
+
+Huh?{06}{07}
+Cherie, you didn't know
+that about flying units?{end}
+
+I, I knew that!
+I just ...
+Oh shut up, Hein!{end}
+
+Princess, you can't survive
+without such basic knowledge.{06}{07}
+I've been telling you
+to study your tactics.{end}
+
+It's so boring to study.
+The best way to learn is
+through real battle.{end}
+
+So, you didn't
+know that, after all.{end}
+
+S, shut up!{end}
+
+Lure them all into
+the middle of the
+bridge and attack!{end}
+
+Yes, Sir!{end}
+
+You still haven't
+taken down the bridge?{end}
+
+No, not yet.{end}
+
+Well, hurry it up!
+We can't let them
+take another step!{end}
+
+Yes, Sir!{end}
+
+Hmmm,
+why is the bridge
+still standing!?{end}
+
+It's sturdier than
+than we thought.{end}
+
+Hurry, hurry!{end}
+
+Yes, Sir!{end}
+
+Lord Kr{38}mer,
+we're almost done.{end}
+
+Do it quicker!
+The enemy is stronger
+than I anticipated.{end}
+
+It won't be much longer!
+The bridge is almost dismantled!{end}
+
+All right, hurry up!{end}
+
+Everyone, hurry!
+We're almost at the
+end of the bridge!{end}
+
+Watch out for those
+airborne units ...{06}{07}
+This is where manoeuvrability
+will work most in their favour.
+We've got to stop their leader.{end}
+
+Let's hurry!
+There's only one rope left.{end}
+
+Everyone! Hurry!
+There's only one rope left.{end}
+
+This is our last chance
+to break through!{06}{07}
+Everyone, charge!{end}
+
+This will be the decisive blow!
+Concentrate all attacks
+on their commanders!{end}
+
+Haven't you finished yet!?{end}
+
+Yes, Sir!
+Preparations are complete!
+We're ready to drop the bridge!{end}
+
+All right then, proceed!{end}
+
+Yes, Sir!{end}
+
+Ha ha ha!
+This will stop them for good!
+Glory to the Empire!{end}
+
+You know, it's pretty daring
+of the Imperials to form an
+army solely of flying units.{end}
+
+Even in closed ranks, they can
+freely adapt their formation to
+the situation at hand ...{06}{07}
+It shows they really have an
+advanced knowledge of tactics.{end}
+
+Damn!
+They've made it this far ...{06}{07}
+Engineers, what are you doing!?
+The bridge is still up!
+If you don't hurry,
+they'll get across!{end}
+
+How odd ... There's an
+entrance to a cave here.{06}{07}
+Let's leave it for now.
+We can check it out later.{end}
+
+You notice a small sapling
+within a group of four trees.{06}{07}
+
+Hidden beneath the sapling
+you spot a little sprite ...{06}{07}
+
+What will you do to it?{end}
+
+Smile at it{end}
+
+Scare it{end}
+
+Don't say anything{end}
+
+"You're a funny guy.
+I'll give you some power!"{end}
+
+MDF raised!{end}
+
+"I don't like you!"{06}{07}
+
+The sprite disappears.{end}
+
+Without saying anything,
+the sprite disappears.{end}
+
+Let's go!{end}
+
+Gahh ...
+Is this it ...?{end}
+
+All right!
+Let's go!{end}
+
+Oh, ...
+I have been ... defeated ...{end}
+
+Don't get in my way!{end}
+
+I, I can't go on any more ...{end}
+
+Sorry, everyone ...{end}
+
+We can't let the Imperials
+just walk all over us!{end}
+
+Argh ...
+Such dishonour ...{end}
+
+Hey, there!
+Prepare for my onslaught!{end}
+
+Sorry!
+Please fight on in my name ...{end}
+
+Okay, ... now!
+All squads, commence attack!{end}
+
+Yes, Sir!{end}
+
+Just a bit more ...
+Just a little more time
+and they'll be ours!{06}{07}
+I can do it by myself
+if I have to!{end}
+
+Just a bit more ...
+Just a little more time
+and they'll be ours!{06}{07}
+We must not lose.
+Everyone, back me up!{end}
+
+Ugh ...
+The operation failed ...{06}{07}
+I must report to
+General Imelda ...
+All troops, retreat!{end}
+
+Ugh ...
+The operation failed ...{06}{07}
+I must report to
+General Imelda ...
+All troops, retreat!{end}
+
+Yes, Sir!{end}
+
+Yes, Sir!{end}
+
+Yes, Sir!{end}
+
+We've wasted a lot of time.{end}
+
+{02}!
+Let's hurry!{06}{07}
+There must be a reason
+those Imperials were trying
+to drop the bridge.{end}
+
+We certainly must hurry.
+The Empire is after Langrisser.{end}
+
+Let's get to the
+stronghold, quickly!{end}
+
+They may have already
+laid siege to the stronghold ...{end}
+
+Yeah, ...
+but don't worry.
+My battle instructor is there.{end}
+
+Oh, really?{06}{07}
+Well then, we can rely on him,
+if he's the one who made you
+the beastly, tough
+swordswoman you are now.{end}
+
+Hein ...!
+You ...{06}{07}
+You insensitive bastard!
+How could you call a
+cute girl like me "tough"
+and "beastly?"{end}
+
+Right, {02}?{end}
+
+Well ...{end}
+
+No, those are the
+right words!{06}{07}
+You're cute, Cherie, but
+you're also a tough girl!{end}
+
+...
+That's enough, let's hurry.{end}
+
+Hmmm, I just remembered,
+I saw a cave by the cliff.
+What should we do ...?{end}
+
+Will you examine
+the cliff opening?{end}
+
+Let's have a look.
+I feel uneasy
+leaving it unchecked.{end}
+
+We really don't have
+time to look into it.{end}
+
+I know, but there might be
+something there to help in our
+battle against the Empire.{end}
+
+Well, {02}, if you
+say so, I guess it's all right.{end}
+
+All right, everyone!
+Let's check the cave.{end}
+
+We'd better just hurry on.{end}
+
+All right!
+Let's go, everyone.{end}
+
+I'll show you the power
+of the Imperial Army!{end}
+
+Gahh--!{end}
+
+L, Lord Kr{38}mer ...{end}
+
+Feel the power of the
+Water Dragon Navy!{end}
+
+Gah ...
+I can't hang on any more ...{end}
+
+Argh ...
+What a horrible night
+to have a curse--!{end}
+
+Ha ha, die!{end}
+
+Ugh ...
+Too strong ...{end}
+
+Long live the Kaiser!{end}
+
+Ugh!
+This is it ...{end}
+
+Argh!
+I'm finished ...{end}
+
+Ahh!
+Blood ...
+My blood ...{end}
+
+Impossible!
+How could I ...{end}
+
+Ugh ...
+The troops General Imelda
+entrusted to me ...{06}{07}
+Well, even if I'm
+the last one standing,
+I won't let you pass!{end}
+
+Shriek!
+It's frightening, but
+I have to persevere ...{end}
+
+N, not bad, huh!{end}
+
+Clearly, their goal was to
+stay our advance.
+I fear for the stronghold.{06}{07}
+Worse yet, ... this likely gave
+them time to find Baldea, too.{end}
+
+You'll go no further!{end}
+

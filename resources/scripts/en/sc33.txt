@@ -1,0 +1,284 @@
+Everyone, it's an ambush!
+They're trying to board!{end}
+
+Wh, what? 
+We're under attack?{06}{07}
+I haven't even gotten
+my sea legs yet!{06}{07}
+I guess there's
+no helping it ...{end}
+
+Listen up, you little rodents.
+You won't get any further!{end}
+
+It's General Imelda of
+the Water Dragon Navy.
+What's she doing here?{06}{07}
+Are you trying to avenge
+Bernhardt or something?{end}
+
+No, not really.{06}{07}
+It would be ... 
+inconvenient if you
+were to arrive in
+Velzeria unharmed.{06}{07}
+In fact, it would
+be ideal if you could
+die here and now.{end}
+
+You're out of your
+mind if you think
+we'll just give up.{06}{07}
+We'll defeat B{3a}ser
+and prevent 
+Alhazard's revival!{end}
+
+Damn it.
+This will be difficult,
+as I anticipated.{end}
+
+Hmmm, ... we're on water.
+It's really too bad
+you're fighting our Navy.{06}{07}
+You'll be down to
+the last man before
+you know it!{end}
+
+Hah hah hah.
+Leave this to me,
+Lady Imelda!{end}
+
+This is the end for you!{06}{07}
+Here, I crush your
+cute little dreams of 
+reaching Velzeria.{06}{07}
+Gwa ha ha!{end}
+
+Why are you against us?
+Surely you're not acting
+in B{3a}ser's interest!?{end}
+
+Obviously, bowing down
+to the Demon Tribe is
+quite unbecoming of me.{06}{07}
+However, I was told
+to serve Lord B{3a}ser should
+His Majesty perish.{06}{07}
+The Kaiser's last request ...
+If not for that,
+I wouldn't share breath
+with these fiends.{end}
+
+What foolishness!{06}{07}
+You mean you're consorting
+with demons for the
+sake of a dead man's wish?{end}
+
+I will not
+discuss this further.{06}{07}
+Watch closely.
+You're about to lose.{end}
+
+{02},
+this isn't the 
+time to lay about.{06}{07}
+If we don't hurry--!{end}
+
+Yes, we need to act.
+I'm aware of that.{06}{07}
+Alhazard's revival
+will be soon.
+We need to move fast.{end}
+
+You numbskulls!
+Are you following the
+enemy's orders or mine?{end}
+
+Sorry, General!{end}
+
+Quickly,
+let them have it!{end}
+
+Force them back!{end}
+
+Little boy,
+you've come a long way.{06}{07}
+But your good
+fortune is about to
+permanently end.{end}
+
+Don't worry.
+I've been
+underestimated before.{end}
+
+This is it ...{end}
+
+I'm done in ...
+They were strong--
+after all.{end}
+
+It's no good ...
+I'm ... I can't move.{end}
+
+Damn.
+How could this happen?{end}
+
+A Navy shouldn't
+lose on water ...{06}{07}
+Well, so much
+for specialisation.{end}
+
+Ughh ...
+My back--
+My poor back.{end}
+
+What?
+My father's
+techniques were ...{end}
+
+Hmph, I've never
+much cared for
+being all alone ...{06}{07}
+But, enough games.
+You'll soon see what
+makes a real general!{end}
+
+Be honoured.
+Not everyone gets
+to be slain by me.{end}
+
+You fool!
+How dare you stand
+against me!{end}
+
+Gaahh--!
+I wanted to die ...
+somewhere beautiful ...{06}{07}
+No, not here--
+in this wretched sea ...
+I won't die ... here ...{end}
+
+Goodbye,
+General Imelda.{06}{07}
+You were a truly
+fearsome opponent.{end}
+
+Hey, look over there!
+I see land!{end}
+
+Land, there!
+I see land!{end}
+
+We're here.
+This is Velzeria.{end}
+
+We finally made
+it to Velzeria ...{end}
+
+So, this is where
+they're hiding.{end}
+
+Soon, they'll get
+just what they deserve.{end}
+
+Everyone ...
+Velzeria is right
+before our eyes!{06}{07}
+We're going to
+make it.
+Don't despair!{end}
+
+You will all die!{end}
+
+Imelda ...!{end}
+
+Ahhh--!
+I can't let you
+on this ship ...!{end}
+
+Aahh ...{end}
+
+I never imagined
+you would be
+so eager to die.{end}
+
+Hee hee hee.
+The revival
+ceremony's near.{06}{07}
+It's quite impossible.
+You won't stop
+Alhazard's revival,
+no matter how you hurry!{end}
+
+The enemy is
+making poor progress. {06}{07}
+Strike them while
+they're at their
+most vulnerable!{end}
+
+Yes, leave
+it to us!{end}
+
+Glory to the Empire!{end}
+
+I'll turn you 
+into fish feed!{end}
+
+Impossible ...{end}
+
+Imelda ...!
+Gaahhh!{end}
+
+Ughh--!
+I've fallen.{end}
+
+Hah ...
+I'm dead ...{end}
+
+I, I'm sorry.
+Goodbye ...{end}
+
+I will defend
+the General!{end}
+
+What a pity ...{end}
+
+I'll give my life
+for our General!{end}
+
+S, strong--!{end}
+
+N, not bad ...{end}
+
+This battle is over.
+There's no more
+reason to fight!{end}
+
+Hah hah hah.
+You really are such
+a silly little boy.{06}{07}
+Our Empire is one
+of conviction. Its followers
+will always gratefully
+offer their lives.{06}{07}
+And I won't shame it,
+myself, or my men
+by giving in to some
+redheaded upstart!{end}
+
+Bernhardt is dead.
+The Empire's over with.{06}{07}
+There's no point
+in fighting a battle
+for a lost cause!{end}
+
+Haven't I told you?{06}{07}
+Alhazard's revival
+was His Majesty's
+last request!{end}
+
+What do you mean?{06}{07}
+With the Kaiser
+dead, why do you
+need Alhazard?{end}
+

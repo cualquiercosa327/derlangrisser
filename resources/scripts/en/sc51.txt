@@ -1,0 +1,558 @@
+Work quickly!
+We'll need this place as
+well-fortified as possible!{end}
+
+Our troops are
+making the preparations
+as you speak.{end}
+
+The Empire has both
+Alhazard and Langrisser,
+don't they ...?{06}{07}
+They won't lay around.
+They'll crush us in one
+vulgar display of power.{06}{07}
+Really, is there
+any way to win against
+these odds?{end}
+
+Don't count us out just yet.
+We have a few
+ideas up our sleeves.{06}{07}
+But there's still
+plenty of work to do.{end}
+
+The Empire is moving
+very fast in this operation ...{06}{07}
+And even twice the time
+wouldn't have been enough.{06}{07}
+However, if we work as
+one and cover our
+weaknesses, we'll prevail.{end}
+
+Oh, look!
+The guests of honour have
+finally arrived.{end}
+
+Castle Kalxath?
+It seems like yesterday ...{06}{07}
+Who'd have thought
+I'd revisit it with
+my former enemies?{end}
+
+Gwah hah hah!
+Last time, we had to pull
+back because of you!{06}{07}
+Now, we'll take
+Kalxath with ease.
+Glad you're aboard!{end}
+
+This is their stronghold.
+If we rout them here,
+Kalxath will be no more.{06}{07}
+We must achieve victory.
+His Majesty has requested
+our greatest efforts.{end}
+
+Heh heh ...
+Just leave it to me!{end}
+
+There are additional orders.
+We must apprehend
+the girl named Liana.{06}{07}
+If she dies, our
+mission is a failure.
+Keep that in mind.{end}
+
+We need to
+capture Liana?{end}
+
+That's right.
+We need her to unlock
+Alhazard's potential.{06}{07}
+The seal placed on the
+sword may only be dissolved
+by the Maiden of Light.{end}
+
+So that's why.{end}
+
+So that's why the Empire's
+been after Liana
+all this time, isn't it?{end}
+
+Correct.{06}{07}
+If I close in on Liana,
+I can teleport her
+and myself to Rayguard.{06}{07}
+Hold off her meddlesome
+friends, and I'll
+take care of the rest.{06}{07}
+Of course, it would be
+ideal if you could kill them
+all in the process.{end}
+
+Got it.
+All right, let's
+go, everyone!{end}
+
+It's finally begun ...
+Who would have dreamt ...{06}{07}
+{02}, our once staunch
+friend and ally, lays siege
+to the castle he protected ...{end}
+
+Liana's trying to escape.
+We can't let that happen!{06}{07}
+Hurry and catch her!{end}
+
+Liana's trying to run away.
+We can't allow that!{end}
+
+My teacher never
+fails to impress.
+She knows our objective ...{end}
+
+Circling around the back
+may be the best strategy ...
+Or, perhaps ...{end}
+
+Don't be hasty, {02}.{06}{07}
+We must assess their
+deployment more fully before
+devising our plan.{end}
+
+Yes, you're right.{06}{07}
+We will skilfully
+employ our troops and prevent
+Liana's movement.{end}
+
+It's down to
+Liana and myself, is it?{06}{07}
+If we turn in here,
+Alhazard will burn
+this world to ash.{06}{07}
+We must fight
+to the end!{end}
+
+I understand ...
+and I will help you with
+all that I have.{end}
+
+Oh no, she's escaped!{end}
+
+The seal on Alhazard 
+must never be broken.{06}{07}
+That's why I cannot
+let myself be captured ...{06}{07}
+Farewell, everyone ...
+Farewell, {02}.{end}
+
+We won't kill you,
+but you won't escape, either!{end}
+
+Ah ...
+Why do things happen ...
+as they do ...{end}
+
+We're unsealing
+Alhazard's power!
+Come join us!{end}
+
+Don't get in my
+way, Cherie!{end}
+
+No!
+I won't back down, ever!{end}
+
+Ugh!
+If Alhazard's awakened,
+is it all over ...?{end}
+
+I'm sorry. 
+I was beaten ...{end}
+
+These Kalxath troops
+are nothing to sneeze at.{06}{07}
+They caught even
+me off guard ...{end}
+
+Damn! These rotten
+Kalxath soldiers are
+better than I thought!{end}
+
+Your futile
+efforts insult my beauty ...
+I'm leaving!{end}
+
+Ugh, bastard ...
+Looks like this castle
+has it in for me.{end}
+
+Don't think you can
+run away from me ...{end}
+
+Egbert!
+How dare you
+come here!{end}
+
+Hmph ...
+Always the spirited lad.{end}
+
+Hmph ...
+Nothing to do but
+pull out for now.{06}{07}
+My apologies. To catch Liana,
+you'll need to wipe
+out our remaining enemies.{end}
+
+Leave it to us, Egbert.
+We'll ensure this
+operation's success!{end}
+
+...
+I'm counting on you.{end}
+
+Jessica, please
+prepare to fall back!{06}{07}
+Without your support,
+we Descendants of Light
+would be devastated ...{end}
+
+...{06}{07}
+I see.
+Very well, then.{end}
+
+Let's go, Liana.
+Please stay close.{end}
+
+We don't have
+much time, Liana!
+We need to hurry!{end}
+
+Yes.{end}
+
+I, I can't move any more ...
+Liana, go on without me.{end}
+
+You might get away
+with this elsewhere,
+but you won't in Kalxath!{end}
+
+How dare you do
+that to Keith!{end}
+
+It's payback time!{end}
+
+Aaaahh!{end}
+
+Princess!{end}
+
+I'm sorry, Keith ...{06}{07}
+In this condition, I'm
+just in the way.
+I'll retreat this time ...{end}
+
+I'm not going to let
+Imperial scum
+near this castle!{06}{07}
+I'm going to kick
+all your asses!{end}
+
+I won't forgive this!
+Keith, I'll avenge you!{end}
+
+Aaaarrgghhh!
+This one's for Keith!{end}
+
+Lady Jessica, forgive me!
+It looks like I
+can no longer fight ...{end}
+
+Sorry, Keith.
+I didn't avenge your death here,
+but I'll make up for lost time ...{end}
+
+At, at this rate ...{end}
+
+Princess, leave this place!
+Please join Lady Liana
+and Lady Jessica.{end}
+
+Attention, everyone
+in the castle!{06}{07}
+We must retreat for now
+and plan our counterattack!{end}
+
+But Keith!{end}
+
+But Keith!{end}
+
+I'll stop this
+invasion with my life!{end}
+
+Lord Lester!
+Please ..., please take
+care of the others.{end}
+
+Th, this is it ...{end}
+
+Princess ...
+Please leave here. Follow 
+Lady Liana and Lady Jessica ...{end}
+
+Princess ... 
+Please leave here
+with Lady Liana ...{end}
+
+I'm ... done for.
+Please leave with the Princess
+and plan a ... counterattack.{end}
+
+But Keith!{end}
+
+But Keith!{end}
+
+As long as the Princess lives,
+I have no regrets ...{end}
+
+Lord Lester.
+Please ..., please look
+after the others...{end}
+
+Keith ...{end}
+
+For the glory of Kalxath!
+And for true peace
+throughout the world!{end}
+
+Arrgh!
+N, not yet....{06}{07}
+We ... Kalxath ...
+Can't give in ...{end}
+
+K, Keith!{end}
+
+K, Keith!{end}
+
+...{06}{07}
+Farewell, ... my friend.{end}
+
+...{06}{07}
+Farewell, ... my friend.{end}
+
+I'm so sorry, Keith ...
+I ...{06}{07}
+It's all my fault ...{end}
+
+Everyone is
+fighting for me ...{06}{07}
+I can't let them down ...
+I won't get captured.
+I have to hurry!{end}
+
+Aaahh!{end}
+
+The girl has died?
+What the hell happened!?{end}
+
+No!
+Now that Liana has died,
+Alhazard's seal can't ...!{end}
+
+Don't think you can
+just barge on in!{end}
+
+This is personal.
+I'll make anyone attacking this
+castle sorry they were born.{end}
+
+If you want to enter
+the castle, you'll
+have to get through me!{end}
+
+I won't let this castle fall
+to the likes of you! Die!{end}
+
+My magic should
+have been unstoppable ...
+Ugghh!{end}
+
+You must think you're pretty
+great for coming this far.
+Too bad you won't go further!{end}
+
+I  ...
+I haven't ...{end}
+
+I, I'm falling!{end}
+
+If, If I only had
+a little more power ...{end}
+
+You shall not pass!{end}
+
+Do you call this a wound?
+It's barely a scratch!{end}
+
+Now, Liana.
+There's nowhere to run.{06}{07}
+Be a good girl
+and come with me.{end}
+
+Why ...?
+{02}, why have
+you changed so much?{end}
+
+Liana ...{end}
+
+When we first met,
+you were so kind ...
+You hated war ...{end}
+
+That hasn't changed.{06}{07}
+I want this conflict to end
+quickly and thoroughly, so I'm
+lending myself to the Empire.{end}
+
+Well, you're doing
+a terrible job!{06}{07}
+Can you say the Empire
+brought peace to Kalxath?
+Can you!?{end}
+
+This place may indeed
+have been a haven of sorts.{06}{07}
+But in all my travels,
+I've witnessed nothing but
+siege and bloodshed.{06}{07}
+To truly sever the roots of
+war, the world needs a
+strong, unified kingdom!{end}
+
+You have changed,
+after all ...{06}{07}
+The {02} I knew
+would not look for peace
+through tyranny ...{06}{07}
+He'd have faith that
+everyone wants
+to live free of suffering!{end}
+
+...{06}{07}
+I'm getting very tired
+of explaining myself.
+Liana, I'm taking you with me.{end}
+
+{02} ...{end}
+
+I understand ...
+Just don't throw
+your life away.{06}{07}
+Don't worry and fight
+with all your heart!{end}
+
+If I die, then the
+castle's defence will ...{end}
+
+I ... cannot allow you to
+breach ... the walls.{end}
+
+So you're saying I should
+abandon Castle Kalxath!?{end}
+
+Keith! You're saying I
+should just abandon
+you all and run away!?{end}
+
+Egbert is pressing forward ...
+What!? Could he be ...?{end}
+
+What's wrong,
+Lady Jessica?{end}
+
+Liana, run away, now!{end}
+
+What?{end}
+
+Liana, you must escape!
+Make your preparations and go!{06}{07}
+The Empire's aim
+is not only the
+fall of Castle Kalxath.{06}{07}
+They're intending
+to capture you as well!{end}
+
+Me ...?{end}
+
+They probably want
+you to unseal Alhazard.{06}{07}
+I'll guard you all
+the way to the rear.
+Hurry and escape!{end}
+
+Liana, it's only
+a little bit further!{end}
+
+Okay!{end}
+
+Leave the castle to us
+and escape, Lady Jessica!{end}
+
+...{06}{07}
+Very well.{end}
+
+If I don't hurry,
+everyone will have
+fought for nothing ...{end}
+
+Maiden of Light, 
+would you be so kind
+as to accompany me?{end}
+
+No! Let me go!{end}
+
+Stop it, Egbert!{end}
+
+Liana! I'm coming!{end}
+
+Heh heh heh ...
+I'm afraid you won't get away.
+Ahem ...{06}{07}
+Watchers of time and space ...
+Honour your ancient pledge
+and send her to another land ...{end}
+
+Sh, she disappeared ...?
+Where could she have gone!?{end}
+
+Whew, mission accomplished.{end}
+
+Now the seal
+can be broken.{06}{07}
+To conduct the ceremony,
+we must head toward
+the Underground Shrine.{end}
+
+All right, there's no reason
+to hang around here.
+Let's begin our transfer!{end}
+
+All your traipsing around
+is driving me nuts!{06}{07}
+No one should ever,
+ever interrupt my nap!{06}{07}
+Hmm? What is it?
+Are you trying to tell me
+you want something?{end}
+
+You greedy fellows
+irritate me to no end!{end}
+
+Go ahead and take this.
+Humble people are
+very important, after all.{06}{07}
+Now, if you'll excuse me,
+I'm going back to sleep ...{end}
+
+Obtained Dragon Scale.{end}
+

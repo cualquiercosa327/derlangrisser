@@ -1,0 +1,828 @@
+Eeek!{end}
+
+You there, woman!
+If you do not want to die,
+answer my questions!{06}{07}
+Does a girl named Liana
+live in this house?{end}
+
+Y, yes ...{end}
+
+Who is outside ...!?{end}
+
+General Leon!
+The girl we were assigned
+to bring in is here!{end}
+
+I see. Thank goodness.{end}
+
+Let us get this over with.
+The local Lord's troops must
+already be on their way.{end}
+
+You are probably right ...{end}
+
+Hurry up, Baldo!
+If the Salrath Army shows up,
+this could get messy.{end}
+
+Understood!{end}
+
+{02}, this is serious!{end}
+
+What's the matter, Hein?{end}
+
+A detachment of knights
+from the Rayguard Empire
+is invading the village!{end}
+
+What ...!?{06}{07}
+Hein!
+It looks like they are only
+attacking the outskirts!{06}{07}
+Isn't that where you said
+your childhood friend lives?{end}
+
+That is right!{06}{07}
+She must already be
+in terrible danger!
+Will you lend me a hand?{end}
+
+Yes, of course.
+Let's go!{end}
+
+This just keeps
+getting worse. {02}!{06}{07}
+The Imperial Knights are
+here to kidnap Liana!{end}
+
+Why would Rayguard go
+through so much trouble
+for just one girl ...?{06}{07}
+There is no time to
+think about that now.
+We have to hurry and help her!{end}
+
+Ridel!
+They are powerful foes indeed!{06}{07}
+But no matter how strong they
+may be, we have to hold them
+off until His Lordship's troops
+arrive, ... no matter the cost.{end}
+
+I know ...
+I will try to hold them back
+with my spearmen...{06}{07}
+It seems the rumours
+calling them the strongest
+knights in the land may have
+some merit after all ...{end}
+
+Evan ... ze--!{end}
+
+Ridel--!{end}
+
+I have come to rescue you!{end}
+
+Thank you for your offer,
+but please, save yourself!{end}
+
+I will save you, Liana!{end}
+
+Hein!
+Please do not come any closer!
+I don't want to see you hurt ...{end}
+
+Okay, mission accomplished.
+Let us head back to 
+the Imperial Capital.{end}
+
+So, ... you are {02}, eh?
+Well, ... mind your
+own damn business, kid!{06}{07}
+It will be a cold day
+in hell before you best
+Baldo in a fight!
+Ha ha ha!{end}
+
+Gah ...
+This should not have
+been ... possible--!{end}
+
+I knew it, {02}!
+There can be no more doubt--
+the knights are here for Liana!{end}
+
+So it seems ...
+Concentrate on attacking
+their commander, Baldo.{end}
+
+If things keep going
+like this, Liana
+will surely be kidnapped!{06}{07}
+Concentrate on attacking their
+commanding officer, Baldo.{end}
+
+You have spotted a clearing
+in the middle of the woods ...{06}{07}
+
+Inside, a band of cute
+dwarves are dancing merrily.{06}{07}
+
+One of the dwarves comes
+out to offer you a berry.{end}
+
+Will you eat the berry?{end}
+
+Magic Defence raised!{end}
+
+A blue potion rests within
+the open drawer of a chest.{end}
+
+Will you drink it?{end}
+
+You feel a surge of power!{06}{07}
+AT raised by 1 point!{end}
+
+Argh ...
+Not here ...!{end}
+
+That is far enough!{end}
+
+Oh no! Stay back!
+Just forget
+about me and escape!{06}{07}
+Why should those who
+have nothing to do with
+me suffer as well?{end}
+
+Wait for me!
+I will rescue you no
+matter what.{end}
+
+I won't let you get
+away with this!{end}
+
+Sorry, {02} ...
+I was not strong enough. You'll
+have to rescue Liana alone.{end}
+
+Hey, Liana!
+I am on my way!{end}
+
+No, Hein!
+It is too dangerous!
+Forget me and save yourself!{end}
+
+You damned Imperials!
+Get out of this village!{end}
+
+Help!{end}
+
+General Leon!
+What should we do with
+this villager?{06}{07}
+Nobody was supposed
+to discover
+our actions here.{end}
+
+Do not needlessly
+shed the blood of innocents.{06}{07}
+We have not come
+today to commit murder.{end}
+
+Your duty is to arrange
+for Baldo's safe retreat!{end}
+
+Yes, Sir!{end}
+
+Knights, I am issuing a decree!
+Such pointless killing is
+forbidden on our mission.{end}
+
+At ease.
+Our mission is no to
+commit murder.{end}
+
+Yes, ... Sir.{end}
+
+Hey, you! Move it!
+You are in my way!{end}
+
+Eeek!
+Help me!{end}
+
+Baldo, wait!
+You are forbidden to
+act without orders!{end}
+
+Evanze, let's go!{end}
+
+Yes, it is up to us.{end}
+
+I will protect this
+village with my life!{end}
+
+You dare attack spearmen
+with cavalry ...?
+Are you mocking me!?{end}
+
+Evanze ...
+I am sorry ...{end}
+
+Nooo!
+Ridel, you mustn't die!
+We had a promise!{06}{07}
+You said we'd be
+together ... forever ...{end}
+
+Ridel ...{end}
+
+Shriek--!{end}
+
+Evanze!
+Hang on!{end}
+
+I'm ... so sorry.
+Please forgive me ...{06}{07}
+I couldn't keep ...
+my promise to be with you ...{end}
+
+What are you saying!?
+You'll be all right, it is
+only a small wound!{end}
+
+Ridel, ...{06}{07}
+I ... love you ...,
+Ri ... del ...{end}
+
+Evanze!{end}
+
+Unforgivable ...!{06}{07}
+I can never forgive you!
+I will kill you with
+my own two hands!{end}
+
+All right, let us go and
+assist Baldo with the girl!{end}
+
+Yes, Sir!{end}
+
+Laird, follow me!
+I will sweep out the enemy!{end}
+
+Understood!{end}
+
+Im, impossible!{06}{07}
+How can I, the leader
+of the Blue Dragon Knights,
+possibly lose?{end}
+
+Why?
+Why do the Blue Dragon Knights
+pursue this one village girl?{end}
+
+We shall not divulge
+our mission's purpose to
+those not involved.{end}
+
+I've heard not only
+that the Blue Dragon Knights
+are the strongest in the land ...{06}{07}
+but also that they value
+chivalry above all else!
+Why now do you engage in
+such a contemptible act!?{end}
+
+Keep going, General!{end}
+
+Be careful, Laird.
+The enemy units wield spears.{end}
+
+I'll pierce through their ranks
+with a wave-patterned attack,
+then target their commander.{end}
+
+Do your best.{end}
+
+General Leon!{end}
+
+Do not be foolhardy!
+I'll handle the rest!{end}
+
+Pathetic!
+More than spears are needed to
+turn the Blue Dragon Knights!{end}
+
+Oh, really ...?
+Then Sir, allow me to
+test your boast!{end}
+
+You must be Lady Liana.{06}{07}
+I ask you come with us
+quietly to the Imperial Capital.
+No one needs to be harmed.{end}
+
+Wh, what ...
+do you want with me?{end}
+
+I apologise for the
+suddenness of our arrival.{06}{07}
+I am Leon, the commander
+of the Rayguard Empire's
+Blue Dragon Knights.
+I was sent to retrieve you.{end}
+
+Me ...?{end}
+
+His Majesty, the great
+Kaiser Bernhardt, waits for you
+at the Imperial Capital.{06}{07}
+I shall be your escort.{end}
+
+Do you promise you will
+leave the villagers
+alone if I follow quietly?{end}
+
+Of course.
+It is already dishonourable to
+be seen kidnapping a woman.{06}{07}
+I have no intention of further
+shaming ourselves by
+killing defenceless people.{06}{07}
+However, those who would bear
+arms against us shall
+forfeit this assurance of safety.{end}
+
+I understand ...
+Then under these conditions
+I will follow you.{end}
+
+I am sorry for all this ...
+Thank you for your
+cooperation in this matter.{end}
+
+Let's go, little girl!
+Hurry up and follow me!{end}
+
+Sigh ...
+A mission without swordplay
+is just ever so dull ...{06}{07}
+Maybe I can have
+some fun with the young
+ladies over there!{end}
+
+Stop it!
+You promised you would not
+hurt any of them!{end}
+
+Shut up, bitch!{06}{07}
+Now that we have you
+under arrest, that
+"promise" is meaningless!{06}{07}
+Ha ha ha!{end}
+
+Well then, ...
+let us take her back
+to headquarters.{06}{07}
+However ...
+Baldo, you would do well
+to be polite to her.{end}
+
+Yes, Sir--!
+I will take care
+from now on.{end}
+
+Halt!
+You cannot do as you
+please in this village!{end}
+
+General Leon!
+The local militia has come!{end}
+
+How quickly ...
+But it matters not. Continue
+the mission as planned!{end}
+
+You dare to mock us!?
+I will make you regret ever
+violating our village's peace!{end}
+
+Sigh ...
+Such foolishness ...{end}
+
+Come on, get over here!{end}
+
+Ouch!
+I'll follow, but please do
+not pull so roughly!{end}
+
+God damn, you're quite the
+impudent little wench--!{06}{07}
+Damn it all!
+The things I have to put
+up with on these missions ...{end}
+
+You must be stupid to pick
+a fight with Baldo, kid!{06}{07}
+You have no idea who
+you're going up against!{06}{07}
+I am going to
+enjoy playing with you!{end}
+
+Impossible ...
+G, General Leon!{end}
+
+What!?
+How is it possible ...
+Baldo has been ... bested?{end}
+
+Laird!{end}
+
+Yes, Sir!{end}
+
+We must leave
+immediately and escort
+the girl ourselves.{06}{07}
+She must be brought
+to the Imperial Capital
+without fail.{end}
+
+Yes, Sir!{end}
+
+What!?
+How could we have failed?{end}
+
+I came as soon as
+I received word of the
+trouble here ...{06}{07}
+What in Lushiris's name ...!?{end}
+
+Amazing ...!{06}{07}
+The Blue Dragon Knights
+have been completely defeated
+by those young men!{end}
+
+Thank goodness.
+It seems I was a little late.{end}
+
+I am responsible for the
+welfare of the men
+and women in my territory.{end}
+
+We must drive out
+the Imperial Knights!{end}
+
+It's the local Lord's army!{end}
+
+Enemy reinforcements
+have arrived!{end}
+
+What horrible timing ...
+We have no choice but
+to retreat for now!{end}
+
+As you command, Sir.{end}
+
+The enemy's reinforcements
+have arrived!?{06}{07}
+This doesn't look good.
+We must retreat!{end}
+
+Lady Liana ...
+We shall be returning
+to finish this.{end}
+
+It seems to be over.{end}
+
+Thank you for helping me,
+Sir swordsman.{06}{07}
+I am Liana, a priestess
+from the Shrine of Light.
+What is your name?{end}
+
+My name is {02}.
+I am on an aimless journey.{end}
+
+Lord {02}, my most
+sincere thanks to you.{06}{07}
+I know not if I was worth
+your rescue effort, but
+I really do appreciate it ...{end}
+
+You really don't have
+to say such things ...
+Anyway, are you hurt?{end}
+
+No, ... I'm all right.{06}{07}
+I should be the one asking
+you, Lord {02}, if you
+have been injured--{end}
+
+I'm fine, Lady Liana.{06}{07}
+You needn't call me
+"Lord {02}." I've never
+been much for formality.{06}{07}
+Just call me {02}.{end}
+
+Well then, you
+can call me Liana.{end}
+
+You were amazing
+out there, {02}!{end}
+
+Hein, I want to thank
+you for your help, too.{end}
+
+Well everyone, I'm
+glad to hear that none
+of you were harmed.{06}{07}
+But it's too soon to rest easy.
+The Knights will surely return
+to finish what they began.{06}{07}
+You'll have to take
+refuge with me in Salrath
+for your own sake as well
+as that of the villagers.{end}
+
+His Lordship is right.
+Let us depart immediately.{end}
+
+Wait a moment!
+I am sorry I wasn't able to
+provide better support ...{end}
+
+That's not true. We could never
+have won if you hadn't drawn
+the cavalry's attention.{end}
+
+Your words are very
+kind, good Sir {02}.{06}{07}
+I know not what to say.
+Please take this with you
+as a token of my gratitude.{end}
+
+{02} was handed 100P.{end}
+
+Thank you, I appreciate it.{end}
+
+The world is a dangerous place.
+It's always better to
+have some extra money.{end}
+
+I guess so ...{end}
+
+Well then, let's be on our way.
+It's getting dark, and my
+stomach is already growling!{end}
+
+Hein ...!{end}
+
+Very well then, let us be off.{end}
+
+I shall guide you to our manor.{end}
+
+Such a quiet night ...
+I dreamt of intense,
+endless battle ...{06}{07}
+Was Liana really the target of
+the Blue Dragon Knights today?{06}{07}
+The Knights are said
+to be the strongest force
+of the Rayguard Empire.{06}{07}
+Why is Liana so
+important to them ...?
+Why did I go out of my way to
+rescue her from the Imperials?{06}{07}
+Is she ... important to me?{end}
+
+Unable to sleep,
+Lord {02}?{end}
+
+Yeah, ...
+I was worried about what
+happened earlier today.{06}{07}
+I can't help think that
+something terrible has begun ...
+It's a strange feeling ...{end}
+
+I'm sorry ...
+You were so brave
+out there today.{06}{07}
+{02}, you treat me
+as though we've known
+each other for many years.{06}{07}
+Were my father still alive,
+I'm sure he would be as kind
+and strong as you, {02}.{06}{07}
+Ah, ... what am I saying ...!?{end}
+
+I apologise for saying
+such strange things ...{end}
+
+I don't mind ...
+Up until now, your life
+has been difficult, hasn't it?{06}{07}
+I heard of your
+childhood from Hein.{end}
+
+Yes ...
+As a baby, I was abandoned on
+the steps of the village shrine.{06}{07}
+The priest there raised
+me in my parents' stead ...{06}{07}
+Because of his kindness
+and warmth, I never
+felt lonely or sad.{end}
+
+I see ...{end}
+
+{02} ...
+Why do you travel the country?{06}{07}
+If it's all right,
+I'd like to know.{end}
+
+My journeys have neither
+reason nor purpose.{06}{07}
+Both my parents died
+when I was very young.{06}{07}
+After that, I was raised by
+a man named Doren.
+He was my guardian
+and mentor.{06}{07}
+He was brilliant, and he saw
+fit to teach me many things.
+His instruction in swordplay
+was most rigorous.{06}{07}
+With his death, ...
+I am ... free.{end}
+
+"Free?"
+I don't understand ...{end}
+
+Since Doren ... passed on ...
+I have been alone in the world.{06}{07}
+Now, I wander the land
+searching for his slayer.{end}
+
+Is that so ...?{06}{07}
+I'm sorry for rousing
+such terrible memories.{end}
+
+It's okay, I don't mind.
+The night is half-over.{06}{07}
+You should return to your
+chamber and rest.
+We'll be departing
+early in the morning.{end}
+
+Good night ...
+Sir {02}.{end}
+
+{02}--!{end}
+
+Huh?
+Is there something else, Liana?{end}
+
+Umm, ...
+thank you ...{end}
+
+Baldo's retreat
+appears to be secure!{end}
+
+I've never had such
+a mission as this before.{06}{07}
+A soldier of war ...
+witnessed here
+abducting a girl ...
+What a disgrace ...{end}
+
+Please do not let it
+get to you, General.{06}{07}
+For me, it's a great honour just
+to serve under your command.{end}
+
+I appreciate your words,
+but don't get careless now.{end}
+
+Hmph, ... only these two?
+Barely even worth the effort.{end}
+
+Don't underestimate them--{06}{07}
+And don't be arrogant!
+On the battlefield, you
+will not survive if you
+are not cool-headed.{end}
+
+You can't fight well
+if you are wounded.{06}{07}
+Try to place the units
+under your command
+directly around yourself.{06}{07}
+Your men will recover
+some of their physical
+strength each turn.{06}{07}
+Value your men's lives as
+though they were your own.{end}
+
+I understand.{end}
+
+Let's go!{end}
+
+I won't go down that easily!{end}
+
+G, General Leon, Sir ...
+I am sorry ...
+Please forgive me--!{end}
+
+No ...!
+I allowed one of my
+subordinates to perish ...{end}
+
+You fight well!
+How long can you
+keep it up ...?{end}
+
+Shit!
+You impertinent asshole!
+I'll see you dead for that!{end}
+
+Be silent!
+I cannot bear your ignorance!{06}{07}
+The General does not undertake
+this mission of his own volition!{06}{07}
+We act today only due
+to a direct order from
+Kaiser Bernhardt himself!{end}
+
+You bastard ...
+You're going to die for
+getting on my nerves!{end}
+
+It's all right, Laird.{06}{07}
+It is unworthy of us to
+make excuses for such
+dishonourable actions.{06}{07}
+I can endure the disgrace
+of a mission like this,
+but not the loss of my men.{end}
+
+Eeeek!{end}
+
+How cruel!
+How can you do such a thing?{end}
+
+Shut up, you bitch!
+Or would you like a taste too!?{end}
+
+Stop it!
+You reckless fool!{06}{07}
+I issued an order that all
+troops operating under my
+command are to refrain from
+such useless slaughter!{06}{07}
+I will not repeat myself again!
+Anyone disobeying my
+commands is unnecessary
+to this operation.{end}
+
+Yes, Sir ...
+I'm sorry ..., General.{end}
+
+How cruel ...{end}
+
+Remember your promise!
+Don't harm the
+people of this village!{end}
+
+I never said anything about
+sparing those who would
+brandish arms against us.{end}
+
+But--!{end}
+
+I beg you, please!
+Just let me go with them
+to the Imperial Capital!{06}{07}
+If I go with the Imperial Army,
+all of this will be over ...{end}
+
+I ... can't ...{06}{07}
+I ... can't ...
+allow that ...{end}
+
+How foolish ...{end}
+
+I ... I won't give up ...{end}
+
+I cannot forfeit the
+lives of those I love!{end}
+
+How foolish ...{end}
+
+I cannot forgive those
+who would interfere ...
+This is the only way!{end}
+
+But--!{end}
+

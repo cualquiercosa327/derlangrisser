@@ -1,0 +1,514 @@
+No!
+Let go of me!{end}
+
+Ha ha ha ...!{end}
+
+Running won't help.
+You can't escape.{end}
+
+You shall release
+the seal of Alhazard!{end}
+
+...{end}
+
+The ritual is nearly prepared.{06}{07}
+You'd best do as I say, ...
+or else.{end}
+
+Whew!
+Finally, land!
+So this is Velzeria, hmm?{end}
+
+Let's land the ship!{end}
+
+Just as I expected ...{06}{07}
+I figured you would
+drop anchor here.{end}
+
+Is that L{37}na!?{end}
+
+{font3}Soon the ceremony
+to awaken Alhazard
+shall begin.{06}{07}
+{font3}We can't let
+them pass.{end}
+
+I know that!{end}
+
+Kill all those
+who interfere.{end}
+
+This has become so tiresome.{end}
+
+But how does she have such
+a command of the dark arts ...?{06}{07}
+It's strange--
+she's human just like us.{end}
+
+Obviously.{06}{07}
+She's Liana's twin sister
+all right. Without Liana here,
+I can't tell them apart.{end}
+
+Perhaps Egbert isn't the
+one controlling her ...{end}
+
+Do your best not
+to injure L{37}na.{06}{07}
+This will be hard
+enough for Lady Liana.{06}{07}
+To have one's only
+family as an enemy ...{end}
+
+Hein, the battlefield's
+an unpredictable place.
+It's harsh and merciless.{06}{07}
+We're trying to prevent
+the revival of Alhazard.{06}{07}
+If we lose sight of that,
+we're at a disadvantage.{end}
+
+Sir Lester ...,
+I know how you feel.{06}{07}
+But let's just try and do
+what we can for her!{end}
+
+Leave those two to me,
+and go easy on L{37}na!{06}{07}
+Our team's not going
+to lose this one.{06}{07}
+It might get ugly, but let's
+detain that "Dark Princess!"{end}
+
+Heh heh heh ...{06}{07}
+Come and get me,
+if you can.{end}
+
+Obliterate the
+Descendants of Light!{end}
+
+{font3}Leave it to us.{06}{07}
+{font3}We shall show the
+puny humans our power.{end}
+
+L{37}na's moving to
+complete the ceremony.
+Time's running out ...{end}
+
+But where is the
+ceremony taking place?{06}{07}
+If we don't know,
+we can't do anything.{end}
+
+That's Jessica's job.{06}{07}
+We need to concentrate
+on breaking through.{end}
+
+The ceremony is almost done.{06}{07}
+Let's retreat!{end}
+
+Weaklings, you
+shall entertain me!{06}{07}
+Finally, the age of
+darkness has begun!{06}{07}
+Gwa ha ha ha ...{end}
+
+Ahh!
+This feeling of dread ...{06}{07}
+Alhazard's seal
+has been broken!{end}
+
+Wh, what does this mean!?{06}{07}
+We couldn't stop the
+Dark Blade's revival!{end}
+
+Stop it, L{37}na.
+B{3a}ser is already
+dead, isn't he?{06}{07}
+Why are you
+following Egbert?{end}
+
+Don't talk to me like
+an old friend, trash.{06}{07}
+The breaker of the seal,
+Lord Egbert, and he who wields
+Alhazard, Lord Bernhardt ...{06}{07}
+They are very precious
+people to us.{06}{07}
+Ha ha ha ...
+In fact, they've agreed
+to release our god, Chaos ...{06}{07}
+And Bernhardt has kindly
+replaced B{3a}ser as master
+of our demonic forces.{06}{07}
+Descendants of Light,
+here you meet your doom!{06}{07}
+This is the last place
+you will ever stand.{end}
+
+{font3}Heh heh heh ...{06}{07}
+{font3}Look, redheaded wimp!
+I have something for you!{06}{07}
+{font3}If only I could have
+shown you that old
+fool's bleeding corpse!{end}
+
+Damn ...{end}
+
+{font3}Gwa ha ha ha!{06}{07}
+{font3}You despise me?
+You want to kill me?{06}{07}
+{font3}Hate and anguish
+are my source of power!{06}{07}
+{font3}Punk, let's see if you
+still remember what
+that old husk taught!{end}
+
+{02},
+don't give in to anger!{06}{07}
+If you fight with rage
+and pain in your heart, you'll
+be no better than him!{end}
+
+I know.
+Thanks, Cherie ...
+Doren said that too.{06}{07}
+"No matter what
+happens, you mustn't
+lose sight of yourself ..."{end}
+
+{02} ...{end}
+
+I'm all right, Cherie.
+Don't worry, okay?{06}{07}
+If I lose my head, I'll have
+no chance of winning.{end}
+
+{font3}Hmmm ...
+You must be the
+leader, all right.{06}{07}
+{font3}You don't seem as
+stupid as the rest.{end}
+
+What!
+You won't be talking so
+highly of yourself for long!{end}
+
+Well, the only one left is
+Faias. You're all alone.{06}{07}
+I'll avenge Doren's death!{end}
+
+Don't make me laugh!{06}{07}
+You really think
+you can beat me!?{end}
+
+A fruit you've
+never seen has fallen.{06}{07}
+
+Will you eat it?{end}
+
+MP raised by 4 points!{end}
+
+Stand aside!
+Get out of the way!{end}
+
+{font3}Very good ...{06}{07}
+{font3}But your luck is
+about to run out!{end}
+
+You underestimate me.{end}
+
+Damn!
+Just as we were arriving
+in Velzeria ...{end}
+
+Ugh! Sorry ...
+I wish I could
+keep fighting ...{end}
+
+Let's go!{end}
+
+Argh!
+It doesn't ... hurt--!{end}
+
+Damn!
+I wasn't paying attention!{end}
+
+Grrr!
+In this important
+time and place ... {06}{07}
+Ow!
+I'm retreating ...!{end}
+
+You ...
+Prepare to die!{end}
+
+Son of a bitch!{end}
+
+Oh ...
+Alhazard's seal will be
+broken, however ...{end}
+
+I've been negligent
+with my battle form ...{end}
+
+You really should have been
+stopped far earlier than this.{06}{07}
+I guess we haven't taken
+you seriously enough.{06}{07}
+But, no matter.
+This time we'll fight for real.{06}{07}
+{font3}Go forth my servants!{end}
+
+Impressive!
+You possess such motivation.{06}{07}
+Really, I would expect
+nothing less from the
+Descendants of Light.{06}{07}
+How sad that I must finish you!{end}
+
+Impossible ...
+How could I lose to humans ...{end}
+
+{font3}How dare a
+mortal oppose me!{end}
+
+{font3}Ahh, sleep peacefully
+on my bosom ...{end}
+
+{font3}Ugghh!{end}
+
+{font3}Gahhh--!{end}
+
+{font3}Arrrghhh!{end}
+
+{font3}Noooo!{end}
+
+{font3}Aaaahhh!{end}
+
+{font3}G, gahhh!{end}
+
+{font3}Gaahh--!{end}
+
+{font3}Gahhh--!{end}
+
+{font3}I have an old score
+to settle with you,
+Descendants of Light.{06}{07}
+{font3}Especially the
+redheaded one.{end}
+
+What are you
+talking about?{end}
+
+{font3}You really
+don't know?{06}{07}
+{font3}B{3a}ser ordered me
+to massacre the
+Descendants of Light.{06}{07}
+{font3}But while I was
+searching you out,
+an old fool
+got in my way ...{end}
+
+What!
+That ..., that means
+you killed Doren!?{end}
+
+{font3}Heh heh ...
+Oh yes, that was his
+name I believe.{06}{07}
+{font3}That bastard dealt
+me a scratch that
+aches even this day.{06}{07}
+{font3}But he's dead, and soon
+you'll go to join him.
+Today, I will dance
+in your blood!{end}
+
+I'll never forgive you!
+Prepare yourself!{end}
+
+{font3}Come and get me!
+Let's go, whelp!{end}
+
+{font3}I won't fail B{3a}ser!{06}{07}
+{font3}I'll wipe the 
+Descendants' bloodline
+from this world.{end}
+
+I'll send you to hell!{end}
+
+{font3}Heh heh heh ...
+You flatter yourself!{06}{07}
+{font3}A mere human can't
+defeat those who
+channel the
+powers of darkness!{end}
+
+{font3}Powerful indeed ...{06}{07}
+{font3}But even with that
+level of skill, opposing
+Bernhardt is suicide!{06}{07}
+{font3}A horrible death
+awaits you in Velzeria ...{06}{07}
+{font3}If Alhazard is revived,
+summoning those with my
+power is simple.{06}{07}
+{font3}Though you've beaten
+me, raising a sword to
+Bernhardt is equal
+to asking for death.{06}{07}
+{font3}See you in hell!
+Fwa ha ha ha ...
+Gwa ha!{end}
+
+Doren ...
+I've avenged you.
+Rest in peace, my master ...{end}
+
+By my own hand,
+I've avenged you ... {06}{07}
+I hope you can finally
+rest in peace, Doren ...{end}
+
+{font3}Gwa ha ha ha...
+Cry, little boy!{end}
+
+He was slain because I was
+a Descendant of Light ... {06}{07}
+Doren gave his life in
+exchange for mine ...{06}{07}
+Everyone close to me dies ...
+I can't protect anyone.{end}
+
+{02} ...{end}
+
+{02} ...
+You were destined to be born
+a Descendant of Light.{06}{07}
+But the reason your allies
+fight beside you isn't
+because of your heritage.{06}{07}
+It's because we
+believe in you.{end}
+
+Yeah, {02}!{end}
+
+What brought you this
+far wasn't just that ... {06}{07}
+It's not just because you
+are a Descendant of Light,
+it's your personality and
+the choices you've made.{end}
+
+Yes ...
+It's still not too late.{06}{07}
+We'll combine all our
+strength, prevent Alhazard's
+revival, and protect this world!{end}
+
+But we must stop
+the ceremony!{end}
+
+Let's hurry, {02}.{06}{07}
+If Alhazard's power is
+restored, it will be too
+much for us to handle.{end}
+
+Let's hurry.
+The ceremony to unseal
+Alhazard has begun.{06}{07}
+Let's go to the
+Temple of Darkness
+and defeat Egbert!{end}
+
+Impossible ...
+Have my battalions have
+been destroyed?{06}{07}
+What terrible strength ...
+Was this destruction wrought
+by the Descendants of Light?{end}
+
+{font3}Dark Princess!{06}{07}
+{font3}Egbert has finished
+the preparations.{06}{07}
+{font3}Please return to the
+Temple of Darkness.{end}
+
+Yes, I understand.
+Until Alhazard is reborn,
+I cannot die ... {06}{07}
+I will live to witness
+the new age of darkness!{end}
+
+Yes, I see.
+Alhazard's rebirth is
+very close now.{06}{07}
+Finally, the age of
+darkness is nigh!{end}
+
+It seems the preparations for
+the ceremony are underway.{end}
+
+There's no time.
+We must attack now!{06}{07}
+We must stop the
+ceremony and prevent 
+Alhazard's awakening!{end}
+
+{font3}You won't interfere
+with the revival
+of Alhazard.{06}{07}
+{font3}To create our world of
+darkness, we shall
+protect Kaiser Bernhardt
+and General Egbert!{end}
+
+It can't be helped.
+We must break
+through their lines.{end}
+
+{font3}Interesting ...{06}{07}
+{font3}Then I'll share the
+pain of this old wound
+with you, boy!{end}
+
+{font3}Arrggghhhh!{end}
+
+{font3}Fwa ha ha.{06}{07}
+We will burn the
+Descendants of Light
+to ashes!{end}
+
+{font3}Ooohhhhh--!{end}
+
+I'm sorry for being late.{06}{07}
+I found the Temple of Darkness,
+but I was forced to take
+the long route on my return.{end}
+
+You found it?{end}
+
+Yes.
+It's lies shortly
+north of here.{06}{07}
+The awakening ritual
+is already underway.{end}
+
+Jessica!
+It seems that their
+ritual has begun!{06}{07}
+L{37}na has gone to the
+Temple of Darkness.{end}
+
+Jessica!
+It seems the preparations
+for the ceremony are over.{06}{07}
+L{37}na has apparently gone
+to the Temple of Darkness ...{end}
+
+{02}, let's hurry!
+We must stop
+Alhazard's revival!{end}
+

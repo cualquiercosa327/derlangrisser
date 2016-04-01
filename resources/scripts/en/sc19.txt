@@ -1,0 +1,405 @@
+You must be tired!
+How did the battle go?{end}
+
+W, well ...{end}
+
+There's no reason to hide it.{06}{07}
+We failed the mission,
+and the Descendants of Light
+claimed Langrisser.{06}{07}
+They are approaching!
+Gather our remaining
+men and attack!
+We must protect His Majesty!{end}
+
+Yes, Sir!{end}
+
+At last, ...
+we made it.{end}
+
+Wow ...{06}{07}
+Words alone can't describe
+the splendour of this castle.
+The Kaiser must be inside.{end}
+
+Let's hurry!
+We'll have an easy
+victory with Langrisser!{06}{07}
+It's time to witness
+how powerful this
+sword truly is.{end}
+
+I can't allow this.{06}{07}
+In the name of the
+Blue Dragon Knights,
+you shall not advance.{end}
+
+I'm sorry, General Leon.{06}{07}
+If we had more time,
+we would've been able to
+make better preparations.{end}
+
+Don't worry.
+We only need delay
+them for a little while.{06}{07}
+If we succeed, then
+we can prepare an ambush
+within the castle.{end}
+
+Understood.
+Let's show them it takes more
+than numbers to defeat us.{end}
+
+Somehow, we made it in time.{end}
+
+{02}, please,
+give me orders!
+Allow me to demonstrate
+the results of my training!{end}
+
+Got it.
+Listen up, men.{end}
+
+We are facing greater numbers,
+but we can't give up the fight!{end}
+
+I'll assist you, Leon.{end}
+
+Dark Princess!?{06}{07}
+The Blue Dragon Knights
+received the defence orders.
+Our strength is sufficient.{06}{07}
+I have no need of
+a woman's help.{end}
+
+I owe you so much ...
+Please, let me assist
+you, Leon!{06}{07}
+Besides, don't think of me as
+an ordinary woman ...
+You know me better than that.{end}
+
+All right ...
+Try not to get hurt!{end}
+
+Leon!?{end}
+
+Anyone who defeated Leon
+must be strong indeed.{06}{07}
+Since I still owe him, you
+can entertain me for a while.{end}
+
+...!?{end}
+
+They look exactly the same.
+How is this possible?{end}
+
+They really do!
+They look like twins.{end}
+
+It's uncanny ...
+But I have better taste in
+clothes than she does.{end}
+
+Something shimmers in a hole.
+Will you examine it?{end}
+
+Obtained Rune Stone.{end}
+
+They made it this far ...{end}
+
+Curses ...
+I am beaten.{end}
+
+Sorry, I can't fight.
+Let me take a break.{end}
+
+Princess, this is it for me.
+I'll try again later ...{end}
+
+Sorry everyone ...
+I must fall back!{end}
+
+I'm too old for this.
+Let me catch ...
+my breath ...{end}
+
+My training wasn't enough ...{end}
+
+I'm sorry ...
+I've gotten in the way again.{end}
+
+Laird, let's go!{end}
+
+Yes, Sir!{end}
+
+{02}, let's go!{end}
+
+If this fight drags on,
+we'll be at a disadvantage.{06}{07}
+Our enemy is experienced,
+so give it your best!{end}
+
+Understood!{end}
+
+Damn, quite impressive!{06}{07}
+However, we haven't
+forgotten that your strength
+comes from Langrisser.{06}{07}
+Alhazard's revival is at hand.
+When that happens, you
+won't have a chance!{end}
+
+Because of that sword ...
+That must be why
+they beat Leon ...{06}{07}
+Bernhardt won't be pleased ...
+I cannot let you hurt
+Leon any more!{06}{07}
+Behold ... the true power
+of the Demon Tribe!{end}
+
+Stop, L{37}na.
+We are at a disadvantage
+here, retreat!{end}
+
+Leon, ...
+I don't feel good about
+leaving you alone like this.{end}
+
+Just do it, for my sake!
+I won't have you
+endanger yourself.{end}
+
+Don't you mean for
+Bernhardt's sake ...?{end}
+
+Is that what you think?{end}
+
+This time, I'll overlook it.
+Next time, I won't forgive you!{end}
+
+Everyone, retreat!{end}
+
+Yes, Sir!{end}
+
+Until we meet
+again, {02}.{end}
+
+L{37}na ...
+Why--?{end}
+
+But, she ...
+Who is this "Dark Princess?"{end}
+
+Something has happened to her.
+This isn't her true self ...{end}
+
+It seems somebody
+is controlling her.{end}
+
+Lady Jessica!
+Are you all right?
+Are you injured?{end}
+
+No, I'm all right, Lester.{end}
+
+Jessica!
+Are you injured?{06}{07}
+More importantly,
+what does all this mean?{end}
+
+Her mind is being controlled.
+I felt a powerful spell
+at work upon her.{06}{07}
+Somebody suppressed
+her will and is manipulating
+her like a puppet.{end}
+
+Really ...
+But who has such power?{end}
+
+We don't have time
+to ponder this.
+Reinforcements are arriving!{end}
+
+What the--!?{end}
+
+I will take care of this.
+Hurry into the castle!{end}
+
+I understand.
+Then I'll leave the rest to you.{end}
+
+{02}!
+At last, the decisive battle!{end}
+
+Yeah,
+I'll do my best!{end}
+
+Everyone!
+Break down the doors, for
+the final battle is at hand!{06}{07}
+Once inside, we shall find
+Kaiser Bernhardt and end
+his dreams of a tyrannical 
+reign over El Sallia!{06}{07}
+True peace cannot be
+attained under martial law.{end}
+
+Damn it, 
+in this of all fights ...{end}
+
+Laird!
+Worry about it later.
+Retreat for now.{end}
+
+I'm sorry ...{end}
+
+This is it ...
+Fall back ...{end}
+
+Gahh--!{end}
+
+Strong ...
+Too strong--!{end}
+
+Glory to the Empire!{end}
+
+This is no good.
+I can't get back up ...{end}
+
+{font3}Groan ...{end}
+
+{font3}Grrrr!{end}
+
+Those who carry
+the Wings of Flame,
+heed my call!{06}{07}
+Rise from your immortal plane!{end}
+
+I'll show you my power!
+I'll show you the
+cold grip of darkness!{end}
+
+Don't let your guard
+down, Dark Princess.{end}
+
+Tee hee ...
+If we are together, then I
+have nothing to fear.{end}
+
+Damn ...
+Too powerful--{end}
+
+Dark Princess!
+That's enough--please retreat.{end}
+
+I can still fight ...{end}
+
+The defence of the
+castle is our mission.
+You certainly have
+better things to do.{06}{07}
+Please retreat.
+We can't afford to lose you!{end}
+
+Once again, I owe you one ...
+Until I can return
+the favour, I'll retreat ...{end}
+
+I understand.{06}{07}
+Until we realise our dream--
+a war-less, peaceful world ...
+Until I see that day,
+I won't be defeated.{end}
+
+Hearing that makes
+me feel better, Leon.
+Please be careful!{06}{07}
+They are the
+Descendants of Light.{end}
+
+My Blue Dragon Knights
+have fallen ...{06}{07}
+But I cannot yield!
+Even if I must battle alone,
+I will protect this castle
+until the bitter end!{end}
+
+Leon, it's over!
+Any more fighting is a waste.{end}
+
+Don't make me laugh!
+The Knights are not known
+for cowardice!{06}{07}
+The only way into this
+castle is through me!{end}
+
+Leon ...{end}
+
+Sister?
+I'm your sister?
+I have, I have a sister ...{06}{07}
+Argh--!
+My ... my head!{end}
+
+Shut up!
+I have no past!{06}{07}
+The past is unnecessary ...
+It will be swept away
+by a future of darkness!{end}
+
+{02}!{06}{07}
+I've waited long for
+the chance to fight you!
+I'll repay you for Vargas!{end}
+
+Isn't that Scott?
+Why is he here?{end}
+
+Is that Scott!?{end}
+
+I heard from Jessica
+about the situation.
+I'm here to help.{end}
+
+Scott joins the entourage!{end}
+
+I've been training hard
+since we last met!{end}
+
+Wait, please!
+Aren't you my sister, L{37}na!?{end}
+
+L{37}na!
+Are you okay?{end}
+
+L{37}na!{end}
+
+What!?{06}{07}
+The Dark Princess
+is Liana's sister?{end}
+
+Sister?
+The Dark Princess
+is her sister?{end}
+
+Yes, there's no mistake.{06}{07}
+My sister and I are twins.
+We were abandoned at
+the entrance of a shrine.{06}{07}
+The priest took us in, but
+while we were children,
+somebody kidnapped her.{06}{07}
+I can't believe I would
+finally meet her here ...{end}
+
+Wow.
+When I got to know Liana,
+she never mentioned a sister ...{end}
+
+Well, ...
+I did feel a strange
+aura surrounding her ...{end}
+

@@ -1,0 +1,783 @@
+Hmmm ...?
+This village ...{06}{07}
+I see. It's been a while since
+I've been back, hasn't it ...{end}
+
+Help!
+Somebody, help!{end}
+
+{font3}Waooooon!{end}
+
+Aaahh ...
+Somebody ... help--!{end}
+
+Eeek!{end}
+
+Why are they doing this ...?{end}
+
+Have you already forgotten?{06}{07}
+That's what I despise
+about you humans!
+You're so selfish!{06}{07}
+All of you, go kill as
+many as you like!{end}
+
+{font3}Grrrrr!{end}
+
+Not again!
+I'm starting to think
+we should avoid villages ...{06}{07}
+{02}, a group of
+monsters is attacking!{end}
+
+I've never seen such
+a huge horde of monsters ...{06}{07}
+What the ...?
+That girl, ...
+she seems to be working
+on the side of the monsters.{end}
+
+Huh?
+Here come some
+tougher humans!{06}{07}
+I'm tired of killing humans
+who don't put up a fight.
+Let's have some fun with them!{end}
+
+...?{06}{07}
+I sense something more
+than demon tribe in her ...{end}
+
+...?
+Impossible ...! Could she be ...?{end}
+
+...?{06}{07}
+Rohga, what's the matter?{end}
+
+Oh, ... it's nothing.{end}
+
+Anyway, we must
+protect the villagers!{end}
+
+Yeah!{end}
+
+Let's go, everyone!
+Crush them!{end}
+
+Come forth,
+those who share my blood!{end}
+
+{font3}Lady Sonya, you called?{end}
+
+Sonya!?
+I knew it, Sonya!{06}{07}
+Sonya!
+It's me, Rohga!
+Have you forgotten me?{end}
+
+...{end}
+
+{02}, I have
+a request ...{end}
+
+...?
+What's wrong?{end}
+
+That girl commanding
+the monsters, I think she's
+my younger sister ...{end}
+
+What!?{end}
+
+I need to be sure.
+Let me get close to her.{end}
+
+It's dangerous.
+Are you sure?{end}
+
+Please ...{end}
+
+I understand.
+I'll try to get you as
+close as I can.{end}
+
+{02}, correct?
+Let me lend you a hand.{end}
+
+The Imperials want
+to help us?
+What are they up to?{end}
+
+I'm not sure, but that
+Leon appears to be an
+honourable man.{06}{07}
+We can trust him.{end}
+
+I agree.{06}{07}
+The Blue Dragon Knights are
+formed from the best
+soldiers in the Empire.{06}{07}
+They're not just strong, but
+truly honourable as well.{end}
+
+Hmmm ...,
+is that so ...{end}
+
+I see ...
+Sorry about before. Please
+lend us your strength!{end}
+
+Rohga, was she
+really your sister?{end}
+
+Yeah, ...
+I'm positive.{06}{07}
+But why is she doing this ...?
+I can't believe Sonya
+could ever kill someone ...{end}
+
+Then she must be someone
+else with the same name!{end}
+
+Are you sure you're
+not mistaken?{end}
+
+Could I mistake my own
+sister for someone else?{06}{07}
+Sonya's father was a
+man of the demon tribe.
+She had always been
+shunned for that.{end}
+
+Is that why she has a
+grudge against humans?{06}{07}
+How sad it is, being unable
+to trust people ...{end}
+
+Then does Sonya have a
+grudge against these people?{end}
+
+That's right.
+This is the village where
+Sonya and I were brought up.{end}
+
+What was so terrible that
+these people did to her?{end}
+
+I don't know, but she
+seems to truly despise them
+for some reason.{end}
+
+I don't know exactly.{06}{07}
+While I was out of the
+village on work, she left.{06}{07}
+But I never thought we'd
+meet again like this ...{end}
+
+Her heart is full of
+hatred for people now.{06}{07}
+Let's do what we can ...
+It's still too early to give up.{end}
+
+Sorry, I really appreciate this.{end}
+
+Nothing found in the drawers.{end}
+
+In a forest there are
+mushrooms with an odd odour.{end}
+
+Will you try to eat them?{end}
+
+AT raised by 1 point.{end}
+
+Ugh ...
+I've come so far ...{end}
+
+Argh!{06}{07}
+I would've used all my
+power if I'd known these
+monsters were this tough.{end}
+
+Hah, ... sorry, I'm beaten ...{end}
+
+Sonya!
+You're Sonya, aren't you!?{end}
+
+Brother!{end}
+
+Why are you trying to
+kill these villagers?{06}{07}
+I have to stop you
+by any means, ...
+even if I have to use force!{end}
+
+What are you doing!?{06}{07}
+These people have to die!
+What do you think they did
+to me while you were gone!?{06}{07}
+I knew it, no one believes
+anything I say!
+Even my own brother ...{06}{07}
+I hate humans!{end}
+
+Shit!
+To be defeated here ...
+Sonya ...{end}
+
+Crap!
+Although Sonya is here
+before my eyes ...!{end}
+
+Damn!
+How could I make
+such a mistake!{end}
+
+God damn it!
+These monsters are
+quite strong!{end}
+
+{02} ...
+I'm sorry ...{end}
+
+Eeek!
+Help!{end}
+
+Ouch ...
+Why me ...?{end}
+
+No!
+Stop it!{end}
+
+Eeek!{end}
+
+My vision is blurry.
+Haven't I recovered from
+that last wound?{06}{07}
+I guess fighting that
+dragon by myself was a really
+bad idea, after all ...{06}{07}
+But helping the villagers
+is my top priority now.
+I cannot rest.{end}
+
+Let's go, Laird!
+We must defeat all the
+undead monsters.{end}
+
+Please, wait!
+You were wounded in your
+recent battle with the monsters.{06}{07}
+Are you well enough to fight?{end}
+
+The wound I received
+while fighting that dragon ...{end}
+
+Such a great wound would
+kill an ordinary man!{06}{07}
+Please don't push yourself
+by fighting too much.{06}{07}
+It would be devastating
+to the Blue Dragon Knights
+if you died here ...{end}
+
+Hah hah, ... sorry.
+You need not worry.{06}{07}
+We're just soldiers,
+here for the
+villagers' protection.{06}{07}
+Now is the time to
+think of their lives
+rather than our own!{end}
+
+What are you saying!?
+Fighting with such a wound ...{end}
+
+I'm right behind you, Leon!{06}{07}
+Let's drive away
+those monsters!{end}
+
+I didn't imagine those monsters
+could be so powerful!
+We've no choice but to retreat.{end}
+
+{font3}You will die here.{end}
+
+{font3}Impossible ...{end}
+
+{font3}Grrraaahhh!{end}
+
+{font3}Grrraaahhh!{end}
+
+{font3}L, Lady Sonya ...{end}
+
+{font3}Grrrr ...{end}
+
+{font3}Grrrr ...{end}
+
+{font3}How could you, human ...{end}
+
+Who the hell are you!?{06}{07}
+You humans
+are challenging us!?{06}{07}
+Damn you!
+Damn you, you mean,
+powerless ... humans!{end}
+
+Ah ... I sense a dark, cold
+feeling pouring in ...{end}
+
+Ugh!
+How could I let a
+human defeat me ...{06}{07}
+I will have my revenge ...{end}
+
+Sonya!{end}
+
+She's gone.{end}
+
+Hah hah hah ...
+Enjoy the pain.{06}{07}
+You humans are not
+qualified to live on this earth.{end}
+
+Hmph ...
+I guess I still haven't
+fully recovered ...{end}
+
+Then I will go, too.{06}{07}
+{02} saved my life.
+I haven't yet
+returned the favour.{end}
+
+I'm going too.{06}{07}
+It's true that my
+sister, Sonya, cooperates
+with the Empire.{06}{07}
+As long as the Imperial Army
+exists, I can see her again.{06}{07}
+Anyway, I can't just
+let her act like that.
+No one but me seems to
+be able to stop Sonya.{06}{07}
+Even if the only solution
+is to kill her ...{end}
+
+We should hurry, too.
+It's still quite a long
+way to Baldea.{end}
+
+{02}, I'm sorry,
+but I will go with Leon.
+I know how Sonya feels ...{06}{07}
+As long as the Imperial Army
+exists, I can see her again.{06}{07}
+Anyway, I can't just
+let her act like that.
+No one but me seems to
+be able to stop Sonya.{06}{07}
+Even if the only solution
+is to kill her ...{end}
+
+Leon!
+Do me a favour.
+Let me go with you!{end}
+
+My name is Rohga.{06}{07}
+As a general of
+the Empire, you've probably
+heard that name before.{end}
+
+Thanks, I will surely be
+a great help to you!{end}
+
+Yes ...
+He was my father's
+best friend.{06}{07}
+I heard he died
+about ten years ago.{06}{07}
+I haven't had the chance to
+visit his grave since then.{end}
+
+Sonya!
+What the hell was that?{06}{07}
+Gentle Sonya
+couldn't do this!{06}{07}
+Why ...?
+Damn!{end}
+
+Excellent work, {02}.
+Though you're an enemy,
+I commend you.{end}
+
+Thanks.
+I'm grateful.{end}
+
+No, you don't need to thank me.{06}{07}
+As leader of the Blue Dragon
+Knights, I just could not
+stand what she was doing.{end}
+
+I understand.
+By the way, how is your wound?{end}
+
+You're a strange man
+indeed to worry about
+an enemy's wound.{end}
+
+Leon ..., I have a
+question for you.{end}
+
+Ask.{end}
+
+Why would a man like you, a
+man who hates these empty,
+pointless wars, join the army?{06}{07}
+You know that war only
+brings sadness, don't you?{end}
+
+I can't stand it.
+Seeing women and children
+sacrificed on the battlefield ... {06}{07}
+Someone has to take action to
+rid the world of war.
+If you hope for peace from the
+sidelines, it will never come.{06}{07}
+The only way war will ever
+end is when the continent
+is unified under one man ...
+Even through bloody conquest.{06}{07}
+Surely it might not be
+called true peace ...
+But it must be better than
+this war-torn age.{end}
+
+I'm not saying that
+you're wrong, ...
+but it's not so simple.{06}{07}
+I don't think there's
+such a thing as good or
+evil in war.{end}
+
+You and I have had different
+ideas from the beginning,
+but remember my words!{06}{07}
+For all your good intent,
+you yourself have sent
+countless Imperial soldiers
+to their graves.{06}{07}
+We are not the only
+ones who have created
+orphans by this war.{end}
+
+Farewell, {02}!{end}
+
+That's one way of looking at it.{end}
+
+{02} ...!
+One man's strength alone can't
+rid this continent of war.{06}{07}
+The unity of El Sallia
+under a strong state could
+stop this pointless bloodshed.{06}{07}
+What do you think?
+Will you join my side in
+ending this war-torn era?{end}
+
+Will you join Leon's side?{end}
+
+Surely the world will know
+peace under the rule of a
+single, strong nation ...{end}
+
+Everyone, ... {06}{07}
+here I must say farewell.
+I'm going with Leon.{end}
+
+What!?
+{02}, are you leaving
+us to join the Empire?{end}
+
+Yes.{06}{07}
+The best way to calm
+this war-shattered world
+is to unify it under a
+strong, central nation.{06}{07}
+The Empire has the
+power to do that.{06}{07}
+Moreover, Leon doesn't
+seem like a man who fights
+for greed or self-interest.{06}{07}
+I'll lend the Empire
+my strength.{end}
+
+Wait, {02}!{06}{07}
+The Empire has joined the
+hands of darkness.
+True peace can't be obtained
+through evil means.{06}{07}
+Please!
+Reconsider your decision!{end}
+
+Will you fight on Leon's
+side against Liana's wishes?{end}
+
+Sorry, Liana.
+Please understand.{06}{07}
+Power is necessary to
+create a peaceful world.{end}
+
+I won't understand!
+Never!{06}{07}
+Peace can't be obtained
+through power!
+Use of force will only
+bring greater sadness!{06}{07}
+Besides, Alhazard can't be
+controlled by a human being!{end}
+
+I've already decided.
+Goodbye, Liana ...{end}
+
+{02} ...{06}{07}
+One day ... One day you
+will understand what I mean.{06}{07}
+I'm sure of it ...{end}
+
+That's true.{06}{07}
+Real peace isn't about
+controlling war with power.{06}{07}
+It's about everyone
+understanding and ending
+their quarrels.{end}
+
+Sorry, Leon. I can't
+go with you.{end}
+
+{02} ...{06}{07}
+Then from now on, we're
+fighting on opposite sides ...{end}
+
+Cherie ...{end}
+
+Hmph!
+I've misjudged you.{06}{07}
+Your ideal isn't something that
+can be realised so easily!{06}{07}
+Later!{end}
+
+I thought you wouldn't
+misjudge what's essential ...{06}{07}
+I'm sorry ...{end}
+
+...{end}
+
+What will we do now?{end}
+
+We must obtain Langrisser.
+The revival of Alhazard
+mustn't be disturbed.{end}
+
+Laird!{06}{07}
+I leave you in charge of
+the Blue Dragon Knights.
+Take them and seek
+out Castle Baldea.{end}
+
+Yes, Sir!{end}
+
+Have Laird go first to look
+for Castle Baldea.{end}
+
+Good idea ...{end}
+
+It must be this village ...{end}
+
+"The Holy Priest,
+Ikreuz, rests here ..."{06}{07}
+I knew it would be here.{end}
+
+You knew Ikreuz?{end}
+
+I see ...{end}
+
+Yes ...
+He was a nice, gentle man.{end}
+
+Yeah ...{end}
+
+Were you an
+acquaintance of his?{end}
+
+I see.{end}
+
+We're working together
+from now on.
+You've requested it.{end}
+
+Leon joins the entourage!{end}
+
+It's time to depart.{end}
+
+Yes.
+Let's go to Castle Baldea.{end}
+
+Bye, {02}.{end}
+
+Bye, {02}.{end}
+
+From now on,
+we'll meet as enemies ...{end}
+
+Yeah ...{end}
+
+Too bad.
+I thought we could fight
+on the same side.{06}{07}
+Farewell, {02}!{end}
+
+He's gone ...{end}
+
+We can't just stay here.
+Let's go to Baldea!{end}
+
+You've helped us, and we
+must thank you somehow.
+Please, take this.{end}
+
+{02} was handed 300P!{end}
+
+We've got trouble!
+It's the Blue Dragon Knights!{end}
+
+Leon and Laird?
+At a time like this ...{end}
+
+What!?
+Leon?{end}
+
+General Leon!
+The enemy's here.{end}
+
+Yes.{06}{07}
+I came here only because
+something seemed amiss ...
+I didn't expect to meet them
+in a place like this ... {end}
+
+Crap!
+Isn't that Leon of the
+Blue Dragon Knights?{end}
+
+If you collaborate with the
+Empire, then don't do
+anything to disgrace its name!{end}
+
+Shut up!
+Stop commanding me!{end}
+
+Troublesome girl ...{end}
+
+General Leon, this
+is in our favour.{06}{07}
+Let's avenge our last
+conflict by helping the girl
+of the demon tribe!{end}
+
+Laird ...
+Have you forgotten the
+Code of Chivalry?{06}{07}
+Why would we attack
+people who protect
+helpless villagers?{06}{07}
+In the name of the
+Blue Dragon Knights, I can't
+drag innocent
+people into our war.{end}
+
+But, General Leon, 
+we of the Empire are allied
+with the demon tribe.{06}{07}
+It's not a good idea to
+fight against them.{end}
+
+I don't care!
+I'll take all responsibility!{end}
+
+{02}, was it?
+So you're the ones who
+protected the villagers.{end}
+
+Yes, that's right.{end}
+
+That girl leading
+the monsters is an ally
+of the Empire.{end}
+
+So you're going to take
+revenge on us for her?{end}
+
+No, I want to express
+my gratitude.{06}{07}
+We have no intentions of
+killing helpless people.
+I would have stopped her
+if you hadn't.{end}
+
+I see ...
+Do as you like.{end}
+
+You're a mercenary?
+What is your name?{end}
+
+So, you're Rohga?
+I've heard that you're a
+skilful mercenary.{06}{07}
+Okay, you have permission.
+I'll be glad to have you with us.{end}
+
+Stop it, Sonya!{end}
+
+Who's calling my name?{end}
+
+Have you forgotten
+what I look like?{end}
+
+My brother ...
+My brother Rohga!?{end}
+
+Sonya, it's you after all!?{06}{07}
+It's important you
+stop attacking the
+villagers right now!{end}
+
+Why?
+Why should I stop?{06}{07}
+Brother, you too are
+on the humans' side ...{end}
+
+I've been searching for
+you for a long time.
+I ...{end}
+
+I knew it!
+Brother, you're too human!{end}
+
+Sonya!{end}
+
+I want all humans
+to be destroyed!{06}{07}
+I'll never, ever
+forgive your kind!{end}
+
+Sonya!
+Wait, Sonya!{end}
+
+She's gone.{end}
+
+Sonya!
+Stop killing the villagers.
+I'll kill you if you don't stop!{end}
+
+Stop commanding me, brother.
+I've heard enough!{end}
+

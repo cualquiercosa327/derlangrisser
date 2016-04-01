@@ -1,0 +1,448 @@
+Everyone, listen up!
+I'm ordering
+a full evacuation.{06}{07}
+This town will soon become
+a battlefield. Please
+leave as soon as possible.{end}
+
+What about you, Princess
+Cherie? Aren't you coming?{end}
+
+I must remain and fend
+off the Empire. We can't let
+them get Langrisser.{06}{07}
+Forgive me, everyone ...
+I didn't want the
+war to come here, but ...{end}
+
+Princess ...{end}
+
+If you don't leave
+you'll be caught in the melee!
+Everyone, please hurry!{end}
+
+I'll handle the protection
+of the villagers, Princess!{end}
+
+Eh ...!{end}
+
+Princess, we've
+spotted the enemy!{end}
+
+All right! Everyone get
+into position and
+prepare for the ambush!{end}
+
+Well well, what do we have
+here? It seems Cherie has
+decided to stage an ambush!{end}
+
+The civilians are still
+evacuating. What should
+we do, {02}?{end}
+
+What a royal pain in the ass.
+I say we just take
+the civilians out as well.{end}
+
+I will have
+none of that talk.{06}{07}
+Our aim is to forever rid
+this world of bloodshed.
+The killing of innocents goes
+against His Majesty's wishes.{end}
+
+Exactly. We can't let our
+troops harm the civilians.{end}
+
+So you've come, {02}!{06}{07}
+Even though you may be a 
+Descendant of Light, I won't
+give up Langrisser to you!{end}
+
+We will see about that!
+Let's go, Cherie!{end}
+
+Despite the situation,
+this town's layout is
+perfect for an ambush.{end}
+
+Fighting in the streets will
+restrict our movement.{06}{07}
+Be careful when moving
+your subordinates.{end}
+
+You're right.
+We should take extra care
+concerning the cavalry.{end}
+
+What about the
+Serpent Knights?{end}
+
+If we engage water units
+on land, we should be okay,
+wouldn't you think?{end}
+
+Yes, we should be.{end}
+
+What's the matter? Is the
+little pink princess giving
+our Generals some trouble!?{end}
+
+General Vargas?{06}{07}
+Well, if you look
+closely, the situation is
+more troublesome than
+we had anticipated.{end}
+
+If I left my fellow
+officers in this mess, I
+wouldn't be fit to look my
+newborn child in the eye!{06}{07}
+Hmph, I guess I'll
+just have to rescue you, then!{06}{07}
+Gah hah hah!
+Here I come, girlie ...
+Get ready for a knock out.{end}
+
+General Vargas ...{end}
+
+Heh, don't think that
+I've forgiven you
+for what you've done!{06}{07}
+However, if it is the will of
+His Majesty for me to help you,
+then I shall follow your orders.{06}{07}
+That's the duty
+of any soldier.{06}{07}
+But that's as far as our
+alliance goes! If it even
+looks like you might betray us,
+I'll cut you down.{end}
+
+Hey, you little punks!
+I've heard the news, from now
+on let's be friends!{end}
+
+Vargas joins the entourage!{end}
+
+Hmmm, ... such strong allies.
+Finally a group
+worthy of my strength.{end}
+
+And a little dangerous.{end}
+
+He sure has a
+heart for battle,
+don't you think?{end}
+
+So even General Vargas
+is here ... That really puts
+us into a bind.{06}{07}
+But I don't plan on letting up.
+You'll never get by me!{end}
+
+I am a spirit of the water.{06}{07}
+
+I will bestow upon
+you wonderful power.{06}{07}
+
+What would you
+request of me?{end}
+
+Increase AT and DF{end}
+
+Increase MP{end}
+
+Increase Magic Resistance{end}
+
+AT raised by 1 point!
+DF raised by 1 point!{end}
+
+MP raised by 5 points!{end}
+
+Magic Resistance raised!{end}
+
+Put down your sword, Cherie!
+I don't want to hurt you!{end}
+
+That's my line!
+If you surrender now,
+I'll forgive you!{end}
+
+I have no choice ...
+Here I come, Cherie!{end}
+
+{02}, why, why have
+you teamed up with
+the likes of the Empire?{end}
+
+For peace.  I've always fought
+to end war, and this seems the
+best way to go about that.{end}
+
+So you're saying that if you
+stayed with us, we couldn't
+create a peaceful society?{06}{07}
+Don't you dare say
+such a thing, {02}!{end}
+
+Im, impossible ...
+That it should ...
+end this way--{end}
+
+Cherie, please give up. 
+You'll only hurt yourself
+further if you continue.{end}
+
+Don't insult me!
+Do you really think
+you can best me!?{end}
+
+I'm sorry, I failed ...{end}
+
+If you mess with us,
+you'll get hurt!{end}
+
+You're in the way!
+Move it!{end}
+
+Damn!
+Sorry!{end}
+
+Heh, how futile ...{end}
+
+Even though you
+may be a woman, I won't
+go easy on you!{06}{07}
+Prepare yourself!{end}
+
+For me to have fallen ...{end}
+
+Have at you!{end}
+
+Hmph, what a spirited
+princess you are.{end}
+
+I wonder if you can even
+come close to beating me.{end}
+
+How dare you!{06}{07}
+I have no choice. 
+I'm out of here!{end}
+
+Let me see how
+serious you are!{end}
+
+Let's go,
+young wench!{end}
+
+Brute strength is
+no match for experience!{end}
+
+Argh! It's not over ...{end}
+
+Vargas!{06}{07}
+If anything happens to you,
+Lady Eliza will not forgive us.
+Please, pull out of here!{end}
+
+Vargas, please
+get out of here.{06}{07}
+But next time you are needed,
+please lend us your strength!{end}
+
+Guys, sorry ...
+Thanks for
+covering my hide.{end}
+
+I'm really sorry.
+To chase you out of your
+homes like this ...{end}
+
+Oh, no.{06}{07}
+We are happy to do
+as you request, Princess.{06}{07}
+But isn't it possible
+that we might be killed
+while escaping?{end}
+
+It's all right.{06}{07}
+If {02} is here,
+he'll make sure no one
+lays a finger on you.{06}{07}
+The Empire may be an enemy,
+but marauders they are not.
+Their aim is peace,
+much like ours is.{06}{07}
+Now, hurry and
+get out of here!{end}
+
+Very well.{end}
+
+We're saved.
+Princess Cherie,
+please be safe!{end}
+
+There's no
+need to worry!
+Take care.{end}
+
+Thank you very much.{end}
+
+Whew! We're
+praying for your
+victory, Princess!{end}
+
+Thank you.
+I'll do my best!{end}
+
+Farewell, Princess Cherie.
+Please, don't die on us ...{end}
+
+It seems as if I'm
+all alone, doesn't it?{06}{07}
+For once in my life,
+I wish I'd paid more attention
+to all those boring old 
+strategy books.{06}{07}
+But I guess I'll just make
+do. I'll try my
+hardest from here on out!{end}
+
+Ooh ...
+Any more and
+I'm toast.{06}{07}
+No choice but to flee.{end}
+
+Hmm?
+It seems as if we
+were too late.{end}
+
+Yeah, we all put
+our backs into it, heh.{end}
+
+That should be the end of it.
+So why aren't we off
+to chase the enemy, already?{end}
+
+Vargas, your help today
+was much appreciated.{06}{07}
+Please return to Lady Eliza
+quickly, for her sake.{end}
+
+Vargas, the fight
+is already over.{06}{07}
+Return and
+watch over Eliza.{end}
+
+That's right.{06}{07}
+Too much anxiety can be
+hard on a woman, particularly
+considering what she's
+going through.{end}
+
+Heh, seems you won't
+accept my help under these
+circumstances, eh?{end}
+
+There's no need to worry.{06}{07}
+This is for a glorious
+child of the Empire.{end}
+
+Guys, I'm sorry.{06}{07}
+Once the child is born,
+I'll rush back to fight with you.
+Until then, stay safe.{end}
+
+Vargas leaves the entourage ...{end}
+
+It's over ...{end}
+
+General Leon!{end}
+
+Colonel Laird has
+discovered Castle Baldea!{end}
+
+I see. So he found it ...
+Good work.{end}
+
+Castle Baldea?
+Finally, we'll get our
+hands on Langrisser.{end}
+
+Onward!{06}{07}
+I'll trust you in
+leading the way!{end}
+
+Yes, Sir!{end}
+
+Don't let the
+enemy through!{end}
+
+Not ... yet ...{end}
+
+I entrust you with
+escorting the villagers
+out safely!{06}{07}
+Take care that they
+don't get caught up
+in the battle!{end}
+
+Understood!{end}
+
+Mission complete.
+Now we're off
+to join the battle!{end}
+
+Okay!
+But don't go overboard!{end}
+
+Understood!{end}
+
+Take no prisoners!{end}
+
+Ugh, very good ...{end}
+
+Woah!{end}
+
+To die in such ...
+a ... place--!{end}
+
+You mock me!
+However, don't think that
+alone shall get you past!{end}
+
+Aim for the enemy's
+weak point and attack
+at once! Now, go!{end}
+
+Ugh!{end}
+
+Gaahh!{end}
+
+Let's go!
+Chase them from
+this village!{end}
+
+Im, impossible ...{end}
+
+No ...{end}
+
+Is, is this the end ...?{end}
+
+General Vargas,
+shouldn't you be
+with Lady Eliza?{06}{07}
+The birth of your child
+is a very important time.{end}
+
+These eyes saw
+one set escape.{06}{07}
+There should be
+one more left ...{end}
+
+With this, the civilians
+should have left
+the village safely ...{end}
+

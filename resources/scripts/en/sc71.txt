@@ -1,0 +1,519 @@
+Your Majesty,
+how are you faring?{end}
+
+Excellent, excellent.{06}{07}
+Egbert, your treatment
+is effective as ever.{06}{07}
+Though I must admit, having
+that rogue {02} out of
+the way is as much a relief.{06}{07}
+Gather your fellows, Egbert.
+Let us discuss our next move.{end}
+
+Your Majesty, ...{06}{07}
+It pains me to say this,
+but we could not ...
+we did not rout {02}.{06}{07}
+Vargas and Imelda fought
+and died honourably,
+their sacrifices exalt us.{06}{07}
+Leon and His Majesty's
+Blue Dragon Knights meet
+{02} outside our gates.{06}{07}
+I do not know
+whether he succeeds.{end}
+
+Egbert, I thank you
+for your honest appraisal.{06}{07}
+Your Kaiser's strength has
+failed him, and for that,
+he burdened his Empire.{06}{07}
+Damn this, Egbert.
+Was I so weak?
+Was my Empire ...?{end}
+
+Your Majesty ...
+Well, that is to say ...{end}
+
+I, I bring distressing news!{end}
+
+What has happened?
+Out with it!{end}
+
+General Leon has ...
+He has fallen at the
+castle gates!{end}
+
+Bernhardt, Bernhardt ...
+You're a slippery fellow.{end}
+
+I've located the last twigs
+propping up the Imperial shack.
+Time to kick you away.{end}
+
+Your death has been
+a long time coming.{06}{07}
+Don't be too surprised
+when I slit your throat.{end}
+
+Ah, the arrogance
+and fire of youth ...{06}{07}
+Save your words and
+face me with armament.{06}{07}
+I may not look it now,
+but I was once a soldier,
+and a good one at that.{06}{07}
+You shall learn how worthy
+of my generals I am!{end}
+
+So, come!
+I will fell you!{end}
+
+Heh heh heh ...
+I have waited for this.{end}
+
+That voice ...!{end}
+
+Yes, I'm here.{06}{07}
+A good vigour, old man.
+You'll make this most fun.{end}
+
+B{3a}ser ...{end}
+
+B{3a}ser, withdraw.
+We will handle this.{end}
+
+Yeah, do you think we
+can't handle a washed up
+soldier and his fan club?{end}
+
+Hmmm ...
+I had hoped to join in
+the merriment ...{06}{07}
+But, I suppose I can
+give you this gift.{06}{07}
+Enjoy the slaughter.
+I'll await you in Velzeria.{end}
+
+Now, Bernhardt,
+make your peace.{06}{07}
+You've few words left.{end}
+
+{02} ...
+Hold it ... there ...{06}{07}
+The Knights ... will ...
+stop you from ...
+Reaching ... H, His Majest--{end}
+
+Leon!{end}
+
+What is this?
+Those wounds should have ...{end}
+
+What a guy ...{end}
+
+My god ...!
+Leon, you've done enough.{06}{07}
+As your Kaiser I
+dismisses you
+from your sworn oath.{end}
+
+N, no ... Majesty ...
+Please allow a dying Knight ...
+th, this last request ...{end}
+
+Leon, I ...
+I am deeply moved
+by your loyalty.{06}{07}
+Now, let's show
+these brigands to their hell!{end}
+
+I thank you, ... Sire.{end}
+
+As you open the treasure chest,
+you find a stone inside.{06}{07}
+
+Will you take the stone?{end}
+
+The stone radiates
+a mysterious power.{end}
+
+Obtained Rune Stone.{06}{07}
+
+You hear the turning of a lock.{end}
+
+As you open the treasure chest,
+you find a crimson lance inside.{06}{07}
+
+Will you take the lance?{end}
+
+Obtained Inferno Lance.{06}{07}
+
+You hear the turning of a lock.{end}
+
+The Empire's final
+curtain draws.{end}
+
+As if I would be felled
+by mere demons!{end}
+
+Im, impossible ...{end}
+
+Victory here ...? Fate must
+have been on our side.{06}{07}
+Onward to Velzeria
+and the end of B{3a}ser!{end}
+
+Gah ...!{end}
+
+Leon, you can
+barely walk, and you're
+still trying to fight?{06}{07}
+You're a loyal knight.
+We get it.{06}{07}
+Spare us the shame of
+killing a cripple.{end}
+
+Those words only ...
+strengthen my ... resolve ...{06}{07}
+Hah hah hah ...
+Maybe I won't share ...
+your Hell, {02} ...{end}
+
+Argh! Damn it ...
+Just a little bit longer--!{end}
+
+Damn! I was ...
+I was useless--!{end}
+
+Ow--!{end}
+
+Sonya, stop fighting
+or you'll surely die!
+Retreat now!{end}
+
+O, okay ...{end}
+
+{font3}Uuuggghhh!{end}
+
+{font3}Awwwooo!{end}
+
+Why did you come?
+Do you not know futility?{06}{07}
+You might have lived
+in the shadows, at least.{end}
+
+I will never think like that.
+Our dreams, our goals ...
+I am merely their servant.{end}
+
+All who face the dark
+will meet bloody death!{end}
+
+Uuggh--! {02},
+I trust you'll handle ...
+what's left ...{end}
+
+The ... the pain--!
+I can't keep going ...{end}
+
+Liana, don't bother.
+Please retreat.{end}
+
+I am sorry,
+{02} ...{end}
+
+Ugh ... Gaahh ...{end}
+
+Your Majesty,
+those wounds!
+No, no--!{end}
+
+Everyone, ... calm yourselves.
+You cannot do ... anything
+more for your Kaiser.{06}{07}
+Aside from this, I ask ...
+How fare the Empire's men?{end}
+
+...{06}{07}
+We're doing well,
+Your Majesty.{end}
+
+I see, ... that's very good.
+All of you, I offer my thanks, ...
+for serving the Empire ...{end}
+
+What are you saying ...?
+Your Majesty and the Empire,
+they, they are the same!{end}
+
+This is my final request, ...
+No ... my final order ...{06}{07}
+Do not waste yourself ...
+Do not waste yourself
+on avenging my death ...{06}{07}
+Knights such as you ...
+exist only in legend, Leon.{06}{07}
+Please, take ... the
+glory you've earned and
+start anew ...{06}{07}
+That is ... the best
+way to serve me.
+You have as much ...
+gratitude as I can muster.{06}{07}
+{02}, ... you may,
+may have the power to carry 
+out ... my dream ...{06}{07}
+Please end the pain ...
+and suffering in El Sallia ...{06}{07}
+For an old soldier ...
+Pl, please end ... it ...{end}
+
+Your Majesty ...!{end}
+
+Your Majesty,
+please stand up--!{end}
+
+Everyone, ... calm yourselves.
+You cannot do ... anything
+more for your Kaiser.{06}{07}
+Aside from this, I ask ...
+How fare the Empire's men?{end}
+
+...{06}{07}
+We're doing well,
+your Majesty.{end}
+
+I see, ... that's very good.
+All of you, I offer my thanks, ...
+for serving the Empire ...{end}
+
+This is my final request, ...
+No ... my final order ...{06}{07}
+Do not waste yourself ...
+Do not waste yourself
+on avenging my death ...{06}{07}
+You have all ... done enough.
+I give you my thanks ...{end}
+
+...{end}
+
+{02}, ... you may,
+may have the power to carry 
+out ... my dream ...{06}{07}
+Please end the pain ...
+and suffering in El Sallia ...{06}{07}
+For an old soldier ...
+Pl, please end ... it ...{end}
+
+Your Majesty ...!{end}
+
+So ends Rayguard.
+How sad ...{end}
+
+I founded this nation
+with power, and I supplanted
+many rulers in the doing.{06}{07}
+It is inevitable that the ...
+same process should repeat.{06}{07}
+Even so, I believed I could ...
+bring an era of peace, a time
+of rest for El Sallia's people.{06}{07}
+That dream is what my men
+fought for, and I ...
+I am dearly sorry to them.{end}
+
+How misguidedly sentimental.
+They knew what they were
+in for, and they followed you.{06}{07}
+If they didn't, they were
+idealistic fools, and deserved
+to die all the same.{06}{07}
+People are responsible
+for themselves, as
+well as for their destinies.{06}{07}
+They followed just as
+I follow: by choice.{end}
+
+That may be true for
+you, {02} ... but not
+every man has your resolve.{06}{07}
+Most people have no ...
+confidence in themselves and
+no confidence in others.{06}{07}
+They will serve the first
+who asks their loyalty.{06}{07}
+They lie, cheat, and steal ...
+They cripple the very
+society they seek to enjoy.{06}{07}
+These, the commoners, ...
+will need the firm hand of
+a Kaiser and his Empire.{end}
+
+If that was your
+goal, then you should have
+gotten to it sooner.{06}{07}
+Rest easy, we'll bring
+order to this world.{end}
+
+Yes, I know your intent, ...
+but remember this ...{06}{07}
+Darkness and peace are ...
+not compatible ideals.{06}{07}
+On your path, misery and
+bloodshed will ... be the ...
+true rulers of this land.{end}
+
+Ah, now, now ...
+I see where
+you went wrong.{06}{07}
+Your mistake came the
+moment you chose to try and
+save the weak from their
+own dangerous stupidity.{06}{07}
+For them, war and
+hardship are facts of life.{06}{07}
+But, yes, those strong men
+who lord over them ...
+They just may live your dream.{06}{07}
+Observe from Hell.{end}
+
+Next come the Descendants.
+After their defeat,
+none will oppose us.{end}
+
+Last on our list are those
+pathetic Descendants of Light.{end}
+
+Lord B{3a}ser's ideal world
+will soon arrive, won't it?{end}
+
+Everyone, this
+will be our last battle.{06}{07}
+Gather your will and
+let us move out!{end}
+
+Darkness will not prevail.
+I have worked too long
+and hard to see otherwise!{06}{07}
+You see, for that purpose,
+I ... Well, for once, I shall
+spare you a speech.{06}{07}
+Of course, this is provided
+you kindly succumb.{end}
+
+I sacrificed ... everything ...
+to fight the darkness ...{06}{07}
+And even with all my power ...
+Even with my studies ...
+I could not pro... protect ...{06}{07}
+I could not protect
+His Majesty ...
+or even our Empire.{end}
+
+Egbert, please spare
+yourself the criticism.{06}{07}
+You were an excellent
+counsel to Empire and Kaiser.{06}{07}
+Die well and rest in peace.
+I shall join you very soon.{end}
+
+Grr ... Argh ...{end}
+
+Leon, don't fight any more!
+This time you really will die!{end}
+
+That does not matter ...
+I have pledged my life
+to His Majesty's Empire.{06}{07}
+My word is my bond, ...
+and I shall not stray from it!{end}
+
+Leon ...{end}
+
+If I puzzle you, ...
+I'm not terribly sorry.{06}{07}
+In fact ... If my actions grieve
+the forces of darkness ...
+I will persist wholeheartedly!{end}
+
+Have at you, {02}!{end}
+
+Leon, enough already!
+You're a walking corpse.{end}
+
+I'm fighting for the sake ...
+of all mankind ...{06}{07}
+Don't make me speak.
+I will save my energy for
+finishing you ...!{end}
+
+Uugghh--!{06}{07}
+I will ... I will--!{end}
+
+Farewell, Leon.{end}
+
+Farewell, Leon.
+You were formidable.{end}
+
+No ... Now Leon ...
+How many people will
+die for our purposes?{06}{07}
+My enemies, my friends ...
+everyone has died for me ...{06}{07}
+But I will fight ...
+I will fight for
+those who remain!{end}
+
+I'm sorry, L{37}na.{end}
+
+P, protect his Majesty ...{end}
+
+Ah!{end}
+
+Let's go.
+Attack!{end}
+
+There's no need to rush.
+We should exploit this
+castle's strategic advantage.{06}{07}
+We didn't choose it
+for its looks.{end}
+
+Yes, Sir ...
+I understand.{end}
+
+Gaahh--! No ...
+T, take care of the rest!{end}
+
+Your next
+opponent shall be me!{end}
+
+Ugghh--!
+N, no good ...{end}
+
+Glory to the Empire!
+Glory to our Kaiser!{end}
+
+C, crap!{end}
+
+Aaahhh!{end}
+
+Looks like ... the end ...
+Grr ... Uugghh!{end}
+
+My magical power ...
+It's fading ...{end}
+
+I thought I would be ...
+of far more use ...
+If I didn't, I would have ...{end}
+
+Cease speaking, Egbert.
+I enjoined you to
+serve, not otherwise.{06}{07}
+And nobody could have
+foreseen what has passed.{end}
+
+Your Majesty ...{end}
+

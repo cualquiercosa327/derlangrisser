@@ -1,0 +1,501 @@
+The Dark Rod is still here.
+Perhaps there's time ...{end}
+
+{font3}You who trespass
+upon these forbidden
+grounds, leave now!{06}{07}
+{font3}This is a sacred place
+which no one may enter.{06}{07}
+{font3}Should you intrude,
+know well that your
+lives will end here.{end}
+
+What are these creatures ...?{end}
+
+They appear to be ancient
+Guardians, ... beings that exist
+only to protect the Dark Rod.{end}
+
+Then they would prevent
+Egbert from taking the
+Dark Rod as well?{end}
+
+No ...
+The Guardians are not
+powerful enough to stop him.{end}
+
+If that's the case, then we
+must defeat them and claim
+the Dark Rod first!{end}
+
+Hein, that's far too reckless.{06}{07}
+Maybe if our opponents were
+another group of soldiers ...,
+instead of these undead terrors.{end}
+
+I still cannot believe
+that, once upon a time, Egbert
+was Jessica's apprentice.{end}
+
+Before my rebirth, he
+had been studying magic
+under my direction.{06}{07}
+Gradually, Egbert became
+obsessed with finding ever
+more powerful magic ...{06}{07}
+After he ceased to be my
+student, he joined
+Kaiser Bernhardt to build
+the Rayguard Empire.{end}
+
+With the Kaiser's and my
+combined strength, uniting
+the continent is a simple task.{06}{07}
+If we can unleash Alhazard,
+we will wield such a power
+that the rule of our Empire
+shall never be challenged.{06}{07}
+Our dream of continental
+conquest will become a reality.{end}
+
+Egbert, ...
+your words make me regret
+ever making you my student.{06}{07}
+At least I can still redeem
+my error by halting your
+evil ambitions here!{end}
+
+Another time, perhaps, master.
+I must return to Rayguard
+so we may revive Alhazard.{06}{07}
+Arguing with you is something
+I currently have no time for.{end}
+
+Ah, the young ones!
+So this is where you fled.{end}
+
+General Vargas!?{end}
+
+You there, boy!
+I've been looking for you ...
+I shall avenge Zorum's death!{end}
+
+Just great!{06}{07}
+First, we are forced to battle
+a shrine full of undead
+Guardians while Egbert steals
+away with the Dark Rod ...{06}{07}
+Now Vargas is here
+with an axe to grind
+over a subordinate who
+was too foolish to retreat ...{end}
+
+First, we get stuck in a shrine
+full of undead Guardians while
+Egbert steals the Dark Rod ...{06}{07}
+Now Vargas is here
+with an axe to grind
+over a subordinate who
+was too foolish to retreat ...{end}
+
+Stop complaining
+and start fighting!{end}
+
+Heh, ...
+as I expected, the Guardians
+were no match for you.{end}
+
+Egbert!{end}
+
+It seems you've beaten
+some of the Guardians.{06}{07}
+I guess I should be
+polite and say thanks.{end}
+
+Any power can be
+controlled when in the
+hands of a competent user.{06}{07}
+Isn't that what you
+used to say, Jessica?
+Or would you rather I still
+call you my master?{end}
+
+That's right.{06}{07}
+However, that son of a
+bitch vanished right
+after Jessica's rebirth.{end}
+
+Ha ha ha ...{06}{07}
+Oh Lester ...
+Sadly, I have more aims
+in life than to play babysitter
+for a seven-hundred-year-old.{end}
+
+Hmph, ...
+same sarcastic fuck as ever ...{end}
+
+"The Muscular Shrine ...?"
+What could this mean?
+I guess we'll find out later.{end}
+
+Obtained Rune Stone.{end}
+
+Excellent work, but I still
+cannot give you the Dark Rod.{end}
+
+Gah--!
+Is this the end ...?{end}
+
+Gah--!
+Th, their ancient magic
+is incredibly powerful!{end}
+
+No ...
+I cannot lose here--!{end}
+
+Curses ...
+That was a mistake.
+Sorry, but I must retreat ...{end}
+
+Gahh--!
+Sorry, I overestimated myself{end}
+
+I'm here to protect Jessica!
+You bastards won't
+lay a hand on her!{end}
+
+Hmmm ...,
+Lester, do you really
+have so much power?{end}
+
+You sure have a big mouth.
+Let's find out if my fist fits!{end}
+
+Damn!
+Not bad ...{end}
+
+Jessica, stay where you are!
+It's too dangerous to enter.{end}
+
+It's true that I haven't fully
+recovered my power yet ...{06}{07}
+However, I still have more than
+enough strength to help you!
+Just watch!{end}
+
+Egbert!
+Prepare yourself!{end}
+
+Hmmm ...
+Jessica, give up!{end}
+
+Eeek ...
+If only I had a little
+more time ... just a little--!{end}
+
+I can fight, too!{end}
+
+It shouldn't have
+been like this ...{end}
+
+Liana, are you okay?
+Please leave this to us.
+Just hide somewhere safe.{end}
+
+I'm so sorry ...
+I had said I wouldn't be
+a burden, but ...{end}
+
+Hah hah hah ...
+Attacking me is but a
+waste of your power.{end}
+
+Hmmm ...
+Could such a plain trinket
+truly be the Dark Rod?{end}
+
+Egbert!
+Stop!{end}
+
+Shut up!
+Wait, ... who are you!?{06}{07}
+Ahh, ... I see.
+The winged circlet of Baldea.
+A Descendant of Light ...{end}
+
+A descendant of what?
+What are you talking about!?{end}
+
+Before I left Rayguard, 
+I was warned that the
+Descendants of Light
+would hinder me ...{06}{07}
+I guess they were wrong,
+for the Dark Rod is already
+mine! Ha ha ha!{end}
+
+Egbert! Stop!{end}
+
+What on earth is this ...{end}
+
+{font3}Groan ...
+So many fools have
+come today.{06}{07}
+{font3}None who set foot
+within this sacred shrine
+shall be forgiven!{06}{07}
+{font3}You will all die here.{end}
+
+{font3}Die, fools who
+dared enter this
+forbidden palace!{end}
+
+{font3}A reckless human ...
+to pick a fight with
+one such as I.{06}{07}
+{font3}I will show you the
+experience of eternity.{end}
+
+{font3}Impossible--!
+I cannot be ... defeated--{end}
+
+{font3}Whelp!{end}
+
+{font3}Awooo ...{end}
+
+{font3}Splurt!{end}
+
+{font3}Glurg!{end}
+
+{font3}Rest ...
+At last ....{end}
+
+{font3}Finally, some rest ...{end}
+
+{font3}No!
+Anything but that!{06}{07}
+{font3}Zapp!{end}
+
+{font3}Thank ... you ...{end}
+
+Zorum ... wait for me!{06}{07}
+Before this day is done, these
+children's heads will rest on
+your grave as an offering!{end}
+
+That's for Colonel Zorum!
+I'll send you to hell!{end}
+
+Ugghhh ...
+I can't die yet!{06}{07}
+One day ... I will surely
+avenge Zorum!
+Enjoy what little remains
+of your lives!{end}
+
+Hmm!
+You're doing quite well!{end}
+
+{font3}The thieves are
+stronger than I
+had expected ...{end}
+
+What!?
+Egbert was once one
+of Jessica's students?{end}
+
+Egbert ...,
+you must understand how
+dangerous Alhazard is ...{end}
+
+I detest being called master
+by one who has become so
+corrupted by lust for power!{end}
+
+...{06}{07}
+This is the end ...
+Langrisser is our only hope.{end}
+
+Regardless, the Dark Rod
+is in the hands of the Kaiser.{06}{07}
+All that he needs now
+is a catalyst to release
+the sword's true power.{end}
+
+Even so, the Guardians
+have awoken and will not
+return to their rest.{06}{07}
+If we leave without defeating
+the Guardians, they will
+massacre the villagers at the
+foot of the mountain.{end}
+
+With the Dark Rod in their
+hands, it's only a matter of time
+before Alhazard is unsealed.{06}{07}
+In all this world, only one
+thing can stand against the
+fully-powered Alhazard:
+Langrisser, the Sword of Light.{end}
+
+Langrisser is sealed within
+the halls of Castle Baldea ...{06}{07}
+However, ... the castle vanished
+long ago from the eyes of man.{end}
+
+Castle Baldea ... I've read
+of it in old manuscripts in
+Estool's Shrine of Light.{06}{07}
+I may have an idea
+where it rests today ...{end}
+
+Then I entrust Liana to be
+your guide to Castle Baldea.{06}{07}
+In the meantime, I'll try to
+persuade other countries
+to join in opposing the Empire.{end}
+
+The banner of Kalxath
+should be a good rallying point
+for anti-imperial nations.{end}
+
+No ...
+You must go to Baldea as well
+to fight the Empire.{06}{07}
+If the Empire is planning to use
+Alhazard, then they cannot
+ignore the threat Langrisser
+poses to their goals.{06}{07}
+Before leaving for Baldea, we
+should mass our forces.
+Lester, I want you to go
+with them to Baldea.{end}
+
+Lady Jessica, you
+know I can't ...{end}
+
+Lester, worry not about me.
+I can defend myself.{06}{07}
+Right now, all the people
+of El Sallia are at risk.
+Defend them instead.{end}
+
+I understand ...
+Then I'll go with
+{02} to Baldea.{end}
+
+Liana,
+I can feel a great power
+emanating from you.{06}{07}
+I am still uncertain what it is,
+but you must be more confident.
+You are stronger than
+you yet realise.{end}
+
+Hurry then ...
+to Baldea! Go before the Empire
+can obtain Langrisser!{end}
+
+Farewell, everyone.
+Take good care
+of yourselves ...{end}
+
+The Dark Rod was stolen.{end}
+
+Oh, no!
+Stop him before he takes
+the Dark Rod!{end}
+
+You are too late!{end}
+
+It's hopeless ...
+We can't stop him!{end}
+
+Now that I have the Dark Rod,
+I can report to his majesty.{06}{07}
+Descendants of Light,
+we shall meet again.
+That is, if you live that long ...{end}
+
+Wait!{end}
+
+Heh heh heh ...{06}{07}
+I'll defeat Jessica one
+day, but not now.
+A victory over her in such a
+feeble state is no victory at all.{06}{07}
+Farewell.{end}
+
+Damn!{end}
+
+Shit, ... he escaped.
+There's no longer any point in
+fighting these Guardians, right?{end}
+
+By Lushiris! I understand ...
+Egbert was even more
+clever than I had imagined ...{06}{07}
+Everyone, let's finish
+them quickly.{end}
+
+It seems we have
+vanquished them all ...{end}
+
+The Kaiser needs a catalyst ...
+What could it be?{end}
+
+I don't know either ...{end}
+
+A catalyst to unleash
+something so powerful can't
+be a simple object.{end}
+
+Hmmm ...
+You're right. This catalyst may
+not even be a "thing".{end}
+
+This truly has turned
+into a nightmare.{06}{07}
+The Dark Rod has been taken,
+and we don't know anything
+about the catalyst, either ...{06}{07}
+We should at least find out
+more about it ...{end}
+
+Langrisser!?
+The Legendary Sword!{06}{07}
+I can't believe it really exists.{end}
+
+Langrisser?
+You mean the
+Legendary Sword?{end}
+
+So, where would we
+find Langrisser?{end}
+
+Y, yes!{end}
+
+I understand.
+Let us be off.{end}
+
+We have to go to Baldea,
+but what should we do
+about the sanctuary?{06}{07}
+It may still house another
+secret behind that door near
+the strange sign.{end}
+
+Do you want to investigate it?{end}
+
+Well, we may as well
+see what's through the passage.{06}{07}
+Hmmm ...!
+It's the doorway to
+a second shrine!{06}{07}
+Maybe we can find out
+something more about
+Alhazard in there.{end}
+
+Let's go!
+It's time to head for Baldea.{end}
+

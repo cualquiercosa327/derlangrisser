@@ -1,0 +1,561 @@
+Everyone, status report.{end}
+
+We are ordained to seal
+the ruins' power without
+damaging that within.{06}{07}
+We need to do this right,
+so be patient.{end}
+
+I wish we could just break
+this place apart.
+We'd be done in a flash.{end}
+
+This place is our only
+means of contacting Lushiris.{06}{07}
+If it were destroyed, we
+couldn't speak with her,
+and that would be very bad.{end}
+
+I'm a little worried
+about Jessica ...{end}
+
+Lester, it seems meeting
+Jessica really changed you ...{06}{07}
+How did you two meet?
+Do you want to talk about it?{end}
+
+...{06}{07}
+As a kid, I sailed
+the seas with my father.
+He was a pirate.{06}{07}
+Like usual, we were
+trying to "take back"
+treasure from a bunch of
+thieves, like mercs.{06}{07}
+At one point, my father's
+shipmates fell to a rival crew,
+and our boat sank.{06}{07}
+I was only nine years old.
+I couldn't do a fucking thing
+but wait for them to kill me ...{06}{07}
+The one who saved
+me was Jessica
+in her former life.{end}
+
+So that's what happened ...{end}
+
+Jessica raised me.
+That's how I met Egbert,
+whom she cared for.{end}
+
+...?{06}{07}
+Shouldn't Egbert be
+around your age, then?{end}
+
+He's slightly older than me.{06}{07}
+His obsession with
+forbidden left a mark or
+two on that asshole's
+body, wouldn't ya say?{end}
+
+Hmmm ...{end}
+
+Before long, we all grew up.{06}{07}
+Jessica started to talk
+about using her magic to
+return as a newborn.{06}{07}
+We were kids back then.
+It ended up being a
+pretty crazy mess of things.{06}{07}
+Egbert upped and left us
+just as soon as she came back.{06}{07}
+The next time we met,
+he was under the flag of
+Bernhardt and Rayguard.{end}
+
+So, Jessica's about twenty ...
+How about you, Lester?{06}{07}
+If you were nine ..., 
+that means you're thirty!?
+Wow, I'd have never guessed!{end}
+
+...!?{end}
+
+Well, enough about that.
+They're coming!{end}
+
+Well well, this looks
+to be quite enjoyable!{end}
+
+So, you've
+finally found us.{end}
+
+Hmmm ... this place ...
+Where are we?{end}
+
+This is ...!
+This is the gate that bridges
+our world and Heaven!{06}{07}
+B{3a}ser told me about it.
+Through here, we can go to
+the home of the gods!{end}
+
+Whatever it is, it looks
+like they they're
+trying to dismantle it ...{end}
+
+Liana and Jessica
+aren't around either.{end}
+
+Perhaps they've
+used this gate and are
+searching for Lushiris.{06}{07}
+No ... We can't allow that.
+They're probably
+trying to seal Langrisser!{end}
+
+That would put
+us in quite a fix.{06}{07}
+Let's follow them through
+and hunt em' down.{end}
+
+Going through the gate
+means going through us.{end}
+
+Get out of the way.{end}
+
+Cherie, seal the gate!
+I'll keep them off you.{end}
+
+I know, I know!
+Don't overdo it, Lester.{end}
+
+Retain defensive positions!
+Keep them from the gate!{end}
+
+They've breached the entrance.
+Work as fast as you can!{end}
+
+Understood!{end}
+
+Faster, faster!
+We're almost done!{end}
+
+Move quickly.
+They're getting desperate.{end}
+
+It's all right ...
+I can bear this ...{end}
+
+Do your best!
+Just a little longer!{end}
+
+Yes, we did it!
+Jessica is safe!{end}
+
+Oh yeah, everyone!
+We've sealed these ruins!{end}
+
+Cherie, Lester, we've
+done what you've asked!
+Feel free to celebrate!{end}
+
+Langrisser's radiance is ...
+It's dimming! Damn!{06}{07}
+We wasted too much time!
+Langrisser's power
+will soon be no more ...{end}
+
+Are they trying
+to close the gate?{end}
+
+If we can't get to Lushiris,
+she'll sap Langrisser's power.
+It will become a simple sword.{end}
+
+What shall we do?
+Tell me!{end}
+
+We must restore the original
+positions of the magic
+lithographs on that altar.{06}{07}
+If we can do that, these ruins
+should start working again.{end}
+
+Ah hah!
+Then let's make haste.{end}
+
+I set the displaced magic
+lithograph on the left
+and restored its functionality.{end}
+
+I set the displaced magic
+lithograph in the centre
+and restored its functionality.{end}
+
+I set the displaced magic
+lithograph on the right
+and restored its functionality.{end}
+
+Has it been breached!?
+Guys, they're coming after us!{end}
+
+They're coming!
+Be careful!{end}
+
+Let us pass, Lester!{end}
+
+Why yes, pardon me.
+You can go right ahead.{06}{07}
+...{06}{07}
+...{06}{07}
+Are you fucking joking!?
+If you expected me to answer
+like that, then you are a
+mother-fucking moron!{end}
+
+Pull back, Cherie.
+You don't stand a chance.{end}
+
+D, don't be ridiculous!
+I won't give up so easily!{end}
+
+Then it can't be helped ...{end}
+
+Uggghh ...!
+No ... How could I ...
+I can't ... see ...{end}
+
+Farewell, {02}.{end}
+
+It was heart-breaking
+to see you go mad ...
+Goodbye, {02}.{end}
+
+Take that--!{end}
+
+You've gotten stronger,
+haven't you?{end}
+
+Then I'll test
+your strength myself.{end}
+
+Aaaahh--!{end}
+
+Are you okay, Hein!?
+This isn't over yet.
+Pull back and rest, friend.{end}
+
+Aaah ...
+Sorry ...{end}
+
+Look! Retreat now!{end}
+
+Ugh--! The pain ...{end}
+
+Don't overdo it, Rohga.
+I'll need your help later.{06}{07}
+We can finish things here.
+Go take a breather.{end}
+
+Sorry ...{end}
+
+Kill them!{end}
+
+Aaaahhh--!
+I'm ... I'm ...{end}
+
+Fool! Don't be reckless!
+If you die ...{end}
+
+Don't do anything dangerous.
+Go rest with Rohga.{end}
+
+Sorry for making you worry.
+I'll fall back for now.{end}
+
+{font3}Oooohhh ...!{end}
+
+{font3}Ugghh ... Arrgghhh--!
+Have I been beaten!?{end}
+
+Just be quiet and
+go get some rest.{end}
+
+{font3}Uggh ...{end}
+
+{font3}These humans
+smell unpleasant ...
+Why is this ...!?{end}
+
+That's because you've
+reverted to your original form.{06}{07}
+B{3a}ser's spell made you
+bloodthirsty. With him dead,
+you don't hunger for blood.{end}
+
+{font3}So B{3a}ser made
+us devour humans?{end}
+
+{font3}I'm gonna devour you!{end}
+
+Whoa ... Hey!
+What are you saying!{end}
+
+Are you all right?
+Just go get some rest!{end}
+
+Sorry ...{end}
+
+{font3}These humans
+smell unpleasant ...
+Why is this ...!?{end}
+
+That's because you've
+reverted to your original form.{06}{07}
+B{3a}ser's spell made you
+bloodthirsty. With him dead,
+you don't hunger for blood.{end}
+
+{font3}So B{3a}ser made
+us devour humans?{end}
+
+Let's go, Cherie!{end}
+
+Come at me, and
+don't hold back!{end}
+
+Won't you surrender?
+I don't particularly enjoy
+cutting down women.{end}
+
+Never! If you're too
+much of a coward, 
+then I'm going after you!{end}
+
+Well, I guess this
+was inevitable ...{end}
+
+I want to help {02}!{06}{07}
+We will create a world
+where humans and
+demons may live in harmony!{end}
+
+Humans and demons
+can never coexist!{end}
+
+I don't understand why!
+It has to be all B{3a}ser's fault!{end}
+
+I won't lose!
+Watch me over me, Keith!{end}
+
+Aaaahh--!{end}
+
+Are you okay!?
+Cherie!{end}
+
+N, no ... I can't continue ...
+I'm sorry ... everyone ...{end}
+
+Cherie!{end}
+
+How dare you ... kill Cherie ...
+I won't allow this!{06}{07}
+I'll never forgive you!{end}
+
+N, no ...
+I can't ... fight any more ...
+{02} ...{06}{07}
+How did ...{06}{07}
+How did it end up like this?
+We used to have ...
+Th, the same dream ...{06}{07}
+Those were ... good times ...{06}{07}
+It's ... going black ...
+where is ... can' t ... see ...
+don't leave me ... {02}.{end}
+
+Don't let them get in!
+If they reach the celestial
+realm, then all is lost.{end}
+
+Aaarggghh!{end}
+
+Lester, no!
+Are you all right, Lester!?{end}
+
+Heh heh ... Fuck me ...
+I'll be honest ...
+I'm not okay at all ...{06}{07}
+Keith ... my friend ...
+forgive me ... I couldn't
+protect your princess ...{end}
+
+This can't be! No!
+Lester, Lester!{end}
+
+Don't cry, ... Cherie.
+Watching you cry,
+it's ... heartbreaking.{end}
+
+Lester!{end}
+
+Farewell ...{end}
+
+You ... You!
+{02}, I'll never
+forgive you!{end}
+
+I won't let any more
+of my friends die!{end}
+
+Damn it ...!
+I can't feel anything ...{06}{07}
+You all think a
+lone woman can't do
+a thing, right?{06}{07}
+Well, I'll hold you off for
+a little while, and give Jessica
+time to drain Langrisser.{06}{07}
+I can do that much!{end}
+
+...{end}
+
+What's up, Keith.
+Are you here to welcome me?{06}{07}
+I thought you
+might loathe me for not
+protecting Cherie.{06}{07}
+Aahhh ..., I know.
+I'm going ... now ...{end}
+
+Can't you beat me!?{end}
+
+Fuck ...
+how horrible ...{end}
+
+Oh gods! Grant victory
+to my allies ... Uuggghh--!{end}
+
+T, the power of this gate ...
+We must stop them at once ...!{end}
+
+I'm dying near Heaven?
+Well, at least it won't be
+that far of a trip ...{end}
+
+What the hell
+are you saying!?{06}{07}
+You're going to live!
+Don't die on me!{end}
+
+That's one order I can't obey.
+Forgive me, Princess ...{end}
+
+Lester ...
+Sorry ...{end}
+
+Are the magic
+conduits disabled ...?{end}
+
+S, so strong ...{end}
+
+Why!?
+Why can't I win?{end}
+
+The left magic lithograph ...
+dismantling ... was a failure ...{end}
+
+Uugghh ...
+The right lithograph...
+Aaargghh--!{end}
+
+The right magic lithograph ...
+It's no good ...{end}
+
+Farewell, Lester, Cherie.
+May you rest in peace.{end}
+
+Will we move on to
+the heavens now?{end}
+
+It's onward to the heavens
+themselves, I suppose?{end}
+
+Hey, this isn't good.
+They're breaking!
+How are we going to get back?{end}
+
+Concentrate on moving
+forward.  We're committed now.{end}
+
+That's right.
+We'll finish what we've started.{06}{07}
+Let's go, even if
+a god is our enemy!{end}
+
+All right ...!
+I'm here for a status check.{end}
+
+Just a little longer!
+We're almost done ...{end}
+
+We've finished!{end}
+
+The two lithographs!
+We couldn't even protect them!{end}
+
+If they're broken ...
+as I thought, it can't be done!
+Everyone do your best!{end}
+
+It looks like we can't dismantle
+the central lithograph ...{06}{07}
+If we can't do this, I won't
+be able to look
+Jessica in the eye ...{end}
+
+{02}!{06}{07}
+If we don't hurry,
+Langrisser's energy will
+fade forever!{end}
+
+We did it!
+We've moved the magic
+symbols in order.{end}
+
+We did it!
+The ruins' are back
+in working order.{end}
+
+They've activated the ruins!
+Jessica is in danger ...{end}
+
+How could this happen,
+after all our effort?{06}{07}
+Stop them! They must
+not pass through the gate!{end}
+
+No good!
+We weren't fast enough!{end}
+
+Let's take this fight
+to the heavens themselves!{end}
+
+Yeah! Let's make a scene!{end}
+
+Damn it!{end}
+
+What have we fought for?
+The death of our friends ...?{06}{07}
+If only we'd surrendered
+when Langrisser was taken ...{06}{07}
+But ... Aaaah ...
+Nothing ... can be done ...{end}
+
+Cherie ... I'm sorry ...
+We couldn't hold them off ...{06}{07}
+Jessica, I ...
+I hope you will safe ...{end}
+

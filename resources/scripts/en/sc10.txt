@@ -1,0 +1,905 @@
+Good morning!
+Did everyone sleep
+well yesterday?{end}
+
+I slept like the dead.{end}
+
+Yes, I managed to get a good
+rest during the night.{end}
+
+I ask that you leave
+Lady Liana's safety to me.{06}{07}
+Even the Imperial Army
+would be quite unlikely to
+attack our shrine.{end}
+
+Thank you.
+Have you any idea why the
+Imperials are after Liana?{06}{07}
+Does it have anything to
+do with her work as a
+Shrine Maiden of Light?{end}
+
+...{06}{07}
+Perhaps ...
+Their goals are, as
+of yet, unclear to me.{end}
+
+There must be something
+special about Liana that the
+Blue Dragon Knights seek.{end}
+
+Great Priest!
+We're in trouble!
+The Imperial Army has arrived!{end}
+
+What--!?{end}
+
+Soldier, what business have
+you on this holy ground?{end}
+
+I am Colonel Zorum of the
+Blazing Dragon Army, the
+right hand of General Vargas.{06}{07}
+Would you be so kind
+as to hand over the tablet
+your shrine is guarding?{end}
+
+I've heard the Empire
+seeks the tablet to break
+the seal of Alhazard ...{06}{07}
+If this is true, then
+I must refuse.
+The release of Alhazard's
+power would destroy the world!{end}
+
+In that case, we'll just be
+confiscating the tablet, then!{end}
+
+Phooey, you can have the old
+man and the others, Zorum.{06}{07}
+I'm just here to have fun
+with little maidens!
+Hee hee hee ...{06}{07}
+Hmmm ...?{end}
+
+This isn't good ...{end}
+
+That blond girl seems
+somewhat familiar ...{06}{07}
+Oh! I remember now!
+If I'm not mistaken, she's the
+one General Leon's
+Blue Dragon Knights are after!{06}{07}
+How convenient! Since we're
+here, let's grab her too.
+Gwa ha ha ha ...{end}
+
+It seems we can
+never get a break ...{06}{07}
+Colonel Zorum is one of the
+Blazing Dragon Army's best.
+He's even called the right hand
+of General Vargas.{06}{07}
+Morgan isn't a nobody either ...
+He's an elite black magician
+of the Dark Dragon Sorcerers.{06}{07}
+Even alone, either of them
+would be a challenge.{end}
+
+Liana, listen carefully.
+No matter what happens,
+don't leave the shrine!{end}
+
+If that is
+what you wish ...{end}
+
+Let's go, Morgan.
+We'll take them out
+in one strike!{end}
+
+Let's not, meat for brains,
+and "Morgan" alone
+isn't enough.{06}{07}
+You will refer to me as
+"Commander Morgan!"{end}
+
+Oh no, I won't! This time,
+I'll be the one commanding.{06}{07}
+And I'll call you
+whatever I please!{06}{07}
+If you hate being addressed
+without a title, maybe I can
+find one more fitting, like
+"Widdle Morgan."{end}
+
+Bah! You annoying,
+ox-sized numb skull!{end}
+
+What was that!?{06}{07}
+I don't need to take such
+insults from a demented
+pervert with a Lolita complex!{end}
+
+Y, you ...
+Damn you!{end}
+
+Sigh ...
+It appears teamwork isn't
+their strong suit ...{end}
+
+Stop idling about!{06}{07}
+I don't care what you are or
+what you want to be called!
+I said attack, so attack!{end}
+
+Our enemies are probably
+planning to use elves.{06}{07}
+Elves are excellent bowmen
+capable of long-range
+attacks. We'll need to
+be careful in our approach.{end}
+
+Elves have rather weak
+defence, don't they?{end}
+
+Yes. We can use that to our
+advantage and quickly take
+them down with a direct attack.{end}
+
+Hmmm, ...
+their direct attack power
+is rather low as well, isn't it?{end}
+
+Yes, that's correct.{06}{07}
+Really, any unit with high
+defence should have no
+problems dealing with them
+in close quarters.{end}
+
+Is that so ...{06}{07}
+Then as long as we can
+avoid their range attacks,
+there's nothing to fear.{end}
+
+Sir Scott sounds like a master
+strategist, doesn't he?{end}
+
+You're too kind,
+I'm still just a student.{06}{07}
+My father has drummed tactics
+into me my entire life.
+Sometimes, I felt as though my
+brains would burst.{end}
+
+These guys are a
+stubborn bunch!{end}
+
+Hee hee hee!
+Thank you, I consider
+that a compliment!{end}
+
+God, you've got to be the most
+bothersome ass I've ever been
+assigned to work with.{end}
+
+Look who's talking,
+you gibbering,
+dunder-headed cretin!{end}
+
+Looks like this "stubborn"
+group bit off more than
+they could chew!{06}{07}
+You can't back out now!{end}
+
+You're not
+doing much better!{end}
+
+Ack!
+What's taking him so long!?{06}{07}
+Hey, "Mister Commander!"
+Get the lead out and start
+killing these guys!{end}
+
+Our troops are so caught up
+in blood lust they don't want
+to bother with these weaklings.{06}{07}
+While I'm in charge of
+this unit, I won't forgive
+such arrogance!{end}
+
+Damn you!{06}{07}
+You--thick-skulled, overrated,
+blundering, nancy boy!
+Who in the hell would respect
+orders from you!?{end}
+
+Man ...
+You have an amazing
+eye for battle ...{end}
+
+Is that so?
+I didn't realise you were
+one to give compliments.{end}
+
+I would have handled
+this strategy differently ...
+Do you have any orders for me?{06}{07}
+I was originally a mercenary,
+so taking orders is a great
+chance for me to see just what
+commanding skills you have.{06}{07}
+So tell me, boss,
+what's the plan?{end}
+
+An interesting idea ...!
+Well then, I'll show
+you the way we fight.{end}
+
+If it's decided, then order away!{end}
+
+Rohga joins the entourage!{end}
+
+Everyone, be careful!{06}{07}
+Although Kalxath has won
+a few battles against the
+Imperial Army, this one
+won't be easy.{end}
+
+We're in trouble, {02}!
+The Imperial Army is
+launching an ambush!{end}
+
+Ha ha ha!
+Now that is what we call
+a "strategy!"{06}{07}
+Go forth, men!
+Fetch us that tablet!{end}
+
+Everyone, stop them!
+Don't let a single Imperial
+soldier into the shrine!{end}
+
+I'll try my best!{end}
+
+It's an ambush!
+Don't let any Imperial soldiers
+into the shrine!{end}
+
+In moving through the forest,
+you spot a small clearing.{06}{07}
+
+At the centre, one spot
+is lit by rays of sunlight.{end}
+
+Do you want to
+try digging here?{end}
+
+Obtained Swift Boots.{end}
+
+That's as far as you go!{end}
+
+Shit ...
+I never expected
+this to happen--!{end}
+
+Don't go easy on me!{end}
+
+Argh!
+I can't do any more than this ...
+I'm sorry, {02}--!{end}
+
+Witness my superior attack!{end}
+
+I'm sorry.
+I have to retire
+from the field ...{end}
+
+Eeek!{end}
+
+Argh ... {02}--!{end}
+
+It can't be ... can't be that--!{end}
+
+Well then, my teenage
+sweetie, I command you to
+kill that red-haired guy!{end}
+
+Stop, Liana!
+Don't you recognise me!?{end}
+
+Mwa ha ha!
+It's useless!
+Why don't you just surrender!{end}
+
+I ... must obey ...{end}
+
+Argh ... {02}--!{end}
+
+Mwa ha ha!
+Die, die!
+Diiiiiieeeeee!!{end}
+
+Damn it!
+The Maiden of Light is ...!{end}
+
+It can't be ... can't be that ...{06}{07}
+Liana ...
+Gahh--!{end}
+
+Within Liana was the potential
+to save or destroy El Sallia.{06}{07}
+Unfortunately, her death
+shattered the seal on Alhazard
+for all time without another
+Maiden of Light to repair it.{06}{07}
+The Rayguard Empire used
+the evil sword's power to
+mobilise its entire army, but in
+the end they met with ruin.{06}{07}
+Now, the dream of a unified
+continent is long dead,
+as chaos and death rule
+and hope fades away.{06}{07}
+After many generations,
+El Sallia became known as the
+land of the eternally damned ...{end}
+
+Ahh--!{06}{07}
+Huh!? I ... was ...
+I was being controlled ...?
+Everyone ...
+I'm sor ... ry--!{end}
+
+Wah ha ha!
+Oh, what a lovely
+turn of events!{06}{07}
+My sincere gratitude
+to you all!
+You just saved us
+a great deal of time!{end}
+
+Damn it!
+We should have taken
+out that guy first--!{end}
+
+What's this? 
+How crude! At least I got
+a free night's stay ...{06}{07}
+I guess if you really need
+it, I'll do you all a favour
+by helping out.{end}
+
+If it's such a bother, then don't
+trouble yourself! You can stay
+on the sidelines and watch.{end}
+
+Sounds interesting!
+Then I accept your offer
+to observe your skills.{end}
+
+Well, what should
+I do, {02}?{end}
+
+Hah!{end}
+
+What an unskilled piece of shit!
+Damn ... why did I trust
+a guy like you to command me!?{end}
+
+My power was said to have
+been that strong--!{end}
+
+Cherie of Kalxath, heading out!{end}
+
+Cherie ...?
+I think maybe I've met her
+somewhere before ...{end}
+
+It looks like I've become
+entangled in this battle, too.{06}{07}
+I'll protect one of the shrine's
+entrances. Please leave
+Lady Liana's protection to me.{end}
+
+Okay, thanks.{end}
+
+So, what should I do?{end}
+
+Protect the right entrance{end}
+
+Protect the left entrance{end}
+
+Stay where you are{end}
+
+Can you protect the right
+entrance for me?{end}
+
+Okay.{end}
+
+Can you protect the left
+entrance for us?{end}
+
+Not a problem.{end}
+
+Please stay and protect the
+centre entrance.{end}
+
+I got it.{end}
+
+I've never cared much
+for the Imperial Army!{end}
+
+I guess I overdid it ...
+I need to take a rest ...{end}
+
+Maidens, take refuge in
+the shrine's interior!{end}
+
+Yes, Priest!{end}
+
+Oooh ... Lushiris--!{end}
+
+Priest!{end}
+
+Liana!
+She looks so cold ... but this is
+no time to ponder. Come on!{end}
+
+Y, yes ...{end}
+
+Aah, Goddess Lushiris--!{end}
+
+Gahh!{end}
+
+Mmmm ...
+Raw, warm blood tastes as
+good as I always imagined ...{end}
+
+I'll grant no mercy to those
+who obstruct my path!{end}
+
+I'll show you how
+we get things done!{end}
+
+Im, impossible!
+My power ...
+inferior to yours--!{06}{07}
+I won't forget this!{end}
+
+Which should I take?
+One is enough to start with.{06}{07}
+Oh yes ...
+I just remembered an
+interesting magical item
+General Egbert gave me ...{06}{07}
+Maybe I should try it out
+on the cute little girl!
+Hee hee hee!{06}{07}
+I call thee forth, spirit that
+enslaves both mind and soul--!{06}{07}
+...?
+Oh shit ... I forgot what comes
+after that part--oh well.{06}{07}
+{font4}Mod Faegriast Aemettig!{end}
+
+Ahh!
+My ... My head--!{end}
+
+Liana!
+Are you all right!?{end}
+
+Excellent, my teenage sweetie.
+First off, sacrifice redhead
+hero-boy over there to Odin!{end}
+
+Yes ...
+Widdle Morgan ...{end}
+
+How odd ...
+It seems my magic
+didn't work quite right.{06}{07}
+Someone throw me a bone!
+Why can't anything
+ever go the way I plan!?{end}
+
+Gah ha ha ha!
+Morgan, you're one pathetic
+excuse for a sorcerer.{end}
+
+D, damn it!
+A meat-head grunt like you
+has no right to say that!{end}
+
+Meat head?
+Maybe I should find a bit more
+humiliating work for you ...{06}{07}
+...
+"Widdle Morgan."{end}
+
+You son of a bitch!
+Well ... that's all right.{06}{07}
+Seeing you cower in the
+back like that is satisfactory
+enough, "Commander Zorum."
+Hee hee hee!{end}
+
+What's wrong!?
+Be strong, Liana!{end}
+
+It's no use ...{06}{07}
+His magic has overcome
+her true self and is
+manipulating her mind.{06}{07}
+What should we do?{end}
+
+That man ...
+We must defeat Morgan!{06}{07}
+If we do that, I'm sure Liana
+will return to normal.{end}
+
+Yeah ...
+If we somehow defeat Morgan,
+I'm sure it will break the spell!{end}
+
+Mwa ha ha ha!
+You think you can beat me
+with your weak spirit?{06}{07}
+Well, if you want to become a
+zombie, then I'll grant your
+wish right away. I could always
+use a few more minions!{end}
+
+Wee hee hee!
+Those who oppose me will die!{end}
+
+Taste the height of my power!{end}
+
+Damn it!
+Y, you actually injured me!{06}{07}
+Some day I'll make
+you regret this!
+Just wait till I have
+my revenge!{end}
+
+Ah--!?{06}{07}
+Hmmm ...
+I ... I ...{end}
+
+Are you awake again?
+With Morgan wounded, his
+spell seems to have lost effect.{end}
+
+I'm sorry, {02}.{end}
+
+Im, impossible--!{end}
+
+Gah--!{end}
+
+Wa ha ha!
+I won't leave anyone standing!{end}
+
+Die!{end}
+
+But ... it was ... perfect ...
+I... gave it my--!{end}
+
+I failed!
+Colonel Zorum, I'm sorry.{end}
+
+Heh heh heh ...
+Let's go.{end}
+
+Heh heh heh ...
+Die!{end}
+
+Not yet,
+I can't die yet--!{end}
+
+Outrageous ...{end}
+
+Blood... blood is--!{end}
+
+It looks like the battle is over.{end}
+
+Thanks for helping out.
+I'm {02}. May I ask
+your name, Lady ...?{end}
+
+I'm Cherie of Kalxath.
+It's a pleasure to meet you.{06}{07}
+Our kingdom and its
+neighbours are forming a
+League of Anti-Imperialists.{06}{07}
+I heard there was Imperial
+activity in Estool, so I came to
+see if I could help.{06}{07}
+However, the Empire was only
+after the Shrine of Light ...
+I wonder ... what were
+they planning?{end}
+
+Ow, ow--!{end}
+
+Are you all right?
+Umm ...{end}
+
+How shameful to have been
+beaten like that ...
+I'm Cherie of Kalxath.{06}{07}
+Our kingdom and its
+neighbours are forming a
+League of Anti-Imperialists.{06}{07}
+I heard there was Imperial
+activity in Estool, so I came to
+see if I could help.{06}{07}
+However, the Empire was only
+after the Shrine of Light ...
+I wonder ... what were
+they thinking?{end}
+
+I let myself be
+controlled by Morgan
+and betrayed {02}.{06}{07}
+{02}, if,
+if you had died ...
+I ... I--!{end}
+
+You needn't fret.
+We all came out safe, so there's
+nothing to be sorry about.{06}{07}
+Besides ... you look
+better with a smile.
+So don't cry.{end}
+
+Thank you ...{06}{07}
+Oh, {02} ...
+It seems I cause you nothing
+but trouble. I'm so sorry ...{06}{07}
+But ... I'll try to look happier.
+Please don't worry about me.{end}
+
+That's the spirit!{end}
+
+Okay.{end}
+
+I'm sorry ...{06}{07}
+If it had gone on any
+longer, I would have
+attacked everyone here.{end}
+
+Liana, it wasn't your fault.
+You were being enslaved
+by Morgan's spell.{end}
+
+Thank you everyone ...
+for thinking about me ...{end}
+
+By the way, what should
+we do about Liana?{end}
+
+Eventually, even the largest
+Shrine of Light won't be enough
+to keep the Imperials at bay.{end}
+
+So what is your plan?{06}{07}
+It doesn't seem safe to
+entrust her to a Shrine of Light.{end}
+
+That's rather apparent.
+However, I'm not sure what
+other options we have ...{end}
+
+{02} ... I, um ...{end}
+
+What is it, Liana?{end}
+
+Please, let me fight too!{end}
+
+No way!
+It's too dangerous for a young
+lady on the battlefield.{end}
+
+But all of you have
+to endure so much ...
+just because of me.{06}{07}
+It was for my sake ... that ...
+that all of you got hurt.{end}
+
+I think we should let her come.
+Or do you lack confidence in
+your ability to protect her ...?{end}
+
+...{end}
+
+Fine.{end}
+
+Thank you, {02}!{end}
+
+Liana joins the entourage!{end}
+
+Well, that's that. It seems
+like everything has worked out.{06}{07}
+After that battle, I have to
+say, I like your spirit!{end}
+
+Thanks, it's good to
+be working with you.{end}
+
+I feel that we'll be
+great if we work together.
+We'll be rich!{06}{07}
+I helped you through this.
+Please allow me to continue
+working with you, {02}!{end}
+
+It is I who should
+be asking you!{06}{07}
+We could really use a
+sword as strong as yours.{end}
+
+How disappointing!{06}{07}
+After all of the great talk
+I heard about you,
+you're a major let down!{06}{07}
+You have good qualities
+and real talent, but why don't
+you use any of it!?{end}
+
+...{end}
+
+However, I sense that
+you'll do great things.
+Together we'd be rich!{06}{07}
+The problem's that
+you're too inexperienced.
+Talk with me!
+I'll teach you everything!{06}{07}
+{02}!
+I'll train you to be
+a great leader!{06}{07}
+But you better damn well
+live up to my expectations.
+You're going to cost me
+a fortune, you know?{end}
+
+Well then, let's
+hurry to Kalxath.
+I have to tell them of this!{end}
+
+Cherie joins the entourage!{end}
+
+Also, I'd like to give
+you all a big welcome.{end}
+
+Wait up a second!
+At least, let me thank
+you for helping us ...{end}
+
+Thanks to you, the shrine
+is safe, but there's not much we
+can do for you without trouble.{end}
+
+Please accept this cross.
+May it always bring you
+Lushiris's blessing.{end}
+
+Obtained Cross.{end}
+
+I can't do anything for you, but
+I'll pray for your safe journey.{end}
+
+Well then, let's be off!{end}
+
+Hmmm, well done ...
+No matter, though!
+Witness my real power!{06}{07}
+Everyone, charge!{end}
+
+Argh!
+Slow! Slow! Slow!{06}{07}
+With a stupid commander
+like you, we're not going to
+get in a decent attack, much
+less win. No way ...{end}
+
+How dishonourable!
+They're going after Liana!
+Hurry! Go and help her!{end}
+
+Hmph ...
+Is that all you can do!?
+Don't drag this out!{end}
+
+Ho ho, let's boogie.{end}
+
+The Empire's after
+the girl, isn't it?{06}{07}
+I see...
+If that's so, how about
+coming to Castle Kalxath?{end}
+
+Hya ha ha!
+How interesting.
+Can you still fight like that?{end}
+
+Hya ha ha!
+This is too, too sweet!{06}{07}
+You dare oppose me,
+an Imperial Commander,
+with your feeble power?{end}
+
+Hya ha ha!
+The Blazing Dragon Army's
+strength is unsurpassed!{end}
+
+Wah ha ha!
+Be more aggressive!{06}{07}
+We'll teach you how foolish
+it is to stand against us!{end}
+
+Hold it!{end}
+
+Castle Kalxath ...?{end}
+
+If I remember correctly,
+Kalxath just might be able
+to protect Liana.{end}
+
+That's right.
+Kalxath has many strong
+soldiers besides me.{end}
+
+I found you, Imperial slime!
+I figured you'd be here
+after the situation changed!{06}{07}
+I can't let you do as you please!{end}
+
+Ack!
+Little girl, go home quietly.{06}{07}
+I wouldn't want that sweet ass
+of yours to get bruised here.
+I have other plans for it ...
+Hya hya hya!{end}
+
+Wh, what was that--!?
+You dirty wizard!{end}
+
+Yeah, I'm going to have to
+side with her on that.
+You certainly are twisted.{end}
+
+You ...
+Grrr!{end}
+
+Who is that strange girl
+who just showed up?{end}
+
+How rude!
+Even though I took all the
+trouble coming to help you.{end}
+
+Oh ...?
+You're pretty cute.{06}{07}
+I suppose tough girls
+aren't your type.
+Should I act a bit more bubbly?{end}
+
+You ... you don't mean me!?
+I feel so awkward.{end}
+
+Are you stupid!?
+Who was talking to you!{end}
+
+Hey ...!{end}
+
+... 
+Anyway, please help us.{end}
+
+Heh heh heh.
+I think he's blushing.
+How cute!{end}
+
+Damn!
+We couldn't protect them ...{end}
+

@@ -1,0 +1,338 @@
+No!
+Let me go!{end}
+
+Hmmm.{end}
+
+Aaahh!{end}
+
+You're struggling in vain.
+Calm yourself--
+escape is impossible.{end}
+
+Rest long and well for the
+resurrection ceremony.
+It really is very draining.{end}
+
+...{end}
+
+Silence is fine.{06}{07}
+Just remember,
+our kindness is a courtesy.{end}
+
+How go the preparations?{end}
+
+They are progressing smoothly.
+By the way, is it okay for you
+to go so long without resting?{end}
+
+Hah hah hah ...
+Who the hell do you think
+you are dealing with?{06}{07}
+A degree of magical
+power and focus will be
+required for the ritual ...{06}{07}
+But these are simple
+things for me.{end}
+
+Ah, you can trust
+your limits then.{end}
+
+Faias!{end}
+
+{font3}You called,
+Master B{3a}ser ...?{end}
+
+The Descendants of Light
+are headed here as we speak.{06}{07}
+Make certain
+you stop them.{06}{07}
+The ritual must go
+exactly as planned.{end}
+
+{font3}Hah hah, yes ...
+absolutely!{end}
+
+Lester, are we
+nearing Velzeria?{end}
+
+Don't you worry.
+We're headed in the
+right direction.{06}{07}
+Leave all the navigation
+to me. After all ...,
+I am a man of the sea!{end}
+
+We're lucky the villagers
+were willing to
+lend us these boats.{end}
+
+Yeah, but still ...
+It took us a long time before
+we were able to set off ...{06}{07}
+We have to make
+up for lost time ...{end}
+
+What!?
+Is that the enemy?{end}
+
+{font3}Ho ho ho ...{06}{07}
+{font3}How lucky for
+us, it's the
+Descendants of Light!{06}{07}
+{font3}This is as far as
+you walking
+corpses will get!{end}
+
+That's a lot of
+monsters, {02} ...{end}
+
+Be careful!{06}{07}
+Their forces consist
+mainly of aerial
+and naval units.{end}
+
+This water is going
+to seriously slow
+down our movement ...{end}
+
+Flying and naval units,
+encircle and guard
+our ground troops.{end}
+
+We'll meet them head on!
+There's no other
+way but straight through!{end}
+
+{font3}I have an old score
+to settle with you,
+Descendants of Light.{end}
+
+{font3}Especially that
+red-haired punk, you!{end}
+
+What are you
+talking about?{end}
+
+{font3}You really
+don't know?{06}{07}
+{font3}B{3a}ser ordered me
+to massacre the
+Descendants of Light.{06}{07}
+{font3}But while I was
+searching you out,
+an old fool
+got in my way ...{end}
+
+What!
+That ..., that means
+you killed Doren!?{end}
+
+{font3}Heh heh ...
+Oh yes, that was his
+name I believe.{06}{07}
+{font3}That bastard dealt
+me a scratch that
+aches even this day.{06}{07}
+{font3}But he's dead, and soon
+you'll go to join him.
+Today, I will dance
+in your blood!{end}
+
+I'll never forgive you!
+Prepare yourself!{end}
+
+{font3}Aaahhh--!{end}
+
+{font3}Gurgle ...{end}
+
+{font3}Gwa ha ha ha!{06}{07}
+{font3}You despise me?
+You want to kill me?{06}{07}
+{font3}Hate and anguish
+are my source of power!{06}{07}
+{font3}Punk, let's see if you
+still remember what
+that old husk taught!{end}
+
+Heh ...{end}
+
+{02},
+don't give in to anger!{06}{07}
+If you fight with rage
+and pain in your heart, you'll
+be no better than him!{end}
+
+{font3}That girl Liana
+looked really tasty.{06}{07}
+{font3}Heh heh heh ...{06}{07}
+{font3}Chop up their bodies
+and drink their blood.
+Drive their friends
+mad with fear. {end}
+
+Faias!
+You won't do what you like!
+We will rescue Liana!{end}
+
+{font3}Wryyyyyyyyyy!{06}{07}
+{font3}Your words
+are meaningless
+if you can't defeat me!{end}
+
+Watch out for
+enemy sea units!{06}{07}
+They have a
+superior defence
+while on water.{end}
+
+Hmmm ... 
+It'll be tough to lure
+them onto the boats.{end}
+
+Don't worry, some thunder
+magic will send them
+running to anything dry!{06}{07}
+That spell really
+stings when they're
+in the water!{end}
+
+Then use Thunder if
+you can. It should make
+quick work of them.{end}
+
+{font3}Let's do
+this, knaves!{06}{07}
+{font3}B{3a}ser won't tolerate
+a failure here!
+This is my last stand!{end}
+
+Faias ...{end}
+
+Liana ...{end}
+
+Whipper snappers!
+You did well in
+getting this far!{06}{07}
+But your good luck
+won't last forever!{end}
+
+Don't take me lightly!{end}
+
+Let's do this!{end}
+
+I was too careless ...{end}
+
+Argh!{end}
+
+Ouch!
+Why did I have
+to lose--{end}
+
+Ugh ...
+Has my time come
+to an end?{end}
+
+Argh!
+How could I
+lose here.{end}
+
+Ohhh ...
+Losing is no
+fun at all--{end}
+
+I didn't train
+hard enough ...{end}
+
+Die!{end}
+
+{font3}Grrr!{06}{07}
+{font3}When I killed
+that old wretch, 
+I should have finished
+you off too!{end}
+
+You son of a bitch!
+This is for Doren!{end}
+
+What did you say!?{end}
+
+{font3}Ugh!
+M, Master B{3a}ser!
+P, please forgive me!{end}
+
+{font3}Ohhhh--!{end}
+
+{font3}Ugghh ...{end}
+
+{font3}Grrrr--!{end}
+
+{font3}Arrrghh!{end}
+
+{font3}Aaahh--!{end}
+
+{font3}Ugggh ...{end}
+
+{font3}Aaahh--argghh!{end}
+
+{font3}Oooohh ...!{end}
+
+{font3}Ooohh ...!{end}
+
+{font3}Grrr--! Grr ...{end}
+
+He was slain because I was
+a Descendant of Light ... {06}{07}
+Doren gave his life in
+exchange for mine ...{06}{07}
+Everyone close to me dies ...
+I can't protect anyone.{end}
+
+{02} ...
+You were destined to be born
+a Descendant of Light.{06}{07}
+But the reason your allies
+fight beside you isn't
+because of your heritage.{06}{07}
+It's because we
+believe in you.{end}
+
+Cherie is absolutely right!{end}
+
+Thanks everyone.
+It's still not too late.{06}{07}
+We'll combine all our
+strength, prevent Alhazard's
+revival, and protect this world!{06}{07}
+I want you all to know ...
+I couldn't have
+done this alone.{end}
+
+But, we've definitely
+more to do than just
+stopping Alhazard's revival!{end}
+
+Land ho!{end}
+
+I see it too!
+I can see the shoreline!{end}
+
+At last, 
+Velzeria's just ahead.{end}
+
+At last,
+we're finally here.
+Velzeria ...{end}
+
+Let's go straight
+for their headquarters.{end}
+
+The enemy has been
+quiet ... I think we
+can expect an ambush.{06}{07}
+Let's stay focused
+from here on out.{end}
+
+Everyone ...
+Velzeria is just ahead!
+Don't give up!{end}
+

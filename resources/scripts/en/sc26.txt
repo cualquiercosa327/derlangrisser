@@ -1,0 +1,552 @@
+I, I can't believe it!{06}{07}
+I would never have
+thought our enemies
+would reach this place.{end}
+
+{02} is strong indeed.
+Powerful enough to
+make it this far.{06}{07}
+But, he is nothing by himself.
+He owes it all to the
+Holy Blade, Langrisser.{end}
+
+He may be strong with with that
+sword, but our Kaiser forged
+this country with his own hands!{06}{07}
+We still have a chance!{end}
+
+It's almost
+time, isn't it?{end}
+
+Yeah ...
+All right, prepare
+for the attack!{06}{07}
+If we lose here, they'll be
+able to enter the castle.{end}
+
+The battle preparations
+are complete.
+They'll arrive any minute.{end}
+
+Listen up!{06}{07}
+This will be the finest hour
+of the Blue Dragon Knights.
+Now, our righteousness
+must shine like the stars!{end}
+
+Glory to Rayguard!{end}
+
+Leon ...{end}
+
+You made it, {02}.{end}
+
+Leon!{06}{07}
+Do you really think that
+using the power of evil will
+bring peace to El Sallia?{06}{07}
+Surrender!
+There's no more reason
+for us to fight!{end}
+
+Hmmm, ... Hah hah!
+You came all this
+way just to say that!?{06}{07}
+The Blue Dragon Knights
+will never run nor hide!{06}{07}
+Until the end, we will
+fight our noble battle
+with glory and honour!{end}
+
+I can't stop him ...{06}{07}
+His emotions are so
+painful to hear ... {06}{07}
+I can't ... stop him--
+But ... I don't want ...
+don't want to fight him ...{06}{07}
+But--!{end}
+
+You've come quite a
+long way, haven't you.{end}
+
+Egbert!{end}
+
+I have something
+interesting to show you.{end}
+
+Jessica!{end}
+
+This foolish sorceress
+tried to lay siege to our
+castle by her lonesome.{06}{07}
+She underestimated
+the wrath of Alhazard.{end}
+
+Wait, Egbert.
+I had no intention for such
+an honour-less fight ... {06}{07}
+To use hostages ...
+It's disgraceful!{end}
+
+This is between
+me and {02}!{06}{07}
+No matter what,
+you won't interfere.
+Don't get in my way!{end}
+
+Hah hah hah ...
+Temper, temper, Leon.
+That's quite a weakness.{06}{07}
+However, it serves you
+well in the proper situation.{06}{07}
+Fear not for your
+almighty Code of Chivalry,
+I will release this woman.{end}
+
+Well then, I will prepare
+the welcoming party.{06}{07}
+Let us hope it turns out to be
+an unnecessary precaution.{end}
+
+Egbert ...{end}
+
+{02}!
+Now we must attack
+with all our might!{end}
+
+Leon!
+Why are you
+fighting for this?{06}{07}
+By releasing Alhazard's power,
+Bernhardt beckons nothing
+but destruction to this world!{end}
+
+Please, Leon!
+Stop this futile battle!{end}
+
+To pacify this war-torn
+world, you need the
+means to achieve peace!{06}{07}
+Even if it's the 
+power of evil!{end}
+
+Leon! The ambush
+preparations are complete!{06}{07}
+We're ready to
+fight any time!{end}
+
+At last, the final
+battle has come!{06}{07}
+I'll offer you no mercy!{end}
+
+Fool ...
+Well, it can't be
+helped, can it?{06}{07}
+Everyone, let's go!{end}
+
+If we lose here,
+we have no future.{06}{07}
+Fight with all the
+fury of your namesake!{06}{07}
+You are the most
+elite squadron in the
+Blue Dragon Knights.{06}{07}
+Battle with honour!
+Hallow and praise our
+Blue Dragon name!{end}
+
+{02}!{end}
+
+...{end}
+
+I have nothing
+more to say ...{end}
+
+Leon ...{end}
+
+Glory to the Empire and
+the Blue Dragon Knights!{end}
+
+Stop Leon!{06}{07}
+Why?
+Why must you
+fight us?{06}{07}
+If we join ranks,
+we can end this.{end}
+
+Truly, if we were to
+become allies, we could
+stop this war ...{06}{07}
+But someday, quarrels will
+renew, and blood will be shed.
+Even if this conflict ends,
+history will repeat itself.{06}{07}
+Only an ideal unified
+nation, one of potency and
+stability, will bring any
+hope of lasting peace.{06}{07}
+And I swore, together with
+His Majesty, to achieve our
+dream of El Sallia's unification!{06}{07}
+The Kaiser is the only
+one who can do this.
+This is the surest ...
+the only path to peace!{06}{07}
+In this plan, {02}'s
+existence is a nuisance.{end}
+
+Why ...
+Why must you
+fight like this?{end}
+
+I don't want to wash
+blood with more blood.{06}{07}
+Who has the power
+to bring about peace?
+The Empire? {02}?{end}
+
+...{end}
+
+Let's go, {02}!
+Mercy is useless.
+Don't hold back!{end}
+
+There is a bottle full of red
+medicine hanging on a wall.{06}{07}
+
+Will you drink it?{end}
+
+AT raised by 1 point!{06}{07}
+
+Somewhere else, the sound of
+a bottle breaking is heard.{end}
+
+There is a bottle full of blue
+medicine hanging on a wall.{06}{07}
+
+Will you drink it?{end}
+
+MP raised by 2 points!{06}{07}
+
+Somewhere else, the sound of
+a bottle breaking is heard.{end}
+
+Leon, ...
+Will you listen to
+no one any more?{end}
+
+...{06}{07}
+You know how I feel.
+I can betray neither the
+Empire ... nor His Majesty
+Kaiser Bernhardt.{06}{07}
+I will honour my vow
+as a Knight and serve.
+His Majesty till the end.{end}
+
+Leon! There's no one
+who's despises fighting
+you more than I do.{06}{07}
+Why must you
+continue this fight?{end}
+
+Truly, wars give birth
+only to sadness.{06}{07}
+But, if nothing changes, then
+these wars will never end.{06}{07}
+The Kaiser must unify
+this continent and form
+an ideal nation.{06}{07}
+For that reason, this last.
+battle cannot be avoided.{end}
+
+You haven't noticed what
+you're doing is wrong!?{end}
+
+I was born to this
+glorious Empire,
+raised in this Empire ... {06}{07}
+And through blood and valour,
+I've become general of the
+proud Blue Dragon Knights!{06}{07}
+I won't turn my back on
+the path I've chosen!{end}
+
+Damn!{end}
+
+Did we win?
+What a tragic battle ...{end}
+
+Is this the end?{end}
+
+Hmph!{06}{07}
+Your skills have
+improved, {02} ...
+But you won't get
+through me!{end}
+
+Ow!{06}{07}
+That last blow ...{end}
+
+Just like the 
+Blue Dragon Knights!
+Beat them, {02}!{end}
+
+Damn!
+I was unprepared ... {end}
+
+Darn!
+I have been whooped ...{end}
+
+Noooo!
+I'm sorry, {02} ...{end}
+
+Not yet.
+Just until ...
+Until we stop Leon ...{end}
+
+Don't push it!
+Leave it to me.
+Fall back, L{37}na!{end}
+
+Leon ...{end}
+
+Sorry, L{37}na ...{end}
+
+I'm sorry ...
+I'm so useless.{end}
+
+I, I too ...
+will assist ...{end}
+
+Jessica!
+Don't overdo it!
+Leave this to us.{end}
+
+Yeah! Jessica,
+take a break!{end}
+
+I understand ...{06}{07}
+Everyone, please ...
+Make sure Alhazard
+is sealed ...{end}
+
+Ah ...
+Until we can take
+back Alhazard ...{end}
+
+Ugh ...
+This shouldn't happen ...{end}
+
+Even if I must sacrifice
+my life, I will defeat you!{06}{07}
+Let's go, {02}!{end}
+
+This is what I desire!{end}
+
+{02},
+it's over!{end}
+
+You ... shall not ...
+pass through ... {06}{07}
+Ughhh ...{end}
+
+Damn it!
+Better than I expected ...{end}
+
+Leon!
+Please retreat!{end}
+
+Leon, retreat!{end}
+
+You ... all ...{end}
+
+Don't worry. At least
+we can delay them.{06}{07}
+In the meantime,
+please take care
+of your wounds!{end}
+
+... {06}{07}
+I understand.
+I'm counting on you.{end}
+
+Take care ...
+Take care of our
+beloved Empire.{end}
+
+Don't die on me ...{end}
+
+Yes, Sir!{end}
+
+...{06}{07}
+I understand.
+I'm counting on you ...{end}
+
+Ugh!{end}
+
+This is it ...{end}
+
+Leon ...{end}
+
+Attack!{end}
+
+Ugh!{06}{07}
+I'll never see
+His Majesty again ...{end}
+
+Ugh ... Leon,
+I'm sorry, ... {06}{07}
+I guess I just don't ...
+have what it takes ...{end}
+
+Attack!{end}
+
+Prepare yourself!{end}
+
+Leon, ...
+It looks like this is
+the end for me....{end}
+
+Laird!
+I won't let you die!{06}{07}
+Did you come here
+to just to perish?
+Don't die on me, Laird!{end}
+
+I'm sorry ... {06}{07}
+Please ...
+with His Majesty ...{06}{07}
+Achieve our dream ...
+a land without war ...
+and a grand ...
+and mighty Empire--!{end}
+
+I won't let you leave
+the Knights before me!{06}{07}
+Open your eyes, Laird!
+Please, open your eyes!{end}
+
+Again, I've lost
+my closest friend ...{06}{07}
+We must finish
+this quickly.{06}{07}
+Will it be us, 
+or {02}?{06}{07}
+Only one will live on.
+Let us fight now, for all those
+who have given their lives ...
+in the name of our Empire!{end}
+
+Leon ...{end}
+
+General ... {06}{07}
+It looks like this
+is the end for me ... {06}{07}
+Please ... 
+with His Majesty ... {06}{07}
+Achieve our dream ...
+a land without war ...
+and a grand ...
+and mighty Empire--!{end}
+
+Of course!{06}{07}
+I won't give even an
+inch of ground in this battle!
+Even if it kills me!{end}
+
+We can't allow you to
+breach the castle gates!{06}{07}
+Witness the fury of
+the Blue Dragon Knights!
+We won't lose to
+the likes of you!{end}
+
+No ... No ...
+Gah--!{end}
+
+Leon!{end}
+
+I can't die ...{06}{07}
+Gah--argh!{end}
+
+Glory to the Empire!{end}
+
+So, the noble and storied
+ranks of our great
+legion end with me.{06}{07}
+I am the last ...{end}
+
+Give up, Leon.
+You've already lost!{end}
+
+Ha!
+How could a man like
+you defeat my division?{end}
+
+...{end}
+
+I am the general of the
+Blue Dragon Knights!{06}{07}
+I will never
+retreat from here!{end}
+
+Please, Leon!
+Stop it! I don't want to
+fight anymore with you!{end}
+
+L{37}na ...
+I love ... {06}{07}
+No, I have no right
+to say that ... {06}{07}
+I will fight to the end!
+For all who have died,
+I will uphold the honour
+of the Knights!{end}
+
+Leon!{end}
+
+This is the end!
+Let's go, {02}!{end}
+
+I made a promise ...{end}
+
+Fool ...{end}
+
+He was stubborn, but ...{06}{07}
+Leon ...{end}
+
+Even while B{3a}ser's
+spell controlled me as
+the Dark Princess ...{06}{07}
+Leon was the only one who
+treated me with courtesy ...
+and who made me feel like
+I was a normal woman.{06}{07}
+There was no one in this
+world more warm and caring
+than he was. His heart truly
+desired nothing but peace ...{end}
+
+We must push forward ...
+and finish this immediately.{end}
+
+{02} ...
+I can feel an evil
+presence nearby.{end}
+
+That's right! 
+This place is ours
+for the taking!{end}
+
+Alhazard is beneath the
+castle. It's likely to be in
+an underground temple.{end}
+
+Even from death's door,
+I will not retreat!{end}
+
+No way!{06}{07}
+If Leon is killed,
+who will protect the
+Empire of tomorrow?{end}
+

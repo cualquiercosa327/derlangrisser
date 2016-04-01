@@ -1,0 +1,435 @@
+The enemy is persistent!
+We've been cut off!{end}
+
+We'll engage them
+on our terms.{end}
+
+The Empire ends here!{end}
+
+You can't run any longer!
+Or perhaps you
+intend to jump out to sea?{end}
+
+Swimming in armour
+can't be very easy.{end}
+
+Vargas was defeated, I see ...
+These guys are pretty good.{end}
+
+In order to aid His Majesty's
+recovery, I administered
+him a sleeping drought.{06}{07}
+If we fight them now,
+it will be very difficult.{06}{07}
+Laird, do all you can.
+Halt the enemy's advance!{end}
+
+Yes, General Leon!{end}
+
+We'll finish you for Vargas.
+He deserved far better than
+to die by the likes of you.{06}{07}
+Do you hear that?
+We, the Water Dragon Navy,
+shall crush you to pulp!{06}{07}
+Egbert, while I'm dealing
+with this whelp ... Please
+take the others to safety.{end}
+
+Very well.
+I'll see to it.{end}
+
+Do you think we'll
+just let you run?
+Why do you think we're here?{end}
+
+This isn't how I
+usually fight, but we're
+trying to buy time.{06}{07}
+We don't need to move an inch.
+Hold your positions and engage
+the enemy as they come!{end}
+
+Understood!{end}
+
+Smash their weak spot
+and thwart this invasion!{end}
+
+Yes, we'll break
+the enemy's front line!{end}
+
+...{06}{07}
+Please look after
+the Kaiser, Egbert.{end}
+
+This has turned into
+a bloody conflict ...{end}
+
+General Imelda,
+we have just returned
+from reconnaissance.{end}
+
+Hmmm, what's going on?{end}
+
+You've returned
+just in time.{06}{07}
+Flank the enemy
+from the rear, all of you!{end}
+
+Understood!{end}
+
+Damn it. Reinforcements?
+We could do without those.{end}
+
+My exit should
+be here soon.{06}{07}
+But I don't know if ...
+No, we must keep fighting!{end}
+
+My exit should
+be here soon.{06}{07}
+If we keep this pace,
+I may be able
+to wait things out.{end}
+
+Sorry we've kept you, Imelda.
+We're ready for you now.{end}
+
+Hah hah hah hah ...
+So you had a little
+preparatory meeting, did you?{06}{07}
+Getting all ready
+for the great Imelda!
+Boys, it's been fun!{06}{07}
+Now, how would you like
+to play on the water?{end}
+
+{02}, there's a
+nice welcoming army waiting
+for you on the continent.{06}{07}
+I think you'll be pleasantly
+surprised by its numbers.
+Please, look forward to it.{end}
+
+Damn this!
+We took too long ...!{end}
+
+Imelda, your time is up.{end}
+
+Hah, don't speak so
+casually of my death.{06}{07}
+I'll be around long after
+you taste dirt, {02}.{end}
+
+How could I lose ...{end}
+
+Argh! You got me ...{end}
+
+God damn it!{end}
+
+Aarrghh ...!{end}
+
+{font3}Ooohh ...{end}
+
+{font3}Aaahhh--!{end}
+
+Payback is cruel,
+wouldn't you say, Leon?{end}
+
+Leon, I don't want to
+take your life.
+Surrender, please!{end}
+
+I thought this fight
+was inevitable.{end}
+
+Ugh, my strength is ...{end}
+
+I, I haven't lost yet ...!{end}
+
+Liana, don't be foolish!
+Get out of here!{end}
+
+Very well ...
+If you think so, then ...{end}
+
+Wh, when did you ...?{end}
+
+Grrr, no!{end}
+
+Wh, what are
+you doing, Egbert?{end}
+
+Though it pains me to say
+so, I must teleport His Majesty.
+There is no alternative.{end}
+
+That's a tremendous strain ...!
+His Majesty is far too weak!{end}
+
+Thanks to the sedative,
+His Majesty sleeps soundly.{06}{07}
+In this state, the process will
+be far less stressful.
+He should endure it well.{end}
+
+It's our only option.{end}
+
+That's true.
+There's nothing else ...{06}{07}
+All we can
+do is attempt it.{end}
+
+Yes, precisely.
+Now, let's begin.{end}
+
+Okay. It's up to you.{end}
+
+This is pretty bad, {02}!
+They're planning on
+teleporting to escape!{end}
+
+You think you can get
+away with a teleport spell?{end}
+
+Everyone, I'll buy more time.
+Get ready to escape.{end}
+
+All right, Leon.
+Now it's your turn.{end}
+
+Please send Laird first.
+I don't mind going after him.{end}
+
+But ... General Leon!{end}
+
+You will move ahead
+and protect His Majesty.
+This is an order.{end}
+
+...{06}{07}
+Very well ...{end}
+
+Well then,
+Laird, you're next.{end}
+
+I wonder how long
+I can hold out here ...{06}{07}
+Hmph, that isn't like me!
+I'll focus on slaughtering every
+last one of the curs!{end}
+
+Leon, it is your turn.{end}
+
+Egbert, if you would ...
+Please send
+the others ahead.{06}{07}
+After all, I've handled
+graver battles than this.{end}
+
+Do not forget your duty.{06}{07}
+You are the leader of the
+Blue Dragon Knights,
+the retainer of His Majesty.{06}{07}
+No one can replace you,
+not even Laird.{end}
+
+...{end}
+
+Let's go, Leon.
+Opposition shall not
+be tolerated.{end}
+
+Very well.
+Get on with it.{end}
+
+Sorry to have kept you, Imelda.
+I'll send you off at once.{end}
+
+...{06}{07}
+Hah ... hah hah!
+What kind of joke is this!?{06}{07}
+You can't zap off a thousand
+people in a row! If you have
+any strength left, save yourself!{end}
+
+The Kaiser will need
+his chief counsellor, Egbert.{06}{07}
+Take the advice
+you gave to Leon.{end}
+
+A counsellor and his Kaiser
+should always stick close,
+wouldn't you agree?{06}{07}
+If you can't
+do it, who shall?{end}
+
+...{06}{07}
+Forgive me ...
+Once my power returns, I will
+come for you. I swear it.{end}
+
+Now that those annoying
+gentlemen are out of the way,
+it's time for the main event!{end}
+
+Ugh ...
+If we don't hurry ...{end}
+
+Imelda, please take care.
+I will return for you.{end}
+
+Why have you come?
+If you hadn't, I wouldn't
+have drawn my sword.{end}
+
+{02}, is it?
+You are unfit to
+share the Kaiser's air!{06}{07}
+Prepare to die!{end}
+
+What's wrong? Had enough?
+What a weakling
+you are, traitor {02}!{end}
+
+Ugh!{end}
+
+Grr, no!{end}
+
+Aaarrrghh!{end}
+
+Grr, no!{end}
+
+General Imelda ...,
+your forgiveness ... 
+please ...{end}
+
+I'll take
+care of you, kid.{end}
+
+Until Egbert sends
+everyone off, I will not die!{end}
+
+General Imelda!{end}
+
+Uugghh ...
+I didn't make it ...{end}
+
+Ah hah hah, how foolish!
+Why is your face so pale!?
+I'm not even through with you!{end}
+
+Egbert, what are you doing!?
+Get out of here now!{06}{07}
+Do you want to render my
+efforts completely useless?{end}
+
+...{06}{07}
+All right.
+I'm going.{end}
+
+Watchers of time and space ...
+Honour your ancient pledge
+and send us to another land ...{end}
+
+Hah ... hah hah ...!{06}{07}
+My allies escaped, but ...
+the Queen of the Seas,
+she's going to ... die here?{06}{07}
+A bad deal ...
+But maybe not.{06}{07}
+That bald-head Vargas ...
+He is already waiting for
+me in the next world.{06}{07}
+Maybe I can be ...
+the Queen of Hell ...
+Ah hah ... hah hah ...{end}
+
+So this ends the
+Water Dragon Navy ...?{end}
+
+We don't have time to rest.
+We must go after everyone who
+escaped with Egbert!{end}
+
+But where did Bernhardt
+and the others run off to?{end}
+
+Do you know?{end}
+
+Twin Castle, maybe.{06}{07}
+It's the former stronghold
+of the Dalshis Empire.{end}
+
+We can get
+there with this boat.
+Let's hurry!{end}
+
+Yes.{06}{07}
+They've evaded us
+long enough.{end}
+
+All right.
+Destination, Twin Castle.{end}
+
+I should be invincible
+in the ocean ...!
+{end}
+
+B, bastards ...{end}
+
+My mounted troops ...{end}
+
+I won't let peasants
+like you touch His Majesty!
+Have at you!{end}
+
+Aarrggghhh ...!
+How could I lose to a
+bunch of monsters ...{end}
+
+Did I pick the
+wrong weapon ...?{end}
+
+Why couldn't I win ...?{end}
+
+No ...
+At the least, I wanted to join
+Leon, Laird and His Majesty.{end}
+
+No ...
+At the least, I wanted to
+join Leon and Laird.{end}
+
+No ...
+At the least, I wanted
+to be with Leon ...{end}
+
+Watchers of time and space ...
+Honour your ancient pledge and
+send them to another land ...{end}
+
+There's no need to worry.
+With Egbert's spell, they all
+must arrive in one place.{end}
+
+The Empire's re-entry
+point is Twin Castle.{06}{07}
+Long ago, a king who
+stole the power of
+Langrisser lived there.{end}
+
+Watchers of time and space ...
+Honour your ancient pledge and
+send them to another land ...{end}
+
+All right.
+We will expect you.{end}
+
+Watchers of time and space ...
+Honour your ancient pledge
+and send me to another land ...{end}
+
+Until Egbert returns,
+we cannot die!{end}
+

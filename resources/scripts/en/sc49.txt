@@ -1,0 +1,756 @@
+Father, I have
+come as you requested.{end}
+
+Ah, good.
+We have just received some
+troubling news.{06}{07}
+It seems that {02} has
+left Lady Cherie's side.
+He is working with the Empire.{end}
+
+You cannot be serious!{end}
+
+That is not all.
+He has taken Langrisser.{end}
+
+For the Imperials?{end}
+
+I see ...{06}{07}
+Things have become
+quite grim, have they not?{end}
+
+They have ...{end}
+
+As things stand,
+Cherie and her group
+are in great danger.{06}{07}
+We must send our
+army for Kalxath.
+I shall lead the way!{end}
+
+Well said.
+Your spirit brings me
+pride, my son.{end}
+
+You speak too highly
+of me, Father.
+It's embarrassing ...{end}
+
+Anyway, I will leave now
+and marshal our forces.{end}
+
+Has it been ten years
+since he came to this
+house as an orphan ...?{06}{07}
+He has grown to be
+a splendid young man.{end}
+
+Lord Loren, we've got trouble!
+The Imperial Army has
+laid siege to the mansion!{end}
+
+Wh, what!?
+Since when?{end}
+
+Their preparations were hasty.
+We may have the advantage.{end}
+
+If this drags on, word
+will get to Kalxath.{06}{07}
+We need to make
+excellent use of our time.{end}
+
+The crushing of Salrath
+needs to be executed
+with stealthy precision.{06}{07}
+Heh heh ...
+It sounds like a job for
+my elite troops.{end}
+
+I see now ...{06}{07}
+By rapidly taking territory,
+we can reduce their morale
+and prevent alliances.{end}
+
+And without allies, each
+country will soon
+extend its hand to the Empire.{end}
+
+Use magic to cut
+them off. Don't let a single
+soldier escape.{end}
+
+Just like Egbert said,
+they're probably going
+to turn tail and run.{06}{07}
+Encircle and isolate.
+Fight close, and crush them
+for the unity of El Sallia!{end}
+
+We're completely
+surrounded ...{06}{07}
+If worse comes to worst,
+we'll face the Empire's
+Four Heavenly Dragons.{06}{07}
+We'll need more
+than military might
+against them ...{end}
+
+Father!{end}
+
+Scott, escape at
+the first opportunity and 
+go to Castle Kalxath.{06}{07}
+Tell them of the
+Imperial invasion!{end}
+
+Father, if I do that ...{end}
+
+Don't worry.
+My mansion won't fall
+to men like these!{06}{07}
+Focus on your mission, Scott.
+And remember
+your lessons well.{end}
+
+Our victory here must
+be absolute. Make certain
+no one escapes!{06}{07}
+If anybody leaves here
+alive, the operation will fail.
+Crush as many as possible
+while they're inside!{end}
+
+Scott, don't
+miss your chance!
+Go now!{end}
+
+I won't!{end}
+
+Those bastards.
+Aren't they going
+to surrender?{end}
+
+Why won't you cooperate?
+We are working
+to create true peace!{end}
+
+By resisting us like this,
+you're only prolonging the
+bloodshed! Aren't you weary?{06}{07}
+Why won't you
+face facts?{end}
+
+If he escapes, he'll
+bring reinforcements!{end}
+
+No one must learn
+of our invasion.{06}{07}
+We can't let a
+single enemy escape.{end}
+
+{02}, I
+place myself under
+your command.{06}{07}
+There's no time to waste.
+I need instructions quickly.{end}
+
+My thanks.
+I'll take charge
+at once.{end}
+
+Imperial soldiers, my men
+fight vigorously when cornered.
+You'll learn this the hard way.{end}
+
+Scott ...
+Please, don't waste
+your life here ...{06}{07}
+Rally our friends in Kalxath
+and abroad. If we combine
+our efforts, we can
+surely take on the Empire.{end}
+
+Father, take care!{end}
+
+I leave it to you!{06}{07}
+Bring our friends together,
+and we will crush the
+Empire once and for all!{end}
+
+I will do this.{end}
+
+Father ...
+I swear I will make it all the
+way to Castle Kalxath ...{end}
+
+Lord Loren, join me in
+my oath. We will
+arrive there together.{end}
+
+Lord Scott, I swear by
+my sword that I shall live ...
+to see Kalxath's gates.{end}
+
+Without fail, we will see
+our friends in Kalxath!{06}{07}
+And from there, we'll
+work to overthrow your
+despicable Empire!{end}
+
+You examine the walls to
+find an engraved inscription.{06}{07}
+
+"If you desire power,
+offer me a prayer."{06}{07}
+
+What will you pray for?{end}
+
+More troops{end}
+
+Attack power{end}
+
+Defence power{end}
+
+Maximum Troops raised!{end}
+
+AT raised by 1 point.{end}
+
+DF raised by 1 point.{end}
+
+Sir {02},
+why have you joined
+the Empire ...?{end}
+
+Forgive me, Scott.
+I've put a lot of thought
+into my decision.{06}{07}
+I've concluded that
+the Empire, through unifying
+this continent, offers the
+surest way to peace.{06}{07}
+And I don't hesitate
+to kill anyone
+who gets in our way!{end}
+
+I'm not the wide-eyed youth
+you remember, {02}.{06}{07}
+And I see that solution
+for what it is--
+short-sighted and foolish.{end}
+
+Still, why do you sacrifice
+your men? Surely you see
+its uselessness at this point.{end}
+
+If we don't give it our all,
+then our dreams
+will fade into nothing.{06}{07}
+To achieve things, you have
+to take risks. In this case,
+I risk my life for my dream.{end}
+
+It can't be!
+An enemy of
+this calibre ...{end}
+
+Gaahhh--!
+The Salrath soldiers
+are truly top-notch!{end}
+
+I've no wish to cut down
+those who cooperate.{06}{07}
+But I similarly have
+no qualms striking
+down those who won't!{end}
+
+Shit!
+I'm hurt really bad ...!{end}
+
+I've demonstrated my
+other talents, but now
+it's time to fight!{end}
+
+Hmph!
+Such carelessness ...{end}
+
+Ah, damn!
+You did that to me!?{end}
+
+Hey, clumsy.
+I'm over here!{end}
+
+H, how foolish of me!{end}
+
+Oh, this is intriguing.
+So you'd raise a sword
+against me, eh?{end}
+
+Just a little more effort ...{06}{07}
+Just a little longer,
+before His Majesty's
+world comes to life ...{end}
+
+We have to
+face the facts.{06}{07}
+Continuing under
+these conditions
+is impossible.{end}
+
+Forgive me, Scott.
+For once, I couldn't stave
+off our invaders.{06}{07}
+Let us watch over Salrath
+from the heavens ... my son.{end}
+
+Get out of here, Scott!{end}
+
+You won't be running
+amok much longer!{end}
+
+Most impressive work,
+Imperial soldiers.
+But I can't die here!{end}
+
+Ooohhh--! Damnation!
+Even if you break through,
+Scott will ... Scott ... will ...!{end}
+
+I can't die!{06}{07}
+Until Scott is avenged,
+I definitely can't die!{end}
+
+Uuggghh--!
+Is this the best I could do!?
+Scott, forgive me ...{06}{07}
+Whatever happens,
+don't follow the fate
+of your Father ...{end}
+
+Father!
+Please, hang on!{end}
+
+...{06}{07}
+Scott, continue to learn.
+Always improve your tactics, 
+and travel the Knight's path.{06}{07}
+I have no regrets. Save that ...
+you'd had the chance to be an
+ordinary child, for a time ...{end}
+
+Father ... 
+What are you talking about?{06}{07}
+Even though I was
+an orphan, you raised
+me as a true son.{06}{07}
+You're the best Father I 
+could have wished for!{end}
+
+Thank you, Scott. 
+You've indulged an old man's
+ego till the very end ...{06}{07}
+Swear to tell ... 
+Kalxath ... The rest, the rest ... 
+I leave to you ... my son ...{end}
+
+Father!{06}{07}
+I swear I'll get to Kalxath.
+Please, watch over me.{end}
+
+Salrath won't be able 
+to hold out much longer ...{06}{07}
+Sir {02} ...
+You silence all opposition
+through your thuggery.{06}{07}
+If this is what you call
+peace, you're sorely mistaken.
+Soon, you'll earn the hatred
+of all mankind!{end}
+
+These times are hard, but how
+many people need to die
+before they simply understand?{06}{07}
+If the Empire reigns, there
+will be no opposition.
+No opposition means no war ...{06}{07}
+Dissent is a weed, and
+I will tear it out
+by its rebellious roots.{06}{07}
+After this, people
+will have the opportunity
+to trust one another.{06}{07}
+The Empire knows peace
+must come first,
+through unification ...{06}{07}
+Kalxath wants understanding
+before peace, but
+they have it backwards.{end}
+
+A man hates war, but
+he attacks his neighbours and
+starts conflict after conflict.{06}{07}
+Do you see a
+small contradiction
+in his logic?{end}
+
+Scott!
+Hurry, now!{end}
+
+But ...{end}
+
+It doesn't matter
+what happens to me!{06}{07}
+You must take
+word to Kalxath!{end}
+
+Understood ...
+Take care, Father.{end}
+
+I leave it to you ...{end}
+
+Father ...
+I swear to survive this
+and go to Kalxath.{end}
+
+I won't be defeated
+in this place!{end}
+
+Don't lose!{06}{07}
+For Father's sake,
+we absolutely
+can't be defeated!{end}
+
+Out of my way!
+There's no way
+my Father will fall!{end}
+
+Gaahh--!{end}
+
+Scott!{end}
+
+Forgive me ...
+Father ...{06}{07}
+I trained hard, ...
+but it wasn't enough ...{end}
+
+Hang in
+there, Scott!{end}
+
+For raising and caring
+for an orphan to this day ...
+I humbly offer my thanks.{06}{07}
+After all you've done, ...
+I've repaid you with
+my wasteful death ...{06}{07}
+For my Father's best efforts ...
+For this world ...
+I die ... Forgive me.{end}
+
+Scccotttt!{06}{07}
+I've never thought
+you any less
+than my own child.{06}{07}
+Even if we've different blood,
+you will always be my son.{06}{07}
+That's ...
+That's why ... {06}{07}
+Damn you, Imperials!
+You'll know a father's
+vengeance for his child!{end}
+
+Ugh--
+I can't do this
+any longer ...{06}{07}
+Sir {02} ...
+You silence all opposition
+through your thuggery.{06}{07}
+If this is what you call
+peace, you're sorely mistaken.
+Soon, you'll earn the hatred
+of all mankind!{end}
+
+These times are hard, but how
+many people need to die
+before they simply cooperate?{06}{07}
+If the Empire reigns, there
+will be no opposition.
+No opposition means no war ...{06}{07}
+Dissent is a weed, and
+I will tear it out by
+its rebellious roots.{06}{07}
+After this, people
+will have the opportunity
+to trust one another.{06}{07}
+The Empire knows peace
+must come first,
+through unification ...{06}{07}
+Kalxath wants understanding
+before peace, but
+they have it backwards.{end}
+
+I see ...{06}{07}
+Father, forgive me ...
+I didn't keep
+your promise ...{end}
+
+We'll teach you to make
+light of the Salrath Army!{end}
+
+Impossible ...{end}
+
+I don't want to die yet.
+I don't want to ... die ...{end}
+
+No!
+Don't come here!{end}
+
+Aaahh!{end}
+
+Move to Kalxath
+with all haste!{06}{07}
+We'll complete our mission,
+even if only one of us survives!{end}
+
+Let's hurry to Kalxath!{end}
+
+For Lord Loren and Lord Scott,
+I swear to reach Kalxath!{end}
+
+Damn you, Imperials,
+for bringing
+us to such straits!{end}
+
+Looks like ... I'll join
+all our old friends ...{end}
+
+I'll stop the Empire from
+its relentless crimes!
+I'll definitely escape!{end}
+
+Die!{end}
+
+A welcoming committee, eh ...{end}
+
+For a father's pride,
+please look after Scott.{end}
+
+Yes, Sir!
+Leave it to me!{end}
+
+Lord Scott,
+I shall see to your defence!{end}
+
+Lord Scott,
+Forgive me for failing
+in your protection ...{06}{07}
+Ugghh!{end}
+
+Everyone, forgive me.{06}{07}
+If I'd been a bit stronger,
+many would still be alive ...{06}{07}
+But, by whatever means,
+I'll make it to Kalxath!{end}
+
+Ugh!{end}
+
+Misha ...,
+I apologize ...
+I can't go on ...{end}
+
+Gaaahh!{end}
+
+We must retreat
+by whatever means,
+against all instinct ...{06}{07}
+We'll sweep our
+homeland of Imperial
+scum some other day!{end}
+
+Out of my way, pest!
+I'm going to Kalxath!{end}
+
+S, such strength.
+Too much ...{end}
+
+Whatever it takes,
+I will arrive in Kalxath.
+Let's go!{end}
+
+Go back to the Empire!
+This place isn't for you!{end}
+
+Im, impossible!
+That I could die ...{end}
+
+I can't afford to
+lose to you ruffians.{end}
+
+You can't overcome
+our burning
+desire for victory!{end}
+
+The fight is over ...{end}
+
+This fighting you
+speak of is terrible, indeed.
+I'm quite troubled.{06}{07}
+After all, 
+Scott and Lord Loren
+are not wicked men ...{end}
+
+This victory for the Empire
+is a necessary step on
+the path to world peace.{06}{07}
+What do you think will
+happen if we allow
+them to reach Kalxath?{end}
+
+If soldiers leave these
+grounds, we'll have trouble.{06}{07}
+We must defeat all
+our opponents here.{end}
+
+You're right.{06}{07}
+If we allow them to drum up
+support, our assault on Kalxath
+will be very bothersome.{06}{07}
+No one will leave here.{end}
+
+Anyone we leave behind could
+call sympathizers to Salrath.{06}{07}
+If that happened, things would
+get quite out of hand. They'd
+certainly reinforce Kalxath.{06}{07}
+That's why, beforehand,
+we need to crush them.{06}{07}
+Before we hit Kalxath, we'll
+make sure they fight alone!{end}
+
+I'll remember this,
+Imperial soldiers!
+I promise to repay this villainy!{end}
+
+Shit!
+They got away!{end}
+
+Now we've got
+a clear path ...{end}
+
+We need a bit more prudence
+in picking our fights ...{end}
+
+It's regrettable, but I can't
+resort to my sword.
+I've no choice but to escape.{06}{07}
+So, everyone, let's
+hurry to Kalxath!{06}{07}
+We can spread word about
+the Imperial invasion!{end}
+
+It's regrettable, but
+I can't resort to my sword.
+All units, retreat!{06}{07}
+It doesn't matter who, but
+someone must take word
+to our friends at Kalxath!{end}
+
+Lord Loren!
+Are you all right!?{end}
+
+Ah, you're
+Lord Aaron's soldiers!{end}
+
+Yes, Sir.{06}{07}
+We saw some suspicious
+activity, so we came to
+see what was going on.{end}
+
+Your timing couldn't
+be more perfect.{06}{07}
+All units, retreat to Kalxath!
+Run, all of you!{end}
+
+Are you sure about that?{end}
+
+I'm fine.
+But my son ...{end}
+
+Oh no ... I see now ...{06}{07}
+Lord Aaron told us
+to investigate some
+suspicious movement,
+but we had no idea ...{end}
+
+Ah, I see, but it no
+longer matters.
+We can't hold out here.{06}{07}
+As much as I hate to say it ...
+you'd be best served by
+withdrawing to Kalxath.{06}{07}
+Join your friends and
+bring justice to the Empire!{end}
+
+Got it!{end}
+
+It doesn't matter who!{06}{07}
+Go to Kalxath and tell
+them of the Empire's attack!{end}
+
+It doesn't matter who!{06}{07}
+Escape to Kalxath and take
+word of the Imperial invasion!
+All units, retreat to Kalxath!{end}
+
+Forgive me, I didn't
+quite make it outside ...{06}{07}
+Lord Loren ...
+was murdered by Imperials!{end}
+
+I see. Please, relax ...{06}{07}
+Through the great
+efforts of Lord Aaron, we've
+come to aid Salrath.{end}
+
+It's no use.
+Even if we go,
+we'll be too late ...{end}
+
+There's still time!
+Bring word of the Imperial
+invasion to Kalxath!{06}{07}
+If you do that, Kalxath can
+assemble an army to
+challenge the Empire!{end}
+
+All right, understood.
+Everyone, let's
+escape to Kalxath!{end}
+
+What!?
+Reinforcements have arrived?{06}{07}
+Well, no reason to get
+worked up. Just some
+more grist for the mill ...{end}
+
+But, there are those here
+who will inform
+Kalxath of our advance.{06}{07}
+We can't just leave
+them to their mission.{end}
+
+We have to scrub this place.
+No trace of our
+involvement should remain.{end}
+
+I see.
+So if we leave them alive,
+we'll regret it later.{end}
+
+We have to scrub this place.
+No trace of our
+involvement should remain.{06}{07}
+If we leave anyone alive,
+we'll regret it later.{end}
+
+Understood!{end}
+

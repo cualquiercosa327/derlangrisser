@@ -1,0 +1,1775 @@
+
+{skip 65}{font4}Scenario {03}
+{skip 71}P{font0}rologue{06}{07}
+In its long history, the continent
+El Sallia has been a dark
+land marked by endless battle.{06}{07}
+{02}, a young swordsman,
+has been travelling its countryside
+with his friend, Hein, an apprentice
+magician he met on his journeys.{06}{07}
+Their long travels have led
+them to the outskirts of Hein's
+home town, where the travellers
+decided to seek rest at the inn.{06}{07}
+Village life was quiet and peaceful.
+Amidst a sea of smiling faces, the
+weary travellers found respite
+from the wars ravaging El Sallia.{06}{07}
+Days rolled into nights and passed
+on quite quickly, and
+{02} began to enjoy
+the quiet life of a villager.{06}{07}
+Then one day, Hein suddenly
+burst into the inn, his
+face stricken pale as a ghost's.{06}{07}
+The Imperial Knights of the
+Rayguard Empire had disrupted the
+village on imperial command,
+seeking only a girl named Liana.{06}{07}
+None knew why the knights, known
+throughout the land for their
+honour and righteousness, would
+now attack such a peaceful village.{06}{07}
+{02} and Hein left the
+inn together to rescue Liana.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best Baldo in combat{06}{07}
+* Failure Conditions
+{skip 3}-{skip 2}{02} perishes
+{skip 3}-{skip 2}Baldo escapes to the bottom
+{skip 10}of the map{06}{07}
+{end}
+
+
+{skip 65}{font4}Scenario {03}
+{skip 63}S{font0}etting {font4}O{font0}ff{06}{07}
+By a stroke of good fortune,
+{02} rescued Liana from
+her would-be kidnappers,
+the Imperial Knights.{06}{07}
+However, with Rayguard forces still
+in pursuit, Loren, Lord of Salrath,
+concluded it impossible to
+defend her in his remote lands.{06}{07}
+After a night of consideration,
+Estool, a shrine where Liana
+served as a shrine maiden, was
+selected as the safest hiding place.{06}{07}
+When dawn broke, {02} and
+Loren set out to escort Liana
+along the road to Estool.{06}{07}
+However, unwilling to relent in
+their pursuit, an imperial
+detachment led by Leon and Laird
+awaited them at the crossroads ...{06}{07}
+* Victory Conditions
+{skip 3}-{skip 2}Liana escapes to the top
+{skip 10}of the map
+{skip 3}-{skip 2}Best all enemies{06}{07}
+* Failure Conditions
+{skip 3}-{skip 2}{02} perishes
+{skip 3}-{skip 2}Liana perishes{06}{07}
+{end}
+
+
+{skip 65}{font4}Scenario {03}
+{skip 53}S{font0}hrine of {font4}L{font0}ight{06}{07}
+Having bested the Imperial Knights
+in combat yet again, the
+companions pressed on in their
+journey to the shrine of Estool.{06}{07}
+The shrine was renowned
+across the land as a sanctuary
+for passing pilgrims, guarded by
+its force of warrior-priests.{06}{07}
+After a night of bed rest,
+dawn broke, and with it came
+the head priest's acceptance
+of Liana's custody.{06}{07}
+With their journey drawing to
+a close, the companions
+pondered where to
+continue their travels.{06}{07}
+Meanwhile, Deputy Commander
+of the Blazing Dragon Army Zorum
+and Morgan of the Dark Dragon
+Sorcerers prepared an ambush ...{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best all enemies{06}{07}
+* Failure Conditions
+{skip 3}-{skip 2}{02} perishes
+{skip 3}-{skip 2}The Shrine Priest perishes
+{skip 3}-{skip 2}Liana perishes{06}{07}
+{end}
+
+
+{skip 65}{font4}Scenario {03}
+{skip 28}B{font0}attle at {font4}K{font0}alxath {font4}C{font0}astle{06}{07}
+Having sustained considerable
+damage in the attack, Estool's
+Shrine of Light could adequately
+defend Liana no longer.{06}{07}
+Cherie, a young lady from Kalxath,
+extended to the companions the
+protection of her country--one of
+the few countries still resisting.{06}{07}
+Accepting Cherie's invitation,
+{02} and his companions
+began their march to Kalxath.{06}{07}
+They arrived in the
+nick of time, for Castle Kalxath
+had come under assault by
+the Blazing Dragon Army.{06}{07}
+Even with Kalxath's great strength,
+the walls surely will not hold
+long against the onslaught of
+General Vargas and his forces.{06}{07}
+Only from the bloody wake
+of battle will a victor emerge.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best all enemies{06}{07}
+* Failure Conditions
+{skip 3}-{skip 2}{02} perishes
+{skip 3}-{skip 2}All NPCs perish{06}{07}
+{end}
+
+
+{skip 65}{font4}Scenario {03}
+{skip 68}I{font0}n {font4}F{font0}lames{06}{07}
+The companions left Castle Kalxath
+to seek the powerful sorceress,
+Jessica, rumoured to know
+the resting place of the Dark Rod.{06}{07}
+According to legend, for several
+hundred years she has lived in
+seclusion, deep within the forests
+beyond the flow of the Rall River.{06}{07}
+As the companions
+drew near the riverbank, they
+were confronted by a roving
+band of pirates.{06}{07}
+Elsewhere, court magician and
+head of the Dark Dragon Sorcerers,
+Egbert, was laying a trap to
+recover the Dark Rod first.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best Camilla in combat{06}{07}
+* Failure Conditions
+{skip 3}-{skip 2}{02} perishes
+{skip 3}-{skip 2}Jessica perishes{06}{07}
+{end}
+
+
+{skip 65}{font4}Scenario {03}
+{skip 40}H{font0}oly {font4}G{font0}round {font4}R{font0}eitel{06}{07}
+Jessica revealed the Dark Rod was
+enshrined in Reitel, a sanctuary of
+light atop the highest mountain--
+far beyond the view of mortals.{06}{07}
+However, as the companions drew
+near the shrine, Egbert was
+mysteriously absent ...
+The shrine sat silent as the grave.{06}{07}
+Deep within waited ancient
+guardians. Powerful beings sworn
+to protect the Dark Rod from those
+invaders desiring its powers.{06}{07}
+* Victory Conditions
+{skip 3}-{skip 2}Best all enemies
+{skip 3}-{skip 2}Reach the Dark Rod's altar{06}{07}
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 65}{font4}Scenario {03}
+{skip 30}G{font9}irl of the {font4}D{font0}emon {font4}T{font0}ribe{06}{07}
+Only moments before it was within
+{02}'s grasp, Egbert had
+snatched away the Dark Rod.{06}{07}
+With the companions' failure,
+Jessica left the entourage to seek
+potential allies for Kalxath in the
+coming war against Rayguard.{06}{07}
+With the Dark Rod in hand, the
+Empire was positioned to mount an
+invasion force and conquer the
+remaining El Sallian countryside.{06}{07}
+Light's last hope is the power of a
+legendary holy sword, able to
+crush the powers of darkness, and
+with them the Kaiser's ambitions.{06}{07}
+Questing for the sword's barrow,
+the companions came upon
+a hamlet under raid by a
+band of marauding monsters.{06}{07}
+Unwilling to leave the villagers to
+their fate, {02} and his
+companions dashed into the fray.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best all enemies{06}{07}
+* Failure Conditions
+{skip 3}-{skip 2}{02} perishes
+{skip 3}-{skip 2}All villagers perish{06}{07}
+{end}
+
+
+{skip 65}{font4}Scenario {03}
+{skip 50}T{font0}he {font4}S{font0}ky {font4}B{font0}ridge{06}{07}
+After a short-lived alliance with
+General Leon of the Blue Dragon
+Knights, {02} resolved
+to battle the Empire to the end.{06}{07}
+Locked in a scramble against
+time and foe to recover Langrisser,
+{02} and his companions
+fell prey to an imperial ambush.{06}{07}
+An imperial regiment lay
+across the suspension bridge--
+the only path between the
+cliffs of a deep chasm.{06}{07}
+Kr{38}mer, under orders from Imelda,
+the woman general of the Water
+Dragon Navy, planned to sever the
+ropes and collapse the bridge.{06}{07}
+If the bridge collapses before
+the companions can pass, it will
+deal them an unrecoverable blow
+in the race for Langrisser.{06}{07}
+With no other option, the
+companions moved onto the bridge
+to battle time and foe to force
+their way through enemy lines ...{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best Kr{38}mer's forces in no
+{skip 10}more than 18 turns{06}{07}
+* Failure Conditions
+{skip 3}-{skip 2}{02} perishes
+{skip 3}-{skip 2}18 turns pass without victory{06}{07}
+{end}
+
+
+{skip 65}{font4}Scenario {03}
+{skip 22}T{font0}he {font4}O{font0}ld {font4}S{font0}wordsman's {font4}F{font0}ort{06}{07}
+Having bested Kr{38}mer's regiment,
+{02} and his companions
+raced onward across bridge.{06}{07}
+However, in their delay, the
+fort down the road had come
+under attack by General Imelda
+of the Water Dragon Navy.{06}{07}
+With danger looming over the men
+and women of the fort, an old
+swordsman, Aaron, took up arms to
+stand against the imperials.{06}{07}
+Unsure how long Aaron could
+keep the enemy at bay, the
+companions engaged
+General Imelda and her division.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best Imelda in combat{06}{07}
+* Failure Conditions
+{skip 3}-{skip 2}{02} perishes
+{skip 3}-{skip 2}All villagers perish{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 32}B{font0}rave {font4}G{font0}eneral {font4}V{font0}argas{06}{07}
+After a long and winding journey,
+the companions drew near
+the ruins of Castle Baldea--now
+the barrow of Langrisser.{06}{07}
+Their skirmish with Imelda
+bought time for General Vargas to
+erect a small fortress and further
+impede their advance.{06}{07}
+The time has come for the decisive
+battle between {02} and
+the brave Vargas, general of the
+Blazing Dragon Army.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Kill General Vargas
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 30}H{font0}oly {font4}S{font0}word, {font4}L{font0}angrisser{06}{07}
+Hundreds of years ago, the
+Descendants of Light reigned over
+Baldea, the kingdom of light,
+blessed by Lushiris's holy power.{06}{07}
+The legendary blade wielded by
+Sieghart in the days when Baldea
+was known as Elthlead slumbers
+within the castle's heart.{06}{07}
+Having breached the outer
+walls and entered the ruins,
+the companions sought the
+legendary blade within.{06}{07}
+But on the opposite
+moat, Leon and the
+Blue Dragon Knights had already
+arrived with the same intent.{06}{07}
+Once again, the volatile continent,
+El Sallia, has given rise to
+a struggle for the holy sword.{06}{07}
+* Victory Conditions
+{skip 3}-{skip 2}Best all enemies
+{skip 3}-{skip 2}Acquire Langrisser{06}{07}
+* Failure Conditions
+{skip 3}-{skip 2}{02} perishes
+{skip 3}-{skip 2}Leon claims Langrisser{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 8}T{font0}he {font4}I{font0}ron {font4}G{font0}ates of the {font4}B{font0}arracks{06}{07}
+At long last, Langrisser
+was again in the hands of a
+descendant of light.{06}{07}
+Sword-in-hand, the
+companions drew near
+the Rayguard capital.{06}{07}
+The alliance of kingdoms
+arranged by Jessica had already
+arrived to engage enemy forces.{06}{07}
+With no way to backtrack,
+the companions pressed on to
+pierce the front gate and engage
+Bernhardt in his throne room.{06}{07}
+However, blocking entrance
+to the castle interior was
+General Leon and his entire
+division of the Imperial Army ...{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best Leon in combat
+*Losing condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 47}K{font0}aiser {font4}B{font0}ernhardt{06}{07}
+Having defeated
+General Leon once more, the
+companions began their invasion
+of the palace interior.{06}{07}
+But even their success played
+into the plans of the Kaiser.
+The companions were headed
+straight into an ambush.{06}{07}
+With the fate of the world at stake,
+the companions hoped the divine
+power of Langrisser could crush
+Kaiser Bernhardt and his followers.{06}{07}
+{02} knew nought whether
+the companions' combined
+strength could win this fight.{06}{07}
+As they rushed into the
+Rayguard Palace, the companions
+found themselves surrounded ...{06}{07}
+The battle between the
+Descendants of Light and the
+Army of Darkness has begun.{06}{07}
+* Victory Conditions
+{skip 3}-{skip 2}Best Bernhardt in combat
+{skip 3}-{skip 2}Best B{3a}ser in combat{06}{07}
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 40}T{font0}he {font4}H{font0}arbour {font4}B{font0}attle{06}{07}
+Having defeated B{3a}ser, the
+companions pursued Bernhardt
+who had fled the castle
+during the ensuing chaos.{06}{07}
+Hot on his trail, the companions
+planned their journey into
+the evil land of Velzeria.{06}{07}
+With water being the fastest
+route from the mainland to the
+Velzerian peninsula, the party
+made haste to a harbour.{06}{07}
+In yet another unfortunate
+twist of fate, General Imelda is
+departing from the same port--also
+likely headed for Velzeria ...{06}{07}
+Pressed for time, {02}
+and his companions decide to
+attack and attempt to steal one of
+Imelda's ships in the confusion.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best Imelda's forces in 23 turns{06}{07}
+* Failure Conditions
+{skip 3}-{skip 2}{02} perishes
+{skip 3}-{skip 2}Fail to obtain a ship in 23 turns{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 64}M{font0}arionette{06}{07}
+Hundreds of years ago, the
+Descendants of Light stormed
+B{3a}ser's lair in the forbidden
+lands of Velzeria ...{06}{07}
+With B{3a}ser's death, his attempt to
+summon an ancient evil came
+screeching to a halt--his dark god
+fading away into the horizon.{06}{07}
+As the companions landed in
+the forbidden lands, they were
+met at the shore by a swarm of
+monsters led by a young girl.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best all enemies within 18 turns{06}{07}
+* Failure Conditions
+{skip 3}-{skip 2}{02} perishes
+{skip 3}-{skip 2}More than 18 turns pass{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 16}R{font0}evival of the {font4}D{font0}emon {font4}S{font0}word{06}{07}
+Within the heart of the evil
+Castle Velzeria, a dark and unholy
+ritual was already underway.{06}{07}
+Magic energy reverberated
+throughout the castle walls--
+gathered by the booming
+chants of a dark mage.{06}{07}
+As the chanting grew louder,
+the Glory of Darkness glowed
+brightly and the reverberations
+grew to a thundering roar.{06}{07}
+Once again, the companions
+were a step too late
+as the seal of darkness
+began to unravel once more ...{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best all enemies
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 39}T{font0}he {font4}K{font0}ey to the {font4}S{font0}eal{06}{07}
+After Egbert dispelled the seal on
+the sword, a well of darkness
+erupted into the lands once again.{06}{07}
+With Alhazard fully-powered and
+in the hands of Kaiser Bernhardt,
+it seemed as though there were
+none left to oppose the empire.{06}{07}
+After Liana dispelled B{3a}ser's
+enchantment from L{37}na, the maiden
+of darkness revealed Langrisser's
+power was incomplete.{06}{07}
+The Might of Elthlead, still dormant
+of its true powers, lacked the
+strength to challenge Alhazard.{06}{07}
+The companions hurried to Elrad,
+the resting place of the Holy Rod--
+the instrument of light needed to
+unseal Langrisser once more.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best all enemies.{06}{07}
+* Failure Conditions
+{skip 3}-{skip 2}{02} perishes
+{skip 3}-{skip 2}Foes lay claim the Holy Rod and
+{skip 10}escape to the bottom of the map{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 72}R{font0}evenge{06}{07}
+With the key to Langrisser's
+awakening in hand, the companions
+made haste in their preparations
+for the unsealing ceremony.{06}{07}
+As Langrisser radiated
+its pure light, the companions
+found strength to challenge
+the Dark Blade.{06}{07}
+But on the road to Castle Velzeria,
+a lone girl lay in wait.{06}{07}
+Sonya met them--blazing with rage
+over the her master B{3a}ser's death,
+the Kaiser's theft of the Dark Blade
+and the loss of her brother.{06}{07}
+With a horde of monsters waiting
+to ambush on her command, she
+decided it was time to strike with
+the red-hot iron of revenge.{06}{07}
+* Victory Conditions
+{skip 3}-{skip 2}Best Sonya in combat
+* Failure Conditions
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 13}S{font0}trongest {font4}K{font0}nights in the {font4}L{font0}and{06}{07}
+Having spirited away the Dark Blade
+from the cursed land, Velzeria,
+Kaiser Bernhardt walled himself and
+his elite forces within the castle.{06}{07}
+But standing betwixt the companions
+and the Kaiser were the brave
+knight, Leon, and the dark magician,
+Egbert, who guard the castle gates.{06}{07}
+With neither side willing to back
+down and teacher pitted against
+student, a fierce battle was about to
+blaze forth on the battlefield.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best all enemies
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 53}T{font0}he {font4}E{font0}vil {font4}B{font0}lade{06}{07}
+Having dealt Leon a mortal blow,
+the companions were positioned to
+breach the castle's outer defences.{06}{07}
+As they crossed through the
+gates, a chill air enveloped them
+as they strode down the corridor
+to the Kaiser's throne.{06}{07}
+With the prince of darkness having
+left this world, the monsters found
+a new master in Kaiser Bernhardt,
+wielder of the Demons' Might.{06}{07}
+For generations, Chaos's Glory
+and the Dispeller of Darkness have
+clashed in epic struggle.{06}{07}
+Having found their wielders in a
+new generation, the conflicting
+swords again bear witness to a new
+age of cataclysmic struggle.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Kill Bernhardt
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 34}L{font0}egend {font4}C{font0}omes to {font4}P{font0}ass{06}{07}
+Kaiser Bernhardt's terrible age of
+war came suddenly to a violent end.{06}{07}
+As the companions breathed a sigh
+of relief, a surging air of evil ripped
+through the castle walls.{06}{07}
+Deep within the basement
+of Castle Velzeria, a mortal
+recited a prayer to call forth
+a terrible, powerful god.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best all enemies
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 75}L{font0}unatic{06}{07}
+Sonya, a demi-human tainted
+with boundless hate, decided to
+call forth Chaos on her own.{06}{07}
+With Chaos entering this plane
+and all existence in jeopardy,
+the companions set aside the
+Kaiser and his ambitions.{06}{07}
+To stop Sonya, the companions
+descended into the lowest levels of
+the forbidden Castle Velzeria ...{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best Sonya in combat
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 13}S{font0}trongest {font4}K{font0}nights in the {font4}L{font0}and{06}{07}
+Having spirited away the Dark Blade
+from the cursed land, Velzeria,
+Kaiser Bernhardt walled himself and
+his elite forces within the castle.{06}{07}
+But standing betwixt the companions
+and the Kaiser were the brave
+knight, Leon, and the dark magician,
+Egbert, who guard the castle gates.{06}{07}
+With neither side willing to back
+down and teacher pitted against
+student, a fierce battle was about to
+blaze forth on the battlefield.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best all enemies
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 44}T{font0}he {font4}E{font0}nd of {font4}L{font0}egend{06}{07}
+Having dealt Leon a mortal blow,
+the companions were positioned to
+breach the castle's outer defences.{06}{07}
+As they crossed through the
+gates, a chill air enveloped them
+as they strode down the corridor
+to the Kaiser's throne.{06}{07}
+With the prince of darkness having
+left this world, the monsters found
+a new master in Kaiser Bernhardt,
+wielder of the Demons' Might.{06}{07}
+For generations, Chaos's Glory
+and the Dispeller of Darkness
+have clashed in epic struggle.{06}{07}
+Having found their wielders in
+a new generation, the conflicting
+swords again bear witness to a new
+age of cataclysmic struggle.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Kill Bernhardt
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 40}T{font0}he {font4}H{font0}arbour {font4}B{font0}attle{06}{07}
+With the fall of Kaiser Bernhardt,
+B{3a}ser, Prince of Darkness
+and puppet master of the
+Kaiser fled into the shadows.{06}{07}
+After several hundred years, B{3a}ser,
+was positioned to call forth the
+demons' dark god, Chaos, once more.{06}{07}
+In pursuit of the Prince of Darkness,
+the companions made haste to a
+nearby harbour--only to discover
+it besieged by monsters.{06}{07}
+*Victory Condition
+{skip 3}-{skip 2}Best the Vampire Lord,
+{skip 10}Esto and Osto{06}{07}
+*Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 50}I{font0}melda's {font4}A{font0}mbush{06}{07}
+With the wind to their
+backs, the companions sailed
+onward to Velzeria.{06}{07}
+Though the wind moved their
+vessel swiftly across the seas, it
+was not long before another ship
+closed in on their flank.{06}{07}
+To delay the companions' arrival
+in Velzeria, General Imelda and
+her Water Dragon Navy attempted
+to board {02}'s ship.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best Imelda in combat
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 65}M{font0}arionette{06}{07}
+Hundreds of years ago, the
+Descendants of Light stormed
+B{3a}ser's lair in the forbidden
+lands of Velzeria ...{06}{07}
+With B{3a}ser's death, his attempt
+to summon an ancient evil came
+screeching to a halt--his dark god
+fading away into the horizon.{06}{07}
+As the companions landed in
+the forbidden lands, they were
+met at the shore by a swarm of
+monsters led by a young girl.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best all enemies within 16 turns{06}{07}
+* Failure Conditions
+{skip 3}-{skip 2}{02} perishes
+{skip 3}-{skip 2}More than 16 turns pass{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 58}F{font0}rozen {font4}F{font0}lame{06}{07}
+After failing to steal a ship,
+the companions decided to
+follow the path along the
+riverbank to reach Velzeria.{06}{07}
+They hoped perhaps along the
+way, they could find another ship
+to capture and set out in.{06}{07}
+But as the reality of a future of
+shadows hung low over their heads,
+the need to hurry to Velzeria
+became all the more real.{06}{07}
+As despair settled onto the
+companions' hearts, a small
+village in the distance suddenly
+burst into red flames.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best Imelda in combat{06}{07}
+* Failure Conditions
+{skip 3}-{skip 2}{02} perishes
+{skip 3}-{skip 2}All villagers perish{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 68}D{font0}ead {font4}E{font0}nd{06}{07}
+While the companions managed to
+secure a ship and take to the sea,
+it was not long before they came
+under attack by sea monsters.{06}{07}
+For such monsters to have appeared
+in this world, the seal on Chaos's
+Glory must have been dissolving.{06}{07}
+Unsure how much time was remained
+before the seal vanished completely,
+{02} and his companions
+attempted to waylay the monsters.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best all enemies
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 16}R{font0}evival of the {font4}D{font0}emon {font4}S{font0}word{06}{07}
+The companions continued on to the
+Temple of Darkness to attempt to
+prevent the Dark Blade's revival.{06}{07}
+As {02} drew near the altar
+of evil, he could make out the forms
+of Liana and L{37}na standing above.{06}{07}
+Before them, B{3a}ser, the
+black-cloaked Prince of Darkness
+was muttering an incantation.{06}{07}
+Everything appeared as
+had been foretold in legend.
+{02} knew--the seal of
+darkness would soon be broken.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best all enemies{06}{07}
+* Failure Conditions
+{skip 3}-{skip 2}{02} perishes
+{skip 3}-{skip 2}Jessica perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 39}T{font0}he {font4}K{font0}ey to the {font4}S{font0}eal{06}{07}
+The companions had failed ...
+The seal on Alhazard was broken.{06}{07}
+However, to the surprise of
+all, Bernhardt, once thought
+dead, returned to snatch
+Alhazard away from B{3a}ser.{06}{07}
+With a fully-powered
+Alhazard in hand, the Empire
+set out at once to conquer the
+remainder of the continent.{06}{07}
+With Langrisser still not
+having achieved its full power
+dark forces ravaged the land--
+completely unchecked.{06}{07}
+As the sorcery of B{3a}ser wore off
+L{37}na and Liana, the Descendants of
+Light discovered a new hope.{06}{07}
+The maidens knew of a method
+to unleash the full potential of
+the Dispeller of Darkness.{06}{07}
+The key to releasing Langrisser's
+full power was the Holy Rod,
+an instrument of Lushiris located
+in the distant ruins of Elrad.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best all enemies{06}{07}
+* Failure Conditions
+{skip 3}-{skip 2}{02} perishes
+{skip 3}-{skip 2}Foes lay claim the Holy Rod and
+{skip 10}escape to the bottom of the map{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 72}R{font0}evenge{06}{07}
+With the key to Langrisser's
+awakening in hand, the companions
+made haste in their preparations for
+the unsealing ceremony.{06}{07}
+As Langrisser radiated its pure
+light, the companions found strength
+to challenge the Dark Blade.{06}{07}
+But on the road to
+Castle Velzeria, a
+lone girl lay in wait.{06}{07}
+Sonya met them--blazing with rage
+over the death of her master, B{3a}ser,
+the Kaiser's theft of the Dark Blade
+and the loss of her brother.{06}{07}
+With a horde of monsters waiting
+to ambush on her command, she
+decided it was time to strike with
+the red-hot iron of revenge.{06}{07}
+* Victory Conditions
+{skip 3}-{skip 2}Kill Sonya
+* Failure Conditions
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+
+{skip 65}{font4}Scenario {03}
+{skip 68}G{font0}o {font4}A{font0}head{06}{07}
+Invited by General Leon of the
+Blue Dragon Knights, {02},
+Hein and Rohga resolved
+to join the Empire.{06}{07}
+The three believed El Sallia
+would only emerge from
+its age of war once united
+under strong Imperial rule.{06}{07}
+But {02}'s decision found
+new enemies in old friends,
+who now oppose him
+as the Descendants of Light..{06}{07}
+While searching for the ruins of
+Baldea, the barrow of Light's Blade,
+former friend Lester awaited them
+on the opposite side of a ravine.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best Lester in combat
+{skip 10}within 19 turns{06}{07}
+* Failure Conditions
+{skip 3}-{skip 2}{02} perishes
+{skip 3}-{skip 2}19 turns pass without victory{06}{07}
+{end}
+
+
+{skip 65}{font4}Scenario {03}
+{skip 68}{font0}"WANTED"{06}{07}
+Throughout history, Langrisser
+has lent its wielder infinite power.
+But having been lost for hundreds
+of years, its has faded to legend.{06}{07}
+The company knew if it could
+claim the Might of Elthlead for
+the Empire, their dreams of peace
+could finally be realised.{06}{07}
+However, the Descendants of Light
+were already plotting to mobilise
+and thwart the Empire's plans.{06}{07}
+As the company marched to a nearby
+village, the princess of Kalxath,
+Cherie, waited with a detachment of
+the Army of Light to stop them.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best Cherie in combat
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 3}T{font0}he {font4}O{font0}ld {font4}S{font0}wordsman's {font4}L{font0}ast {font4}S{font0}tand{06}{07}
+Thanks to Laird's diligent
+scouting, the location of the
+Baldean ruins was uncovered.{06}{07}
+However, a great river still
+separates the company from
+reaching the ruins and
+Langrisser's barrow within.{06}{07}
+Along the opposite shore, an old
+swordsman stood with his troops,
+ready to lay down his life to
+prevent the company's advance.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best all enemies
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 21}T{font0}he {font4}H{font0}oly {font4}B{font0}lade's {font4}M{font0}ystery{06}{07}
+Hundreds of years ago, the
+Descendants of Light reigned over
+Baldea, the kingdom of light, blessed
+by Lushiris's holy power.{06}{07}
+The legendary blade wielded by
+Sieghart in the days when Baldea
+was known as Elthlead slumbers
+within the castle's heart.{06}{07}
+However, to oppose the Empire
+once again, the Descendants of Light
+have arrived to capture Langrisser
+for their own ends ...{06}{07}
+Once again, the volatile continent
+El Sallia shall bear witness
+to a struggle for the holy sword.{06}{07}
+* Victory Conditions
+{skip 3}-{skip 2}Best all enemies
+{skip 3}-{skip 2}Acquire Langrisser{06}{07}
+* Failure Conditions
+{skip 3}-{skip 2}{02} perishes
+{skip 3}-{skip 2}The Descendants of Light
+{skip 10}claim Langrisser{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 62}S{font0}ad {font4}P{font0}ursuit{06}{07}
+With the self-proclaimed
+protectors of the Holy Blade in
+full retreat, the Empire was able
+to claim victory.{06}{07}
+With Langrisser in hand,
+the company has begun its march
+back to Castle Rayguard to turn
+over the sword to Kaiser Bernhardt.{06}{07}
+But believing the opposing
+swords can never serve one master,
+Jessica began plotting a new
+attack against the Empire.{06}{07}
+The Descendants of Light,
+declaring total war on the Empire,
+are about to clash with
+{02} and his company again.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best all enemies
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 70}G{font0}enocide{06}{07}
+After the company's triumphant
+return to the imperial capital,
+they received new orders to
+capture Salrath territory.{06}{07}
+Loren, Lord of Salrath, was
+known to be a supporter of Kalxath,
+the anti-imperial alliance,
+and the Descendants of Light.{06}{07}
+As the company arrived in
+Salrath, Kalxath's allied forces were
+already waiting to fight back.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best all enemies{06}{07}
+* Failure Conditions
+{skip 3}-{skip 2}{02} perishes
+{skip 3}-{skip 2}Enemies escape to the
+{skip 10}top edge of the map{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 9}T{font0}he {font4}D{font0}efence {font4}C{font0}amp's {font4}I{font0}ron {font4}W{font0}all{06}{07}
+Despite their best efforts, the
+Salrath forces were nothing to
+{02} and his company.{06}{07}
+However, even with Salrath under
+the Empire's control, the company
+could not ignore those who
+would stand against Rayguard.{06}{07}
+{02} and his company
+travelled to a nearby village in
+search of would-be rebels.{06}{07}
+As the company drew near the
+village walls, an old swordsman,
+Aaron, positioned himself in a
+nearby fort to fend them off.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best Aaron in combat
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 41}T{font0}he {font4}F{font0}all of {font4}K{font0}alxath{06}{07}
+Having arrived at Castle Kalxath,
+{02} and the Four Heavenly
+Dragons began a full-scale assault
+on the last anti-imperial stronghold.{06}{07}
+With the Descendants of Light hidden
+inside, {02} was on the
+verge of delivering a fatal blow to
+the Empire's greatest enemy.{06}{07}
+If victorious in battle, the Empire
+would possess the final key to
+unleashing Alhazard's might.{06}{07}
+However, the true objectives
+behind Alhazard's revival
+remain shrouded in mystery ...{06}{07}
+* Victory Conditions
+{skip 3}-{skip 2}Best all foes except Liana
+{skip 3}-{skip 2}Egbert captures Liana{06}{07}
+* Failure Conditions
+{skip 3}-{skip 2}{02} perishes
+{skip 3}-{skip 2}Liana perishes or escapes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 73}T{font0}riangle{06}{07}
+Velzeria, the forbidden land, was
+said to seal the true powers of the
+Demon Tribe, a race of monsters who
+tried to cover the world in darkness.{06}{07}
+Deep in the bowels of Velzeria,
+a dimly lit stone slate was once
+again glowing at the eerie altar
+in the Temple of Darkness.{06}{07}
+As the company drew near, they
+spotted a great sword atop the altar
+with two young maidens on each
+side--both resembling Liana.{06}{07}
+At the foot of the altar,
+a man clad in black mumbled
+an incantation of evil.{06}{07}
+The revival of Alhazard
+was at hand.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best B{3a}ser in combat
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 62}L{font0}ove {font4}S{font0}onya{06}{07}
+From the battle between B{3a}ser,
+the Empire and the Army of Light,
+the Empire emerged victorious.{06}{07}
+However, Egbert uncovered B{3a}ser's
+true intent in releasing Alhazard--
+the reawakening of Chaos's
+children, the Demon tribe.{06}{07}
+To stand against B{3a}ser and against
+Chaos's Might, the Empire unsealed
+Langrisser and rushed to Velzeria
+to confront the Prince of Darkness.{06}{07}
+As the company drew near
+Castle Velzeria, they discovered
+Rohga's younger sister, Sonya,
+guarding the gates.{06}{07}
+* Winning Condition
+{skip 3}-{skip 2}Best Sonya in combat or sway her
+{skip 10}from B{3a}ser's side{06}{07}
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 56}D{font0}ark {font4}B{font0}reaker{06}{07}
+After all their confrontations,
+Sonya's deep love for her
+brother melted her icy heart.{06}{07}
+{02} thought perhaps
+Sonya's change of heart could
+become a new bridge in human
+and Devil Tribe relations.{06}{07}
+However, for there to be any peace
+in El Sallia's future, it was decided
+B{3a}ser and his chaotic ambitions
+must be smashed once and for all.{06}{07}
+As the gates of Castle Velzeria
+opened, the party followed Sonya on
+foot to find the Prince of Darkness
+in the castle interior.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Kill B{3a}ser
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 18}S{font0}cattered {font4}S{font0}tars {font4}E{font0}verywhere{06}{07}
+With the Prince of Darkness
+fallen in the last battle,
+the dawn of darkness faded
+once again into the sunset.{06}{07}
+However, even with the threat
+of evil in the land no more, the
+Descendants of Light continued to
+violently resist unification.{06}{07}
+The imperial forces left Velzeria
+to regroup in the Rayguard capital
+for a final showdown with the
+meddlesome Army of Light.{06}{07}
+However, when the company
+arrived back at the harbour,
+they were ambushed once again
+by Lester and his men.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Kill Lester
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 53}T{font0}he {font4}O{font0}ld {font4}C{font0}astle{06}{07}
+The army of Light marched south
+and claimed the ancient Twin Castle
+as their new stronghold.{06}{07}
+Despite its ancient construction,
+the dual-tower design remains
+nigh-impenetrable to attack.{06}{07}
+In ancient times, the castle
+belonged to an emperor who claimed
+Langrisser for a short time.{06}{07}
+Their minds fixed on combat, the
+Descendants of Light renamed
+the stronghold "Clashing Castle."{06}{07}
+Within the castle walls, Cherie
+sombrely took up arms to stand
+against {02} once again.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Kill Cherie
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 51}D{font0}ecisive {font4}B{font0}attle{06}{07}
+Having scattered Cherie's
+troops, the company moved on
+to the Twin Castle's interior.{06}{07}
+Before them loomed two
+great entrances, only one of
+which would lead to Jessica.{06}{07}
+With no other options, {02}
+carefully divided the troops so
+one group would be guaranteed
+to confront the sorceress.{06}{07}
+However, being forced to divide
+one's forces was only the first
+of the castle's traps designed
+to weaken all attackers.{06}{07}
+The same technique now used by the
+Descendants of Light almost meant
+their doom when used against them
+during the ancient Holy Sword War.{06}{07}
+Within the castle walls,
+the strength of both sides'
+missions, emotions and
+ideals will be tested.{06}{07}
+After this final battle, the
+fate of El Sallia will lie in
+the hands of the victor.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Kill Jessica
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 20}T{font0}he {font4}G{font0}reat {font4}R{font0}iver of {font4}R{font0}egret{06}{07}
+B{3a}ser's plot to use Rayguard
+as a pawn to release the full
+power of Chaos's Glory was
+foreseen by the sorcerer, Egbert.{06}{07}
+A severely wounded B{3a}ser
+and the Army of Light--now on the
+brink of annihilation--are all that
+remains in the Empire's way.{06}{07}
+Massing its forces for a final
+march to crush the remaining
+Descendants of Light, the company
+set off to realise Rayguard's future.{06}{07}
+The remnants of the Army of Light
+were encamped near the
+riverbank, guarded by Lester
+and a naval detachment.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Kill Lester
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 58}L{font0}ight {font4}F{font0}alls ...{06}{07}
+The imperial troops, having finally
+cornered the Army of Light, were
+shocked to discover the light forces
+had erected a stronghold so quickly.{06}{07}
+The Army of Light constructed
+a small fortress on the sea
+that the company knew would
+be no easy task to breach.{06}{07}
+As friend and foe gathered along
+the shoreline, both sides knew
+this would be the final battle--
+regardless of who emerged victor.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Kill Jessica
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 62}D{font0}ark {font4}P{font0}ower{06}{07}
+Having dealt the Army of Light
+an unrecoverable blow, the
+only remaining enemies were
+B{3a}ser and his Army of Darkness.{06}{07}
+During their battle with the
+Army of Light, Sonya staged an
+attack on the Four Heavenly Dragons
+with a detachment of monsters.{06}{07}
+Though Bernhardt survived and
+their defences held firm, the Empire
+could no longer deny the danger
+the monsters' onslaught posed.{06}{07}
+Wasting no time, they attempted to
+return to the Rayguard capital ...{06}{07}
+* Winning Condition
+{skip 3}-{skip 2}Best Sonya in combat or sway
+{skip 10}her from B{3a}ser's side{06}{07}
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes
+{skip 3}-{skip 2}Bernhardt perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 21}D{font0}angerous {font4}C{font0}astle {font4}V{font0}elzeria{06}{07}
+The Blazing Dragon Army and
+Water Dragon Navy worked
+together to cut a path into the
+Velzerian peninsula's interior.{06}{07}
+Little stood between the company
+and the towering castle--its looming
+shadow cast over the land and tall
+spires poking the grey, angry skies.{06}{07}
+At the castle gates awaited Sonya,
+the demi-human girl whose hatred
+for humanity blazed ever hotter.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best all enemies
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 62}S{font0}ad {font4}A{font0}ssault{06}{07}
+Though the child of the love between
+a demon and human, Sonya's heart
+remained closed, even as she fell to
+her brother on the battlefield.{06}{07}
+As the company stood
+before the looming doors of
+Castle Velzeria, its gates slowly
+swung open--as if inviting death.{06}{07}
+{02} swore to himself that
+today, B{3a}ser would meet his end.
+But Rohga's heart overflows with
+sadness from the loss of his sister.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Kill B{3a}ser
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 60}M{font0}artial {font4}L{font0}aw{06}{07}
+Langrisser, the legendary
+blade capable of granting its
+wielder infinite power, has
+come into {02}'s hands.{06}{07}
+Rather than supporting the
+Empire's plan for unification,
+{02} decided peace could be
+better achieved at his own hand.{06}{07}
+Turning his enemies against each
+other, {02} plotted to attack
+the Rayguard capital while the Army
+of Light occupied imperial forces.{06}{07}
+But as the companions drew near
+Rayguard's walls, they were met by
+the Four Heavenly Dragons who had
+prepared an impenetrable defence.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best all enemies
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 47}K{font0}aiser {font4}B{font0}ernhardt{06}{07}
+Having crushed the generals
+at the gate, the companions
+pressed into the Rayguard interior
+aiming for the Kaiser's head.{06}{07}
+As they reached the throne room,
+they met head-on Bernhardt, a man
+with the piercing eyes of a fighter
+and the dignity of a nobleman.{06}{07}
+The charisma of the menacing Kaiser
+had attracted many of El Sallia's
+bravest warriors to his side.{06}{07}
+After more than a generation of war,
+{02} attempts to close the
+curtains on the Kaiser's ambitions.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best both Egbert and Bernhardt
+{skip 10}in battle{06}{07}
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 70}G{font0}enocide{06}{07}
+Having crushed the Kaiser and
+claimed Alhazard, the companions
+found a new ally in B{3a}ser.{06}{07}
+The dark mage revealed Liana
+was the key to breaking the seal
+on Alhazard, and that was why the
+Empire had been seeking her.{06}{07}
+Liana is currently hidden deep
+within the interior of Castle Kalxath.{06}{07}
+Since the companions still lack the
+power for a full attack on
+Castle Kalxath, they decided to try
+a surprise attack through Salrath.{06}{07}
+If word reaches Kalxath of
+the companions' march, the element
+of surprise will be lost.{06}{07}
+Unable to risk any messenger
+leaving Salrath territory alive, the
+companions had no choice but to
+conduct total war on the territory.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Kill both Scott and Loren{06}{07}
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes
+{skip 3}-{skip 2}Scott or Loren escapes to the
+{skip 10}top edge of the map{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 42}K{font0}alxath, {font4}S{font0}urrender!{06}{07}
+Having left Salrath territory a
+smouldering mess, the companions
+closed in on Castle Kalxath--the
+element of surprise theirs.{06}{07}
+Liana, the only girl able to
+break Alhazard's seal, is guarded
+by the Descendants of Light deep
+within the castle walls.{06}{07}
+The companions decided to
+capture Liana and deal a decisive
+blow to the Army of Light.{06}{07}
+With Alhazard's power, they
+would be free to exercise their
+strategy for peace in El Sallia.{06}{07}
+* Victory Conditions
+{skip 3}-{skip 2}Best all foes except Liana
+{skip 3}-{skip 2}Sonya captures Liana{06}{07}
+* Failure Conditions
+{skip 3}-{skip 2}{02} perishes
+{skip 3}-{skip 2}Liana perishes or escapes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 17}T{font0}he {font4}T{font0}rue {font4}P{font0}ower of {font4}A{font0}lhazard{06}{07}
+The two catalysts for unsealing
+Alhazard--the maiden of light,
+Liana, and the Dark Rod--were
+collected by the companions.{06}{07}
+Having travelled to the
+secret, underground temple of
+Castle Velzeria, the time for the
+Dark Blade's revival was at hand.{06}{07}
+However, mid-way through
+the ceremony, some unwanted
+guests rudely invited themselves
+into the castle ...{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best Bernhardt in combat
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 31}M{font0}essenger of {font4}D{font0}arkness{06}{07}
+With the seal on Chaos's Glory
+broken, the sword once again
+had the power to summon and
+control hordes of monsters.{06}{07}
+Though imperial forces managed
+to breach the castle during the
+unsealing ceremony, they could not
+wrest Langrisser from {02}.{06}{07}
+Deciding the Empire had interfered
+for the last time, the companions
+moved to crush it bit-by-bit as the
+imperials fled from Castle Velzeria.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Kill Vargas within 20 turns{06}{07}
+* Failure Conditions
+{skip 3}-{skip 2}{02} perishes
+{skip 3}-{skip 2}20 turns pass without victory{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 48}S{font0}cattered {font4}W{font0}aves{06}{07}
+By {02}'s blade, the brave
+General Vargas met his end.
+He secured his Kaiser's
+retreat with his last breath.{06}{07}
+The chase continued, and the
+companions took to sea to pursue
+the fleeing imperial forces.{06}{07}
+Having encountered imperial ships,
+the companions moved to board
+their enemies in a naval battle.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Kill Imelda within 25 turns{06}{07}
+* Failure Conditions
+{skip 3}-{skip 2}{02} perishes
+{skip 3}-{skip 2}25 turns pass with no victory{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 63}T{font0}win {font4}C{font0}astle{06}{07}
+General of the Blazing Dragon Army,
+Vargas, and general of the
+Water Dragon Navy, Imelda, both
+fell in the line of duty.{06}{07}
+It was only by Egbert's magic
+that the Kaiser escaped once
+again to hide within the walls
+of the ancient Twin Castle.{06}{07}
+In ancient times, the castle
+belonged to another emperor who
+claimed Langrisser for a short time.{06}{07}
+As they drew near the castle,
+the companions were met by
+General Leon, who formed a wall
+with the Blue Dragon Knights.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Kill all enemies
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 32}T{font0}he {font4}E{font0}mpire's {font4}L{font0}ast {font4}D{font0}ay{06}{07}
+At the top of Twin Castle, a
+thin bridge connects the two spires.
+The bridge is difficult to attack
+on but easy to defend.{06}{07}
+It was this strategic point the
+Kaiser selected to hole up in and
+meet the companions head-on.{06}{07}
+The elite forces of Rayguard
+have formed a defensive
+wall along with Egbert and
+his Dark Dragon Sorcerers.{06}{07}
+With the sun setting on the
+Kaiser's ambitions, {02}
+and his friends have come
+for Bernhardt's head.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Kill Bernhardt
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 30}T{font0}o {font4}L{font0}egendary {font4}D{font0}arkness{06}{07}
+All alone, the Descendants of Light
+cowered as though children
+hiding from a storm in their
+fort on the deserted isle.{06}{07}
+Knowing their end was near,
+they prepared to make one last
+stand against {02} and the
+coming forces of evil.{06}{07}
+However, they were
+surprised by {02}, who had
+come for their lives.{06}{07}
+The climax in the battle between
+light and dark is at hand.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Kill all enemies
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 8}T{font0}he {font4}W{font0}ay of the {font4}S{font0}upreme {font4}R{font0}uler{06}{07}
+Casting off the way of the light, the
+darkness, and imperial unification,
+{02} decided to follow his
+own road and become king.{06}{07}
+Using all their resources, the
+companions began to chase down
+fleeing imperials to pick apart their
+enemies one man at a time.{06}{07}
+Attempting to protect their Kaiser
+who had sustained serious injuries,
+the imperials were taken by surprise
+when {02} appeared.{06}{07}
+The road to becoming ruler
+of El Sallia begins here.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best both Vargas and Imelda
+{skip 10}within 20 turns{06}{07}
+* Failure Conditions
+{skip 3}-{skip 2}{02} perishes
+{skip 3}-{skip 2}20 turns pass with no victory{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 23}B{font0}laze of the {font4}B{font0}lue {font4}D{font0}ragon{06}{07}
+Having been driven back by the
+attack, the imperial forces took
+refuge in Castle Velzeria--home
+of the Prince of Darkness, B{3a}ser.{06}{07}
+The companions arrived at Velzeria
+after scattering the troops of both
+General Vargas and General Imelda.{06}{07}
+But blocking the castle gates ahead
+were General Leon and the entire
+force of the Blue Dragon Knights.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best all enemies
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 47}K{font0}aiser {font4}B{font0}ernhardt{06}{07}
+Having smashed Leon's resistance
+at the castle gate, the companions
+entered the castle to root out the
+Kaiser from his hiding place.{06}{07}
+Sitting on a throne not his own,
+Bernhardt's thoughts grew weary
+as he pondered what the future
+held for his great empire.{06}{07}
+The Kaiser wondered how history
+would regard him. A visionary, a
+mercenary, a failure or a butcher.{06}{07}
+Reflecting on the effects his
+quest had on the lives of everyday
+people in El Sallia, he began to
+regret the wars he had started.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Kill Bernhardt
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 56}R{font0}uins of {font4}G{font0}aia{06}{07}
+Once the mightiest man in El Sallia,
+Kaiser Bernhardt breathed his
+last as a cave-in buried he and
+his empire in the pages of history{06}{07}
+Rid of his immediate rival,
+{02} turned his sights to
+the Army of Light.{06}{07}
+The companions tracked down
+the Army of Light to a ravine
+called "The Ruins of Gaia,"
+a site of immense power.{06}{07}
+The goddess of light, Lushiris,
+had ordered Jessica to defend
+the area at all costs.{06}{07}
+Cherie and her forces were left
+to close off the power of the
+ruins and prevent {02}
+from claiming it for himself.{06}{07}
+* Victory Conditions
+{skip 3}-{skip 2}Best all enemies
+{skip 3}-{skip 2}Reactivate the ruins{06}{07}
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes
+{skip 3}-{skip 2}20 turns pass with no victory{06}{07}
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 64}N{font0}eo {font4}G{font0}loria{06}{07}
+Even the heavens above where
+Lushiris, the goddess of light, dwells
+have become a battlefield.{06}{07}
+Jessica broke the seal
+on Langrisser herself to take
+the forces of light up to the
+goddess' sublime realm.{06}{07}
+Before the sword's power can
+be stripped, {02} must
+defeat the goddess herself.{06}{07}
+The battle over Langrisser and
+the fate of El Sallia has finally
+spilt over into the realm of the
+gods from whence it all began.{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Kill Lushiris
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 62}{font4}Scenario ?1
+{skip 48}M{font0}uscular {font4}S{font0}hrine{06}{07}
+Through careful inspection,
+{02} found a hidden
+passageway within the holy
+sanctuary, Reitel.{06}{07}
+Curious where the path could lead,
+the companions decided to explore.{06}{07}
+As they emerged from the end of
+the passage, the companions
+were greeted by mysterious,
+male statues, shiny with Vaseline.{06}{07}
+The statues, flexing as though their
+muscles would crack the granite
+from which they were carved, drew
+looks of awe from the ladies ...{06}{07}
+Suddenly, a mysterious voice
+boomed from the distance ...
+"You boys need to pump up
+if you hope to win!"{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best all enemies
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 62}{font4}Scenario ?2
+{skip 65}Q{font0}uiz {font4}T{font0}ime!{06}{07}
+Having crossed the bridge,
+the Descendants of Light
+discovered a mysterious cave
+at the foot of the bridge.{06}{07}
+Curious what the cave may contain,
+the companions cautiously entered
+the mouldering interior.{06}{07}
+It was but a few steps before they
+came upon the programming staff,
+armed to the teeth and ready to grill
+them on their Masayan knowledge.{06}{07}
+Kanio, the master of ceremonies,
+offered the companions a special
+prize if they could answer all
+his questions correctly ...{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best Uki in combat
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+
+{skip 62}{font4}Scenario ?3
+{skip 21}I{font0}'ve {font4}S{font0}een {font4}Y{font0}ou {font4}S{font0}omewhere{06}{07}
+Having crossed the bridge,
+the imperial forces discovered
+a mysterious cave at the
+foot of the bridge.{06}{07}
+Curious what the cave may
+contain, the company cautiously
+entered the mouldering interior.{06}{07}
+Within stood a lone witch protected
+by her fiery companions.{06}{07}
+But little did the companions
+know, the simple-looking witch
+possessed a secret power they
+could never have imagined ...{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Best the witch in combat
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+
+{skip 63}{font4}Scenario {03}
+{skip 28}F{font0}ar {font4}A{font0}way, to the {font4}L{font0}egend{06}{07}
+The visage of the Castle Velzeria
+sent icy waves into the hearts
+of the company as they
+gazed on its gnarled form.{06}{07}
+Its walls were home to the
+blackest night--a darkness that
+would devour any passing light as
+thought it were a black hole.{06}{07}
+Deep within, B{3a}ser, the
+Prince of Darkness, tried to
+gather what little strength he had
+left for a battle to the end.{06}{07}
+The time for the last battle
+between humanity and the
+Demon Tribe is finally at hand ...{06}{07}
+* Victory Condition
+{skip 3}-{skip 2}Kill B{3a}ser
+* Failure Condition
+{skip 3}-{skip 2}{02} perishes{06}{07}
+{end}
+

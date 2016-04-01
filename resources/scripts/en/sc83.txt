@@ -1,0 +1,810 @@
+Features Select{end}
+
+Music Test{end}
+
+Sound Effects{end}
+
+Battle Test{end}
+
+0{skip 1}1{skip 1} - Der Neue Heilige Krieg{end}
+
+02 - Ein fahrender Ritter{end}
+
+03 - Nie kapitulation{end}
+
+04 - Bis auf den letzten Man{end}
+
+05 - Die Legende des Schwertes{end}
+
+06 - Soldat{end}
+
+07 - Der endkampf{end}
+
+08 - Unsere Seite{end}
+
+09 - Verst{38}rkung vom Partnerin 2{end}
+
+{skip 1}1{skip 1}0 - Verst{38}rkung vom Partnerin 3{end}
+
+{skip 1}1{skip 2}1{skip 1} - Leon{end}
+
+{skip 1}1{skip 1}2 - Vargas{end}
+
+{skip 1}1{skip 1}3 - Morgan{end}
+
+{skip 1}1{skip 1}4 - Die b{3a}se Person{end}
+
+{skip 1}1{skip 1}5 - Egbert{end}
+
+{skip 1}1{skip 1}6 - Imelda{end}
+
+{skip 1}1{skip 1}7 - Die dunkle Prinzessin{end}
+
+{skip 1}1{skip 1}8 - B{3a}ser{end}
+
+{skip 1}1{skip 1}9 - Bernhardt{end}
+
+20 - Verst{38}rkung vom Feinde{end}
+
+2{skip 1}1{skip 1} - Verst{38}rkung vom Feinde 2{end}
+
+22 - Geschaft{end}
+
+23 - Story{end}
+
+24 - Liana{end}
+
+25 - Aniki{end}
+
+26 - Das Requiem{end}
+
+27 - Das Ende{end}
+
+28 - Eine Geschichte bleibt ewig{end}
+
+29 - Musik der H{3a}hle{end}
+
+30 - Ruhiges Finale{end}
+
+3{skip 1}1{skip 1} - Die Kriegsauswirkung{end}
+
+32 - Unser Sieg{end}
+
+33 - Der Anfang{end}
+
+34 - Das Requiem 2{end}
+
+35 - Der Anfang 2{end}
+
+36 - Musik des Strandes{end}
+
+37 - Musik der Nacht{end}
+
+38 - Jessica{end}
+
+39 - Der Nachspann{end}
+
+0{skip 1}1{skip 1} - Window Open{end}
+
+02 - Select 1{end}
+
+03 - Command Confirmation{end}
+
+04 - Command Cancel{end}
+
+05 - Equipment{end}
+
+06 - Equipment Drop{end}
+
+07 - Operation Miss{end}
+
+08 - Sword Wielding{end}
+
+09 - Perfect Sword Strength{end}
+
+{skip 1}1{skip 1}0 - Projectile 1{end}
+
+{skip 1}1{skip 2}1{skip 1} - Projectile 2{end}
+
+{skip 1}1{skip 1}2 - Enemy Kill{end}
+
+{skip 1}1{skip 1}3 - Enemy Fall{end}
+
+{skip 1}1{skip 1}4 - Combat Sounds - Swords{end}
+
+{skip 1}1{skip 1}5 - Flying Arrows{end}
+
+{skip 1}1{skip 1}6 - Walking{end}
+
+{skip 1}1{skip 1}7 - Iron Bell{end}
+
+{skip 1}1{skip 1}8 - Flying Soldier Sounds{end}
+
+{skip 1}1{skip 1}9 - Voice of Time{end}
+
+20 - Girl Scream 1 - Right{end}
+
+2{skip 1}1{skip 1} - Girl Scream 1 - Left{end}
+
+22 - Girl Scream 2 - Right{end}
+
+23 - Girl Scream 2 - Left{end}
+
+24 - Monster Scream 1 - Right{end}
+
+25 - Monster Scream 1 - Left{end}
+
+26 - Monster Scream 2 - Right{end}
+
+27 - Monster Scream 2 - Left{end}
+
+28 - Male Scream 1 - Right{end}
+
+29 - Male Scream 1 - Left{end}
+
+30 - Male Scream 2 - Right{end}
+
+3{skip 1}1{skip 1} - Male Scream 2 - Left{end}
+
+32 - Male Scream 3 - Centre{end}
+
+33 - Explosion{end}
+
+34 - Impact{end}
+
+35 - Great Explosion{end}
+
+36 - Magic Miss{end}
+
+37 - Magic Effect{end}
+
+38 - Magic Arrow{end}
+
+39 - Thunder{end}
+
+40 - Fireball{end}
+
+4{skip 1}1{skip 1} - Meteor{end}
+
+42 - Turn Undead{end}
+
+43 - Heal{end}
+
+44 - Heal 1{end}
+
+45 - Sleep, Charm{end}
+
+46 - Zone{end}
+
+47 - Blizzard{end}
+
+48 - Tornado{end}
+
+49 - Attack 1, 2{end}
+
+50 - Mute, Quick, etc.{end}
+
+5{skip 1}1{skip 1} - Again{end}
+
+52 - Decrease, Summon{end}
+
+53 - Blast{end}
+
+54 - Girl Scream 3 - Right{end}
+
+55 - Girl Scream 3 - Left{end}
+
+56 - Male Scream 4 - Right{end}
+
+57 - Male Scream 4 - Left{end}
+
+58 - Monster Scream 3 - Right{end}
+
+59 - Monster Scream 3 - Left{end}
+
+60 - Monster Scream 4 - Right{end}
+
+6{skip 1}1{skip 1} - Monster Scream 4 - Left{end}
+
+62 - Magic Finish{end}
+
+63 - Earthquake{end}
+
+64 - Scenario Clear{end}
+
+65 - SE Stop{end}
+
+66 - Male Scream 5 - Right{end}
+
+67 - Male Scream 5 - Left{end}
+
+68 - Girl Scream 4 - Right{end}
+
+69 - Girl Scream 4 - Left{end}
+
+70 - Girl Scream 5 - Right{end}
+
+7{skip 1}1{skip 1} - Girl Scream 5 - Left{end}
+
+72 - Male Scream 6 - Right{end}
+
+73 - Experience Points{end}
+
+74 - Magic Effect 1{end}
+
+75 - Magic Effect 2{end}
+
+76 - Protection 1, 2{end}
+
+77 - Teleport{end}
+
+78 - Heal 2, Force Heal 2{end}
+
+79 - Langrisser{end}
+
+0{skip 1}1{skip 1} - Plains{end}
+
+02 - Rough Ground{end}
+
+03 - Road{end}
+
+04 - Forest{end}
+
+05 - Mountain A{end}
+
+06 - Mountain B{end}
+
+07 - Ocean{end}
+
+08 - Raised Wall{end}
+
+09 - Castle Wall{end}
+
+{skip 1}1{skip 1}0 - Castle Interior{end}
+
+{skip 1}1{skip 2}1{skip 1} - Home Interior{end}
+
+{skip 1}1{skip 1}2 - Temple Interior{end}
+
+{skip 1}1{skip 1}3 - Throne Room{end}
+
+{skip 1}1{skip 1}4 - Fishing Bridge{end}
+
+{skip 1}1{skip 1}5 - Sky Bridge{end}
+
+{skip 1}1{skip 1}6 - Plains{end}
+
+{skip 1}1{skip 1}7 - Burning{end}
+
+{skip 1}1{skip 1}8 - Burning{end}
+
+{skip 1}1{skip 1}9 - Graveyard{end}
+
+20 - Ship Deck{end}
+
+2{skip 1}1{skip 1} - Riverside{end}
+
+22 - City Streets{end}
+
+23 - Ship Deck{end}
+
+24 - Riverside{end}
+
+25 - City Streets{end}
+
+26 - Realm of the Gods{end}
+
+27 - Ruined Castle{end}
+
+28 - High Wall{end}
+
+29 - Forbidden{end}
+
+00{skip 1}1{skip 1} - Imperial Fighter{end}
+
+002 - Light Fighter{end}
+
+003 - Erwin/Light Fighter{end}
+
+004 - Imperial Gladiator{end}
+
+005 - Vampire{end}
+
+006 - Imperial Knight{end}
+
+007 - Erwin/Light Knight{end}
+
+008 - Light Pirate{end}
+
+009 - Imperial Hawk Knight{end}
+
+0{skip 1}1{skip 1}0 - Light Hawk Knight{end}
+
+0{skip 1}1{skip 2}1{skip 1} - Sister{end}
+
+0{skip 1}1{skip 1}2 - Imperial Shaman{end}
+
+0{skip 1}1{skip 1}3 - Imperial Warlock{end}
+
+0{skip 1}1{skip 1}4 - Light Warlock{end}
+
+0{skip 1}1{skip 1}5 - Werewolf{end}
+
+0{skip 1}1{skip 1}6 - Gelgazer{end}
+
+0{skip 1}1{skip 1}7 - Ghost{end}
+
+0{skip 1}1{skip 1}8 - Scylla{end}
+
+0{skip 1}1{skip 1}9 - Roc{end}
+
+020 - Imperial Lord{end}
+
+02{skip 1}1{skip 1} - Light Lord{end}
+
+022 - Erwin/Light Lord{end}
+
+023 - Imperial Assassin{end}
+
+024 - Light Assassin{end}
+
+025 - Imperial Silver Knight{end}
+
+026 - Light Silver Knight{end}
+
+027 - Erwin/Light Silver Knight{end}
+
+028 - Imperial Captain{end}
+
+029 - Light Captain{end}
+
+030 - Imperial Hawk Lord{end}
+
+03{skip 1}1{skip 1} - Light Hawk Lord{end}
+
+032 - Cleric{end}
+
+033 - Imperial Necromancer{end}
+
+034 - Imperial Sorcerer{end}
+
+035 - Light Sorcerer A{end}
+
+036 - Light Sorcerer B{end}
+
+037 - Paladin A{end}
+
+038 - Paladin B{end}
+
+039 - Cerberus{end}
+
+040 - Dullahan{end}
+
+04{skip 1}1{skip 1} - Lich{end}
+
+042 - Serpent{end}
+
+043 - Wyvern{end}
+
+044 - Imperial High Lord{end}
+
+045 - Light High Lord{end}
+
+046 - Erwin/Light High Lord{end}
+
+047 - Imperial Swordsman{end}
+
+048 - Light Swordsman{end}
+
+049 - Imperial Highlander{end}
+
+050 - Light Highlander{end}
+
+05{skip 1}1{skip 1} - Erwin/Light Highlander{end}
+
+052 - Green Serpent Knight{end}
+
+053 - Erwin/Light Gladiator{end}
+
+054 - Imperial Dragon Knight{end}
+
+055 - Light Dragon Knight{end}
+
+056 - Priest{end}
+
+057 - Imperial Summoner{end}
+
+058 - Imperial Mage{end}
+
+059 - Light Mage A{end}
+
+060 - Light Mage B{end}
+
+06{skip 1}1{skip 1} - Saint A{end}
+
+062 - Saint B{end}
+
+063 - Cherie Unicorn Knight{end}
+
+064 - Minotaur{end}
+
+065 - Living Armour{end}
+
+066 - Succubus{end}
+
+067 - Kraken{end}
+
+068 - Phoenix{end}
+
+069 - Imperial General{end}
+
+070 - Light General{end}
+
+07{skip 1}1{skip 1} - Erwin/Light General{end}
+
+072 - Imperial Sword Master{end}
+
+073 - Erwin/Light Sword Master{end}
+
+074 - Imperial Knight Master{end}
+
+075 - Light Knight Master{end}
+
+076 - Erwin/Light Knight Master{end}
+
+077 - Imperial Serpent Lord{end}
+
+078 - Erwin/Light Pirate{end}
+
+079 - Dark Dragon Lord{end}
+
+080 - Light Dragon Lord{end}
+
+08{skip 1}1{skip 1} - High Priest{end}
+
+082 - Imperial Zauberer{end}
+
+083 - Dark Zauberer{end}
+
+084 - Imperial Archmage{end}
+
+085 - Light Archmage A{end}
+
+086 - Light Archmage B{end}
+
+087 - Sage{end}
+
+088 - Erwin/Light Sage{end}
+
+089 - Aaron Ranger{end}
+
+090 - Rohga Ranger{end}
+
+09{skip 1}1{skip 1} - Master Dino{end}
+
+092 - Stone Golem{end}
+
+093 - Vampire Lord{end}
+
+094 - J{3a}rmungandr{end}
+
+095 - Great Dragon{end}
+
+096 - Erwin/Ledin King{end}
+
+097 - Bernhardt Emperor{end}
+
+098 - Erwin Hero{end}
+
+099 - Erwin Hero{end}
+
+{skip 1}1{skip 1}00 - Erwin/Seighart Hero{end}
+
+{skip 1}1{skip 1}0{skip 1}1{skip 1} - Imelda Queen{end}
+
+{skip 1}1{skip 1}02 - Sonya Royal Guard{end}
+
+{skip 1}1{skip 1}03 - Leon Royal Guard{end}
+
+{skip 1}1{skip 1}04 - Scott Royal Guard{end}
+
+{skip 1}1{skip 1}05 - Erwin Royal Guard{end}
+
+{skip 1}1{skip 1}06 - Light Serpent Master{end}
+
+{skip 1}1{skip 1}07 - Light Dragon Master{end}
+
+{skip 1}1{skip 1}08 - Liana Agent{end}
+
+{skip 1}1{skip 1}09 - B{3a}ser Dark Master{end}
+
+{skip 1}1{skip 2}1{skip 1}0 - Egbert Dark Master{end}
+
+{skip 1}1{skip 2}1{skip 2}1{skip 1} - Imperial Wizard A{end}
+
+{skip 1}1{skip 2}1{skip 1}2 - Imperial Wizard B{end}
+
+{skip 1}1{skip 2}1{skip 1}3 - Light Wizard A{end}
+
+{skip 1}1{skip 2}1{skip 1}4 - Light Wizard B{end}
+
+{skip 1}1{skip 2}1{skip 1}5 - Cherie Princess{end}
+
+{skip 1}1{skip 2}1{skip 1}6 - Imperial Sorcerer{end}
+
+{skip 1}1{skip 2}1{skip 1}7 - Aaron High Master{end}
+
+{skip 1}1{skip 2}1{skip 1}8 - Rohga High Master{end}
+
+{skip 1}1{skip 2}1{skip 1}9 - Monk{end}
+
+{skip 1}1{skip 1}20 - Barbarian{end}
+
+{skip 1}1{skip 1}2{skip 1}1{skip 1} - Imperial Soldier{end}
+
+{skip 1}1{skip 1}22 - Light Soldier{end}
+
+{skip 1}1{skip 1}23 - Soldier{end}
+
+{skip 1}1{skip 1}24 - Berserker{end}
+
+{skip 1}1{skip 1}25 - Imperial Grenadier{end}
+
+{skip 1}1{skip 1}26 - Silver Grenadier{end}
+
+{skip 1}1{skip 1}27 - Grenadier{end}
+
+{skip 1}1{skip 1}28 - Dark Guard{end}
+
+{skip 1}1{skip 1}29 - Lancer{end}
+
+{skip 1}1{skip 1}30 - Light Trooper{end}
+
+{skip 1}1{skip 1}3{skip 1}1{skip 1} - Trooper{end}
+
+{skip 1}1{skip 1}32 - Hellhound{end}
+
+{skip 1}1{skip 1}33 - Royal Lancer{end}
+
+{skip 1}1{skip 1}34 - Light Dragon{end}
+
+{skip 1}1{skip 1}35 - Dragon{end}
+
+{skip 1}1{skip 1}36 - Bone Dino{end}
+
+{skip 1}1{skip 1}37 - Imperial Pike{end}
+
+{skip 1}1{skip 1}38 - Light Pike{end}
+
+{skip 1}1{skip 1}39 - Pike{end}
+
+{skip 1}1{skip 1}40 - Imperial Phalanx{end}
+
+{skip 1}1{skip 1}4{skip 1}1{skip 1} - Light Phalanx{end}
+
+{skip 1}1{skip 1}42 - Phalanx{end}
+
+{skip 1}1{skip 1}43 - Golem{end}
+
+{skip 1}1{skip 1}44 - Imperial Elf{end}
+
+{skip 1}1{skip 1}45 - Light Elf{end}
+
+{skip 1}1{skip 1}46 - Elf{end}
+
+{skip 1}1{skip 1}47 - Dark Elf{end}
+
+{skip 1}1{skip 1}48 - Imperial High Elf{end}
+
+{skip 1}1{skip 1}49 - Light High Elf{end}
+
+{skip 1}1{skip 1}50 - High Elf{end}
+
+{skip 1}1{skip 1}5{skip 1}1{skip 1} - Witch{end}
+
+{skip 1}1{skip 1}52 - Dark Ballista{end}
+
+{skip 1}1{skip 1}53 - Imperial Ballista{end}
+
+{skip 1}1{skip 1}54 - Light Ballista{end}
+
+{skip 1}1{skip 1}55 - Ballista{end}
+
+{skip 1}1{skip 1}56 - Ghost{end}
+
+{skip 1}1{skip 1}57 - Spectre{end}
+
+{skip 1}1{skip 1}58 - Demon{end}
+
+{skip 1}1{skip 1}59 - Archdemon{end}
+
+{skip 1}1{skip 1}60 - Light Merman{end}
+
+{skip 1}1{skip 1}6{skip 1}1{skip 1} - Merman{end}
+
+{skip 1}1{skip 1}62 - Dark Lizardman{end}
+
+{skip 1}1{skip 1}63 - Imperial Lizardman{end}
+
+{skip 1}1{skip 1}64 - Light Nixie{end}
+
+{skip 1}1{skip 1}65 - Nixie{end}
+
+{skip 1}1{skip 1}66 - Dark Leviathan{end}
+
+{skip 1}1{skip 1}67 - Imperial Leviathan{end}
+
+{skip 1}1{skip 1}68 - Imperial Harpy{end}
+
+{skip 1}1{skip 1}69 - Harpy{end}
+
+{skip 1}1{skip 1}70 - Fairy{end}
+
+{skip 1}1{skip 1}7{skip 1}1{skip 1} - Bat{end}
+
+{skip 1}1{skip 1}72 - Imperial Griffon{end}
+
+{skip 1}1{skip 1}73 - Griffon{end}
+
+{skip 1}1{skip 1}74 - Angel{end}
+
+{skip 1}1{skip 1}75 - Gargoyle{end}
+
+{skip 1}1{skip 1}76 - Light Monk{end}
+
+{skip 1}1{skip 1}77 - Imperial Barbarian{end}
+
+{skip 1}1{skip 1}78 - Light Crusader{end}
+
+{skip 1}1{skip 1}79 - Crusader{end}
+
+{skip 1}1{skip 1}80 - Imperial Barbarian{end}
+
+{skip 1}1{skip 1}8{skip 1}1{skip 1} - Barbarian{end}
+
+{skip 1}1{skip 1}82 - Imperial Bandit{end}
+
+{skip 1}1{skip 1}83 - Bandit{end}
+
+{skip 1}1{skip 1}84 - Zombie{end}
+
+{skip 1}1{skip 1}85 - Skeleton{end}
+
+{skip 1}1{skip 1}86 - Wolfman{end}
+
+{skip 1}1{skip 1}87 - Ogre{end}
+
+{skip 1}1{skip 1}88 - Gel{end}
+
+{skip 1}1{skip 1}89 - Elemental{end}
+
+{skip 1}1{skip 1}90 - Civilian{end}
+
+{skip 1}1{skip 1}9{skip 1}1{skip 1} - Valkyrie{end}
+
+{skip 1}1{skip 1}92 - Freyja{end}
+
+{skip 1}1{skip 1}93 - White Dragon{end}
+
+{skip 1}1{skip 1}94 - Salamander{end}
+
+{skip 1}1{skip 1}95 - Iron Golem{end}
+
+{skip 1}1{skip 1}96 - Demon Lord{end}
+
+{skip 1}1{skip 1}97 - Sleipnir{end}
+
+{skip 1}1{skip 1}98 - Fenrir{end}
+
+{skip 1}1{skip 1}99 - Aniki{end}
+
+200 - Builder{end}
+
+20{skip 1}1{skip 1} - Leon Knight Master{end}
+
+202 - Rohga Emperor{end}
+
+203 - Egbert Zauberer{end}
+
+204 - Assassin{end}
+
+205 - L{37}na Dark Princess{end}
+
+206 - L{37}na Wizard{end}
+
+207 - Lester Serpent Knight{end}
+
+208 - Keith Dragon Knight{end}
+
+209 - Keith Dragon Lord{end}
+
+2{skip 1}1{skip 1}0 - Eliza and Emilia Noble{end}
+
+2{skip 1}1{skip 2}1{skip 1} - Cherie Dragon Knight{end}
+
+2{skip 1}1{skip 1}2 - Imelda Royal Guard{end}
+
+2{skip 1}1{skip 1}3 - Jessica Archmage{end}
+
+2{skip 1}1{skip 1}4 - Aaron High Lord{end}
+
+2{skip 1}1{skip 1}5 - Aaron Sword Master{end}
+
+2{skip 1}1{skip 1}6 - Imperial Knight{end}
+
+2{skip 1}1{skip 1}7 - Lester Serpent Lord{end}
+
+2{skip 1}1{skip 1}8 - Scott Knight Master{end}
+
+2{skip 1}1{skip 1}9 - Imperial Assassin{end}
+
+220 - Rohga Ranger{end}
+
+22{skip 1}1{skip 1} - Rohga High Master{end}
+
+222 - Sonya Archmage{end}
+
+223 - Sonya Wizard{end}
+
+224 - Liana High Priest{end}
+
+225 - Chaos{end}
+
+226 - Erwin/Light Bishop{end}
+
+227 - Lushiris{end}
+
+228 - Imperial Sorcerer{end}
+
+229 - Imperial Silver Knight{end}
+
+230 - Imperial Necromancer{end}
+
+23{skip 1}1{skip 1} - Imperial Saint{end}
+
+232 - Imperial Mage{end}
+
+233 - Imperial Swordsman{end}
+
+234 - Imperial Highlander{end}
+
+235 - Imperial Saint{end}
+
+236 - Imperial Summoner{end}
+
+237 - Light Swordsman{end}
+
+238 - Light Serpent Knight{end}
+
+239 - Priest{end}
+
+240 - Erwin/Light Hawk Knight{end}
+
+24{skip 1}1{skip 1} - Dark Dragon Lord{end}
+
+242 - Dark Sage A{end}
+
+243 - Dark Sage B{end}
+
+244 - Imperial Archmage{end}
+
+245 - Imperial General{end}
+
+246 - Dark Sword Master{end}
+
+247 - Imperial Serpent Lord{end}
+
+248 - Light Sword Master{end}
+
+249 - High Priest{end}
+
+250 - Cherie Sage{end}
+
+25{skip 1}1{skip 1} - Vargas General{end}
+
+252 - Imperial Knight Master{end}
+
+253 - Imperial Pirate {end}
+
+254 - Light Knight{end}
+

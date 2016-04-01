@@ -1,0 +1,566 @@
+This cave ...
+It looks inhabited!{end}
+
+Who could live here?
+I wonder ...{end}
+
+Investigating couldn't hurt.
+Just be on your guard.{end}
+
+Personally, I'm hoping
+for a little excitement ...{end}
+
+There's someone in there!{end}
+
+Someone is coming!{end}
+
+Who could it be?{end}
+
+Probably just some stragglers.{06}{07}
+I wonder why they're here.
+This cave isn't exactly
+on the beaten path.{end}
+
+He's that guy everyone
+keeps calling a maniac.{end}
+
+I know I have a reputation
+for saying whatever pops into
+my head, but I'm at a loss here.{end}
+
+I can't believe they caught
+me this way ... and now they
+are calling me a maniac ...!?{end}
+
+What's a maniac?
+Can you eat it?{end}
+
+I can't believe I'm
+hearing this!{end}
+
+There seems to be some
+dissension among them ...{end}
+
+The old lady is
+getting pretty hysterical.{end}
+
+Old ... lady ...?{06}{07}
+I'm going to kill you.{end}
+
+Halt, villains!{end}
+
+You won't be laying
+a finger on anyone today!{end}
+
+That's right evil-doers!{end}
+
+For we are ...{06}{07}
+The Golden Dragon
+Youth Defence Force!{end}
+
+We have joined forces
+to stop nefarious deeds
+and spread justice to all!{end}
+
+Black Ranger is right!
+We'll bring you guys to justice!{end}
+
+Umm ...
+Kindly explain to me again
+why we are "maniacs" ...{end}
+
+There's no reason to
+waste words on villain scum!
+We'll show you!{end}
+
+Well, shall we win
+another battle? This one
+looks simple enough.{end}
+
+The spandex-clad superheroes
+seem to be challenging us ...{06}{07}
+Do they really think they
+can withstand our assault ...?{end}
+
+You bad guys sure get
+worked up over a little
+name-calling, don't you?{end}
+
+Hey, I heard that!{06}{07}
+Now hear my fist as it
+pummels justice into
+your black hearts!{end}
+
+No argument from me!{end}
+
+All right, lets take
+these guys out!{end}
+
+Maybe this isn't
+such a good idea ...
+They're pretty strong.{end}
+
+Let's take them to
+the underworld, boys!{end}
+
+Looks like my power's run low.
+I need to ... power up!{end}
+
+Leave it to me!
+I'll protect you!{end}
+
+That's right, my lady.
+You have nothing to fear!{end}
+
+Fast as fast can be,
+you'll never catch me!
+Warp ...!{06}{07}
+I'll be back!{end}
+
+What? She vanished ...
+Quick, head for where
+she was standing!{06}{07}
+She may have left
+something behind.{end}
+
+Hee hee! This is fun!
+Warp! Warp!{end}
+
+"I'll be back."
+What did she mean by that?{end}
+
+Again, again, again ...
+Warp!{06}{07}
+What the hell ... is this?
+Damn, it's not working!{end}
+
+I'm coming to back you up!
+Keep your spirits high!{end}
+
+Yes! I understand!{end}
+
+You've done well to come here.
+Kaiser Circle, lend me strength.{06}{07}
+Give me the power
+to protect everyone!{end}
+
+Whoa, more creepiness ...{end}
+
+Kaiser Circle ...?{end}
+
+That girl ...
+You won't get near her!{end}
+
+What? Come on, all you can
+attack with is bows and magic.
+How do you expect to win?{end}
+
+Sh, shut up!{end}
+
+Separated, ... but ...
+I'll probably be okay ...{end}
+
+Let's get this over with!{end}
+
+Gaahh--!
+How wretched!
+In this party ...{end}
+
+I know I haven't mentioned
+it before, but I've
+dabbled a bit in astrology.{06}{07}
+And, everyone, today is
+supposed to be my lucky one.{06}{07}
+So let's move already!{end}
+
+The stars were right!
+I'm totally kicking ass today.{end}
+
+Hein ...
+What are you talking about?{end}
+
+It's nothing ...!
+Well then, let's go!{end}
+
+So, what about that
+sword we're searching for? 
+We better hurry this up.{end}
+
+Maybe we should
+get back to the real mission ...{end}
+
+Weren't you just bragging
+about how much you were
+"kicking ass?"{end}
+
+Err ... Heh heh, that's right.
+Back to battle, everyone ...!{end}
+
+Is this the end of Hein,
+the sorcery prodigy from
+the village of Salrath?{06}{07}
+Farewell, cruel world ...!{06}{07}
+Leon, please shine on
+like the Magic Star you are!{06}{07}
+Wait, ... what?
+Who the hell made me
+to say this ...?{end}
+
+Sh, shut up!{end}
+
+I didn't say anything ...{end}
+
+To die in such a place ...{end}
+
+I'm the one
+doing the narration!{06}{07}
+The aloof mercenary, Rohga.
+He continues a daring search
+for his younger sister.{06}{07}
+Farewell, Rohga!
+The world will miss ...
+its strongest warrior.{end}
+
+Stop with the
+drama, already!{06}{07}
+If we die in the middle of
+nowhere, no one will be
+searching for anyone!{end}
+
+Sorry, sorry ...
+I just need a break.{end}
+
+You think I'd be
+defeated here?{end}
+
+General Leon of the Empire.
+Many admire one who is strict
+with himself, yet kind to others.{06}{07}
+Farewell, Leon!
+Young, noble, and ...
+blue knight ...!{end}
+
+Who's the champ ...?{end}
+
+Am I ... finished ...?{end}
+
+I knew it! We shouldn't have
+messed with them and
+their maniac power.{end}
+
+Stop saying maniac!
+I'm not a maniac, so don't
+confuse me with one!{end}
+
+Step down! I can't let you
+lose in a place like this!{end}
+
+Boy, you're too kind ...{end}
+
+What's this ...?
+Am I the only one left!?{06}{07}
+Was my command range always
+this bad? Did my Creator ...
+Did he even look at the FAQ!?{end}
+
+Heh heh heh ...
+You'll never know!{end}
+
+I can't lose ...
+For everyone, for my sister's
+sake, I must not lose!{06}{07}
+The player on the left ...
+is he who controls the world!
+Arrow Telios!{end}
+
+You guys have no chance!
+Just give up!{end}
+
+I'll never give up!
+Here is ... my Ultimate Blow!{06}{07}
+Wind and Rain
+Elemental Arrow!{end}
+
+Hey Sis, I need
+to take a little rest.
+Is that okay ...?{06}{07}
+Bye Mr. Dragon ...
+someday ... someday again ...{end}
+
+It's time to put my
+power to use! Aaarrggghh!{end}
+
+Gaaahh--!
+I've been injured!{end}
+
+Are you all
+right, Kerberos?{end}
+
+No, there's no other choice.
+I must use my secret technique!{end}
+
+Take care!{end}
+
+Will I be okay by myself?
+{end}
+
+I knew it was useless ...
+Okay, my secret technique!{end}
+
+Well then, time to go!{end}
+
+Ooohh ...
+Don't tease me ...{end}
+
+{02} ...
+It ... hurts.{end}
+
+Hein ...
+It ... hurts.{end}
+
+Rohga ...
+It ... hurts.{end}
+
+Leon ...
+It ... hurts.{end}
+
+Imelda ...
+It ... hurts.{end}
+
+Shit! Not bad, not bad!{06}{07}
+But you're in trouble now!
+Kerberos, Sorcerer, everyone!
+Go for it!{end}
+
+Man, the battles lately
+have been a real pain.{06}{07}
+Take this!
+Typhoon Bolt!{end}
+
+What's wrong, squirt?{end}
+
+Don't screw with me!
+Let's see what
+you've really got!{end}
+
+Don't like fun at your expense?
+Well, maybe my {39}leet
+skills will entertain you!{06}{07}
+Secret Technique:
+Ascending Super Spiral ...
+of the Hurricane!{end}
+
+Take this!
+Typhoon Bolt!{end}
+
+You, you fiend!
+Do you think to beat me?
+I'm a champion of justice!{end}
+
+My name is Ishida,
+and none of you forget it.{06}{07}
+Ishida, the Battling Champion.
+I bid you farewell!{end}
+
+Not bad, not bad!{end}
+
+Grrr ...
+What reckless fools would
+challenge me!?{06}{07}
+Die by my signature move ...
+Mach Uppercut!{end}
+
+I wouldn't want to hurt
+a babe like you ...{end}
+
+Aww, isn't that sweet.
+Are you hitting on me?{06}{07}
+Sorry honey ...
+but I just want to be friends!{end}
+
+Ow, what pain!
+You really are merciless ...{06}{07}
+But before you make up your
+mind, at least take a look at
+my ultimate moves!{06}{07}
+Let's end this right now, lady!
+Hyper Speed
+Lavender Splash!{end}
+
+Goodbye everyone.
+See you later ...{06}{07}
+Farewell, young warriors ...{end}
+
+I can beat you guys
+with my right hand alone.{06}{07}
+To be honest, I kind of have to.
+My left hand is only
+for holding my head ...
+Such is the life of a Dullahan.{06}{07}
+Don't blink!
+This next move is my family's
+succession technique ...{06}{07}
+Ultra Sword Slash
+Rolling Thunder
+Secret Strike!{end}
+
+Step aside!{end}
+
+Impossible. I've promised
+a good friend otherwise.{06}{07}
+But I will let you have
+a taste of my true power!{06}{07}
+Secret Strike
+Engetsu Kagizaki!{end}
+
+Endgame ... You think your
+pitiful attacks can succeed?{06}{07}
+Then observe my
+god-like defence!{end}
+
+Ugh ... It seems you
+have beaten me ...{06}{07}
+Farewell, Tiger ...
+You always were ...
+the king of the jungle ...{end}
+
+Damn! I must ...
+maintain my godly defence!{end}
+
+You asked for it ...!
+Venom Blade, activate!{end}
+
+Hmmm ...
+I'll settle this fight ...{06}{07}
+This next move will
+prove my genius!{06}{07}
+Observe!
+Cosmic Magnum Ray!{end}
+
+Hmmm ...
+You're fairly skilled.{end}
+
+What the hell?
+A barrier of spirit energy!?{end}
+
+Hah hah!
+This will be your grave!{06}{07}
+Your attacks are
+futile against us!{end}
+
+Hah hah hah ...
+Your power level is
+weak, old man!{06}{07}
+You thought you could
+trap me in this pathetic
+little barrier ...?{06}{07}
+{font3}Grrrr-aaarrgghh!{end}
+
+What!?
+You can raise your power
+level that quickly ...?{end}
+
+Damn right, I can!{06}{07}
+Talk all you want, in five
+minutes I'm sending you to
+the next dimension!{end}
+
+No matter how I'm injured, ...
+I won't give up.{06}{07}
+Farewell Sword ...
+Super Star Smash!{end}
+
+Beep ... Beep ... Beep ...{06}{07}
+
+This is a message from the
+Masaya broadcast system ...{06}{07}
+
+We know this scenario is a bit
+short, but thanks for playing it.{06}{07}
+
+We appreciate your support!{06}{07}
+To tell you the truth,
+the Golden Dragon Youth
+Defence Force's world is
+incredibly important.{06}{07}
+Their alternate dimension is
+where the Masaya staff
+masses its army of plastic
+soldiers for world conquest ...!{06}{07}
+
+{font3}Mwa hah hah hah!{06}{07}
+
+{font0}Now then, we continue your
+regularly scheduled game!{end}
+
+There seems to be something
+in a hollow under the floor.{06}{07}
+
+Will you look at it?{end}
+
+Obtained Assault Suit.{end}
+
+Nooo--!
+Not Shady too!?{end}
+
+How depraved ...
+To be taken down
+by Imperial scum!{end}
+
+Argh! It's hopeless!{end}
+
+Radical Princess
+Dark Power ...
+Make up!{end}
+
+Beautiful shield-bearing girl,
+Radical Princess! In the name
+of the heavens, I'll punish you!{end}
+
+What?
+How did she transform?{end}
+
+Eh, what was that?{end}
+
+Whoa! How cool!
+I want to learn that!{end}
+
+You'll have to wait
+for puberty, kiddo.{end}
+
+Radical Princess,
+your transformation
+won't save you now.{end}
+
+Hah hah! Heaven will
+punish evil-doers like you!{end}
+
+I'll show you the power of love!
+Playtime is over, Empire!
+Grant me power!{end}
+
+Gaaahhh ... How can ...
+How can justice lose!?
+Goodbye, cruel world!{end}
+
+Ding dong! The witch is dead!
+Which old witch?
+The justice bitch!{end}
+
+What the hell are you
+talking about, {02}?{end}
+
+That was fun!{end}
+
+I'm feeling a
+little tired ...!{end}
+
+We've already
+wasted too much time.
+Let's hurry ahead.{end}
+
+All right, let's get a move on!{end}
+
+Hey wait!
+Don't run away!{end}
+

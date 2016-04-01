@@ -1,0 +1,183 @@
+Hey you!
+Aren't you willing to lay
+down your arms yet!?{end}
+
+Argh!
+But we've come so far ...{06}{07}
+Take this!{end}
+
+Shit!
+It's no use ... I tried to talk him
+out of carrying on like this.{06}{07}
+How about you then?
+Can't you just admit defeat
+and surrender to us?{end}
+
+Damn, they're so strong!
+But if we lose now ...!{end}
+
+Can you seriously keep going?
+Hrmm, if you insist on
+fighting, then I won't hold back!{end}
+
+We were lucky ...
+This victory came easily.{end}
+
+These ones are probably
+the last of their troops.{06}{07}
+All the others have left,
+none of them was fool enough
+to keep resisting us.{end}
+
+Well then, is our battle ended?{end}
+
+Take a look around!
+It seems pretty obvious to me!{end}
+
+In that case, we should
+hurry back to the castle!{06}{07}
+Are you ready to
+return to King {02}?{end}
+
+Yeah, I'm on my way!
+Wait up!{end}
+
+King {02}.{06}{07}
+The years of battle have
+left the borderlands in ruin.
+We're working to sweep out
+the last of the rebels.{end}
+
+I'm sorry for all the hardships
+I've put you through. If only the
+unification were peaceful ...{06}{07}
+That reminds me, Sonya.
+What is happening with
+the Demon Tribe?{end}
+
+The Demon Tribe has agreed
+not to attempt to use Alhazard
+to leave Velzeria.{06}{07}
+There haven't been any
+new reports of monsters
+invading human lands.{end}
+
+Thank god ... then coexistence
+of humans and demons may
+finally become possible.{end}
+
+It's what we all wish for now!{end}
+
+And what of your plans, Hein?{end}
+
+I'm currently conducting
+research on forbidden forms
+of attack magic.{06}{07}
+But more importantly ... I'm
+trying to discover the magic
+of living a happy life, hee hee!{end}
+
+Well said ...
+Hein, I hope you find the
+magic you're looking for.{end}
+
+We shared these hardships
+together, and in time, our
+pain will surely fade.{end}
+
+Everyone, you're dismissed.{end}
+
+{font3}Gruu ...{end}
+
+Over that half-year of violent
+battle, I united the continent.{06}{07}
+But with the death of the
+gods, Langrisser and Alhazard
+have lost their powers.{06}{07}
+At the least ... the orphans left
+in the wake of war will taste
+the times of peace we barely
+dared to dream as children ...{end}
+
+One day ... I want to
+experience and celebrate this
+new land of ours with you.{06}{07}
+Liana ...{end}
+
+{02} ...{end}
+
+Liana!?
+You're here!?
+Wh, why ... how ...?{end}
+
+Oh {02} ...
+I wanted to congratulate you.{06}{07}
+You've accomplished so much.
+This continent has
+finally broken free from
+its dark times of war ...{end}
+
+Yes ... we did it,
+We actually did it ...{06}{07}
+Oh Liana ... our promise,
+I ... I ... still--!{end}
+
+Oh {02} ...
+Don't say anything.{06}{07}
+I understand the pains
+you've gone through ...
+I wanted to thank you.{06}{07}
+{02}, you really
+did keep your promise!
+You've brought peace
+to our world ...{end}
+
+...{end}
+
+I don't want to go so soon ...
+But I don't have a choice.{end}
+
+Liana ...{end}
+
+Liana ... I can protect you!
+This peace ... this is
+the world you love!{06}{07}
+Until my flame of life
+burns out, I'll show you I
+can protect it all!{end}
+
+King {02}!
+We've found the girl
+you told us about!{end}
+
+You ... you what?{end}
+
+It seems she founded a
+orphanage in a nearby village
+to care for children of the war.{06}{07}
+She requested Your Majesty
+send money to aid in their
+continued care taking.{end}
+
+I see ...
+Send the orphanage 50,000P.{06}{07}
+As king ... this is all I can do.
+I'm never able to help people
+with my own hands any more ...{06}{07}
+The longer time flows on ...
+the more I understand what
+we've lost in the wars.{06}{07}
+Thank you, you are dismissed.{end}
+
+Yes, Sir!{end}
+
+Over that half-year of violent
+battle, I united the continent.{06}{07}
+But with the death of the
+gods, Langrisser and Alhazard
+have lost their powers.{06}{07}
+At the least ... the orphans left
+in the wake of war will taste
+the times of peace we barely
+dared to dream as children ...{end}
+

@@ -1,0 +1,122 @@
+If this is your first time in
+El Sallia, an introduction to battle
+tactics may aid you on your quest.{end}
+
+Would you like me to
+explain the basics of battle?{end}
+
+Your units consist of
+commanders and soldiers.{06}{07}
+The commanders are yourself
+and your companions.
+Soldiers will be hired at the
+start of every scenario.{06}{07}
+Purchasing troops is a vital
+part of preparing for battle.{end}
+
+Do you need an explanation of
+what command range is?{end}
+
+At the beginning of a battle,
+you should try to keep your units
+nearby their commander.{06}{07}
+The blinking blue area
+around a commander is his
+or her command range.{06}{07}
+Soldiers within this zone
+will receive bonuses to both
+their attack and defence.{end}
+
+Would you like me to explain
+how to recover your unit's HP?{end}
+
+A unit adjacent to its
+commander will recover 3 HP
+at the start of its turn.{06}{07}
+The only other way to
+recover unit HP is by casting
+clerical magic.{06}{07}
+Keep in mind, as a
+unit's HP decreases, so
+does its attack power.{end}
+
+Would you like me to explain
+how to recover a commander's HP?{end}
+
+A commander can regain
+3 HP and 2 MP by selecting
+the Rally command.{end}
+
+Would you like an
+explanation of troop affinities?{end}
+
+Each unit type is characterised by
+unique attributes which, in combat,
+may be beneficial or detrimental.{06}{07}
+There are five major properties:{06}{07}
+Infantry are strong to spearmen
+but weak against cavalry.
+Spearmen are strong to
+cavalry but weak against infantry.{06}{07}
+Cavalry are strong against infantry
+but weak against spearmen.
+Sea units are slow on
+land but fast in the water.{06}{07}
+Flying units have excellent
+mobility and gain an attack
+advantage by being airborne,
+but they are weak to bowmen.{06}{07}
+Bowmen can attack the
+enemy from a distance and are
+strong against flying units.{06}{07}
+However, when bowmen are
+caught in a direct attack, they
+can easily be wiped out.{06}{07}
+Carefully consider the
+map's terrain, as well as
+commander arrangement, prior
+to hiring your troops.{end}
+
+Would you like an explanation
+of how to build EXP?{end}
+
+When a troop defeats an
+enemy unit in combat, EXP is
+awarded to its commander.{06}{07}
+When an enemy commander is
+defeated, all troops under its
+command will perish as well.{06}{07}
+However, no EXP will be gained
+from the troops' demise.{06}{07}
+That's why it's best
+to defeat all troops before
+their commander.{end}
+
+Would you like me to explain
+how to position your commanders?{end}
+
+Before conducting your
+sortie, you must position all
+commanders on the map.{06}{07}
+Commanders to be
+positioned will have their names
+displayed in bright white.{06}{07}
+Depending on the stage, there
+may be times when the
+arrangement is predetermined.{06}{07}
+In these such arrangements,
+you cannot modify the
+commander positioning, but you
+can still buy troops and items.{end}
+
+Hopefully you now have a
+better grasp of battle tactics.{06}{07}
+Don't forget to hire troops.
+A lone soldier can
+be the deciding factor
+between victory and defeat.{end}
+
+And now, I return you to
+your world below.
+May your quest be successful.{end}
+

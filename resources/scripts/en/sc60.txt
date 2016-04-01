@@ -1,0 +1,371 @@
+Those two have held
+their ground quite well.{06}{07}
+But I don't suspect
+they can keep this up.{end}
+
+Damn! Next time,
+I won't leave you standing!{end}
+
+Don't be reckless, Laird.
+Conserve your strength.{end}
+
+Your Majesty,
+you must be tired.{06}{07}
+I'll hold them here!
+Please, stay back!{end}
+
+I have no right to be the Kaiser
+if I'm too weak to defend
+my own castle.{06}{07}
+We're doing quite well.
+Keep up the good work.{end}
+
+It's sad how they'll be dying
+at their own doorstep.{06}{07}
+They really should
+have known when to quit.{end}
+
+Stand back, fiends.
+You will not harm
+His Majesty!{end}
+
+Fuck! They're here early.{end}
+
+So it's Sonya ...{end}
+
+General Leon!{end}
+
+Excellent timing, Leon.{06}{07}
+You're probably tired from
+your journey, but could you
+dispose of these incompetents?{end}
+
+Please, take it easy!{end}
+
+Stay safe, Your Majesty.{06}{07}
+Colonel Laird,
+protect the Kaiser!{end}
+
+Yes, Sir!{end}
+
+All right!
+Don't spare anyone.
+Cut them to ribbons!{end}
+
+Split up and
+attack both flanks!{06}{07}
+Esto and Osto will go for
+Bernhardt. The rest of
+us will take on {02}.{end}
+
+{font3}Yes, Sonya!{end}
+
+{font3}Crush humans ...!{end}
+
+Hmmm, ... scatter their
+reinforcements first!{end}
+
+Sorry, {02}.{end}
+
+Rohga, don't say a word.
+I already know.{06}{07}
+Go to Sonya and talk to her,
+and we'll cover your back.{06}{07}
+If you succeed,
+we may have an easy victory.{end}
+
+I owe you one!{end}
+
+Something seems to be
+stuck in a hole by your feet.{06}{07}
+
+Will you search the hole?{end}
+
+Obtained Rune Stone.{end}
+
+The forces of darkness
+are much stronger now ...
+Is this Alhazard's doing?{end}
+
+We must aid them,
+and to do that ...
+I'm sorry.{end}
+
+Forgive me, Sonya.
+This is for the Kaiser!{end}
+
+Brother!
+You're no different from
+any other human!{06}{07}
+You all hate me for being
+a half-breed monster!{end}
+
+Damn it ...
+I couldn't persuade her ...{end}
+
+Sorry, {02}.
+Take care of the Kaiser ...{end}
+
+This is a harsh battle.{end}
+
+Uugghhh, ...
+beaten by ...
+worthless monsters ...{end}
+
+I had no idea monsters
+were so capable ...{06}{07}
+Alhazard's power is amazing.{end}
+
+The Empire fields the finest
+commanders of this generation.
+You'll know that first hand.{end}
+
+Hah hah hah ...
+I remember when we'd hire
+any mercenary off the street!{end}
+
+Arrogant little girl.
+Yes, you're Rohga's
+sister for certain.{06}{07}
+The Goddess Lushiris will
+make sure you speak nothing
+of this to B{3a}ser ...{end}
+
+Don't even mention
+that disgusting name!{end}
+
+Do you think a bunch of
+slavering beasts can storm
+a castle? What a joke!{end}
+
+Arrgh ...!
+I've come so far ...
+M, my dream ...{end}
+
+Your Highness!{end}
+
+Hah hah hah! With the way
+things are going, even
+Master B{3a}ser will be pleased!{06}{07}
+The era of darkness has begun!{end}
+
+No, that can't be!
+Your Majesty, ...
+I couldn't protect you.{end}
+
+Laird, hold your ground!{06}{07}
+Keep a tight circle around
+the Kaiser and secure his
+position until we get there!{end}
+
+Yes, Sir!{end}
+
+No one will get through
+if Laird's in the way,
+that's for sure.{end}
+
+Leon ... I, I ...
+think this is it for me ...{06}{07}
+His Highness,
+protect him ...{end}
+
+Laird, I won't allow you to die.{06}{07}
+To fall now, after everything
+we've accomplished ...
+No, you're not permitted.{06}{07}
+Stand up, old friend.
+This battle will soon be over.{end}
+
+My ... apologies ...
+General Leon.{06}{07}
+Please, ... see our
+dream through ...
+and help our Kaiser ...{end}
+
+Laird, ...
+Laird ...?{06}{07}
+Damn this ...
+Hell won't see you before me!{06}{07}
+Open your eyes, Laird.
+Please, open your eyes!{end}
+
+We've lost another ally ...{end}
+
+Your Highness ...
+I think ... I'm ... finished ...{end}
+
+That's enough.
+Don't say any more.{end}
+
+Your dream ... Kaiser ...
+unite the continent ... please ...{end}
+
+Laird, I won't let our
+life's work go to waste.{06}{07}
+Without a doubt, we will
+soon see a unified continent!{end}
+
+Grr ... At this rate ...
+Bernhardt, you've been lucky,
+but you're not leaving here!{end}
+
+What's wrong, little girl?
+Has the attack already ended?{end}
+
+Be quiet!
+We won't let you live, not after
+all the demons you've killed!{end}
+
+Why don't you give up already?
+Chased all the way here and
+you still feel like fighting?{end}
+
+I won't let you
+foil B{3a}ser's plans.{06}{07}
+That is the first step for a
+world where there are no
+more humans!{06}{07}
+I can kill you Imperials alone!
+None of you will escape,
+I'm going to kill you all!{end}
+
+Stop it, Sonya!{end}
+
+Shut up!
+Don't order me around!{end}
+
+Die!{end}
+
+Stop it, Sonya!{end}
+
+My brother is terrible!{06}{07}
+Get in my way and
+you'll end up like this!{end}
+
+Aaahhh--!{06}{07}
+H, How ...
+How dare you ...{06}{07}
+Next time we meet,
+B{3a}ser and I are going
+to bury you for good!{end}
+
+{font3}Uugghh!{end}
+
+{font3}Arrghh!{end}
+
+{font3}Ooohhh!{end}
+
+{font3}Aaahh--!{end}
+
+{font3}Oohh ... oh ...{end}
+
+Ugh ... what power ...{end}
+
+{font3}Oohh ...{end}
+
+You are fools for
+turning against B{3a}ser.{06}{07}
+Maybe Hell's the best
+place for your craziness!{end}
+
+So the humans think they
+can end a man such as me ...?
+Oh? Is that Langrisser?{end}
+
+Sonya ...
+Stand back ...{end}
+
+{font3}Uugghh ...{end}
+
+{font3}Uugghh ... Ugh ...{end}
+
+Hmmm ... Somehow,
+we forced them back.{end}
+
+Your Highness, you're safe!{end}
+
+Today, we have conquered.{06}{07}
+B{3a}ser will, however, regroup
+and launch a concerted strike.{06}{07}
+At that time, only our
+greatest, perhaps miraculous,
+effort will bring victory.{end}
+
+They're here much
+earlier than we planned.{06}{07}
+Letting them unlock
+Alhazard was a bad idea.
+It will be a liability.{end}
+
+Pursue them immediately.{end}
+
+They won't give us any rest,
+so we'll make our stand here.{06}{07}
+B{3a}ser has recovered.
+If we let him go unchecked,
+the world will be damned.{end}
+
+Yes, I see.
+We'll surely defeat
+the darkness next time.{end}
+
+Wait, Leon!
+Please take this lance.{end}
+
+What is this?{end}
+
+I present you this gift
+for liberating us from
+the savages.{end}
+
+Hmmm, ... it appears
+expertly crafted.
+I'll make good use of it.{end}
+
+Obtained Inferno Lance.{end}
+
+Now, let's go!
+We'll defeat B{3a}ser this time!{end}
+
+Sonya, stop fighting for B{3a}ser.
+He's manipulating you!{end}
+
+You're wrong!
+Over time, B{3a}ser has
+come to understand me!{06}{07}
+Next you'll say that the
+humans who persecuted me
+are really trying to help!{end}
+
+No, think about it.{06}{07}
+Maybe if you'd never met that
+creep, humans wouldn't have
+looked down on you.{06}{07}
+Don't you see?
+B{3a}ser's been warping you
+to be his obedient dog!{end}
+
+I am ...
+a dog ...!?{06}{07}
+Don't try to condemn me.
+Brother, you are one
+of the Empire's dogs!{end}
+
+Actually, I joined by my own
+free will, just like you can.
+Come on and give it a shot.{end}
+
+...{06}{07}
+Brother is only saying that
+because he doesn't understand
+how terrifying B{3a}ser can be.{06}{07}
+I can no longer escape from
+the darkness, ... from B{3a}ser.{06}{07}
+I don't have the strength
+to win this battle any more.{06}{07}
+I'm withdrawing for now,
+but next time, I won't hold
+back, Brother!{end}
+
+Sonya!{end}
+

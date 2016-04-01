@@ -1,0 +1,632 @@
+You must find stronger
+allies to offer protection.{06}{07}
+Though I am Lord of Salrath,
+even my forces cannot stand
+against the Rayguard Empire.{end}
+
+To pursue Liana, the
+Empire must have some
+special plans for her.{06}{07}
+Recently, it has been invading
+every neighbouring kingdom
+that does not submit to the
+Kaiser's will ...{end}
+
+Indeed ...
+There must be more to their
+ambitions than first apparent.{06}{07}
+Perhaps, if Liana were guarded
+within Estool's Shrine of Light,
+their efforts would be stymied.{end}
+
+You're right!
+The great shrine priest
+can surely help us.{end}
+
+I'm sorry, everyone.
+It seems I become an ever
+greater burden.{end}
+
+Please don't think like that.
+It's not your fault.{06}{07}
+The journey to Estool is
+far too dangerous for you to
+undertake alone, Liana.{end}
+
+I'm more and more curious
+as to why the Empire is
+after you ...{06}{07}
+And with that purpose, it
+appears my "aimless journey"
+is no longer so aimless.{end}
+
+Everyone, ...
+thank you so much.{end}
+
+Well then, father,
+I shall take leave of you now.{end}
+
+This is a great opportunity
+for you to apply your
+education, young Scott.{06}{07}
+Study well, and use what I have
+taught you to aid {02}
+and his companions.{end}
+
+{02}, I entrust you
+with Liana's safety.{06}{07}
+Scott, please look after
+her on the road to Estool.{end}
+
+As you order, father.{end}
+
+All right!
+Let's be off!{end}
+
+What the ...!?
+It seems we have some
+unexpected guests ...{end}
+
+There they are!
+Their progress was even
+slower than anticipated.{end}
+
+What ...?
+It's the Blue Dragon Knights!{end}
+
+We, the Blue Dragon Knights,
+are charged with obtaining
+custody of Lady Liana.{06}{07}
+By edict of the Kaiser,
+if you value your lives, do not
+interfere in our mission!{end}
+
+...{end}
+
+Liana!
+Pay them no mind!{end}
+
+Hein is right!{06}{07}
+There's no reason for you
+to acquiesce to the demands
+of those Imperials!{end}
+
+Knights of the Empire,
+you are trespassers
+in my territory!{06}{07}
+Your forces have no
+business intervening here.
+Leave the way you came!{end}
+
+I'm afraid we cannot
+do that, Lord Loren.{06}{07}
+You leave us no choice!
+Knights, we will take
+Liana by force!{end}
+
+{02}, I will stay here
+and cut off their path.{06}{07}
+Take Lady Liana north
+along this road.
+It leads to Estool.{06}{07}
+Do not worry about me!
+You can't waste any more time.
+I don't know how long I can
+hold them off, so hurry!{end}
+
+Can I really protect Liana ...?{end}
+
+I will take care of
+their commander.
+The rest of you, after the girl!{end}
+
+Yes, Sir!{end}
+
+Understood!{end}
+
+As you command!{end}
+
+Liana!
+Break through, and run for it!{end}
+
+Okay!{end}
+
+Will you change your
+instructions for Liana?{end}
+
+They're tougher than I thought!
+Don't let her get away!{end}
+
+Hein, have you learnt
+the spell Attack?{06}{07}
+It can increase the attack
+power of one of your
+hired units for one turn.{end}
+
+Of course!
+You won't find me a fool when
+it comes to support magic.{end}
+
+I made it ...{end}
+
+Well done!
+Estool is just a little
+further down this road!{end}
+
+Okay!{end}
+
+It's hopeless.
+I must withdraw ...{end}
+
+I can't believe we've
+managed to elude
+the Imperial Army again.{end}
+
+You're doing well!
+Keep heading down the road!{end}
+
+You're doing well!
+Keep heading down the road!{end}
+
+You're doing well!
+Keep heading down the road!{end}
+
+You're doing well!
+It's only a little further!{end}
+
+Okay!{end}
+
+In a clearing in the woods,
+you find small footprints ...{06}{07}
+One set of foot prints
+leads towards a small hole.{end}
+
+Do you want to look inside?{end}
+
+Obtained Swift Boots.{end}
+
+At the top of the hill, you
+see a large, mysterious tree.{06}{07}
+
+You notice strange fruits
+scattered about beneath it.{end}
+
+Do you want to taste one?{end}
+
+A surge of power flows
+instantly through your body!{06}{07}
+
+AT raised by 1 point!{end}
+
+Here I come!{end}
+
+It will take more than
+that to stop us!
+We'll defend Liana to the end!{end}
+
+You'll regret not listening
+to us obediently.{end}
+
+I can't be defeated ...
+I must protect Liana--!{end}
+
+Everything was peaceful
+until you bastards arrived.{end}
+
+Our mission is complete.
+Let's return to headquarters.{end}
+
+No, get away!
+Leave me alone!{end}
+
+Liana!{end}
+
+I can't let it end like this ...
+If only I had more power--!{end}
+
+Unfortunately, we are no
+match for the Imperials with
+our current manpower.{06}{07}
+I will hold the line.
+Please hurry down
+the road to Estool.{end}
+
+Stay out of my way!{end}
+
+Oh no!
+If only I was stronger ...!{end}
+
+It's payback time!{end}
+
+So this is my fate ...
+It seems this war will be fought
+by a younger generation.{06}{07}
+But, as long as there's life in
+this body, the Imperials
+won't reach the shrine.{06}{07}
+I must buy Scott more time ...
+He has great potential,
+but lacks experience.{end}
+
+So this is my fate ...
+It seems this war will be fought
+by a younger generation.{06}{07}
+But, as long as there's life in
+this body, the Imperials
+won't reach the shrine.{end}
+
+How dreadful!
+I cannot permit Imperial scum
+to roam freely in my lands!{end}
+
+I am ... done for--{end}
+
+Father!
+You can't fight any more
+in that condition!{06}{07}
+Please retire from the field.{end}
+
+Then I'll trust you to
+hold off the enemy ...
+You must get Liana to safety!{end}
+
+Quick!
+After the girl!{end}
+
+Well then, which one
+looks most challenging?{end}
+
+Those guys look like
+they'll be entertaining.{end}
+
+Ludicrous!
+You really believe you
+will be able to best me!?{end}
+
+I follow my blade!{end}
+
+General Leon!{end}
+
+General Leon!
+Villages in the Empire's
+borderlands are under attack!{06}{07}
+Monsters are inflicting heavy
+casualties on the villagers!{end}
+
+What!?
+Then my home town could
+be in danger ...!{06}{07}
+If I don't return to
+defend them ...
+No, that's too horrible ...{end}
+
+Colonel Laird!
+I leave you in charge. I must
+hurry to the village.{end}
+
+Yes, Sir!
+General, will you be all
+right by yourself?{end}
+
+I can deal with the monsters
+on my own. You are to
+complete our mission here!{end}
+
+Understood, Sir!{end}
+
+I ... no way ...
+How can I be defeated
+by such--!{end}
+
+I will cut down
+anyone who stands
+in our way!{end}
+
+We are acting under Imperial
+orders! This your last warning.
+Do not get in our way!{end}
+
+I will not allow you to
+do as you wish!
+At all costs, I will stop you!{end}
+
+Don't be a fool!
+How can you hold back
+all our forces alone?{06}{07}
+Consider this carefully.
+Don't throw your life away!{end}
+
+I cannot back down!
+While I live, you will not
+capture that girl!{06}{07}
+Even if you are the
+Imperial Blue Dragon Knights,
+I will not be easily bested!{end}
+
+Similar words have
+been spoken by those who
+lie dead and buried.{06}{07}
+If death is the only way,
+then have at you!{end}
+
+It's ... It's not over yet--!{end}
+
+I mustn't lose, I must ...{end}
+
+It's ... not over yet. I--!{end}
+
+I ... can't believe it ...{end}
+
+If I lose ... then ...?{end}
+
+I lost!? Impossible--!{end}
+
+Damn ...
+How could I have failed--!{06}{07}
+General Leon, I apologise
+for this disgrace ...
+I am forced to disengage!{end}
+
+You dare interfere!?
+Then prepare to
+meet a swift end!{end}
+
+Again, I am bested by you--!
+Damn it!{end}
+
+Shit!
+They are too strong--!{end}
+
+How, how can I--?{end}
+
+I take pride in having served
+for the glory of the Empire!{end}
+
+General ... Leon!{end}
+
+Such ...
+How could I have made
+such a mistake ...{end}
+
+This can't be happening ...
+To be defeated like this ...{end}
+
+Shit ...
+I had the tactical advantage ...{06}{07}
+How could I have
+been defeated ...!?{end}
+
+Grrr!{end}
+
+Eeek!{end}
+
+Liana!
+Are you all right?{end}
+
+I, I think so ...{end}
+
+Everyone!
+We must protect Liana!{end}
+
+At any rate, let's hurry!
+More Imperial reinforcements
+may come at any time.{end}
+
+Should Liana head north
+along the road alone?{end}
+
+Liana, head north
+along the road to Estool!
+We'll hold them off!{end}
+
+O, okay!{end}
+
+Liana, you'll be safe at my side.{end}
+
+Are you confident you
+can protect Liana?{end}
+
+Are you sure?
+Thank you ... {02}.{end}
+
+No matter the trouble,
+I'll defend you with my life!
+Don't leave my side!{end}
+
+Okay!{end}
+
+Don't worry, I'll protect her!{end}
+
+Will you entrust Hein
+with defending Liana?{end}
+
+Thank you, Hein.
+I'm sure I would only be
+a burden to {02}.{end}
+
+I'm counting on you then, Hein!{end}
+
+Of course! I'll protect
+her with my life!{end}
+
+Why not leave her to me, then?{end}
+
+Will you ask
+Scott to protect Liana?{end}
+
+I appreciate your kindness.{end}
+
+Please, ...
+take good care of her.{end}
+
+Fear not, I will
+ensure her safety!{end}
+
+Get them!{end}
+
+Oh, shit!
+It's an ambush!{end}
+
+I'll slow them down!
+You must break through!
+Don't let them harm Liana!{end}
+
+Surround them!
+If we work together, they
+won't have a chance!{end}
+
+Oh, shit!
+Even more Imperial soldiers ...!{end}
+
+Damn it to hell!
+If only I could have held
+out a little longer--!{end}
+
+Someone is coming!{end}
+
+What have we here?
+It seems the Imperial Army is
+yet again bullying weaklings.{end}
+
+You bastard!
+Mind your own business
+or die by my blade!{end}
+
+I was just passing through,
+but I'll help you
+against the Imperial Army.{06}{07}
+Hey, redhead! Let me give you
+a piece of advice.
+You need to keep your cool--
+and stop being so reckless!{end}
+
+Who is this guy and
+where is he from ...?{06}{07}
+He doesn't seem to be
+one of the Imperials ...{end}
+
+I think he's a mercenary.
+Why would he ...?{end}
+
+Halt, stranger!
+What is your business here ...?{06}{07}
+Too late ... he's already left.{end}
+
+What a shame!
+I hoped to hear the story
+behind the men I was killing.{end}
+
+Thanks for helping us.
+I am {02}, a traveller.
+Who are you?{end}
+
+I'm Rohga, a mercenary.
+So what do the Imperials
+want with the girl?{end}
+
+Honestly, we don't know either.
+For now we're just
+trying to get her to safety.{end}
+
+That's it? Not a very
+interesting story so far!{06}{07}
+Well, I can't reveal much about
+myself for personal reasons.
+Maybe some day I'll be
+able to tell you more.{06}{07}
+I bet it's quite a bitch having
+the Empire after you, isn't it?{end}
+
+Look, as much as
+I'd love to chat, ...{06}{07}
+We really must be off.
+We're on our way to Estool to
+seek the priest's help.{end}
+
+I see.{06}{07}
+Well, we really must be off.
+We're on our way to Estool
+to seek the priest's help.{end}
+
+Estool?
+I'm on my way there as well.{end}
+
+Really?
+In that case, let's go together.{end}
+
+Whew, it's finally over.{end}
+
+The Imperial Army won't
+give up so easily, though.{end}
+
+When will it all end ...?{end}
+
+Cough--!
+Is the Imperial Army gone?{end}
+
+It's safe for now.
+They've retreated.{end}
+
+Damn!
+I can't die here!
+Please have mercy--!{end}
+
+Don't worry, you're
+going to be okay.
+My name is {02}.{end}
+
+I'm Rohga.{06}{07}
+I was searching for
+someone when ...
+the soldiers ... gah ... argh!{end}
+
+Please, try not to
+move so much.
+Your wound is serious!{end}
+
+Why not come with us,
+at least until your wound
+has had time to heal.{end}
+
+I'm on the verge of
+death and you still want
+me to follow you ...?{06}{07}
+Well, all right then!
+I guess I'll tag along and
+see what you can do ...{end}
+
+By the way, Liana ...{06}{07}
+Do you have any idea
+what the Imperial Knights
+want with you?{end}
+
+None at all ...{end}
+
+By the way, Liana ...{06}{07}
+Do you have any idea
+what the Imperial Knights
+want with you?{end}
+
+None at all ...{end}
+
+Wait.
+I have something for you before
+you depart. Take this sword.{end}
+
+Obtained Long Sword.{end}
+
+Thank you, I will
+surely guard it.{end}
+
+You must keep a
+careful eye on the road.{end}
+
+You need to stay alert.{end}
+
+As you say, father.{end}
+
+Colonel! If something
+happens to you, the General
+would be most put out.{06}{07}
+Please, withdraw from the fray!{end}
+

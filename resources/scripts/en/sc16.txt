@@ -1,0 +1,494 @@
+Stubborn, aren't you?
+Give up before I send
+you to your grave!{end}
+
+Why don't you end this siege?
+Taking such a small fort
+won't bring you any fame.{end}
+
+I don't care about fame!
+Those who ignore
+my orders shall die!{06}{07}
+If only you had listened the
+first time, I might have spared
+your miserable little lives!{end}
+
+I'll never take orders from you!
+Why don't you act
+more like a lady?{end}
+
+Silence, you fool!{end}
+
+G, General Imelda!{end}
+
+Kr{38}mer!
+You failed the
+mission, didn't you!?{end}
+
+I, I'm sorry,
+General Imelda, but ...{end}
+
+Kr{38}mer!
+How dare you show your face
+after failing a mission!{end}
+
+General Imelda!
+Please give me another chance!{end}
+
+The Water Dragon Navy
+does not forgive failure!{end}
+
+I, Ime ...
+Gahh ...{end}
+
+Hmph!
+Useless trash!{end}
+
+Hurry up and begin the attack!{06}{07}
+It will be quite annoying
+if their reinforcements
+come from Kalxath.{end}
+
+Yes, Sir!{end}
+
+General Imelda!
+It's their reinforcements!{end}
+
+Shit!
+That idiot, Kr{38}mer!{end}
+
+The Imperial Army!?{end}
+
+You're going to regret it
+if you don't move your
+troops away from that fort!{end}
+
+Quite a spirited young girl.{end}
+
+Princess, she is the
+Water Dragon Navy's
+General, Imelda.{end}
+
+Heh heh ...
+Am I so well-known?{end}
+
+They still haven't
+taken the fortress!
+Let's hurry!{end}
+
+Don't even dare
+get in my way!{end}
+
+Go! Attack!
+Take the stronghold,
+and don't screw up!{06}{07}
+Now is our chance,
+the enemy can't
+attack us amongst
+innocent villagers.{end}
+
+Yes, Sir!{end}
+
+You ...
+you cowards!{end}
+
+Wa ha ha!
+I'll do whatever it
+takes to win.{06}{07}
+And as a bonus, I'll
+send you all to hell
+together, so you
+won't be lonely.{06}{07}
+Quite generous, aren't I?{end}
+
+Imelda, you cowardly bitch!
+Even at my age, I won't lose to
+such gutless Imperials!{end}
+
+How heartless.{06}{07}
+I was foolish to believe
+someone like her.
+Everyone, return to the
+stronghold--immediately!{end}
+
+Y, yes, Sir!{end}
+
+General Imelda!
+Reinforcements have arrived!{end}
+
+Right on time ...
+Now, please deal with
+this redheaded whelp.{end}
+
+Yes, Sir!{end}
+
+General Imelda!?{06}{07}
+You're quite strong if you
+can defeat General Imelda.{06}{07}
+For the honour of the
+Water Dragon Navy,
+we can't let you live!{06}{07}
+Prepare to die, boy.{end}
+
+Yes, forgive me.{end}
+
+Yes, forgive me.{end}
+
+Feel the power of
+the Water Dragon Navy!{end}
+
+What!?
+An ambush?{end}
+
+You spot a water fowl perched
+atop a nearby small post.{06}{07}
+
+The bird is holding a small,
+glittering stone in its beak.{06}{07}
+
+What will you do?{end}
+
+Startle it{end}
+
+Reach out{end}
+
+Ignore it{end}
+
+The water bird gets scared,
+drops the stone and flies away.{06}{07}
+
+The stone sinks to the
+bottom of the lake.{end}
+
+The bird drops the stone
+in your hand and flies away.{06}{07}
+
+You wash the stone and
+it emits a mysterious glow.{06}{07}
+
+Obtained Rune Stone.{end}
+
+The bird finally flies away.{end}
+
+Everyone, ...
+please run away.{end}
+
+Damn!
+This is it ...{end}
+
+Ha ha ha!
+What a humiliating defeat!{end}
+
+Ouch!
+I can't fight like this.
+Sorry I can't hold them back ...{end}
+
+Prepare yourself!{end}
+
+Ugh ...
+That was a mistake ...{end}
+
+I'm sorry ...{end}
+
+Damn!
+Of all the places!{end}
+
+Damn!
+Not too shabby!{end}
+
+Inside the fortress!
+Quickly now!{end}
+
+Y, yes!{end}
+
+No one will enter
+this fortress!{06}{07}
+If you want to take it, you
+will have to deal with me first!
+While I yet draw breath,
+I will not move a single step!{end}
+
+Lord Aaron!
+What will become of us?{end}
+
+Don't worry.
+Leave it to me.{end}
+
+Oh my!{06}{07}
+How could I ever lay a hand
+on such helpless people!{06}{07}
+If I ever killed them,
+how would I face myself?{end}
+
+Do you promise you
+won't attack them?{end}
+
+Yes, I promise!{end}
+
+Fine, ... in that case ...{end}
+
+Everyone, ...
+leave this fortress and
+evacuate to a safer place.{end}
+
+Yes.{end}
+
+I really do pity you,
+but you shall die!{end}
+
+Indeed, I'm too old for this ...{end}
+
+Sir Aaron!
+Are you okay?{06}{07}
+We're here to help!
+Please fall back for now!{end}
+
+Ugh, sorry ...{end}
+
+Help!{end}
+
+Hey you, Imperial scum!{end}
+
+Ahhh!
+My life is ...{end}
+
+Thank you, General Imelda.{end}
+
+Get out quickly!
+I'll kill you myself if you
+don't move fast enough!{end}
+
+No ... No ...
+I don't want to die ...{end}
+
+Don't get on my nerves!
+You still haven't killed
+that old fart!?{06}{07}
+You're a totally useless
+bunch of imbeciles.
+If you don't hurry it up,
+I'll have your heads!{end}
+
+Well then, I'll send you
+all to your doom!{end}
+
+Eeeek!
+What impudence!{end}
+
+I, impossible ...{06}{07}
+How can someone as
+strong and beautiful
+as me be defeated?
+I'm retreating!{end}
+
+Are you all right,
+Master Swordsman?{end}
+
+What!?
+These old bones won't lose to
+some group of young upstarts.{end}
+
+What the ...!?
+These old bones won't
+lose to some young ...{06}{07}
+Ouch ...
+I am getting too old for this.{end}
+
+Master!
+Are you all right?{end}
+
+Of course.
+I won't be beaten so easily.{end}
+
+Master!
+Are you all right?{end}
+
+Somehow ...{end}
+
+Cherie, you seem
+healthier than ever.{end}
+
+M, master ...
+Are you all right ...?{end}
+
+Cherie!
+You haven't trained enough!
+Your form is pathetic ...{end}
+
+Master ...
+Are you all right ...?{end}
+
+What about you, Master Aaron?
+It seems neither of us
+have trained enough.{end}
+
+Sorry ...{end}
+
+Huh ...
+So this old chap is Cherie's
+weapons teacher?{end}
+
+So this old guy is Cherie's
+fighting instructor ...?{end}
+
+Hey Cherie ...
+So he's your sword master?{end}
+
+Master Aaron?{end}
+
+Well, it's been a while since
+you've visited, if I recall ...{end}
+
+Truth is ...{end}
+
+Truth is ...{end}
+
+I already know.
+It's about the Empire ...{06}{07}
+Lately, it seems they've
+been up to something.
+All this is troubling me ...{end}
+
+And those Imperial fiends ...{06}{07}
+Lately, it seems the Empire
+has been up to something.
+All this is troubling me ...{end}
+
+That's reassuring.{end}
+
+Aaron joins the entourage!{end}
+
+Hey!
+We don't have time for a break.{06}{07}
+If we sit here, the Empire will
+take Langrisser before us.{end}
+
+Impatient, aren't you?{end}
+
+Let's hurry!
+We can't let the Imperial Army
+get their hands on Langrisser!{end}
+
+This will be your final
+resting place!{end}
+
+Gah!
+I've been injured ...{end}
+
+G, General Imelda!{end}
+
+This is a total defeat ...{end}
+
+I don't want to die yet--!{end}
+
+Gaa--!{end}
+
+Let's go!
+It's time to begin the slaughter!{end}
+
+R, regrettably ...{end}
+
+You won't cross this bridge!{end}
+
+Such strength.
+But how ...?{end}
+
+Charge!{end}
+
+Why?
+Why can't I win ...?{end}
+
+Protect General Imelda!
+Charge!{end}
+
+No, that can't be!{end}
+
+Damn it!
+I screwed up!{end}
+
+Ugh--!
+Some rest at last.{end}
+
+Master!{end}
+
+Oh, isn't that Cherie?
+So, your skill has improved?{end}
+
+Yes!
+This is a good occasion, Master.{06}{07}
+I could show you a few
+things now, I'd bet!{end}
+
+Hmmm,
+it's been a while
+since I've fought.{06}{07}
+I just exhausted myself.
+Let's rest for a while ...{end}
+
+It's been a while
+since I've fought.{06}{07}
+I just exhausted myself.
+Let's rest for a while ...{end}
+
+Attack if you dare,
+but you won't pass!{end}
+
+How awful!
+How could anyone
+be so cruel?{end}
+
+Imelda is a cruel General.
+I've heard that she'll do just
+about anything to win ...{end}
+
+What are you doing!
+Stop that immediately!{end}
+
+Ha ha ha!
+Where do you think you are?{06}{07}
+You're on the battlefield!
+Here, only the strong survive ...
+Weak fools have no right.{end}
+
+You don't agree, redhead?{end}
+
+Strength is for
+protecting the weak!{06}{07}
+People like you have no
+right to speak of strength!{end}
+
+My, my ...
+What a poetic little
+boy you are.{06}{07}
+However, I don't care
+about your silly beliefs.
+I will crush you all!{end}
+
+What the hell is taking so long?
+The Water Dragon Navy
+has no room for weaklings!{end}
+
+What, Langrisser!?
+The Holy Blade ...?{end}
+
+Yeah, that's the one.{06}{07}
+Anyway, we can talk
+about it as we walk.
+Let's go, everyone!{end}
+
+By the way, seeing you battle
+made me realise how long it's
+been since I've last fought...{06}{07}
+Thank you for helping me out.
+It is very inspiring to see
+youngsters like you striking
+back against those Imperials...{06}{07}
+I would like to return
+the help you gave.
+I am inviting myself
+to join your group!{end}
+
+Sir Aaron is the man
+who taught me to use
+a sword properly.{end}
+

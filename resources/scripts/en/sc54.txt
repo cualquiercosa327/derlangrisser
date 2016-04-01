@@ -1,0 +1,576 @@
+It's true, then.
+Sonya has turned
+against us?{end}
+
+{font3}Yes ...{end}
+
+It seems mere humans
+cannot fully embrace
+the darkness.{06}{07}
+As for her father,
+I should have 
+killed him sooner ...{end}
+
+{font3}What ...!?
+You've come here?{end}
+
+Is Sonya dead ...?{06}{07}
+Hmmm ... How disappointing.
+She was of far
+less use than I'd hoped.{06}{07}
+But, she was sired
+by her traitor of a father.{06}{07}
+In fact, she's probably
+meeting him as we speak.{end}
+
+B{3a}ser! What were you
+talking about just now?{end}
+
+Heh heh ...
+So you heard ...{end}
+
+You ...{06}{07}
+You murdered my father!?{end}
+
+You're talking bull!
+You think human lives
+are worth nothing?{06}{07}
+I'll never forgive you!
+I'm gonna fucking kill you!{end}
+
+B{3a}ser, you bastard!
+Are you saying you
+murdered Sonya's father!?{end}
+
+Hmmm ...
+What if I did?{end}
+
+You worthless scum ...
+I'll take revenge for Sonya!
+I'm gonna beat your ass!{end}
+
+You can't escape
+this time, B{3a}ser!{06}{07}
+Your ambition ends here!{end}
+
+Hmph ...!
+I won't be defeated
+by mere insects.{end}
+
+B{3a}ser, I allowed the
+Dark Blade's resurrection
+for the Empire's benefit.{06}{07}
+I see it's been well cared for.
+You have our thanks.{end}
+
+Hah hah hah ...
+How amusing.{06}{07}
+Alhazard is mine alone!{end}
+
+It certainly is ...
+at least for the moment.{06}{07}
+We shall reclaim
+Alhazard for His Majesty!{end}
+
+Interesting, ... the ceremony
+has weakened me, but
+they will not take Alhazard.{06}{07}
+I will savour its
+power for all eternity!{06}{07}
+Go, my dark servants!{end}
+
+Incredible ...{06}{07}
+How were you able to
+summon such a monstrous army
+with one word ...{end}
+
+Do you see?
+This is Alhazard's power!{06}{07}
+Do you really think you
+mere humans can
+compare to Chaos's Glory!?{end}
+
+We've been through
+far worse than you.{06}{07}
+And don't forget,
+we have Langrisser.{end}
+
+Don't make me laugh.{06}{07}
+Your worthless, incomplete
+Langrisser shall
+wither before Alhazard.{end}
+
+I know not how our might
+compares with the Descendants
+you fought in the past.{06}{07}
+We will just have to find
+that out with our swords.{end}
+
+Well then, you'd better
+try your hardest!{end}
+
+I admire that you've
+reached the darkest
+core of Velzeria ...{06}{07}
+But this is not a
+place for mortals.{06}{07}
+And setting foot here has
+sealed your death.{06}{07}
+Come, my servants!
+Play with them all you like.{end}
+
+Grrrr ...
+Persistent bastards.{06}{07}
+Langrisser offers
+humans such power ...{end}
+
+Is that the best excuse
+you can come up with?{end}
+
+It's quite a miracle
+that you've come this far.{06}{07}
+But try any more and
+suffer a pointless death.{end}
+
+We'll see about that!{end}
+
+Give up and crawl
+back to your darkness!{end}
+
+Wait, {02}!
+Let me avenge ...
+Sonya's death!{end}
+
+You bastard ...
+Toying with humans like
+they were nothing!{06}{07}
+For Sonya,
+you deserve to die!{end}
+
+In your ideal society,
+the powerful give control
+to the weak ...{06}{07}
+So you wish to be El Sallia's
+wet nurse, {02}?
+Hah hah hah.{end}
+
+Leave this world, B{3a}ser!
+The sooner, the better.{end}
+
+Damn it!
+This world will be covered
+in darkness ...{end}
+
+I'm much stronger now!
+There's no way I'll lose!{end}
+
+Damn it!
+Why now of all times!?{end}
+
+Move! I have no
+business with you!{end}
+
+You've manipulated
+Sonya all along!{end}
+
+Sonya suffered greatly
+because of you.{06}{07}
+Accept your atonement!
+You will pay with your life!{end}
+
+How pathetic ...{end}
+
+What fools ...
+Sonya has always
+detested humans.{06}{07}
+Our goals aligned,
+and I exploited that.
+Nothing else.{06}{07}
+However, if you're intent
+on despising me,
+you should know this ...{06}{07}
+I was the one
+who spread the plague
+to your village.{end}
+
+Sonya had to die ...
+All because of you ...!{end}
+
+Oh, is your dear
+little sister dead?{06}{07}
+Hah hah hah ...
+I hadn't noticed.{end}
+
+What did you say,
+you son of a bitch?{end}
+
+Never mind that.
+I'll tell you something
+really interesting ...{06}{07}
+I was the one
+who spread the plague
+to your village.{end}
+
+Sonya ...
+You've spelled the
+end for B{3a}ser!{end}
+
+Leave it to me, brother.
+We must try to stop this!{end}
+
+Sonya, you've grown strong.
+I have plenty of faith in you.{end}
+
+B{3a}ser ...
+Do you want to die
+by my hand ...?{06}{07}
+{02}, please!{end}
+
+I know you've been pulling the
+strings, dragging nations
+into meaningless bloodshed ...{06}{07}
+But now we'll
+destroy you and purge
+this world of evil!{end}
+
+Amusing ...
+You really think you
+can defeat me?{06}{07}
+A few worthless humans
+will accomplish nothing!{end}
+
+Ugghh--!
+I've failed!{end}
+
+Hmph ...
+Your skills are disappointing.{end}
+
+Ugh, such disgrace ...
+I'll remember this!{end}
+
+I won't allow my beloved
+wife and daughter to glimpse
+a world tained by you!{end}
+
+Arrghh ...{end}
+
+Those Descendants of Light
+are quite unnecessary.{06}{07}
+We will crush you with
+the might of the Empire!
+{end}
+
+I've known of your resurrection
+for a very long time ... and
+as I've known, I've researched.{06}{07}
+Fortunately, I discovered
+some truly horrifying spells.{06}{07}
+B{3a}ser, prepare to
+be banished to eternity.{end}
+
+Don't mock me.
+Do you want to die?{06}{07}
+You're so withered from
+black magic, your standing
+is an impressive feat.{end}
+
+I won't die here.
+This is my purpose ...{06}{07}
+In order to end
+the darkness, I've given
+up my parents, my
+lover ... everything!{end}
+
+So this is Castle Velzeria ...
+The dark energy is growing ...{end}
+
+I won't say I'm
+fighting for humans!{06}{07}
+I want my brother
+and I to have a peaceful
+world to live in!{end}
+
+How dare you
+keep us fooled for
+this long!{end}
+
+I've suffered so much, ...
+but I'll make you writhe
+in more pain than I ever did!{end}
+
+This is for my father!
+You'll pay for deceiving
+me all this time!{end}
+
+Is your blood confused?
+You can't defeat me.{06}{07}
+But since you're so amusing,
+I'll tell you something.{06}{07}
+I was the one who spread
+the plague to your village.{end}
+
+Wh, what!?{end}
+
+Yes. I also started the rumour
+that you were strange,
+that you wanted it to happen.{06}{07}
+Stupid, naive humans ...
+They really thought there
+was an outbreak.{06}{07}
+But no one was sick.
+Mwa ha ha! The idiots!{end}
+
+Because of you ...,
+Because of you, I ...!{end}
+
+No need for thanks.
+I did it to initiate you, to
+show you the darkness.{06}{07}
+...{06}{07}
+At any rate, the moronic
+humans persecuted
+you just as I planned.{end}
+
+That, that can't be right!
+All the suffering
+I had to endure ...!{06}{07}
+You ...
+I'll make you writhe in worse
+pain than I ever did!{end}
+
+Uugghh ..., B{3a}ser!{end}
+
+Sonya, don't endanger yourself!
+Rest and leave him to me!{end}
+
+Ugh ... All right.
+Take care, Brother.{end}
+
+Sorry ..., Brother.
+I couldn't defeat B{3a}ser.{end}
+
+It's okay!
+I'll take him
+out for you!{06}{07}
+Rohga and Sonya,
+both of you
+deserve some rest!{end}
+
+Thank you, {02}.{end}
+
+{font3}Fwa hah hah!
+{font0}You pathetic worms!{end}
+
+I've no more use
+for you.
+Time to die!{end}
+
+Who could possibly
+have killed you!?{end}
+
+Ughhh ... Arrghhh--
+Gaaahhh--! ...{06}{07}
+Are my dreams going ...
+to end ... like this ...{06}{07}
+Why!? Why was I bested ...
+by worthless humans!{end}
+
+Don't underestimate us!{end}
+
+It's true that humans
+can be foolish and weak!{06}{07}
+But humans have hope, too!{06}{07}
+We believe in ourselves
+and value our friends.{06}{07}
+Together, we can
+stand up to any hardship.{end}
+
+But being the friendless
+and sadistic fiend you are,
+you wouldn't understand.{end}
+
+What drivel.
+Unbelievable ...{06}{07}
+This isn't over yet!{06}{07}
+Alhazard, my Dark Blade,
+unleash your power now!{end}
+
+Wh, what ...?
+I, I can't move ...{06}{07}
+It's draining me ...
+My magic ... is being
+drained by the sword ...{06}{07}
+Why, Alhazard!?{06}{07}
+Alha ... za ...{end}
+
+Obtained Alhazard.{end}
+
+My goodness,
+what happened here?{end}
+
+B{3a}ser was weakened by
+the unsealing ritual.{06}{07}
+In his condition, he
+couldn't withstand
+Alhazard's tremendous will.{06}{07}
+What an ironic death ...{end}
+
+...{06}{07}
+Alhazard destroys all
+with lesser power.{end}
+
+That's correct, Egbert!
+Fools ..., all of them.{end}
+
+Great, the darkness has lost
+its influence. Now, we
+can move on to unification!{end}
+
+Alhazard and Langrisser ...{06}{07}
+With these swords,
+we can easily fulfil
+the Kaiser's dream.{06}{07}
+One ruler and one peace!{end}
+
+We have trouble,
+General Leon!{end}
+
+This is bad,
+Sir {02}!{end}
+
+What is wrong, Laird?{end}
+
+What is wrong, Laird?{end}
+
+Liana and L{37}na together?{end}
+
+I wasn't expecting
+them to show up.{end}
+
+Huh? Are you having
+trouble with a seal again?{end}
+
+What? Is the seal
+giving us trouble again?{end}
+
+In any case, we must
+retrieve those two
+as soon as possible!{end}
+
+Understood!
+We'll leave immediately!{end}
+
+{font3}Hah hah hah.
+Stupid humans!{06}{07}
+{font3}How can you kill me
+if I'm already dead?{end}
+
+{font3}The oh so mighty
+Empire graces us
+with its presence.{end}
+
+{font3}No ... I'm immortal--!{end}
+
+{font3}I commend your
+efforts in reaching here.{end}
+
+{font3}Blood, need blood ...{end}
+
+{font3}You dare fight me ...?
+Do you not
+know my strength?{end}
+
+{font3}Ooohh--!{end}
+
+{font3}Uugghh ...{end}
+
+{font3}Argh--!{end}
+
+{font3}Gaahh--!{end}
+
+{font3}Ooohhh--!{end}
+
+{font3}Gaahh!{end}
+
+{font3}Hah hah hah!
+This nightmare you
+won't wake up from!{end}
+
+{font3}My beauty will
+last forever ...!{end}
+
+{font3}I've come to
+play, my pet!{end}
+
+{font3}Aahhh ...{end}
+
+{font3}For Master B{3a}ser!{end}
+
+Die, traitors!{end}
+
+{font3}Can't ... move ...{end}
+
+{font3}Show me your
+strength, humans ...!{end}
+
+{font3}Kill the invaders!{end}
+
+{font3}How disappointing ...{end}
+
+Hmph ...
+How foolish of me.
+I fell for their trick ...{end}
+
+The remaining
+Descendants of Light, Sir.{06}{07}
+The two shrine maidens
+were captured on my watch.
+I beg your forgiveness!{end}
+
+That's a shame ...{06}{07}
+Without those two,
+we can't seal
+the Dark Blade.{end}
+
+Yes. After we unite the
+continent, these weapons
+will have no purpose.{06}{07}
+We'll restore their seals
+and let the legends fade ...{06}{07}
+Our Kaiser does not
+wish tragedies to repeat.{end}
+
+Sonya ...
+Could that be true ...?{06}{07}
+But she was persecuted
+for her demon blood.
+Everything came from that!{end}
+
+I'll tell you something else.{06}{07}
+I knew humans would hate
+Sonya for her heritage.
+In fact, I counted on it.{06}{07}
+Humans are so totally moronic,
+they believed a half-demon
+caused a plague ... 
+that didn't even exist.{end}
+
+That was all part of
+your scheme, then!{06}{07}
+I'll never forgive you!{end}
+
+Yes, yes!
+Anger! Hate!{06}{07}
+Release your emotions and
+fall to your inner darkness!{end}
+
+Wow ...
+Langrisser's power ...{06}{07}
+With Alhazard,
+my dark forces will rally!{end}
+
+B{3a}ser, your life ends here!{end}
+
+Alhazard's true purpose
+will now be revealed!{end}
+

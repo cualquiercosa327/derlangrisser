@@ -1,0 +1,501 @@
+The Holy Rod is on an
+altar inside this temple.{end}
+
+We'll have to split
+up and check each
+area individually.{end}
+
+Won't this waste
+a lot of time ...?{end}
+
+What?
+Somebody is approaching!
+Is it the enemy!?{end}
+
+It's here.
+Somewhere within these ruins
+we'll find the Holy Rod.{end}
+
+According to this
+ancient scripture ...{06}{07}
+The Holy Rod
+should be somewhere
+in these ruins.{end}
+
+Hey, Hein ...
+Don't you know any spells
+that could locate it?{end}
+
+Heh, if only life were
+so simple, Lester ...{end}
+
+Is that Rohga
+leading the enemy
+search party ...?{06}{07}
+Yes, it is Rohga!{end}
+
+{02}'s bunch?{06}{07}
+Move fast!
+We must find it
+before they do!{end}
+
+He seems to be after
+the rod as well.{06}{07}
+Let's hurry!{end}
+
+Everyone, let's go!{end}
+
+Sorry for being late.{end}
+
+Leon!
+Are you all right?{06}{07}
+Weren't you injured
+in the battle before?{06}{07}
+Please, let me
+handle this, Sir.{end}
+
+Simple wounds like
+these will not keep me
+from my duty.{end}
+
+Damn!
+We're a little late!{end}
+
+Leon!{end}
+
+We're going to split
+up and search for it. {06}{07}
+I'm going to
+look in the left room
+in the back.{06}{07}
+We must do whatever
+it takes to get the
+Holy Rod before they do!{end}
+
+Rohga ...!{06}{07}
+I would never imagine
+I'd meet you again
+in such a situation ...{end}
+
+I was once a
+mercenary.{06}{07}
+In our world,
+friends often
+become enemies.{end}
+
+So you're going
+to battle for money?{end}
+
+I'm not sure ...{06}{07}
+No, for now, the
+money isn't important.{06}{07}
+Heh heh ...
+Maybe I've just wanted
+to fight with you.{end}
+
+All right!
+The operation is complete!
+Withdraw!{end}
+
+Damn, if we had a
+little more time ...{end}
+
+It's {02} ...!{06}{07}
+I've been wanting to
+test my skills against
+you for a while!{end}
+
+Rohga ...{end}
+
+Come on, fight me,
+and don't hold back!{end}
+
+Gah ...
+Is this the end
+for me ...?{end}
+
+It seems I'm not as
+strong as I thought ...{end}
+
+Ouch!{06}{07}
+How dare you do
+such things to a
+polite young lady!{end}
+
+Gah--
+I've failed ...{end}
+
+Shit ...!
+You did better
+than I thought!{end}
+
+Aahhh!
+This is my limit ...
+I can't do any more ...{end}
+
+Aaah--!
+I blew it ...{end}
+
+I'm sorry ...
+I'll retreat ...{end}
+
+Argh, I can't
+take this!{end}
+
+{02}! {06}{07}
+I will not let you, or
+any enemy of the Empire,
+take the Holy Rod!{end}
+
+Move!
+You're in the way!{end}
+
+I will not be defeated!{06}{07}
+I'm not the sort
+who would fall from
+a few scratches!{end}
+
+My wound still
+hasn't healed ... {06}{07}
+{02},
+I will pay you
+back for this!{end}
+
+I won't tolerate failure!
+Find the Rod, now!{end}
+
+It's nothing personal,
+but we're enemies now.
+I'm going to kill you.{end}
+
+Tsk, tsk!
+You annoying rats!{end}
+
+Such strength ...
+To imagine there are fighters
+even more powerful than I ... {06}{07}
+I'm proud to have battled
+with and against a warrior
+as great as you, {02}.{end}
+
+Rohga ...{end}
+
+Farewell ...!{06}{07}
+May we meet again
+in the underworld!{end}
+
+Damn ...
+You're pretty good!{end}
+
+You, search
+over there!{end}
+
+Yes, Sir!{end}
+
+I will
+search the left.{end}
+
+Stay there
+and be quiet!{end}
+
+This isn't
+happening ...{end}
+
+You, go to the right!{end}
+
+Certainly.{end}
+
+I will search
+the right room!{end}
+
+Ughh ...
+I cannot die now ...{end}
+
+We're going to escape!
+Move the enemies' cavalry!{end}
+
+Yes, Sir!
+I will secure a path
+for the retreat.{end}
+
+I have your word!{end}
+
+Gahh ...{end}
+
+Ughh ...
+my strength ... is ...
+leaving me ...{end}
+
+We shall aid Rohga!
+Charge!{end}
+
+I am sorry,
+my beloved ... {06}{07}
+I don't think I'll
+survive this time ...{end}
+
+Ha ha ha ...
+En garde!{end}
+
+You are
+strong indeed ...{end}
+
+Aahh--!
+I can't ...{end}
+
+At last, the time for
+me to meet my departed
+friends has come ...{06}{07}
+Gah--arrgghh ...!{end}
+
+Gah--!{end}
+
+Finally, it's over ...{end}
+
+Well, let's find
+the Holy Rod.{end}
+
+I've found it!
+This is the Holy Rod!{end}
+
+Obtained Holy Rod.{end}
+
+Finally, it's over ...{end}
+
+Well, let's find
+the Holy Rod.{end}
+
+I've found it!
+This is the Holy Rod!{end}
+
+Obtained Holy Rod.{end}
+
+There it is!{end}
+
+Oh! I found it!{end}
+
+It's here!{end}
+
+I've discovered it!{end}
+
+Heh heh.
+I've found it!{end}
+
+Here it is!{end}
+
+There it is.
+It's right here!{end}
+
+I found it here!{end}
+
+Found it!{end}
+
+Here it is!{end}
+
+I have discovered it!{end}
+
+It's not here ...{end}
+
+Tsk, can't find it.{end}
+
+It doesn't look
+like it's here.{end}
+
+It's not here ...{end}
+
+Damn, not here.{end}
+
+It's not over here.{end}
+
+I can't find it.{end}
+
+Hmmm,
+seems like it's
+not here.{end}
+
+Damn!
+It's not here.
+Search the other rooms!{end}
+
+There's nothing here!{end}
+
+Not here ...{end}
+
+Hurry!
+We can't let them leave
+with the Holy Rod!{end}
+
+You won't take
+the Holy Rod!{end}
+
+All right, listen
+up, everybody!{06}{07}
+Gather around the
+temple, and prepare for
+the enemies attack!{end}
+
+Men, battle stations!{06}{07}
+Gather at the temple entrance.
+We must repel the enemy.{end}
+
+I have taken
+the Holy Rod!{end}
+
+I found the Holy Rod!{end}
+
+Obtained Holy Rod.{end}
+
+All right, let's go outside!{end}
+
+Yes, Sir!{end}
+
+I have the Holy Rod.{06}{07}
+I'm heading for the
+exit, so cover me!{end}
+
+Obtained Holy Rod.{end}
+
+All right, let's
+hurry and escape!{06}{07}
+Have the others back me up!{end}
+
+Damn! They beat us ...
+Don't let them get away!{06}{07}
+Take back the rod!{end}
+
+We did it!
+Now we can stand
+against Alhazard!{end}
+
+...{end}
+
+Big sister ...{end}
+
+Fighting Leon is
+painful for you, isn't it?{end}
+
+N, no ...
+It's all right ... {06}{07}
+Alhazard must be sealed.
+Even if we have
+to do things like this ...{end}
+
+We will end this war.{06}{07}
+I just hope we may see
+a day when we aren't divided
+as enemies and allies ...{end}
+
+Yeah.
+But first we must release
+Langrisser's seal.{end}
+
+At last, we can release
+Langrisser's seal ...{end}
+
+Let's hurry with the
+incantations, sister!{end}
+
+Yeah!{end}
+
+It seems as
+though you've retrieved
+the Holy Rod.{end}
+
+Liana!{end}
+
+While we wait,
+Alhazard is
+gaining strength.{06}{07}
+We must hurry up
+and release Langrisser!{end}
+
+At last, we can release
+Langrisser's seal ...{end}
+
+Let's hurry with the
+incantations, sister!{end}
+
+Yeah!{end}
+
+Unbind the Light that
+rests within me ...{end}
+
+Empower this sword
+with the power of Light
+that rests within me ...{end}
+
+Charge the Holy Rod
+with light ...{end}
+
+Now to bring forth the
+sword's true power!{end}
+
+What a magnificent glow ...{end}
+
+Langrisser's hidden
+power has been released!{end}
+
+With Langrisser revived, we
+can show B{3a}ser the true power
+of the Descendants of Light!{end}
+
+It will only get tougher
+from here on out.{06}{07}
+However, if we work
+and act as one, we can
+overcome any difficulty.{06}{07}
+If we all have faith in
+ourselves, we can succeed. {06}{07}
+If we believe in hope,
+the Sword of Light will
+shine even brighter.{end}
+
+I'll ... give it my all!{end}
+
+All right!
+I'm going to give it
+everything I've got, too!{end}
+
+We've made it this far ... {06}{07}
+We can do it!{end}
+
+Let's work together!{end}
+
+As long as I continue to
+have strength, I'll fight!{end}
+
+I'm up for
+the challenge!{end}
+
+You can count on
+me till the end!{end}
+
+You can count on
+me till the end!{end}
+
+This is as much
+as I can do ...{06}{07}
+However, please do not forget
+that my prayers are
+with the Sword of Light.{end}
+
+Let's go!
+We shall fight
+as one!{end}
+
+Everyone ...{end}
+
+All right, let's do it!
+To Castle Velzeria!{end}
+
+Damn!
+Oh well, time
+to retreat!{end}
+
+In a vacant spot of earth
+there is a glittering garb.{06}{07}
+
+Will you take it?{end}
+
+Obtained Wizard's Robe.{end}
+

@@ -1,0 +1,486 @@
+Father, I have
+come as you requested.{end}
+
+Ah, good.
+We have just received some
+troubling news.{06}{07}
+It seems that {02} has
+left Lady Cherie's side.
+He is working with the Empire.{end}
+
+You cannot be serious!{end}
+
+That is not all.
+He has taken Langrisser.{end}
+
+For the Imperials?{end}
+
+I see ...{06}{07}
+Things have become
+quite grim, have they not?{end}
+
+They have ...{end}
+
+As things stand,
+Cherie and her group
+are in great danger.{06}{07}
+We must send our
+army for Kalxath.
+I shall lead the way!{end}
+
+Well said.
+Your spirit brings me
+pride, my son.{end}
+
+You speak too highly
+of me, Father.
+It's embarrassing ...{end}
+
+Anyway, I will leave now
+and marshal our forces.{end}
+
+Has it been ten years
+since he came to this
+house as an orphan ...?{06}{07}
+He has grown to be a
+splendid young man.{end}
+
+Lord Loren, I don't
+believe my own eyes ...{06}{07}
+A horde of demons lays
+siege to our mansion ... and
+{02} commands them.{end}
+
+No, ... that can't be ...{06}{07}
+Has this world gone mad!?
+Where is the Empire?{end}
+
+Sound the alarm!
+All soldiers, assume
+defensive stations.{end}
+
+Yes, Sir!{end}
+
+Loren, our business is
+with Kalxath. Let us pass.{end}
+
+The day Salrath
+yields to demons is
+the day I fall dead.{06}{07}
+Not one of you
+will cross our line.{end}
+
+So many pointless battles ...
+Well, no choice.  Time to cut
+down a few more adversaries.{end}
+
+We were such fools ...
+Putting our faith in a
+blackguard like you.{06}{07}
+At least you're finally
+with your kindred, right?
+Bloodthirsty demons seem more
+suitable companions.{end}
+
+No one we meet has
+a brain in their head.{06}{07}
+If you surrender, we will pass.
+If you don't, we will slaughter
+any and all resistance.{06}{07}
+Loren, you're a wise man.
+Make a wise decision.{end}
+
+Father, ... please
+don't listen to him.{end}
+
+Do not worry, my son.{06}{07}
+You think Salrath can't fend off
+a few yellow-livered monsters?{06}{07}
+We scrape things fiercer
+than them off our boots.{06}{07}
+Scott, remember my
+instructions in war ...{06}{07}
+The correct strategy will
+bring any foe to his knees.
+One must simply find it!{end}
+
+Only a few men hold
+the mansion's interior.{end}
+
+Is that really all they have?
+Salrath disappoints me.{06}{07}
+Maybe we can cut them down
+without a single casualty.{end}
+
+Everyone, remember,
+if this drags on, word
+will get to Kalxath.{06}{07}
+We need to make
+excellent use of our time.{end}
+
+Against our military strength,
+Kalxath means nothing.{end}
+
+Don't be hasty, Rohga.
+We must pursue the
+best available strategy.{06}{07}
+We took this detour to
+surprise Kalxath, and we may
+lose that advantage.{06}{07}
+How can we
+solve this quickly?{end}
+
+Well, spell-casting should
+be very effective here!{06}{07}
+The right magic should
+make this battle a snap.{end}
+
+Understood. Hein, I
+need you to support our
+forward squads.{end}
+
+Under these conditions, we
+should hold back and
+exploit our strong position.{06}{07}
+Scott, there may be an
+opening during the battle.
+Escape as soon as you see it.{end}
+
+We can do better than that!
+Allow us to create a diversion.{end}
+
+Hmmm ...
+Yes, please do.{end}
+
+Everyone, thank you.{end}
+
+I ask one last time.
+Will you surrender?{end}
+
+Hah hah hah!
+What good would that do?
+What future would we have?{06}{07}
+Cowering in fear under
+a cut-throat tyrant and his
+slavering demons?{06}{07}
+I think you've used
+up your capital with us, sir,
+and not very prudently.{end}
+
+I am loyal to
+Father and to Salrath.{06}{07}
+And {02}, by throwing
+in with fiends,
+you're no friend of either!{end}
+
+So, death then.
+That choice has become
+quite popular ...{end}
+
+Scott, ... our enemies are
+far stronger than expected.{06}{07}
+You must escape when the
+chance arrives and
+meet our friends at Kalxath.{06}{07}
+Tell them {02} has
+taken arms with darkness ...
+and seeks to ruin us all.{end}
+
+But, what about you?{end}
+
+This is not just our problem.
+The fate of the entire
+continent lies with you.{06}{07}
+Understand, Scott.
+Escape when you can.{end}
+
+No, Scott can't leave!
+If Kalxath learns our plan,
+then they'll be prepared.{end}
+
+Damn it all ...
+This is troublesome.{end}
+
+Yes, we've broken through!{end}
+
+Good work, Scott.{end}
+
+Rest easy, Father.
+I will ensure our
+victory at Kalxath.{end}
+
+Father, ... watch from 
+the heavens, and witness our
+victory at Kalxath.{end}
+
+Imperial troops, hmm?
+My men are far superior.{end}
+
+Scott ...
+Don't be careless.{06}{07}
+Kalxath plays at friendship,
+but they thirst for power
+just as much as the Empire.{06}{07}
+That's why the two have had
+such poor relations.
+Just read your history.{end}
+
+Several obscure characters
+are carved into the slate.{06}{07}
+
+"If you want, offer me a prayer.
+I will grant your fond desire."{06}{07}
+
+What do you desire?{end}
+
+More troops{end}
+
+Attack power{end}
+
+Defence power{end}
+
+Troops raised.{end}
+
+AT raised by 1 point.{end}
+
+DF raised by 1 point.{end}
+
+{02}, have
+you sold your soul!?{06}{07}
+Why are you commanding
+a horde of monsters!?{end}
+
+I accept any assistance
+in unifying the
+continent, man or demon.{end}
+
+Persistent bastards ...
+Loren, have you any idea how
+insignificant your army is?{end}
+
+Look around at my manor.
+If you think we will surrender,
+then you must be dreaming!{06}{07}
+We are all prepared to
+lay down our lives to stop you
+and your minions, {02}!{end}
+
+Th, this world ...
+Is this the end ...?{end}
+
+You have no chance!{end}
+
+Salrath's men ...
+are dedicated ...!{end}
+
+Thinking about attacking me?
+You have some nerve.{end}
+
+Damn it, my good hand--!
+You'll pay for that!{end}
+
+Your peace is one where
+humans treat demons like dirt!
+I will never accept that!{end}
+
+You rotten, tricky ...
+damned humans ...
+Don't be so arrogant ...!{end}
+
+{font3}Humans, die!{end}
+
+{font3}Uuggghhh--!{end}
+
+{font3}Aaaah ...!{end}
+
+We will not tolerate
+your vicious bloodshed
+any longer, {02}!{end}
+
+Until Scott's safe escape,
+we must not lose!{end}
+
+Uuggghh--!
+Is this the best I could do!?
+Scott, forgive me ...{06}{07}
+Whatever happens,
+don't follow the fate
+of your Father ...{end}
+
+Father!
+Please, hang on!{end}
+
+Scott, continue to learn.
+Always improve your tactics, 
+and travel the Knight's path.{06}{07}
+I have no regrets. Save that ...
+you'd had the chance to be an
+ordinary child, for a time ...{end}
+
+Father ... 
+What are you talking about?{06}{07}
+Even though I was
+an orphan, you raised
+me as a true son.{06}{07}
+You're the best
+father I could have
+wished for!{end}
+
+Thank you, Scott. 
+You've indulged an old man's
+ego till the very end ...{06}{07}
+Swear to tell ... 
+Kalxath ...  {06}{07}
+The rest, the rest ... 
+I leave to you ... my son ...{end}
+
+Father!{06}{07}
+I swear I'll get to Kalxath.
+Please, watch over me.{end}
+
+Uuggghhh ...
+Scott ... I'm done for ...
+Everything rides ... on you ...{end}
+
+Father!{06}{07}
+I swear I'll get to Kalxath.
+Please, watch over me.{end}
+
+Alas, even Salrath cannot
+escape its own end ...{06}{07}
+My apologies, dear Scott ...
+Please ... avenge us ...{end}
+
+Leave now, Scott!
+Go to Kalxath!{end}
+
+I will, Father.
+Please stay safe.{end}
+
+I will do my best.
+Thank you.{end}
+
+Father, I must set out
+for Kalxath immediately!{end}
+
+I won't be beaten here!{end}
+
+Aarrgghh--!{end}
+
+Scott!{end}
+
+Forgive me ...
+Father ...{06}{07}
+I trained hard, ...
+but it wasn't enough ...{end}
+
+Scott ...?
+Stand up, Scott!{end}
+
+You raised and cared for a
+nameless orphan like me ...
+I humbly thank you for that.{06}{07}
+And after all you've done, ...
+I've repaid you
+with my wasteful death ...{06}{07}
+For my Father's best efforts ...
+For this world ...
+I die ... Forgive me.{end}
+
+Scccotttt!{06}{07}
+I've never thought you
+any less than my own child.{06}{07}
+Even if we've different
+blood, you will
+always be my son.{06}{07}
+That's ...
+That's why ... {06}{07}
+Damn you, monsters!
+You'll know a father's
+vengeance for his child!{end}
+
+{02}, why ...
+why have you ...
+joined the darkness ...?{end}
+
+I simply use means as
+they become available, just
+like a humble merchant.{06}{07}
+Do not worry yourself.
+Soon, this continent
+will know my benevolent rule.{end}
+
+Darkness ... will bring ...
+this world to Hell ...
+Don't you ... know ...{end}
+
+I will protect
+Loren and Scott!{end}
+
+At the least,
+we must protect Scott!{end}
+
+Aaahh--!{end}
+
+Die!{end}
+
+Uuggghh--!
+Is this the end for
+me, too ...?{end}
+
+No ...
+What are you saying ...?{end}
+
+L, Lord--!{end}
+
+Uugghhh ...!
+My life is over ...
+alread--?{end}
+
+I couldn't protect Scott ...{end}
+
+M, my mission ...{end}
+
+Grrr, die!{end}
+
+We've been defeated ...{end}
+
+Everyone, I'm sorry.{end}
+
+Please hurry, Lord Scott!
+I can't hold them much longer.{end}
+
+All right, we did it!{end}
+
+Ugh, what a disaster.
+I'm exhausted.
+{end}
+
+We did what
+had to be done.{06}{07}
+Still, it must be hard
+on you and Hein
+to kill old comrades.{end}
+
+Moreover, Cherie's group
+is next on our list ...{end}
+
+Salrath has fallen, and
+Kalxath will soon follow.{end}
+
+Let's keep up the pace!{end}
+
+We'll depart for
+Kalxath at once!{end}
+
+Damn it!
+They got away!{end}
+
+We've lost this war.
+Taking Castle Kalxath will
+now be impossible ...{end}
+
+We should have
+considered our tactics
+more prudently.{end}
+

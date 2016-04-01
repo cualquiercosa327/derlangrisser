@@ -1,0 +1,557 @@
+Yes, the
+Holy Rod is ours ...{06}{07}
+We will return to
+His Majesty at once.{end}
+
+Yes, Sir!{end}
+
+Stop there!
+You won't take it!{end}
+
+Meddling wizard ...{end}
+
+We can't waste any time.
+They're injured, but
+hit them hard and fast.{end}
+
+I can only dream of
+succeeding here ...{end}
+
+Aaahh ...!{end}
+
+J, Jessica!{06}{07}
+Colonel Laid, the
+sorceress is escaping!{end}
+
+That crafty witch is
+really something else ...{end}
+
+Colonel Laird,
+are you all right?{end}
+
+Don't worry about it.
+Move out!{end}
+
+I have the Holy Rod!{end}
+
+Obtained Holy Rod.{end}
+
+Excellent work, Laird.
+Now we can
+proceed with the ritual.{end}
+
+All right, maidens.
+Please reveal
+Langrisser's true form.{end}
+
+Oh, sword of Lushiris ...
+sword of virtue ...{06}{07}
+We have sought your
+aid since times untold!{end}
+
+We shall release
+the light within you ...{end}
+
+I touch this blade
+to the sleeping light ...{end}
+
+Holy Rod, offer yourself ...{06}{07}
+And return this sword's
+true strength!{end}
+
+What an incredible glow ...{end}
+
+Have we unleashed
+its hidden power?{end}
+
+Hmmm, what fortune.{06}{07}
+Our chances of defeating
+Alhazard have just increased.{end}
+
+All right, we go!
+We'll destroy B{3a}ser!{end}
+
+Is B{3a}ser still
+around here?{end}
+
+He should be in the
+forbidden land, Velzeria.{06}{07}
+There's an ancient
+legend about the darkness's
+imprisonment there.{06}{07}
+We should take
+the fight to him rather
+than wait around.{end}
+
+It seems you humans
+are quite ignorant.{end}
+
+Hmmm, ...
+We're surrounded ...{end}
+
+I didn't even notice!{end}
+
+You won't enter
+the castle
+through these gates!{end}
+
+Sonya!{end}
+
+Rohga ...{end}
+
+{02}, please give me
+one last chance.
+I'll persuade her this time.{06}{07}
+Let me speak with Sonya.{end}
+
+All right.{06}{07}
+Everyone, cover Rohga
+until he reaches her.{end}
+
+Leave it to me, Rohga.
+I'll defend you.{end}
+
+Guys, I owe you one.{end}
+
+Master B{3a}ser is still napping.
+We'll have to stop them alone!{end}
+
+{font3}For an era of evil!{end}
+
+{font3}For Master B{3a}ser!{end}
+
+...{end}
+
+Sonya ...
+Why do you continue
+to resent humans?{06}{07}
+You're allowing the
+same tragedies to
+repeat themselves.{end}
+
+...{end}
+
+Stop tormenting me!
+B{3a}ser is so much
+nicer than my brother!{end}
+
+Don't you remember
+how it was, Sonya?
+Can't we be family again?{end}
+
+Is this it ...{end}
+
+I'm sorry everyone,
+but I can't stand this ...{end}
+
+If you follow the
+darkness, we will end
+you along with it!{end}
+
+You humans will never change.
+You only think of yourselves!{06}{07}
+I'll always hate you,
+even my brother!{end}
+
+No ...
+S, Sonya ... Please!{end}
+
+Rohga, don't be careless!
+You're losing blood.{end}
+
+But if we retreat now ...{end}
+
+Brother, it's futile ...
+I can't go back ...{06}{07}
+I've stained my hands
+too much to go back to my
+brother's side ...{end}
+
+How could ...{end}
+
+Master Rohga!{end}
+
+I'm okay.
+I just lost concentration.{06}{07}
+I need time to recover.{end}
+
+Yes ...{end}
+
+I was unprepared ...
+Forgive me, {02}.
+It's up to you now!{end}
+
+{font3}Ugghh!
+How dare you!{06}{07}
+{font3}Bastard, I'll return
+the favour one day!{end}
+
+What a mistake ...
+Grr--! I'll remember this!{end}
+
+How could I be
+beaten by monsters ...{end}
+
+I don't want to see
+my brother's face any more!
+Get out of here!{end}
+
+Brother, please!
+Don't make me suffer.{end}
+
+Damn!{end}
+
+Ugh ...
+So those are my brother's
+trusted companions ...{end}
+
+Sonya!
+Get a hold of yourself, Sonya!{end}
+
+Sorry, brother ...
+I'm finished ...{06}{07}
+But I don't feel lonely ..., 
+because I get to
+lay in your arms ...{end}
+
+Ahh ... always ...
+together, like old times ...{06}{07}
+...{end}
+
+S, Sonya!{06}{07}
+Nooooooooooo!{end}
+
+You bastards ...
+If Sonya wasn't
+perverted by you scum ...!{06}{07}
+B{3a}ser, when we meet,
+I'll make you beg for Hell!{end}
+
+Hold on, Sonya!{end}
+
+Why ...?
+I'm your enemy.{end}
+
+No, you're my
+kid sister.{06}{07}
+Just this once, 
+please remember that!{end}
+
+Aahh, so warm.
+I'll never forget the kindness
+you've shown me.{06}{07}
+If I'd never met B{3a}ser ...
+No, now it's too late.{end}
+
+Tell my brother ...
+Sonya left behind her hatred
+and accepted humans, and ...{06}{07}
+I'm grateful he came all
+the way here to find me.{end}
+
+Sonya, hang on, Sonya!{end}
+
+If only she saw things
+as they really were.
+Without confusion ...{06}{07}
+B{3a}ser, your end is coming.
+I will defeat you!{end}
+
+...{end}
+
+How emotional.{06}{07}
+I didn't know she
+had so little conviction.{end}
+
+Please, don't say that.{06}{07}
+She didn't lay anything on
+her parents' deaths ...
+She accepted responsibility.{end}
+
+When is this going to end?{06}{07}
+I'll go on ahead.{end}
+
+Wait up!
+I'm going too!{end}
+
+...{end}
+
+You're a strong man.
+Use this sadness and
+remember what we fight for.{06}{07}
+I'll wait for you ahead.{end}
+
+Th, that ...{end}
+
+...{06}{07}
+Against B{3a}ser, I'm at
+your side, Rohga.{end}
+
+I couldn't save you ...{06}{07}
+Ever since you left,
+I've thought about it.
+And in the end ...{06}{07}
+I failed you and I failed us.
+I, I've lost my purpose.{06}{07}
+But ...{06}{07}
+God damn it!
+There's war to fight, and
+I have to keep going!{end}
+
+On the frozen
+fields of Kadath!{end}
+
+Or on the charred
+rock of Seviglia!{end}
+
+No matter what adversity
+I face, I'll survive it all!{end}
+
+Everything I've done
+was for your happiness.{end}
+
+Farewell ...{06}{07}
+We'll meet again,
+Sonya ...{end}
+
+{font3}Ahh, the amazing
+Langrisser. Powerful ...{end}
+
+{font3}When B{3a}ser's
+recovered, ... you will ...{end}
+
+{font3}Gaaahhh--!{end}
+
+{font3}Ooohh--!{end}
+
+{font3}Ugh!{end}
+
+{font3}Uugghhh--!{end}
+
+{font3}Argh ...{end}
+
+{font3}Ugh ...{end}
+
+{font3}You humans
+would dare defy
+us monsters!?{06}{07}
+{font3}You'll pay for that
+foolish notion
+with your lives!{end}
+
+{font3}You damn humans ...{end}
+
+{font3}Mmmmm, delicious
+looking humans.{06}{07}
+{font3}Come sleep
+in my arms.{end}
+
+{font3}Gaahhh!
+H, how dare ...{end}
+
+{font3}How could this ...!?
+How can I, the Prince
+of the Undead, die ...{end}
+
+{font3}Sonya's been killed!
+Run, withdraw quickly!{end}
+
+{font3}Sonya betrayed us.
+Go tell B{3a}ser.{end}
+
+Rohga ...
+We should give up on Sonya.{06}{07}
+Nothing you've said
+has made a difference.{06}{07}
+Persuading her
+is impossible.{end}
+
+You may be right ...{06}{07}
+But I'll try if there's
+the slightest chance
+she'll turn around.{06}{07}
+When my last effort fails ...
+I will ... finish things.{end}
+
+I see.
+Well, we will help
+however we can.{end}
+
+Thanks ...
+I'm in your debt.{end}
+
+Sonya!
+I don't want to lose you!
+Please, listen to me!{end}
+
+I don't know
+how Rohga's going to
+live without her ...{end}
+
+Sonya!{end}
+
+...{end}
+
+Listen up, Sonya!{06}{07}
+You've been thinking
+only of those
+horrible memories.{06}{07}
+If that were all of human
+nature, I'd understand you.
+I might even agree!{06}{07}
+But have you forgotten our
+guardian, Ikreuz? Don't you
+remember how he raised us?{end}
+
+Father Ikreuz ...{end}
+
+Yes, remember
+Ikreuz's kindness.{06}{07}
+That warm feeling
+of having Ikreuz care
+for us like a father!{end}
+
+...{06}{07}
+In that chilly forest,
+we were freezing.{06}{07}
+A soft, welcoming hand
+reached out to us.
+It felt like father was there.{end}
+
+If Ikreuz never found us,
+I'd probably detest
+humans as much as you do.{06}{07}
+Humans are weak.
+They hurt each other and
+don't know or care.{06}{07}
+But despite their flaws,
+they try hard, Sonya ...{end}
+
+...{06}{07}
+This era, this war,
+stole our parents from us.
+I see that now ...{end}
+
+Yes, it has to end.{06}{07}
+We must bring peace,
+so that others
+won't suffer as we did ...{06}{07}
+Hate breeds bloodshed,
+and bastards like B{3a}ser
+take advantage of it!{06}{07}
+Do you understand, Sonya?{end}
+
+Brother ...{06}{07}
+If this war ends,
+can humans and demons
+live in peace?{end}
+
+Yes, they certainly can.
+I've lived a long time
+without trusting others.{06}{07}
+But in {02} and Hein,
+I've made some strong friends
+and comrades.{06}{07}
+With a trusting heart,
+you can overcome
+any misunderstanding.{end}
+
+Sonya, please join us.
+Together we can
+build a better world.{end}
+
+Yes, together, we'll bring
+hope and prosperity
+back to humans and demons.{end}
+
+So kind ...
+It's nice having friends.{06}{07}
+I, I wonder if I
+could get used to this ...{end}
+
+Without a doubt!
+We promise you!{end}
+
+You'll learn to love it.
+It's true!{end}
+
+Thank you, everyone!{end}
+
+I'm going to start over
+and build a new life!{end}
+
+Sonya joins the entourage!{end}
+
+Hmph ...
+B{3a}ser's the last detail.{end}
+
+All right!
+B{3a}ser's the only one left!{end}
+
+B{3a}ser's inside this castle.{end}
+
+Let's strike down
+B{3a}ser at once!{end}
+
+There's no point any more!
+Listen to me, Sonya!{06}{07}
+Why must we fight?{end}
+
+Because you're a human,
+and I'm half-demon!{end}
+
+When are you going to
+stop sulking about that!?{06}{07}
+Stop dwelling on
+things and just listen
+to me, Sonya!{end}
+
+You're always like that ...{06}{07}
+You think you know me,
+but you don't understand.{06}{07}
+I hate you!
+I really hate you!{06}{07}
+If you were worried
+about me, why didn't you
+come back sooner!{06}{07}
+My hands are so bloody ...,
+there's no way I could go back.{end}
+
+...{end}
+
+No, the only thing
+I know is fighting.{06}{07}
+Even if I'm defeated,
+I chose this life and
+I accept everything ...!{end}
+
+Fuck! Why ...?{06}{07}
+Why did it have
+to come to this?{end}
+
+Brother, take up
+your sword!{06}{07}
+You'll fight me, or
+I'll kill you.
+It's your choice!{end}
+
+Why, Sonya?
+What did I ever
+do wrong?{end}
+
+A red medicine bottle
+is hanging from the wall.
+Will you drink it?{end}
+
+AT raised by 1 point!{06}{07}
+The sound of a smashing
+bottle elsewhere is heard.{end}
+
+A yellow medicine bottle
+is hanging from the wall.
+Will you drink it?{end}
+
+MP raised by 2 points!{06}{07}
+The sound of a smashing
+bottle elsewhere is heard.{end}
+

@@ -1,0 +1,251 @@
+{skip 1}Load which save data?{end}
+
+{skip 2}Save {skip 1}game?{end}
+
+Yes{end}
+
+No{end}
+
+Do you still want to purchase it?{end}
+
+{skip 14}Your inventory is full.{end}
+
+{skip 11}Please discard an item.{end}
+
+{skip 8}Which item will you discard?{end}
+
+{02} will be discarded.{end}
+
+{02} was discarded.{end}
+
+Kills{end}
+
+Retreats{end}
+
+ Sleeping{end}
+
+Can't summon.{end}
+
+{end}
+
+{end}
+
+Magic Arrow{end}
+
+Blast{end}
+
+Thunder{end}
+
+Fireball{end}
+
+Meteor{end}
+
+Blizzard{end}
+
+Tornado{end}
+
+Turn Undead{end}
+
+Earthquake{end}
+
+Heal 1{end}
+
+Heal 2{end}
+
+Force Heal 1{end}
+
+Force Heal 2{end}
+
+Sleep{end}
+
+Mute{end}
+
+Protection 1{end}
+
+Protection 2{end}
+
+Attack 1{end}
+
+Attack 2{end}
+
+Zone{end}
+
+Teleport{end}
+
+Resist{end}
+
+Charm{end}
+
+Quick{end}
+
+Again{end}
+
+Decrease{end}
+
+Valkyrie{end}
+
+Freyja{end}
+
+White Dragon{end}
+
+Salamander{end}
+
+Iron Golem{end}
+
+Demon Lord{end}
+
+{skip 1}Not enough MP{end}
+
+Obtained {02}.{end}
+
+ equipped the
+{02}.{end}
+
+Game Over{end}
+
+{end}
+
+Level up!{end}
+
+AT{end}
+
+DF{end}
+
+MP{end}
+
+ + 1{end}
+
+ + 2{end}
+
+ was learned!{end}
+
+{02} can now
+be hired.{end}
+
+{skip 5}Class Change{end}
+
+{skip 2}Class Change{end}
+
+{02} {02} unit{end}
+
+Troops{end}
+
+Magic/Summons{end}
+
+Equip {02}{end}
+
+a weapon{end}
+
+an accessory{end}
+
+Ally's{end}
+
+Turn ended for{end}
+
+Enemy's{end}
+
+NPC's{end}
+
+{skip 1}This scenario has a{end}
+
+ will be the new
+class. Is this all right?{end}
+
+Inventory{end}
+
+Saleable Items{end}
+
+Unable to equip {02}{end}
+
+Gold{end}
+
+You don't have enough money.{end}
+
+You can't carry anything more.{end}
+
+Items Possessed{end}
+
+{skip 10}You must enter a name!{end}
+
+You possess nothing to sell.{end}
+
+{02} was purchased.{end}
+
+{02} was sold.{end}
+
+{02} cannot equip this.{end}
+
+You must position all commanders.{end}
+
+{skip 1}Saved{end}
+
+forced {skip 1}arrangement{end}
+
+Valkyrie{end}
+
+Freyja{end}
+
+White Dragon{end}
+
+Salamander{end}
+
+Iron Golem{end}
+
+Demon Lord{end}
+
+Sleipnir{end}
+
+Fenrir{end}
+
+Aniki{end}
+
+Aniki{end}
+
+cannot use.{end}
+
+Is this acceptable?{end}
+
+{skip 2}Press a button{end}
+
+Soldier{end}
+
+Monk{end}
+
+Pikeman{end}
+
+Cavalry{end}
+
+Dragoon{end}
+
+Flier{end}
+
+Bandit{end}
+
+Mariner{end}
+
+Gel{end}
+
+Demon{end}
+
+Monster{end}
+
+Barbarian{end}
+
+Magician{end}
+
+Ghost{end}
+
+Undead{end}
+
+Archer{end}
+
+Ballista{end}
+
+Dragon{end}
+
+Scenario {03} completed
+in {03} turns{end}
+
+Game completed
+in {03} turns{end}
+

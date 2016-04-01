@@ -1,0 +1,854 @@
+...{end}
+
+Hmmm ...{end}
+
+A little longer.{end}
+
+...{06}{07}
+Grr--!
+I can't stand it!{end}
+
+Just ...
+A little longer ...{end}
+
+O, oh!{end}
+
+Lord Vargas, congratulations!
+You're the father of a baby girl!{end}
+
+O, oh!
+Eliza!{end}
+
+Oh!
+Such a charming
+lass she is!{06}{07}
+She'll grow up to be
+beautiful, just like Eliza! I'm
+the world's luckiest man!{end}
+
+My dear,
+might you have some
+cloth to wrap her in?{end}
+
+Of course we've got some!
+We're here in our
+humble, well-stocked home!{end}
+
+Such a happy occasion!{end}
+
+Forgive me, dear.{06}{07}
+Didn't you really
+want a baby boy?{end}
+
+Yes, ... I did.{end}
+
+But I've thought of a
+name for a daughter, too!{end}
+
+My, what name have
+you thought of?{end}
+
+How about Emilia?{end}
+
+Emilia ...{06}{07}
+Emilia is a good
+name for her.{end}
+
+Well, my wee lass,
+your name
+shall be Emilia.{end}
+
+Emilia, do you understand?
+I'm your Papa!{end}
+
+My, I wonder if she
+does understand?
+It looks like she's smiling ...{end}
+
+General Leon, one
+moment please.{end}
+
+Colonel, your service is beyond
+measure. Excellent work!
+Our goal lies within reach.{end}
+
+Hmmm ... I wonder if
+our troubles will
+be over so easily.{end}
+
+Speaking of which,
+where is Langrisser?{end}
+
+It lies on the
+central altar.{end}
+
+Well, let's get
+this over with.{end}
+
+...!{06}{07}
+This won't be
+as simple as you
+make it sound!{end}
+
+We didn't come here
+just to deliver
+Langrisser to you!{end}
+
+What a bother.{end}
+
+General Leon, let's hurry.
+We must get the
+sword before they do.{end}
+
+Indeed.{06}{07}
+According to Egbert,
+two other than myself
+can draw the sword.{06}{07}
+Our strategy must take
+them into consideration.{end}
+
+I see.{06}{07}
+In any case, let's move.
+Time to get Langrisser!{end}
+
+It makes no difference.
+Even if Cherie
+should come here ...{end}
+
+Please wait
+a little longer.{06}{07}
+We can't say at this point
+whether we've truly lost.{end}
+
+I understand.
+Until Cherie comes,
+do the best you can.{end}
+
+Leon, you and I are both
+Descendants of Light?{end}
+
+Yes, Egbert said something
+to that effect. This
+sword proves our heritage.{06}{07}
+The soldier Dieh{38}rte,
+my eastern ancestor, is
+said to have brought it
+here a century ago.{end}
+
+The blade has a unique design.
+I've never seen another like it.{end}
+
+It is what they call a katana.{06}{07}
+As a sword for killing,
+it has no match.{end}
+
+I see.{06}{07}
+All that considered, I
+wonder which of us
+should approach the altar.{end}
+
+Either of you will do.
+Just remember why
+we seek the sword.{end}
+
+By offering Langrisser
+to His Majesty, we shall forge
+a noble, prosperous world.{06}{07}
+The whole continent may
+join in an era of peace.{end}
+
+Princess, please wait!{end}
+
+Hey!
+What's the news
+on Langrisser?{end}
+
+The Imperial Army
+doesn't have it either.{06}{07}
+If you take advantage of
+your mobility, you might
+make it in time.{06}{07}
+I'll support you from here.{06}{07}
+Please, go with all haste
+to the altar, ...
+and return with Langrisser!{end}
+
+Cherie of Kalxath,
+heading out!{end}
+
+The Imperial Army
+doesn't have it either.{06}{07}
+We've still got time.
+Everyone, defend the altar!
+Don't let Langrisser
+fall to the Empire!{end}
+
+Understood!{end}
+
+So, a Dragon Knight
+has come ... {06}{07}
+Hurry, {02}.
+Don't let them take
+the sword!{end}
+
+Understood.{end}
+
+Jessica's here ...
+Looks like we'd
+better hurry.{end}
+
+We're going to win this.
+I've got a wife and a
+new daughter to honour!{06}{07}
+Get ready for a
+major ass-kicking!{end}
+
+Vargas re-joins the entourage!{end}
+
+Lady Jessica!{06}{07}
+I heard that those who are
+not Descendants of Light can't
+draw the Holy Blade.{06}{07}
+If that's so, let's use all our
+power to defeat {02}
+before he gets Langrisser.{06}{07}
+If we do that, then we can
+remove it at our leisure.{end}
+
+No ...{06}{07}
+If my memory is clear,
+that man, Leon, can
+also draw Langrisser.{end}
+
+What? Impossible--!
+He's a Descendant of Light?{end}
+
+If that foreign sword he
+holds is genuine,
+then he's a Descendant.{end}
+
+In that case, we've no
+choice but to take Langrisser
+before either of them.{end}
+
+That's right.{06}{07}
+I'll approach the central
+altar. Everyone, please
+offer me your support.{end}
+
+Yes, my Lady!{end}
+
+Watch out!
+Keith's aerial army
+has arrived!{end}
+
+This isn't a good
+time to hit them.{06}{07}
+Advance slowly until
+that girl, Cherie, appears.{end}
+
+Everyone, lend a hand!{06}{07}
+We'll be in trouble if
+the route to the
+altar isn't secure!{06}{07}
+If the aerial army blocks us,
+Cherie will snatch Langrisser.{end}
+
+...?{06}{07}
+A star and a Pegasus ...?
+It's rusted so much
+it will probably snap.{06}{07}
+Might as well take it,
+but my mission
+has not changed.{end}
+
+Obtained Masayan Sword.{end}
+
+Hmmm ...
+So, this is Langrisser.{end}
+
+You really are
+another Descendant!{06}{07}
+It seems that katana
+of yours is the real thing ...{end}
+
+Egbert of the
+Dark Dragon Sorcerers
+said the same.{06}{07}
+"Only a Descendant of Light
+can draw the sword ..."{06}{07}
+I have inherited this weapon
+as generations have before
+me. I meet, therefore, the
+qualification of Descendant.{end}
+
+You did it, Leon.{06}{07}
+The day of one great
+Imperial continent will dawn
+before our very eyes.{06}{07}
+And this new nation will
+have no need for war.{end}
+
+The day of one great
+Imperial continent will dawn
+before our very eyes.{06}{07}
+And this new nation will
+have no need for war.{end}
+
+So this ...
+This is Langrisser!{end}
+
+I didn't make it ...{end}
+
+This weapon is Langrisser,
+the Legendary Sword!{end}
+
+Damn it ...!
+I can't let Cherie get
+ahead of me ...{end}
+
+Langrisser ...
+Once more, the world
+needs you ...{end}
+
+Shit, I'm too late!
+If that girl draws it ...{end}
+
+So that's it ...
+That's Langrisser ...!{end}
+
+The Holy Blade, Langrisser ...{06}{07}
+With this sword's power,
+I can end the
+troubles of the world.{end}
+
+So, this is Langrisser.{06}{07}
+What could possibly give
+it such awesome power?{06}{07}
+What? I can't
+draw it after all!{end}
+
+So, this is Langrisser.{06}{07}
+Damn, what the hell!
+Can't budge it!{end}
+
+Hmmm ...
+Looks like I can
+try to take it.{06}{07}
+What the ...?
+I can't draw it!{end}
+
+If I use my mystic power,
+I'll surely remove it!{06}{07}
+No ... Why?
+It won't move!{end}
+
+Making it this far is a good
+start. Soon, we can turn around
+and attack the enemy.{end}
+
+A single beautiful flower
+floats on a plank in the waves.
+What will you do with it?{end}
+
+Leave it behind{end}
+
+Try to pick it{end}
+
+Remove the plank{end}
+
+The plank was
+swallowed by the waves.{end}
+
+You left the
+flower behind ...{end}
+
+Inside the flower,
+a flower sprite appears.{06}{07}
+
+The flower sprite beams a smile
+and disappears into the flower.{06}{07}
+
+AT raised by 3 points!{end}
+
+Out of my way!
+I won't let you stand between
+me and the altar!{end}
+
+Impossible--!
+Langrisser taken before
+my very eyes ...{end}
+
+Leave the rest to me!
+{02}'s bunch,
+get the sword!{end}
+
+I won't back down!{end}
+
+Gaahh--!
+Shit!{end}
+
+You're a damned
+fool to attack me. You
+only live once!{end}
+
+Damn it all!
+I leave the rest to you!{end}
+
+Hand over Langrisser
+so we can realise our ideal!{end}
+
+Until I have Langrisser,
+I cannot accept defeat!{end}
+
+Ugh!
+What a magnificent
+enemy ...{06}{07}
+{02}!
+Sorry, but you'll have to
+take over from here!{end}
+
+You think you can win
+against General Imelda of
+the Water Dragon Navy?{end}
+
+Why?
+I just don't get it!{end}
+
+I'm unshakable. I'm fearless.
+Right now, let's go!{end}
+
+Damn ...
+This is getting
+out of hand!{end}
+
+General Leon,
+what would you
+have me do?{06}{07}
+Shall I take the offensive
+or maintain our defence?{end}
+
+Stand by for now{end}
+
+Clear a path to the altar{end}
+
+It's your decision{end}
+
+As you wish.{06}{07}
+I'll stand against the
+enemy while you secure
+passage into the castle.{end}
+
+Understood.
+My troops will secure
+a path to the altar.{end}
+
+Leave it up to me.
+I'll keep an eye on things, and
+fill in where I'm needed.{end}
+
+Uughh--!
+To be defeated here
+of all places ...{end}
+
+Laird, you've done well.
+Fall back for now!{end}
+
+General Leon ...
+My apologies.{06}{07}
+Next time you call
+upon me, I'll do better.{end}
+
+Looks like I'm
+the only one left. {06}{07}
+Don't worry,
+I won't give up!{end}
+
+Since Cherie's been
+wounded, all I can do
+is take Langrisser.{06}{07}
+Everyone, please
+help me out!{end}
+
+You're just going to abandon
+your destiny? You were
+chosen to protect Langrisser!{end}
+
+I don't recall accepting
+such a mission!{06}{07}
+With Langrisser,
+we could end the strife.
+We could end the bloodshed.{06}{07}
+That's why we must
+have that sword.{end}
+
+Please step aside!{end}
+
+You won't get any
+farther than this!{end}
+
+P, Princess ...
+I apologise ...{end}
+
+That's enough, Keith.
+Rest for a little while.{end}
+
+All right ...{end}
+
+No ...
+Can I do no more ...? {06}{07}
+Send my apologies to the
+Princess. I can no
+longer aid our alliance.  
+I, I must withdraw ...{end}
+
+Hee hee! Time for lift off!
+Let's go, go, go!{end}
+
+Yes, ma'am!
+Your wish is my command,
+my Princess!{end}
+
+Don't let the Empire
+near Langrisser!{end}
+
+In Lady Jessica's stead,
+I will take Langrisser!{end}
+
+Cherie will not get Langrisser.
+Stop her by any
+means necessary!{end}
+
+I may be a bit behind,
+but I'll catch up fast!{end}
+
+I've no desire to let
+the Empire further its aims.{06}{07}
+{02}, prepare yourself!{end}
+
+I will pursue my
+dream to the end.{06}{07}
+Because of my determination,
+I can triumph over any
+opponent, even you, Cherie.{end}
+
+Think you can
+dodge my sword?{end}
+
+Aaahhh--!
+I'm still hurt
+from fighting earlier ...{end}
+
+Cherie, know when you're
+at your limits. I'll take care
+of everything from here on.{end}
+
+Thanks, Lady Jessica ...{end}
+
+{02}, your strength is
+truly incredible ...
+To have defeated everyone ...{06}{07}
+You won't be so
+lucky next time.{06}{07}
+As soon as our army
+has recovered, we'll crush
+your ambitions!{end}
+
+Lady Jessica's not alone
+as long as I'm still around ...{end}
+
+Princess!
+Please, stop gambling with
+the devil and retreat!{06}{07}
+We shall annihilate
+those Imperials and
+protect Langrisser!{06}{07}
+Don't worry about us.
+We can handle it!{end}
+
+Forgive me ...
+Please, do as you've said ...{end}
+
+Lady Jessica's not alone
+as long as I'm around ... {06}{07}
+But I'm done fighting for now.
+Everyone, I beg of you, ...
+wipe out those Imperials.{end}
+
+Taste our power!{end}
+
+H, how regrettable ...{end}
+
+I won't lose to
+any Imperial Army!{end}
+
+Wh, what strength ...{end}
+
+Our skill with magic
+should not be taken lightly ...{end}
+
+I only made
+it this far ...{end}
+
+The sword shall
+not be taken!{06}{07}
+Whoever passes here
+seals his own death!{end}
+
+Gaahh--!{end}
+
+Its too early
+for this ...{end}
+
+Feel the power of the
+Kalxath Aerial Knights!{end}
+
+D, damn you!{end}
+
+Damn you,
+Imperial scum bags!{end}
+
+You all cannot ...
+have ... Langrisser ...{end}
+
+Grrr ...
+Lady Jessica and the Princess
+have both been defeated ... {06}{07}
+For those mistakes,
+{02} and Leon, I've no
+choice but to kill you.{end}
+
+At least they spared us
+the sentimental twaddle.
+Well, on to the next bunch.{end}
+
+Bastard! You're
+really crossing the line!{end}
+
+You Imperials are impressive,
+making it through to us.{end}
+
+Please stop, Cherie!{06}{07}
+You're only hurting yourself
+by fighting with that wound.
+You should retreat for now.{end}
+
+We've brushed aside our foes.
+There won't be
+any further hindrance.{end}
+
+Now, we can approach
+the altar uninterrupted.{end}
+
+So this ...
+So this is Langrisser!{end}
+
+Aye. From here on,
+the Empire has our
+hearts and blades.{end}
+
+Indeed.
+For a peaceful world,
+we offer our best.{end}
+
+That's right!{end}
+
+If only Eliza and
+my daughter developed
+boobs like yours!{06}{07}
+Gah ha ha!
+Stop acting like pansies
+and get a move on!{end}
+
+If you think about it,
+we have the long-term
+advantage ...{end}
+
+Even so, we'd
+better take our next
+steps quickly.{06}{07}
+Bring on the next fight!{end}
+
+Vargas re-joins the entourage!{end}
+
+All right, back to
+the Imperial Capital!{end}
+
+All right, time to 
+head back to headquarters!{end}
+
+I can still do it!{06}{07}
+Just because Langrisser
+has been taken doesn't mean
+I'll be defeated!{end}
+
+Gah hah hah!
+I've come to save the day!{end}
+
+General Vargas!{end}
+
+Hmmm ...
+You're in a good
+mood, Vargas.{06}{07}
+Is it really okay to leave
+your wife alone for this?{end}
+
+Is it all right to leave
+Miss Eliza unattended?{end}
+
+Sure! Gah hah!
+She's already given birth.
+It was a girl.{06}{07}
+My cute daughter is
+round as a ball, just like me!
+Gah hah hah!{end}
+
+Geh heh heh.
+It went as expected ...{end}
+
+I, I see.
+Th, that's wonderful ...{end}
+
+Good point.{06}{07}
+It's a pity you've all
+been outmoded. You see, for
+a grand, unified continent,
+the Empire's unnecessary.{06}{07}
+This sword and myself
+will be sufficient.{06}{07}
+What need is there
+for the Kaiser ... when I
+can reign over El Sallia?{end}
+
+Stop playing around.
+{02}!? Hurry up and
+hand over the sword!{end}
+
+Yes, what unlimited power ...
+My reign over this continent
+would be quite assured.{end}
+
+No ...
+You'd betray the Empire?
+{02}!{end}
+
+Betray?{06}{07}
+You're not thinking clearly.
+Someone must bring order
+to this continent. Why not me?{06}{07}
+I have Langrisser.{06}{07}
+Bringing order ...
+Ending strife ...
+I can do it all.{end}
+
+{02}!
+Stop talking nonsense!{06}{07}
+Then you'd be in direct
+competition with our Kaiser!{end}
+
+It, unfortunately,
+may come to that.{end}
+
+You bastard.
+You think you can just
+back-stab us all?{end}
+
+Well, how about it?
+Won't you join me?{06}{07}
+Without the Empire weighing
+us down, we can
+truly work for peace.{end}
+
+No way.{06}{07}
+You've stolen that dream
+from His Majesty, the Kaiser.{06}{07}
+It's his vision, and only
+he can realise it!{end}
+
+Hein, will you
+come with me?{end}
+
+S, sure ...{end}
+
+This sounds interesting.
+I'll lend my sword, too.{end}
+
+Then it's decided ...{06}{07}
+We are now at odds
+with the Imperial Army.{06}{07}
+I can bring peace far more
+quickly than any Empire.{end}
+
+You damned kid ...!
+You'll pay for this in blood!{end}
+
+We also refuse to
+collaborate with you!{end}
+
+Soon, a new world
+will be born.{06}{07}
+And those who stand with
+us shall become its Lords!{end}
+
+With Langrisser in
+the Kaiser's hands, no enemy
+will stand against him.{06}{07}
+The Legendary Sword
+is said to grant its wielder
+infinite power ... {06}{07}
+Can I really give
+up such an opportunity?{end}
+
+Do you give the
+sword to the Empire?{end}
+
+Good point.{06}{07}
+It's fortunate that my
+goals align so closely with
+those of the Empire.{06}{07}
+I will take Langrisser for the
+Kaiser, and together
+we will bring peace and order!{end}
+
+Damn!
+We are too late!{end}
+
+How can this be?
+I was only a
+few steps short ...{end}
+
+Obtained Langrisser.{end}
+
+Our dream is coming
+closer and closer
+to its realisation.{06}{07}
+Warfare will soon
+trouble this
+world no longer ...{end}
+
+...?{06}{07}
+What's with this sword?
+It's a piece of junk!{06}{07}
+Well, there is no point in
+just leaving it here ...
+I may as well take it along.{end}
+
+Obtained the Masayan Sword.{end}
+
+You've done well,
+{02}!{06}{07}
+With Langrisser in hand,
+all the continent will
+soon know Imperial order.{end}
+
+{02}, you're the
+most scheming piece of shit
+I've ever come across.{06}{07}
+You're not worthy of
+the Empire's boot heels.{06}{07}
+You killed Zorum,
+and now this ...{06}{07}
+When you die, it shall
+be with my knife in
+your throat. Wait for it, boy.{end}
+

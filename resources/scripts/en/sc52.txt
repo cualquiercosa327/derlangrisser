@@ -1,0 +1,664 @@
+Great and gloried Chaos,
+reveal your splendour!{end}
+
+Don't wear yourself out, girl ...
+This will be quite taxing.{end}
+
+Hey, Egbert.{06}{07}
+His Majesty ordered our
+presence here, so why is 
+B{3a}ser unsealing the blade?{end}
+
+This too is one
+of our orders.{06}{07}
+We are to leave things
+to him and observe.{end}
+
+Hmmm ...{end}
+
+I'm still shocked to
+find out about L{37}na.{06}{07}
+How could Liana
+have had a twin?{end}
+
+It is simply the destiny
+of the one born to
+be the Maiden of Light.{06}{07}
+There must be balance, and
+hence, a Maiden of Darkness.{06}{07}
+B{3a}ser abducted L{37}na
+while she was very young
+for his own ends ...{end}
+
+So he was planning
+this for quite a long time.{end}
+
+The shrine maidens
+will dissolve the seal, but
+that is not enough.{06}{07}
+The sword requires energy,
+and L{37}na must offer hers.{end}
+
+Ultimate darkness
+lies within this blade.{06}{07}
+Embrace your darkest
+desires, Liana ..., and
+unleash Alhazard's might!{06}{07}
+{font4}Klatu Verata
+Niktue Geweald ...
+Ai Alhazard, Ai Alhazard!{end}
+
+Is, is the seal broken?{end}
+
+Heh heh heh ...,
+What terrific energy ...!{end}
+
+Aaahhh ... Such power! 
+Now I am truly the
+Prince of Darkness ...{06}{07}
+Empire, you've served
+or, rather, outlived
+your purpose.{end}
+
+You'll find you're
+wrong about that.{end}
+
+No, with Alhazard in my hand,
+you're all highly unnecessary.{06}{07}
+Not that it
+wasn't fun to toy
+with you, but ...{06}{07}
+Arise, my servants!{end}
+
+Y, you called, Master?{end}
+
+Ah, Sonya.
+Alhazard is now mine.{06}{07}
+Please, slaughter
+these Imperials while I
+recover from the ritual.{06}{07}
+Use this rod if you like.{end}
+
+Y, yes ...
+Thank you, Master!{end}
+
+Sonya obtained the Dark Rod.{end}
+
+No ...
+Sonya ...? Why?{end}
+
+Listen, everyone.{06}{07}
+Either we take Alhazard,
+or B{3a}ser will fill
+this world with misery.{end}
+
+That's right.{06}{07}
+Under his control,
+everyone will die
+or become demonic.{end}
+
+Everyone, our mission
+is to retake Alhazard!{end}
+
+You'll pay for your
+deception, B{3a}ser!{end}
+
+You're damned
+right he will!{06}{07}
+Against the Empire,
+he's as good as dead ...
+just like anyone who would
+oppose the Kaiser!{end}
+
+It is good of you
+to gather here for us.{06}{07}
+It will make the fight
+that much more interesting!{end}
+
+Maybe the "Prince of Darkness"
+can entertain us longer
+than the Descendants were able!{end}
+
+{font3}Gwa hah hah ...
+{font0}Against this sword and army,
+you're nothing but a nuisance.{06}{07}
+You'll all be butchered
+and humanity will be enslaved.
+Nothing can be done.{06}{07}
+My servants ...
+Begin the slaughter, and do not
+leave a single soul standing!{end}
+
+{font3}Gyo hoh hoh!{end}
+
+{font3}Aaahh--!{end}
+
+...{end}
+
+Sonya ...{end}
+
+That's right!
+Sonya is Rohga's
+little sister.{end}
+
+It's painful when
+siblings are at
+each others' throats.{06}{07}
+Can we attempt
+persuasion instead?{end}
+
+There's no need for
+siblings to fight each other ...
+Won't you talk to her?{end}
+
+I'm sorry for the trouble.
+I'm going to her now.
+Watch my back!{end}
+
+All right, everyone!{06}{07}
+Rohga's going to talk
+Sonya into joining us!{end}
+
+It can't be helped ...
+I'll give you a hand.{end}
+
+B{3a}ser, prepare yourself.
+You're all that's left!{end}
+
+Don't be fooled, imbecile.
+I still have Alhazard, and it
+will rend your worthless hide!{end}
+
+B{3a}ser, you can't escape!
+Get ready to die!{end}
+
+You humans are
+tenacious, if nothing else.{06}{07}
+I knew I'd have to massacre
+you all someday. Hah hah.
+All the better with Alhazard ...{06}{07}
+Tell me, {02},
+do you think you'll hold
+us for even a moment?{end}
+
+Of course.
+I still wield Langrisser.{06}{07}
+We'll decide this world's
+destiny, here and now!{end}
+
+...{end}
+
+Liana ...
+Hold out a little longer,
+I'll save you!{end}
+
+...{end}
+
+My apologies, L{37}na.
+Please, hold on.{end}
+
+All right, B{3a}ser.
+Hand over Alhazard!{end}
+
+Keep on babbling,
+you mortal shit!{end}
+
+It's just like a demon
+to say such things!{end}
+
+Why did you
+involve yourself now?{06}{07}
+Without your interference,
+I could have ended
+this war far sooner!{end}
+
+Alhazard is dangerous!
+Both demons and
+humans can wield it.{06}{07}
+Don't underestimate
+that sword!{end}
+
+Wh, what happened ...
+How could I let
+Alhazard be taken ...{end}
+
+Gaahh--!
+What power ...{end}
+
+Don't get in my way!{end}
+
+Why are you
+controlling Sonya!?{end}
+
+Sonya joined me
+of her own free will.{06}{07}
+Do you hope to frighten
+me by swinging your
+sword and yelling, little boy?{06}{07}
+How fortunate you'll
+be dead soon ...{end}
+
+Heh heh.
+Go fuck yourself.{06}{07}
+You think Sonya would join
+you on her own?{06}{07}
+Alhazard won't stop
+me from spilling your
+brains in the dirt.{end}
+
+Sonya, I don't want
+to fight you, but ...{end}
+
+So it seems brother Rohga
+is just like everyone else ...{06}{07}
+I am ordered to crush
+all humans, big brother.
+I suggest you flee!{06}{07}
+No one will trust a half-breed
+like me except Lord B{3a}ser!{end}
+
+S, Sonya ...{end}
+
+Why wasn't I prepared ...
+At this of all times ...!{end}
+
+Ugh, even seeing
+you makes me sick!{end}
+
+Yes, we did it!{end}
+
+Ah, not bad ...{end}
+
+This is your ability?
+Pathetic! Hah hah!{end}
+
+B{3a}ser, can your power
+stand against a
+master magician?{06}{07}
+We'll soon see.{end}
+
+Is that a challenge, filth?
+Hah hah hah!{06}{07}
+How interesting.
+Take this!{end}
+
+Why!? I ...{end}
+
+Stay your ground until the
+Descendants move in, and they
+shall inadvertently aid us.{06}{07}
+They can engage the Imperials
+and let us slaughter
+all our enemies at once!{06}{07}
+{font3}Gwa ha ha!{end}
+
+At last, my plan bears fruit.
+Alhazard is unsealed
+and lies in my hand.{06}{07}
+You humans, especially the
+Descendants of Light,
+have caused me much trouble.{06}{07}
+But now, that's impossible.
+I'm sending you all to hell.{end}
+
+Aaahhh ...
+The ritual was
+very demanding ...{06}{07}
+I wish it were
+otherwise, but we must
+withdraw for now.{06}{07}
+Humans, savour a few
+more breaths ...{06}{07}
+When I fully recover,
+I'll wipe you from this world!{end}
+
+Wait, B{3a}ser!{end}
+
+What in the hell ...?
+That ceremony really
+took it out of him.{end}
+
+B{3a}ser must not control
+the revived Alhazard.
+If we don't do something ...{end}
+
+Damn, we're in for it now!
+Should we call
+back the troops ...?{end}
+
+We don't stand a
+chance as we are ...{06}{07}
+Let's fall back and think
+of a better strategy.{end}
+
+Ugh ... 
+Am I ... Is this it--?{end}
+
+The Dark Princess
+is acting pretty strange.{end}
+
+L{37}na ...!
+Sister!{end}
+
+Liana!
+Why ... are we here?{end}
+
+Are you okay, L{37}na?
+Get a hold of yourself!{end}
+
+Are you okay, L{37}na?{end}
+
+Leon!
+Why are you ... here?{06}{07}
+Aahh ..., I see.
+I've been under B{3a}ser's spell.
+The power of darkness ...{06}{07}
+Ugh!{end}
+
+Sister L{37}na,
+are you okay?{end}
+
+Oh, oh yes,
+where's B{3a}ser ...?{end}
+
+We should stop to
+think about this lest we make
+any rash mistakes ...{end}
+
+Will you pursue B{3a}ser?{end}
+
+How else can we
+seize Alhazard ...?{06}{07}
+We should hunt him
+down immediately!{end}
+
+This is amazing!{06}{07}
+Are you saying
+Langrisser can be
+unsealed as well?{end}
+
+Liana ...
+Lend me your power.{06}{07}
+Break Langrisser's seal and
+help us capture Alhazard!{end}
+
+B, but ...{end}
+
+...{06}{07}
+Aren't we taking back Alhazard
+because it's too dangerous?
+Won't Langrisser be the same?{end}
+
+Shh, Sister!{end}
+
+If you aid us,
+I promise both of you will
+be well-protected.{end}
+
+I understand, {02}.
+Let's work together.{end}
+
+Thank you.{06}{07}
+Now all that remains is
+to seek out B{3a}ser and
+seal his darkness forever!{end}
+
+Aren't we going
+after Jessica too?{end}
+
+Yes, B{3a}ser will be
+recovering for a while yet.{06}{07}
+We should strike the
+Army of Light while
+they're off balance.{end}
+
+That sounds like
+the logical choice.
+Let's hunt them down.{end}
+
+There's not much time.
+We should depart.{end}
+
+Yes, I know.
+Everyone, seek out and
+destroy Jessica's troops!{end}
+
+Stop it, Sonya.
+What have you become,
+darkness's lackey?{end}
+
+Brother ...!{end}
+
+Don't you understand?{06}{07}
+B{3a}ser's world will
+be a living hell!{end}
+
+But I ...{end}
+
+Sonya, please focus.{06}{07}
+That maggot fears
+our new world.
+Do not listen to him.{end}
+
+Y, yes ...!
+Master B{3a}ser ...{end}
+
+Yes, do not be confused.
+You know what humans are.{end}
+
+Damn you, B{3a}ser ...{end}
+
+Stop trying to control me!{06}{07}
+You're just like other humans!
+You'll never to listen to me
+and you'll never understand!{end}
+
+Brother ...
+Brother, why don't
+you join us?{end}
+
+I can't do that Sonya ...{06}{07}
+I don't give a good damn
+about any cause, but I won't
+let that asshole take over.{end}
+
+Why ...
+Why can't I best humans...?
+The next time, surely ...{end}
+
+{font3}The humans took my
+land as their own!
+I'll have my revenge!{end}
+
+{font3}This grudge
+I'll never forget!{end}
+
+{font3}Tasty morsels, come!{end}
+
+{font3}Humans! Hope I
+don't kill you
+in your sleep!{06}{07}
+{font3}I'll be back!{end}
+
+{font3}Attack the humans!{end}
+
+{font3}You cursed humans!{end}
+
+{font3}I, I don't ...{end}
+
+{font3}Ughh ...{end}
+
+B{3a}ser, your
+treachery ends here!{end}
+
+Hmmm ... Hah hah.
+Do your worst, old hag.{end}
+
+You won't have Alhazard!{end}
+
+So you've arrived, Descendants!
+I won't yield to
+your so-called justice!{end}
+
+Argh ...
+Both the Imperials and
+monsters are against us.{06}{07}
+This might be too much ...
+Some of us are still injured.{end}
+
+The Empire is our
+sworn enemy, but ...{06}{07}
+I'd sooner help
+humans than darkness!{end}
+
+With only a few more men ...
+I could have ...{06}{07}
+There's no helping it.
+I must retreat.{end}
+
+All right you sea swine,
+show your captain
+what you're made of!{end}
+
+Damn this useless blade!
+Let's escape!{end}
+
+Fuck this ...!
+I can't move!{end}
+
+Ah ha!{06}{07}
+With B{3a}ser's injury,
+her mind is free again.{end}
+
+Be patient.{06}{07}
+L{37}na's exhausted
+from the unsealing ritual.{06}{07}
+We must see her
+cared for at the castle.{end}
+
+Hmph. It appears
+neither of our enemies
+were disabled ...{06}{07}
+I wonder whom we
+should finish first?{06}{07}
+{02}, I entrust
+this decision to you.{end}
+
+We'll finish off B{3a}ser
+after we revive Langrisser.{end}
+
+What!?
+This energy ...{end}
+
+Hmmm ...
+so the Descendants of Light
+have decided to show?{end}
+
+B{3a}ser!
+Al, Alhazard ... is it?{end}
+
+Yes, you're late ...
+Alhazard was reborn
+at this altar.{06}{07}
+You'll all be gutter lining
+when I'm through with you!{end}
+
+Hmmm ...
+B{3a}ser has Alhazard,
+{02} has Langrisser ...{06}{07}
+Do we stand
+a chance here?{end}
+
+The stakes are too high.
+We have to fight!{end}
+
+Yes, naturally.{06}{07}
+I'll watch for an
+opportunity to take
+one of the swords.{06}{07}
+We must defend humanity!{end}
+
+For a world worth living in,
+we must defeat both the Empire
+and the forces of darkness!{end}
+
+So they took this long
+before they could mobilise ...{06}{07}
+Heh, my old Master must
+believe she can
+simply wait things out ...{06}{07}
+Well, that suits us just fine.{06}{07}
+I've decided to take Alhazard.
+We'll see how this
+figures into her little ploy.{end}
+
+Hmmm, a wise decision.{06}{07}
+But we need to
+revive Langrisser to
+secure our victory.{end}
+
+Yes, we must
+unlock every ounce of
+this blade's power.{06}{07}
+How unfortunate ...
+We have everything necessary,
+save for the Holy Rod.{end}
+
+Laird has been searching for it.
+We should consult him.{end}
+
+Sonya! What will it
+take to end your
+hatred of humans?{06}{07}
+Hate only breeds more hate.
+You must understand that!{end}
+
+You're right, brother ...
+After you left home, the humans
+treated me like dirt!{06}{07}
+Men publicly beat me ...
+The children
+threw stones at me!{06}{07}
+I had no friends,
+no one to love,
+and no brother ...{06}{07}
+Now I've embraced my
+demon blood and Master B{3a}ser.{06}{07}
+Humans hated me and
+now I'll return their hate!{end}
+
+That's right, Sonya.
+Humans are selfish beings who
+need excuses to be kind.{end}
+
+You bastard ...!
+I'll shut your worthless mouth!{end}
+
+Everyone just go away!
+S, stop messing with my head!{end}
+
+S, Sonya!{end}
+
+The fine chain above the
+magic formation has fallen.{06}{07}
+
+Will you pick it up?{end}
+
+Obtained Gleipnir.{06}{07}
+
+Has something vanished
+from the magic formation?{end}
+
+A metal plate has dropped from
+above the magic formation.{06}{07}
+
+Will you take it?{end}
+
+A magnificent
+shield appeared!{end}
+
+Obtained Odin's Buckler.{06}{07}
+
+Another item just vanished
+from the magic formation.{end}
+

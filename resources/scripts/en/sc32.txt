@@ -1,0 +1,365 @@
+I wonder how
+everyone is doing ...?{end}
+
+{02} ...{end}
+
+What's going on!?
+Who sounded the alarm?{end}
+
+M, monsters!{end}
+
+Arrggh!{end}
+
+Damn it!{06}{07}
+
+How did all these
+monsters get in here!?{end}
+
+You won't get any further!{06}{07}
+
+Ugh ...!{06}{07}
+
+Aarrrgghhh!{end}
+
+{font3}Are you Liana?{end}
+
+{font3}Where do you think
+you're going?{06}{07}
+{font3}You think you
+can escape us?{end}
+
+You needn't overexert
+your pretty self.
+We must to move quickly.{end}
+
+No! Let go!{06}{07}
+Help me, {02}!{end}
+
+{font3}Lord B{3a}ser awaits ...{end}
+
+Aaaaahhhh!{end}
+
+Ha ha ha!
+Well, that takes care of her.
+I will go on ahead.{end}
+
+{font3}Yesss ...
+Yet another
+successful mission.{end}
+
+{font3}Let's head to the harbour
+to stop her little
+friends in their tracks! {end}
+
+{font3}Let's hurry!{end}
+
+{font3}You mean the ship
+isn't yet readied ...?{end}
+
+{font3}Yes ...
+The cargo has been
+difficult to load.{06}{07}
+{font3}I'm afraid that
+our departure
+has been delayed.{end}
+
+{font3}We must move quickly!{end}
+
+{font3}Right away,
+your Lordship!{end}
+
+Ahh, we made it at last.{06}{07}
+I hope we can find a boat.{end}
+
+Hmmm, look there!{end}
+
+{font3}We have a problem!{06}{07}
+{font3}The Descendants of Light
+are now moving in!{end}
+
+{font3}What!?
+Hasten the operation!{end}
+
+{font3}Right away.{end}
+
+That looks like one of
+the Demon Tribe's boats.{06}{07}
+What great timing.
+Let's take it!{end}
+
+Sounds like a plan
+to me, Hein.{end}
+
+All right, everyone!{06}{07}
+Before they depart,
+let's commandeer the ship!{end}
+
+{font3}Esto and Osto
+haven't returned yet,
+have they?{end}
+
+{font3}No, Esto and Osto
+have special
+orders from Lord B{3a}ser.{06}{07}
+They search out the
+way to revive Alhazard.{end}
+
+{font3}Oh, really ...{end}
+
+{font3}Listen up, everyone!{06}{07}
+{font3}There's no need to wait.
+We can easily obliterate
+the Descendants of Light
+with our own power!{end}
+
+{font3}Oooooh!
+That sounds exciting.{end}
+
+They seem to be seeking
+another component
+to unseal Alhazard.{06}{07}
+Jessica said, "To revive
+Alhazard, the Dark Rod and
+a catalyst are needed."{end}
+
+Are they are looking
+for the catalyst to 
+release Alhazard?{06}{07}
+Oh, that's right, Jessica
+said to revive Alhazard,
+both the Dark Rod and a
+catalyst are needed.{end}
+
+Meaning that Alhazard
+hasn't been released yet.{end}
+
+That means Alhazard
+hasn't been released yet.{end}
+
+It would appear so.{06}{07}
+However, if they're 
+actively trying to unseal it,
+then our time is limited.{06}{07}
+We should
+hurry to Velzeria.{end}
+
+So ... let us go
+to pick a fight!{06}{07}
+If we don't take that
+ship to Velzeria,
+we might not make it.{end}
+
+{font3}How are the departure
+preparations going?{end}
+
+{font3}Not quite finished ...{06}{07}
+{font3}Please wait 
+a little longer.{end}
+
+{font3}Hurry the hell up!{end}
+
+{font3}You're still
+not finished!?{end}
+
+{font3}The loading will be
+complete shortly.{06}{07}
+{font3}Please have patience.{end}
+
+{font3}Hey! The ship
+still isn't ready!{end}
+
+{font3}Sorry to keep
+you waiting.{06}{07}
+{font3}The departure
+preparations are
+now complete.{end}
+
+{font3}Sorry to keep
+you waiting.{06}{07}
+{font3}We can go any time!{end}
+
+{font3}All right!
+Raise the anchor!
+Let's get out of here.{end}
+
+{font3}Are the ships
+ready to depart?{end}
+
+{font3}Preparations complete.{end}
+
+{font3}Preparations complete.{end}
+
+{font3}All right!{06}{07}
+{font3}Let's head for Velzeria!{end}
+
+Damn it!{06}{07}
+We didn't make
+it in time ...{end}
+
+What should we do?{06}{07}
+We can't go by foot
+to Velzeria, it would
+take too long ...{end}
+
+Hmmm, now we
+have a problem ... {06}{07}
+We could go by foot to
+Velzeria, but it would take
+way too much time.{end}
+
+We're in trouble now ... {06}{07}
+It's not that we can't
+go to Velzeria by foot, but
+it would take forever.{end}
+
+It won't help just
+thinking about it.{06}{07}
+We might as well start
+down the road.
+We'll probably find
+another boat on the way.{end}
+
+That's an idea ...
+All right, let's go to
+Velzeria by road!{end}
+
+No point thinking
+about it any further.{06}{07}
+Let's get out of here.
+To Velzeria we go!{end}
+
+There is an old
+wooden box lying here.{06}{07}
+
+Will you open it?{end}
+
+Obtained Gleipnir.{end}
+
+Damn, this is it--!{end}
+
+Owww!{end}
+
+Argh ...
+I got trashed.{end}
+
+Damn!{end}
+
+Ohh, man!
+I'm way out of
+my league!{end}
+
+Oh, my back ...{end}
+
+Gaaahh--!{end}
+
+{font3}We're not your
+ordinary demons!{end}
+
+{font3}Hya ha ha, ...
+impressive!{06}{07}
+{font3}Redheaded mortal, 
+you'll remember this!{end}
+
+{font3}For Lord B{3a}ser!{end}
+
+{font3}Im, impossible ...{end}
+
+{font3}You're just a
+mere human!{end}
+
+{font3}Hee hee hee ...
+Ready or not,
+here I come!{end}
+
+{font3}Y, you ...
+R, rotten humans!{end}
+
+{font3}We will stain
+the sea red!{end}
+
+{font3}This cannot
+be happening ...!{end}
+
+{font3}H, how are mere
+humans able to--?{end}
+
+{font3}Ugghhh!{end}
+
+{font3}Gahh--arghh!{end}
+
+{font3}Ohhh!{end}
+
+{font3}Ugghhh--!{end}
+
+{font3}Oohhhh ...{end}
+
+{font3}Aaaaahhh--!{end}
+
+{font3}I suppose we may
+have underestimated
+your strength.{06}{07}
+{font3}How could a demon
+be challenged by
+a mere human? I
+still don't believe it ...{end}
+
+Ah, it's over now.{end}
+
+We've taken the ship!{06}{07}
+Well then, on
+to Velzeria!{end}
+
+Yeah, let's get going!{06}{07}
+If these monsters were this
+strong, imagine them after
+Alhazard's revival.{end}
+
+Well, let's head out!
+To Velzeria!{end}
+
+{font3}These mortals 
+look skilled.{end}
+
+{font3}Esto, Osto!{end}
+
+{font3}A pity we were late.
+But we have
+taken the catalyst.{06}{07}
+{font3}Egbert has surely
+notified Lord B{3a}ser
+of this development.{end}
+
+{font3}And are we
+ready to depart?{end}
+
+{font3}I'm sorry.
+We're not quite done.{end}
+
+{font3}Hurry, then.{end}
+
+{font3}Yes ...{end}
+
+{font3}Ah, the mighty 
+Descendants of Light.{06}{07}
+{font3}Here you shall all die.
+{font3}You won't get in
+Lord B{3a}ser's way!{end}
+
+Argh, such
+powerful monsters!
+We're up against it.{end}
+
+Those are parasites!
+They feed on human minds,
+so be careful.{06}{07}
+Don't forget your strategic
+fundamentals and
+you'll come out all right. {end}
+
+{font3}Ahhh! How could
+Esto and Osto
+have been beaten ...{end}
+
+{font3}You're still
+not finished!?{end}
+

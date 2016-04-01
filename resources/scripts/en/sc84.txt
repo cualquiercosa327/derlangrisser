@@ -1,0 +1,324 @@
+{skip 37}{font5}I{font1}nfantry vs {font5}S{font1}pearmen
+{skip 14}{font0}Infantry are well-rounded units
+{skip 14}with orthodox attributes. Strong
+{skip 18}to spearmen, weak to cavalry.{end}
+
+{skip 38}{font5}S{font1}pearmen vs {font5}C{font1}avalry
+{skip 12}{font0}Spearmen have high defence and
+{skip 26}are potent against cavalry.
+{skip 4}Strong to cavalry, weak to infantry.{end}
+
+{skip 41}{font5}C{font1}avalry vs {font5}I{font1}nfantry
+{skip 17}{font0}Cavalry have low defence, but
+{skip 10}high mobility and offence. Strong
+{skip 17}to infantry, weak to spearmen.{end}
+
+{skip 47}{font5}B{font1}owmen vs {font5}F{font1}liers
+{skip 13}{font0}Bowmen can attack units from a
+{skip 10}distance, but have weak defence.
+{skip 55}Strong to fliers.{end}
+
+{skip 47}{font5}F{font1}liers vs {font5}I{font1}nfantry
+{skip 5}{font0}Due to their airborne nature, fliers
+{skip 1}can deliver damaging aerial attacks.
+{skip 52}Weak to bowmen.{end}
+
+{skip 39}{font5}S{font1}ailors vs {font5}S{font1}pearmen
+{skip 12}{font0}Sailors are special soldiers with
+{skip 4}high mobility and defence in water.
+{skip 4}Their affinity is similar to infantry.{end}
+
+{skip 50}{font5}M{font1}onk vs {font5}U{font1}ndead
+{skip 12}{font0}Monks are strong against slimes,
+{skip 16}ghosts, and other undead units.
+{skip 4}Their affinity is similar to infantry.{end}
+
+Ha ha ha ...
+So this is the legendary blade
+of darkness, Alhazard.{end}
+
+Legends say this sword is
+the key to infinite power ...{06}{07}
+Sword, lend me your power!
+The power to conquer this
+shattered continent ...
+No ..., to conquer the world!{end}
+
+{skip 16}Over Yeless's sky, far from the
+{skip 6}cursed land of Velzeria, a red star
+{skip 4}of ill omen has risen. It heralds the
+{skip 23}arrival of an ambitious man.{end}
+
+{skip 11}He shall crown himself as Kaiser
+{skip 15}of a new Empire. Together with
+{skip 11}his knights, he shall conquer the
+{skip 8}lands with his unstoppable power.{end}
+
+{skip 24}With the resurrection of the
+{skip 10}Dark Blade, an ancient evil shall
+{skip 10}awaken in our land once more ...{end}
+
+{skip 25}Far, far beneath the barren
+{skip 22}lands of the east, a powerful
+{skip 35}demon rests in slumber.
+{skip 44}Rests ... For now ...{end}
+
+{skip 7}When the Kaiser brandishes the
+{skip 6}Demons' Might above his crown,
+{skip 12}El Sallia will be plunged into
+{skip 14}ancient darkness once more.{end}
+
+{end}
+
+{skip 5}The armies of the Kaiser will leave{end}
+
+{skip 4}a wake of devastation as they blaze{end}
+
+{skip 5}across the continent--bodies piling{end}
+
+{skip 12}like victims of a vengeful god ...{end}
+
+{end}
+
+{end}
+
+{skip 15}Little will the Kaiser realise ...{end}
+
+{skip 8}The ravages of his war lend power{end}
+
+{skip 14}to an ancient, dormant darkness.{end}
+
+{skip 16}One who awaits a day of chaos.{end}
+
+{end}
+
+{skip 17}The ancient Glory of Darkness,{end}
+
+{skip 6}"Alhazard," will rain terror on the{end}
+
+{skip 12}people and bleed the land dry ...{end}
+
+{skip 8}The blade's true nature seeks only{end}
+
+{skip 28}to lay waste to the land ...{end}
+
+{end}
+
+{skip 12}In the grip of evil, humanity will{end}
+
+{skip 7}be choked into ancient darkness ...{end}
+
+{skip 4}The end can only be prevented with{end}
+
+{skip 4}the Might of Elthlead, "Langrisser."{end}
+
+{skip 21}He whom light blesses wields{end}
+
+{skip 8}the hopes and dreams of humanity.{end}
+
+{end}
+
+{skip 24}{font5}O{font1}riginal {font5}J{font1}apanese {font5}C{font1}redits{end}
+
+{end}
+
+{skip 26}{font4}--{font0} {font4}E{font0}xecutive {font4}P{font0}roducer {font4}--{end}
+
+{skip 55}Mitsuo Shibutani{end}
+
+{end}
+
+{end}
+
+{skip 30}{font4}--{font0} {font4}M{font0}ain {font4}P{font0}rogrammer {font4}--{end}
+
+{skip 56}Kazuhisa Mitani{end}
+
+{end}
+
+{skip 34}{font4}--{font0} {font4}S{font0}ub {font4}P{font0}rogrammer {font4}--{end}
+
+{skip 53}Kouichi Fujiwara{end}
+
+{end}
+
+{skip 18}{font4}--{font0} {font4}P{font0}lanning and {font4}S{font0}cenario {font4}--{end}
+
+{skip 64}Fuuma Yatou{end}
+
+{end}
+
+{skip 32}{font4}--{font0} {font4}P{font0}lanning {font4}S{font0}upport {font4}--{end}
+
+{skip 56}Masayuki Suzuki{end}
+
+{skip 31}{font4}--{font0} {font4}S{font0}cenario {font4}S{font0}upport {font4}--{end}
+
+{skip 65}Hiroaki Hori{end}
+
+{skip 63}Akira Hazuki{end}
+
+{end}
+
+{skip 38}{font4}--{font0} {font4}M{font0}ain {font4}G{font0}raphics {font4}--{end}
+
+{skip 54}Masayuki Suzuki{end}
+
+{end}
+
+{skip 55}{font4}--{font0} {font4}G{font0}raphics {font4}--{end}
+
+{skip 61}Shuuichi Kono{end}
+
+{skip 54}Takeyoshi Akane{end}
+
+{skip 61}Noriko Tasaki{end}
+
+{skip 56}Takahide Saitou{end}
+
+{end}
+
+{skip 35}{font4}--{font0} {font4}S{font0}ound {font4}P{font0}roducer {font4}--{end}
+
+{skip 58}Isao Mizoguchi{end}
+
+{end}
+
+{skip 15}{font4}--{font0} {font4}C{font0}omposition and {font4}C{font0}oding {font4}--{end}
+
+{skip 52}Noriyuki Iwadare{end}
+
+{end}
+
+{skip 35}{font4}--{font0} {font4}S{font0}ound {font4}O{font0}perator {font4}--{end}
+
+{skip 55}Kouji Yoshimura{end}
+
+{skip 60}Kouen Shibuya{end}
+
+{skip 57}Sanae Kasahara{end}
+
+{end}
+
+{end}
+
+{skip 28}{font4}--{font0} {font4}S{font0}ound {font4}P{font0}rogrammer {font4}--{end}
+
+{skip 57}Dougen Shibuya{end}
+
+{end}
+
+{skip 31}{font4}--{font0} {font4}C{font0}haracter {font4}D{font0}esign {font4}--{end}
+
+{skip 49}Satoshi Urushihara{end}
+
+{skip 57}{font4}--{font0} {font4}I{font0}ndustry {font4}--{end}
+
+{skip 51}Toshiyuki Komori{end}
+
+{skip 49}Kouichirou Terada{end}
+
+{end}
+
+{skip 33}{font4}--{font0} {font4}P{font0}ublic {font4}R{font0}elations {font4}--{end}
+
+{skip 62}Hiroaki Satou{end}
+
+{end}
+
+{end}
+
+{skip 28}{font4}--{font0} {font4}T{font0}echnical {font4}A{font0}dvisers {font4}--{end}
+
+{skip 50}Toshihiko Matsuda{end}
+
+{skip 50}Nobuya Takayoshi{end}
+
+{end}
+
+{end}
+
+{skip 18}{font4}--{font0} {font4}P{font0}roducer and {font4}D{font0}irector {font4}--{end}
+
+{skip 60}Shinjiro Kouda{end}
+
+{end}
+
+{skip 29}{font4}--{font0} {font4}A{font0}ssistant {font4}D{font0}irector {font4}--{end}
+
+{skip 65}Hiroaki Hori{end}
+
+{end}
+
+{skip 37}{font4}--{font0} {font4}S{font0}pecial {font4}T{font0}hanks {font4}--{end}
+
+{skip 55}Hisaya Yabusaki{end}
+
+{skip 59}Akira Ishizuka{end}
+
+{skip 68}Kou Kubota{end}
+
+{end}
+
+{end}
+
+{skip 22}{font5}E{font1}nglish {font5}T{font1}ranslation {font5}C{font1}redits{end}
+
+{end}
+
+{skip 45}{font4}--{font0} {font4}P{font0}rogramming {font4}--{end}
+
+{skip 85}byuu{end}
+
+{end}
+
+{skip 27}{font4}--{font0} {font4}E{font0}nglish {font4}T{font0}ranslation {font4}--{end}
+
+{skip 52}Derrick Sobodash{end}
+
+{skip 51}Eddie Stemkowski{end}
+
+{skip 22}Hsing "DragonMasterX" Chen{end}
+
+{skip 51}Benjamin Whitting{end}
+
+{skip 40}ElfShadow and Haruka{end}
+
+{end}
+
+{skip 13}{font4}--{font0} {font4}E{font0}diting and {font4}L{font0}ocalization {font4}--{end}
+
+{skip 41}John "MK" Grathwohl{end}
+
+{skip 52}Derrick Sobodash{end}
+
+{skip 57}Tyson Anderson{end}
+
+{skip 57}Eric H. Krieger{end}
+
+{end}
+
+{end}
+
+{skip 12}Copyright 1995 NCS/Masaya{end}
+
+{skip 12}Copyright 2007 Langrisser Team{end}
+
+{end}
+
+{end}
+
+{end}
+
+{end}
+
+{skip 52}{font4}Der Langrisser{end}
+
+{skip 29}{font5}T{font1}he {font5}A{font1}rt of {font5}S{font1}words {font5}W{font1}ar{end}
+
+{end}
+
+{skip 36}Completed in {03} turns{end}
+
+{end}
+

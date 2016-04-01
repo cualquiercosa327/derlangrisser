@@ -1,0 +1,1301 @@
+
+{skip 74}{font4}H{font0}ein
+{skip 20}{font4}T{font0}he {font4}R{font0}eluctant {font4}M{font0}agician{06}{07}
+The young magician Hein
+followed {02} on his
+quest to rid El Sallia of wars.{06}{07}
+The Rayguard Empire and
+B{3a}ser's forces of darkness were
+quelled with the help of Hein's
+superior magical skill.{end}
+
+
+{skip 74}{font4}H{font0}ein
+{skip 28}{font4}W{font0}arlock of {font4}R{font0}ayguard{06}{07}
+Hein followed {02}
+and sided with the Empire.{06}{07}
+Destroying Kalxath's
+Army of Light was
+tough on his emotions.{06}{07}
+However, Hein firmly
+believed in the Kaiser's vision
+of an ideal world.{06}{07}
+Without a doubt, the support
+Hein brought to the field of war
+wrought terror on his enemies.{end}
+
+
+{skip 74}{font4}H{font0}ein
+{skip 34}{font4}H{font0}erald of {font4}D{font0}arkness{06}{07}
+Hein reluctantly followed
+the decision of
+{02} to join B{3a}ser.{06}{07}
+Hein helped demolish
+the Empire and slay the
+Descendants of Light.{end}
+
+
+{skip 74}{font4}H{font0}ein
+{skip 13}{font4}G{font0}rand {font4}W{font0}izard of {font4}E{font0}l {font4}S{font0}allia{06}{07}
+The young sorcerer
+Hein stayed with {02}
+until the very end.{06}{07}
+His choice was self-gratifying,
+having learnt many
+new things along the way.{06}{07}
+With his help, {02}
+crushed the Empire, killed
+B{3a}ser, and put an end to the
+Descendants of Light.{end}
+
+Though Hein's performance on
+the battlefield was average, his
+magic proved useful in the war.{end}
+
+His remarkable research
+on battle strategy was
+spurred by his time with Scott.{06}{07}
+Even the most rigorous battles
+were won with minimal
+damage due to Hein's superb
+command of all forms of magic.{end}
+
+The young magician's reluctant
+bravery never gave out,
+even during the toughest times.{06}{07}
+After the war ended, Hein
+decided to tour the continent
+and polish up on his magic.{06}{07}
+While travelling, Hein acquired
+vast amounts of knowledge.
+One can scarcely imagine
+how powerful he has become.{end}
+
+After several years had passed,
+Hein returned to civilisation
+to start his personal laboratory.{06}{07}
+It was there where he began
+his research into ancient magic.
+Many of the forgotten spells he
+recovered were very powerful.{06}{07}
+Only a handful of
+El Sallia's greatest wizards
+could cast them.{06}{07}
+Due to Hein's continued efforts,
+Hein became the most powerful
+known magician in the land.{06}{07}
+Shortly thereafter, the
+Council of Wizardry erected a
+tower in Hein's honour where
+he now lives happily.{06}{07}
+Hein's name would be well
+known by any student of magic
+for generations to come as the
+greatest Wizard of El Sallia.{end}
+
+After several years had passed,
+Hein settled down from his
+journeys to start a laboratory.{06}{07}
+It was there where he began
+researching spells that were
+safe and easy for novices
+to cast. Hein created a book.{06}{07}
+Hein's book became
+an instant success, and
+he enjoyed a comfortable
+living on his profits.{06}{07}
+Magic for All, his book,
+made the lives of others
+a little easier due to the
+cantrips it taught.{06}{07}
+Thanked by many, Hein became
+a very popular Wizard amongst
+civilians and inspired many
+boys and girls to study magic.{end}
+
+Perhaps from overestimating
+his own powers, he frequently
+injured himself in battle.{06}{07}
+Almost losing his life a
+few times, Hein decided it was
+for the best to avoid conflict
+and settled down.{end}
+
+One day, after several years
+passed, Hein created his own
+laboratory in a remote hamlet.{06}{07}
+It was here that he learnt the
+secret spell of Rebirth, the same
+spell Jessica used to live through
+the generations of man.{06}{07}
+No one is sure if Hein
+decided to use the spell or not,
+but he has not been heard
+from for some time.{end}
+
+After several years had
+passed, Hein created a
+laboratory of his own design.{06}{07}
+It was in this laboratory
+that Hein researched forbidden
+magic for summoning creatures
+of the nether realms.{06}{07}
+Perhaps by overestimating his
+control over his summons, Hein
+lost control of a lesser demon
+and was dragged into a vortex.{06}{07}
+Hein has not been seen
+or heard from ever since.{06}{07}
+In the summoning circle Hein
+created, a single iron dumbbell
+lay slickened with Vaseline.{end}
+
+
+{skip 70}{font4}R{font0}ohga
+{skip 15}{font4}W{font0}orld {font4}F{font0}amous {font4}M{font0}ercenary{06}{07}
+The roaming mercenary, Rohga,
+with {02} and the
+Empire, united El Sallia at last.{end}
+
+
+{skip 70}{font4}R{font0}ohga
+{skip 39}{font4}T{font4}he B{font0}lood {font4}H{font0}ound{06}{07}
+The roaming mercenary,
+Rohga, followed {02} to
+attempt to govern the
+land single-handedly.{06}{07}
+But because of unique events,
+he ended up helping B{3a}ser
+and {02} conquer all
+mankind and crush all opposition.{end}
+
+
+{skip 70}{font4}R{font0}ohga
+{skip 8}{font4}W{font0}ealthiest {font4}M{font0}ercenary {font4}A{font0}live{06}{07}
+The roaming mercenary,
+Rohga, followed {02} to
+attempt to govern the
+land single-handedly.{06}{07}
+Not only did it succeed, it
+paid off big. Rohga could test his
+might against B{3a}ser, the Empire
+and the Descendants of Light.{end}
+
+Although Rohga's skills were
+not top-notch, his mere
+presence was quite daunting.{end}
+
+Rohga's almost savage
+battle skills were unmatched
+on the battlefield.{06}{07}
+Cutting a bloody swath through
+enemies, Rohga was one of the
+most feared opponents during
+this most excruciating war.{end}
+
+And he who ravaged his
+enemies bore not a single
+wound from this conflict.{06}{07}
+Rohga truly is, undeniably,
+El Sallia's ultimate swordsman.{end}
+
+However, still working on
+his swordsmanship, Rohga was
+wounded from time to time.{end}
+
+After the war, Rohga examined
+his overall objectives for
+fighting with {02} ...{06}{07}
+It all boiled down to trying to
+convince his kid sister, Sonya,
+to give up her hate for humans
+fuelled by B{3a}ser's manipulation.{06}{07}
+However, Sonya is no longer
+in this world ... She died in front
+of his very eyes, and Rohga
+could not live with himself.{06}{07}
+Grief-stricken, Rohga parted
+with {02} and allies for
+his own reasons and left on
+a journey to the world's edge.{06}{07}
+No one has
+seen him since ...{end}
+
+Though discomforted by her
+coldness, Rohga was content
+to be with his little sister.{06}{07}
+Now under command of B{3a}ser,
+Rohga fights an endless war
+on humanity, but at least he
+can be next to his sister, Sonya.{end}
+
+Breaking through all odds,
+Rohga never lost hope
+for Sonya, rushing to her side.{06}{07}
+Rohga successfully warmed her
+heart, and together they lent
+{02} power to build
+peace for demons and humans.{end}
+
+
+{skip 72}{font4}L{font0}iana
+{skip 42}{font4}M{font0}aiden of {font4}L{font0}ight{06}{07}
+Being born as the holy
+Maiden of Light, Liana was
+destined for a life of conflict.{06}{07}
+Through the support she
+found in {02}, Liana
+never faltered even under
+extreme hardships.{06}{07}
+Liana gladly helped {02}
+take on the forces of evil and
+stop the Empire's ambition.{end}
+
+However, she could not endure
+the excruciating battles.
+Many times she was injured.{06}{07}
+Unable to provide
+her support, Liana burdened
+{02}'s party at times.{end}
+
+Even during the excruciating
+battles, not once did she back
+down. She fought till the end.{end}
+
+Using support magic and her
+healing prayers, Liana aided
+{02}'s party greatly.{end}
+
+She never made outstanding
+achievements in battle.{06}{07}
+However, her healing
+magic enabled the party to
+fight confidently and without
+worry of dying.{end}
+
+After the war, peace returned,
+but the scars left by
+it had made many orphans.{06}{07}
+With her kindness, although
+poor, Liana built an orphanage
+and underwent many hardships.{06}{07}
+Liana supported the
+children in her care so that they
+might have a better life.{end}
+
+Liana's financial difficulties
+came to an end when {02}
+visited her a few years later.{06}{07}
+During {02}'s journey,
+he had single-handedly settled a
+dispute between three states.{06}{07}
+{02} donated the
+money which he was awarded
+to the orphanage.{06}{07}
+Without the worries of
+managing the orphanage,
+Liana accepts {02}'s
+request to go on a journey ...{06}{07}
+The two travel to help rid the
+continent of conflict so
+the children might live in
+a shining new era of peace.{end}
+
+A wealthy man took pity on her,
+asking her hand in marriage.{06}{07}
+Though she married the
+man, she never abandoned
+the orphanage and was later
+praised as a saint.{end}
+
+
+{skip 72}{font4}L{font0}iana
+{skip 42}{font4}P{font0}uppet {font4}P{font0}riestess{06}{07}
+Before B{3a}ser's dark magic,
+Liana was the Maiden of Light
+and so full of life.{06}{07}
+But she began anew as a
+Dark Priestess. All who looked
+at her could scarce imagine the
+emptiness within her soul.{end}
+
+Along with {02}, she
+laid waste to the Imperial Army
+and her former companions.{06}{07}
+Liana gave everything
+she had to lead the
+Forces of Darkness to victory.{end}
+
+However, being unskilled
+in battle, she could not
+contribute anything major.{end}
+
+After the battle, the continental
+cleansing began under
+B{3a}ser's Army of Darkness.{06}{07}
+Her name became
+synonymous with fear. The
+people looked upon Liana as if
+she was the Angel of Death.{end}
+
+Later on, from some accidental
+coincidence, B{3a}ser's
+spell on Liana had broken.{06}{07}
+Realising what she had done, 
+Liana threw herself into
+Lake Baldea, never to return ...{end}
+
+
+{skip 69}{font4}C{font0}herie
+{skip 33}{font4}T{font0}he {font4}C{font0}aged {font4}P{font0}rincess{06}{07}
+Cherie, born Kalxath's princess
+and a Descendant of Light,
+crushed the Imperial Army
+and the Forces of Darkness.{06}{07}
+Through this, she
+helped restore peace
+throughout the land.{06}{07}
+She fulfilled her destiny
+to protect Langrisser,
+the Sword of Light.{end}
+
+Cherie was a tomboy,
+a strong-minded person, and
+a gifted swordswoman.{06}{07}
+Her achievements during
+this war were only average,
+although reassuring.{end}
+
+At the sight of her charging
+across the battlefield, people
+praised her as an angel.{06}{07}
+Thus, she bolstered the power
+of her party and made
+the enemy tremble in fear.{end}
+
+She had been praised as the
+best among the old
+swordsman Aaron's pupils.{06}{07}
+Not once was she badly
+wounded during the long
+excruciating battles.{06}{07}
+What awaited her after the war
+were peaceful days of boredom.
+One day, when she had enough,
+she finally fled the castle.{end}
+
+Lately, there have been rumours
+of a young and powerful female
+warrior fighting for justice.{06}{07}
+However, everyone knew that
+girl was just Cherie
+moonlighting as the
+"Mystery Knight" again.{06}{07}
+Knowing her nature, the people
+knew sooner or later she would
+become tired of the journey
+and travel back to the castle.{end}
+
+Before long, rumours spread
+of a female fighter who claimed
+to be the "Mystery Knight."{06}{07}
+The fighter had single-handedly
+defeated a rampaging dragon.
+Keith sent a search party, but
+she was no where to be found.{06}{07}
+Knowing her nature, he knew
+sooner or later she would
+become tired of the journey
+and travel back to the castle.{end}
+
+Though sustaining deep wounds
+from time to time, she
+fought bravely as a woman.{06}{07}
+This fact reflected just
+as much in the eyes of the
+people of Kalxath.{06}{07}
+What awaited her after the war
+were peaceful days of boredom.
+One day, when she had enough,
+she finally escaped the castle.{end}
+
+Later, having succeeded in
+slaying a fierce dragon alone,
+she was seriously wounded.{06}{07}
+Taken back to the castle,
+miraculously, Cherie escaped
+from the clutches of death.{06}{07}
+Still, Cherie is secretly
+waiting for an opportunity to
+flee castle life once again.{end}
+
+Afterwards, a rumour spread of
+a female warrior who attempted
+to slay a dragon and was killed.{06}{07}
+However, it has not been
+confirmed whether or not
+the warrior was Cherie.{end}
+
+
+{skip 72}{font4}S{font0}cott
+{skip 35}{font4}P{font0}prodigious {font4}K{font0}night{06}{07}
+Earning many medals in
+honour of his distinguished
+service as a Knight of Salrath,
+Scott returned home.{end}
+
+
+{skip 72}{font4}S{font0}cott
+{skip 35}{font4}P{font0}prodigious {font4}K{font0}night{06}{07}
+Without gaining much for
+his time spent in
+{02}'s service,
+Scott returned to Salrath.{06}{07}
+Scott's father, Loren, could
+barely hide his joy at his
+beloved son returning home.{end}
+
+And three years later ... 
+A surviving pack of monsters
+attacked the city.{06}{07}
+But, due to the units formed
+under his swift commands,
+Scott succeeded in destroying 
+the monsters with ease.{end}
+
+And three years later ... 
+A surviving pack of monsters
+attacked the city.{06}{07}
+Scott desperately fought with
+all his might, but he was
+only able to save himself.{06}{07}
+Watching the destruction with
+his own eyes and realising his
+lack of strength, he left on an
+unknown quest without a word.{end}
+
+
+{skip 72}{font4}K{font0}eith
+{skip 33}{font4}R{font0}etainer of {font4}K{font0}alxath{06}{07}
+With many distinguished
+awards, Keith spread his
+name throughout the land.{06}{07}
+After returning to the castle,
+he continued his service in
+the Queen's absence, hoping
+Cherie would soon return.{06}{07}
+It was her birthright to assume
+the throne of Kalxath.{06}{07}
+Keith worked day and
+night along with the soldiers
+to rebuild Kalxath.{end}
+
+
+{skip 72}{font4}K{font0}eith
+{skip 33}{font4}R{font0}etainer of {font4}K{font0}alxath{06}{07}
+Keith had been the esteemed
+Captain of Kalxath's pride,
+the Aerial Knights of Kalxath.{06}{07}
+But Keith retired to a life of
+peace, leaving the fighting to the
+young soldiers of the realm.{06}{07}
+Keith played a major role
+in the reconstruction of Kalxath.{end}
+
+Later, in order to ensure the
+safety of nearby villages,
+Keith formed the Monster Squad.{06}{07}
+This was a youth brigade which
+helped protect outlying
+areas from rampaging monsters.{end}
+
+After saving a beautiful lady
+from a monster's clutches,
+he fell in love and married her.{06}{07}
+A couple of years later ...
+Due to Keith's vigorous plans,
+the monsters in Kalxath were
+almost wiped out entirely.{end}
+
+However, Keith's plans
+always seemed to backfire.{06}{07}
+Sadly, one day, Keith attempted
+to rescue a damsel in distress
+from the clutches of a vile
+monster and lost his life ...{end}
+
+
+{skip 70}{font4}L{font0}ester
+{skip 44}{font4}M{font0}an of the {font4}S{font0}ea{06}{07}
+Having repaid his debt
+to Jessica, Lester left to
+start a life of his own.{06}{07}
+Feeling content with his
+actions during the war,
+Lester cast aside his swords
+to lead a peaceful, honest life.{06}{07}
+It was then, when the
+memories of war began to fade ...{end}
+
+
+{skip 70}{font4}L{font0}ester
+{skip 44}{font4}M{font0}an of the {font4}S{font0}ea{06}{07}
+Perhaps because of his lack
+of skill during the war, Lester
+returned to Jessica's service.{06}{07}
+After Jessica regained her
+full power through the Rebirth
+spell, Lester was no longer
+needed as a guardian.{06}{07}
+He left to live in a nearby
+village and drowned his sorrows
+in spiced rum while trying to
+forget the horrors of war.{end}
+
+Lester heard a rumour of
+an enormous monster
+terrorising the local bay.{06}{07}
+With his blood surging in
+his veins, Lester attacked,
+and after a heroic battle,
+he conquered it.{06}{07}
+Overjoyed, the people of
+the port gave him a
+handsome remuneration.{06}{07}
+He then bought his own ship
+and hired a small crew to set
+off to uncharted waters for
+an adventure of his own.{end}
+
+Hearing rumours of raunchy
+Pirates terrorising local pubs,
+Lester leaped into action.{06}{07}
+Charging through crowds into
+a local pub where the pirate
+leader was causing problems,
+he fought his way inside ...{06}{07}
+Lester was not seen
+after the incident, no one
+knows if he was beaten
+to death or otherwise.{06}{07}
+Some say they have seen
+a pirate that resembles Lester,
+but no one is sure enough
+to swear by it ...{end}
+
+
+{skip 71}{font4}A{font0}aron
+{skip 32}{font4}T{font0}he {font4}O{font0}ld {font4}S{font0}wordsman{06}{07}
+With his love of children,
+he opened a school to teach
+swordplay to children again.{end}
+
+Perhaps due to Cherie's fame,
+he was requested by many
+nobles to teach their children.{06}{07}
+Aaron's school was praised
+as best on the continent.{end}
+
+Children were fond of his
+war stories of surviving through
+the treacherous battles.{06}{07}
+Before long he became
+popular among the town's
+children as "Grandpa Aaron,"
+the master tale spinner.{end}
+
+Perhaps for that reason, many
+came to claim his school
+by challenging his expertise.{06}{07}
+But not one could surpass
+his swordsmanship.{06}{07}
+And, surrounded by children,
+he spent the rest of his
+life in happiness and peace ...{end}
+
+However, his wounds
+inflicted by the battles
+caught up to him.{06}{07}
+Watched over by his students,
+he quietly passed away
+with a faint smile on his face.{06}{07}
+It has been said that he was
+happy he could pass away
+surrounded by his students
+and not on a bloody battlefield.{end}
+
+
+{skip 73}{font4}L{font0}{37}na
+{skip 32}{font4}M{font0}aiden of {font4}D{font0}arkness{06}{07}
+L{37}na overcame her grief at the
+atrocities she committed during
+B{3a}ser's control of her mind.{06}{07}
+She went to Estool to enlist
+in the service of the
+great priests in the
+Grand Temple of Lushiris.{end}
+
+Due to her strong faith, kindness
+and compassion, L{37}na was
+named Archbishop of Estool.{06}{07}
+Since then, L{37}na has
+offered herself to help create
+a world without war.{06}{07}
+Many years later, after living
+a long life, she was praised
+by many as a legendary saint.{end}
+
+Many years later, after having
+a happy life of atonement,
+L{37}na's health began to decline.{06}{07}
+Before dying, L{37}na had
+succeeded in creating
+a miraculous medicine
+to cure a plague epidemic.{06}{07}
+After witnessing the fruition of
+her medicine, she quietly
+passed away ... It is said she
+had a warm smile on her face.{end}
+
+Afterwards, L{37}na dedicated
+her life to create a world
+free from pain and suffering.{06}{07}
+She left on her mission alone.
+Her benevolence has since
+touched the hearts of many.{end}
+
+In the end, L{37}na could
+not complete the cure to
+a plague epidemic.{06}{07}
+Sadly, L{37}na passed away
+with a grief-stricken
+expression on her face ...{end}
+
+After hard work and hardship,
+L{37}na finally finished the cure for
+a rapidly spreading plague.{end}
+
+After the war, the whole
+continent was threatened
+with a deadly plague.{06}{07}
+L{37}na tried desperately to find
+a cure, but accidentally
+infected herself in the process.{end}
+
+
+{skip 73}{font4}L{font0}{37}na
+{skip 48}{font4}D{font0}ark {font4}P{font0}rincess{06}{07}
+Kidnapped by B{3a}ser as an
+infant, L{37}na, the elder twin
+of Liana, had been raised as
+the evil Dark Princess.{end}
+
+She had near limitless ability to
+channel dark energy to
+enhance her magical abilities.{06}{07}
+This aided the men of B{3a}ser
+and {02} to easily lay
+waste to any opposition on
+their path to complete victory.{end}
+
+Although her magic affinity was
+outstanding, she was not
+meant to endure the long battles.{06}{07}
+In the end, she
+was simply a tool used
+to unseal Alhazard.{end}
+
+L{37}na married B{3a}ser in an
+unholy ceremony shortly after
+continental cleansing began.{06}{07}
+Ruling from her dark throne
+of human bones, L{37}na lived
+on as the Queen of Darkness.{end}
+
+Perhaps due to the shock of
+her wounds during the battles,
+B{3a}ser's spell had broken.{06}{07}
+After realising the atrocities
+she committed during
+the war, L{37}na snapped and
+ran off screaming in horror.{06}{07}
+She has never been seen since.{end}
+
+
+{skip 70}{font4}E{font0}gbert
+{skip 19}{font4}M{font0}an {font4}F{font0}ighting the {font4}D{font0}ivine{06}{07}
+Grand Sorcerer Egbert, head
+of the Dark Dragon Sorcerers,
+was aide to the Kaiser himself.{06}{07}
+He has been praised as one of
+El Sallia's most intelligent men.
+His magic and sharp insight
+influenced even politicians.{end}
+
+It was his abundant knowledge
+and wit that allowed him
+to achieve great success.{06}{07}
+Leaving his position in the
+Dark Dragon Sorcerers open to
+young Hein, Egbert began a new
+agenda to advise Bernhardt.{06}{07}
+He aided the capitulations
+and peace negotiations amongst
+many nations of El Sallia.{end}
+
+Though he had great potential
+as the Kaiser's adviser, he
+depended on others in battle.{end}
+
+Egbert finally succeeded and
+fulfilled his dream of wiping
+darkness from the world ...{06}{07}
+However, due to the forbidden 
+magic Egbert wielded in order
+to fight off the darkness, his
+soul deteriorated over time.{end}
+
+Egbert was able to live longer
+by abstaining from using magic
+after El Sallia's unification. {06}{07}
+He used his wisdom for peace,
+and, due to his commitment and
+ability, he was praised as the
+greatest sage of the continent.{end}
+
+The wounds he received
+in war had further shortened
+his already waning life.{06}{07}
+Shortly before the
+continent unified, he was
+found cold in his chair.{06}{07}
+A draft of what would become
+the Peace Treaty of Rayguard
+lay nestled in his arms ...{end}
+
+
+{skip 74}{font4}L{font0}eon
+{skip 21}{font4}L{font0}egendary {font4}B{font0}lue {font4}D{font0}ragon{06}{07}
+Leon's dream of a united land
+was inspired by the Rayguard
+Kaiser. The knight offered
+everything to the young Empire.{end}
+
+Though young, due to his great
+tactical abilities, he secured 
+victories, but nothing amazing.{end}
+
+Due to his youth, Leon lacked
+the experience needed to
+command his troops in battle.{06}{07}
+Unfortunately, this also applied
+to himself, and he sustained
+many near fatal wounds in war.{end}
+
+Recognised for distinguished
+service, Bernhardt gave him
+Kalxath as his own territory.{06}{07}
+Kalxath's citizens had mixed
+feelings, but Leon won
+the hearts of his people
+with his superb governance.{06}{07}
+And so, Kalxath then
+became a prominent city on the
+continent and knew prosperity
+as it never had before.{end}
+
+His loyalty was recognised by 
+Bernhardt, and he received
+Kalxath as his own territory.{06}{07}
+He governed Kalxath as justly
+as he could. However, he was
+assassinated by a loyalist who
+stole into his bed chamber.{end}
+
+With his exceptional tactics
+and chivalry he commanded
+the Imperial Blue Dragon Knights.{06}{07}
+Leon is now regarded as a
+legendary hero amongst
+the people of the Empire.{end}
+
+
+{skip 68}{font4}V{font0}argas
+{skip 34}{font4}T{font0}he {font4}B{font0}rave {font4}G{font0}eneral{06}{07}
+Though Vargas experienced
+many battles during
+the war, he could not live
+up to his own expectations.{end}
+
+
+{skip 68}{font4}V{font0}argas
+{skip 34}{font4}T{font0}he {font4}B{font0}rave {font4}G{font0}eneral{06}{07}
+The tactics of the
+Blazing Dragon Army under
+Vargas were recognised.{06}{07}
+The corps' outstanding bravery
+and loyalty had been praised, and
+the General could hardly hold
+back his pride for his men.{end}
+
+He wanted his daughter, Emilia,
+born in the midst of war, and
+wife, Eliza, to live safe lives.{06}{07}
+Vargas bravely battled on,
+and now, with his dream 
+granted, there is none to fight.{06}{07}
+He smiles wryly, feeling as if
+something is missing in his life.{end}
+
+One day, Vargas was caught
+in a trap when heading to
+suppress a border skirmish.{06}{07}
+Numerous boulders dropped
+from ledges onto his troops.{06}{07}
+Vargas heroically used his
+own body as a shield to protect
+his comrades, saving everyone's
+lives ... except his own ...{end}
+
+
+{skip 69}{font4}I{font0}melda
+{skip 40}{font4}Q{font0}ueen of {font4}C{font0}ruelty{06}{07}
+Though she was rumoured to
+be a cold and merciless general,
+Imelda ended up being a mere
+woman with a foul mouth.{end}
+
+
+{skip 69}{font4}I{font0}melda
+{skip 41}{font4}Q{font0}ueen of {font4}V{font0}anity{06}{07}
+Her beautiful, showy appearance
+and her cold, merciless nature
+helped Imelda maintain
+strict control over her division.{end}
+
+After the Empire unified the
+continent, she gained a coastal
+territory from Bernhardt. {06}{07}
+She named the land to
+"The Kingdom of Imelda."
+Reigning as the first Queen, she
+spent her days acting selfishly.{end}
+
+She began to search for
+a husband who would meet
+her high demands. {06}{07}
+However, that rumour began
+to circulate, and fewer ships
+stopped at her port,causing the
+kingdom to wither away.{end}
+
+Using her knowledge
+from the war, she began
+trading overseas. {06}{07}
+Gaining massive wealth
+in the blink of an eye, this
+allowed her to pursue her
+luxurious way of life ...{end}
+
+Although skilled at military 
+tactics, she could not govern 
+as well as she wanted to.{06}{07}
+Due to this, her people
+lived in poverty, but rumour
+has it the people said nothing
+out of fear of retribution.{end}
+
+Imelda's selfish, extravagant
+behaviour created resentment
+in the hearts of the populous.{06}{07}
+One day, after gulping
+down  a bottle of liquor she
+received, she suddenly fell
+to the floor and died.{end}
+
+
+{skip 70}{font4}S{font0}onya
+{skip 21}{font4}G{font0}irl of the {font4}D{font0}emon {font4}T{font0}ribe{06}{07}
+Her big brother Rohga finally
+reached her heart, and Sonya
+gladly joined the fight
+for continental unification.{end}
+
+
+{skip 70}{font4}S{font0}onya
+{skip 17}{font4}F{font0}aithful {font4}S{font0}ervant of {font4}B{font0}{3a}ser{06}{07}
+Saved by the Dark One, B{3a}ser,
+from the persecution of humans,
+Sonya chose the path of killing
+for him and the Demon Tribe.{end}
+
+
+{skip 70}{font4}S{font0}onya
+{skip 21}{font4}A{font0}mbassador of {font4}E{font0}l {font4}S{font0}allia{06}{07}
+Persuaded by Rohga and
+{02} to fight along with
+them, Sonya strove to achieve
+peace for humans and demons.{06}{07}
+{02} granted her the
+rank of Ambassador
+of El Sallia while she
+travelled to and from Velzeria.{06}{07}
+She worked hard for a world
+where both races could
+live peacefully without
+any enmity for one another.{end}
+
+Many had great expectations
+for the new member,
+though sadly, she let them down.{end}
+
+She returned {02} and
+the others' expectations as an
+ally and continued to do so.{end}
+
+It was then that
+the Forces of Darkness
+reigned in El Sallia.{06}{07}
+The humans who persecuted her
+now fawned on her for mercy.
+Looking at the pitiful sight, she
+saw her revenge was complete.{end}
+
+Sonya learnt how to trust
+from Rohga and {02}
+and threw away her hatred.{06}{07}
+The people of her home town
+welcomed her after hearing of
+B{3a}ser's scheme, and Sonya lived
+happily along with her brother.{end}
+
+Through her painful memories
+and injuries, Sonya grew to fear
+blood and slowly quit fighting.{06}{07}
+What awaited her were the cold
+reactions of humans. For she
+who carries the blood of 
+demons, peace is still far away.{end}
+
+
+{skip 74}{font3}Esto
+{skip 27}{font3}Sliver of Darkness{06}{07}
+{font0}Being of a different nature,
+even among the demons, Esto
+used her skills as a parasite
+to their full potential.{06}{07}
+Esto fought for the Demon Tribe
+along with Sonya to the end.{end}
+
+
+{skip 74}{font3}Esto
+{skip 35}{font3}Parasitic Justice{06}{07}
+{font0}After regaining self-control
+after B{3a}ser's death, Esto
+fought for a world where
+humans and demons could coexist.{end}
+
+Skilful in unique combat styles,
+Esto's ability brought
+victory through many battles.{06}{07}
+Later, Esto's abilities had been
+recognised, and she was chosen
+lead the demons that were
+in {02}'s Navy.{end}
+
+Esto's unique abilities that
+came with her creation
+are diminishing over time.{06}{07}
+When B{3a}ser's spell
+has fully worn off, Esto will
+most likely lose her life.{end}
+
+
+{skip 72}{font3}Osto
+{skip 34}{font3}Nightmare Diver{06}{07}
+{font0}Being parasitic made Osto
+unique, even among demons,
+but he fought against many foes
+for the Demon Tribe's glory.{end}
+
+
+{skip 72}{font3}Osto
+{skip 51}{font3}Virus Eater{06}{07}
+{font0}When the spell cast upon Osto 
+was broken, he, with Sonya, 
+fought for a world where
+demons and humans can coexist.{end}
+
+Osto's parasitic abilities aided
+in organising troops and
+lead his companions to victory. {06}{07}
+Later on, Osto's power was
+rewarded as he was appointed
+commander of the Demon Tribe
+units in {02}'s Army.{end}
+
+However, one of Osto's wounds
+had damaged his nucleus and
+he lost his parasitic abilities.{06}{07}
+When his current host dies, 
+that will probably be
+when his life will end as well ...{end}
+
+
+{skip 8}{font4}M{font0}ain {font4}C{font0}haracter: {02}
+{skip 34}{font4}H{font0}arbinger of {font4}P{font0}eace{06}{07}
+{02}, heir of Baldea's
+royal family, embraced destiny
+and fought for his ideal world.{06}{07}
+The wars plaguing El Sallia
+since ancient times had been
+brought to a climactic end due
+to {02}'s efforts.{06}{07}
+In his battles, {02}
+gained something important.
+He gained friends he could
+trust with his life.{end}
+
+Evaluating himself after the
+war, {02} found
+he was lacking in power.{06}{07}
+Having relied on the help
+of his companions more often
+than not, {02} felt he
+had to strengthen himself.{06}{07}
+One day, early in the morning,
+his bed was already vacant.
+Yes, {02} set off
+on another aimless journey.{06}{07}
+His accomplishments during
+this endeavour have
+since passed into legend ...{end}
+
+However, due to his wanderlust,
+{02} disappeared
+from his bed one night.{06}{07}
+Perhaps he left on yet
+another adventure.
+No one knows for sure.{06}{07}
+Three years later, a
+treacherous war threatened to
+split El Sallia in two again.{06}{07}
+It was then that a
+young traveller arrived and
+is said to have subdued the
+conflict within days.{06}{07}
+The youth never mentioned
+his name, but stories
+say he wore a silver
+tiara shaped like a wing.{06}{07}
+The rest has been
+passed into legend.{end}
+
+However, in war, he was saved
+numerous times by his
+allies and had difficult victories.{06}{07}
+Feeling his weakness,
+{02} left on a journey
+before anybody noticed, as if
+running away from his friends.{06}{07}
+Nobody knows what
+has happened to him since ...{end}
+
+
+{skip 8}{font4}M{font0}ain {font4}C{font0}haracter: {02}
+{skip 47}{font4}C{font0}haos {font4}B{font0}ringer{06}{07}
+The ancient struggle between
+Light and Dark had finally
+concluded with B{3a}ser
+and {02} as the victors.{06}{07}
+Langrisser's holy power that
+{02} wielded in his
+murderous onslaught vanished.{06}{07}
+The reign of Chaos had begun.{06}{07}
+When the cleansing of El Sallia
+was complete, wars ceased as
+no one was left alive to fight.
+All were obedient to B{3a}ser.{06}{07}
+{02} lived through the
+will of B{3a}ser and ruled the
+human realm from the
+throne of Castle Rayguard.{06}{07}
+The rule of a common enemy
+finally gathered enough rebel
+factions to form a raid
+against Castle Rayguard.{06}{07}
+The leader and his massive
+force invaded Castle Rayguard
+to stop {02}'s reign.{end}
+
+Though no longer commanding
+Langrisser, {02} was
+powerful and managed to win.{06}{07}
+However, due to the injuries
+he sustained from the battle,
+he died a lonely death a
+couple of years afterwards.{06}{07}
+{02}'s demise did
+not create a ripple in the death
+grip B{3a}ser held on the world.
+The age of Chaos continues.{end}
+
+Though no longer commanding
+Langrisser, {02}'s
+strength was enormous.{06}{07}
+The blood of the invaders
+covered Castle Rayguard's
+walls as {02} ended all
+opposition to his rule.{end}
+
+However, without Langrisser,
+{02} was weak.{06}{07}
+Captured by the rebels,
+{02} was executed for
+crimes against humanity before
+many cheering spectators.{06}{07}
+The day when humans
+may again find freedom
+is getting closer ...{end}
+
+
+{skip 8}{font4}M{font0}ain {font4}C{font0}haracter: {02}
+{skip 45}{font4}I{font0}mperial {font4}R{font0}eign{06}{07}
+With {02}'s team and
+Alhazard, the Empire
+successfully achieved its
+goal of unifying the continent.{06}{07}
+With both the great Langrisser
+and the dreaded Alhazard,
+the Empire was invincible.{06}{07}
+{02}'s contributions
+were recognised and he
+became General of the Empire's
+Radiant Dragon Knights.{end}
+
+Since many nations are
+still plotting against the Empire, 
+{02} cannot relax.{06}{07}
+However, {02} still fights
+to this day, wishing for 
+the time in which there are
+no more wars on the continent.{06}{07}
+Signs of a peaceful era to
+come will arrive soon, without
+a doubt thanks to {02}'s
+determined efforts.{end}
+
+There were no countries brave
+enough to defy the Empire, so
+there was no reason to fight.{06}{07}
+But that was the world which 
+{02} and Leon wished
+for, a world without warfare.{06}{07}
+As long as the Empire remains
+strong, no wars will break out. 
+And so, the curtains
+have opened on a new era ...{end}
+
+Battles continue daily due to
+the existence of many countries
+plotting against the Empire.{06}{07}
+{02}'s lack of power
+left him with little to do but sit
+idly by and hope for the best.{06}{07}
+Being rumoured as the Empire's
+waste, he goes through his
+days standing by in his room. {06}{07}
+However, a sign of the
+peaceful era to come should
+be seen some day soon ...{end}
+
+
+{skip 8}{font4}M{font0}ain {font4}C{font0}haracter: {02}
+{skip 39}{font4}K{font0}ing of {font4}E{font0}l {font4}S{font0}allia{06}{07}
+With Langrisser in his hand,
+{02} seemed invincible
+as he tore through opposition.{06}{07}
+{02} fought the Empire,
+the Army of Darkness, and the
+Descendants of Light and took
+leadership of the continent.{06}{07}
+He entrusted the Army to
+Rohga, the magic guilds to
+Hein, and the peace talks with
+the Demon Tribe to Sonya.{06}{07}
+{02} works tirelessly,
+striving to keep the peace in
+El Sallia. Soon, people would
+appreciate a world with no war.{end}
+
+The peace negotiations
+with the separatist states
+are still proceeding ...{06}{07}
+The time when peace
+will be reality is
+still some time away.{end}
+
+His burden was lightened when
+negotiations with the separatist
+states ended in his favour.{06}{07}
+The day had finally come when
+war ended across the continent
+in a shining new era of peace,
+thanks to {02}'s effort.{end}
+
+{02}, who is now a
+monarch, always thinks of one
+person when he's alone ...{end}
+
+He thinks of Liana, who died
+in battle. {02} swore
+the world's peace to her.{06}{07}
+{02} burdened himself
+with the task of striving for the
+happiness of the people.{end}
+
+He thinks of the young girl,
+Liana, whom he has never met
+since that fateful day.{06}{07}
+As soon as he heard that she
+built an orphanage, he sent aid
+to similar facilities and helped
+rebuild in the aftermath of war.{end}
+
+The seal of Chaos's Glory,
+Alhazard, is still broken, and
+countless men lust for power.{06}{07}
+Was the unification by force
+only peaceful in appearance?
+{02} still fights to
+keep Alhazard from evil hands.{end}
+
+Years later, the Red Star
+once again rose over
+Yeless's sky in the west ...{06}{07}
+The legends say that when this
+occurs, a man of ambition is
+set to make his mark on history.{06}{07}
+A few months after the sighting
+of the Red Star of Legend,
+Castle Rayguard's gates were
+shockingly blown wide open.{06}{07}
+A cloaked figure surging
+with power took Alhazard despite
+{02}'s best efforts.{06}{07}
+Now, El Sallia's ancient curse
+rages on without the legendary
+Descendants of Light to band
+together and fight against it.{06}{07}
+Many wondered if the
+world would once again plunge
+into an age of darkness.{06}{07}
+{02} and Leon
+allied once more on a quest
+to exterminate the evil forever.
+And the rest is all legend ...{end}
+
+Legends of the King of Peace,
+{02}, will be passed on
+as the "Art of Swords War."{end}
+

@@ -1,0 +1,734 @@
+Fucking hell!
+How can that bastard
+be of holy lineage!?{end}
+
+Lester, don't
+badmouth {02}
+so harshly.{06}{07}
+{02} decided that
+the best way to bring peace
+is through Imperial rule.
+His goal is still peace ...{end}
+
+Lester has every right to be
+angry, but we shouldn't waste
+time slandering {02}.{06}{07}
+We must think of a plan to
+prevent {02} and the
+Imperial Guard from getting
+their hands on the Holy Sword.{end}
+
+Keith is right! We don't know
+what may happen if the Empire
+holds both legendary blades!{06}{07}
+Besides, its my duty as a
+Descendant of Light to protect
+Langrisser from being used for
+greed and power!{end}
+
+Yeah, yeah.
+I know already!
+You don't have to yell.{end}
+
+This turn of events is quite
+a dilemma. I had such high
+hopes for young {02} ...{06}{07}
+We must formulate a
+plan to prevent the Empire
+from reaching Baldea.{end}
+
+What about the Sky Bridge
+over the Railem Ravine?{06}{07}
+It's the main route.
+If we take out the bridge, the
+Empire would have to detour.{06}{07}
+That should give us a
+significant time advantage in
+beating them to Baldea and
+finding Langrisser.{end}
+
+Keith, ... you don't mean ...{end}
+
+Can you think of another way?
+It's our best option
+and this is serious business.{06}{07}
+The Princess and I must
+rally our divided forces around
+the nation. We need a volunteer
+for this important mission ...{end}
+
+Lester, where
+are you going?{end}
+
+Leave this to me Keith.  If
+you can't do it, aren't I the
+only one left fit for the job?{end}
+
+B, but ...{end}
+
+Don't sweat it.
+After all, what are friends for?{end}
+
+Lester ...
+Thank you.{end}
+
+Hey, is the bridge
+ready to be blown yet?{end}
+
+Well, the bridge is better
+constructed than we originally
+guessed, but we're working.{end}
+
+Well speed it up, if we don't
+finish soon, those Imperial
+jackasses will show up!{end}
+
+Leon, how much further
+until we reach Castle Baldea?{end}
+
+Hmmm ... Regrettably,
+we don't know
+its exact location.{06}{07}
+However, the ancient
+records we've acquired
+strongly indicate it lies
+beyond this valley.{end}
+
+Ha ha ... So we're
+on a wild goose chase
+as far as you know.{06}{07}
+I suppose you have Colonel
+Laird and some advance scouts
+finding out the specifics?{end}
+
+Exactly.
+Our first priority seems to be
+crossing this bridge, though.{end}
+
+Sir Lester,
+the Imperial Army!{end}
+
+Son of a bitch! We need more
+time ... Workers, hurry the hell
+up, we don't have all day!{end}
+
+{02}, they look
+like they're trying to cut
+down the bridge!{end}
+
+If they succeed, we
+won't reach Baldea
+before Jessica's group!{end}
+
+We still have time! We must
+beat Jessica's group to Baldea
+and obtain Langrisser first!{end}
+
+Heh, with a force that small
+we'll be able to slice
+through them with ease.{06}{07}
+Hell, they'll probably
+scatter before the bridge
+collapses anyway.{end}
+
+Okay, let's break through!
+Keep your guard up, they could
+be planning something.{end}
+
+It looks like they still
+plan to advance!
+Prepare to intercept!{end}
+
+Just leave it
+to us, boss.{end}
+
+And don't let up on the bridge!
+Don't be distracted by
+the fight--just keep working.{end}
+
+Understood, Sir.{end}
+
+If we don't make it in time,
+we'll lose our chance at
+beating Jessica's group!{06}{07}
+It might be asking a bit
+much, but give me your all!
+We must win!{end}
+
+Don't be impatient, 
+we're going our fastest.{end}
+
+We're going, we're going!
+Come on everyone, hurry!{end}
+
+Workers!
+What's the news
+on the bridge!?{end}
+
+I'm very sorry, Sir!
+It will only be
+just a little bit longer!{end}
+
+I see ...  Well, we have
+to do something before
+we're cut down here!{end}
+
+Yes, Sir!{end}
+
+We'll stop their advance here!
+Continue the operation, Lester!{end}
+
+Keith, you're a life saver!
+Go kick some ass for me, too!{end}
+
+Guys, what the
+hell is taking so long!?{end}
+
+Just a little longer!
+The supporting ropes
+have all been severed!{06}{07}
+The only things left
+are the main ropes!{end}
+
+Come on, get the
+lead out and
+drop it already!{end}
+
+Yes, Sir!{end}
+
+Isn't it about time
+to get out of here?{end}
+
+Right now, we're in
+the middle of severing
+the main ropes.{06}{07}
+If we cut two more,
+then the bridge is sure to fall!
+We beg your patience!{end}
+
+Troops, get off the bridge!
+At this rate, you'll fall, too!{end}
+
+Our aerial squadron will keep
+the enemy busy while your
+troops withdraw, Lester!{end}
+
+It seems you boys
+are in a bit of trouble.
+Need a hand?{end}
+
+General Imelda of the Imperial
+Water Dragon Navy
+has come to lend us a hand?{end}
+
+Wow ...{end}
+
+What, haven't you ever
+seen a grown woman before?
+Don't be so shy.{end}
+
+The chick General of the Water
+Dragon Navy? God damn it--!{06}{07}
+Reinforcements at a
+time like this are the last
+thing we need.{end}
+
+All right boys, its time
+you learnt a little lesson!{end}
+
+Well then, let's get
+back to work.
+Everyone, do your best!{end}
+
+So, you're that redheaded
+upstart who gave
+Leon so much trouble ...{06}{07}
+Let's see what you're
+made of, little man.
+Give me some orders!{end}
+
+Imelda joins the entourage!{end}
+
+Mission accomplished!
+The bridge has been cut down!{end}
+
+Ha ha ha!
+Eat it, shit wads!
+See you next fall, {02}!{end}
+
+Damn!{06}{07}
+Everyone withdraw!
+The bridge is going to fall!{end}
+
+Sir Lester, accept my apologies
+for putting a sea veteran
+like yourself up to this.{06}{07}
+I came as soon as
+possible to assist you, but ...{end}
+
+Its no big deal, Keith!
+Besides, we're
+pals, aren't we?{06}{07}
+Plus, seeing the Kalxath
+Aerial Knights in full action
+over this terrain is awesome.{end}
+
+In the forest, you find a wooden
+platform boxed in by trees.{06}{07}
+
+There appears to be a
+small sprite sitting nearby.{06}{07}
+
+What will you do to it?{end}
+
+Try to make it laugh.{end}
+
+Scare it away{end}
+
+Don't say anything{end}
+
+Hey, you're a funny guy.
+I'll help you out!{end}
+
+Magic Resistance raised!{end}
+
+You're the kind
+of people we hate!{06}{07}
+
+Leave us sprites alone!{end}
+
+Since you didn't call
+out to the sprite, it left.{end}
+
+Hmm? There's an entrance
+to somewhere here ...{06}{07}
+But, we can't worry
+about that now!
+We'll explore it later.{end}
+
+Keith, get out
+of the way!{end}
+
+I'm afraid I cannot
+comply with your command.{06}{07}
+Otherwise, you gentlemen
+might obtain Langrisser.{06}{07}
+This is our, the people of
+Kalxath's, duty.  In the 
+beginning, I fought with you
+to protect Langrisser, but ...{06}{07}
+The princess is also saddened
+by this turn of events ...
+We have no
+choice but to battle.{end}
+
+If that's the only
+way, then so be it!{end}
+
+Make way!{end}
+
+Ugh! It's over for me ...{end}
+
+Take that!{end}
+
+Sorry ...
+I've been ... slain--!{end}
+
+If you wish to die,
+then come at me!{end}
+
+Ugh! I've failed!{end}
+
+Don't get in my way!{end}
+
+For me to have fallen ...,
+it seems as if I bit off more
+than I could chew.{end}
+
+All right, come on!{end}
+
+Ah, what an incredible man.{06}{07}
+If you are able to beat me,
+maybe we can get to know
+each other a little better ...{end}
+
+Quit fuckin'
+with me, bitch!{end}
+
+Die!{end}
+
+Ugh, oh no!
+Did I screw up!?{end}
+
+You're revolting to behold!
+Disappear into nothingness!{end}
+
+Argh! I think I went a little
+overboard, probably.{06}{07}
+Take care of the rest!{end}
+
+Well, aren't you
+being smart?{end}
+
+Looks like I have to fill
+in for Keith now, too ...{end}
+
+If you continue this,
+you won't have any hope of
+victory, you know!{06}{07}
+Why not relent
+and let us pass?{end}
+
+Fat chance.
+I'm staying until the
+bridge falls!{end}
+
+Hey! Who said you could
+cross without paying the toll?
+This troll is coming to collect!{end}
+
+{02}, I never
+would have thought in a
+million years ...{06}{07}
+You would team
+up with the Empire ...{end}
+
+People can be easily
+separated by their ideals ...{end}
+
+Well, that's life!
+Every person walks his own
+path, after all. Now, fight!{end}
+
+What the hell is
+keeping you guys!?{end}
+
+Just a little longer!
+Just wait a little bit longer!{end}
+
+Get the lead out, guys ...
+At this rate,
+we aren't going make it.{end}
+
+Master Lester!{end}
+
+Sorry about this, man!
+it's all my fault ...{06}{07}
+I failed in the mission to stop
+them from crossing the bridge!
+Guys, let's pull out!{end}
+
+Ugh ... Shit!
+Just as I thought ... I couldn't
+pull it off by myself.{06}{07}
+Workers!
+The plan's a bust!
+Let's get amscray!{end}
+
+Argh, well done, 
+{02} ...{06}{07}
+You won't have it this
+easy next time, though ...
+Let's retreat, guys!{end}
+
+Lester ...{end}
+
+Hmmm, ... indeed.
+You've lived up to my
+expectations, {02}!{06}{07}
+From now on, let's work hard
+for the glory of our Empire!{end}
+
+That means a lot to me, Leon.
+However, just exactly
+what am I fighting for ...?{end}
+
+To end all wars{end}
+
+To obtain power{end}
+
+I don't know yet ...{end}
+
+That's right.{06}{07}
+The way to end the war is to
+unite the continent, just like
+the Empire is doing.{end}
+
+To end the wars, {02}
+is going to lend his strength to
+the Rayguard Empire!{end}
+
+All right, let's get moving.
+We need to obtain
+Langrisser quickly.{end}
+
+That's right.{06}{07}
+If one possesses tremendous
+power, one can end wars 
+quickly by crushing opponents.{06}{07}
+Once stopped, other countries
+would capitulate on our
+terms, and war would cease
+out of fear of retribution!{06}{07}
+It's only natural I take up
+arms with the Empire
+in a situation like this.{end}
+
+Indeed, the
+Empire is mighty.{06}{07}
+And foolish are the
+weak who would bear arms
+against the mighty.{end}
+
+I don't know.{06}{07}
+Why did I turn against my
+friends for my selfish reasons?
+Am I dedicated to the Empire,
+or to myself ...?{end}
+
+Well, if the Empire succeeds
+in this war, they would unite
+the continent under one ruler.{06}{07}
+With only one ruler, there
+would be no state to
+bear arms against another.{06}{07}
+Is it not peace and the
+end of war on El Sallia's
+soil your goal?{end}
+
+If the Kaiser rules the
+continent, no one would oppose
+him! War would end.{end}
+
+That was fast.
+You didn't leave
+any for me ...{end}
+
+General Imelda of
+the Water Dragon Navy,
+I presume ...{end}
+
+Hmm? What the ...{end}
+
+You're {02}, aren't you?
+I've heard about you.{06}{07}
+I'm Imelda of the
+Water Dragon Navy.{06}{07}
+I came here to help you
+out a bit, but it seems as
+though I wasn't needed.{end}
+
+That's not true. 
+The more allies we obtain, the
+stronger we'll become.{06}{07}
+Please, join us!{end}
+
+All right, little boy.
+Don't get so
+excited over me.{end}
+
+Imelda joins the entourage!{end}
+
+Oh, before I forget!
+I found a weird opening before,
+but what should I do about it?{end}
+
+Do you want to
+investigate it further?{end}
+
+The truth is, I found a
+weird entrance while we were
+in the midst of fighting.{06}{07}
+There may be something
+in there that will aid
+the Empire. Let's go in!{end}
+
+Nah.{06}{07}
+We really need to find
+Langrisser. I think it's best
+if I just forget about it.{end}
+
+If you're going to
+come, hurry up!{end}
+
+I wanted to ...
+protect ... Les ... te--{end}
+
+We are off to
+intercept the enemy.{end}
+
+Don't be on the bridge
+when it collapses!{end}
+
+Yes, Sir!{end}
+
+You shall not pass!{06}{07}
+If you intend to, you must
+defeat me in battle, first!{end}
+
+Sir Lester,
+please take care
+of the rest ...{end}
+
+Damn guys ...
+Don't just throw away
+your lives.{end}
+
+We must protect
+Sir Lester!{end}
+
+I won't hand Langrisser
+over to you!{end}
+
+H, hurry ...
+Hurry, drop the ...{end}
+
+Even if it means I lose my life,
+I shall not let you through!{06}{07}
+Attack!{end}
+
+We cannot withdraw from here!{end}
+
+Attack!{end}
+
+Gaahh!{end}
+
+Inform every aerial squad!{06}{07}
+Flank the imperial
+troops on the bridge
+and attack! Go!{end}
+
+Yes, Sir!{end}
+
+Gotcha!{end}
+
+Witness the might of the
+Kalxath Aerial Knights!{end}
+
+I didn't wish to fight you
+as an enemy ...
+However, such is war.{end}
+
+Ugh--!
+Forgive me, Master Lester.
+It seems I was of no help ...{end}
+
+Keith!{06}{07}
+Are you all right!?
+Buying us this much time
+was more than enough!{06}{07}
+Don't be stupid,
+just get out of here!{end}
+
+Forgive me ...,
+my friend.{06}{07}
+I'll return the favour
+someday, I promise!{end}
+
+Hurry up!
+Follow Sir Keith!{end}
+
+I won't let you
+cross this valley!{end}
+
+Im, impossible ...{end}
+
+You're pretty good,
+aren't you?{end}
+
+I ...{end}
+
+I can't let you
+go any further!{end}
+
+The Empire's troops ...
+are ... well ... trained.{end}
+
+You're strong,
+too strong ...!{end}
+
+Ugh, strong ...{end}
+
+Don't be rash!
+Those guys
+are very powerful!{end}
+
+I can't believe this ...
+I'm the only one left ...{06}{07}
+However, I won't give
+up so fast! I'm seeing this
+through to the end!{end}
+
+Aye, sir!
+We'll aid you
+with all our strength!{end}
+
+Please!{end}
+
+All right, {02}.
+Come on!{end}
+
+Damn it!
+Our assault troops
+have been fucked.{06}{07}
+The only people left to
+handle this are us.
+These guys are too much.{end}
+
+Exactly, {02}.{06}{07}
+In order to accomplish
+that, we must first quickly
+obtain Langrisser.{end}
+
+And if we
+have Langrisser ...{end}
+
+Exactly ...{06}{07}
+If we allow Langrisser
+to fall into the hands of
+our enemies, this war
+will last indefinitely.{end}
+
+In order to stop the enemy
+in their tracks, we
+need to give it our all!{end}
+
+So far, this is the
+proper course of action ...{end}
+
+What?
+Reinforcements?{end}
+
+Master Lester!
+Has the bridge been
+brought down yet?{end}
+
+Sorry, bud ...{06}{07}
+Before we could
+finish, someone stuck
+their noses in.{end}
+
+We'll take care of them.
+In the meantime, please
+bring down the bridge.{end}
+
+Leave it to us, Keith!{end}
+
+Go for it!{end}
+
+Don't worry about the pixie
+loving insects in the air.{06}{07}
+I brought a detachment of
+High Elves with me. They'll
+snipe those pigeon riders
+right out of the sky!{end}
+
+Damn ...!
+It would be wise to not get
+too close to that woman!{end}
+
+All right!
+Let's go, everyone!{06}{07}
+For the sake of claiming the
+legendary holy blade!{end}
+

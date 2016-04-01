@@ -1,0 +1,454 @@
+I wonder how
+everyone is doing ...?{end}
+
+{02} ...{end}
+
+Something ...!?{end}
+
+Intruders!{end}
+
+Ahh!{end}
+
+The Empire's magicians?{06}{07}
+
+We shall not allow you
+into the inner sanctum!{end}
+
+You won't get any further!{06}{07}
+
+Ugh ...!{06}{07}
+
+Argh!{end}
+
+Liana, isn't it?{end}
+
+And where do you think
+you are going, little girl?{06}{07}
+Were you thinking of trying
+to escape from me?{end}
+
+No! Let go!{06}{07}
+Help me, {02}!{end}
+
+You'll be coming with us.{end}
+
+Ahh!{end}
+
+Good ...
+Our mission was a success.{06}{07}
+Let us withdraw.{end}
+
+Yes, Sir!{end}
+
+Why is this taking so long?
+Are the preparations
+almost complete?{end}
+
+No, not yet.
+Please, be a little
+more patient!{end}
+
+Hurry up!{06}{07}
+We have to set sail soon--
+our enemy's right behind us.{end}
+
+Oh no!
+The Imperial Army's warship!{end}
+
+How fortunate!
+We'll take their sails and
+head for Velzeria!{end}
+
+Shit!
+The enemy has
+caught up to us.{end}
+
+How much longer will the
+preparations take?{end}
+
+Umm ... 
+We still need more time.{06}{07}
+There are so many supplies
+to load, and we don't
+have that many soldiers ...{end}
+
+Such inefficiency!{06}{07}
+Get to work scum!
+Don't waste time with your
+worthless excuses!{end}
+
+Sigh ...{06}{07}
+I guess it can't
+be helped then.{06}{07}
+No matter what, we've got
+to buy some more time.{end}
+
+Yes, my Lady.
+I understand.{06}{07}
+We will hold them back, even
+if it costs us our lives!{end}
+
+Let's hurry, {02}.{06}{07}
+Even if we succeed in
+taking their ship, it's still
+going to be a long
+voyage to Velzeria.{end}
+
+You're right.{06}{07}
+Even with a boat like that, the
+Direth Straits will be a struggle
+to cross this time of year ...{end}
+
+The departure preparations
+look like they're going slow.{06}{07}
+Let's commandeer the ship
+while we have a chance!{end}
+
+How are the preparations?
+How close are you?{end}
+
+We've just finished loading
+our weapon stocks.{end}
+
+That's it!?
+Hurry with the rest!{end}
+
+Hurry up with the rest.{06}{07}
+How goes the battle
+for our garrison?{end}
+
+Still not done yet?{end}
+
+Almost everything
+is in the hold now.{06}{07}
+Give us a little more
+time, and we're done!{end}
+
+You screw around,
+and I'll leave you here!{end}
+
+Aye, aye!{06}{07}
+Come on lads!
+Give it all you've got!{end}
+
+Tell me about the battle.
+Report, now!{end}
+
+You're still not done!?{06}{07}
+How ... 
+You must be the world's
+most incompetent crew!{end}
+
+There's no time!{end}
+
+There's no time!{06}{07}
+Put your backs into it!
+For God sakes, hurry!{end}
+
+There's no time!{06}{07}
+Work as though your life
+depends on it--
+because it does.{end}
+
+Ho ho ho!{06}{07}
+It seems we've made it.
+Bye bye, little man!{end}
+
+Shit!
+We're too late ...{end}
+
+It can't be helped ... {06}{07}
+So, loading all this baggage
+is going to take a while?{end}
+
+We're working on it.{06}{07}
+There's still a good deal
+to move aboard.{end}
+
+If they board, I'll have to
+thank that scruffy peasant boy
+for our last encounter!{end}
+
+O, of course, General!{end}
+
+I don't get it ...
+Is she kind to anyone
+besides herself?{end}
+
+Hein, you worry about
+the strangest things.{end}
+
+But that general of theirs
+seems to hate everyone.{06}{07}
+She rails on her own men,
+and even the dock workers--
+those people are working
+hard to save her.{end}
+
+At least the
+Blue Dragon Knights
+battle with honour.{06}{07}
+Imelda and Leon
+are two of the Empire's
+four generals ...{06}{07}
+Yet their behaviour
+is leagues apart.
+They treat their men
+so differently ...{end}
+
+Son of a--!{06}{07}
+You think you can take
+this boat from me?{06}{07}
+It's not going to happen.
+Too bad for you.{end}
+
+You imbeciles!
+Really, how can I
+put up with you!{06}{07}
+The enemy is marching
+right in front of us!
+Get moving!{end}
+
+Yes, Sir!{end}
+
+I'm sorry, General.{end}
+
+There is an old
+wooden box here.{06}{07}
+
+Will you open it?{end}
+
+Obtained Gleipnir.{end}
+
+Oh ...!
+How can I die here ...{end}
+
+Come now.
+There's no need to hurry.{06}{07}
+Opposing me, as always,
+was a deadly mistake.
+Ho ho ho ...{end}
+
+No ...{end}
+
+Ouch--!
+Hey, what are you doing!{end}
+
+Ugh, my old wound is ...{end}
+
+Damn, not bad!
+But I should expect as much
+from the Water Dragon Navy.{end}
+
+How reckless ...
+If you manage to get the
+ship, let me know!{end}
+
+I'll have to practice more.{end}
+
+I can't lose!{end}
+
+Ugh ...{06}{07}
+They really ...
+live up to their reputation ...{end}
+
+Ha Ha Ha--!
+Die! All of you, die!{end}
+
+Eeek!
+W, why ...{end}
+
+Im, Imelda ...{end}
+
+Here I come!
+I'm going to
+pulverise you!{end}
+
+Impertinent fools!{end}
+
+Gah ...!
+I'm being called away ...{end}
+
+Come on, bring it!{end}
+
+General ...
+Imelda ...{end}
+
+Prepare to depart.
+Ready the mast!{end}
+
+This is bad.{06}{07}
+Hurry, now!{end}
+
+Cut the mooring lines,
+and raise the anchor!{end}
+
+There's no time.
+We must win at once!{end}
+
+You should be thankful
+to die by my hand!{end}
+
+Son of a--!
+No one should dare
+raise arms against me!{end}
+
+Gah!{06}{07}
+So ... so beautiful ...{06}{07}
+I'm ... in a far ...
+off place ...{06}{07}
+It's too dark ...{end}
+
+All right,
+time to set sail!{06}{07}
+Next stop, Velzeria!{end}
+
+Raise the anchor!
+Let's catch some wind.{end}
+
+Raise the anchor.
+All aboard!{end}
+
+Until we leave port,
+I'll command the ship!{end}
+
+Ugh ...
+I can't fight like this ...{end}
+
+General Imelda!{06}{07}
+Gah--!{end}
+
+Well, let's go!{06}{07}
+We can't let the enemy
+capture this ship!{06}{07}
+Let's buy General Imelda
+some time!{end}
+
+Yes, Sir!{end}
+
+As we expected.
+It seems General Leon assesses
+his enemies quite well.{end}
+
+Laird ...,
+thanks a lot.{06}{07}
+Next time, leave it to me.{06}{07}
+Please fall back.{06}{07}
+If I let you die,
+I'll never be able to
+face Leon again.{end}
+
+I was of no help ...{06}{07}
+How regrettable ...{end}
+
+That's not true.{06}{07}
+You bought us some
+more time to escape.{06}{07}
+Godspeed, Colonel ...{end}
+
+Yes ...{end}
+
+Please ...
+Please give Leon
+my regards.{end}
+
+This is totally pathetic!{06}{07}
+You're an embarrassment
+to your Navy.{06}{07}
+Don't you take pride
+in being a soldier in the
+Water Dragon Navy?{06}{07}
+If you think you're weak,
+then you should work on a
+concentrated attack!{end}
+
+Yes, Sir!{end}
+
+I'm sorry!{end}
+
+Damn it!
+My division's
+falling apart.{06}{07}
+What useless fools!
+I'll just have to 
+do this by myself!{end}
+
+General Imelda ...{06}{07}
+I'm sorry, but it looks
+like everyone is
+going to die ...{end}
+
+Don't slack off!{06}{07}
+If you die, do it
+delaying our enemy!{end}
+
+Yes!
+Even if it takes my life!{end}
+
+Imelda!
+Th, the troops have
+been annihilated!{end}
+
+Impossible ...
+We can't wait any longer.{06}{07}
+Proceed with the departure!{end}
+
+Yes!
+At once!{end}
+
+Yes!
+Whatever you say!{end}
+
+I've said it before, but we
+don't have enough soldiers
+for reinforcements.{06}{07}
+You were trained to die
+for your General.
+And make no mistake--
+today, die you shall!{end}
+
+Okay ...
+In that case,
+continue delaying them!{end}
+
+Yes!
+Everyone, fight bravely!{end}
+
+All right!
+For our General,
+we must hold the line!{end}
+
+Understood!{end}
+
+Wait, {02}!
+You won't get away
+with this!{end}
+
+Laird is here!
+Of all the times!{end}
+
+Isn't that Laird!?{06}{07}
+You've come to help us?{06}{07}
+I'll have to thank
+you later!{end}
+
+Hmph.{06}{07}
+We're here because
+our General is operating
+independently on a
+covert mission.{06}{07}
+Though our ranks have thinned,
+please allow us to assist you.{end}
+
+Leon must have worried
+to have sent you here.{06}{07}
+Anyway, until the boat
+leaves, please help us
+impede the enemy!{end}
+
+Certainly, General Imelda.{06}{07}
+{02}, you won't be
+going anywhere today.{06}{07}
+Knights, strike
+for General Leon!{end}
+

@@ -1,0 +1,129 @@
+Langrisser ...
+This will be your last errand ...{end}
+
+Langrisser ...
+Seal the power of Alhazard.{end}
+
+The clouds are finally parting.{end}
+
+Alhazard's evil aura
+is no more.{end}
+
+About time ... maybe
+now there can finally be
+peace in El Sallia.{end}
+
+That's right!
+With Alhazard gone, we've
+beaten evil!{end}
+
+No ...
+It's never that simple ...{06}{07}
+Though Alhazard's power
+may be sealed off, that doesn't
+mean war has ended.{end}
+
+Indeed, {02}.
+The Rayguard Empire has been
+reduced to shambles.{06}{07}
+The fractured states will
+begin a new war of unification.
+Such is the way of history.{end}
+
+That's why ...
+I must continue my journey.{06}{07}
+A journey to realise an
+ideal world, where people
+can finally know peace.{end}
+
+You are right ...
+Until that day, our battle
+shall never end.{end}
+
+I'll return to Salrath
+to help my father.{06}{07}
+We will work hard to help
+create an ideal world.{end}
+
+I'll help too!{06}{07}
+With Kalxath and its
+neighbouring nations working
+together, I'm sure we can bring
+peace to the land.{end}
+
+Now you're finally talking
+like a princess. Perhaps I can
+finally retire to quieter life.{end}
+
+Well since Cherie has such a
+crush on me, I'll have to go
+wherever she does! Hee hee.{end}
+
+Why you ...! Hein, you're mean!
+Keith! This is all because of
+you and your big mouth!{end}
+
+If everyone combines his or
+her strength, one day,
+we can make peace happen.{end}
+
+I pray you are right ...
+Well then, everyone, onward!
+Let's bring peace to this age!{end}
+
+Is something troubling
+you, Jessica?{end}
+
+No ...
+It's nothing, Lushiris.{end}
+
+Thanks to {02} and his
+companions, Alhazard and its
+evil power have disappeared.{06}{07}
+However, at the same time,
+Langrisser has also vanished ...{end}
+
+Lushiris, I don't understand
+what you mean.{end}
+
+Sieghart's spirit ...
+His is the soul of Langrisser.{06}{07}
+With the evil powers of
+Alhazard sealed off, his soul
+felt its task had finally ended.{end}
+
+Exactly, Jessica.{end}
+
+That voice is ... Sieghart's!{end}
+
+The sword and I have
+changed much over the last
+several hundred years ...{06}{07}
+The world has been shaped both
+for us and because of us.{end}
+
+Yes ...{06}{07}
+In this war, the humans
+worried about their future
+and took action to make
+their dreams come true.{end}
+
+Just as children separate from
+parents, so humans now
+separate their from their god ...{06}{07}
+Jessica, thank you for
+your service until now.
+But from now on, I would have
+you live your own life.{end}
+
+Thank you, my mission
+has finally ended. Mankind
+has need of me no more.{06}{07}
+But perhaps for a little
+longer, I'll stand watch over
+this new world ...{end}
+
+Sieghart, come ...
+Let us watch together the
+dawn of this new age.{end}
+

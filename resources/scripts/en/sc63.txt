@@ -1,0 +1,550 @@
+Hmmm, ...
+I see I have returned
+with good reason.{06}{07}
+The preparations are complete.
+Here, Rayguard must
+offer its greatest defence.{06}{07}
+{02} ...
+To betray our Empire, you
+are bold, if nothing else.{end}
+
+Forgive me, Egbert.
+I was unable to rally
+them to our cause ...{end}
+
+Does Langrisser really
+pose such a threat?
+It's just a sword, after all.{end}
+
+Langrisser grants the
+sum of light's
+strength to its bearer.{06}{07}
+Its potential is unlimited,
+or so say the legends.{end}
+
+Ah! You have come.{end}
+
+Yes, I've come for Rayguard.
+Sadly, you're on the wrong end
+of Langrisser's vengeance.{end}
+
+Four Heavenly Dragons against
+a weakling and his pet sword?
+I like these odds.{end}
+
+Ever heard of
+quality over quantity?{end}
+
+Idiot. We possess history's
+greatest generals and army.
+Prepare for your execution.{end}
+
+Interesting words.
+Show me what Rayguard can do
+aside from empty boasting!{end}
+
+Our armies differ greatly
+in power and endurance ...{end}
+
+Hee hee hee!
+Looks like you could
+use a hand!{end}
+
+What? That voice ...!?{end}
+
+Long time no
+see, big brother!{end}
+
+Sonya ...
+Why are you here?{end}
+
+In a nutshell,
+I'm here to help you take
+down the Empire.{end}
+
+Why are you assisting us?{end}
+
+Sonya?
+What are you doing here?{end}
+
+B{3a}ser ordered us
+to ally with you.{06}{07}
+His order made me so happy!
+I get to be with brother Rohga!{06}{07}
+And {02}, the redhead?
+B{3a}ser told me all about you.
+Now, let's have some orders!{end}
+
+Sonya joins the entourage!{06}{07}
+
+Esto joins the entourage!{06}{07}
+
+Osto joins the entourage!{end}
+
+So this is B{3a}ser's idea?
+I guess we'll deal
+with that later.{06}{07}
+Right now, let's focus on
+finishing off Rayguard.
+Everyone, work together.{end}
+
+So now B{3a}ser has betrayed us.
+I always did find
+him untrustworthy ...{end}
+
+Three platoons will not
+breach this castle, fools.{06}{07}
+Men, show no mercy.
+Let them know how
+we deal with traitors.{end}
+
+Traitors will not
+go unpunished!{end}
+
+{02} doesn't have many
+friends left. Such a
+delicate force he's brought ...{06}{07}
+I guess they all
+want to die.{end}
+
+Don't underestimate him.
+It's true, we Heavenly Dragons
+possess the Imperial Army.{06}{07}
+But we must consider both
+Langrisser's role in this battle
+and B{3a}ser's support.{end}
+
+Don't underestimate him.
+It's true, we Heavenly Dragons
+possess the Imperial Army.{06}{07}
+But we must also consider
+Langrisser's role in this battle.
+It has impressive potential.{end}
+
+Hmph ...
+Yes, these are worthy thoughts.{06}{07}
+But rest assured, we
+will repel this
+reckless invasion.{end}
+
+The wielder of Alhazard
+can confer great strength
+to demons and monsters.{06}{07}
+We must not allow it to
+fall to the Demon Tribe.{end}
+
+But Alhazard should
+be in His Majesty's
+possession right now.{06}{07}
+There's no one it
+would be safer with.{end}
+
+But His Majesty holds Alhazard.
+With his protection, there's
+probably no need for concern.{end}
+
+B{3a}ser, Prince of Darkness ...{06}{07}
+I'm certain this is just
+another checkpoint in
+his grand scheme.{06}{07}
+The Empire must thwart
+his worthless fantasy.{06}{07}
+Our ideals can prevent
+a nightmarish world!{end}
+
+Something seems to be
+stuck in a hole by your feet.{06}{07}
+
+Will you search the hole?{end}
+
+Obtained Rune Stone.{end}
+
+I will defeat Bernhardt and
+become a supreme ruler.
+You weaklings only hinder me.{end}
+
+Let us pass, Leon!{end}
+
+Hah hah hah.
+You really are mad.{06}{07}
+Do you think I will
+stand aside, let you through,
+just like that?{end}
+
+No, I see this won't be easy.
+We're going to
+break your ranks instead.{end}
+
+Well, well.{06}{07}
+I am the renowned commander
+of the Blue Dragon Knights, and
+from history, I can say this ...{06}{07}
+I do not fall easily,
+and neither do my men!{end}
+
+Damn ... Damn Langrisser!
+The legends must be true ...!{end}
+
+Argh, damn this!{06}{07}
+I knew we couldn't stand
+against all of the
+Empire's finest at once ...{end}
+
+You pest!{end}
+
+Brother!{end}
+
+Damn it!
+I've slain a hundred men,
+and I screw this up?{end}
+
+Big brother,
+watch what I can do!{end}
+
+The Empire's time is over.
+You are nothing but relics that
+should burn in Hell!{end}
+
+The Army of Darkness ...
+Did they plan this betrayal
+from the beginning?{end}
+
+Master B{3a}ser serves no one.
+We had only our reasons for
+cooperating with the Empire!{end}
+
+Are you okay, Sonya!?{end}
+
+Sorry, I'm, I'm wounded ...
+Permission to retreat!{end}
+
+{font3}B{3a}ser ... requests
+that we aid you.{end}
+
+Esto!
+Everything all right?{end}
+
+{font3}Oooohhh ...!
+Wounds are so painful ...
+I'll step back ... for now.{end}
+
+All right, Osto.
+Remember this and think of
+your glory to come!{end}
+
+{font3}I understand ...
+I will kill everyone who
+opposes the master.{end}
+
+{font3}Ooohh--!{end}
+
+{font3}Beaten by
+lowly humans.
+Arrgghh ...!{end}
+
+{02}!{06}{07}
+I don't know what
+you're trying, but it won't
+happen with three commanders
+and a few men.{end}
+
+With Langrisser in
+hand, uniting the continent
+is no longer a dream.{06}{07}
+I have the means to rule.
+Now, all that remains
+is to remove the Empire.{06}{07}
+You always had the power,
+but never the support.{06}{07}
+After destroying you, the
+independent nations
+welcome us or bow down.{end}
+
+It's true, if you three alone
+defeated the Empire, then
+all would willingly capitulate.{06}{07}
+But such fantasies
+exist only in
+your addled brain.{end}
+
+So we're harmless, then?
+Let us test that theory.{06}{07}
+I know you want Langrisser.
+Just come and get it.
+It's right here.{end}
+
+Oh ...?
+I guess it's best if
+you keep quiet.{end}
+
+Damn you, B{3a}ser.
+What exactly are you
+trying to accomplish?{end}
+
+The resurrection of
+Alhazard, perhaps?{06}{07}
+We, after all, hold both
+the Dark Blade and Dark Rod.{end}
+
+Damn, so you're intending
+to unlock Alhazard's evil?{06}{07}
+One more reason to
+make sure you
+do not leave here.{end}
+
+Oh, oh no ...
+I ... Uggh--!{end}
+
+Arrghh ... So vicious ...
+You're not a
+saint, that's for sure ...{end}
+
+No one betrays
+the Empire!{end}
+
+Uugghh, at this rate ...
+We'll ... Argh--!{end}
+
+Step down, Laird.
+I'll take care of this.{end}
+
+Yes, Sir ...
+My apologies.{end}
+
+Oh hoh hoh.
+Such arrogant little boys.{06}{07}
+It's time for
+your punishment!{end}
+
+Remember this
+on your way to Hell!{end}
+
+I never liked you, {02}.{06}{07}
+And I'll take revenge
+for Zorum right here.{end}
+
+I cannot die yet,
+not in a place like this ...{end}
+
+Do you think
+the Sword of Light
+is a mere toy?{end}
+
+So B{3a}ser betrayed us.{06}{07}
+I suspected it would happen,
+but why now ... He could not
+have chosen a worse time.{06}{07}
+It is a certainty.
+His goal is Alhazard
+and nothing else.{end}
+
+So you have Langrisser.
+Let's see what it can really do.{end}
+
+We must let B{3a}ser
+know that Alhazard's seal
+cannot be broken.{06}{07}
+But do not forget,
+we must return
+to His Majesty alive ...{end}
+
+What the!?{end}
+
+With Langrisser's might,
+and B{3a}ser's allegiance ...
+Damn you, {02}.{06}{07}
+I must inform
+His Majesty of these
+developments.
+I can't die here.{end}
+
+Our glorious capital ruined ...
+Those wretches will pay
+for this with their blood!{end}
+
+My aerial kill technique ...
+It never fails.{end}
+
+So, {02}, you have
+three halfwit commanders
+and a few dozen men.{06}{07}
+And you're planning to lay
+siege to the capital,
+the stronghold of Rayguard?{06}{07}
+Hah hah hah hah hah!
+You can't pay for this
+kind of entertainment.{end}
+
+Arrrgghh--!{end}
+
+Uuugghhh--!{end}
+
+For glory ...
+and honour ...{end}
+
+All rebels ... must die!{end}
+
+My magic is ...
+far stronger than this ...!
+Aaarrrggghhh--!{end}
+
+This is too convenient.
+Why have you decided to
+betray the Empire?{end}
+
+Hee hee hee ...
+It's Master B{3a}ser's orders.{06}{07}
+B{3a}ser only cooperated
+with them to get
+Alhazard unsealed.{end}
+
+Alhazard ...!?{end}
+
+Are you okay?
+Sonya?{end}
+
+Are you okay?
+Sonya?{end}
+
+Oh, ... I'm fine.{06}{07}
+We can't give up any ground
+or we won't stand a chance.{06}{07}
+The Demon Tribe will create
+a brand new world free from
+hatred and oppression ...{06}{07}
+Until then, we have
+to hold on and fight!{end}
+
+How about that!
+You recognise our
+superior strength?{06}{07}
+If you were a little quicker,
+you might have lived.{end}
+
+Obnoxious scum!{end}
+
+Sonya ...{06}{07}
+I've been searching ever
+since the day you disappeared.{06}{07}
+I had to return home on a job,
+but there wasn't a damn thing.
+Just a blasted wasteland.{06}{07}
+When the fighting started,
+you ran off without a word ...{end}
+
+I'm sorry, Brother.
+I really had no
+choice back then.{06}{07}
+Everyone was dying ...
+Since Brother was so busy far
+away, no one protected me.{end}
+
+One more thing, Brother!
+Didn't you and your friends
+try to capture me?{end}
+
+I granted permission.
+We were hoping to help
+you change your mind.{06}{07}
+Will you ever give up your
+grudge against humans, Sonya?{06}{07}
+I'm sorry if you were hurt
+by my lack of discretion.{end}
+
+If Brother fights for our cause,
+I won't worry about
+his working with humans.{end}
+
+What about at the village
+a while back? Why did you
+decide to run away?{end}
+
+Because ...
+Brother showed up allied
+with humans ...{06}{07}
+Master B{3a}ser would
+have been angry with me
+if I acted freely.{end}
+
+I was always worrying
+about my Brother ...{end}
+
+Hmph, well, no worries now.
+From here on, we'll
+always be together.{end}
+
+All right! 
+I get to fight alongside
+big brother Rohga!{end}
+
+By the way, since B{3a}ser
+directed your assistance here,
+can you tell us about him?{end}
+
+Ah, I see ...{06}{07}
+So you used the Empire
+to help B{3a}ser find Alhazard?{end}
+
+Are you all right, Sonya?
+Pull yourself together!{end}
+
+Uugghh ... Brother ...{end}
+
+How careless of me ...{end}
+
+I'm sorry ...
+I've failed, Brother.{end}
+
+Are you okay?
+Pull yourself together!{end}
+
+S, sorry ...{end}
+
+Don't say that.
+Your help turned this
+battle to our favour.{06}{07}
+Thank you.{end}
+
+Thank you ...
+for your words ...{end}
+
+So you're here because
+B{3a}ser willed it?{06}{07}
+Then, please.
+I'd like you to tell
+me about B{3a}ser.{end}
+
+Oh? So you used
+the Empire to
+help you find Alhazard?{end}
+
+Now, we will put an end
+to Bernhardt and
+take back the Dark Blade.{06}{07}
+Sonya, Esto, and Osto,
+your help is appreciated.
+Together, we will succeed.{06}{07}
+Victory will be ours!
+On to Castle Rayguard!{end}
+
+B{3a}ser is the master
+of the Demon Tribe.{06}{07}
+The world may know him
+as the Prince of Darkness,
+but he's a very kind person.{06}{07}
+He saved my life and
+looked after me ...{06}{07}
+He treats the Demon Tribe with
+compassion, and he once told
+me there is no reason for war.{06}{07}
+To bring peace to
+humans and demons, he
+needs the sword to govern
+the darkness, Alhazard.{end}
+
+B{3a}ser holds one secret
+to unlocking Alhazard's seal.{06}{07}
+And I believe the
+Kaiser possesses Alhazard
+and the Dark Rod.{end}
+

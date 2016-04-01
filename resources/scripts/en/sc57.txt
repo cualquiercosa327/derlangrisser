@@ -1,0 +1,613 @@
+...{end}
+
+What's wrong, Liana?{end}
+
+Liana ...?{end}
+
+Ah ... {06}{07}
+Nothing, really.
+Nothing at all.{end}
+
+It's hard, isn't it, Liana?
+Having to fight him ...{end}
+
+But, Sister ...{06}{07}
+You too ...
+Having to fight Leon ...{end}
+
+Since B{3a}ser captured me,
+I've lived a life of
+darkness and servitude.{06}{07}
+Of course, everyone
+distrusted and loathed me ... {06}{07}
+But he, Leon, was
+the only one who treated
+me with kindness. {06}{07}
+He knew all along
+that I was acting under
+B{3a}ser's control ...{end}
+
+...{06}{07}
+You two need not fight
+against your will.{06}{07}
+If you wish to
+return to their side,
+I won't stop you ...{end}
+
+I'm all right, really!{06}{07}
+Since my release from B{3a}ser,
+I've done a lot of thinking. {06}{07}
+I'm a Descendant of Light,
+and B{3a}ser taught me
+to hate our way of life ...{06}{07}
+But now that I'm free,
+I've chosen to fulfil my duty.{06}{07}
+Even if I must fight
+those I love ...{end}
+
+Sister ...{end}
+
+However, Liana ...{end}
+
+{02} ...{06}{07}
+You're a Descendant of Light.
+Why have you chosen
+to follow the Empire ...? {06}{07}
+Lady Jessica,
+why has {02} ...?{end}
+
+As the Descendants of Light,
+we, in good faith,
+attempt the task before us. {06}{07}
+But crushing darkness
+through force may be superior
+to our methods ...{06}{07}
+These days, I've
+often considered that ...{end}
+
+Lady Jessica ...{end}
+
+I, too, wish to
+carry out my duty as
+the Maiden of Light. {06}{07}
+But I just can't ...
+I can't fight him like this.
+That's why ...{end}
+
+...{end}
+
+That's why I want
+you to erase my memories! {06}{07}
+I wish to forget ...,
+I wish to forget {02}!{end}
+
+Liana ...{end}
+
+I see ...{06}{07}
+Then in accordance with
+with her wishes, I shall purge
+Liana's memory ...{end}
+
+Oh, god of time, knowledge,
+and mercy! Wipe her mind
+clean of strife and sadness.{06}{07}
+{font4}La Halig Leoht ...
+Claensian Sinre Gemynd!{end}
+
+What ...?
+What am I doing here ...?{end}
+
+Liana ...
+You went that far ...?{end}
+
+Lady Jessica, watch out!{06}{07}
+The enemy has finally
+made its way here ...{end}
+
+The top of Twin Castle ...
+What a structure.{end}
+
+By taking the central passage,
+we've divided our forces. {06}{07}
+In this situation,
+our commanders will
+prove their worth.{end}
+
+We need to capture the
+two Maidens, correct?{end}
+
+That's right.
+They'll be no good
+to us dead.{06}{07}
+Always remember that.{end}
+
+Easier said than done ...{end}
+
+I have some magic that
+should simplify this.{06}{07}
+Cover me while I make
+my way to their position.{end}
+
+If you want my opinion,
+we should get rid
+of that woman, Jessica.{06}{07}
+She looks to be the
+head of their group.{end}
+
+Whatever works for you.
+We just need to
+retrieve the Maidens safely.{end}
+
+You two ...
+Please don't overdo it.{end}
+
+No, in order to fight them,
+we must use all our strength.{end}
+
+I will honour my duty ...
+As the Maiden of Light,
+I'll fight until the end.{end}
+
+So, you're finally here. {06}{07}
+I suppose this is
+the end for us.{end}
+
+By the way, the princess ...?
+What's happened
+to Princess Cherie?{end}
+
+I don't think there's any way
+she would surrender.
+Hence, she's probably ...{end}
+
+Damn it!
+This battle is for
+you, Princess!{end}
+
+Aaahhhh!
+Get them!{end}
+
+With darkness
+destroyed, there's no longer
+an enemy to fight. {06}{07}
+But if you insist on
+governing by force ...
+We'll make sure you're worthy!{end}
+
+It seems we're the
+only ones left ...{06}{07}
+Liana, L{37}na, please
+escape while you can.{end}
+
+No, Lady Jessica!
+Why would you
+say such a thing!?{end}
+
+I feel the same ...
+We will fight until the end
+as Descendants of Light!{end}
+
+Very well ...
+Then let's give them
+everything we have!{end}
+
+Lady Jessica ...
+No, I'll refer to you as
+I did, as Master.{end}
+
+Egbert ...{end}
+
+Consider this, Master.
+You cannot win.
+Won't you surrender?{end}
+
+It is a Descendant's
+duty to keep Langrisser from
+the wrong hands.{06}{07}
+I reject your offer.{end}
+
+Heh heh heh ... 
+How interesting.{06}{07}
+Your refusal, at least,
+brings me a small pleasure.{06}{07}
+I've always dreamt of a
+wizard's duel with you ...{06}{07}
+And I've learnt much since
+your tutelage, Master Jessica,
+as I'll be pleased to show!{end}
+
+You open the treasure
+chest to find a crimson lance.{06}{07}
+
+Will you take the lance?{end}
+
+Obtained Inferno Lance.{06}{07}
+
+You hear a lock being
+closed somewhere else.{end}
+
+You open the treasure
+chest to find a stone.{06}{07}
+
+Will you take the stone?{end}
+
+As you take the stone,
+it emits a mysterious power.{end}
+
+Obtained Rune Stone.{06}{07}
+
+You hear a lock being
+closed somewhere else.{end}
+
+This is a new era ...
+And we, the people, should
+fashion a new world to meet it.{end}
+
+I wish to test you,
+if you think you're so worthy!{end}
+
+That ... that was it!?
+Life is so fleeting ...{end}
+
+Gahh--!
+I've been killed ...{end}
+
+Argh! I can't believe I lost
+to a bunch of punks!{end}
+
+L{37}na, forgive me.{06}{07}
+Even if I'm an Imperial soldier,
+I do not wish to fight you.{end}
+
+Please don't let it bother you.
+I'm no different, ... since
+I am a Descendant of Light.{end}
+
+I'm sorry ...{end}
+
+Damn! {02},
+take care of the rest!{end}
+
+Well aren't you hot stuff?
+I'm out of here!{end}
+
+I've failed ...{end}
+
+With my magic,
+I shall remove the shackles
+on my master ...{06}{07}
+Those known as 
+the Descendants of Light!{end}
+
+Master, before my
+death, I've always wished
+to duel with you. {06}{07}
+With the legendary sorceress
+who returned from beyond ...{end}
+
+Of all my students,
+you possessed
+the greatest talent.{06}{07}
+Why did you waste it
+serving a tyrant?{end}
+
+In truth, I studied your magic
+to banish the darkness.{06}{07}
+With that goal complete,
+I pursue greater aims ...{06}{07}
+And wish to explore
+the limits of my power.{end}
+
+It seems you've acquired
+more power than
+you're fit to handle.{end}
+
+What ...?
+My magic was ineffective.{end}
+
+That's enough ...{end}
+
+Egbert, it was just 
+a little longer ... {06}{07}
+You could have brought
+peace with the Descendants.{06}{07}
+If you'd waited for us,
+we'd have welcomed you.{end}
+
+I'm sure my master is already
+aware of the reasons. {06}{07}
+In forbidden research,
+I was nearly
+possessed by demons.{06}{07}
+My master would have me
+face these creatures.
+A terrifying prospect ...{06}{07}
+I knew our strength was not
+sufficient, and so, I chose
+to aid His Majesty's Empire.{06}{07}
+I had, at least, the power
+and public favour to do that!{06}{07}
+Hmph, it seems my
+speech has gotten a bit lengthy.
+We should finish things.{end}
+
+Aaahhh! No ...
+I'm finished too ...{06}{07}
+With darkness defeated,
+I guess the world ...
+no longer needs Descendants ...{06}{07}
+Maybe ... this was destiny ...{end}
+
+...{06}{07}
+Master, you've fulfilled
+your duties admirably.{06}{07}
+Please rest in peace ...
+and leave this
+world in our hands.{end}
+
+Farewell, Jessica ...{end}
+
+So this is the end of the
+Descendants of Light?{06}{07}
+With this, we shall
+witness a new world ...{end}
+
+Liana ...
+I've never wanted to fight you.
+Please, give this up.{end}
+
+I am the Maiden of Light ...
+Even if it costs my life,
+I shall not abandon my duty!{end}
+
+Aaaahh!{end}
+
+Liana!{end}
+
+Thank the goddess ...
+You were not hurt.{06}{07}
+I knew ... I knew I ...
+couldn't bring myself to ...
+defeat ... you ... {06}{07}
+Because I've always ...
+always ... {02} ...{end}
+
+{02} ...?
+I, I ... why ...
+am I ... fighting ...?{end}
+
+Liana ...!{end}
+
+Goodbye, {02} ...
+I love ... you.{end}
+
+Liana!{end}
+
+How could this have happened?
+With Liana killed, we won't
+be able to reseal Alhazard ...{end}
+
+I can't do it.
+I can't fight him ...{end}
+
+Ugh!
+N, no ...{end}
+
+L{37}na ...{end}
+
+You can't die, L{37}na!{end}
+
+Thank you for
+everything, Leon.{06}{07}
+When I was under B{3a}ser's spell,
+you told everyone it
+wasn't me doing those things ...{06}{07}
+I ... will never ... forget ...
+your ... kindness ...{end}
+
+Forgive me, L{37}na.
+Rest in peace ...{end}
+
+There's nothing we can do.
+Our mission's a failure ...{06}{07}
+How could we have let the
+Maiden of Darkness die?{end}
+
+Arrrgghhh!
+I won't lose!{end}
+
+You think I've ... lost ...?{end}
+
+My power is ... fading ...{end}
+
+I can't ... die!
+Our kingdom ...{end}
+
+It's all over for me, too.{end}
+
+I beg your pardon,
+Lady Jessica.{end}
+
+Arrrggghhh!
+My, my arm!{end}
+
+At least ... 
+I still have a weapon ...{end}
+
+Gaahhh--!{end}
+
+You will not pass!{end}
+
+L, Lady Jessica ...{end}
+
+This tower's troops have
+been utterly destroyed ...{06}{07}
+I would never have thought
+they'd be this powerful ...{end}
+
+I no longer feel
+Cherie's presence.
+They've probably ...{end}
+
+{font4}Ecwyose Heolde Lufe!{end}
+
+Ah, excellent.
+This has simplified things.{end}
+
+All that remains is
+to challenge my master ...{end}
+
+Who ... are you ...?{end}
+
+Liana?
+You don't know
+who I am?{end}
+
+Uuugghh ...
+Please, just go away!{end}
+
+{02}!?
+Why, have I ...?{end}
+
+My spell has been broken!?
+How ...?{06}{07}
+No, there's only one way.
+Liana must ...{end}
+
+Liana!
+Do you know who I am!?{end}
+
+{02} ...{06}{07}
+Lady Jessica sealed
+my memory, but I still ...
+remember you ...{end}
+
+Your memory was
+sealed, but your heart
+still longs for him.{06}{07}
+Those feelings must
+run very deep ...{end}
+
+Liana, I ...{end}
+
+No ...! 
+I am the Maiden of Light.{06}{07}
+Protecting Langrisser ...
+is my duty! That's why, I ...
+Aaahhh ...!{end}
+
+Why ...
+Why are we enemies? {06}{07}
+I don't want to fight,
+but you left us ...
+You abandoned me ...{end}
+
+But, Liana!
+That ...{end}
+
+It's all right, I understand.
+This world can be cruel ...{06}{07}
+Let's do battle, {02},
+and see whose ideal wins!{end}
+
+I wonder why ...
+when I want to fight you ...
+I ... cry ...{end}
+
+You erased your memories? {06}{07}
+I don't understand ...!
+Why would you do that?
+Why must we fight at all!?{end}
+
+This ... It's too painful ...
+Don't talk to me!{end}
+
+What do you mean?
+Are you saying you 
+have no idea who I am?{end}
+
+Now then, you two
+will be coming with me.{end}
+
+...
+We've lost, haven't we?{end}
+
+L{37}na ...{end}
+
+I understand ...
+I won't resist ...{end}
+
+I'll be taking you
+with me, L{37}na.{end}
+
+It looks like there's
+no alternative ...{end}
+
+We have the Sword of Light,
+the Sword of Darkness,
+and Maidens for each.{06}{07}
+An impressive collection!
+We're finally finished.{end}
+
+And yet there remains
+much to be done ...{06}{07}
+A new era dawns!
+Let us return to the
+Imperial Capital!{end}
+
+We have both swords
+and both Maidens,
+all that's needed.{06}{07}
+A new era begins now!{06}{07}
+Let us return to the
+Imperial Capital.{end}
+
+We have both swords
+and both Maidens.
+Our mission is finished.{end}
+
+I pains me to say it ...
+Without both
+of the maidens ...{06}{07}
+Alhazard shall never
+be able to be sealed again.{end}
+
+What worthless luck.
+We have both swords ...{06}{07}
+If only we could have
+taken the Maidens, too ...{end}
+
+It was a very ambitious goal.
+Perhaps we were
+just being unrealistic ...{06}{07}
+From here on, we must act
+as Alhazard's guardian.{06}{07}
+It must never again
+fall into evil hands.{end}
+
+That's right.
+Now, to the Imperial Capital!{end}
+
+Now, let's return
+to our Imperial Capital!{end}
+
+Ah, Maiden of Light.
+Come to me!{end}
+
+Wh, what are you ...?{end}
+
+Heh heh heh ...
+Only the Maiden of Light
+now remains.{06}{07}
+This should prove easy enough.{end}
+
+So, Maiden of Darkness.
+Come to me!{end}
+
+Ah, no thank you ...{end}
+
+Heh heh heh ...
+Only the Maiden of Darkness
+now remains.{06}{07}
+This should prove easy enough.{end}
+

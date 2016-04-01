@@ -1,0 +1,916 @@
+I understand the situation.
+But ... is sealing Langrisser
+the right thing to do?{end}
+
+B{3a}ser has been defeated--
+Alhazard lies in human hands.{06}{07}
+I can't foresee Langrisser
+Being any use to us now ...{06}{07}
+Sieghart forged
+the Holy Blade to combat
+Alhazard. The best choice
+would seal them both.{end}
+
+...{end}
+
+What's wrong, Liana?{end}
+
+Ah ... {06}{07}
+Nothing, really.
+Nothing at all.{end}
+
+It's hard, isn't it, Liana?
+Having to fight him ...{end}
+
+...{06}{07}
+You need not fight
+him against your will.{06}{07}
+If you wish to
+return to {02}'s side,
+I won't stop you ...{end}
+
+{02} ...{06}{07}
+You are a Descendant of Light.
+Why have you chosen
+to do all you've done ...? {06}{07}
+Lady Jessica,
+why has {02} ...?{end}
+
+Perhaps Lushiris knows.
+What's your opinion, Goddess?{end}
+
+The role of the Descendant
+exists to repel darkness.
+This is its ordained purpose.{06}{07}
+Humans may combat darkness
+without aid, but this
+requires tremendous will.{06}{07}
+{02} may stray from
+destiny to prove to us what
+a lone human can do.{end}
+
+Lushiris ...{end}
+
+I, too, wish to
+carry out my duty as
+the Maiden of Light. {06}{07}
+But I just can't ...
+I can't fight him like this.
+That's why ...{end}
+
+...{end}
+
+That's why I want
+you to erase my memories! {06}{07}
+I wish to forget ...,
+I wish to forget {02}!{end}
+
+Liana ...{end}
+
+Oh, god of time, knowledge,
+and mercy! Wipe her mind
+clean of strife and sadness.{06}{07}
+{font4}La Halig Leoht ...
+Claensian Sinre Gemynd!{end}
+
+What ...?
+What am I doing here ...?{end}
+
+Liana ...
+You went that far ...? {end}
+
+Well, the spell
+seems to have worked.{end}
+
+This is ...
+the celestial realm?{end}
+
+We have outdone ourselves.
+How many mortals can say
+they have visited the gods?{end}
+
+That's ... That's Lushiris ...!
+The Goddess of Light!{end}
+
+Ah, Liana is here too.{end}
+
+Too late ...
+If only the sealing was
+a little faster.{end}
+
+You won't be sealing anything.{06}{07}
+I am uniting this
+continent, and every bit of
+opposition has failed.{06}{07}
+Are you going
+to try your luck?{end}
+
+Please step back, Lushiris.
+We can take care of them!{end}
+
+...{06}{07}
+Very well.{end}
+
+All units, move into position!
+Prepare to intercept!{end}
+
+How dare you desecrate
+Lushiris's haven!
+I won't allow this!{end}
+
+You won't pollute
+Lushiris's holy ground!{end}
+
+I respect your decision, ...
+but I will not allow you to die.{end}
+
+Wait, Lushiris!{end}
+
+Do not worry.
+I must test their strength.{end}
+
+Slumbering hero who
+lies within my memory, I call
+upon your might ...!{06}{07}
+{font4}Wreccan Fram Thin Slaepe,
+Hatte The Lifde, Ledin!{end}
+
+Ledin, King of Baldea.
+I bid you welcome.{end}
+
+"Ledin" alone is fine.
+It has been ages since last
+we met, Jessica.{end}
+
+How many centuries have
+passed since we liberated
+El Sallia from the darkness?{06}{07}
+Oh, Jessica, I see some
+things never change.
+You look as beautiful as ever.{end}
+
+That voice ...!{06}{07}
+King Sieghart ...
+Wasn't your soul bound
+within Langrisser ...?{end}
+
+Naturally, he
+isn't the true prince
+you once served.{06}{07}
+He is but shadows and dust
+conjured from my
+infinite memory of this world.{06}{07}
+I think, however, you shall
+find my memory is quite good.{end}
+
+So, this time, even the
+Goddess of Light herself
+has gotten involved.{06}{07}
+Don't worry, I don't mind.{06}{07}
+I am this world's supreme
+champion, and, after this,
+all will know it!{end}
+
+{02}, do as you will.
+Come at me with all you have.{end}
+
+Liana, will you come with us?
+What do you say?{end}
+
+Who are you?
+How do you know me?{end}
+
+Wh, what ...?
+Liana ...{06}{07}
+What's wrong?
+Surely you recognise me?{end}
+
+No ... I only
+recognise that you are
+an enemy of Lushiris!{end}
+
+This is it, your last chance.
+It's not too late to surrender.{end}
+
+I'm an old-fashioned woman.
+I finish what I start.{end}
+
+Why can't you understand!?{end}
+
+Leon ...,
+did you kill him?{end}
+
+Yes.{06}{07}
+No matter the odds, he
+refused to capitulate.
+He met a glorious end.{end}
+
+He was so kind ...
+How could you ...!{end}
+
+Well, first off, the guy just
+wouldn't stay dead no
+matter how often we killed him.{06}{07}
+Second, he refused surrender
+about two dozen times.
+I kept killing a few more
+of his men and asking again.{06}{07}
+...{06}{07}
+I'm just messing with you.
+He is alive but
+severely injured.{06}{07}
+You are lucky he's such an
+extraordinary guy. Any
+ordinary man would be dead
+after what he has been through.{end}
+
+Ah, ... thank goodness.
+I can't allow my emotions to
+get the better of me ...{end}
+
+So, are you trying to
+reclaim the sword's power?{end}
+
+If you lose Langrisser,
+you shall not rule this land.{end}
+
+Don't bet on it.{06}{07}
+You deities are all so
+narrow-minded--pitting the
+El Sallians against each other
+in a continental chess game.{06}{07}
+I may be fighting the
+"Goddess of Light," but I
+have much bigger plans in
+store for this world.{06}{07}
+I will cleanse the world of
+the fragmentation, racism and
+war that you, Chaos and your
+kind have reigned on us!{end}
+
+{02} ...
+You flow with my blood.{end}
+
+Wh, what did you say!?{end}
+
+I'm your ancestor, {02}.
+My blood flows within you.{06}{07}
+{02} ...
+Why have you abandoned your
+role as my Descendant?{end}
+
+I destroyed B{3a}ser
+with my own strength.
+The strength of will.{06}{07}
+The Descendants of Light
+no longer have any
+place in our great world.{06}{07}
+Humans are strong enough
+to bring this world
+peace without the
+meddling deity you serve.{end}
+
+A battle to
+end all others ...{06}{07}
+{02}, you and I once
+shared the very same thoughts.{06}{07}
+Jessica, Narm, Hawking,
+Thorn, Albert, Lance ... Chris.
+We fought B{3a}ser and sealed
+away the darkness.{06}{07}
+Afterwards, I took the throne
+of Baldea and peace reigned
+in the land for my lifetime.{06}{07}
+But peace under a
+leader ends with that leader.{06}{07}
+You claimed Langrisser from
+the ruins of my castle.
+That throne once ruled over
+the land you now try to unite.{06}{07}
+You won't live
+forever, and the peace
+you create today will, in
+the end, die with you.{end}
+
+Ledin, what you
+say is very true ...{06}{07}
+I am but one man,
+but if I can deliver the
+world from chaos and terror
+for even a short while ...{06}{07}
+If it can even taste true peace,
+then I will have done
+better than any of these "gods."{end}
+
+Are you the one responsible
+for the Descendants inheriting
+this worthless goddess' will!?{end}
+
+Long ago, when I was a boy,
+B{3a}ser took advantage of a
+massive war amongst humans.{06}{07}
+Like a virus, he assaulted us
+when we were vulnerable
+and at each other's
+throats in intrigue and hate.{06}{07}
+In order to stand a chance,
+the people joined their hearts
+and crafted a holy sword.{06}{07}
+This weapon, Langrisser, had
+the power to smash darkness,
+but it required protection.{06}{07}
+Throughout the ages, there
+have been people who would
+use the sword for their own
+ends against fellow man.{06}{07}
+The Descendants of Light
+exist to see that these
+men never lay their
+hands on the holy blade.{end}
+
+We already possess Alhazard!{06}{07}
+With B{3a}ser dead and
+Alhazard in the hands of
+humans, the mission of the
+Descendants has ended!{end}
+
+Then show me your power.{06}{07}
+I shall see if you have
+the strength to bring
+this peace you speak of.{end}
+
+So you would
+doubt my abilities ...?{end}
+
+Why must we fight ...?{06}{07}
+Back then, I wanted
+you to teach me magic ...{end}
+
+Hein, do you not see
+how much your
+ability has grown?{06}{07}
+You no longer need a master.
+Show me what you have learnt.{end}
+
+I'd really rather
+not fight you, Liana ...{end}
+
+Why not ...?
+How do you know me?{06}{07}
+If I don't fight, I cannot
+fulfil my role as a Descendant!{end}
+
+You truly are the
+spitting image of Liana!{end}
+
+Oh well ...
+I've never given any
+leeway for looks.{end}
+
+But keep your spirits up!{end}
+
+Will we be okay ...?{06}{07}
+You know, picking a fight
+with a goddess ....
+that's serious business.{end}
+
+So you made your choice?
+Well then, come at me!{end}
+
+I never dreamt of battling
+such legends!
+And I'm not going to lose!{end}
+
+I knew coming here
+was going to be a mistake ...{end}
+
+If you make it out alive,
+I may tell you something!{end}
+
+Crude scoundrel.{end}
+
+I don't particularly
+enjoy hurting women.{06}{07}
+Why don't you just surrender?{end}
+
+Why would I surrender!?
+I will never capitulate!{end}
+
+Probably ...{end}
+
+Just surrender!
+Leon would want you to!{end}
+
+How dare you say that!
+You ... You killed him!{end}
+
+Leon ...
+What happened to him?{end}
+
+It's unfortunate, but I am
+guessing that guy
+is probably still alive.{06}{07}
+That guy ...
+He fought like a steel dragon.{end}
+
+General Leon ...
+you were so kind, even when
+B{3a}ser controlled me ...{06}{07}
+I will avenge you!{end}
+
+I am certain he is hurt,
+but he is not dead.{end}
+
+Is that so?
+Then I can fight without worry.{end}
+
+Hah ... have I
+really become this strong?{06}{07}
+I am actually
+battling a goddess.{end}
+
+So, King of Baldea,
+I just wanted to let you know,
+we have your sword.{06}{07}
+Langrisser is ours.{end}
+
+Should I be afraid?
+You cannot possibly
+harness its power.{06}{07}
+Langrisser can only be wielded
+by a Descendants of Light
+who has accepted his destiny!{end}
+
+Shut up!{end}
+
+Battling heroes of legend ...
+What unthinkable opportunity!{end}
+
+Come ...{end}
+
+Damn it!
+Is this the end for me!?
+Damn it!{end}
+
+You will die here!{end}
+
+This is a chance
+to stain my sword with
+the blood of a god!{06}{07}
+I wonder what colour
+goddesses are on the inside?
+Maybe blue?{06}{07}
+Hmmm ... it's not as strange
+an idea as I'd imagined.{end}
+
+Aaaahhh--!
+This is too much ...{end}
+
+{font3}Even in god's dwelling,
+we will not lose.{end}
+
+{font3}Uuuggghhh--!{end}
+
+{font3}I will use all
+my strength!
+For Sonya!{end}
+
+{font3}T, this world
+is different ...{end}
+
+Lushiris ...
+Was I wrong?{06}{07}
+If the power of humans
+has grown this strong, surely
+their hearts can ...?{end}
+
+...{06}{07}
+Anything is possible.
+It all depends on him ...{end}
+
+Goddess ...
+I have failed in my mission.{06}{07}
+How was it ...
+How was it I was blind to
+the strength of humans ...{06}{07}
+Theirs is the ability
+to forge a new reality in the
+flames of raw will ...{end}
+
+That's right!
+How could I give up!?
+I definitely can't!{end}
+
+We cannot allow
+them any further!{end}
+
+Stop it, Liana!{end}
+
+A response is futile!{end}
+
+Aaaahhh--!{end}
+
+Are you okay!?
+I'll treat you at once ...{end}
+
+No ...,
+Oh, {02} ...{06}{07}
+{02}, this is ...
+I'm sorry, but this time, ...
+I, I'm dying.{06}{07}
+Still ... I am so hap ...
+happy that {02}'s
+dream can come true.{06}{07}
+I want you ... promise ...
+Please promise me ...
+You will bring lasting,
+real peace to our world ...{end}
+
+Liana ...
+I promise you.{06}{07}
+I swear it!{end}
+
+Thank you ... 
+I never wanted ... to fight ...
+Never thought ... defeat ...{06}{07}
+But I ...
+Oh {02} ... I'm sorry.
+I always loved you ...
+{02} ...{06}{07}
+Wanted us to ...
+be ... tog--{end}
+
+{02} ...{06}{07}
+Why ...
+Why couldn't I ... have ...
+be-- ... with you ...{end}
+
+Have your memories returned?
+Don't speak, Liana!
+I'll tend to your wounds ...{end}
+
+No ...,
+Oh, {02} ...{06}{07}
+{02}, this is ...
+I'm sorry, but this time, ...
+I, I'm dying.{06}{07}
+For just a short ...
+Hack! Cough ...
+A short time we were ...
+Could have ...{06}{07}
+Good bye ...
+my ... love ...
+My {02} ...{end}
+
+Liana, no!
+Oh my ...! Please!{06}{07}
+Liana!
+Open your eyes, Liana!
+You have to!{06}{07}
+Liana, open your eyes!
+If you can't ...
+How can I show you the
+new world we will create!?{end}
+
+Sieghart's soul lies
+bonded within Langrisser.{06}{07}
+It is said to contain
+unlimited power. However ...{end}
+
+How dare you kill Leon!?
+I won't let you
+get away with it!{end}
+
+Thank you ...
+for sparing Leon.{end}
+
+Don't thank us.
+We don't know what's
+still to come.{end}
+
+For Leon!{end}
+
+I, I abandon my duties as
+a Descendant of Light!{end}
+
+Why? You have no
+reason to abandon them.{end}
+
+I may have been your ally
+under B{3a}ser's control,
+but I am your enemy now!{end}
+
+I'm fighting for humans
+and demons to co-exist!{06}{07}
+There is nothing wrong
+with that dream, no matter
+what anyone says!{end}
+
+So this was my reward
+for slaving under B{3a}ser ...
+But now ...{end}
+
+You did well to come this far.
+I knew you were competent,
+but to be present here ...{06}{07}
+Well, enough contemplation.
+Show me what humans can do.{end}
+
+Taste my power!{end}
+
+The Descendants of Light
+have truly become useless.
+Entrusting it to you ...{06}{07}
+I, at least, shall be
+the one to test your might!{end}
+
+Aaaaahh--!{end}
+
+H, how could you have ...
+Wielding Langrisser ...?{06}{07}
+{02}, I will tell
+you something important.
+Langrisser responds to the
+heart of its wielder.{06}{07}
+For you to have done
+this ... It may be
+possible that you can
+realise your dreams.{06}{07}
+However, young
+Descendant of Baldea,
+heed my words:{06}{07}
+Power can destroy
+what power obtains.{06}{07}
+Some day, years in the future,
+you will face a "{02}."
+A young man with the
+will to forge a new reality.{end}
+
+Goddess of Light, I
+understand your concern,
+but all others failed.{06}{07}
+The burden of bringing
+peace to this shattered land
+was born by I and I alone.{06}{07}
+Not by any god, and
+not by any man, both of who
+sat idly while the land
+tore itself apart.{06}{07}
+I alone succeeded.{end}
+
+{02} ...{06}{07}
+You have won.
+You have defeated my and
+everything I stood for.{06}{07}
+This world is now left
+in chaos. Unless you can
+quell it, then your victory
+has been truly empty.{06}{07}
+Farewell, {02} ...{06}{07}
+If I can help it ...
+we will not see each
+other again ...{end}
+
+Liana ...{end}
+
+Everyone, I will
+create a new,
+harmonious nation!{06}{07}
+I ask you all,
+will you continue to place
+your faith in me?{end}
+
+Thank you ...
+Everyone, let's make
+our ideal world!{end}
+
+Lushiris, though I
+appreciate being back ...{06}{07}
+Could you enlighten
+me as to why I
+have been called back?{end}
+
+I wish to enlist
+your aid in this battle.{06}{07}
+Here, the fate of
+the Descendants of Light
+will be decided.{06}{07}
+Sadly, your descendant,
+{02}, has
+abandoned his mission.{end}
+
+I see ...{end}
+
+Are they headed this way?{06}{07}
+Liana, be careful.
+I don't mind letting you fight,
+but don't endanger yourself.{end}
+
+I am a Descendant of Light,
+and I have never had
+the choice of giving up ...{06}{07}
+How kind of you
+to offer that, Ledin.{end}
+
+Looking at you
+brings back old memories ...{06}{07}
+The happy times
+spent with my queen,
+my wife ... Chris.{end}
+
+Are you coming ...?
+My Descendants ...{end}
+
+I understand your power ...
+Perhaps you ...{end}
+
+L{37}na, please be careful.
+Langrisser's power is immense.{end}
+
+I know. As a maiden,
+I understand the two swords
+better than anyone else.{end}
+
+It blows my mind to
+say this ... but what am
+I doing over there?{end}
+
+You've come.
+Langrisser ...
+How amazing ...!{end}
+
+I must find some way
+to end Langrisser's power.{06}{07}
+But to stop Langrisser ...
+Can it be?
+Can I truly defeat myself ...?{end}
+
+S, sorry, Jessica ...{end}
+
+How about that?
+Did you enjoy the taste
+of my magic?{end}
+
+My magic should
+be more potent in the
+celestial realm ...{end}
+
+If we don't
+weaken them a bit ...{end}
+
+I am the Guardian Knight
+of the Heavens!{06}{07}
+You will be punished
+for defiling these grounds!{end}
+
+To be beaten by ...
+mortals ... Unthinkable!{end}
+
+Oh my, they're invading
+the celestial realm ...{end}
+
+Such power ...!
+But we must not lose!{end}
+
+Right ... vanguard ...
+broken through ...
+Please, forgive ... me--{end}
+
+Left ... vanguard ...
+broken through ... Ugh--!{end}
+
+Goddess ...
+I ask your divine protection!{end}
+
+Even a deity could
+not match your strength ...{end}
+
+An ostentatious sword
+is buried deep in a pedestal.{06}{07}
+
+On the pedestal, you see
+some carefully chiselled words.{06}{07}
+
+"Ye who desires this sabre
+must vanquish the monster."{06}{07}
+
+"With the fiend dead, thou
+need not but call my name!"{06}{07}
+
+What name will you call?{end}
+
+Langrisser{end}
+
+Dragon Slayer{end}
+
+Alhazard{end}
+
+The sword has been petrified.
+It somehow seems different.{end}
+
+You hear an echo as you draw
+the sword from the pedestal.{end}
+
+Obtained Dragon Slayer.{end}
+
+You pulled too hard,
+breaking the sword.{end}
+
+Is it really over ...?{end}
+
+But ... 
+But to do this, Liana ...{end}
+
+Our real work begins now.
+We must bring
+order to this world.{end}
+
+Hah, it looks like we
+picked the wrong profession,
+wouldn't you say?{end}
+
+I've come this far.
+It looks like you are stuck with
+me for the whole ride!{end}
+
+I feel the
+same as my brother!{end}
+
+But we ...!{end}
+
+Who ... are you?{end}
+
+Liana ...?
+Don't you recognise me?{end}
+
+Uhhh ... Uugghhh ...
+Please, stay away from me!{end}
+
+{02} ...?
+Why am I ...{end}
+
+She is free from my spell ...
+That is why she
+still remembers {02} ...{end}
+
+The spell has worn off!?
+But if that happens,
+then her memory will ...{end}
+
+Liana!
+Do you recognise me!?{end}
+
+{02} ...
+Lushiris sealed my memory ...
+How can I still know him ...?{end}
+
+Your memory was sealed, but
+nothing could seal away
+what you hide in your heart.{06}{07}
+Your feelings for
+{02} must be deep ...
+Deep indeed ...{end}
+
+Liana, I ...{end}
+
+No ...! 
+I am the Maiden of Light.{06}{07}
+Protecting Langrisser ...
+is my duty!
+That's why, I ... Why I ...{06}{07}
+Aaahhh ...!{end}
+
+Why ...
+Why are we enemies? {06}{07}
+I don't want to fight,
+but you left us ...
+You abandoned me ...{end}
+
+But, Liana!
+That ...{end}
+
+It's all right, I understand.
+This world can be cruel ...{06}{07}
+Let us battle, {02}!
+We shall see whose
+conviction is stronger!{end}
+
+I wonder why ...{06}{07}
+{02} ...
+Why is it ...{06}{07}
+When I fight you ...
+I ... cry ...{end}
+
+You erased your memories? {06}{07}
+I don't understand ...!
+Why would you do that?
+Why must we fight!?{end}
+
+This ...
+It's too painful ...
+Don't talk to me!{end}
+
+What do you mean?{06}{07}
+Are you saying you 
+have no idea who I am?{end}
+

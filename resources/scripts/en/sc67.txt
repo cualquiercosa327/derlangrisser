@@ -1,0 +1,653 @@
+Great and gloried Chaos,
+reveal thy splendour!{end}
+
+Don't wear yourself out, girl ...
+This will be quite taxing.{end}
+
+Disperse the light and
+purge its binding ...
+express your dark nature ...{06}{07}
+O, Alhazard, return
+thy true power now!{06}{07}
+{font4}Al Hassaerto ...
+Aul Alwazart ...!
+Ay Alhazard!{end}
+
+B{3a}ser, have you
+unsealed the blade?{end}
+
+Ah ... Hah hah ... Incredible.
+Truly the sword of legend.{end}
+
+What terrifying power ...
+I understand
+why demons revere it.{end}
+
+I don't believe this ...
+That light from the sword,
+it's blinding.{06}{07}
+I can feel the power from here.
+And that noise ...!
+Damn! It won't stop!{end}
+
+So, you've finally come ...{end}
+
+Who's there?{end}
+
+I see you've unsealed
+the sword for us.{06}{07}
+The Empire thanks you.
+As you die, take
+comfort in your service.{end}
+
+Kaiser Bernhardt ...?{end}
+
+What!? How?{end}
+
+Didn't we already knock
+over that wind bag?{end}
+
+Heh heh heh ...
+It seems you've met
+my doppelg{38}nger.{06}{07}
+Quite a spell.{end}
+
+Hah hah hah ...{06}{07}
+I remember when you
+Imperial scum buckets were
+so eager to join me.{06}{07}
+Now you'll finally
+taste what you
+so desperately wanted.{06}{07}
+Alhazard will rend
+your hides and spill your
+worthless guts.{end}
+
+Really, you think so?
+I see things differently.{06}{07}
+You know, I think
+the ritual has taxed
+you considerably.{06}{07}
+And I suspect you're
+weak as a kitten.{end}
+
+Wh, what is this!?
+No ...!{end}
+
+L, Langrisser's light ...
+what's happening!?{end}
+
+What the hell ...?
+Is Langrisser ...
+unsealing itself!?{end}
+
+It must have responded
+to Alhazard's resurrection ...{06}{07}
+But this isn't in the legends.
+Why would it do that now ...?{end}
+
+Hey, Leon.  You're fond of
+that sword, aren't you?
+I think it suits us well.{06}{07}
+While we're here, why
+don't you take it for our
+Imperial storehouse?{end}
+
+The Empire is
+as arrogant as ever.{06}{07}
+You think you can take it?
+You are welcome to try.{end}
+
+B{3a}ser is worn out from
+his big ceremonial moment.{06}{07}
+This presents an opportunity.
+We could take the
+quacking bastard out for good.{06}{07}
+Just throw in with
+Imperials, and
+he has no chance.{end}
+
+We can't let the Empire
+lay their wretched
+hands on Langrisser.{06}{07}
+On the other hand,
+B{3a}ser is a wreck
+from that ancient ritual.{06}{07}
+Now we can work with
+the Empire and finish him.
+What do you say?{end}
+
+Will you turn against B{3a}ser?{end}
+
+We don't want to antagonise
+the Demon Tribe until they
+outlive their usefulness ...{06}{07}
+All forces, turn your blades
+on the Imperial Army!{end}
+
+Units, strike the Imperials!{end}
+
+Hey {02},
+Esto and Osto aren't
+truly evil monsters!{06}{07}
+I think they'll help
+us if we can defeat B{3a}ser.{end}
+
+I see.
+So you think B{3a}ser is
+controlling them?{end}
+
+We must give it our all.
+Smash the Empire to bits!{end}
+
+A torn chain has dropped
+from above the magic symbol.{06}{07}
+
+Will you pick it up?{end}
+
+Obtained Gleipnir.{06}{07}
+
+The item above the
+other magic symbol vanished.{end}
+
+A rusty metal plate has
+dropped from the magic symbol.{06}{07}
+
+Will you pick it up?{end}
+
+The rust cleared, revealing the
+form of a magnificent shield.{end}
+
+Obtained Odin's Buckler.{06}{07}
+
+The item above the other
+magic symbol vanished.{end}
+
+Neither Bernhardt or B{3a}ser
+will stand against me!{06}{07}
+Langrisser and Alhazard,
+with you as my tools, ...
+I will bring an era of order!{end}
+
+Would making an enemy
+of B{3a}ser do me any good?{end}
+
+Uugghh ...
+How could we let Langrisser ...
+fall to the Empire ...{end}
+
+No need to worry,
+please die instead.{06}{07}
+Langrisser will be quite
+useful to my Empire.
+Hah hah hah hah hah!{end}
+
+Forgive me!
+It's hopeless now ...{end}
+
+We messed up!{end}
+
+Ooh, little girl.
+Are you pointing that
+sword at me?{06}{07}
+A traitor's blood is
+always delicious ...
+Your father's, especially.{end}
+
+You bastard!
+I'll never forgive you!{end}
+
+Uugghhh--! I'm finished...{end}
+
+{font3}We will remember
+this day!{end}
+
+{font3}Grrrr--!
+So much ... pain!{end}
+
+So you turn against me?
+Hah hah hah ... May your
+pain equal your stupidity.{06}{07}
+Alhazard will
+shred your slimy pink skin.{end}
+
+Traitors, die.
+Alhazard will drink
+your damned souls!{end}
+
+All of you must die.
+Humans have no place here!{end}
+
+You Imperials came so close.
+Searching out Alhazard,
+playing your little game.{06}{07}
+Now, for all your hard work,
+you'll die by the same weapon!{end}
+
+D, damn you!
+I didn't think you had
+this much power ...{06}{07}
+This world ...
+into darkness ...
+Velzeria's ... people ...{end}
+
+Obtained Alhazard.{end}
+
+Esto joins the entourage!{end}
+
+Osto joins the entourage!{end}
+
+Heh heh ... That ritual ...
+The pain's sticking with me.{06}{07}
+I can't exert my true
+power like this ...
+But just a little longer ...{06}{07}
+{02}, take care
+of these matters, and you
+will be well rewarded.{end}
+
+Yes, ...
+Leave it to me.{end}
+
+Please ...{end}
+
+Long live the Kaiser!
+Long live the Empire!{end}
+
+Ugh--aarrgghh!{end}
+
+{font3}Ugh ...{end}
+
+{font3}Arrgh ...{end}
+
+{font3}Aaah--!{end}
+
+Young fool, what are
+you waiting for?
+Hand over Alhazard.{end}
+
+If you think you
+can take it, then by all
+means, try your best.{end}
+
+Interesting. Know this, boy!
+The Empire crushes
+all who oppose its vision!{end}
+
+So you wretches sold
+your souls to darkness.{06}{07}
+This continent does not need
+your leadership. We'll destroy
+you on our path to glory!{end}
+
+Aaarrgghhh ...
+Did you need to follow
+us all the way here ...{end}
+
+You were not chosen to
+rule this continent.{06}{07}
+Your Empire ends
+here, with you,
+you withered old man.{end}
+
+Aaarghhh--!
+Damn you!
+It can't end like this!{end}
+
+Now you see how
+limited and pathetic
+humans truly are!{end}
+
+This is the power of 
+Langrisser and Alhazard!
+Do you understand!?{end}
+
+You underestimate me ...
+But for now, let us retreat.{end}
+
+I have ensured
+Alhazard's safety.{end}
+
+Ugh ... Uugghh!{end}
+
+Yes, Master B{3a}ser ...{06}{07}
+Alhazard ... has it
+been unlocked?{end}
+
+Wh, what are you saying!?
+The Dark Blade's energy ...
+Can it truly be released ...?{end}
+
+Liana ...{end}
+
+Such incredible power!{end}
+
+No ... Aaahhh ...!
+This world will
+be drenched in misery!{end}
+
+By the way B{3a}ser,
+what will you
+do with Liana now?{06}{07}
+Surely you don't intend ...{end}
+
+Aaahhh--!{end}
+
+Liana!{end}
+
+Don't worry, {02}.{06}{07}
+B{3a}ser and Sister ...
+By acquiring their power,
+I may redeem myself.{end}
+
+...!?{end}
+
+Yes!{end}
+
+We'll help too!{end}
+
+Of course, Sister.{end}
+
+Let's go, everyone!
+We must continue to push
+back the Empire!{end}
+
+Die, monster!
+You don't belong in this world!{end}
+
+Grrr ... Arrgghh!
+These are truly the
+swords of legend ...!{06}{07}
+For now, ...
+we must retreat.{end}
+
+So you've betrayed
+the Descendants, the Empire,
+and the forces of darkness?{06}{07}
+You've got more balls
+than I thought, boy. Anyone
+but you would be long dead.{06}{07}
+Unfortunately, we alone
+will take final victory!
+En garde, {02}!{end}
+
+You're with the right crowd,
+{02}. Demons and
+scoundrels flock together.{06}{07}
+I suppose you've just wanted
+supreme tyranny all along,
+like a little puppeteer.{06}{07}
+I hope your blood matches
+the rust on my hilt.{end}
+
+Arrghh--! How could ...{end}
+
+Grr ...! Not yet!
+No, I can't be beaten!{end}
+
+Don't be reckless, Laird.
+The Empire cannot afford
+to lose its finest colonel.{06}{07}
+Fall back with my blessing.{end}
+
+Hah ...!{end}
+
+Grr--!
+It's hopeless now ...{end}
+
+What kind of power
+are you referring to ...?{end}
+
+How could I ...? Ugh ...{end}
+
+Hah hah hah!{06}{07}
+How can this be?
+We've grown so ridiculously,
+ridiculously ... powerful!{06}{07}
+We've crushed the Imperials,
+shattered the Descendants,
+and torn B{3a}ser to shreds.{06}{07}
+And our reward ...?
+Not one, but both legendary
+swords. Unbelievable!{end}
+
+We did it, {02}!{end}
+
+Aren't you quite
+the big shot, {02}?
+Hah hah hah.{end}
+
+Now we can create
+an ideal society.{end}
+
+Ugh ... uugghh!{end}
+
+Th, this place is ...?
+Huh, Liana?
+Are you okay, Liana?{end}
+
+Now that we've defeated B{3a}ser,
+his control over the
+maidens should soon dissipate.{end}
+
+With B{3a}ser defeated,
+shouldn't his mind control
+wear off soon?{end}
+
+Sister L{37}na ...
+Why am I ...?
+Al, Alhazard?{end}
+
+Alhazard is here.
+B{3a}ser is already dead.{end}
+
+We've defeated him!{end}
+
+Both of you, listen.{06}{07}
+Langrisser and Alhazard,
+the Holy and Dark Blades ...
+They are both in my hands.{06}{07}
+With these tools, not a
+soul in this world
+can stand against me.{06}{07}
+And soon, I will bring some
+well-deserved peace and order
+to this shattered continent.{06}{07}
+Even humans and demons
+may live together in harmony.{06}{07}
+But to realize this vision,
+I need your cooperation.{end}
+
+Yes, let's work together!
+It's meaningless for humans
+and demons to wage war.{06}{07}
+A world where we can all
+live together in peace would
+be the most wonderful thing.{end}
+
+But really, {02} ...
+Do you think, after all this,
+force can bring peace?{end}
+
+You may preserve
+order with an iron grip, but
+as soon as it weakens ...{06}{07}
+What happens then?{end}
+
+By that time, the people must
+have faith in this
+new world they live in.{end}
+
+{02}, we must
+always move forward!
+Our goal is peace!{end}
+
+Hey, {02}!{end}
+
+Get out of here.{end}
+
+{02} ...{end}
+
+What!?{end}
+
+Move on.
+I'm ending things
+in my own way.{06}{07}
+There shall be
+no more tragedies.{06}{07}
+By my efforts,
+this war will be the last.{end}
+
+{02} ...{end}
+
+...{end}
+
+Let's go, Liana ...{end}
+
+{02} ...{end}
+
+Hey, is it really okay,
+{02} ...?{end}
+
+It isn't a problem.
+We should concern ourselves
+with the Imperial Army!{end}
+
+Forget about them.
+We should concern ourselves
+with the remaining Imperials.{end}
+
+Of course!{06}{07}
+If we let them go, they
+will surely rally their forces.{end}
+
+If we depart now, 
+we can still catch them.{end}
+
+Let's go, everyone.
+Let's catch
+the Empire by its tail!{end}
+
+{font3}Uugghh ...?
+This place is ...
+what is it ...?{end}
+
+Can you hear me?
+B{3a}ser's spell has broken.{06}{07}
+Right now, I'm fighting
+for a world where humans and
+monsters will live peacefully.{06}{07}
+Please, please,
+lend us your power!{end}
+
+{font3}...{06}{07}
+{font3}Yes, we understand.
+We will make
+ourselves useful.{end}
+
+Dark Princess, with your
+help, the Glory of Darkness
+has been restored.{06}{07}
+You have my
+sincerest appreciation.{end}
+
+Maiden of Light,
+I must thank you for this
+delicious sensation.{06}{07}
+Alhazard unsealed
+at long last.
+Hah ... Hah hah hah hah!{end}
+
+Don't worry yourself,
+I have no reason to kill her.{06}{07}
+In truth, she may
+still be of use to us ...{06}{07}
+{font4}Dithum Aynde
+Kaotik Deorc
+On Kantrelu!{end}
+
+Heh heh heh ...
+This is quite fitting.{06}{07}
+With the Imperial Army's
+disgraceful failure, their
+remaining forces will disband.{end}
+
+We will take this
+opportunity to finish things.{06}{07}
+We shall hunt down the 
+Imperial stragglers
+and annihilate them!{06}{07}
+Also, Hein, Rohga, listen to me!
+We have no reason
+to pay B{3a}ser any heed.{06}{07}
+If we defeat him swiftly,
+Alhazard will fall to us!{end}
+
+What!?{end}
+
+I'll give you one chance
+to return to B{3a}ser!{06}{07}
+Otherwise, from
+here on, we are enemies.{end}
+
+Hey now, Sonya!
+I'd rather not fight you ...
+How about joining us?{end}
+
+Is Brother telling me
+to betray Master B{3a}ser!?{end}
+
+When we obtain
+Alhazard, humans and monsters
+may be able to co-exist.{06}{07}
+B{3a}ser only wants a world
+for monsters, while the Empire
+only a world for humans.{06}{07}
+However, we have the
+ability to establish
+a world where both can live.{06}{07}
+Don't you think
+that's the best solution?{end}
+
+I want to live with
+brother Rohga too.
+But B{3a}ser's power is ...{end}
+
+Don't worry. We're going to
+gut his Royal Dark One's ass.{06}{07}
+The people who tie
+you up aren't touching
+my little sister without
+losing their heads.{end}
+
+...{06}{07}
+I understand ...
+I will try to
+battle with brother!{end}
+
+{font3}Sonya,
+are you betraying me!?{end}
+
+{font3}Kill traitors!{end}
+
+Esto leaves the entourage ...{end}
+
+Osto leaves the entourage ...{end}
+
+Betraying me is a quick
+road to a painful death.{06}{07}
+But it's not all bad.
+I shall enjoy watching
+you writhe in agony.{06}{07}
+My minions,
+rip them to shreds!{end}
+
+Don't be absurd!
+Do you plan on fighting with
+a tiny force like that?{end}
+
+Yes ... Now witness
+the fury of Alhazard!{06}{07}
+Hah hah hah!
+Forward, my minions!{end}
+

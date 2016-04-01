@@ -1,0 +1,310 @@
+This cave is strange ...
+Did people live here?{end}
+
+Hello, everybody!
+Welcome to the second
+secret stage!{end}
+
+It is time for the
+Masayan Quiz.{06}{07}
+I'll be your
+quiz master, Kanio.{06}{07}
+How are you enjoying
+Der Langrisser?{06}{07}
+After you are done playing,
+please fill out the
+questionnaire postcard.{06}{07}
+Please include your
+impressions of this stage!{end}
+
+What in the world is
+he babbling about?{06}{07}
+Weird guy ...{end}
+
+We couldn't spend much
+time on this secret stage
+for some reason.{06}{07}
+There might be a few bugs
+because we built it too fast.{end}
+
+Well, anyway, let me
+explain the rules.{06}{07}
+Challenge the units
+around this battlefield.{06}{07}
+Before you enter battle,
+each commander will quiz you.{06}{07}
+If you get the question
+correct, the battle will
+proceed as normal.{06}{07}
+Make a mistake, and the
+units will retreat.{06}{07}
+The winning condition
+is to defeat Uki.{06}{07}
+If you answer every
+quiz right we will give
+you a small gift.{06}{07}
+Well everyone,
+do your best!{end}
+
+What?{06}{07}
+I guess we should just
+attack everyone ...{end}
+
+Why do we have to fight?
+I think this will be
+a waste of our time ...{end}
+
+I don't know. I think it's
+a good opportunity to have
+fun and relax a little.{end}
+
+As long as we're here,
+it can't be helped.{06}{07}
+Let's go, everyone!{end}
+
+I am defeated!{end}
+
+Hey hey!
+Here's a question!{06}{07}
+What is my name?{end}
+
+Uki{end}
+
+Ukiiki{end}
+
+Ukie{end}
+
+Correct, kids.{06}{07}
+Now kids it's time for
+the Feats of Strength!{end}
+
+Hah!{end}
+
+Neeext questiooon!{06}{07}
+Who am I?{end}
+
+Akitahn{end}
+
+Arkitan{end}
+
+Akikan{end}
+
+Coooorrreectt!{06}{07}
+Bzzzt, attack mode on!{end}
+
+Wrong. Farewell!{end}
+
+Wrong. Farewell!{end}
+
+Oops.{end}
+
+I'm sorry, you haven't
+answered all the questions
+correctly yet!{06}{07}
+It seems you won't get the
+prize this time, kids!{end}
+
+Nooooo!{end}
+
+All righty then,
+queeestion tiiime!{06}{07}
+Which of the cavalrymen on
+this stage is heavily armed?{end}
+
+That one over there!{end}
+
+Valken{end}
+
+Valqueso{end}
+
+Correct ...!{06}{07}
+There's a difference between
+normal cavalrymen and
+"Assault Suit Maniacs" like him.{06}{07}
+You are really something.
+Okay, time to finish
+it up with a super battle!{end}
+
+Wrong!{06}{07}
+I'll tell you again,
+you're incorrect.{06}{07}
+No, this isn't a bug
+or something.{06}{07}
+Maybe you should read the
+choices more carefully?{06}{07}
+Well then, I'll be
+on my way then!{end}
+
+Not correct ...
+Farewell!{end}
+
+Eeeek!{end}
+
+Here's a question!{06}{07}
+What does it mean
+to be a true "Aniki"?{end}
+
+Protein{end}
+
+Body building{end}
+
+Posing{end}
+
+That's right ...{06}{07}
+You're so good!{end}
+
+That's right ...{06}{07}
+You're so good!{end}
+
+That's right ...{06}{07}
+You're so good!{end}
+
+Gaaahhh!{end}
+
+Here's a question!{06}{07}
+It's a music question.
+Name this tune!{end}
+
+"Requiem"{end}
+
+"Aniki"{end}
+
+"Iron Body Bash"{end}
+
+Not correct.{06}{07}
+Man ... this was an easy one.
+How did you blow it?{end}
+
+Correct!{end}
+
+Not correct.
+You're such a Langrisser noob.{end}
+
+Goood byeee!{end}
+
+Well then,
+another question!{06}{07}
+Where's Masaya's
+main office located?{end}
+
+Nakameguro{end}
+
+Nishishinjuku{end}
+
+Higashishinshuku{end}
+
+Wrong. Look at
+the game package!{end}
+
+Correct!
+Clearly you have mastered
+bathroom multitasking.{end}
+
+Not correct.{06}{07}
+Hmmm, you were close!{end}
+
+Aahhh ...{end}
+
+Here's a question!{06}{07}
+Who is the bearded man in the
+Super Famicom game
+"Hashiriya Damashii"? {end}
+
+Adon{end}
+
+Varan{end}
+
+Sampson{end}
+
+Wrong.
+Good bye!{end}
+
+Correct!
+Quite good, eh!?{end}
+
+Wrong.
+Good bye!{end}
+
+Aaah ...{end}
+
+Question!{06}{07}
+What is this game's
+TV catchphrase?{end}
+
+"This time on SFC"{end}
+
+"Real anime, no SD-gimps!"{end}
+
+"Explode on SFC"{end}
+
+Nope.
+Double-check the ads!{end}
+
+Correct, correct.
+Seen the commercial, eh?{end}
+
+Nope, that is
+absolutely incorrect!{end}
+
+I made a mistake ... {end}
+
+Question!{06}{07}
+Which floor in the
+KF Building is Masaya on?{end}
+
+Second Floor{end}
+
+Third Floor{end}
+
+Fourth Floor{end}
+
+Wrong.{end}
+
+Wrong.{end}
+
+That is correct!{06}{07}
+I trust we won't be receiving
+any ticking boxes from you ...{end}
+
+Let's look at the
+results, kids.{end}
+
+Congratulations!
+Since you got a perfect
+score, we'll give you this.{end}
+
+Obtained Banana.{end}
+
+Will you let Uki have it?{end}
+
+Uki's AT raised by 1!{end}
+
+Ooooh ...!{06}{07}
+So yummy, yummy.
+Uki loves bananas!{end}
+
+You scored perfectly, but ... {06}{07}
+We're all out of bananas.{end}
+
+Sigh ...
+What rookies.{06}{07}
+You kids made
+far too many mistakes.
+Did your game even
+come with a manual!?{06}{07}
+Sorry kids, no
+bananas for you.{end}
+
+So many correct answers ...{06}{07}
+You guys have a
+great future ahead of
+you in trivia games!{end}
+
+Okay, then.
+Let's forget this and go ...{end}
+
+Wrong.{06}{07}
+But since I feel sorry
+for you, I will
+kindly stay and fight.{end}
+

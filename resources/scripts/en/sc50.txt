@@ -1,0 +1,471 @@
+No word yet from
+our Salrath squad?{end}
+
+No, there's been none.{end}
+
+Makes sense ...
+I knew the Empire would
+eventually invade ...{06}{07}
+But if Salrath has fallen,
+we'll face the enemy here!{end}
+
+Yes, Sir!{end}
+
+This is our target.
+Those troops bear
+Salrath's standard ...{end}
+
+Yes. Before we take Kalxath,
+we'll need to neutralise them.{end}
+
+Looks like we'll be dealing
+with the old swordsman again.{end}
+
+And he's nice and ready
+for us. What a great
+welcome they've prepared.{end}
+
+We'll just make sure we're
+the life of this
+little party! Tee hee!{end}
+
+They've guessed our plan.
+I'm sure they're here to
+pre-empt our march on Kalxath.{end}
+
+This could hardly be
+more difficult ...{06}{07}
+In all my days, I never
+thought I would face
+all of the Empire's
+Four Heavenly Dragons ...{end}
+
+Lord Aaron ...{end}
+
+I'll be candid.
+We don't have much
+of a chance here.{06}{07}
+I'll buy you time.
+Please, go now.{end}
+
+There are villagers here.
+They needn't be involved.{06}{07}
+Direct arms only
+against our enemy!{end}
+
+For Kalxath's benefit,
+I really should
+divert their attention.{end}
+
+Lord Aaron, please,
+think about this!{end}
+
+Don't worry about an old man.
+Please, leave the field.{end}
+
+Y, you have our
+thanks, Lord Aaron.{end}
+
+All right, men!
+Let's show the Empire what
+a real army is all about!{end}
+
+Aaron, it seems, is
+too old to fear death.{06}{07}
+Arranging for his allies'
+retreat by offering
+himself as a shield ...{06}{07}
+His subordinates share in
+his sentiment. They'll
+probably fight to the last man.{end}
+
+They want to play martyr?
+What crap. I'll kill
+them all just the same.{end}
+
+It may be meaningless to you ...
+but to a Knight, this
+is a sign of great respect.{end}
+
+War is war for mercenaries.
+There's nothing special
+about wasting your life.{06}{07}
+A mercenary doesn't fight
+for ideals, he fights for money.{end}
+
+You spot a water fowl perched
+atop a nearby small post.{06}{07}
+
+The bird is holding a small,
+glittering stone in its beak.{06}{07}
+
+What will you do?{end}
+
+Startle it{end}
+
+Reach out{end}
+
+Ignore it{end}
+
+The water bird gets scared,
+drops the stone and flies away.{06}{07}
+
+The stone sinks to the
+bottom of the lake.{end}
+
+The bird drops the stone
+in your hand and flies away.{06}{07}
+
+You wash the stone and
+it emits a mysterious glow.{end}
+
+Obtained Rune Stone.{end}
+
+The bird finally flies away.{end}
+
+Let's see what you can do!{end}
+
+Let's go!{end}
+
+Uughh, damn!
+I wanted to die in bed ...{end}
+
+Ho!{end}
+
+Argh, I'm done for--!{end}
+
+Damn, the wound is deep!
+No choice but to pull out!{end}
+
+Curses!
+What a mistake--!{end}
+
+I'll remember this!{end}
+
+Ugh! My sword ...{end}
+
+How sad. Against my magic,
+you're completely helpless.{06}{07}
+At least I can give you
+a quick trip to hell ...{end}
+
+Heh heh heh ....
+Go ahead, play your games.
+They'll do you no good.{end}
+
+So, you've followed me this far?
+You're really determined ...
+I'd better keep my distance.{end}
+
+Sir Aaron, wh, what
+should we do ...?{end}
+
+There is no reason
+to ask him for
+protection or orders.{06}{07}
+You are not our enemy.
+We have no desire to fight
+with or harm civilians.{06}{07}
+However, I can't guarantee
+your safety if you remain here.
+Please leave quickly
+for your own protection.{end}
+
+O, okay.{end}
+
+Hoh hoh ...
+Quite admirable, for an
+agent of the Empire.{06}{07}
+You interest me ...
+Your name is
+{02}, right?{end}
+
+Correct. We're not here
+to cause suffering
+nor to pillage homes.{06}{07}
+We will always permit
+civilians safe
+passage from battle.{end}
+
+Hmmm ... If we weren't enemies,
+I'd very much like to
+share a drink with you.{end}
+
+Heart warming.
+But, as you say, we are
+here to kill each other.{end}
+
+As the Empire wishes ...
+I will not hold back!{end}
+
+Sir Aaron ...
+Somehow, be safe ...{end}
+
+Aaahhh!{end}
+
+Thank you, Sir Aaron.
+I won't forget your kindness.{end}
+
+Aaahh!{end}
+
+I've lived a long and
+fulfilling life ...{06}{07}
+And I won't give
+it up easily!{end}
+
+I may be old, but
+this sword's
+as steady as ever!{end}
+
+Th, this is ...
+the end ...{end}
+
+Are we too late ...?{end}
+
+Aaron!
+Pull yourself together!{end}
+
+Oh, Princess ...
+Watching over you ...
+has made me very happy.{end}
+
+St, stop that!
+What are you saying?{end}
+
+Please, listen ...
+Don't waste your efforts here.
+Hurry and return to Kalxath.{06}{07}
+The Empire is strong.
+But you and Keith can
+protect the castle ...
+You can ward them off ...{06}{07}
+Cherie, I always knew you'd
+make a wonderful princess ...
+You made an old man proud ...{06}{07}
+Will you do this for me?{end}
+
+...{06}{07}
+Y, yes ...{end}
+
+Thank you ... 
+Whew, I'm tired ...
+I'll, I'll just rest for a while ...{end}
+
+A, Aaron!{end}
+
+Princess, this may sound
+cold, but now isn't
+the time to mince words.{06}{07}
+If we stay here and fight,
+Aaron will have died in vain.
+We'll share his fate.{06}{07}
+His final thoughts were wise ...
+We must make our
+stand at Castle Kalxath.{end}
+
+Keith, what good would
+fortifying our castle do?{06}{07}
+We can't win against
+{02} and the
+Four Heavenly Dragons!{06}{07}
+Kalxath is finished ...
+We're finished ...{end}
+
+Cherie, get a hold of yourself!
+If we give in, what
+has Sir Aaron fought for?{end}
+
+Y, you're right ...
+Keith is right, as always.{06}{07}
+No more tears ...
+I'll do my best
+from here on out.{end}
+
+{02}!{06}{07}
+We're sick of your lies!
+We're sick of the pain and
+death you've caused!{06}{07}
+The Empire's dream,
+its vision, has done nothing
+but kill goodhearted people ...{06}{07}
+It's a showdown, {02}!
+I'll wait for you at Kalxath!{end}
+
+{02} ...{end}
+
+...{06}{07}
+Don't fret about it, Hein.
+After all, I was prepared
+for a few wounded feelings.{06}{07}
+Always remember, we're
+fighting so tomorrow's children
+won't need to endure this ...{06}{07}
+We'll end this
+dark age ourselves!{end}
+
+...{06}{07}
+Well, I've been prepared for a
+few wounded feelings.{06}{07}
+Always remember, we're
+fighting so tomorrow's children
+won't need to endure this ...{06}{07}
+We'll end this
+dark age ourselves!{end}
+
+We should strike
+Kalxath quickly.{06}{07}
+They're undoubtedly preparing
+some heavy fortifications.{end}
+
+Let's move on to
+Kalxath now.{06}{07}
+The longer we wait,
+the less our chance
+of taking the castle.{end}
+
+Very true. Let's hurry.
+After Kalxath falls,
+our opposition will be halved.{06}{07}
+And unification will be
+within our grasp.{end}
+
+I'm entrusting our
+southern defence to you.{06}{07}
+However, our enemy may
+attack from the north as well.
+Be cautious.{end}
+
+Yes, Sir!{end}
+
+I'll protect Sir Aaron!{end}
+
+Sir Aaron,
+I'm so sorry ...{end}
+
+A sword in my good hand
+is worth a thousand of your
+bumbling men. Watch this!{end}
+
+At least I was able to see
+to see a mass Imperial Army
+in coordinated action ...{06}{07}
+Quite a sight ...{end}
+
+It's possible that
+the enemy will attack
+from both sides.{06}{07}
+I want you to
+handle all who move
+in from the north.{end}
+
+Understood!{end}
+
+I'll bury you here!{end}
+
+S, strong ...{end}
+
+Noooo--!{end}
+
+Ugh!{end}
+
+If we want to turn this
+battle around, I'm 
+going to need your help.{06}{07}
+Magicians, defend
+this point and bombard
+them with magic!{end}
+
+As you wish.{end}
+
+Imperial soldiers,
+I'll see you in hell!{end}
+
+Th, this is it ...{end}
+
+Water really slows
+them down.{06}{07}
+Take advantage of that
+and hit them hard.{end}
+
+Aye Sir!
+Leave the river
+fight to me!{end}
+
+You have skill, all right.
+But you won't be so
+boastful when you're dead.{end}
+
+If I only were stronger ...{end}
+
+Hey, quit fucking around!{end}
+
+Your abilities are
+no match for mine ...{end}
+
+Sir Aaron, we won't
+run off and leave you to die!{06}{07}
+We will remain at
+your side until the end!{end}
+
+Whew. Looks like
+everyone has made
+it out okay ...{06}{07}
+I may be the only one
+left, but I'll fight for Kalxath
+until I fall dead.{end}
+
+Whew. Looks
+like everyone's made
+it out okay ...{06}{07}
+No need to worry any more.
+Now I can focus on 
+doing some real damage.{06}{07}
+You all had better leave, too.
+There's no point
+in sticking around.{end}
+
+Are you trying to
+throw your life away ...?{end}
+
+We really didn't expect
+them to be this powerful.{06}{07}
+Be careful ...{end}
+
+...{06}{07}
+I see. You really are
+a stubborn bunch.{06}{07}
+So you want to join me
+until the end, do you?{06}{07}
+Well then, brave men,
+let's route these Imperials
+for the honour of Kalxath!{end}
+
+Arrghh ...
+This has turned into a
+hard-fought skirmish.{end}
+
+The Empire's strength should
+not be underestimated. It's
+always a quite fatal mistake ...{end}
+
+Until the continent is unified,
+we cannot afford to lose!{end}
+
+Damn! The front line's
+been bowled over!?{06}{07}
+Those Four Heavenly Dragons
+live up to their reputation ...{06}{07}
+But I think they'll enjoy
+my sword techniques.
+Each is well known for its
+eviscerating potential.{06}{07}
+Defeating me won't
+be a merry stroll!{end}
+
+Sounds interesting!
+We'll see whose
+swordsmanship is superior.{end}
+
+Sacrifices may be necessary, ...
+but I will not lose!{end}
+

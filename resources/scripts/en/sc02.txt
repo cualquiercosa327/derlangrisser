@@ -1,0 +1,284 @@
+Dagger{end}
+
+War Hammer{end}
+
+Long Sword{end}
+
+Magic Wand{end}
+
+Inferno Lance{end}
+
+Devil Axe{end}
+
+Dragon Slayer{end}
+
+Langrisser{end}
+
+Langrisser{end}
+
+Iron Dumbbell{end}
+
+Masayan Sword{end}
+
+Orb{end}
+
+Holy Rod{end}
+
+Holy Rod{end}
+
+Dark Rod{end}
+
+Long Bow{end}
+
+Arbalest{end}
+
+Alhazard{end}
+
+Alhazard{end}
+
+Odin's Buckler{end}
+
+Buckler{end}
+
+Shield{end}
+
+Chainmail{end}
+
+Platemail{end}
+
+Assault Suit{end}
+
+Cloak{end}
+
+Dragon Scale{end}
+
+Wizard's Robe{end}
+
+Amulet{end}
+
+Cross{end}
+
+Necklace{end}
+
+Swift Boots{end}
+
+Crown{end}
+
+Gleipnir{end}
+
+Rune Stone{end}
+
+Not Equipped{end}
+
+Unchanged{end}
+
+A traveller's knife used{end}
+
+for self-defence.{end}
+
+AT + 1{end}
+
+A giant hammer which has one{end}
+
+side of its head curved.{end}
+
+AT + 2{end}
+
+A long, heavy,{end}
+
+one-handed blade.{end}
+
+AT + 4{end}
+
+A staff that focuses the magical{end}
+
+powers of its wielder.{end}
+
+Mg.Range+2, Mg.Dmg+1{end}
+
+A flaming lance infused with the{end}
+
+power of magic.{end}
+
+AT + 6{end}
+
+A great axe smeared in blood,{end}
+
+bearing an ancient curse.{end}
+
+AT + 8, DF - 3{end}
+
+A sword wielded by a great hero{end}
+
+in ancient times to slay a dragon.{end}
+
+AT + 7{end}
+
+Legendary holy blade forged by{end}
+
+King Sieghart of Elthlead.{end}
+
+AT + 3, DF + 1{end}
+
+Blessed with the holy{end}
+
+power of Lushiris.{end}
+
+AT + 9, DF + 2, A + 3, D + 1{end}
+
+Used in body building, an item for{end}
+
+true men. Is it a summoner ...?{end}
+
+AT + 1, MV - 1, Summon Aniki{end}
+
+An old sword with a Pegasus and{end}
+
+star on its hilt. Doubles your EXP.{end}
+
+AT - 4, DF - 3, A - 2, EXP * 2{end}
+
+A beautiful, sparkling crystal with{end}
+
+a mystic aura sealed within.{end}
+
+MP * 2, Magic Range + 3{end}
+
+A Holy Rod, the key to releasing{end}
+
+Langrisser's holy power.{end}
+
+Magic ability up{end}
+
+A Holy Rod, the key to releasing{end}
+
+Langrisser's holy power.{end}
+
+Magic ability up{end}
+
+A Dark Rod, the key to releasing{end}
+
+Alhazard's dark power.{end}
+
+Magic ability up{end}
+
+A bow made of the finest yew.{end}
+
+AT - 2, MV - 2{end}
+
+Attack range 1 - 3{end}
+
+A powerful, mechanical crossbow.{end}
+
+AT - 4, MV - 2{end}
+
+Attack range 1 - 6{end}
+
+A blade of darkness infused{end}
+
+with Chaos's power.{end}
+
+AT + 12, DF + 1, A + 3, D + 1{end}
+
+A blade of darkness infused{end}
+
+with Chaos's power{end}
+
+AT + 12, DF + 1, A + 3, D + 1{end}
+
+A shield engraved with images of{end}
+
+ancient gods.  Is it a summoner ...?{end}
+
+DF + 3, D + 1, Summon Sleipnir{end}
+
+A wooden shield{end}
+
+reinforced by iron bars.{end}
+
+DF + 1{end}
+
+A large, heavy shield{end}
+
+reinforced with iron plating.{end}
+
+DF + 2{end}
+
+An armour made of metal rings,{end}
+
+woven together into chains.{end}
+
+DF + 3{end}
+
+Very heavy, durable plates to{end}
+
+cover the whole torso.{end}
+
+DF + 4{end}
+
+Said to have fallen from the{end}
+
+sky. Was it crafted by humans ...?{end}
+
+A + 10, D + 10{end}
+
+Durable cloth, made to withstand{end}
+
+nature's harsh elements.{end}
+
+DF + 1, MDF + 10{end}
+
+A light, yet strong armour{end}
+
+made from dragon scales.{end}
+
+DF + 4{end}
+
+A mystic robe enhanced{end}
+
+by a mysterious power.{end}
+
+DF + 2, MDF + 20{end}
+
+A mysterious talisman containing{end}
+
+the power of Mother Nature.{end}
+
+MDF + 15, troops included{end}
+
+A gleaming cross blessed{end}
+
+by saintly prayers.{end}
+
+D + 2, MDF + 20{end}
+
+A necklace crafted from{end}
+
+a glowing, magical stone.{end}
+
+Command Range + 2, D + 3{end}
+
+Boots that enable their wearer to{end}
+
+run swiftly as the wind.{end}
+
+MV + 2, troops included{end}
+
+A beautiful crown{end}
+
+with mysterious powers.{end}
+
+A + 3, D + 2, Command Range + 2{end}
+
+The chain which bound the dark{end}
+
+wolf, Fenrir.  Is it a summoner ...?{end}
+
+DF + 1, Summon Fenrir{end}
+
+An ancient stone with a mysterious{end}
+
+inscription, {oq}At Level 10 ... do{end}
+
+you wish to begin anew ...?{eq}{end}
+

@@ -1,0 +1,563 @@
+What a nice ride ...
+Flying really lifts the soul.{end}
+
+You sure sound
+chipper, Princess ...{end}
+
+Ah, how couldn't I?
+You've never flown so ...
+Wait, would you like to try?{end}
+
+...{06}{07}
+I like my feet on the ground,
+or actually, on a boat.{06}{07}
+I'll just ride the waves,
+if you don't mind.{end}
+
+Ahhh, Lester, you're
+scared of heights?{06}{07}
+That bridge must
+have been an ordeal.{end}
+
+Now that you mention it,
+that job didn't jibe with me.{06}{07}
+Now you get why I was Keith's
+first choice for it, right?{06}{07}
+He knew I don't
+like dangling in the air ...{end}
+
+But you did it anyway ...{06}{07}
+Your friendship
+with Keith must have
+been very strong.{06}{07}
+He was right to
+put his faith in you.{end}
+
+...{06}{07}
+Keith, I'll see to
+your princess, and I'll
+protect her business.
+Rest easy, Sir Knight.{end}
+
+Lady Jessica, I wonder
+if we should just be waiting.{06}{07}
+Why aren't we
+observing {02}'s battle
+with Rayguard?{end}
+
+Sir Aaron, no matter
+who wins, the victor will
+strike us here.{06}{07}
+Until that time, we
+must put our resources to
+an adequate defence.{end}
+
+I wonder who will come, ...
+the Empire or {02} ...?{end}
+
+Indeed ...
+On top of that, I worry
+about Liana ...{end}
+
+Oh, there's no
+need for concern.{end}
+
+As you can see,
+I'm doing quite well!{end}
+
+Liana! You're ...
+What's wrong?{end}
+
+No ...!
+I've seen that look before ...
+She is under B{3a}ser's control.{end}
+
+You say he's using her?
+God damn it ...!{end}
+
+What are you saying?
+She is not herself?{end}
+
+That's right ...
+Right now, she is nought
+but B{3a}ser's puppet.{06}{07}
+She'll dispose
+of his enemies ... you.{end}
+
+Th, that's horrible!
+I won't forgive him for that!{end}
+
+Don't get too far
+ahead of yourselves.{06}{07}
+Before you go dreaming
+of revenge, you've got quite
+a mess to contend with.{06}{07}
+In fact, the only thing you
+should be thinking about ...
+is the best way to die!{end}
+
+This is your end!
+We're through holding back
+on people like you!{end}
+
+Don't lower your
+guard for even a second!{end}
+
+They have made
+it to the interior!{end}
+
+If they defeated the Empire, ...
+they're not to be trifled with.{end}
+
+I shouldn't have ...
+let down my guard.{end}
+
+It's not over yet!
+I'll stop you all somehow!{end}
+
+I'm still alive and
+kicking, Lady Jessica!{end}
+
+We have finally
+breached the interior.{06}{07}
+Don't break formation.
+Stay sharp, everyone!{end}
+
+Let's pull together.
+Remember, we're fighting for
+everyone's right to live!{06}{07}
+The darkness will take
+that away, all of it!{end}
+
+Leave it to us!{end}
+
+I know!{end}
+
+So, after everything ...
+It's come down to me.{end}
+
+{02}, do you truly
+think B{3a}ser's legions are
+best for this world?{end}
+
+I don't know ...
+and I'm not sure I care.{06}{07}
+The important thing
+is this: we will
+not pander to weakness.{end}
+
+But don't you understand ...
+The rule of darkness
+will make everyone suffer ...!{end}
+
+You say this as if you and the
+Empire have done particularly
+well in that regard.{06}{07}
+So much blood on this
+little continent, and all
+because of your pride.{06}{07}
+Maybe darkness deserves a try.
+Wouldn't you agree?{end}
+
+I see your morals
+are bankrupt.{06}{07}
+As you wish,
+I will appeal to strength.{06}{07}
+{font4}Fram Kadath o Yeless,
+Le Hlutor Scelde,
+Lushiris, Beorg Ure!{end}
+
+N, no ...!?
+This is ... impossible ...!{end}
+
+Lushiris herself?
+Summoned here ...!?{end}
+
+The goddess of light!
+How, how incredible ...!{end}
+
+Lushiris ...
+I ... We thank you.{end}
+
+I've been watching
+everything from above.
+You needn't explain.{end}
+
+{02}, you think light
+doesn't exist in this world, and
+that you will go unpunished.{06}{07}
+Please, approach
+me with all the strength
+you possess.{end}
+
+A voice calls
+from somewhere far off.{06}{07}
+
+"Humans have not set
+foot on my island for aeons ..."{06}{07}
+
+"If you require my aid,
+then just call out my name."{end}
+
+Which name will you call?{end}
+
+Lushiris{end}
+
+Chaos{end}
+
+Odin{end}
+
+"It seems as though we old
+ones have been forgotten ..."{end}
+
+"It seems as though we old
+ones have been forgotten ..."{end}
+
+"Yes, my name is Odin.
+I'll lend you my strength ..."{06}{07}
+
+Obtained Odin's Buckler.{end}
+
+You can see some sharp metal 
+at the bottom of the crater.{06}{07}
+Do you take it?{end}
+
+Obtained Inferno Lance.{end}
+
+I don't care who you are.
+I won't lose here.{end}
+
+You sound just
+a tad overconfident.{end}
+
+Well, aren't you ready?
+Let us see
+what true strength is!{end}
+
+Finally, we'll settle things.
+But never forget,
+you can still surrender.{end}
+
+Sorry, I don't like the way
+things are going around here.
+I'm afraid I'll decline.{end}
+
+Then die like a fool.{end}
+
+Why ...!?
+If only I could ...
+fight a little longer ...{end}
+
+Aaaarrggghh!
+It's, it's over for me!{end}
+
+Damn it all ...
+My old wounds ...{end}
+
+Enough ...
+That's it!{end}
+
+{font3}Ooooohhh--!{end}
+
+{font3}Aaaahh--!{end}
+
+Forgive me, B{3a}ser, for
+withdrawing at such a time.{end}
+
+Wh, what ... No ...
+Who is ... I, what ...?
+My head! My head--!{end}
+
+Liana, what's going on?{end}
+
+Aahhh ... I'm--all right now.
+Just concentrate
+on our victory, {02}.{end}
+
+Sorry, {02}.{06}{07}
+You need a better sparring
+partner than the Empire
+if you aim to defeat
+the legendary Descendants.{end}
+
+If you're going to attack, do it!
+You won't come within
+six paces of Lady Jessica.{end}
+
+Forgive me ...
+M, my sword technique ...
+is ... a bit rusty ...{06}{07}
+If I could have fought them ...
+in my prime, oh how ...{end}
+
+Aaron ...!
+Snap out of it, Aaron!{end}
+
+I'm sorry, I'm ...
+I just can't any longer ...{end}
+
+All right, now I'm pissed!
+You'll pay, {02}!{end}
+
+Gaahhh!{end}
+
+Just die!{end}
+
+I can still ... fight ...{end}
+
+Ah, this blue sky can't
+be dyed with evil ...{end}
+
+Gaaahhh--!{end}
+
+Guys, keep it up!
+We must protect Jessica!{end}
+
+I'll take care of her.
+Don't worry, just fight with
+all your heart!{end}
+
+Thanks, Aaron!{end}
+
+Oh, no!
+No, ... Cherie!{end}
+
+I, I guess I didn't ...
+expect to win against you.{06}{07}
+{02}, when we
+are reborn, I hope we can ...
+lead simpler lives ...{end}
+
+Cherie, I'm so sorry.
+You didn't deserve ... {end}
+
+Don't be sad ...{06}{07}
+I, I don't have any regrets ...
+I ... fought for peace ...
+to ... the bitterest end ...{end}
+
+Princess, I thought of you
+as a daughter, and even so ...
+my strength wasn't ...{06}{07}
+{02}, you have
+lived long enough!
+Prepare for vengeance.{end}
+
+Well then, I suppose
+I'll move to counter them.{end}
+
+Be careful, Lester.{end}
+
+Right!{end}
+
+Damn it ...!
+I was careless, wasn't I?{06}{07}
+Sorry, Keith. 
+Looks like I can't protect
+Cherie any more ...{end}
+
+No, ... Lester!
+I can't lose you too!{end}
+
+Shit ... Shit!
+I don't care what happens
+to me, but Jessica ... must live!{06}{07}
+Fuck it ... all ...!
+What a cruel world ...{end}
+
+Lester ...
+You did very well.
+Rest in peace.{end}
+
+All cavalry, attack!{end}
+
+Turn them
+from the castle!{end}
+
+M, my duty hasn't been ...{end}
+
+I lived a full life.
+I have no regrets ...{end}
+
+This is it, isn't it ...?{end}
+
+So, let me witness
+your so-called power!{end}
+
+The power of darkness
+is the power of suffering.
+They are inseparable.{end}
+
+I have not seen such
+humans on this plane for
+many ages ...{06}{07}
+If your leadership brings
+peace and prosperity,
+that is well and good.{06}{07}
+But if your rule
+becomes one of catastrophe,
+then I shall return.{06}{07}
+And no human
+will need summon me ...{end}
+
+What do you
+mean by that, Lushiris?{end}
+
+People often seek
+more power than
+what is good for them.{06}{07}
+Right now, you are
+standing on the
+precipice of insanity.{06}{07}
+And this world will be
+whatever you choose to make
+of it, {02}, for
+better or for worse.{06}{07}
+I do not typically interfere
+in human concerns, but I may
+make an exception for you.{06}{07}
+Though my corporeal body
+will fade, I will watch
+from above, ... as I ever have.{end}
+
+Ledin, King of Baldea.
+I bid you welcome.{end}
+
+"Ledin" alone is fine.
+It has been ages since last
+we met, Jessica.{end}
+
+Naturally, he
+isn't the true prince
+you once served.{06}{07}
+He is but shadows and dust
+conjured from my
+infinite memory of this world.{06}{07}
+I think, however, you shall
+find my memory is quite good.{end}
+
+Lushiris, though I
+appreciate being back ...{06}{07}
+Could you enlighten
+me as to why I
+have been called back?{end}
+
+I wish to enlist
+your aid in this battle.{06}{07}
+Here, the fate of
+the Descendants of Light
+will be decided.{06}{07}
+Sadly, your descendant,
+{02}, stands against
+them -- with the darkness.{end}
+
+I see ...{end}
+
+L, Lushiris ...
+I beg your pardon ...{end}
+
+It's all right.
+Now, please rest comfortably.{end}
+
+I apologise ...{end}
+
+I would expect nothing
+less from a man of my blood.
+I cannot win here.{06}{07}
+I will return to
+the eternal slumber.
+Until next time ...{end}
+
+N, not yet ...
+The Descendants of Light
+cannot ... they cannot ...{06}{07}
+Oh shining goddess,
+hear my plea, and
+appear before us ...{06}{07}
+{font4}Fram Kadath o Yeless,
+Le Hlutor Scelde,
+Lushiris, Beorg Ure!{end}
+
+L, Lushiris ...!?{end}
+
+I have been watching over
+your battle from above.{06}{07}
+Please, leave the
+rest in my hands.{end}
+
+We could not ...
+complete the ordained duty of
+the Descendants of Light ...{06}{07}
+Please, forgive us ...{end}
+
+Slumbering hero who
+lies within my memory, I call
+upon your might ...!{06}{07}
+{font4}Wreccan Fram Thin Slaepe,
+Hatte The Lifde, Ledin!{end}
+
+Did you call
+for me, Lushiris?{end}
+
+Th, that's it ...
+I can't fight any more ...{end}
+
+Jessica, you worked very hard.
+I entreat you, please rest now.{end}
+
+Lushiris ... I beg you ...
+Please save this world ...{end}
+
+Ugh, you ...
+you have become
+this powerful ...{end}
+
+It's over ...
+Everything is over ...{end}
+
+Good job, {02}.{end}
+
+Holy shit ... Incredible!
+You've even killed a deity!{end}
+
+Now, things will be
+different in this world.{end}
+
+Hee hee!
+We've even defeated the
+goddess of light!{06}{07}
+Lord B{3a}ser shall
+be very, very pleased!{end}
+
+That's right, my sister.
+He should free us from our
+duties as Sealing Maidens.{end}
+
+No enemies remain
+to oppose us.{06}{07}
+We need to take this kingdom
+as quickly as possible,
+and then unite the others.{06}{07}
+That is our objective.
+We cannot rest.{end}
+
+Leave it to me!{end}
+
+{02}, I will do anything
+for you and Master B{3a}ser.{end}
+
+First, we will return to B{3a}ser.
+Then, we will take
+the final steps to our goal.{end}
+
+Your death means an end
+to the Descendants of Light.{end}
+
+You must come
+to your senses, Liana!{end}
+
+Don't make me laugh!{06}{07}
+You think words
+can shake her loyalty
+to Master B{3a}ser?{end}
+

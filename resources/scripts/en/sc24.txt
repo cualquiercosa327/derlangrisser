@@ -1,0 +1,393 @@
+The Holy Rod is on an
+altar inside this temple.{end}
+
+We'll have to split
+up and check each
+area individually.{end}
+
+Won't this waste
+a lot of time ...?{end}
+
+What?
+Somebody is approaching!
+Is it the enemy!?{end}
+
+It's here.
+Somewhere within these ruins
+we'll find the Holy Rod.{end}
+
+Hey, Hein ...
+Don't you know any spells
+that could locate it?{end}
+
+Heh, if only life were
+so simple, Lester ...{end}
+
+What!{06}{07}
+The Blue Dragon Knights
+are here ...!{end}
+
+Isn't that Rohga
+leading them!?{end}
+
+{02}'s bunch?{06}{07}
+Move fast!
+We must find it
+before they do!{end}
+
+He seems to be after
+the rod as well.{06}{07}
+Let's hurry!{end}
+
+Everyone, let's go!{end}
+
+Let's split and search!{end}
+
+I'll check the
+left interior room.{end}
+
+You check the left side.{end}
+
+You check the right side.{end}
+
+Yes, Sir!{end}
+
+Understood.{end}
+
+Yes, Sir!{end}
+
+No matter what, we cannot
+let them take the Holy Rod!{end}
+
+Sorry for being late.{end}
+
+Leon!
+Are you all right?{06}{07}
+Weren't you injured
+in the battle before?{06}{07}
+Please, let me
+handle this, Sir.{end}
+
+Don't worry about me.{06}{07}
+I can't leave this
+all up to you.{end}
+
+Damn!
+We're a little late!{end}
+
+Leon!{end}
+
+All right!
+The operation is complete!
+Withdraw!{end}
+
+Damn, if we had a
+little more time ...{end}
+
+Damn.
+This is it ...{end}
+
+Ugh.
+Now I see how useless I am.{end}
+
+Oww!
+How could you hurt such
+a helpless little girl?{end}
+
+Ugh!
+I messed up ...{end}
+
+Damn ...!
+You're really good!{end}
+
+Argh!
+This is all the
+strength I've left ...{end}
+
+Ah!
+I can't move ...{end}
+
+Sorry.
+I'm pulling out ...{end}
+
+{02}!
+You won't get the Holy Rod!{end}
+
+My wound still
+hasn't healed ... {06}{07}
+{02},
+I will pay you
+back for this!{end}
+
+I won't tolerate failure!
+Find the Rod, now!{end}
+
+Let's go!{end}
+
+{02} ...
+I've wanted to do battle
+with you just once!{end}
+
+Rohga ...{end}
+
+I won't hold back.
+Come on!{end}
+
+Such strength ...
+To imagine there are fighters
+even more powerful than I ... {06}{07}
+I'm proud to have battled
+with and against a warrior
+as great as you, {02}.{end}
+
+Rohga ...{end}
+
+Farewell ...!{06}{07}
+May we meet again
+in the underworld!{end}
+
+Damn ...
+You're pretty good!{end}
+
+You, search the left!{end}
+
+Inconceivable--!{end}
+
+Uggh,
+how could I die here--{end}
+
+Let's continue
+the evacuation.{end}
+
+Argh--{end}
+
+Ahh.
+I'm losing strength--{end}
+
+I am sorry,
+my beloved ... {06}{07}
+I don't think I'll
+survive this time ...{end}
+
+You are
+strong indeed ...{end}
+
+Aahh--!
+I can't ...{end}
+
+At last, the time for
+me to meet my departed
+friends has come ...{06}{07}
+Gah--arrgghh ...!{end}
+
+Gah--!{end}
+
+Finally, it's over ...{end}
+
+Well, let's find
+the Holy Rod.{end}
+
+I found it!
+This is the Holy Rod!{end}
+
+Obtained Holy Rod.{end}
+
+Finally, it's over ...{end}
+
+Well, let's find
+the Holy Rod.{end}
+
+I found it!
+This is the Holy Rod!{end}
+
+Obtained Holy Rod.{end}
+
+There it is!{end}
+
+Oh! I found it!{end}
+
+It's here!{end}
+
+I've discovered it!{end}
+
+Heh heh.
+I found it!{end}
+
+Here it is!{end}
+
+There it is.
+It's right here!{end}
+
+I found it here!{end}
+
+Found it!{end}
+
+Here it is!{end}
+
+I have discovered it!{end}
+
+It's not here ...{end}
+
+Tsk, can't find it.{end}
+
+It doesn't look
+like it's here.{end}
+
+It's not here ...{end}
+
+Damn, not here.{end}
+
+It's not over here.{end}
+
+I can't find it.{end}
+
+I guess it isn't here.{end}
+
+It's not over here!{end}
+
+There's nothing here!{end}
+
+Not here ...{end}
+
+Hurry!
+We can't let them leave
+with the Holy Rod!{end}
+
+You won't take
+the Holy Rod!{end}
+
+All right, listen
+up, everybody!{06}{07}
+Gather around the
+temple, and prepare for
+the enemies attack!{end}
+
+Men, battle stations!{06}{07}
+Gather at the temple entrance.
+We must repel the enemy.{end}
+
+I have taken
+the Holy Rod!{end}
+
+I've got the Holy Rod!{end}
+
+Obtained Holy Rod.{end}
+
+All right, let's go outside!{end}
+
+Yes, Sir!{end}
+
+I have the Holy Rod.{06}{07}
+I'm heading for the
+exit, so cover me!{end}
+
+Obtained Holy Rod.{end}
+
+All right, let's
+hurry and escape!{06}{07}
+Have the others back me up!{end}
+
+Damn! They beat us ...
+Don't let them get away!{06}{07}
+Take back the rod!{end}
+
+We did it!
+Now we can stand
+against Alhazard!{end}
+
+...{end}
+
+Big sister ...{end}
+
+Fighting Leon is
+painful for you, isn't it?{end}
+
+N, no ...
+It's all right ... {06}{07}
+Alhazard must be sealed.
+Even if we have
+to do things like this ...{end}
+
+We will end this war.{06}{07}
+I just hope we may see
+a day when we aren't divided
+as enemies and allies ...{end}
+
+Yeah ...
+But first we must release
+Langrisser's seal.{end}
+
+At last, we can release
+Langrisser's seal ...{end}
+
+Let's hurry with the
+incantations, sister!{end}
+
+Yeah!{end}
+
+Unbind the Light that
+rests within me ...{end}
+
+Empower this sword
+with the power of Light
+that rests within me ...{end}
+
+Charge the Holy Rod
+with light ...{end}
+
+Now to bring forth the
+sword's true power!{end}
+
+What a magnificent glow ...{end}
+
+Langrisser's hidden
+power has been released!{end}
+
+With Langrisser revived, we
+can show B{3a}ser the true power
+of the Descendants of Light!{end}
+
+It will only get tougher
+from here on out.{06}{07}
+However, if we work
+and act as one, we can
+overcome any difficulty.{06}{07}
+If we all have faith in
+ourselves, we can succeed. {06}{07}
+If we believe in hope,
+the Sword of Light will
+shine even brighter.{end}
+
+I'll ... give it my all!{end}
+
+All right!
+I'm going to give it
+everything I've got, too!{end}
+
+We've made it this far ...
+We can do it!{end}
+
+Let's work together!{end}
+
+As long as I continue to
+have strength, I'll fight!{end}
+
+You can count on
+me till the end!{end}
+
+Let's go!
+We shall fight
+as one!{end}
+
+Everyone ... {end}
+
+All right, let's do it!
+To Castle Velzeria!{end}
+
+In a vacant spot of earth
+there is a glittering garb.{06}{07}
+
+Will you take it?{end}
+
+Obtained Wizard's Robe.{end}
+

@@ -1,0 +1,501 @@
+Whew, this is taking forever.
+Shouldn't we have
+caught up by now?{end}
+
+We shouldn't have given
+them so much time ...{end}
+
+Well, they're
+fast at running away.
+That's for sure.{end}
+
+Their troops advance
+too quickly. We haven't even
+reached the rear guard.{end}
+
+Are you certain
+that's the case?{end}
+
+This looks like a trap.
+Lester and his navy would
+excel on this battlefield.{end}
+
+Ah hah. Just as I thought.
+They've prepared an ambush.{end}
+
+Damn ... I thought we'd catch
+them off guard here,
+but they've noticed us.{end}
+
+Lester, I offer
+you my thanks.{06}{07}
+I don't know how to
+repay your watching over
+Jessica in my stead.{end}
+
+Egbert, you've
+really lost it.{06}{07}
+How can you thank someone
+who wants you dead?{06}{07}
+Why the hell did you
+even leave Jessica alone
+in the first place!?{end}
+
+To destroy the darkness.
+That's why I left ...{end}
+
+You helped Bernhardt
+expand his worthless Empire
+to end the darkness?{06}{07}
+Why do I doubt that?{end}
+
+Since B{3a}ser's resurrection,
+I've pondered ways
+to combat the darkness.{06}{07}
+In the end, rather than gamble
+on the Descendants, I settled on
+a more tried and true ally.{06}{07}
+I couldn't wait with Jessica
+for them to show up, you see.
+It was taking far too long.{06}{07}
+Fortunately, my alternate
+means succeeded to
+a quite enviable degree.{06}{07}
+Yet, we're not quite finished.
+We must crush the remaining
+rebels, including yourself.{end}
+
+"Rebels!?"{06}{07}
+This isn't a rebellion!
+You're invading and pillaging
+every town you come across!{end}
+
+...{06}{07}
+The continent is admittedly
+raging with war.{06}{07}
+But it is for a common
+good. This war, this
+conflict, will be the last.{end}
+
+You've always been so smart.
+Such a glib talker, Egbert.{06}{07}
+But we're not ready to pack
+it in. Hell, we've been pretty
+good at "rebelling," as I see it.{06}{07}
+You're avoiding the real issue,
+namely that no one wants
+you or your stinking Empire!{06}{07}
+You ran from Jessica to start
+a war so everyone would die
+for your damned schemes.{06}{07}
+If you really wanted peace,
+you wouldn't take it by
+getting everyone killed ...{06}{07}
+Egbert, you fucking coward!{end}
+
+Excuse me, are you done?{06}{07}
+Such a crude, simple man.
+I hope moronic
+fantasies comfort you in death.{end}
+
+What the fuck did you say,
+you pony-riding ass!?{end}
+
+{02}, we must first
+breach their naval defence
+and strike down Lester.{06}{07}
+Without his command,
+they may lose the will to fight.{end}
+
+I agree with Leon.{06}{07}
+We need to end this quickly.
+Cherie and Jessica's troops
+are broadening their lead.{end}
+
+Move fast and strike
+with a concerted blow.
+Don't mess this up!{end}
+
+Understood!{end}
+
+Leave it to me!{end}
+
+Okay, this is it!
+Let's make em' fear
+we salty sailors!{end}
+
+Not yet!
+Don't move yet!{06}{07}
+We have a terrain advantage.
+Stay on the defence and
+keep them running in circles.{06}{07}
+Hold them long
+enough for Jessica to
+make her escape.{end}
+
+Don't you understand?{06}{07}
+That's exactly my thinking.
+But when they leave an
+opening, we cut em' down.{end}
+
+Please leave it to me!{end}
+
+Damn Imperial solders!
+You're not the bosses here, at
+least while we're around!{end}
+
+Fuck this!
+Reinforcements!{end}
+
+You guys!
+Why are you all here ...{end}
+
+We came as fast as possible
+to protect Princess Cherie!{end}
+
+Their heads will a
+fine addition to
+Kalxath's treasury!{end}
+
+All right! You guys
+take them from the rear.{06}{07}
+We'll flank them
+from both sides!{end}
+
+All right! You guys
+move to their rear and
+roust em' out of hiding!{end}
+
+Yes, Sir!{end}
+
+Hey, Egbert.
+There's something
+I'd like to ask you ...{end}
+
+I don't mind.
+Ask what you please.{end}
+
+Up until now,
+B{3a}ser's resurrection was
+simply an omen.{06}{07}
+"The world will
+fall into darkness, ..."
+because of him, presumably.{06}{07}
+Well, I heard from Jessica
+the reverse is true ...{06}{07}
+B{3a}ser doesn't bring chaos:
+chaos brings B{3a}ser. Only a
+bloody world will awaken him.{06}{07}
+What's your opinion?{end}
+
+...{06}{07}
+I agree with the theory.
+His Majesty, however,
+should not know this.{end}
+
+Then why did you agree
+to the Empire's conquest?{06}{07}
+Did you want to
+reawaken the darkness?{end}
+
+Even if I'd known,
+I wouldn't have
+changed my decision.{06}{07}
+El Sallia's strife, continued
+indefinitely, would
+surely bring eternal darkness.{06}{07}
+However, we Imperials
+believe our war
+will end in lasting peace.{06}{07}
+Compared to all the blood
+in history, we're
+making a small sacrifice.{end}
+
+So you're saying your
+invasion is justified?{06}{07}
+In war, justice means nothing!{end}
+
+Your beliefs are flawed.{06}{07}
+Peace will never come
+through forcing your ideology.
+Mankind will always resist.{06}{07}
+True bliss can only come
+through mutual understanding.{06}{07}
+That's my conclusion.{end}
+
+You don't understand
+the tenacity of darkness ...{06}{07}
+While we're wasting time
+killing each other, it's
+laughing and biding time! {end}
+
+Heh heh heh.{06}{07}
+The Empire, of course,
+is frequently underestimated.
+But please, rest assured.{06}{07}
+We ourselves
+underestimate no one.{end}
+
+You found a small locked box.
+The outside has an inscription.{06}{07}
+
+"Would you,
+Knowing what's in store,"{06}{07}
+
+"Memory relegated to lore,
+Choose this life once more?"{end}
+
+The small box turned
+to rust and vanished.{end}
+
+The box opens up
+with a satisfying squeak.{06}{07}
+
+You lift out the precious
+gem from within the box.{end}
+
+Obtained Rune Stone.{end}
+
+As you step into a thicket, a
+chain coils around your feet.{06}{07}
+
+Will you cut it off?{end}
+
+The chain instantly turns
+to dust before your eyes.{end}
+
+You carefully remove
+the chain using your hand.{06}{07}
+
+Moments later,
+it begins to sparkle.{end}
+
+Obtained Gleipnir.{end}
+
+Give up, Lester!{end}
+
+You're kidding.
+You think I'll lose!?{end}
+
+Not bad, Lester ...
+You really took your terrain
+advantage into consideration.{end}
+
+Uggghh ...
+If I keep fighting ...
+I'm really gonna die ...{end}
+
+Fucking careless!
+No excuse ...{end}
+
+This wound is deeper
+than I thought. I can't help it.
+Time to retreat.{end}
+
+It's lights out for you!{end}
+
+I'm ... I'm tired.
+Sorry, it's all up to you.{end}
+
+I don't have time to teach
+you weaklings how to fight.{end}
+
+Grrr ...
+That's it ...{end}
+
+That's right,
+feel free to fear me!{end}
+
+When you disappeared
+so suddenly ...{06}{07}
+Do you know how much
+Jessica grieved for you?{end}
+
+... {06}{07}
+Ideals can easily
+separate people.{06}{07}
+It was only a matter of time.{end}
+
+Tsk! Too soft!{end}
+
+Fall back!
+Save your strength
+for the next battle!{end}
+
+I won't let you pass.
+Your ambitions end here.{end}
+
+Egbert!{06}{07}
+With all your pondering,
+the best you came up with
+was continental war!?{end}
+
+The answer is self-evident.
+I have no interest
+in further discussion.{end}
+
+Idiot! Why didn't you give up
+before you had to die?{end}
+
+Ugggh--!{06}{07}
+Heh heh heh ...
+What a grave mistake.
+Heh ...{end}
+
+Lester ...{end}
+
+{02} ...{06}{07}
+Darkness will be stronger
+now than ever. Don't
+you think that's funny?{06}{07}
+Here we are fighting, and
+you're thinking this
+is the last time, this is it ...{06}{07}
+But after your generation
+comes and goes, things will
+happen all over again.{06}{07}
+No one ever listens to
+history, and no one ever will.
+What do you know ...{end}
+
+Egbert.{06}{07}
+I don't know whether
+you've been right
+or wrong in all this ...{06}{07}
+But I've always thought
+of you as a brother.{06}{07}
+And as a brother ...
+I'm asking you not
+to fight Jessica, please.{end}
+
+...{06}{07}
+I can't promise anything
+in that regard.{06}{07}
+If Jessica opposes us,
+my loyalty's with the Empire.{end}
+
+Oh ... I should have known.
+A typical response
+from the great new Egbert.{06}{07}
+I guess I'll never know why
+you changed ... so much ...{06}{07}
+Farewell, Brother ...
+Don't ... worry, Jessica ...
+you can take this ... asshole ...{end}
+
+Don't worry, Lester.
+We'll bring a world
+without darkness.{end}
+
+Is that right?
+I'll hold ...
+you to it ...{06}{07}
+Oh fuck ... Hah hah ...
+My eyes, I can't see.{06}{07}
+Egbert, think it over ...
+Don't say a damned thing ...
+Just think, and let ... me die ...{end}
+
+Lester ...{end}
+
+That man stood toe to toe
+with the Empire ... through
+it all, he never ran.{06}{07}
+You were a good
+soldier and a formidable
+rival, Lester.{end}
+
+Not to break the moment or
+anything, but this isn't really
+the time to be sentimental.{06}{07}
+If we don't leave now,
+we'll lose our quarry.{end}
+
+Damn right, I'm itching to
+kick some more ass.
+Let's move it, shall we?{end}
+
+...{06}{07}
+Farewell, my friend ...
+and goodbye, my brother.{end}
+
+Let's do this, guys!
+I'll show the Imperials a
+real god damned navy!{end}
+
+You going to fight
+or talk, punks?{end}
+
+This can't be true ...
+Me, ... dead?{end}
+
+You're in my way!{end}
+
+You fuck heads
+want a piece of me?{end}
+
+I didn't expect this ...{end}
+
+C, cold ...
+So cold ...{end}
+
+Hit hard and don't let
+them catch their breath!{end}
+
+Shoot down those
+pigeons in the air!{end}
+
+I, I lost ...{end}
+
+Uugghh ...{end}
+
+Let's go, break through!{end}
+
+Another life taken ...{end}
+
+Uugghh ...
+Is this the end ...?{end}
+
+I'll fight to the bitter end!
+My magical prowess
+can overcome anything!{end}
+
+I didn't know they
+were so strong ...{end}
+
+We have to break through
+before they get into formation!{end}
+
+Even Imperial soldiers are
+only men, after all!
+You won't defeat him easily!{end}
+
+Nooooo--!{end}
+
+Fuck all!
+I need support, fast!{end}
+
+At this rate ...{end}
+
+Fuck, fuck, fuck!
+I'm the last one left!{06}{07}
+At least I won't be lonely
+in Hell!  Who wants to
+come along? Step up!{end}
+
+How is this possible?
+M, my naval troops!?{end}
+
+You think you
+can take us with such
+pathetic tactics?{end}
+
+Shut up!
+All men, charge!{end}
+
+The reinforcements have
+been killed ...
+Impressive, {02}{06}{07}
+You're really skilled
+at leading your men.{end}
+

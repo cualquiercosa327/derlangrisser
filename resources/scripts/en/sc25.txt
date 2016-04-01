@@ -1,0 +1,410 @@
+Just beyond this
+bridge lies the forbidden
+soil of Velzeria.{end}
+
+Those demons will think
+twice before attacking us while
+we hold Langrisser, I bet!{end}
+
+Maybe so Hein, but you should
+never underestimate your
+enemies on the battlefield.{end}
+
+I'll have to remember
+that, Keith. But I doubt
+anything will happ--{end}
+
+Langrisser's seal is broken,
+Descendants of Light. However
+I'll never give in to humans!{06}{07}
+Upon the burning Demon Tribe
+blood of my birth Father, I will
+rend the flesh from your bones
+as revenge for my brother!{end}
+
+My dark brothers 
+and sisters, hear me!{06}{07}
+The Descendants of Light
+will not see the sunset this day.
+Avenge our Dark Prince, B{3a}ser!{end}
+
+{font3}Lord B{3a}ser shall
+be avenged!{06}{07}
+{font3}We won't fear the 
+Descendants of Light!{end}
+
+{font3}This time you will die!{end}
+
+{font3}We will show our
+demonic strength!{end}
+
+It's that crazy demon-loving
+witch from the village we
+saved before going to Baldea!{end}
+
+Listen up, everyone!
+We can't go easy on Sonya,
+even if she is Rohga's sister!{06}{07}
+Let's show them the power of
+the newly awakened Langrisser.
+Fight for our ideals. Let's go!{end}
+
+Death to the putrid humans!
+Yes, ... tear them to shreds!{end}
+
+What the hell?{06}{07}
+It seems the enemy has
+divided into two factions.{end}
+
+You found a small locked box.
+The outside has an inscription.{06}{07}
+
+"Would you,
+Knowing what's in store,"{06}{07}
+
+"Memory relegated to lore,
+Choose this life once more?"{end}
+
+The small box turned
+to rust and vanished.{end}
+
+The box opens up
+with a satisfying squeak.{06}{07}
+
+You lift out the precious
+gem from within the box.{06}{07}
+
+Obtained Rune Stone.{end}
+
+As you step into a thicket, a
+chain coils around your feet.{06}{07}
+
+Will you cut it off?{end}
+
+The chain instantly turns
+to dust before your eyes.{end}
+
+You carefully remove
+the chain using your hand.{06}{07}
+
+Moments later,
+it begins to sparkle.{06}{07}
+
+Obtained Gleipnir.{end}
+
+After a little while, a
+large tree begins speaking.{06}{07}
+
+"You ... human ... Will you
+please unshackle that chain?"{06}{07}
+
+"That bothersome metal has
+encircled me for so long ..."{06}{07}
+
+What will you do?{end}
+
+Chop it off{end}
+
+Remove it by hand{end}
+
+Ignore the tree{end}
+
+In severing the chain with
+your sword, you injure the tree.{06}{07}
+
+The large tree falls silent.{end}
+
+Using your hands, you
+courteously remove the chain.{06}{07}
+
+"Thank you ... that chain was
+a burden these thousand years."{end}
+
+Obtained Gleipnir.{end}
+
+The tree gives up
+and remains silent.{end}
+
+{02}, it seems she
+brought backup! Sea Serpents
+were hiding under water!{end}
+
+Damn! Be wary near the river,
+everyone! Aquatic monsters
+can be quite powerful in water.{end}
+
+Let's go!{end}
+
+What!?
+You won ...?{end}
+
+Now ...
+show me your stuff!{end}
+
+Heh!
+I wasn't really paying
+any attention, sorry!{end}
+
+You're mean!
+That hurts!{end}
+
+You're doing quite well!{end}
+
+I won't lose!{end}
+
+Gah ...
+I couldn't ...{end}
+
+I'll show you the 
+legendary power of the
+Knights of Kalxath!{end}
+
+Damn!
+This is as far as I can
+fight with you guys ...{end}
+
+You think you stand a
+chance against me!?{end}
+
+Damn it!
+You beat me!{end}
+
+Return to
+your netherworld.{end}
+
+I'm very sorry,
+I have to retreat ...{end}
+
+Hey, B{3a}ser is dead!
+Snap out of it already!{end}
+
+Gah ... any more of
+this would be futile ...
+Sorry ...{end}
+
+No ... no ... Why!?
+This world hates me!{06}{07}
+Even my demon tribe
+allies turn against me!{end}
+
+I won't die like
+this, I can't die!{06}{07}
+No one will help me,
+I must survive!{06}{07}
+Betrayed again ... Groan!
+Get out of my way you
+backstabbing assholes!{end}
+
+You, ... you humans!{end}
+
+Attack me if you will!
+I won't let you kill me.{06}{07}
+There's no way
+in hell I'll die here!{end}
+
+{font3}Die!{end}
+
+Why!?
+Why did this happen?{end}
+
+Ooh ...!
+This is wrong!{06}{07}
+At this rate, I won't be
+able to win against you ... {06}{07}
+However, I'll never give up!
+Humanity and those
+treacherous demons will
+perish by my hand!{06}{07}
+To do this, I'll ask for power
+from my lord and master,
+the god of ruin--Chaos!{end}
+
+Impossible ...
+But I won't die like this ...{06}{07}
+Chaos ... Chaos's power ...
+He will help me destroy
+this cruel, heartless world!{end}
+
+Sonya! If you summon Chaos,
+this world as we
+know it will disappear!{end}
+
+I don't fucking care
+what happens to this
+miserable world!{06}{07}
+Humans hate me, the
+Demon Tribe I thought my
+friends now persecute me!{06}{07}
+My brother is dead
+because of this war.
+I don't even have a home!{06}{07}
+I don't care for this world,
+I don't care if it's destroyed!
+I hope you all die!
+I hope this world dies!{end}
+
+{font3}Damn!
+This is bad,
+everyone retreat!{end}
+
+Sonya ...{end}
+
+Sonya ...{end}
+
+How sad to have your own
+people turn against you ...{end}
+
+After what Sonya said ...
+We have to go
+to Velzeria, but ...{06}{07}
+Maybe we should follow
+Sonya. If she awakens
+Chaos, Bernhardt and
+Alhazard won't even matter.{end}
+
+But after what Sonya said ...
+We have to go to
+Velzeria, however ...{06}{07}
+Maybe we should follow
+Sonya. If she awakens
+Chaos, Bernhardt and
+Alhazard won't even matter.{end}
+
+Will you continue
+to Velzeria?{end}
+
+All right, to Velzeria!
+We will end Bernhardt's
+ambitions once and for all!{end}
+
+I am worried about the
+Empire's actions, but right now,
+Sonya's madness be stopped.{end}
+
+{font3}Your blood is tainted
+with the putrid
+stink of humanity!{06}{07}
+{font3}Because of this, you
+will be disposed of!{end}
+
+{font3}Don't affiliate
+with us any longer!{06}{07}
+{font3}You are the bastard
+shame of our tribe!{end}
+
+What ... Why!?
+What's happening...{end}
+
+{font3}Th, that's
+impossible!{end}
+
+{font3}Ugh, strong....{end}
+
+Esto!{end}
+
+{font3}I'm sorry ...
+Sonya ...{end}
+
+{font3}V, very good....{end}
+
+{font3}Gaahhhh--{end}
+
+{font3}Gah--arrghh!{end}
+
+{font3}Descendants of Light ...
+Strong enemies ...{end}
+
+Osto!{end}
+
+{font3}Ug--{end}
+
+{font3}Ooh ...{end}
+
+{font3}Grrrrr--!{end}
+
+{font3}Destroy everything!
+This is the
+will of B{3a}ser ...{end}
+
+{font3}I've heard that the
+Descendants of Light
+have incredible power ...{06}{07}
+{font3}We must go about
+this seriously.{end}
+
+{font3}It's over!
+Cease your futile
+struggling.{end}
+
+{font3}Gahh--!
+I've been hit ... {06}{07}
+{font3}Cough ... Cough ...
+Scum ...!{end}
+
+{font3}Interesting ...
+You defeated Faias.. {06}{07}
+{font3}However, now you
+shall witness the
+power of the first
+family of the night!{end}
+
+{font3}Ugh ...
+Gaaah!{end}
+
+{font3}Grrrr ...{end}
+
+{font3}Ahhhhh ...{end}
+
+{font3}We don't care about
+your selfish grudge.{06}{07}
+{font3}We want to kill the
+Descendants of Light!{end}
+
+{font3}Hmph,
+you'd better win,
+for your sake.{06}{07}
+{font3}Otherwise, it will
+be us, and us alone,
+who will have the
+fun around here.{end}
+
+Ah, thanks for coming, friends!
+Would you be so kind as to help
+slay these meddlesome humans?{end}
+
+{font3}Don't tell me
+what to do, bitch.{06}{07}
+{font3}I only followed you
+in the past because
+of a direct order
+from B{3a}ser himself.{06}{07}
+{font3}Now that he's dead,
+I don't have to take
+any of your shit!{06}{07}
+{font3}Hmph ...!
+We're gonna have
+a little bloodbath!{06}{07}
+{font3}And you're cordially
+invited, you
+filthy, halfie bitch!{end}
+
+{font3}Oh ho ho ho!
+That sounds like
+such a lovely idea!{06}{07}
+{font3}I don't give a rat's
+ass about you either!{end}
+
+N, no way!
+You can't be serious ...{06}{07}
+B, but we're friends,
+aren't we ...!?{end}
+
+{font3}We must concentrate
+on the slaying the
+Descendants of Light!{end}
+
+{font3}Let's have at it,
+Descendants of Trash!{06}{07}
+{font3}I shall avenge
+Lord B{3a}ser!{end}
+

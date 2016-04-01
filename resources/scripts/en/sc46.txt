@@ -1,0 +1,417 @@
+We should be
+seeing Baldea soon.{end}
+
+It's just beyond
+this village.{end}
+
+Great! Let's hurry
+ahead, then.{end}
+
+Halt. Is the Imperial Army
+using this village
+as some kind of decoy?{end}
+
+I don't understand
+what he's getting at.{end}
+
+Answer my question!
+Do you plan to harbour your
+army near this town?{end}
+
+We are people of the
+Rayguard Empire, and we are
+simply passing through.{06}{07}
+Do you have business with us?
+If not, stand aside.{end}
+
+Still you spite me, cur!
+You will not disrupt
+this village's peace.{06}{07}
+I, Aaron, shall end your
+warmongering. You will not
+set foot on holy Baldea!{end}
+
+Wait a moment, please.
+We don't want to fight.
+If you just let us be ...{end}
+
+You would be
+so insolent!
+Have at you!{end}
+
+Damn it, he seems
+serious about this.{end}
+
+Oh well, we'll kick
+his sorry ass. He won't
+impede the Empire.{end}
+
+Settle down.
+Let's try not to kill
+without need.{06}{07}
+If he sees our intent is
+not to bring war here, he
+may agree to let us pass.{end}
+
+The red-haired commander,
+what do you call yourself?{end}
+
+My name is {02}.{end}
+
+You have mysterious eyes ...
+You don't appear to
+be soldier of Rayguard.{06}{07}
+Why have you decided
+to aid the Empire?{end}
+
+If we take control
+of El Sallia, the
+war will be over.{06}{07}
+Union by power is
+better than the
+current state of things.{end}
+
+A forced peace would
+be a short peace.{06}{07}
+Someone with more power
+could end it, someone like you.
+Is that really sufficient?{end}
+
+Hmmm ...{end}
+
+It's only natural{end}
+
+You can't sway me!{end}
+
+I don't know ...{end}
+
+It's only natural.{06}{07}
+He with the most power
+would be the best suited at
+securing this land.{06}{07}
+The longer it takes to
+unify this continent, the more
+lives will be lost.{06}{07}
+Only with power
+can we lessen the number
+of those sacrificed.{end}
+
+I see ... In that case,
+we free nations will
+destroy your Empire.{06}{07}
+Very few would agree to
+surrender their property and
+livelihood under martial law.{06}{07}
+I will fight against you for
+my ideals. We shall see whose
+method is the better.{end}
+
+Spare us the altruism.{06}{07}
+Aaron, in my travels,
+I have seen
+the horrors of war ...{06}{07}
+This world is bloody
+with conflict.
+We must change that now.{end}
+
+So, you hate war, ...
+yet you wage it for "peace."
+You, Sir, are a hypocrite.{end}
+
+I can't say my
+means are perfect.{06}{07}
+But this way, I never
+see war as
+completely purposeless.{06}{07}
+If you have other options,
+I'd like to know them.{end}
+
+I see ... If your actions
+lead to peace, I'll be
+mistaken about many things.{06}{07}
+Come, {02}, let's
+see how you end wars!
+En garde!{end}
+
+Everyone, hold!
+This moment is critical!{end}
+
+They're only provoking
+us to penetrate our defence.{end}
+
+Wow ...
+Such a coward ...{end}
+
+They might be
+preparing something.
+Let's advance with care.{end}
+
+Attack them.
+They're not plotting anything.{end}
+
+Is that so?
+You might want to be
+careful, {02}.{end}
+
+I'll give it my all!
+I'm taking the enemy
+down in one strike!{end}
+
+Shit!
+Serpent Knights!{end}
+
+They were hiding
+under the water!{end}
+
+A crafty one ...!{end}
+
+What?
+An ambush!?{end}
+
+Don't pursue!
+We'll take them with
+a pincer attack!{end}
+
+Yes, Sir!{end}
+
+How unsavoury.
+This will cause
+grave damage.{end}
+
+Don't just charge in.{06}{07}
+How about, instead,
+we retreat
+and reorganise?{end}
+
+Indeed, a forceful rush
+would be ill-advised.{end}
+
+A rusty metal plate
+in a vacant lot has fallen.{end}
+
+Will you inspect it?{end}
+
+The plate emitted light and
+became a beautiful shield.{end}
+
+Obtained Odin's Buckler.{end}
+
+The metal plate collapsed.{end}
+
+The flow of water
+seems to be different here.{06}{07}
+
+Do you wish to examine it?{end}
+
+You dip your hand into the
+water and hit something metal!{end}
+
+Obtained Crown.{end}
+
+Hesitate no longer!{end}
+
+Now that I'm here,
+I'm tired ...{end}
+
+Gaahh--!
+What a mistake!{end}
+
+You're very reckless
+to turn your
+blade in my direction!{end}
+
+Shit ...
+I'm done for!{end}
+
+What ...!?{end}
+
+Eeek, my face!
+You've cut my beautiful face!
+I won't forgive this!{end}
+
+Leon!
+Please, give me orders!{end}
+
+What should
+we do, {02}?{06}{07}
+His ability is limited.
+I don't think
+he'll be of much use.{end}
+
+That's true.
+Should we have
+him stand by ...?{end}
+
+Will you have
+him stand by?{end}
+
+Leave this to us.
+Please, stand aside.{end}
+
+It's your call.
+Just use him wisely ...{end}
+
+I will not lose!{end}
+
+Aaugh!
+Leon ...{end}
+
+Don't try the impossible!
+Leave this to us and fall back!{end}
+
+But ...{end}
+
+Retreat! They're too good.
+You're our guide to Baldea!{end}
+
+Augh!{end}
+
+Don't be so unreasonable.
+We need you to
+lead us to Baldea.{end}
+
+Imperial Army,
+my blade has
+rusted with age ...{06}{07}
+Consider it an
+even match!{end}
+
+If we back down,
+Langrisser will be taken
+by the Empire!{end}
+
+Ugh, it's already no good.
+Can we do nothing
+other than fall back ...?{end}
+
+Power alone
+does not make you
+a natural ruler.{06}{07}
+Those sort of thoughts
+are responsible for all the
+fighting in today's world.{end}
+
+You don't understand my
+motivation, but there's nothing
+I can really do about that ... {06}{07}
+Time and history
+will move on.{06}{07}
+One day you'll remember my
+words and regret, but,
+by then, it will be too late.{end}
+
+What you're doing now
+will not build an ideal peace.{06}{07}
+You sad people should turn
+your interests elsewhere
+and let us live as we please.{06}{07}
+Remember, it's not too late.{end}
+
+...{end}
+
+This is our first meeting.
+Try to think it
+over until the next ...{end}
+
+Is this my end ...?
+Is it here ...?{end}
+
+Charge!
+Let's kick some
+Imperial ass!{end}
+
+Oh ho!
+You have defeated me ...{end}
+
+Our wave attack
+cannot be routed!{end}
+
+I, I can't make
+it any farther!{end}
+
+Impossible!{end}
+
+Arrgh--!{end}
+
+Save me from death ...
+from death ...{end}
+
+Do you revel in your
+own power, Imperial Army?{end}
+
+Goddess ... 
+Lushiris ...
+Aaahhh--{end}
+
+Goddess, give me power
+to fight the Empire ...!{end}
+
+Line up with our
+sea units and
+charge the enemy!{end}
+
+Yes!{end}
+
+Defeat ill befits
+our Company ...{06}{07}
+But it shall complement
+you quite nicely!{end}
+
+Aaahh--!
+Noo ...!{end}
+
+Their main force uses
+its mobility to take
+advantage of weak points!{end}
+
+We're advancing
+on the enemy!{end}
+
+Gahh ... I'm falling
+from my dragon ...
+Aaahhh--!{end}
+
+I was beaten ...{end}
+
+I can't believe you
+have made it this far ...{06}{07}
+The Empire is truly amazing.
+Who else would appoint
+a pack of selfish hoodlums
+as its representatives.{end}
+
+Be reasonable!{06}{07}
+We are not some
+power-mad aggressors!{end}
+
+Is that what you think?
+I didn't join a
+nation of tyrants.{06}{07}
+We cooperate only because
+the Empire can and
+will unite all of El Sallia.{end}
+
+Wh, what!
+Are the Serpent Knights
+finished already!?{06}{07}
+These guys can't
+be taken lightly!{end}
+
+Yes!{end}
+
+It's over.{end}
+
+A very moderate
+commander, huh?{end}
+
+What a guy. 
+He reminds me a
+little of myself.{end}
+
+So our next stop is
+going to be the lost castle ...{end}
+
+All right!
+Our destiny is only
+a few steps away!{end}
+

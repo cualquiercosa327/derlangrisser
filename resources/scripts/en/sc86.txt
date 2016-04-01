@@ -1,0 +1,208 @@
+Welcome to El Sallia. My name is
+Lushiris. As the Goddess of Light,
+I have summoned you from above.{end}
+
+Our world has once again become
+exposed to the threat of evil.{end}
+
+I have long waited for
+a courageous person like
+you to appear.{end}
+
+In order to see if you are the
+one who can save this world, I
+must ask you some questions.{end}
+
+To begin with, please
+tell me your name.{end}
+
+Well then, {02}, please
+answer my questions honestly.{end}
+
+While resupplying, your enemy
+has launched a surprise attack.
+What will you do?{end}
+
+Retreat{end}
+
+Defend{end}
+
+Counterattack{end}
+
+Where do you
+believe God resides?{end}
+
+God does not exist{end}
+
+In the heavens above{end}
+
+Within each of our hearts{end}
+
+What is the essential
+quality of a matchless unit?{end}
+
+Destructive power{end}
+
+Leadership{end}
+
+Mobility{end}
+
+Which of these would
+you like at your next house?{end}
+
+The salty brine of sea air{end}
+
+The soft breath of spring{end}
+
+A fresh, gentle breeze{end}
+
+If this world collapses
+into crisis and
+ruin, what will save it?{end}
+
+Great and powerful gods{end}
+
+A wealth of knowledge{end}
+
+My own strength{end}
+
+If you gained command
+of a new unit, what
+would you demand of it?{end}
+
+Military might{end}
+
+Perfect control{end}
+
+High morale{end}
+
+Ideally, what abilities should
+an excellent army possess?{end}
+
+A powerful commander{end}
+
+Impenetrable defence{end}
+
+Power to smash and destroy{end}
+
+When faced by a
+being of total darkness, what
+do you consider it as?{end}
+
+As a vicious enemy{end}
+
+As a being to worship{end}
+
+One not to be trifled with{end}
+
+To what cause do you
+plan to devote your life?{end}
+
+To protect the ones I love{end}
+
+To strengthen myself{end}
+
+To fulfil my dreams{end}
+
+An ally unit has been enveloped,
+but yours is also in danger.
+What would be your command?{end}
+
+Order a retreat{end}
+
+Hold out for reinforcements{end}
+
+Rush to their aid{end}
+
+What do you most
+strive to obtain in this life?{end}
+
+Knowledge{end}
+
+Wealth{end}
+
+Power{end}
+
+If you gained a
+position of great power,
+how would you use it?{end}
+
+To protect my people{end}
+
+To rule over all{end}
+
+To promote justice{end}
+
+What kind of
+thing is love to you?{end}
+
+Something given mutually{end}
+
+Something one receives{end}
+
+A source of infinite power{end}
+
+What is it you
+expect from this world?{end}
+
+Love, hope and courage{end}
+
+Freedom to live as I please{end}
+
+Order and unity{end}
+
+What ability must the
+ruler of a nation possess?{end}
+
+Charisma{end}
+
+Decisiveness{end}
+
+Power to take action{end}
+
+What do you believe is
+required in order
+to become a hero?{end}
+
+A valiant soul{end}
+
+Leadership{end}
+
+Courage{end}
+
+You are a boy, aren't you?{end}
+
+No, a romantic{end}
+
+No, a burning soul{end}
+
+No, a man of steel{end}
+
+At the outset of
+battle, what skills do you
+require of yourself?{end}
+
+Vast tactical knowledge{end}
+
+Calm judgement{end}
+
+Mighty power{end}
+
+What do you look
+for in an ideal unit?{end}
+
+A select few{end}
+
+Strength in numbers{end}
+
+I alone am enough{end}
+
+Lastly, for what
+purpose do you fight?{end}
+
+To obtain glory and honour{end}
+
+To protect my homeland{end}
+
+To protect my loved ones{end}
+

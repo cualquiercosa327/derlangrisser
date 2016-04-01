@@ -1,0 +1,404 @@
+Whew, we landed
+ahead of schedule.
+What luck ...{end}
+
+Keep moving.
+If we want to seal both swords,
+we can't stop to rest.{end}
+
+Just be glad
+we defeated B{3a}ser.{end}
+
+Yes, and don't worry.
+The Imperial cat shall soon
+hunt down its mice!{end}
+
+How fortunate those
+mice have scurried here ...{end}
+
+Our favourite enemies ...
+We'll bombard them
+before going ashore.{end}
+
+I've been waiting for you,
+{02} ...
+And you too, Egbert.{end}
+
+Lester ...{end}
+
+Lester, I must extend
+my gratitude.{06}{07}
+I don't know how to repay
+your watching over
+Jessica in my stead.{end}
+
+What empty words ...{06}{07}
+Egbert, I'm thankful
+one of us will die today.{06}{07}
+You destroyed Jessica's
+home and broke her heart. 
+You're no friend of hers.{06}{07}
+In fact, she came back
+so the world wouldn't fall
+to scum like you.{end}
+
+To end the darkness ...
+Jessica returned
+for that reason alone.{end}
+
+Isn't that Bernhardt's purpose?
+To rally the continent
+and wipe out darkness?{end}
+
+Ever since B{3a}ser's revival,
+I've sought an effective means
+to combat the darkness.{06}{07}
+I settled, in the end,
+on overwhelming
+military strength.{06}{07}
+I might have waited with
+Jessica for the Descendants,
+but time was short ...
+and I joined the Empire.{06}{07}
+The secondary effects
+of that decision,
+I'd rather not discuss.{end}
+
+Oh, that's great.
+So we've both been trying
+to do the same thing.{06}{07}
+Funny, our plan wouldn't
+have soaked the
+whole continent in blood!{end}
+
+What's done is done.
+The Empire is secure.{06}{07}
+Any resistance will
+be quelled or crushed.{end}
+
+You've always been impressive,
+with your bold
+statements and strategies ...{06}{07}
+And I think I've
+finally figured you out.{06}{07}
+You can't bring peace,
+you just hide behind it.
+What a convenient excuse.{end}
+
+Grrr ...
+Come and get it!{end}
+
+It'll be tough fighting
+in a place like this.{end}
+
+Ready the men!
+I'll hold our enemies.{end}
+
+That's right.
+We have to get the
+troops ashore!{end}
+
+If we can pin them,
+we'll win this fight for sure!{end}
+
+I know!
+We'll bring Jessica
+some good news ...!{end}
+
+Hah hah!{end}
+
+This is dangerous.
+Kill them if you can.{end}
+
+Hey, Egbert.
+There's one last thing
+I want to know ...{end}
+
+Ask what you'd like.{end}
+
+Up until now, B{3a}ser's
+resurrection
+was simply an omen.{06}{07}
+"The world will
+fall into darkness, ..."
+because of him, presumably.{06}{07}
+Well, I heard from Jessica
+the reverse is true ...{06}{07}
+B{3a}ser doesn't bring chaos,
+chaos brings B{3a}ser. Only a
+bloody world will awaken him.{06}{07}
+What's your opinion?{end}
+
+...{06}{07}
+I agree with the theory.
+His Majesty, however,
+should not know this.{end}
+
+Then why did you agree
+to the Empire's conquest?{06}{07}
+Did you want to
+reawaken the darkness?{end}
+
+Even if I'd known,
+I wouldn't have
+changed my decision.{06}{07}
+El Sallia's strife, continued
+indefinitely, would surely
+bring eternal darkness.{06}{07}
+However, we Imperials
+believe our war
+will end in lasting peace.{06}{07}
+Compared to all the blood
+in history, we're
+making a small sacrifice.{end}
+
+So you're saying your
+invasion is justified?{06}{07}
+In war, justice
+means nothing!{end}
+
+Your beliefs are flawed.{06}{07}
+Peace will never come
+through forcing your ideology.
+Mankind will always resist.{06}{07}
+True bliss can only come
+through mutual understanding.{06}{07}
+That's my conclusion.{06}{07}
+Our Empire wishes to
+both eliminate the darkness
+and govern justly.{06}{07}
+Your time will soon be up,
+Maybe you'll finally learn
+how foolish it is to defy us.{end}
+
+There is an old
+wooden box lying here.{06}{07}
+
+Will you open it?{end}
+
+Obtained Gleipnir.{end}
+
+Clear the way!{end}
+
+Give up, Lester.{end}
+
+You're kidding!
+No way am I losing here.{end}
+
+I suffered much to obtain
+Langrisser and Alhazard ...{end}
+
+Arrghh ...!
+I won't survive this
+much longer ...{end}
+
+Fuck! How careless ...{end}
+
+This wound is worse ...
+than I thought.
+I'm falling back.{end}
+
+I'll deck you right in the
+face if you don't back off!{end}
+
+I could use a rest.
+I'm leaving
+the situation to you.{end}
+
+Just one more ... 
+The Empire's victory will be
+decided with one more breath!{end}
+
+Nooooo!
+Don't get angry ...{end}
+
+Ah hah hah ...
+I can see my reputation
+intimidates you!{end}
+
+When you disappeared
+so suddenly ...{06}{07}
+Do you know how much
+Jessica grieved for you?{end}
+
+... {06}{07}
+Ideals can easily
+separate people.{06}{07}
+It was only a matter of time.{end}
+
+Tsk! Too soft!{end}
+
+Fall back!
+Save your strength for
+the next battle!{end}
+
+I thought B{3a}ser's
+war on humans would
+make me happy.{06}{07}
+I was wrong ...
+Fighting and killing for
+no reason is wrong.{06}{07}
+But this fight isn't pointless.
+This is our last chance
+to bring a peaceful world.{06}{07}
+With brother Rohga,
+I won't lose to you!{end}
+
+Aaahh--!
+I won't forget this!{end}
+
+For your own good,
+I won't let you pass.{end}
+
+What?
+What do you mean!?{end}
+
+Hah hah.
+Don't even try to hurt me!{end}
+
+Egbert!{06}{07}
+With all your pondering,
+the best you came up with
+was continental war!?{end}
+
+The answer is self-evident.
+I have no interest
+in further discussion.{end}
+
+Ugggh--!{06}{07}
+Heh heh heh ...
+What a grave mistake.
+Heh ...{end}
+
+Lester ...{end}
+
+Egbert.{06}{07}
+I don't know whether
+you've been right
+or wrong in all this ...{06}{07}
+But I've always thought
+of you as a brother.{06}{07}
+And as a brother ...
+I'll tell you that Jessica
+doesn't want to fight you.{end}
+
+...{06}{07}
+I can't promise anything
+in that regard.{06}{07}
+If Jessica opposes us,
+my loyalty's with the Empire.{end}
+
+Oh, I should have guessed.
+A typical response ...{06}{07}
+I guess I'll never understand
+why you ran off and
+fucked over your friends ...{06}{07}
+Kind of like {02} ...{end}
+
+Speaking of you,
+{02} ...{06}{07}
+It's best if you
+don't go any further.{end}
+
+How do you respond?{end}
+
+I'll think about it.{end}
+
+If you go on, you'll
+really be in for it ...
+Hah hah ...{06}{07}
+Staying here might
+be a better idea.
+Take it from me ...{06}{07}
+Fuck this ...
+My eyes are all blurry ...{06}{07}
+Egbert ... told ...
+I ... haven't told ...
+Good ... bye ...{end}
+
+Soon, this body will pass away,
+and I'll see you again.{06}{07}
+When that time comes,
+let's visit that old house ...{end}
+
+Lester. I'm sorry ...{end}
+
+What will you do, {02}?
+Will you follow his suggestion
+and remain here?{end}
+
+No. I've come too far.{06}{07}
+I'll see this through.
+The alternative is regret.{end}
+
+Oh ...?
+Then let's continue.{end}
+
+Farewell, ... Lester.{end}
+
+We'll take the front lines
+with our aerial attack!{end}
+
+I don't want to die!{end}
+
+Attack them from the sky!
+Don't give them
+any room to breathe!{end}
+
+Hah hah!{end}
+
+Feed my Dragon!{end}
+
+Arrgh! Gaahh--!{end}
+
+This port will
+become your grave!{end}
+
+Gahhh--!{end}
+
+I'll give it all I've got
+before I fall to you!
+{end}
+
+Take the battle to the sea!{end}
+
+T, too strong!{end}
+
+S, sea ...
+Return to the sea.{end}
+
+Uugghh--!{end}
+
+Swarm them!
+Sting them to death!{end}
+
+Is, is this it ...?{end}
+
+Bleeding ...
+It won't stop ...!
+Aaarrrghh ...{end}
+
+We are Sir Lester's elite corps.
+We fight to the end!{end}
+
+Your strength
+isn't unexpected ...{end}
+
+We've trained for this day
+and are in top form!{end}
+
+Lester ...{end}
+
+Is this ... the end ...{end}
+
+Fuck! Am I all that's left!?{06}{07}
+Well, someone's gonna join
+me on the trip to Hell!{end}
+
+Don't mess
+with my navy!{end}
+
+You thought you
+could stop us with your
+pathetic ability?{end}
+

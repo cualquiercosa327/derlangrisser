@@ -1,0 +1,423 @@
+Both the Dark Rod and the
+sealing maidens are here.{06}{07}
+The preparations
+are complete ... {06}{07}
+Now let's commence with
+Alhazard's revival!{06}{07}
+{font4}Deofcynn Strengthe ...
+Blaed of Foregenga ...
+Alhazard ...{end}
+
+Egbert, stop!{end}
+
+Hmmm ...
+You've managed
+to sniff us out.{end}
+
+You must know how
+dangerous Alhazard is!{end}
+
+Power is a matter
+of preference.{06}{07}
+Using Alhazard is no
+different than abusing
+the power of light ... {06}{07}
+Now, watch the unveiling
+of a truly magnificent force.{end}
+
+So this is the
+Temple of Evil ...
+What an eerie place.{end}
+
+Look at the altar!{end}
+
+Ahhh!
+It's Lady Liana and L{37}na!{end}
+
+The maiden of light and
+the maiden of darkness ...{end}
+
+The maiden of light
+sealed the Dark Blade ...
+At least that's my take on it.{end}
+
+Then what's the
+Dark Princess's role?{end}
+
+It's her duty to break
+the seal and become
+one with darkness.{end}
+
+If we're careless, the
+ceremony will be completed.{end}
+
+That's right.
+Before the seal is broken,
+we must defeat Egbert!{06}{07}
+Get ready, everyone!{end}
+
+I must concentrate
+to complete the ritual.{06}{07}
+Until it's complete, don't
+allow them near the altar!{end}
+
+Yes, leave it to us ...{end}
+
+Yes, Sir!{end}
+
+The ritual is complete.
+Alhazard's seal has broken.{06}{07}
+All that remains is to
+present it to His Majesty.{end}
+
+Stop, Egbert! If Bernhardt
+uses Alhazard's power, he
+will become host to B{3a}ser!{end}
+
+In the case of an ordinary
+person, that may be true.{06}{07}
+But you still can't imagine the
+true strength of His Majesty.
+His steely will can
+repel even Darkness.{06}{07}
+I'm certain His Majesty
+will be able to master
+Alhazard's power.{end}
+
+We have a problem.
+As it is, Bernhardt will
+possess Alhazard.{end}
+
+Everyone! 
+Quickly defeat the enemy,
+then follow Egbert!{end}
+
+Hear me, oh
+slumbering Chaos!{end}
+
+Vanquish the intruding
+light, unbind the evil
+centuries old ...{06}{07}
+And bring forth the
+power that once was!{06}{07}
+{font4}Geweald of Uncer Metod,
+Andwyrdon Thin Cilden ...
+Aweccan Alhazard! {end}
+
+Stop, the seal is ...!{end}
+
+Watch out!
+Alhazard's seal has
+been lifted!{end}
+
+Cough ... Cough ... Wheeze ... {06}{07}
+Th, this is ... {06}{07}
+The Demons' Might,
+Alhazard ...{end}
+
+Egbert!
+What are you doing!{end}
+
+Damn it!
+He's taken it.{end}
+
+I will deliver this sword
+to His Majesty. Don't let
+them leave here alive!{end}
+
+Understood ...{end}
+
+Yes!{end}
+
+The fine chain above the
+magic formation has fallen.{06}{07}
+
+Will you pick it up?{end}
+
+Obtained Gleipnir.{06}{07}
+
+Has something vanished
+from the magic formation?{end}
+
+A metal plate has dropped from
+above the magic formation.{06}{07}
+
+Will you take it?{end}
+
+A magnificent
+shield appeared!{06}{07}
+
+Obtained Odin's Buckler.{06}{07}
+
+Another item just vanished
+from the magic formation.{end}
+
+Damn, no good ...{end}
+
+How could we allow
+Alhazard to ...
+Right before our very eyes ...{end}
+
+I'm sorry ...{end}
+
+Ouch!
+What are you doing!{end}
+
+This is it ...!
+Let me fall back,
+just this once.{06}{07}
+Forgive me!{end}
+
+I'm sorry everyone ...
+Please stop Egbert!{end}
+
+I'm way too old for
+this kind of fighting ... {06}{07}
+{02}, watch out
+for the Princess!{end}
+
+Ahh, they got me.
+If only I was a
+little stronger--{end}
+
+Egbert!{06}{07}
+Even with B{3a}ser defeated,
+Alhazard's unbridled
+power is too dangerous.{06}{07}
+You know the horrors
+that darkness will bring!
+Why are you doing this!?{end}
+
+Hmmm ...
+Such sentimental babble ... {06}{07}
+To achieve my purpose,
+I will do anything that
+can guarantee our success!{end}
+
+You've changed, Egbert ...{06}{07}
+You've become
+so wretched ...{end}
+
+Ahh ...
+Egbert ...{end}
+
+Ha ha ha!
+You have my sincere apologies.{06}{07}
+Farewell, Adviser to the
+Descendants of Light.{end}
+
+Impossible!
+We're too late.{end}
+
+Let's go.{end}
+
+Die!{end}
+
+Argh!{end}
+
+You think you can take me?
+Interesting. Go ahead and try!{end}
+
+Damn!{end}
+
+They're pretty tough ...{end}
+
+Let's go!{end}
+
+Come!
+My magic will have
+you writhing in agony!{end}
+
+Power ...
+I need more power ...{end}
+
+Egbert ... 
+I'm sorry ...{end}
+
+Hmph.
+That's all you've got?{end}
+
+Egbert ...{end}
+
+No good ...
+I can't hold out any more ...{end}
+
+We managed to save
+L{37}na and Liana ... {06}{07}
+But we let him
+revive Alhazard ...{end}
+
+Hmmm.{end}
+
+You've come to, Liana!{end}
+
+Aahh ...
+{02}!{end}
+
+Thank goodness,
+she's okay ...{end}
+
+Liana joins the entourage!{end}
+
+L{37}na looks fine too.{end}
+
+L{37}na looks all right, too.{end}
+
+I, I was ...{end}
+
+Egbert's spell has
+been broken.{end}
+
+Has the spell been broken?{end}
+
+Sister!
+Big sister L{37}na!{end}
+
+Liana? 
+Is it really you, Liana?{end}
+
+L{37}na, I thought
+I would never
+see you again ...{end}
+
+Huh? I never knew
+Lady Liana had a sister.{end}
+
+Speaking of which,
+why am I here?{end}
+
+B{3a}ser ...{06}{07}
+When I was young, I was
+separated from Liana and
+kidnapped by B{3a}ser.{06}{07}
+Uggh!
+My head ...{06}{07}
+What happened to Alhazard?{end}
+
+Egbert took it ...
+But I have no idea
+where he is.{end}
+
+It's okay. If I sense
+Alhazard's energy wave,
+I can guide us to its position.{end}
+
+...{end}
+
+It seems Kaiser Bernhardt
+is in Velzeria.{06}{07}
+From there, I can
+feel a strong evil ...{end}
+
+Underneath Castle Velzeria,
+I've heard the
+God of Chaos sleeps.{06}{07}
+It doesn't take a
+genius to figure out
+Alhazard was taken there.{end}
+
+Then let's hurry
+on to Velzeria!{end}
+
+No!
+First we must
+revive Langrisser.{06}{07}
+Only the Sword of Light
+can challenge Alhazard now.{06}{07}
+Langrisser's true
+power is yet to be seen.{end}
+
+What?
+You mean it can be
+even more powerful?{end}
+
+You mean it has even
+more untapped power?{end}
+
+Wow ...{end}
+
+Correct ... {06}{07}
+To break the seal, we
+need the Holy Rod from
+the Ruins of Elrad.{end}
+
+While I was controlled, I
+hurt many innocent people.
+Please let me help you ... {06}{07}
+Please, at least let
+me do that much ...{end}
+
+Don't worry, no
+one is blaming you.{end}
+
+Thank you.{end}
+
+L{37}na joins the entourage!{end}
+
+All right, first we must
+retrieve the Holy Rod.{end}
+
+Well, I'll leave it to you
+youngsters. This fighting
+is too much for me ...{end}
+
+You're going back?
+You'll be sorely missed.{end}
+
+Master Aaron,
+please leave it to us.
+Take a well-deserved rest.{end}
+
+Everyone, be strong.{end}
+
+{02},
+take care of the Princess!{end}
+
+Aaron leaves the entourage ...{end}
+
+Take care, Aaron.{end}
+
+Sorry, but please try
+to let me return home.{06}{07}
+It seems I'm too old
+to fight. If I keep going,
+I'll just wind up holding
+you all back.{end}
+
+Are you sure?
+You'll be missed.{end}
+
+Master, I'm strong,
+so don't worry.{end}
+
+{02},
+take care of the Princess!{end}
+
+Aaron leaves the entourage ...{end}
+
+Thanks for everything.
+Farewell.{end}
+
+You were controlled
+by B{3a}ser.{06}{07}
+After B{3a}ser was
+killed, Egbert used his
+magic on you.{end}
+
+Everyone!
+Slaughter the
+Descendants of Light!{end}
+
+Yes, Sir!{end}
+
+Aaahh!
+He ran away!{end}
+
+We have to hurry up
+and follow him ... {06}{07}
+But first, we must rescue
+Liana and L{37}na!{06}{07}
+Quickly, clear
+out the enemy!
+Let's go!{end}
+

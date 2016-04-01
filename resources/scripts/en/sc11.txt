@@ -1,0 +1,817 @@
+General Keith!
+Imperial troops have laid
+siege to our castle!{end}
+
+Even with my years of
+experience, they still caught
+us by surprise ...{06}{07}
+Somehow ...,
+we have to hold out until
+the princess returns.{end}
+
+General Vargas!
+It seems our diversion
+was a success.{06}{07}
+Kalxath took the bulk of
+its forces to defend the shrine.
+The garrison left will
+be no match for us.{end}
+
+Colonel Zorum and Morgan did
+surprisingly well as a team.
+I'll have to pair them again.{06}{07}
+Soldiers of the
+Blazing Dragon Army,
+the time has come to end
+Kalxath's meddling!{end}
+
+Yes, Sir!{end}
+
+General, Sir!
+We have a problem.
+The enemy is at our rear!{end}
+
+What--!?{end}
+
+It looks like
+we're not too late.{end}
+
+It's the princess!
+Everyone, our princess
+has returned!{end}
+
+Huzzah!{end}
+
+Wha--!?
+The princess ...?{end}
+
+Keith, everyone!
+Thank heaven you're all safe!{06}{07}
+It's just like Rayguard sleaze
+to attack while I was away.{end}
+
+"Rayguard sleaze?"
+Miss, it seems you have no clue
+as to what "strategy" is.{06}{07}
+If you can't recognise
+such basic tactics, then
+you are indeed a moron.{end}
+
+M, moron ...!?
+You muscle-bound creep,
+I won't forgive such an insult!{end}
+
+So you mean ...
+Cherie is ... the princess ...
+of Kalxath ...!?{06}{07}
+Sigh ...
+My image of a "princess"
+is thoroughly smashed ...{end}
+
+What was that--!?{end}
+
+Oh ...
+N, nothing ...{end}
+
+Enough bickering.
+We must attack immediately!{06}{07}
+Without any backup,
+the castle soldiers can't
+repel Rayguard for long.{end}
+
+Thank you!
+I appreciate your help.{end}
+
+Finally, a chance to put all
+my years of study to use.{06}{07}
+The Blazing Dragon Army, the
+Blue Dragon Knights, the
+Dark Dragon Sorcerers,
+and the Water Dragon Navy ...{06}{07}
+These four divisions constitute
+the main force of the
+Rayguard Imperial Army.{06}{07}
+General Vargas is an
+extraordinary military officer
+and a man to be feared.{06}{07}
+If such a major division of the
+Imperial Army has been sent
+here, the Empire must be set on
+crushing Kalxath.{end}
+
+Of all nations in El Sallia,
+only Kalxath is a strong enough
+power to oppose Rayguard.{06}{07}
+As long as our kingdom holds
+strong, the Empire will never
+be able to conquer El Sallia.{end}
+
+All elite units, there's
+no time to waste!
+Take the castle, double quick!{end}
+
+Yes, Sir!{end}
+
+All other troops, engage
+the enemy at our rear!{06}{07}
+We must keep them out until
+we have taken the castle!{end}
+
+Understood!{end}
+
+Kalxath is the dominant
+force in the the
+League of Anti-Imperialists.{06}{07}
+If Kalxath falls, its allies
+will capitulate, one by one,
+to our Empire's power.{06}{07}
+If we succeed here, it will
+only be a matter of time
+before all of El Sallia is
+united under Imperial control.{06}{07}
+Give it your best, men!
+For the glory of
+the Rayguard Kaiser!{end}
+
+Somehow, ...
+everyone is still holding out.{end}
+
+We need to hurry!{end}
+
+Castle Kalxath has endured
+this long, but ...
+Everyone, we must hurry!{end}
+
+Since the enemies are strong,
+we'll need to use magic attacks.{06}{07}
+Unleashing a magic attack from
+a distance will weaken them
+enough to give our soldiers an
+opportunity to strike.{06}{07}
+If we rush in and count
+on our strength alone to
+overpower them, many of
+our men will die in vain.{end}
+
+I see.{end}
+
+When the enemy attacks,
+try to form a wall using troops
+that give us an advantage.{06}{07}
+Don't try to be a hero
+by engaging the enemy alone.
+You'll only receive damage
+instead of dealing it.{end}
+
+So after you guys block
+them, I should cast Fireball
+and Attack, right?{end}
+
+That's right.
+Every enemy loss will increase
+our chance of victory.{end}
+
+Through a window,
+you spot a bird's nest.{06}{07}
+
+Rooting through the feathers
+in the bottom, you find a flask.{06}{07}
+
+The liquid in the flask seems
+to be the colour of the sea ...{end}
+
+Will you drink the potion?{end}
+
+DF raised by 1 point!{end}
+
+Let's go!{end}
+
+Bah!
+I'll take you all down!{end}
+
+Ugh ..., from now on ...{end}
+
+Defeated ...
+It seems I'll be leaving the
+lines before you ...{end}
+
+Imperial troops!
+Don't be so haughty!{end}
+
+Shit!
+If only I had more power--!{end}
+
+So you're General Vargas of
+the Blazing Dragon Army!{06}{07}
+Let's see how skilled
+you really are!{end}
+
+I like your spirit, boy!
+By what name are you called?
+I'll carve it on your gravestone.{end}
+
+Fuck you!
+The name is Rohga.{06}{07}
+I'll be sure to inform your
+wife that was the name of the
+man who killed you!{end}
+
+Hah!
+What a brazen lad!{end}
+
+God damn it, move!
+You weaklings are in my way!{end}
+
+To think that I, Rohga,
+the great mercenary,
+am going to die here ...{end}
+
+We do better when
+we cooperate.{06}{07}
+{02}!
+For this battle, I'll follow
+your orders.
+What would you have me do?{end}
+
+To have fallen at the
+castle I came to protect ...{end}
+
+I cannot permit you to
+attack my castle!{end}
+
+Please!
+Just take your troops and
+leave this country!{end}
+
+You're brave, girl.
+Sadly, you think too highly
+of your ability.{end}
+
+I'm sorry ...
+I ... can't ... any more--{end}
+
+We'll fight to the last man!{end}
+
+Yeah!{end}
+
+Princess, my failure
+is inexcusable ...{end}
+
+Keith!{end}
+
+We can't lose now that
+our princess has returned!{end}
+
+This is not a place
+for you to trespass.
+Go away!{end}
+
+P, princess--!{end}
+
+I'll show you what the
+Kalxath army can do!{end}
+
+Well then, let's see
+what you're made of!{end}
+
+I ...
+I can't hold out any more.{end}
+
+Don't relax your guard!{06}{07}
+Even if Kalxath is just a
+frontier country, they're
+no stranger to battle!{end}
+
+Taste the power of
+an Imperial general!{end}
+
+Show me the might
+of Kalxath's army.{end}
+
+Ugh ...
+I don't think I can go
+on any longer ...{end}
+
+Damn, I'm an idiot.
+I was too careless ...
+Cough ...{06}{07}
+I have to retreat!
+Everyone, don't stop the
+attack--no matter what!{end}
+
+Gah--!
+How can this be?{end}
+
+G, General Vargas ...{end}
+
+How regrettable ...
+To fall in such a place ...{end}
+
+I don't want to die ...{end}
+
+Let me through!{end}
+
+Gah--!{end}
+
+I've served for the glory of
+the Rayguard Empire!{end}
+
+My vision ...
+is fading ...
+Alas, poor me ...{end}
+
+Gahhh--!
+Not bad ...{end}
+
+Colonel Zorum, retreat!
+I'll handle the rest.{end}
+
+B, but, General ...{end}
+
+I can't let you die
+in such a battle.
+Not like this ...{06}{07}
+Retreat and reorganize
+your troops.
+Remember, as a soldier, your
+fate is mine to decide.{end}
+
+W, well then ...,
+I'm retreating ...{end}
+
+El Sallian brats!
+Don't think you've won!
+Our fight isn't over!{end}
+
+Oh, I just remembered.
+There's this report I've been
+meaning to make to Egbert.{end}
+
+Commander Morgan!?{end}
+
+Hey you!
+Cover me, I'm departing.{end}
+
+Wh, wh, what!?
+If you leave things like this ...{end}
+
+Don't worry, we still clearly
+have the advantage.
+Just keep on fighting.{end}
+
+Then ... why are you fleeing
+battle, Commander Morgan?{end}
+
+Well, I'm fleeing because--
+Hey, {font3}shut up!{06}{07}
+{font0}I'm not running away!
+I just have a very, very, very
+urgent report to make.{06}{07}
+Now hurry and get
+back to die--err ...
+"securing" my departure!{end}
+
+You can't be serious ...{end}
+
+Even with General Vargas here,
+the situation worsens ...{06}{07}
+Hmmm ...
+I don't want to die here ...
+I wonder what can I do ...{end}
+
+Even General Vargas retreated.
+It won't help if I stay here ...{06}{07}
+I wasn't planning to die here ...
+I wonder what else I can do ...{end}
+
+Oh well, I'm leaving!
+Hya ha ha ...{end}
+
+Shriek!
+Y, you caught up
+with me already!?{end}
+
+Gwa ha ha!
+Well, let me thank you for
+our last encounter ...{end}
+
+Ugh ...
+Such pain ... argh--!
+Can't stop bleeding ...!{06}{07}
+Gah--!
+Master Egbert ...!{end}
+
+Damn ...
+Even him ...{end}
+
+Now, go!
+Teach them a lesson!{end}
+
+Yes!{end}
+
+Damn it!
+Stop following me!{06}{07}
+It's your job to fight those
+nincompoops so I have time
+to retr--uh, to depart!{06}{07}
+Fight them ...
+Or you'll regret it.{end}
+
+Y, yes, Sir ...{end}
+
+Let's go!{end}
+
+Shriek!{end}
+
+Eh?
+What useless subordinates!{end}
+
+Hmmm, those kids are
+doing quite well.{06}{07}
+I never expected them
+to corner my troops.{end}
+
+No way ...
+I can't believe
+Castle Kalxath is fallen ...{end}
+
+Damn!
+I was too late ...{end}
+
+Ha ha ha!
+Well done!
+You're excellent soldiers!{end}
+
+Ouch!{06}{07}
+I wouldn't have come
+here if I had known this
+would happen.{end}
+
+Hein, what are you saying?
+You're a man, aren't you?
+Hang in there!{end}
+
+I'm a magician. Actual
+combat isn't my thing.{06}{07}
+Cherie, I think the reason
+you're okay is because you're
+manlier than most men.{end}
+
+"M, manly!?"
+How cruel!{06}{07}
+I will never ever help
+you again, Hein--
+even if you need it!{end}
+
+I can't be beaten here!{end}
+
+P, princess!?{end}
+
+I'm all right!
+A scratch like that
+won't kill me.{end}
+
+For heaven's sake, please
+don't fight so much. I can't let
+our princess die here ...{end}
+
+What are you saying?{06}{07}
+I can't leave battle
+while others are still
+fighting desperately!{end}
+
+Eeek!{end}
+
+Damn it!
+Liana's in danger!
+Everyone, defend her!{end}
+
+Such power is to be
+expected of the Empire ...
+But we shall not fall!{end}
+
+Shit ...
+You are doing quite well.{end}
+
+You've already lost!{end}
+
+Well done.{06}{07}
+You protected this
+castle from the
+Blazing Dragon Army's attack.{end}
+
+Even a girl like me can fight!
+I can't stand having to
+sit by while others fight!{06}{07}
+{02}, please let
+me come with you!{end}
+
+Nobody's hurt?{end}
+
+It's amazing we're safe.{end}
+
+Thanks to {02}, we
+were able to able to repel
+Rayguard's assault.{end}
+
+Princess ...
+You should properly
+thank {02}.{end}
+
+I guess so ... {06}{07}
+Hmm--!
+Where'd that armour go ...?{06}{07}
+I'm sorry, I must have
+given it to someone.
+I don't have it any more.{end}
+
+Do I already have it?
+Was it ... a dream?{end}
+
+Ah, yes.
+I present you with this suit of
+armour from our ancestors.{06}{07}
+It's probably not the strongest
+armour, but it's very light and
+provides very good defence.{end}
+
+Obtained Dragon Scale.{end}
+
+Thanks to you, I was saved.{end}
+
+Thanks to you, I was saved.{end}
+
+I'm sorry, Princess ...
+My failure is inexcusable.{end}
+
+It's all right, Keith.{06}{07}
+You saved the castle
+from the siege of the
+Blazing Dragon Army.{end}
+
+I've heard Kalxath described as
+an enormous castle. Would
+Liana be safe within its walls?{end}
+
+Certainly!
+You can leave her care to us.{end}
+
+Well, then ...
+I have fulfilled my duty.
+I must return home now.{end}
+
+Well ...
+It seems my current experience
+wasn't any help.{06}{07}
+I should return to Salrath
+and continue my studies.{end}
+
+What a pity!
+Scott, if you leave, who
+will tutor me in strategy?{end}
+
+Curses ...
+I guess I have no choice.{06}{07}
+It seems I'll have to study
+troop affinity on my own.{end}
+
+Well then, take care ...{end}
+
+Scott leaves the entourage ...{end}
+
+Sir {02}, a guest
+has requested to see you.{end}
+
+Sir {02}, a guest
+has requested to see you.{end}
+
+We meet again, {02}.{end}
+
+Your Holiness!
+Welcome.{end}
+
+I've been investigating
+some ancient manuscripts
+archived in our shrine.{06}{07}
+It seems I've found the source
+of the Dark Blade's power.{end}
+
+That's good ...
+What do you mean its "power?"{end}
+
+Alhazard houses an even
+more terrible power than
+we first suspected.{06}{07}
+Not only does it raise its user's
+abilities, but it also allows him
+to contact the demon world.{end}
+
+The demon world!?
+But it is said no magician in
+El Sallia possesses such power.{end}
+
+Indeed, you are correct.{06}{07}
+However, the manuscript says
+when the sword combines with
+the Dark Rod, it will become
+capable of commanding demons.{end}
+
+The Dark Rod?
+Legends say one blast from this
+wand can level a kingdom.{end}
+
+If such a weapon is used, we
+would have no way to resist.
+What can we do?{end}
+
+There is more to tell.
+Alhazard has yet to
+reach its full power.{06}{07}
+The Dark Rod is necessary
+to completely revive it.{end}
+
+I see ...{06}{07}
+That's why the Imperial Army
+is searching so desperately for
+the ancient scrolls.{end}
+
+Couldn't Alhazard be used
+without the Dark Rod ...?{end}
+
+I don't think so ...
+I have yet to discover where
+the Dark Rod is enshrined.{end}
+
+Then let us make haste
+to the Rall River.{06}{07}
+It's said a powerful magician
+over seven hundred years old
+lives there in seclusion.{06}{07}
+If there is anyone in El Sallia
+who knows about this
+"Dark Rod," it must be she.{06}{07}
+{02}, let's go together!{end}
+
+Are you sure?
+It may be better if you stay
+here to defend Castle Kalxath.{end}
+
+Unfortunately, the Empire's
+new ambition is our priority.{06}{07}
+If the power of Alhazard
+is released, this castle
+won't matter any more.{end}
+
+Indeed.
+I will accompany you as well.{end}
+
+What?
+You plan to come, too?{end}
+
+Of course!
+My charge is to defend
+the princess of Kalxath.{end}
+
+Keith joins the entourage!{end}
+
+Then ... I guess you shall
+be away to the river now ...{end}
+
+We cannot allow the Empire
+to do as it pleases.{end}
+
+Yes, let us depart at once.{end}
+
+I'll lend a hand, too!
+I want to see this
+legendary magician.{06}{07}
+I wonder what kind
+of person she is ...{end}
+
+Okay.
+Troops, prepare to set out.{end}
+
+Yes, Sir!{end}
+
+Let's hurry!
+We must obtain this
+Dark Rod before the Empire.{end}
+
+{02} ...{end}
+
+Liana, please stay here.
+The castle guards will be
+able to protect you.{06}{07}
+Within Castle Kalxath, you
+needn't be afraid any more.{end}
+
+That's right!
+While you remain with us,
+you'll be treated like a guest!{end}
+
+No ... that's not it ...{06}{07}
+{02} ...
+I wish to go with you.{end}
+
+What!
+Liana, it will be dangerous ...{end}
+
+...{end}
+
+{02} ... don't worry.{06}{07}
+The Rall River is a fairly
+stable region that has gone
+unclaimed by any kingdom for
+over several hundred years.{06}{07}
+Could it be ... you fear you
+cannot protect her ...?{end}
+
+...{end}
+
+Fine ...
+Liana, you must promise
+me one thing.{06}{07}
+If we are forced to engage
+the Empire, you must
+flee and return to Kalxath.
+Understood?{end}
+
+Thank you ...
+I'm sorry to make such an
+unreasonable request ...{end}
+
+Princess, I'm ready.{end}
+
+Well then, let's move out!{end}
+
+I've caught up with you at last!{end}
+
+Shit!
+How could we have failed
+to take Kalxath ...?{end}
+
+How are you, Zorum?
+I was worried.{end}
+
+I'm sorry, General Vargas.{06}{07}
+We both failed to acquire
+the stone tablet and to lure
+Kalxath's army away from home.{end}
+
+Don't worry ...
+What's done is done.{06}{07}
+Concentrate on taking
+Castle Kalxath now.{end}
+
+Yes, Sir!{end}
+
+Hee hee hee ...
+I have an interesting story
+for you, General Vargas.{06}{07}
+Have you heard of Liana,
+the young girl Leon's forces
+are scrambling for?
+She was with those brats today.{06}{07}
+We're in luck!
+We can capture both her
+and the castle ...
+Hya ha ha!{end}
+
+My orders are only to
+capture Castle Kalxath.{06}{07}
+Regarding this girl, Liana,
+I have no interest.
+I'll leave her to you.{end}
+
+Hya ha ha!
+I can't believe you
+don't want her!{06}{07}
+Well then, I'll capture her,
+and then ... who knows ...
+Hee hee hee.{end}
+
+It seems that the
+General has withdrawn.{06}{07}
+We have no choice, then,
+but to take this girl to the
+Imperial Capital by ourselves.{end}
+
+It seems that the
+General has withdrawn.{06}{07}
+We have no choice, then,
+but to take this girl to the
+Imperial Capital by ourselves.{end}
+
+For once, we're on
+the same page.{06}{07}
+Okay, Morgan, let's go!{end}
+
+Hee hee hee!{end}
+
+Yeah ...
+You can't depend on
+others forever.{end}
+
+I really must
+be on my way ...{end}
+

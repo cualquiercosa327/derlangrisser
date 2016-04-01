@@ -1,0 +1,339 @@
+Your Majesty, what shall
+we do about the traitor?{end}
+
+He is of little concern.{06}{07}
+The boy has enough enemies.
+His end will come soon enough.{end}
+
+Shouldn't His Majesty
+rest for a little while?{end}
+
+Hah!
+Wounds like these won't
+fell your Kaiser.{06}{07}
+Our troops have momentum.
+Let them keep it.{end}
+
+But, Your Majesty ...{end}
+
+What!? We're being followed?
+It, it's {02}!{end}
+
+Damn! They move quickly ...{end}
+
+You won't escape so easily,
+Kaiser of Rayguard.{end}
+
+Ah, it's the annoying little brat!
+I see you're eager to die.{end}
+
+I'll remain and hold them.
+The rest of you, honour
+your duty to His Majesty.{end}
+
+Leon, please see to
+His Majesty's care.{end}
+
+...{06}{07}
+Very well.{end}
+
+Looks like we're facing the
+Flaming Fag Brigade or
+whatever they call themselves.{end}
+
+If we take too much time,
+we'll lose the main force.{end}
+
+All right, let's strike quickly.
+Our target is General Vargas!{end}
+
+Come on then,
+red-haired brat!{06}{07}
+I'll show you the power of the
+Imperial Blazing Dragon Army's
+most elite forces!{end}
+
+It's not over yet!
+We can still stop them.{end}
+
+Just a bit longer ...
+If we can buy ourselves
+a little more time, then ...{end}
+
+Watch out, {02}.
+At this rate, we're going
+to lose the Kaiser!{end}
+
+{02}!
+You're taking far too long!
+Are you letting him go!?{end}
+
+Don't you see, {02}!?
+If you take too much time,
+you'll lose sight of the Kaiser!{end}
+
+This is getting critical ...
+Don't waste your time on trash!
+Focus on their commanders!{end}
+
+Gwah hah hah!
+His Majesty is over the horizon!
+You'll never find him now.{06}{07}
+Mission complete!
+Time to withdraw.{end}
+
+Grrr ...
+We took too long ...{end}
+
+They've crossed the bridge!
+Your Majesty, please hurry!{end}
+
+Of course.{end}
+
+Brat!
+If you come any further,
+don't think you'll live.{end}
+
+Some dirty mice are playing
+with a small stone.{06}{07}
+
+Will you drive them away?{end}
+
+The dirty mice run away,
+leaving the small stone.{06}{07}
+
+As you pick up the stone,
+it begins to shine ...{end}
+
+Obtained Rune Stone.{end}
+
+The dirty mice continue to play
+with the stone and take it away.{end}
+
+Out of the way!
+We have no time for
+this nonsense!{end}
+
+M, my heart just
+wasn't in it ...{end}
+
+Why ...?{end}
+
+Damn kids!{end}
+
+And we came all
+this way, too ...{end}
+
+{font3}Uugghh, I've been ...
+defeated ...!{end}
+
+{font3}Arrrrghh--!
+This host ... too weak ...{end}
+
+You're an honourable man.
+If it can be helped,
+I don't want to kill you.{06}{07}
+Leon, the future is with us.
+Won't you join our cause?{end}
+
+...{06}{07}
+You speak of something
+that can never be.{06}{07}
+A knight swears fealty to
+his Kaiser, and that
+oath I will never break.{06}{07}
+You will always be
+at the tip of my sword,
+{02} the traitor.{end}
+
+I guess there's no other way.
+But this is also Lord B{3a}ser's
+wish ... Have at you, Leon!{end}
+
+Forgive me, L{37}na.
+I must defend His Majesty!{end}
+
+Ooh, I was a bit clumsy ...
+Take care of the rest, please.{end}
+
+W, well done ...!
+I'm sorry, {02}.
+I have to retreat!{end}
+
+Take care of
+the rest here, Vargas.{end}
+
+Understood.{end}
+
+Forgive me ...
+Take care of the rest.{end}
+
+Worry not!
+Once these rats have been
+scattered, I'll soon follow.{end}
+
+I'll be waiting for you.{end}
+
+Ugh! My wound is ...,
+No, not again ...{end}
+
+Someone, escort
+His Majesty to safety!{end}
+
+Your Majesty, this way.{end}
+
+Leon, take
+care of his Majesty.{end}
+
+You have my word.
+I shall protect him!{end}
+
+You've kept up with us
+for a while now.
+That's pretty good.{06}{07}
+But you'll soon be
+left in the dust.{end}
+
+You shall not pass!{end}
+
+Curses ...
+Vargas, it's up to you!{end}
+
+You'd better leave it
+to me and head out.{end}
+
+General Vargas, we shall
+be praying for your victory!{end}
+
+Thank you.
+Now, please look after
+the Kaiser.{end}
+
+Ugh, damn it!{end}
+
+Colonel Laird, over here ...{end}
+
+You'd better look out, brat!
+This time, I'm paying
+you back for Zorum's death!{end}
+
+You'd better look out, brat!
+This time, I'm really
+going to kick your ass!{end}
+
+Aaaaarrrghhhhh--!{end}
+
+Punk, prepare yourself!{end}
+
+Ugh, im, impossible ...
+I, I am General Vargas ... of
+the Blazing Dragon Army.{06}{07}
+Uugghhh ...
+Please look after ...
+Eliza and ... Emilia ...{end}
+
+Vargas, you fought splendidly.
+Your death shall not be wasted,
+I promise you, old friend.{end}
+
+Farewell, General Vargas ...{end}
+
+This is the end of the
+Blazing Dragon Army, isn't it?{end}
+
+The mighty Vargas ...
+He was a great soldier
+to his last breath.{end}
+
+I couldn't have said
+it better myself. Instead of
+running, he faced death.{end}
+
+We can't compromise the
+defence of Castle Velzeria!
+Everyone, let's get moving!{end}
+
+Vargas, don't get lost out here.
+Join up with us soon.{end}
+
+I know, I know.
+Don't worry about me and
+just get moving.{end}
+
+Insolent punks!
+It's payback time!{end}
+
+How dare you!
+Your punishment will come!{end}
+
+Don't die ...{end}
+
+You, you have
+to protect the Empire!{end}
+
+Heh, you don't
+have to go that far.{end}
+
+D, damn these wounds ...
+How can I succumb to them?{06}{07}
+Next time we
+meet shall be your last!{end}
+
+Maintain forward mobility
+and engage the enemy!{end}
+
+Please!{end}
+
+Yes, Sir!{end}
+
+If you want to get through,
+you'll have to fell me.{end}
+
+And you did ...{end}
+
+Even if you cut me to ribbons,
+I can't allow you to proceed!{end}
+
+I can't let
+you near the Kaiser!{end}
+
+You'll have a very
+painful demise ...{end}
+
+Ugh, no good ...{end}
+
+Take that!
+There will be no prisoners!{end}
+
+Long live the Kaiser!
+Long live the Empire!{end}
+
+So you came here of
+your own accord.
+You certainly are spirited.{end}
+
+Well done ...{end}
+
+If my words don't persuade
+you, perhaps my sword will!{end}
+
+So, I'm the last one left.
+I'm not giving in.
+Don't even think it.{06}{07}
+I'll get His Majesty and
+his troops whatever time and
+distance they need.{06}{07}
+Now then, red-haired punk.
+Stop your gawking
+and let us cross blades!{end}
+
+So you've chased us this far ...
+You have endurance, all right.{end}
+
+We need to concentrate
+on giving chase, lest they
+move out of our sight!{end}
+
+They are likely headed
+to Castle Velzeria ...{end}
+

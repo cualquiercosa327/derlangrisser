@@ -1,0 +1,633 @@
+Princess!{end}
+
+Ahh, that was so exciting!
+Just what I needed!{end}
+
+Y, you sneaked out
+of the castle again?{06}{07}
+If you have time to play,
+you have time to
+learn some basic tactics!{06}{07}
+You're this country's ...
+You're Kalxath's princess!{end}
+
+Ooohhh, but the weather ...
+The weather was fantastic!
+It's beautiful outside!{06}{07}
+Honestly, how can I
+stay cooped up in here?{end}
+
+Princess, really!{end}
+
+Hey, you two at it again?
+Why don't you marry
+each other, already.{end}
+
+Look, it's Lester,
+just who I want to see!{end}
+
+Lester, Keith lately ...
+He's just so uptight!
+Tactics this, strategy that ...{end}
+
+Huh?{end}
+
+Where did he go?
+Keith? Keith!{end}
+
+Hey, Lester, where
+do you think Keith ...{end}
+
+What, Lester too ...?{06}{07}
+Those two, really!
+Where did they run off ...?{end}
+
+Zzz ... Zzz ...{end}
+
+Cherie ...?{end}
+
+Zzz ... Zzz ...{end}
+
+Aah! I, I'm awake, I'm awake!
+What can I help you with?{end}
+
+What's wrong?{end}
+
+I'm just a little tired.
+I, I was having a dream ...
+It's nothing ...{end}
+
+Are you sure
+you're okay?{06}{07}
+A decisive battle is starting,
+and it's against {02} ... {06}{07}
+If you don't want
+to fight him, now is the
+time to leave.{end}
+
+I, I'll be fine!
+Really, I'm just a
+bit fatigued.{06}{07}
+{02}, ... you said ...?{end}
+
+Princess Cherie, Lady Jessica!
+The Imperial Army has arrived!{end}
+
+What's this ...?
+A fortress?{end}
+
+This hasn't been here long.{06}{07}
+When in the world did
+they put all this together?{end}
+
+The construction's solid.
+It'll be tough to breach.{end}
+
+So they made it this
+far that quickly ...{end}
+
+So ... This means ...
+Lester, Lester is gone too ...{end}
+
+After sharing in our promise,
+he sighed his last breath.{06}{07}
+No matter what occurs,
+we vowed to end the darkness.
+He died with that faith.{end}
+
+He was concerned for you,
+Jessica, until the very end.{06}{07}
+If there's any way at all,
+I'd rather not fight you.
+Please surrender, for our sake.{end}
+
+Lester, I'm so sorry ...{end}
+
+Lady Jessica ...
+No, I'll address you
+as I did, as Master.{06}{07}
+Master, you are a skilled
+magician, but you lack the
+Empire's strength in battle.{06}{07}
+Your victory grows more
+improbable with each day.
+Please, surrender.{end}
+
+...{06}{07}
+We will not give up.{06}{07}
+Our friends gave their
+lives to see a new dawn, to
+see what we promised.{06}{07}
+And we will honour that,
+no matter what you say!{end}
+
+Even if I'm alone, I'll fight
+to the very end.
+That's my answer, Egbert.{end}
+
+Is that so ...?
+Then this battle, sadly,
+was inevitable.{06}{07}
+For a grand and unified
+continent, all forces advance!
+Take no prisoners.{end}
+
+Are we too late!?{end}
+
+Who are you and
+why are you here?{end}
+
+We are the people of Salrath!{06}{07}
+We've come to take
+vengeance for Lord Loren
+and Scott's honour!{end}
+
+Yes!
+Allow us to take revenge!{end}
+
+Lord Loren ...
+It is regrettable to have lost
+such a kind-hearted man.{end}
+
+We're carrying a heavy
+burden on our shoulders.{end}
+
+Until we avenge our lord,
+we won't return to Salrath.{end}
+
+Our opponents are
+the Empire's most elite.
+Be careful.{end}
+
+Almost time ...
+Everyone, counterattack!{end}
+
+Aaaahhhh!
+Now, let's take them
+out with one blow!{end}
+
+Please don't do
+anything reckless!{end}
+
+Air and sea units,
+don't go it alone. Coordinate
+with the fortress guards!{06}{07}
+Together, you can crush
+the opposition! Don't
+lose this opportunity.{end}
+
+Leave it to me!{end}
+
+No problem!{end}
+
+Don't you understand, Master?
+You have no chance here.{06}{07}
+Lay down your weapons
+and bring the peace
+we've both strove for.{end}
+
+For the Descendants of Light,
+things are not so simple.{06}{07}
+Our divine duty is protecting
+Langrisser, and we
+will honour that charge.{end}
+
+Heh heh heh ... 
+How interesting.{06}{07}
+Your refusal, at least,
+brings me a small pleasure.{06}{07}
+I've always dreamt of a
+wizard's duel with you ...{06}{07}
+And I've learnt much since
+your tutelage, Master Jessica,
+as I'll be pleased to show!{end}
+
+A voice calls
+from somewhere far off.{06}{07}
+
+"Humans have not set
+foot on my island for aeons ..."{06}{07}
+
+"If you require my aid,
+then just call out my name."{06}{07}
+
+What name will you call?{end}
+
+Lushiris{end}
+
+Chaos{end}
+
+Odin{end}
+
+"It seems as though we old
+ones have been forgotten ..."{end}
+
+"It seems as though we old
+ones have been forgotten ..."{end}
+
+"Yes, my name is Odin.
+I'll lend you my strength ..."{end}
+
+Obtained Odin's Buckler.{end}
+
+You can see some sharp metal 
+at the bottom of the crater.{06}{07}
+Do you take it?{end}
+
+Obtained Inferno Lance.{end}
+
+Cherie, stop this.
+I don't want to kill you!{end}
+
+What the hell are
+you suggesting?
+That I just give up?{06}{07}
+Keith, Aaron, Kalxath's men ...
+You want me to spit
+on their deaths!? I won't!{06}{07}
+Only a selfish coward
+would think like you!{end}
+
+Forgive me, Lester.
+I couldn't keep my promise ...{end}
+
+Is this the end ...?{end}
+
+Death is inevitable
+on the battlefield ...{06}{07}
+If this was only about me,
+I'm glad to have
+died by your hands ...{06}{07}
+Goodbye,
+{02} ...{end}
+
+Damn, I have to retreat!
+{02}, they
+ambushed me from behind ...{end}
+
+Ugh ...!
+My sword gets plenty of
+attention, doesn't it?{06}{07}
+Damn it, fall back!{end}
+
+Show no mercy to the
+rebels, only to the women.
+That's my policy!{end}
+
+In your dreams!{end}
+
+I was careless ...{end}
+
+So you're that stupid, eh?
+I bet {02}'s
+fallen in love too.{06}{07}
+It'd be nice if you'd
+have some common sense.{end}
+
+Q, quiet!{end}
+
+Unlike some women,
+I don't pander to the base
+desires of men.{06}{07}
+It must be very tiring
+to bother with.{end}
+
+Oh, don't worry!
+You're pretty good as you are!{end}
+
+I'll release the master
+from her shackles ...{06}{07}
+Those known as
+the Descendants of Light.{end}
+
+Master, I dreamt I'd
+fight beside you once more ...
+before my death ...{06}{07}
+Maybe in my next life,
+I'll be so fortunate.{end}
+
+Of all my students, you
+possessed the greatest talent.{06}{07}
+Why did you waste it
+serving a tyrant?{end}
+
+In truth, I studied your magic
+to banish the darkness.{06}{07}
+With that goal complete,
+I pursue greater aims ...{06}{07}
+And wish to explore
+the limits of my power.{end}
+
+It seems you've acquired
+more power than
+you're fit to handle.{end}
+
+I can't die here.
+I won't ... until I destroy
+the darkness ...{end}
+
+The Descendants of Light
+have remained
+true to their mission.{06}{07}
+In the end, humans may not
+need us ... they may be able to
+fight darkness on their own.{06}{07}
+But even if that's fact,
+we cannot leave this
+world to the Empire's care!{end}
+
+Egbert, it was just 
+a little longer ... {06}{07}
+You could have brought
+peace with the Descendants.{06}{07}
+If you'd waited for us,
+we'd have welcomed you.{end}
+
+I'm sure my master is already
+aware of the reasons. {06}{07}
+In forbidden research,
+I was nearly
+possessed by demons.{06}{07}
+My master would have me
+face these creatures.
+A terrifying prospect ...{06}{07}
+I knew our strength was not
+sufficient, and so, I chose
+to aid His Majesty's Empire.{06}{07}
+I had, at least, the power
+and public favour to do that!{06}{07}
+Hmph, it seems my speech
+has gotten a bit lengthy.
+We should finish things.{end}
+
+Lady Jessica!{end}
+
+I had orders from Lushiris
+herself to guide the
+Descendants of Light.{06}{07}
+But, somehow, it looks like
+this was their destiny ...{06}{07}
+Cherie, I'm sorry I won't
+be by your side any longer.
+But please, live.{06}{07}
+Leave this war behind you ...
+and live as you please.{06}{07}
+Live a happy life ...
+For my sake ...{end}
+
+Yes, Jessica ...{end}
+
+Egbert ...{06}{07}
+Please understand what
+I'm trying to accomplish.{06}{07}
+I need to wipe B{3a}ser and Chaos
+from the face of this
+world, to banish them eternally.{end}
+
+...{06}{07}
+It's up to you now,
+Egbert, my student ...{06}{07}
+I've done what I can ...
+Go now, peacefully ...{end}
+
+...{06}{07}
+Hmmm, how could
+this happen twice ...{end}
+
+Farewell Jessica.
+Farewell Cherie ...{end}
+
+Aaahhh! No ...
+I'm finished too ...{06}{07}
+Egbert, I think I see ...
+I see what you're trying to do.{06}{07}
+To end B{3a}ser and Chaos
+through overwhelming force ...
+Can you succeed ...?{end}
+
+It's up to you now, Egbert ...{06}{07}
+Don't ...
+worry about me ...{end}
+
+Farewell, Jessica.{end}
+
+So the Descendants
+are no more?
+The end of an era ...{end}
+
+A true warrior takes
+strength from
+his enemies' defeat.{end}
+
+Whew, that was quite a fight.
+Tomorrow, I'll
+need to take a load off.{end}
+
+I'm pretty excited!{end}
+
+I can't wait ...!{06}{07}
+Egbert, you said you'd
+teach me magic after the war,
+so let's have some teaching!{end}
+
+Think about it later, Hein.{end}
+
+General Leon,
+horrible news!{end}
+
+Hmmm, Laird's scout.
+What's wrong? Talk.{end}
+
+General {02}!
+It's a disaster!{end}
+
+From your wounded expression,
+something would
+definitely seem amiss.{end}
+
+It's urgent! You must
+return to the Imperial Capital!{06}{07}
+Castle Rayguard it's ... it's
+under attack by monsters!{end}
+
+What the!?
+How can that be?{end}
+
+Our soldiers have been
+committed elsewhere, so we're
+very much outnumbered!{06}{07}
+His Highness and Laird are
+commanding the defence!
+Please return immediately!{end}
+
+His Highness was an
+outstanding general before
+he ascended the throne.{06}{07}
+Still, in a situation like this ...
+even he'll need assistance.
+We must slay the monsters.{06}{07}
+If you're thinking of a plan,
+then hurry up with it.{end}
+
+The enemies have powerful
+magicians as well.
+They're not ordinary monsters.{end}
+
+I know that well.{06}{07}
+Your horses look tired to death.
+We'll take care of this matter,
+so please get some rest.{06}{07}
+Everyone, let's go!
+Make haste to
+Castle Rayguard!{end}
+
+You've come all the way here!?
+No matter, we'll defeat you!{end}
+
+What's all this blood ...
+Uugghh ... Ugh.{end}
+
+Burn by my magic!{end}
+
+I'm finished ...{end}
+
+I'm grateful ...
+to have played a part in ...
+this climactic battle ...{end}
+
+You shall not pass!{end}
+
+Jessica ...,
+It's up to you from here on ...{end}
+
+P, Princess ...{end}
+
+I won't let those Imperials
+think they can walk right in!{end}
+
+This area was peaceful
+before you bastards arrived!
+I won't forgive you!{end}
+
+{02}, prepare to
+face my sword!{end}
+
+...{06}{07}
+{02} ...?
+Where's {02} ...?{end}
+
+I'm over here, Cherie ...{end}
+
+I, I didn't expect
+to beat you ...{06}{07}
+But I didn't give in ...
+At least I ... did that ...{end}
+
+Please don't ...!
+You've said enough, Cherie.{end}
+
+I've always wanted to fight
+beside you, {02} ...{06}{07}
+The life of a Princess
+wasn't for me ...{end}
+
+...{end}
+
+You should know,
+{02} ...{06}{07}
+All my life, people have
+thought of me as royalty.{06}{07}
+You were the first ...
+to treat me like a person.
+I ... respect you for that ...{06}{07}
+Sorry, ...
+I'm confusing, aren't I ...?{06}{07}
+But, ... I ...
+love ... you ...{end}
+
+Cherie, ... you deserved
+another life ...{06}{07}
+You were so full of life
+and smiling whenever we met.
+Cherie, I, I know ...{06}{07}
+...{06}{07}
+I know such are the sacrifices
+of war, and I will
+continue on my chosen path.{06}{07}
+I acted for El Sallia's peace,
+now and forever. For that,
+I hope ... you will forgive me.{end}
+
+The Descendants of Light
+were forced into war
+because of their heritage.{06}{07}
+Just as the Princess had
+to fight because of hers ...{end}
+
+I remember ...{06}{07}
+Keith often said that
+Cherie would
+sneak from the castle.{end}
+
+Everyone, please understand.
+I was prepared for this.
+I'll be all right ...{06}{07}
+I won't stop, won't give in,
+and won't fall back until I
+defeat the forces of darkness!{06}{07}
+If I don't accomplish that,
+Cherie will never rest in peace.{end}
+
+I'll show you
+how Kalxath avenges
+her aerial squadron!{end}
+
+M, my apologies!
+I couldn't avenge them ...{end}
+
+Don't be so conceited!{end}
+
+Foolish ...{end}
+
+We'll retaliate
+fast and hard!{end}
+
+Thank you, everyone,
+for your support in this battle.
+May Lushiris watch over us ...{06}{07}
+{02} better be ready,
+because the Empire is finished!{end}
+
+It's time to show our
+true glory and strength!{06}{07}
+Everyone, strike now!
+Aaaaahhhh!{end}
+
+Damn you!{end}
+
+F, fuck ...{end}
+
+Damn Imperials!
+Don't let
+them escape alive!{end}
+
+I'm taking revenge for
+Scott and Aaron!{end}
+
+Sorry, people of Salrath ...
+I couldn't avenge your lord ...{end}
+
+I won't lose!
+Until I defeat you all,
+I desire nothing else!{end}
+
+Loren, Scott I'll ...
+be nearby soon ...{end}
+
+...{06}{07}
+Master, you've fulfilled
+your duties admirably.{06}{07}
+Please rest in peace ...
+and leave this
+world to our hands.{end}
+

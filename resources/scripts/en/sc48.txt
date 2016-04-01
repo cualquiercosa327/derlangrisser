@@ -1,0 +1,689 @@
+Somehow, we're
+still ahead of them.{end}
+
+The soldiers are
+in formation, Princess!{end}
+
+Great.
+Keep me updated.{end}
+
+I'm surprised everything
+went so smoothly ...{06}{07}
+We're ready and
+willing to engage the
+enemy, Cherie.{end}
+
+Excellent. I'm happy
+things went well.
+And sorry I'm late ...{06}{07}
+If it weren't for
+Liana's management, we'd
+still be forming up.{end}
+
+Cherie, don't
+be so modest!{06}{07}
+Without your instructions,
+I'd have been totally lost!{end}
+
+It seems the Princess
+has finally become a
+seasoned tactician.{06}{07}
+You'd never know she used to
+sneak off whenever I assigned
+her to study war history ...{end}
+
+Keith!
+Stop ruining my image!{end}
+
+{02} ...?{end}
+
+So, the Empire has
+finally made its move.{06}{07}
+Troops, move into position!{end}
+
+...{end}
+
+Just a little further, and
+it's back to Rayguard.
+I'll buy everyone a round ...{end}
+
+When His Majesty holds
+Langrisser, victory
+will be all but ours.{06}{07}
+Any opposition would
+crumble before
+such a weapon ...{end}
+
+If we deliver the sword,
+everyone will soon
+be at peace, right?{end}
+
+Yes, that's true, Hein.{06}{07}
+The nations of this world
+won't know peace until
+the Empire brings it to them.{06}{07}
+Very soon now, this
+continent will be
+one of quiet order.{end}
+
+Not if I can help it!{end}
+
+Hmph!
+How bothersome ...{end}
+
+Your goal is
+so naive ...{06}{07}
+For there to be
+true peace, there must
+be mutual trust.{end}
+
+Yes, what a beautiful
+fantasy that is ...{06}{07}
+Sadly, we live in an
+imperfect world.{06}{07}
+The way to peace
+is through enforcement,
+through the might and justice
+of one grand Empire!{end}
+
+Yes, we will stitch
+this tattered world
+back together.{06}{07}
+You see ...
+Now, we have both blades--
+Langrisser and Alhazard.{06}{07}
+Against their power,
+all opposition will join or
+surrender. War will end.{06}{07}
+Bernhardt's ideal, his vision ...
+Our power will build it step
+by step, blow by blow.{end}
+
+I think not.{06}{07}
+Alhazard and the Empire ...
+Nothing good can come of them.
+Darkness can't bring light,
+and evil can't bring peace!{end}
+
+Yes, and you
+hope for peace while
+waging a futile war!{06}{07}
+Peace will come easily
+if you simply give up.{end}
+
+As I thought, we
+can't make you
+understand our position.{end}
+
+It's bad enough that
+the Kaiser has the
+Dark Blade, Alhazard ...{06}{07}
+If he also obtains
+Langrisser, we'll be
+in deep trouble.{06}{07}
+Block them from the
+Imperial Capital by
+any means necessary!{end}
+
+So, you're still
+in our way?{06}{07}
+We'll just have to
+go through you, then.{end}
+
+{02} ...
+Why must you
+fight us?{end}
+
+I'm fighting for the only
+legitimate reason.
+I want to bring peace.{06}{07}
+I wouldn't fight you,
+Liana, if I didn't have to ...{end}
+
+Aaahh ... {02} ...
+Why do we meet in battle when
+we have the same wish?{end}
+
+Liana ...{end}
+
+Trying to talk things out
+never solves anything.{end}
+
+A first rate manoeuvre,
+using the girl
+against {02} like that!{end}
+
+We've got to win
+here, or we'll never
+retake Langrisser.{06}{07}
+Cast aside all other concerns.
+We must fight as
+one to the very end!{end}
+
+There ... won't be
+a second chance.{end}
+
+As I thought, {02}, you
+are a decent warrior. But to
+defeat me will take far more.{end}
+
+The Empire is a terrible
+foe, indeed ... But
+we can't turn back now.{end}
+
+That's right.{06}{07}
+If they get both Langrisser
+and Alhazard ...
+It ... It will be all over ...{end}
+
+You cannot rely on those
+swords to bring that "peace"
+you keep referring to.{06}{07}
+Sure, your goal may not
+to cause even more chaos,
+but those two swords
+were forged for war!{06}{07}
+And war is exactly what
+they will bring as long as they
+remain on this continent.{end}
+
+Fighting is not justified
+for any reason.{06}{07}
+But if you have to choose one,
+fighting to stop a war ...
+is the most appealing.
+That's what we're doing here.{end}
+
+Cast aside all else!
+Fight with
+everything you've got!{end}
+
+{02} ...
+How, how can I fight
+against you ...?{end}
+
+From the water's surface,
+a spirit gazes with interest.{06}{07}
+
+What will you do?{end}
+
+Ignore it{end}
+
+Smile{end}
+
+Attack{end}
+
+The water spirit
+goes somewhere else.{end}
+
+The spirit returns your smile
+and gives you a sparkling robe.{end}
+
+Obtained Wizard's Robe.{end}
+
+The water spirit is
+angered and leaves.{end}
+
+Something shaped like a burial
+mound is in the sand below.{06}{07}
+
+Will you try and dig it out?{end}
+
+Obtained Arbalest.{end}
+
+A beautiful flower grows
+from a crack in a rock.{06}{07}
+
+Will you try and touch it?{end}
+
+The flower wilted.{end}
+
+"I am the spirit of the flower."{06}{07}
+
+"Thank you, kind-hearted human.
+I will grant you one wish."{end}
+
+Wish for knowledge{end}
+
+Wish for strength{end}
+
+I need nothing{end}
+
+MP raised by 3 points.{end}
+
+AT raised by 1 point.
+DF raised by 1 point.{end}
+
+"I see. Maybe we can
+meet again somewhere ..."{06}{07}
+
+The flower spirit left.{end}
+
+Cherie, please don't do this.
+I don't want to kill you.{end}
+
+No! I won't give up!{06}{07}
+If I defeat you,
+we can take Langrisser ...
+and stop this all!{end}
+
+It sounds like you
+have made up your mind ...
+Prepare yourself, Cherie.{end}
+
+I must defeat anyone
+who gets in
+my way, even Liana.{end}
+
+Why!?
+Why must we fight ...?{end}
+
+I have to fight my family ...
+I have to fight
+my dearest friends ...{06}{07}
+Such is war ... 
+This is why
+I must end it!{end}
+
+Stop interfering!{end}
+
+We cannot step aside!{end}
+
+Impossible!
+All that I've done ...{end}
+
+Hein ...{06}{07}
+Don't you want things
+as they were,
+like the good old days?{end}
+
+Forgive me, Liana ...{end}
+
+Ugghh--!
+I'm finished!{end}
+
+Please, step aside!{end}
+
+Argh--!
+Right in front of the
+Imperial Capital ...{end}
+
+You can't continue, Leon!{06}{07}
+Leave the rest to us!{end}
+
+Thank you ...{end}
+
+Welcome to your funeral!
+You can't stop us,
+and you can't stop the future.{end}
+
+How could this happen?{06}{07}
+How could I lose
+to this kind of punk!?{end}
+
+Grrraahhh!
+Blazing Dragon Army,
+bash them down!{06}{07}
+Skewer them on
+our Imperial blades!
+Gah hah hah!{end}
+
+Ooohh--!
+How could this happen ...!{end}
+
+{02}, the
+Imperial Capital
+lies beyond.{06}{07}
+No matter what,
+you won't pass!{end}
+
+Aahh ...
+How could I ... lost--{end}
+
+Help, someone!
+Escort Lady Jessica
+to safety!{end}
+
+We've no more time!
+Let's go!
+Show no mercy!{end}
+
+You will not
+have Langrisser!{end}
+
+Uugghh--!
+This can't be ...{end}
+
+Princess, please retreat!{end}
+
+But ...!{end}
+
+Now is our chance
+to end this!{06}{07}
+They may have a
+skilled commander, but we
+know the terrain!{end}
+
+Understood ...
+Sorry I've troubled you ...{end}
+
+We weren't strong enough ...{06}{07}
+{02}, I will
+not forget this day.{end}
+
+Time to go!{end}
+
+Block off their path
+to the Imperial Capital!{end}
+
+Argh ...
+This is it ...{end}
+
+... {06}{07}
+{02} ...
+You and I share the same
+hatred for war.{06}{07}
+Why are we made to
+battle one another ...?{06}{07}
+I ... I do not know ...{06}{07}
+But I cannot overlook
+the danger that Alhazard
+poses to this world!{end}
+
+If only things were so simple.
+We might place all
+the blame on war alone ... {06}{07}
+No, there's more
+to it than that.{06}{07}
+Our difference in perspective
+compels us to fight.{end}
+
+Aaahh--!{end}
+
+Liana!?{end}
+
+Why have you changed,
+{02} ...{06}{07}
+I, I ...{end}
+
+I don't want to
+fight you, Liana!{06}{07}
+I know you don't
+agree with me, but
+we don't have to kill
+each other over it!{06}{07}
+I beg you, don't come to
+another battlefield.{06}{07}
+Wait ... Wait somewhere
+safe for this war to end.
+You deserve to live ...{end}
+
+...{06}{07}
+I can't do that, {02}.{06}{07}
+It breaks my heart
+to fight you, but
+I won't run away.{06}{07}
+Everywhere I look, I see
+pain and sadness ... The Empire
+isn't a solution to that.{06}{07}
+{02} ...
+Cast away any lingering doubts.
+From now on, we are enemies.{end}
+
+Liana ...
+Our ideals are important
+to both of us ...{end}
+
+All units, charge!{end}
+
+So I'm dying, am I ...
+Hah hah ... How ... strange ...
+Ugh-- arrghh ...{end}
+
+I, I wasn't prepared for
+you to be this strong ...{end}
+
+Langrisser ...
+Langrisser can really
+do that ...?{end}
+
+Ooohhh--!{end}
+
+No one can
+hope to match me!{end}
+
+I, I lost ...{end}
+
+Magnificent ...
+The Empire is
+most impressive ...{end}
+
+Th, that sword ...{end}
+
+Fight using every
+ounce of your strength!{06}{07}
+Go, now!{end}
+
+Ugh ...{end}
+
+Ugh--!
+I won't falter even in
+the face of death!{end}
+
+Behold the power
+of the Kalxath
+Aerial Knights!{end}
+
+You think you can
+beat me? Hah hah ...
+How completely pathetic.{end}
+
+Sorry, Liana ...{end}
+
+{02} ...{end}
+
+You're much too naive.{06}{07}
+Children can't survive
+on the battlefield, you know.{end}
+
+Maybe you're right.{06}{07}
+But compassion comes
+naturally to humans.
+It's not weak, it's who we are.{06}{07}
+Why do you
+turn from it?{end}
+
+We don't.{06}{07}
+If we abandoned our hearts,
+we would be worthless,
+bloodthirsty marauders.{06}{07}
+I agree, war is horrible.
+If it were gone
+forever, few would miss it.{06}{07}
+With Rayguard comes order,
+with order comes peace.
+They refuse to see this ...{end}
+
+We will quickly
+rid the world of war.{end}
+
+I am resolved to this
+course of action.{06}{07}
+Because no one else
+can achieve this goal
+faster than we can.{end}
+
+I see ...{06}{07}
+Well, let's head to the
+Imperial Capital.
+His Majesty is waiting.{end}
+
+In spite of the time
+and effort involved,
+we've no other choice.{06}{07}
+All right, everyone, let's
+head to the Imperial Capital!{end}
+
+Well, we've no time to waste.
+We'll reach the
+Imperial Capital soon ...{end}
+
+Wonderful, you've
+returned safely.
+Your duty is complete.{end}
+
+Indeed!{end}
+
+Your praise is more
+than we deserve ...{end}
+
+We will gladly
+endure any trouble for
+His Majesty's benefit.{end}
+
+So this is {02}.
+I have heard of you.{06}{07}
+I understand you were
+a major factor in the
+fulfilment of this mission.{06}{07}
+Please continue to work
+hard for our Empire.{end}
+
+Yes, Sir!{end}
+
+Very soon, we
+will launch a swift attack
+from Rayguard.{end}
+
+At last, the Empire
+has both swords.{06}{07}
+Because of that,
+we will fear nothing.
+Steadily, our invasion
+will commence.{06}{07}
+And so we take our first
+steps toward unity ...{end}
+
+For this stratagem,
+you may count
+on my assistance.{end}
+
+Even Lord Egbert?{end}
+
+That's right.{06}{07}
+Though we've come far,
+failure is not permissible.{end}
+
+And the first target?{end}
+
+The target is Salrath.{06}{07}
+Each of you, hurry on
+and prepare your men.{end}
+
+Yes, Sir!{end}
+
+I shall return
+bearing good tidings
+of our victory.{end}
+
+{02}.
+I entrust this operation
+to your command.{end}
+
+To me?{end}
+
+This is at Egbert's suggestion.
+Your lead gives us
+our greatest advantage.{06}{07}
+Langrisser will lie
+in your hands, for no
+others can wield it.{end}
+
+Understood.
+I shall do my best, for the
+sake of continental unity.{end}
+
+Very good.
+I look forward to your
+labour's fruition.{end}
+
+Just leave it
+to me, Your Majesty.{end}
+
+I swear to make
+Your Majesty's
+dream a reality!{end}
+
+Use force as needed.
+Make each nation
+understand our might!{06}{07}
+Remember, we strike to
+quell all resistance--
+both present and future.{end}
+
+Sir, yes Sir!
+Now, I ask your leave.{end}
+
+Ah, it seems my predictions
+were not mistaken.{06}{07}
+With Your Majesty's
+support, I believe we will
+bring peace and end
+darkness on this continent.{end}
+
+I'll trust your judgement
+with regard to demons.
+And so, if you don't mind?{end}
+
+As you wish ...{end}
+
+Egbert joins the entourage!{end}
+
+Heh heh heh ...{06}{07}
+Time to see if this withering
+husk of flesh is still
+worthy of the battlefield.{06}{07}
+Hmph!{end}
+
+It seems that I'm
+the only one left ...{06}{07}
+Everyone else has
+turned tail and fled.{06}{07}
+But you'll find I'm different.
+I'll fight to the very end!{end}
+
+So I'm the only
+one left after all ... {06}{07}
+But your group
+must be worn out!
+As long as I can,
+I'll keep trying!{06}{07}
+The Sword of Light
+will be returned!{end}
+
+{02}.{06}{07}
+My force is
+the only one left ... {06}{07}
+But, I didn't come here
+just to give up!
+Here I come, {02}!{end}
+
+I had hoped to
+do more than this ...{end}
+
+Even though we're alone,
+I'll fight to the finish!{end}
+
+Princess, you did your best.
+You need to keep
+your cool if you want to win.{end}
+
+I know!{end}
+
+Aahhh ...{06}{07}
+Why did things
+turn out like this?{06}{07}
+How can you keep living
+with so much blood
+on your hands, {02} ...{end}
+

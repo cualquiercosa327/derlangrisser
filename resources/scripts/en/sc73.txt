@@ -1,0 +1,512 @@
+Your Highness, does
+everything go as planned?{end}
+
+Yes, don't concern yourself.
+No one will find
+us in this wilderness.{end}
+
+Shouldn't His Majesty
+rest for a little while?{end}
+
+Hah!
+Wounds like these won't
+fell your Kaiser.{06}{07}
+Our troops have momentum.
+Let them keep it.{end}
+
+But, Your Majesty ...{end}
+
+What!? We're being followed?
+It, It's {02}!{end}
+
+Damn! They move quickly ...{end}
+
+You won't escape so easily,
+Kaiser of Rayguard.{end}
+
+Ah, it's the annoying little brat!
+I see you're eager to die.{end}
+
+I'll remain and hold them.
+The rest of you, honour
+your duty to His Majesty.{end}
+
+Leon, please see to
+His Majesty's care.{end}
+
+I understand, General Vargas.
+You are brave beyond words!{end}
+
+Looks like we're facing the
+Flaming Fag Brigade or
+whatever they call themselves.{end}
+
+If we take too much time,
+we'll lose the main force.{end}
+
+All right, let's strike quickly.
+Our target is General Vargas!{end}
+
+Come on then,
+red-haired brat!{06}{07}
+I'll show you the power of the
+Imperial Blazing Dragon Army's
+most elite forces!{end}
+
+The Empire doesn't take
+kindly to its generals' deaths.{06}{07}
+I, for Vargas, will command
+this guard and butcher you all.{end}
+
+Not so fast.
+Our priority should be
+His Majesty's safety.{end}
+
+Hold off for now,
+and don't lose your head.{06}{07}
+We must protect
+His Majesty until his escape.{end}
+
+Just a bit longer ...
+If we can buy ourselves
+a little more time, then ...{end}
+
+Just a bit longer ...
+And His Majesty's
+safety is assured ...{end}
+
+Watch out, {02}.
+At this rate, we're going
+to lose the Kaiser!{end}
+
+{02}!
+You're taking far too long!
+Are you letting hm go!?{end}
+
+Don't you see, {02}!?
+If you take too much time,
+you'll lose sight of the Kaiser!{end}
+
+This is getting critical ...
+Don't waste your time on trash!
+Focus on their commanders!{end}
+
+Oh, our fun
+is over too soon.
+Bye bye, boys!{end}
+
+Gwah hah hah!
+His Majesty is over the horizon!
+You'll never find him now.{06}{07}
+Mission complete!
+Time to withdraw.{end}
+
+Grrr ...
+We took too long ...{end}
+
+They've crossed the bridge!
+Your Majesty, please hurry!{end}
+
+They've breached the bridge!
+Your Highness, quickly!{end}
+
+Hmmm ...{end}
+
+Bastards ...!{06}{07}
+If I don't rest soon, I'll ...
+I may not survive ...{end}
+
+Brat!
+If you come any further,
+don't think you'll live.{end}
+
+Are you all
+right, Vargas?{06}{07}
+I wouldn't ask if it
+were anyone but {02}
+you just dealt with.{end}
+
+{02}'s a damn coward.
+Worry about something else.{end}
+
+Fine, but don't be reckless.
+I prefer fighting to running
+myself, but duty is duty.{end}
+
+I apologise.{end}
+
+Don't thank me!{end}
+
+Looks like he's
+sticking around until
+Imelda gets out.{end}
+
+So it's Vargas and Imelda ...
+Good times.{end}
+
+It's won't be a problem.
+Langrisser's right here!{end}
+
+Some dirty mice are playing
+with a small stone.{06}{07}
+
+Will you drive them away?{end}
+
+The dirty mice run away,
+leaving the small stone.{06}{07}
+
+As you pick up the stone,
+it begins to shine ...{end}
+
+Obtained Rune Stone.{end}
+
+The dirty mice continue to play
+with the stone and take it away.{end}
+
+Out of the way!
+We have no time for
+this nonsense!{end}
+
+I, I didn't plan this ...{end}
+
+Why ...?{end}
+
+Damn kids!{end}
+
+And we came all
+this way, too ...{end}
+
+Uugghh, I've been ...
+defeated ...!{end}
+
+{font3}Arrrrghh--!
+This host ... too weak ...{end}
+
+Forgive me, Vargas.
+I leave everything in your care.{end}
+
+Leave it to me.{end}
+
+Forgive me, Imelda.
+I leave everything in your care.{end}
+
+Don't worry.{end}
+
+Forgive me ...
+I leave everything in your care.{end}
+
+Please stay safe.
+I'll catch up with you after
+I deal with these guys.{end}
+
+There's no need to worry,
+Your Majesty.{06}{07}
+For the honour of the
+Water Dragon Navy,
+we won't leave a man alive.{end}
+
+I'll be waiting.{end}
+
+Ugh! These damned
+old wounds ...{end}
+
+It's His Majesty ...!
+Quickly, get him to safety.{end}
+
+His Highness needs a healer!
+Please, get him to safety!{end}
+
+Your Highness, this way ...{end}
+
+Leon, take care
+of His Majesty.{end}
+
+Leon, take care
+of His Majesty.{end}
+
+Leave it to me.
+I will protect him
+with my life.{end}
+
+Go ahead, Leon.
+Secure a path
+for His Highness!{end}
+
+Go ahead, Leon.
+Secure a path
+for His Highness!{end}
+
+Don't worry,
+I will do just that.{06}{07}
+Fight well and take
+care of the rest.{end}
+
+You made it here, but
+luck doesn't hold forever.{06}{07}
+This time,
+we will not lose!{end}
+
+You won't go any further!{end}
+
+Hmmm ...{06}{07}
+Vargas, can you
+control this situation?{end}
+
+Yeah, just leave it to me.
+Now get moving!{end}
+
+Hmmm ...{06}{07}
+Imelda, you handle
+matters here.{end}
+
+Leave it to me.
+Just get out of here.{end}
+
+General Vargas,
+we pray for
+your good fortune!{end}
+
+Yeah, thanks.
+Take care of His Majesty.{end}
+
+General Imelda,
+we pray for
+your good fortune!{end}
+
+They don't know who they're
+dealing with.
+Just see to His Majesty.{end}
+
+Ugh, damn it!{end}
+
+Laird, this way ...{end}
+
+You'd better look out, brat!
+This time, I'm getting
+you back for Zorum's death!{end}
+
+You'd better look out, punk!
+This time, I won't hold back!{end}
+
+Aaaaaahhh--!
+Blazing Dragons, charge!{end}
+
+Punks, prepare yourselves!{end}
+
+Ugh, im, impossible ...
+I, I am General Vargas ... of
+the Blazing Dragon Army.{06}{07}
+Ugghhh ...
+Please look after ...
+Eliza and ... Emilia ...{end}
+
+Vargas ...! How could
+you be so careless ...
+Damn it all!{end}
+
+I won't let you get pass.
+Meet me with your swords!{end}
+
+The General has been defeated?
+Let us join with Imelda
+and avenge General Vargas!{end}
+
+Vargas, you fought splendidly.
+Your death shall not be wasted,
+I promise you, old friend.{end}
+
+Sorry ...{end}
+
+I'll never forget you guys ...{end}
+
+Well, Vargas, I'll
+punish those
+bastards for you!{end}
+
+Let's offer them support!{end}
+
+All right!
+I'm going too.{end}
+
+Y, yes!{end}
+
+Get ready, bastards.
+I shall avenge Vargas's death!{end}
+
+All right!
+Time to go!{end}
+
+Yes, Sir!{end}
+
+Stubborn bastards!
+Let's fight back!{end}
+
+Come now, and
+meet your punishment.{end}
+
+Don't run or we'll cut you down.
+Prepare to fight.{end}
+
+Imelda!{end}
+
+Forgive me ...
+Vargas ... I am not ...
+fit to be a General ...{end}
+
+I'll take revenge for you.
+Rest in peace, Imelda.{end}
+
+Aaaahhh ...{end}
+
+I, Imelda!{end}
+
+I won't allow this, bastards!
+I'll make you pay!{end}
+
+Aaaahhh--! No ...
+An injury like this ...
+I'm dead ... I ...{06}{07}
+Everyone, take care ...
+of His Majesty ...{end}
+
+Imelda, you fought well.
+It was a fitting battle
+for a Heavenly Dragon.{06}{07}
+We'll make sure your
+actions bring great result.{end}
+
+I'm sorry ...{end}
+
+I'll never forget you guys ...{end}
+
+He hasn't died yet.{end}
+
+Protect His Majesty
+at all costs!{end}
+
+Since you established this
+Empire with His Highness,
+I vowed to see its protection.{06}{07}
+They'll get here one
+way or another ...{end}
+
+Hmph, its nice to know
+we have such valiant
+supporters. Take care.{end}
+
+D, damn these wounds ...
+How can I succumb to them?{06}{07}
+Next time we meet
+shall be your last!{end}
+
+We must remain mobile
+and focus on
+their vulnerabilities.{end}
+
+Please!{end}
+
+Yes, Sir!{end}
+
+If you want to go on,
+you'll have to defeat me first!{end}
+
+How could I lose ...{end}
+
+Even if my body's cut to
+ribbons, you will not pass!{end}
+
+I must not let them
+reach His Majesty ...{end}
+
+I'll make you suffer
+a most painful death ...{end}
+
+Ugh, no good ...{end}
+
+That's it!
+Kill them all!{end}
+
+Long live the Kaiser!
+Long live the Empire!{end}
+
+What persistence ...
+I honestly didn't think
+you'd make it to me.{end}
+
+I did it ...{end}
+
+My swordsmanship ...
+could use some work ...{end}
+
+So, I'm the last one left.
+I'm not giving in.
+Don't even think it.{06}{07}
+I'll get His Majesty and
+his troops whatever time and
+distance they need.{06}{07}
+Now then, red-haired punk.
+Stop your gawking
+and let us cross blades!{end}
+
+So you've chased us this far ...
+You have endurance, all right.{end}
+
+Hah hah hah hah hah!
+Everyone is down but me!
+I must be the belle of the ball.{06}{07}
+But don't worry, boys.
+I'm not going to run away.{end}
+
+Why not? Why be
+so persistent?{end}
+
+Generals have standards, kid.
+They are what give
+us the right to command.{06}{07}
+If I show weakness
+even once, it's all over.{06}{07}
+And for a
+woman, that goes double.{end}
+
+Worrying about such
+trifles will only stress you.{end}
+
+I'm happy right now
+for one thing ...
+I don't need to show off.{end}
+
+...{end}
+
+Well, the final battle's ahead.
+Shall we move onward?{end}
+
+Vargas has been defeated!
+Join Imelda and take revenge!{end}
+
+We must pursue their
+main force or we'll lose them!{end}
+
+Probably Castle Velzeria ...{end}
+
+Farewell, Heavenly Dragons.
+General Vargas ...
+General Imelda ...{end}
+
+That was the last of the
+Rayguard Empire's
+Army and Navy, it seems.{end}
+
+Vargas and Imelda ...
+competent and loyal
+warriors to the very end.{end}
+
+That's right.
+If they escaped there ...{end}
+
+Getting through the defences
+in Castle Velzeria
+could be problematic.{06}{07}
+We must strike quickly,
+before they can
+ready themselves.{end}
+

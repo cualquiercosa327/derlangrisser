@@ -1,0 +1,301 @@
+Your Majesty, though I
+profoundly regret to say it, the
+invaders have penetrated.{end}
+
+Really? Yes, I see now ...
+Allying with B{3a}ser was a
+dangerous game, one we lost.{06}{07}
+Egbert, your wounds look deep.
+Will you be all right?{end}
+
+I'm by no means in top form,
+but this is nothing
+to worry yourself with.{end}
+
+Do not forget, we possess
+the Demons' Might, Alhazard.{06}{07}
+Even while sealed,
+it's not to be taken lightly.{end}
+
+We have readied ourselves
+and will soon intercept those
+who have troubled His Majesty.{end}
+
+We have plenty of men and
+supplies, Your Majesty. Allow
+us to cover your withdrawal.{end}
+
+Don't speak foolishness!{06}{07}
+I will not hide in some rat hole.
+I am the Kaiser of Rayguard!{end}
+
+This is the end for you,
+Kaiser Bernhardt.{end}
+
+Ahh, ... it's you.
+The scoundrel {02}.{06}{07}
+One side and then the other,
+whenever it's convenient, hmm?
+What a fickle young man.{06}{07}
+Please rest assured,
+you won't be the first
+traitor to die here.{end}
+
+By some miracle, you
+breached the castle gate with
+your modest little force.{06}{07}
+But your luck has run
+out, and your lives are now
+under my jurisdiction.{06}{07}
+{02}, you have taken
+my dream and perverted it
+with your naive mind.{06}{07}
+Drop Langrisser and take
+your leave. If you do this now,
+I may even spare you.{end}
+
+Do you take me for a fool,
+you senile old man?{end}
+
+Langrisser is not fit
+for this pathetic
+excuse of an Empire!{end}
+
+Hmmm ...
+What brings you
+here, B{3a}ser?{end}
+
+The same reason as you--
+there's something I desire.{06}{07}
+Give me Alhazard and its key.
+By which I mean,
+of course, the Dark Rod.{end}
+
+Heh heh heh.
+You're in for quite a shock,
+fiend. You'll take neither!{end}
+
+Do you want them badly
+enough to face a Kaiser and
+his chief magician?{end}
+
+{02}, I have a
+proposition. Let us take
+Alhazard and the Dark Rod.{06}{07}
+If we succeed, this world
+will be ours alone. You will
+be second only to me.{end}
+
+Yes ...{06}{07}
+Langrisser and Alhazard ...
+With both in hand,
+we would fear nothing!{end}
+
+As the Kaiser's elite guard,
+they cannot be overestimated.
+Remember that.{end}
+
+So ... this is the kind of
+person who prevents
+Alhazard's resurrection, eh?{end}
+
+Langrisser's power is not
+unlike that of a man.{06}{07}
+If you weary it too
+much, it may break.{end}
+
+Above the pedestal there
+is a blue coloured potion.{06}{07}
+
+Will you drink it?{end}
+
+MDF raised!{end}
+
+Above the pedestal there
+is a red coloured potion.{06}{07}
+
+Will you drink it?{end}
+
+Movement raised!{end}
+
+You heard something shatter
+on the opposite pedestal ...{end}
+
+Hand over Alhazard.{end}
+
+Heh heh heh.
+Give me Langrisser first, and
+I just may consider it.{end}
+
+If you don't want to die,
+give up the Dark Rod!{end}
+
+You think you can beat me.
+That's your first, and
+most deadly, mistake.{end}
+
+I can't ... die just ... yet ...
+Aarrrghhh--!{end}
+
+They really were strong ...{end}
+
+I'm not as battle-ready
+as I thought ...{06}{07}
+I need to rest ...
+just a bit ...{end}
+
+Damn ...
+Right before Lord B{3a}ser.
+Pitiful ...{end}
+
+Sorry ...
+I'm exhausted ...{end}
+
+{font3}Ridiculous ...
+My power is gone ...{end}
+
+{font3}Worthless humans!
+I will feast on you!{end}
+
+Your men are unshaken,
+even after meeting demons
+at their own gates.{06}{07}
+Do they know they're
+all going to die here?{end}
+
+It seems ... I misjudged you ...
+Are you really ...
+that powerful ...?{end}
+
+Obtained Alhazard.{end}
+
+Yes, at last ...
+We have Alhazard!{end}
+
+Take joy while
+you can.{06}{07}
+My plans will manifest,
+and those swords
+shall yet be mine.{06}{07}
+Today was unfortunate, ...
+but I look forward to our
+next encounter, {02}.{end}
+
+Let's give {39}em
+a bloodbath!{end}
+
+I'm counting on you!
+Let's send them
+straight to Hell!{end}
+
+To defend His Majesty,
+I've sworn even my life!{end}
+
+Long live the Kaiser!{end}
+
+I regret nothing ...!{end}
+
+Y, Your Majesty ...{end}
+
+If you're going to fight,
+then get on with it!{end}
+
+I can't be defeated here ...
+Not yet ... Not now ...{end}
+
+You won't ascend
+one more stair!{end}
+
+Your Majesty ...
+Forgive ... this ...{end}
+
+I will never accept
+defeat from demons!{06}{07}
+I'll perish before you
+meet His Majesty's eyes!{end}
+
+Your lives
+shall end here!{end}
+
+Im, impossible ...
+No ... Nooo ...!{end}
+
+This power
+that you have ...{end}
+
+Decent ... but you're ...
+not Imperial material ...
+by any stretch ...{end}
+
+The last of my life ...
+To protect the Kaiser--!{end}
+
+Ugh ...
+H, how can they have
+such power ...?{end}
+
+G, gahh!{end}
+
+I don't need
+Alhazard's twisted power!{06}{07}
+I will unify this world with
+Langrisser alone!{end}
+
+That seems
+to make sense ...{end}
+
+However ...
+If you intend to break the seal,
+please do it quickly.{end}
+
+Liana is the
+maiden of light?{end}
+
+Yes, I see.
+We will find Liana.{end}
+
+All right, we're done here.
+Our next objective
+is Salrath's conquest!{end}
+
+Run, Imperials,
+like the cowards you are!{06}{07}
+Now, reviving Alhazard
+should be our top priority.{end}
+
+Alhazard commands the
+Demon Tribe. Don't forget
+that, {02}.{06}{07}
+To control this world,
+we'll need power over both
+monsters and humans.{end}
+
+That's right ... If you want
+true unification, you'll need
+to earn the demons' respect.{end}
+
+Let's not get ahead
+of ourselves. There are
+preparations to make.{06}{07}
+We need the young girl
+Liana, the maiden of light.{end}
+
+The maiden of light is
+being sheltered
+in Castle Kalxath.{06}{07}
+You must cut through
+Salrath to get there, but they
+shouldn't pose much threat.{06}{07}
+Sonya will hear my
+next plan after you've
+managed this one.{end}
+
+Heh heh heh ...
+Well done, {02}.{06}{07}
+Alhazard now lies
+in its rightful hand.{end}
+
+Such vile beings!
+You offend this castle
+with your presence!{end}
+

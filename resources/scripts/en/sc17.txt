@@ -1,0 +1,444 @@
+Let's hope Imelda and the
+Water Dragon Navy can hold
+back the enemy ...{end}
+
+Yeah! No matter how strong
+they are, they can't beat
+General Imelda.{06}{07}
+We've got no reason to
+stick around here and
+build a useless fort.{end}
+
+They are coming.
+I'm certain of it.{06}{07}
+No matter how strong
+General Imelda may be, she'll
+underestimate their strength.{06}{07}
+If she doesn't take them
+seriously, she won't win.{06}{07}
+At any rate, General Vargas
+has already seen just how
+strong their leader is.{end}
+
+No matter how strong
+General Imelda may be, she'll
+underestimate their strength.{06}{07}
+If she doesn't take them
+seriously, she won't win.{06}{07}
+At any rate, General Vargas
+has already seen just how
+strong their leader is.{end}
+
+They're coming!
+The rebel forces
+are approaching!{end}
+
+Right!{end}
+
+Sigh ...
+Liana, are we there yet?
+I'm so exhausted.{end}
+
+Castle Baldea should be
+just over this mountain.{end}
+
+Hein, stop being so lazy.{end}
+
+Hey, wait!
+There's an enemy fortress!{end}
+
+Gwa ha ha ...
+You made it here at last!{06}{07}
+But this is as far as you go.
+This place shall be your grave!{end}
+
+Who is that guy ...?
+Have we seen him before?{end}
+
+Yeah, it's Colonel Zorum again.{06}{07}
+He's General Vargas's
+right hand man ...
+Well, so he says.{end}
+
+You punk!
+Are you trying to insult me!?{06}{07}
+This time I'll shut that noisy
+mouth of yours for good!
+I'm not holding back any more!{end}
+
+Uh oh, he's not
+going to go easy on me.{end}
+
+General Vargas isn't here,
+but no matter.
+We must stop them.{06}{07}
+Even with our bare hands,
+we shall hold them off!{end}
+
+Yes, Sir!{end}
+
+How on earth did they find
+time to build such a fortress?{06}{07}
+I'm sure there was never
+anything this size here before.{end}
+
+It looks like they did all this
+just to stop us, Princess.{end}
+
+They're really determined,
+I'll give them that.{end}
+
+This will be a tough fight.{end}
+
+Then we'll just have to
+surpass their determination.
+Everyone, let's go!{end}
+
+Until we know for sure that
+the general's baby is born,
+we cannot die.{end}
+
+Ha ha ha!
+That's the spirit, men!{06}{07}
+Let these kids see the power
+of the Blazing Dragon Army.{end}
+
+Yeah!
+We can't die until we know the
+General's baby has been born. {end}
+
+All right, let's show
+that little punk the full
+extent of our power! {end}
+
+The enemy is using ballista.{end}
+
+Leave the explanation to me!
+After Scott left I started
+to study battle tactics.{06}{07}
+Ballista use a system of pulleys
+to hurl rocks and spears,
+so they have an incredibly
+long attack range.{06}{07}
+Flying troops need to be
+careful since a single hit
+from a ballista unit may be
+enough to take them down.{end}
+
+What in the hell are
+you talking about!?{06}{07}
+Flying troops are so fast and
+agile that ballista won't even
+have a chance to aim.{06}{07}
+Therefore, flying troops
+have nothing to worry about.{06}{07}
+You stupid wizard!
+If you don't know what you're
+talking about, then just keep
+your mouth shut!{end}
+
+Hmph ...,
+how rude!{end}
+
+That's correct.
+Among projectile units,
+ballista are special.{06}{07}
+But Princess, ...
+when did you study this?{end}
+
+Hee hee hee ...
+That's a {font4}Secret.{end}
+
+However, Princess, your
+commentary shows your tactical
+knowledge has a ways to go.{06}{07}
+Since aerial units are
+weak to ballista attacks,
+if they rush in unprepared, they
+can be easily wiped out.{end}
+
+I was right--you were wrong!
+Told you, told you, told you!{06}{07}
+They really do need
+to be careful!{end}
+
+Hein, I hate you!{end}
+
+Well, Princess, from
+now on you should study
+more carefully.{end}
+
+You see strange piece of
+cloth lying on the ground.{06}{07}
+
+Will you pick it up?{end}
+
+Obtained Wizard's Robe.{end}
+
+As I would expect from
+an Imperial fortress ...{06}{07}
+We should have planned
+more carefully ...{end}
+
+Ouch--!
+This isn't good.{end}
+
+Oww!
+Damn, I'll be back later!{end}
+
+Aah, ... {02}.
+I'm sorry ...{end}
+
+Princess ...
+Sorry ...{end}
+
+Shit!
+I'm done for!{end}
+
+Ahh ...
+I've lost ...{end}
+
+Colonel Zorum!
+Let's settle this right now!{06}{07}
+Concentrate all attacks on
+the redheaded punk!
+He's the rebel scum's leader!{end}
+
+Yes, Sir!{end}
+
+Redheaded boy!
+I'll avenge Zorum!{end}
+
+Redheaded boy!
+I'll avenge Zorum!{06}{07}
+All troops, concentrate
+your attacks on
+the red-haired one!{end}
+
+Is this the end ...?
+Sigh ..., such is the
+fate of any true soldier.{end}
+
+General Vargas!{end}
+
+Wait!
+We've come to save you!{end}
+
+Leon, ... it's too late for that.
+As a fellow warrior,
+I have one final request.{06}{07}
+My child is soon to be born.
+Please tell my wife,
+Eliza, that ...
+that I'm not coming home.{06}{07}
+Tell her her husband fought
+bravely to the end with his
+men so his child could grow
+up in a world without war ...{end}
+
+Yes, friend ...
+I swear I'll tell her.{end}
+
+I'm sorry to give
+you such a terrible task ...{end}
+
+General Leon ...{end}
+
+Laird, you will lead our
+troops to Castle Baldea!{06}{07}
+I must give Vargas's
+message to Eliza ...
+I will leave immediately.{end}
+
+Yes, understood!{end}
+
+{02}!{06}{07}
+I swear on the name of
+the Blue Dragon Knights,
+I will kill you!{06}{07}
+Remember this.
+Farewell, for now.{end}
+
+So this is the real
+face of war ...{end}
+
+It's so sad ...{end}
+
+I hate fighting.
+Why is it that everyone
+must kill?{06}{07}
+Why hasn't war disappeared?
+Aren't there more important
+things in our lives?{end}
+
+Let's go, {02}!
+To end such wars ...
+Once and for all.{end}
+
+Yes, ...
+we must put an
+end to all this ...{end}
+
+Let's go everyone,
+for the future of El Sallia.{end}
+
+Zorum ...!{06}{07}
+No matter how strong
+I am, it's obvious we're
+at a disadvantage.{06}{07}
+Knowing this, how could I
+leave you alone to fight
+as I retreat to safety?{06}{07}
+Do you really think
+I could do such a thing?{end}
+
+If that's true, ... then I'll
+fight beside my general
+to the bitter end!{end}
+
+Shit, how pathetic ...{06}{07}
+General Vargas, avenge me--!{end}
+
+Zorum!{end}
+
+You fool!
+You're not allowed
+to die on me!{end}
+
+Ahhh!
+If only I could have been
+a little more useful ...{end}
+
+G, General Vargas ...{end}
+
+R, regretfully ...{end}
+
+No matter how strong
+I am, it's obvious we're
+at a disadvantage.{06}{07}
+Knowing this, how could I
+leave you alone to fight
+as I retreat to safety?{06}{07}
+Do you really think
+I could do such a thing?{end}
+
+If that's true, ... then we'll
+fight beside our general
+to the bitter end!{end}
+
+Ugh ...
+So it has come to this ...{06}{07}
+With my last ounce of
+strength I shall ave ... nge ...{end}
+
+Right flank, attack!{end}
+
+Right flank, attack!{end}
+
+Right flank, attacking!{end}
+
+I, I can still ...
+fight ...{end}
+
+Attack!{end}
+
+Son of a bitch ...
+You kids won't be so
+lucky next time!{end}
+
+Left flank attack!{end}
+
+Left flank attack!{end}
+
+Let's go!
+Take them down!{end}
+
+L, long live the Empire!{end}
+
+Sh, shit!
+They're strong ...{end}
+
+They really did come!{06}{07}
+Listen up! We can't let
+them go any further!
+No matter what, we'll defend
+this fortress to the end!{end}
+
+Right now, General Vargas
+is with Lady Eliza!{06}{07}
+With our strength, we shall
+defeat the enemy.
+The songs of our victory will
+be a lullaby for his new baby!{end}
+
+General Vargas!
+Please leave this to us and
+return to Lady Eliza.{06}{07}
+Even if it costs us our lives,
+we won't let them pass!{end}
+
+We don't have anyone
+waiting for our return!{06}{07}
+But our General has
+an expecting wife
+waiting back home ...{end}
+
+General Vargas!
+Why are you here?
+Is Lady Eliza okay with this?{end}
+
+Argh!{end}
+
+Are you all right, Zorum?{end}
+
+Tell me, for this important
+battle, what would you do
+without my command?{end}
+
+But General Vargas ...{end}
+
+Silence!
+Now just think
+about winning!{end}
+
+You little runt!
+Look what you've
+done to my men!{end}
+
+Is everyone okay?{end}
+
+Tell me, what would
+you do without my
+command in this battle?{end}
+
+But General Vargas ...{end}
+
+But General Vargas ...{end}
+
+Thanks for the concern.
+For now, just concentrate
+on beating the enemy!{end}
+
+My father was a man
+who would abandon
+his comrades to run home.{06}{07}
+Can you call that pride?{06}{07}
+When someone leaves his men
+to die and saves himself?
+No, he was a complete coward.{06}{07}
+To think, when I was young, he
+looked down on me all the time.
+I won't have my child
+suffer such feelings ...{06}{07}
+A child shouldn't be
+ashamed of his father.{06}{07}
+No matter the odds,
+I'll fight without running.{06}{07}
+I want to be a brave man, ...
+a man worthy of praise ...
+That's all I've ever wanted.{end}
+
+I won't die!
+I'll win and return to
+my wife and child!{end}
+

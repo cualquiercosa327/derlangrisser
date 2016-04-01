@@ -1,0 +1,494 @@
+Work quickly!
+We will need this place as
+well-fortified as possible!{end}
+
+Our troops are
+making the preparations
+as you speak.{end}
+
+The Empire has Alhazard,
+{02} has Langrisser ...{06}{07}
+They won't lay around.
+They will crush us in one
+vulgar display of power.{06}{07}
+Really, is there
+any way to win against
+these odds?{end}
+
+Don't count us out just yet.
+We have a few
+ideas up our sleeves.{06}{07}
+But there is still
+plenty of work to do.{end}
+
+I do not imagine {02}
+can defeat the Empire
+very swiftly ...{06}{07}
+And even twice this time
+would not have been enough.{06}{07}
+However, if we work as
+one and cover our
+weaknesses, we will prevail.{end}
+
+Bernhardt and his
+lackeys were nothing.{06}{07}
+Taking down this
+little fort will scarcely
+require an effort.{end}
+
+What!?
+Th, they are already here!{06}{07}
+How could this happen?
+Did {02} defeat the
+Empire with a finger snap!?{end}
+
+Those are demons ...
+What in the world ...
+What is going on here ...?{end}
+
+This is the heart of the
+Descendants' operation.{06}{07}
+B{3a}ser said to put our
+grind into this battle.{end}
+
+Hah, leave it to me!{end}
+
+Don't go killing recklessly.
+I have additional orders.{06}{07}
+The maidens of light
+and darkness are needed
+to unseal Alhazard.{06}{07}
+I will take Liana alive.
+Remember that.{end}
+
+I heard from B{3a}ser
+you planned on
+kidnapping the girl.{06}{07}
+But how exactly are
+you going about it?{end}
+
+We will teleport her to
+Velzeria with this rod B{3a}ser
+has so generously provided.{06}{07}
+Until that happens,
+I will protect her from
+any interference.{06}{07}
+You can wipe out
+these cretins with your arms
+behind your back.{end}
+
+All right, everyone got that?
+Let us move out.{end}
+
+So it has finally begun ...{end}
+
+{02} ...{06}{07}
+First the Empire, now
+you have joined demons ...
+Your soul gets
+blacker each day.{end}
+
+{02}, your lineage
+means nothing. You are a
+deplorable excuse for a human.{end}
+
+Liana is getting away.{06}{07}
+Cut off her escape route.
+After her, quick!{end}
+
+Liana is getting away.{06}{07}
+We cannot let her escape!{end}
+
+That magician seems to
+realise our purpose here.{end}
+
+Everyone, protect
+the rear exit. It is the
+safest route for her.{end}
+
+Let's not get ahead
+of ourselves, {02}.{06}{07}
+To be victorious, we must
+first secure our
+position inside the castle.{end}
+
+Right. We should break
+off a squad to halt Liana and
+refocus our other efforts.{end}
+
+Damn it,
+they got away!{end}
+
+We cannot let them
+unseal Alhazard.{06}{07}
+Goodbye, everyone ...
+And, {02} ... I ...{end}
+
+I won't kill you,
+but you must come with us.{end}
+
+Aaahhh ...
+How could this happen ...?{end}
+
+For Alhazard's liberation,
+you must embrace your destiny.{end}
+
+Step aside, Cherie.{end}
+
+Never!
+I will never give in!{end}
+
+Uugghh ...{06}{07}
+In the end, we still
+couldn't break the
+seal on Alhazard ...{end}
+
+Sorry, I have failed ...{end}
+
+Well, Kalxath's troops have
+managed to scratch me.
+That is fairly impressive.{end}
+
+Damn ...
+If I retreat here ...{end}
+
+Don't worry.
+Our job here is simple, just
+kill everyone but Liana.{06}{07}
+Hmph!
+Hardly a challenge,
+if you ask me.{end}
+
+Yes, spare no
+one except for Liana!{end}
+
+I leave the rest to you ...{end}
+
+{font3}Uuggghhh ...
+That was no good ...{end}
+
+{font3}Ugh ...
+Damn humans ...!{end}
+
+Jessica is preparing
+for evacuation, too.{06}{07}
+If we lose her, all
+our efforts will have
+meant nothing.{06}{07}
+Everyone, make sure
+she leaves here in safety!{end}
+
+Thank you, Cherie ...{end}
+
+All right, Liana.
+There's not much time.
+Let's hurry.{end}
+
+Yes, Lady Jessica.{end}
+
+I can't move any more ...
+Liana, you go on ahead.{end}
+
+Aaahhh--!{end}
+
+Princess!{end}
+
+I am sorry, Keith ...{06}{07}
+We've lost this one.
+Let's retreat for now.{end}
+
+We must halt
+{02}'s advance!{end}
+
+Lady Jessica, I'm sorry.
+I won't be able to
+protect you any more.{end}
+
+At, at this rate ...{end}
+
+Princess, escape with
+Liana and Jessica!{end}
+
+Are you telling me
+to abandon my castle?{end}
+
+Are you telling me
+to abandon my castle?{end}
+
+It is just a castle!
+Everyone has
+already evacuated.{06}{07}
+Retreat for now and
+prepare a counterattack!{end}
+
+But Keith!{end}
+
+But Keith!{end}
+
+I will stop this
+invasion with my life!{end}
+
+Lord Lester!
+Please ..., please take
+care of the others.{end}
+
+Th, this is it ...{end}
+
+Princess ...
+Please leave here. Protect
+Lady Liana and Lady Jessica ...{end}
+
+Are you telling me
+to leave you behind and
+flee like a coward?{end}
+
+Are you telling me
+to leave you behind and
+flee like a coward?{end}
+
+I am ... done for.
+Please, save yourself and
+plan a ... counterattack.{end}
+
+But Keith!{end}
+
+But Keith!{end}
+
+As long as the Princess lives,
+I have no regrets ...{end}
+
+Lord Lester.
+Please ..., please look
+after the others...{end}
+
+For the honour of
+Kalxath, bring peace
+to this world!{end}
+
+Arrgh!
+N, not yet....{06}{07}
+We ... Kalxath ...
+Can't give in ...{end}
+
+K, Keith!{end}
+
+K, Keith!{end}
+
+...{06}{07}
+Farewell, ... my friend.{end}
+
+...{06}{07}
+Farewell, ... my friend.{end}
+
+I am so sorry, Keith ...
+I ...{06}{07}
+It's all my fault ...{end}
+
+You shall not pass!
+We are giving our
+lives to route you here!{end}
+
+Aaahh!{end}
+
+The girl has died?
+What the hell happened!?{end}
+
+No!
+Now that Liana has died ...,
+Alhazard's seal cannot ...!{end}
+
+Do not think you
+can just barge on in!{end}
+
+This is personal.
+I'll make anyone attacking this
+castle sorry they were born.{end}
+
+If you want to enter
+the castle, you will have
+to get through me!{end}
+
+I won't let this castle
+fall to the likes of you! Die!{end}
+
+My magic should
+have been unstoppable ...
+Ugghh!{end}
+
+You must think you are pretty
+great for coming this far.
+Too bad you won't go further!{end}
+
+I  ...
+I have not ...{end}
+
+I'm plummeting to my death ...!{end}
+
+If, if I only had
+a little more power ...{end}
+
+Now, Liana.
+There's nowhere to run.{06}{07}
+Be a good girl
+and come with me.{end}
+
+Why ...?
+{02}, why have you
+changed so much?{end}
+
+Liana ...{end}
+
+When we first met,
+you were so kind ...
+You hated war ...{end}
+
+None of that matters now.
+I won't give up my throne.{06}{07}
+After I am done,
+you will see what a destined
+ruler can do.{end}
+
+You have changed,
+after all ...{06}{07}
+The {02} I knew
+would not take power and
+become a tyrant ...{06}{07}
+He would have faith that
+everyone wants
+to live free of suffering!{end}
+
+Stop talking nonsense.
+You are coming with me.{end}
+
+What is that sound?{06}{07}
+Langrisser is ... humming ...?{end}
+
+What is happening?
+{02}?{end}
+
+What is going on?
+{02}?{end}
+
+What is this?
+{02}?{end}
+
+It is imperative that
+you take Liana with you.{end}
+
+Okay, everyone ...
+Move out at once!{end}
+
+...{06}{07}
+I understand ...{06}{07}
+Don't concern yourselves.
+Fight to your heart's content!{end}
+
+If I die,
+the castle ...{end}
+
+Here and no further.
+They must not seize
+the castle's interior ...{end}
+
+No, it's nothing.{end}
+
+Why would B{3a}ser's
+underlings be here ...?{06}{07}
+Perhaps, if they want ...
+Yes, that has to be it!{end}
+
+What is the matter?
+Jessica?{end}
+
+Liana, you must escape now.
+Run! Go quickly as you can!{end}
+
+Wh, what ...?{end}
+
+B{3a}ser may be scheming
+to exploit your ability in
+unsealing Alhazard.{06}{07}
+I will protect you
+until you reach the exit.
+Go immediately!{end}
+
+All right, Liana!
+Almost there!{end}
+
+Yes!{end}
+
+Leave the castle to us.
+You must escape too, Jessica!{end}
+
+...{06}{07}
+Yes, understood.{end}
+
+I am okay with leaving
+the front line, but
+not protecting Liana ...{end}
+
+Everyone is
+fighting for me ...{06}{07}
+I cannot let them down ...
+I won't be captured.{06}{07}
+I have to hurry!{end}
+
+You over there!
+Come with me.{end}
+
+No! Let go of me!{end}
+
+Stop it!{end}
+
+Liana, I am coming!
+Hold on!{end}
+
+Don't worry about escaping.
+It is already over.{06}{07}
+Watchers of time and space ...
+Honour your ancient pledge
+and send her to another land ...{end}
+
+Sh, she disappeared ...?
+Where could she have gone!?{end}
+
+Great.
+Mission accomplished!{end}
+
+Now the seal
+can be broken.{06}{07}
+To conduct the ceremony,
+we must head toward
+the Underground Shrine.{end}
+
+What is this sound?{06}{07}
+Langrisser is ... humming?{end}
+
+What is wrong?
+{02}?{end}
+
+...{06}{07}
+Nothing.
+It is nothing.{06}{07}
+Our objective here is complete.
+Everyone, prepare to depart.{end}
+
+All your traipsing
+around is driving me nuts!{06}{07}
+No one should ever,
+ever interrupt my nap!{06}{07}
+Hmm? What is it?
+Are you trying to tell me
+you want something?{end}
+
+You greedy fellows
+irritate me to no end!{end}
+
+Go ahead and take this.
+Humble people are
+very important, after all.{06}{07}
+Now, if you will excuse me,
+I am going back to sleep ...{end}
+
+Obtained Dragon Scale.{end}
+

@@ -1,0 +1,444 @@
+General Leon, the enemy
+executes a surprise attack!{end}
+
+Damn this ...
+We have no time for it.{end}
+
+You have chosen
+to spit on the Empire's
+generosity, {02}.{06}{07}
+For this, I have no
+quarrel with eliminating you.{end}
+
+Bold words.{06}{07}
+Leon, we just decimated
+two of the Empire's
+most elite divisions.{06}{07}
+I don't imagine a third
+will prove insurmountable.{end}
+
+As Knights, we
+understand our position
+quite well, {02}.{06}{07}
+Do not mistake
+duty for arrogance.{06}{07}
+If you leave here alive,
+Vargas and Imelda
+would go unavenged.{06}{07}
+As a Knight and commander,
+it is my chivalrous
+task to see you buried.{end}
+
+So then ...
+You do put your ideals
+before greater peace.{end}
+
+Correct.
+Nothing is more important
+than loyalty and honour--{06}{07}
+And by your own
+demonstration ... you,
+{02}, most certainly
+understand neither!{end}
+
+I'm not the Empire's
+pet, if that is
+what you are implying.{06}{07}
+A man shouldn't ask
+permission to preserve
+his interests.{end}
+
+Come at me, {02}.{06}{07}
+I'll teach you the virtues
+you can't possibly conceive of.{end}
+
+As expected, Leon.
+You overlook nothing ...{end}
+
+As expected of the
+Blue Dragon Knights.{06}{07}
+They truly account for
+every strategic consideration.{end}
+
+I see ...
+Persistence can do much ...{end}
+
+Ugghh ...
+What ability ...{end}
+
+Those like us, those
+with sufficient ability to lead,
+we have no need of Empires.{06}{07}
+Why are you still
+bothering with yours?{end}
+
+Do you think people can throw
+their lives away? That they
+can just do what they please?{06}{07}
+We were so close, {02}!
+So close to bringing peace to
+this shattered continent.{06}{07}
+But, your betrayal ...
+your vicious nature ...
+They polluted our dream.{06}{07}
+Your own greed shackles
+you more than any Empire.
+I will never join you.{end}
+
+I see.{end}
+
+The time for talking is passed.
+I'll take your sword
+as a present to His Majesty.{06}{07}
+Let us begin!{end}
+
+This will be the end.
+I, Laird, will have your head!
+En garde, {02}!{end}
+
+Hanging on the wall,
+there's a fancy red bottle.{06}{07}
+
+Will you drink from it?{end}
+
+AT raised by 1 point!{06}{07}
+
+You hear another bottle shatter.{end}
+
+Hanging on the wall,
+there's a fancy blue bottle.{06}{07}
+
+Will you drink from it?{end}
+
+MP raised by 2 points.{06}{07}
+
+You hear another bottle shatter.{end}
+
+Prepare yourself, Leon!{end}
+
+Do you think
+to defeat me?{end}
+
+You are in
+my way, move it!{end}
+
+Damn it ...
+I was careless in trying
+to defeat B{3a}ser ...{end}
+
+Take that!{end}
+
+Impossible ...
+How could
+they be so strong ...{end}
+
+So, would you
+care for another round?{end}
+
+All right.
+Let's go.{end}
+
+Hah hah hah!
+Come! You can be my
+partner in death!{end}
+
+Damn, they really
+are the strongest knights
+on the continent ...{end}
+
+I've waited a long time
+to see my brother.{06}{07}
+Don't think I'm some
+harmless child any more.{end}
+
+Do you think I won't win?
+A simple theory to test!{end}
+
+Run while you still can!{end}
+
+Aaaahhh--!
+N, not bad ...{end}
+
+{font3}Aaarrgghh ...{end}
+
+{font3}Such damage ...
+This body is dying.{end}
+
+{font3}Excellent!{end}
+
+{font3}Grrrr ...
+I must find a new body ...{end}
+
+We cannot
+be defeated here!{06}{07}
+Sorcerers, give
+them everything you have!{end}
+
+Yes, Sir.
+Leave it to me!{end}
+
+I'll show you
+our magical prowess!{end}
+
+Colonel Laird!{end}
+
+You shall not
+enter the castle!{end}
+
+G, General Leon ...
+I'm sorry ...{end}
+
+Sorry ... to lose my life ...
+in such a place ...{end}
+
+You've done well.
+Leon would certainly praise
+your final actions.{end}
+
+Now is your chance, Laird!
+Attack swiftly--strike
+at them like the four winds!{end}
+
+Yes Sir, General.{end}
+
+We are the Empire's last
+and greatest hope.{06}{07}
+We will ensure its survival!
+All troops, charge ahead!{end}
+
+I won't let you through!
+You are the bastard
+who betrayed General Leon!{end}
+
+You little shits ...
+This should take care of you!{end}
+
+Gaaaahhh!{end}
+
+Laird, hang in there!{end}
+
+General Leon, Sir ...
+It appears as though this
+is where I depart ...{end}
+
+Laird, stand up.
+We still have
+a battle to fight.{06}{07}
+Laird, come on.
+Take my ...{06}{07}
+Laird ...?{06}{07}
+Oh Laird!
+You won't die here, 
+I won't permit it ...!{06}{07}
+Laird, get up!{end}
+
+General, thank you ...
+for giving me
+something to fight for.{06}{07}
+Not everyone ...
+has such a privilege ...{end}
+
+Laird ... No!
+Laird, please get up!{06}{07}
+Open your eyes, Laird.
+Please, open your eyes!{end}
+
+I'm sorry, ...
+Please carry on ...
+the Empire ...{end}
+
+I'll hold back
+these filthy rebels!{end}
+
+Worthless fool!
+You won't soon forget the
+burns of our sorcery!{end}
+
+I ... I'm finished ...{end}
+
+Soldier, you are
+relieved from duty!{06}{07}
+Please take a rest.
+I will finish things here ...{end}
+
+I beg your pardon ... 
+Uugghh ...{end}
+
+Our Empire cannot be
+destroyed! It exists
+beyond those who serve it!{end}
+
+General Leon!{end}
+
+Let's go!{end}
+
+For the glory of
+the Rayguard Empire!{end}
+
+Their party is formidable.
+Everyone, remain focused.{06}{07}
+Indecision or haste
+will surely be fatal.{end}
+
+To think we shared
+the same ideals of peace ...{06}{07}
+Be it victory or defeat,
+let's go, {02}!{end}
+
+That is just
+what I wanted to hear!{end}
+
+Stay back!
+I can't simply turn aside!{end}
+
+Gaaahh ... Aaarrghh!{end}
+
+General Leon, please,
+you must hold out!
+No ... General Leon!{end}
+
+I'm so confused, Laird.
+Is this really ...
+my time to die ...{end}
+
+Someone, help now!
+Get our General inside!{end}
+
+Yes, Sir!{end}
+
+General Leon, be at ease.
+I'll trade my life for yours ...{end}
+
+Sorry, Laird ...
+Continue to fight ..., but
+don't do anything brash.{06}{07}
+The renewed Empire ...
+It will need its finest ...
+men to aid it ...{end}
+
+We are the Blue Dragon Knights!
+Have no regrets about giving
+your lives for General Leon!{end}
+
+Lives given willingly
+shall be taken in turn.{end}
+
+Aaarrggghh ...!{end}
+
+We are the only aerial units.
+There is no
+excuse for us to fail.{end}
+
+Shall we exchange blows?{end}
+
+Mobility alone ...
+isn't enough ...{end}
+
+I live by the sword
+and die by love! You losers
+don't know that strength.{end}
+
+My wife ... E, Elena ...
+I wanted to see you ...
+once ... more ...{end}
+
+How can this be ...?
+The Blue Dragon Knights
+reduced to one man ...{06}{07}
+This is too much to bear.
+But ... No, I will fight ...
+I will fight for tomorrow!{end}
+
+Come on, Leon.
+If you surrender quietly,
+I will spare your life.{end}
+
+{02} ...
+Go fuck yourself.{06}{07}
+Do you see anyone
+who died for me here?
+Maybe a few?{06}{07}
+With the Blue Dragon Knights
+ended ... I am left with no
+purpose, save for killing you.{end}
+
+What have you done!?
+I'm, I'm the only one left,
+the last Blue Dragon ...!{end}
+
+You are no longer
+a Blue Dragon, Leon.{06}{07}
+Look around you, Leon.
+Do you see an army? Do you see
+your fellow knights here to stand
+against us once more?{06}{07}
+Your army is done for, and the
+Empire is in its last hours.
+Now, you are just a lone man
+facing an important choice.{06}{07}
+If you choose to surrender,
+I promise I will spare your life.{end}
+
+If you choose to surrender,
+I promise I will spare your life.{end}
+
+I refuse.{06}{07}
+I shall enter death as a soldier
+and make my peace with Leon.{06}{07}
+This life ... until it ends,
+I will continue in my duties.{end}
+
+The Blue Dragon Knights ...
+Leon ... They
+were decent company.{end}
+
+Certainly. All that's left
+is the Kaiser and
+his rusty old throne.{06}{07}
+And after we have defeated him,
+the Descendants of Light ...{end}
+
+At last, the decisive battle.{end}
+
+At last, the final confrontation.{end}
+
+I see, Liana too ...{end}
+
+I see, Liana too ...{end}
+
+Now, the last battle with
+the Empire is just ahead.
+Let's go, everyone!{end}
+
+What do you think you're
+doing, waltzing into our castle?{06}{07}
+Come back here and fight me!{end}
+
+You bastard!
+Where do you think
+you are going?{06}{07}
+The only way you're getting
+further is through my death.{end}
+
+We're nowhere near defeat!
+Are you trying to make fools of
+the Blue Dragon Knights!?{end}
+
+It seems they have
+already closed the gates.{06}{07}
+We may have beaten
+the enemy, but we
+still need to break the gate.{end}
+
+What a noble spirit he has.
+They really go above
+and beyond simple enemies.{06}{07}
+Regardless, now it's
+time to enter the castle.{06}{07}
+And, well well,
+there goes the Empire.{end}
+
+We are the Empires finest
+tacticians. Don't
+think to outwit us, {02}.{end}
+

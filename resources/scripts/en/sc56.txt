@@ -1,0 +1,579 @@
+...{end}
+
+Princess, ...
+are you all right?{end}
+
+What? Oh, yes.{06}{07}
+I'm just concerned
+about Lester.
+He's not usually late.{end}
+
+Try to focus.
+The coming battle
+won't be easy ...{end}
+
+Yes, we have to face both
+the Empire and {02}.{end}
+
+No ...! Everyone!
+The Imperial Army is here!{end}
+
+Cherie, your purposeless
+struggle has gone long enough.
+Surrender now.{end}
+
+Where is Lester?
+What happened to him?{end}
+
+He fought bravely
+to his final moments.{end}
+
+Lord Lester ...{end}
+
+Now we definitely
+can't give up!{06}{07}
+Too many friends
+have given their lives ...
+We'll win this for them!{end}
+
+Hmph. Always remember,
+the choice was yours.{end}
+
+Who's there!?{end}
+
+Rethink your pride.{06}{07}
+Would sacrificing
+yourself make these
+friends happy?{end}
+
+Kaiser ... Bernhardt!?{end}
+
+I want peace to flourish,
+and, slowly, I've aimed for
+continental alliance.{06}{07}
+I've no thirst for power nor
+blood, my goal is not
+conquest for its own sake ...{06}{07}
+Why can't you understand?
+Only your pride
+stands against lasting peace.{end}
+
+You want us to shake
+hands and forget
+you killed our comrades?{06}{07}
+Kaiser, prepare yourself!{end}
+
+Gwah!{end}
+
+How useless ...{end}
+
+You should know well,
+we're the persistent type!{06}{07}
+I could never serve you!
+In fact, I'd rather die!{end}
+
+What a waste ...{end}
+
+Idiots! Even with our defeat,
+your peace would
+remain a foolish dream!{06}{07}
+Do you think people will
+hold hands and join in song?{06}{07}
+Without order,
+there will be war!{end}
+
+I'd rather avoid this,
+but we need to locate
+the shrine maidens.{end}
+
+I see. We must fight
+to complete our mission.{end}
+
+Hmmm ... must we
+continue to face these
+sorts of enemies ...?{end}
+
+{02}, I leave
+this to your command.{end}
+
+Yes, Your Majesty!{end}
+
+It's too narrow.
+I don't think we can continue.{end}
+
+Huh? What?{end}
+
+Shit!
+We're late!{end}
+
+Reinforcements?
+Wait, ... why are you here?{end}
+
+Princess, there's no
+need for questions.{06}{07}
+Please, let us assist you!{end}
+
+Though we're retired,
+we'll never abandon
+Kalxath or our Princess!{end}
+
+Thank you ...
+for your support, everyone.{end}
+
+Oh, this castle won't
+be easy to penetrate.{end}
+
+Indeed. This place ...{06}{07}
+This is where the century-old
+"War for the Holy Sword"
+transpired ... Twin Castle.{end}
+
+"War for the Holy Sword ...?"{06}{07}
+So my ancestor battled
+for Langrisser here ...{end}
+
+Correct. At that time ...{06}{07}
+A man of ambition desired
+Langrisser, and for it, he
+laid siege to Castle Baldea.{06}{07}
+Now, one hundred years later,
+Cherie chose this stronghold of
+the annihilated Dalshis Empire.{06}{07}
+I wonder why.{end}
+
+The Descendants of Light
+must be hiding inside ...!{end}
+
+To be honest, you resemble
+the Dalshis quite a bit.{06}{07}
+Empires are all the same ...
+They want Langrisser
+for their own selfish ends!{end}
+
+I heard about the war 
+from my mentor, Doren.{06}{07}
+The ancient Kaiser Digos
+spearheaded a campaign
+to conquer the continent.{06}{07}
+He lusted after Langrisser's
+power, but in the end, he
+only reawakened darkness.{06}{07}
+Because of that, monsters
+came into this world ...{end}
+
+That's too familiar.
+Could Rayguard Empire
+be repeating history?{end}
+
+It's different this time.
+We put an end to B{3a}ser,
+darkness's incarnation.{06}{07}
+With his demise,
+monsters can't cause
+us much trouble.{end}
+
+Too bad none of that matters.
+This castle will be your grave!{end}
+
+Oh, is the little girl
+threatening us?
+That's really cute!{end}
+
+Listen up, everyone.
+Save your strength!{06}{07}
+Allow them to enter the castle's
+narrow passages,
+and we'll attack from the air.{end}
+
+Excellent plan, Princess!{end}
+
+Okay everyone,
+do your best!{end}
+
+Looks like this is
+our chance.{06}{07}
+All units, counterattack!{end}
+
+Not bad, {02}.
+You're clever ...{06}{07}
+If they break through,
+Jessica and Liana
+will be in danger.{06}{07}
+We must stop them
+no matter what.{end}
+
+Princess, the enemies
+are closing rapidly.{end}
+
+Well done, {02}, ...
+but we'll do whatever
+it takes to repel you.{06}{07}
+Jessica's counting on us.{end}
+
+There is a notice scrawled
+behind the three boxes.{06}{07}
+
+"You've stumble on my hoard!
+Select a box for your reward."{06}{07}
+
+Which will you pick?{end}
+
+The right box{end}
+
+The middle box{end}
+
+The left box{end}
+
+Obtained Magic Mushroom.{06}{07}
+
+You feel no urge to stomp
+on turtles or crawl in pipes ...{06}{07}
+
+As you discard the fungus,
+the other two boxes vanish.{end}
+
+Obtained Pet Rock.{06}{07}
+
+Unfortunately, they have fallen
+out of fashion in El Sallia ...{06}{07}
+
+As you discard the rock,
+the other two boxes vanish.{end}
+
+As you raise the lid,
+the other two boxes vanish.{06}{07}
+
+Obtained Rune Stone.{end}
+
+Cherie, stop this.
+I don't want to kill you!{end}
+
+What the hell are
+you suggesting?
+That I just give up?{06}{07}
+Keith, Aaron, Kalxath's men ...
+You want me to spit
+on their deaths!? I won't!{06}{07}
+Only a selfish coward
+would think like you!{end}
+
+What the ...!?
+I'm here ... and now I'm dead?
+Just like that ...? {end}
+
+Death is inevitable
+on the battlefield ...{06}{07}
+If this was only about me,
+I'm glad to have
+died by your hands ...{06}{07}
+Goodbye,
+{02} ...{end}
+
+We'll show you
+our true power!{end}
+
+It's no good ...
+I need a little time to
+treat my wound.{end}
+
+So you found your sister, eh?
+Congratulations.{end}
+
+Thanks.{06}{07}
+Well, let's see what happens
+if we offer surrender.{end}
+
+That's entirely different!{end}
+
+Damn it! They're tougher
+than we thought!{end}
+
+Don't spare any rebels,
+not even the women!
+That's how we'll do this.{end}
+
+I thought so.{end}
+
+Tsk! Should we
+retreat for a while ...?{end}
+
+So you're that stupid?
+I bet {02}'s
+fallen in love too.{06}{07}
+It'd be nice if you'd
+have some common sense.{end}
+
+Q, quiet!{end}
+
+We're done for.
+I'm leaving you in charge.{end}
+
+I am General of the
+Blazing Dragon Army!
+I don't lose to amateurs.{end}
+
+Bastard, how dare you!{end}
+
+I won't die here.
+I will unite this continent and
+seal the Dark Blade!{end}
+
+I ... can't be helped.
+Let me rest for a while.{end}
+
+B, brother ...{end}
+
+Don't be rash.
+Withdraw, now!{end}
+
+Ugh ...{end}
+
+You're impressive
+as ever, {02} ...{06}{07}
+Even this castle's solid
+defence fell to you.{06}{07}
+But for Keith, Lester, Aaron,
+and everyone else ...
+we absolutely cannot give up!{06}{07}
+Now, charge!
+{02}, you're mine!{end}
+
+{02} ...
+Take my sword!{end}
+
+...{06}{07}
+{02} ...?
+Where's {02} ...?{end}
+
+I'm over here, Cherie ...{end}
+
+I, I didn't expect
+to beat you ...{06}{07}
+But I didn't give in ...
+At least I ... did that ...{end}
+
+Please don't ...!
+You've said enough, Cherie.{end}
+
+I've always wanted to fight
+beside you, {02} ...{06}{07}
+The life of a Princess
+wasn't for me ...{end}
+
+...{end}
+
+You should know,
+{02} ...{06}{07}
+All my life, people have
+thought of me as royalty.{06}{07}
+You were the first ...
+to treat me like a person.
+I ... respect you for that ...{06}{07}
+Sorry, ...
+I'm confusing, aren't I ...?{06}{07}
+But, ... I ...
+love ... you ...{end}
+
+Cherie, why ...?{end}
+
+How could she fight
+the man she loved?{06}{07}
+It doesn't make much sense.
+At least, not to me ...{06}{07}
+I suppose her
+divine duty was more
+important ...?{end}
+
+Just a little longer,
+and we'll stop this sadness.{06}{07}
+If Brother didn't
+take me in, I might have
+died like that ...{end}
+
+The Descendants of Light
+were forced into war
+because of their heritage.{06}{07}
+Just as the Princess had
+to fight because of hers ...{end}
+
+I remember ...{06}{07}
+Keith often said that
+Cherie would
+sneak from the castle.{end}
+
+Strange girl ...{end}
+
+Hmph ...!
+Stop being foolish.{06}{07}
+Cherie was our enemy.
+Always remember that.{06}{07}
+We should respect her
+determination, but her ideals
+were pure fantasy.{end}
+
+Jessica is on
+the top floor ...{end}
+
+I understand how you feel.
+How long can you
+keep this up, {02}?{06}{07}
+Let's escort the shrine
+maidens back. They are needed
+for Alhazard's resealing.{end}
+
+...{06}{07}
+I'm sorry you all
+had to witness this.{06}{07}
+I never knew about Cherie ...,
+but in war, I should
+be prepared for anything.{end}
+
+That's all well and good,
+but we can't stay here.{06}{07}
+If we don't bring back
+Liana and L{37}na, we can't
+reseal Alhazard.{end}
+
+Are we going ...
+to the final battle ...?{end}
+
+Let's go!
+To our final battle!{end}
+
+Please, cover me!{end}
+
+Yes, Sir!{end}
+
+We'll protect the Princess
+with our lives!{end}
+
+Princess ...
+I've failed you ...
+F, forgive me ...{end}
+
+No ...!
+Pull yourself together!{end}
+
+Gaahhh ...!
+With this ... 
+I will see my friends again ...{end}
+
+Hmmm, so {02}
+has broken through?
+Damn it ...{end}
+
+Princess, don't worry!
+We'll protect you to the end!{end}
+
+These worthless scoundrels
+will pay for raising a
+blade against the Princess!{end}
+
+Just a little more ...
+Only one more person ...,
+the enemy ...{end}
+
+That's enough.
+Don't be careless!{06}{07}
+You've fought hard enough.
+For now, please rest.{end}
+
+Princess ...,
+thank you.{06}{07}
+What kind words.
+A little ... rest ...{end}
+
+If everyone is dead,
+what am I fighting for ...?{end}
+
+To pass here, you'll
+have to get through me!{end}
+
+Hmph ...
+Very interesting, ...
+but let's move on.{end}
+
+Now is the time.
+Throw everything you
+have at them!{end}
+
+Good luck, and
+be careful!{end}
+
+Charge!{end}
+
+I should never
+have enlisted ...{end}
+
+Stop worrying
+about me!{end}
+
+B, bastard ...{end}
+
+Cherie, ...
+I'm sorry ...{end}
+
+Impressive, so you're the
+elite troops of the Empire!{end}
+
+Don't worry, we'll
+stop your advance.{end}
+
+Uugghh ...
+What ... pain ...{end}
+
+Now, air units!
+Take them
+from the side!{end}
+
+Understood!{end}
+
+Leave it to me!{end}
+
+I didn't think this ...
+would ... happen ...{end}
+
+You won't pass ...
+I ... won't let ... you ...{end}
+
+It's sickening to think
+that this {02} once
+fought beside our princess!{end}
+
+I'll make you taste
+the dust on my blade!{end}
+
+Princess, ...
+I failed you ... 
+Forgive ... me ...{end}
+
+Impudent whelps!{end}
+
+We'll stop you, Imperials!
+Men, take them from behind.{end}
+
+P, Princess ...{end}
+
+Impudent whelps!{end}
+
+We'll fire off whatever
+magic we have left!{end}
+
+I gladly give my life
+for the Princess.{06}{07}
+And anyway, there's
+no reason to flee
+from the likes of them!{end}
+
+Thank you, everyone,
+for assisting me
+in this cruel war ...{end}
+
+Escape already!
+{02} isn't an
+opponent you can defeat!{end}
+
+I wonder how many
+lives have been lost ...
+All because of this ...{end}
+

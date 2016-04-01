@@ -1,0 +1,548 @@
+Your Majesty!{end}
+
+The Blue Dragon Knights
+have been wiped out ... {06}{07}
+We tried to hold our enemy
+at the castle wall, but the
+Imperial Army succumbed.
+The gate has fallen ...{end}
+
+Really ...
+How troublesome.{end}
+
+Yes ...
+Ughhh!{end}
+
+I can't believe
+Leon failed ...{06}{07}
+Quickly, prepare
+the ambush!{06}{07}
+This is as far as
+the enemy gets!{end}
+
+You've come quite
+a way, my friends.{06}{07}
+Such is the power
+of Langrisser.{end}
+
+You're mistaken!{end}
+
+You're mistaken! {end}
+
+It was our belief in
+ourselves that brought
+us this far!{06}{07}
+Langrisser's power is
+drawn from our faith ... {06}{07}
+With that, we shall
+defeat you and turn back
+the tide of darkness!{end}
+
+That's right!
+That's the true power
+of Langrisser!{end}
+
+A tyrant like you
+wouldn't know the real
+strength of Langrisser!{end}
+
+I've heard enough!{06}{07}
+I have crushed every
+obstacle in my path,
+and you are no different.{06}{07}
+In the face of power,
+people are merely
+tools for my bidding.
+Power brings wealth.{06}{07}
+With force, one can
+accomplish anything. Yes, ...
+even rule the world!{06}{07}
+The mighty Alhazard bestows
+upon me the means to conquer,
+and I intend to follow through!{end}
+
+How foolish ...
+You're wrong, Bernhardt!{end}
+
+Gwa ha ha ha ...
+I won't give in to
+your babble! {06}{07}
+If I take Langrisser
+from you runts,
+there won't be a soul
+left to oppose me. {06}{07}
+Come forth, my
+minions of the night!{end}
+
+By the virtue of Light's Blade
+and the burning blood of
+the Descendants in my veins ...{06}{07}
+I shall emerge victorious!{end}
+
+The only stable peace
+will be through the
+unification of this continent.{06}{07}
+And if our new nation
+were lax and impotent,
+no man would follow it.{06}{07}
+An iron-fisted ruler to 
+govern over all, that's the
+only solution for this world!{end}
+
+Hold it right there!{06}{07}
+You won't lay a finger
+on His Majesty!{end}
+
+Leon!?{end}
+
+Don't push yourself, Leon.{06}{07}
+Don't waste your life ...{end}
+
+No!
+I am the Commander of
+the Blue Dragon Knights!{06}{07}
+Allow me to fulfil my duty!{end}
+
+What devotion ...{06}{07}
+You have my thanks.{end}
+
+Thank you,
+Your Majesty!{06}{07}
+You won't regret this.{end}
+
+Bernhardt!{06}{07}
+It's over!
+Your evil ambitions
+are finished!{end}
+
+Funny little man ...{06}{07}
+Do what you will!
+I'm eager to see
+what you can do.{end}
+
+I made it here
+just to die ...{end}
+
+Damn ...{end}
+
+Leon!
+Why do you
+continue to fight?{06}{07}
+For us to fight
+each other is
+such a waste!{end}
+
+I will not explain
+myself again ...{06}{07}
+As a Knight, I will
+battle to my death.{end}
+
+En garde!{end}
+
+I'm sorry everyone.{06}{07}
+I'm done for ...{end}
+
+Prepare yourself, Bernhardt!{06}{07}
+There will be no sunrise
+for you this morning!{end}
+
+This is outrageous!
+How could I lose here ...
+of all the places!?{end}
+
+This is it!
+The Empire's history
+ends here.{end}
+
+I don't think so.{06}{07}
+You think you
+can beat me ...
+How foolish.{end}
+
+Arghh ...
+I screwed up ...{end}
+
+I have no quarrel with you,
+but you're still gonna die!{end}
+
+Sorry!
+I blundered ...{end}
+
+Alhazard was never meant
+to be reawakened ... {06}{07}
+We must seal its
+power for good!{end}
+
+In that case, you
+must defeat me!{end}
+
+Sorry.
+I'll have to retreat ...{end}
+
+Leon ...{06}{07}
+If you must fight,
+then I will be the one
+to put you to rest ...{end}
+
+Misery is a law of 
+the battlefield.{06}{07}
+There are times
+when even brothers must
+cross swords ...{end}
+
+Give us Alhazard!{end}
+
+Hmph!
+What power has a
+lone woman?{end}
+
+Arrggh!
+I can't die here ...{end}
+
+Let us put an end
+to this battle between
+light and dark ...{end}
+
+Ah, ...
+the sky is so blue ...{end}
+
+Let's go!
+Let's finish this war!{end}
+
+Uggh!
+I'm done for ...{end}
+
+Let's go, {02}!{end}
+
+Leon, stop it!
+Serving your fallen
+Empire is meaningless!{end}
+
+My word is my life
+and my bond.
+I will not turn from it!{06}{07}
+I persist not for
+our Empire alone.{06}{07}
+I act in accord with
+my oath to His Majesty!{end}
+
+Leon, please stop!
+Your wounds ...{06}{07}
+You'll die if you 
+keep fighting!{end}
+
+Nothing happens
+but for will alone.{06}{07}
+My will is strong.{06}{07}
+I shall fight ...
+until my hands can no
+longer grasp this blade.{06}{07}
+Until this body can
+move no longer ... {06}{07}
+Until the very end ...{06}{07}
+For I vowed to fight
+in His Majesty's name,
+and I keep my oath!{end}
+
+Gahh--!{end}
+
+Leon!
+Any more fighting is
+meaningless!{end}
+
+Are you trying to
+offer me mercy?{06}{07}
+I can fight still!{end}
+
+Stop it.
+You've no strength
+left to fight.{end}
+
+Well done, Leon.
+Thank you for showing me
+such devotion.{06}{07}
+You've done enough.
+I permit you to fall back.{end}
+
+Yes, Sir!{end}
+
+Don't get cocky
+about Leon's defeat.{06}{07}
+As long as I am alive, you
+cannot destroy this Empire,
+nor will you take Alhazard ... {06}{07}
+If you wish to slay me,
+then give it all your might.{06}{07}
+But be warned,
+the final victory
+shall be ours ...{end}
+
+No ...
+We will win this battle!
+We must win this battle!{end}
+
+Egbert,
+you're mistaken!{end}
+
+There exists but one truth. {06}{07}
+However, there are
+an infinite number of
+roads to reach it ... {06}{07}
+Wouldn't you agree?{end}
+
+Ha ha ha ...{06}{07}
+Reckless fools ...{end}
+
+This is quite unfortunate,
+Lady Jessica. {06}{07}
+How terrible for
+you to come here and ...{06}{07}
+Well, I suppose there's
+no alternative.
+Prepare yourself!{end}
+
+Jessica ...{06}{07}
+Your Descendants of Light
+whom you love so
+dearly are quite capable.{06}{07}
+Through people like them,
+the world might ... 
+The world might be able
+to change for the better.{06}{07}
+If I could live again,
+I would have joined with
+you, my Lady Jessica.{end}
+
+Egbert!{end}
+
+Egbert ...
+Why couldn't you
+have waited?{end}
+
+Egbert knew of B{3a}ser's
+imminent return.{06}{07}
+The finding of a power to
+rival Chaos must have weighed
+heavily on his mind ...{06}{07}
+For that reason, he dabbled
+in the forbidden arts.
+He wanted to seek out ancient
+and powerful magic.{06}{07}
+He lost his soul ...
+His flesh became
+warped and decayed.{06}{07}
+But, he accepted those
+costs ... All for the sake of
+helping Bernhardt.{end}
+
+I see.
+Such a rash act ...{06}{07}
+Such a fool ...!{end}
+
+He was my
+servant to the end.{end}
+
+{font3}I still ...{06}{07}
+{font3}I still don't believe
+our immortal king will ...
+perish. Gaaahh--!{end}
+
+Im, impossible ...{end}
+
+Aaargghh!{end}
+
+Gahh--!{end}
+
+Your Majesty!{end}
+
+I have no ... excuse ...{end}
+
+{font3}Gaahhhhh!{end}
+
+Your Majesty!{end}
+
+Hah hah hah.
+Outstanding!{06}{07}
+As I expected, the divine
+power of Langrisser is
+no match for Alhazard
+in the proper hands.{end}
+
+That's wrong!
+What defeated you was the
+power of cooperation!{end}
+
+Thus is the message
+of Langrisser ...{06}{07}
+People's hearts are weak.
+They're filled with 
+jealousy, distrust, 
+resentment and betrayal ... {06}{07}
+These fickle emotions,
+they are the source
+of all petty conflicts.{06}{07}
+How can people live
+in harmony when they can't
+control themselves?{06}{07}
+It won't happen.
+Citizens will never take
+responsibility. They will
+never stop killing.{06}{07}
+From the time I was
+just a young soldier,
+I've thought it disgusting.{06}{07}
+And I thought, ...
+Somebody, if somebody could
+only take control ... {06}{07}
+If there was an absolute
+ruler, only then could wars
+be a fading memory.{06}{07}
+Therefore power,
+the power to rule all,
+has been my sole desire.{end}
+
+...{end}
+
+But the way I forced
+my reign on others
+was no better.{06}{07}
+Hah ...{06}{07}
+In the end, I was just
+another weak man who had
+no faith in humanity.{end}
+
+Kaiser Bernhardt ... {06}{07}
+The war is over.
+Give yourself up, for the
+good of the people ...{end}
+
+Not a chance!
+Though I admit defeat, I am
+the proud Kaiser of Rayguard!{06}{07}
+I won't die by
+your sword!{06}{07}
+I'd rather leave this
+world than submit to you!{06}{07}
+Alhazard,
+grant me the strength
+of the gods!{end}
+
+Ahhhh!
+Alhazard's power is
+going wild!{end}
+
+The sword's magic
+is going crazy!{end}
+
+Your Majesty,
+I will join you!{end}
+
+Leon ...,
+now isn't the time
+for you to die.{06}{07}
+You must live to
+witness the end
+of the Empire!{end}
+
+A world without
+His Majesty ...
+has no meaning to me.{06}{07}
+I've taken His Majesty's
+ideals as my own and I've done
+much to defend them ... {06}{07}
+I embrace our vision,
+and I will see it through.{06}{07}
+Your Majesty,
+even if it leads
+to my death ...
+{06}{07}
+Please allow me to
+fight by your side until you
+draw breath no longer!{end}
+
+Your words ...
+Do as you wish.{end}
+
+Leon--{end}
+
+{02}...
+I leave this
+continent to you.{06}{07}
+At the least, 
+with El Sallia in your care,
+I can rest easy.{end}
+
+Leon!{end}
+
+I'm sorry, L{37}na ...{06}{07}
+Until my death,
+I want to remain true
+to what I've believed in.{end}
+
+Leon--
+I'll go, too!
+I want to be with you!{end}
+
+L{37}na, no!
+You mustn't
+take your own life!{end}
+
+I'm sorry ...
+I can't let you do that,
+my Dark Princess.{06}{07}
+Thank you and ...
+Goodbye L{37}na,
+my sweet love ...{end}
+
+No ...
+No! Leon!{06}{07}
+Nooooo!{end}
+
+Obtained Alhazard.{end}
+
+Leon ...{end}
+
+After this long fight,
+all that remains
+is this--Alhazard.{06}{07}
+What a tragic war
+this has been ...{end}
+
+Hmmm, does a 
+competent ruler
+require strength ...?{end}
+
+So, does a capable
+ruler need power?{end}
+
+That's why you
+mustn't use the 
+power of darkness.{06}{07}
+From the beginning, 
+darkness has been 
+the enemy of humanity.{end}
+
+Alhazard was forged from
+people's lust for power.{end}
+
+Alhazard focuses its
+wielder's darkest instincts.{end}
+
+But now, the battle is over.{end}
+
+At last, ...
+It's finally over.{end}
+
+Yeah, that's right.{end}
+
+So, this age of
+war has finally
+come to an end.{end}
+
+Everyone!
+This war-shattered
+age is finished!{end}
+
+This age of war
+is at its end!{end}
+

@@ -1,0 +1,812 @@
+Both the Dark Rod and the
+sealing maidens are here.{06}{07}
+The preparations
+are complete ... {06}{07}
+Now let's commence with
+Alhazard's revival!{end}
+
+Hmmm, you certainly
+haven't changed.{06}{07}
+Just as focused
+as ever, even after the
+Kaiser's death ...{06}{07}
+You really were using
+him, weren't you?{end}
+
+I would have used
+anyone with great power.
+Nothing more, nothing less.{end}
+
+Hah, ...
+what a callous
+man you are.{06}{07}
+Well, no more delays.
+I shall begin the incantation.{06}{07}
+{font4}I, Alhazard ...
+I, Alhazard!{end}
+
+Hold it right there!
+You won't say
+another verse!{end}
+
+Heh heh. {06}{07}
+I would expect
+nothing less from
+my wonderful teacher. {06}{07}
+We were well hidden,
+but even here,
+you found us out.{end}
+
+You of all people should
+know the  danger
+of using that sword!{06}{07}
+Why are you
+aiding the forces
+of darkness!?{end}
+
+My motives are
+rather mysterious,
+aren't they?{06}{07}
+In this world, there
+are those with power
+and those without.{06}{07}
+I want power.
+That is all.{end}
+
+This temple ...
+What an eerie
+place it is. {end}
+
+Look!
+Up on the altar!{end}
+
+What ...!?{end}
+
+Liana and ...
+the Dark Princess, L{37}na!?{end}
+
+It seems they're
+the Maidens of Light
+and Darkness ...{end}
+
+The Maiden of Light
+sealed away
+the Dark Blade ...{06}{07}
+So, logically, she'll
+be needed to
+unseal it as well.{06}{07}
+Hmph, a good
+enough reason to
+have her around.{end}
+
+Both of them are
+needed for the 
+revival ceremony ... {06}{07}
+The Maiden of Light's
+purpose I understand,
+but what about the
+Maiden of Darkness?{end}
+
+She'll probably be
+the conduit for darkness
+to enter this world.{end}
+
+Oh no ...!
+If we don't hurry, they'll
+finish the ritual!{end}
+
+Yeah, you're right.{06}{07}
+Before Alhazard
+is revived, we must
+defeat B{3a}ser.{06}{07}
+Fight on, everyone!{end}
+
+Well, well ... {06}{07}
+It's those meddlesome
+children who think
+themselves an army.{06}{07}
+Sorry, I can't allow
+you to interfere.{06}{07}
+Until the rites
+have finished,
+keep them at bay!{end}
+
+My Dark Dragon Sorcerers
+will make short work
+of these meddlesome curs.{06}{07}
+Concentrate on 
+completing the ceremony.{end}
+
+Heh, if you insist. {end}
+
+Oh, my Alhazard!
+Finally you've awoken,
+flesh of my flesh!{end}
+
+Heh heh ...
+Looks like we're all
+done, hmmm ...?{end}
+
+Even ...{06}{07}
+Even working together,
+can we really
+defeat Bernhardt?{end}
+
+Everyone!
+I'm locking away
+Bernhardt forever!{06}{07}
+I need to be close ...
+Cover me
+while I move in!{end}
+
+Lady Jessica, that sounds
+like an attempt at suicide.{end}
+
+We have no
+other choice.{06}{07}
+We cannot defeat
+Bernhardt while
+he wields Alhazard.{end}
+
+Lady Jessica ...{end}
+
+Please, cover me!{end}
+
+She's right.{06}{07}
+Our options
+are limited here.{end}
+
+Very well.
+All right, let's do it!{end}
+
+Just a bit longer,
+and Alhazard
+will be reborn. {06}{07}
+Watch carefully,
+Lady Jessica.{06}{07}
+This will be
+quite a sight.{end}
+
+I'm sure you're aware
+of how foolish it
+is to revive Alhazard. {06}{07}
+You're playing into
+the hands of darkness!{end}
+
+My concerns are nothing
+in relation to such
+monumental power ... {06}{07}
+In order to complete
+my objective,
+no action is too much.{end}
+
+Heh heh heh ...
+With this, my objective
+will be complete.{end}
+
+But ... Why, why
+are you doing this!? {06}{07}
+B{3a}ser's death
+makes no difference!
+You will merely take his
+place like that last man ...{06}{07}
+Don't you see?
+He was once just
+as you are ...{end}
+
+Enough of your babble.{06}{07}
+I will resurrect Alhazard,
+and I will have the
+strength to wield it.{06}{07}
+It will yield to me!{end}
+
+N, no!{end}
+
+B{3a}ser!
+There's nowhere left
+for you to run!{06}{07}
+Hell has a special
+place for you!{end}
+
+Hmph, no,
+I'm afraid not.{06}{07}
+It seems
+you're too late.
+How pitiful.{end}
+
+Light's ward of slumber,
+who now binds this weapon,
+I implore thee ... {06}{07}
+Dissolve thy binding,
+and unshackle the
+hatred of this blade ...{06}{07}
+{font4}Fram Se
+Dimm Ealdor ...
+Sin Geweald Swithlic ...{06}{07}
+{font4}Frymthe of Yfel ...
+Herian Alhazard!{end}
+
+Oh, no!
+The seal!{end}
+
+Cough ... wheeze ...
+My sword ...
+Alhazard ... is mine--!{end}
+
+No! The sword's
+been taken! {end}
+
+Hmmm ...
+Yes, it appears
+you are quite weary.{06}{07}
+This has all gone
+according to my design ...{end}
+
+What do you
+mean by that, Egbert?{end}
+
+Yes, what indeed ...{end}
+
+Above the magical
+device hangs a cracked bell.{06}{07}
+
+Will you ring it?{end}
+
+Obtained Gleipnir.{06}{07}
+
+Something above another
+magical device disappears.{end}
+
+Above the magical device
+hangs a rust-coated plate.{06}{07}
+
+Will you take it?{end}
+
+The rust falls away to
+reveal a finely-crafted shield.{end}
+
+Obtained Odin's Buckler.{06}{07}
+
+Something above another
+magical device disappears.{end}
+
+If you value your life,
+give up the sword.{end}
+
+It seems as
+if I'm done for.{06}{07}
+But you're a fool
+if you think defeating
+me ... means you can
+wield this sword.{end}
+
+It's really a
+shame, isn't it?{06}{07}
+His Majesty has broken
+his contract with the
+ruling god of darkness.{06}{07}
+But in doing so, 
+he has proved he is
+worthy of Alhazard.{end}
+
+I won't lose!
+I will never lose to
+you filthy humans!{end}
+
+Ugh ... 
+I guess ...
+this is it ...{end}
+
+Aargghh--!{end}
+
+Ow--!{end}
+
+Crap!{end}
+
+Ugh--!
+How careless
+I was.{end}
+
+Curses, 
+I have failed ...{end}
+
+Aah, ... what 
+a sky ... So blue ...{end}
+
+No--!
+I, I'm dyi--{end}
+
+I'm so sorry.
+I can't stand ... not being
+able to fight ...{end}
+
+Ooh ...{end}
+
+Soon ...
+Soon Alhazard's
+power will return!{end}
+
+Yes, ... I suppose
+I am fairly exhausted ...{06}{07}
+Cough ... Fine, ...
+I'll lend you the
+sword for now. {06}{07}
+Do with it whatever
+you please ...
+Hah hah hah ...{end}
+
+Prince B{3a}ser!
+U, ugh--!{end}
+
+Hmph ... 
+So this is Alhazard ...
+Finally in my grasp!{end}
+
+What's going on?
+The enemy is fighting
+against ... itself?{end}
+
+Why would they
+just start battling
+one another?{end}
+
+Egbert's been
+planning this for a
+while, it seems.{06}{07}
+He's always used B{3a}ser,
+but now he's
+betrayed him outright.{06}{07}
+With Alhazard's revival,
+Egbert was able to
+summon the Kaiser ...{06}{07}
+And with B{3a}ser weak
+from the ceremony,
+Bernhardt was able
+to overpower him.{06}{07}
+Now, Bernhardt controls
+the unsealed Alhazard.
+Truly ... an astonishingly
+well-executed operation.{end}
+
+Egbert's been planning
+this for a while, it seems.{06}{07}
+He's always used B{3a}ser,
+but now he's
+betrayed him outright.{06}{07}
+With Alhazard's revival,
+Egbert was able to
+summon the Kaiser ...{06}{07}
+And with B{3a}ser weak
+from the ceremony,
+they thought they
+could overpower him.{06}{07}
+A well-thought plan,
+if I do say so myself. {end}
+
+Egbert's been planning
+this for a while, it seems.{06}{07}
+He's always used B{3a}ser,
+but now he's
+betrayed him outright.{06}{07}
+With Alhazard's revival,
+Egbert was able to
+summon the Kaiser ...{06}{07}
+And with B{3a}ser weak
+from the ceremony,
+they thought they
+could overpower him.{06}{07}
+A well-thought plan,
+if I do say so myself. {end}
+
+Heh ... {06}{07}
+However, it seems
+we're not yet finished.
+For you see,
+you're still alive ...{end}
+
+Bernhardt. you say ...?
+Alhazard alone is fearsome,
+but in his hands, doubly so.{06}{07}
+However, we shall not lose!
+If things keep going
+as they are, then darkness
+will rule this world.{end}
+
+You want to
+fight me?{06}{07}
+Hah hah ...
+You people certainly have
+one-track minds.{06}{07}
+Everyone,
+arm yourselves!{end}
+
+No, I couldn't ...
+have lost--{end}
+
+Aaah! 
+For Imperial victory,
+now and forever!{end}
+
+It looks like this ...
+is the end for me ...{end}
+
+E, enough ...{end}
+
+Cherish your
+last moments!{end}
+
+Pretty good ...
+However, you can't hope
+to kill me at this rate.{end}
+
+We'll meet again,
+ladies and gentlemen
+of the Light.{end}
+
+Now, B{3a}ser--
+hand over Alhazard!{end}
+
+Nonsense!
+To relinquish it to
+a mere child ...{end}
+
+Huff ...
+They weren't kidding about
+how strong you are ...{end}
+
+It's over for
+you, B{3a}ser!{end}
+
+Fools ...
+You have no respect for
+the value of life!{end}
+
+Ugh, impossible--!
+Was I that careless ...?{06}{07}
+These shallow wounds ...
+won't do me in ...!{end}
+
+Send Bernhardt to
+the other world, now!{end}
+
+{font3}Ooohhh ...{end}
+
+{font3}Oohhh--{end}
+
+Time and space, be one!{06}{07}
+Weavers of reality ...
+since time immemorial,
+I call upon thee!{06}{07}
+Align thy gates
+and rend them open!{06}{07}
+{font4}Alfael Lea
+Kaiser Ri Eglon!{end}
+
+Well done, Egbert.{end}
+
+Yes, my liege!{end}
+
+What!?
+It's ... Bernhardt!{end}
+
+Hah ...
+You, you're still alive?{end}
+
+Heh heh heh ...
+It seems you've met
+my doppelg{38}nger.{06}{07}
+Quite a spell.{end}
+
+B{3a}ser ...{06}{07}
+You were trying to use me,
+but I'm afraid the tables
+have been turned all along.{end}
+
+Hah ... hah hah!{06}{07}
+I wondered why you
+Imperial scum buckets were
+so eager to join me.{06}{07}
+What amusing fools ...
+to have planned a trespass
+from the very start ...{06}{07}
+But, in the end, your
+ploy was quite moronic.{06}{07}
+Do you see this sword
+in my hand? I'm about to rend
+you a new asshole with it!{end}
+
+Impudent fiend.{06}{07}
+It's quite obvious
+the ceremony has
+taxed you considerably.{06}{07}
+I suspect you're
+weak as a kitten
+for the moment.{end}
+
+Men of the Empire, as of now,
+you will no longer pay heed
+to these drooling monsters.{06}{07}
+Kill B{3a}ser, and
+kill all he commands ...{end}
+
+His Majesty has returned!{06}{07}
+We don't need to
+take orders from these
+animals any more.{06}{07}
+Hell, there's no need
+for them to even live!
+Butcher them all!{end}
+
+Men, I've been restored
+to complete health.{06}{07}
+As of now, you shall
+turn a deaf ear to these
+worthless monsters.{06}{07}
+Massacre them all--
+and don't spare
+the red-haired brat!{end}
+
+Yes, my liege!{end}
+
+Yes, Sir!{end}
+
+You rotten
+son of a ...!{06}{07}
+You humans will
+end as piles of
+meat and pulp!{end}
+
+You rotten
+son of a ...!{06}{07}
+My minions,
+teach them the meaning
+of proper worship!{end}
+
+Time and space, be one!{06}{07}
+Weavers of reality ...
+since time immemorial,
+I call upon thee!{06}{07}
+Align thy gates and
+rend them open!{06}{07}
+{font4}Irud Lea
+Keser La Dore!{end}
+
+So ... this is
+the sort of thing
+Alhazard can do ...{06}{07}
+It seems as though
+Lady Jessica's magic
+didn't work properly ...{06}{07}
+They appear to have
+materialised at
+Castle Velzeria.{end}
+
+What ...?
+What in the world
+is going on?{end}
+
+What's happening?{end}
+
+Lady Jessica's magic
+has sealed Bernhardt
+in another world.{end}
+
+Jessica has sealed
+Bernhardt in another
+world, it seems ...{end}
+
+She used her own body as
+a means to channel a large
+amount of magical energy.{end}
+
+Was that so ...?
+Did it work?
+Has he been defeated?{end}
+
+No, it doesn't
+look that way. {06}{07}
+The Alhazard shone
+forth a light, and
+both disappeared.{end}
+
+Egbert said
+Castle Velzeria,
+did he not ...?{end}
+
+If Bernhardt's there,
+then there's a good
+chance Jessica's with him.{end}
+
+According to what Egbert
+said, the two
+are in Castle Velzeria.{end}
+
+Liana has been saved!{end}
+
+Ugghh ...{end}
+
+Huh? Liana!{end}
+
+Aah, ... {02}!{end}
+
+I'm so glad
+you're safe ...!{end}
+
+Liana joins the entourage!{end}
+
+L{37}na also
+seems all right.{end}
+
+I, I ...{end}
+
+It looks like
+B{3a}ser's power
+is no more.{end}
+
+Sister! L{37}na!{end}
+
+Liana?
+Is it really
+you, Liana?{end}
+
+L{37}na, I thought I would
+never get to see you ...{end}
+
+I didn't know
+Liana had a twin.{end}
+
+By the way,
+what am I
+doing here?{end}
+
+You were being
+controlled by B{3a}ser.{end}
+
+By ... B{3a}ser ...?{06}{07}
+That's right, 
+when I was but a child,
+B{3a}ser abducted me and
+would have taken Liana.{06}{07}
+Gasp ... Alhazard!{end}
+
+Bernhardt has it now. {06}{07}
+But we have no
+idea where he is.{end}
+
+That is not a problem.
+I can sense
+Alhazard's aura.{06}{07}
+And using that as
+a reference, I shall quickly
+find his location.{end}
+
+...{end}
+
+It ... seems 
+as if Bernhardt is in
+Castle Velzeria.{06}{07}
+I can feel a strong,
+dark presence there ...{end}
+
+That makes sense.{06}{07}
+I've heard that in
+Castle Velzeria's foundation
+sleeps the God of Chaos.{06}{07}
+There's no question
+that Alhazard has
+been brought there.{end}
+
+Let's hurry to Velzeria!{end}
+
+Bernhardt has been
+taken to Velzeria.
+Let's hurry and follow them!{end}
+
+Not yet.  Before we do that,
+we need to remove the
+seal placed on Langrisser.{06}{07}
+The only thing that can defeat
+the Glory of Darkness,
+Alhazard, is the Sword of Light.{06}{07}
+Langrisser's true power
+is still sleeping. We've yet
+to see what it can really do.{end}
+
+What?
+You mean it can be even
+more powerful than it is?{end}
+
+Amazing ...{end}
+
+To awaken the sword,
+we must retrieve the Holy Rod
+that lies in Elrad.{end}
+
+Please, let me help you.{end}
+
+While I've been under B{3a}ser's
+control, many innocent people
+have been wounded and killed.{06}{07}
+By fighting by your side ...
+Maybe I can make amends
+for some small part of that ...{end}
+
+Master {02},
+I've grown weary of the fight.{06}{07}
+If you wish to take
+L{37}na with you,
+I'll entrust my share to her
+and rest for a time.{end}
+
+Would you like
+L{37}na to join the entourage?{end}
+
+You're welcome
+to join us!{06}{07}
+No one will look down on you
+for what happened while
+you were under B{3a}ser's control.{06}{07}
+Let's go together!{end}
+
+There's no need to worry.
+The blame lies with B{3a}ser. {06}{07}
+L{37}na, fight with us!{end}
+
+Everyone,
+thank you very much. {end}
+
+L{37}na joins the entourage!{end}
+
+All right, first we have
+to get the Holy Rod. {06}{07}
+Once we have it,
+let's hurry and save Jessica!{end}
+
+Very well.
+Then I will do my best.{end}
+
+If there's anything with
+which you wish me to help you,
+call upon me any time. {06}{07}
+I'll be praying for
+everyone's safety.{end}
+
+All right, first we have
+to get the Holy Rod. {06}{07}
+Once we have it,
+let's hurry and save Jessica!{end}
+
+Oh, the pain ...{06}{07}
+I've grown too old to fight.
+I'll leave my duties
+to this young one, L{37}na.{end}
+
+Yes.{end}
+
+Everything you've
+done up until now has
+not been your fault. {06}{07}
+Never forget, you
+were being
+manipulated by B{3a}ser. {06}{07}
+Now, the real question
+is your future plan.
+If it is okay, I suggest
+you go with these fellows.{06}{07}
+When I leave,
+they're going to need
+all the help they can get.{end}
+
+Aaron, also well spoken.{end}
+
+Yes!
+I shall make up for
+his absence.{end}
+
+L{37}na joins the entourage!{end}
+
+All right, first we have
+to get the Holy Rod. {06}{07}
+Once we have it,
+let's hurry and save Jessica!{end}
+

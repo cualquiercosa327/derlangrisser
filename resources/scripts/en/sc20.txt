@@ -1,0 +1,483 @@
+Your Majesty,
+I must inform you of our
+situation at the front!{end}
+
+What ...{end}
+
+Your Majesty ...?
+Did we not hold back the
+enemy long enough?{end}
+
+Don't concern our Kaiser
+with such petty matters.{06}{07}
+I will hear your report ...{end}
+
+Yes, Sir!
+I'm sorry!{06}{07}
+I have a report from
+General Leon ...
+He has let the enemy intrude.{end}
+
+Really ...
+In that case, we will ambush
+them on their way in.{06}{07}
+No matter what, we will
+ensure His Majesty's safety.{end}
+
+Yes, Sir!{end}
+
+You are ...
+You're Bernhardt!{end}
+
+Indeed ...,
+I am the Kaiser of the
+Rayguard Empire, Bernhardt.{06}{07}
+I must thank you for
+being such excellent couriers
+of my sword, Langrisser.{end}
+
+He seems awfully
+complacent for a man
+cornered by his enemy ...{end}
+
+Why should I be concerned?
+We will have the last laugh!{end}
+
+Bernhardt!
+We won't allow the revival
+of Alhazard!{06}{07}
+We will stop you here!{end}
+
+Oh, will you, boy?{end}
+
+We're on the verge of
+being able to toast to
+a lasting peace!{06}{07}
+Everyone, fight with
+all your heart!{end}
+
+Sorry for being late ...{06}{07}
+It took a good deal
+of sorcery to wear down
+that garrison ...{end}
+
+Impossible, you are ...!?{end}
+
+{font3}Heh heh heh ...
+{font0}Meddling sorceresses
+should learn to stay dead ...{06}{07}
+That's the problem with killing
+worms--you cut them down,
+but both halves keep wiggling.{06}{07}
+But since you used the
+Rebirth spell, I shouldn't
+underestimate your skill, ...
+{font3}Jessica!{end}
+
+B{3a}ser ...,
+Prince of Darkness ...
+When were you revived?{end}
+
+You know him?
+He is the man who aided
+me in obtaining Alhazard.{end}
+
+Now it's all clear to me.
+Only an absolute fool ... 
+would cooperate with demons!{06}{07}
+This is all B{3a}ser's scheme.
+He's using you!{end}
+
+Once again, I have
+been resurrected!{06}{07}
+And with the waking of
+Chaos's Glory, darkness shall
+once again rule this world!{end}
+
+That won't happen!
+We won't let Alhazard
+be revived!{end}
+
+Ah, the redheaded nuisance ...
+Thanks to my men's reports,
+I know all about you.{06}{07}
+However, your ragtag
+"army" will find reaching my
+throne most impossible.{06}{07}
+In time, you shall realise that
+raising a sword against me
+was truly reckless.{end}
+
+Oh, really?
+We will win this fight.
+Wait and see!{end}
+
+Hmmm ...
+A humorous fellow ...{06}{07}
+So be it, young warrior.
+Show me what power you
+think gives you the right to
+make El Sallia yours!{end}
+
+Bernhardt!
+You've already lost.
+Give up while you still can!{end}
+
+Pathetic!{06}{07}
+The Rayguard Kaiser
+will never give up,
+much less surrender!{end}
+
+Fellow Blue Dragon Knights,
+follow me to glory!
+Avenge General Leon!{end}
+
+Prepare yourself,
+Descendants of Trash!{end}
+
+On a pedestal
+rests a blue potion.{06}{07}
+
+Will you drink it?{end}
+
+Magic Defence raised!{end}
+
+On a pedestal
+rests a red potion.{06}{07}
+
+Will you drink it?{end}
+
+Movement raised!{end}
+
+Your schemes are over!{end}
+
+That wasn't how I planned ...
+Please, finish off
+the Empire for me ...{end}
+
+All the way to this day ...
+Only to die ...?{end}
+
+Sorry ...
+I can move no longer ...{end}
+
+Argh!
+Lost ... before the Empire ...
+How worthless ...{end}
+
+I won't keel over
+in a place like this!{06}{07}
+Me heart's set on resting
+in a saltier grave!{06}{07}
+I think I'll be retreating
+for now ...{end}
+
+My old bones can't
+keep this up ...{06}{07}
+This battle's too important
+for me to just step out, ...
+but it can't be helped ...{end}
+
+My training is a long way
+from being sufficient ...{end}
+
+Goddess Lushiris!{end}
+
+Kaiser Bernhardt,
+that man, B{3a}ser, is the
+Prince of Darkness.{06}{07}
+He gives away power
+only to manipulate you.{06}{07}
+The strength you've
+acquired isn't from
+Alhazard alone!{06}{07}
+You're channelling the
+energy of Chaos.
+It will consume you and
+destroy this world!{end}
+
+So what if I choose to wield
+the power of darkness?
+As Kaiser, it's my prerogative.{06}{07}
+Langrisser is no different.
+Power is power--
+its source matters little.{end}
+
+Alhazard drives those who
+wield it to madness!{end}
+
+Such ignorance!{06}{07}
+What is a sword but steel?
+It is the fire of its wielder's
+heart that forges its use.{06}{07}
+Alhazard shall bow to me ...
+As will this continent of
+fools and fools' kingdoms!{end}
+
+In that case, Kaiser,
+we must dethrone you.{end}
+
+You managed to get here.
+I commend you for that.{06}{07}
+But, you will soon witness
+the difference between a
+Kaiser and a few brash weeds!{end}
+
+Damn, you're better
+than I thought.{06}{07}
+But don't think it's over!
+Gwah hah hah!{end}
+
+As I would expect from the
+Descendants of Light!
+But this time I was unprepared.{06}{07}
+Next time will be
+quite different.
+Farewell, fools!{end}
+
+It is the will of
+His Majesty.{end}
+
+Wait! Egbert!{end}
+
+Ha ha ha!{end}
+
+Egbert ...
+You said you hated the
+forces of evil.{06}{07}
+Why have you ...{end}
+
+Strange ...
+Where could Alhazard be?{end}
+
+It appears your reign is
+at its end, Bernhardt ...{end}
+
+B{3a}ser, a man of
+your power is intimidated
+by the Descendants of Light?{06}{07}
+How ridiculous ...
+You said they would
+be easily dealt with.{end}
+
+My dear Kaiser ...
+Who said anything
+about those worms?{end}
+
+That's a waste.
+I won't lose to them.{end}
+
+Think you can beat me!?
+The Descendants of Light ...
+How pathetic!{end}
+
+Again ...
+Again I've yielded to the
+Descendants of Light.{06}{07}
+Arrgghh!{end}
+
+Bernhardt!
+You're next!{end}
+
+Hah ...
+This sounds like fun.{end}
+
+What!?{06}{07}
+{02}, that Bernhardt
+is an illusion. The real
+Kaiser isn't even here!{end}
+
+What!
+You mean that man is,
+just an illusion spell?{end}
+
+What does it mean?{end}
+
+That's an illusion spell!{end}
+
+Heh heh heh ...
+Just as I expected, Jessica.{06}{07}
+Right about now, His Highness
+is preparing Alhazard's
+glorious revival ceremony.{06}{07}
+Thanks to you, we've had
+all the time we could want.{06}{07}
+Really, you have
+His Majesty's regards.{end}
+
+Egbert! Wait!{end}
+
+Heh heh heh ...
+As I would expect.{end}
+
+That voice is Egbert's!{end}
+
+Right about now, His Highness
+is preparing Alhazard's
+glorious revival ceremony.{06}{07}
+Thanks to you, we've had
+all the time we could want.{06}{07}
+Really, you have
+His Majesty's regards.{end}
+
+It seems Egbert's
+magic is responsible.{end}
+
+Where is Bernhardt!?{end}
+
+I wonder where the
+Kaiser could be ...{end}
+
+Bernhardt, ...
+Where are you?{end}
+
+Not bad ...,
+not bad at all ...{06}{07}
+But, I won't die
+quite so effortlessly.{end}
+
+Egbert ...!{06}{07}
+That's enough, stand back!
+Next time, leave it to me.{end}
+
+I'm sorry, Your Highness.{end}
+
+Aahhhh!{end}
+
+As expected ...
+But with your meagre ability,
+you won't defeat His Highness.{end}
+
+This can't be right ...{end}
+
+I, I've lost?{end}
+
+Why, why can't I win ...{end}
+
+Protect his Majesty!{end}
+
+Yeah!{end}
+
+P, painful ...
+I can't breathe ...{end}
+
+I won't die yet.
+I won't die ... not yet ...{end}
+
+Aaahh ...
+Bernhardt, Your Majesty!{end}
+
+From the opposite pedestal
+comes an ear-shattering sound.{end}
+
+Perhaps ...
+He may have gone to
+the cursed land ...{end}
+
+Chaos's Glory,
+Alhazard ...{06}{07}
+It sleeps in Velzeria's
+darkness until the
+Keeper of Alhazard awakes.
+B{3a}ser ...{end}
+
+By now, we're too late.
+The prophecy is everything
+but reality now.{end}
+
+Velzeria ...
+The forbidden land?{end}
+
+We mustn't allow
+Alhazard's revival!{06}{07}
+The War of Elthlead
+cannot ... the continent
+cannot bear it again.{end}
+
+The War of Elthlead?{end}
+
+During my natural life,
+before I returned with
+the spell of Rebirth ...{06}{07}
+There was a time when,
+through the power of Alhazard,
+evil laid flame to this world.{06}{07}
+The Dark Blade's power was
+fierce, and it forced us into
+a terrible, tragic war.{06}{07}
+Our good king of that time,
+Sieghart, took his own life,
+binding his essence within
+a weapon to rival Chaos.{06}{07}
+That sword became known
+as Langrisser,
+the Might of Elthlead. {06}{07}
+We received Langrisser's
+power and successfully
+sealed Alhazard, ... but
+many lives were sacrificed.{06}{07}
+We must never allow that
+disaster to repeat itself.{end}
+
+What I will tell you
+is also written in the
+ancient scrolls.{06}{07}
+"When the Dark One drew upon
+Alhazard's unbridled power ...,
+the sun was swallowed and
+the stars vanished ..."{06}{07}
+"The dead rose from the
+cracked earth, and all life
+was engulfed in a
+world of darkness."{06}{07}
+This, this really happened ...{end}
+
+I cannot believe Alhazard
+is capable of so much ...{end}
+
+{02}, you must stop
+Alhazard's awakening!{06}{07}
+I will go ahead to
+search out Alhazard's
+revival ceremony.{06}{07}
+The rest of you, please
+depart for Velzeria.{end}
+
+All right ...{end}
+
+Velzeria lies across the sea.{06}{07}
+A port city lies just
+down the road.
+We can find a boat there.{end}
+
+There's a short cut to
+Velzeria by sea.
+Let's hurry and find a boat!{end}
+
+I'll be one step ahead.
+Let's all head to Velzeria.{end}
+
+Lester, show us the way to
+Velzeria, please.{end}
+
+Liana ...{end}
+
+You don't have to say
+anything, I understand ...
+I promised, didn't I ...{end}
+
+I'll wait for everyone
+to come back in one piece ...{end}
+
+Liana, I'll go with
+you to Kalxath.{end}
+
+Thanks, Hein, but I'm okay.
+I can go by myself.{end}
+
+Well then, let's depart!
+Liana, be careful.{end}
+
+May Lushiris's light
+guide us all ...{end}
+

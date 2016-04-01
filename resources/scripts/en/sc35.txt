@@ -1,0 +1,388 @@
+I beg of you,
+please don't do this!{06}{07}
+We rely on our 
+boats for fish to eat!
+You are condemning our
+village to starve!{end}
+
+Since you won't
+shut your mouth,
+I'll shut it for you.{06}{07}
+Listen, all of you!
+Anyone who does not
+cooperate will end
+up like this man!{end}
+
+No-- Gahh--!{end}
+
+How horrible ...{end}
+
+Hmph, that will teach you
+to respect your Empire!{06}{07}
+Men, burn everything
+to the ground!
+Our enemies won't
+take these ships.{end}
+
+Yes, General!{end}
+
+I'm leaving the
+rest of this to you.{06}{07}
+I'm not wasting any
+more time here.{end}
+
+Don't worry about a
+thing, Lady Imelda. Your
+orders are absolute!{end}
+
+Ready, men?
+Get the kindling, prepare
+some oil and torches!{06}{07}
+We'll have us a little
+barbecue tonight, hmm?
+And don't forget to pay special
+attention to those ships!{end}
+
+Hmmm, looks like
+this village is next.{end}
+
+Such a beautiful woman ...!
+How may we help you?{end}
+
+Silence!{06}{07}
+The Water Dragon Navy
+will be taking control
+of this village's shipyard,
+including all vessels.{end}
+
+What? Why!?
+What did we ever do ...?{06}{07}
+Besides, the men are
+still out fishing.
+We have no ships now!{end}
+
+Hmmm ...
+a favourable circumstance ...{06}{07}
+We will retain you until
+the boats are secured.
+Tell your men that your
+lives depend on it.{end}
+
+O, oh my ...{end}
+
+Noisy wenches ...!{06}{07}
+The enemy must
+be prevented from
+boarding any ship!{end}
+
+{02}!{06}{07}
+What is Imelda
+doing to the villagers!?{end}
+
+Imelda, we're not
+going to allow this!{end}
+
+Tsk, you boys again!
+You certainly
+catch up fast ...{06}{07}
+But you won't
+get your hands on
+a single vessel.{end}
+
+Kill the women like
+cows to the slaughter!{06}{07}
+Maybe that will
+convince those
+fishermen to offer
+us their boats.{06}{07}
+We can't let them
+fall into enemy hands!{end}
+
+Hee hee.
+That sounds fun.{06}{07}
+I would love to chop
+up some little girls.{end}
+
+What on earth!?
+We have to stop this!{06}{07}
+They're going to
+murder them all!{end}
+
+These crass fools ...
+Begin the counterattack!{end}
+
+I can't lose
+to fools like you!{end}
+
+Why are you against us?
+Surely you're not acting
+in B{3a}ser's interest!?{end}
+
+Obviously, bowing down
+to the Demon Tribe is
+quite unbecoming of me.{06}{07}
+However, I was told
+to serve Lord B{3a}ser should
+His Majesty perish.{06}{07}
+The Kaiser's last request ...{end}
+
+What foolishness!{06}{07}
+You mean you're consorting
+with demons for the
+sake of a dead man's wish?{end}
+
+I will not
+discuss this further.{06}{07}
+Watch closely.
+You're about to lose.{end}
+
+{02}!
+We can't waste time!{06}{07}
+Innocent lives
+are at stake!
+If we don't act soon ...{end}
+
+I know!{06}{07}
+Rush in and strike
+with all your strength!{06}{07}
+Their force is
+large, so we'll have
+to scatter them.{end}
+
+Releasing the anchor
+caused a chain to drop.{06}{07}
+
+Will you pick it up?{end}
+
+A voice resonates
+from the chain ...{06}{07}
+
+"You ... human,
+I shall lend you my strength."{06}{07}
+
+"I have awaited your arrival
+for thousands of years ..."{end}
+
+Obtained Gleipnir.{end}
+
+Ugh!
+Is this the end ...?{end}
+
+Argh!
+It looks like this
+is it for me--{end}
+
+Heh heh ...
+Wow ...
+I've been killed.{end}
+
+Damn ...!
+What have I
+been doing--?{end}
+
+Damn it!
+We couldn't do it!{end}
+
+Have I come
+of age already ...{end}
+
+Gaahh--!
+All my training was
+still not enough!{end}
+
+Aahhh--!
+Someone, help me!{end}
+
+Escape to the north!
+We'll take care
+of the Imperial Army.{end}
+
+P, please!{end}
+
+Aahhh--!{end}
+
+Ahh--!{end}
+
+Nooo!
+S, stop it!{end}
+
+M, Mummy ...{end}
+
+What are you doing?
+Are you crazy!?
+Someone, help me!{end}
+
+Ahhh ...
+Is something
+bothering you ...?{end}
+
+I haven't been
+at peace since losing
+His Majesty.{06}{07}
+But I am an
+Imperial General and
+I will crush you!{end}
+
+Be glad.
+Not everyone gets to
+die by my hand.{end}
+
+Fucker!
+How dare you
+oppose me!{end}
+
+Gaaahhh--!{06}{07}
+I wanted to die somewhere ...
+that matched my beauty ...
+Not in this worthless village.{end}
+
+Retreat!{end}
+
+Retreat!{end}
+
+Is it over yet ...?{end}
+
+Thank you.
+They ...
+They nearly killed me.{end}
+
+To show our gratitude, we'd
+like you to have our
+village heirloom, this crown.{end}
+
+Obtained Crown.{end}
+
+Thanks!
+I'll treasure it.{end}
+
+You probably
+need to use the
+ships too, right?{06}{07}
+It's not much, but
+we'll lend them to you.
+Make good use of them.{end}
+
+Imelda's troops ...
+are committing atrocities ...{end}
+
+Hurry, {02}!
+To Velzeria!{end}
+
+You probably
+need to use the
+ships too, right?{06}{07}
+It's not much, but
+we'll lend them to you.
+Make good use of them.{end}
+
+Thank you.{06}{07}
+All right,
+hurry up, everyone!{06}{07}
+The Empire won't act
+unopposed any more.
+It's got us to deal with.{end}
+
+Don't ambush the villagers!
+We need to disrupt
+our pursuers first!{end}
+
+Hee hee hee.
+Leave it to me!{end}
+
+Long live
+the Empire!{end}
+
+Lady Imelda!{end}
+
+Heh heh heh.
+I'll slaughter anyone who
+can't run fast enough!{end}
+
+Hee hee hee!
+I seem to have a few
+cuts and bruises ...{end}
+
+I, I didn't
+expect this to ...{end}
+
+Die, die, die!
+Uha hah hah!{end}
+
+Gaahhh!{end}
+
+General ...
+I'm ... finished ...{end}
+
+Arrgghh!
+Why ... why--?{end}
+
+Ughh ... gahh--!{end}
+
+H, how
+foolish of me ...{end}
+
+Don't give up!
+Now is the
+time to counterattack!{end}
+
+Lady Imelda,
+m, my apolog--{end}
+
+Damn it!
+It's too late!{end}
+
+Hah hah hah!{06}{07}
+You won't have access
+to the boats any more.{06}{07}
+Your hope dies here!
+Your feet are worthless,
+you'll never make it in time!{06}{07}
+Hah hah hah!{end}
+
+Bernhardt is
+already dead!{06}{07}
+There's no point
+in fighting!{end}
+
+Haven't I told you?{06}{07}
+Alhazard's revival
+was His Majesty's
+last request!{end}
+
+What?
+Why would the Kaiser
+want Alhazard unsealed?{end}
+
+D, don't ask me that ...{end}
+
+The outcome has
+been decided!
+This war has no purpose!{end}
+
+Hah.
+You really don't
+understand, do you?{06}{07}
+Our Empire is one
+of conviction. Its followers
+will always gratefully
+offer their lives.{06}{07}
+And I won't shame
+it, myself, or my men
+by giving in to some
+redheaded upstart!{end}
+
+Fuck!
+Have they already
+caught up!?{end}
+
+Thank you.{06}{07}
+Y, you saved my life.
+Please, use my boat.{06}{07}
+It's not much, but I
+will also pray to the Goddess
+for your safe journey.{end}
+
+This is terrible!
+Let's help the
+villagers at once!{end}
+

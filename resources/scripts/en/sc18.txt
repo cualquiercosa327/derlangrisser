@@ -1,0 +1,633 @@
+No matter what, I must tell her.
+I promised Vargas ...{end}
+
+I don't feel good about this ...{end}
+
+I am Leon, General of the
+Blue Dragon Knights.{06}{07}
+Please take me to
+see Miss Eliza.{end}
+
+Right away, your Lordship.{end}
+
+Lady Eliza.
+Lord Leon has arrived.{end}
+
+Oh ...?
+Leon you say?
+Please, show him in.{end}
+
+Please enter.{end}
+
+What a lovely little girl!{06}{07}
+She resembles you so much!
+I'm sure she'll grow up to be
+a beautiful young woman.{end}
+
+Oh my, Leon ...
+You're just saying that.{end}
+
+I wouldn't presume.{end}
+
+I was angry with him ...{06}{07}
+He ... Vargas wanted a son.
+He said he would teach him
+to be a great soldier.{end}
+
+Vargas would say
+something like that ...{end}
+
+How can I tell her ...?{end}
+
+Leon, is something the matter?{end}
+
+Leon ...
+You're hiding something.{06}{07}
+...!
+Vargas! Has something
+happened to my husband!?{06}{07}
+I know something is wrong!
+I've seen that look in
+your eye before--you know
+I'm a soldier's wife.{end}
+
+General Vargas ...
+fell in battle today.{end}
+
+Lady Eliza--!{end}
+
+I'm okay ... I'm okay ...
+My ... Vargas ... oh!{06}{07}
+I've been prepared
+for a day like this ...
+How ... how were his
+last moments spent?{end}
+
+Your husband died
+most honourably.{06}{07}
+He fought valiantly to
+the end for our nation and
+for his daughter's future.{06}{07}
+Vargas met his end
+as a perfect soldier ...{end}
+
+Is that so ...{end}
+
+I need some time alone ...
+Please leave me
+be for a little while.{06}{07}
+Just a little while ...{end}
+
+I'm sorry.{end}
+
+Oh, ... Vargas ...!
+Sob sob ...{end}
+
+I think this is it ... These
+are the ruins of Castle Baldea.
+What the ...!?{end}
+
+Magnificent!
+That must be Langrisser!{end}
+
+Colonel Laird!
+The enemy is on our flank.{end}
+
+Damn it!
+We need more time!{06}{07}
+Until General Leon
+returns, don't let them
+get near Langrisser!{end}
+
+Yes, Sir!{end}
+
+The Imperial Army!?
+Have they beaten us to it?{end}
+
+Hmmm, ...
+I don't think so.{06}{07}
+It appears the Imperial Army
+hasn't taken Langrisser yet ...{end}
+
+Okay then.
+Let's take it before they do!{end}
+
+But, those who aren't
+Descendants of Light can't
+wield Langrisser, right?{end}
+
+Well, that's what the
+ancient texts suggest.{end}
+
+So that leaves Liana,
+Cherie, and {02}.{06}{07}
+Lady Jessica is a
+Descendant of Light too,
+but she isn't here.{end}
+
+Really ...
+Anyway, hurry.{06}{07}
+Let's get to Langrisser
+before the Empire does!{end}
+
+Water battalion, cut off
+the enemy before they
+enter the ruins!{end}
+
+Yes, Sir!{end}
+
+Flying battalion, aim for
+their front lines and take
+out their cavalry!{end}
+
+Leave it to me!{end}
+
+Ballista, target their
+rear forces and lay
+waste to their archers!{06}{07}
+I will personally ensure
+the General has a clear
+path to retrieve the sword.{06}{07}
+They are strong, so
+don't screw this up!{end}
+
+Yes, Colonel!{end}
+
+Is it true that only
+General Leon will be able
+to claim Langrisser?{end}
+
+Yes ...
+The legends say only a
+Descendant of Light can.{06}{07}
+Anyway, until Leon
+arrives, don't let the enemy
+near the Holy Blade!{end}
+
+Yes!{end}
+
+But ...
+when will Leon come?
+We can't spare much time.{end}
+
+Leon went to
+notify Lady Eliza of
+General Vargas's death.{06}{07}
+Explaining such a thing
+is a delicate matter,
+especially since his wife
+has just given birth.{06}{07}
+Finding the right words
+to say will be difficult.{end}
+
+Is that so ...{end}
+
+Anyway, he'll be here soon.
+So until then,
+everyone do your best!{end}
+
+Yes, Sir!{end}
+
+General Leon!{end}
+
+Sorry I'm late.{06}{07}
+I was playing with Vargas's
+child when I told her what
+happened to her husband ...{end}
+
+Really ...{06}{07}
+Lady Eliza's hospitality
+towards the Generals is famous
+even among the troops.{06}{07}
+That must have
+been heartbreaking ...
+However, we're finally on the
+verge of achieving our goal.{end}
+
+Wars aren't fought
+by the unmourned ...{06}{07}
+Because of this, fighting always
+brings sadness and pain, even
+to the blameless ...{06}{07}
+With Langrisser, we'll finally
+unify the continent and
+establish a world of peace.{end}
+
+We must take Langrisser.
+Everyone, cover me!{end}
+
+I'm sorry for being late.
+It looks like no one has
+taken Langrisser yet.{end}
+
+Jessica!
+How are the alliance forces?{end}
+
+They are finally
+cooperating, but they took
+longer than I expected ...{end}
+
+We'll talk about this later.
+For now, worry
+about Langrisser.{end}
+
+We'll talk about this later.
+For now, worry
+about Langrisser.{end}
+
+So this is Langrisser ...
+Why does it feel so familiar?{end}
+
+So this is Langrisser.
+It looks kind of ordinary ...
+Is it really so powerful?{06}{07}
+What!?
+I can't pull it out.{end}
+
+Well, we've taken Langrisser.
+What's next?{end}
+
+Langrisser ...,
+the time to awaken has
+come once again.{end}
+
+I'm finally here ...
+What? How strange, ...
+I can't seem to remove it.{end}
+
+So this is the
+Legendary Sword ...{06}{07}
+What? Why can't I pull it out!?{end}
+
+The Legendary Sword is mine!{06}{07}
+Damn ...!?
+Son of a bitch, it's stuck!
+What the hell?{end}
+
+That's ... Langrisser.
+The Might of Elthlead ...{end}
+
+So this is Langrisser.{end}
+
+So this is Langrisser.
+Damn, I can't pull it out!{end}
+
+The mission has failed ...
+Any more fighting is pointless.
+Everyone, retreat!{end}
+
+Wait, Leon!{end}
+
+Farewell!{end}
+
+Damn it, it's over.{end}
+
+This is bad!
+If we don't do something,
+they will beat us to the sword!{end}
+
+Don't get in my way!
+Langrisser is mine!{end}
+
+Charge!{end}
+
+Well then, I'll just have
+to try and stop you!{end}
+
+A plank floats in the waves.
+On it lies a beautiful flower.{06}{07}
+
+What will you do?{end}
+
+Leave it alone{end}
+
+Take the flower{end}
+
+Break the plank{end}
+
+The plank and flower
+sink into the moat.{end}
+
+In the blink of an eye,
+the flower withers ...{end}
+
+Inside the flower,
+a flower sprite appears.{06}{07}
+
+The flower sprite beams a smile
+and disappears into the flower.{end}
+
+AT raised by 3 points!{end}
+
+Damn ...
+As long as they have
+Langrisser, it's over.{end}
+
+Ouch!
+I can't fight like this ...{end}
+
+Argh--!
+I have to retreat.{end}
+
+I can't fight.
+Sorry, {02} ...{end}
+
+It's useless, I'm sorry ...{end}
+
+Son of a bitch!
+What the hell happened!{end}
+
+Have you no respect
+for the elderly!?{end}
+
+Aah ...
+I can't fight any more.{end}
+
+Langrisser!
+Please heed my call!{end}
+
+Impossible!?
+How is Leon able to
+unsheathe Langrisser?{06}{07}
+I looks like we have
+a Descendant of Light
+among our ranks!{end}
+
+I don't understand, either.
+Egbert once told me
+I was a Descendant of Light.{06}{07}
+If that sorceress over
+there saw my weapon,
+she might have known
+this too ...{end}
+
+That blade ...!?{06}{07}
+That sword you carry looks
+like the one Dieh{38}rte
+used while fighting the demons
+hundreds of years ago!{end}
+
+Hmmm ...
+How did Egbert
+know about this.{end}
+
+And if my memory
+is not mistaken ...{06}{07}
+The sword you carry was
+used by the King of Elthlead,
+Sieghart's half-brother,
+in ancient times.{end}
+
+Then that means Leon is
+a Descendant of Light and
+can take Langrisser?{end}
+
+That's quite incredible.
+First, I'll defeat you, and
+then I'll take Langrisser!{end}
+
+Egbert once said that I
+was a Descendant of Light.{06}{07}
+Until now I believed
+it was just a fairy tale ...
+But if Alhazard and Langrisser
+really exist, how can I doubt?{end}
+
+Really ...
+Then we can't let the
+Empire take Langrisser!{end}
+
+I will say the same
+thing about you.{06}{07}
+Our Empire needs
+the Holy Blade.
+We will not fail.{end}
+
+Anyway, whoever isn't
+moving, get over here!{06}{07}
+We can't let them
+get Langrisser!{end}
+
+Impossible!
+If I'm gone, ... then take
+the sword to his majesty.{end}
+
+General Leon!
+Please retreat. This way!{end}
+
+Thank you, Laird ...{end}
+
+We are coming to destroy you.
+Think you can handle it!?{end}
+
+Laird!
+Wipe out the enemy.{end}
+
+Leave it to me!{end}
+
+Damn, not bad ...{end}
+
+Laird!
+Retreat and regroup!{end}
+
+I'm sorry, General Leon ...{end}
+
+Why me ...{end}
+
+This is it ...
+The final scene ...
+The last act ...{06}{07}
+It looks like I'm dead ...
+Gahh--!{end}
+
+Looks like this is
+going to be my last spell ...
+Ahhh--!{end}
+
+Forgive me, ... General Leon.{end}
+
+This can't be ...{end}
+
+Damn you fiends!
+Of all the places ...{end}
+
+Must ... get the sword ...
+for his Majesty--!{end}
+
+We're at a disadvantage
+in Laird's absence.{06}{07}
+But now the real battle begins!
+You won't get your
+hands on Langrisser!{end}
+
+Same to you.
+You don't really think
+you'll win, do you!?{end}
+
+General Leon, the
+Blue Dragon Knights share
+your hopes for the Empire.{end}
+
+Only the Descendants of
+Light can use Langrisser.{06}{07}
+Besides myself, there's Cherie,
+Liana, and {02}.{end}
+
+I've heard that only
+the Descendants of Light
+can use Langrisser.{06}{07}
+I think that's what the ancient
+texts said, so that leaves
+{02}, Cherie and I.{end}
+
+I heard that no one except the
+Descendants of Light can
+unsheathe the Legendary Sword.{06}{07}
+Of those present, there's just
+me, Cherie and Liana.{end}
+
+No way, it's too dangerous!
+Besides, you promised.
+We're in this together.{06}{07}
+To Rayguard's capital!
+We'll take Bernhardt's Palace!{end}
+
+I'm sorry ...
+for being so selfish ...{end}
+
+I'll lead a diversionary platoon
+against Rayguard to draw them.{06}{07}
+No matter what, Alhazard
+cannot be allowed to revive.
+Now, on to Castle Rayguard!{end}
+
+Damn it!
+We were too late.{end}
+
+General Leon,
+we must hurry and defeat the
+enemy. We still have time!{end}
+
+Stop it!
+We don't know of the
+sword's power.{06}{07}
+Recklessly plunging in
+would be foolish.{06}{07}
+All units fall back.
+Return to the castle to
+protect his majesty!{end}
+
+Yes, Sir!{end}
+
+If we beat them now,
+we still might not be able
+to take the sword.{06}{07}
+We don't know the extent of its
+power, and we've already
+sustained heavy losses.
+We must retreat ...{06}{07}
+{02},
+I eagerly await our fight!
+The next time we meet,
+I will slay you!{end}
+
+Without the General
+here, fighting is a waste ...
+Retreat!{end}
+
+Obtained Masayan Sword.{end}
+
+What the hell?
+This isn't Langrisser.
+What a strange sword ...{end}
+
+Obtained Langrisser.{end}
+
+It seems there's nobody
+left to interfere.{06}{07}
+Taking Langrisser will
+no longer be difficult.{end}
+
+Is Langrisser the one and
+only weapon that can oppose
+the Glory of Darkness?{end}
+
+And those that can wield it
+are the Descendants of Light.{end}
+
+I'm excited.
+Let's begin the attack!{end}
+
+The enemy looks a bit
+panicked. It seems they haven't
+released Alhazard's power yet.{end}
+
+The enemy looks a bit panicked.
+It seems they haven't released
+Alhazard's power yet.{end}
+
+There's no other place
+I'd rather fight.{end}
+
+If we must fight,
+let's do it now!{end}
+
+Excitement at last.{end}
+
+{02} ...{end}
+
+Liana ...
+This is it for you.{end}
+
+{02}!
+Please bring me with you!
+I beg of you!{end}
+
+Oh ... {02},
+I ...{end}
+
+Liana, you can relax.
+We finally have Langrisser.{06}{07}
+We're going to begin our
+siege of the Imperial Capital.
+Please wait in Kalxath.{end}
+
+No ...!
+Please bring me with you!
+Please ...{end}
+
+I know ...
+I promised I
+wouldn't interfere ...{06}{07}
+But please,
+bring me with you!
+I won't slow you down!{06}{07}
+If I do, then you
+can leave me behind!{end}
+
+Liana, I would never
+abandon you.{06}{07}
+I see ...
+Well, positively do not
+exhaust yourself.{end}
+
+Okay, let's relax now.
+It's time to tend
+to the wounded.{end}
+
+Yes ...{end}
+
+Well, everyone!
+Onward to Castle Rayguard!{end}
+
+Let's go!
+Onward to Castle Rayguard!{end}
+
+Everyone!
+At last, we shall attack
+the Empire!{06}{07}
+To crush Rayguard's ambition,
+we shall do battle--
+under the divine protection
+of Langrisser!{end}
+
