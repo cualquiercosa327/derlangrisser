@@ -1,22 +1,32 @@
+;
+; Der Langrisser Intro
+;
+; This files contains Super Nintendo code for displaying splash intros before
+; the game begins. It also loads in most of the new graphics and passes their
+; pointers to the rest of the new asm files.
+;
+; Version:   1.0
+; Author:    byuu
+; Copyright: (c) 2006, 2016 DL Team
+; Website:   https://github.com/sobodash/derlangrisser/
+; License:   BSD License <http://opensource.org/licenses/bsd-license.php>
+;
+
 lorom
 
 org $008020 : jml intro
 
-;update header information
-org $ffc0 : db 'Der Langrisser       '
-org $ffd7 : db $0c ;24mbit ROM
-org $ffd9 : db $01 ;North American release
 
-;patch version signature
-;org $24811d
-;  db $00,$72,$78,$9c,$4b,$f5,$2a,$f7,$09,$2e,$36,$f4,$0a,$09,$ae,$f0
-;  db $2f,$09,$f3,$0a,$74,$76,$2d,$2e,$f1,$2e,$36,$f7,$ad,$32,$f4,$2d
-;  db $37,$74,$09,$48,$77,$2e,$f3,$31,$0e,$0b,$cc,$2c,$f0,$71,$74,$f4
-;  db $f6,$d7,$4e,$cb,$73,$2b,$0d,$ce,$ce,$29,$0c,$aa,$f4,$8f,$0a,$cb
-;  db $35,$2d,$08,$cc,$37,$f5,$4f,$89,$f2,$8e,$c8,$0c,$33,$2d,$0c,$2d
-;  db $0c,$f7,$4f,$cf,$77,$77,$ca,$8e,$cc,$f5,$2f,$06,$d2,$05,$51,$ee
-;  db $41,$e9,$f9,$5e,$fe,$91,$ce,$8e,$6e,$19,$81,$6e,$49,$a1,$b6,$00
-;  db $d7,$15,$24,$cc
+; ----------------------------------------------------------------------------
+; Update internal header information
+
+org $ffc0 : db 'Der Langrisser       '
+org $ffd7 : db $0c ; 24Mbit ROM
+org $ffd9 : db $01 ; North American release
+
+
+; ----------------------------------------------------------------------------
+; Patch in new graphics
 
 org $00a65a : jsl init_decomp
 org $088000 : incbin build/ctable.bin
@@ -39,32 +49,18 @@ org $278000
 intro2:
   incbin build/intro2.bin
 
-;write signature in ROM footer
-;this must exist or intro will freeze
-org $5ffb20 : db $62
-org $5ffc86 : db $79
-org $5ffe12 : db $75
-org $5fff67 : db $75
-org $5ffffc : db $62,$79,$75,$75
-
 org $408000
 
+
+; ----------------------------------------------------------------------------
+; Display new splash introduction
+
 intro()
-;init_snes
+  ; Initialize Super Nintendo
   sei : stz $4200
   clc : xce
   rep #$10 : ldx #$01ff : txs
   sep #$30
-
-;  lda $5ffb20 : cmp #$62 : beq + : stp
-;+ lda $5ffc86 : cmp #$79 : beq + : stp
-;+ lda $5ffe12 : cmp #$75 : beq + : stp
-;+ lda $5fff67 : cmp #$75 : beq + : stp
-;+ lda $5ffffc : cmp #$62 : beq + : stp
-;+ lda $5ffffd : cmp #$79 : beq + : stp
-;+ lda $5ffffe : cmp #$75 : beq + : stp
-;+ lda $5fffff : cmp #$75 : beq + : stp
-;+
 
   lda #$00 : pha : plb
   pea $0000 : pld
@@ -80,11 +76,11 @@ intro()
   ldx #$02
 - stz $4200,x : inx : cpx #$0e : bcc -
 
-  lda #$80 : sta $2115 ;increment on $2119 write
-  lda #$01 : sta $420d ;enable fastrom
+  lda #$80 : sta $2115 ; Increment on $2119 write
+  lda #$01 : sta $420d ; Enable fastrom
   rep #$10
 
-;clear VRAM
+  ; Clear VRAM
   lda #$00   : sta $7fffff
   lda #$09   : sta $4300
   lda #$18   : sta $4301
@@ -94,7 +90,7 @@ intro()
   ldx #$0000 : stx $4305
   lda #$01   : sta $420b
 
-;clear OAM
+  ; Clear OAM
   stz $2102 : stz $2103
   ldx #$0080
 - stz $2104
@@ -106,23 +102,23 @@ intro()
 - stz $2104
   dex : bne -
 
-;clear CGRAM
+  ; Clear CGRAM
   stz $2121
   ldx #$0200
 - stz $2122 : dex : bne -
   stz $2121
 
-;intro
-  lda #$03 : sta $2105 ;mode3
-  lda #$78 : sta $2107 ;bg1 tilemap  [$f000]
-  lda #$00 : sta $210b ;bg1 tiledata [$0000]
-  lda #$01 : sta $212c ;enable bg1
-  lda #$ff : sta $210e ;bg1vofs
-  lda #$ff : sta $210e ;bg1vofs
+  ; Begin Intro
+  lda #$03 : sta $2105 ; Mode 3
+  lda #$78 : sta $2107 ; BG1 Tilemap  [$f000]
+  lda #$00 : sta $210b ; BG1 Tiledata [$0000]
+  lda #$01 : sta $212c ; Enable BG1
+  lda #$ff : sta $210e ; BG1vofs
+  lda #$ff : sta $210e ; BG1vofs
 
   sep #$30
 
-;intro1
+  ; Intro 1
   lda #$8f : sta $2100
   lda #$00 : sta $20
   lda #$80 : sta $21
@@ -138,7 +134,7 @@ intro()
   jsr wait
   jsr fadeout
 
-;intro2
+  ; Intro 2
   lda #$8f : sta $2100
   lda #$00 : sta $20
   lda #$80 : sta $21
@@ -151,11 +147,11 @@ intro()
   rep #$10
   jsr half_wait
   jsr fadein
-  jsr wait
+  jsr half_wait
   jsr wait
   jsr fadeout
 
-;end
+  ; End
   lda #$0f : sta $2100
   jsr clear_palette
   cld : sei
@@ -167,8 +163,8 @@ write_palette() {
   ldy #$0000
   tya : sta $2121
 
-- jsr decrypt_read : sta $2122 : iny
-  jsr decrypt_read : sta $2122 : iny
+- jsr img_read : sta $2122 : iny
+  jsr img_read : sta $2122 : iny
   cpy #$0200 : bcc -
 
   plp : rts
@@ -180,8 +176,8 @@ write_tiledata() {
   php : rep #$10
   ldx #$e000
 
-- jsr decrypt_read : sta $2118
-  jsr decrypt_read : sta $2119
+- jsr img_read : sta $2118
+  jsr img_read : sta $2119
   dex #2 : bne -
 
   plp : rts
@@ -222,7 +218,7 @@ fadein() {
     sty $2100
     tya : asl #4
     eor #$f0 : ora #$01
-    sta $2106
+    ; sta $2106 ; Use mosaic effect
   .loop
   - lda $4212 : bmi -
   - lda $4212 : bpl -
@@ -240,7 +236,7 @@ fadeout() {
     sty $2100
     tya : asl #4
     eor #$f0 : ora #$01
-    sta $2106
+    ; sta $2106 ; Use mosaic effect
   .loop
   - lda $4212 : bmi -
   - lda $4212 : bpl -
@@ -268,15 +264,8 @@ half_wait() {
   rts
 }
 
-decrypt_read() {
+img_read() {
   lda [$20]
-
-  ;php : rep #$10 : phx
-  ;ldx $20
-  ;eor $400000,x
-  ;plx : plp
-  ;sec : sbc $20
-
   inc $20 : bne +
   inc $21 : bne +
   pha : lda #$80 : sta $21 : pla
