@@ -68,20 +68,18 @@ endif
 toolchain:
 	@mkdir -p ./toolchain/bin
 	@echo "Building Der Langrisser toolchain..."
-	$(CC) -w ./toolchain/custom/bdconv.c -o ./toolchain/bin/bdconv -I./toolchain/custom
+	$(CC) ./toolchain/custom/bdconv.c -o ./toolchain/bin/bdconv -I./toolchain/custom
 	$(CC) -w ./toolchain/custom/bmptoimg.c -o ./toolchain/bin/bmptoimg -I./toolchain/custom
 	$(CC) -w ./toolchain/custom/dbconv.c -o ./toolchain/bin/dbconv -I./toolchain/custom
 	$(CC) -w ./toolchain/custom/dcconv.c -o ./toolchain/bin/dcconv -I./toolchain/custom
 	$(CC) -w ./toolchain/custom/decomp.c -o ./toolchain/bin/decomp -I./toolchain/custom
-	$(CC) -w ./toolchain/custom/makepatch.cpp -o ./toolchain/bin/makepatch -I./toolchain/custom
-	$(CC) -w ./toolchain/custom/makevwf8.c -o ./toolchain/bin/makevwf8 -I./toolchain/custom
+	$(CC) ./toolchain/custom/makevwf8.c -o ./toolchain/bin/makevwf8 -I./toolchain/custom
 	$(CC) -w ./toolchain/custom/makevwf12.c -o ./toolchain/bin/makevwf12 -I./toolchain/custom
-	$(CC) -w ./toolchain/custom/patch.cpp -o ./toolchain/bin/patch -I./toolchain/custom
-	$(CC) -w ./toolchain/custom/text8d.c -o ./toolchain/bin/text8d -I./toolchain/custom
-	$(CC) -w ./toolchain/custom/text8i.c -o ./toolchain/bin/text8i -I./toolchain/custom
-	$(CC) -w ./toolchain/custom/text12d.c -o ./toolchain/bin/text12d -I./toolchain/custom
+	$(CC) ./toolchain/custom/text8d.c -o ./toolchain/bin/text8d -I./toolchain/custom
+	$(CC) ./toolchain/custom/text8i.c -o ./toolchain/bin/text8i -I./toolchain/custom
+	$(CC) ./toolchain/custom/text12d.c -o ./toolchain/bin/text12d -I./toolchain/custom
 	$(CC) -w ./toolchain/custom/text12i.c -o ./toolchain/bin/text12i -I./toolchain/custom
-	$(CC) -w ./toolchain/custom/text12ins.c -o ./toolchain/bin/text12ins -I./toolchain/custom
+	$(CC) ./toolchain/custom/text12ins.c -o ./toolchain/bin/text12ins -I./toolchain/custom
 	@echo "Building xkas assembler..."
 	$(CC) -w ./toolchain/xkas/xkas.cpp -o ./toolchain/bin/xkas -I./toolchain/xkas -lstdc++
 
