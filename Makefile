@@ -1,6 +1,6 @@
 DLROM=./resources/dl.rom
 CC=clang
-CFLAGS=-stdlib=libc++ -lstdc++ -std=gnu++11 -O2 -fomit-frame-pointer
+CFLAGS=-stdlib=libc++ -lstdc++ -O2 -fomit-frame-pointer
 MD5=$(shell md5 -q $(DLROM))
 
 all:
@@ -59,29 +59,33 @@ endif
 	@./toolchain/bin/text8d
 	@echo "Dumping game graphics..."
 	@mkdir -p ./resources/decomp
+	@mkdir -p ./resources/decomp/portraits
+	@mkdir -p ./resources/decomp/sprites
 	@./toolchain/bin/decomp
 	@echo "Converting graphics to bitmap..."
 	@./toolchain/bin/dbconv
+	@./toolchain/bin/ptobmp
 	@rm ./resources/decomp/*.bin
 
 .PHONY: toolchain
 toolchain:
 	@mkdir -p ./toolchain/bin
 	@echo "Building Der Langrisser toolchain..."
-	$(CC) ./toolchain/custom/bdconv.c -o ./toolchain/bin/bdconv -I./toolchain/custom
-	$(CC) -w ./toolchain/custom/bmptoimg.c -o ./toolchain/bin/bmptoimg -I./toolchain/custom
-	$(CC) -w ./toolchain/custom/dbconv.c -o ./toolchain/bin/dbconv -I./toolchain/custom
-	$(CC) -w ./toolchain/custom/dcconv.c -o ./toolchain/bin/dcconv -I./toolchain/custom
-	$(CC) -w ./toolchain/custom/decomp.c -o ./toolchain/bin/decomp -I./toolchain/custom
-	$(CC) ./toolchain/custom/makevwf8.c -o ./toolchain/bin/makevwf8 -I./toolchain/custom
-	$(CC) -w ./toolchain/custom/makevwf12.c -o ./toolchain/bin/makevwf12 -I./toolchain/custom
-	$(CC) ./toolchain/custom/text8d.c -o ./toolchain/bin/text8d -I./toolchain/custom
-	$(CC) ./toolchain/custom/text8i.c -o ./toolchain/bin/text8i -I./toolchain/custom
-	$(CC) ./toolchain/custom/text12d.c -o ./toolchain/bin/text12d -I./toolchain/custom
-	$(CC) -w ./toolchain/custom/text12i.c -o ./toolchain/bin/text12i -I./toolchain/custom
-	$(CC) ./toolchain/custom/text12ins.c -o ./toolchain/bin/text12ins -I./toolchain/custom
+	$(CC) $(CFLAGS) ./toolchain/custom/bdconv.c -o ./toolchain/bin/bdconv
+	$(CC) $(CFLAGS) -w ./toolchain/custom/bmptoimg.c -o ./toolchain/bin/bmptoimg
+	$(CC) $(CFLAGS) -w ./toolchain/custom/dbconv.c -o ./toolchain/bin/dbconv
+	$(CC) $(CFLAGS) -w ./toolchain/custom/dcconv.c -o ./toolchain/bin/dcconv
+	$(CC) $(CFLAGS) -w ./toolchain/custom/decomp.c -o ./toolchain/bin/decomp
+	$(CC) $(CFLAGS) ./toolchain/custom/makevwf8.c -o ./toolchain/bin/makevwf8
+	$(CC) $(CFLAGS) -w ./toolchain/custom/makevwf12.c -o ./toolchain/bin/makevwf12
+	$(CC) $(CFLAGS) -w ./toolchain/custom/ptobmp.c -o ./toolchain/bin/ptobmp
+	$(CC) $(CFLAGS) ./toolchain/custom/text8d.c -o ./toolchain/bin/text8d
+	$(CC) $(CFLAGS) ./toolchain/custom/text8i.c -o ./toolchain/bin/text8i
+	$(CC) $(CFLAGS) ./toolchain/custom/text12d.c -o ./toolchain/bin/text12d
+	$(CC) $(CFLAGS) -w ./toolchain/custom/text12i.c -o ./toolchain/bin/text12i
+	$(CC) $(CFLAGS) ./toolchain/custom/text12ins.c -o ./toolchain/bin/text12ins
 	@echo "Building xkas assembler..."
-	$(CC) -w ./toolchain/xkas/xkas.cpp -o ./toolchain/bin/xkas -I./toolchain/xkas -lstdc++
+	$(CC) $(CFLAGS) -w ./toolchain/xkas/xkas.cpp -o ./toolchain/bin/xkas
 
 .PHONY: distclean
 distclean:
@@ -89,7 +93,7 @@ distclean:
 	rm -f ./resources/scripts/text8c.txt
 	rm -f ./resources/scripts/text8n.txt
 	rm -f ./resources/scripts/jp/*.txt
-	rm -f ./resources/decomp/*
+	rm -rf ./resources/decomp/*
 	rm -f ./toolchain/bin/*
 
 clean:

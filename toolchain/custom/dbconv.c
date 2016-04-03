@@ -153,7 +153,7 @@ int main()
         else
             convert_image4bpp();
         
-        sprintf(fn, "resources/decomp/d%0.3d.bmp", l);
+        sprintf(fn, "resources/decomp/sprites/d%0.3d.bmp", l);
         fp = fopen(fn, "wb");
         fwrite(header, 1, 0x36, fp);
         

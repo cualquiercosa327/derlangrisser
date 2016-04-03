@@ -21,7 +21,7 @@ int main()
           z;
     char  fn[256];
     
-    fp = fopen("../build/dl.sfc", "rb");
+    fp = fopen("resources/dl.rom", "rb");
     fseek(fp, 0x14d32, SEEK_SET);
     fread(cindex, 1, 255, fp);
     fseek(fp, 0x1c456, SEEK_SET);
@@ -31,7 +31,7 @@ int main()
     
     for (i = 0; i < 0xff; i++) {
         z = cindex[i] - 1;
-        sprintf(fn, "decomp/d%0.3d.bmp", z + 72);
+        sprintf(fn, "resources/decomp/sprites/d%0.3d.bmp", z + 72);
         wr = fopen(fn, "rb");
         fread(data, 1, 0x436, wr);
         fclose(wr);
@@ -44,7 +44,10 @@ int main()
             data[0x38 + l * 4] = c >> 16;
             data[0x39 + l * 4] = 0;
         }
-        sprintf(fn, "data/portraits/p%0.3d.bmp", i);
+        // D's Note:
+        // I add 1 to z to make the portraits align with their indexes used
+        // in the game itself.
+        sprintf(fn, "resources/decomp/portraits/p%0.3d.bmp", i + 1);
         wr = fopen(fn, "wb");
         fwrite(data, 1, 0x436, wr);
         fclose(wr);
