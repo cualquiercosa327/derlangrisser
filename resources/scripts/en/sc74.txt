@@ -2,7 +2,7 @@ General Leon, the enemy
 executes a surprise attack!{end}
 
 Damn this ...
-We have no time for it.{end}
+We have no time for this.{end}
 
 You have chosen
 to spit on the Empire's
@@ -49,8 +49,9 @@ permission to preserve
 his interests.{end}
 
 Come at me, {02}.{06}{07}
-I'll teach you the virtues
-you can't possibly conceive of.{end}
+I'll teach you the
+virtues of which you can't
+possibly conceive.{end}
 
 As expected, Leon.
 You overlook nothing ...{end}
@@ -146,13 +147,15 @@ Damn, they really
 are the strongest knights
 on the continent ...{end}
 
-I've waited a long time
-to see my brother.{06}{07}
-Don't think I'm some
-harmless child any more.{end}
+Your brother went through
+great pains to meet you again.{06}{07}
+What a shame ... you are
+anything but the docile
+child he was hoping for.{end}
 
-Do you think I won't win?
-A simple theory to test!{end}
+Just because I have
+victory in mind doesn't
+make me a bad girl!{end}
 
 Run while you still can!{end}
 
@@ -162,12 +165,12 @@ N, not bad ...{end}
 {font3}Aaarrgghh ...{end}
 
 {font3}Such damage ...
-This body is dying.{end}
+{font3}This body is dying.{end}
 
 {font3}Excellent!{end}
 
 {font3}Grrrr ...
-I must find a new body ...{end}
+{font3}I must find a new body ...{end}
 
 We cannot
 be defeated here!{06}{07}
@@ -369,8 +372,10 @@ the last Blue Dragon ...!{end}
 You are no longer
 a Blue Dragon, Leon.{06}{07}
 Look around you, Leon.
-Do you see an army? Do you see
-your fellow knights here to stand
+Do you see an army? Do you
+see
+your fellow knights here to{06}{07}
+stand
 against us once more?{06}{07}
 Your army is done for, and the
 Empire is in its last hours.
@@ -395,7 +400,8 @@ were decent company.{end}
 Certainly. All that's left
 is the Kaiser and
 his rusty old throne.{06}{07}
-And after we have defeated him,
+And after we have defeated
+him,
 the Descendants of Light ...{end}
 
 At last, the decisive battle.{end}
@@ -438,7 +444,7 @@ time to enter the castle.{06}{07}
 And, well well,
 there goes the Empire.{end}
 
-We are the Empires finest
+We are the Empire's finest
 tacticians. Don't
 think to outwit us, {02}.{end}
 

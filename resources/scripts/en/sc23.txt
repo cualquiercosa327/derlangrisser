@@ -1,12 +1,12 @@
 Both the Dark Rod and the
 sealing maidens are here.{06}{07}
 The preparations
-are complete ... {06}{07}
+are complete ...{06}{07}
 Now let's commence with
 Alhazard's revival!{06}{07}
 {font4}Deofcynn Strengthe ...
-Blaed of Foregenga ...
-Alhazard ...{end}
+{font4}Blaed of Foregenga ...
+{font4}Alhazard ...{end}
 
 Egbert, stop!{end}
 
@@ -21,7 +21,7 @@ Power is a matter
 of preference.{06}{07}
 Using Alhazard is no
 different than abusing
-the power of light ... {06}{07}
+the power of light ...{06}{07}
 Now, watch the unveiling
 of a truly magnificent force.{end}
 
@@ -34,10 +34,10 @@ Look at the altar!{end}
 Ahhh!
 It's Lady Liana and L{37}na!{end}
 
-The maiden of light and
-the maiden of darkness ...{end}
+The Maiden of Light and
+the Maiden of Darkness ...{end}
 
-The maiden of light
+The Maiden of Light
 sealed the Dark Blade ...
 At least that's my take on it.{end}
 
@@ -101,8 +101,8 @@ centuries old ...{06}{07}
 And bring forth the
 power that once was!{06}{07}
 {font4}Geweald of Uncer Metod,
-Andwyrdon Thin Cilden ...
-Aweccan Alhazard! {end}
+{font4}Andwyrdon Thin Cilden ...
+{font4}Aweccan Alhazard! {end}
 
 Stop, the seal is ...!{end}
 
@@ -110,8 +110,8 @@ Watch out!
 Alhazard's seal has
 been lifted!{end}
 
-Cough ... Cough ... Wheeze ... {06}{07}
-Th, this is ... {06}{07}
+Cough ... Cough ... Wheeze ...{06}{07}
+Th, this is ...{06}{07}
 The Demons' Might,
 Alhazard ...{end}
 
@@ -172,7 +172,7 @@ I'm sorry everyone ...
 Please stop Egbert!{end}
 
 I'm way too old for
-this kind of fighting ... {06}{07}
+this kind of fighting ...{06}{07}
 {02}, watch out
 for the Princess!{end}
 
@@ -189,7 +189,7 @@ that darkness will bring!
 Why are you doing this!?{end}
 
 Hmmm ...
-Such sentimental babble ... {06}{07}
+Such sentimental babble ...{06}{07}
 To achieve my purpose,
 I will do anything that
 can guarantee our success!{end}
@@ -243,7 +243,7 @@ No good ...
 I can't hold out any more ...{end}
 
 We managed to save
-L{37}na and Liana ... {06}{07}
+L{37}na and Liana ...{06}{07}
 But we let him
 revive Alhazard ...{end}
 
@@ -336,14 +336,14 @@ more untapped power?{end}
 
 Wow ...{end}
 
-Correct ... {06}{07}
+Correct ...{06}{07}
 To break the seal, we
 need the Holy Rod from
 the Ruins of Elrad.{end}
 
 While I was controlled, I
 hurt many innocent people.
-Please let me help you ... {06}{07}
+Please let me help you ...{06}{07}
 Please, at least let
 me do that much ...{end}
 
@@ -414,7 +414,7 @@ Aaahh!
 He ran away!{end}
 
 We have to hurry up
-and follow him ... {06}{07}
+and follow him ...{06}{07}
 But first, we must rescue
 Liana and L{37}na!{06}{07}
 Quickly, clear

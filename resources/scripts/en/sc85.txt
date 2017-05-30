@@ -81,7 +81,7 @@ recovered were very powerful.{06}{07}
 Only a handful of
 El Sallia's greatest wizards
 could cast them.{06}{07}
-Due to Hein's continued efforts,
+Due to his continued efforts,
 Hein became the most powerful
 known magician in the land.{06}{07}
 Shortly thereafter, the
@@ -251,16 +251,16 @@ Liana gladly helped {02}
 take on the forces of evil and
 stop the Empire's ambition.{end}
 
+Even during the excruciating
+battles, not once did she back
+down. She fought till the end.{end}
+
 However, she could not endure
 the excruciating battles.
 Many times she was injured.{06}{07}
 Unable to provide
 her support, Liana burdened
 {02}'s party at times.{end}
-
-Even during the excruciating
-battles, not once did she back
-down. She fought till the end.{end}
 
 Using support magic and her
 healing prayers, Liana aided
@@ -438,7 +438,7 @@ the warrior was Cherie.{end}
 
 
 {skip 72}{font4}S{font0}cott
-{skip 35}{font4}P{font0}prodigious {font4}K{font0}night{06}{07}
+{skip 38}{font4}P{font0}rodigious {font4}K{font0}night{06}{07}
 Earning many medals in
 honour of his distinguished
 service as a Knight of Salrath,
@@ -446,7 +446,7 @@ Scott returned home.{end}
 
 
 {skip 72}{font4}S{font0}cott
-{skip 35}{font4}P{font0}prodigious {font4}K{font0}night{06}{07}
+{skip 38}{font4}P{font0}rodigious {font4}K{font0}night{06}{07}
 Without gaining much for
 his time spent in
 {02}'s service,
@@ -757,7 +757,7 @@ soul deteriorated over time.{end}
 
 Egbert was able to live longer
 by abstaining from using magic
-after El Sallia's unification. {06}{07}
+after El Sallia's unification.{06}{07}
 He used his wisdom for peace,
 and, due to his commitment and
 ability, he was praised as the
@@ -875,7 +875,7 @@ strict control over her division.{end}
 
 After the Empire unified the
 continent, she gained a coastal
-territory from Bernhardt. {06}{07}
+territory from Bernhardt.{06}{07}
 She named the land to
 "The Kingdom of Imelda."
 Reigning as the first Queen, she
@@ -883,7 +883,7 @@ spent her days acting selfishly.{end}
 
 She began to search for
 a husband who would meet
-her high demands. {06}{07}
+her high demands.{06}{07}
 However, that rumour began
 to circulate, and fewer ships
 stopped at her port,causing the
@@ -891,7 +891,7 @@ kingdom to wither away.{end}
 
 Using her knowledge
 from the war, she began
-trading overseas. {06}{07}
+trading overseas.{06}{07}
 Gaining massive wealth
 in the blink of an eye, this
 allowed her to pursue her
@@ -909,7 +909,7 @@ Imelda's selfish, extravagant
 behaviour created resentment
 in the hearts of the populous.{06}{07}
 One day, after gulping
-down  a bottle of liquor she
+down a bottle of wine she had
 received, she suddenly fell
 to the floor and died.{end}
 
@@ -979,8 +979,8 @@ demons, peace is still far away.{end}
 
 
 {skip 74}{font3}Esto
-{skip 27}{font3}Sliver of Darkness{06}{07}
-{font0}Being of a different nature,
+{font3}{skip 27}{font3}Sliver of Darkness{06}{07}
+{font3}{font0}Being of a different nature,
 even among the demons, Esto
 used her skills as a parasite
 to their full potential.{06}{07}
@@ -989,8 +989,8 @@ along with Sonya to the end.{end}
 
 
 {skip 74}{font3}Esto
-{skip 35}{font3}Parasitic Justice{06}{07}
-{font0}After regaining self-control
+{font3}{skip 35}{font3}Parasitic Justice{06}{07}
+{font3}{font0}After regaining self-control
 after B{3a}ser's death, Esto
 fought for a world where
 humans and demons could coexist.{end}
@@ -1012,23 +1012,23 @@ most likely lose her life.{end}
 
 
 {skip 72}{font3}Osto
-{skip 34}{font3}Nightmare Diver{06}{07}
-{font0}Being parasitic made Osto
+{font3}{skip 34}{font3}Nightmare Diver{06}{07}
+{font3}{font0}Being parasitic made Osto
 unique, even among demons,
 but he fought against many foes
 for the Demon Tribe's glory.{end}
 
 
 {skip 72}{font3}Osto
-{skip 51}{font3}Virus Eater{06}{07}
-{font0}When the spell cast upon Osto 
+{font3}{skip 51}{font3}Virus Eater{06}{07}
+{font3}{font0}When the spell cast upon Osto 
 was broken, he, with Sonya, 
 fought for a world where
 demons and humans can coexist.{end}
 
 Osto's parasitic abilities aided
 in organising troops and
-lead his companions to victory. {06}{07}
+lead his companions to victory.{06}{07}
 Later on, Osto's power was
 rewarded as he was appointed
 commander of the Demon Tribe
@@ -1204,7 +1204,7 @@ left him with little to do but sit
 idly by and hope for the best.{06}{07}
 Being rumoured as the Empire's
 waste, he goes through his
-days standing by in his room. {06}{07}
+days standing by in his room.{06}{07}
 However, a sign of the
 peaceful era to come should
 be seen some day soon ...{end}

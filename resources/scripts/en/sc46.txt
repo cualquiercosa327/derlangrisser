@@ -293,7 +293,7 @@ fighting in today's world.{end}
 
 You don't understand my
 motivation, but there's nothing
-I can really do about that ... {06}{07}
+I can really do about that ...{06}{07}
 Time and history
 will move on.{06}{07}
 One day you'll remember my

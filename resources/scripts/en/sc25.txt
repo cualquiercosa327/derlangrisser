@@ -29,14 +29,14 @@ will not see the sunset this day.
 Avenge our Dark Prince, B{3a}ser!{end}
 
 {font3}Lord B{3a}ser shall
-be avenged!{06}{07}
-{font3}We won't fear the 
-Descendants of Light!{end}
+{font3}be avenged!{06}{07}
+{font3}{font3}We won't fear the 
+{font3}Descendants of Light!{end}
 
 {font3}This time you will die!{end}
 
 {font3}We will show our
-demonic strength!{end}
+{font3}demonic strength!{end}
 
 It's that crazy demon-loving
 witch from the village we
@@ -210,7 +210,7 @@ Why did this happen?{end}
 Ooh ...!
 This is wrong!{06}{07}
 At this rate, I won't be
-able to win against you ... {06}{07}
+able to win against you ...{06}{07}
 However, I'll never give up!
 Humanity and those
 treacherous demons will
@@ -244,8 +244,8 @@ I hope you all die!
 I hope this world dies!{end}
 
 {font3}Damn!
-This is bad,
-everyone retreat!{end}
+{font3}This is bad,
+{font3}everyone retreat!{end}
 
 Sonya ...{end}
 
@@ -282,37 +282,37 @@ Empire's actions, but right now,
 Sonya's madness be stopped.{end}
 
 {font3}Your blood is tainted
-with the putrid
-stink of humanity!{06}{07}
-{font3}Because of this, you
-will be disposed of!{end}
+{font3}with the putrid
+{font3}stink of humanity!{06}{07}
+{font3}{font3}Because of this, you
+{font3}will be disposed of!{end}
 
 {font3}Don't affiliate
-with us any longer!{06}{07}
-{font3}You are the bastard
-shame of our tribe!{end}
+{font3}with us any longer!{06}{07}
+{font3}{font3}You are the bastard
+{font3}shame of our tribe!{end}
 
 What ... Why!?
 What's happening...{end}
 
 {font3}Th, that's
-impossible!{end}
+{font3}impossible!{end}
 
-{font3}Ugh, strong....{end}
+{font3}Ugh, strong ...{end}
 
 Esto!{end}
 
 {font3}I'm sorry ...
-Sonya ...{end}
+{font3}Sonya ...{end}
 
-{font3}V, very good....{end}
+{font3}V, very good ...{end}
 
 {font3}Gaahhhh--{end}
 
 {font3}Gah--arrghh!{end}
 
 {font3}Descendants of Light ...
-Strong enemies ...{end}
+{font3}Strong enemies ...{end}
 
 Osto!{end}
 
@@ -323,76 +323,76 @@ Osto!{end}
 {font3}Grrrrr--!{end}
 
 {font3}Destroy everything!
-This is the
-will of B{3a}ser ...{end}
+{font3}This is the
+{font3}will of B{3a}ser ...{end}
 
 {font3}I've heard that the
-Descendants of Light
-have incredible power ...{06}{07}
-{font3}We must go about
-this seriously.{end}
+{font3}Descendants of Light
+{font3}have incredible power ...{06}{07}
+{font3}{font3}We must go about
+{font3}this seriously.{end}
 
 {font3}It's over!
-Cease your futile
-struggling.{end}
+{font3}Cease your futile
+{font3}struggling.{end}
 
 {font3}Gahh--!
-I've been hit ... {06}{07}
-{font3}Cough ... Cough ...
-Scum ...!{end}
+{font3}I've been hit ...{06}{07}
+{font3}{font3}Cough ... Cough ...
+{font3}Scum ...!{end}
 
 {font3}Interesting ...
-You defeated Faias.. {06}{07}
-{font3}However, now you
-shall witness the
-power of the first
-family of the night!{end}
+{font3}You defeated Faias.{06}{07}
+{font3}{font3}However, now you
+{font3}shall witness the
+{font3}power of the first
+{font3}family of the night!{end}
 
 {font3}Ugh ...
-Gaaah!{end}
+{font3}Gaaah!{end}
 
 {font3}Grrrr ...{end}
 
 {font3}Ahhhhh ...{end}
 
 {font3}We don't care about
-your selfish grudge.{06}{07}
-{font3}We want to kill the
-Descendants of Light!{end}
+{font3}your selfish grudge.{06}{07}
+{font3}{font3}We want to kill the
+{font3}Descendants of Light!{end}
 
 {font3}Hmph,
-you'd better win,
-for your sake.{06}{07}
-{font3}Otherwise, it will
-be us, and us alone,
-who will have the
-fun around here.{end}
+{font3}you'd better win,
+{font3}for your sake.{06}{07}
+{font3}{font3}Otherwise, it will
+{font3}be us, and us alone,
+{font3}who will have the
+{font3}fun around here.{end}
 
 Ah, thanks for coming, friends!
 Would you be so kind as to help
 slay these meddlesome humans?{end}
 
 {font3}Don't tell me
-what to do, bitch.{06}{07}
-{font3}I only followed you
-in the past because
-of a direct order
-from B{3a}ser himself.{06}{07}
-{font3}Now that he's dead,
-I don't have to take
-any of your shit!{06}{07}
-{font3}Hmph ...!
-We're gonna have
-a little bloodbath!{06}{07}
-{font3}And you're cordially
-invited, you
-filthy, halfie bitch!{end}
+{font3}what to do, bitch.{06}{07}
+{font3}{font3}I only followed you
+{font3}in the past because
+{font3}of a direct order
+{font3}from B{3a}ser himself.{06}{07}
+{font3}{font3}Now that he's dead,
+{font3}I don't have to take
+{font3}any of your shit!{06}{07}
+{font3}{font3}Hmph ...!
+{font3}We're gonna have
+{font3}a little bloodbath!{06}{07}
+{font3}{font3}And you're cordially
+{font3}invited, you
+{font3}filthy, halfie bitch!{end}
 
 {font3}Oh ho ho ho!
-That sounds like
-such a lovely idea!{06}{07}
-{font3}I don't give a rat's
-ass about you either!{end}
+{font3}That sounds like
+{font3}such a lovely idea!{06}{07}
+{font3}{font3}I don't give a rat's
+{font3}ass about you either!{end}
 
 N, no way!
 You can't be serious ...{06}{07}
@@ -400,11 +400,11 @@ B, but we're friends,
 aren't we ...!?{end}
 
 {font3}We must concentrate
-on the slaying the
-Descendants of Light!{end}
+{font3}on the slaying the
+{font3}Descendants of Light!{end}
 
 {font3}Let's have at it,
-Descendants of Trash!{06}{07}
-{font3}I shall avenge
-Lord B{3a}ser!{end}
+{font3}Descendants of Trash!{06}{07}
+{font3}{font3}I shall avenge
+{font3}Lord B{3a}ser!{end}
 

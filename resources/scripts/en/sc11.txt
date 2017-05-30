@@ -364,7 +364,7 @@ battle, Commander Morgan?{end}
 
 Well, I'm fleeing because--
 Hey, {font3}shut up!{06}{07}
-{font0}I'm not running away!
+{font3}{font0}I'm not running away!
 I just have a very, very, very
 urgent report to make.{06}{07}
 Now hurry and get
@@ -518,7 +518,7 @@ Princess ...
 You should properly
 thank {02}.{end}
 
-I guess so ... {06}{07}
+I guess so ...{06}{07}
 Hmm--!
 Where'd that armour go ...?{06}{07}
 I'm sorry, I must have

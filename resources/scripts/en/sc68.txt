@@ -38,7 +38,7 @@ His Majesty's care.{end}
 Very well.{end}
 
 Looks like we're facing the
-Flaming Fag Brigade or
+Flaming Fag Brigade, or
 whatever they call themselves.{end}
 
 If we take too much time,
@@ -125,10 +125,10 @@ And we came all
 this way, too ...{end}
 
 {font3}Uugghh, I've been ...
-defeated ...!{end}
+{font3}defeated ...!{end}
 
 {font3}Arrrrghh--!
-This host ... too weak ...{end}
+{font3}This host ... too weak ...{end}
 
 You're an honourable man.
 If it can be helped,
@@ -314,15 +314,16 @@ You certainly are spirited.{end}
 
 Well done ...{end}
 
-If my words don't persuade
-you, perhaps my sword will!{end}
+My sword ...
+I thought my attack
+was unstoppable ...{end}
 
 So, I'm the last one left.
 I'm not giving in.
 Don't even think it.{06}{07}
-I'll get His Majesty and
-his troops whatever time and
-distance they need.{06}{07}
+I'll provide His Majesty
+and his troops whatever time
+and distance they need.{06}{07}
 Now then, red-haired punk.
 Stop your gawking
 and let us cross blades!{end}

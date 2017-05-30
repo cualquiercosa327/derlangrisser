@@ -157,7 +157,7 @@ Bye bye, little man!{end}
 Shit!
 We're too late ...{end}
 
-It can't be helped ... {06}{07}
+It can't be helped ...{06}{07}
 So, loading all this baggage
 is going to take a while?{end}
 
@@ -169,7 +169,7 @@ If they board, I'll have to
 thank that scruffy peasant boy
 for our last encounter!{end}
 
-O, of course, General!{end}
+O, Of course, General!{end}
 
 I don't get it ...
 Is she kind to anyone
@@ -440,8 +440,9 @@ covert mission.{06}{07}
 Though our ranks have thinned,
 please allow us to assist you.{end}
 
-Leon must have worried
-to have sent you here.{06}{07}
+Leon must have
+been worried to have
+deployed you here.{06}{07}
 Anyway, until the boat
 leaves, please help us
 impede the enemy!{end}

@@ -1,37 +1,37 @@
-{skip 37}{font5}I{font1}nfantry vs {font5}S{font1}pearmen
-{skip 14}{font0}Infantry are well-rounded units
+{skip 38}{font5}S{font1}oldier vs {font5}S{font1}pearman
+{font1}{skip 14}{font0}Soldiers are well-rounded units
 {skip 14}with orthodox attributes. Strong
 {skip 18}to spearmen, weak to cavalry.{end}
 
-{skip 38}{font5}S{font1}pearmen vs {font5}C{font1}avalry
-{skip 12}{font0}Spearmen have high defence and
+{skip 38}{font5}S{font1}pearman vs {font5}C{font1}avalry
+{font1}{skip 12}{font0}Spearmen have high defence and
 {skip 26}are potent against cavalry.
-{skip 4}Strong to cavalry, weak to infantry.{end}
+{skip 4}Strong to cavalry, weak to soldiers.{end}
 
-{skip 41}{font5}C{font1}avalry vs {font5}I{font1}nfantry
-{skip 17}{font0}Cavalry have low defence, but
+{skip 42}{font5}D{font1}ragoon vs {font5}S{font1}oldier
+{font1}{skip 14}{font0}Dragoons have low defence, but
 {skip 10}high mobility and offence. Strong
-{skip 17}to infantry, weak to spearmen.{end}
+{skip 17}to soldiers, weak to spearmen.{end}
 
-{skip 47}{font5}B{font1}owmen vs {font5}F{font1}liers
-{skip 13}{font0}Bowmen can attack units from a
+{skip 49}{font5}B{font1}owman vs {font5}F{font1}lier
+{font1}{skip 13}{font0}Bowmen can attack units from a
 {skip 10}distance, but have weak defence.
 {skip 55}Strong to fliers.{end}
 
-{skip 47}{font5}F{font1}liers vs {font5}I{font1}nfantry
-{skip 5}{font0}Due to their airborne nature, fliers
+{skip 53}{font5}F{font1}lier vs {font5}B{font1}andit
+{font1}{skip 5}{font0}Due to their airborne nature, fliers
 {skip 1}can deliver damaging aerial attacks.
 {skip 52}Weak to bowmen.{end}
 
-{skip 39}{font5}S{font1}ailors vs {font5}S{font1}pearmen
-{skip 12}{font0}Sailors are special soldiers with
+{skip 41}{font5}S{font1}ailor vs {font5}S{font1}pearman
+{font1}{skip 20}{font0}Sailors are special units with
 {skip 4}high mobility and defence in water.
-{skip 4}Their affinity is similar to infantry.{end}
+{skip 4}Their affinity is similar to soldiers.{end}
 
 {skip 50}{font5}M{font1}onk vs {font5}U{font1}ndead
-{skip 12}{font0}Monks are strong against slimes,
-{skip 16}ghosts, and other undead units.
-{skip 4}Their affinity is similar to infantry.{end}
+{font1}{skip 17}{font0}Monks are strong against gels,
+{skip 19}ghosts and undead-type units.
+{skip 4}Their affinity is similar to soldiers.{end}
 
 Ha ha ha ...
 So this is the legendary blade
@@ -302,7 +302,7 @@ No ..., to conquer the world!{end}
 
 {skip 12}Copyright 1995 NCS/Masaya{end}
 
-{skip 12}Copyright 2007 Langrisser Team{end}
+{skip 12}Copyright 2016 Langrisser Team{end}
 
 {end}
 

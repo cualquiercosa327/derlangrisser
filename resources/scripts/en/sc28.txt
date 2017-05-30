@@ -41,7 +41,7 @@ my grasp, {font3}I{font0} am your master!{end}
 {font3}Indeed ...{end}
 
 {font3}Mwa ha ha ...
-Long live Chaos!{end}
+{font3}Long live Chaos!{end}
 
 Destruction! Death!
 Alhazard, enrapture me with
@@ -101,9 +101,9 @@ wall fell silent.{end}
 We will definitely 
 seal the power of evil!{end}
 
-{font3}I am an ancient god.
-The power of humans
-can't stand against me.{end}
+I am an ancient god.
+The power of humanity is too
+weak to oppose my will.{end}
 
 Sonya, stop!{end}
 
@@ -149,7 +149,7 @@ No!
 I just didn't cut it ...{end}
 
 Lushiris, please
-give me power! {06}{07}
+give me power!{06}{07}
 We need the power of
 light to defeat Chaos!{end}
 
@@ -178,13 +178,13 @@ the sky is ...{end}
 {font3}...{end}
 
 {font3}We will follow Sonya's
-orders to the letter ...{end}
+{font3}orders to the letter ...{end}
 
 {font3}How could
-humans defeat me ...{end}
+{font3}humans defeat me ...{end}
 
 {font3}How could a human
-be this strong ...{end}
+{font3}be this strong ...{end}
 
 {font3}Aarrrghh!{end}
 
@@ -207,7 +207,7 @@ of Alhazard!{end}
 {font3}Gah--!{end}
 
 The Descendants of Light
-who wield Langrisser ... {06}{07}
+who wield Langrisser ...{06}{07}
 Convince me of this power of
 humans which you so valiantly
 strive to conquer me with.{end}
@@ -237,7 +237,7 @@ But they are one
 and the same.{06}{07}
 The Holy Blade's
 ability isn't raw 
-destructive power ... {06}{07}
+destructive power ...{06}{07}
 Don't you understand the
 real nature of Langrisser?
 Don't you know how it offers
@@ -256,7 +256,7 @@ can oppose Alhazard ...?{end}
 Alhazard is also
 a symbol, but for
 the Demon Tribe.{06}{07}
-Those gather under
+Those who gather under
 the sword's banner
 can change their fate!{end}
 
@@ -284,8 +284,8 @@ Make my spirit shine, and
 give me the strength to
 vanquish the darkness!{06}{07}
 {font4}Halig Geweald
-Ealles Fordon Fynd ...
-Holy Falcon Ray!{end}
+{font4}Ealles Fordon Fynd ...
+{font4}Holy Falcon Ray!{end}
 
 Noooo!{06}{07}
 How could you ...
@@ -344,7 +344,7 @@ an unnaturally long life.{end}
 Until the menace of evil
 is no more, I will not die!{06}{07}
 To end darkness forever, 
-I offer no less than my soul. {06}{07}
+I offer no less than my soul.{06}{07}
 Relatives, loved ones, I
 will sacrifice it all to
 keep peace in this land!{end}
@@ -359,7 +359,7 @@ sealing Chaos ...{end}
 
 In just a little bit ...
 In just a little bit 
-Chaos shall return.... {06}{07}
+Chaos shall return ...{06}{07}
 We will destroy
 the humans ... yes--{end}
 
@@ -401,11 +401,10 @@ Chaos!{end}
 
 My name is Chaos.{06}{07}
 Starting now, I will
-accomplish the goal
-I was created for.{end}
+accomplish the goal for
+which I was created.{end}
 
-Is that the physical
-representation of evil!?{end}
+Is that evil incarnate!?{end}
 
 I was born with
 the dawn of time.{06}{07}
@@ -439,11 +438,11 @@ useless, fleeting life ...{end}
 
 How can you ...
 How can {font3}you
-{font0}understand me!?{06}{07}
+{font3}{font0}understand me!?{06}{07}
 Humans, humans ... 
 whenever something bad 
 happened people spat on me
-and blamed me ... {06}{07}
+and blamed me ...{06}{07}
 My blood is mixed with the
 Demon Tribe's so they thought
 I was the cause of everything.{end}
@@ -484,7 +483,7 @@ of the caster's soul!{end}
 
 This is my way to take
 responsibility! But I can't
-hit him with the spell yet ... {06}{07}
+hit him with the spell yet ...{06}{07}
 {02}, please
 weaken Chaos!{end}
 
@@ -493,7 +492,7 @@ All right.{end}
 
 Even in the end,
 she still couldn't
-believe in humans ... {06}{07}
+believe in humans ...{06}{07}
 How sad ...{end}
 
 It's so sad ...{end}

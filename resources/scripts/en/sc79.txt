@@ -283,7 +283,7 @@ Ooooh ...!{06}{07}
 So yummy, yummy.
 Uki loves bananas!{end}
 
-You scored perfectly, but ... {06}{07}
+You scored perfectly, but ...{06}{07}
 We're all out of bananas.{end}
 
 Sigh ...
