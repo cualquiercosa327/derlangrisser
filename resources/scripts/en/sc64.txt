@@ -152,16 +152,18 @@ Sorry ...
 I'm exhausted ...{end}
 
 {font3}Ridiculous ...
-My power is gone ...{end}
+{font3}My power is gone ...{end}
 
 {font3}Worthless humans!
-I will feast on you!{end}
+{font3}I will feast on you!{end}
 
-Your men are unshaken,
-even after meeting demons
-at their own gates.{06}{07}
-Do they know they're
-all going to die here?{end}
+Fiends! Your numbers may
+have breached our gates, but
+your luck just ran out!{06}{07}
+I forged Rayguard, the
+mightiest nation in the land!
+You dare to imagine yourself
+as stronger than I?{end}
 
 It seems ... I misjudged you ...
 Are you really ...
@@ -181,8 +183,9 @@ Today was unfortunate, ...
 but I look forward to our
 next encounter, {02}.{end}
 
-Let's give {39}em
-a bloodbath!{end}
+If it is a bloodbath
+they seek, then let us
+give them one!{end}
 
 I'm counting on you!
 Let's send them
@@ -193,7 +196,7 @@ I've sworn even my life!{end}
 
 Long live the Kaiser!{end}
 
-I regret nothing ...!{end}
+I regret nothing!{end}
 
 Y, Your Majesty ...{end}
 
@@ -249,7 +252,7 @@ If you intend to break the seal,
 please do it quickly.{end}
 
 Liana is the
-maiden of light?{end}
+Maiden of Light?{end}
 
 Yes, I see.
 We will find Liana.{end}
@@ -263,24 +266,26 @@ like the cowards you are!{06}{07}
 Now, reviving Alhazard
 should be our top priority.{end}
 
-Alhazard commands the
-Demon Tribe. Don't forget
-that, {02}.{06}{07}
-To control this world,
-we'll need power over both
-monsters and humans.{end}
+With Alhazard, I am
+sure the Demon Tribe will
+rally to our side.{06}{07}
+We only have to worry
+about conquering the humans.{end}
 
-That's right ... If you want
-true unification, you'll need
-to earn the demons' respect.{end}
+Conquering the humans ...
+That could be difficult.{06}{07}
+All this talk of unifying the
+world is good, but I wonder ...
+Will the Demon Tribe be
+willing to go along with it?{end}
 
 Let's not get ahead
 of ourselves. There are
 preparations to make.{06}{07}
 We need the young girl
-Liana, the maiden of light.{end}
+Liana, the Maiden of Light.{end}
 
-The maiden of light is
+The Maiden of Light is
 being sheltered
 in Castle Kalxath.{06}{07}
 You must cut through

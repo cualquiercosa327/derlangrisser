@@ -1,6 +1,6 @@
 DLROM=./resources/dl.rom
 CC=clang
-CFLAGS=-stdlib=libc++ -lstdc++ -O2 -fomit-frame-pointer
+CFLAGS=-stdlib=libc++ -lstdc++ -O2 -fomit-frame-pointer -march=native
 MD5=$(shell md5 -q $(DLROM))
 
 all:

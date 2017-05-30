@@ -11,18 +11,18 @@ this disgusting human blood
 flowing in my veins!{end}
 
 {font3}Sonya ...
-What is it you want
-with his holiness, Chaos?{end}
+{font3}What is it you want
+{font3}with his holiness, Chaos?{end}
 
 Argh! I won't give up until
 Chaos returns and brings
 death to this unfair world!{end}
 
 {font3}...{06}{07}
-{font3}Our god would
-never answer a vile
-being with human taint
-such as you!{end}
+{font3}{font3}Our god would
+{font3}never answer a vile
+{font3}being with human taint
+{font3}such as you!{end}
 
 Damn it all ...{06}{07}
 Why, why did Father have to
@@ -34,7 +34,7 @@ Sonya, please
 don't do it!{end}
 
 {font3}Damn!
-It's those humans!{end}
+{font3}It's those humans!{end}
 
 Sonya, when you summon
 Chaos, what do you plan to do?{end}
@@ -70,8 +70,8 @@ place for the Demon Tribe,
 much less half-breeds like me!{end}
 
 {font3}Sonya ... we will ...
-assist you in
-killing the humans.{end}
+{font3}assist you in
+{font3}killing the humans.{end}
 
 Humans, Demons ...{06}{07}
 No one wants me.
@@ -166,7 +166,8 @@ me mercy before I die.{06}{07}
 Why, why are you 
 kind to me now ...?{06}{07}
 I thought all humans were
-backstabbing, double-crossing--
+backstabbing,
+double-crossing--
 hateful and racist scum ...!{06}{07}
 I thought to myself, "These
 cruel, heartless people, ... 
@@ -216,7 +217,7 @@ she honestly felt lonely. {end}
 ...{end}
 
 But, we humans have
-to answer for that. {06}{07}
+to answer for that.{06}{07}
 If humans didn't
 persecute that girl ...
 If we had showed her
@@ -239,11 +240,11 @@ war-torn, tear-filled era!{end}
 {font3}Arghh--!{end}
 
 {font3}Die, fools!
-How dare you
-defile our temple!{end}
+{font3}How dare you
+{font3}defile our temple!{end}
 
 {font3}How could I lose
-to a mere human...?{end}
+{font3}to a mere human...?{end}
 
 {font3}...{end}
 

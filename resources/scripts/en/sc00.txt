@@ -113,9 +113,9 @@ DF{end}
 
 MP{end}
 
- + 1{end}
+{skip 3}+{skip 3}1{end}
 
- + 2{end}
+{skip 3}+{skip 3}2{end}
 
  was learned!{end}
 
@@ -157,7 +157,7 @@ Saleable Items{end}
 
 Unable to equip {02}{end}
 
-Gold{end}
+{end}
 
 You don't have enough money.{end}
 
@@ -211,7 +211,7 @@ Soldier{end}
 
 Monk{end}
 
-Pikeman{end}
+Spearman{end}
 
 Cavalry{end}
 
@@ -221,7 +221,7 @@ Flier{end}
 
 Bandit{end}
 
-Mariner{end}
+Sailor{end}
 
 Gel{end}
 
@@ -237,7 +237,7 @@ Ghost{end}
 
 Undead{end}
 
-Archer{end}
+Bowman{end}
 
 Ballista{end}
 

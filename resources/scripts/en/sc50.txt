@@ -149,7 +149,7 @@ you're completely helpless.{06}{07}
 At least I can give you
 a quick trip to hell ...{end}
 
-Heh heh heh ....
+Heh heh heh ...
 Go ahead, play your games.
 They'll do you no good.{end}
 
@@ -346,8 +346,8 @@ A sword in my good hand
 is worth a thousand of your
 bumbling men. Watch this!{end}
 
-At least I was able to see
-to see a mass Imperial Army
+At least I was able to
+see the whole Imperial Army
 in coordinated action ...{06}{07}
 Quite a sight ...{end}
 

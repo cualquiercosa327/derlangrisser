@@ -1,6 +1,6 @@
 
 {skip 65}{font4}Scenario {03}
-{skip 71}P{font0}rologue{06}{07}
+{font4}{skip 71}P{font0}rologue{06}{07}
 In its long history, the continent
 El Sallia has been a dark
 land marked by endless battle.{06}{07}
@@ -43,7 +43,7 @@ inn together to rescue Liana.{06}{07}
 
 
 {skip 65}{font4}Scenario {03}
-{skip 63}S{font0}etting {font4}O{font0}ff{06}{07}
+{font4}{skip 63}S{font0}etting {font4}O{font0}ff{06}{07}
 By a stroke of good fortune,
 {02} rescued Liana from
 her would-be kidnappers,
@@ -74,7 +74,7 @@ awaited them at the crossroads ...{06}{07}
 
 
 {skip 65}{font4}Scenario {03}
-{skip 53}S{font0}hrine of {font4}L{font0}ight{06}{07}
+{font4}{skip 53}S{font0}hrine of {font4}L{font0}ight{06}{07}
 Having bested the Imperial Knights
 in combat yet again, the
 companions pressed on in their
@@ -105,7 +105,7 @@ Sorcerers prepared an ambush ...{06}{07}
 
 
 {skip 65}{font4}Scenario {03}
-{skip 28}B{font0}attle at {font4}K{font0}alxath {font4}C{font0}astle{06}{07}
+{font4}{skip 28}B{font0}attle at {font4}K{font0}alxath {font4}C{font0}astle{06}{07}
 Having sustained considerable
 damage in the attack, Estool's
 Shrine of Light could adequately
@@ -136,7 +136,7 @@ of battle will a victor emerge.{06}{07}
 
 
 {skip 65}{font4}Scenario {03}
-{skip 68}I{font0}n {font4}F{font0}lames{06}{07}
+{font4}{skip 68}I{font0}n {font4}F{font0}lames{06}{07}
 The companions left Castle Kalxath
 to seek the powerful sorceress,
 Jessica, rumoured to know
@@ -162,7 +162,7 @@ recover the Dark Rod first.{06}{07}
 
 
 {skip 65}{font4}Scenario {03}
-{skip 40}H{font0}oly {font4}G{font0}round {font4}R{font0}eitel{06}{07}
+{font4}{skip 40}H{font0}oly {font4}G{font0}round {font4}R{font0}eitel{06}{07}
 Jessica revealed the Dark Rod was
 enshrined in Reitel, a sanctuary of
 light atop the highest mountain--
@@ -184,7 +184,7 @@ invaders desiring its powers.{06}{07}
 
 
 {skip 65}{font4}Scenario {03}
-{skip 30}G{font9}irl of the {font4}D{font0}emon {font4}T{font0}ribe{06}{07}
+{font4}{skip 30}Girl of the {font4}D{font0}emon {font4}T{font0}ribe{06}{07}
 Only moments before it was within
 {02}'s grasp, Egbert had
 snatched away the Dark Rod.{06}{07}
@@ -216,7 +216,7 @@ companions dashed into the fray.{06}{07}
 
 
 {skip 65}{font4}Scenario {03}
-{skip 50}T{font0}he {font4}S{font0}ky {font4}B{font0}ridge{06}{07}
+{font4}{skip 50}T{font0}he {font4}S{font0}ky {font4}B{font0}ridge{06}{07}
 After a short-lived alliance with
 General Leon of the Blue Dragon
 Knights, {02} resolved
@@ -251,7 +251,7 @@ their way through enemy lines ...{06}{07}
 
 
 {skip 65}{font4}Scenario {03}
-{skip 22}T{font0}he {font4}O{font0}ld {font4}S{font0}wordsman's {font4}F{font0}ort{06}{07}
+{font4}{skip 22}T{font0}he {font4}O{font0}ld {font4}S{font0}wordsman's {font4}F{font0}ort{06}{07}
 Having bested Kr{38}mer's regiment,
 {02} and his companions
 raced onward across bridge.{06}{07}
@@ -276,7 +276,7 @@ General Imelda and her division.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 32}B{font0}rave {font4}G{font0}eneral {font4}V{font0}argas{06}{07}
+{font4}{skip 32}B{font0}rave {font4}G{font0}eneral {font4}V{font0}argas{06}{07}
 After a long and winding journey,
 the companions drew near
 the ruins of Castle Baldea--now
@@ -297,7 +297,7 @@ Blazing Dragon Army.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 30}H{font0}oly {font4}S{font0}word, {font4}L{font0}angrisser{06}{07}
+{font4}{skip 30}H{font0}oly {font4}S{font0}word, {font4}L{font0}angrisser{06}{07}
 Hundreds of years ago, the
 Descendants of Light reigned over
 Baldea, the kingdom of light,
@@ -327,7 +327,7 @@ a struggle for the holy sword.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 8}T{font0}he {font4}I{font0}ron {font4}G{font0}ates of the {font4}B{font0}arracks{06}{07}
+{font4}{skip 8}T{font0}he {font4}I{font0}ron {font4}G{font0}ates of the {font4}B{font0}arracks{06}{07}
 At long last, Langrisser
 was again in the hands of a
 descendant of light.{06}{07}
@@ -353,7 +353,7 @@ division of the Imperial Army ...{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 47}K{font0}aiser {font4}B{font0}ernhardt{06}{07}
+{font4}{skip 47}K{font0}aiser {font4}B{font0}ernhardt{06}{07}
 Having defeated
 General Leon once more, the
 companions began their invasion
@@ -384,7 +384,7 @@ Army of Darkness has begun.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 40}T{font0}he {font4}H{font0}arbour {font4}B{font0}attle{06}{07}
+{font4}{skip 40}T{font0}he {font4}H{font0}arbour {font4}B{font0}attle{06}{07}
 Having defeated B{3a}ser, the
 companions pursued Bernhardt
 who had fled the castle
@@ -413,7 +413,7 @@ Imelda's ships in the confusion.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 64}M{font0}arionette{06}{07}
+{font4}{skip 64}M{font0}arionette{06}{07}
 Hundreds of years ago, the
 Descendants of Light stormed
 B{3a}ser's lair in the forbidden
@@ -435,7 +435,7 @@ monsters led by a young girl.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 16}R{font0}evival of the {font4}D{font0}emon {font4}S{font0}word{06}{07}
+{font4}{skip 16}R{font0}evival of the {font4}D{font0}emon {font4}S{font0}word{06}{07}
 Within the heart of the evil
 Castle Velzeria, a dark and unholy
 ritual was already underway.{06}{07}
@@ -459,7 +459,7 @@ began to unravel once more ...{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 39}T{font0}he {font4}K{font0}ey to the {font4}S{font0}eal{06}{07}
+{font4}{skip 39}T{font0}he {font4}K{font0}ey to the {font4}S{font0}eal{06}{07}
 After Egbert dispelled the seal on
 the sword, a well of darkness
 erupted into the lands once again.{06}{07}
@@ -468,9 +468,9 @@ in the hands of Kaiser Bernhardt,
 it seemed as though there were
 none left to oppose the empire.{06}{07}
 After Liana dispelled B{3a}ser's
-enchantment from L{37}na, the maiden
-of darkness revealed Langrisser's
-power was incomplete.{06}{07}
+enchantment from L{37}na, the
+Maiden of Darkness revealed
+Langrisser's power was incomplete.{06}{07}
 The Might of Elthlead, still dormant
 of its true powers, lacked the
 strength to challenge Alhazard.{06}{07}
@@ -488,7 +488,7 @@ unseal Langrisser once more.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 72}R{font0}evenge{06}{07}
+{font4}{skip 72}R{font0}evenge{06}{07}
 With the key to Langrisser's
 awakening in hand, the companions
 made haste in their preparations
@@ -500,7 +500,7 @@ the Dark Blade.{06}{07}
 But on the road to Castle Velzeria,
 a lone girl lay in wait.{06}{07}
 Sonya met them--blazing with rage
-over the her master B{3a}ser's death,
+over her master B{3a}ser's death,
 the Kaiser's theft of the Dark Blade
 and the loss of her brother.{06}{07}
 With a horde of monsters waiting
@@ -515,7 +515,7 @@ the red-hot iron of revenge.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 13}S{font0}trongest {font4}K{font0}nights in the {font4}L{font0}and{06}{07}
+{font4}{skip 13}S{font0}trongest {font4}K{font0}nights in the {font4}L{font0}and{06}{07}
 Having spirited away the Dark Blade
 from the cursed land, Velzeria,
 Kaiser Bernhardt walled himself and
@@ -536,7 +536,7 @@ blaze forth on the battlefield.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 53}T{font0}he {font4}E{font0}vil {font4}B{font0}lade{06}{07}
+{font4}{skip 53}T{font0}he {font4}E{font0}vil {font4}B{font0}lade{06}{07}
 Having dealt Leon a mortal blow,
 the companions were positioned to
 breach the castle's outer defences.{06}{07}
@@ -563,7 +563,7 @@ age of cataclysmic struggle.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 34}L{font0}egend {font4}C{font0}omes to {font4}P{font0}ass{06}{07}
+{font4}{skip 34}L{font0}egend {font4}C{font0}omes to {font4}P{font0}ass{06}{07}
 Kaiser Bernhardt's terrible age of
 war came suddenly to a violent end.{06}{07}
 As the companions breathed a sigh
@@ -581,7 +581,7 @@ a terrible, powerful god.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 75}L{font0}unatic{06}{07}
+{font4}{skip 75}L{font0}unatic{06}{07}
 Sonya, a demi-human tainted
 with boundless hate, decided to
 call forth Chaos on her own.{06}{07}
@@ -600,7 +600,7 @@ the forbidden Castle Velzeria ...{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 13}S{font0}trongest {font4}K{font0}nights in the {font4}L{font0}and{06}{07}
+{font4}{skip 13}S{font0}trongest {font4}K{font0}nights in the {font4}L{font0}and{06}{07}
 Having spirited away the Dark Blade
 from the cursed land, Velzeria,
 Kaiser Bernhardt walled himself and
@@ -621,7 +621,7 @@ blaze forth on the battlefield.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 44}T{font0}he {font4}E{font0}nd of {font4}L{font0}egend{06}{07}
+{font4}{skip 44}T{font0}he {font4}E{font0}nd of {font4}L{font0}egend{06}{07}
 Having dealt Leon a mortal blow,
 the companions were positioned to
 breach the castle's outer defences.{06}{07}
@@ -648,7 +648,7 @@ age of cataclysmic struggle.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 40}T{font0}he {font4}H{font0}arbour {font4}B{font0}attle{06}{07}
+{font4}{skip 40}T{font0}he {font4}H{font0}arbour {font4}B{font0}attle{06}{07}
 With the fall of Kaiser Bernhardt,
 B{3a}ser, Prince of Darkness
 and puppet master of the
@@ -669,7 +669,7 @@ it besieged by monsters.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 50}I{font0}melda's {font4}A{font0}mbush{06}{07}
+{font4}{skip 50}I{font0}melda's {font4}A{font0}mbush{06}{07}
 With the wind to their
 backs, the companions sailed
 onward to Velzeria.{06}{07}
@@ -689,7 +689,7 @@ to board {02}'s ship.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 65}M{font0}arionette{06}{07}
+{font4}{skip 65}M{font0}arionette{06}{07}
 Hundreds of years ago, the
 Descendants of Light stormed
 B{3a}ser's lair in the forbidden
@@ -711,7 +711,7 @@ monsters led by a young girl.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 58}F{font0}rozen {font4}F{font0}lame{06}{07}
+{font4}{skip 58}F{font0}rozen {font4}F{font0}lame{06}{07}
 After failing to steal a ship,
 the companions decided to
 follow the path along the
@@ -736,7 +736,7 @@ burst into red flames.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 68}D{font0}ead {font4}E{font0}nd{06}{07}
+{font4}{skip 68}D{font0}ead {font4}E{font0}nd{06}{07}
 While the companions managed to
 secure a ship and take to the sea,
 it was not long before they came
@@ -756,7 +756,7 @@ attempted to waylay the monsters.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 16}R{font0}evival of the {font4}D{font0}emon {font4}S{font0}word{06}{07}
+{font4}{skip 16}R{font0}evival of the {font4}D{font0}emon {font4}S{font0}word{06}{07}
 The companions continued on to the
 Temple of Darkness to attempt to
 prevent the Dark Blade's revival.{06}{07}
@@ -779,7 +779,7 @@ darkness would soon be broken.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 39}T{font0}he {font4}K{font0}ey to the {font4}S{font0}eal{06}{07}
+{font4}{skip 39}T{font0}he {font4}K{font0}ey to the {font4}S{font0}eal{06}{07}
 The companions had failed ...
 The seal on Alhazard was broken.{06}{07}
 However, to the surprise of
@@ -814,7 +814,7 @@ in the distant ruins of Elrad.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 72}R{font0}evenge{06}{07}
+{font4}{skip 72}R{font0}evenge{06}{07}
 With the key to Langrisser's
 awakening in hand, the companions
 made haste in their preparations for
@@ -849,7 +849,7 @@ the red-hot iron of revenge.{06}{07}
 
 
 {skip 65}{font4}Scenario {03}
-{skip 68}G{font0}o {font4}A{font0}head{06}{07}
+{font4}{skip 68}G{font0}o {font4}A{font0}head{06}{07}
 Invited by General Leon of the
 Blue Dragon Knights, {02},
 Hein and Rohga resolved
@@ -876,7 +876,7 @@ on the opposite side of a ravine.{06}{07}
 
 
 {skip 65}{font4}Scenario {03}
-{skip 68}{font0}"WANTED"{06}{07}
+{font4}{skip 68}{font0}"WANTED"{06}{07}
 Throughout history, Langrisser
 has lent its wielder infinite power.
 But having been lost for hundreds
@@ -900,7 +900,7 @@ the Army of Light to stop them.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 3}T{font0}he {font4}O{font0}ld {font4}S{font0}wordsman's {font4}L{font0}ast {font4}S{font0}tand{06}{07}
+{font4}{skip 3}T{font0}he {font4}O{font0}ld {font4}S{font0}wordsman's {font4}L{font0}ast {font4}S{font0}tand{06}{07}
 Thanks to Laird's diligent
 scouting, the location of the
 Baldean ruins was uncovered.{06}{07}
@@ -920,7 +920,7 @@ prevent the company's advance.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 21}T{font0}he {font4}H{font0}oly {font4}B{font0}lade's {font4}M{font0}ystery{06}{07}
+{font4}{skip 21}T{font0}he {font4}H{font0}oly {font4}B{font0}lade's {font4}M{font0}ystery{06}{07}
 Hundreds of years ago, the
 Descendants of Light reigned over
 Baldea, the kingdom of light, blessed
@@ -947,7 +947,7 @@ to a struggle for the holy sword.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 62}S{font0}ad {font4}P{font0}ursuit{06}{07}
+{font4}{skip 62}S{font0}ad {font4}P{font0}ursuit{06}{07}
 With the self-proclaimed
 protectors of the Holy Blade in
 full retreat, the Empire was able
@@ -972,7 +972,7 @@ are about to clash with
 
 
 {skip 63}{font4}Scenario {03}
-{skip 70}G{font0}enocide{06}{07}
+{font4}{skip 70}G{font0}enocide{06}{07}
 After the company's triumphant
 return to the imperial capital,
 they received new orders to
@@ -994,7 +994,7 @@ already waiting to fight back.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 9}T{font0}he {font4}D{font0}efence {font4}C{font0}amp's {font4}I{font0}ron {font4}W{font0}all{06}{07}
+{font4}{skip 9}T{font0}he {font4}D{font0}efence {font4}C{font0}amp's {font4}I{font0}ron {font4}W{font0}all{06}{07}
 Despite their best efforts, the
 Salrath forces were nothing to
 {02} and his company.{06}{07}
@@ -1017,7 +1017,7 @@ nearby fort to fend them off.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 41}T{font0}he {font4}F{font0}all of {font4}K{font0}alxath{06}{07}
+{font4}{skip 41}T{font0}he {font4}F{font0}all of {font4}K{font0}alxath{06}{07}
 Having arrived at Castle Kalxath,
 {02} and the Four Heavenly
 Dragons began a full-scale assault
@@ -1042,7 +1042,7 @@ remain shrouded in mystery ...{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 73}T{font0}riangle{06}{07}
+{font4}{skip 73}T{font0}riangle{06}{07}
 Velzeria, the forbidden land, was
 said to seal the true powers of the
 Demon Tribe, a race of monsters who
@@ -1068,7 +1068,7 @@ was at hand.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 62}L{font0}ove {font4}S{font0}onya{06}{07}
+{font4}{skip 62}L{font0}ove {font4}S{font0}onya{06}{07}
 From the battle between B{3a}ser,
 the Empire and the Army of Light,
 the Empire emerged victorious.{06}{07}
@@ -1093,7 +1093,7 @@ guarding the gates.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 56}D{font0}ark {font4}B{font0}reaker{06}{07}
+{font4}{skip 56}D{font0}ark {font4}B{font0}reaker{06}{07}
 After all their confrontations,
 Sonya's deep love for her
 brother melted her icy heart.{06}{07}
@@ -1117,7 +1117,7 @@ in the castle interior.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 18}S{font0}cattered {font4}S{font0}tars {font4}E{font0}verywhere{06}{07}
+{font4}{skip 18}S{font0}cattered {font4}S{font0}tars {font4}E{font0}verywhere{06}{07}
 With the Prince of Darkness
 fallen in the last battle,
 the dawn of darkness faded
@@ -1142,7 +1142,7 @@ by Lester and his men.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 53}T{font0}he {font4}O{font0}ld {font4}C{font0}astle{06}{07}
+{font4}{skip 53}T{font0}he {font4}O{font0}ld {font4}C{font0}astle{06}{07}
 The army of Light marched south
 and claimed the ancient Twin Castle
 as their new stronghold.{06}{07}
@@ -1166,7 +1166,7 @@ against {02} once again.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 51}D{font0}ecisive {font4}B{font0}attle{06}{07}
+{font4}{skip 51}D{font0}ecisive {font4}B{font0}attle{06}{07}
 Having scattered Cherie's
 troops, the company moved on
 to the Twin Castle's interior.{06}{07}
@@ -1200,7 +1200,7 @@ the hands of the victor.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 20}T{font0}he {font4}G{font0}reat {font4}R{font0}iver of {font4}R{font0}egret{06}{07}
+{font4}{skip 20}T{font0}he {font4}G{font0}reat {font4}R{font0}iver of {font4}R{font0}egret{06}{07}
 B{3a}ser's plot to use Rayguard
 as a pawn to release the full
 power of Chaos' Glory was
@@ -1225,7 +1225,7 @@ and a naval detachment.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 58}L{font0}ight {font4}F{font0}alls ...{06}{07}
+{font4}{skip 58}L{font0}ight {font4}F{font0}alls ...{06}{07}
 The imperial troops, having finally
 cornered the Army of Light, were
 shocked to discover the light forces
@@ -1246,7 +1246,7 @@ regardless of who emerged victor.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 62}D{font0}ark {font4}P{font0}ower{06}{07}
+{font4}{skip 62}D{font0}ark {font4}P{font0}ower{06}{07}
 Having dealt the Army of Light
 an unrecoverable blow, the
 only remaining enemies were
@@ -1271,7 +1271,7 @@ return to the Rayguard capital ...{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 21}D{font0}angerous {font4}C{font0}astle {font4}V{font0}elzeria{06}{07}
+{font4}{skip 21}D{font0}angerous {font4}C{font0}astle {font4}V{font0}elzeria{06}{07}
 The Blazing Dragon Army and
 Water Dragon Navy worked
 together to cut a path into the
@@ -1291,7 +1291,7 @@ for humanity blazed ever hotter.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 62}S{font0}ad {font4}A{font0}ssault{06}{07}
+{font4}{skip 62}S{font0}ad {font4}A{font0}ssault{06}{07}
 Though the child of the love between
 a demon and human, Sonya's heart
 remained closed, even as she fell to
@@ -1312,7 +1312,7 @@ sadness from the loss of his sister.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 60}M{font0}artial {font4}L{font0}aw{06}{07}
+{font4}{skip 60}M{font0}artial {font4}L{font0}aw{06}{07}
 Langrisser, the legendary
 blade capable of granting its
 wielder infinite power, has
@@ -1337,7 +1337,7 @@ prepared an impenetrable defence.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 47}K{font0}aiser {font4}B{font0}ernhardt{06}{07}
+{font4}{skip 47}K{font0}aiser {font4}B{font0}ernhardt{06}{07}
 Having crushed the generals
 at the gate, the companions
 pressed into the Rayguard interior
@@ -1361,7 +1361,7 @@ curtains on the Kaiser's ambitions.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 70}G{font0}enocide{06}{07}
+{font4}{skip 70}G{font0}enocide{06}{07}
 Having crushed the Kaiser and
 claimed Alhazard, the companions
 found a new ally in B{3a}ser.{06}{07}
@@ -1392,7 +1392,7 @@ conduct total war on the territory.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 42}K{font0}alxath, {font4}S{font0}urrender!{06}{07}
+{font4}{skip 42}K{font0}alxath, {font4}S{font0}urrender!{06}{07}
 Having left Salrath territory a
 smouldering mess, the companions
 closed in on Castle Kalxath--the
@@ -1417,9 +1417,9 @@ strategy for peace in El Sallia.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 17}T{font0}he {font4}T{font0}rue {font4}P{font0}ower of {font4}A{font0}lhazard{06}{07}
+{font4}{skip 17}T{font0}he {font4}T{font0}rue {font4}P{font0}ower of {font4}A{font0}lhazard{06}{07}
 The two catalysts for unsealing
-Alhazard--the maiden of light,
+Alhazard--the Maiden of Light,
 Liana, and the Dark Rod--were
 collected by the companions.{06}{07}
 Having travelled to the
@@ -1438,7 +1438,7 @@ into the castle ...{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 31}M{font0}essenger of {font4}D{font0}arkness{06}{07}
+{font4}{skip 31}M{font0}essenger of {font4}D{font0}arkness{06}{07}
 With the seal on Chaos' Glory
 broken, the sword once again
 had the power to summon and
@@ -1460,7 +1460,7 @@ imperials fled from Castle Velzeria.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 48}S{font0}cattered {font4}W{font0}aves{06}{07}
+{font4}{skip 48}S{font0}cattered {font4}W{font0}aves{06}{07}
 By {02}'s blade, the brave
 General Vargas met his end.
 He secured his Kaiser's
@@ -1480,7 +1480,7 @@ their enemies in a naval battle.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 63}T{font0}win {font4}C{font0}astle{06}{07}
+{font4}{skip 63}T{font0}win {font4}C{font0}astle{06}{07}
 General of the Blazing Dragon Army,
 Vargas, and general of the
 Water Dragon Navy, Imelda, both
@@ -1504,7 +1504,7 @@ with the Blue Dragon Knights.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 32}T{font0}he {font4}E{font0}mpire's {font4}L{font0}ast {font4}D{font0}ay{06}{07}
+{font4}{skip 32}T{font0}he {font4}E{font0}mpire's {font4}L{font0}ast {font4}D{font0}ay{06}{07}
 At the top of Twin Castle, a
 thin bridge connects the two spires.
 The bridge is difficult to attack
@@ -1528,7 +1528,7 @@ for Bernhardt's head.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 30}T{font0}o {font4}L{font0}egendary {font4}D{font0}arkness{06}{07}
+{font4}{skip 30}T{font0}o {font4}L{font0}egendary {font4}D{font0}arkness{06}{07}
 All alone, the Descendants of Light
 cowered as though children
 hiding from a storm in their
@@ -1550,7 +1550,7 @@ light and dark is at hand.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 8}T{font0}he {font4}W{font0}ay of the {font4}S{font0}upreme {font4}R{font0}uler{06}{07}
+{font4}{skip 8}T{font0}he {font4}W{font0}ay of the {font4}S{font0}upreme {font4}R{font0}uler{06}{07}
 Casting off the way of the light, the
 darkness, and imperial unification,
 {02} decided to follow his
@@ -1575,7 +1575,7 @@ of El Sallia begins here.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 23}B{font0}laze of the {font4}B{font0}lue {font4}D{font0}ragon{06}{07}
+{font4}{skip 23}B{font0}laze of the {font4}B{font0}lue {font4}D{font0}ragon{06}{07}
 Having been driven back by the
 attack, the imperial forces took
 refuge in Castle Velzeria--home
@@ -1594,7 +1594,7 @@ force of the Blue Dragon Knights.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 47}K{font0}aiser {font4}B{font0}ernhardt{06}{07}
+{font4}{skip 47}K{font0}aiser {font4}B{font0}ernhardt{06}{07}
 Having smashed Leon's resistance
 at the castle gate, the companions
 entered the castle to root out the
@@ -1618,7 +1618,7 @@ regret the wars he had started.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 56}R{font0}uins of {font4}G{font0}aia{06}{07}
+{font4}{skip 56}R{font0}uins of {font4}G{font0}aia{06}{07}
 Once the mightiest man in El Sallia,
 Kaiser Bernhardt breathed his
 last as a cave-in buried he and
@@ -1647,7 +1647,7 @@ from claiming it for himself.{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 64}N{font0}eo {font4}G{font0}loria{06}{07}
+{font4}{skip 64}N{font0}eo {font4}G{font0}loria{06}{07}
 Even the heavens above where
 Lushiris, the goddess of light, dwells
 have become a battlefield.{06}{07}
@@ -1670,7 +1670,7 @@ gods from whence it all began.{06}{07}
 
 
 {skip 62}{font4}Scenario ?1
-{skip 48}M{font0}uscular {font4}S{font0}hrine{06}{07}
+{font4}{skip 48}M{font0}uscular {font4}S{font0}hrine{06}{07}
 Through careful inspection,
 {02} found a hidden
 passageway within the holy
@@ -1697,7 +1697,7 @@ if you hope to win!"{06}{07}
 
 
 {skip 62}{font4}Scenario ?2
-{skip 65}Q{font0}uiz {font4}T{font0}ime!{06}{07}
+{font4}{skip 65}Q{font0}uiz {font4}T{font0}ime!{06}{07}
 Having crossed the bridge,
 the Descendants of Light
 discovered a mysterious cave
@@ -1721,7 +1721,7 @@ his questions correctly ...{06}{07}
 
 
 {skip 62}{font4}Scenario ?3
-{skip 21}I{font0}'ve {font4}S{font0}een {font4}Y{font0}ou {font4}S{font0}omewhere{06}{07}
+{font4}{skip 21}I{font0}'ve {font4}S{font0}een {font4}Y{font0}ou {font4}S{font0}omewhere{06}{07}
 Having crossed the bridge,
 the imperial forces discovered
 a mysterious cave at the
@@ -1751,7 +1751,7 @@ could never have imagined ...{06}{07}
 
 
 {skip 63}{font4}Scenario {03}
-{skip 28}F{font0}ar {font4}A{font0}way, to the {font4}L{font0}egend{06}{07}
+{font4}{skip 28}F{font0}ar {font4}A{font0}way, to the {font4}L{font0}egend{06}{07}
 The visage of the Castle Velzeria
 sent icy waves into the hearts
 of the company as they

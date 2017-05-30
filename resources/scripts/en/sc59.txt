@@ -60,7 +60,7 @@ It's nothing ...{end}
 Are you sure
 you're okay?{06}{07}
 A decisive battle is starting,
-and it's against {02} ... {06}{07}
+and it's against {02} ...{06}{07}
 If you don't want
 to fight him, now is the
 time to leave.{end}
@@ -337,14 +337,14 @@ we cannot leave this
 world to the Empire's care!{end}
 
 Egbert, it was just 
-a little longer ... {06}{07}
+a little longer ...{06}{07}
 You could have brought
 peace with the Descendants.{06}{07}
 If you'd waited for us,
 we'd have welcomed you.{end}
 
 I'm sure my master is already
-aware of the reasons. {06}{07}
+aware of the reasons.{06}{07}
 In forbidden research,
 I was nearly
 possessed by demons.{06}{07}

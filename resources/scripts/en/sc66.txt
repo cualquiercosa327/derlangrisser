@@ -165,10 +165,10 @@ one except for Liana!{end}
 I leave the rest to you ...{end}
 
 {font3}Uuggghhh ...
-That was no good ...{end}
+{font3}That was no good ...{end}
 
 {font3}Ugh ...
-Damn humans ...!{end}
+{font3}Damn humans ...!{end}
 
 Jessica is preparing
 for evacuation, too.{06}{07}
@@ -266,7 +266,7 @@ Kalxath, bring peace
 to this world!{end}
 
 Arrgh!
-N, not yet....{06}{07}
+N, not yet ...{06}{07}
 We ... Kalxath ...
 Can't give in ...{end}
 
@@ -319,7 +319,7 @@ You must think you are pretty
 great for coming this far.
 Too bad you won't go further!{end}
 
-I  ...
+I ...
 I have not ...{end}
 
 I'm plummeting to my death ...!{end}

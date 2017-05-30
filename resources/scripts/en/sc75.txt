@@ -47,7 +47,7 @@ castle gates!{end}
 Bernhardt, Bernhardt ...
 You're a slippery fellow.{end}
 
-I've located the last twigs
+So these are the last twigs
 propping up the Imperial shack.
 Time to kick you away.{end}
 
@@ -66,8 +66,9 @@ and a good one at that.{06}{07}
 You shall learn how worthy
 of my generals I am!{end}
 
-Impressive talk.
-Let's see if you're honest.{end}
+A lovely speech.
+Allow me to test whether your
+old ass can back it up.{end}
 
 Just like cornered rats ...{end}
 
@@ -98,10 +99,9 @@ The line is drawn.{end}
 No, this is nonsense.
 How vexing, vexing ...{end}
 
-I don't care
-who the hell you are.{06}{07}
-Shut your mouth
-or I'll take your head!{end}
+Hey there old man,
+I'm here to retire you.
+Forcefully.{end}
 
 I'll send you to
 the next world, even
@@ -135,17 +135,18 @@ I ... I can't do any mor--{end}
 
 Gaaahh ...!{end}
 
-Hmmm, I'm not too rusty.
-Decent swordsmanship
-for a man out of practise.{end}
+Such fantastic swordplay!
+Seeing such spirit has my blood
+boiling in anticipation.{06}{07}
+It is a stroke of fortune
+that sent me men worth killing!{end}
 
-His Majesty is a fighter
-by nature, and his talent
-will not dull easily.{end}
+His Majesty still speaks
+with the heart of a warrior.{end}
 
-Whatever you say.{end}
+Well said!{end}
 
-That is exactly why
+This is exactly why
 we chose Castle Velzeria!{06}{07}
 These iron walls cater to our
 strongest formation.
@@ -330,9 +331,9 @@ I shall join you very soon.{end}
 
 Uuggghhh ...{end}
 
-I'll never understand how
-you've done this, {02}.{06}{07}
-But you will not pass me!{end}
+I cannot fathom how
+you traitors made it this far,
+but you will not pass!{end}
 
 If only those damned ...
 Dragon Knights would do
@@ -351,8 +352,8 @@ I will defeat you!{end}
 Gaaaahh ...!
 Not yet. It's ... not over--!{end}
 
-If the door won't
-open, then I'll break it down.{end}
+Get out of my way, else
+I'll get you out of my way!{end}
 
 Aaaaaahhh--!
 This sh, shouldn't
@@ -485,9 +486,8 @@ Leon ...{end}
 
 My god ...!
 Leon, you've done enough.{06}{07}
-As your Kaiser I
-dismisses you
-from your sworn oath.{end}
+As Kaiser I dissolve
+your sworn oath.{end}
 
 N, no ... Majesty ...
 Please allow a dying Knight ...

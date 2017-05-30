@@ -76,205 +76,205 @@ A traveller's knife used{end}
 
 for self-defence.{end}
 
-AT + 1{end}
+AT{skip 2}+{skip 3}1{end}
 
 A giant hammer which has one{end}
 
 side of its head curved.{end}
 
-AT + 2{end}
+AT{skip 2}+{skip 3}2{end}
 
 A long, heavy,{end}
 
 one-handed blade.{end}
 
-AT + 4{end}
+AT{skip 2}+{skip 3}4{end}
 
 A staff that focuses the magical{end}
 
 powers of its wielder.{end}
 
-Mg.Range+2, Mg.Dmg+1{end}
+M.{skip 2}Range{skip 3}+{skip 3}2, M.{skip 2}AT{skip 2}+{skip 3}1{end}
 
 A flaming lance infused with the{end}
 
 power of magic.{end}
 
-AT + 6{end}
+AT{skip 2}+{skip 3}6{end}
 
 A great axe smeared in blood,{end}
 
 bearing an ancient curse.{end}
 
-AT + 8, DF - 3{end}
+AT{skip 2}+{skip 3}8, DF{skip 2}-{skip 3}3{end}
 
 A sword wielded by a great hero{end}
 
 in ancient times to slay a dragon.{end}
 
-AT + 7{end}
+AT{skip 2}+{skip 3}7{end}
 
 Legendary holy blade forged by{end}
 
 King Sieghart of Elthlead.{end}
 
-AT + 3, DF + 1{end}
+AT{skip 2}+{skip 3}3, DF{skip 2}+{skip 3}1{end}
 
 Blessed with the holy{end}
 
 power of Lushiris.{end}
 
-AT + 9, DF + 2, A + 3, D + 1{end}
+AT{skip 2}+{skip 3}9, DF{skip 2}+{skip 3}2, A{skip 2}+{skip 3}3, D{skip 2}+{skip 3}1{end}
 
 Used in body building, an item for{end}
 
-true men. Is it a summoner ...?{end}
+true men. Is it enchanted ...?{end}
 
-AT + 1, MV - 1, Summon Aniki{end}
+AT{skip 2}+{skip 3}1, MV{skip 2}+{skip 3}1, Summon Aniki{end}
 
 An old sword with a Pegasus and{end}
 
 star on its hilt. Doubles your EXP.{end}
 
-AT - 4, DF - 3, A - 2, EXP * 2{end}
+AT{skip 2}-{skip 3}4, DF{skip 2}-{skip 3}3, A{skip 2}-{skip 3}2, EXP{skip 2}*{skip 3}2{end}
 
 A beautiful, sparkling crystal with{end}
 
 a mystic aura sealed within.{end}
 
-MP * 2, Magic Range + 3{end}
+MP{skip 2}*{skip 3}2, M.{skip 2}Range{skip 3}+{skip 3}3{end}
 
 A Holy Rod, the key to releasing{end}
 
 Langrisser's holy power.{end}
 
-Magic ability up{end}
+M.{skip 2}Range{skip 3}+{skip 3}2, M.{skip 2}AT{skip 2}+{skip 3}1, M.{skip 2}DF{skip 3}+{skip 3}30{end}
 
 A Holy Rod, the key to releasing{end}
 
 Langrisser's holy power.{end}
 
-Magic ability up{end}
+M.{skip 2}Range{skip 3}+{skip 3}2, M.{skip 2}AT{skip 2}+{skip 3}1, M.{skip 2}DF{skip 3}+{skip 3}30{end}
 
 A Dark Rod, the key to releasing{end}
 
 Alhazard's dark power.{end}
 
-Magic ability up{end}
+M.{skip 2}Range{skip 3}+{skip 3}2, M.{skip 2}AT{skip 2}+{skip 3}2, M.{skip 2}DF{skip 3}+{skip 3}10{end}
 
 A bow made of the finest yew.{end}
 
-AT - 2, MV - 2{end}
+AT{skip 2}-{skip 3}2, MV{skip 2}-{skip 3}2{end}
 
-Attack range 1 - 3{end}
+Attack Range 1{skip 2}-{skip 2}3{end}
 
 A powerful, mechanical crossbow.{end}
 
-AT - 4, MV - 2{end}
+AT{skip 2}-{skip 3}4, MV{skip 2}-{skip 3}3{end}
 
-Attack range 1 - 6{end}
+Attack Range 1{skip 2}-{skip 2}6{end}
 
 A blade of darkness infused{end}
 
 with Chaos' power.{end}
 
-AT + 12, DF + 1, A + 3, D + 1{end}
+AT{skip 2}+{skip 3}12, DF{skip 2}+{skip 3}1, A{skip 2}+{skip 3}3, D{skip 2}+{skip 3}1{end}
 
 A blade of darkness infused{end}
 
 with Chaos' power{end}
 
-AT + 12, DF + 1, A + 3, D + 1{end}
+AT{skip 2}+{skip 3}12, DF{skip 2}+{skip 3}1, A{skip 2}+{skip 3}3, D{skip 2}+{skip 3}1{end}
 
 A shield engraved with images of{end}
 
-ancient gods.  Is it a summoner ...?{end}
+ancient gods. Is it enchanted ...?{end}
 
-DF + 3, D + 1, Summon Sleipnir{end}
+DF{skip 2}+{skip 3}3, D{skip 2}+{skip 3}1, Summon Sleipnir{end}
 
 A wooden shield{end}
 
 reinforced by iron bars.{end}
 
-DF + 1{end}
+DF{skip 2}+{skip 3}1{end}
 
 A large, heavy shield{end}
 
 reinforced with iron plating.{end}
 
-DF + 2{end}
+DF{skip 2}+{skip 3}2{end}
 
 An armour made of metal rings,{end}
 
 woven together into chains.{end}
 
-DF + 3{end}
+DF{skip 2}+{skip 3}3{end}
 
 Very heavy, durable plates to{end}
 
 cover the whole torso.{end}
 
-DF + 4{end}
+DF{skip 2}+{skip 3}4{end}
 
 Said to have fallen from the{end}
 
 sky. Was it crafted by humans ...?{end}
 
-A + 10, D + 10{end}
+AT{skip 2}+{skip 3}10, DF{skip 2}+{skip 3}10{end}
 
 Durable cloth, made to withstand{end}
 
 nature's harsh elements.{end}
 
-DF + 1, MDF + 10{end}
+DF{skip 2}+{skip 3}1, M.DF{skip 2}+{skip 3}10{end}
 
 A light, yet strong armour{end}
 
 made from dragon scales.{end}
 
-DF + 4{end}
+DF{skip 2}+{skip 3}4{end}
 
 A mystic robe enhanced{end}
 
 by a mysterious power.{end}
 
-DF + 2, MDF + 20{end}
+DF{skip 2}+{skip 3}2, M.DF{skip 2}+{skip 3}20{end}
 
 A mysterious talisman containing{end}
 
 the power of Mother Nature.{end}
 
-MDF + 15, troops included{end}
+M.DF{skip 2}+{skip 3}15, troops included{end}
 
 A gleaming cross blessed{end}
 
 by saintly prayers.{end}
 
-D + 2, MDF + 20{end}
+D{skip 2}+{skip 3}2, M.DF{skip 2}+{skip 3}20{end}
 
 A necklace crafted from{end}
 
 a glowing, magical stone.{end}
 
-Command Range + 2, D + 3{end}
+Command Range{skip 2}+{skip 3}2, D{skip 2}+{skip 3}3{end}
 
 Boots that enable their wearer to{end}
 
 run swiftly as the wind.{end}
 
-MV + 2, troops included{end}
+MV{skip 2}+{skip 3}2, troops included{end}
 
 A beautiful crown{end}
 
 with mysterious powers.{end}
 
-A + 3, D + 2, Command Range + 2{end}
+A{skip 2}+{skip 3}3, D{skip 2}+{skip 3}2, Command Range{skip 2}+{skip 3}2{end}
 
 The chain which bound the dark{end}
 
-wolf, Fenrir.  Is it a summoner ...?{end}
+wolf, Fenrir. Is it enchanted ...?{end}
 
-DF + 1, Summon Fenrir{end}
+DF{skip 2}+{skip 3}1, M.DF{skip 2}+{skip 3}10, Summon Fenrir{end}
 
 An ancient stone with a mysterious{end}
 

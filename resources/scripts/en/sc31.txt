@@ -1,7 +1,7 @@
 Your Majesty!{end}
 
 The Blue Dragon Knights
-have been wiped out ... {06}{07}
+have been wiped out ...{06}{07}
 We tried to hold our enemy
 at the castle wall, but the
 Imperial Army succumbed.
@@ -33,7 +33,7 @@ It was our belief in
 ourselves that brought
 us this far!{06}{07}
 Langrisser's power is
-drawn from our faith ... {06}{07}
+drawn from our faith ...{06}{07}
 With that, we shall
 defeat you and turn back
 the tide of darkness!{end}
@@ -66,11 +66,11 @@ You're wrong, Bernhardt!{end}
 
 Gwa ha ha ha ...
 I won't give in to
-your babble! {06}{07}
+your babble!{06}{07}
 If I take Langrisser
 from you runts,
 there won't be a soul
-left to oppose me. {06}{07}
+left to oppose me.{06}{07}
 Come forth, my
 minions of the night!{end}
 
@@ -169,7 +169,7 @@ Sorry!
 I blundered ...{end}
 
 Alhazard was never meant
-to be reawakened ... {06}{07}
+to be reawakened ...{06}{07}
 We must seal its
 power for good!{end}
 
@@ -238,7 +238,7 @@ I shall fight ...
 until my hands can no
 longer grasp this blade.{06}{07}
 Until this body can
-move no longer ... {06}{07}
+move no longer ...{06}{07}
 Until the very end ...{06}{07}
 For I vowed to fight
 in His Majesty's name,
@@ -270,7 +270,7 @@ Don't get cocky
 about Leon's defeat.{06}{07}
 As long as I am alive, you
 cannot destroy this Empire,
-nor will you take Alhazard ... {06}{07}
+nor will you take Alhazard ...{06}{07}
 If you wish to slay me,
 then give it all your might.{06}{07}
 But be warned,
@@ -284,17 +284,17 @@ We must win this battle!{end}
 Egbert,
 you're mistaken!{end}
 
-There exists but one truth. {06}{07}
+There exists but one truth.{06}{07}
 However, there are
 an infinite number of
-roads to reach it ... {06}{07}
+roads to reach it ...{06}{07}
 Wouldn't you agree?{end}
 
 Ha ha ha ...{06}{07}
 Reckless fools ...{end}
 
 This is quite unfortunate,
-Lady Jessica. {06}{07}
+Lady Jessica.{06}{07}
 How terrible for
 you to come here and ...{06}{07}
 Well, I suppose there's
@@ -342,12 +342,13 @@ Such a fool ...!{end}
 He was my
 servant to the end.{end}
 
-{font3}I still ...{06}{07}
-{font3}I still don't believe
-our immortal king will ...
-perish. Gaaahh--!{end}
+{font3}There is no way ...{06}{07}
+{font3}{font3}I am an immortal
+{font3}king of the night ...!
+{font3}I cannot perish!{06}{07}
+{font3}Wryyyyyyyyyy!{end}
 
-Im, impossible ...{end}
+{font3}Im, impossible ...{end}
 
 Aaargghh!{end}
 
@@ -377,7 +378,7 @@ of Langrisser ...{06}{07}
 People's hearts are weak.
 They're filled with 
 jealousy, distrust, 
-resentment and betrayal ... {06}{07}
+resentment and betrayal ...{06}{07}
 These fickle emotions,
 they are the source
 of all petty conflicts.{06}{07}
@@ -393,7 +394,7 @@ just a young soldier,
 I've thought it disgusting.{06}{07}
 And I thought, ...
 Somebody, if somebody could
-only take control ... {06}{07}
+only take control ...{06}{07}
 If there was an absolute
 ruler, only then could wars
 be a fading memory.{06}{07}
@@ -411,7 +412,7 @@ In the end, I was just
 another weak man who had
 no faith in humanity.{end}
 
-Kaiser Bernhardt ... {06}{07}
+Kaiser Bernhardt ...{06}{07}
 The war is over.
 Give yourself up, for the
 good of the people ...{end}
@@ -449,7 +450,7 @@ His Majesty ...
 has no meaning to me.{06}{07}
 I've taken His Majesty's
 ideals as my own and I've done
-much to defend them ... {06}{07}
+much to defend them ...{06}{07}
 I embrace our vision,
 and I will see it through.{06}{07}
 Your Majesty,

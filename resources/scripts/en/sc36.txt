@@ -40,7 +40,7 @@ your limits then.{end}
 Faias!{end}
 
 {font3}You called,
-Master B{3a}ser ...?{end}
+{font3}Master B{3a}ser ...?{end}
 
 The Descendants of Light
 are headed here as we speak.{06}{07}
@@ -50,7 +50,7 @@ The ritual must go
 exactly as planned.{end}
 
 {font3}Hah hah, yes ...
-absolutely!{end}
+{font3}absolutely!{end}
 
 Lester, are we
 nearing Velzeria?{end}
@@ -76,12 +76,12 @@ What!?
 Is that the enemy?{end}
 
 {font3}Ho ho ho ...{06}{07}
-{font3}How lucky for
-us, it's the
-Descendants of Light!{06}{07}
-{font3}This is as far as
-you walking
-corpses will get!{end}
+{font3}{font3}How lucky for
+{font3}us, it's the
+{font3}Descendants of Light!{06}{07}
+{font3}{font3}This is as far as
+{font3}you walking
+{font3}corpses will get!{end}
 
 That's a lot of
 monsters, {02} ...{end}
@@ -104,41 +104,53 @@ There's no other
 way but straight through!{end}
 
 {font3}I have an old score
-to settle with you,
-Descendants of Light.{end}
+{font3}to settle with you,
+{font3}Descendants of Light.{end}
 
 {font3}Especially that
-red-haired punk, you!{end}
+{font3}red-haired punk, you!{end}
 
-What are you
-talking about?{end}
+What score could you
+possibly have with us?
+We have never met.{end}
 
-{font3}You really
-don't know?{06}{07}
-{font3}B{3a}ser ordered me
-to massacre the
-Descendants of Light.{06}{07}
-{font3}But while I was
-searching you out,
-an old fool
-got in my way ...{end}
+{font3}Ha ha ha!
+{font3}You ... really don't
+{font3}remember me?{06}{07}
+{font3}{font3}I had hoped my
+{font3}face would haunt
+{font3}your nightmares for
+{font3}all eternity.{06}{07}
+{font3}{font3}B{3a}ser ordered me
+{font3}to massacre the
+{font3}Descendants of Light.{06}{07}
+{font3}{font3}But when I finally
+{font3}hunted you down,
+{font3}this crumpled old
+{font3}fool got in my way ...{end}
 
-What!
-That ..., that means
-you killed Doren!?{end}
+An old ...!{06}{07}
+You ... then it was you!
+You are the one
+who murdered Doren!{end}
 
-{font3}Heh heh ...
-Oh yes, that was his
-name I believe.{06}{07}
-{font3}That bastard dealt
-me a scratch that
-aches even this day.{06}{07}
-{font3}But he's dead, and soon
-you'll go to join him.
-Today, I will dance
-in your blood!{end}
+{font3}Doren ...
+{font3}Hmmm, Doren ...{06}{07}
+{font3}{font3}Heh heh ...
+{font3}Oh yes, that was his
+{font3}name, I believe.{06}{07}
+{font3}{font3}That little bastard
+{font3}dealt me a scratch that
+{font3}aches even this day.{06}{07}
+{font3}{font3}But he's dead, and
+{font3}you will soon rejoin him.
+{font3}Today, I will dance
+{font3}in your blood!{end}
 
-I'll never forgive you!
+For years I wandered ...
+asking myself what I would do
+if I found his murderer.{06}{07}
+I will never forgive you.
 Prepare yourself!{end}
 
 {font3}Aaahhh--!{end}
@@ -146,13 +158,13 @@ Prepare yourself!{end}
 {font3}Gurgle ...{end}
 
 {font3}Gwa ha ha ha!{06}{07}
-{font3}You despise me?
-You want to kill me?{06}{07}
-{font3}Hate and anguish
-are my source of power!{06}{07}
-{font3}Punk, let's see if you
-still remember what
-that old husk taught!{end}
+{font3}{font3}You despise me?
+{font3}You want to kill me?{06}{07}
+{font3}{font3}Hate and anguish
+{font3}are my source of power!{06}{07}
+{font3}{font3}Punk, let's see if you
+{font3}still remember what
+{font3}that old husk taught!{end}
 
 Heh ...{end}
 
@@ -163,21 +175,21 @@ and pain in your heart, you'll
 be no better than him!{end}
 
 {font3}That girl Liana
-looked really tasty.{06}{07}
-{font3}Heh heh heh ...{06}{07}
-{font3}Chop up their bodies
-and drink their blood.
-Drive their friends
-mad with fear. {end}
+{font3}looked really tasty.{06}{07}
+{font3}{font3}Heh heh heh ...{06}{07}
+{font3}{font3}Chop up their bodies
+{font3}and drink their blood.
+{font3}Drive their friends
+{font3}mad with fear. {end}
 
 Faias!
 You won't do what you like!
 We will rescue Liana!{end}
 
 {font3}Wryyyyyyyyyy!{06}{07}
-{font3}Your words
-are meaningless
-if you can't defeat me!{end}
+{font3}{font3}Your words
+{font3}are meaningless
+{font3}if you can't defeat me!{end}
 
 Watch out for
 enemy sea units!{06}{07}
@@ -201,20 +213,20 @@ you can. It should make
 quick work of them.{end}
 
 {font3}Let's do
-this, knaves!{06}{07}
-{font3}B{3a}ser won't tolerate
-a failure here!
-This is my last stand!{end}
+{font3}this, knaves!{06}{07}
+{font3}{font3}B{3a}ser won't tolerate
+{font3}a failure here!
+{font3}This is my last stand!{end}
 
 Faias ...{end}
 
 Liana ...{end}
 
-Whipper snappers!
-You did well in
-getting this far!{06}{07}
-But your good luck
-won't last forever!{end}
+{font3}Fools of light!
+{font3}You did well in
+{font3}getting this far!{06}{07}
+{font3}{font3}But your good luck
+{font3}won't last forever!{end}
 
 Don't take me lightly!{end}
 
@@ -246,10 +258,10 @@ hard enough ...{end}
 Die!{end}
 
 {font3}Grrr!{06}{07}
-{font3}When I killed
-that old wretch, 
-I should have finished
-you off too!{end}
+{font3}{font3}When I killed
+{font3}that old wretch, 
+{font3}I should have finished
+{font3}you off too!{end}
 
 You son of a bitch!
 This is for Doren!{end}
@@ -257,8 +269,8 @@ This is for Doren!{end}
 What did you say!?{end}
 
 {font3}Ugh!
-M, Master B{3a}ser!
-P, please forgive me!{end}
+{font3}M, Master B{3a}ser!
+{font3}P, please forgive me!{end}
 
 {font3}Ohhhh--!{end}
 
@@ -281,11 +293,11 @@ P, please forgive me!{end}
 {font3}Grrr--! Grr ...{end}
 
 He was slain because I was
-a Descendant of Light ... {06}{07}
+a Descendant of Light ...{06}{07}
 Doren gave his life in
 exchange for mine ...{06}{07}
 Everyone close to me dies ...
-I can't protect anyone.{end}
+I ... I cannot protect anyone.{end}
 
 {02} ...
 You were destined to be born
