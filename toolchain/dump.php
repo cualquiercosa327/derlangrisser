@@ -1,8 +1,8 @@
 #!/usr/bin/php -q
 <?php
 
-echo "Der Langrisser Script Scanner (cli)\n";
-echo "Copyright (c) 2007, 2016 Derrick Sobodash\n";
+echo "Der Langrisser Script Dumper (cli)\n";
+echo "Copyright (c) 2007, 2017 Derrick Sobodash\n";
 
 set_time_limit(6000000);
 
@@ -28,58 +28,52 @@ if(md5(file_get_contents("resources/dl.rom")) != "91d62c4cb790fc2fb38b10b68616e2
 
 // Fetch tables to an array
 $fddump = file_get_contents($tables[0]);
-$k = 0;
-for($i = 0; $i < strlen($fddump); $i = $i + 2) {
-	$tbl00[$k] = substr($fddump, $i, 2);
-	$k++;
-}
+$tbl00 = split ("\n", $fddump);
+//for($l = 0; $l < count($tbl00); $l++) {
+//	$tbl00[$l] = trim($tbl00[$l]);
+//}
 
 $fddump = file_get_contents($tables[1]);
-$k = 0;
-for($i = 0; $i < strlen($fddump); $i = $i + 2) {
-	$tblf7[$k] = substr($fddump, $i, 2);
-	$k++;
-}
+$tblf7 = split ("\n", $fddump);
+//for($l = 0; $l < count($tblf7); $l++) {
+//	$tblf7[$l] = trim($tblf7[$l]);
+//}
 
 $fddump = file_get_contents($tables[2]);
-$k = 0;
-for($i = 0; $i < strlen($fddump); $i = $i + 2) {
-	$tblf8[$k] = substr($fddump, $i, 2);
-	$k++;
-}
+$tblf8 = split ("\n", $fddump);
+//for($l = 0; $l < count($tblf8); $l++) {
+//	$tblf8[$l] = trim($tblf8[$l]);
+//}
 
 $fddump = file_get_contents($tables[3]);
-$k = 0;
-for($i = 0; $i < strlen($fddump); $i = $i + 2) {
-	$tblf9[$k] = substr($fddump, $i, 2);
-	$k++;
-}
+$tblf9 = split ("\n", $fddump);
+//for($l = 0; $l < count($tblf9); $l++) {
+//	$tblf9[$l] = trim($tblf9[$l]);
+//}
 
 $fddump = file_get_contents($tables[4]);
-$k = 0;
-for($i = 0; $i < strlen($fddump); $i = $i + 2) {
-	$tblfa[$k] = substr($fddump, $i, 2);
-	$k++;
-}
+$tblfa = split ("\n", $fddump);
+//for($l = 0; $l < count($tblfa); $l++) {
+//	$tblfa[$l] = trim($tblfa[$l]);
+//}
 
 $fddump = file_get_contents($tables[5]);
-$k = 0;
-for($i = 0; $i < strlen($fddump); $i = $i + 2) {
-	$tblfb[$k] = substr($fddump, $i, 2);
-	$k++;
-}
+$tblfb = split ("\n", $fddump);
+//for($l = 0; $l < count($tblfb); $l++) {
+//	$tblfb[$l] = trim($tblfb[$l]);
+//}
 
 $fddump = file_get_contents($tables[6]);
 $names = split ("\n", $fddump);
-for($l = 0; $l < count($names); $l++) {
-	$names[$l] = trim($names[$l]);
-}
+//for($l = 0; $l < count($names); $l++) {
+//	$names[$l] = trim($names[$l]);
+//}
 
 $fddump = file_get_contents($tables[7]);
 $words = split ("\n", $fddump);
-for($l = 0; $l < count($words); $l++) {
-	$words[$l] = trim($words[$l]);
-}
+//for($l = 0; $l < count($words); $l++) {
+//	$words[$l] = trim($words[$l]);
+//}
 
 // Special Cases
 $tbl00[0] = "{end}\n\n";  $tbl00[1] = "{01}";
@@ -124,7 +118,8 @@ for ($i = 0; $i < (count($pointertable) - 1); $i++) {
 		else if(ord($charchar) == 0x09) {
 			$pointer++;
 			fseek($fd, $pointer, SEEK_SET);
-			$output .= "{09}{" . bin2hex(fread($fd, 1)) . "}";
+			//$output .= "{09}{" . bin2hex(fread($fd, 1)) . "}";
+			$output .= $names[ord(fread($fd, 1))];
 		}
 		else if(ord($charchar) == 0xf7) {
 			$pointer++;
@@ -158,9 +153,10 @@ for ($i = 0; $i < (count($pointertable) - 1); $i++) {
 				$output .= $words[ord(fread($fd, 1))];
 			}
 			else if($tbl00[ord($charchar)] == "{02}") {
-				$pointer++;
-				fseek($fd, $pointer, SEEK_SET);
-				$output .= $names[ord(fread($fd, 1))];
+				//$pointer++;
+				//fseek($fd, $pointer, SEEK_SET);
+				//$output .= $names[ord(fread($fd, 1))];
+				$output .= "{02}";
 			}
 			else {
 				$output .= $tbl00[ord($charchar)];
