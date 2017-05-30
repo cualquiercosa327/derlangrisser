@@ -4,7 +4,7 @@ What's wrong, Liana?{end}
 
 Liana ...?{end}
 
-Ah ... {06}{07}
+Ah ...{06}{07}
 Nothing, really.
 Nothing at all.{end}
 
@@ -19,10 +19,10 @@ Since B{3a}ser captured me,
 I've lived a life of
 darkness and servitude.{06}{07}
 Of course, everyone
-distrusted and loathed me ... {06}{07}
+distrusted and loathed me ...{06}{07}
 But he, Leon, was
 the only one who treated
-me with kindness. {06}{07}
+me with kindness.{06}{07}
 He knew all along
 that I was acting under
 B{3a}ser's control ...{end}
@@ -36,7 +36,7 @@ I won't stop you ...{end}
 
 I'm all right, really!{06}{07}
 Since my release from B{3a}ser,
-I've done a lot of thinking. {06}{07}
+I've done a lot of thinking.{06}{07}
 I'm a Descendant of Light,
 and B{3a}ser taught me
 to hate our way of life ...{06}{07}
@@ -52,13 +52,13 @@ However, Liana ...{end}
 {02} ...{06}{07}
 You're a Descendant of Light.
 Why have you chosen
-to follow the Empire ...? {06}{07}
+to follow the Empire ...?{06}{07}
 Lady Jessica,
 why has {02} ...?{end}
 
 As the Descendants of Light,
 we, in good faith,
-attempt the task before us. {06}{07}
+attempt the task before us.{06}{07}
 But crushing darkness
 through force may be superior
 to our methods ...{06}{07}
@@ -69,7 +69,7 @@ Lady Jessica ...{end}
 
 I, too, wish to
 carry out my duty as
-the Maiden of Light. {06}{07}
+the Maiden of Light.{06}{07}
 But I just can't ...
 I can't fight him like this.
 That's why ...{end}
@@ -77,7 +77,7 @@ That's why ...{end}
 ...{end}
 
 That's why I want
-you to erase my memories! {06}{07}
+you to erase my memories!{06}{07}
 I wish to forget ...,
 I wish to forget {02}!{end}
 
@@ -92,7 +92,7 @@ Oh, god of time, knowledge,
 and mercy! Wipe her mind
 clean of strife and sadness.{06}{07}
 {font4}La Halig Leoht ...
-Claensian Sinre Gemynd!{end}
+{font4}Claensian Sinre Gemynd!{end}
 
 What ...?
 What am I doing here ...?{end}
@@ -108,7 +108,7 @@ The top of Twin Castle ...
 What a structure.{end}
 
 By taking the central passage,
-we've divided our forces. {06}{07}
+we've divided our forces.{06}{07}
 In this situation,
 our commanders will
 prove their worth.{end}
@@ -148,7 +148,7 @@ I will honour my duty ...
 As the Maiden of Light,
 I'll fight until the end.{end}
 
-So, you're finally here. {06}{07}
+So, you're finally here.{06}{07}
 I suppose this is
 the end for us.{end}
 
@@ -169,7 +169,7 @@ Get them!{end}
 
 With darkness
 destroyed, there's no longer
-an enemy to fight. {06}{07}
+an enemy to fight.{06}{07}
 But if you insist on
 governing by force ...
 We'll make sure you're worthy!{end}
@@ -281,7 +281,7 @@ the Descendants of Light!{end}
 
 Master, before my
 death, I've always wished
-to duel with you. {06}{07}
+to duel with you.{06}{07}
 With the legendary sorceress
 who returned from beyond ...{end}
 
@@ -308,14 +308,14 @@ My magic was ineffective.{end}
 That's enough ...{end}
 
 Egbert, it was just 
-a little longer ... {06}{07}
+a little longer ...{06}{07}
 You could have brought
 peace with the Descendants.{06}{07}
 If you'd waited for us,
 we'd have welcomed you.{end}
 
 I'm sure my master is already
-aware of the reasons. {06}{07}
+aware of the reasons.{06}{07}
 In forbidden research,
 I was nearly
 possessed by demons.{06}{07}
@@ -368,7 +368,7 @@ Thank the goddess ...
 You were not hurt.{06}{07}
 I knew ... I knew I ...
 couldn't bring myself to ...
-defeat ... you ... {06}{07}
+defeat ... you ...{06}{07}
 Because I've always ...
 always ... {02} ...{end}
 
@@ -497,7 +497,7 @@ is my duty! That's why, I ...
 Aaahhh ...!{end}
 
 Why ...
-Why are we enemies? {06}{07}
+Why are we enemies?{06}{07}
 I don't want to fight,
 but you left us ...
 You abandoned me ...{end}
@@ -514,7 +514,7 @@ I wonder why ...
 when I want to fight you ...
 I ... cry ...{end}
 
-You erased your memories? {06}{07}
+You erased your memories?{06}{07}
 I don't understand ...!
 Why would you do that?
 Why must we fight at all!?{end}
@@ -597,7 +597,7 @@ Come to me!{end}
 Wh, what are you ...?{end}
 
 Heh heh heh ...
-Only the Maiden of Light
+Only the Maiden of Darkness
 now remains.{06}{07}
 This should prove easy enough.{end}
 
@@ -607,7 +607,7 @@ Come to me!{end}
 Ah, no thank you ...{end}
 
 Heh heh heh ...
-Only the Maiden of Darkness
+Only the Maiden of Light
 now remains.{06}{07}
 This should prove easy enough.{end}
 

@@ -101,9 +101,9 @@ We must get the
 sword before they do.{end}
 
 Indeed.{06}{07}
-According to Egbert,
-two other than myself
-can draw the sword.{06}{07}
+Egbert said only two
+people besides myself are
+able to draw the sword.{06}{07}
 Our strategy must take
 them into consideration.{end}
 
@@ -130,10 +130,9 @@ Descendants of Light?{end}
 Yes, Egbert said something
 to that effect. This
 sword proves our heritage.{06}{07}
-The soldier Dieh{38}rte,
-my eastern ancestor, is
-said to have brought it
-here a century ago.{end}
+The soldier Dieh{38}rte, my
+ancestor, is said to have been
+given it a century ago.{end}
 
 The blade has a unique design.
 I've never seen another like it.{end}
@@ -186,7 +185,7 @@ fall to the Empire!{end}
 Understood!{end}
 
 So, a Dragon Knight
-has come ... {06}{07}
+has come ...{06}{07}
 Hurry, {02}.
 Don't let them take
 the sword!{end}
@@ -460,7 +459,7 @@ Next time you call
 upon me, I'll do better.{end}
 
 Looks like I'm
-the only one left. {06}{07}
+the only one left.{06}{07}
 Don't worry,
 I won't give up!{end}
 
@@ -496,10 +495,10 @@ Rest for a little while.{end}
 All right ...{end}
 
 No ...
-Can I do no more ...? {06}{07}
+Can I do no more ...?{06}{07}
 Send my apologies to the
 Princess. I can no
-longer aid our alliance.  
+longer aid our alliance.
 I, I must withdraw ...{end}
 
 Hee hee! Time for lift off!
@@ -570,7 +569,7 @@ Forgive me ...
 Please, do as you've said ...{end}
 
 Lady Jessica's not alone
-as long as I'm around ... {06}{07}
+as long as I'm around ...{06}{07}
 But I'm done fighting for now.
 Everyone, I beg of you, ...
 wipe out those Imperials.{end}
@@ -613,7 +612,7 @@ have ... Langrisser ...{end}
 
 Grrr ...
 Lady Jessica and the Princess
-have both been defeated ... {06}{07}
+have both been defeated ...{06}{07}
 For those mistakes,
 {02} and Leon, I've no
 choice but to kill you.{end}
@@ -744,7 +743,7 @@ I can do it all.{end}
 {02}!
 Stop talking nonsense!{06}{07}
 Then you'd be in direct
-competition with our Kaiser!{end}
+competition with the Kaiser!{end}
 
 It, unfortunately,
 may come to that.{end}
@@ -795,7 +794,7 @@ the Kaiser's hands, no enemy
 will stand against him.{06}{07}
 The Legendary Sword
 is said to grant its wielder
-infinite power ... {06}{07}
+infinite power ...{06}{07}
 Can I really give
 up such an opportunity?{end}
 

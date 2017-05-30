@@ -1,84 +1,104 @@
+;
+; Der Langrisser 8x8 Proportional Font
+;
+; This files contains Super Nintendo code for hooking an 8x8 proportional font
+; renderer to use in place of the game's normal 8x8 monospaced font.
+;
+; Version:   1.0
+; Author:    byuu
+; Copyright: (c) 2006, 2016 DL Team
+; Website:   https://github.com/sobodash/derlangrisser/
+; License:   BSD License <http://opensource.org/licenses/bsd-license.php>
+;
+
 lorom
 
-!bit_pos      = $7fffe0 ;bit position
-!chr_len      = $7fffe2 ;length of current char
-!map_pos      = $7fffe4 ;index into ram tilemap data
-!tile_pos     = $7fffe6 ;index into vram tilemap
-!temp_pos     = $7fffe8 ;used for right alignment of class names in battles
-!chr_val      = $7fffea ;current char value
+
+; ----------------------------------------------------------------------------
+; Set up our variables
+
+!bit_pos      = $7fffe0 ; Bit position
+!chr_len      = $7fffe2 ; Length of current char
+!map_pos      = $7fffe4 ; Index into RAM tilemap data
+!tile_pos     = $7fffe6 ; Index into VRAM tilemap
+!temp_pos     = $7fffe8 ; Used for right alignment of class names in battles
+!chr_val      = $7fffea ; Current char value
 !stile_pos    = $7fffec
 !vwf_flag     = $7fffee
-!page_num     = $7ffff0 ;0 - 23
-!line_num     = $7ffff2 ;0 - 2
-!unit_num     = $7ffff4 ;page_num * 3 + line_num
-!unit_count   = $7ffff6 ;total number of units available
-!class_align  = $7ffff8 ;0 = left, 1 = right
-!vram_pos     = $7ffffa ;must match intro.asm:!vram_pos
+!page_num     = $7ffff0 ; 0 - 23
+!line_num     = $7ffff2 ; 0 - 2
+!unit_num     = $7ffff4 ; page_num * 3 + line_num
+!unit_count   = $7ffff6 ; Total number of units available
+!class_align  = $7ffff8 ; 0 = left, 1 = right
+!vram_pos     = $7ffffa ; Must match !vram_pos in intro.asm!
 
-;battle class name positions, left/right
+
+; ----------------------------------------------------------------------------
+; Hook all program locations that should use the new 8x8 proportional font
+
+; Battle class name positions, left/right
 org $04ef8e : lda #$69
 org $04ef97 : lda #$88
 
-;expand battle class names from 8 to 16 letters
+; Expand battle class names from 8 to 16 letters
 org $04efa8 : lda #$0010
 org $04efba : cpx #$20
 org $04efc8 : lda #$0010
 org $04efda : cpx #$20
 org $04efc1 : nop : nop : nop
 
-;disable the game's default right alignment of
-;second class name in battles
+; Disable the game's default right alignment of second class name in battles
 org $04ef94 : nop : nop : nop
 
-;cache battle class name alignment (left/right)
+; Cache battle class name alignment (left/right)
 org $04ee29 : jml save_class_alignment : nop #2
 
-;main vwf routine hook
+; Main proportional font routine hook
 org $02bc3e : jsl font8vwf0 : jmp $bcae
-org $02bcaf : bra $02 ;disable an excess write to the tilemap
+org $02bcaf : bra $02 ; Disable an excess write to the tilemap
 
-;3 class names vwf hooks
+; 3 class names font hooks
 org $03b605 : jsl init_tilemap
 org $0499f4 : jsl font8vwfhook
 
-;prevent the last 2 letters in class names from being overwritten
+; Prevent the last 2 letters in class names from being overwritten
 org $03b60e : nop : nop
 org $0491bd : nop : nop
 org $0491c3 : nop : nop
 
-;purchase class name hook
+; Purchase class name hook
 org $03afce : jsl font8vwf2
 
-;commander screen class name hook
+; Commander screen class name hook
 org $03a657 : jsl font8vwf3
 
-;reposition text on commander screen
-org $03a541 : lda #$0a03 ;x#units/max #units
-org $03a631 : lda #$0901 ;class_name
-org $03a6fd : lda #$0a09 ;xxxxP
+; Reposition text on commander screen
+org $03a541 : lda #$0a03 ; x #units/max #units
+org $03a631 : lda #$0901 ; class_name
+org $03a6fd : lda #$0a09 ; xxxxP
 
-;spoils of war screen vwf hook
+; Spoils of War screen font hook
 org $01f980 : jsl font8vwf4 : jmp $f990
 
 loadpc build/dl.xpc
 
+
 ;*****
-;the below two routines are extremely important!
-;if an irq fires when using DMA or mul/div registers,
-;they will be thrashed before the irq returns!
-;therefore, it is imperative that any function that
-;uses register $4300-$437f or $4202-$4217 first call
-;disable_irq(), and then when finished, call enable_irq()
-;*****
+; The following two routines are extremely important!
+; If an irq fires when using DMA or mul/div registers, they will be thrashed
+; before the irq returns. Therefore, it is imperative that any function that
+; uses registers $4300-$437f or $4202-$4217 first call disable_irq(),
+; and then when finished, call enable_irq()
 
 disable_irq() {
   php : sep #$20 : pha : lda #$01 : sta $004200 : pla : plp : rts
 }
 
-;$d3 = internal game variable, holds status of $004200
+; $d3 = internal game variable, holds status of $004200
 enable_irq() {
   php : sep #$20 : pha : lda $d3 : sta $004200 : pla : plp : rts
 }
+
 
 fontdata:
   incbin build/font8vwf.bin
@@ -142,9 +162,9 @@ initvwf1() {
 }
 
 ;*****
-;init battle class name vwf
-;perform left/right alignment of class names
-;*****
+; Initialize proportional font for battle class names.
+; Perform left/right alignment of class names.
+
 initvwf2() {
   php : rep #$30 : pha
   lda #$0000 : sta !vwf_flag
@@ -180,16 +200,15 @@ initvwf2() {
 }
 
 ;*****
-;game overwrites class alignment variable $19 (00=left, 01=right),
-;and uses it for temporary storage. this value is needed to
-;properly align battle text, so cache the value before it is
-;overwritten ...
+; Der Langrisser overwrites class alignment variable $19 (00=left, 01=right)
+; and uses it for temporary storage. This value is needed to properly align
+; battle text, so cache the value before it is overwritten.
 ;
-;04ee29 lda $19
-;04ee2b pha
-;04ee2c lda $05
-;04ee2e pha
-;*****
+; 04ee29 lda $19
+; 04ee2b pha
+; 04ee2c lda $05
+; 04ee2e pha
+
 save_class_alignment() {
   lda $19 : pha
   sta !class_align
@@ -292,13 +311,13 @@ font8vwf0() {
 }
 
 ;*****
-;initialize tilemap to point to vwf
-;tiles for 8x8 unit selection window
-;*****
-;r [$05] = character name
-;w [$02] = tilemap output (start = $7f7560)
-;w $7ffa00+ = class names from script, used by vwf routine
-;*****
+; Initialize the tilemap to point to proportional font tiles for the
+; 8x8 unit selection window.
+;
+; r [$05] = character name
+; w [$02] = tilemap output (start = $7f7560)
+; w $7ffa00+ = class names from script, used by vwf routine
+
 init_tilemap() {
   jsr disable_irq
   php : rep #$30 : pha : phx : phy

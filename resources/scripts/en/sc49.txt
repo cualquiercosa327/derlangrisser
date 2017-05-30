@@ -453,7 +453,7 @@ than my own child.{06}{07}
 Even if we've different blood,
 you will always be my son.{06}{07}
 That's ...
-That's why ... {06}{07}
+That's why ...{06}{07}
 Damn you, Imperials!
 You'll know a father's
 vengeance for his child!{end}

@@ -39,8 +39,8 @@ from reaching Baldea.{end}
 
 What about the Sky Bridge
 over the Railem Ravine?{06}{07}
-It's the main route.
-If we take out the bridge, the
+The bridge is the main passage.
+If it were suddenly gone, the
 Empire would have to detour.{06}{07}
 That should give us a
 significant time advantage in
@@ -60,8 +60,8 @@ for this important mission ...{end}
 Lester, where
 are you going?{end}
 
-Leave this to me Keith.  If
-you can't do it, aren't I the
+Leave this to me, Keith.
+If you can't do it, aren't I the
 only one left fit for the job?{end}
 
 B, but ...{end}
@@ -102,23 +102,25 @@ Laird and some advance scouts
 finding out the specifics?{end}
 
 Exactly.
-Our first priority seems to be
-crossing this bridge, though.{end}
+No matter where the castle is,
+we have to cross this bridge.{end}
 
 Sir Lester,
 the Imperial Army!{end}
 
-Son of a bitch! We need more
-time ... Workers, hurry the hell
-up, we don't have all day!{end}
+Son of a bitch!
+We need more time ...{06}{07}
+Guys, hurry the hell up!
+We don't have all day!{end}
 
 {02}, they look
 like they're trying to cut
 down the bridge!{end}
 
-If they succeed, we
-won't reach Baldea
-before Jessica's group!{end}
+If they succeed, we shall
+not be able to reach Baldea
+before Jessica's group!{06}{07}
+{end}
 
 We still have time! We must
 beat Jessica's group to Baldea
@@ -169,7 +171,7 @@ I'm very sorry, Sir!
 It will only be
 just a little bit longer!{end}
 
-I see ...  Well, we have
+I see ... Well, we have
 to do something before
 we're cut down here!{end}
 
@@ -314,7 +316,7 @@ comply with your command.{06}{07}
 Otherwise, you gentlemen
 might obtain Langrisser.{06}{07}
 This is our, the people of
-Kalxath's, duty.  In the 
+Kalxath's, duty. In the 
 beginning, I fought with you
 to protect Langrisser, but ...{06}{07}
 The princess is also saddened
@@ -699,20 +701,20 @@ proper course of action ...{end}
 What?
 Reinforcements?{end}
 
-Master Lester!
-Has the bridge been
-brought down yet?{end}
+Sir Lester!
+Is the bridge ready
+to be dropped?{end}
 
 Sorry, bud ...{06}{07}
-Before we could
-finish, someone stuck
-their noses in.{end}
+Things were going
+smoothly until you-know-who
+showed up ...{end}
 
 We'll take care of them.
 In the meantime, please
 bring down the bridge.{end}
 
-Leave it to us, Keith!{end}
+Thanks for the help.{end}
 
 Go for it!{end}
 

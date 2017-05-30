@@ -209,7 +209,7 @@ Oooohhh yeah!{end}
 
 I knew I wasn't pumped
 enough to take
-on Masaya's Aniki  ...{end}
+on Masaya's Aniki ...{end}
 
 No! I don't want to be
 a big muscle-bound moron.{end}
@@ -235,7 +235,7 @@ Where have you gone?{06}{07}
 Why did Masaya forget to
 add you to this game ...?{06}{07}
 I hope that wherever
-you are, you're ... free .....{end}
+you are, you're ... free ...{end}
 
 So manly and dreamy ...{end}
 
@@ -260,8 +260,8 @@ trained iron body!{end}
 I ... I am beautiful ...{end}
 
 Nice body ...
-I should admire it even
-though you're the enemy ...{end}
+I admire how toned you are,
+even if you're my enemy ...{end}
 
 Nooo!{end}
 
@@ -284,7 +284,7 @@ for the {font4}Sexy Beam!{end}
 Okay, big brother.{end}
 
 {font4}Sexy Beam?{06}{07}
-{font0}I don't know what it is,
+{font4}{font0}I don't know what it is,
 but it sounds like
 nothing but trouble!{end}
 
@@ -292,7 +292,7 @@ Hurry! We have to stop
 them before they can fire it!{end}
 
 {font4}Sexy Beam?{06}{07}
-{font0}I don't know what it is,
+{font4}{font0}I don't know what it is,
 but it sounds like
 nothing but trouble!{end}
 

@@ -213,7 +213,7 @@ Jessica's counting on us.{end}
 There is a notice scrawled
 behind the three boxes.{06}{07}
 
-"You've stumble on my hoard!
+"You've stumbled on my hoard!
 Select a box for your reward."{06}{07}
 
 Which will you pick?{end}

@@ -2,13 +2,13 @@ The Dark Rod is still here.
 Perhaps there's time ...{end}
 
 {font3}You who trespass
-upon these forbidden
-grounds, leave now!{06}{07}
-{font3}This is a sacred place
-which no one may enter.{06}{07}
-{font3}Should you intrude,
-know well that your
-lives will end here.{end}
+{font3}upon these forbidden
+{font3}grounds, leave now!{06}{07}
+{font3}{font3}This is a sacred place
+{font3}which no one may enter.{06}{07}
+{font3}{font3}Should you intrude,
+{font3}know well that your
+{font3}lives will end here.{end}
 
 What are these creatures ...?{end}
 
@@ -226,38 +226,38 @@ A Descendant of Light ...{end}
 A descendant of what?
 What are you talking about!?{end}
 
-Before I left Rayguard, 
-I was warned that the
-Descendants of Light
+Before I left Rayguard, I was
+told the Descendants of Light
 would hinder me ...{06}{07}
-I guess they were wrong,
-for the Dark Rod is already
-mine! Ha ha ha!{end}
+I guess that warning
+was wrong, for the
+Dark Rod is already mine!{06}{07}
+Ha ha ha!{end}
 
 Egbert! Stop!{end}
 
 What on earth is this ...{end}
 
 {font3}Groan ...
-So many fools have
-come today.{06}{07}
-{font3}None who set foot
-within this sacred shrine
-shall be forgiven!{06}{07}
-{font3}You will all die here.{end}
+{font3}So many fools have
+{font3}come today.{06}{07}
+{font3}{font3}None who set foot
+{font3}within this sacred shrine
+{font3}shall be forgiven!{06}{07}
+{font3}{font3}You will all die here.{end}
 
 {font3}Die, fools who
-dared enter this
-forbidden palace!{end}
+{font3}dared enter this
+{font3}forbidden palace!{end}
 
 {font3}A reckless human ...
-to pick a fight with
-one such as I.{06}{07}
-{font3}I will show you the
-experience of eternity.{end}
+{font3}to pick a fight with
+{font3}one such as I.{06}{07}
+{font3}{font3}I will show you the
+{font3}experience of eternity.{end}
 
 {font3}Impossible--!
-I cannot be ... defeated--{end}
+{font3}I cannot be ... defeated--{end}
 
 {font3}Whelp!{end}
 
@@ -268,13 +268,13 @@ I cannot be ... defeated--{end}
 {font3}Glurg!{end}
 
 {font3}Rest ...
-At last ....{end}
+{font3}At last ...{end}
 
 {font3}Finally, some rest ...{end}
 
 {font3}No!
-Anything but that!{06}{07}
-{font3}Zapp!{end}
+{font3}Anything but that!{06}{07}
+{font3}{font3}Zapp!{end}
 
 {font3}Thank ... you ...{end}
 
@@ -297,8 +297,8 @@ Hmm!
 You're doing quite well!{end}
 
 {font3}The thieves are
-stronger than I
-had expected ...{end}
+{font3}stronger than I
+{font3}had expected ...{end}
 
 What!?
 Egbert was once one

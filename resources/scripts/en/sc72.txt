@@ -164,8 +164,8 @@ are bankrupt.{06}{07}
 As you wish,
 I will appeal to strength.{06}{07}
 {font4}Fram Kadath o Yeless,
-Le Hlutor Scelde,
-Lushiris, Beorg Ure!{end}
+{font4}Le Hlutor Scelde,
+{font4}Lushiris, Beorg Ure!{end}
 
 N, no ...!?
 This is ... impossible ...!{end}
@@ -475,8 +475,8 @@ Oh shining goddess,
 hear my plea, and
 appear before us ...{06}{07}
 {font4}Fram Kadath o Yeless,
-Le Hlutor Scelde,
-Lushiris, Beorg Ure!{end}
+{font4}Le Hlutor Scelde,
+{font4}Lushiris, Beorg Ure!{end}
 
 L, Lushiris ...!?{end}
 
@@ -494,7 +494,7 @@ Slumbering hero who
 lies within my memory, I call
 upon your might ...!{06}{07}
 {font4}Wreccan Fram Thin Slaepe,
-Hatte The Lifde, Ledin!{end}
+{font4}Hatte The Lifde, Ledin!{end}
 
 Did you call
 for me, Lushiris?{end}

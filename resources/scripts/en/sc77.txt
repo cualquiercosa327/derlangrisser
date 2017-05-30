@@ -15,7 +15,7 @@ would seal them both.{end}
 
 What's wrong, Liana?{end}
 
-Ah ... {06}{07}
+Ah ...{06}{07}
 Nothing, really.
 Nothing at all.{end}
 
@@ -32,7 +32,7 @@ I won't stop you ...{end}
 {02} ...{06}{07}
 You are a Descendant of Light.
 Why have you chosen
-to do all you've done ...? {06}{07}
+to do all you've done ...?{06}{07}
 Lady Jessica,
 why has {02} ...?{end}
 
@@ -53,7 +53,7 @@ Lushiris ...{end}
 
 I, too, wish to
 carry out my duty as
-the Maiden of Light. {06}{07}
+the Maiden of Light.{06}{07}
 But I just can't ...
 I can't fight him like this.
 That's why ...{end}
@@ -61,7 +61,7 @@ That's why ...{end}
 ...{end}
 
 That's why I want
-you to erase my memories! {06}{07}
+you to erase my memories!{06}{07}
 I wish to forget ...,
 I wish to forget {02}!{end}
 
@@ -71,7 +71,7 @@ Oh, god of time, knowledge,
 and mercy! Wipe her mind
 clean of strife and sadness.{06}{07}
 {font4}La Halig Leoht ...
-Claensian Sinre Gemynd!{end}
+{font4}Claensian Sinre Gemynd!{end}
 
 What ...?
 What am I doing here ...?{end}
@@ -133,7 +133,7 @@ Slumbering hero who
 lies within my memory, I call
 upon your might ...!{06}{07}
 {font4}Wreccan Fram Thin Slaepe,
-Hatte The Lifde, Ledin!{end}
+{font4}Hatte The Lifde, Ledin!{end}
 
 Ledin, King of Baldea.
 I bid you welcome.{end}
@@ -371,7 +371,7 @@ But keep your spirits up!{end}
 
 Will we be okay ...?{06}{07}
 You know, picking a fight
-with a goddess ....
+with a goddess ...
 that's serious business.{end}
 
 So you made your choice?
@@ -467,16 +467,16 @@ Aaaahhh--!
 This is too much ...{end}
 
 {font3}Even in god's dwelling,
-we will not lose.{end}
+{font3}we will not lose.{end}
 
 {font3}Uuuggghhh--!{end}
 
 {font3}I will use all
-my strength!
-For Sonya!{end}
+{font3}my strength!
+{font3}For Sonya!{end}
 
 {font3}T, this world
-is different ...{end}
+{font3}is different ...{end}
 
 Lushiris ...
 Was I wrong?{06}{07}
@@ -658,10 +658,11 @@ sat idly while the land
 tore itself apart.{06}{07}
 I alone succeeded.{end}
 
-{02} ...{06}{07}
-You have won.
-You have defeated my and
-everything I stood for.{06}{07}
+{02} ...
+You have won.{06}{07}
+You have defeated
+myself and everything
+for which I stood.{06}{07}
 This world is now left
 in chaos. Unless you can
 quell it, then your victory
@@ -881,7 +882,7 @@ That's why, I ... Why I ...{06}{07}
 Aaahhh ...!{end}
 
 Why ...
-Why are we enemies? {06}{07}
+Why are we enemies?{06}{07}
 I don't want to fight,
 but you left us ...
 You abandoned me ...{end}
@@ -901,7 +902,7 @@ Why is it ...{06}{07}
 When I fight you ...
 I ... cry ...{end}
 
-You erased your memories? {06}{07}
+You erased your memories?{06}{07}
 I don't understand ...!
 Why would you do that?
 Why must we fight!?{end}

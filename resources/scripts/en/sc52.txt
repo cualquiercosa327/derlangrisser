@@ -45,8 +45,8 @@ Embrace your darkest
 desires, Liana ..., and
 unleash Alhazard's might!{06}{07}
 {font4}Klatu Verata
-Niktue Geweald ...
-Ai Alhazard, Ai Alhazard!{end}
+{font4}Niktue Geweald ...
+{font4}Ai Alhazard, Ai Alhazard!{end}
 
 Is, is the seal broken?{end}
 
@@ -120,7 +120,7 @@ can entertain us longer
 than the Descendants were able!{end}
 
 {font3}Gwa hah hah ...
-{font0}Against this sword and army,
+{font3}{font0}Against this sword and army,
 you're nothing but a nuisance.{06}{07}
 You'll all be butchered
 and humanity will be enslaved.
@@ -467,18 +467,18 @@ Why can't I best humans...?
 The next time, surely ...{end}
 
 {font3}The humans took my
-land as their own!
-I'll have my revenge!{end}
+{font3}land as their own!
+{font3}I'll have my revenge!{end}
 
 {font3}This grudge
-I'll never forget!{end}
+{font3}I'll never forget!{end}
 
 {font3}Tasty morsels, come!{end}
 
 {font3}Humans! Hope I
-don't kill you
-in your sleep!{06}{07}
-{font3}I'll be back!{end}
+{font3}don't kill you
+{font3}in your sleep!{06}{07}
+{font3}{font3}I'll be back!{end}
 
 {font3}Attack the humans!{end}
 

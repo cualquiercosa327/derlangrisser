@@ -1,6 +1,6 @@
 DLROM=./resources/dl.rom
 CC=clang
-CFLAGS=-stdlib=libc++ -lstdc++ -O2 -fomit-frame-pointer
+CFLAGS=-stdlib=libc++ -lstdc++ -O2 -fomit-frame-pointer -march=native
 MD5=$(shell md5 -q $(DLROM))
 
 all:
@@ -90,9 +90,6 @@ toolchain:
 .PHONY: distclean
 distclean:
 	rm -f ./build/*
-	rm -f ./resources/scripts/text8c.txt
-	rm -f ./resources/scripts/text8n.txt
-	rm -f ./resources/scripts/jp/*.txt
 	rm -rf ./resources/decomp/*
 	rm -f ./toolchain/bin/*
 

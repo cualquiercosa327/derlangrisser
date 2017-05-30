@@ -151,14 +151,17 @@ Kaiser Circle ...?{end}
 That girl ...
 You won't get near her!{end}
 
-What? Come on, all you can
-attack with is bows and magic.
-How do you expect to win?{end}
+What?
+Come on, you're a 24/18
+Wyvern with bats.{06}{07}
+You couldn't have stopped
+us even on Scenario 1!{end}
 
 Sh, shut up!{end}
 
-Separated, ... but ...
-I'll probably be okay ...{end}
+You know, I'm sure
+I'll be okay even
+without you guys ...{end}
 
 Let's get this over with!{end}
 
@@ -344,7 +347,7 @@ Let's see what
 you've really got!{end}
 
 Don't like fun at your expense?
-Well, maybe my {39}leet
+Well, maybe my leet
 skills will entertain you!{06}{07}
 Secret Technique:
 Ascending Super Spiral ...
@@ -467,7 +470,7 @@ the next dimension!{end}
 
 No matter how I'm injured, ...
 I won't give up.{06}{07}
-Farewell Sword ...
+Take my final attack ...
 Super Star Smash!{end}
 
 Beep ... Beep ... Beep ...{06}{07}
@@ -488,10 +491,11 @@ where the Masaya staff
 masses its army of plastic
 soldiers for world conquest ...!{06}{07}
 
-{font3}Mwa hah hah hah!{06}{07}
+{font3}Mwa hah hah hah!{font0}
+{06}{07}
 
-{font0}Now then, we continue your
-regularly scheduled game!{end}
+Now then, we return you to
+your regularly scheduled game!{end}
 
 There seems to be something
 in a hollow under the floor.{06}{07}
@@ -559,7 +563,8 @@ We've already
 wasted too much time.
 Let's hurry ahead.{end}
 
-All right, let's get a move on!{end}
+All right then!
+Onward to Castle Baldea!{end}
 
 Hey wait!
 Don't run away!{end}

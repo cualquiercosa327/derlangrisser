@@ -58,8 +58,8 @@ fight our noble battle
 with glory and honour!{end}
 
 I can't stop him ...{06}{07}
-His emotions are so
-painful to hear ... {06}{07}
+His words are so
+painful to hear ...{06}{07}
 I can't ... stop him--
 But ... I don't want ...
 don't want to fight him ...{06}{07}
@@ -82,24 +82,24 @@ She underestimated
 the wrath of Alhazard.{end}
 
 Wait, Egbert.
-I had no intention for such
-an honour-less fight ... {06}{07}
+I have no intention of staging
+such a dishonourable battle ...{06}{07}
 To use hostages ...
 It's disgraceful!{end}
 
-This is between
+This fight is between
 me and {02}!{06}{07}
 No matter what,
-you won't interfere.
+you shall not interfere.
 Don't get in my way!{end}
 
 Hah hah hah ...
 Temper, temper, Leon.
-That's quite a weakness.{06}{07}
+Quite a weakness.{06}{07}
 However, it serves you
 well in the proper situation.{06}{07}
 Fear not for your
-almighty Code of Chivalry,
+almighty Code of Chivalry.
 I will release this woman.{end}
 
 Well then, I will prepare
@@ -110,12 +110,14 @@ an unnecessary precaution.{end}
 Egbert ...{end}
 
 {02}!
-Now we must attack
-with all our might!{end}
+Come at me with all
+you have!{06}{07}
+If you do not, then
+you will surely die.{end}
 
 Leon!
-Why are you
-fighting for this?{06}{07}
+Why would you choose to
+fight ... for this?{06}{07}
 By releasing Alhazard's power,
 Bernhardt beckons nothing
 but destruction to this world!{end}
@@ -126,8 +128,9 @@ Stop this futile battle!{end}
 To pacify this war-torn
 world, you need the
 means to achieve peace!{06}{07}
-Even if it's the 
-power of evil!{end}
+Incredible power is
+that very means.
+Its source matters not!{end}
 
 Leon! The ambush
 preparations are complete!{06}{07}
@@ -138,9 +141,9 @@ At last, the final
 battle has come!{06}{07}
 I'll offer you no mercy!{end}
 
-Fool ...
-Well, it can't be
-helped, can it?{06}{07}
+He would be so foolish ...?
+Damn! Is there nothing
+we can do to avoid this?{06}{07}
 Everyone, let's go!{end}
 
 If we lose here,
@@ -244,8 +247,8 @@ as a Knight and serve.
 His Majesty till the end.{end}
 
 Leon! There's no one
-who's despises fighting
-you more than I do.{06}{07}
+who despises fighting
+you more than I.{06}{07}
 Why must you
 continue this fight?{end}
 
@@ -256,7 +259,7 @@ these wars will never end.{06}{07}
 The Kaiser must unify
 this continent and form
 an ideal nation.{06}{07}
-For that reason, this last.
+For that reason, this last
 battle cannot be avoided.{end}
 
 You haven't noticed what
@@ -264,7 +267,7 @@ you're doing is wrong!?{end}
 
 I was born to this
 glorious Empire,
-raised in this Empire ... {06}{07}
+raised in this Empire ...{06}{07}
 And through blood and valour,
 I've become general of the
 proud Blue Dragon Knights!{06}{07}
@@ -341,13 +344,13 @@ Even if I must sacrifice
 my life, I will defeat you!{06}{07}
 Let's go, {02}!{end}
 
-This is what I desire!{end}
+If this is what you desire!{end}
 
 {02},
 it's over!{end}
 
 You ... shall not ...
-pass through ... {06}{07}
+pass through ...{06}{07}
 Ughhh ...{end}
 
 Damn it!
@@ -366,7 +369,7 @@ In the meantime,
 please take care
 of your wounds!{end}
 
-... {06}{07}
+...{06}{07}
 I understand.
 I'm counting on you.{end}
 
@@ -395,7 +398,7 @@ I'll never see
 His Majesty again ...{end}
 
 Ugh ... Leon,
-I'm sorry, ... {06}{07}
+I'm sorry, ...{06}{07}
 I guess I just don't ...
 have what it takes ...{end}
 
@@ -405,7 +408,7 @@ Prepare yourself!{end}
 
 Leon, ...
 It looks like this is
-the end for me....{end}
+the end for me ...{end}
 
 Laird!
 I won't let you die!{06}{07}
@@ -413,7 +416,7 @@ Did you come here
 to just to perish?
 Don't die on me, Laird!{end}
 
-I'm sorry ... {06}{07}
+I'm sorry ...{06}{07}
 Please ...
 with His Majesty ...{06}{07}
 Achieve our dream ...
@@ -439,11 +442,11 @@ in the name of our Empire!{end}
 
 Leon ...{end}
 
-General ... {06}{07}
+General ...{06}{07}
 It looks like this
-is the end for me ... {06}{07}
+is the end for me ...{06}{07}
 Please ... 
-with His Majesty ... {06}{07}
+with His Majesty ...{06}{07}
 Achieve our dream ...
 a land without war ...
 and a grand ...
@@ -495,9 +498,9 @@ Stop it! I don't want to
 fight anymore with you!{end}
 
 L{37}na ...
-I love ... {06}{07}
+I love ...{06}{07}
 No, I have no right
-to say that ... {06}{07}
+to say that ...{06}{07}
 I will fight to the end!
 For all who have died,
 I will uphold the honour
