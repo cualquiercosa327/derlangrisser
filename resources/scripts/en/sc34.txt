@@ -33,7 +33,7 @@ A degree of magical
 power and focus will be
 required for the ritual ...{06}{07}
 But these are simple
-things for me.{end}
+things for me.{06}{07}{end}
 
 Ah, you can trust
 your limits then.{end}
@@ -49,10 +49,10 @@ I had thought you'd
 be landing here.{end}
 
 {font3}Alhazard's ritual
-{font3}of unsealing
-{font3}will soon begin.{06}{07}
-{font3}{font3}Every one of our
-{font3}enemies must die here.{end}
+of unsealing
+will soon begin.{06}{07}
+{font3}Every one of our
+enemies must die here.{end}
 
 I understand.{end}
 
@@ -106,14 +106,15 @@ detain that "Dark Princess!"{end}
 
 Heh heh heh ...{06}{07}
 Come and get me.
-If you can.{end}
+If you can ...{end}
 
 Obliterate the
 Descendants of Light!{end}
 
 {font3}Leave it to us.{06}{07}
-{font3}{font3}We shall show the
-{font3}puny humans our power.{end}
+{font3}We shall show
+the pesky, puny
+humans our power.{end}
 
 L{37}na's moving to
 complete the ceremony.
@@ -128,21 +129,23 @@ That's Jessica's job.{06}{07}
 We need to concentrate
 on breaking through.{end}
 
-The ceremony is almost done.{06}{07}
+The ceremony
+is almost done.{06}{07}
 Let's retreat!{end}
 
-Weaklings, you
-shall entertain me!{06}{07}
+You'll entertain
+me, weaklings!{06}{07}
 Finally, the age of
 darkness has begun!{06}{07}
 Gwa ha ha ha ...{end}
 
-Ahh!
+Aaaahhh!
 This feeling of dread ...{06}{07}
 Alhazard's seal
 has been broken!{end}
 
-Wh, what does this mean!?{06}{07}
+Wh, what does
+this mean!?{06}{07}
 We couldn't stop the
 Dark Blade's revival!{end}
 
@@ -165,31 +168,23 @@ This is the last place
 you will ever stand.{end}
 
 {font3}Heh heh heh ...{06}{07}
-{font3}{font3}Hey there, my little
-{font3}redheaded punk.
-{font3}Come now, there is no
-{font3}need to be so angry.{06}{07}
-{font3}{font3}We have shared
-{font3}so many wonderful
-{font3}memories together!{06}{07}
-{font3}{font3}Remember Doren?
-{font3}Remember him screaming
-{font3}like a little bitch bathed
-{font3}in his own blood?{06}{07}
-{font3}{font3}I hope you will scream
-{font3}for me the same way!{end}
+{font3}Look, redheaded wimp!
+I have something for you!{06}{07}
+{font3}If only I could have
+shown you that old
+fool's bleeding corpse!{end}
 
-You son of a bitch ...{end}
+Damn ...{end}
 
 {font3}Gwa ha ha ha!{06}{07}
-{font3}{font3}You despise me?
-{font3}You want to kill me?{06}{07}
-{font3}{font3}Hate and anguish
-{font3}are my source of power!{06}{07}
-{font3}{font3}Punk, let's see if you
-{font3}still remember what
-{font3}that old husk taught!{06}{07}
-{font3}{font3}Wryyyyyyyyyy!{end}
+{font3}You despise me?
+You want to kill me?{06}{07}
+{font3}Hate and anguish
+are my source of power!{06}{07}
+{font3}Punk, let's see if you
+still remember what
+that old husk taught!{06}{07}
+{font3}Wryyyyyyyyyy!{end}
 
 {02},
 don't give in to anger!{06}{07}
@@ -212,10 +207,10 @@ If I lose my head, I'll have
 no chance of winning.{end}
 
 {font3}Hmmm ...
-{font3}You must be the
-{font3}leader, all right.{06}{07}
-{font3}{font3}You don't seem as
-{font3}stupid as the rest.{end}
+You must be the
+leader, all right.{06}{07}
+{font3}You don't seem as
+stupid as the rest.{end}
 
 What!
 You won't be talking so
@@ -226,8 +221,8 @@ Faias. You're all alone.{06}{07}
 I'll avenge Doren's death!{end}
 
 {font3}Don't make me laugh!{06}{07}
-{font3}{font3}You really think you
-{font3}can beat me!?{end}
+{font3}You really think you
+can beat me!?{end}
 
 A fruit you've
 never seen has fallen.{06}{07}
@@ -241,20 +236,20 @@ Am I really going
 to die here?{end}
 
 {font3}Very good ...{06}{07}
-{font3}{font3}But your luck is
-{font3}about to run out!{end}
+{font3}But your luck is
+about to run out!{end}
 
 You underestimate me.{end}
 
 Damn!
-Just as we were arriving
-in Velzeria ...{end}
+Just when we got
+to Velzeria ...{end}
 
 Ugh! Sorry ...
 I wish I could
 keep fighting ...{end}
 
-Let's go!{end}
+I'm coming!{end}
 
 Argh!
 It doesn't ... hurt--!{end}
@@ -265,51 +260,55 @@ really exhausting--{end}
 
 Grrr!
 In this important
-time and place ...{06}{07}
-Ow!
-I'm retreating ...!{end}
+time and place ... {06}{07}
+I'm retreating! Ow!{end}
 
 I won't lose to some
 demon's bastard child!{end}
 
 Damn it!{end}
 
+What!?
 I've been negligent
 with my battle form ...{end}
 
-Oh ...
+Ah ...
 Alhazard's seal will be
 broken, however ...{end}
 
-You really should have been
-stopped far earlier than this.{06}{07}
-I guess we haven't taken
-you seriously enough.{06}{07}
-But, no matter.
-This time we'll fight for real.{06}{07}
-{font3}Go forth my servants!{end}
+We've made it,
+and so easily too!{06}{07}
+I guess none of you 
+could see us for 
+what we were, huh?{06}{07}
+Well, too bad.
+Get out of here,
+you weaklings!{end}
 
 Impressive!
-You possess such motivation.{06}{07}
+You possess
+such motivation.{06}{07}
 Really, I would expect
 nothing less from the
 Descendants of Light.{06}{07}
-How sad that I must finish you!{end}
+How sad that
+I must finish you!{end}
 
-Impossible ...
-How could I lose to humans ...{end}
+Damn ... Impossible ...
+How could I
+lose to humans ...{end}
 
 {font3}Ugghh ...{end}
 
 {font3}Gaah--!{end}
 
 {font3}How dare a
-{font3}mortal oppose me!{end}
+mortal oppose me!{end}
 
 {font3}Ughh--aaaah!{end}
 
 {font3}Ahh, sleep peacefully
-{font3}on my bosom ...{end}
+in my embrace ...{end}
 
 {font3}How dare you ...{end}
 
@@ -326,106 +325,93 @@ How could I lose to humans ...{end}
 {font3}Gahh--arrghh!{end}
 
 {font3}I have an old score
-{font3}to settle with you,
-{font3}Descendants of Light.{06}{07}
-{font3}{font3}Especially the
-{font3}redheaded one.{end}
+to settle with you,
+Descendants of Light.{06}{07}
+{font3}Especially the
+redheaded one.{end}
 
-What score could you
-possibly have with us?
-We have never met.{end}
+What are you
+talking about?{end}
 
-{font3}Ha ha ha!
-{font3}You ... really don't
-{font3}remember me?{06}{07}
-{font3}{font3}I had hoped my
-{font3}face would haunt
-{font3}your nightmares for
-{font3}all eternity.{06}{07}
-{font3}{font3}B{3a}ser ordered me
-{font3}to massacre the
-{font3}Descendants of Light.{06}{07}
-{font3}{font3}But when I finally
-{font3}hunted you down,
-{font3}this crumpled old
-{font3}fool got in my way ...{end}
+{font3}You really don't know?{06}{07}
+{font3}B{3a}ser ordered me
+to massacre the
+Descendants of Light.{06}{07}
+{font3}But while I was
+searching you out,
+an old fool
+got in my way ...{end}
 
-An old ...!{06}{07}
-You ... then it was you!
-You are the one
-who murdered Doren!{end}
+What!
+That ..., that means
+you killed Doren!?{end}
 
-{font3}Doren ...
-{font3}Hmmm, Doren ...{06}{07}
-{font3}{font3}Heh heh ...
-{font3}Oh yes, that was his
-{font3}name, I believe.{06}{07}
-{font3}{font3}That little bastard
-{font3}dealt me a scratch that
-{font3}aches even this day.{06}{07}
-{font3}{font3}But he's dead, and
-{font3}you will soon rejoin him.
-{font3}Today, I will dance
-{font3}in your blood!{end}
+{font3}Heh heh ...
+Oh yes, that was his
+name I believe.{06}{07}
+{font3}That bastard dealt
+me a scratch that
+aches even this day.{06}{07}
+{font3}But he's dead, and soon
+you'll go to join him.
+Today, I will dance
+in your blood!{end}
 
-For years I wandered ...
-asking myself what I would do
-if I found his murderer.{06}{07}
-I will never forgive you.
+I'll never forgive you!
 Prepare yourself!{end}
 
 {font3}Come and get me!
-{font3}Let's go, whelp!{end}
+Let's go, whelp!{end}
 
 {font3}I won't fail B{3a}ser!{06}{07}
-{font3}{font3}I'll wipe the 
-{font3}Descendants' bloodline
-{font3}from this world.{end}
+{font3}I'll wipe the 
+Descendants' bloodline
+from this world.{end}
 
-{font3}I'll send you to hell!{end}
+I'll send you to hell!{end}
 
 {font3}Heh heh heh ...
-{font3}You flatter yourself!{06}{07}
-{font3}{font3}A mere human can't
-{font3}defeat those who
-{font3}channel the
-{font3}powers of darkness!{end}
+You flatter yourself!{06}{07}
+{font3}A mere human can't
+defeat those who
+channel the
+powers of darkness!{end}
 
 {font3}Powerful indeed ...{06}{07}
-{font3}{font3}But even with that
-{font3}level of skill, opposing
-{font3}B{3a}ser is suicide!{06}{07}
-{font3}{font3}A horrible death
-{font3}awaits you in Velzeria ...{06}{07}
-{font3}{font3}If Alhazard is revived,
-{font3}summoning those with my
-{font3}power is simple.{06}{07}
-{font3}{font3}Though you've beaten
-{font3}me, raising a sword
-{font3}to B{3a}ser is equal
-{font3}to asking for death.{06}{07}
-{font3}{font3}See you in hell!
-{font3}Fwa ha ha ha ...
-{font3}Gwa ha!{end}
+{font3}But even with that
+level of skill, opposing
+Bernhardt is suicide!{06}{07}
+{font3}A horrible death
+awaits you in Velzeria ...{06}{07}
+{font3}If Alhazard is revived,
+summoning those with my
+power is simple.{06}{07}
+{font3}Though you've beaten
+me, raising a sword to
+Bernhardt is equal
+to asking for death.{06}{07}
+{font3}See you in hell!
+Fwa ha ha ha ...
+Gwa ha!{end}
 
 Doren ...
 I've avenged you.
 Rest in peace, my master ...{end}
 
 By my own hand,
-I've avenged you ...{06}{07}
+I've avenged you ... {06}{07}
 I hope you can finally
 rest in peace, Doren ...{end}
 
 {font3}Gwa ha ha ha...
-{font3}Cry, little boy!{end}
+Cry, little boy!{end}
 
 He was slain because I was
-a Descendant of Light ...{06}{07}
+a Descendant of Light ... {06}{07}
 Doren gave his life in
 exchange for mine ...{06}{07}
 Everyone close to me dies ...
-I ... I cannot protect anyone.{end}
+I can't protect anyone.{end}
 
 {02} ...{end}
 
@@ -441,7 +427,7 @@ believe in you.{end}
 Yeah, {02}!{end}
 
 What brought you this
-far wasn't just that ...{06}{07}
+far wasn't just that ... {06}{07}
 It's not just because you
 are a Descendant of Light,
 it's your personality and
@@ -476,14 +462,14 @@ Was this destruction wrought
 by the Descendants of Light?{end}
 
 {font3}Dark Princess!{06}{07}
-{font3}{font3}Egbert has finished
-{font3}the preparations.{06}{07}
-{font3}{font3}Please return to the
-{font3}Temple of Darkness.{end}
+{font3}Egbert has finished
+the preparations.{06}{07}
+{font3}Please return to the
+Temple of Darkness.{end}
 
 Yes, I understand.
 Until Alhazard is reborn,
-I cannot die ...{06}{07}
+I cannot die ... {06}{07}
 I will live to witness
 the new age of darkness!{end}
 
@@ -503,28 +489,28 @@ We must prevent
 Alhazard's awakening!{end}
 
 {font3}You won't interfere
-{font3}with the revival
-{font3}of Alhazard.{06}{07}
-{font3}{font3}To create our world of
-{font3}darkness, we shall
-{font3}protect Prince B{3a}ser
-{font3}and General Egbert!{end}
+with the revival
+of Alhazard.{06}{07}
+{font3}To create our world of
+darkness, we shall
+protect Kaiser Bernhardt
+and General Egbert!{end}
 
 It can't be helped.
 We must break
 through their lines.{end}
 
 {font3}Interesting ...{06}{07}
-{font3}{font3}Then I'll share the
-{font3}pain of this old wound
-{font3}with you, boy!{end}
+{font3}Then I'll share the
+pain of this old wound
+with you, boy!{end}
 
 {font3}Arrggghhhh!{end}
 
 {font3}Fwa ha ha.{06}{07}
-{font3}We will burn the
-{font3}Descendants of Light
-{font3}to ashes!{end}
+We will burn the
+Descendants of Light
+to ashes!{end}
 
 {font3}Ooohhhhh--!{end}
 
@@ -562,8 +548,8 @@ You can't escape me!
 Ready yourself!{end}
 
 {font3}How absurd.{06}{07}
-{font3}{font3}I'll make you bleed
-{font3}just like that
-{font3}worthless old man!{06}{07}
-{font3}{font3}Wryyyyyyyyyy!{end}
+{font3}I'll make you bleed
+just like that
+worthless old man!{06}{07}
+{font3}Wryyyyyyyyyy!{end}
 

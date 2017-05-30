@@ -180,7 +180,7 @@ You cannot rely on those
 swords to bring that "peace"
 you keep referring to.{06}{07}
 Sure, your goal may not
-be to cause even more chaos,
+to cause even more chaos,
 but those two swords
 were forged for war!{06}{07}
 And war is exactly what
@@ -240,8 +240,7 @@ The flower wilted.{end}
 
 "I am the spirit of the flower."{06}{07}
 
-"Thank you, kind-hearted
-human.
+"Thank you, kind-hearted human.
 I will grant you one wish."{end}
 
 Wish for knowledge{end}
@@ -339,7 +338,7 @@ No matter what,
 you won't pass!{end}
 
 Aahh ...
-How could I ... have lost--{end}
+How could I ... lost--{end}
 
 Help, someone!
 Escort Lady Jessica
@@ -380,7 +379,7 @@ to the Imperial Capital!{end}
 Argh ...
 This is it ...{end}
 
-...{06}{07}
+... {06}{07}
 {02} ...
 You and I share the same
 hatred for war.{06}{07}
@@ -393,7 +392,7 @@ poses to this world!{end}
 
 If only things were so simple.
 We might place all
-the blame on war alone ...{06}{07}
+the blame on war alone ... {06}{07}
 No, there's more
 to it than that.{06}{07}
 Our difference in perspective
@@ -654,7 +653,7 @@ But you'll find I'm different.
 I'll fight to the very end!{end}
 
 So I'm the only
-one left after all ...{06}{07}
+one left after all ... {06}{07}
 But your group
 must be worn out!
 As long as I can,
@@ -664,7 +663,7 @@ will be returned!{end}
 
 {02}.{06}{07}
 My force is
-the only one left ...{06}{07}
+the only one left ... {06}{07}
 But, I didn't come here
 just to give up!
 Here I come, {02}!{end}

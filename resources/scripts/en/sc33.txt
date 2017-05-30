@@ -211,7 +211,7 @@ Alhazard's revival,
 no matter how you hurry!{end}
 
 The enemy is
-making poor progress.{06}{07}
+making poor progress. {06}{07}
 Strike them while
 they're at their
 most vulnerable!{end}

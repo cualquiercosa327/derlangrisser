@@ -221,7 +221,7 @@ so suddenly ...{06}{07}
 Do you know how much
 Jessica grieved for you?{end}
 
-...{06}{07}
+... {06}{07}
 Ideals can easily
 separate people.{06}{07}
 It was only a matter of time.{end}

@@ -114,8 +114,9 @@ What a guy ...{end}
 
 My god ...!
 Leon, you've done enough.{06}{07}
-As Kaiser I dissolve
-your sworn oath.{end}
+As your Kaiser I
+dismisses you
+from your sworn oath.{end}
 
 N, no ... Majesty ...
 Please allow a dying Knight ...

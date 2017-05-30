@@ -183,8 +183,7 @@ I do not fall easily,
 and neither do my men!{end}
 
 Damn ... Damn Langrisser!
-Where is its legendary
-"unlimited power" now ...!?{end}
+The legends must be true ...!{end}
 
 Argh, damn this!{06}{07}
 I knew we couldn't stand
@@ -220,28 +219,28 @@ Sorry, I'm, I'm wounded ...
 Permission to retreat!{end}
 
 {font3}B{3a}ser ... requests
-{font3}that we aid you.{end}
+that we aid you.{end}
 
 Esto!
 Everything all right?{end}
 
 {font3}Oooohhh ...!
-{font3}Wounds are so painful ...
-{font3}I'll step back ... for now.{end}
+Wounds are so painful ...
+I'll step back ... for now.{end}
 
 All right, Osto.
 Remember this and think of
 your glory to come!{end}
 
 {font3}I understand ...
-{font3}I will kill everyone who
-{font3}opposes the master.{end}
+I will kill everyone who
+opposes the master.{end}
 
 {font3}Ooohh--!{end}
 
 {font3}Beaten by
-{font3}lowly humans.
-{font3}Arrgghh ...!{end}
+lowly humans.
+Arrgghh ...!{end}
 
 {02}!{06}{07}
 I don't know what
@@ -258,7 +257,7 @@ is to remove the Empire.{06}{07}
 You always had the power,
 but never the support.{06}{07}
 After destroying you, the
-independent nations shall
+independent nations
 welcome us or bow down.{end}
 
 It's true, if you three alone
@@ -416,13 +415,13 @@ hatred and oppression ...{06}{07}
 Until then, we have
 to hold on and fight!{end}
 
-How about that?
-I hope that smack taught
-those bastards a lesson!{end}
+How about that!
+You recognise our
+superior strength?{06}{07}
+If you were a little quicker,
+you might have lived.{end}
 
-I'm sure they won't be
-spouting that self-praising
-nonsense anymore.{end}
+Obnoxious scum!{end}
 
 Sonya ...{06}{07}
 I've been searching ever

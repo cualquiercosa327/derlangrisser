@@ -413,7 +413,7 @@ deserve some rest!{end}
 Thank you, {02}.{end}
 
 {font3}Fwa hah hah!
-{font3}{font0}You pathetic worms!{end}
+{font0}You pathetic worms!{end}
 
 I've no more use
 for you.
@@ -423,26 +423,26 @@ Who could possibly
 have killed you!?{end}
 
 {font3}Humans, humans ...
-{font3}Accept the inevitable
-{font3}and allow us victory!{end}
+Accept the inevitable
+and allow us victory!{end}
 
 {font3}Livestock have no
-{font3}business with noblemen.
-{font3}Why are you here?{end}
+business with noblemen.
+Why are you here?{end}
 
 {font3}An immortal ...
-{font3}should not die ...{end}
+should not die ...{end}
 
 {font3}Your presence here
-{font3}is impressive, but
-{font3}it will soon be over.{end}
+is impressive, but
+it will soon be over.{end}
 
 {font3}Blood ...
-{font3}so much blood ...
-{font3}everywhere ...{end}
+so much blood ...
+everywhere ...{end}
 
 {font3}Fighting me is a poor
-{font3}gamble for your life.{end}
+gamble for your life.{end}
 
 {font3}Aarrggghhh--!{end}
 
@@ -457,26 +457,26 @@ have killed you!?{end}
 {font3}Arrghh ...{end}
 
 {font3}Hee hee hee ...
-{font3}Would you like to dream
-{font3}for all eternity?{end}
+Would you like to dream
+for all eternity?{end}
 
 {font3}I will be beautiful ...
-{font3}Forever ...{end}
+Forever ...{end}
 
 {font3}Hoh hoh hoh!{end}
 
 {font3}I'll see you in Hell ...{end}
 
 {font3}You will not
-{font3}get near Lord B{3a}ser!{end}
+get near Lord B{3a}ser!{end}
 
 {font3}I will kill the traitor!{end}
 
 {font3}My body ... 
-{font3}Can't move ...{end}
+Can't move ...{end}
 
 {font3}Humans have power?
-{font3}Show me.{end}
+Show me.{end}
 
 {font3}Kill the traitor!{end}
 
@@ -628,8 +628,13 @@ This isn't over yet!
 Alhazard, my Dark Blade,
 unleash your power now!{end}
 
-Wh, what is this ...?
-I feel such an evil presence!{end}
+Wh, what ...?
+I, I can't move ...{06}{07}
+It's draining me ...
+My magic ... is being
+drained by the sword ...{06}{07}
+Why, Alhazard!?{06}{07}
+Alha ... za--{end}
 
 I am the God of Chaos.
 I awake by thy wish.{end}
@@ -640,10 +645,11 @@ Chaos? Wh ...{end}
 
 My name is Chaos.{06}{07}
 Starting now, I will
-accomplish the goal for
-which I was created.{end}
+accomplish the goal
+I was created for.{end}
 
-Is that evil incarnate!?{end}
+Is that the physical
+representation of evil!?{end}
 
 I was born with
 the dawn of time.{06}{07}

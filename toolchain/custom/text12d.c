@@ -9,12 +9,10 @@ int main()
 {
     FILE  *in,
           *log;
-	// D's Note:
-	// Changed i, lc from ulong to int to fix -Wformat error with fprintf
-    int   i,
+    ulong i,
+          pt,
+          st,
           lc;
-    ulong pt,
-          st;
     byte  x;
     
     in = fopen("build/dl.sfc", "rb");

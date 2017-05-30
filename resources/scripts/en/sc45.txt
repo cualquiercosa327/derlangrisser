@@ -95,13 +95,15 @@ closely, the situation is
 more troublesome than
 we had anticipated.{end}
 
-If I left fellow officers in this
-mess, I wouldn't be fit to look
-my newborn child in the eyes!{06}{07}
+If I left my fellow
+officers in this mess, I
+wouldn't be fit to look my
+newborn child in the eye!{06}{07}
 Hmph, I guess I'll
 just have to rescue you, then!{06}{07}
 Gah hah hah!
-Here I come, girlie ...{end}
+Here I come, girlie ...
+Get ready for a knock out.{end}
 
 General Vargas ...{end}
 
@@ -175,7 +177,7 @@ Here I come, Cherie!{end}
 you teamed up with
 the likes of the Empire?{end}
 
-For peace. I've always fought
+For peace.  I've always fought
 to end war, and this seems the
 best way to go about that.{end}
 
@@ -435,13 +437,12 @@ with Lady Eliza?{06}{07}
 The birth of your child
 is a very important time.{end}
 
-Whew, that group has
-been safely evacuated.{06}{07}
-There should still be
-another group of villagers
-near here ...{end}
+These eyes saw
+one set escape.{06}{07}
+There should be
+one more left ...{end}
 
-That's the last of them ...
-All the civilians have
-been safely evacuated.{end}
+With this, the civilians
+should have left
+the village safely ...{end}
 

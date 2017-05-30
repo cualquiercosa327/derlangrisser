@@ -274,14 +274,14 @@ img_read() {
 + rts
 }
 
-!vram_pos = $7ffffa ; Must match in !vram_pos font8.asm
+!vram_pos = $7ffffa ;must match font8.asm:!vram_pos
 
-
-; font8.asm needs to know where the 8x8 font is stored in VRAM. Hook the
-; decompression routine. If decompressing the 8x8 font, the VRAM location
-; to write to is stored in $29, so copy this to a temporary variable that
-; will be used by 8x8 proportional font routine.
-
+;*****
+;font8.asm needs to know where the 8x8 font is stored in VRAM
+;hook the decompression routine, if decompressing the 8x8 font,
+;the VRAM location to write to is stored in $29, so copy this
+;to a temporary variable that will be used by 8x8 vwf routine.
+;*****
 init_decomp() {
   cpx #$0000 : bne +
   rep #$20

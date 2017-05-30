@@ -431,13 +431,10 @@ Keep them from our Kaiser!{end}
 Do you think you can
 breach our ironclad defence?{end}
 
-I have no choice ...
-M, Must fall back!{end}
+I, I've been slain ...{end}
 
-Fear not, soldier.
-You can leave
-the rest up to me.{06}{07}
-I will crush them all!{end}
+No need to fear.
+I will, definitely!{end}
 
 Glory to the
 Rayguard Empire!{end}

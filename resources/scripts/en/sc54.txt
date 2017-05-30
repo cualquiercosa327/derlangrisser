@@ -12,7 +12,7 @@ I should have
 killed him sooner ...{end}
 
 {font3}What ...!?
-{font3}You've come here?{end}
+You've come here?{end}
 
 Is Sonya dead ...?{06}{07}
 Hmmm ... How disappointing.
@@ -359,7 +359,7 @@ deserve some rest!{end}
 Thank you, {02}.{end}
 
 {font3}Fwa hah hah!
-{font3}{font0}You pathetic worms!{end}
+{font0}You pathetic worms!{end}
 
 I've no more use
 for you.
@@ -405,8 +405,8 @@ Alha ... za ...{end}
 
 Obtained Alhazard.{end}
 
-My goodness, what has
-happened to B{3a}ser?{end}
+My goodness,
+what happened here?{end}
 
 B{3a}ser was weakened by
 the unsealing ritual.{06}{07}
@@ -461,24 +461,24 @@ Understood!
 We'll leave immediately!{end}
 
 {font3}Hah hah hah.
-{font3}Stupid humans!{06}{07}
-{font3}{font3}How can you kill me
-{font3}if I'm already dead?{end}
+Stupid humans!{06}{07}
+{font3}How can you kill me
+if I'm already dead?{end}
 
 {font3}The oh so mighty
-{font3}Empire graces us
-{font3}with its presence.{end}
+Empire graces us
+with its presence.{end}
 
 {font3}No ... I'm immortal--!{end}
 
 {font3}I commend your
-{font3}efforts in reaching here.{end}
+efforts in reaching here.{end}
 
 {font3}Blood, need blood ...{end}
 
 {font3}You dare fight me ...?
-{font3}Do you not
-{font3}know my strength?{end}
+Do you not
+know my strength?{end}
 
 {font3}Ooohh--!{end}
 
@@ -493,14 +493,14 @@ We'll leave immediately!{end}
 {font3}Gaahh!{end}
 
 {font3}Hah hah hah!
-{font3}This nightmare you
-{font3}won't wake up from!{end}
+This nightmare you
+won't wake up from!{end}
 
 {font3}My beauty will
-{font3}last forever ...!{end}
+last forever ...!{end}
 
 {font3}I've come to
-{font3}play, my pet!{end}
+play, my pet!{end}
 
 {font3}Aahhh ...{end}
 
@@ -511,16 +511,15 @@ Die, traitors!{end}
 {font3}Can't ... move ...{end}
 
 {font3}Show me your
-{font3}strength, humans ...!{end}
+strength, humans ...!{end}
 
 {font3}Kill the invaders!{end}
 
 {font3}How disappointing ...{end}
 
-Hmph ...{06}{07}
-Foolish half-breed ...
-it was your own fault that
-your were tricked.{end}
+Hmph ...
+How foolish of me.
+I fell for their trick ...{end}
 
 The remaining
 Descendants of Light, Sir.{06}{07}

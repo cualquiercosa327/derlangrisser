@@ -71,7 +71,7 @@ Not one of you
 will cross our line.{end}
 
 So many pointless battles ...
-Well, no choice. Time to cut
+Well, no choice.  Time to cut
 down a few more adversaries.{end}
 
 We were such fools ...
@@ -330,7 +330,7 @@ Thank you, Scott.
 You've indulged an old man's
 ego till the very end ...{06}{07}
 Swear to tell ... 
-Kalxath ...{06}{07}
+Kalxath ...  {06}{07}
 The rest, the rest ... 
 I leave to you ... my son ...{end}
 
@@ -394,7 +394,7 @@ Even if we've different
 blood, you will
 always be my son.{06}{07}
 That's ...
-That's why ...{06}{07}
+That's why ... {06}{07}
 Damn you, monsters!
 You'll know a father's
 vengeance for his child!{end}

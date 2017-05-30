@@ -24,9 +24,9 @@ Aarrrgghhh!{end}
 {font3}Are you Liana?{end}
 
 {font3}Where do you think
-{font3}you're going?{06}{07}
-{font3}{font3}You think you
-{font3}can escape us?{end}
+you're going?{06}{07}
+{font3}You think you
+can escape us?{end}
 
 You needn't overexert
 your pretty self.
@@ -44,29 +44,29 @@ Well, that takes care of her.
 I will go on ahead.{end}
 
 {font3}Yesss ...
-{font3}Yet another
-{font3}successful mission.{end}
+Yet another
+successful mission.{end}
 
 {font3}Let's head to the harbour
-{font3}to stop her little
-{font3}friends in their tracks! {end}
+to stop her little
+friends in their tracks! {end}
 
 {font3}Let's hurry!{end}
 
 {font3}You mean the ship
-{font3}isn't yet readied ...?{end}
+isn't yet readied ...?{end}
 
 {font3}Yes ...
-{font3}The cargo has been
-{font3}difficult to load.{06}{07}
-{font3}{font3}I'm afraid that
-{font3}our departure
-{font3}has been delayed.{end}
+The cargo has been
+difficult to load.{06}{07}
+{font3}I'm afraid that
+our departure
+has been delayed.{end}
 
 {font3}We must move quickly!{end}
 
 {font3}Right away,
-{font3}your Lordship!{end}
+your Lordship!{end}
 
 Ahh, we made it at last.{06}{07}
 I hope we can find a boat.{end}
@@ -74,11 +74,11 @@ I hope we can find a boat.{end}
 Hmmm, look there!{end}
 
 {font3}We have a problem!{06}{07}
-{font3}{font3}The Descendants of Light
-{font3}are now moving in!{end}
+{font3}The Descendants of Light
+are now moving in!{end}
 
 {font3}What!?
-{font3}Hasten the operation!{end}
+Hasten the operation!{end}
 
 {font3}Right away.{end}
 
@@ -95,25 +95,25 @@ Before they depart,
 let's commandeer the ship!{end}
 
 {font3}Esto and Osto
-{font3}haven't returned yet,
-{font3}have they?{end}
+haven't returned yet,
+have they?{end}
 
 {font3}No, Esto and Osto
-{font3}have special
-{font3}orders from Lord B{3a}ser.{06}{07}
-{font3}They search out the
-{font3}way to revive Alhazard.{end}
+have special
+orders from Lord B{3a}ser.{06}{07}
+They search out the
+way to revive Alhazard.{end}
 
 {font3}Oh, really ...{end}
 
 {font3}Listen up, everyone!{06}{07}
-{font3}{font3}There's no need to wait.
-{font3}We can easily obliterate
-{font3}the Descendants of Light
-{font3}with our own power!{end}
+{font3}There's no need to wait.
+We can easily obliterate
+the Descendants of Light
+with our own power!{end}
 
 {font3}Oooooh!
-{font3}That sounds exciting.{end}
+That sounds exciting.{end}
 
 They seem to be seeking
 another component
@@ -150,47 +150,47 @@ ship to Velzeria,
 we might not make it.{end}
 
 {font3}How are the departure
-{font3}preparations going?{end}
+preparations going?{end}
 
 {font3}Not quite finished ...{06}{07}
-{font3}{font3}Please wait 
-{font3}a little longer.{end}
+{font3}Please wait 
+a little longer.{end}
 
 {font3}Hurry the hell up!{end}
 
 {font3}You're still
-{font3}not finished!?{end}
+not finished!?{end}
 
 {font3}The loading will be
-{font3}complete shortly.{06}{07}
-{font3}{font3}Please have patience.{end}
+complete shortly.{06}{07}
+{font3}Please have patience.{end}
 
 {font3}Hey! The ship
-{font3}still isn't ready!{end}
+still isn't ready!{end}
 
 {font3}Sorry to keep
-{font3}you waiting.{06}{07}
-{font3}{font3}The departure
-{font3}preparations are
-{font3}now complete.{end}
+you waiting.{06}{07}
+{font3}The departure
+preparations are
+now complete.{end}
 
 {font3}Sorry to keep
-{font3}you waiting.{06}{07}
-{font3}{font3}We can go any time!{end}
+you waiting.{06}{07}
+{font3}We can go any time!{end}
 
 {font3}All right!
-{font3}Raise the anchor!
-{font3}Let's get out of here.{end}
+Raise the anchor!
+Let's get out of here.{end}
 
 {font3}Are the ships
-{font3}ready to depart?{end}
+ready to depart?{end}
 
 {font3}Preparations complete.{end}
 
 {font3}Preparations complete.{end}
 
 {font3}All right!{06}{07}
-{font3}{font3}Let's head for Velzeria!{end}
+{font3}Let's head for Velzeria!{end}
 
 Damn it!{06}{07}
 We didn't make
@@ -202,12 +202,12 @@ to Velzeria, it would
 take too long ...{end}
 
 Hmmm, now we
-have a problem ...{06}{07}
+have a problem ... {06}{07}
 We could go by foot to
 Velzeria, but it would take
 way too much time.{end}
 
-We're in trouble now ...{06}{07}
+We're in trouble now ... {06}{07}
 It's not that we can't
 go to Velzeria by foot, but
 it would take forever.{end}
@@ -253,35 +253,35 @@ Oh, my back ...{end}
 Gaaahh--!{end}
 
 {font3}We're not your
-{font3}ordinary demons!{end}
+ordinary demons!{end}
 
 {font3}Hya ha ha, ...
-{font3}impressive!{06}{07}
-{font3}{font3}Redheaded mortal, 
-{font3}you'll remember this!{end}
+impressive!{06}{07}
+{font3}Redheaded mortal, 
+you'll remember this!{end}
 
 {font3}For Lord B{3a}ser!{end}
 
 {font3}Im, impossible ...{end}
 
 {font3}You're just a
-{font3}mere human!{end}
+mere human!{end}
 
 {font3}Hee hee hee ...
-{font3}Ready or not,
-{font3}here I come!{end}
+Ready or not,
+here I come!{end}
 
 {font3}Y, you ...
-{font3}R, rotten humans!{end}
+R, rotten humans!{end}
 
 {font3}We will stain
-{font3}the sea red!{end}
+the sea red!{end}
 
 {font3}This cannot
-{font3}be happening ...!{end}
+be happening ...!{end}
 
 {font3}H, how are mere
-{font3}humans able to--?{end}
+humans able to--?{end}
 
 {font3}Ugghhh!{end}
 
@@ -296,12 +296,12 @@ Gaaahh--!{end}
 {font3}Aaaaahhh--!{end}
 
 {font3}I suppose we may
-{font3}have underestimated
-{font3}your strength.{06}{07}
-{font3}{font3}How could a demon
-{font3}be challenged by
-{font3}a mere human? I
-{font3}still don't believe it ...{end}
+have underestimated
+your strength.{06}{07}
+{font3}How could a demon
+be challenged by
+a mere human? I
+still don't believe it ...{end}
 
 Ah, it's over now.{end}
 
@@ -318,32 +318,32 @@ Well, let's head out!
 To Velzeria!{end}
 
 {font3}These mortals 
-{font3}look skilled.{end}
+look skilled.{end}
 
 {font3}Esto, Osto!{end}
 
 {font3}A pity we were late.
-{font3}But we have
-{font3}taken the catalyst.{06}{07}
-{font3}{font3}Egbert has surely
-{font3}notified Lord B{3a}ser
-{font3}of this development.{end}
+But we have
+taken the catalyst.{06}{07}
+{font3}Egbert has surely
+notified Lord B{3a}ser
+of this development.{end}
 
 {font3}And are we
-{font3}ready to depart?{end}
+ready to depart?{end}
 
 {font3}I'm sorry.
-{font3}We're not quite done.{end}
+We're not quite done.{end}
 
 {font3}Hurry, then.{end}
 
 {font3}Yes ...{end}
 
 {font3}Ah, the mighty 
-{font3}Descendants of Light.{06}{07}
-{font3}{font3}Here you shall all die.
-{font3}{font3}You won't get in
-{font3}Lord B{3a}ser's way!{end}
+Descendants of Light.{06}{07}
+{font3}Here you shall all die.
+{font3}You won't get in
+Lord B{3a}ser's way!{end}
 
 Argh, such
 powerful monsters!
@@ -357,9 +357,9 @@ fundamentals and
 you'll come out all right. {end}
 
 {font3}Ahhh! How could
-{font3}Esto and Osto
-{font3}have been beaten ...{end}
+Esto and Osto
+have been beaten ...{end}
 
 {font3}You're still
-{font3}not finished!?{end}
+not finished!?{end}
 

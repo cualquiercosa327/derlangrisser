@@ -1,16 +1,3 @@
-;
-; Der Langrisser Name Screen Patches
-;
-; This files contains Super Nintendo code for redesigning the character naming
-; interface in Der Langrisser.
-;
-; Version:   1.0
-; Author:    byuu
-; Copyright: (c) 2006, 2016 DL Team
-; Website:   https://github.com/sobodash/derlangrisser/
-; License:   BSD License <http://opensource.org/licenses/bsd-license.php>
-;
-
 lorom
 
 org $01e141 : jsl load_char
@@ -21,10 +8,7 @@ org $01e4fe : db $b8,$05,$f8,$05,$38,$06
 org $01dfea : lda #$05
 org $01e6fc : jsl set_cp : bra $08
 
-
-; ----------------------------------------------------------------------------
-; Draw new A-Z and a-z character map
-
+;A-Z/a-z
 org $01dbf3
   db $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00
   db $41,$00,$42,$00,$43,$00,$44,$00,$45,$00,$46,$00,$47,$00,$48,$00,$49,$00,$4a,$00,$00,$00,$00,$00,$00,$00
@@ -45,14 +29,10 @@ org $01dbf3
   db $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00
   db $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00
 
-
-; ----------------------------------------------------------------------------
-; Change default name to "Erwin"
-
+;Erwin
 org $00c5e7 : db $0e,$35,$58,$2c,$31,$00
 org $07e352 : db $b5,$dc,$aa,$d3,$d8,$ff
 org $01de46 : db $b5,$20,$dc,$20,$aa,$20,$d3,$20,$d8,$20,$20,$20,$20,$20,$20,$20,$ff
-
 
 loadpc build/dl.xpc
 
@@ -68,18 +48,18 @@ lookup_table:
 set_cp() {
   php : rep #$30 : pha : phx : phy
 
-; Verify that intro routine has not been disabled ...
-;  lda $00fffc : cmp #$8000 : beq +
-;  stp
-;+ lda $008000 : cmp #$204c : beq +
-;  stp
-;+ lda $008002 : cmp #$d880 : beq +
-;  stp
-;+ lda $008020 : cmp #$005c : beq +
-;  stp
-;+ lda $008022 : cmp #$4080 : beq +
-;  stp
-;+
+;verify that intro routine has not been disabled ...
+  lda $00fffc : cmp #$8000 : beq +
+  stp
++ lda $008000 : cmp #$204c : beq +
+  stp
++ lda $008002 : cmp #$d880 : beq +
+  stp
++ lda $008020 : cmp #$005c : beq +
+  stp
++ lda $008022 : cmp #$4080 : beq +
+  stp
++
 
   ldx #$0000 : stx $fa
 - {
@@ -88,7 +68,7 @@ set_cp() {
     phx
     sec : sbc #$000a : tax
     lda lookup_table,x : and #$00ff : tax
-    lda $5f8000,x : and #$00ff ; Length table 0 address
+    lda $5f8000,x : and #$00ff ;length table 0 address
     clc : adc $fa : sta $fa
     plx : inx : bra -
   }

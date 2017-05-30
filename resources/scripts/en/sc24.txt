@@ -27,10 +27,8 @@ What!{06}{07}
 The Blue Dragon Knights
 are here ...!{end}
 
-Is that Rohga
-leading the enemy
-search party ...?{06}{07}
-Yes, it is him!{end}
+Isn't that Rohga
+leading them!?{end}
 
 {02}'s bunch?{06}{07}
 Move fast!
@@ -41,9 +39,7 @@ He seems to be after
 the rod as well.{06}{07}
 Let's hurry!{end}
 
-Everyone, let's go!{06}{07}
-We cannot back down,
-even for a former ally!{end}
+Everyone, let's go!{end}
 
 Let's split and search!{end}
 
@@ -118,7 +114,7 @@ I'm pulling out ...{end}
 You won't get the Holy Rod!{end}
 
 My wound still
-hasn't healed ...{06}{07}
+hasn't healed ... {06}{07}
 {02},
 I will pay you
 back for this!{end}
@@ -128,32 +124,18 @@ Find the Rod, now!{end}
 
 Let's go!{end}
 
-{02} ...{06}{07}
-I'm not much of a talker.
-For me, everything I know,
-everything I feel, I learn
-through my sword.{06}{07}
-Ever since I met you,
+{02} ...
 I've wanted to do battle
-with you just once!{06}{07}
-Show me what
-kind of a man you are!{end}
+with you just once!{end}
 
-Rohga ...
-I don't want this!{end}
+Rohga ...{end}
 
-{02} ...{06}{07}
-The time for such
-words is long past.{06}{07}
-I buried our former
-allegience in that
-cemetery with Ikreuz!{06}{07}
-Come on, fight me,
-and don't hold back!{end}
+I won't hold back.
+Come on!{end}
 
 Such strength ...
 To imagine there are fighters
-even more powerful than I ...{06}{07}
+even more powerful than I ... {06}{07}
 I'm proud to have battled
 with and against a warrior
 as great as you, {02}.{end}
@@ -183,7 +165,7 @@ Ahh.
 I'm losing strength--{end}
 
 I am sorry,
-my beloved ...{06}{07}
+my beloved ... {06}{07}
 I don't think I'll
 survive this time ...{end}
 
@@ -321,7 +303,7 @@ Fighting Leon is
 painful for you, isn't it?{end}
 
 N, no ...
-It's all right ...{06}{07}
+It's all right ... {06}{07}
 Alhazard must be sealed.
 Even if we have
 to do things like this ...{end}
@@ -361,8 +343,8 @@ What a magnificent glow ...{end}
 Langrisser's hidden
 power has been released!{end}
 
-With Langrisser revived, we'll
-show Bernhardt the true power
+With Langrisser revived, we
+can show B{3a}ser the true power
 of the Descendants of Light!{end}
 
 It will only get tougher
@@ -371,7 +353,7 @@ However, if we work
 and act as one, we can
 overcome any difficulty.{06}{07}
 If we all have faith in
-ourselves, we can succeed.{06}{07}
+ourselves, we can succeed. {06}{07}
 If we believe in hope,
 the Sword of Light will
 shine even brighter.{end}

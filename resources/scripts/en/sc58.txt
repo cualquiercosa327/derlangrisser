@@ -311,7 +311,7 @@ so suddenly ...{06}{07}
 Do you know how much
 Jessica grieved for you?{end}
 
-...{06}{07}
+... {06}{07}
 Ideals can easily
 separate people.{06}{07}
 It was only a matter of time.{end}
@@ -480,8 +480,8 @@ At this rate ...{end}
 Fuck, fuck, fuck!
 I'm the last one left!{06}{07}
 At least I won't be lonely
-in Hell! Who wants
-to come along? Step up!{end}
+in Hell!  Who wants to
+come along? Step up!{end}
 
 How is this possible?
 M, my naval troops!?{end}

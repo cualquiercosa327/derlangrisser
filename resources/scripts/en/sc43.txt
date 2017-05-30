@@ -29,9 +29,9 @@ will not see the sunset this day.
 Avenge our Dark Prince, B{3a}ser!{end}
 
 {font3}Lord B{3a}ser shall
-{font3}be avenged!{06}{07}
-{font3}{font3}We won't fear the 
-{font3}Descendants of Light!{end}
+be avenged!{06}{07}
+{font3}We won't fear the 
+Descendants of Light!{end}
 
 Listen up, everyone!
 We can't go easy on Sonya,
@@ -47,20 +47,20 @@ I'm counting on you!
 Destroy the human scum!{end}
 
 {font3}Don't tell me
-{font3}what to do, bitch.{06}{07}
-{font3}{font3}I only followed you
-{font3}in the past because
-{font3}of a direct order
-{font3}from B{3a}ser himself.{06}{07}
-{font3}{font3}Now that he's dead,
-{font3}I don't have to take
-{font3}any of your shit!{06}{07}
-{font3}{font3}Hmph ...!
-{font3}We're gonna have
-{font3}a little bloodbath!{06}{07}
-{font3}{font3}And you're cordially
-{font3}invited, you
-{font3}filthy, halfie bitch!{end}
+what to do, bitch.{06}{07}
+{font3}I only followed you
+in the past because
+of a direct order
+from B{3a}ser himself.{06}{07}
+{font3}Now that he's dead,
+I don't have to take
+any of your shit!{06}{07}
+{font3}Hmph ...!
+We're gonna have
+a little bloodbath!{06}{07}
+{font3}And you're cordially
+invited, you
+filthy, halfie bitch!{end}
 
 N, no way!
 You can't be serious ...{06}{07}
@@ -68,9 +68,9 @@ B, but we're friends,
 aren't we ...!?{end}
 
 {font3}Let's have at it,
-{font3}Descendants of Trash!{06}{07}
-{font3}{font3}I shall avenge
-{font3}Lord B{3a}ser!{end}
+Descendants of Trash!{06}{07}
+{font3}I shall avenge
+Lord B{3a}ser!{end}
 
 What the hell?{06}{07}
 It seems the enemy
@@ -208,7 +208,7 @@ Why did this happen?{end}
 Ooh ...!
 This is wrong!{06}{07}
 At this rate, I won't be
-able to win against you ...{06}{07}
+able to win against you ... {06}{07}
 However, I'll never give up!
 Humanity and those
 treacherous demons will
@@ -245,7 +245,7 @@ of you all ...
 If I could live again--{end}
 
 {font3}Damn! The tide has
-{font3}turned, retreat!{end}
+turned, retreat!{end}
 
 Sonya ...{end}
 
@@ -262,23 +262,23 @@ chance to see the good side
 of the human spirit ...{06}{07}
 How sad ...{end}
 
-{02}, let's make
-sure her death is the
-last of this war's tragedies.{end}
+{02},
+let's end this
+tragic war!{end}
 
-Everyone ... let's go!
+All right, let's go!
 To Velzeria!{end}
 
 {font3}Your blood is tainted
-{font3}with the putrid
-{font3}stink of humanity!{06}{07}
-{font3}{font3}Because of this, you
-{font3}will be disposed of!{end}
+with the putrid
+stink of humanity!{06}{07}
+{font3}Because of this, you
+will be disposed of!{end}
 
 {font3}Don't affiliate
-{font3}with us any longer!{06}{07}
-{font3}{font3}You are the bastard
-{font3}shame of our tribe!{end}
+with us any longer!{06}{07}
+{font3}You are the bastard
+shame of our tribe!{end}
 
 What ... Why!?
 What's happening...{end}
@@ -302,39 +302,39 @@ What's happening...{end}
 {font3}Ooohhh ...!{end}
 
 {font3}Destroy everything!
-{font3}This is the
-{font3}will of B{3a}ser ...{end}
+This is the
+will of B{3a}ser ...{end}
 
 {font3}I've heard that the
-{font3}Descendants of Light
-{font3}have incredible power ...{06}{07}
-{font3}{font3}We must go about
-{font3}this seriously.{end}
+Descendants of Light
+have incredible power ...{06}{07}
+{font3}We must go about
+this seriously.{end}
 
 {font3}It's over!
-{font3}Cease your futile
-{font3}struggling.{end}
+Cease your futile
+struggling.{end}
 
 {font3}Gahh--!
-{font3}I've been hit ...{06}{07}
-{font3}{font3}Cough ... Cough ...{06}{07}
-{font3}{font3}Wryyyyyyyyyy!{06}{07}
-{font3}{font3}You scum ...!{end}
+I've been hit ... {06}{07}
+{font3}Cough ... Cough ...{06}{07}
+{font3}Wryyyyyyyyyy!{06}{07}
+{font3}You scum ...!{end}
 
 {font3}Impossible!
-{font3}You defeated the
-{font3}Vampire Lord ...{end}
+You defeated the
+Vampire Lord ...{end}
 
 {font3}What is this!
-{font3}You defeated the
-{font3}Vampire Lord ...{06}{07}
-{font3}{font3}However, now you
-{font3}shall witness the
-{font3}power of the first
-{font3}family of the night!{end}
+You defeated the
+Vampire Lord ...{06}{07}
+{font3}However, now you
+shall witness the
+power of the first
+family of the night!{end}
 
 {font3}Ughh ...
-{font3}Ooohhh--!{end}
+Ooohhh--!{end}
 
 {font3}Uuughh--!{end}
 
@@ -350,5 +350,5 @@ others ... But I guess there's
 no need to worry now ...
 I die a glorious child of Chaos.{end}
 
-{font3}How interesting!{end}
+How interesting!{end}
 

@@ -326,7 +326,7 @@ And for true peace
 throughout the world!{end}
 
 Arrgh!
-N, not yet ...{06}{07}
+N, not yet....{06}{07}
 We ... Kalxath ...
 Can't give in ...{end}
 
@@ -381,7 +381,7 @@ You must think you're pretty
 great for coming this far.
 Too bad you won't go further!{end}
 
-I ...
+I  ...
 I haven't ...{end}
 
 I, I'm falling!{end}

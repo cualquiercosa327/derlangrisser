@@ -774,7 +774,7 @@
 
 {end}
 
-{skip 3}-{skip 2}Kill B{3a}ser{end}
+{skip 3}-{skip 2}Kill B{3A}ser{end}
 
 {end}
 

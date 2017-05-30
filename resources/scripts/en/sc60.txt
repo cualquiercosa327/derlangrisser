@@ -268,12 +268,9 @@ turning against B{3a}ser.{06}{07}
 Maybe Hell's the best
 place for your craziness!{end}
 
-{font3}How could ...
-{font3}mere mortals end a
-{font3}lord such as I ...{06}{07}
-{font3}{font3}Gwarg--!
-{font3}Th, They have ...
-{font3}Langrisser--!{end}
+So the humans think they
+can end a man such as me ...?
+Oh? Is that Langrisser?{end}
 
 Sonya ...
 Stand back ...{end}

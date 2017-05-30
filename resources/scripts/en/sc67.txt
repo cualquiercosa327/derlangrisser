@@ -10,8 +10,8 @@ express your dark nature ...{06}{07}
 O, Alhazard, return
 thy true power now!{06}{07}
 {font4}Al Hassaerto ...
-{font4}Aul Alwazart ...!
-{font4}Ay Alhazard!{end}
+Aul Alwazart ...!
+Ay Alhazard!{end}
 
 B{3a}ser, have you
 unsealed the blade?{end}
@@ -86,8 +86,8 @@ to Alhazard's resurrection ...{06}{07}
 But this isn't in the legends.
 Why would it do that now ...?{end}
 
-Leon, you are fond of
-that sword, are you not?
+Hey, Leon.  You're fond of
+that sword, aren't you?
 I think it suits us well.{06}{07}
 While we're here, why
 don't you take it for our
@@ -103,9 +103,9 @@ his big ceremonial moment.{06}{07}
 This presents an opportunity.
 We could take the
 quacking bastard out for good.{06}{07}
-We can take him out
-with the Imperials.
-Neither stands any chance.{end}
+Just throw in with
+Imperials, and
+he has no chance.{end}
 
 We can't let the Empire
 lay their wretched
@@ -200,10 +200,10 @@ I'll never forgive you!{end}
 Uugghhh--! I'm finished...{end}
 
 {font3}We will remember
-{font3}this day!{end}
+this day!{end}
 
 {font3}Grrrr--!
-{font3}So much ... pain!{end}
+So much ... pain!{end}
 
 So you turn against me?
 Hah hah hah ... May your
@@ -281,8 +281,8 @@ your leadership. We'll destroy
 you on our path to glory!{end}
 
 Aaarrgghhh ...
-It was a mistake to
-follow you here ...{end}
+Did you need to follow
+us all the way here ...{end}
 
 You were not chosen to
 rule this continent.{06}{07}
@@ -395,8 +395,8 @@ Hah ...!{end}
 Grr--!
 It's hopeless now ...{end}
 
-How can they
-have so much power ...?{end}
+What kind of power
+are you referring to ...?{end}
 
 How could I ...? Ugh ...{end}
 
@@ -445,7 +445,7 @@ We've defeated him!{end}
 
 Both of you, listen.{06}{07}
 Langrisser and Alhazard,
-the holy and dark blades ...
+the Holy and Dark Blades ...
 They are both in my hands.{06}{07}
 With these tools, not a
 soul in this world
@@ -482,37 +482,21 @@ new world they live in.{end}
 always move forward!
 Our goal is peace!{end}
 
-Come on, {02} ...
-You can understand what
-we mean, right?{end}
+Hey, {02}!{end}
 
-...{06}{07}
-Leave.{end}
+Get out of here.{end}
 
 {02} ...{end}
 
-Wh, what ...!?{end}
+What!?{end}
 
-After I have come so far ...
-After I have fought so hard ...{06}{07}
-All of it, all of it
-to keep my promise ...
-To create the world we
-both dream of ...{06}{07}
-And you are asking me,
-when I finally have the power
-to make a real difference,
-to just walk away!?{06}{07}
-I am bringing peace to
-this continent and ending
-its wars--my way.{06}{07}
-There will be no more
-children left as orphans,
-crying over their parents'
-bloody bodies.{06}{07}
-If anyone could have
-understood, I thought would
-have been you, Liana ...{end}
+Move on.
+I'm ending things
+in my own way.{06}{07}
+There shall be
+no more tragedies.{06}{07}
+By my efforts,
+this war will be the last.{end}
 
 {02} ...{end}
 
@@ -522,23 +506,16 @@ Let's go, Liana ...{end}
 
 {02} ...{end}
 
-Hey, {02} ...
-You were a little hard
-on her, don't you think?{06}{07}
-Liana isn't a bad girl,
-and what she wants isn't
-really so different ...{end}
+Hey, is it really okay,
+{02} ...?{end}
 
-...
-She can go her own way ...
-It's not our problem.{06}{07}
-For now, let's focus on
-dismantling the Empire.{end}
+It isn't a problem.
+We should concern ourselves
+with the Imperial Army!{end}
 
-...
-Forget about her ...{06}{07}
-For now, let's focus on
-dismantling the Empire.{end}
+Forget about them.
+We should concern ourselves
+with the remaining Imperials.{end}
 
 Of course!{06}{07}
 If we let them go, they
@@ -552,8 +529,8 @@ Let's catch
 the Empire by its tail!{end}
 
 {font3}Uugghh ...?
-{font3}This place is ...
-{font3}what is it ...?{end}
+This place is ...
+what is it ...?{end}
 
 Can you hear me?
 B{3a}ser's spell has broken.{06}{07}
@@ -564,9 +541,9 @@ Please, please,
 lend us your power!{end}
 
 {font3}...{06}{07}
-{font3}{font3}Yes, we understand.
-{font3}We will make
-{font3}ourselves useful.{end}
+{font3}Yes, we understand.
+We will make
+ourselves useful.{end}
 
 Dark Princess, with your
 help, the Glory of Darkness
@@ -586,8 +563,8 @@ I have no reason to kill her.{06}{07}
 In truth, she may
 still be of use to us ...{06}{07}
 {font4}Dithum Aynde
-{font4}Kaotik Deorc
-{font4}On Kantrelu!{end}
+Kaotik Deorc
+On Kantrelu!{end}
 
 Heh heh heh ...
 This is quite fitting.{06}{07}
@@ -649,7 +626,7 @@ I will try to
 battle with brother!{end}
 
 {font3}Sonya,
-{font3}are you betraying us!?{end}
+are you betraying me!?{end}
 
 {font3}Kill traitors!{end}
 

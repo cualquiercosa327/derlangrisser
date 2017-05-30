@@ -44,7 +44,7 @@ Dark Princess{end}
 
 Bernhardt{end}
 
-B{3a}ser{end}
+B{3A}ser{end}
 
 Laird{end}
 

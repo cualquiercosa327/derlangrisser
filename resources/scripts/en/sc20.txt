@@ -64,7 +64,7 @@ that garrison ...{end}
 Impossible, you are ...!?{end}
 
 {font3}Heh heh heh ...
-{font3}{font0}Meddling sorceresses
+{font0}Meddling sorceresses
 should learn to stay dead ...{06}{07}
 That's the problem with killing
 worms--you cut them down,
@@ -411,7 +411,7 @@ binding his essence within
 a weapon to rival Chaos.{06}{07}
 That sword became known
 as Langrisser,
-the Might of Elthlead.{06}{07}
+the Might of Elthlead. {06}{07}
 We received Langrisser's
 power and successfully
 sealed Alhazard, ... but

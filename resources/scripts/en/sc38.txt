@@ -32,7 +32,7 @@ so simple, Lester ...{end}
 Is that Rohga
 leading the enemy
 search party ...?{06}{07}
-Yes, it is him!{end}
+Yes, it is Rohga!{end}
 
 {02}'s bunch?{06}{07}
 Move fast!
@@ -43,9 +43,7 @@ He seems to be after
 the rod as well.{06}{07}
 Let's hurry!{end}
 
-Everyone, let's go!{06}{07}
-We cannot back down,
-even for a former ally!{end}
+Everyone, let's go!{end}
 
 Sorry for being late.{end}
 
@@ -66,7 +64,7 @@ We're a little late!{end}
 Leon!{end}
 
 We're going to split
-up and search for it.{06}{07}
+up and search for it. {06}{07}
 I'm going to
 look in the left room
 in the back.{06}{07}
@@ -102,26 +100,13 @@ Withdraw!{end}
 Damn, if we had a
 little more time ...{end}
 
-{02} ...{06}{07}
-I'm not much of a talker.
-For me, everything I know,
-everything I feel, I learn
-through my sword.{06}{07}
-Ever since I met you,
-I've wanted to do battle
-with you just once!{06}{07}
-Show me what
-kind of a man you are!{end}
+It's {02} ...!{06}{07}
+I've been wanting to
+test my skills against
+you for a while!{end}
 
-Rohga ...
-I don't want this!{end}
+Rohga ...{end}
 
-{02} ...{06}{07}
-The time for such
-words is long past.{06}{07}
-I buried our former
-allegience in that
-cemetery with Ikreuz!{06}{07}
 Come on, fight me,
 and don't hold back!{end}
 
@@ -157,7 +142,7 @@ I'll retreat ...{end}
 Argh, I can't
 take this!{end}
 
-{02}!{06}{07}
+{02}! {06}{07}
 I will not let you, or
 any enemy of the Empire,
 take the Holy Rod!{end}
@@ -171,7 +156,7 @@ who would fall from
 a few scratches!{end}
 
 My wound still
-hasn't healed ...{06}{07}
+hasn't healed ... {06}{07}
 {02},
 I will pay you
 back for this!{end}
@@ -188,7 +173,7 @@ You annoying rats!{end}
 
 Such strength ...
 To imagine there are fighters
-even more powerful than I ...{06}{07}
+even more powerful than I ... {06}{07}
 I'm proud to have battled
 with and against a warrior
 as great as you, {02}.{end}
@@ -245,7 +230,7 @@ We shall aid Rohga!
 Charge!{end}
 
 I am sorry,
-my beloved ...{06}{07}
+my beloved ... {06}{07}
 I don't think I'll
 survive this time ...{end}
 
@@ -390,7 +375,7 @@ Fighting Leon is
 painful for you, isn't it?{end}
 
 N, no ...
-It's all right ...{06}{07}
+It's all right ... {06}{07}
 Alhazard must be sealed.
 Even if we have
 to do things like this ...{end}
@@ -460,7 +445,7 @@ However, if we work
 and act as one, we can
 overcome any difficulty.{06}{07}
 If we all have faith in
-ourselves, we can succeed.{06}{07}
+ourselves, we can succeed. {06}{07}
 If we believe in hope,
 the Sword of Light will
 shine even brighter.{end}
@@ -471,7 +456,7 @@ All right!
 I'm going to give it
 everything I've got, too!{end}
 
-We've made it this far ...{06}{07}
+We've made it this far ... {06}{07}
 We can do it!{end}
 
 Let's work together!{end}

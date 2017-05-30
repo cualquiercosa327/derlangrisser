@@ -437,7 +437,7 @@ brings sadness, don't you?{end}
 
 I can't stand it.
 Seeing women and children
-sacrificed on the battlefield ...{06}{07}
+sacrificed on the battlefield ... {06}{07}
 Someone has to take action to
 rid the world of war.
 If you hope for peace from the
@@ -489,8 +489,8 @@ Surely the world will know
 peace under the rule of a
 single, strong nation ...{end}
 
-Everyone, ...{06}{07}
-Here I must say farewell.
+Everyone, ... {06}{07}
+here I must say farewell.
 I'm going with Leon.{end}
 
 What!?
@@ -511,105 +511,67 @@ I'll lend the Empire
 my strength.{end}
 
 Wait, {02}!{06}{07}
-{02} ...{06}{07}
-What have you seen in your
-years of wandering ...?{06}{07}
-What has the Empire
-brought to the continent?{06}{07}
-Leon already said the Empire
-has joined hands with darkness.
-The path to true peace
-cannot be tainted by evil ...{06}{07}
-Please ...!
-I beg you to reconsider ...{end}
+The Empire has joined the
+hands of darkness.
+True peace can't be obtained
+through evil means.{06}{07}
+Please!
+Reconsider your decision!{end}
 
 Will you fight on Leon's
 side against Liana's wishes?{end}
 
-...{06}{07}
-I've seen the Empire,
-and while it may leave much
-to be desired, it has shown
-me one thing ...{06}{07}
-You cannot reshape
-the world without controlling
-unstoppable power.{06}{07}
-Power is necessary to create
-a peaceful world ...
-Try to understand me, Liana ...{end}
+Sorry, Liana.
+Please understand.{06}{07}
+Power is necessary to
+create a peaceful world.{end}
 
-I cannot understand this!{06}{07}
-The Empire has shattered
-many lives on this quest for
-its so-called "peace."{06}{07}
-Force brings only sadness!
+I won't understand!
+Never!{06}{07}
+Peace can't be obtained
+through power!
+Use of force will only
+bring greater sadness!{06}{07}
 Besides, Alhazard can't be
-controlled by human beings!{end}
+controlled by a human being!{end}
 
-...
-You are wrong, Liana.{06}{07}
-Your diplomacy can do
-nothing to end hate and greed.
-Force cannot end them either,
-but it can bring order.{06}{07}
-In a world with order,
-people may finally find peace.
-I will realise this world ...
-I promise ...{end}
+I've already decided.
+Goodbye, Liana ...{end}
 
 {02} ...{06}{07}
-One day ...
-One day you will be able to
-understand what I mean.{06}{07}
+One day ... One day you
+will understand what I mean.{06}{07}
 I'm sure of it ...{end}
 
-Hmmm ...
-You may be right.{06}{07}
+That's true.{06}{07}
 Real peace isn't about
-using power to subdue war.{06}{07}
-Until people learn how to
-understand each other and
-forgive, all the hate and chaos
-will never truly end.{end}
+controlling war with power.{06}{07}
+It's about everyone
+understanding and ending
+their quarrels.{end}
 
-I'm sorry, Leon ...
-but she is right.
-I cannot go with you.{end}
+Sorry, Leon. I can't
+go with you.{end}
 
 {02} ...{06}{07}
-Would you really
-force us to become
-your enemies?{06}{07}
-I ...{06}{07}
-I never imagined I would
-have to fight against you ...{end}
+Then from now on, we're
+fighting on opposite sides ...{end}
 
 Cherie ...{end}
 
 Hmph!
-What a sack of shit you
-turned out to be!{06}{07}
-I can't believe Lady Jessica
-put her faith in you,
-but I guess being on
-Egbert's side fits you better!{06}{07}
-Later.{end}
+I've misjudged you.{06}{07}
+Your ideal isn't something that
+can be realised so easily!{06}{07}
+Later!{end}
 
-{02} ...
-It seems I have misjudged
-your character.{06}{07}
-When you aided us at
-Castle Kalxath, you did not
-seem one who would overlook
-the essence of peace ...{06}{07}
-And the princess ...
-What a cruel twist of fate
-this has been.{end}
+I thought you wouldn't
+misjudge what's essential ...{06}{07}
+I'm sorry ...{end}
 
-Everyone ...{end}
+...{end}
 
-Tell me, Leon, what is
-our next objective?{end}
+What will we do now?{end}
 
 We must obtain Langrisser.
 The revival of Alhazard
@@ -663,18 +625,14 @@ Bye, {02}.{end}
 
 Bye, {02}.{end}
 
-{02} ...{06}{07}
-Today we met as friends,
-but that changes nothing.
-When next we meet,
-it shall be as enemies.{end}
+From now on,
+we'll meet as enemies ...{end}
 
 Yeah ...{end}
 
-What a shame ...{06}{07}
-You have incredible potential.
-I would have liked to
-call such a man my comrade.{06}{07}
+Too bad.
+I thought we could fight
+on the same side.{06}{07}
 Farewell, {02}!{end}
 
 He's gone ...{end}

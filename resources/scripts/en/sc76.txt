@@ -277,7 +277,7 @@ I'll fall back for now.{end}
 {font3}Oooohhh ...!{end}
 
 {font3}Ugghh ... Arrgghhh--!
-{font3}Have I been beaten!?{end}
+Have I been beaten!?{end}
 
 Just be quiet and
 go get some rest.{end}
@@ -285,8 +285,8 @@ go get some rest.{end}
 {font3}Uggh ...{end}
 
 {font3}These humans
-{font3}smell unpleasant ...
-{font3}Why is this ...!?{end}
+smell unpleasant ...
+Why is this ...!?{end}
 
 That's because you've
 reverted to your original form.{06}{07}
@@ -295,7 +295,7 @@ bloodthirsty. With him dead,
 you don't hunger for blood.{end}
 
 {font3}So B{3a}ser made
-{font3}us devour humans?{end}
+us devour humans?{end}
 
 {font3}I'm gonna devour you!{end}
 
@@ -308,8 +308,8 @@ Just go get some rest!{end}
 Sorry ...{end}
 
 {font3}These humans
-{font3}smell unpleasant ...
-{font3}Why is this ...!?{end}
+smell unpleasant ...
+Why is this ...!?{end}
 
 That's because you've
 reverted to your original form.{06}{07}
@@ -318,7 +318,7 @@ bloodthirsty. With him dead,
 you don't hunger for blood.{end}
 
 {font3}So B{3a}ser made
-{font3}us devour humans?{end}
+us devour humans?{end}
 
 Let's go, Cherie!{end}
 
@@ -488,7 +488,7 @@ They're breaking!
 How are we going to get back?{end}
 
 Concentrate on moving
-forward. We're committed now.{end}
+forward.  We're committed now.{end}
 
 That's right.
 We'll finish what we've started.{06}{07}

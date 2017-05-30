@@ -54,7 +54,7 @@ Somehow, we made it in time.{end}
 
 {02}, please,
 give me orders!
-Allow me to demonstrate{06}{07}
+Allow me to demonstrate
 the results of my training!{end}
 
 Got it.
@@ -299,7 +299,7 @@ I can still fight ...{end}
 
 The defence of the
 castle is our mission.
-You certainly have{06}{07}
+You certainly have
 better things to do.{06}{07}
 Please retreat.
 We can't afford to lose you!{end}

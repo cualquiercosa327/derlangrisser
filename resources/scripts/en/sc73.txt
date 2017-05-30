@@ -38,7 +38,7 @@ I understand, General Vargas.
 You are brave beyond words!{end}
 
 Looks like we're facing the
-Flaming Fag Brigade, or
+Flaming Fag Brigade or
 whatever they call themselves.{end}
 
 If we take too much time,
@@ -113,9 +113,8 @@ Your Highness, quickly!{end}
 Hmmm ...{end}
 
 Bastards ...!{06}{07}
-If you persist in
-following us, then count
-yourselves dead!{end}
+If I don't rest soon, I'll ...
+I may not survive ...{end}
 
 Brat!
 If you come any further,
@@ -145,8 +144,8 @@ Imelda gets out.{end}
 So it's Vargas and Imelda ...
 Good times.{end}
 
-With Langrisser on our
-side, it won't be a problem!{end}
+It's won't be a problem.
+Langrisser's right here!{end}
 
 Some dirty mice are playing
 with a small stone.{06}{07}
@@ -181,7 +180,7 @@ Uugghh, I've been ...
 defeated ...!{end}
 
 {font3}Arrrrghh--!
-{font3}This host ... too weak ...{end}
+This host ... too weak ...{end}
 
 Forgive me, Vargas.
 I leave everything in your care.{end}
@@ -305,8 +304,8 @@ Vargas ...! How could
 you be so careless ...
 Damn it all!{end}
 
-This is as far as you go.
-I will be your opponent!{end}
+I won't let you get pass.
+Meet me with your swords!{end}
 
 The General has been defeated?
 Let us join with Imelda
@@ -320,17 +319,16 @@ Sorry ...{end}
 
 I'll never forget you guys ...{end}
 
-Well then, Vargas,
-shall we give these kids
-a real beating?{end}
+Well, Vargas, I'll
+punish those
+bastards for you!{end}
 
-My men could
-use your support.{end}
+Let's offer them support!{end}
 
 All right!
 I'm going too.{end}
 
-Here we go!{end}
+Y, yes!{end}
 
 Get ready, bastards.
 I shall avenge Vargas' death!{end}
@@ -340,15 +338,13 @@ Time to go!{end}
 
 Yes, Sir!{end}
 
-Persistent bastards!
-I will kill you all!{end}
+Stubborn bastards!
+Let's fight back!{end}
 
 Come now, and
 meet your punishment.{end}
 
-Hold your positions!
-I will kill anyone who dares
-to desert us now!{06}{07}
+Don't run or we'll cut you down.
 Prepare to fight.{end}
 
 Imelda!{end}
@@ -375,7 +371,7 @@ of His Majesty ...{end}
 
 Imelda, you fought well.
 It was a fitting battle
-for a Rayguard general.{06}{07}
+for a Heavenly Dragon.{06}{07}
 We'll make sure your
 actions bring great result.{end}
 
@@ -383,7 +379,7 @@ I'm sorry ...{end}
 
 I'll never forget you guys ...{end}
 
-Don't get yourself killed ...{end}
+He hasn't died yet.{end}
 
 Protect His Majesty
 at all costs!{end}
@@ -437,7 +433,7 @@ What persistence ...
 I honestly didn't think
 you'd make it to me.{end}
 
-Not bad ...{end}
+I did it ...{end}
 
 My swordsmanship ...
 could use some work ...{end}
@@ -445,9 +441,9 @@ could use some work ...{end}
 So, I'm the last one left.
 I'm not giving in.
 Don't even think it.{06}{07}
-I'll provide His Majesty
-and his troops whatever time
-and distance they need.{06}{07}
+I'll get His Majesty and
+his troops whatever time and
+distance they need.{06}{07}
 Now then, red-haired punk.
 Stop your gawking
 and let us cross blades!{end}
@@ -469,17 +465,15 @@ They are what give
 us the right to command.{06}{07}
 If I show weakness
 even once, it's all over.{06}{07}
-And for a woman,
-that goes double ...{end}
+And for a
+woman, that goes double.{end}
 
 Worrying about such
 trifles will only stress you.{end}
 
 I'm happy right now
-for one thing ...{06}{07}
-I can dispense with
-the formalities and get
-on with the killing.{end}
+for one thing ...
+I don't need to show off.{end}
 
 ...{end}
 
@@ -494,7 +488,8 @@ main force or we'll lose them!{end}
 
 Probably Castle Velzeria ...{end}
 
-Farewell, General Vargas ...
+Farewell, Heavenly Dragons.
+General Vargas ...
 General Imelda ...{end}
 
 That was the last of the
@@ -505,13 +500,12 @@ Vargas and Imelda ...
 competent and loyal
 warriors to the very end.{end}
 
-That they were.
-But to where have the other
-Rayguard dogs fled?{end}
+That's right.
+If they escaped there ...{end}
 
-Probably to Castle Velzeria.
-Penetrating that place
-might be a little tricky ...{06}{07}
+Getting through the defences
+in Castle Velzeria
+could be problematic.{06}{07}
 We must strike quickly,
 before they can
 ready themselves.{end}

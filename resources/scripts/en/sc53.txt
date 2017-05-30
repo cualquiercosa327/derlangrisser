@@ -20,7 +20,7 @@ succeeding here ...{end}
 Aaahh ...!{end}
 
 J, Jessica!{06}{07}
-Colonel Laird, the
+Colonel Laid, the
 sorceress is escaping!{end}
 
 That crafty witch is
@@ -182,9 +182,9 @@ Forgive me, {02}.
 It's up to you now!{end}
 
 {font3}Ugghh!
-{font3}How dare you!{06}{07}
-{font3}{font3}Bastard, I'll return
-{font3}the favour one day!{end}
+How dare you!{06}{07}
+{font3}Bastard, I'll return
+the favour one day!{end}
 
 What a mistake ...
 Grr--! I'll remember this!{end}
@@ -268,8 +268,7 @@ She didn't lay anything on
 her parents' deaths ...
 She accepted responsibility.{end}
 
-I'll ... I'll give
-you a moment to yourself.{06}{07}
+When is this going to end?{06}{07}
 I'll go on ahead.{end}
 
 Wait up!
@@ -277,14 +276,12 @@ I'm going too!{end}
 
 ...{end}
 
-You are a strong man.
+You're a strong man.
 Use this sadness and
 remember what we fight for.{06}{07}
-I'll be waiting for
-you to catch up.{end}
+I'll wait for you ahead.{end}
 
-R, Rohga ...
-You know ...{end}
+Th, that ...{end}
 
 ...{06}{07}
 Against B{3a}ser, I'm at
@@ -301,28 +298,27 @@ God damn it!
 There's war to fight, and
 I have to keep going!{end}
 
-Even when I was on
-the frozen fields of Kadath!{end}
+On the frozen
+fields of Kadath!{end}
 
-Or bound to the scorching
-rocks of Seviglia!{end}
+Or on the charred
+rock of Seviglia!{end}
 
-I stared down death things
-no man should ever see.{end}
+No matter what adversity
+I face, I'll survive it all!{end}
 
-I survived again and again,
-hoping to find you.
-To find our lost happiness.{end}
+Everything I've done
+was for your happiness.{end}
 
-Farewell ...
+Farewell ...{06}{07}
 We'll meet again,
 Sonya ...{end}
 
 {font3}Ahh, the amazing
-{font3}Langrisser. Powerful ...{end}
+Langrisser. Powerful ...{end}
 
 {font3}When B{3a}ser's
-{font3}recovered, ... you will ...{end}
+recovered, ... you will ...{end}
 
 {font3}Gaaahhh--!{end}
 
@@ -337,31 +333,31 @@ Sonya ...{end}
 {font3}Ugh ...{end}
 
 {font3}You humans
-{font3}would dare defy
-{font3}us monsters!?{06}{07}
-{font3}{font3}You'll pay for that
-{font3}foolish notion
-{font3}with your lives!{end}
+would dare defy
+us monsters!?{06}{07}
+{font3}You'll pay for that
+foolish notion
+with your lives!{end}
 
 {font3}You damn humans ...{end}
 
 {font3}Mmmmm, delicious
-{font3}looking humans.{06}{07}
-{font3}{font3}Come sleep
-{font3}in my arms.{end}
+looking humans.{06}{07}
+{font3}Come sleep
+in my arms.{end}
 
 {font3}Gaahhh!
-{font3}H, how dare ...{end}
+H, how dare ...{end}
 
 {font3}How could this ...!?
-{font3}How can I, the Prince
-{font3}of the Undead, die ...{end}
+How can I, the Prince
+of the Undead, die ...{end}
 
 {font3}Sonya's been killed!
-{font3}Run, withdraw quickly!{end}
+Run, withdraw quickly!{end}
 
 {font3}Sonya betrayed us.
-{font3}Go tell B{3a}ser.{end}
+Go tell B{3a}ser.{end}
 
 Rohga ...
 We should give up on Sonya.{06}{07}
