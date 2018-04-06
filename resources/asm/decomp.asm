@@ -17,6 +17,9 @@ lorom
 
 org $00bcb0 : jml decomp : nop #2
 
+;Avatar fix from yugisokubodai
+org $07a3e9 : jml fix_avatar_06
+
 loadpc build/dl.xpc
 
 decomp() {
@@ -82,6 +85,44 @@ decomp_e072() {
 
   rep #$30 : ply : plx : pla : plp : rtl
 }
+
+
+;------------------------------------------------------------------------------
+;Avatar fix from yugisokubodai
+
+fix_avatar_06:
+  lda [$02],y : bne emu_a405
+  lda $1d88
+  jml $07a3f0
+fix_avatar_06_end:
+
+;If Avatar = 36 (Angry Vargas) then jump to Scenario check
+emu_a405:
+  cmp #$36 : beq check_scenario_06
+  jml $07a405
+emu_a405_end:
+
+;If Scenario = 6 then jump to check which Vargas' avatar
+check_scenario_06:
+  pha
+  lda $7e1a00 : cmp #$06 : beq check_vargas
+  pla : jml $07a405
+check_scenario_06_end:
+
+;If pointer = #$c272 then correct the avatar
+check_vargas:
+  lda $02 : cmp #$72 : beq right_avatar_06
+  pla : jml $07a405
+check_vargas_end:
+
+right_avatar_06:
+  pla
+  lda #$01
+  jml $07a405
+right_avatar_06_end:
+
+;------------------------------------------------------------------------------
+
 
 ; $0547 = 0d->25
 ; Correct Aaron's portrait (was Cherie)
