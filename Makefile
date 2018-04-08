@@ -23,7 +23,7 @@ endif
 	@echo "Assembling intro program..."
 	@./toolchain/bin/xkas ./resources/asm/intro.asm ./build/dl.sfc
 	@echo "Assembling decomp routines..."
-	@./toolchain/bin/xkas ./resources/asm/decomp.asm ./build/dl.sfc
+	@./toolchain/bin/xkas ./resources/asm/decomp.old.asm ./build/dl.sfc
 	@echo "Assembling replacement name table..."
 	@./toolchain/bin/xkas ./resources/asm/name.asm ./build/dl.sfc
 	@echo "Assembling 8x8 text fixes..."
