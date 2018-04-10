@@ -17,7 +17,7 @@ lorom
 
 org $00bcb0 : jml check_scenario : nop #2
 
-loadpc build/dl.xpc
+org $608000
 
 ; Load a decompressed block
 macro load_ev(ev_start, ev_end)
@@ -347,9 +347,6 @@ load_ev73() {
   %load_ev(ev73, ev73_end)
 }
 
-savepc build/dl.xpc
-
-org $600000
 ev01:
   incbin resources/events/ev01.dat
 ev01_end:
@@ -637,4 +634,3 @@ ev73:
   incbin resources/data/e072.bin
 ev73_end:
 
-savepc build/dl.xpc

@@ -21,7 +21,7 @@ org $008020 : jml intro
 ; Update internal header information
 
 org $ffc0 : db 'Der Langrisser       '
-org $ffd7 : db $0c ; 24Mbit ROM
+org $ffd7 : db $0c ; 32Mbit ROM
 org $ffd9 : db $01 ; North American release
 
 
@@ -30,7 +30,7 @@ org $ffd9 : db $01 ; North American release
 
 org $00a65a : jsl init_decomp
 org $088000 : incbin build/ctable.bin
-org $408000 : fill $100000
+org $408000 : fill $200000
 org $418000 : incbin build/font16.bin
 
 org $428000
