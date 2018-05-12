@@ -28,49 +28,49 @@ if(md5(file_get_contents("resources/dl.rom")) != "91d62c4cb790fc2fb38b10b68616e2
 
 // Fetch tables to an array
 $fddump = file_get_contents($tables[0]);
-$tbl00 = split ("\n", $fddump);
+$tbl00 = explode ("\n", $fddump);
 //for($l = 0; $l < count($tbl00); $l++) {
 //	$tbl00[$l] = trim($tbl00[$l]);
 //}
 
 $fddump = file_get_contents($tables[1]);
-$tblf7 = split ("\n", $fddump);
+$tblf7 = explode ("\n", $fddump);
 //for($l = 0; $l < count($tblf7); $l++) {
 //	$tblf7[$l] = trim($tblf7[$l]);
 //}
 
 $fddump = file_get_contents($tables[2]);
-$tblf8 = split ("\n", $fddump);
+$tblf8 = explode ("\n", $fddump);
 //for($l = 0; $l < count($tblf8); $l++) {
 //	$tblf8[$l] = trim($tblf8[$l]);
 //}
 
 $fddump = file_get_contents($tables[3]);
-$tblf9 = split ("\n", $fddump);
+$tblf9 = explode ("\n", $fddump);
 //for($l = 0; $l < count($tblf9); $l++) {
 //	$tblf9[$l] = trim($tblf9[$l]);
 //}
 
 $fddump = file_get_contents($tables[4]);
-$tblfa = split ("\n", $fddump);
+$tblfa = explode ("\n", $fddump);
 //for($l = 0; $l < count($tblfa); $l++) {
 //	$tblfa[$l] = trim($tblfa[$l]);
 //}
 
 $fddump = file_get_contents($tables[5]);
-$tblfb = split ("\n", $fddump);
+$tblfb = explode ("\n", $fddump);
 //for($l = 0; $l < count($tblfb); $l++) {
 //	$tblfb[$l] = trim($tblfb[$l]);
 //}
 
 $fddump = file_get_contents($tables[6]);
-$names = split ("\n", $fddump);
+$names = explode ("\n", $fddump);
 //for($l = 0; $l < count($names); $l++) {
 //	$names[$l] = trim($names[$l]);
 //}
 
 $fddump = file_get_contents($tables[7]);
-$words = split ("\n", $fddump);
+$words = explode ("\n", $fddump);
 //for($l = 0; $l < count($words); $l++) {
 //	$words[$l] = trim($words[$l]);
 //}
