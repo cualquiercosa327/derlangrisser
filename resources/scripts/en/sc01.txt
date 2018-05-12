@@ -60,7 +60,7 @@ Kr{38}mer{end}
 
 Seigal{end}
 
-Folgert{end}
+Folger{end}
 
 Soldier{end}
 
@@ -120,7 +120,7 @@ Aniki{end}
 
 Witch{end}
 
-Priest{end}
+Abbot{end}
 
 Soldier{end}
 

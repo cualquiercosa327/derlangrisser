@@ -29,7 +29,7 @@ There must be something
 special about Liana that the
 Blue Dragon Knights seek.{end}
 
-Great Priest!
+Your Holiness!
 We're in trouble!
 The Imperial Army has arrived!{end}
 
@@ -436,11 +436,11 @@ I need to take a rest ...{end}
 Maidens, take refuge in
 the shrine's interior!{end}
 
-Yes, Priest!{end}
+Yes, Holy Father!{end}
 
 Oooh ... Lushiris--!{end}
 
-Priest!{end}
+Your Holiness!{end}
 
 Liana!
 She looks so cold ... but this is

@@ -404,15 +404,15 @@ If that were all of human
 nature, I'd understand you.
 I might even agree!{06}{07}
 But have you forgotten our
-guardian, Ikreuz? Don't you
+guardian, Uccles? Don't you
 remember how he raised us?{end}
 
-Father Ikreuz ...{end}
+Father Uccles ...{end}
 
 Yes, remember
-Ikreuz's kindness.{06}{07}
+Uccles' kindness.{06}{07}
 That warm feeling
-of having Ikreuz care
+of having Uccles care
 for us like a father!{end}
 
 ...{06}{07}
@@ -422,7 +422,7 @@ A soft, welcoming hand
 reached out to us.
 It felt like father was there.{end}
 
-If Ikreuz never found us,
+If Uccles never found us,
 I'd probably detest
 humans as much as you do.{06}{07}
 Humans are weak.

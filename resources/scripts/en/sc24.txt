@@ -147,7 +147,7 @@ The time for such
 words is long past.{06}{07}
 I buried our former
 allegience in that
-cemetery with Ikreuz!{06}{07}
+cemetery with Uccles!{06}{07}
 Come on, fight me,
 and don't hold back!{end}
 

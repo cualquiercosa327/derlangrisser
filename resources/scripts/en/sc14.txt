@@ -630,16 +630,16 @@ Good idea ...{end}
 
 It must be this village ...{end}
 
-"The Holy Priest,
-Ikreuz, rests here ..."{06}{07}
+"Here lies the
+Grand Abbot Uccles"{06}{07}
 I knew it would be here.{end}
 
-You knew Ikreuz?{end}
+You knew Uccles?{end}
 
 I see ...{end}
 
 Yes ...
-He was a nice, gentle man.{end}
+He was a kind, gentle man.{end}
 
 Yeah ...{end}
 
