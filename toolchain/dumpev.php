@@ -4,85 +4,33 @@
 echo "Der Langrisser Event Dumper (cli)\n";
 echo "Copyright (c) 2018 Derrick Sobodash\n";
 
+function hexstr($byte) {
+  return("0x" . str_pad(dechex($byte), 2, "0", STR_PAD_LEFT));
+}
+
+function fgetb($fd) {
+  return(ord(fgetc($fd)));
+}
+
 set_time_limit(6000000);
 
-$bgm_array = array(
-  "Neo Holy War",
-  "Knights Errant",
-  "No Surrender",
-  "Fight it Out",
-  "The Legend of the Sword",
-  "Soldier",
-  "Last Battle",
-  "Ally Backup 1",
-  "Ally Backup 2",
-  "Ally Backup 3",
-  "Leon",
-  "Vargas",
-  "Morgan",
-  "Evil Enemy",
-  "Egbert",
-  "Imelda",
-  "Dark Princess",
-  "Boser",
-  "Bernhardt",
-  "Enemy Reinforcements 1",
-  "Enemy Reinforcements 2",
-  "Shop",
-  "Story",
-  "Liana",
-  "Aniki",
-  "Requiem",
-  "Ending 1",
-  "Ending 2",
-  "Inside of a Cave",
-  "Quiet Ending",
-  "Ending Completion",
-  "Scenario Clear",
-  "Opening 1",
-  "Requiem Lushiris",
-  "Opening 2",
-  "Beach Ambience",
-  "Night Ambience",
-  "Jessica",
-  "Staff Roll");
+if (!file_exists("resources/events/define_bgm.txt"))
+	die("Fatal error: BGM definitions not found.\n");
+$ar_bgm = explode("\n", file_get_contents("resources/events/define_bgm.txt"));
 
-$wpn_array = array(
-  "Dagger",
-  "War Hammer",
-  "Long Sword",
-  "Magic Wand",
-  "Inferno Lance",
-  "Devil Axe",
-  "Dragon Slayer",
-  "Langrisser",
-  "Langrisser (True)",
-  "Iron Dumbbell",
-  "Masayan Sword",
-  "Orb",
-  "Holy Rod",
-  "Holy Rod",
-  "Dark Rod",
-  "Long Bow",
-  "Arbalest",
-  "Alhazard",
-  "Alhazard (True)",
-  "Odin's Buckler",
-  "Buckler",
-  "Shield",
-  "Chainmail",
-  "Platemail",
-  "Assault Suit",
-  "Cloak",
-  "Dragon Scale",
-  "Wizard's Robe",
-  "Amulet",
-  "Cross",
-  "Necklace",
-  "Swift Boots",
-  "Crown",
-  "Gleipnir",
-  "Rune Stone");
+if (!file_exists("resources/events/define_item.txt"))
+	die("Fatal error: Item definitions not found.\n");
+$ar_item = explode("\n", file_get_contents("resources/events/define_item.txt"));
+
+if (!file_exists("resources/events/define_portrait.txt"))
+	die("Fatal error: Portrait definitions not found.\n");
+$ar_portrait = explode("\n", file_get_contents("resources/events/define_portrait.txt"));
+
+if (!file_exists("resources/events/define_unit.txt"))
+	die("Fatal error: Unit definitions not found.\n");
+$ar_unit = explode("\n", file_get_contents("resources/events/define_unit.txt"));
+
+$pointers = array();
 
 $events = array(
   "resources/events/ev01.dat",
@@ -157,42 +105,242 @@ $events = array(
   "resources/events/battle.dat",
   "resources/events/lushiris.dat");
 
-if (!file_exists("resources/events/units.txt"))
-	die("Fatal error: Units list not found.\n");
-$units = explode("\n", "resources/events/units.txt");
-if (!file_exists("resources/events/items.txt"))
-	die("Fatal error: Units list not found.\n");
-$items = explode("\n", "resources/events/items.txt");
-if (!file_exists("resources/events/music.txt"))
-	die("Fatal error: Units list not found.\n");
-$music = explode("\n", "resources/events/music.txt");
-
 // Make sure all events are present
 foreach($events as $file)
 	if(!file_exists($file))
-		die("Fatal error: $file not found.\n");
+		die("Fatal error: Event $file not found.\n");
 
 for($i = 0; $i < count($events); $i++) {
 	$fd = fopen($events[$i], "rb");
-	$fo = fopen(substr($events[$i], 0, -3) . "dls", "w");
+	$fo = fopen(substr($events[$i], 0, -3) . "txt", "w");
 	
-	// Read section jumps
+	fputs($fo, ";EVENT SCRIPT " . ($i+1) . "\n");
+	
+	// Get section pointers
 	$begin = ord(fgetc($fd)) + (ord(fgetc($fd)) << 8);
-	fputs($fo, "0 JUMP $begin\n");
-	while(ftell($fd) < $begin)
-	  fputs($fo, ftell($fd) . " JUMP " . ord(fgetc($fd)) + (ord(fgetc($fd)) << 8) . "\n");
+	$section = array($begin);
+	while(ftell($fd) < $section[0])
+	  $section[] = ord(fgetc($fd)) + (ord(fgetc($fd)) << 8);
 	
-	// Begin dumping events
-	fputs($fo, ftell($fd) . " ");
-	$code = ord(fgetc($fd));
-	switch($code) {
-	  case(0xff):
-	    if(ord(fgetc($fd)) == 0xff)
-	      fputs($fo, "END\n");
-	  case(0x04):
-	    
+	// Read movement hooks
+	fputs($fo, "\n;Hooks for movement-triggered events\n");
+	fputs($fo, "movement:\n");
+	while(ftell($fd) < $section[1]) {
+	  $t_cmd = ord(fgetc($fd));
+	  if($t_cmd != 255) {
+	    $bytecode = array($t_cmd, ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)));
+	    $t_priority = str_pad($bytecode[0], 6, " ");
+	    $t_unit = $ar_unit[$bytecode[1]];
+	    $t_turn = $bytecode[2];
+	    $t_unk = $bytecode[3];
+	    $t_ptr = $bytecode[4] + ($bytecode[5] << 8);
+	    $pointers[] = $t_ptr;
+	    fputs($fo, "  $t_priority IF unit=$t_unit AND turn=$t_turn THEN GOSUB lbl_" . dechex($t_ptr) . "\n");
+	    for($i=0; $i<count($bytecode); $i++)
+	      $bytecode[$i] = hexstr($bytecode[$i]);
+	    fputs($fo, "         ;$bytecode[0] $bytecode[1] $bytecode[2] $bytecode[3] $bytecode[4] $bytecode[5]\n");
+	  }
+	  else {
+	    $t_cmd = fgetc($fd);
+	    fputs($fo, "movement_end:\n");
+	  }
+	}
+
+	// Read attack hooks
+	fputs($fo, "\n;Hooks for attack-triggered events\n");
+	fputs($fo, "attack:\n");
+	while(ftell($fd) < $section[2]) {
+	  $t_cmd = ord(fgetc($fd));
+	  if($t_cmd != 255) {
+	    $bytecode = array($t_cmd, ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)));
+	    $t_priority = str_pad($bytecode[0], 6, " ");
+	    $t_unit1 = $ar_unit[$bytecode[1]];
+	    $t_unit2 = $ar_unit[$bytecode[3]];
+	    $t_ptr = $bytecode[6] + ($bytecode[7] << 8);
+	    $pointers[] = $t_ptr;
+	    fputs($fo, "  $t_priority IF unit1=$t_unit1 AND unit2=$t_unit2 THEN GOSUB lbl_" . dechex($t_ptr) . "\n");
+	    for($i=0; $i<count($bytecode); $i++)
+	      $bytecode[$i] = hexstr($bytecode[$i]);
+	    fputs($fo, "         ;$bytecode[0] $bytecode[1] $bytecode[2] $bytecode[3] $bytecode[4] $bytecode[5] $bytecode[6] $bytecode[7]\n");
+	  }
+	  else {
+	    $t_cmd = fgetc($fd);
+	    fputs($fo, "attack_end:\n");
+	  }
 	}
 	
+	// Read defeat/damage hooks
+	fputs($fo, "\n;Hooks for damage-triggered events\n");
+	fputs($fo, "damage:\n");
+	while(ftell($fd) < $section[3]) {
+	  $t_cmd = ord(fgetc($fd));
+	  if($t_cmd != 255) {
+	    $t_cmd2 = ord(fgetc($fd));
+	    if($t_cmd2 != 255) {
+	      $bytecode = array($t_cmd, $t_cmd2, ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)));
+	      $t_priority = str_pad($bytecode[0], 6, " ");
+	      $t_unit = $ar_unit[$bytecode[2]];
+	      $t_ptr = $bytecode[4] + ($bytecode[5] << 8);
+	      $pointers[] = $t_ptr;
+	      fputs($fo, "  $t_priority IF defeated=$t_unit THEN GOSUB lbl_" . dechex($t_ptr) . "\n");
+	      for($i=0; $i<count($bytecode); $i++)
+	        $bytecode[$i] = hexstr($bytecode[$i]);
+	      fputs($fo, "         ;$bytecode[0] $bytecode[1] $bytecode[2] $bytecode[3] $bytecode[4] $bytecode[5]\n");
+	    }
+	    else {
+	      $bytecode = array($t_cmd, $t_cmd2, ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)));
+	      $t_priority = str_pad($bytecode[0], 6, " ");
+	      $t_unit1 = $ar_unit[$bytecode[2]];
+	      $t_unit2 = $ar_unit[$bytecode[4]];
+	      fputs($fo, "  $t_priority IF attacker=$t_unit1 AND defeated=$t_unit2 THEN GOSUB lbl_" . dechex($t_ptr) . "\n");
+	      for($i=0; $i<count($bytecode); $i++)
+	        $bytecode[$i] = hexstr($bytecode[$i]);
+	      fputs($fo, "         ;$bytecode[0] $bytecode[1] $bytecode[2] $bytecode[3] $bytecode[4] $bytecode[5] $bytecode[6] $bytecode[7]\n");
+	    }
+	  }
+	  else {
+	    $t_cmd = fgetc($fd);
+	    fputs($fo, "damage_end:\n");
+	  }
+	}
+	
+	// Read position hooks
+	fputs($fo, "\n;Hooks for position-triggered events\n");
+	fputs($fo, "position:\n");
+	while(ftell($fd) < $section[4]) {
+	  $t_cmd = ord(fgetc($fd));
+	  if($t_cmd != 255) {
+	    $bytecode = array($t_cmd, ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)));
+	    if($bytecode[2] == 0 && $bytecode[3] == 0 ) {
+	      $t_priority = str_pad($bytecode[0], 6, " ");
+	      $t_unit = $ar_unit[$bytecode[1]];
+	      $t_x1 = $bytecode[4];
+	      $t_y1 = $bytecode[5];
+	      $t_x2 = $bytecode[6];
+	      $t_y2 = $bytecode[7];
+	      $t_ptr = $bytecode[8] + ($bytecode[9] << 8);
+	      $pointers[] = $t_ptr;
+	      fputs($fo, "  $t_priority IF $t_unit>[$t_x1,$t_y1] AND $t_unit<[$t_x2,$t_y2] THEN GOSUB lbl_" . dechex($t_ptr) . "\n");
+	      for($i=0; $i<count($bytecode); $i++)
+	        $bytecode[$i] = hexstr($bytecode[$i]);
+	      fputs($fo, "         ;$bytecode[0] $bytecode[1] $bytecode[2] $bytecode[3] $bytecode[4] $bytecode[5] $bytecode[6] $bytecode[7] $bytecode[8] $bytecode[9]\n");
+	    }
+	    else {
+	      $t_priority = str_pad($bytecode[0], 6, " ");
+	      $t_unit1 = $ar_unit[$bytecode[1]];
+	      $t_unit2 = $ar_unit[$bytecode[2]];
+	      $t_radius = $bytecode[3];
+	      $t_ptr = $bytecode[8] + ($bytecode[9] << 8);
+	      $pointers[] = $t_ptr;
+	      fputs($fo, "  $t_priority IF $t_unit1>=$t_unit2*$t_radius THEN GOSUB lbl_" . dechex($t_ptr) . "\n");
+	      for($i=0; $i<count($bytecode); $i++)
+	        $bytecode[$i] = hexstr($bytecode[$i]);
+	      fputs($fo, "         ;$bytecode[0] $bytecode[1] $bytecode[2] $bytecode[3] $bytecode[4] $bytecode[5] $bytecode[6] $bytecode[7] $bytecode[8] $bytecode[9]\n");
+	    }
+	  }
+	  else {
+	    $t_cmd = fgetc($fd);
+	    fputs($fo, "position_end:\n");
+	  }
+	}
+	
+	// Read turn hooks
+	fputs($fo, "\n;Hooks for turn-triggered events\n");
+	fputs($fo, "turn:\n");
+	while(ftell($fd) < $section[5]) {
+	  $t_cmd = ord(fgetc($fd));
+	  if($t_cmd != 255) {
+	    $bytecode = array($t_cmd, ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)));
+	    $t_priority = str_pad($bytecode[0], 6, " ");
+	    $t_phase = $bytecode[1];
+	    $t_turn = $bytecode[2];
+	    $t_ptr = $bytecode[4] + ($bytecode[5] << 8);
+	    $pointers[] = $t_ptr;
+	    fputs($fo, "  $t_priority IF turn=$t_turn AND phase=$t_phase THEN GOSUB lbl_" . dechex($t_ptr) . "\n");
+	    for($i=0; $i<count($bytecode); $i++)
+	      $bytecode[$i] = hexstr($bytecode[$i]);
+	    fputs($fo, "         ;$bytecode[0] $bytecode[1] $bytecode[2] $bytecode[3] $bytecode[4] $bytecode[5]\n");
+
+	  }
+	  else {
+	    $t_cmd = fgetc($fd);
+	    fputs($fo, "turn_end:\n");
+	  }
+	}
+	
+	// Read core events
+	fputs($fo, "\n;Core event script\n");
+	fputs($fo, "events:\n");
+	$t_ptr = ord(fgetc($fd)) + (ord(fgetc($fd)) << 8);
+	$pointers[] = $t_ptr;
+	fputs($fo, "         GOSUB lbl_" . dechex($t_ptr) . "\n");
+	while(!feof($fd)) {
+	  if(in_array(ftell($fd), $pointers)) {
+	    fputs($fo, "lbl_" . dechex(ftell($fd)) . ":\n");
+	  }
+	  $code = ord(fgetc($fd));
+	  switch($code) {
+	    // Change music
+	    case $code == 0x0c:
+	      $t_team = ord(fgetc($fd));
+	      $t_track = ord(fgetc($fd));
+	      fputs($fo, "         SETBGM $t_team=$ar_bgm[$t_track]\n");
+	  }
+	  die();
+	}
+	fputs($fo, "events_end:\n");
+	die();
 }
+
+
+/*
+Section 1: Movement Hooks
+All 6 bytes
+[priority] [unit 1 byte] [turn] [ff] [jump 2 bytes]
+
+Section 2: Attack Hooks
+All 8 bytes
+[priority] [attacker unit 2 bytes] [reciever unit 2 bytes] [ff] [jump 2 bytes]
+ffff = anyone
+
+Section 3: Defeat/Injury Hooks
+Byte 2 is type of event
+02 = Defeated
+[priority] [no units] [unit] ... [jump 2 bytes]
+
+ff = Attacked
+[priority] [ff] [unit] [status] [unit] [status] [jump 2 bytes]
+
+
+Section 4: Position Hooks
+All 10 bytes
+[priority] [unit] [unit] [radius] [00000000] [jump 2 bytes]
+[priority] [unit] [0000] [x,y] [x,y] [jump 2 bytes]
+
+Section 5: Turn Hooks
+All 6 bytes
+[priority] [01] [turn] [00] [jump 2 bytes]
+
+
+Section 6: Event Script
+Depends on action code
+
+Begins with jump to pre-battle deployment
+
+00 fe xx yy - Instantly change to coordinates xx,yy
+00 ff xx yy - Slowly change to coordinates xx,yy
+0c 01 xx - Change ally music to xx
+3d xx - Move cusor to commander xx
+37 xx yy - Set unit xx status to yy (00 = hidden)
+36 uu xx yy - Position unit uu at xx,yy (ffff = selected coordinates)
+38 xx - Fade in screen over xx seconds
+02 xx yy zz pp ll - xx speaks to yy using picture pp and line ll, focus pp (01 = follow/00 = nofollow)
+3e xx yy - xx faces yy
+1e uu - Reveal unit uu
+08 xx yy - If xx=0 
+
+In all hooks, first byte appears to be a priority byte
+*/
+
 
 ?>
