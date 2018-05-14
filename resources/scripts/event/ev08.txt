@@ -1,0 +1,70 @@
+// Movement-Triggered Events:
+// event.move.addHook(priority, goto, unit, turn, unk1)
+event.move.addHook(4, lbl_397, VILLAGER_25, 0, 0xff);
+event.move.addHook(20, lbl_3a0, VILLAGER_25, 0, 0xff);
+event.move.addHook(22, lbl_3f5, RIDEL_7F, 0, 0xff);
+event.move.addHook(28, lbl_491, LEON_D5, 0, 0xff);
+event.move.addHook(33, lbl_4de, LAIRD_18, 3, 0xff);
+event.move.addHook(36, lbl_523, BALDO_19, 1, 0xff);
+event.move.addHook(1, lbl_55b, BALDO_19, 0, 0xff);
+event.move.addHook(0, lbl_563, BALDO_19, 0, 0xff);
+event.move.addHook(40, lbl_81c, IMPERIALCOMMANDER_2F, 0, 0xff);
+event.move.addHook(3, lbl_836, IMPERIALCOMMANDER_2F, 0, 0xff);
+
+// Attack-Triggered Events:
+// event.attack.addHook(priority, goto, attacker, defender, unk1, unk2, unk3)
+event.attack.addHook(15, lbl_357, ERWIN_01, BALDO_19, 0x00, 0x00, 0xff);
+event.attack.addHook(16, lbl_36e, ERWIN_01, IMPERIALCOMMANDER_2F, 0x00, 0x00, 0xff);
+event.attack.addHook(15, lbl_37e, HEIN_05, BALDO_19, 0x00, 0x00, 0xff);
+event.attack.addHook(18, lbl_38f, HEIN_05, BALDO_19, 0x00, 0xff, 0xff);
+event.attack.addHook(21, lbl_3d9, NULL_FF, VILLAGER_25, 0xff, 0x00, 0xff);
+event.attack.addHook(23, lbl_403, RIDEL_7F, NULL_FF, 0x00, 0xff, 0xff);
+event.attack.addHook(24, lbl_40b, NULL_FF, RIDEL_7F, 0xff, 0x00, 0xff);
+event.attack.addHook(31, lbl_4af, ERWIN_01, LEON_D5, 0x00, 0x00, 0xff);
+event.attack.addHook(32, lbl_4d9, LEON_D5, NULL_FF, 0x00, 0xff, 0xff);
+event.attack.addHook(35, lbl_50d, LAIRD_18, RIDEL_7F, 0x00, 0x00, 0xff);
+event.attack.addHook(38, lbl_5f5, BALDO_19, VILLAGER_25, 0x00, 0xff, 0xff);
+event.attack.addHook(41, lbl_854, IMPERIALCOMMANDER_2F, NULL_FF, 0x00, 0xff, 0xff);
+event.attack.addHook(41, lbl_85f, NULL_FF, IMPERIALCOMMANDER_2F, 0xff, 0x00, 0xff);
+
+// Damage-Triggered Events:
+// event.defeat.addHook(priority, goto, unit, ...)
+// event.damage.addHook(priority, goto, attacker, defender, unk1, unk2, unk3)
+event.defeat.addHook(14, lbl_34d, ERWIN_01);
+event.defeat.addHook(17, lbl_376, HEIN_05);
+event.defeat.addHook(19, lbl_39b, VILLAGER_25);
+event.defeat.addHook(25, lbl_413, RIDEL_7F);
+event.defeat.addHook(26, lbl_433, EVANZE_80);
+event.defeat.addHook(27, lbl_46a, RIDEL_7F, EVANZE_80);
+event.defeat.addHook(29, lbl_4a1, LEON_D5);
+event.defeat.addHook(34, lbl_4f8, LAIRD_18);
+event.defeat.addHook(39, lbl_5fd, BALDO_19);
+event.defeat.addHook(42, lbl_86a, IMPERIALCOMMANDER_2F);
+event.damage.addHook(30, lbl_87c, ERWIN_01, LEON_D5, 0xff, 0xff, 0x00);
+event.damage.addHook(44, lbl_884, BALDO_19, VILLAGER_25, 0xff, 0x00, 0x00);
+event.damage.addHook(45, lbl_889, NULL_FF, BALDO_19, 0xff, 0xff, 0x00);
+event.damage.addHook(43, lbl_895, NULL_FF, IMPERIALCOMMANDER_2F, 0xff, 0xff, 0x00);
+
+// Position-Triggered Events:
+// event.box.addHook(priority, goto, unit, unit, radius, unk1, unk2, unk3, unk4)
+// event.radius.addHook(priority, goto, unit, x, y, x, y, unk1, unk2)
+event.radius.addHook(7, lbl_af, LIANA_02, ERWIN_01, 1, 0x00, 0x00, 0x00, 0x00);
+event.radius.addHook(8, lbl_c1, LIANA_02, HEIN_05, 1, 0x00, 0x00, 0x00, 0x00);
+event.box.addHook(9, lbl_54d3, BALDO_19, 11, 42, 18, 42, 0x00, 0x00);
+event.box.addHook(10, lbl_50ed, BALDO_19, 7, 34, 18, 40, 0x00, 0x00);
+event.box.addHook(11, lbl_a08, NPC_COMMANDER_F0, 24, 5, 24, 5, 0x00, 0x00);
+event.box.addHook(12, lbl_3228, NPC_COMMANDER_F0, 18, 25, 18, 25, 0x00, 0x00);
+event.box.addHook(13, lbl_2e48, VILLAGER_25, 1, 16, 1, 23, 0x00, 0x00);
+event.radius.addHook(2, lbl_7a, LIANA_02, BALDO_19, 1, 0x00, 0x00, 0x00, 0x00);
+event.radius.addHook(37, lbl_b2, BALDO_19, LIANA_02, 1, 0x00, 0x00, 0x00, 0x00);
+
+// Turn-Triggered Events
+// event.turn.addHook(priority, goto, part, turn, 00)
+event.turn.addHook(6, lbl_26d, 1, 2, 0);
+event.turn.addHook(5, lbl_27b, 1, 0, 0);
+
+// Core Events
+
+lbl_17e:
+sound.setBGM(1, ENEMYREINFORCEMENT1);
+ram.sub($a47a7, $7eb5f);
