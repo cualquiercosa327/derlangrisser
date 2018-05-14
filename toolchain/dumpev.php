@@ -12,6 +12,27 @@ function fgetb($fd) {
   return(ord(fgetc($fd)));
 }
 
+function sctxt($text) {
+  // Remove font tags
+  $text = str_replace(
+            array("{font0}", "{font1}", "{font2}", "{font3}", "{font4}"),
+            array("", "", "", "", ""),
+            $text);
+  
+  // Remove skip tags
+  while(strpos($text, "{skip")) {
+    $text = preg_replace("/\{skip[^}]+\}/", "", $text);
+  }
+  
+  // Transform tags
+  $text = str_replace(
+              array("{06}", "{07}", "{02}", "{03}", "{end}", "{3a}", "{37}", "{38}"),
+              array("\\r", "\\n", "_NAME_", "_NUM_", "\\0", "o", "a", "a"),
+              $text);
+  
+  return($text);
+}
+
 set_time_limit(6000000);
 
 if (!file_exists("resources/events/define_bgm.txt"))
@@ -31,79 +52,6 @@ if (!file_exists("resources/events/define_unit.txt"))
 $ar_unit = explode("\n", file_get_contents("resources/events/define_unit.txt"));
 
 $pointers = array();
-
-$events = array(
-  "resources/events/ev01.dat",
-  "resources/events/ev02.dat",
-  "resources/events/ev03.dat",
-  "resources/events/ev04.dat",
-  "resources/events/ev05.dat",
-  "resources/events/ev06.dat",
-  "resources/events/ev07.dat",
-  "resources/events/ev08.dat",
-  "resources/events/ev09.dat",
-  "resources/events/ev10.dat",
-  "resources/events/ev11.dat",
-  "resources/events/ev12.dat",
-  "resources/events/ev13.dat",
-  "resources/events/ev14.dat",
-  "resources/events/ev15.dat",
-  "resources/events/ev16.dat",
-  "resources/events/ev17.dat",
-  "resources/events/ev18.dat",
-  "resources/events/ev19.dat",
-  "resources/events/ev20.dat",
-  "resources/events/ev21.dat",
-  "resources/events/ev22.dat",
-  "resources/events/ev23.dat",
-  "resources/events/ev24.dat",
-  "resources/events/ev25.dat",
-  "resources/events/ev26.dat",
-  "resources/events/ev27.dat",
-  "resources/events/ev28.dat",
-  "resources/events/ev29.dat",
-  "resources/events/ev30.dat",
-  "resources/events/ev31.dat",
-  "resources/events/ev32.dat",
-  "resources/events/ev37.dat",
-  "resources/events/ev38.dat",
-  "resources/events/ev39.dat",
-  "resources/events/ev40.dat",
-  "resources/events/ev41.dat",
-  "resources/events/ev42.dat",
-  "resources/events/ev43.dat",
-  "resources/events/ev44.dat",
-  "resources/events/ev45.dat",
-  "resources/events/ev46.dat",
-  "resources/events/ev47.dat",
-  "resources/events/ev48.dat",
-  "resources/events/ev49.dat",
-  "resources/events/ev50.dat",
-  "resources/events/ev51.dat",
-  "resources/events/ev52.dat",
-  "resources/events/ev53.dat",
-  "resources/events/ev54.dat",
-  "resources/events/ev55.dat",
-  "resources/events/ev56.dat",
-  "resources/events/ev57.dat",
-  "resources/events/ev58.dat",
-  "resources/events/ev59.dat",
-  "resources/events/ev60.dat",
-  "resources/events/ev61.dat",
-  "resources/events/ev62.dat",
-  "resources/events/ev63.dat",
-  "resources/events/ev64.dat",
-  "resources/events/ev65.dat",
-  "resources/events/ev66.dat",
-  "resources/events/ev67.dat",
-  "resources/events/ev68.dat",
-  "resources/events/ev69.dat",
-  "resources/events/ev70.dat",
-  "resources/events/ev71.dat",
-  "resources/events/ev72.dat",
-  "resources/events/ev73.dat",
-  "resources/events/battle.dat",
-  "resources/events/lushiris.dat");
 
 // Make sure all events are present
 foreach($events as $file)
@@ -285,6 +233,21 @@ for($i = 0; $i < count($events); $i++) {
 	      $t_team = ord(fgetc($fd));
 	      $t_track = ord(fgetc($fd));
 	      fputs($fo, "         SETBGM $t_team=$ar_bgm[$t_track]\n");
+	    // Assign variable
+	    case $code == 0x0b:
+	      $t_action = ord(fgetc($fd));
+	      $t_value = ord(fgetc($fd));
+	      $t_upper = $t_value >> 3;
+	      $t_lower = $t_value & 0x7;
+	      if($t_value == 0)
+	        fputs($fo, "         EVAL $" . dechex(0xa4788 + $t_upper) . "+=$" . dechex(0x7eb58 + $t_lower) . "\n");
+	      else if($t_value == 255)
+	        fputs($fo, "         EVAL $" . dechex(0xa4788 + $t_upper) . "-=$" . dechex(0x7eb58 + $t_lower) . "\n");
+	      else
+	        fputs($fo, "         UNHANDLED EVAL: $t_value");
+	    // Set cursor focus
+	    case $code == 0x0:
+	    
 	  }
 	  die();
 	}
@@ -298,28 +261,43 @@ Section 1: Movement Hooks
 All 6 bytes
 [priority] [unit 1 byte] [turn] [ff] [jump 2 bytes]
 
+event.move.addHook(priority, jump, unit, turn, 0xff);
+
 Section 2: Attack Hooks
 All 8 bytes
 [priority] [attacker unit 2 bytes] [reciever unit 2 bytes] [ff] [jump 2 bytes]
 ffff = anyone
+
+event.attack.addHook(priority, jump, attacker, defender, 0x00, 0x00, 0xff);
 
 Section 3: Defeat/Injury Hooks
 Byte 2 is type of event
 02 = Defeated
 [priority] [no units] [unit] ... [jump 2 bytes]
 
+event.defeat.addHook(priority, jump, units, ...);
+
 ff = Attacked
 [priority] [ff] [unit] [status] [unit] [status] [jump 2 bytes]
+
+event.defeat.addHook(priority, jump, unit, unit, ff, 00, 00);
 
 
 Section 4: Position Hooks
 All 10 bytes
 [priority] [unit] [unit] [radius] [00000000] [jump 2 bytes]
+
+event.position.addHook(priority, jump, type, unit, unit, radius, 00000000);
+
 [priority] [unit] [0000] [x,y] [x,y] [jump 2 bytes]
+
+event.position.addHook(priority, jump, type, unit, x, y, x, y, 0000);
 
 Section 5: Turn Hooks
 All 6 bytes
 [priority] [01] [turn] [00] [jump 2 bytes]
+
+event.turn.addHook(priority, jump, part, turn, 00);
 
 
 Section 6: Event Script
@@ -329,15 +307,35 @@ Begins with jump to pre-battle deployment
 
 00 fe xx yy - Instantly change to coordinates xx,yy
 00 ff xx yy - Slowly change to coordinates xx,yy
+screen.focus.set(x, y, SPEED)
+
+
 0c 01 xx - Change ally music to xx
+sound.setAlly()
+sound.setEnemy()
+sound.play()
+
 3d xx - Move cusor to commander xx
+screen.cursor.set(x)
+
 37 xx yy - Set unit xx status to yy (00 = hidden)
+screen.unit.hide(unit)
+
 36 uu xx yy - Position unit uu at xx,yy (ffff = selected coordinates)
+screen.unit.move(unit, x, y)
+
 38 xx - Fade in screen over xx seconds
+screen.fadeIn(time)
+
 02 xx yy zz pp ll - xx speaks to yy using picture pp and line ll, focus pp (01 = follow/00 = nofollow)
+screen.talk(xx, yy, zz, ll, focus)
+
 3e xx yy - xx faces yy
+screen.unit.face(unit1, unit2)
+
 1e uu - Reveal unit uu
 08 xx yy - If xx=0 
+screen.unit.show(unit)
 
 In all hooks, first byte appears to be a priority byte
 */

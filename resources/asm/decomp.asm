@@ -44,91 +44,83 @@ endmacro
 
 
 check_scenario() {
-  %check_sc(01, 2e, 83, 69) ; $2e8369
-  %check_sc(02, 2e, 8a, 7f) ; $2e8a7f
-  %check_sc(03, 2e, 90, eb) ; $2e90eb
-  %check_sc(04, 2e, 98, 7a) ; $2e987a
-  %check_sc(05, 2e, 9f, af) ; $2e9faf
-  %check_sc(06, 2e, a6, c2) ; $2ea6c2
-  %check_sc(07, 2e, ac, 07) ; $2eac07
-  %check_sc(08, 2e, b3, 34) ; $2eb334
-  %check_sc(09, 2e, b7, b8) ; $2eb7b8
-  %check_sc(10, 2e, bd, 4c) ; $2ebd4c
+  %check_sc(08, 2e, 83, 69) ; $2e8369 Scenario 1
+  %check_sc(09, 2e, 8a, 7f) ; $2e8a7f Scenario 2
   
-  %check_sc(11, 2e, c1, e5) ; $2ec1e5
-  %check_sc(12, 2e, c8, db) ; $2ec8db
-  %check_sc(13, 2e, cd, 39) ; $2ecd39
-  %check_sc(14, 2e, d1, 23) ; $2ed123
-  %check_sc(15, 2e, d5, ef) ; $2ed5ef
-  %check_sc(16, 2e, da, a3) ; $2edaa3
-  %check_sc(17, 2e, df, 15) ; $2edf15
-  %check_sc(18, 2e, e8, 33) ; $2ee833
-  %check_sc(19, 2e, ec, 7f) ; $2eec7f
-  %check_sc(20, 2e, f1, 18) ; $2ef118
+  %check_sc(10, 2e, 90, eb) ; $2e90eb Scenario 3
+  %check_sc(11, 2e, 98, 7a) ; $2e987a Scenario 4
+  %check_sc(12, 2e, 9f, af) ; $2e9faf Scenario 5
+  %check_sc(13, 2e, a6, c2) ; $2ea6c2 Scenario 6
+  %check_sc(14, 2e, ac, 07) ; $2eac07 Scenario 7
+  %check_sc(15, 2e, b3, 34) ; $2eb334 Scenario 8
+  %check_sc(16, 2e, b7, b8) ; $2eb7b8 Scenario 9
+  %check_sc(17, 2e, bd, 4c) ; $2ebd4c Scenario 10
+  %check_sc(18, 2e, c1, e5) ; $2ec1e5 Scenario 11
+  %check_sc(19, 2e, c8, db) ; $2ec8db Scenario 12
   
-  %check_sc(21, 2e, f6, 43) ; $2ef643
-  %check_sc(22, 2e, fa, e6) ; $2efae6
-  %check_sc(23, 2e, fe, 4f) ; $2efe4f
-  %check_sc(24, 2f, 83, 05) ; $2f8305
-  %check_sc(25, 2f, 87, 4e) ; $2f874e
-  %check_sc(26, 2f, 8c, 08) ; $2f8c08
-  %check_sc(27, 2f, 8e, d8) ; $2f8ed8
-  %check_sc(28, 2f, 94, 07) ; $2f9407
-  %check_sc(29, 2f, 98, 2d) ; $2f982d
-  %check_sc(30, 2f, 9b, 9e) ; $2f9b9e
+  %check_sc(20, 2e, cd, 39) ; $2ecd39 Scenario 13
+  %check_sc(21, 2e, d1, 23) ; $2ed123 Scenario 14
+  %check_sc(22, 2e, d5, ef) ; $2ed5ef Scenario 15
+  %check_sc(23, 2e, da, a3) ; $2edaa3 Scenario 16
+  %check_sc(24, 2e, df, 15) ; $2edf15 Scenario 17
+  %check_sc(25, 2e, e8, 33) ; $2ee833 Scenario 18
+  %check_sc(26, 2e, ec, 7f) ; $2eec7f Scenario 19
+  %check_sc(27, 2e, f1, 18) ; $2ef118 Scenario 20
+  %check_sc(28, 2e, f6, 43) ; $2ef643 Scenario 21
+  %check_sc(29, 2e, fa, e6) ; $2efae6 Scenario 22
   
-  %check_sc(31, 2f, a1, a6) ; $2fa1a6
-  %check_sc(32, 2f, ab, ae) ; $2fabae
-  ; sc33 = 31
-  ; sc34 = 32
-  ; sc35 = 23
-  ; sc36 = 32
-  %check_sc(37, 2f, af, 9a) ; $2faf9a
-  %check_sc(38, 2f, b6, f3) ; $2fb6f3
-  %check_sc(39, 2f, bb, d4) ; $2fbbd4
-  %check_sc(40, 2f, c0, 64) ; $2fc064
+  %check_sc(30, 2e, fe, 4f) ; $2efe4f Scenario 23/35
+  %check_sc(31, 2f, 83, 05) ; $2f8305 Scenario 24
+  %check_sc(32, 2f, 87, 4e) ; $2f874e Scenario 25
+  %check_sc(33, 2f, 8c, 08) ; $2f8c08 Scenario 26
+  %check_sc(34, 2f, 8e, d8) ; $2f8ed8 Scenario 27
+  %check_sc(35, 2f, 94, 07) ; $2f9407 Scenario 28
+  %check_sc(36, 2f, 98, 2d) ; $2f982d Scenario 29
+  %check_sc(37, 2f, 9b, 9e) ; $2f9b9e Scenario 30
+  %check_sc(38, 2f, a1, a6) ; $2fa1a6 Scenario 31/33
   
-  %check_sc(41, 2f, c8, e6) ; $2fc8e6
-  %check_sc(42, 2f, ce, e4) ; $2fcee4
-  %check_sc(43, 2f, d6, 1f) ; $2fd61f
-  %check_sc(44, 2f, da, a5) ; $2fdaa5
-  %check_sc(45, 2e, e0, 7d) ; $2fe07d
-  %check_sc(46, 2f, e6, 76) ; $2fe676
-  %check_sc(47, 2f, ec, 98) ; $2fec98
-  %check_sc(48, 2f, f1, a1) ; $2ff1a1
-  %check_sc(49, 2f, f5, 46) ; $2ff546
-  %check_sc(50, 2f, fa, ed) ; $2ffaed
+  %check_sc(43, 2f, ab, ae) ; $2fabae Scenario 32/34/36
+  %check_sc(44, 2f, af, 9a) ; $2faf9a Scenario 37
+  %check_sc(45, 2f, b6, f3) ; $2fb6f3 Scenario 38
+  %check_sc(46, 2f, bb, d4) ; $2fbbd4 Scenario 39
+  %check_sc(47, 2f, c0, 64) ; $2fc064 Scenario 40
+  %check_sc(48, 2f, c8, e6) ; $2fc8e6 Scenario 41
+  %check_sc(49, 2f, ce, e4) ; $2fcee4 Scenario 42
   
-  %check_sc(51, 30, 80, d4) ; $3080d4
-  %check_sc(52, 30, 85, 1c) ; $30851c
-  %check_sc(53, 30, 8a, a9) ; $308aa9
-  %check_sc(54, 30, 8e, 73) ; $308e73
-  %check_sc(55, 30, 93, 7a) ; $30937a
-  %check_sc(56, 30, 99, 76) ; $309976
-  %check_sc(57, 30, 9e, 07) ; $309e07
-  %check_sc(58, 30, a1, 68) ; $30a168
-  %check_sc(59, 30, a6, 19) ; $30a619
-  %check_sc(60, 30, ab, 72) ; $30ab72
+  %check_sc(50, 2f, d6, 1f) ; $2fd61f Scenario 43
+  %check_sc(51, 2f, da, a5) ; $2fdaa5 Scenario 44
+  %check_sc(52, 2e, e0, 7d) ; $2fe07d Scenario 45
+  %check_sc(53, 2f, e6, 76) ; $2fe676 Scenario 46
+  %check_sc(54, 2f, ec, 98) ; $2fec98 Scenario 47/74
+  %check_sc(55, 2f, f1, a1) ; $2ff1a1 Scenario 48/75
+  %check_sc(56, 2f, f5, 46) ; $2ff546 Scenario 49/76
+  %check_sc(57, 2f, fa, ed) ; $2ffaed Scenario 50/77
+  %check_sc(58, 30, 80, d4) ; $3080d4 Scenario 51
+  %check_sc(59, 30, 85, 1c) ; $30851c Scenario 52
   
-  %check_sc(61, 30, b1, 42) ; $30b142
-  %check_sc(62, 30, b5, a6) ; $30b5a6
-  %check_sc(63, 30, ba, 92) ; $30ba92
-  %check_sc(64, 30, bf, c1) ; $30bfc1
-  %check_sc(65, 30, c3, e1) ; $30c3e1
-  %check_sc(66, 30, c9, 4a) ; $30c94a
-  %check_sc(67, 30, cf, 4e) ; $30cf4e
-  %check_sc(68, 30, d3, 88) ; $30d388
-  %check_sc(69, 30, d8, e9) ; $30d8e9
-  %check_sc(70, 30, de, 86) ; $30de86
+  %check_sc(60, 30, 8a, a9) ; $308aa9 Scenario 53
+  %check_sc(61, 30, 8e, 73) ; $308e73 Scenario 54
+  %check_sc(62, 30, 93, 7a) ; $30937a Scenario 55/78
+  %check_sc(63, 30, 99, 76) ; $309976 Scenario 56
+  %check_sc(64, 30, 9e, 07) ; $309e07 Scenario 57
+  %check_sc(65, 30, a1, 68) ; $30a168 Scenario 58
+  %check_sc(66, 30, a6, 19) ; $30a619 Scenario 59
+  %check_sc(67, 30, ab, 72) ; $30ab72 Scenario 60
+  %check_sc(68, 30, b1, 42) ; $30b142 Scenario 61
+  %check_sc(69, 30, b5, a6) ; $30b5a6 Scenario 62
   
-  %check_sc(71, 30, e5, d7) ; $30e5d7
-  %check_sc(72, 30, e9, c2) ; $30e9c2
-  %check_sc(73, 30, ec, ee) ; $30ecee
-  ; sc74 = 47
-  ; sc75 = 48
-  ; sc76 = 49
-  ; sc77 = 50
-  ; sc78 = 55
+  %check_sc(70, 30, ba, 92) ; $30ba92 Scenario 63
+  %check_sc(71, 30, bf, c1) ; $30bfc1 Scenario 64
+  %check_sc(72, 30, c3, e1) ; $30c3e1 Scenario 65
+  %check_sc(73, 30, c9, 4a) ; $30c94a Scenario 66
+  %check_sc(74, 30, cf, 4e) ; $30cf4e Scenario 67
+  %check_sc(75, 30, d3, 88) ; $30d388 Scenario 68
+  %check_sc(76, 30, d8, e9) ; $30d8e9 Scenario 69
+  %check_sc(77, 30, de, 86) ; $30de86 Scenario 70
+  %check_sc(78, 30, e5, d7) ; $30e5d7 Scenario 71
+  %check_sc(79, 30, e9, c2) ; $30e9c2 Scenario 72
+  
+  %check_sc(82, 30, ec, ee) ; $30ecee Scenario 73
   
   ; Untested:
   ; $30f263 = Lushiris Quiz
@@ -139,27 +131,6 @@ check_scenario() {
   jml $00bcb6
 }
 
-load_ev01() {
-  %load_ev(ev01, ev01_end)
-}
-load_ev02() {
-  %load_ev(ev02, ev02_end)
-}
-load_ev03() {
-  %load_ev(ev03, ev03_end)
-}
-load_ev04() {
-  %load_ev(ev04, ev04_end)
-}
-load_ev05() {
-  %load_ev(ev05, ev05_end)
-}
-load_ev06() {
-  %load_ev(ev06, ev06_end)
-}
-load_ev07() {
-  %load_ev(ev07, ev07_end)
-}
 load_ev08() {
   %load_ev(ev08, ev08_end)
 }
@@ -235,23 +206,23 @@ load_ev31() {
 load_ev32() {
   %load_ev(ev32, ev32_end)
 }
+load_ev33() {
+  %load_ev(ev33, ev33_end)
+}
+load_ev34() {
+  %load_ev(ev34, ev34_end)
+}
+load_ev35() {
+  %load_ev(ev35, ev35_end)
+}
+load_ev36() {
+  %load_ev(ev36, ev36_end)
+}
 load_ev37() {
   %load_ev(ev37, ev37_end)
 }
 load_ev38() {
   %load_ev(ev38, ev38_end)
-}
-load_ev39() {
-  %load_ev(ev39, ev39_end)
-}
-load_ev40() {
-  %load_ev(ev40, ev40_end)
-}
-load_ev41() {
-  %load_ev(ev41, ev41_end)
-}
-load_ev42() {
-  %load_ev(ev42, ev42_end)
 }
 load_ev43() {
   %load_ev(ev43, ev43_end)
@@ -346,43 +317,34 @@ load_ev72() {
 load_ev73() {
   %load_ev(ev73, ev73_end)
 }
-
-ev01:
-  incbin resources/events/ev01.dat
-ev01_end:
-
-ev02:
-  incbin resources/events/ev02.dat
-ev02_end:
-
-ev03:
-  incbin resources/events/ev03.dat
-ev03_end:
-
-ev04:
-  incbin resources/events/ev04.dat
-ev04_end:
-
-ev05:
-  incbin resources/events/ev05.dat
-ev05_end:
-
-ev06:
-  incbin resources/events/ev06.dat
-ev06_end:
-
-ev07:
-  incbin resources/events/ev07.dat
-ev07_end:
+load_ev74() {
+  %load_ev(ev74, ev74_end)
+}
+load_ev75() {
+  %load_ev(ev75, ev75_end)
+}
+load_ev76() {
+  %load_ev(ev76, ev76_end)
+}
+load_ev77() {
+  %load_ev(ev77, ev77_end)
+}
+load_ev78() {
+  %load_ev(ev78, ev78_end)
+}
+load_ev79() {
+  %load_ev(ev79, ev79_end)
+}
+load_ev82() {
+  %load_ev(ev82, ev82_end)
+}
 
 ev08:
   incbin resources/events/ev08.dat
 ev08_end:
 
-; $0547 = 0d->25
-; Correct Aaron's portrait (was Cherie)
 ev09:
-  incbin resources/data/e008.bin
+  incbin resources/events/ev09.dat
 ev09_end:
 
 ev10:
@@ -409,8 +371,10 @@ ev15:
   incbin resources/events/ev15.dat
 ev15_end:
 
+; $0547 = 0d->25
+; Correct Aaron's portrait (was Cherie)
 ev16:
-  incbin resources/events/ev16.dat
+  incbin resources/data/e008.bin
 ev16_end:
 
 ev17:
@@ -445,15 +409,8 @@ ev24:
   incbin resources/events/ev24.dat
 ev24_end:
 
-; $0372 = eb->ec [43]
-; Correct Vampire Lord portrait
-; $038d = eb->f7 [102]
-; $039a = eb->f7 (untested)
-; Correct Esto portrait
-; $03fe = f0->f7 [53]
-; Correct Esto portrait
 ev25:
-  incbin resources/data/e024.bin
+  incbin resources/events/ev25.dat
 ev25_end:
 
 ev26:
@@ -480,9 +437,32 @@ ev31:
   incbin resources/events/ev31.dat
 ev31_end:
 
+; $0372 = eb->ec [43]
+; Correct Vampire Lord portrait
+; $038d = eb->f7 [102]
+; $039a = eb->f7 (untested)
+; Correct Esto portrait
+; $03fe = f0->f7 [53]
+; Correct Esto portrait
 ev32:
-  incbin resources/events/ev32.dat
+  incbin resources/data/e024.bin
 ev32_end:
+
+ev33:
+  incbin resources/events/ev33.dat
+ev33_end:
+
+ev34:
+  incbin resources/events/ev34.dat
+ev34_end:
+
+ev35:
+  incbin resources/events/ev35.dat
+ev35_end:
+
+ev36:
+  incbin resources/events/ev36.dat
+ev36_end:
 
 ev37:
   incbin resources/events/ev37.dat
@@ -491,22 +471,6 @@ ev37_end:
 ev38:
   incbin resources/events/ev38.dat
 ev38_end:
-
-ev39:
-  incbin resources/events/ev39.dat
-ev39_end:
-
-ev40:
-  incbin resources/events/ev40.dat
-ev40_end:
-
-ev41:
-  incbin resources/events/ev41.dat
-ev41_end:
-
-ev42:
-  incbin resources/events/ev42.dat
-ev42_end:
 
 ev43:
   incbin resources/events/ev43.dat
@@ -628,9 +592,37 @@ ev72:
   incbin resources/events/ev72.dat
 ev72_end:
 
+ev73:
+  incbin resources/events/ev73.dat
+ev73_end:
+
+ev74:
+  incbin resources/events/ev74.dat
+ev74_end:
+
+ev75:
+  incbin resources/events/ev75.dat
+ev75_end:
+
+ev76:
+  incbin resources/events/ev76.dat
+ev76_end:
+
+ev77:
+  incbin resources/events/ev77.dat
+ev77_end:
+
+ev78:
+  incbin resources/events/ev78.dat
+ev78_end:
+
+ev79:
+  incbin resources/events/ev79.dat
+ev79_end:
+
 ; $02d3 = ed->ee
 ; Correct Serpent's portrait (was Dullahan)
-ev73:
+ev82:
   incbin resources/data/e072.bin
-ev73_end:
+ev82_end:
 
