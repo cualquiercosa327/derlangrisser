@@ -48,15 +48,15 @@ event.damage.addHook(43, lbl_895, NULL_FF, IMPERIALCOMMANDER_2F, 0xff, 0xff, 0x0
 // Position-Triggered Events:
 // event.box.addHook(priority, goto, unit, unit, radius, unk1, unk2, unk3, unk4)
 // event.radius.addHook(priority, goto, unit, x, y, x, y, unk1, unk2)
-event.radius.addHook(7, lbl_af, LIANA_02, ERWIN_01, 1, 0x00, 0x00, 0x00, 0x00);
-event.radius.addHook(8, lbl_c1, LIANA_02, HEIN_05, 1, 0x00, 0x00, 0x00, 0x00);
-event.box.addHook(9, lbl_54d3, BALDO_19, 11, 42, 18, 42, 0x00, 0x00);
-event.box.addHook(10, lbl_50ed, BALDO_19, 7, 34, 18, 40, 0x00, 0x00);
-event.box.addHook(11, lbl_a08, NPC_COMMANDER_F0, 24, 5, 24, 5, 0x00, 0x00);
-event.box.addHook(12, lbl_3228, NPC_COMMANDER_F0, 18, 25, 18, 25, 0x00, 0x00);
-event.box.addHook(13, lbl_2e48, VILLAGER_25, 1, 16, 1, 23, 0x00, 0x00);
-event.radius.addHook(2, lbl_7a, LIANA_02, BALDO_19, 1, 0x00, 0x00, 0x00, 0x00);
-event.radius.addHook(37, lbl_b2, BALDO_19, LIANA_02, 1, 0x00, 0x00, 0x00, 0x00);
+event.radius.addHook(7, lbl_4af, LIANA_02, ERWIN_01, 1, 0x00, 0x00, 0x00, 0x00);
+event.radius.addHook(8, lbl_4c1, LIANA_02, HEIN_05, 1, 0x00, 0x00, 0x00, 0x00);
+event.box.addHook(9, lbl_4d3, BALDO_19, 11, 42, 18, 42, 0x00, 0x00);
+event.box.addHook(10, lbl_4ed, BALDO_19, 7, 34, 18, 40, 0x00, 0x00);
+event.box.addHook(11, lbl_608, NPC_COMMANDER_F0, 24, 5, 24, 5, 0x00, 0x00);
+event.box.addHook(12, lbl_628, NPC_COMMANDER_F0, 18, 25, 18, 25, 0x00, 0x00);
+event.box.addHook(13, lbl_648, VILLAGER_25, 1, 16, 1, 23, 0x00, 0x00);
+event.radius.addHook(2, lbl_a7a, LIANA_02, BALDO_19, 1, 0x00, 0x00, 0x00, 0x00);
+event.radius.addHook(37, lbl_ab2, BALDO_19, LIANA_02, 1, 0x00, 0x00, 0x00, 0x00);
 
 // Turn-Triggered Events
 // event.turn.addHook(priority, goto, part, turn, 00)

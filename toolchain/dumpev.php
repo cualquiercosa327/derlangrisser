@@ -173,12 +173,12 @@ for($i = 0; $i < count($events); $i++) {
 	  $t_cmd = ord(fgetc($fd));
 	  if($t_cmd != 255) {
 	    $bytecode = array($t_cmd, ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)));
-	    $pointers[] = $bytecode[8] + ($bytecode[7] << 9);
+	    $pointers[] = $bytecode[8] + ($bytecode[9] << 9);
         // box
 	    if($bytecode[2] == 0 && $bytecode[3] == 0 ) {
           fputs($fo, "event.box.addHook(" .
                      "$bytecode[0], " .
-	                 "lbl_" . dechex($bytecode[8] + ($bytecode[7] << 9)) . ", " .
+	                 "lbl_" . dechex($bytecode[8] + ($bytecode[9] << 9)) . ", " .
                      "{$ar_unit[$bytecode[1]]}, " .
                      "$bytecode[4], " . 
                      "$bytecode[5], " . 
@@ -191,7 +191,7 @@ for($i = 0; $i < count($events); $i++) {
 	    else {
           fputs($fo, "event.radius.addHook(" .
                      "$bytecode[0], " .
-	                 "lbl_" . dechex($bytecode[8] + ($bytecode[7] << 9)) . ", " .
+	                 "lbl_" . dechex($bytecode[8] + ($bytecode[9] << 9)) . ", " .
 	                 "{$ar_unit[$bytecode[1]]}, " .
 	                 "{$ar_unit[$bytecode[2]]}, " .
 	                 "$bytecode[3], " .
