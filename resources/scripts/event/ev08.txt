@@ -66,7 +66,7 @@ event.turn.addHook(5, lbl_27b, ALLY, 0, 0x00);
 // Core Events
 lbl_17e:
 sound.setBGM(ALLY, ENEMYREINFORCEMENT2);
-ram.global.sub($a4788, $7eb5a);
+ram.global.sub($0a4788, $07eb5a);
 screen.focus.set(8, 21, FAST);
 screen.cursor.set(NULL_00);
 screen.unit.hide(LAIRD_18, SUBUNIT);
@@ -134,12 +134,12 @@ screen.talk(ERWIN_01, DOWN_F5, ERWIN, NOFOLLOW, 16);
 screen.cursor.set(ERWIN_01);
 screen.unit.showSub(ERWIN_01);
 screen.unit.showSub(HEIN_05);
-ram.local.sum($a47d0, $7eb58);
-ram.local.sum($a47d0, $7eb59);
-ram.local.sum($a47d0, $7eb5a);
-ram.local.sum($a47d0, $7eb5b);
-ram.local.sum($a47d0, $7eb5c);
-ram.local.sum($a47d0, $7eb5d);
+ram.local.sum($0a47d0, $07eb58);
+ram.local.sum($0a47d0, $07eb59);
+ram.local.sum($0a47d0, $07eb5a);
+ram.local.sum($0a47d0, $07eb5b);
+ram.local.sum($0a47d0, $07eb5c);
+ram.local.sum($0a47d0, $07eb5d);
 
 lbl_26d:
 screen.talk(HEIN_05, ERWIN_01, HEIN, FOLLOW, 17);
@@ -148,3 +148,106 @@ screen.talk(ERWIN_01, HEIN_05, ERWIN, FOLLOW, 18);
 // Why would Rayguard go through so much trouble for just one girl ...?\r\n There is no time to think about that now. We have to hurry and help her!\0
 
 lbl_27b:
+branch.ifdead(lbl_29b, RIDEL_7F);
+branch.ifdead(lbl_292, EVANZE_80);
+screen.talk(EVANZE_80, RIDEL_7F, PRIEST_WHITE, FOLLOW, 19);
+// Ridel! They are powerful foes indeed!\r\n But no matter how strong they may be, we have to hold them off until His Lordship's troops arrive, ... no matter the cost.\0
+screen.talk(RIDEL_7F, EVANZE_80, FIGHTER_BLACK, FOLLOW, 20);
+// I know ... I will try to hold them back with my spearmen...\r\n It seems the rumours calling them the strongest knights in the land may have some merit after all ...\0
+branch.goto(lbl_298);
+
+lbl_292:
+screen.talk(RIDEL_7F, DOWN_F5, FIGHTER_BLACK, FOLLOW, 21);
+// Evan ... ze--!\0
+
+lbl_298:
+branch.goto(lbl_2a5);
+
+lbl_29b:
+branch.ifdead(lbl_2a5, EVANZE_80);
+screen.talk(EVANZE_80, RIDEL_7F, PRIEST_WHITE, FOLLOW, 22);
+// Ridel--!\0
+
+lbl_2a5:
+ram.unit.clearbit(RIDEL_7F, $17, 0);
+ram.unit.clearbit(EVANZE_80, $17, 0);
+
+lbl_2af:
+screen.unit.cleanup();
+screen.talk(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 23);
+// I have come to rescue you!\0
+screen.talk(LIANA_02, ERWIN_01, LIANA, FOLLOW, 24);
+// Thank you for your offer, but please, save yourself!\0
+ram.local.sum($0a47d1, $07eb58);
+
+lbl_2c1:
+screen.unit.cleanup();
+screen.talk(HEIN_05, LIANA_02, HEIN, FOLLOW, 25);
+// I will save you, Liana!\0
+screen.talk(LIANA_02, HEIN_05, LIANA, FOLLOW, 26);
+// Hein! Please do not come any closer! I don't want to see you hurt ...\0
+ram.local.sum($0a47d0, $07eb5f);
+
+lbl_2d3:
+screen.unit.cleanup();
+branch.ifdead(lbl_2de, LEON_D5);
+screen.talk(LEON_D5, BALDO_19, LEON, FOLLOW, 27);
+// Okay, mission accomplished. Let us head back to the Imperial Capital.\0
+
+lbl_2de:
+screen.talk(BALDO_19, ERWIN_01, BALDO, FOLLOW, 28);
+// So, ... you are _NAME_, eh? Well, ... mind your own damn business, kid!\r\n It will be a cold day in hell before you best Baldo in a fight! Ha ha ha!\0
+screen.talk(ERWIN_01, BALDO_19, ERWIN_SAD, FOLLOW, 29);
+// Gah ... This should not have been ... possible--!\0
+branch.gameover();
+
+lbl_2ed:
+branch.ifdead(lbl_300, HEIN_05);
+screen.talk(HEIN_05, ERWIN_01, HEIN, FOLLOW, 30);
+// I knew it, _NAME_! There can be no more doubt-- the knights are here for Liana!\0
+screen.talk(ERWIN_01, HEIN_05, ERWIN, FOLLOW, 31);
+// So it seems ... Concentrate on attacking their commander, Baldo.\0
+branch.goto(lbl_306);
+
+lbl_300:
+screen.talk(ERWIN_01, HEIN_05, ERWIN, FOLLOW, 32);
+// If things keep going like this, Liana will surely be kidnapped!\r\n Concentrate on attacking their commanding officer, Baldo.\0
+
+lbl_306:
+
+lbl_308:
+branch.ram.global(lbl_326, $0a4794, $07eb5d);
+screen.talk(NULL_00, UP_F4, NULL, NOFOLLOW, 33);
+// You have spotted a clearing in the middle of the woods ...\r\n Inside, a band of cute dwarves are dancing merrily.\r\n One of the dwarves comes out to offer you a berry.\0
+screen.prompt.yesno(lbl_326);
+screen.unit.raisestat(11, 10);
+screen.talk(NULL_00, UP_F4, NULL, NOFOLLOW, 35);
+// Magic Defence raised!\0
+ram.global.sum($0a4794, $07eb5d);
+
+lbl_326:
+
+lbl_328:
+branch.ram.global(lbl_346, $0a4792, $07eb5a);
+screen.talk(NULL_00, UP_F4, NULL, FOLLOW, 36);
+// A blue potion rests within the open drawer of a chest.\0
+screen.prompt.yesno(lbl_346);
+screen.unit.raisestat(58, 1);
+screen.talk(NULL_00, UP_F4, NULL, FOLLOW, 38);
+// You feel a surge of power!\r\n AT raised by 1 point!\0
+ram.global.sum($0a4792, $07eb5a);
+
+lbl_346:
+
+lbl_348:
+ram.local.sub($0a47d0, $07eb5c);
+
+lbl_34d:
+screen.talk(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 39);
+// Argh ... Not here ...!\0
+screen.unit.cleanup();
+branch.gameover();
+
+lbl_357:
+screen.talk(ERWIN_01, BALDO_19, ERWIN_ANGRY, NOFOLLOW, 40);
+// That is far enough!\0
