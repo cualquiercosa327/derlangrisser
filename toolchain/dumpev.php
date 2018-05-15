@@ -66,7 +66,7 @@ if (!file_exists("resources/define/team.txt"))
 	die("Fatal error: Unit definitions not found.\n");
 $ar_team = explode("\n", file_get_contents("resources/define/team.txt"));
 
-$ar_screen = array(0xfe => "FAST", 0xfe => "SLOW")
+$ar_target = array("COMMANDER", "SUBUNIT");
 
 // Build array of event scripts
 $events = array_values(array_diff(scandir("resources/events"), array('..', '.', ".DS_Store")));
@@ -139,9 +139,8 @@ for($i = 0; $i < count($events); $i++) {
 	    // defeated
 	    if($t_cmd2 != 255) {
 	      $bytecode = array($t_cmd, $t_cmd2);
-	      for($k = 0; $k < $t_cmd2; $k++) {
+	      for($k = 0; $k < $t_cmd2; $k++)
 	        $bytecode[] = fgetb($fd);
-	      }
 	      // Grab the goto address
 	      $t_ptr = fgetb($fd) + (fgetb($fd) << 8);
 	      $pointers[] = $t_ptr;
@@ -149,10 +148,9 @@ for($i = 0; $i < count($events); $i++) {
 	                 "$bytecode[0], " .
 	                 "lbl_" . dechex($t_ptr));
 	      // Print out all the units
-	      for($k = 2; $k < count($bytecode); $k++) {
+	      for($k = 2; $k < count($bytecode); $k++)
 	        if($bytecode[$k] != 0)
 	          fputs($fo, ", {$ar_unit[$bytecode[$k]]}");
-	      }
 	      fputs($fo, ");\n");
 	    }
 	    // damaged
@@ -184,7 +182,7 @@ for($i = 0; $i < count($events); $i++) {
 	    $bytecode = array($t_cmd, fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd));
 	    $pointers[] = $bytecode[8] + ($bytecode[9] << 9);
         // box
-	    if($bytecode[2] == 0 && $bytecode[3] == 0 ) {
+	    if($bytecode[2] == 0 && $bytecode[3] == 0 )
           fputs($fo, "event.box.addHook(" .
                      "$bytecode[0], " .
 	                 "lbl_" . dechex($bytecode[8] + ($bytecode[9] << 8)) . ", " .
@@ -195,9 +193,8 @@ for($i = 0; $i < count($events); $i++) {
                      "$bytecode[7], " . 
 	                 hexstr($bytecode[2]) . ", " .
 	                 hexstr($bytecode[3]) . ");\n");
-	    }
 	    // radius
-	    else {
+	    else
           fputs($fo, "event.radius.addHook(" .
                      "$bytecode[0], " .
 	                 "lbl_" . dechex($bytecode[8] + ($bytecode[9] << 8)) . ", " .
@@ -208,7 +205,6 @@ for($i = 0; $i < count($events); $i++) {
 	                 hexstr($bytecode[5]) . ", " .
 	                 hexstr($bytecode[6]) . ", " .
 	                 hexstr($bytecode[7]) . ");\n");
-	    }
 	  }
 	  else $t_cmd = fgetc($fd);
 	} fputs($fo, "\n");
@@ -238,58 +234,157 @@ for($i = 0; $i < count($events); $i++) {
 	$pointers[] = $t_ptr;
 	while(!feof($fd)) {
 	  // Write a label for any referenced addresses
-	  if(in_array(ftell($fd), $pointers)) {
+	  if(in_array(ftell($fd), $pointers))
 	    fputs($fo, "\nlbl_" . dechex(ftell($fd)) . ":\n");
-	  }
-	  $code = fgetb($fd);
+	  $code = fgetb($fd);	
 	  switch($code) {
 	    // Set Focus
 	    // screen.focus.set(x, y, speed)
 	    // uint_8[0x00] uint_8[speed] uint_8[x] uint_8[y]
-	    case $code == 0x0:
-	      $t_speed = fgetb($fd);
-	      $t_x = fgetb($fd);
-	      $t_y = fgetb($fd);
-	      fputs($fo, "screen.focus.set($t_x, $t_y, {$ar_screen[$t_speed]});\n");
+	    // Hide Cursor
+	    // screen.cursor.visible(cursor)
+	    // uint_8[0x00] uint_8[0xfd] uint_8[cursor] uint_8[0x00]
+	    case 0x00:
+	      $t_code = fgetb($fd);
+	      if($t_code == 0xfd) {
+	        $t_visible = fgetb($fd);
+	        $t_null = fgetb($fd);
+	        fputs($fo, "screen.cusor.visible(" . 
+	                   ($t_visible == 0 ? "TRUE" : "FALSE") . ");\n");
+	      }
+	      else if($t_code == 0xfe) {
+	        $t_x = fgetb($fd);
+	        $t_y = fgetb($fd);
+	        fputs($fo, "screen.focus.set(" .
+	                   "$t_x, " .
+	                   "$t_y, " .
+	                   "FAST);\n");
+	      }
+	      else if($t_code == 0xff) {
+	        $t_x = fgetb($fd);
+	        $t_y = fgetb($fd);
+	        fputs($fo, "screen.focus.set(" .
+	                   "$t_x, " .
+	                   "$t_y, " .
+	                   "SLOW);\n");
+	      }
+	      else {
+	        $t_null = fgetb($fd);
+	        $t_null = fgetb($fd);
+	        fputs($fo, "screen.focus.set(" .
+	                   "{$ar_unit[$t_code]});\n");
+	      }
+	      break;
+	    
+	    // Dialogue
+	    // screen.talk(speaker, target, portrait, focus, line)
+	    // uint_8[0x02] uint_8[speaker] uint_8[target] uint_8[portrait] uint_8[focus] uint_8[line]
+	    case 0x02:
+	      $t_speaker = fgetb($fd);
+	      $t_target = fgetb($fd);
+	      $t_portrait = fgetb($fd);
+	      $t_focus = fgetb($fd);
+	      $t_line = fgetb($fd);
+	      fputs($fo, "screen.talk(" .
+	                 "{$ar_unit[$t_speaker]}" .
+	                 "{$ar_unit[$t_target]}" .
+	                 "{$ar_portrait[$t_portrait]}" .
+	                 ($t_focus == 0 ? "NOFOLLOW" : "FOLLOW") . ", " .
+	                 "$t_line);\n");
+	      fputs($fo, "// Dialogue\n");
+	      break;
 	    
 	    // RAM Add/Sub
 	    // ram.sum(target, variable)
 	    // ram.sub(target, variable)
 	    // uint_8[0x0b] uint_8[action] uint_8[value]
-	    case $code == 0x0b:
+	    case 0x0b:
 	      $t_action = fgetb($fd);
 	      $t_value = fgetb($fd);
 	      $t_upper = $t_value >> 3;
 	      $t_lower = $t_value & 0x7;
-	      if($t_value == 0)
-	        fputs($fo, "ram.sum($" . dechex(0xa4788 + $t_upper) . ", $" . dechex(0x7eb58 + $t_lower) . ");\n");
-	      else if($t_value == 255)
-	        fputs($fo, "ram.sub($" . dechex(0xa4788 + $t_upper) . ", $" . dechex(0x7eb58 + $t_lower) . ");\n");
+	      if($t_action == 0)
+	        fputs($fo, "ram.sum(" .
+	                   "$" . dechex(0xa4788 + $t_upper) . ", " .
+	                   "$" . dechex(0x7eb58 + $t_lower) . ");\n");
+	      else if($t_action == 255)
+	        fputs($fo, "ram.sub(" .
+	                   "$" . dechex(0xa4788 + $t_upper) . ", " .
+	                   "$" . dechex(0x7eb58 + $t_lower) . ");\n");
 	      else
 	        fputs($fo, "ram.sub(UNHANDLED EVAL: $t_value)");
+	      break;
 	    
 	    // Change Music
 	    // sound.setBGM(team, track)
 	    // uint_8[0x0c] uint_8[unit] uint_8[song]
-	    case $code == 0x0c:
+	    case 0x0c:
 	      $t_team = fgetb($fd);
 	      $t_track = fgetb($fd);
-	      fputs($fo, "sound.setBGM($ar_team[$t_team], $ar_bgm[$t_track]);\n");
+	      fputs($fo, "sound.setBGM(" .
+	                 "$ar_team[$t_team], " .
+	                 "$ar_bgm[$t_track]);\n");
+	      break;
+	    
+	    // Deploy Unit
+	    // screen.unit.showSub(unit)
+	    // uint_8[0x1e] uint_8[unit]
+	    case 0x1e:
+	      fputs($fo, "screen.unit.showSub(" .
+	                 $ar_unit[fgetb($fd)] . ");\n");
+	      break;
+	    
+	    // Position Unit
+	    // screen.unit.position(unit, x, y)
+	    // uint_8[0x36] uint_8[unit] uint_8[x] uint_8[y]
+	    case 0x36:
+	      $t_unit = fgetb($fd);
+	      $t_x = fgetb($fd);
+	      $t_y = fgetb($fd);
+	      fputs($fo, "screen.unit.position(" .
+	                 "$ar_unit[$t_unit], " .
+	                 "$t_x, " .
+	                 "$t_y);\n");
+	      break;
 	    
 	    // Hide Unit
-	    // screen.unit.hide(unit)
-	    // uint_8[0x37] uint_8[unit] uint_8[status]
-	    case $code == 0x37:
+	    // screen.unit.hide(unit, target)
+	    // uint_8[0x37] uint_8[unit] uint_8[target]
+	    case 0x37:
+	      $t_unit = fgetb($fd);
+	      $t_target = fgetb($fd);
+	      fputs($fo, "screen.unit.hide(" .
+	                 "$ar_unit[$t_unit], " .
+	                 "$ar_target[$t_target]);\n");
+	      break;
 	    
 	    // Fade In
 	    // screen.fadeIn(time)
 	    // unit_8[0x38] uint_8[time]
-	    case $code == 0x38:
-	      fputs($fo, "screen.fadeIn(" . fgetb($fd) . ");\n");
+	    case 0x38:
+	      fputs($fo, "screen.fadeIn(" .
+	                 fgetb($fd) . ");\n");
+	      break;
+
+	    // Move Cusor to Commander
+	    // screen.cusor.set(commander)
+	    // uint_8[0x3d] uint_8[commander]
+	    case 0x3d:
+	      fputs($fo, "screen.cursor.set(" .
+	                 $ar_unit[fgetb($fd)] . ");\n");
+	      break;
+	    
+	    // NOP
+	    case 0xff:
+	      break;
+	    
+	    // Catch unsupported codes
+	    default:
+	      echo "Caught unhandled exception: \$code==" . hexstr($code) . "\n";
+	      die();
+	      break;
 	  }
-	  die();
 	}
-	die();
 }
 
 
@@ -307,10 +402,6 @@ screen.unit.hide(unit)
 
 36 uu xx yy - Position unit uu at xx,yy (ffff = selected coordinates)
 screen.unit.move(unit, x, y)
-
-02 xx yy zz pp ll - xx speaks to yy using picture pp and line ll, focus pp (01 = follow/00 = nofollow)
-screen.talk(xx, yy, zz, ll, focus)
-
 3e xx yy - xx faces yy
 screen.unit.face(unit1, unit2)
 

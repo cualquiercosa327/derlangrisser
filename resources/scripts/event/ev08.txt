@@ -66,3 +66,19 @@ event.turn.addHook(5, lbl_27b, ALLY, 0, 0x00);
 // Core Events
 lbl_17e:
 sound.setBGM(ALLY, ENEMYREINFORCEMENT1);
+ram.sub($a4788, $7eb5a);
+screen.focus.set(8, 21, FAST);
+screen.cursor.set(NULL_00);
+screen.unit.hide(LAIRD_18, SUBUNIT);
+screen.unit.hide(LEON_D5, SUBUNIT);
+screen.unit.position(VILLAGER_26, 255, 255);
+screen.unit.position(LIANA_02, 255, 255);
+screen.unit.position(VILLAGER_25, 255, 255);
+screen.unit.showSub(VILLAGER_25);
+screen.unit.position(LEON_D5, 19, 20);
+screen.unit.position(LAIRD_18, 11, 12);
+screen.unit.position(IMPERIALCOMMANDER_2F, 255, 255);
+screen.unit.position(ERWIN_01, 19, 27);
+screen.unit.position(HEIN_05, 16, 41);
+screen.unit.position(BALDO_19, 16, 21);
+screen.fadeIn(4);
