@@ -58,6 +58,16 @@ if (!file_exists("resources/define/unit.txt"))
 	die("Fatal error: Unit definitions not found.\n");
 $ar_unit = explode("\n", file_get_contents("resources/define/unit.txt"));
 
+if (!file_exists("resources/define/unit.txt"))
+	die("Fatal error: Unit definitions not found.\n");
+$ar_unit = explode("\n", file_get_contents("resources/define/unit.txt"));
+
+if (!file_exists("resources/define/team.txt"))
+	die("Fatal error: Unit definitions not found.\n");
+$ar_team = explode("\n", file_get_contents("resources/define/team.txt"));
+
+$ar_screen = array(0xfe => "FAST", 0xfe => "SLOW")
+
 // Build array of event scripts
 $events = array_values(array_diff(scandir("resources/events"), array('..', '.', ".DS_Store")));
 
@@ -69,18 +79,20 @@ for($i = 0; $i < count($events); $i++) {
 	$fo = fopen("resources/scripts/event/" . substr($events[$i], 0, -3) . "txt", "w");
 	
 	// Get section pointers
-	$begin = ord(fgetc($fd)) + (ord(fgetc($fd)) << 8);
+	// uint_16[pointer]
+	$begin = fgetb($fd) + (fgetb($fd) << 8);
 	$section = array($begin);
 	while(ftell($fd) < $section[0])
-	  $section[] = ord(fgetc($fd)) + (ord(fgetc($fd)) << 8);
+	  $section[] = fgetb($fd) + (fgetb($fd) << 8);
 	
-	// Read movement hooks
+	// Movement Hooks
+	// uint_8[priority] uint_8[unit] uint_8[turn] uint_8[unk1] uint_16[jump]
 	fputs($fo, "// Movement-Triggered Events:\n" .
 	           "// event.move.addHook(priority, goto, unit, turn, unk1)\n");
 	while(ftell($fd) < $section[1]) {
-	  $t_cmd = ord(fgetc($fd));
+	  $t_cmd = fgetb($fd);
 	  if($t_cmd != 255) {
-	    $bytecode = array($t_cmd, ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)));
+	    $bytecode = array($t_cmd, fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd));
 	    $pointers[] = $bytecode[4] + ($bytecode[5] << 8);
 	    fputs($fo, "event.move.addHook(" .
 	               "$bytecode[0], " .
@@ -89,19 +101,17 @@ for($i = 0; $i < count($events); $i++) {
 	               "$bytecode[2], " .
 	               hexstr($bytecode[3]) . ");\n");
 	  }
-	  else {
-	    $t_cmd = fgetc($fd);
-	  }
-	}
-	fputs($fo, "\n");
+	  else $t_cmd = fgetc($fd);
+	} fputs($fo, "\n");
 
-	// Read attack hooks
+	// Attack Hooks
+	// uint_8[priority] uint_8[attacker] uint_8[unk1] uint_8[reciever] uint_8[unk2] uint_8[unk3] uint_16[jump]
 	fputs($fo, "// Attack-Triggered Events:\n" .
 	           "// event.attack.addHook(priority, goto, attacker, defender, unk1, unk2, unk3)\n");
 	while(ftell($fd) < $section[2]) {
-	  $t_cmd = ord(fgetc($fd));
+	  $t_cmd = fgetb($fd);
 	  if($t_cmd != 255) {
-	    $bytecode = array($t_cmd, ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)));
+	    $bytecode = array($t_cmd, fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd));
 	    $pointers[] = $bytecode[6] + ($bytecode[7] << 8);
 	    fputs($fo, "event.attack.addHook(" .
 	               "$bytecode[0], " .
@@ -112,28 +122,28 @@ for($i = 0; $i < count($events); $i++) {
 	               hexstr($bytecode[4]) . ", " .
 	               hexstr($bytecode[5]) . ");\n");
 	  }
-	  else {
-	    $t_cmd = fgetc($fd);
-	  }
-	}
-	fputs($fo, "\n");
+	  else $t_cmd = fgetc($fd);
+	} fputs($fo, "\n");
 	
-	// Read defeat/damage hooks
+	// Defeat/Damage Hooks
+	// uint_8[priority] uint_8[quantity] uint_8[unit] * uint_16[jump]
+	// or
+	// uint_8[priority] uint_8[0xff] uint_8[attacker] uint_8[unk1] uint_8[defender] uint_8[unk2] uint_16[jump]
 	fputs($fo, "// Damage-Triggered Events:\n" .
 	           "// event.defeat.addHook(priority, goto, unit, ...)\n" .
-               "// event.damage.addHook(priority, goto, attacker, defender, unk1, unk2, unk3)\n");
+               "// event.damage.addHook(priority, goto, attacker, defender, unk1, unk2)\n");
 	while(ftell($fd) < $section[3]) {
-	  $t_cmd = ord(fgetc($fd));
+	  $t_cmd = fgetb($fd);
 	  if($t_cmd != 255) {
-	    $t_cmd2 = ord(fgetc($fd));
+	    $t_cmd2 = fgetb($fd);
 	    // defeated
 	    if($t_cmd2 != 255) {
 	      $bytecode = array($t_cmd, $t_cmd2);
 	      for($k = 0; $k < $t_cmd2; $k++) {
-	        $bytecode[] = ord(fgetc($fd));
+	        $bytecode[] = fgetb($fd);
 	      }
 	      // Grab the goto address
-	      $t_ptr = ord(fgetc($fd)) + (ord(fgetc($fd)) << 8);
+	      $t_ptr = fgetb($fd) + (fgetb($fd) << 8);
 	      $pointers[] = $t_ptr;
           fputs($fo, "event.defeat.addHook(" .
 	                 "$bytecode[0], " .
@@ -147,38 +157,37 @@ for($i = 0; $i < count($events); $i++) {
 	    }
 	    // damaged
 	    else {
-	      $bytecode = array($t_cmd, $t_cmd2, ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)));
+	      $bytecode = array($t_cmd, $t_cmd2, fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd));
 	      $pointers[] = $bytecode[6] + ($bytecode[7] << 8);
           fputs($fo, "event.damage.addHook(" .
                      "$bytecode[0], " .
 	                 "lbl_" . dechex($bytecode[6] + ($bytecode[7] << 8)) . ", " .
 	                 "{$ar_unit[$bytecode[2]]}, " .
 	                 "{$ar_unit[$bytecode[4]]}, " .
-	                 hexstr($bytecode[1]) . ", " .
 	                 hexstr($bytecode[3]) . ", " .
 	                 hexstr($bytecode[5]) . ");\n");
 	    }
 	  }
-	  else {
-	    $t_cmd = fgetc($fd);
-	  }
-	}
-	fputs($fo, "\n");
+	  else $t_cmd = fgetc($fd);
+	} fputs($fo, "\n");
 	
-	// Read position hooks
+	// Position Hooks
+	// uint_8[priority] uint_8[unit] uint_8[unit] uint_8[radius] uint_8[unk1] uint_8[unk2] uint_8[unk3] uint_8[unk4] uint_16[jump]
+    // or
+    // uint_8[priority] uint_8[unit] uint_8[unk1] uint_8[unk2] uint_8[x1] uint_8[y1] uint_8[x2] uint_8[y2] uint_16[jump]
 	fputs($fo, "// Position-Triggered Events:\n" .
 	           "// event.box.addHook(priority, goto, unit, unit, radius, unk1, unk2, unk3, unk4)\n" .
-               "// event.radius.addHook(priority, goto, unit, x, y, x, y, unk1, unk2)\n");
+               "// event.radius.addHook(priority, goto, unit, x1, y1, x2, y2, unk1, unk2)\n");
 	while(ftell($fd) < $section[4]) {
-	  $t_cmd = ord(fgetc($fd));
+	  $t_cmd = fgetb($fd);
 	  if($t_cmd != 255) {
-	    $bytecode = array($t_cmd, ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)));
+	    $bytecode = array($t_cmd, fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd));
 	    $pointers[] = $bytecode[8] + ($bytecode[9] << 9);
         // box
 	    if($bytecode[2] == 0 && $bytecode[3] == 0 ) {
           fputs($fo, "event.box.addHook(" .
                      "$bytecode[0], " .
-	                 "lbl_" . dechex($bytecode[8] + ($bytecode[9] << 9)) . ", " .
+	                 "lbl_" . dechex($bytecode[8] + ($bytecode[9] << 8)) . ", " .
                      "{$ar_unit[$bytecode[1]]}, " .
                      "$bytecode[4], " . 
                      "$bytecode[5], " . 
@@ -191,7 +200,7 @@ for($i = 0; $i < count($events); $i++) {
 	    else {
           fputs($fo, "event.radius.addHook(" .
                      "$bytecode[0], " .
-	                 "lbl_" . dechex($bytecode[8] + ($bytecode[9] << 9)) . ", " .
+	                 "lbl_" . dechex($bytecode[8] + ($bytecode[9] << 8)) . ", " .
 	                 "{$ar_unit[$bytecode[1]]}, " .
 	                 "{$ar_unit[$bytecode[2]]}, " .
 	                 "$bytecode[3], " .
@@ -201,53 +210,55 @@ for($i = 0; $i < count($events); $i++) {
 	                 hexstr($bytecode[7]) . ");\n");
 	    }
 	  }
-	  else {
-	    $t_cmd = fgetc($fd);
-	  }
-	}
-	fputs($fo, "\n");
+	  else $t_cmd = fgetc($fd);
+	} fputs($fo, "\n");
 	
-	// Read turn hooks
+	// Turn Hooks
+	// uint_8[priority] uint_8[team] uint_8[turn] uint_8[unk1] uint_16[jump]
 	fputs($fo, "// Turn-Triggered Events\n" .
-	           "// event.turn.addHook(priority, goto, part, turn, 00)\n");
+	           "// event.turn.addHook(priority, goto, team, turn, unk1)\n");
 	while(ftell($fd) < $section[5]) {
 	  $t_cmd = ord(fgetc($fd));
 	  if($t_cmd != 255) {
-	    $bytecode = array($t_cmd, ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)), ord(fgetc($fd)));
+	    $bytecode = array($t_cmd, fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd));
 	    $pointers[] = $bytecode[4] + ($bytecode[5] << 8);
 	    fputs($fo, "event.turn.addHook(" .
                    "$bytecode[0], " .
 	               "lbl_" . dechex($bytecode[4] + ($bytecode[5] << 8)) . ", " .
-	               "$bytecode[1], " .
+	               "{$ar_team[$bytecode[1]]}, " .
 	               "$bytecode[2], " .
-	               "$bytecode[3]);\n");
+	               hexstr($bytecode[3]) . ");\n");
 	  }
-	  else {
-	    $t_cmd = fgetc($fd);
-	  }
-	}
-	fputs($fo, "\n");
+	  else  $t_cmd = fgetc($fd);
+	} fputs($fo, "\n");
 	
 	// Read core events
-	fputs($fo, "// Core Events\n");
-	$t_ptr = ord(fgetc($fd)) + (ord(fgetc($fd)) << 8);
+	fputs($fo, "// Core Events");
+	$t_ptr = fgetb($fd) + (fgetb($fd) << 8);
 	$pointers[] = $t_ptr;
 	while(!feof($fd)) {
 	  // Write a label for any referenced addresses
 	  if(in_array(ftell($fd), $pointers)) {
 	    fputs($fo, "\nlbl_" . dechex(ftell($fd)) . ":\n");
 	  }
-	  $code = ord(fgetc($fd));
+	  $code = fgetb($fd);
 	  switch($code) {
-	    // Change music
-	    case $code == 0x0c:
-	      $t_team = ord(fgetc($fd));
-	      $t_track = ord(fgetc($fd));
-	      fputs($fo, "sound.setBGM($t_team, $ar_bgm[$t_track]);\n");
-	    // Assign variable
+	    // Set Focus
+	    // screen.focus.set(x, y, speed)
+	    // uint_8[0x00] uint_8[speed] uint_8[x] uint_8[y]
+	    case $code == 0x0:
+	      $t_speed = fgetb($fd);
+	      $t_x = fgetb($fd);
+	      $t_y = fgetb($fd);
+	      fputs($fo, "screen.focus.set($t_x, $t_y, {$ar_screen[$t_speed]});\n");
+	    
+	    // RAM Add/Sub
+	    // ram.sum(target, variable)
+	    // ram.sub(target, variable)
+	    // uint_8[0x0b] uint_8[action] uint_8[value]
 	    case $code == 0x0b:
-	      $t_action = ord(fgetc($fd));
-	      $t_value = ord(fgetc($fd));
+	      $t_action = fgetb($fd);
+	      $t_value = fgetb($fd);
 	      $t_upper = $t_value >> 3;
 	      $t_lower = $t_value & 0x7;
 	      if($t_value == 0)
@@ -255,10 +266,26 @@ for($i = 0; $i < count($events); $i++) {
 	      else if($t_value == 255)
 	        fputs($fo, "ram.sub($" . dechex(0xa4788 + $t_upper) . ", $" . dechex(0x7eb58 + $t_lower) . ");\n");
 	      else
-	        fputs($fo, "         UNHANDLED EVAL: $t_value");
-	    // Set cursor focus
-	    case $code == 0x0:
+	        fputs($fo, "ram.sub(UNHANDLED EVAL: $t_value)");
 	    
+	    // Change Music
+	    // sound.setBGM(team, track)
+	    // uint_8[0x0c] uint_8[unit] uint_8[song]
+	    case $code == 0x0c:
+	      $t_team = fgetb($fd);
+	      $t_track = fgetb($fd);
+	      fputs($fo, "sound.setBGM($ar_team[$t_team], $ar_bgm[$t_track]);\n");
+	    
+	    // Hide Unit
+	    // screen.unit.hide(unit)
+	    // uint_8[0x37] uint_8[unit] uint_8[status]
+	    case $code == 0x37:
+	    
+	    // Fade In
+	    // screen.fadeIn(time)
+	    // unit_8[0x38] uint_8[time]
+	    case $code == 0x38:
+	      fputs($fo, "screen.fadeIn(" . fgetb($fd) . ");\n");
 	  }
 	  die();
 	}
@@ -267,62 +294,10 @@ for($i = 0; $i < count($events); $i++) {
 
 
 /*
-Section 1: Movement Hooks
-All 6 bytes
-[priority] [unit 1 byte] [turn] [ff] [jump 2 bytes]
-
-event.move.addHook(priority, jump, unit, turn, 0xff);
-
-Section 2: Attack Hooks
-All 8 bytes
-[priority] [attacker unit 2 bytes] [reciever unit 2 bytes] [ff] [jump 2 bytes]
-ffff = anyone
-
-event.attack.addHook(priority, jump, attacker, defender, 0x00, 0x00, 0xff);
-
-Section 3: Defeat/Injury Hooks
-Byte 2 is type of event
-02 = Defeated
-[priority] [no units] [unit] ... [jump 2 bytes]
-
-event.defeat.addHook(priority, jump, units, ...);
-
-ff = Attacked
-[priority] [ff] [unit] [status] [unit] [status] [jump 2 bytes]
-
-event.defeat.addHook(priority, jump, unit, unit, ff, 00, 00);
-
-
-Section 4: Position Hooks
-All 10 bytes
-[priority] [unit] [unit] [radius] [00000000] [jump 2 bytes]
-
-event.position.addHook(priority, jump, type, unit, unit, radius, 00000000);
-
-[priority] [unit] [0000] [x,y] [x,y] [jump 2 bytes]
-
-event.position.addHook(priority, jump, type, unit, x, y, x, y, 0000);
-
-Section 5: Turn Hooks
-All 6 bytes
-[priority] [01] [turn] [00] [jump 2 bytes]
-
-event.turn.addHook(priority, jump, part, turn, 00);
-
-
 Section 6: Event Script
 Depends on action code
 
 Begins with jump to pre-battle deployment
-
-00 fe xx yy - Instantly change to coordinates xx,yy
-00 ff xx yy - Slowly change to coordinates xx,yy
-screen.focus.set(x, y, SPEED)
-
-
-0c 01 xx - Change ally music to xx
-sound.setBGM()
-sound.playSFX()
 
 3d xx - Move cusor to commander xx
 screen.cursor.set(x)
@@ -332,9 +307,6 @@ screen.unit.hide(unit)
 
 36 uu xx yy - Position unit uu at xx,yy (ffff = selected coordinates)
 screen.unit.move(unit, x, y)
-
-38 xx - Fade in screen over xx seconds
-screen.fadeIn(time)
 
 02 xx yy zz pp ll - xx speaks to yy using picture pp and line ll, focus pp (01 = follow/00 = nofollow)
 screen.talk(xx, yy, zz, ll, focus)
