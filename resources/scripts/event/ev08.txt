@@ -65,7 +65,7 @@ event.turn.addHook(5, lbl_27b, ALLY, 0, 0x00);
 
 // Core Events
 lbl_17e:
-sound.setBGM(ALLY, ENEMYREINFORCEMENT1);
+sound.setBGM(ALLY, ENEMYREINFORCEMENT2);
 ram.sub($a4788, $7eb5a);
 screen.focus.set(8, 21, FAST);
 screen.cursor.set(NULL_00);
@@ -97,7 +97,7 @@ screen.talk(LIANA_02, DOWN_F5, LIANA, FOLLOW, 4);
 // Who is outside ...!?\0
 screen.talk(BALDO_19, LEON_D5, BALDO, NOFOLLOW, 5);
 // General Leon! The girl we were assigned to bring in is here!\0
-sound.setBGM(ALLY, ALLYREINFORCEMENT3);
+sound.setBGM(ALLY, ENEMY1_LEON);
 screen.unit.move(LEON_D5, 255, 255);
 screen.unit.face(BALDO_19, UP_F4);
 screen.talk(LEON_D5, BALDO_19, LEON, NOFOLLOW, 6);
@@ -116,7 +116,7 @@ screen.unit.showSub(BALDO_19);
 screen.focus.set(9, 25, FAST);
 screen.unit.showSub(IMPERIALCOMMANDER_2F);
 screen.focus.set(17, 34, FAST);
-sound.setBGM(ALLY, ALLY1);
+sound.setBGM(ALLY, ALLY2);
 screen.unit.move(HEIN_05, 255, 255);
 screen.talk(HEIN_05, UP_F4, HEIN, NOFOLLOW, 11);
 // _NAME_, this is serious!\0
