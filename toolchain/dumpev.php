@@ -295,9 +295,32 @@ for($i = 0; $i < count($events); $i++) {
 	      fputs($fo, "// " . sctxt($ar_talk[$t_line - 1]) . "\\0\n");
 	      break;
 	    
-	    // RAM Add/Sub
-	    // ram.sum(target, variable)
-	    // ram.sub(target, variable)
+	    // Local RAM Add/Sub
+	    // ram.local.sum(target, variable)
+	    // ram.local.sub(target, variable)
+	    // uint_8[0x08] uint_8[action] uint_8[value]
+	    case 0x08:
+	      $t_action = fgetb($fd);
+	      $t_value = fgetb($fd);
+	      $t_upper = $t_value >> 3;
+	      $t_lower = $t_value & 0x7;
+	      if($t_action == 0)
+	        fputs($fo, "ram.local.sum(" .
+	                   "$" . dechex(0xa47d0 + $t_upper) . ", " .
+	                   "$" . dechex(0x7eb58 + $t_lower) . ");\n");
+	      else if($t_action == 255)
+	        fputs($fo, "ram.local.sub(" .
+	                   "$" . dechex(0xa47d0 + $t_upper) . ", " .
+	                   "$" . dechex(0x7eb58 + $t_lower) . ");\n");
+	      else
+	        fputs($fo, "ram.local.sub(UNHANDLED EVAL: $t_value)");
+	      break;
+	      
+	    
+	    
+	    // Global RAM Add/Sub
+	    // ram.global.sum(target, variable)
+	    // ram.global.sub(target, variable)
 	    // uint_8[0x0b] uint_8[action] uint_8[value]
 	    case 0x0b:
 	      $t_action = fgetb($fd);
@@ -305,15 +328,15 @@ for($i = 0; $i < count($events); $i++) {
 	      $t_upper = $t_value >> 3;
 	      $t_lower = $t_value & 0x7;
 	      if($t_action == 0)
-	        fputs($fo, "ram.sum(" .
+	        fputs($fo, "ram.global.sum(" .
 	                   "$" . dechex(0xa4788 + $t_upper) . ", " .
 	                   "$" . dechex(0x7eb58 + $t_lower) . ");\n");
 	      else if($t_action == 255)
-	        fputs($fo, "ram.sub(" .
+	        fputs($fo, "ram.global.sub(" .
 	                   "$" . dechex(0xa4788 + $t_upper) . ", " .
 	                   "$" . dechex(0x7eb58 + $t_lower) . ");\n");
 	      else
-	        fputs($fo, "ram.sub(UNHANDLED EVAL: $t_value)");
+	        fputs($fo, "ram.global.sub(UNHANDLED EVAL: $t_value)");
 	      break;
 	    
 	    // Change Music

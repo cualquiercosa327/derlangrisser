@@ -66,7 +66,7 @@ event.turn.addHook(5, lbl_27b, ALLY, 0, 0x00);
 // Core Events
 lbl_17e:
 sound.setBGM(ALLY, ENEMYREINFORCEMENT2);
-ram.sub($a4788, $7eb5a);
+ram.global.sub($a4788, $7eb5a);
 screen.focus.set(8, 21, FAST);
 screen.cursor.set(NULL_00);
 screen.unit.hide(LAIRD_18, SUBUNIT);
@@ -134,3 +134,17 @@ screen.talk(ERWIN_01, DOWN_F5, ERWIN, NOFOLLOW, 16);
 screen.cursor.set(ERWIN_01);
 screen.unit.showSub(ERWIN_01);
 screen.unit.showSub(HEIN_05);
+ram.local.sum($a47d0, $7eb58);
+ram.local.sum($a47d0, $7eb59);
+ram.local.sum($a47d0, $7eb5a);
+ram.local.sum($a47d0, $7eb5b);
+ram.local.sum($a47d0, $7eb5c);
+ram.local.sum($a47d0, $7eb5d);
+
+lbl_26d:
+screen.talk(HEIN_05, ERWIN_01, HEIN, FOLLOW, 17);
+// This just keeps getting worse. _NAME_!\r\n The Imperial Knights are here to kidnap Liana!\0
+screen.talk(ERWIN_01, HEIN_05, ERWIN, FOLLOW, 18);
+// Why would Rayguard go through so much trouble for just one girl ...?\r\n There is no time to think about that now. We have to hurry and help her!\0
+
+lbl_27b:
