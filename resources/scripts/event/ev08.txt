@@ -82,3 +82,13 @@ screen.unit.position(ERWIN_01, 19, 27);
 screen.unit.position(HEIN_05, 16, 41);
 screen.unit.position(BALDO_19, 16, 21);
 screen.fadeIn(4);
+screen.unit.move(BALDO_19, 11, 21);
+screen.talk(VILLAGER_25, BALDO_19, VILLAGER_YELLOW, NOFOLLOW, 1);
+// Eeek!\0
+screen.talk(BALDO_19, DOWN_F5, BALDO, NOFOLLOW, 2);
+// You there, woman! If you do not want to die, answer my questions!\r\n Does a girl named Liana live in this house?\0
+screen.talk(VILLAGER_25, BALDO_19, VILLAGER_YELLOW, NOFOLLOW, 3);
+// Y, yes ...\0
+screen.focus.set(8, 21, FAST);
+screen.unit.move(BALDO_19, 11, 22);
+screen.unit.move(BALDO_19, 255, 255);

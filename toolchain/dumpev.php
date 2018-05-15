@@ -19,23 +19,22 @@ function fgetb($fd) {
 
 // Sanitize formatted game script
 function sctxt($text) {
+  $text = str_replace(array("\r", "\n"), array("", " "), trim($text));
+  $text = str_replace("  ", " ", $text);
+
   // Remove font tags
   $text = str_replace(
             array("{font0}", "{font1}", "{font2}", "{font3}", "{font4}"),
             array("", "", "", "", ""),
             $text);
-  
   // Remove skip tags
-  while(strpos($text, "{skip")) {
+  while(strpos($text, "{skip"))
     $text = preg_replace("/\{skip[^}]+\}/", "", $text);
-  }
-  
   // Transform tags
   $text = str_replace(
               array("{06}", "{07}", "{02}", "{03}", "{end}", "{3a}", "{37}", "{38}"),
               array("\\r", "\\n", "_NAME_", "_NUM_", "\\0", "o", "a", "a"),
               $text);
-  
   return($text);
 }
 
@@ -77,6 +76,7 @@ $pointers = array();
 for($i = 0; $i < count($events); $i++) {
 	$fd = fopen("resources/events/" . $events[$i], "rb");
 	$fo = fopen("resources/scripts/event/" . substr($events[$i], 0, -3) . "txt", "w");
+	$ar_talk = explode("{end}", file_get_contents("resources/scripts/en/sc" . substr($events[$i], 2, 2) . ".txt"));
 	
 	// Get section pointers
 	// uint_16[pointer]
@@ -286,12 +286,12 @@ for($i = 0; $i < count($events); $i++) {
 	      $t_focus = fgetb($fd);
 	      $t_line = fgetb($fd);
 	      fputs($fo, "screen.talk(" .
-	                 "{$ar_unit[$t_speaker]}" .
-	                 "{$ar_unit[$t_target]}" .
-	                 "{$ar_portrait[$t_portrait]}" .
+	                 "{$ar_unit[$t_speaker]}, " .
+	                 "{$ar_unit[$t_target]}, " .
+	                 "{$ar_portrait[$t_portrait]}, " .
 	                 ($t_focus == 0 ? "NOFOLLOW" : "FOLLOW") . ", " .
 	                 "$t_line);\n");
-	      fputs($fo, "// Dialogue\n");
+	      fputs($fo, "// " . sctxt($ar_talk[$t_line - 1]) . "\\0\n");
 	      break;
 	    
 	    // RAM Add/Sub
@@ -373,6 +373,15 @@ for($i = 0; $i < count($events); $i++) {
 	      fputs($fo, "screen.cursor.set(" .
 	                 $ar_unit[fgetb($fd)] . ");\n");
 	      break;
+	    
+	    // Move Unit
+	    // screen.unit.move(unit, x, y)
+	    // uint_8[0x3f] uint_8[unit] uint_8[x] uint_8[y]
+	    case 0x3f:
+	      fputs($fo, "screen.unit.move(" .
+	                 $ar_unit[fgetb($fd)] . ", " .
+	                 fgetb($fd) . ", " .
+	                 fgetb($fd) . ");\n");
 	    
 	    // NOP
 	    case 0xff:
