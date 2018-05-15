@@ -20,7 +20,6 @@ function fgetb($fd) {
 // Sanitize formatted game script
 function sctxt($text) {
   $text = str_replace(array("\r", "\n"), array("", " "), trim($text));
-  $text = str_replace("  ", " ", $text);
 
   // Remove font tags
   $text = str_replace(
@@ -35,6 +34,8 @@ function sctxt($text) {
               array("{06}", "{07}", "{02}", "{03}", "{end}", "{3a}", "{37}", "{38}"),
               array("\\r", "\\n", "_NAME_", "_NUM_", "\\0", "o", "a", "a"),
               $text);
+  $text = str_replace(array("  ", " \\n"), array(" ", "\\n"), $text);
+  $text = str_replace(array("  ", " \\n"), array(" ", "\\n"), $text);
   return($text);
 }
 
@@ -351,11 +352,9 @@ for($i = 0; $i < count($events); $i++) {
 	    // screen.unit.hide(unit, target)
 	    // uint_8[0x37] uint_8[unit] uint_8[target]
 	    case 0x37:
-	      $t_unit = fgetb($fd);
-	      $t_target = fgetb($fd);
 	      fputs($fo, "screen.unit.hide(" .
-	                 "$ar_unit[$t_unit], " .
-	                 "$ar_target[$t_target]);\n");
+	                 $ar_unit[fgetb($fd)] . ", " .
+	                 $ar_target[fgetb($fd)] . ");\n");
 	      break;
 	    
 	    // Fade In
@@ -374,6 +373,15 @@ for($i = 0; $i < count($events); $i++) {
 	                 $ar_unit[fgetb($fd)] . ");\n");
 	      break;
 	    
+	    // Face Unit
+	    // screen.unit.face(unit, direction)
+	    // uint_8[0x3e] uint_8[unit] uint_8[direction]
+	    case 0x3e:
+	      fputs($fo, "screen.unit.face(" .
+	                 $ar_unit[fgetb($fd)] . ", " .
+	                 $ar_unit[fgetb($fd)] . ");\n");
+	      break;
+	    
 	    // Move Unit
 	    // screen.unit.move(unit, x, y)
 	    // uint_8[0x3f] uint_8[unit] uint_8[x] uint_8[y]
@@ -382,6 +390,7 @@ for($i = 0; $i < count($events); $i++) {
 	                 $ar_unit[fgetb($fd)] . ", " .
 	                 fgetb($fd) . ", " .
 	                 fgetb($fd) . ");\n");
+	      break;
 	    
 	    // NOP
 	    case 0xff:

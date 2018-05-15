@@ -92,3 +92,45 @@ screen.talk(VILLAGER_25, BALDO_19, VILLAGER_YELLOW, NOFOLLOW, 3);
 screen.focus.set(8, 21, FAST);
 screen.unit.move(BALDO_19, 11, 22);
 screen.unit.move(BALDO_19, 255, 255);
+screen.unit.face(BALDO_19, UP_F4);
+screen.talk(LIANA_02, DOWN_F5, LIANA, FOLLOW, 4);
+// Who is outside ...!?\0
+screen.talk(BALDO_19, LEON_D5, BALDO, NOFOLLOW, 5);
+// General Leon! The girl we were assigned to bring in is here!\0
+sound.setBGM(ALLY, ALLYREINFORCEMENT3);
+screen.unit.move(LEON_D5, 255, 255);
+screen.unit.face(BALDO_19, UP_F4);
+screen.talk(LEON_D5, BALDO_19, LEON, NOFOLLOW, 6);
+// I see. Thank goodness.\0
+screen.unit.move(LAIRD_18, 255, 255);
+screen.unit.face(BALDO_19, RIGHT_F7);
+screen.talk(LAIRD_18, LEON_D5, LAIRD, NOFOLLOW, 7);
+// Let us get this over with. The local Lord's troops must already be on their way.\0
+screen.talk(LEON_D5, LAIRD_18, LEON, NOFOLLOW, 8);
+// You are probably right ...\0
+screen.talk(LEON_D5, BALDO_19, LEON, NOFOLLOW, 9);
+// Hurry up, Baldo! If the Salrath Army shows up, this could get messy.\0
+screen.talk(BALDO_19, RIGHT_F7, BALDO, NOFOLLOW, 10);
+// Understood!\0
+screen.unit.showSub(BALDO_19);
+screen.focus.set(9, 25, FAST);
+screen.unit.showSub(IMPERIALCOMMANDER_2F);
+screen.focus.set(17, 34, FAST);
+sound.setBGM(ALLY, ALLY1);
+screen.unit.move(HEIN_05, 255, 255);
+screen.talk(HEIN_05, UP_F4, HEIN, NOFOLLOW, 11);
+// _NAME_, this is serious!\0
+screen.unit.move(ERWIN_01, 255, 255);
+screen.talk(ERWIN_01, DOWN_F5, ERWIN, NOFOLLOW, 12);
+// What's the matter, Hein?\0
+screen.talk(HEIN_05, UP_F4, HEIN, NOFOLLOW, 13);
+// A detachment of knights from the Rayguard Empire is invading the village!\0
+screen.talk(ERWIN_01, DOWN_F5, ERWIN, NOFOLLOW, 14);
+// What ...!?\r\n Hein! It looks like they are only attacking the outskirts!\r\n Isn't that where you said your childhood friend lives?\0
+screen.talk(HEIN_05, UP_F4, HEIN, NOFOLLOW, 15);
+// That is right!\r\n She must already be in terrible danger! Will you lend me a hand?\0
+screen.talk(ERWIN_01, DOWN_F5, ERWIN, NOFOLLOW, 16);
+// Yes, of course. Let's go!\0
+screen.cursor.set(ERWIN_01);
+screen.unit.showSub(ERWIN_01);
+screen.unit.showSub(HEIN_05);
