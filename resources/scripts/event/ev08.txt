@@ -1,67 +1,67 @@
 # Movement-Triggered Events:
 # on.move(priority, goto, unit, turn, unk1)
-on.move(4, lbl_397, VILLAGER_25, 0, 0xff);
-on.move(20, lbl_3a0, VILLAGER_25, 0, 0xff);
-on.move(22, lbl_3f5, RIDEL_7F, 0, 0xff);
-on.move(28, lbl_491, LEON_D5, 0, 0xff);
-on.move(33, lbl_4de, LAIRD_18, 3, 0xff);
-on.move(36, lbl_523, BALDO_19, 1, 0xff);
-on.move(1, lbl_55b, BALDO_19, 0, 0xff);
-on.move(0, lbl_563, BALDO_19, 0, 0xff);
-on.move(40, lbl_81c, IMPERIALCOMMANDER_2F, 0, 0xff);
-on.move(3, lbl_836, IMPERIALCOMMANDER_2F, 0, 0xff);
+on.move(4, lbl_397, VILLAGER_25, 0, 0xff)
+on.move(20, lbl_3a0, VILLAGER_25, 0, 0xff)
+on.move(22, lbl_3f5, RIDEL_7F, 0, 0xff)
+on.move(28, lbl_491, LEON_D5, 0, 0xff)
+on.move(33, lbl_4de, LAIRD_18, 3, 0xff)
+on.move(36, lbl_523, BALDO_19, 1, 0xff)
+on.move(1, lbl_55b, BALDO_19, 0, 0xff)
+on.move(0, lbl_563, BALDO_19, 0, 0xff)
+on.move(40, lbl_81c, IMPERIALCOMMANDER_2F, 0, 0xff)
+on.move(3, lbl_836, IMPERIALCOMMANDER_2F, 0, 0xff)
 
 # Attack-Triggered Events:
 # on.attack(priority, goto, attacker, defender, unk1, unk2, unk3)
-on.attack(15, lbl_357, ERWIN_01, BALDO_19, 0x00, 0x00, 0xff);
-on.attack(16, lbl_36e, ERWIN_01, IMPERIALCOMMANDER_2F, 0x00, 0x00, 0xff);
-on.attack(15, lbl_37e, HEIN_05, BALDO_19, 0x00, 0x00, 0xff);
-on.attack(18, lbl_38f, HEIN_05, BALDO_19, 0x00, 0xff, 0xff);
-on.attack(21, lbl_3d9, NULL_FF, VILLAGER_25, 0xff, 0x00, 0xff);
-on.attack(23, lbl_403, RIDEL_7F, NULL_FF, 0x00, 0xff, 0xff);
-on.attack(24, lbl_40b, NULL_FF, RIDEL_7F, 0xff, 0x00, 0xff);
-on.attack(31, lbl_4af, ERWIN_01, LEON_D5, 0x00, 0x00, 0xff);
-on.attack(32, lbl_4d9, LEON_D5, NULL_FF, 0x00, 0xff, 0xff);
-on.attack(35, lbl_50d, LAIRD_18, RIDEL_7F, 0x00, 0x00, 0xff);
-on.attack(38, lbl_5f5, BALDO_19, VILLAGER_25, 0x00, 0xff, 0xff);
-on.attack(41, lbl_854, IMPERIALCOMMANDER_2F, NULL_FF, 0x00, 0xff, 0xff);
-on.attack(41, lbl_85f, NULL_FF, IMPERIALCOMMANDER_2F, 0xff, 0x00, 0xff);
+on.attack(15, lbl_357, ERWIN_01, BALDO_19, 0x00, 0x00, 0xff)
+on.attack(16, lbl_36e, ERWIN_01, IMPERIALCOMMANDER_2F, 0x00, 0x00, 0xff)
+on.attack(15, lbl_37e, HEIN_05, BALDO_19, 0x00, 0x00, 0xff)
+on.attack(18, lbl_38f, HEIN_05, BALDO_19, 0x00, 0xff, 0xff)
+on.attack(21, lbl_3d9, NULL_FF, VILLAGER_25, 0xff, 0x00, 0xff)
+on.attack(23, lbl_403, RIDEL_7F, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(24, lbl_40b, NULL_FF, RIDEL_7F, 0xff, 0x00, 0xff)
+on.attack(31, lbl_4af, ERWIN_01, LEON_D5, 0x00, 0x00, 0xff)
+on.attack(32, lbl_4d9, LEON_D5, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(35, lbl_50d, LAIRD_18, RIDEL_7F, 0x00, 0x00, 0xff)
+on.attack(38, lbl_5f5, BALDO_19, VILLAGER_25, 0x00, 0xff, 0xff)
+on.attack(41, lbl_854, IMPERIALCOMMANDER_2F, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(41, lbl_85f, NULL_FF, IMPERIALCOMMANDER_2F, 0xff, 0x00, 0xff)
 
 # Damage-Triggered Events:
 # on.defeat(priority, goto, unit, ...)
 # on.damage(priority, goto, attacker, defender, unk1, unk2)
-on.defeat(14, lbl_34d, ERWIN_01);
-on.defeat(17, lbl_376, HEIN_05);
-on.defeat(19, lbl_39b, VILLAGER_25);
-on.defeat(25, lbl_413, RIDEL_7F);
-on.defeat(26, lbl_433, EVANZE_80);
-on.defeat(27, lbl_46a, RIDEL_7F, EVANZE_80);
-on.defeat(29, lbl_4a1, LEON_D5);
-on.defeat(34, lbl_4f8, LAIRD_18);
-on.defeat(39, lbl_5fd, BALDO_19);
-on.defeat(42, lbl_86a, IMPERIALCOMMANDER_2F);
-on.damage(30, lbl_87c, ERWIN_01, LEON_D5, 0xff, 0x00);
-on.damage(44, lbl_884, BALDO_19, VILLAGER_25, 0x00, 0x00);
-on.damage(45, lbl_889, NULL_FF, BALDO_19, 0xff, 0x00);
-on.damage(43, lbl_895, NULL_FF, IMPERIALCOMMANDER_2F, 0xff, 0x00);
+on.defeat(14, lbl_34d, ERWIN_01)
+on.defeat(17, lbl_376, HEIN_05)
+on.defeat(19, lbl_39b, VILLAGER_25)
+on.defeat(25, lbl_413, RIDEL_7F)
+on.defeat(26, lbl_433, EVANZE_80)
+on.defeat(27, lbl_46a, RIDEL_7F, EVANZE_80)
+on.defeat(29, lbl_4a1, LEON_D5)
+on.defeat(34, lbl_4f8, LAIRD_18)
+on.defeat(39, lbl_5fd, BALDO_19)
+on.defeat(42, lbl_86a, IMPERIALCOMMANDER_2F)
+on.damage(30, lbl_87c, ERWIN_01, LEON_D5, 0xff, 0x00)
+on.damage(44, lbl_884, BALDO_19, VILLAGER_25, 0x00, 0x00)
+on.damage(45, lbl_889, NULL_FF, BALDO_19, 0xff, 0x00)
+on.damage(43, lbl_895, NULL_FF, IMPERIALCOMMANDER_2F, 0xff, 0x00)
 
 # Position-Triggered Events:
 # on.bound(priority, goto, unit, unit, radius, unk1, unk2, unk3, unk4)
 # on.range(priority, goto, unit, x1, y1, x2, y2, unk1, unk2)
-on.range(7, lbl_2af, LIANA_02, ERWIN_01, 1, 0x00, 0x00, 0x00, 0x00);
-on.range(8, lbl_2c1, LIANA_02, HEIN_05, 1, 0x00, 0x00, 0x00, 0x00);
-on.bound(9, lbl_2d3, BALDO_19, 11, 42, 18, 42, 0x00, 0x00);
-on.bound(10, lbl_2ed, BALDO_19, 7, 34, 18, 40, 0x00, 0x00);
-on.bound(11, lbl_308, NPC_COMMANDER_F0, 24, 5, 24, 5, 0x00, 0x00);
-on.bound(12, lbl_328, NPC_COMMANDER_F0, 18, 25, 18, 25, 0x00, 0x00);
-on.bound(13, lbl_348, VILLAGER_25, 1, 16, 1, 23, 0x00, 0x00);
-on.range(2, lbl_57a, LIANA_02, BALDO_19, 1, 0x00, 0x00, 0x00, 0x00);
-on.range(37, lbl_5b2, BALDO_19, LIANA_02, 1, 0x00, 0x00, 0x00, 0x00);
+on.range(7, lbl_2af, LIANA_02, ERWIN_01, 1, 0x00, 0x00, 0x00, 0x00)
+on.range(8, lbl_2c1, LIANA_02, HEIN_05, 1, 0x00, 0x00, 0x00, 0x00)
+on.bound(9, lbl_2d3, BALDO_19, 11, 42, 18, 42, 0x00, 0x00)
+on.bound(10, lbl_2ed, BALDO_19, 7, 34, 18, 40, 0x00, 0x00)
+on.bound(11, lbl_308, NPC_COMMANDER_F0, 24, 5, 24, 5, 0x00, 0x00)
+on.bound(12, lbl_328, NPC_COMMANDER_F0, 18, 25, 18, 25, 0x00, 0x00)
+on.bound(13, lbl_348, VILLAGER_25, 1, 16, 1, 23, 0x00, 0x00)
+on.range(2, lbl_57a, LIANA_02, BALDO_19, 1, 0x00, 0x00, 0x00, 0x00)
+on.range(37, lbl_5b2, BALDO_19, LIANA_02, 1, 0x00, 0x00, 0x00, 0x00)
 
 # Turn-Triggered Events
 # on.turn(priority, goto, team, turn, unk1)
-on.turn(6, lbl_26d, ALLY, 2, 0x00);
-on.turn(5, lbl_27b, ALLY, 0, 0x00);
+on.turn(6, lbl_26d, ALLY, 2, 0x00)
+on.turn(5, lbl_27b, ALLY, 0, 0x00)
 
 # Core Events
 lbl_17e:

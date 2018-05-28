@@ -112,7 +112,7 @@ for($i = 0; $i < count($events); $i++) {
 	               "lbl_" . dechex($bytecode[4] + ($bytecode[5] << 8)) . ", " .
 	               "{$ar_unit[$bytecode[1]]}, " .
 	               "$bytecode[2], " .
-	               hexstr($bytecode[3]) . ");\n");
+	               hexstr($bytecode[3]) . ")\n");
 	  }
 	  else $t_cmd = fgetc($fd);
 	} fputs($fo, "\n");
@@ -133,7 +133,7 @@ for($i = 0; $i < count($events); $i++) {
 	               "{$ar_unit[$bytecode[3]]}, " .
 	               hexstr($bytecode[2]) . ", " .
 	               hexstr($bytecode[4]) . ", " .
-	               hexstr($bytecode[5]) . ");\n");
+	               hexstr($bytecode[5]) . ")\n");
 	  }
 	  else $t_cmd = fgetc($fd);
 	} fputs($fo, "\n");
@@ -164,7 +164,7 @@ for($i = 0; $i < count($events); $i++) {
 	      for($k = 2; $k < count($bytecode); $k++)
 	        if($bytecode[$k] != 0)
 	          fputs($fo, ", {$ar_unit[$bytecode[$k]]}");
-	      fputs($fo, ");\n");
+	      fputs($fo, ")\n");
 	    }
 	    // damaged
 	    else {
@@ -176,7 +176,7 @@ for($i = 0; $i < count($events); $i++) {
 	                 "{$ar_unit[$bytecode[2]]}, " .
 	                 "{$ar_unit[$bytecode[4]]}, " .
 	                 hexstr($bytecode[3]) . ", " .
-	                 hexstr($bytecode[5]) . ");\n");
+	                 hexstr($bytecode[5]) . ")\n");
 	    }
 	  }
 	  else $t_cmd = fgetc($fd);
@@ -205,7 +205,7 @@ for($i = 0; $i < count($events); $i++) {
                      "$bytecode[6], " . 
                      "$bytecode[7], " . 
 	                 hexstr($bytecode[2]) . ", " .
-	                 hexstr($bytecode[3]) . ");\n");
+	                 hexstr($bytecode[3]) . ")\n");
 	    // radius
 	    else
           fputs($fo, "on.range(" .
@@ -217,7 +217,7 @@ for($i = 0; $i < count($events); $i++) {
 	                 hexstr($bytecode[4]) . ", " .
 	                 hexstr($bytecode[5]) . ", " .
 	                 hexstr($bytecode[6]) . ", " .
-	                 hexstr($bytecode[7]) . ");\n");
+	                 hexstr($bytecode[7]) . ")\n");
 	  }
 	  else $t_cmd = fgetc($fd);
 	} fputs($fo, "\n");
@@ -236,7 +236,7 @@ for($i = 0; $i < count($events); $i++) {
 	               "lbl_" . dechex($bytecode[4] + ($bytecode[5] << 8)) . ", " .
 	               "{$ar_team[$bytecode[1]]}, " .
 	               "$bytecode[2], " .
-	               hexstr($bytecode[3]) . ");\n");
+	               hexstr($bytecode[3]) . ")\n");
 	  }
 	  else  $t_cmd = fgetc($fd);
 	} fputs($fo, "\n");
