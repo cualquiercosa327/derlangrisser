@@ -140,14 +140,14 @@ ram.local.sum($0a47d0, $07eb5a)
 ram.local.sum($0a47d0, $07eb5b)
 ram.local.sum($0a47d0, $07eb5c)
 ram.local.sum($0a47d0, $07eb5d)
-break()
+nop()
 
 lbl_26d:
 screen.talk(HEIN_05, ERWIN_01, HEIN, FOLLOW, 17)
 // This just keeps getting worse. _NAME_!\r\n The Imperial Knights are here to kidnap Liana!\0
 screen.talk(ERWIN_01, HEIN_05, ERWIN, FOLLOW, 18)
 // Why would Rayguard go through so much trouble for just one girl ...?\r\n There is no time to think about that now. We have to hurry and help her!\0
-break()
+nop()
 
 lbl_27b:
 branch.ifdead(lbl_29b, RIDEL_7F)
@@ -173,7 +173,7 @@ screen.talk(EVANZE_80, RIDEL_7F, PRIEST_WHITE, FOLLOW, 22)
 lbl_2a5:
 ram.unit.clearbit(RIDEL_7F, $17, 0)
 ram.unit.clearbit(EVANZE_80, $17, 0)
-break()
+nop()
 
 lbl_2af:
 screen.unit.cleanup()
@@ -182,7 +182,7 @@ screen.talk(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 23)
 screen.talk(LIANA_02, ERWIN_01, LIANA, FOLLOW, 24)
 // Thank you for your offer, but please, save yourself!\0
 ram.local.sum($0a47d1, $07eb58)
-break()
+nop()
 
 lbl_2c1:
 screen.unit.cleanup()
@@ -191,7 +191,7 @@ screen.talk(HEIN_05, LIANA_02, HEIN, FOLLOW, 25)
 screen.talk(LIANA_02, HEIN_05, LIANA, FOLLOW, 26)
 // Hein! Please do not come any closer! I don't want to see you hurt ...\0
 ram.local.sum($0a47d0, $07eb5f)
-break()
+nop()
 
 lbl_2d3:
 screen.unit.cleanup()
@@ -205,7 +205,7 @@ screen.talk(BALDO_19, ERWIN_01, BALDO, FOLLOW, 28)
 screen.talk(ERWIN_01, BALDO_19, ERWIN_SAD, FOLLOW, 29)
 // Gah ... This should not have been ... possible--!\0
 branch.gameover()
-break()
+nop()
 
 lbl_2ed:
 branch.ifdead(lbl_300, HEIN_05)
@@ -220,7 +220,7 @@ screen.talk(ERWIN_01, HEIN_05, ERWIN, FOLLOW, 32)
 // If things keep going like this, Liana will surely be kidnapped!\r\n Concentrate on attacking their commanding officer, Baldo.\0
 
 lbl_306:
-break()
+nop()
 
 lbl_308:
 branch.ram.global(lbl_326, $0a4794, $07eb5d)
@@ -233,7 +233,7 @@ screen.talk(NULL_00, UP_F4, NULL, NOFOLLOW, 35)
 ram.global.sum($0a4794, $07eb5d)
 
 lbl_326:
-break()
+nop()
 
 lbl_328:
 branch.ram.global(lbl_346, $0a4792, $07eb5a)
@@ -246,18 +246,18 @@ screen.talk(NULL_00, UP_F4, NULL, FOLLOW, 38)
 ram.global.sum($0a4792, $07eb5a)
 
 lbl_346:
-break()
+nop()
 
 lbl_348:
 ram.local.sub($0a47d0, $07eb5c)
-break()
+nop()
 
 lbl_34d:
 screen.talk(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 39)
 // Argh ... Not here ...!\0
 screen.unit.cleanup()
 branch.gameover()
-break()
+nop()
 
 lbl_357:
 screen.talk(ERWIN_01, BALDO_19, ERWIN_ANGRY, NOFOLLOW, 40)
@@ -267,17 +267,17 @@ screen.talk(LIANA_02, ERWIN_01, LIANA_SAD, NOFOLLOW, 41)
 // Oh no! Stay back! Just forget about me and escape!\r\n Why should those who have nothing to do with me suffer as well?\0
 screen.talk(ERWIN_01, LIANA_02, ERWIN, NOFOLLOW, 42)
 // Wait for me! I will rescue you no matter what.\0
-break()
+nop()
 
 lbl_36e:
 screen.talk(ERWIN_01, IMPERIALCOMMANDER_2F, ERWIN_ANGRY, NOFOLLOW, 43)
 // I won't let you get away with this!\0
-break()
+nop()
 
 lbl_376:
 screen.talk(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 44)
 // Sorry, _NAME_ ... I was not strong enough. You'll have to rescue Liana alone.\0
-break()
+nop()
 
 lbl_37e:
 screen.talk(HEIN_05, LIANA_02, HEIN, NOFOLLOW, 45)
@@ -285,20 +285,20 @@ screen.talk(HEIN_05, LIANA_02, HEIN, NOFOLLOW, 45)
 screen.talk(LIANA_02, HEIN_05, LIANA_SAD, NOFOLLOW, 46)
 // No, Hein! It is too dangerous! Forget me and save yourself!\0
 branch.exec(lbl_89b)
-break()
+nop()
 
 lbl_38f:
 screen.talk(HEIN_05, IMPERIALCOMMANDER_2F, HEIN_ANGRY, NOFOLLOW, 47)
 // You damned Imperials! Get out of this village!\0
-break()
+nop()
 
 lbl_397:
 screen.unit.retreat(VILLAGER_25)
-break()
+nop()
 
 lbl_39b:
 branch.exec(lbl_8a9)
-break()
+nop()
 
 lbl_3a0:
 screen.talk(VILLAGER_25, DOWN_F5, VILLAGER_YELLOW, FOLLOW, 48)
@@ -323,7 +323,7 @@ screen.talk(VILLAGER_25, LEON_D5, VILLAGER_YELLOW, FOLLOW, 55)
 // Yes, ... Sir.\0
 
 lbl_3d7:
-break()
+nop()
 
 lbl_3d9:
 screen.talk(BALDO_19, VILLAGER_25, BALDO, NOFOLLOW, 56)
@@ -336,24 +336,24 @@ screen.talk(LAIRD_18, BALDO_19, LAIRD, NOFOLLOW, 58)
 
 lbl_3ef:
 screen.focus.set(BALDO_19)
-break()
+nop()
 
 lbl_3f5:
 screen.talk(RIDEL_7F, EVANZE_80, FIGHTER_BLACK, FOLLOW, 59)
 // Evanze, let's go!\0
 screen.talk(EVANZE_80, RIDEL_7F, PRIEST_WHITE, FOLLOW, 60)
 // Yes, it is up to us.\0
-break()
+nop()
 
 lbl_403:
 screen.talk(RIDEL_7F, RIGHT_F7, FIGHTER_BLACK, NOFOLLOW, 61)
 // I will protect this village with my life!\0
-break()
+nop()
 
 lbl_40b:
 screen.talk(RIDEL_7F, RIGHT_F7, FIGHTER_BLACK, NOFOLLOW, 62)
 // You dare attack spearmen with cavalry ...? Are you mocking me!?\0
-break()
+nop()
 
 lbl_413:
 screen.talk(RIDEL_7F, DOWN_F5, FIGHTER_BLACK_DEAD, FOLLOW, 63)
@@ -371,7 +371,7 @@ lbl_430:
 screen.unit.cleanup()
 
 lbl_431:
-break()
+nop()
 
 lbl_433:
 screen.talk(EVANZE_80, DOWN_F5, PRIEST_WHITE_DEAD, FOLLOW, 66)
@@ -394,7 +394,7 @@ screen.talk(RIDEL_7F, LEON_D5, FIGHTER_BLACK, NOFOLLOW, 72)
 branch.exec(lbl_8d5)
 
 lbl_468:
-break()
+nop()
 
 lbl_46a:
 branch.ifdead(lbl_47f, LEON_D5)
@@ -410,7 +410,7 @@ ram.unit.setbit(LEON_D5, $17, 1)
 ram.unit.setbyte(LEON_D5, $21, 0x01)
 ram.unit.setbit(LAIRD_18, $17, 1)
 ram.unit.setbyte(LAIRD_18, $21, 0x01)
-break()
+nop()
 
 lbl_491:
 screen.talk(LEON_D5, LAIRD_18, LEON, FOLLOW, 75)
@@ -418,14 +418,14 @@ screen.talk(LEON_D5, LAIRD_18, LEON, FOLLOW, 75)
 screen.talk(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 76)
 // Understood!\0
 screen.unit.showSub(LAIRD_18)
-break()
+nop()
 
 lbl_4a1:
 screen.talk(LEON_D5, DOWN_F5, LEON_DEAD, FOLLOW, 77)
 // Im, impossible!\r\n How can I, the leader of the Blue Dragon Knights, possibly lose?\0
 ram.local.sum($0a47d3, $07eb5e)
 ram.global.sum($0a4788, $07eb5a)
-break()
+nop()
 
 lbl_4af:
 screen.talk(ERWIN_01, LEON_D5, ERWIN_ANGRY, NOFOLLOW, 78)
@@ -445,11 +445,11 @@ screen.talk(LAIRD_18, ERWIN_01, LAIRD_DEAD, NOFOLLOW, 186)
 
 lbl_4d4:
 branch.exec(lbl_8a2)
-break()
+nop()
 
 lbl_4d9:
 ram.local.sub($0a47d0, $07eb5d)
-break()
+nop()
 
 lbl_4de:
 screen.talk(LAIRD_18, DOWN_F5, LAIRD, FOLLOW, 81)
@@ -460,7 +460,7 @@ screen.talk(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 83)
 // I'll pierce through their ranks with a wave-patterned attack, then target their commander.\0
 screen.talk(LEON_D5, LAIRD_18, LEON, NOFOLLOW, 84)
 // Do your best.\0
-break()
+nop()
 
 lbl_4f8:
 screen.talk(LAIRD_18, LEON_D5, LAIRD_DEAD, FOLLOW, 85)
@@ -471,7 +471,7 @@ screen.talk(LEON_D5, LAIRD_18, LEON, FOLLOW, 86)
 
 lbl_508:
 ram.global.sum($0a4788, $07eb5a)
-break()
+nop()
 
 lbl_50d:
 screen.talk(LAIRD_18, RIDEL_7F, LAIRD, NOFOLLOW, 87)
@@ -480,7 +480,7 @@ screen.talk(RIDEL_7F, LAIRD_18, FIGHTER_BLACK, NOFOLLOW, 88)
 // Oh, really ...? Then Sir, allow me to test your boast!\0
 ram.unit.clearbit(LEON_D5, $17, 1)
 ram.unit.clearbit(LEON_D5, $17, 5)
-break()
+nop()
 
 lbl_523:
 screen.talk(BALDO_19, LIANA_02, BALDO, FOLLOW, 89)
@@ -501,12 +501,12 @@ screen.talk(LIANA_02, LEON_D5, LIANA_SAD, FOLLOW, 96)
 // I understand ... Then under these conditions I will follow you.\0
 screen.talk(LEON_D5, LIANA_02, LEON, FOLLOW, 97)
 // I am sorry for all this ... Thank you for your cooperation in this matter.\0
-break()
+nop()
 
 lbl_55b:
 screen.talk(BALDO_19, LIANA_02, BALDO, FOLLOW, 98)
 // Let's go, little girl! Hurry up and follow me!\0
-break()
+nop()
 
 lbl_563:
 screen.talk(BALDO_19, DOWN_F5, BALDO, FOLLOW, 99)
@@ -516,7 +516,7 @@ screen.talk(LIANA_02, BALDO_19, LIANA_ANGRY, FOLLOW, 100)
 screen.talk(BALDO_19, LIANA_02, BALDO, FOLLOW, 101)
 // Shut up, bitch!\r\n Now that we have you under arrest, that "promise" is meaningless!\r\n Ha ha ha!\0
 ram.local.sub($0a47d0, $07eb59)
-break()
+nop()
 
 lbl_57a:
 screen.unit.cleanup()
@@ -537,7 +537,7 @@ screen.talk(RIDEL_7F, LEON_D5, FIGHTER_BLACK, FOLLOW, 107)
 // You dare to mock us!? I will make you regret ever violating our village's peace!\0
 screen.talk(LEON_D5, RIDEL_7F, LEON, FOLLOW, 108)
 // Sigh ... Such foolishness ...\0
-break()
+nop()
 
 lbl_5b2:
 screen.unit.cleanup()
@@ -559,12 +559,12 @@ ram.unit.setbyte(BALDO_19, $22, 0x0c)
 ram.unit.setbyte(BALDO_19, $23, 0x2a)
 ram.unit.setbit(VILLAGER_25, $17, 5)
 ram.local.sub($0a47d0, $07eb58)
-break()
+nop()
 
 lbl_5f5:
 screen.talk(BALDO_19, LEFT_F6, BALDO, NOFOLLOW, 112)
 // You must be stupid to pick a fight with Baldo, kid!\r\n You have no idea who you're going up against!\r\n I am going to enjoy playing with you!\0
-break()
+nop()
 
 lbl_5fd:
 screen.talk(BALDO_19, DOWN_F5, BALDO_DEAD, FOLLOW, 113)
@@ -770,7 +770,7 @@ screen.talk(LIANA_02, ERWIN_01, LIANA, NOFOLLOW, 171)
 // Umm, ... thank you ...\0
 screen.unit.move(LIANA_02, 16, 29)
 ram.nextscenario(2)
-break()
+nop()
 
 lbl_81c:
 screen.talk(IMPERIALCOMMANDER_2F, LEON_D5, SWORDSMAN1_GREEN, FOLLOW, 172)
@@ -781,7 +781,7 @@ screen.talk(IMPERIALCOMMANDER_2F, LEON_D5, SWORDSMAN1_GREEN, FOLLOW, 174)
 // Please do not let it get to you, General.\r\n For me, it's a great honour just to serve under your command.\0
 screen.talk(LEON_D5, IMPERIALCOMMANDER_2F, LEON, FOLLOW, 175)
 // I appreciate your words, but don't get careless now.\0
-break()
+nop()
 
 lbl_836:
 branch.ifdead(lbl_852, LAIRD_18)
@@ -795,19 +795,19 @@ screen.talk(IMPERIALCOMMANDER_2F, LAIRD_18, SWORDSMAN1_GREEN, FOLLOW, 179)
 // I understand.\0
 
 lbl_852:
-break()
+nop()
 
 lbl_854:
 screen.talk(IMPERIALCOMMANDER_2F, LEFT_F6, SWORDSMAN1_GREEN, NOFOLLOW, 180)
 // Let's go!\0
 ram.local.sub($0a47d0, $07eb5b)
-break()
+nop()
 
 lbl_85f:
 screen.talk(IMPERIALCOMMANDER_2F, LEFT_F6, SWORDSMAN1_GREEN, NOFOLLOW, 181)
 // I won't go down that easily!\0
 ram.local.sub($0a47d0, $07eb5b)
-break()
+nop()
 
 lbl_86a:
 screen.talk(IMPERIALCOMMANDER_2F, LEON_D5, SWORDSMAN1_GREEN_DEAD, FOLLOW, 182)
@@ -816,26 +816,26 @@ screen.unit.cleanup()
 screen.talk(LEON_D5, IMPERIALCOMMANDER_2F, LEON_SAD, FOLLOW, 183)
 // No ...! I allowed one of my subordinates to perish ...\0
 ram.local.sum($0a47d5, $07eb5b)
-break()
+nop()
 
 lbl_87c:
 screen.talk(LEON_D5, LEFT_F6, LEON, NOFOLLOW, 184)
 // You fight well! How long can you keep it up ...?\0
-break()
+nop()
 
 lbl_884:
 branch.exec(lbl_8a9)
-break()
+nop()
 
 lbl_889:
 screen.talk(BALDO_19, LEFT_F6, BALDO, NOFOLLOW, 185)
 // Shit! You impertinent asshole! I'll see you dead for that!\0
 ram.unit.clearbit(IMPERIALCOMMANDER_2F, $17, 0)
-break()
+nop()
 
 lbl_895:
 ram.unit.clearbit(IMPERIALCOMMANDER_2F, $17, 0)
-break()
+nop()
 
 lbl_89b:
 screen.talk(BALDO_19, DOWN_F5, BALDO, NOFOLLOW, 187)
@@ -903,4 +903,3 @@ screen.talk(LIANA_02, DOWN_F5, LIANA_SAD, FOLLOW, 205)
 
 lbl_92f:
 return()
-screen.focus.set(NULL_00)

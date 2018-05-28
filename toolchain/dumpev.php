@@ -241,7 +241,7 @@ for($i = 0; $i < count($events); $i++) {
 	fputs($fo, "// Core Events");
 	$t_ptr = fgetb($fd) + (fgetb($fd) << 8);
 	$pointers[] = $t_ptr;
-	while(!feof($fd)) {
+	while(ftell($fd) < filesize("resources/events/" . $events[$i])) {
 	  // Write a label for any referenced addresses
 	  if(in_array(ftell($fd), $pointers))
 	    fputs($fo, "\nlbl_" . dechex(ftell($fd)) . ":\n");

@@ -152,12 +152,12 @@ screen.unit.showSub(SCOTT_06)
 screen.unit.showSub(LIANA_02)
 ram.local.sum($0a47d0, $07eb58)
 sound.setBGM(ALLY, ALLY3)
-break()
+nop()
 
 lbl_276:
 screen.talk(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 24)
 // Can I really protect Liana ...?\0
-break()
+nop()
 
 lbl_27e:
 screen.talk(LEON_D5, UP_F4, LEON, FOLLOW, 25)
@@ -180,7 +180,7 @@ screen.talk(IMPERIALCOMMANDER_31, LAIRD_18, FIGHTER_GREEN, NOFOLLOW, 28)
 // As you command!\0
 
 lbl_2a4:
-break()
+nop()
 
 lbl_2a6:
 ram.unit.clearbit(LOREN_2B, $17, 0)
@@ -188,11 +188,11 @@ screen.talk(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 29)
 // Liana! Break through, and run for it!\0
 screen.talk(LIANA_02, ERWIN_01, LIANA, FOLLOW, 30)
 // Okay!\0
-break()
+nop()
 
 lbl_2b8:
 ram.local.sub($0a47d0, $07eb5d)
-break()
+nop()
 
 lbl_2bd:
 screen.prompt.yesno(lbl_2c8)
@@ -200,7 +200,7 @@ branch.exec(lbl_5eb)
 
 lbl_2c8:
 ram.local.sub($0a47d0, $07eb5c)
-break()
+nop()
 
 lbl_2cd:
 branch.ifdead(lbl_2d7, LAIRD_18)
@@ -208,7 +208,7 @@ screen.talk(LAIRD_18, UP_F4, LAIRD, FOLLOW, 32)
 // They're tougher than I thought! Don't let her get away!\0
 
 lbl_2d7:
-break()
+nop()
 
 lbl_2d9:
 branch.ifdead(lbl_2ed, SCOTT_06)
@@ -219,6 +219,6 @@ screen.talk(HEIN_05, SCOTT_06, HEIN, FOLLOW, 34)
 // Of course! You won't find me a fool when it comes to support magic.\0
 
 lbl_2ed:
-break()
+nop()
 
 lbl_2ef:
