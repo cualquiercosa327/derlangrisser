@@ -101,13 +101,13 @@ for($i = 0; $i < count($events); $i++) {
 	// Movement Hooks
 	// uint_8[priority] uint_8[unit] uint_8[turn] uint_8[unk1] uint_16[jump]
 	fputs($fo, "# Movement-Triggered Events:\n" .
-	           "# event.move(priority, goto, unit, turn, unk1)\n");
+	           "# on.move(priority, goto, unit, turn, unk1)\n");
 	while(ftell($fd) < $section[1]) {
 	  $t_cmd = fgetb($fd);
 	  if($t_cmd != 255) {
 	    $bytecode = array($t_cmd, fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd));
 	    $pointers[] = $bytecode[4] + ($bytecode[5] << 8);
-	    fputs($fo, "event.move(" .
+	    fputs($fo, "on.move(" .
 	               "$bytecode[0], " .
 	               "lbl_" . dechex($bytecode[4] + ($bytecode[5] << 8)) . ", " .
 	               "{$ar_unit[$bytecode[1]]}, " .
@@ -120,13 +120,13 @@ for($i = 0; $i < count($events); $i++) {
 	// Attack Hooks
 	// uint_8[priority] uint_8[attacker] uint_8[unk1] uint_8[reciever] uint_8[unk2] uint_8[unk3] uint_16[jump]
 	fputs($fo, "# Attack-Triggered Events:\n" .
-	           "# event.attack(priority, goto, attacker, defender, unk1, unk2, unk3)\n");
+	           "# on.attack(priority, goto, attacker, defender, unk1, unk2, unk3)\n");
 	while(ftell($fd) < $section[2]) {
 	  $t_cmd = fgetb($fd);
 	  if($t_cmd != 255) {
 	    $bytecode = array($t_cmd, fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd));
 	    $pointers[] = $bytecode[6] + ($bytecode[7] << 8);
-	    fputs($fo, "event.attack(" .
+	    fputs($fo, "on.attack(" .
 	               "$bytecode[0], " .
 	               "lbl_" . dechex($bytecode[6] + ($bytecode[7] << 8)) . ", " .
 	               "{$ar_unit[$bytecode[1]]}, " .
@@ -143,8 +143,8 @@ for($i = 0; $i < count($events); $i++) {
 	// or
 	// uint_8[priority] uint_8[0xff] uint_8[attacker] uint_8[unk1] uint_8[defender] uint_8[unk2] uint_16[jump]
 	fputs($fo, "# Damage-Triggered Events:\n" .
-	           "# event.defeat(priority, goto, unit, ...)\n" .
-               "# event.damage(priority, goto, attacker, defender, unk1, unk2)\n");
+	           "# on.defeat(priority, goto, unit, ...)\n" .
+               "# on.damage(priority, goto, attacker, defender, unk1, unk2)\n");
 	while(ftell($fd) < $section[3]) {
 	  $t_cmd = fgetb($fd);
 	  if($t_cmd != 255) {
@@ -157,7 +157,7 @@ for($i = 0; $i < count($events); $i++) {
 	      // Grab the goto address
 	      $t_ptr = fgetb($fd) + (fgetb($fd) << 8);
 	      $pointers[] = $t_ptr;
-          fputs($fo, "event.defeat(" .
+          fputs($fo, "on.defeat(" .
 	                 "$bytecode[0], " .
 	                 "lbl_" . dechex($t_ptr));
 	      // Print out all the units
@@ -170,7 +170,7 @@ for($i = 0; $i < count($events); $i++) {
 	    else {
 	      $bytecode = array($t_cmd, $t_cmd2, fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd));
 	      $pointers[] = $bytecode[6] + ($bytecode[7] << 8);
-          fputs($fo, "event.damage(" .
+          fputs($fo, "on.damage(" .
                      "$bytecode[0], " .
 	                 "lbl_" . dechex($bytecode[6] + ($bytecode[7] << 8)) . ", " .
 	                 "{$ar_unit[$bytecode[2]]}, " .
@@ -187,8 +187,8 @@ for($i = 0; $i < count($events); $i++) {
     // or
     // uint_8[priority] uint_8[unit] uint_8[unk1] uint_8[unk2] uint_8[x1] uint_8[y1] uint_8[x2] uint_8[y2] uint_16[jump]
 	fputs($fo, "# Position-Triggered Events:\n" .
-	           "# event.box(priority, goto, unit, unit, radius, unk1, unk2, unk3, unk4)\n" .
-               "# event.radius(priority, goto, unit, x1, y1, x2, y2, unk1, unk2)\n");
+	           "# on.bound(priority, goto, unit, unit, radius, unk1, unk2, unk3, unk4)\n" .
+               "# on.range(priority, goto, unit, x1, y1, x2, y2, unk1, unk2)\n");
 	while(ftell($fd) < $section[4]) {
 	  $t_cmd = fgetb($fd);
 	  if($t_cmd != 255) {
@@ -196,7 +196,7 @@ for($i = 0; $i < count($events); $i++) {
 	    $pointers[] = $bytecode[8] + ($bytecode[9] << 8);
         // box
 	    if($bytecode[2] == 0 && $bytecode[3] == 0 )
-          fputs($fo, "event.box(" .
+          fputs($fo, "on.bound(" .
                      "$bytecode[0], " .
 	                 "lbl_" . dechex($bytecode[8] + ($bytecode[9] << 8)) . ", " .
                      "{$ar_unit[$bytecode[1]]}, " .
@@ -208,7 +208,7 @@ for($i = 0; $i < count($events); $i++) {
 	                 hexstr($bytecode[3]) . ");\n");
 	    // radius
 	    else
-          fputs($fo, "event.radius(" .
+          fputs($fo, "on.range(" .
                      "$bytecode[0], " .
 	                 "lbl_" . dechex($bytecode[8] + ($bytecode[9] << 8)) . ", " .
 	                 "{$ar_unit[$bytecode[1]]}, " .
@@ -225,13 +225,13 @@ for($i = 0; $i < count($events); $i++) {
 	// Turn Hooks
 	// uint_8[priority] uint_8[team] uint_8[turn] uint_8[unk1] uint_16[jump]
 	fputs($fo, "# Turn-Triggered Events\n" .
-	           "# event.turn(priority, goto, team, turn, unk1)\n");
+	           "# on.turn(priority, goto, team, turn, unk1)\n");
 	while(ftell($fd) < $section[5]) {
 	  $t_cmd = ord(fgetc($fd));
 	  if($t_cmd != 255) {
 	    $bytecode = array($t_cmd, fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd));
 	    $pointers[] = $bytecode[4] + ($bytecode[5] << 8);
-	    fputs($fo, "event.turn(" .
+	    fputs($fo, "on.turn(" .
                    "$bytecode[0], " .
 	               "lbl_" . dechex($bytecode[4] + ($bytecode[5] << 8)) . ", " .
 	               "{$ar_team[$bytecode[1]]}, " .
