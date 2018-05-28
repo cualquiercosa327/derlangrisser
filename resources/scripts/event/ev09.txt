@@ -1,0 +1,224 @@
+// Movement-Triggered Events:
+// event.move.addHook(priority, goto, unit, turn, unk1)
+event.move.addHook(24, lbl_3f7, SCOTT_06, 0, 0xff);
+event.move.addHook(27, lbl_40f, LOREN_2B, 2, 0xff);
+event.move.addHook(0, lbl_417, LOREN_2B, 0, 0xff);
+event.move.addHook(30, lbl_46c, ROHGA_0B, 0, 0xff);
+event.move.addHook(34, lbl_48d, LEON_D5, 1, 0xff);
+event.move.addHook(37, lbl_4e0, LAIRD_18, 1, 0xff);
+
+// Attack-Triggered Events:
+// event.attack.addHook(priority, goto, attacker, defender, unk1, unk2, unk3)
+event.attack.addHook(18, lbl_3a9, ERWIN_01, LAIRD_18, 0x00, 0xff, 0xff);
+event.attack.addHook(19, lbl_3b1, ERWIN_01, LAIRD_18, 0x00, 0x00, 0xff);
+event.attack.addHook(25, lbl_3ff, SCOTT_06, NULL_FF, 0x00, 0xff, 0xff);
+event.attack.addHook(28, lbl_438, LOREN_2B, NULL_FF, 0x00, 0xff, 0xff);
+event.attack.addHook(31, lbl_47a, NULL_FF, ROHGA_0B, 0xff, 0x00, 0xff);
+event.attack.addHook(36, lbl_4d8, NULL_FF, LEON_D5, 0xff, 0x00, 0xff);
+event.attack.addHook(39, lbl_55b, IMPERIALCOMMANDER_2F, NULL_FF, 0x00, 0xff, 0xff);
+
+// Damage-Triggered Events:
+// event.defeat.addHook(priority, goto, unit, ...)
+// event.damage.addHook(priority, goto, attacker, defender, unk1, unk2)
+event.defeat.addHook(20, lbl_3bf, ERWIN_01);
+event.defeat.addHook(21, lbl_3c9, HEIN_05);
+event.defeat.addHook(23, lbl_3d4, LIANA_02);
+event.defeat.addHook(26, lbl_407, SCOTT_06);
+event.defeat.addHook(29, lbl_440, LOREN_2B);
+event.defeat.addHook(32, lbl_482, ROHGA_0B);
+event.defeat.addHook(35, lbl_4d0, LEON_D5);
+event.defeat.addHook(38, lbl_500, LAIRD_18);
+event.defeat.addHook(40, lbl_563, IMPERIALCOMMANDER_2F);
+event.defeat.addHook(41, lbl_56b, IMPERIALCOMMANDER_30);
+event.defeat.addHook(42, lbl_573, IMPERIALCOMMANDER_31);
+event.defeat.addHook(43, lbl_57b, IMPERIALCOMMANDER_32);
+event.defeat.addHook(44, lbl_583, IMPERIALCOMMANDER_33);
+event.defeat.addHook(45, lbl_58b, IMPERIALCOMMANDER_34);
+event.defeat.addHook(46, lbl_593, IMPERIALCOMMANDER_35);
+event.defeat.addHook(9, lbl_59b, IMPERIALCOMMANDER_2F, IMPERIALCOMMANDER_30);
+event.defeat.addHook(11, lbl_5a7, IMPERIALCOMMANDER_2F, IMPERIALCOMMANDER_30, IMPERIALCOMMANDER_31, IMPERIALCOMMANDER_32);
+event.defeat.addHook(47, lbl_5b4, IMPERIALCOMMANDER_2F, IMPERIALCOMMANDER_30, IMPERIALCOMMANDER_31, IMPERIALCOMMANDER_32, IMPERIALCOMMANDER_33, IMPERIALCOMMANDER_34);
+event.damage.addHook(22, lbl_5c9, NULL_FF, HEIN_05, 0xff, 0x00);
+event.damage.addHook(48, lbl_5d1, NULL_FF, LIANA_02, 0xff, 0x00);
+
+// Position-Triggered Events:
+// event.box.addHook(priority, goto, unit, unit, radius, unk1, unk2, unk3, unk4)
+// event.radius.addHook(priority, goto, unit, x1, y1, x2, y2, unk1, unk2)
+event.box.addHook(8, lbl_2ef, NPC_SUBUNIT_F1, 1, 10, 25, 22, 0x00, 0x00);
+event.box.addHook(10, lbl_2fb, NPC_SUBUNIT_F1, 1, 1, 25, 14, 0x00, 0x00);
+event.box.addHook(12, lbl_308, LIANA_02, 1, 1, 25, 1, 0x00, 0x00);
+event.box.addHook(14, lbl_336, SCOTT_06, 1, 15, 25, 19, 0x00, 0x00);
+event.box.addHook(14, lbl_342, LIANA_CA, 1, 15, 25, 19, 0x00, 0x00);
+event.box.addHook(14, lbl_34e, HEIN_05, 1, 15, 25, 19, 0x00, 0x00);
+event.box.addHook(15, lbl_35a, ERWIN_01, 1, 15, 25, 19, 0x00, 0x00);
+event.box.addHook(16, lbl_36c, NPC_COMMANDER_F0, 4, 4, 4, 4, 0x00, 0x00);
+event.box.addHook(17, lbl_38c, NPC_COMMANDER_F0, 21, 30, 21, 30, 0x00, 0x00);
+
+// Turn-Triggered Events
+// event.turn.addHook(priority, goto, team, turn, unk1)
+event.turn.addHook(1, lbl_276, ALLY, 1, 0x00);
+event.turn.addHook(2, lbl_27e, ENEMY, 1, 0x00);
+event.turn.addHook(3, lbl_2a6, ALLY, 2, 0x00);
+event.turn.addHook(4, lbl_2b8, ALLY, 0, 0x00);
+event.turn.addHook(5, lbl_2bd, ALLY, 0, 0x00);
+event.turn.addHook(6, lbl_2cd, ENEMY, 5, 0x00);
+event.turn.addHook(7, lbl_2d9, ALLY, 3, 0x00);
+
+// Core Events
+lbl_17a:
+screen.focus.set(10, 42, FAST)
+
+lbl_17e:
+sound.setBGM(ALLY, ALLY1)
+screen.cursor.set(NULL_00)
+screen.unit.hide(IMPERIALCOMMANDER_31, COMMANDER)
+screen.unit.hide(IMPERIALCOMMANDER_32, COMMANDER)
+screen.unit.hide(IMPERIALCOMMANDER_33, COMMANDER)
+screen.unit.hide(IMPERIALCOMMANDER_34, COMMANDER)
+screen.unit.position(ERWIN_01, 255, 255)
+screen.unit.position(HEIN_05, 255, 255)
+screen.unit.position(SCOTT_06, 255, 255)
+screen.unit.position(LIANA_02, 255, 255)
+screen.unit.position(LOREN_2B, 255, 255)
+screen.fadeIn(4)
+screen.cursor.set(ERWIN_01)
+screen.talk(LOREN_2B, UP_F4, LOREN, FOLLOW, 1)
+// You must find stronger allies to offer protection.\r\n Though I am Lord of Salrath, even my forces cannot stand against the Rayguard Empire.\0
+screen.talk(SCOTT_06, DOWN_F5, SCOTT, FOLLOW, 2)
+// To pursue Liana, the Empire must have some special plans for her.\r\n Recently, it has been invading every neighbouring kingdom that does not submit to the Kaiser's will ...\0
+screen.talk(LOREN_2B, UP_F4, LOREN, FOLLOW, 3)
+// Indeed ... There must be more to their ambitions than first apparent.\r\n Perhaps, if Liana were guarded within Estool's Shrine of Light, their efforts would be stymied.\0
+screen.talk(HEIN_05, DOWN_F5, HEIN, FOLLOW, 4)
+// You're right! The great shrine priest can surely help us.\0
+screen.talk(LIANA_02, ERWIN_01, LIANA_SAD, FOLLOW, 5)
+// I'm sorry, everyone. It seems I become an ever greater burden.\0
+screen.talk(HEIN_05, LIANA_02, HEIN, FOLLOW, 6)
+// Please don't think like that. It's not your fault.\r\n The journey to Estool is far too dangerous for you to undertake alone, Liana.\0
+screen.talk(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 7)
+// I'm more and more curious as to why the Empire is after you ...\r\n And with that purpose, it appears my "aimless journey" is no longer so aimless.\0
+screen.talk(LIANA_02, ERWIN_01, LIANA, FOLLOW, 8)
+// Everyone, ... thank you so much.\0
+screen.talk(SCOTT_06, LOREN_2B, SCOTT, FOLLOW, 9)
+// Well then, father, I shall take leave of you now.\0
+screen.talk(LOREN_2B, SCOTT_06, LOREN, FOLLOW, 10)
+// This is a great opportunity for you to apply your education, young Scott.\r\n Study well, and use what I have taught you to aid _NAME_ and his companions.\0
+screen.talk(LOREN_2B, ERWIN_01, LOREN, FOLLOW, 11)
+// _NAME_, I entrust you with Liana's safety.\r\n Scott, please look after her on the road to Estool.\0
+screen.talk(SCOTT_06, LOREN_2B, SCOTT, NOFOLLOW, 12)
+// As you order, father.\0
+screen.talk(HEIN_05, UP_F4, HEIN, FOLLOW, 13)
+// All right! Let's be off!\0
+screen.talk(LOREN_2B, DOWN_F5, LOREN, FOLLOW, 14)
+// What the ...!? It seems we have some unexpected guests ...\0
+screen.unit.face(HEIN_05, DOWN_F5)
+screen.unit.face(ERWIN_01, DOWN_F5)
+screen.unit.face(SCOTT_06, DOWN_F5)
+screen.unit.face(LIANA_02, DOWN_F5)
+screen.cursor.set(ERWIN_01)
+screen.focus.set(15, 41, SLOW)
+sound.setBGM(ALLY, ENEMY1_LEON)
+screen.unit.position(IMPERIALCOMMANDER_2F, 255, 255)
+screen.unit.showSub(IMPERIALCOMMANDER_2F)
+screen.unit.position(IMPERIALCOMMANDER_30, 255, 255)
+screen.unit.showSub(IMPERIALCOMMANDER_30)
+screen.unit.position(LEON_D5, 255, 255)
+screen.unit.showSub(LEON_D5)
+screen.unit.position(LAIRD_18, 255, 255)
+screen.unit.showSub(LAIRD_18)
+screen.talk(LAIRD_18, LIANA_02, LAIRD, FOLLOW, 15)
+// There they are! Their progress was even slower than anticipated.\0
+screen.talk(ERWIN_01, LAIRD_18, ERWIN_ANGRY, FOLLOW, 16)
+// What ...? It's the Blue Dragon Knights!\0
+screen.talk(LEON_D5, ERWIN_01, LEON, FOLLOW, 17)
+// We, the Blue Dragon Knights, are charged with obtaining custody of Lady Liana.\r\n By edict of the Kaiser, if you value your lives, do not interfere in our mission!\0
+screen.talk(LIANA_02, LEON_D5, LIANA, FOLLOW, 18)
+// ...\0
+screen.talk(HEIN_05, LIANA_02, HEIN_ANGRY, FOLLOW, 19)
+// Liana! Pay them no mind!\0
+screen.unit.face(HEIN_05, DOWN_F5)
+screen.talk(SCOTT_06, LIANA_02, SCOTT_ANGRY, FOLLOW, 20)
+// Hein is right!\r\n There's no reason for you to acquiesce to the demands of those Imperials!\0
+screen.unit.face(SCOTT_06, DOWN_F5)
+screen.talk(LOREN_2B, LAIRD_18, LOREN, FOLLOW, 21)
+// Knights of the Empire, you are trespassers in my territory!\r\n Your forces have no business intervening here. Leave the way you came!\0
+screen.talk(LAIRD_18, LOREN_2B, LAIRD, FOLLOW, 22)
+// I'm afraid we cannot do that, Lord Loren.\r\n You leave us no choice! Knights, we will take Liana by force!\0
+screen.talk(LOREN_2B, ERWIN_01, LOREN, FOLLOW, 23)
+// _NAME_, I will stay here and cut off their path.\r\n Take Lady Liana north along this road. It leads to Estool.\r\n Do not worry about me! You can't waste any more time. I don't know how long I can hold them off, so hurry!\0
+screen.unit.showSub(LOREN_2B)
+screen.unit.showSub(ERWIN_01)
+screen.unit.showSub(HEIN_05)
+screen.unit.showSub(SCOTT_06)
+screen.unit.showSub(LIANA_02)
+ram.local.sum($0a47d0, $07eb58)
+sound.setBGM(ALLY, ALLY3)
+break()
+
+lbl_276:
+screen.talk(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 24)
+// Can I really protect Liana ...?\0
+break()
+
+lbl_27e:
+screen.talk(LEON_D5, UP_F4, LEON, FOLLOW, 25)
+// I will take care of their commander. The rest of you, after the girl!\0
+branch.ifdead(lbl_291, IMPERIALCOMMANDER_2F)
+screen.talk(IMPERIALCOMMANDER_2F, LAIRD_18, SWORDSMAN1_GREEN, FOLLOW, 26)
+// Yes, Sir!\0
+branch.goto(lbl_2a4)
+
+lbl_291:
+branch.ifdead(lbl_29e, IMPERIALCOMMANDER_30)
+screen.talk(IMPERIALCOMMANDER_30, LAIRD_18, SWORDSMAN1_GREEN, FOLLOW, 27)
+// Understood!\0
+
+lbl_29b:
+branch.goto(lbl_2a4)
+
+lbl_29e:
+screen.talk(IMPERIALCOMMANDER_31, LAIRD_18, FIGHTER_GREEN, NOFOLLOW, 28)
+// As you command!\0
+
+lbl_2a4:
+break()
+
+lbl_2a6:
+ram.unit.clearbit(LOREN_2B, $17, 0)
+screen.talk(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 29)
+// Liana! Break through, and run for it!\0
+screen.talk(LIANA_02, ERWIN_01, LIANA, FOLLOW, 30)
+// Okay!\0
+break()
+
+lbl_2b8:
+ram.local.sub($0a47d0, $07eb5d)
+break()
+
+lbl_2bd:
+screen.prompt.yesno(lbl_2c8)
+branch.exec(lbl_5eb)
+
+lbl_2c8:
+ram.local.sub($0a47d0, $07eb5c)
+break()
+
+lbl_2cd:
+branch.ifdead(lbl_2d7, LAIRD_18)
+screen.talk(LAIRD_18, UP_F4, LAIRD, FOLLOW, 32)
+// They're tougher than I thought! Don't let her get away!\0
+
+lbl_2d7:
+break()
+
+lbl_2d9:
+branch.ifdead(lbl_2ed, SCOTT_06)
+branch.ifdead(lbl_2ed, HEIN_05)
+screen.talk(SCOTT_06, RIGHT_F7, SCOTT, FOLLOW, 33)
+// Hein, have you learnt the spell Attack?\r\n It can increase the attack power of one of your hired units for one turn.\0
+screen.talk(HEIN_05, SCOTT_06, HEIN, FOLLOW, 34)
+// Of course! You won't find me a fool when it comes to support magic.\0
+
+lbl_2ed:
+break()
+
+lbl_2ef:

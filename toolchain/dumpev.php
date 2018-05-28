@@ -259,7 +259,7 @@ for($i = 0; $i < count($events); $i++) {
 	        $t_visible = fgetb($fd);
 	        $t_null = fgetb($fd);
 	        fputs($fo, "screen.cusor.visible(" . 
-	                   ($t_visible == 0 ? "TRUE" : "FALSE") . ");\n");
+	                   ($t_visible == 0 ? "TRUE" : "FALSE") . ")\n");
 	      }
 	      else if($t_code == 0xfe) {
 	        $t_x = fgetb($fd);
@@ -267,7 +267,7 @@ for($i = 0; $i < count($events); $i++) {
 	        fputs($fo, "screen.focus.set(" .
 	                   "$t_x, " .
 	                   "$t_y, " .
-	                   "FAST);\n");
+	                   "FAST)\n");
 	      }
 	      else if($t_code == 0xff) {
 	        $t_x = fgetb($fd);
@@ -275,13 +275,13 @@ for($i = 0; $i < count($events); $i++) {
 	        fputs($fo, "screen.focus.set(" .
 	                   "$t_x, " .
 	                   "$t_y, " .
-	                   "SLOW);\n");
+	                   "SLOW)\n");
 	      }
 	      else {
 	        $t_null = fgetb($fd);
 	        $t_null = fgetb($fd);
 	        fputs($fo, "screen.focus.set(" .
-	                   "{$ar_unit[$t_code]});\n");
+	                   "{$ar_unit[$t_code]})\n");
 	      }
 	      break;
 	    
@@ -299,12 +299,12 @@ for($i = 0; $i < count($events); $i++) {
 	                 "{$ar_unit[$t_target]}, " .
 	                 "{$ar_portrait[$t_portrait]}, " .
 	                 ($t_focus == 0 ? "NOFOLLOW" : "FOLLOW") . ", " .
-	                 "$t_line);\n");
+	                 "$t_line)\n");
 	      fputs($fo, "// " . sctxt($ar_talk[$t_line - 1]) . "\\0\n");
 	      break;
 	    
-	    // IsDead Conditional Jump
-	    // if.isDead(goto, unit)
+	    // ifDead Conditional Jump
+	    // branch.ifdead(goto, unit)
 	    // uint_8[0x04] uint_8[unit] uint_16[goto]
 	    case 0x04:
 	      $t_unit = fgetb($fd);
@@ -312,7 +312,19 @@ for($i = 0; $i < count($events); $i++) {
 	      $pointers[] = $t_goto;
 	      fputs($fo, "branch.ifdead(" .
 	                 "lbl_" . dechex($t_goto) . ", " .
-	                 "{$ar_unit[$t_unit]});\n");
+	                 "{$ar_unit[$t_unit]})\n");
+	      break;
+	    
+	    // ifAlive Conditional Jump
+	    // branch.ifalive(goto, unit)
+	    // uint_8[0x04] uint_8[unit] uint_16[goto]
+	    case 0x05:
+	      $t_unit = fgetb($fd);
+	      $t_goto = fgetb($fd) + (fgetb($fd) << 8);
+	      $pointers[] = $t_goto;
+	      fputs($fo, "branch.ifalive(" .
+	                 "lbl_" . dechex($t_goto) . ", " .
+	                 "{$ar_unit[$t_unit]})\n");
 	      break;
 	    
 	    // Local RAM Add/Sub
@@ -327,11 +339,11 @@ for($i = 0; $i < count($events); $i++) {
 	      if($t_action == 0)
 	        fputs($fo, "ram.local.sum(" .
 	                   memstr(0xa47d0 + $t_upper) . ", " .
-	                   memstr(0x7eb58 + $t_lower) . ");\n");
+	                   memstr(0x7eb58 + $t_lower) . ")\n");
 	      else if($t_action == 255)
 	        fputs($fo, "ram.local.sub(" .
 	                   memstr(0xa47d0 + $t_upper) . ", " .
-	                   memstr(0x7eb58 + $t_lower) . ");\n");
+	                   memstr(0x7eb58 + $t_lower) . ")\n");
 	      else
 	        fputs($fo, "ram.local.sub(UNHANDLED EVAL: $t_value)");
 	      break;
@@ -348,7 +360,7 @@ for($i = 0; $i < count($events); $i++) {
 	      fputs($fo, "branch.ram.global(" .
 	                 "lbl_" . dechex($t_goto) . ", " .
 	                 memstr(0xa4788 + $t_upper) . ", " .
-	                 memstr(0x7eb58 + $t_lower) . ");\n");
+	                 memstr(0x7eb58 + $t_lower) . ")\n");
 	      break;
 	    
 	    // Global RAM Add/Sub
@@ -363,13 +375,13 @@ for($i = 0; $i < count($events); $i++) {
 	      if($t_action == 0)
 	        fputs($fo, "ram.global.sum(" .
 	                   memstr(0xa4788 + $t_upper) . ", " .
-	                   memstr(0x7eb58 + $t_lower) . ");\n");
+	                   memstr(0x7eb58 + $t_lower) . ")\n");
 	      else if($t_action == 255)
 	        fputs($fo, "ram.global.sub(" .
 	                   memstr(0xa4788 + $t_upper) . ", " .
-	                   memstr(0x7eb58 + $t_lower) . ");\n");
+	                   memstr(0x7eb58 + $t_lower) . ")\n");
 	      else
-	        fputs($fo, "ram.global.sub(UNHANDLED EVAL: $t_value)");
+	        fputs($fo, "ram.global.sub(UNHANDLED EVAL: $t_value)\n");
 	      break;
 	    
 	    // Change Music
@@ -380,7 +392,42 @@ for($i = 0; $i < count($events); $i++) {
 	      $t_track = fgetb($fd);
 	      fputs($fo, "sound.setBGM(" .
 	                 "$ar_team[$t_team], " .
-	                 "$ar_bgm[$t_track]);\n");
+	                 "$ar_bgm[$t_track])\n");
+	      break;
+	    
+	    // Deploy
+	    // screen.unit.deploy(unit, x, y)
+	    // uint_8[0x0e] uint_8[unit] uint_8[x] uint_8[y]
+	    case 0x0d:
+	      $t_unit = fgetb($fd);
+	      $t_x = fgetb($fd);
+	      $t_y = fgetb($fd);
+	      fputs($fo, "screen.unit.deploy(" .
+	                 "$ar_unit[$t_unit], " .
+	                 "$t_x, " .
+	                 "$t_y)\n");
+	      break;
+	    
+	    // Retreat
+	    // screen.unit.retreat(unit)
+	    // uint_8[0x0e] uint_8[unit]
+	    case 0x0e:
+	      $t_unit = fgetb($fd);
+	      fputs($fo, "screen.unit.retreat(" .
+	                 "$ar_unit[$t_unit])\n");
+	      break;
+	    
+	    // Set Unit Byte
+	    // ram.unit.setbyte(unit, position, byte)
+	    // uint_8[0x10] uint_8[unit] uint_8[position] uint_8[byte]
+	    case 0x10:
+	      $t_unit = fgetb($fd);
+	      $t_position = fgetb($fd);
+	      $t_byte = fgetb($fd);
+	      fputs($fo, "ram.unit.setbyte(" .
+	                 "$ar_unit[$t_unit], " .
+	                 memstr($t_position) . ", " .
+	                 hexstr($t_byte) . ")\n");
 	      break;
 	    
 	    // Set Unit Bit
@@ -393,7 +440,7 @@ for($i = 0; $i < count($events); $i++) {
 	      fputs($fo, "ram.unit.setbit(" .
 	                 "$ar_unit[$t_unit], " .
 	                 memstr($t_position) . ", " .
-	                 "$t_bit);\n");
+	                 "$t_bit)\n");
 	      break;
 	    
 	    // Clear Unit Bit
@@ -406,21 +453,29 @@ for($i = 0; $i < count($events); $i++) {
 	      fputs($fo, "ram.unit.clearbit(" .
 	                 "$ar_unit[$t_unit], " .
 	                 memstr($t_position) . ", " .
-	                 "$t_bit);\n");
+	                 "$t_bit)\n");
 	      break;
 	    
 	    // Clean Dead Units
 	    // screen.unit.cleanup()
 	    // uint_8[0x13]
 	    case 0x13:
-	      fputs($fo, "screen.unit.cleanup();\n");
+	      fputs($fo, "screen.unit.cleanup()\n");
+	      break;
+	    
+	    // Set Next Scenario
+	    // ram.nextscenario()
+	    // uint_8[0x14] uint_8[scenario]
+	    case 0x14:
+	      fputs($fo, "ram.nextscenario(" .
+	                 fgetb($fd) . ")\n");
 	      break;
 	    
 	    // Game Over
 	    // branch.gameover()
 	    // uint_8[0x15]
 	    case 0x15:
-	      fputs($fo, "branch.gameover();\n");
+	      fputs($fo, "branch.gameover()\n");
 	      break;
 	    
 	    // Goto
@@ -430,7 +485,24 @@ for($i = 0; $i < count($events); $i++) {
 	      $t_goto = fgetb($fd) + (fgetb($fd) << 8);
 	      $pointers[] = $t_goto;
 	      fputs($fo, "branch.goto(" .
-	                 "lbl_" . dechex($t_goto) . ");\n");
+	                 "lbl_" . dechex($t_goto) . ")\n");
+	      break;
+	    
+	    // Subroutine
+	    // branch.exec(goto)
+	    // uint_8[0x17] uint_16[goto]
+	    case 0x17:
+	      $t_goto = fgetb($fd) + (fgetb($fd) << 8);
+	      $pointers[] = $t_goto;
+	      fputs($fo, "branch.exec(" .
+	                 "lbl_" . dechex($t_goto) . ")\n");
+	      break;
+	    
+	    // End Subroutine
+	    // return()
+	    // uint_8[0x18]
+	    case 0x18:
+	      fputs($fo, "return()\n");
 	      break;
 	    
 	    // Prompt Yes/No
@@ -441,7 +513,7 @@ for($i = 0; $i < count($events); $i++) {
 	      $t_goto = fgetb($fd) + (fgetb($fd) << 8);
 	      $pointers[] = $t_goto;
 	      fputs($fo, "screen.prompt.yesno(" .
-	                 "lbl_" . dechex($t_goto) . ");\n");
+	                 "lbl_" . dechex($t_goto) . ")\n");
 	      break;
 	    
 	    // Deploy Unit
@@ -449,7 +521,15 @@ for($i = 0; $i < count($events); $i++) {
 	    // uint_8[0x1e] uint_8[unit]
 	    case 0x1e:
 	      fputs($fo, "screen.unit.showSub(" .
-	                 $ar_unit[fgetb($fd)] . ");\n");
+	                 $ar_unit[fgetb($fd)] . ")\n");
+	      break;
+	    
+	    // Fade Out
+	    // screen.fadeOut(time)
+	    // unit_8[0x38] uint_8[time]
+	    case 0x32:
+	      fputs($fo, "screen.fadeOut(" .
+	                 fgetb($fd) . ")\n");
 	      break;
 	    
 	    // Position Unit
@@ -462,7 +542,7 @@ for($i = 0; $i < count($events); $i++) {
 	      fputs($fo, "screen.unit.position(" .
 	                 "$ar_unit[$t_unit], " .
 	                 "$t_x, " .
-	                 "$t_y);\n");
+	                 "$t_y)\n");
 	      break;
 	    
 	    // Hide Unit
@@ -471,7 +551,7 @@ for($i = 0; $i < count($events); $i++) {
 	    case 0x37:
 	      fputs($fo, "screen.unit.hide(" .
 	                 $ar_unit[fgetb($fd)] . ", " .
-	                 $ar_target[fgetb($fd)] . ");\n");
+	                 $ar_target[fgetb($fd)] . ")\n");
 	      break;
 	    
 	    // Fade In
@@ -479,15 +559,22 @@ for($i = 0; $i < count($events); $i++) {
 	    // unit_8[0x38] uint_8[time]
 	    case 0x38:
 	      fputs($fo, "screen.fadeIn(" .
-	                 fgetb($fd) . ");\n");
+	                 fgetb($fd) . ")\n");
 	      break;
+
+        // Hide All Characters
+        // screen.hideAllUnits()
+        // uint_8[0x39]
+        case 0x39:
+          fputs($fo, "screen.hideAllUnits()\n");
+          break;
 
 	    // Move Cusor to Commander
 	    // screen.cusor.set(commander)
 	    // uint_8[0x3d] uint_8[commander]
 	    case 0x3d:
 	      fputs($fo, "screen.cursor.set(" .
-	                 $ar_unit[fgetb($fd)] . ");\n");
+	                 $ar_unit[fgetb($fd)] . ")\n");
 	      break;
 	    
 	    // Face Unit
@@ -496,7 +583,7 @@ for($i = 0; $i < count($events); $i++) {
 	    case 0x3e:
 	      fputs($fo, "screen.unit.face(" .
 	                 $ar_unit[fgetb($fd)] . ", " .
-	                 $ar_unit[fgetb($fd)] . ");\n");
+	                 $ar_unit[fgetb($fd)] . ")\n");
 	      break;
 	    
 	    // Move Unit
@@ -506,7 +593,45 @@ for($i = 0; $i < count($events); $i++) {
 	      fputs($fo, "screen.unit.move(" .
 	                 $ar_unit[fgetb($fd)] . ", " .
 	                 fgetb($fd) . ", " .
-	                 fgetb($fd) . ");\n");
+	                 fgetb($fd) . ")\n");
+	      break;
+	    
+	    // Set Mask
+	    // screen.mask(r, g, b)
+	    // uint_8[0x42] uint_8[b] uint_8[g] uint_8[r]
+	    case 0x42:
+	      $t_b = fgetb($fd);
+	      $t_g = fgetb($fd);
+	      $t_r = fgetb($fd);
+	      fputs($fo, "screen.mask(" .
+	                 "$t_r, " .
+	                 "$t_g, " .
+	                 "$t_b)\n");
+	      break;
+	    
+	    // Set Map
+	    // screen.map(map)
+	    // uint_8[0x47] uint_8[map]
+	    case 0x47:
+	      fputs($fo, "screen.map(" .
+	                 fgetb($fd) . ")\n");
+	      break;
+	    
+	    // Receive Money
+	    // ram.money.add(money)
+	    // uint_8[0x4e] uint_16[money]
+	    case 0x4e:
+	      // Game money's lowest increment is 10
+	      $t_money = (fgetb($fd) + (fgetb($fd) << 8)) * 10;
+	      fputs($fo, "ram.money.add(" .
+	                 "$t_money)\n");
+	      break;
+	    
+	    // Scenario Clear
+	    // scenario.clear()
+	    // uint_8[0x4f]
+	    case 0x4f:
+	      fputs($fo, "scenario.clear()\n");
 	      break;
 	    
 	    // Raise Stat
@@ -515,16 +640,18 @@ for($i = 0; $i < count($events); $i++) {
 	    case 0x40:
 	      fputs($fo, "screen.unit.raisestat(" .
 	                 fgetb($fd) . ", " .
-	                 fgetb($fd) . ");\n");
+	                 fgetb($fd) . ")\n");
 	      break;
 	    
-	    // NOP
+	    // Section End
 	    case 0xff:
+	      $null = fgetc($fd);
+	      fputs($fo, "break()\n");
 	      break;
 	    
 	    // Catch unsupported codes
 	    default:
-	      echo "Caught unhandled exception: \$code==" . hexstr($code) . "\n";
+	      echo "Caught unhandled exception: \$code==" . hexstr($code) . " at 0x" . dechex(ftell($fd)-1) . "\n";
 	      die();
 	      break;
 	  }
