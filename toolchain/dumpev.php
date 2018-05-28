@@ -643,7 +643,7 @@ for($i = 0; $i < count($events); $i++) {
 	    // scenario.clear()
 	    // uint_8[0x4f]
 	    case 0x4f:
-	      fputs($fo, "  scenarioclear()\n");
+	      fputs($fo, "  branch.scenarioclear()\n");
 	      break;
 	    
 	    // Raise Stat
