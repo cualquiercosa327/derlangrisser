@@ -298,7 +298,7 @@ for($i = 0; $i < count($events); $i++) {
 	      break;
 	    
 	    // Dialogue
-	    // screen.talk(speaker, target, portrait, focus, line)
+	    // msg(speaker, target, portrait, focus, line)
 	    // uint_8[0x02] uint_8[speaker] uint_8[target] uint_8[portrait] uint_8[focus] uint_8[line]
 	    case 0x02:
 	      $t_speaker = fgetb($fd);
@@ -340,8 +340,8 @@ for($i = 0; $i < count($events); $i++) {
 	      break;
 	    
 	    // Local RAM Add/Sub
-	    // ram.local.sum(target, variable)
-	    // ram.local.sub(target, variable)
+	    // mem.local.sum(target, variable)
+	    // mem.local.sub(target, variable)
 	    // uint_8[0x08] uint_8[action] uint_8[value]
 	    case 0x08:
 	      $t_action = fgetb($fd);
@@ -361,7 +361,7 @@ for($i = 0; $i < count($events); $i++) {
 	      break;
 	    
 	    // Branch if Global RAM Equal
-	    // branch.ram.global(goto, address1, address2)
+	    // branch.mem.global(goto, address1, address2)
 	    // uint_8[0x0a] uint_8[value] uint_16[goto]
 	    case 0x0a:
 	      $t_value = fgetb($fd);
@@ -376,8 +376,8 @@ for($i = 0; $i < count($events); $i++) {
 	      break;
 	    
 	    // Global RAM Add/Sub
-	    // ram.global.sum(target, variable)
-	    // ram.global.sub(target, variable)
+	    // mem.global.sum(target, variable)
+	    // mem.global.sub(target, variable)
 	    // uint_8[0x0b] uint_8[action] uint_8[value]
 	    case 0x0b:
 	      $t_action = fgetb($fd);
@@ -397,7 +397,7 @@ for($i = 0; $i < count($events); $i++) {
 	      break;
 	    
 	    // Change Music
-	    // sound.setBGM(team, track)
+	    // bgm(team, track)
 	    // uint_8[0x0c] uint_8[unit] uint_8[song]
 	    case 0x0c:
 	      $t_team = fgetb($fd);
@@ -408,7 +408,7 @@ for($i = 0; $i < count($events); $i++) {
 	      break;
 	    
 	    // Deploy
-	    // screen.unit.deploy(unit, x, y)
+	    // unit.deploy(unit, x, y)
 	    // uint_8[0x0e] uint_8[unit] uint_8[x] uint_8[y]
 	    case 0x0d:
 	      $t_unit = fgetb($fd);
@@ -421,7 +421,7 @@ for($i = 0; $i < count($events); $i++) {
 	      break;
 	    
 	    // Retreat
-	    // screen.unit.retreat(unit)
+	    // unit.retreat(unit)
 	    // uint_8[0x0e] uint_8[unit]
 	    case 0x0e:
 	      $t_unit = fgetb($fd);
@@ -430,7 +430,7 @@ for($i = 0; $i < count($events); $i++) {
 	      break;
 	    
 	    // Set Unit Byte
-	    // ram.unit.setbyte(unit, position, byte)
+	    // mem.unit.setbyte(unit, position, byte)
 	    // uint_8[0x10] uint_8[unit] uint_8[position] uint_8[byte]
 	    case 0x10:
 	      $t_unit = fgetb($fd);
@@ -443,7 +443,7 @@ for($i = 0; $i < count($events); $i++) {
 	      break;
 	    
 	    // Set Unit Bit
-	    // ram.unit.setbit(unit, position, bit)
+	    // mem.unit.setbit(unit, position, bit)
 	    // uint_8[0x11] uint_8[unit] uint_8[position] uint_8[bit]
 	    case 0x11:
 	      $t_unit = fgetb($fd);
@@ -456,7 +456,7 @@ for($i = 0; $i < count($events); $i++) {
 	      break;
 	    
 	    // Clear Unit Bit
-	    // ram.unit.clearbit(unit, position, bit)
+	    // mem.unit.clearbit(unit, position, bit)
 	    // uint_8[0x12] uint_8[unit] uint_8[position] uint_8[bit]
 	    case 0x12:
 	      $t_unit = fgetb($fd);
@@ -469,14 +469,14 @@ for($i = 0; $i < count($events); $i++) {
 	      break;
 	    
 	    // Clean Dead Units
-	    // screen.unit.cleanup()
+	    // unit.cleanup()
 	    // uint_8[0x13]
 	    case 0x13:
 	      fputs($fo, "  unit.cleanup()\n");
 	      break;
 	    
 	    // Set Next Scenario
-	    // ram.nextscenario()
+	    // loadscenario()
 	    // uint_8[0x14] uint_8[scenario]
 	    case 0x14:
 	      fputs($fo, "  loadscenario(" .
@@ -484,14 +484,14 @@ for($i = 0; $i < count($events); $i++) {
 	      break;
 	    
 	    // Game Over
-	    // branch.gameover()
+	    // gameover()
 	    // uint_8[0x15]
 	    case 0x15:
 	      fputs($fo, "  gameover()\n");
 	      break;
 	    
 	    // Goto
-	    // branch.goto(goto)
+	    // goto(goto)
 	    // uint_8[0x16] uint_16[goto]
 	    case 0x16:
 	      $t_goto = fgetb($fd) + (fgetb($fd) << 8);
@@ -501,7 +501,7 @@ for($i = 0; $i < count($events); $i++) {
 	      break;
 	    
 	    // Subroutine
-	    // branch.exec(goto)
+	    // subroutine(goto)
 	    // uint_8[0x17] uint_16[goto]
 	    case 0x17:
 	      $t_goto = fgetb($fd) + (fgetb($fd) << 8);
@@ -511,14 +511,14 @@ for($i = 0; $i < count($events); $i++) {
 	      break;
 	    
 	    // End Subroutine
-	    // return()
+	    // endsub()
 	    // uint_8[0x18]
 	    case 0x18:
 	      fputs($fo, "endsub\n\n");
 	      break;
 	    
 	    // Prompt Yes/No
-	    // screen.prompt.yesno(goto)
+	    // prompt(goto)
 	    // uint_8[0x1d] uint_8[0x00] uint_8[0xf4] uint_16[0x0000] uint_8[0x22] uint_16[goto]
 	    case 0x1d:
 	      $t_null = fread($fd, 5);
@@ -529,7 +529,7 @@ for($i = 0; $i < count($events); $i++) {
 	      break;
 	    
 	    // Deploy Unit
-	    // screen.unit.showSub(unit)
+	    // unit.showsub(unit)
 	    // uint_8[0x1e] uint_8[unit]
 	    case 0x1e:
 	      fputs($fo, "  unit.showsub(" .
@@ -537,7 +537,7 @@ for($i = 0; $i < count($events); $i++) {
 	      break;
 	    
 	    // Fade Out
-	    // screen.fadeOut(time)
+	    // screen.fadeout(time)
 	    // unit_8[0x38] uint_8[time]
 	    case 0x32:
 	      fputs($fo, "  screen.fadeout(" .
@@ -545,7 +545,7 @@ for($i = 0; $i < count($events); $i++) {
 	      break;
 	    
 	    // Position Unit
-	    // screen.unit.position(unit, x, y)
+	    // unit.position(unit, x, y)
 	    // uint_8[0x36] uint_8[unit] uint_8[x] uint_8[y]
 	    case 0x36:
 	      $t_unit = fgetb($fd);
@@ -558,7 +558,7 @@ for($i = 0; $i < count($events); $i++) {
 	      break;
 	    
 	    // Hide Unit
-	    // screen.unit.hide(unit, target)
+	    // unit.hide(unit, target)
 	    // uint_8[0x37] uint_8[unit] uint_8[target]
 	    case 0x37:
 	      fputs($fo, "  unit.hide(" .
@@ -567,7 +567,7 @@ for($i = 0; $i < count($events); $i++) {
 	      break;
 	    
 	    // Fade In
-	    // screen.fadeIn(time)
+	    // screen.fadein(time)
 	    // unit_8[0x38] uint_8[time]
 	    case 0x38:
 	      fputs($fo, "  screen.fadein(" .
@@ -575,14 +575,14 @@ for($i = 0; $i < count($events); $i++) {
 	      break;
 
         // Hide All Characters
-        // screen.hideAllUnits()
+        // unit.hideall()
         // uint_8[0x39]
         case 0x39:
           fputs($fo, "  unit.hideall()\n");
           break;
 
 	    // Move Cusor to Commander
-	    // screen.cusor.set(commander)
+	    // cusor.set(commander)
 	    // uint_8[0x3d] uint_8[commander]
 	    case 0x3d:
 	      fputs($fo, "  cursor.set(" .
@@ -590,7 +590,7 @@ for($i = 0; $i < count($events); $i++) {
 	      break;
 	    
 	    // Face Unit
-	    // screen.unit.face(unit, direction)
+	    // unit.face(unit, direction)
 	    // uint_8[0x3e] uint_8[unit] uint_8[direction]
 	    case 0x3e:
 	      fputs($fo, "  unit.face(" .
@@ -599,7 +599,7 @@ for($i = 0; $i < count($events); $i++) {
 	      break;
 	    
 	    // Move Unit
-	    // screen.unit.move(unit, x, y)
+	    // unit.move(unit, x, y)
 	    // uint_8[0x3f] uint_8[unit] uint_8[x] uint_8[y]
 	    case 0x3f:
 	      fputs($fo, "  unit.move(" .
@@ -630,7 +630,7 @@ for($i = 0; $i < count($events); $i++) {
 	      break;
 	    
 	    // Receive Money
-	    // ram.money.add(money)
+	    // mem.money.add(money)
 	    // uint_8[0x4e] uint_16[money]
 	    case 0x4e:
 	      // Game money's lowest increment is 10
@@ -640,14 +640,14 @@ for($i = 0; $i < count($events); $i++) {
 	      break;
 	    
 	    // Scenario Clear
-	    // scenario.clear()
+	    // scenarioclear()
 	    // uint_8[0x4f]
 	    case 0x4f:
-	      fputs($fo, "  branch.scenarioclear()\n");
+	      fputs($fo, "  scenarioclear()\n");
 	      break;
 	    
 	    // Raise Stat
-	    // screen.unit.raisestat(stat, amount)
+	    // unit.raisestat(stat, amount)
 	    // uint_8[0x40] uint_8[stat] uint_8[amount]
 	    case 0x40:
 	      fputs($fo, "  unit.raisestat(" .

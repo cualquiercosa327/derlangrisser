@@ -616,7 +616,7 @@ lbl_6a6:
 # Lady Liana ... We shall be returning to finish this.\0
 lbl_6b4:
   unit.retreat(LEON_D5)
-  branch.scenarioclear()
+  scenarioclear()
   msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 131)
 # It seems to be over.\0
   msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 132)
