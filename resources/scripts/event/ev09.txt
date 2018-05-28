@@ -117,13 +117,13 @@ lbl_17e:
   focus.point(15, 41, SLOW)
   bgm(ALLY, ENEMY1_LEON)
   unit.position(IMPERIALCOMMANDER_2F, 255, 255)
-  unit.showSub(IMPERIALCOMMANDER_2F)
+  unit.showsub(IMPERIALCOMMANDER_2F)
   unit.position(IMPERIALCOMMANDER_30, 255, 255)
-  unit.showSub(IMPERIALCOMMANDER_30)
+  unit.showsub(IMPERIALCOMMANDER_30)
   unit.position(LEON_D5, 255, 255)
-  unit.showSub(LEON_D5)
+  unit.showsub(LEON_D5)
   unit.position(LAIRD_18, 255, 255)
-  unit.showSub(LAIRD_18)
+  unit.showsub(LAIRD_18)
   msg(LAIRD_18, LIANA_02, LAIRD, FOLLOW, 15)
 # There they are! Their progress was even slower than anticipated.\0
   msg(ERWIN_01, LAIRD_18, ERWIN_ANGRY, FOLLOW, 16)
@@ -144,11 +144,11 @@ lbl_17e:
 # I'm afraid we cannot do that, Lord Loren.\r\nYou leave us no choice! Knights, we will take Liana by force!\0
   msg(LOREN_2B, ERWIN_01, LOREN, FOLLOW, 23)
 # _NAME_, I will stay here and cut off their path.\r\nTake Lady Liana north along this road. It leads to Estool.\r\nDo not worry about me! You can't waste any more time. I don't know how long I can hold them off, so hurry!\0
-  unit.showSub(LOREN_2B)
-  unit.showSub(ERWIN_01)
-  unit.showSub(HEIN_05)
-  unit.showSub(SCOTT_06)
-  unit.showSub(LIANA_02)
+  unit.showsub(LOREN_2B)
+  unit.showsub(ERWIN_01)
+  unit.showsub(HEIN_05)
+  unit.showsub(SCOTT_06)
+  unit.showsub(LIANA_02)
   mem.local.sum($0a47d0, $07eb58)
   bgm(ALLY, ALLY3)
 break
@@ -164,13 +164,13 @@ lbl_27e:
   branch.ifdead(lbl_291, IMPERIALCOMMANDER_2F)
   msg(IMPERIALCOMMANDER_2F, LAIRD_18, SWORDSMAN1_GREEN, FOLLOW, 26)
 # Yes, Sir!\0
-  branch.goto(lbl_2a4)
+  goto(lbl_2a4)
 lbl_291:
   branch.ifdead(lbl_29e, IMPERIALCOMMANDER_30)
   msg(IMPERIALCOMMANDER_30, LAIRD_18, SWORDSMAN1_GREEN, FOLLOW, 27)
 # Understood!\0
 lbl_29b:
-  branch.goto(lbl_2a4)
+  goto(lbl_2a4)
 lbl_29e:
   msg(IMPERIALCOMMANDER_31, LAIRD_18, FIGHTER_GREEN, NOFOLLOW, 28)
 # As you command!\0
@@ -190,8 +190,8 @@ lbl_2b8:
 break
 
 lbl_2bd:
-  prompt.yesno(lbl_2c8)
-  branch.sub(lbl_5eb)
+  prompt(lbl_2c8)
+  subroutine(lbl_5eb)
 lbl_2c8:
   mem.local.sub($0a47d0, $07eb5c)
 break

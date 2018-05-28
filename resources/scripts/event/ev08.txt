@@ -74,7 +74,7 @@ lbl_17e:
   unit.position(VILLAGER_26, 255, 255)
   unit.position(LIANA_02, 255, 255)
   unit.position(VILLAGER_25, 255, 255)
-  unit.showSub(VILLAGER_25)
+  unit.showsub(VILLAGER_25)
   unit.position(LEON_D5, 19, 20)
   unit.position(LAIRD_18, 11, 12)
   unit.position(IMPERIALCOMMANDER_2F, 255, 255)
@@ -112,9 +112,9 @@ lbl_17e:
 # Hurry up, Baldo! If the Salrath Army shows up, this could get messy.\0
   msg(BALDO_19, RIGHT_F7, BALDO, NOFOLLOW, 10)
 # Understood!\0
-  unit.showSub(BALDO_19)
+  unit.showsub(BALDO_19)
   focus.point(9, 25, FAST)
-  unit.showSub(IMPERIALCOMMANDER_2F)
+  unit.showsub(IMPERIALCOMMANDER_2F)
   focus.point(17, 34, FAST)
   bgm(ALLY, ALLY2)
   unit.move(HEIN_05, 255, 255)
@@ -132,8 +132,8 @@ lbl_17e:
   msg(ERWIN_01, DOWN_F5, ERWIN, NOFOLLOW, 16)
 # Yes, of course. Let's go!\0
   cursor.set(ERWIN_01)
-  unit.showSub(ERWIN_01)
-  unit.showSub(HEIN_05)
+  unit.showsub(ERWIN_01)
+  unit.showsub(HEIN_05)
   mem.local.sum($0a47d0, $07eb58)
   mem.local.sum($0a47d0, $07eb59)
   mem.local.sum($0a47d0, $07eb5a)
@@ -156,12 +156,12 @@ lbl_27b:
 # Ridel! They are powerful foes indeed!\r\nBut no matter how strong they may be, we have to hold them off until His Lordship's troops arrive, ... no matter the cost.\0
   msg(RIDEL_7F, EVANZE_80, FIGHTER_BLACK, FOLLOW, 20)
 # I know ... I will try to hold them back with my spearmen...\r\nIt seems the rumours calling them the strongest knights in the land may have some merit after all ...\0
-  branch.goto(lbl_298)
+  goto(lbl_298)
 lbl_292:
   msg(RIDEL_7F, DOWN_F5, FIGHTER_BLACK, FOLLOW, 21)
 # Evan ... ze--!\0
 lbl_298:
-  branch.goto(lbl_2a5)
+  goto(lbl_2a5)
 lbl_29b:
   branch.ifdead(lbl_2a5, EVANZE_80)
   msg(EVANZE_80, RIDEL_7F, PRIEST_WHITE, FOLLOW, 22)
@@ -199,7 +199,7 @@ lbl_2de:
 # So, ... you are _NAME_, eh? Well, ... mind your own damn business, kid!\r\nIt will be a cold day in hell before you best Baldo in a fight! Ha ha ha!\0
   msg(ERWIN_01, BALDO_19, ERWIN_SAD, FOLLOW, 29)
 # Gah ... This should not have been ... possible--!\0
-  branch.gameover()
+  gameover()
 break
 
 lbl_2ed:
@@ -208,7 +208,7 @@ lbl_2ed:
 # I knew it, _NAME_! There can be no more doubt-- the knights are here for Liana!\0
   msg(ERWIN_01, HEIN_05, ERWIN, FOLLOW, 31)
 # So it seems ... Concentrate on attacking their commander, Baldo.\0
-  branch.goto(lbl_306)
+  goto(lbl_306)
 lbl_300:
   msg(ERWIN_01, HEIN_05, ERWIN, FOLLOW, 32)
 # If things keep going like this, Liana will surely be kidnapped!\r\nConcentrate on attacking their commanding officer, Baldo.\0
@@ -219,7 +219,7 @@ lbl_308:
   branch.mem.global(lbl_326, $0a4794, $07eb5d)
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 33)
 # You have spotted a clearing in the middle of the woods ...\r\nInside, a band of cute dwarves are dancing merrily.\r\nOne of the dwarves comes out to offer you a berry.\0
-  prompt.yesno(lbl_326)
+  prompt(lbl_326)
   unit.raisestat(11, 10)
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 35)
 # Magic Defence raised!\0
@@ -231,7 +231,7 @@ lbl_328:
   branch.mem.global(lbl_346, $0a4792, $07eb5a)
   msg(NULL_00, UP_F4, NULL, FOLLOW, 36)
 # A blue potion rests within the open drawer of a chest.\0
-  prompt.yesno(lbl_346)
+  prompt(lbl_346)
   unit.raisestat(58, 1)
   msg(NULL_00, UP_F4, NULL, FOLLOW, 38)
 # You feel a surge of power!\r\nAT raised by 1 point!\0
@@ -247,13 +247,13 @@ lbl_34d:
   msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 39)
 # Argh ... Not here ...!\0
   unit.cleanup()
-  branch.gameover()
+  gameover()
 break
 
 lbl_357:
   msg(ERWIN_01, BALDO_19, ERWIN_ANGRY, NOFOLLOW, 40)
 # That is far enough!\0
-  branch.sub(lbl_89b)
+  subroutine(lbl_89b)
   msg(LIANA_02, ERWIN_01, LIANA_SAD, NOFOLLOW, 41)
 # Oh no! Stay back! Just forget about me and escape!\r\nWhy should those who have nothing to do with me suffer as well?\0
   msg(ERWIN_01, LIANA_02, ERWIN, NOFOLLOW, 42)
@@ -275,7 +275,7 @@ lbl_37e:
 # Hey, Liana! I am on my way!\0
   msg(LIANA_02, HEIN_05, LIANA_SAD, NOFOLLOW, 46)
 # No, Hein! It is too dangerous! Forget me and save yourself!\0
-  branch.sub(lbl_89b)
+  subroutine(lbl_89b)
 break
 
 lbl_38f:
@@ -288,7 +288,7 @@ lbl_397:
 break
 
 lbl_39b:
-  branch.sub(lbl_8a9)
+  subroutine(lbl_8a9)
 break
 
 lbl_3a0:
@@ -303,7 +303,7 @@ lbl_3a0:
 # Your duty is to arrange for Baldo's safe retreat!\0
   msg(IMPERIALCOMMANDER_2F, LAIRD_18, SWORDSMAN1_GREEN, FOLLOW, 52)
 # Yes, Sir!\0
-  branch.goto(lbl_3d7)
+  goto(lbl_3d7)
 lbl_3c5:
   msg(LEON_D5, LEFT_F6, LEON, FOLLOW, 53)
 # Knights, I am issuing a decree! Such pointless killing is forbidden on our mission.\0
@@ -352,8 +352,8 @@ lbl_413:
   unit.cleanup()
   msg(EVANZE_80, DOWN_F5, PRIEST_WHITE, FOLLOW, 65)
 # Ridel ...\0
-  branch.sub(lbl_8d5)
-  branch.goto(lbl_431)
+  subroutine(lbl_8d5)
+  goto(lbl_431)
 lbl_430:
   unit.cleanup()
 lbl_431:
@@ -377,7 +377,7 @@ lbl_433:
 # Evanze!\0
   msg(RIDEL_7F, LEON_D5, FIGHTER_BLACK, NOFOLLOW, 72)
 # Unforgivable ...!\r\nI can never forgive you! I will kill you with my own two hands!\0
-  branch.sub(lbl_8d5)
+  subroutine(lbl_8d5)
 lbl_468:
 break
 
@@ -401,7 +401,7 @@ lbl_491:
 # Laird, follow me! I will sweep out the enemy!\0
   msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 76)
 # Understood!\0
-  unit.showSub(LAIRD_18)
+  unit.showsub(LAIRD_18)
 break
 
 lbl_4a1:
@@ -421,12 +421,12 @@ lbl_4af:
   branch.ifdead(lbl_4ce, LAIRD_18)
   msg(LAIRD_18, ERWIN_01, LAIRD, NOFOLLOW, 186)
 # Be silent! I cannot bear your ignorance!\r\nThe General does not undertake this mission of his own volition!\r\nWe act today only due to a direct order from Kaiser Bernhardt himself!\0
-  branch.goto(lbl_4d4)
+  goto(lbl_4d4)
 lbl_4ce:
   msg(LAIRD_18, ERWIN_01, LAIRD_DEAD, NOFOLLOW, 186)
 # Be silent! I cannot bear your ignorance!\r\nThe General does not undertake this mission of his own volition!\r\nWe act today only due to a direct order from Kaiser Bernhardt himself!\0
 lbl_4d4:
-  branch.sub(lbl_8a2)
+  subroutine(lbl_8a2)
 break
 
 lbl_4d9:
@@ -565,7 +565,7 @@ lbl_5fd:
 # Yes, Sir!\0
   unit.face(LEON_D5, LIANA_02)
   unit.face(LAIRD_18, LIANA_02)
-  branch.goto(lbl_639)
+  goto(lbl_639)
 lbl_633:
   msg(LEON_D5, LIANA_02, LEON, FOLLOW, 119)
 # What!? How could we have failed?\0
@@ -585,7 +585,7 @@ lbl_639:
   msg(LOREN_2B, DOWN_F5, LOREN, FOLLOW, 122)
 # Thank goodness. It seems I was a little late.\0
 lbl_66a:
-  branch.goto(lbl_679)
+  goto(lbl_679)
 lbl_66d:
   msg(LOREN_2B, DOWN_F5, LOREN, FOLLOW, 123)
 # I am responsible for the welfare of the men and women in my territory.\0
@@ -604,7 +604,7 @@ lbl_683:
 # What horrible timing ... We have no choice but to retreat for now!\0
   msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 128)
 # As you command, Sir.\0
-  branch.goto(lbl_6a6)
+  goto(lbl_6a6)
 lbl_6a0:
   msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 129)
 # The enemy's reinforcements have arrived!?\r\nThis doesn't look good. We must retreat!\0
@@ -667,7 +667,7 @@ lbl_73c:
 # Well then, let's be on our way. It's getting dark, and my stomach is already growling!\0
   msg(LIANA_02, HEIN_05, LIANA, FOLLOW, 151)
 # Hein ...!\0
-  branch.goto(lbl_755)
+  goto(lbl_755)
 lbl_74f:
   msg(ERWIN_01, LOREN_2B, ERWIN, FOLLOW, 152)
 # Very well then, let us be off.\0
@@ -737,7 +737,7 @@ lbl_755:
   msg(LIANA_02, ERWIN_01, LIANA, NOFOLLOW, 171)
 # Umm, ... thank you ...\0
   unit.move(LIANA_02, 16, 29)
-  mem.nextscenario(2)
+  loadscenario(2)
 break
 
 lbl_81c:
@@ -791,7 +791,7 @@ lbl_87c:
 break
 
 lbl_884:
-  branch.sub(lbl_8a9)
+  subroutine(lbl_8a9)
 break
 
 lbl_889:
@@ -848,7 +848,7 @@ lbl_8d5:
 # I ... can't ...\r\nI ... can't ... allow that ...\0
   msg(LEON_D5, RIDEL_7F, LEON, FOLLOW, 200)
 # How foolish ...\0
-  branch.goto(lbl_91c)
+  goto(lbl_91c)
 lbl_90a:
   msg(EVANZE_80, LIANA_02, PRIEST_WHITE, FOLLOW, 201)
 # I ... I won't give up ...\0
@@ -857,7 +857,7 @@ lbl_90a:
   msg(LEON_D5, EVANZE_80, LEON, FOLLOW, 203)
 # How foolish ...\0
 lbl_91c:
-  branch.goto(lbl_92f)
+  goto(lbl_92f)
 lbl_91f:
   branch.ifdead(lbl_92f, LAIRD_18)
   msg(LAIRD_18, LIANA_02, LAIRD, FOLLOW, 204)

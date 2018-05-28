@@ -479,7 +479,7 @@ for($i = 0; $i < count($events); $i++) {
 	    // ram.nextscenario()
 	    // uint_8[0x14] uint_8[scenario]
 	    case 0x14:
-	      fputs($fo, "  mem.nextscenario(" .
+	      fputs($fo, "  loadscenario(" .
 	                 fgetb($fd) . ")\n");
 	      break;
 	    
@@ -487,7 +487,7 @@ for($i = 0; $i < count($events); $i++) {
 	    // branch.gameover()
 	    // uint_8[0x15]
 	    case 0x15:
-	      fputs($fo, "  branch.gameover()\n");
+	      fputs($fo, "  gameover()\n");
 	      break;
 	    
 	    // Goto
@@ -496,7 +496,7 @@ for($i = 0; $i < count($events); $i++) {
 	    case 0x16:
 	      $t_goto = fgetb($fd) + (fgetb($fd) << 8);
 	      $pointers[] = $t_goto;
-	      fputs($fo, "  branch.goto(" .
+	      fputs($fo, "  goto(" .
 	                 "lbl_" . dechex($t_goto) . ")\n");
 	      break;
 	    
@@ -506,7 +506,7 @@ for($i = 0; $i < count($events); $i++) {
 	    case 0x17:
 	      $t_goto = fgetb($fd) + (fgetb($fd) << 8);
 	      $pointers[] = $t_goto;
-	      fputs($fo, "  branch.sub(" .
+	      fputs($fo, "  subroutine(" .
 	                 "lbl_" . dechex($t_goto) . ")\n");
 	      break;
 	    
@@ -524,7 +524,7 @@ for($i = 0; $i < count($events); $i++) {
 	      $t_null = fread($fd, 5);
 	      $t_goto = fgetb($fd) + (fgetb($fd) << 8);
 	      $pointers[] = $t_goto;
-	      fputs($fo, "  prompt.yesno(" .
+	      fputs($fo, "  prompt(" .
 	                 "lbl_" . dechex($t_goto) . ")\n");
 	      break;
 	    
@@ -532,7 +532,7 @@ for($i = 0; $i < count($events); $i++) {
 	    // screen.unit.showSub(unit)
 	    // uint_8[0x1e] uint_8[unit]
 	    case 0x1e:
-	      fputs($fo, "  unit.showSub(" .
+	      fputs($fo, "  unit.showsub(" .
 	                 $ar_unit[fgetb($fd)] . ")\n");
 	      break;
 	    
