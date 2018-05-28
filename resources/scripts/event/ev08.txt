@@ -1,905 +1,869 @@
-// Movement-Triggered Events:
-// event.move.addHook(priority, goto, unit, turn, unk1)
-event.move.addHook(4, lbl_397, VILLAGER_25, 0, 0xff);
-event.move.addHook(20, lbl_3a0, VILLAGER_25, 0, 0xff);
-event.move.addHook(22, lbl_3f5, RIDEL_7F, 0, 0xff);
-event.move.addHook(28, lbl_491, LEON_D5, 0, 0xff);
-event.move.addHook(33, lbl_4de, LAIRD_18, 3, 0xff);
-event.move.addHook(36, lbl_523, BALDO_19, 1, 0xff);
-event.move.addHook(1, lbl_55b, BALDO_19, 0, 0xff);
-event.move.addHook(0, lbl_563, BALDO_19, 0, 0xff);
-event.move.addHook(40, lbl_81c, IMPERIALCOMMANDER_2F, 0, 0xff);
-event.move.addHook(3, lbl_836, IMPERIALCOMMANDER_2F, 0, 0xff);
+# Movement-Triggered Events:
+# event.move(priority, goto, unit, turn, unk1)
+event.move(4, lbl_397, VILLAGER_25, 0, 0xff);
+event.move(20, lbl_3a0, VILLAGER_25, 0, 0xff);
+event.move(22, lbl_3f5, RIDEL_7F, 0, 0xff);
+event.move(28, lbl_491, LEON_D5, 0, 0xff);
+event.move(33, lbl_4de, LAIRD_18, 3, 0xff);
+event.move(36, lbl_523, BALDO_19, 1, 0xff);
+event.move(1, lbl_55b, BALDO_19, 0, 0xff);
+event.move(0, lbl_563, BALDO_19, 0, 0xff);
+event.move(40, lbl_81c, IMPERIALCOMMANDER_2F, 0, 0xff);
+event.move(3, lbl_836, IMPERIALCOMMANDER_2F, 0, 0xff);
 
-// Attack-Triggered Events:
-// event.attack.addHook(priority, goto, attacker, defender, unk1, unk2, unk3)
-event.attack.addHook(15, lbl_357, ERWIN_01, BALDO_19, 0x00, 0x00, 0xff);
-event.attack.addHook(16, lbl_36e, ERWIN_01, IMPERIALCOMMANDER_2F, 0x00, 0x00, 0xff);
-event.attack.addHook(15, lbl_37e, HEIN_05, BALDO_19, 0x00, 0x00, 0xff);
-event.attack.addHook(18, lbl_38f, HEIN_05, BALDO_19, 0x00, 0xff, 0xff);
-event.attack.addHook(21, lbl_3d9, NULL_FF, VILLAGER_25, 0xff, 0x00, 0xff);
-event.attack.addHook(23, lbl_403, RIDEL_7F, NULL_FF, 0x00, 0xff, 0xff);
-event.attack.addHook(24, lbl_40b, NULL_FF, RIDEL_7F, 0xff, 0x00, 0xff);
-event.attack.addHook(31, lbl_4af, ERWIN_01, LEON_D5, 0x00, 0x00, 0xff);
-event.attack.addHook(32, lbl_4d9, LEON_D5, NULL_FF, 0x00, 0xff, 0xff);
-event.attack.addHook(35, lbl_50d, LAIRD_18, RIDEL_7F, 0x00, 0x00, 0xff);
-event.attack.addHook(38, lbl_5f5, BALDO_19, VILLAGER_25, 0x00, 0xff, 0xff);
-event.attack.addHook(41, lbl_854, IMPERIALCOMMANDER_2F, NULL_FF, 0x00, 0xff, 0xff);
-event.attack.addHook(41, lbl_85f, NULL_FF, IMPERIALCOMMANDER_2F, 0xff, 0x00, 0xff);
+# Attack-Triggered Events:
+# event.attack(priority, goto, attacker, defender, unk1, unk2, unk3)
+event.attack(15, lbl_357, ERWIN_01, BALDO_19, 0x00, 0x00, 0xff);
+event.attack(16, lbl_36e, ERWIN_01, IMPERIALCOMMANDER_2F, 0x00, 0x00, 0xff);
+event.attack(15, lbl_37e, HEIN_05, BALDO_19, 0x00, 0x00, 0xff);
+event.attack(18, lbl_38f, HEIN_05, BALDO_19, 0x00, 0xff, 0xff);
+event.attack(21, lbl_3d9, NULL_FF, VILLAGER_25, 0xff, 0x00, 0xff);
+event.attack(23, lbl_403, RIDEL_7F, NULL_FF, 0x00, 0xff, 0xff);
+event.attack(24, lbl_40b, NULL_FF, RIDEL_7F, 0xff, 0x00, 0xff);
+event.attack(31, lbl_4af, ERWIN_01, LEON_D5, 0x00, 0x00, 0xff);
+event.attack(32, lbl_4d9, LEON_D5, NULL_FF, 0x00, 0xff, 0xff);
+event.attack(35, lbl_50d, LAIRD_18, RIDEL_7F, 0x00, 0x00, 0xff);
+event.attack(38, lbl_5f5, BALDO_19, VILLAGER_25, 0x00, 0xff, 0xff);
+event.attack(41, lbl_854, IMPERIALCOMMANDER_2F, NULL_FF, 0x00, 0xff, 0xff);
+event.attack(41, lbl_85f, NULL_FF, IMPERIALCOMMANDER_2F, 0xff, 0x00, 0xff);
 
-// Damage-Triggered Events:
-// event.defeat.addHook(priority, goto, unit, ...)
-// event.damage.addHook(priority, goto, attacker, defender, unk1, unk2)
-event.defeat.addHook(14, lbl_34d, ERWIN_01);
-event.defeat.addHook(17, lbl_376, HEIN_05);
-event.defeat.addHook(19, lbl_39b, VILLAGER_25);
-event.defeat.addHook(25, lbl_413, RIDEL_7F);
-event.defeat.addHook(26, lbl_433, EVANZE_80);
-event.defeat.addHook(27, lbl_46a, RIDEL_7F, EVANZE_80);
-event.defeat.addHook(29, lbl_4a1, LEON_D5);
-event.defeat.addHook(34, lbl_4f8, LAIRD_18);
-event.defeat.addHook(39, lbl_5fd, BALDO_19);
-event.defeat.addHook(42, lbl_86a, IMPERIALCOMMANDER_2F);
-event.damage.addHook(30, lbl_87c, ERWIN_01, LEON_D5, 0xff, 0x00);
-event.damage.addHook(44, lbl_884, BALDO_19, VILLAGER_25, 0x00, 0x00);
-event.damage.addHook(45, lbl_889, NULL_FF, BALDO_19, 0xff, 0x00);
-event.damage.addHook(43, lbl_895, NULL_FF, IMPERIALCOMMANDER_2F, 0xff, 0x00);
+# Damage-Triggered Events:
+# event.defeat(priority, goto, unit, ...)
+# event.damage(priority, goto, attacker, defender, unk1, unk2)
+event.defeat(14, lbl_34d, ERWIN_01);
+event.defeat(17, lbl_376, HEIN_05);
+event.defeat(19, lbl_39b, VILLAGER_25);
+event.defeat(25, lbl_413, RIDEL_7F);
+event.defeat(26, lbl_433, EVANZE_80);
+event.defeat(27, lbl_46a, RIDEL_7F, EVANZE_80);
+event.defeat(29, lbl_4a1, LEON_D5);
+event.defeat(34, lbl_4f8, LAIRD_18);
+event.defeat(39, lbl_5fd, BALDO_19);
+event.defeat(42, lbl_86a, IMPERIALCOMMANDER_2F);
+event.damage(30, lbl_87c, ERWIN_01, LEON_D5, 0xff, 0x00);
+event.damage(44, lbl_884, BALDO_19, VILLAGER_25, 0x00, 0x00);
+event.damage(45, lbl_889, NULL_FF, BALDO_19, 0xff, 0x00);
+event.damage(43, lbl_895, NULL_FF, IMPERIALCOMMANDER_2F, 0xff, 0x00);
 
-// Position-Triggered Events:
-// event.box.addHook(priority, goto, unit, unit, radius, unk1, unk2, unk3, unk4)
-// event.radius.addHook(priority, goto, unit, x1, y1, x2, y2, unk1, unk2)
-event.radius.addHook(7, lbl_2af, LIANA_02, ERWIN_01, 1, 0x00, 0x00, 0x00, 0x00);
-event.radius.addHook(8, lbl_2c1, LIANA_02, HEIN_05, 1, 0x00, 0x00, 0x00, 0x00);
-event.box.addHook(9, lbl_2d3, BALDO_19, 11, 42, 18, 42, 0x00, 0x00);
-event.box.addHook(10, lbl_2ed, BALDO_19, 7, 34, 18, 40, 0x00, 0x00);
-event.box.addHook(11, lbl_308, NPC_COMMANDER_F0, 24, 5, 24, 5, 0x00, 0x00);
-event.box.addHook(12, lbl_328, NPC_COMMANDER_F0, 18, 25, 18, 25, 0x00, 0x00);
-event.box.addHook(13, lbl_348, VILLAGER_25, 1, 16, 1, 23, 0x00, 0x00);
-event.radius.addHook(2, lbl_57a, LIANA_02, BALDO_19, 1, 0x00, 0x00, 0x00, 0x00);
-event.radius.addHook(37, lbl_5b2, BALDO_19, LIANA_02, 1, 0x00, 0x00, 0x00, 0x00);
+# Position-Triggered Events:
+# event.box(priority, goto, unit, unit, radius, unk1, unk2, unk3, unk4)
+# event.radius(priority, goto, unit, x1, y1, x2, y2, unk1, unk2)
+event.radius(7, lbl_2af, LIANA_02, ERWIN_01, 1, 0x00, 0x00, 0x00, 0x00);
+event.radius(8, lbl_2c1, LIANA_02, HEIN_05, 1, 0x00, 0x00, 0x00, 0x00);
+event.box(9, lbl_2d3, BALDO_19, 11, 42, 18, 42, 0x00, 0x00);
+event.box(10, lbl_2ed, BALDO_19, 7, 34, 18, 40, 0x00, 0x00);
+event.box(11, lbl_308, NPC_COMMANDER_F0, 24, 5, 24, 5, 0x00, 0x00);
+event.box(12, lbl_328, NPC_COMMANDER_F0, 18, 25, 18, 25, 0x00, 0x00);
+event.box(13, lbl_348, VILLAGER_25, 1, 16, 1, 23, 0x00, 0x00);
+event.radius(2, lbl_57a, LIANA_02, BALDO_19, 1, 0x00, 0x00, 0x00, 0x00);
+event.radius(37, lbl_5b2, BALDO_19, LIANA_02, 1, 0x00, 0x00, 0x00, 0x00);
 
-// Turn-Triggered Events
-// event.turn.addHook(priority, goto, team, turn, unk1)
-event.turn.addHook(6, lbl_26d, ALLY, 2, 0x00);
-event.turn.addHook(5, lbl_27b, ALLY, 0, 0x00);
+# Turn-Triggered Events
+# event.turn(priority, goto, team, turn, unk1)
+event.turn(6, lbl_26d, ALLY, 2, 0x00);
+event.turn(5, lbl_27b, ALLY, 0, 0x00);
 
-// Core Events
+# Core Events
 lbl_17e:
-sound.setBGM(ALLY, ENEMYREINFORCEMENT2)
-ram.global.sub($0a4788, $07eb5a)
-screen.focus.set(8, 21, FAST)
-screen.cursor.set(NULL_00)
-screen.unit.hide(LAIRD_18, SUBUNIT)
-screen.unit.hide(LEON_D5, SUBUNIT)
-screen.unit.position(VILLAGER_26, 255, 255)
-screen.unit.position(LIANA_02, 255, 255)
-screen.unit.position(VILLAGER_25, 255, 255)
-screen.unit.showSub(VILLAGER_25)
-screen.unit.position(LEON_D5, 19, 20)
-screen.unit.position(LAIRD_18, 11, 12)
-screen.unit.position(IMPERIALCOMMANDER_2F, 255, 255)
-screen.unit.position(ERWIN_01, 19, 27)
-screen.unit.position(HEIN_05, 16, 41)
-screen.unit.position(BALDO_19, 16, 21)
-screen.fadeIn(4)
-screen.unit.move(BALDO_19, 11, 21)
-screen.talk(VILLAGER_25, BALDO_19, VILLAGER_YELLOW, NOFOLLOW, 1)
-// Eeek!\0
-screen.talk(BALDO_19, DOWN_F5, BALDO, NOFOLLOW, 2)
-// You there, woman! If you do not want to die, answer my questions!\r\n Does a girl named Liana live in this house?\0
-screen.talk(VILLAGER_25, BALDO_19, VILLAGER_YELLOW, NOFOLLOW, 3)
-// Y, yes ...\0
-screen.focus.set(8, 21, FAST)
-screen.unit.move(BALDO_19, 11, 22)
-screen.unit.move(BALDO_19, 255, 255)
-screen.unit.face(BALDO_19, UP_F4)
-screen.talk(LIANA_02, DOWN_F5, LIANA, FOLLOW, 4)
-// Who is outside ...!?\0
-screen.talk(BALDO_19, LEON_D5, BALDO, NOFOLLOW, 5)
-// General Leon! The girl we were assigned to bring in is here!\0
-sound.setBGM(ALLY, ENEMY1_LEON)
-screen.unit.move(LEON_D5, 255, 255)
-screen.unit.face(BALDO_19, UP_F4)
-screen.talk(LEON_D5, BALDO_19, LEON, NOFOLLOW, 6)
-// I see. Thank goodness.\0
-screen.unit.move(LAIRD_18, 255, 255)
-screen.unit.face(BALDO_19, RIGHT_F7)
-screen.talk(LAIRD_18, LEON_D5, LAIRD, NOFOLLOW, 7)
-// Let us get this over with. The local Lord's troops must already be on their way.\0
-screen.talk(LEON_D5, LAIRD_18, LEON, NOFOLLOW, 8)
-// You are probably right ...\0
-screen.talk(LEON_D5, BALDO_19, LEON, NOFOLLOW, 9)
-// Hurry up, Baldo! If the Salrath Army shows up, this could get messy.\0
-screen.talk(BALDO_19, RIGHT_F7, BALDO, NOFOLLOW, 10)
-// Understood!\0
-screen.unit.showSub(BALDO_19)
-screen.focus.set(9, 25, FAST)
-screen.unit.showSub(IMPERIALCOMMANDER_2F)
-screen.focus.set(17, 34, FAST)
-sound.setBGM(ALLY, ALLY2)
-screen.unit.move(HEIN_05, 255, 255)
-screen.talk(HEIN_05, UP_F4, HEIN, NOFOLLOW, 11)
-// _NAME_, this is serious!\0
-screen.unit.move(ERWIN_01, 255, 255)
-screen.talk(ERWIN_01, DOWN_F5, ERWIN, NOFOLLOW, 12)
-// What's the matter, Hein?\0
-screen.talk(HEIN_05, UP_F4, HEIN, NOFOLLOW, 13)
-// A detachment of knights from the Rayguard Empire is invading the village!\0
-screen.talk(ERWIN_01, DOWN_F5, ERWIN, NOFOLLOW, 14)
-// What ...!?\r\n Hein! It looks like they are only attacking the outskirts!\r\n Isn't that where you said your childhood friend lives?\0
-screen.talk(HEIN_05, UP_F4, HEIN, NOFOLLOW, 15)
-// That is right!\r\n She must already be in terrible danger! Will you lend me a hand?\0
-screen.talk(ERWIN_01, DOWN_F5, ERWIN, NOFOLLOW, 16)
-// Yes, of course. Let's go!\0
-screen.cursor.set(ERWIN_01)
-screen.unit.showSub(ERWIN_01)
-screen.unit.showSub(HEIN_05)
-ram.local.sum($0a47d0, $07eb58)
-ram.local.sum($0a47d0, $07eb59)
-ram.local.sum($0a47d0, $07eb5a)
-ram.local.sum($0a47d0, $07eb5b)
-ram.local.sum($0a47d0, $07eb5c)
-ram.local.sum($0a47d0, $07eb5d)
-nop()
+  bgm(ALLY, ENEMYREINFORCEMENT2)
+  mem.global.sub($0a4788, $07eb5a)
+  focus.point(8, 21, FAST)
+  cursor.set(NULL_00)
+  unit.hide(LAIRD_18, SUBUNIT)
+  unit.hide(LEON_D5, SUBUNIT)
+  unit.position(VILLAGER_26, 255, 255)
+  unit.position(LIANA_02, 255, 255)
+  unit.position(VILLAGER_25, 255, 255)
+  unit.showSub(VILLAGER_25)
+  unit.position(LEON_D5, 19, 20)
+  unit.position(LAIRD_18, 11, 12)
+  unit.position(IMPERIALCOMMANDER_2F, 255, 255)
+  unit.position(ERWIN_01, 19, 27)
+  unit.position(HEIN_05, 16, 41)
+  unit.position(BALDO_19, 16, 21)
+  screen.fadein(4)
+  unit.move(BALDO_19, 11, 21)
+  msg(VILLAGER_25, BALDO_19, VILLAGER_YELLOW, NOFOLLOW, 1)
+# Eeek!\0
+  msg(BALDO_19, DOWN_F5, BALDO, NOFOLLOW, 2)
+# You there, woman! If you do not want to die, answer my questions!\r\nDoes a girl named Liana live in this house?\0
+  msg(VILLAGER_25, BALDO_19, VILLAGER_YELLOW, NOFOLLOW, 3)
+# Y, yes ...\0
+  focus.point(8, 21, FAST)
+  unit.move(BALDO_19, 11, 22)
+  unit.move(BALDO_19, 255, 255)
+  unit.face(BALDO_19, UP_F4)
+  msg(LIANA_02, DOWN_F5, LIANA, FOLLOW, 4)
+# Who is outside ...!?\0
+  msg(BALDO_19, LEON_D5, BALDO, NOFOLLOW, 5)
+# General Leon! The girl we were assigned to bring in is here!\0
+  bgm(ALLY, ENEMY1_LEON)
+  unit.move(LEON_D5, 255, 255)
+  unit.face(BALDO_19, UP_F4)
+  msg(LEON_D5, BALDO_19, LEON, NOFOLLOW, 6)
+# I see. Thank goodness.\0
+  unit.move(LAIRD_18, 255, 255)
+  unit.face(BALDO_19, RIGHT_F7)
+  msg(LAIRD_18, LEON_D5, LAIRD, NOFOLLOW, 7)
+# Let us get this over with. The local Lord's troops must already be on their way.\0
+  msg(LEON_D5, LAIRD_18, LEON, NOFOLLOW, 8)
+# You are probably right ...\0
+  msg(LEON_D5, BALDO_19, LEON, NOFOLLOW, 9)
+# Hurry up, Baldo! If the Salrath Army shows up, this could get messy.\0
+  msg(BALDO_19, RIGHT_F7, BALDO, NOFOLLOW, 10)
+# Understood!\0
+  unit.showSub(BALDO_19)
+  focus.point(9, 25, FAST)
+  unit.showSub(IMPERIALCOMMANDER_2F)
+  focus.point(17, 34, FAST)
+  bgm(ALLY, ALLY2)
+  unit.move(HEIN_05, 255, 255)
+  msg(HEIN_05, UP_F4, HEIN, NOFOLLOW, 11)
+# _NAME_, this is serious!\0
+  unit.move(ERWIN_01, 255, 255)
+  msg(ERWIN_01, DOWN_F5, ERWIN, NOFOLLOW, 12)
+# What's the matter, Hein?\0
+  msg(HEIN_05, UP_F4, HEIN, NOFOLLOW, 13)
+# A detachment of knights from the Rayguard Empire is invading the village!\0
+  msg(ERWIN_01, DOWN_F5, ERWIN, NOFOLLOW, 14)
+# What ...!?\r\nHein! It looks like they are only attacking the outskirts!\r\nIsn't that where you said your childhood friend lives?\0
+  msg(HEIN_05, UP_F4, HEIN, NOFOLLOW, 15)
+# That is right!\r\nShe must already be in terrible danger! Will you lend me a hand?\0
+  msg(ERWIN_01, DOWN_F5, ERWIN, NOFOLLOW, 16)
+# Yes, of course. Let's go!\0
+  cursor.set(ERWIN_01)
+  unit.showSub(ERWIN_01)
+  unit.showSub(HEIN_05)
+  mem.local.sum($0a47d0, $07eb58)
+  mem.local.sum($0a47d0, $07eb59)
+  mem.local.sum($0a47d0, $07eb5a)
+  mem.local.sum($0a47d0, $07eb5b)
+  mem.local.sum($0a47d0, $07eb5c)
+  mem.local.sum($0a47d0, $07eb5d)
+break
 
 lbl_26d:
-screen.talk(HEIN_05, ERWIN_01, HEIN, FOLLOW, 17)
-// This just keeps getting worse. _NAME_!\r\n The Imperial Knights are here to kidnap Liana!\0
-screen.talk(ERWIN_01, HEIN_05, ERWIN, FOLLOW, 18)
-// Why would Rayguard go through so much trouble for just one girl ...?\r\n There is no time to think about that now. We have to hurry and help her!\0
-nop()
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 17)
+# This just keeps getting worse. _NAME_!\r\nThe Imperial Knights are here to kidnap Liana!\0
+  msg(ERWIN_01, HEIN_05, ERWIN, FOLLOW, 18)
+# Why would Rayguard go through so much trouble for just one girl ...?\r\nThere is no time to think about that now. We have to hurry and help her!\0
+break
 
 lbl_27b:
-branch.ifdead(lbl_29b, RIDEL_7F)
-branch.ifdead(lbl_292, EVANZE_80)
-screen.talk(EVANZE_80, RIDEL_7F, PRIEST_WHITE, FOLLOW, 19)
-// Ridel! They are powerful foes indeed!\r\n But no matter how strong they may be, we have to hold them off until His Lordship's troops arrive, ... no matter the cost.\0
-screen.talk(RIDEL_7F, EVANZE_80, FIGHTER_BLACK, FOLLOW, 20)
-// I know ... I will try to hold them back with my spearmen...\r\n It seems the rumours calling them the strongest knights in the land may have some merit after all ...\0
-branch.goto(lbl_298)
-
+  branch.ifdead(lbl_29b, RIDEL_7F)
+  branch.ifdead(lbl_292, EVANZE_80)
+  msg(EVANZE_80, RIDEL_7F, PRIEST_WHITE, FOLLOW, 19)
+# Ridel! They are powerful foes indeed!\r\nBut no matter how strong they may be, we have to hold them off until His Lordship's troops arrive, ... no matter the cost.\0
+  msg(RIDEL_7F, EVANZE_80, FIGHTER_BLACK, FOLLOW, 20)
+# I know ... I will try to hold them back with my spearmen...\r\nIt seems the rumours calling them the strongest knights in the land may have some merit after all ...\0
+  branch.goto(lbl_298)
 lbl_292:
-screen.talk(RIDEL_7F, DOWN_F5, FIGHTER_BLACK, FOLLOW, 21)
-// Evan ... ze--!\0
-
+  msg(RIDEL_7F, DOWN_F5, FIGHTER_BLACK, FOLLOW, 21)
+# Evan ... ze--!\0
 lbl_298:
-branch.goto(lbl_2a5)
-
+  branch.goto(lbl_2a5)
 lbl_29b:
-branch.ifdead(lbl_2a5, EVANZE_80)
-screen.talk(EVANZE_80, RIDEL_7F, PRIEST_WHITE, FOLLOW, 22)
-// Ridel--!\0
-
+  branch.ifdead(lbl_2a5, EVANZE_80)
+  msg(EVANZE_80, RIDEL_7F, PRIEST_WHITE, FOLLOW, 22)
+# Ridel--!\0
 lbl_2a5:
-ram.unit.clearbit(RIDEL_7F, $17, 0)
-ram.unit.clearbit(EVANZE_80, $17, 0)
-nop()
+  mem.unit.clearbit(RIDEL_7F, $17, 0)
+  mem.unit.clearbit(EVANZE_80, $17, 0)
+break
 
 lbl_2af:
-screen.unit.cleanup()
-screen.talk(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 23)
-// I have come to rescue you!\0
-screen.talk(LIANA_02, ERWIN_01, LIANA, FOLLOW, 24)
-// Thank you for your offer, but please, save yourself!\0
-ram.local.sum($0a47d1, $07eb58)
-nop()
+  unit.cleanup()
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 23)
+# I have come to rescue you!\0
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 24)
+# Thank you for your offer, but please, save yourself!\0
+  mem.local.sum($0a47d1, $07eb58)
+break
 
 lbl_2c1:
-screen.unit.cleanup()
-screen.talk(HEIN_05, LIANA_02, HEIN, FOLLOW, 25)
-// I will save you, Liana!\0
-screen.talk(LIANA_02, HEIN_05, LIANA, FOLLOW, 26)
-// Hein! Please do not come any closer! I don't want to see you hurt ...\0
-ram.local.sum($0a47d0, $07eb5f)
-nop()
+  unit.cleanup()
+  msg(HEIN_05, LIANA_02, HEIN, FOLLOW, 25)
+# I will save you, Liana!\0
+  msg(LIANA_02, HEIN_05, LIANA, FOLLOW, 26)
+# Hein! Please do not come any closer! I don't want to see you hurt ...\0
+  mem.local.sum($0a47d0, $07eb5f)
+break
 
 lbl_2d3:
-screen.unit.cleanup()
-branch.ifdead(lbl_2de, LEON_D5)
-screen.talk(LEON_D5, BALDO_19, LEON, FOLLOW, 27)
-// Okay, mission accomplished. Let us head back to the Imperial Capital.\0
-
+  unit.cleanup()
+  branch.ifdead(lbl_2de, LEON_D5)
+  msg(LEON_D5, BALDO_19, LEON, FOLLOW, 27)
+# Okay, mission accomplished. Let us head back to the Imperial Capital.\0
 lbl_2de:
-screen.talk(BALDO_19, ERWIN_01, BALDO, FOLLOW, 28)
-// So, ... you are _NAME_, eh? Well, ... mind your own damn business, kid!\r\n It will be a cold day in hell before you best Baldo in a fight! Ha ha ha!\0
-screen.talk(ERWIN_01, BALDO_19, ERWIN_SAD, FOLLOW, 29)
-// Gah ... This should not have been ... possible--!\0
-branch.gameover()
-nop()
+  msg(BALDO_19, ERWIN_01, BALDO, FOLLOW, 28)
+# So, ... you are _NAME_, eh? Well, ... mind your own damn business, kid!\r\nIt will be a cold day in hell before you best Baldo in a fight! Ha ha ha!\0
+  msg(ERWIN_01, BALDO_19, ERWIN_SAD, FOLLOW, 29)
+# Gah ... This should not have been ... possible--!\0
+  branch.gameover()
+break
 
 lbl_2ed:
-branch.ifdead(lbl_300, HEIN_05)
-screen.talk(HEIN_05, ERWIN_01, HEIN, FOLLOW, 30)
-// I knew it, _NAME_! There can be no more doubt-- the knights are here for Liana!\0
-screen.talk(ERWIN_01, HEIN_05, ERWIN, FOLLOW, 31)
-// So it seems ... Concentrate on attacking their commander, Baldo.\0
-branch.goto(lbl_306)
-
+  branch.ifdead(lbl_300, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 30)
+# I knew it, _NAME_! There can be no more doubt-- the knights are here for Liana!\0
+  msg(ERWIN_01, HEIN_05, ERWIN, FOLLOW, 31)
+# So it seems ... Concentrate on attacking their commander, Baldo.\0
+  branch.goto(lbl_306)
 lbl_300:
-screen.talk(ERWIN_01, HEIN_05, ERWIN, FOLLOW, 32)
-// If things keep going like this, Liana will surely be kidnapped!\r\n Concentrate on attacking their commanding officer, Baldo.\0
-
+  msg(ERWIN_01, HEIN_05, ERWIN, FOLLOW, 32)
+# If things keep going like this, Liana will surely be kidnapped!\r\nConcentrate on attacking their commanding officer, Baldo.\0
 lbl_306:
-nop()
+break
 
 lbl_308:
-branch.ram.global(lbl_326, $0a4794, $07eb5d)
-screen.talk(NULL_00, UP_F4, NULL, NOFOLLOW, 33)
-// You have spotted a clearing in the middle of the woods ...\r\n Inside, a band of cute dwarves are dancing merrily.\r\n One of the dwarves comes out to offer you a berry.\0
-screen.prompt.yesno(lbl_326)
-screen.unit.raisestat(11, 10)
-screen.talk(NULL_00, UP_F4, NULL, NOFOLLOW, 35)
-// Magic Defence raised!\0
-ram.global.sum($0a4794, $07eb5d)
-
+  branch.mem.global(lbl_326, $0a4794, $07eb5d)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 33)
+# You have spotted a clearing in the middle of the woods ...\r\nInside, a band of cute dwarves are dancing merrily.\r\nOne of the dwarves comes out to offer you a berry.\0
+  prompt.yesno(lbl_326)
+  unit.raisestat(11, 10)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 35)
+# Magic Defence raised!\0
+  mem.global.sum($0a4794, $07eb5d)
 lbl_326:
-nop()
+break
 
 lbl_328:
-branch.ram.global(lbl_346, $0a4792, $07eb5a)
-screen.talk(NULL_00, UP_F4, NULL, FOLLOW, 36)
-// A blue potion rests within the open drawer of a chest.\0
-screen.prompt.yesno(lbl_346)
-screen.unit.raisestat(58, 1)
-screen.talk(NULL_00, UP_F4, NULL, FOLLOW, 38)
-// You feel a surge of power!\r\n AT raised by 1 point!\0
-ram.global.sum($0a4792, $07eb5a)
-
+  branch.mem.global(lbl_346, $0a4792, $07eb5a)
+  msg(NULL_00, UP_F4, NULL, FOLLOW, 36)
+# A blue potion rests within the open drawer of a chest.\0
+  prompt.yesno(lbl_346)
+  unit.raisestat(58, 1)
+  msg(NULL_00, UP_F4, NULL, FOLLOW, 38)
+# You feel a surge of power!\r\nAT raised by 1 point!\0
+  mem.global.sum($0a4792, $07eb5a)
 lbl_346:
-nop()
+break
 
 lbl_348:
-ram.local.sub($0a47d0, $07eb5c)
-nop()
+  mem.local.sub($0a47d0, $07eb5c)
+break
 
 lbl_34d:
-screen.talk(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 39)
-// Argh ... Not here ...!\0
-screen.unit.cleanup()
-branch.gameover()
-nop()
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 39)
+# Argh ... Not here ...!\0
+  unit.cleanup()
+  branch.gameover()
+break
 
 lbl_357:
-screen.talk(ERWIN_01, BALDO_19, ERWIN_ANGRY, NOFOLLOW, 40)
-// That is far enough!\0
-branch.exec(lbl_89b)
-screen.talk(LIANA_02, ERWIN_01, LIANA_SAD, NOFOLLOW, 41)
-// Oh no! Stay back! Just forget about me and escape!\r\n Why should those who have nothing to do with me suffer as well?\0
-screen.talk(ERWIN_01, LIANA_02, ERWIN, NOFOLLOW, 42)
-// Wait for me! I will rescue you no matter what.\0
-nop()
+  msg(ERWIN_01, BALDO_19, ERWIN_ANGRY, NOFOLLOW, 40)
+# That is far enough!\0
+  branch.sub(lbl_89b)
+  msg(LIANA_02, ERWIN_01, LIANA_SAD, NOFOLLOW, 41)
+# Oh no! Stay back! Just forget about me and escape!\r\nWhy should those who have nothing to do with me suffer as well?\0
+  msg(ERWIN_01, LIANA_02, ERWIN, NOFOLLOW, 42)
+# Wait for me! I will rescue you no matter what.\0
+break
 
 lbl_36e:
-screen.talk(ERWIN_01, IMPERIALCOMMANDER_2F, ERWIN_ANGRY, NOFOLLOW, 43)
-// I won't let you get away with this!\0
-nop()
+  msg(ERWIN_01, IMPERIALCOMMANDER_2F, ERWIN_ANGRY, NOFOLLOW, 43)
+# I won't let you get away with this!\0
+break
 
 lbl_376:
-screen.talk(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 44)
-// Sorry, _NAME_ ... I was not strong enough. You'll have to rescue Liana alone.\0
-nop()
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 44)
+# Sorry, _NAME_ ... I was not strong enough. You'll have to rescue Liana alone.\0
+break
 
 lbl_37e:
-screen.talk(HEIN_05, LIANA_02, HEIN, NOFOLLOW, 45)
-// Hey, Liana! I am on my way!\0
-screen.talk(LIANA_02, HEIN_05, LIANA_SAD, NOFOLLOW, 46)
-// No, Hein! It is too dangerous! Forget me and save yourself!\0
-branch.exec(lbl_89b)
-nop()
+  msg(HEIN_05, LIANA_02, HEIN, NOFOLLOW, 45)
+# Hey, Liana! I am on my way!\0
+  msg(LIANA_02, HEIN_05, LIANA_SAD, NOFOLLOW, 46)
+# No, Hein! It is too dangerous! Forget me and save yourself!\0
+  branch.sub(lbl_89b)
+break
 
 lbl_38f:
-screen.talk(HEIN_05, IMPERIALCOMMANDER_2F, HEIN_ANGRY, NOFOLLOW, 47)
-// You damned Imperials! Get out of this village!\0
-nop()
+  msg(HEIN_05, IMPERIALCOMMANDER_2F, HEIN_ANGRY, NOFOLLOW, 47)
+# You damned Imperials! Get out of this village!\0
+break
 
 lbl_397:
-screen.unit.retreat(VILLAGER_25)
-nop()
+  unit.retreat(VILLAGER_25)
+break
 
 lbl_39b:
-branch.exec(lbl_8a9)
-nop()
+  branch.sub(lbl_8a9)
+break
 
 lbl_3a0:
-screen.talk(VILLAGER_25, DOWN_F5, VILLAGER_YELLOW, FOLLOW, 48)
-// Help!\0
-branch.ifdead(lbl_3c5, IMPERIALCOMMANDER_2F)
-screen.talk(IMPERIALCOMMANDER_2F, LEON_D5, SWORDSMAN1_GREEN, FOLLOW, 49)
-// General Leon! What should we do with this villager?\r\n Nobody was supposed to discover our actions here.\0
-screen.talk(LEON_D5, IMPERIALCOMMANDER_2F, LEON, FOLLOW, 50)
-// Do not needlessly shed the blood of innocents.\r\n We have not come today to commit murder.\0
-screen.talk(LAIRD_18, IMPERIALCOMMANDER_2F, LAIRD, FOLLOW, 51)
-// Your duty is to arrange for Baldo's safe retreat!\0
-screen.talk(IMPERIALCOMMANDER_2F, LAIRD_18, SWORDSMAN1_GREEN, FOLLOW, 52)
-// Yes, Sir!\0
-branch.goto(lbl_3d7)
-
+  msg(VILLAGER_25, DOWN_F5, VILLAGER_YELLOW, FOLLOW, 48)
+# Help!\0
+  branch.ifdead(lbl_3c5, IMPERIALCOMMANDER_2F)
+  msg(IMPERIALCOMMANDER_2F, LEON_D5, SWORDSMAN1_GREEN, FOLLOW, 49)
+# General Leon! What should we do with this villager?\r\nNobody was supposed to discover our actions here.\0
+  msg(LEON_D5, IMPERIALCOMMANDER_2F, LEON, FOLLOW, 50)
+# Do not needlessly shed the blood of innocents.\r\nWe have not come today to commit murder.\0
+  msg(LAIRD_18, IMPERIALCOMMANDER_2F, LAIRD, FOLLOW, 51)
+# Your duty is to arrange for Baldo's safe retreat!\0
+  msg(IMPERIALCOMMANDER_2F, LAIRD_18, SWORDSMAN1_GREEN, FOLLOW, 52)
+# Yes, Sir!\0
+  branch.goto(lbl_3d7)
 lbl_3c5:
-screen.talk(LEON_D5, LEFT_F6, LEON, FOLLOW, 53)
-// Knights, I am issuing a decree! Such pointless killing is forbidden on our mission.\0
-screen.talk(LEON_D5, VILLAGER_25, LEON, FOLLOW, 54)
-// At ease. Our mission is no to commit murder.\0
-screen.talk(VILLAGER_25, LEON_D5, VILLAGER_YELLOW, FOLLOW, 55)
-// Yes, ... Sir.\0
-
+  msg(LEON_D5, LEFT_F6, LEON, FOLLOW, 53)
+# Knights, I am issuing a decree! Such pointless killing is forbidden on our mission.\0
+  msg(LEON_D5, VILLAGER_25, LEON, FOLLOW, 54)
+# At ease. Our mission is no to commit murder.\0
+  msg(VILLAGER_25, LEON_D5, VILLAGER_YELLOW, FOLLOW, 55)
+# Yes, ... Sir.\0
 lbl_3d7:
-nop()
+break
 
 lbl_3d9:
-screen.talk(BALDO_19, VILLAGER_25, BALDO, NOFOLLOW, 56)
-// Hey, you! Move it! You are in my way!\0
-screen.talk(VILLAGER_25, BALDO_19, VILLAGER_YELLOW, NOFOLLOW, 57)
-// Eeek! Help me!\0
-branch.ifdead(lbl_3ef, LAIRD_18)
-screen.talk(LAIRD_18, BALDO_19, LAIRD, NOFOLLOW, 58)
-// Baldo, wait! You are forbidden to act without orders!\0
-
+  msg(BALDO_19, VILLAGER_25, BALDO, NOFOLLOW, 56)
+# Hey, you! Move it! You are in my way!\0
+  msg(VILLAGER_25, BALDO_19, VILLAGER_YELLOW, NOFOLLOW, 57)
+# Eeek! Help me!\0
+  branch.ifdead(lbl_3ef, LAIRD_18)
+  msg(LAIRD_18, BALDO_19, LAIRD, NOFOLLOW, 58)
+# Baldo, wait! You are forbidden to act without orders!\0
 lbl_3ef:
-screen.focus.set(BALDO_19)
-nop()
+  focus.unit(BALDO_19)
+break
 
 lbl_3f5:
-screen.talk(RIDEL_7F, EVANZE_80, FIGHTER_BLACK, FOLLOW, 59)
-// Evanze, let's go!\0
-screen.talk(EVANZE_80, RIDEL_7F, PRIEST_WHITE, FOLLOW, 60)
-// Yes, it is up to us.\0
-nop()
+  msg(RIDEL_7F, EVANZE_80, FIGHTER_BLACK, FOLLOW, 59)
+# Evanze, let's go!\0
+  msg(EVANZE_80, RIDEL_7F, PRIEST_WHITE, FOLLOW, 60)
+# Yes, it is up to us.\0
+break
 
 lbl_403:
-screen.talk(RIDEL_7F, RIGHT_F7, FIGHTER_BLACK, NOFOLLOW, 61)
-// I will protect this village with my life!\0
-nop()
+  msg(RIDEL_7F, RIGHT_F7, FIGHTER_BLACK, NOFOLLOW, 61)
+# I will protect this village with my life!\0
+break
 
 lbl_40b:
-screen.talk(RIDEL_7F, RIGHT_F7, FIGHTER_BLACK, NOFOLLOW, 62)
-// You dare attack spearmen with cavalry ...? Are you mocking me!?\0
-nop()
+  msg(RIDEL_7F, RIGHT_F7, FIGHTER_BLACK, NOFOLLOW, 62)
+# You dare attack spearmen with cavalry ...? Are you mocking me!?\0
+break
 
 lbl_413:
-screen.talk(RIDEL_7F, DOWN_F5, FIGHTER_BLACK_DEAD, FOLLOW, 63)
-// Evanze ... I am sorry ...\0
-branch.ifdead(lbl_430, EVANZE_80)
-screen.talk(EVANZE_80, RIDEL_7F, PRIEST_WHITE, FOLLOW, 64)
-// Nooo! Ridel, you mustn't die! We had a promise!\r\n You said we'd be together ... forever ...\0
-screen.unit.cleanup()
-screen.talk(EVANZE_80, DOWN_F5, PRIEST_WHITE, FOLLOW, 65)
-// Ridel ...\0
-branch.exec(lbl_8d5)
-branch.goto(lbl_431)
-
+  msg(RIDEL_7F, DOWN_F5, FIGHTER_BLACK_DEAD, FOLLOW, 63)
+# Evanze ... I am sorry ...\0
+  branch.ifdead(lbl_430, EVANZE_80)
+  msg(EVANZE_80, RIDEL_7F, PRIEST_WHITE, FOLLOW, 64)
+# Nooo! Ridel, you mustn't die! We had a promise!\r\nYou said we'd be together ... forever ...\0
+  unit.cleanup()
+  msg(EVANZE_80, DOWN_F5, PRIEST_WHITE, FOLLOW, 65)
+# Ridel ...\0
+  branch.sub(lbl_8d5)
+  branch.goto(lbl_431)
 lbl_430:
-screen.unit.cleanup()
-
+  unit.cleanup()
 lbl_431:
-nop()
+break
 
 lbl_433:
-screen.talk(EVANZE_80, DOWN_F5, PRIEST_WHITE_DEAD, FOLLOW, 66)
-// Shriek--!\0
-branch.ifdead(lbl_468, RIDEL_7F)
-screen.talk(RIDEL_7F, EVANZE_80, FIGHTER_BLACK, FOLLOW, 67)
-// Evanze! Hang on!\0
-screen.unit.face(EVANZE_80, RIDEL_7F)
-screen.talk(EVANZE_80, RIDEL_7F, PRIEST_WHITE_DEAD, FOLLOW, 68)
-// I'm ... so sorry. Please forgive me ...\r\n I couldn't keep ... my promise to be with you ...\0
-screen.talk(RIDEL_7F, EVANZE_80, FIGHTER_BLACK, FOLLOW, 69)
-// What are you saying!? You'll be all right, it is only a small wound!\0
-screen.talk(EVANZE_80, RIDEL_7F, PRIEST_WHITE_DEAD, FOLLOW, 70)
-// Ridel, ...\r\n I ... love you ..., Ri ... del ...\0
-screen.unit.cleanup()
-screen.talk(RIDEL_7F, EVANZE_80, FIGHTER_BLACK, FOLLOW, 71)
-// Evanze!\0
-screen.talk(RIDEL_7F, LEON_D5, FIGHTER_BLACK, NOFOLLOW, 72)
-// Unforgivable ...!\r\n I can never forgive you! I will kill you with my own two hands!\0
-branch.exec(lbl_8d5)
-
+  msg(EVANZE_80, DOWN_F5, PRIEST_WHITE_DEAD, FOLLOW, 66)
+# Shriek--!\0
+  branch.ifdead(lbl_468, RIDEL_7F)
+  msg(RIDEL_7F, EVANZE_80, FIGHTER_BLACK, FOLLOW, 67)
+# Evanze! Hang on!\0
+  unit.face(EVANZE_80, RIDEL_7F)
+  msg(EVANZE_80, RIDEL_7F, PRIEST_WHITE_DEAD, FOLLOW, 68)
+# I'm ... so sorry. Please forgive me ...\r\nI couldn't keep ... my promise to be with you ...\0
+  msg(RIDEL_7F, EVANZE_80, FIGHTER_BLACK, FOLLOW, 69)
+# What are you saying!? You'll be all right, it is only a small wound!\0
+  msg(EVANZE_80, RIDEL_7F, PRIEST_WHITE_DEAD, FOLLOW, 70)
+# Ridel, ...\r\nI ... love you ..., Ri ... del ...\0
+  unit.cleanup()
+  msg(RIDEL_7F, EVANZE_80, FIGHTER_BLACK, FOLLOW, 71)
+# Evanze!\0
+  msg(RIDEL_7F, LEON_D5, FIGHTER_BLACK, NOFOLLOW, 72)
+# Unforgivable ...!\r\nI can never forgive you! I will kill you with my own two hands!\0
+  branch.sub(lbl_8d5)
 lbl_468:
-nop()
+break
 
 lbl_46a:
-branch.ifdead(lbl_47f, LEON_D5)
-screen.unit.cleanup()
-screen.talk(LEON_D5, DOWN_F5, LEON, FOLLOW, 73)
-// All right, let us go and assist Baldo with the girl!\0
-branch.ifdead(lbl_47f, LAIRD_18)
-screen.talk(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 74)
-// Yes, Sir!\0
-
+  branch.ifdead(lbl_47f, LEON_D5)
+  unit.cleanup()
+  msg(LEON_D5, DOWN_F5, LEON, FOLLOW, 73)
+# All right, let us go and assist Baldo with the girl!\0
+  branch.ifdead(lbl_47f, LAIRD_18)
+  msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 74)
+# Yes, Sir!\0
 lbl_47f:
-ram.unit.setbit(LEON_D5, $17, 1)
-ram.unit.setbyte(LEON_D5, $21, 0x01)
-ram.unit.setbit(LAIRD_18, $17, 1)
-ram.unit.setbyte(LAIRD_18, $21, 0x01)
-nop()
+  mem.unit.setbit(LEON_D5, $17, 1)
+  mem.unit.setbyte(LEON_D5, $21, 0x01)
+  mem.unit.setbit(LAIRD_18, $17, 1)
+  mem.unit.setbyte(LAIRD_18, $21, 0x01)
+break
 
 lbl_491:
-screen.talk(LEON_D5, LAIRD_18, LEON, FOLLOW, 75)
-// Laird, follow me! I will sweep out the enemy!\0
-screen.talk(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 76)
-// Understood!\0
-screen.unit.showSub(LAIRD_18)
-nop()
+  msg(LEON_D5, LAIRD_18, LEON, FOLLOW, 75)
+# Laird, follow me! I will sweep out the enemy!\0
+  msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 76)
+# Understood!\0
+  unit.showSub(LAIRD_18)
+break
 
 lbl_4a1:
-screen.talk(LEON_D5, DOWN_F5, LEON_DEAD, FOLLOW, 77)
-// Im, impossible!\r\n How can I, the leader of the Blue Dragon Knights, possibly lose?\0
-ram.local.sum($0a47d3, $07eb5e)
-ram.global.sum($0a4788, $07eb5a)
-nop()
+  msg(LEON_D5, DOWN_F5, LEON_DEAD, FOLLOW, 77)
+# Im, impossible!\r\nHow can I, the leader of the Blue Dragon Knights, possibly lose?\0
+  mem.local.sum($0a47d3, $07eb5e)
+  mem.global.sum($0a4788, $07eb5a)
+break
 
 lbl_4af:
-screen.talk(ERWIN_01, LEON_D5, ERWIN_ANGRY, NOFOLLOW, 78)
-// Why? Why do the Blue Dragon Knights pursue this one village girl?\0
-screen.talk(LEON_D5, ERWIN_01, LEON, NOFOLLOW, 79)
-// We shall not divulge our mission's purpose to those not involved.\0
-screen.talk(ERWIN_01, LEON_D5, ERWIN_ANGRY, NOFOLLOW, 80)
-// I've heard not only that the Blue Dragon Knights are the strongest in the land ...\r\n but also that they value chivalry above all else! Why now do you engage in such a contemptible act!?\0
-branch.ifdead(lbl_4ce, LAIRD_18)
-screen.talk(LAIRD_18, ERWIN_01, LAIRD, NOFOLLOW, 186)
-// Be silent! I cannot bear your ignorance!\r\n The General does not undertake this mission of his own volition!\r\n We act today only due to a direct order from Kaiser Bernhardt himself!\0
-branch.goto(lbl_4d4)
-
+  msg(ERWIN_01, LEON_D5, ERWIN_ANGRY, NOFOLLOW, 78)
+# Why? Why do the Blue Dragon Knights pursue this one village girl?\0
+  msg(LEON_D5, ERWIN_01, LEON, NOFOLLOW, 79)
+# We shall not divulge our mission's purpose to those not involved.\0
+  msg(ERWIN_01, LEON_D5, ERWIN_ANGRY, NOFOLLOW, 80)
+# I've heard not only that the Blue Dragon Knights are the strongest in the land ...\r\nbut also that they value chivalry above all else! Why now do you engage in such a contemptible act!?\0
+  branch.ifdead(lbl_4ce, LAIRD_18)
+  msg(LAIRD_18, ERWIN_01, LAIRD, NOFOLLOW, 186)
+# Be silent! I cannot bear your ignorance!\r\nThe General does not undertake this mission of his own volition!\r\nWe act today only due to a direct order from Kaiser Bernhardt himself!\0
+  branch.goto(lbl_4d4)
 lbl_4ce:
-screen.talk(LAIRD_18, ERWIN_01, LAIRD_DEAD, NOFOLLOW, 186)
-// Be silent! I cannot bear your ignorance!\r\n The General does not undertake this mission of his own volition!\r\n We act today only due to a direct order from Kaiser Bernhardt himself!\0
-
+  msg(LAIRD_18, ERWIN_01, LAIRD_DEAD, NOFOLLOW, 186)
+# Be silent! I cannot bear your ignorance!\r\nThe General does not undertake this mission of his own volition!\r\nWe act today only due to a direct order from Kaiser Bernhardt himself!\0
 lbl_4d4:
-branch.exec(lbl_8a2)
-nop()
+  branch.sub(lbl_8a2)
+break
 
 lbl_4d9:
-ram.local.sub($0a47d0, $07eb5d)
-nop()
+  mem.local.sub($0a47d0, $07eb5d)
+break
 
 lbl_4de:
-screen.talk(LAIRD_18, DOWN_F5, LAIRD, FOLLOW, 81)
-// Keep going, General!\0
-screen.talk(LEON_D5, LAIRD_18, LEON, FOLLOW, 82)
-// Be careful, Laird. The enemy units wield spears.\0
-screen.talk(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 83)
-// I'll pierce through their ranks with a wave-patterned attack, then target their commander.\0
-screen.talk(LEON_D5, LAIRD_18, LEON, NOFOLLOW, 84)
-// Do your best.\0
-nop()
+  msg(LAIRD_18, DOWN_F5, LAIRD, FOLLOW, 81)
+# Keep going, General!\0
+  msg(LEON_D5, LAIRD_18, LEON, FOLLOW, 82)
+# Be careful, Laird. The enemy units wield spears.\0
+  msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 83)
+# I'll pierce through their ranks with a wave-patterned attack, then target their commander.\0
+  msg(LEON_D5, LAIRD_18, LEON, NOFOLLOW, 84)
+# Do your best.\0
+break
 
 lbl_4f8:
-screen.talk(LAIRD_18, LEON_D5, LAIRD_DEAD, FOLLOW, 85)
-// General Leon!\0
-branch.ifdead(lbl_508, LEON_D5)
-screen.talk(LEON_D5, LAIRD_18, LEON, FOLLOW, 86)
-// Do not be foolhardy! I'll handle the rest!\0
-
+  msg(LAIRD_18, LEON_D5, LAIRD_DEAD, FOLLOW, 85)
+# General Leon!\0
+  branch.ifdead(lbl_508, LEON_D5)
+  msg(LEON_D5, LAIRD_18, LEON, FOLLOW, 86)
+# Do not be foolhardy! I'll handle the rest!\0
 lbl_508:
-ram.global.sum($0a4788, $07eb5a)
-nop()
+  mem.global.sum($0a4788, $07eb5a)
+break
 
 lbl_50d:
-screen.talk(LAIRD_18, RIDEL_7F, LAIRD, NOFOLLOW, 87)
-// Pathetic! More than spears are needed to turn the Blue Dragon Knights!\0
-screen.talk(RIDEL_7F, LAIRD_18, FIGHTER_BLACK, NOFOLLOW, 88)
-// Oh, really ...? Then Sir, allow me to test your boast!\0
-ram.unit.clearbit(LEON_D5, $17, 1)
-ram.unit.clearbit(LEON_D5, $17, 5)
-nop()
+  msg(LAIRD_18, RIDEL_7F, LAIRD, NOFOLLOW, 87)
+# Pathetic! More than spears are needed to turn the Blue Dragon Knights!\0
+  msg(RIDEL_7F, LAIRD_18, FIGHTER_BLACK, NOFOLLOW, 88)
+# Oh, really ...? Then Sir, allow me to test your boast!\0
+  mem.unit.clearbit(LEON_D5, $17, 1)
+  mem.unit.clearbit(LEON_D5, $17, 5)
+break
 
 lbl_523:
-screen.talk(BALDO_19, LIANA_02, BALDO, FOLLOW, 89)
-// You must be Lady Liana.\r\n I ask you come with us quietly to the Imperial Capital. No one needs to be harmed.\0
-screen.talk(LIANA_02, BALDO_19, LIANA, FOLLOW, 90)
-// Wh, what ... do you want with me?\0
-screen.talk(LEON_D5, LIANA_02, LEON, FOLLOW, 91)
-// I apologise for the suddenness of our arrival.\r\n I am Leon, the commander of the Rayguard Empire's Blue Dragon Knights. I was sent to retrieve you.\0
-screen.talk(LIANA_02, LEON_D5, LIANA, FOLLOW, 92)
-// Me ...?\0
-screen.talk(LEON_D5, LIANA_02, LEON, NOFOLLOW, 93)
-// His Majesty, the great Kaiser Bernhardt, waits for you at the Imperial Capital.\r\n I shall be your escort.\0
-screen.talk(LIANA_02, LEON_D5, LIANA, FOLLOW, 94)
-// Do you promise you will leave the villagers alone if I follow quietly?\0
-screen.talk(LEON_D5, LIANA_02, LEON, FOLLOW, 95)
-// Of course. It is already dishonourable to be seen kidnapping a woman.\r\n I have no intention of further shaming ourselves by killing defenceless people.\r\n However, those who would bear arms against us shall forfeit this assurance of safety.\0
-screen.talk(LIANA_02, LEON_D5, LIANA_SAD, FOLLOW, 96)
-// I understand ... Then under these conditions I will follow you.\0
-screen.talk(LEON_D5, LIANA_02, LEON, FOLLOW, 97)
-// I am sorry for all this ... Thank you for your cooperation in this matter.\0
-nop()
+  msg(BALDO_19, LIANA_02, BALDO, FOLLOW, 89)
+# You must be Lady Liana.\r\nI ask you come with us quietly to the Imperial Capital. No one needs to be harmed.\0
+  msg(LIANA_02, BALDO_19, LIANA, FOLLOW, 90)
+# Wh, what ... do you want with me?\0
+  msg(LEON_D5, LIANA_02, LEON, FOLLOW, 91)
+# I apologise for the suddenness of our arrival.\r\nI am Leon, the commander of the Rayguard Empire's Blue Dragon Knights. I was sent to retrieve you.\0
+  msg(LIANA_02, LEON_D5, LIANA, FOLLOW, 92)
+# Me ...?\0
+  msg(LEON_D5, LIANA_02, LEON, NOFOLLOW, 93)
+# His Majesty, the great Kaiser Bernhardt, waits for you at the Imperial Capital.\r\nI shall be your escort.\0
+  msg(LIANA_02, LEON_D5, LIANA, FOLLOW, 94)
+# Do you promise you will leave the villagers alone if I follow quietly?\0
+  msg(LEON_D5, LIANA_02, LEON, FOLLOW, 95)
+# Of course. It is already dishonourable to be seen kidnapping a woman.\r\nI have no intention of further shaming ourselves by killing defenceless people.\r\nHowever, those who would bear arms against us shall forfeit this assurance of safety.\0
+  msg(LIANA_02, LEON_D5, LIANA_SAD, FOLLOW, 96)
+# I understand ... Then under these conditions I will follow you.\0
+  msg(LEON_D5, LIANA_02, LEON, FOLLOW, 97)
+# I am sorry for all this ... Thank you for your cooperation in this matter.\0
+break
 
 lbl_55b:
-screen.talk(BALDO_19, LIANA_02, BALDO, FOLLOW, 98)
-// Let's go, little girl! Hurry up and follow me!\0
-nop()
+  msg(BALDO_19, LIANA_02, BALDO, FOLLOW, 98)
+# Let's go, little girl! Hurry up and follow me!\0
+break
 
 lbl_563:
-screen.talk(BALDO_19, DOWN_F5, BALDO, FOLLOW, 99)
-// Sigh ... A mission without swordplay is just ever so dull ...\r\n Maybe I can have some fun with the young ladies over there!\0
-screen.talk(LIANA_02, BALDO_19, LIANA_ANGRY, FOLLOW, 100)
-// Stop it! You promised you would not hurt any of them!\0
-screen.talk(BALDO_19, LIANA_02, BALDO, FOLLOW, 101)
-// Shut up, bitch!\r\n Now that we have you under arrest, that "promise" is meaningless!\r\n Ha ha ha!\0
-ram.local.sub($0a47d0, $07eb59)
-nop()
+  msg(BALDO_19, DOWN_F5, BALDO, FOLLOW, 99)
+# Sigh ... A mission without swordplay is just ever so dull ...\r\nMaybe I can have some fun with the young ladies over there!\0
+  msg(LIANA_02, BALDO_19, LIANA_ANGRY, FOLLOW, 100)
+# Stop it! You promised you would not hurt any of them!\0
+  msg(BALDO_19, LIANA_02, BALDO, FOLLOW, 101)
+# Shut up, bitch!\r\nNow that we have you under arrest, that "promise" is meaningless!\r\nHa ha ha!\0
+  mem.local.sub($0a47d0, $07eb59)
+break
 
 lbl_57a:
-screen.unit.cleanup()
-screen.talk(LEON_D5, BALDO_19, LEON, FOLLOW, 102)
-// Well then, ... let us take her back to headquarters.\r\n However ... Baldo, you would do well to be polite to her.\0
-screen.talk(BALDO_19, LEON_D5, BALDO, FOLLOW, 103)
-// Yes, Sir--! I will take care from now on.\0
-sound.setBGM(ENEMY, ENEMY1_LEON)
-screen.unit.deploy(RIDEL_7F, 8, 3)
-screen.unit.deploy(EVANZE_80, 16, 2)
-screen.talk(RIDEL_7F, LEON_D5, FIGHTER_BLACK, FOLLOW, 104)
-// Halt! You cannot do as you please in this village!\0
-screen.talk(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 105)
-// General Leon! The local militia has come!\0
-screen.talk(LEON_D5, UP_F4, LEON, FOLLOW, 106)
-// How quickly ... But it matters not. Continue the mission as planned!\0
-screen.talk(RIDEL_7F, LEON_D5, FIGHTER_BLACK, FOLLOW, 107)
-// You dare to mock us!? I will make you regret ever violating our village's peace!\0
-screen.talk(LEON_D5, RIDEL_7F, LEON, FOLLOW, 108)
-// Sigh ... Such foolishness ...\0
-nop()
+  unit.cleanup()
+  msg(LEON_D5, BALDO_19, LEON, FOLLOW, 102)
+# Well then, ... let us take her back to headquarters.\r\nHowever ... Baldo, you would do well to be polite to her.\0
+  msg(BALDO_19, LEON_D5, BALDO, FOLLOW, 103)
+# Yes, Sir--! I will take care from now on.\0
+  bgm(ENEMY, ENEMY1_LEON)
+  unit.deploy(RIDEL_7F, 8, 3)
+  unit.deploy(EVANZE_80, 16, 2)
+  msg(RIDEL_7F, LEON_D5, FIGHTER_BLACK, FOLLOW, 104)
+# Halt! You cannot do as you please in this village!\0
+  msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 105)
+# General Leon! The local militia has come!\0
+  msg(LEON_D5, UP_F4, LEON, FOLLOW, 106)
+# How quickly ... But it matters not. Continue the mission as planned!\0
+  msg(RIDEL_7F, LEON_D5, FIGHTER_BLACK, FOLLOW, 107)
+# You dare to mock us!? I will make you regret ever violating our village's peace!\0
+  msg(LEON_D5, RIDEL_7F, LEON, FOLLOW, 108)
+# Sigh ... Such foolishness ...\0
+break
 
 lbl_5b2:
-screen.unit.cleanup()
-screen.talk(BALDO_19, LIANA_02, BALDO, FOLLOW, 109)
-// Come on, get over here!\0
-screen.talk(LIANA_02, BALDO_19, LIANA, FOLLOW, 110)
-// Ouch! I'll follow, but please do not pull so roughly!\0
-screen.talk(BALDO_19, LIANA_02, BALDO, NOFOLLOW, 111)
-// God damn, you're quite the impudent little wench--!\r\n Damn it all! The things I have to put up with on these missions ...\0
-ram.local.sub($0a47d0, $07eb5a)
-ram.unit.clearbit(LIANA_02, $17, 0)
-ram.unit.setbit(LIANA_02, $17, 3)
-ram.unit.setbyte(LIANA_02, $2c, 0x19)
-ram.unit.setbyte(LIANA_02, $2d, 0x00)
-ram.unit.clearbit(BALDO_19, $17, 7)
-ram.unit.clearbit(BALDO_19, $17, 2)
-ram.unit.setbit(BALDO_19, $17, 0)
-ram.unit.setbyte(BALDO_19, $22, 0x0c)
-ram.unit.setbyte(BALDO_19, $23, 0x2a)
-ram.unit.setbit(VILLAGER_25, $17, 5)
-ram.local.sub($0a47d0, $07eb58)
-nop()
+  unit.cleanup()
+  msg(BALDO_19, LIANA_02, BALDO, FOLLOW, 109)
+# Come on, get over here!\0
+  msg(LIANA_02, BALDO_19, LIANA, FOLLOW, 110)
+# Ouch! I'll follow, but please do not pull so roughly!\0
+  msg(BALDO_19, LIANA_02, BALDO, NOFOLLOW, 111)
+# God damn, you're quite the impudent little wench--!\r\nDamn it all! The things I have to put up with on these missions ...\0
+  mem.local.sub($0a47d0, $07eb5a)
+  mem.unit.clearbit(LIANA_02, $17, 0)
+  mem.unit.setbit(LIANA_02, $17, 3)
+  mem.unit.setbyte(LIANA_02, $2c, 0x19)
+  mem.unit.setbyte(LIANA_02, $2d, 0x00)
+  mem.unit.clearbit(BALDO_19, $17, 7)
+  mem.unit.clearbit(BALDO_19, $17, 2)
+  mem.unit.setbit(BALDO_19, $17, 0)
+  mem.unit.setbyte(BALDO_19, $22, 0x0c)
+  mem.unit.setbyte(BALDO_19, $23, 0x2a)
+  mem.unit.setbit(VILLAGER_25, $17, 5)
+  mem.local.sub($0a47d0, $07eb58)
+break
 
 lbl_5f5:
-screen.talk(BALDO_19, LEFT_F6, BALDO, NOFOLLOW, 112)
-// You must be stupid to pick a fight with Baldo, kid!\r\n You have no idea who you're going up against!\r\n I am going to enjoy playing with you!\0
-nop()
+  msg(BALDO_19, LEFT_F6, BALDO, NOFOLLOW, 112)
+# You must be stupid to pick a fight with Baldo, kid!\r\nYou have no idea who you're going up against!\r\nI am going to enjoy playing with you!\0
+break
 
 lbl_5fd:
-screen.talk(BALDO_19, DOWN_F5, BALDO_DEAD, FOLLOW, 113)
-// Impossible ... G, General Leon!\0
-screen.unit.cleanup()
-branch.ifdead(lbl_639, LEON_D5)
-branch.ifdead(lbl_633, LAIRD_18)
-screen.talk(LEON_D5, BALDO_19, LEON, FOLLOW, 114)
-// What!? How is it possible ... Baldo has been ... bested?\0
-screen.talk(LEON_D5, LAIRD_18, LEON, FOLLOW, 115)
-// Laird!\0
-screen.talk(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 116)
-// Yes, Sir!\0
-screen.talk(LEON_D5, LAIRD_18, LEON, FOLLOW, 117)
-// We must leave immediately and escort the girl ourselves.\r\n She must be brought to the Imperial Capital without fail.\0
-screen.talk(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 118)
-// Yes, Sir!\0
-screen.unit.face(LEON_D5, LIANA_02)
-screen.unit.face(LAIRD_18, LIANA_02)
-branch.goto(lbl_639)
-
+  msg(BALDO_19, DOWN_F5, BALDO_DEAD, FOLLOW, 113)
+# Impossible ... G, General Leon!\0
+  unit.cleanup()
+  branch.ifdead(lbl_639, LEON_D5)
+  branch.ifdead(lbl_633, LAIRD_18)
+  msg(LEON_D5, BALDO_19, LEON, FOLLOW, 114)
+# What!? How is it possible ... Baldo has been ... bested?\0
+  msg(LEON_D5, LAIRD_18, LEON, FOLLOW, 115)
+# Laird!\0
+  msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 116)
+# Yes, Sir!\0
+  msg(LEON_D5, LAIRD_18, LEON, FOLLOW, 117)
+# We must leave immediately and escort the girl ourselves.\r\nShe must be brought to the Imperial Capital without fail.\0
+  msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 118)
+# Yes, Sir!\0
+  unit.face(LEON_D5, LIANA_02)
+  unit.face(LAIRD_18, LIANA_02)
+  branch.goto(lbl_639)
 lbl_633:
-screen.talk(LEON_D5, LIANA_02, LEON, FOLLOW, 119)
-// What!? How could we have failed?\0
-
+  msg(LEON_D5, LIANA_02, LEON, FOLLOW, 119)
+# What!? How could we have failed?\0
 lbl_639:
-sound.setBGM(ALLY, ALLYREINFORCEMENT1)
-screen.unit.deploy(LOREN_2B, 11, 1)
-screen.unit.deploy(COMMANDER_21, 14, 1)
-screen.unit.deploy(COMMANDER_22, 9, 3)
-screen.unit.deploy(SCOTT_06, 15, 3)
-branch.ifalive(lbl_66d, LEON_D5)
-branch.ifalive(lbl_66a, LAIRD_18)
-branch.ifalive(lbl_66a, IMPERIALCOMMANDER_2F)
-screen.talk(LOREN_2B, DOWN_F5, LOREN, FOLLOW, 120)
-// I came as soon as I received word of the trouble here ...\r\n What in Lushiris' name ...!?\0
-screen.talk(SCOTT_06, LOREN_2B, SCOTT, FOLLOW, 121)
-// Amazing ...!\r\n The Blue Dragon Knights have been completely defeated by those young men!\0
-screen.talk(LOREN_2B, DOWN_F5, LOREN, FOLLOW, 122)
-// Thank goodness. It seems I was a little late.\0
-
+  bgm(ALLY, ALLYREINFORCEMENT1)
+  unit.deploy(LOREN_2B, 11, 1)
+  unit.deploy(COMMANDER_21, 14, 1)
+  unit.deploy(COMMANDER_22, 9, 3)
+  unit.deploy(SCOTT_06, 15, 3)
+  branch.ifalive(lbl_66d, LEON_D5)
+  branch.ifalive(lbl_66a, LAIRD_18)
+  branch.ifalive(lbl_66a, IMPERIALCOMMANDER_2F)
+  msg(LOREN_2B, DOWN_F5, LOREN, FOLLOW, 120)
+# I came as soon as I received word of the trouble here ...\r\nWhat in Lushiris' name ...!?\0
+  msg(SCOTT_06, LOREN_2B, SCOTT, FOLLOW, 121)
+# Amazing ...!\r\nThe Blue Dragon Knights have been completely defeated by those young men!\0
+  msg(LOREN_2B, DOWN_F5, LOREN, FOLLOW, 122)
+# Thank goodness. It seems I was a little late.\0
 lbl_66a:
-branch.goto(lbl_679)
-
+  branch.goto(lbl_679)
 lbl_66d:
-screen.talk(LOREN_2B, DOWN_F5, LOREN, FOLLOW, 123)
-// I am responsible for the welfare of the men and women in my territory.\0
-screen.talk(SCOTT_06, LOREN_2B, SCOTT, FOLLOW, 124)
-// We must drive out the Imperial Knights!\0
-
+  msg(LOREN_2B, DOWN_F5, LOREN, FOLLOW, 123)
+# I am responsible for the welfare of the men and women in my territory.\0
+  msg(SCOTT_06, LOREN_2B, SCOTT, FOLLOW, 124)
+# We must drive out the Imperial Knights!\0
 lbl_679:
-branch.ifdead(lbl_683, HEIN_05)
-screen.talk(HEIN_05, LOREN_2B, HEIN, FOLLOW, 125)
-// It's the local Lord's army!\0
-
+  branch.ifdead(lbl_683, HEIN_05)
+  msg(HEIN_05, LOREN_2B, HEIN, FOLLOW, 125)
+# It's the local Lord's army!\0
 lbl_683:
-branch.ifdead(lbl_6a6, LAIRD_18)
-branch.ifdead(lbl_6a0, LEON_D5)
-screen.talk(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 126)
-// Enemy reinforcements have arrived!\0
-screen.talk(LEON_D5, LAIRD_18, LEON, FOLLOW, 127)
-// What horrible timing ... We have no choice but to retreat for now!\0
-screen.talk(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 128)
-// As you command, Sir.\0
-branch.goto(lbl_6a6)
-
+  branch.ifdead(lbl_6a6, LAIRD_18)
+  branch.ifdead(lbl_6a0, LEON_D5)
+  msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 126)
+# Enemy reinforcements have arrived!\0
+  msg(LEON_D5, LAIRD_18, LEON, FOLLOW, 127)
+# What horrible timing ... We have no choice but to retreat for now!\0
+  msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 128)
+# As you command, Sir.\0
+  branch.goto(lbl_6a6)
 lbl_6a0:
-screen.talk(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 129)
-// The enemy's reinforcements have arrived!?\r\n This doesn't look good. We must retreat!\0
-
+  msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 129)
+# The enemy's reinforcements have arrived!?\r\nThis doesn't look good. We must retreat!\0
 lbl_6a6:
-screen.unit.retreat(IMPERIALCOMMANDER_2F)
-screen.unit.retreat(LAIRD_18)
-branch.ifdead(lbl_6b4, LEON_D5)
-screen.talk(LEON_D5, LIANA_02, LEON, FOLLOW, 130)
-// Lady Liana ... We shall be returning to finish this.\0
-
+  unit.retreat(IMPERIALCOMMANDER_2F)
+  unit.retreat(LAIRD_18)
+  branch.ifdead(lbl_6b4, LEON_D5)
+  msg(LEON_D5, LIANA_02, LEON, FOLLOW, 130)
+# Lady Liana ... We shall be returning to finish this.\0
 lbl_6b4:
-screen.unit.retreat(LEON_D5)
-scenario.clear()
-screen.talk(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 131)
-// It seems to be over.\0
-screen.talk(LIANA_02, ERWIN_01, LIANA, FOLLOW, 132)
-// Thank you for helping me, Sir swordsman.\r\n I am Liana, a priestess from the Shrine of Light. What is your name?\0
-screen.talk(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 133)
-// My name is _NAME_. I am on an aimless journey.\0
-screen.talk(LIANA_02, ERWIN_01, LIANA, FOLLOW, 134)
-// Lord _NAME_, my most sincere thanks to you.\r\n I know not if I was worth your rescue effort, but I really do appreciate it ...\0
-screen.talk(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 135)
-// You really don't have to say such things ... Anyway, are you hurt?\0
-screen.talk(LIANA_02, ERWIN_01, LIANA, FOLLOW, 136)
-// No, ... I'm all right.\r\n I should be the one asking you, Lord _NAME_, if you have been injured--\0
-screen.talk(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 137)
-// I'm fine, Lady Liana.\r\n You needn't call me "Lord _NAME_." I've never been much for formality.\r\n Just call me _NAME_.\0
-screen.talk(LIANA_02, ERWIN_01, LIANA, FOLLOW, 138)
-// Well then, you can call me Liana.\0
-branch.ifdead(lbl_6f7, HEIN_05)
-screen.talk(HEIN_05, ERWIN_01, HEIN, FOLLOW, 139)
-// You were amazing out there, _NAME_!\0
-screen.talk(LIANA_02, HEIN_05, LIANA, FOLLOW, 140)
-// Hein, I want to thank you for your help, too.\0
-
+  unit.retreat(LEON_D5)
+  scenarioclear()
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 131)
+# It seems to be over.\0
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 132)
+# Thank you for helping me, Sir swordsman.\r\nI am Liana, a priestess from the Shrine of Light. What is your name?\0
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 133)
+# My name is _NAME_. I am on an aimless journey.\0
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 134)
+# Lord _NAME_, my most sincere thanks to you.\r\nI know not if I was worth your rescue effort, but I really do appreciate it ...\0
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 135)
+# You really don't have to say such things ... Anyway, are you hurt?\0
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 136)
+# No, ... I'm all right.\r\nI should be the one asking you, Lord _NAME_, if you have been injured--\0
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 137)
+# I'm fine, Lady Liana.\r\nYou needn't call me "Lord _NAME_." I've never been much for formality.\r\nJust call me _NAME_.\0
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 138)
+# Well then, you can call me Liana.\0
+  branch.ifdead(lbl_6f7, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 139)
+# You were amazing out there, _NAME_!\0
+  msg(LIANA_02, HEIN_05, LIANA, FOLLOW, 140)
+# Hein, I want to thank you for your help, too.\0
 lbl_6f7:
-screen.talk(LOREN_2B, ERWIN_01, LOREN, FOLLOW, 141)
-// Well everyone, I'm glad to hear that none of you were harmed.\r\n But it's too soon to rest easy. The Knights will surely return to finish what they began.\r\n You'll have to take refuge with me in Salrath for your own sake as well as that of the villagers.\0
-screen.talk(ERWIN_01, LOREN_2B, ERWIN, FOLLOW, 142)
-// His Lordship is right. Let us depart immediately.\0
-branch.ram.global(lbl_73c, $0a4792, $07eb5b)
-branch.ifdead(lbl_73c, RIDEL_7F)
-branch.ifdead(lbl_73c, EVANZE_80)
-screen.talk(RIDEL_7F, ERWIN_01, FIGHTER_BLACK, FOLLOW, 143)
-// Wait a moment! I am sorry I wasn't able to provide better support ...\0
-screen.talk(ERWIN_01, RIDEL_7F, ERWIN, FOLLOW, 144)
-// That's not true. We could never have won if you hadn't drawn the cavalry's attention.\0
-screen.talk(RIDEL_7F, ERWIN_01, FIGHTER_BLACK, FOLLOW, 145)
-// Your words are very kind, good Sir _NAME_.\r\n I know not what to say. Please take this with you as a token of my gratitude.\0
-ram.money.add(100)
-screen.talk(NULL_00, UP_F4, NULL, NOFOLLOW, 146)
-// _NAME_ was handed 100P.\0
-screen.talk(ERWIN_01, RIDEL_7F, ERWIN, FOLLOW, 147)
-// Thank you, I appreciate it.\0
-screen.talk(RIDEL_7F, ERWIN_01, FIGHTER_BLACK, FOLLOW, 148)
-// The world is a dangerous place. It's always better to have some extra money.\0
-screen.talk(ERWIN_01, RIDEL_7F, ERWIN, FOLLOW, 149)
-// I guess so ...\0
-
+  msg(LOREN_2B, ERWIN_01, LOREN, FOLLOW, 141)
+# Well everyone, I'm glad to hear that none of you were harmed.\r\nBut it's too soon to rest easy. The Knights will surely return to finish what they began.\r\nYou'll have to take refuge with me in Salrath for your own sake as well as that of the villagers.\0
+  msg(ERWIN_01, LOREN_2B, ERWIN, FOLLOW, 142)
+# His Lordship is right. Let us depart immediately.\0
+  branch.mem.global(lbl_73c, $0a4792, $07eb5b)
+  branch.ifdead(lbl_73c, RIDEL_7F)
+  branch.ifdead(lbl_73c, EVANZE_80)
+  msg(RIDEL_7F, ERWIN_01, FIGHTER_BLACK, FOLLOW, 143)
+# Wait a moment! I am sorry I wasn't able to provide better support ...\0
+  msg(ERWIN_01, RIDEL_7F, ERWIN, FOLLOW, 144)
+# That's not true. We could never have won if you hadn't drawn the cavalry's attention.\0
+  msg(RIDEL_7F, ERWIN_01, FIGHTER_BLACK, FOLLOW, 145)
+# Your words are very kind, good Sir _NAME_.\r\nI know not what to say. Please take this with you as a token of my gratitude.\0
+  mem.money.add(100)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 146)
+# _NAME_ was handed 100P.\0
+  msg(ERWIN_01, RIDEL_7F, ERWIN, FOLLOW, 147)
+# Thank you, I appreciate it.\0
+  msg(RIDEL_7F, ERWIN_01, FIGHTER_BLACK, FOLLOW, 148)
+# The world is a dangerous place. It's always better to have some extra money.\0
+  msg(ERWIN_01, RIDEL_7F, ERWIN, FOLLOW, 149)
+# I guess so ...\0
 lbl_73c:
-branch.ifdead(lbl_74f, HEIN_05)
-screen.talk(HEIN_05, ERWIN_01, HEIN, FOLLOW, 150)
-// Well then, let's be on our way. It's getting dark, and my stomach is already growling!\0
-screen.talk(LIANA_02, HEIN_05, LIANA, FOLLOW, 151)
-// Hein ...!\0
-branch.goto(lbl_755)
-
+  branch.ifdead(lbl_74f, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 150)
+# Well then, let's be on our way. It's getting dark, and my stomach is already growling!\0
+  msg(LIANA_02, HEIN_05, LIANA, FOLLOW, 151)
+# Hein ...!\0
+  branch.goto(lbl_755)
 lbl_74f:
-screen.talk(ERWIN_01, LOREN_2B, ERWIN, FOLLOW, 152)
-// Very well then, let us be off.\0
-
+  msg(ERWIN_01, LOREN_2B, ERWIN, FOLLOW, 152)
+# Very well then, let us be off.\0
 lbl_755:
-screen.talk(SCOTT_06, ERWIN_01, SCOTT, FOLLOW, 153)
-// I shall guide you to our manor.\0
-screen.fadeOut(1)
-screen.focus.set(5, 3, FAST)
-screen.cursor.set(NULL_00)
-screen.cusor.visible(FALSE)
-screen.unit.retreat(ERWIN_01)
-screen.unit.retreat(HEIN_05)
-screen.unit.retreat(LIANA_02)
-screen.map(15)
-screen.hideAllUnits()
-screen.unit.deploy(ERWIN_01, 1, 1)
-screen.cursor.set(ERWIN_01)
-screen.unit.move(ERWIN_01, 15, 31)
-screen.unit.face(ERWIN_01, DOWN_F5)
-screen.cursor.set(ERWIN_01)
-screen.focus.set(15, 34, FAST)
-screen.cursor.set(NULL_00)
-screen.mask(13, 13, 13)
-screen.fadeIn(4)
-sound.setBGM(ALLY, NIGHT)
-screen.unit.move(ERWIN_01, 15, 36)
-screen.talk(ERWIN_01, DOWN_F5, ERWIN, NOFOLLOW, 154)
-// Such a quiet night ... I dreamt of intense, endless battle ...\r\n Was Liana really the target of the Blue Dragon Knights today?\r\n The Knights are said to be the strongest force of the Rayguard Empire.\r\n Why is Liana so important to them ...? Why did I go out of my way to rescue her from the Imperials?\r\n Is she ... important to me?\0
-sound.setBGM(ALLY, LIANA)
-screen.unit.deploy(LIANA_02, 16, 29)
-screen.unit.move(LIANA_02, 16, 32)
-screen.talk(LIANA_02, ERWIN_01, LIANA, NOFOLLOW, 155)
-// Unable to sleep, Lord _NAME_?\0
-screen.unit.move(LIANA_02, 16, 36)
-screen.unit.face(LIANA_02, LEFT_F6)
-screen.talk(ERWIN_01, LIANA_02, ERWIN, NOFOLLOW, 156)
-// Yeah, ... I was worried about what happened earlier today.\r\n I can't help think that something terrible has begun ... It's a strange feeling ...\0
-screen.talk(LIANA_02, ERWIN_01, LIANA, NOFOLLOW, 157)
-// I'm sorry ... You were so brave out there today.\r\n _NAME_, you treat me as though we've known each other for many years.\r\n Were my father still alive, I'm sure he would be as kind and strong as you, _NAME_.\r\n Ah, ... what am I saying ...!?\0
-screen.talk(LIANA_02, DOWN_F5, LIANA, NOFOLLOW, 158)
-// I apologise for saying such strange things ...\0
-screen.talk(ERWIN_01, LIANA_02, ERWIN, NOFOLLOW, 159)
-// I don't mind ... Up until now, your life has been difficult, hasn't it?\r\n I heard of your childhood from Hein.\0
-screen.talk(LIANA_02, DOWN_F5, LIANA_SAD, NOFOLLOW, 160)
-// Yes ... As a baby, I was abandoned on the steps of the village shrine.\r\n The priest there raised me in my parents' stead ...\r\n Because of his kindness and warmth, I never felt lonely or sad.\0
-screen.talk(ERWIN_01, LIANA_02, ERWIN_SAD, NOFOLLOW, 161)
-// I see ...\0
-screen.talk(LIANA_02, ERWIN_01, LIANA, NOFOLLOW, 162)
-// _NAME_ ... Why do you travel the country?\r\n If it's all right, I'd like to know.\0
-screen.talk(ERWIN_01, LIANA_02, ERWIN, NOFOLLOW, 163)
-// My journeys have neither reason nor purpose.\r\n Both my parents died when I was very young.\r\n After that, I was raised by a man named Doren. He was my guardian and mentor.\r\n He was brilliant, and he saw fit to teach me many things. His instruction in swordplay was most rigorous.\r\n With his death, ... I am ... free.\0
-screen.talk(LIANA_02, ERWIN_01, LIANA, NOFOLLOW, 164)
-// "Free?" I don't understand ...\0
-screen.talk(ERWIN_01, DOWN_F5, ERWIN, NOFOLLOW, 165)
-// Since Doren ... passed on ... I have been alone in the world.\r\n Now, I wander the land searching for his slayer.\0
-screen.talk(LIANA_02, ERWIN_01, LIANA_SAD, NOFOLLOW, 166)
-// Is that so ...?\r\n I'm sorry for rousing such terrible memories.\0
-screen.talk(ERWIN_01, LIANA_02, ERWIN, NOFOLLOW, 167)
-// It's okay, I don't mind. The night is half-over.\r\n You should return to your chamber and rest. We'll be departing early in the morning.\0
-screen.talk(LIANA_02, ERWIN_01, LIANA, NOFOLLOW, 168)
-// Good night ... Sir _NAME_.\0
-screen.unit.move(LIANA_02, 16, 32)
-screen.talk(LIANA_02, ERWIN_01, LIANA, NOFOLLOW, 169)
-// _NAME_--!\0
-screen.talk(ERWIN_01, LIANA_02, ERWIN, NOFOLLOW, 170)
-// Huh? Is there something else, Liana?\0
-screen.talk(LIANA_02, ERWIN_01, LIANA, NOFOLLOW, 171)
-// Umm, ... thank you ...\0
-screen.unit.move(LIANA_02, 16, 29)
-ram.nextscenario(2)
-nop()
+  msg(SCOTT_06, ERWIN_01, SCOTT, FOLLOW, 153)
+# I shall guide you to our manor.\0
+  screen.fadeout(1)
+  focus.point(5, 3, FAST)
+  cursor.set(NULL_00)
+  cursor.hide()
+  unit.retreat(ERWIN_01)
+  unit.retreat(HEIN_05)
+  unit.retreat(LIANA_02)
+  screen.map(15)
+  unit.hideall()
+  unit.deploy(ERWIN_01, 1, 1)
+  cursor.set(ERWIN_01)
+  unit.move(ERWIN_01, 15, 31)
+  unit.face(ERWIN_01, DOWN_F5)
+  cursor.set(ERWIN_01)
+  focus.point(15, 34, FAST)
+  cursor.set(NULL_00)
+  screen.mask(13, 13, 13)
+  screen.fadein(4)
+  bgm(ALLY, NIGHT)
+  unit.move(ERWIN_01, 15, 36)
+  msg(ERWIN_01, DOWN_F5, ERWIN, NOFOLLOW, 154)
+# Such a quiet night ... I dreamt of intense, endless battle ...\r\nWas Liana really the target of the Blue Dragon Knights today?\r\nThe Knights are said to be the strongest force of the Rayguard Empire.\r\nWhy is Liana so important to them ...? Why did I go out of my way to rescue her from the Imperials?\r\nIs she ... important to me?\0
+  bgm(ALLY, LIANA)
+  unit.deploy(LIANA_02, 16, 29)
+  unit.move(LIANA_02, 16, 32)
+  msg(LIANA_02, ERWIN_01, LIANA, NOFOLLOW, 155)
+# Unable to sleep, Lord _NAME_?\0
+  unit.move(LIANA_02, 16, 36)
+  unit.face(LIANA_02, LEFT_F6)
+  msg(ERWIN_01, LIANA_02, ERWIN, NOFOLLOW, 156)
+# Yeah, ... I was worried about what happened earlier today.\r\nI can't help think that something terrible has begun ... It's a strange feeling ...\0
+  msg(LIANA_02, ERWIN_01, LIANA, NOFOLLOW, 157)
+# I'm sorry ... You were so brave out there today.\r\n_NAME_, you treat me as though we've known each other for many years.\r\nWere my father still alive, I'm sure he would be as kind and strong as you, _NAME_.\r\nAh, ... what am I saying ...!?\0
+  msg(LIANA_02, DOWN_F5, LIANA, NOFOLLOW, 158)
+# I apologise for saying such strange things ...\0
+  msg(ERWIN_01, LIANA_02, ERWIN, NOFOLLOW, 159)
+# I don't mind ... Up until now, your life has been difficult, hasn't it?\r\nI heard of your childhood from Hein.\0
+  msg(LIANA_02, DOWN_F5, LIANA_SAD, NOFOLLOW, 160)
+# Yes ... As a baby, I was abandoned on the steps of the village shrine.\r\nThe priest there raised me in my parents' stead ...\r\nBecause of his kindness and warmth, I never felt lonely or sad.\0
+  msg(ERWIN_01, LIANA_02, ERWIN_SAD, NOFOLLOW, 161)
+# I see ...\0
+  msg(LIANA_02, ERWIN_01, LIANA, NOFOLLOW, 162)
+# _NAME_ ... Why do you travel the country?\r\nIf it's all right, I'd like to know.\0
+  msg(ERWIN_01, LIANA_02, ERWIN, NOFOLLOW, 163)
+# My journeys have neither reason nor purpose.\r\nBoth my parents died when I was very young.\r\nAfter that, I was raised by a man named Doren. He was my guardian and mentor.\r\nHe was brilliant, and he saw fit to teach me many things. His instruction in swordplay was most rigorous.\r\nWith his death, ... I am ... free.\0
+  msg(LIANA_02, ERWIN_01, LIANA, NOFOLLOW, 164)
+# "Free?" I don't understand ...\0
+  msg(ERWIN_01, DOWN_F5, ERWIN, NOFOLLOW, 165)
+# Since Doren ... passed on ... I have been alone in the world.\r\nNow, I wander the land searching for his slayer.\0
+  msg(LIANA_02, ERWIN_01, LIANA_SAD, NOFOLLOW, 166)
+# Is that so ...?\r\nI'm sorry for rousing such terrible memories.\0
+  msg(ERWIN_01, LIANA_02, ERWIN, NOFOLLOW, 167)
+# It's okay, I don't mind. The night is half-over.\r\nYou should return to your chamber and rest. We'll be departing early in the morning.\0
+  msg(LIANA_02, ERWIN_01, LIANA, NOFOLLOW, 168)
+# Good night ... Sir _NAME_.\0
+  unit.move(LIANA_02, 16, 32)
+  msg(LIANA_02, ERWIN_01, LIANA, NOFOLLOW, 169)
+# _NAME_--!\0
+  msg(ERWIN_01, LIANA_02, ERWIN, NOFOLLOW, 170)
+# Huh? Is there something else, Liana?\0
+  msg(LIANA_02, ERWIN_01, LIANA, NOFOLLOW, 171)
+# Umm, ... thank you ...\0
+  unit.move(LIANA_02, 16, 29)
+  mem.nextscenario(2)
+break
 
 lbl_81c:
-screen.talk(IMPERIALCOMMANDER_2F, LEON_D5, SWORDSMAN1_GREEN, FOLLOW, 172)
-// Baldo's retreat appears to be secure!\0
-screen.talk(LEON_D5, IMPERIALCOMMANDER_2F, LEON, FOLLOW, 173)
-// I've never had such a mission as this before.\r\n A soldier of war ... witnessed here abducting a girl ... What a disgrace ...\0
-screen.talk(IMPERIALCOMMANDER_2F, LEON_D5, SWORDSMAN1_GREEN, FOLLOW, 174)
-// Please do not let it get to you, General.\r\n For me, it's a great honour just to serve under your command.\0
-screen.talk(LEON_D5, IMPERIALCOMMANDER_2F, LEON, FOLLOW, 175)
-// I appreciate your words, but don't get careless now.\0
-nop()
+  msg(IMPERIALCOMMANDER_2F, LEON_D5, SWORDSMAN1_GREEN, FOLLOW, 172)
+# Baldo's retreat appears to be secure!\0
+  msg(LEON_D5, IMPERIALCOMMANDER_2F, LEON, FOLLOW, 173)
+# I've never had such a mission as this before.\r\nA soldier of war ... witnessed here abducting a girl ... What a disgrace ...\0
+  msg(IMPERIALCOMMANDER_2F, LEON_D5, SWORDSMAN1_GREEN, FOLLOW, 174)
+# Please do not let it get to you, General.\r\nFor me, it's a great honour just to serve under your command.\0
+  msg(LEON_D5, IMPERIALCOMMANDER_2F, LEON, FOLLOW, 175)
+# I appreciate your words, but don't get careless now.\0
+break
 
 lbl_836:
-branch.ifdead(lbl_852, LAIRD_18)
-screen.talk(IMPERIALCOMMANDER_2F, LEFT_F6, SWORDSMAN1_GREEN, FOLLOW, 176)
-// Hmph, ... only these two? Barely even worth the effort.\0
-screen.talk(LEON_D5, IMPERIALCOMMANDER_2F, LEON, FOLLOW, 177)
-// Don't underestimate them--\r\n And don't be arrogant! On the battlefield, you will not survive if you are not cool-headed.\0
-screen.talk(LAIRD_18, IMPERIALCOMMANDER_2F, LAIRD, FOLLOW, 178)
-// You can't fight well if you are wounded.\r\n Try to place the units under your command directly around yourself.\r\n Your men will recover some of their physical strength each turn.\r\n Value your men's lives as though they were your own.\0
-screen.talk(IMPERIALCOMMANDER_2F, LAIRD_18, SWORDSMAN1_GREEN, FOLLOW, 179)
-// I understand.\0
-
+  branch.ifdead(lbl_852, LAIRD_18)
+  msg(IMPERIALCOMMANDER_2F, LEFT_F6, SWORDSMAN1_GREEN, FOLLOW, 176)
+# Hmph, ... only these two? Barely even worth the effort.\0
+  msg(LEON_D5, IMPERIALCOMMANDER_2F, LEON, FOLLOW, 177)
+# Don't underestimate them--\r\nAnd don't be arrogant! On the battlefield, you will not survive if you are not cool-headed.\0
+  msg(LAIRD_18, IMPERIALCOMMANDER_2F, LAIRD, FOLLOW, 178)
+# You can't fight well if you are wounded.\r\nTry to place the units under your command directly around yourself.\r\nYour men will recover some of their physical strength each turn.\r\nValue your men's lives as though they were your own.\0
+  msg(IMPERIALCOMMANDER_2F, LAIRD_18, SWORDSMAN1_GREEN, FOLLOW, 179)
+# I understand.\0
 lbl_852:
-nop()
+break
 
 lbl_854:
-screen.talk(IMPERIALCOMMANDER_2F, LEFT_F6, SWORDSMAN1_GREEN, NOFOLLOW, 180)
-// Let's go!\0
-ram.local.sub($0a47d0, $07eb5b)
-nop()
+  msg(IMPERIALCOMMANDER_2F, LEFT_F6, SWORDSMAN1_GREEN, NOFOLLOW, 180)
+# Let's go!\0
+  mem.local.sub($0a47d0, $07eb5b)
+break
 
 lbl_85f:
-screen.talk(IMPERIALCOMMANDER_2F, LEFT_F6, SWORDSMAN1_GREEN, NOFOLLOW, 181)
-// I won't go down that easily!\0
-ram.local.sub($0a47d0, $07eb5b)
-nop()
+  msg(IMPERIALCOMMANDER_2F, LEFT_F6, SWORDSMAN1_GREEN, NOFOLLOW, 181)
+# I won't go down that easily!\0
+  mem.local.sub($0a47d0, $07eb5b)
+break
 
 lbl_86a:
-screen.talk(IMPERIALCOMMANDER_2F, LEON_D5, SWORDSMAN1_GREEN_DEAD, FOLLOW, 182)
-// G, General Leon, Sir ... I am sorry ... Please forgive me--!\0
-screen.unit.cleanup()
-screen.talk(LEON_D5, IMPERIALCOMMANDER_2F, LEON_SAD, FOLLOW, 183)
-// No ...! I allowed one of my subordinates to perish ...\0
-ram.local.sum($0a47d5, $07eb5b)
-nop()
+  msg(IMPERIALCOMMANDER_2F, LEON_D5, SWORDSMAN1_GREEN_DEAD, FOLLOW, 182)
+# G, General Leon, Sir ... I am sorry ... Please forgive me--!\0
+  unit.cleanup()
+  msg(LEON_D5, IMPERIALCOMMANDER_2F, LEON_SAD, FOLLOW, 183)
+# No ...! I allowed one of my subordinates to perish ...\0
+  mem.local.sum($0a47d5, $07eb5b)
+break
 
 lbl_87c:
-screen.talk(LEON_D5, LEFT_F6, LEON, NOFOLLOW, 184)
-// You fight well! How long can you keep it up ...?\0
-nop()
+  msg(LEON_D5, LEFT_F6, LEON, NOFOLLOW, 184)
+# You fight well! How long can you keep it up ...?\0
+break
 
 lbl_884:
-branch.exec(lbl_8a9)
-nop()
+  branch.sub(lbl_8a9)
+break
 
 lbl_889:
-screen.talk(BALDO_19, LEFT_F6, BALDO, NOFOLLOW, 185)
-// Shit! You impertinent asshole! I'll see you dead for that!\0
-ram.unit.clearbit(IMPERIALCOMMANDER_2F, $17, 0)
-nop()
+  msg(BALDO_19, LEFT_F6, BALDO, NOFOLLOW, 185)
+# Shit! You impertinent asshole! I'll see you dead for that!\0
+  mem.unit.clearbit(IMPERIALCOMMANDER_2F, $17, 0)
+break
 
 lbl_895:
-ram.unit.clearbit(IMPERIALCOMMANDER_2F, $17, 0)
-nop()
+  mem.unit.clearbit(IMPERIALCOMMANDER_2F, $17, 0)
+break
 
 lbl_89b:
-screen.talk(BALDO_19, DOWN_F5, BALDO, NOFOLLOW, 187)
-// You bastard ... You're going to die for getting on my nerves!\0
-return()
+  msg(BALDO_19, DOWN_F5, BALDO, NOFOLLOW, 187)
+# You bastard ... You're going to die for getting on my nerves!\0
+endsub
 
 lbl_8a2:
-screen.talk(LEON_D5, LAIRD_18, LEON, NOFOLLOW, 188)
-// It's all right, Laird.\r\n It is unworthy of us to make excuses for such dishonourable actions.\r\n I can endure the disgrace of a mission like this, but not the loss of my men.\0
-return()
+  msg(LEON_D5, LAIRD_18, LEON, NOFOLLOW, 188)
+# It's all right, Laird.\r\nIt is unworthy of us to make excuses for such dishonourable actions.\r\nI can endure the disgrace of a mission like this, but not the loss of my men.\0
+endsub
 
 lbl_8a9:
-screen.talk(VILLAGER_25, RIGHT_F7, VILLAGER_YELLOW_DEAD, NOFOLLOW, 189)
-// Eeeek!\0
-screen.unit.cleanup()
-screen.talk(LIANA_02, BALDO_19, LIANA_ANGRY, FOLLOW, 190)
-// How cruel! How can you do such a thing?\0
-screen.talk(BALDO_19, LIANA_02, BALDO, FOLLOW, 191)
-// Shut up, you bitch! Or would you like a taste too!?\0
-screen.talk(LEON_D5, BALDO_19, LEON_ANGRY, FOLLOW, 192)
-// Stop it! You reckless fool!\r\n I issued an order that all troops operating under my command are to refrain from such useless slaughter!\r\n I will not repeat myself again! Anyone disobeying my commands is unnecessary to this operation.\0
-screen.talk(BALDO_19, LEON_D5, BALDO, FOLLOW, 193)
-// Yes, Sir ... I'm sorry ..., General.\0
-ram.unit.setbit(BALDO_19, $17, 7)
-ram.unit.clearbit(BALDO_19, $17, 1)
-ram.unit.clearbit(BALDO_19, $17, 5)
-return()
+  msg(VILLAGER_25, RIGHT_F7, VILLAGER_YELLOW_DEAD, NOFOLLOW, 189)
+# Eeeek!\0
+  unit.cleanup()
+  msg(LIANA_02, BALDO_19, LIANA_ANGRY, FOLLOW, 190)
+# How cruel! How can you do such a thing?\0
+  msg(BALDO_19, LIANA_02, BALDO, FOLLOW, 191)
+# Shut up, you bitch! Or would you like a taste too!?\0
+  msg(LEON_D5, BALDO_19, LEON_ANGRY, FOLLOW, 192)
+# Stop it! You reckless fool!\r\nI issued an order that all troops operating under my command are to refrain from such useless slaughter!\r\nI will not repeat myself again! Anyone disobeying my commands is unnecessary to this operation.\0
+  msg(BALDO_19, LEON_D5, BALDO, FOLLOW, 193)
+# Yes, Sir ... I'm sorry ..., General.\0
+  mem.unit.setbit(BALDO_19, $17, 7)
+  mem.unit.clearbit(BALDO_19, $17, 1)
+  mem.unit.clearbit(BALDO_19, $17, 5)
+endsub
 
 lbl_8d5:
-screen.talk(LIANA_02, DOWN_F5, LIANA_SAD, FOLLOW, 194)
-// How cruel ...\0
-screen.talk(LIANA_02, LEON_D5, LIANA_ANGRY, NOFOLLOW, 195)
-// Remember your promise! Don't harm the people of this village!\0
-branch.ifdead(lbl_91f, LEON_D5)
-screen.talk(LEON_D5, LIANA_02, LEON, FOLLOW, 196)
-// I never said anything about sparing those who would brandish arms against us.\0
-screen.talk(LIANA_02, DOWN_F5, LIANA_SAD, FOLLOW, 197)
-// But--!\0
-screen.talk(LIANA_02, UP_F4, LIANA, FOLLOW, 198)
-// I beg you, please! Just let me go with them to the Imperial Capital!\r\n If I go with the Imperial Army, all of this will be over ...\0
-branch.ifdead(lbl_90a, RIDEL_7F)
-screen.talk(RIDEL_7F, DOWN_F5, FIGHTER_BLACK, FOLLOW, 199)
-// I ... can't ...\r\n I ... can't ... allow that ...\0
-screen.talk(LEON_D5, RIDEL_7F, LEON, FOLLOW, 200)
-// How foolish ...\0
-branch.goto(lbl_91c)
-
+  msg(LIANA_02, DOWN_F5, LIANA_SAD, FOLLOW, 194)
+# How cruel ...\0
+  msg(LIANA_02, LEON_D5, LIANA_ANGRY, NOFOLLOW, 195)
+# Remember your promise! Don't harm the people of this village!\0
+  branch.ifdead(lbl_91f, LEON_D5)
+  msg(LEON_D5, LIANA_02, LEON, FOLLOW, 196)
+# I never said anything about sparing those who would brandish arms against us.\0
+  msg(LIANA_02, DOWN_F5, LIANA_SAD, FOLLOW, 197)
+# But--!\0
+  msg(LIANA_02, UP_F4, LIANA, FOLLOW, 198)
+# I beg you, please! Just let me go with them to the Imperial Capital!\r\nIf I go with the Imperial Army, all of this will be over ...\0
+  branch.ifdead(lbl_90a, RIDEL_7F)
+  msg(RIDEL_7F, DOWN_F5, FIGHTER_BLACK, FOLLOW, 199)
+# I ... can't ...\r\nI ... can't ... allow that ...\0
+  msg(LEON_D5, RIDEL_7F, LEON, FOLLOW, 200)
+# How foolish ...\0
+  branch.goto(lbl_91c)
 lbl_90a:
-screen.talk(EVANZE_80, LIANA_02, PRIEST_WHITE, FOLLOW, 201)
-// I ... I won't give up ...\0
-screen.talk(EVANZE_80, LEON_D5, PRIEST_WHITE, FOLLOW, 202)
-// I cannot forfeit the lives of those I love!\0
-screen.talk(LEON_D5, EVANZE_80, LEON, FOLLOW, 203)
-// How foolish ...\0
-
+  msg(EVANZE_80, LIANA_02, PRIEST_WHITE, FOLLOW, 201)
+# I ... I won't give up ...\0
+  msg(EVANZE_80, LEON_D5, PRIEST_WHITE, FOLLOW, 202)
+# I cannot forfeit the lives of those I love!\0
+  msg(LEON_D5, EVANZE_80, LEON, FOLLOW, 203)
+# How foolish ...\0
 lbl_91c:
-branch.goto(lbl_92f)
-
+  branch.goto(lbl_92f)
 lbl_91f:
-branch.ifdead(lbl_92f, LAIRD_18)
-screen.talk(LAIRD_18, LIANA_02, LAIRD, FOLLOW, 204)
-// I cannot forgive those who would interfere ... This is the only way!\0
-screen.talk(LIANA_02, DOWN_F5, LIANA_SAD, FOLLOW, 205)
-// But--!\0
-
+  branch.ifdead(lbl_92f, LAIRD_18)
+  msg(LAIRD_18, LIANA_02, LAIRD, FOLLOW, 204)
+# I cannot forgive those who would interfere ... This is the only way!\0
+  msg(LIANA_02, DOWN_F5, LIANA_SAD, FOLLOW, 205)
+# But--!\0
 lbl_92f:
-return()
+endsub
+

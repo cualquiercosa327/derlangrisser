@@ -42,8 +42,12 @@ function sctxt($text) {
               array("{06}", "{07}", "{02}", "{03}", "{end}", "{3a}", "{37}", "{38}"),
               array("\\r", "\\n", "_NAME_", "_NUM_", "\\0", "o", "a", "a"),
               $text);
-  $text = str_replace(array("  ", " \\n"), array(" ", "\\n"), $text);
-  $text = str_replace(array("  ", " \\n"), array(" ", "\\n"), $text);
+  // Nuke stray spaces
+  $text = str_replace(
+            array("  ", " \\n", " \\r", "\\n ", "\\r "),
+            array(" ", "\\n", "\\r", "\\n", "\\r"),
+            $text
+          );
   return($text);
 }
 
@@ -96,14 +100,14 @@ for($i = 0; $i < count($events); $i++) {
 	
 	// Movement Hooks
 	// uint_8[priority] uint_8[unit] uint_8[turn] uint_8[unk1] uint_16[jump]
-	fputs($fo, "// Movement-Triggered Events:\n" .
-	           "// event.move.addHook(priority, goto, unit, turn, unk1)\n");
+	fputs($fo, "# Movement-Triggered Events:\n" .
+	           "# event.move(priority, goto, unit, turn, unk1)\n");
 	while(ftell($fd) < $section[1]) {
 	  $t_cmd = fgetb($fd);
 	  if($t_cmd != 255) {
 	    $bytecode = array($t_cmd, fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd));
 	    $pointers[] = $bytecode[4] + ($bytecode[5] << 8);
-	    fputs($fo, "event.move.addHook(" .
+	    fputs($fo, "event.move(" .
 	               "$bytecode[0], " .
 	               "lbl_" . dechex($bytecode[4] + ($bytecode[5] << 8)) . ", " .
 	               "{$ar_unit[$bytecode[1]]}, " .
@@ -115,14 +119,14 @@ for($i = 0; $i < count($events); $i++) {
 
 	// Attack Hooks
 	// uint_8[priority] uint_8[attacker] uint_8[unk1] uint_8[reciever] uint_8[unk2] uint_8[unk3] uint_16[jump]
-	fputs($fo, "// Attack-Triggered Events:\n" .
-	           "// event.attack.addHook(priority, goto, attacker, defender, unk1, unk2, unk3)\n");
+	fputs($fo, "# Attack-Triggered Events:\n" .
+	           "# event.attack(priority, goto, attacker, defender, unk1, unk2, unk3)\n");
 	while(ftell($fd) < $section[2]) {
 	  $t_cmd = fgetb($fd);
 	  if($t_cmd != 255) {
 	    $bytecode = array($t_cmd, fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd));
 	    $pointers[] = $bytecode[6] + ($bytecode[7] << 8);
-	    fputs($fo, "event.attack.addHook(" .
+	    fputs($fo, "event.attack(" .
 	               "$bytecode[0], " .
 	               "lbl_" . dechex($bytecode[6] + ($bytecode[7] << 8)) . ", " .
 	               "{$ar_unit[$bytecode[1]]}, " .
@@ -138,9 +142,9 @@ for($i = 0; $i < count($events); $i++) {
 	// uint_8[priority] uint_8[quantity] uint_8[unit] * uint_16[jump]
 	// or
 	// uint_8[priority] uint_8[0xff] uint_8[attacker] uint_8[unk1] uint_8[defender] uint_8[unk2] uint_16[jump]
-	fputs($fo, "// Damage-Triggered Events:\n" .
-	           "// event.defeat.addHook(priority, goto, unit, ...)\n" .
-               "// event.damage.addHook(priority, goto, attacker, defender, unk1, unk2)\n");
+	fputs($fo, "# Damage-Triggered Events:\n" .
+	           "# event.defeat(priority, goto, unit, ...)\n" .
+               "# event.damage(priority, goto, attacker, defender, unk1, unk2)\n");
 	while(ftell($fd) < $section[3]) {
 	  $t_cmd = fgetb($fd);
 	  if($t_cmd != 255) {
@@ -153,7 +157,7 @@ for($i = 0; $i < count($events); $i++) {
 	      // Grab the goto address
 	      $t_ptr = fgetb($fd) + (fgetb($fd) << 8);
 	      $pointers[] = $t_ptr;
-          fputs($fo, "event.defeat.addHook(" .
+          fputs($fo, "event.defeat(" .
 	                 "$bytecode[0], " .
 	                 "lbl_" . dechex($t_ptr));
 	      // Print out all the units
@@ -166,7 +170,7 @@ for($i = 0; $i < count($events); $i++) {
 	    else {
 	      $bytecode = array($t_cmd, $t_cmd2, fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd));
 	      $pointers[] = $bytecode[6] + ($bytecode[7] << 8);
-          fputs($fo, "event.damage.addHook(" .
+          fputs($fo, "event.damage(" .
                      "$bytecode[0], " .
 	                 "lbl_" . dechex($bytecode[6] + ($bytecode[7] << 8)) . ", " .
 	                 "{$ar_unit[$bytecode[2]]}, " .
@@ -182,9 +186,9 @@ for($i = 0; $i < count($events); $i++) {
 	// uint_8[priority] uint_8[unit] uint_8[unit] uint_8[radius] uint_8[unk1] uint_8[unk2] uint_8[unk3] uint_8[unk4] uint_16[jump]
     // or
     // uint_8[priority] uint_8[unit] uint_8[unk1] uint_8[unk2] uint_8[x1] uint_8[y1] uint_8[x2] uint_8[y2] uint_16[jump]
-	fputs($fo, "// Position-Triggered Events:\n" .
-	           "// event.box.addHook(priority, goto, unit, unit, radius, unk1, unk2, unk3, unk4)\n" .
-               "// event.radius.addHook(priority, goto, unit, x1, y1, x2, y2, unk1, unk2)\n");
+	fputs($fo, "# Position-Triggered Events:\n" .
+	           "# event.box(priority, goto, unit, unit, radius, unk1, unk2, unk3, unk4)\n" .
+               "# event.radius(priority, goto, unit, x1, y1, x2, y2, unk1, unk2)\n");
 	while(ftell($fd) < $section[4]) {
 	  $t_cmd = fgetb($fd);
 	  if($t_cmd != 255) {
@@ -192,7 +196,7 @@ for($i = 0; $i < count($events); $i++) {
 	    $pointers[] = $bytecode[8] + ($bytecode[9] << 8);
         // box
 	    if($bytecode[2] == 0 && $bytecode[3] == 0 )
-          fputs($fo, "event.box.addHook(" .
+          fputs($fo, "event.box(" .
                      "$bytecode[0], " .
 	                 "lbl_" . dechex($bytecode[8] + ($bytecode[9] << 8)) . ", " .
                      "{$ar_unit[$bytecode[1]]}, " .
@@ -204,7 +208,7 @@ for($i = 0; $i < count($events); $i++) {
 	                 hexstr($bytecode[3]) . ");\n");
 	    // radius
 	    else
-          fputs($fo, "event.radius.addHook(" .
+          fputs($fo, "event.radius(" .
                      "$bytecode[0], " .
 	                 "lbl_" . dechex($bytecode[8] + ($bytecode[9] << 8)) . ", " .
 	                 "{$ar_unit[$bytecode[1]]}, " .
@@ -220,14 +224,14 @@ for($i = 0; $i < count($events); $i++) {
 	
 	// Turn Hooks
 	// uint_8[priority] uint_8[team] uint_8[turn] uint_8[unk1] uint_16[jump]
-	fputs($fo, "// Turn-Triggered Events\n" .
-	           "// event.turn.addHook(priority, goto, team, turn, unk1)\n");
+	fputs($fo, "# Turn-Triggered Events\n" .
+	           "# event.turn(priority, goto, team, turn, unk1)\n");
 	while(ftell($fd) < $section[5]) {
 	  $t_cmd = ord(fgetc($fd));
 	  if($t_cmd != 255) {
 	    $bytecode = array($t_cmd, fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd), fgetb($fd));
 	    $pointers[] = $bytecode[4] + ($bytecode[5] << 8);
-	    fputs($fo, "event.turn.addHook(" .
+	    fputs($fo, "event.turn(" .
                    "$bytecode[0], " .
 	               "lbl_" . dechex($bytecode[4] + ($bytecode[5] << 8)) . ", " .
 	               "{$ar_team[$bytecode[1]]}, " .
@@ -238,33 +242,42 @@ for($i = 0; $i < count($events); $i++) {
 	} fputs($fo, "\n");
 	
 	// Read core events
-	fputs($fo, "// Core Events");
+	fputs($fo, "# Core Events\n");
 	$t_ptr = fgetb($fd) + (fgetb($fd) << 8);
 	$pointers[] = $t_ptr;
 	while(ftell($fd) < filesize("resources/events/" . $events[$i])) {
 	  // Write a label for any referenced addresses
 	  if(in_array(ftell($fd), $pointers))
-	    fputs($fo, "\nlbl_" . dechex(ftell($fd)) . ":\n");
+	    fputs($fo, "lbl_" . dechex(ftell($fd)) . ":\n");
 	  $code = fgetb($fd);	
 	  switch($code) {
-	    // Set Focus
-	    // screen.focus.set(x, y, speed)
+	    // Focus Point
+	    // focus.point(x, y, speed)
 	    // uint_8[0x00] uint_8[speed] uint_8[x] uint_8[y]
+	    //
+	    // Focus Unit
+	    // focus.unit(unit)
+	    // uint_8[0x00] uint_8[unit] uint_8[0x00] uint_8[0x00]
+	    //
 	    // Hide Cursor
-	    // screen.cursor.visible(cursor)
-	    // uint_8[0x00] uint_8[0xfd] uint_8[cursor] uint_8[0x00]
+	    // cursor.hide()
+	    // uint_8[0x00] uint_8[0xfd] uint_8[0x00] uint_8[0x00]
+	    //
+	    // Show Cursor
+	    // cursor.show()
+	    // uint_8[0x00] uint_8[0xfd] uint_8[visible] uint_8[0x00]
 	    case 0x00:
 	      $t_code = fgetb($fd);
 	      if($t_code == 0xfd) {
 	        $t_visible = fgetb($fd);
-	        $t_null = fgetb($fd);
-	        fputs($fo, "screen.cusor.visible(" . 
-	                   ($t_visible == 0 ? "TRUE" : "FALSE") . ")\n");
+	        fseek($fd, 1, SEEK_CUR);
+	        fputs($fo, "  cursor." . 
+	                   ($t_visible == 0 ? "show" : "hide") . "()\n");
 	      }
 	      else if($t_code == 0xfe) {
 	        $t_x = fgetb($fd);
 	        $t_y = fgetb($fd);
-	        fputs($fo, "screen.focus.set(" .
+	        fputs($fo, "  focus.point(" .
 	                   "$t_x, " .
 	                   "$t_y, " .
 	                   "FAST)\n");
@@ -272,15 +285,14 @@ for($i = 0; $i < count($events); $i++) {
 	      else if($t_code == 0xff) {
 	        $t_x = fgetb($fd);
 	        $t_y = fgetb($fd);
-	        fputs($fo, "screen.focus.set(" .
+	        fputs($fo, "  focus.point(" .
 	                   "$t_x, " .
 	                   "$t_y, " .
 	                   "SLOW)\n");
 	      }
 	      else {
-	        $t_null = fgetb($fd);
-	        $t_null = fgetb($fd);
-	        fputs($fo, "screen.focus.set(" .
+	        fseek($fd, 2, SEEK_CUR);
+	        fputs($fo, "  focus.unit(" .
 	                   "{$ar_unit[$t_code]})\n");
 	      }
 	      break;
@@ -294,13 +306,13 @@ for($i = 0; $i < count($events); $i++) {
 	      $t_portrait = fgetb($fd);
 	      $t_focus = fgetb($fd);
 	      $t_line = fgetb($fd);
-	      fputs($fo, "screen.talk(" .
+	      fputs($fo, "  msg(" .
 	                 "{$ar_unit[$t_speaker]}, " .
 	                 "{$ar_unit[$t_target]}, " .
 	                 "{$ar_portrait[$t_portrait]}, " .
 	                 ($t_focus == 0 ? "NOFOLLOW" : "FOLLOW") . ", " .
 	                 "$t_line)\n");
-	      fputs($fo, "// " . sctxt($ar_talk[$t_line - 1]) . "\\0\n");
+	      fputs($fo, "# " . sctxt($ar_talk[$t_line - 1]) . "\\0\n");
 	      break;
 	    
 	    // ifDead Conditional Jump
@@ -310,7 +322,7 @@ for($i = 0; $i < count($events); $i++) {
 	      $t_unit = fgetb($fd);
 	      $t_goto = fgetb($fd) + (fgetb($fd) << 8);
 	      $pointers[] = $t_goto;
-	      fputs($fo, "branch.ifdead(" .
+	      fputs($fo, "  branch.ifdead(" .
 	                 "lbl_" . dechex($t_goto) . ", " .
 	                 "{$ar_unit[$t_unit]})\n");
 	      break;
@@ -322,7 +334,7 @@ for($i = 0; $i < count($events); $i++) {
 	      $t_unit = fgetb($fd);
 	      $t_goto = fgetb($fd) + (fgetb($fd) << 8);
 	      $pointers[] = $t_goto;
-	      fputs($fo, "branch.ifalive(" .
+	      fputs($fo, "  branch.ifalive(" .
 	                 "lbl_" . dechex($t_goto) . ", " .
 	                 "{$ar_unit[$t_unit]})\n");
 	      break;
@@ -337,15 +349,15 @@ for($i = 0; $i < count($events); $i++) {
 	      $t_upper = $t_value >> 3;
 	      $t_lower = $t_value & 0x7;
 	      if($t_action == 0)
-	        fputs($fo, "ram.local.sum(" .
+	        fputs($fo, "  mem.local.sum(" .
 	                   memstr(0xa47d0 + $t_upper) . ", " .
 	                   memstr(0x7eb58 + $t_lower) . ")\n");
 	      else if($t_action == 255)
-	        fputs($fo, "ram.local.sub(" .
+	        fputs($fo, "  mem.local.sub(" .
 	                   memstr(0xa47d0 + $t_upper) . ", " .
 	                   memstr(0x7eb58 + $t_lower) . ")\n");
 	      else
-	        fputs($fo, "ram.local.sub(UNHANDLED EVAL: $t_value)");
+	        fputs($fo, "  mem.local.sub(UNHANDLED EVAL: $t_value)");
 	      break;
 	    
 	    // Branch if Global RAM Equal
@@ -357,7 +369,7 @@ for($i = 0; $i < count($events); $i++) {
 	      $t_lower = $t_value & 0x7;
 	      $t_goto = fgetb($fd) + (fgetb($fd) << 8);
 	      $pointers[] = $t_goto;
-	      fputs($fo, "branch.ram.global(" .
+	      fputs($fo, "  branch.mem.global(" .
 	                 "lbl_" . dechex($t_goto) . ", " .
 	                 memstr(0xa4788 + $t_upper) . ", " .
 	                 memstr(0x7eb58 + $t_lower) . ")\n");
@@ -373,15 +385,15 @@ for($i = 0; $i < count($events); $i++) {
 	      $t_upper = $t_value >> 3;
 	      $t_lower = $t_value & 0x7;
 	      if($t_action == 0)
-	        fputs($fo, "ram.global.sum(" .
+	        fputs($fo, "  mem.global.sum(" .
 	                   memstr(0xa4788 + $t_upper) . ", " .
 	                   memstr(0x7eb58 + $t_lower) . ")\n");
 	      else if($t_action == 255)
-	        fputs($fo, "ram.global.sub(" .
+	        fputs($fo, "  mem.global.sub(" .
 	                   memstr(0xa4788 + $t_upper) . ", " .
 	                   memstr(0x7eb58 + $t_lower) . ")\n");
 	      else
-	        fputs($fo, "ram.global.sub(UNHANDLED EVAL: $t_value)\n");
+	        fputs($fo, "  mem.global.sub(UNHANDLED EVAL: $t_value)\n");
 	      break;
 	    
 	    // Change Music
@@ -390,7 +402,7 @@ for($i = 0; $i < count($events); $i++) {
 	    case 0x0c:
 	      $t_team = fgetb($fd);
 	      $t_track = fgetb($fd);
-	      fputs($fo, "sound.setBGM(" .
+	      fputs($fo, "  bgm(" .
 	                 "$ar_team[$t_team], " .
 	                 "$ar_bgm[$t_track])\n");
 	      break;
@@ -402,7 +414,7 @@ for($i = 0; $i < count($events); $i++) {
 	      $t_unit = fgetb($fd);
 	      $t_x = fgetb($fd);
 	      $t_y = fgetb($fd);
-	      fputs($fo, "screen.unit.deploy(" .
+	      fputs($fo, "  unit.deploy(" .
 	                 "$ar_unit[$t_unit], " .
 	                 "$t_x, " .
 	                 "$t_y)\n");
@@ -413,7 +425,7 @@ for($i = 0; $i < count($events); $i++) {
 	    // uint_8[0x0e] uint_8[unit]
 	    case 0x0e:
 	      $t_unit = fgetb($fd);
-	      fputs($fo, "screen.unit.retreat(" .
+	      fputs($fo, "  unit.retreat(" .
 	                 "$ar_unit[$t_unit])\n");
 	      break;
 	    
@@ -424,7 +436,7 @@ for($i = 0; $i < count($events); $i++) {
 	      $t_unit = fgetb($fd);
 	      $t_position = fgetb($fd);
 	      $t_byte = fgetb($fd);
-	      fputs($fo, "ram.unit.setbyte(" .
+	      fputs($fo, "  mem.unit.setbyte(" .
 	                 "$ar_unit[$t_unit], " .
 	                 memstr($t_position) . ", " .
 	                 hexstr($t_byte) . ")\n");
@@ -437,7 +449,7 @@ for($i = 0; $i < count($events); $i++) {
 	      $t_unit = fgetb($fd);
 	      $t_position = fgetb($fd);
 	      $t_bit = fgetb($fd);
-	      fputs($fo, "ram.unit.setbit(" .
+	      fputs($fo, "  mem.unit.setbit(" .
 	                 "$ar_unit[$t_unit], " .
 	                 memstr($t_position) . ", " .
 	                 "$t_bit)\n");
@@ -450,7 +462,7 @@ for($i = 0; $i < count($events); $i++) {
 	      $t_unit = fgetb($fd);
 	      $t_position = fgetb($fd);
 	      $t_bit = fgetb($fd);
-	      fputs($fo, "ram.unit.clearbit(" .
+	      fputs($fo, "  mem.unit.clearbit(" .
 	                 "$ar_unit[$t_unit], " .
 	                 memstr($t_position) . ", " .
 	                 "$t_bit)\n");
@@ -460,14 +472,14 @@ for($i = 0; $i < count($events); $i++) {
 	    // screen.unit.cleanup()
 	    // uint_8[0x13]
 	    case 0x13:
-	      fputs($fo, "screen.unit.cleanup()\n");
+	      fputs($fo, "  unit.cleanup()\n");
 	      break;
 	    
 	    // Set Next Scenario
 	    // ram.nextscenario()
 	    // uint_8[0x14] uint_8[scenario]
 	    case 0x14:
-	      fputs($fo, "ram.nextscenario(" .
+	      fputs($fo, "  mem.nextscenario(" .
 	                 fgetb($fd) . ")\n");
 	      break;
 	    
@@ -475,7 +487,7 @@ for($i = 0; $i < count($events); $i++) {
 	    // branch.gameover()
 	    // uint_8[0x15]
 	    case 0x15:
-	      fputs($fo, "branch.gameover()\n");
+	      fputs($fo, "  branch.gameover()\n");
 	      break;
 	    
 	    // Goto
@@ -484,7 +496,7 @@ for($i = 0; $i < count($events); $i++) {
 	    case 0x16:
 	      $t_goto = fgetb($fd) + (fgetb($fd) << 8);
 	      $pointers[] = $t_goto;
-	      fputs($fo, "branch.goto(" .
+	      fputs($fo, "  branch.goto(" .
 	                 "lbl_" . dechex($t_goto) . ")\n");
 	      break;
 	    
@@ -494,7 +506,7 @@ for($i = 0; $i < count($events); $i++) {
 	    case 0x17:
 	      $t_goto = fgetb($fd) + (fgetb($fd) << 8);
 	      $pointers[] = $t_goto;
-	      fputs($fo, "branch.exec(" .
+	      fputs($fo, "  branch.sub(" .
 	                 "lbl_" . dechex($t_goto) . ")\n");
 	      break;
 	    
@@ -502,7 +514,7 @@ for($i = 0; $i < count($events); $i++) {
 	    // return()
 	    // uint_8[0x18]
 	    case 0x18:
-	      fputs($fo, "return()\n");
+	      fputs($fo, "endsub\n\n");
 	      break;
 	    
 	    // Prompt Yes/No
@@ -512,7 +524,7 @@ for($i = 0; $i < count($events); $i++) {
 	      $t_null = fread($fd, 5);
 	      $t_goto = fgetb($fd) + (fgetb($fd) << 8);
 	      $pointers[] = $t_goto;
-	      fputs($fo, "screen.prompt.yesno(" .
+	      fputs($fo, "  prompt.yesno(" .
 	                 "lbl_" . dechex($t_goto) . ")\n");
 	      break;
 	    
@@ -520,7 +532,7 @@ for($i = 0; $i < count($events); $i++) {
 	    // screen.unit.showSub(unit)
 	    // uint_8[0x1e] uint_8[unit]
 	    case 0x1e:
-	      fputs($fo, "screen.unit.showSub(" .
+	      fputs($fo, "  unit.showSub(" .
 	                 $ar_unit[fgetb($fd)] . ")\n");
 	      break;
 	    
@@ -528,7 +540,7 @@ for($i = 0; $i < count($events); $i++) {
 	    // screen.fadeOut(time)
 	    // unit_8[0x38] uint_8[time]
 	    case 0x32:
-	      fputs($fo, "screen.fadeOut(" .
+	      fputs($fo, "  screen.fadeout(" .
 	                 fgetb($fd) . ")\n");
 	      break;
 	    
@@ -539,7 +551,7 @@ for($i = 0; $i < count($events); $i++) {
 	      $t_unit = fgetb($fd);
 	      $t_x = fgetb($fd);
 	      $t_y = fgetb($fd);
-	      fputs($fo, "screen.unit.position(" .
+	      fputs($fo, "  unit.position(" .
 	                 "$ar_unit[$t_unit], " .
 	                 "$t_x, " .
 	                 "$t_y)\n");
@@ -549,7 +561,7 @@ for($i = 0; $i < count($events); $i++) {
 	    // screen.unit.hide(unit, target)
 	    // uint_8[0x37] uint_8[unit] uint_8[target]
 	    case 0x37:
-	      fputs($fo, "screen.unit.hide(" .
+	      fputs($fo, "  unit.hide(" .
 	                 $ar_unit[fgetb($fd)] . ", " .
 	                 $ar_target[fgetb($fd)] . ")\n");
 	      break;
@@ -558,7 +570,7 @@ for($i = 0; $i < count($events); $i++) {
 	    // screen.fadeIn(time)
 	    // unit_8[0x38] uint_8[time]
 	    case 0x38:
-	      fputs($fo, "screen.fadeIn(" .
+	      fputs($fo, "  screen.fadein(" .
 	                 fgetb($fd) . ")\n");
 	      break;
 
@@ -566,14 +578,14 @@ for($i = 0; $i < count($events); $i++) {
         // screen.hideAllUnits()
         // uint_8[0x39]
         case 0x39:
-          fputs($fo, "screen.hideAllUnits()\n");
+          fputs($fo, "  unit.hideall()\n");
           break;
 
 	    // Move Cusor to Commander
 	    // screen.cusor.set(commander)
 	    // uint_8[0x3d] uint_8[commander]
 	    case 0x3d:
-	      fputs($fo, "screen.cursor.set(" .
+	      fputs($fo, "  cursor.set(" .
 	                 $ar_unit[fgetb($fd)] . ")\n");
 	      break;
 	    
@@ -581,7 +593,7 @@ for($i = 0; $i < count($events); $i++) {
 	    // screen.unit.face(unit, direction)
 	    // uint_8[0x3e] uint_8[unit] uint_8[direction]
 	    case 0x3e:
-	      fputs($fo, "screen.unit.face(" .
+	      fputs($fo, "  unit.face(" .
 	                 $ar_unit[fgetb($fd)] . ", " .
 	                 $ar_unit[fgetb($fd)] . ")\n");
 	      break;
@@ -590,7 +602,7 @@ for($i = 0; $i < count($events); $i++) {
 	    // screen.unit.move(unit, x, y)
 	    // uint_8[0x3f] uint_8[unit] uint_8[x] uint_8[y]
 	    case 0x3f:
-	      fputs($fo, "screen.unit.move(" .
+	      fputs($fo, "  unit.move(" .
 	                 $ar_unit[fgetb($fd)] . ", " .
 	                 fgetb($fd) . ", " .
 	                 fgetb($fd) . ")\n");
@@ -603,7 +615,7 @@ for($i = 0; $i < count($events); $i++) {
 	      $t_b = fgetb($fd);
 	      $t_g = fgetb($fd);
 	      $t_r = fgetb($fd);
-	      fputs($fo, "screen.mask(" .
+	      fputs($fo, "  screen.mask(" .
 	                 "$t_r, " .
 	                 "$t_g, " .
 	                 "$t_b)\n");
@@ -613,7 +625,7 @@ for($i = 0; $i < count($events); $i++) {
 	    // screen.map(map)
 	    // uint_8[0x47] uint_8[map]
 	    case 0x47:
-	      fputs($fo, "screen.map(" .
+	      fputs($fo, "  screen.map(" .
 	                 fgetb($fd) . ")\n");
 	      break;
 	    
@@ -623,7 +635,7 @@ for($i = 0; $i < count($events); $i++) {
 	    case 0x4e:
 	      // Game money's lowest increment is 10
 	      $t_money = (fgetb($fd) + (fgetb($fd) << 8)) * 10;
-	      fputs($fo, "ram.money.add(" .
+	      fputs($fo, "  mem.money.add(" .
 	                 "$t_money)\n");
 	      break;
 	    
@@ -631,14 +643,14 @@ for($i = 0; $i < count($events); $i++) {
 	    // scenario.clear()
 	    // uint_8[0x4f]
 	    case 0x4f:
-	      fputs($fo, "scenario.clear()\n");
+	      fputs($fo, "  scenarioclear()\n");
 	      break;
 	    
 	    // Raise Stat
 	    // screen.unit.raisestat(stat, amount)
 	    // uint_8[0x40] uint_8[stat] uint_8[amount]
 	    case 0x40:
-	      fputs($fo, "screen.unit.raisestat(" .
+	      fputs($fo, "  unit.raisestat(" .
 	                 fgetb($fd) . ", " .
 	                 fgetb($fd) . ")\n");
 	      break;
@@ -646,7 +658,7 @@ for($i = 0; $i < count($events); $i++) {
 	    // Section End
 	    case 0xff:
 	      $null = fgetc($fd);
-	      fputs($fo, "break()\n");
+	      fputs($fo, "break\n\n");
 	      break;
 	    
 	    // Catch unsupported codes
@@ -657,31 +669,5 @@ for($i = 0; $i < count($events); $i++) {
 	  }
 	}
 }
-
-
-/*
-Section 6: Event Script
-Depends on action code
-
-Begins with jump to pre-battle deployment
-
-3d xx - Move cusor to commander xx
-screen.cursor.set(x)
-
-37 xx yy - Set unit xx status to yy (00 = hidden)
-screen.unit.hide(unit)
-
-36 uu xx yy - Position unit uu at xx,yy (ffff = selected coordinates)
-screen.unit.move(unit, x, y)
-3e xx yy - xx faces yy
-screen.unit.face(unit1, unit2)
-
-1e uu - Reveal unit uu
-08 xx yy - If xx=0 
-screen.unit.show(unit)
-
-In all hooks, first byte appears to be a priority byte
-*/
-
 
 ?>
