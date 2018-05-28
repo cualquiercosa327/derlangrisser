@@ -646,7 +646,7 @@ for($i = 0; $i < count($events); $i++) {
 	    // Section End
 	    case 0xff:
 	      $null = fgetc($fd);
-	      fputs($fo, "nop()\n");
+	      fputs($fo, "break()\n");
 	      break;
 	    
 	    // Catch unsupported codes
