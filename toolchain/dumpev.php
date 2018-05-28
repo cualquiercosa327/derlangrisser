@@ -277,6 +277,8 @@ for($i = 0; $i < count($events); $i++) {
 	      else if($t_code == 0xfe) {
 	        $t_x = fgetb($fd);
 	        $t_y = fgetb($fd);
+	        if($t_x == 255) $t_x = "PRESET";
+	        if($t_y == 255) $t_y = "PRESET";
 	        fputs($fo, "  focus.point(" .
 	                   "$t_x, " .
 	                   "$t_y, " .
@@ -285,6 +287,8 @@ for($i = 0; $i < count($events); $i++) {
 	      else if($t_code == 0xff) {
 	        $t_x = fgetb($fd);
 	        $t_y = fgetb($fd);
+	        if($t_x == 255) $t_x = "PRESET";
+	        if($t_y == 255) $t_y = "PRESET";
 	        fputs($fo, "  focus.point(" .
 	                   "$t_x, " .
 	                   "$t_y, " .
@@ -414,6 +418,8 @@ for($i = 0; $i < count($events); $i++) {
 	      $t_unit = fgetb($fd);
 	      $t_x = fgetb($fd);
 	      $t_y = fgetb($fd);
+	      if($t_x == 255) $t_x = "PRESET";
+	      if($t_y == 255) $t_y = "PRESET";
 	      fputs($fo, "  unit.deploy(" .
 	                 "$ar_unit[$t_unit], " .
 	                 "$t_x, " .
@@ -551,6 +557,8 @@ for($i = 0; $i < count($events); $i++) {
 	      $t_unit = fgetb($fd);
 	      $t_x = fgetb($fd);
 	      $t_y = fgetb($fd);
+	      if($t_x == 255) $t_x = "PRESET";
+	      if($t_y == 255) $t_y = "PRESET";
 	      fputs($fo, "  unit.position(" .
 	                 "$ar_unit[$t_unit], " .
 	                 "$t_x, " .
