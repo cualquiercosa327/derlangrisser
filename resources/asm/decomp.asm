@@ -122,6 +122,9 @@ check_scenario() {
   
   %check_sc(82, 30, ec, ee) ; $30ecee Scenario 73
   
+  %check_sc(86, 30, f2, 63) ; $30f263 Lushiris Quiz
+  %check_sc(87, 30, f5, 03) ; $30f503 Lushiris Tactics
+  
   ; Untested:
   ; $30f263 = Lushiris Quiz
   ; $30f503 = Lushiris Tactics
@@ -337,6 +340,12 @@ load_ev79() {
 }
 load_ev82() {
   %load_ev(ev82, ev82_end)
+}
+load_ev86() {
+  %load_ev(ev86, ev86_end)
+}
+load_ev87() {
+  %load_ev(ev87, ev87_end)
 }
 
 ev08:
@@ -625,4 +634,12 @@ ev79_end:
 ev82:
   incbin resources/data/e072.bin
 ev82_end:
+
+ev86:
+  incbin resources/events/ev86.dat
+ev86_end:
+
+ev87:
+  incbin resources/events/ev87.dat
+ev87_end:
 
