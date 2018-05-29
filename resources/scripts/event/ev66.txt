@@ -696,4 +696,3 @@ lbl_6fc:
 lbl_6ff:
 break
 
-  rawwrite(0xff00)
