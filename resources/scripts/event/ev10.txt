@@ -591,3 +591,205 @@ lbl_666:
   msg(MORGAN_1B, ERWIN_01, MORGAN, FOLLOW, 130)
 # Mwa ha ha ha! You think you can beat me with your weak spirit?\r\nWell, if you want to become a zombie, then I'll grant your wish right away. I could always use a few more minions!\0
   unit.clearbit(LIANA_02, $17, 0)
+  unit.align(LIANA_02, ENEMY)
+  unit.setbit(LIANA_02, $17, 1)
+  unit.setbyte(LIANA_02, $21, 0x01)
+  unit.setbit(LIANA_02, $17, 5)
+  unit.setbyte(LIANA_02, $16, 0x01)
+  local.sum($0a47d2, $07eb5e)
+  local.sum($0a47d5, $07eb5b)
+  local.sum($0a47d2, $07eb5f)
+  local.sub($0a47d0, $07eb5b)
+  local.sum($0a47d5, $07eb5c)
+break
+
+lbl_6a6:
+  msg(MORGAN_1B, LEFT_F6, MORGAN, NOFOLLOW, 131)
+# Wee hee hee! Those who oppose me will die!\0
+break
+
+lbl_6ae:
+  msg(MORGAN_1B, LEFT_F6, MORGAN, NOFOLLOW, 132)
+# Taste the height of my power!\0
+break
+
+lbl_6b6:
+  msg(MORGAN_1B, DOWN_F5, MORGAN_DEAD, FOLLOW, 133)
+# Damn it! Y, you actually injured me!\r\nSome day I'll make you regret this! Just wait till I have my revenge!\0
+  unit.retreat(MORGAN_1B)
+  branch.ne.global(lbl_6dd, $0a47d5, $07eb5c)
+  bgm(ENEMY, ENEMY8_BOSER)
+  unit.align(LIANA_02, NULL)
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 134)
+# Ah--!?\r\nHmmm ... I ... I ...\0
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 135)
+# Are you awake again? With Morgan wounded, his spell seems to have lost effect.\0
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 136)
+# I'm sorry, _NAME_.\0
+  local.sum($0a47d0, $07eb5b)
+lbl_6dd:
+break
+
+lbl_6df:
+  msg(IMPERIALCOMMANDER_2F, DOWN_F5, FIGHTER_GREEN_DEAD, FOLLOW, 137)
+# Im, impossible--!\0
+break
+
+lbl_6e7:
+  msg(IMPERIALCOMMANDER_30, DOWN_F5, FIGHTER_GREEN_DEAD, FOLLOW, 138)
+# Gah--!\0
+break
+
+lbl_6ef:
+  msg(IMPERIALCOMMANDER_31, RIGHT_F7, GLADIATOR_GREEN, FOLLOW, 139)
+# Wa ha ha! I won't leave anyone standing!\0
+break
+
+lbl_6f7:
+  msg(IMPERIALCOMMANDER_31, RIGHT_F7, GLADIATOR_GREEN, NOFOLLOW, 140)
+# Die!\0
+break
+
+lbl_6ff:
+  msg(IMPERIALCOMMANDER_31, DOWN_F5, GLADIATOR_GREEN_DEAD, FOLLOW, 141)
+# But ... it was ... perfect ... I... gave it my--!\0
+break
+
+lbl_707:
+  msg(IMPERIALCOMMANDER_32, DOWN_F5, GLADIATOR_GREEN_DEAD, FOLLOW, 142)
+# I failed! Colonel Zorum, I'm sorry.\0
+  unit.cleanup()
+  local.sum($0a47d6, $07eb5e)
+break
+
+lbl_713:
+  msg(IMPERIALCOMMANDER_33, PRIEST_75, GLADIATOR_GREEN, FOLLOW, 143)
+# Heh heh heh ... Let's go.\0
+break
+
+lbl_71b:
+  msg(IMPERIALCOMMANDER_33, RIGHT_F7, GLADIATOR_GREEN, NOFOLLOW, 144)
+# Heh heh heh ... Die!\0
+break
+
+lbl_723:
+  msg(IMPERIALCOMMANDER_33, DOWN_F5, GLADIATOR_GREEN_DEAD, FOLLOW, 145)
+# Not yet, I can't die yet--!\0
+break
+
+lbl_72b:
+  msg(IMPERIALCOMMANDER_34, DOWN_F5, FIGHTER_GREEN, FOLLOW, 146)
+# Outrageous ...\0
+break
+
+lbl_733:
+  msg(IMPERIALCOMMANDER_35, DOWN_F5, FIGHTER_GREEN, FOLLOW, 147)
+# Blood... blood is--!\0
+break
+
+lbl_73b:
+  unit.cleanup()
+  scenarioclear()
+  branch.ifdead(lbl_756, CHERIE_04)
+  msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 148)
+# It looks like the battle is over.\0
+  msg(ERWIN_01, CHERIE_04, ERWIN, FOLLOW, 149)
+# Thanks for helping out. I'm _NAME_. May I ask your name, Lady ...?\0
+  msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 150)
+# I'm Cherie of Kalxath. It's a pleasure to meet you.\r\nOur kingdom and its neighbours are forming a League of Anti-Imperialists.\r\nI heard there was Imperial activity in Estool, so I came to see if I could help.\r\nHowever, the Empire was only after the Shrine of Light ... I wonder ... what were they planning?\0
+  goto(lbl_768)
+lbl_756:
+  msg(CHERIE_04, ERWIN_01, CHERIE_DEAD, NOFOLLOW, 151)
+# Ow, ow--!\0
+  msg(ERWIN_01, CHERIE_04, ERWIN, FOLLOW, 152)
+# Are you all right? Umm ...\0
+  msg(CHERIE_04, ERWIN_01, CHERIE_DEAD, NOFOLLOW, 153)
+# How shameful to have been beaten like that ... I'm Cherie of Kalxath.\r\nOur kingdom and its neighbours are forming a League of Anti-Imperialists.\r\nI heard there was Imperial activity in Estool, so I came to see if I could help.\r\nHowever, the Empire was only after the Shrine of Light ... I wonder ... what were they thinking?\0
+lbl_768:
+  branch.ne.global(lbl_78d, $0a47d3, $07eb59)
+  msg(LIANA_02, ERWIN_01, LIANA_SAD, FOLLOW, 154)
+# I let myself be controlled by Morgan and betrayed _NAME_.\r\n_NAME_, if, if you had died ... I ... I--!\0
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 155)
+# You needn't fret. We all came out safe, so there's nothing to be sorry about.\r\nBesides ... you look better with a smile. So don't cry.\0
+  msg(LIANA_02, ERWIN_01, LIANA_SAD, FOLLOW, 156)
+# Thank you ...\r\nOh, _NAME_ ... It seems I cause you nothing but trouble. I'm so sorry ...\r\nBut ... I'll try to look happier. Please don't worry about me.\0
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 157)
+# That's the spirit!\0
+  msg(LIANA_02, ERWIN_01, LIANA_SAD, NOFOLLOW, 158)
+# Okay.\0
+  goto(lbl_7a3)
+lbl_78d:
+  branch.eq.global(lbl_7a3, $0a47d0, $07eb5b)
+  msg(LIANA_02, ERWIN_01, LIANA_SAD, FOLLOW, 159)
+# I'm sorry ...\r\nIf it had gone on any longer, I would have attacked everyone here.\0
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 160)
+# Liana, it wasn't your fault. You were being enslaved by Morgan's spell.\0
+  msg(LIANA_02, ERWIN_01, LIANA_SAD, FOLLOW, 161)
+# Thank you everyone ... for thinking about me ...\0
+lbl_7a3:
+  branch.ifdead(lbl_7bd, SCOTT_06)
+  msg(SCOTT_06, ERWIN_01, SCOTT, FOLLOW, 162)
+# By the way, what should we do about Liana?\0
+  branch.ifdead(lbl_7b7, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 163)
+# Eventually, even the largest Shrine of Light won't be enough to keep the Imperials at bay.\0
+lbl_7b7:
+  subroutine(lbl_939)
+  goto(lbl_7c6)
+lbl_7bd:
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 164)
+# So what is your plan?\r\nIt doesn't seem safe to entrust her to a Shrine of Light.\0
+  subroutine(lbl_939)
+lbl_7c6:
+  msg(ERWIN_01, CHERIE_04, ERWIN, FOLLOW, 165)
+# That's rather apparent. However, I'm not sure what other options we have ...\0
+  msg(LIANA_02, DOWN_F5, LIANA, FOLLOW, 166)
+# _NAME_ ... I, um ...\0
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 167)
+# What is it, Liana?\0
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 168)
+# Please, let me fight too!\0
+  branch.ifdead(lbl_7e8, HEIN_05)
+  msg(HEIN_05, LIANA_02, HEIN, FOLLOW, 169)
+# No way! It's too dangerous for a young lady on the battlefield.\0
+lbl_7e8:
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 170)
+# But all of you have to endure so much ... just because of me.\r\nIt was for my sake ... that ... that all of you got hurt.\0
+  branch.ifdead(lbl_7f8, CHERIE_04)
+  msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 171)
+# I think we should let her come. Or do you lack confidence in your ability to protect her ...?\0
+lbl_7f8:
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 172)
+# ...\0
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 173)
+# Fine.\0
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 174)
+# Thank you, _NAME_!\0
+  msg(NULL_00, DOWN_F5, NULL, NOFOLLOW, 175)
+# Liana joins the entourage!\0
+  branch.ifdead(lbl_82f, ROHGA_0B)
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 176)
+# Well, that's that. It seems like everything has worked out.\r\nAfter that battle, I have to say, I like your spirit!\0
+  msg(ERWIN_01, ROHGA_0B, ERWIN, FOLLOW, 177)
+# Thanks, it's good to be working with you.\0
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 178)
+# I feel that we'll be great if we work together. We'll be rich!\r\nI helped you through this. Please allow me to continue working with you, _NAME_!\0
+  msg(ERWIN_01, ROHGA_0B, ERWIN, FOLLOW, 179)
+# It is I who should be asking you!\r\nWe could really use a sword as strong as yours.\0
+  goto(lbl_841)
+lbl_82f:
+  msg(ROHGA_0B, DOWN_F5, ROHGA_DEAD, NOFOLLOW, 180)
+# How disappointing!\r\nAfter all of the great talk I heard about you, you're a major let down!\r\nYou have good qualities and real talent, but why don't you use any of it!?\0
+  msg(ERWIN_01, ROHGA_0B, ERWIN_SAD, FOLLOW, 181)
+# ...\0
+  msg(ROHGA_0B, DOWN_F5, ROHGA_DEAD, NOFOLLOW, 182)
+# However, I sense that you'll do great things. Together we'd be rich!\r\nThe problem's that you're too inexperienced. Talk with me! I'll teach you everything!\r\n_NAME_! I'll train you to be a great leader!\r\nBut you better damn well live up to my expectations. You're going to cost me a fortune, you know?\0
+lbl_841:
+  branch.ifdead(lbl_857, CHERIE_04)
+  msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 183)
+# Well then, let's hurry to Kalxath. I have to tell them of this!\0
+  msg(NULL_00, DOWN_F5, NULL, FOLLOW, 184)
+# Cherie joins the entourage!\0
+  msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 185)
+# Also, I'd like to give you all a big welcome.\0
+lbl_857:

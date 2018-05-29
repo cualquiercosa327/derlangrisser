@@ -619,6 +619,15 @@ for($i = 0; $i < count($events); $i++) {
         fputs($fo, "  unit.hideall()\n");
         break;
 
+      // Set Unit Alignment
+      // unit.align(team)
+      // uint_8[0x3a] uint_8[unit] uint_8[team]
+      case 0x3a:
+        $t_unit = $ar_unit[fgetb($fd)];
+        $t_team = $ar_team[fgetb($fd)];
+        fputs($fo, "  unit.align($t_unit, $t_team)\n");
+        break;
+      
       // Move Cusor to Commander
       // cusor.set(commander)
       // uint_8[0x3d] uint_8[unit]
