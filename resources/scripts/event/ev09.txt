@@ -1,14 +1,13 @@
-# Movement-Triggered Events:
-# on.move(priority, goto, unit, turn, unk1)
+# Movement-Triggered Events
 on.move(24, lbl_3f7, SCOTT_06, 0, 0xff)
 on.move(27, lbl_40f, LOREN_2B, 2, 0xff)
 on.move(0, lbl_417, LOREN_2B, 0, 0xff)
 on.move(30, lbl_46c, ROHGA_0B, 0, 0xff)
 on.move(34, lbl_48d, LEON_D5, 1, 0xff)
 on.move(37, lbl_4e0, LAIRD_18, 1, 0xff)
+break
 
-# Attack-Triggered Events:
-# on.attack(priority, goto, attacker, defender, unk1, unk2, unk3)
+# Attack-Triggered Events
 on.attack(18, lbl_3a9, ERWIN_01, LAIRD_18, 0x00, 0xff, 0xff)
 on.attack(19, lbl_3b1, ERWIN_01, LAIRD_18, 0x00, 0x00, 0xff)
 on.attack(25, lbl_3ff, SCOTT_06, NULL_FF, 0x00, 0xff, 0xff)
@@ -16,10 +15,9 @@ on.attack(28, lbl_438, LOREN_2B, NULL_FF, 0x00, 0xff, 0xff)
 on.attack(31, lbl_47a, NULL_FF, ROHGA_0B, 0xff, 0x00, 0xff)
 on.attack(36, lbl_4d8, NULL_FF, LEON_D5, 0xff, 0x00, 0xff)
 on.attack(39, lbl_55b, IMPERIALCOMMANDER_2F, NULL_FF, 0x00, 0xff, 0xff)
+break
 
-# Damage-Triggered Events:
-# on.defeat(priority, goto, unit, ...)
-# on.damage(priority, goto, attacker, defender, unk1, unk2)
+# Damage-Triggered Events
 on.defeat(20, lbl_3bf, ERWIN_01)
 on.defeat(21, lbl_3c9, HEIN_05)
 on.defeat(23, lbl_3d4, LIANA_02)
@@ -40,10 +38,9 @@ on.defeat(11, lbl_5a7, IMPERIALCOMMANDER_2F, IMPERIALCOMMANDER_30, IMPERIALCOMMA
 on.defeat(47, lbl_5b4, IMPERIALCOMMANDER_2F, IMPERIALCOMMANDER_30, IMPERIALCOMMANDER_31, IMPERIALCOMMANDER_32, IMPERIALCOMMANDER_33, IMPERIALCOMMANDER_34)
 on.damage(22, lbl_5c9, NULL_FF, HEIN_05, 0xff, 0x00)
 on.damage(48, lbl_5d1, NULL_FF, LIANA_02, 0xff, 0x00)
+break
 
-# Position-Triggered Events:
-# on.bound(priority, goto, unit, unit, radius, unk1, unk2, unk3, unk4)
-# on.range(priority, goto, unit, x1, y1, x2, y2, unk1, unk2)
+# Position-Triggered Events
 on.bound(8, lbl_2ef, NPC_SUBUNIT_F1, 1, 10, 25, 22, 0x00, 0x00)
 on.bound(10, lbl_2fb, NPC_SUBUNIT_F1, 1, 1, 25, 14, 0x00, 0x00)
 on.bound(12, lbl_308, LIANA_02, 1, 1, 25, 1, 0x00, 0x00)
@@ -53,9 +50,9 @@ on.bound(14, lbl_34e, HEIN_05, 1, 15, 25, 19, 0x00, 0x00)
 on.bound(15, lbl_35a, ERWIN_01, 1, 15, 25, 19, 0x00, 0x00)
 on.bound(16, lbl_36c, NPC_COMMANDER_F0, 4, 4, 4, 4, 0x00, 0x00)
 on.bound(17, lbl_38c, NPC_COMMANDER_F0, 21, 30, 21, 30, 0x00, 0x00)
+break
 
 # Turn-Triggered Events
-# on.turn(priority, goto, team, turn, unk1)
 on.turn(1, lbl_276, ALLY, 1, 0x00)
 on.turn(2, lbl_27e, ENEMY, 1, 0x00)
 on.turn(3, lbl_2a6, ALLY, 2, 0x00)
@@ -63,6 +60,7 @@ on.turn(4, lbl_2b8, ALLY, 0, 0x00)
 on.turn(5, lbl_2bd, ALLY, 0, 0x00)
 on.turn(6, lbl_2cd, ENEMY, 5, 0x00)
 on.turn(7, lbl_2d9, ALLY, 3, 0x00)
+break
 
 # Core Events
 lbl_17a:
@@ -214,3 +212,76 @@ lbl_2ed:
 break
 
 lbl_2ef:
+  branch.mem.global(lbl_2f9, $0a47d1, $07eb59)
+  subroutine(lbl_6bb)
+  mem.local.sum($0a47d1, $07eb59)
+lbl_2f9:
+break
+
+lbl_2fb:
+  unit.cleanup()
+  branch.mem.global(lbl_306, $0a47d1, $07eb5b)
+lbl_300:
+  subroutine(lbl_6e4)
+  mem.local.sum($0a47d1, $07eb5b)
+lbl_306:
+break
+
+lbl_308:
+  unit.cleanup()
+  msg(LIANA_02, RIGHT_F7, LIANA, FOLLOW, 35)
+# I made it ...\0
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 36)
+# Well done! Estool is just a little further down this road!\0
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 37)
+# Okay!\0
+  branch.ifdead(lbl_325, LAIRD_18)
+  msg(LAIRD_18, LEFT_F6, LAIRD, FOLLOW, 38)
+# It's hopeless. I must withdraw ...\0
+lbl_325:
+  mem.local.sum($0a47d1, $07eb5d)
+lbl_328:
+  subroutine(lbl_840)
+  msg(LIANA_02, DOWN_F5, LIANA, FOLLOW, 39)
+# I can't believe we've managed to elude the Imperial Army again.\0
+  subroutine(lbl_741)
+break
+
+lbl_336:
+  unit.cleanup()
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 40)
+# You're doing well! Keep heading down the road!\0
+  mem.local.sum($0a47d1, $07eb5f)
+break
+
+lbl_342:
+  unit.cleanup()
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 41)
+# You're doing well! Keep heading down the road!\0
+  mem.local.sum($0a47d1, $07eb5f)
+break
+
+lbl_34e:
+  unit.cleanup()
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 42)
+# You're doing well! Keep heading down the road!\0
+  mem.local.sum($0a47d1, $07eb5f)
+break
+
+lbl_35a:
+  unit.cleanup()
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 43)
+# You're doing well! It's only a little further!\0
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 44)
+# Okay!\0
+  mem.local.sum($0a47d1, $07eb5e)
+break
+
+lbl_36c:
+  branch.mem.global(lbl_38a, $0a4788, $07eb58)
+  unit.cleanup()
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 45)
+# In a clearing in the woods, you find small footprints ...\r\nOne set of foot prints leads towards a small hole.\0
+  prompt(lbl_38a)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 47)
+# Obtained Swift Boots.\0
