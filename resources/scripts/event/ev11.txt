@@ -1,0 +1,931 @@
+# Movement-Triggered Events
+on.move(24, lbl_3fd, CHERIE_04, 0, 0xff)
+on.move(31, lbl_431, KEITH_07, 1, 0xff)
+on.move(2, lbl_451, COMMANDER_21, 0, 0xff)
+on.move(39, lbl_484, VARGAS_D6, 2, 0xff)
+on.move(3, lbl_528, MORGAN_1B, 0, 0xff)
+on.move(54, lbl_58c, MORGAN_1B, 0, 0xff)
+on.move(4, lbl_5a4, MORGAN_1B, 0, 0xff)
+on.move(59, lbl_5da, IMPERIALCOMMANDER_37, 0, 0xff)
+on.move(5, lbl_5ec, IMPERIALCOMMANDER_37, 0, 0xff)
+break
+
+# Attack-Triggered Events
+on.attack(15, lbl_3a1, ERWIN_01, VARGAS_D6, 0x00, 0x00, 0xff)
+on.attack(19, lbl_3c3, SCOTT_06, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(21, lbl_3d3, ROHGA_0B, VARGAS_D6, 0x00, 0x00, 0xff)
+on.attack(22, lbl_3ed, ROHGA_0B, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(27, lbl_410, CHERIE_04, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(28, lbl_418, LIANA_02, VARGAS_D6, 0x00, 0x00, 0xff)
+on.attack(33, lbl_459, COMMANDER_21, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(36, lbl_46c, COMMANDER_22, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(37, lbl_474, NULL_FF, COMMANDER_22, 0xff, 0x00, 0xff)
+on.attack(40, lbl_48c, VARGAS_D6, COMMANDER_21, 0x00, 0xff, 0xff)
+on.attack(40, lbl_494, VARGAS_D6, COMMANDER_21, 0x00, 0x00, 0xff)
+on.attack(49, lbl_4d9, IMPERIALCOMMANDER_34, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(6, lbl_5b8, NULL_FF, MORGAN_1B, 0xff, 0x00, 0xff)
+on.attack(57, lbl_5c0, MORGAN_1B, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(60, lbl_5fe, IMPERIALCOMMANDER_37, NULL_FF, 0x00, 0xff, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(16, lbl_3af, ERWIN_01)
+on.defeat(17, lbl_3b8, HEIN_05)
+on.defeat(20, lbl_3cb, SCOTT_06)
+on.defeat(23, lbl_3f5, ROHGA_0B)
+on.defeat(25, lbl_405, CHERIE_04)
+on.defeat(29, lbl_426, LIANA_02)
+on.defeat(32, lbl_43f, KEITH_07)
+on.defeat(34, lbl_461, COMMANDER_21)
+on.defeat(38, lbl_47c, COMMANDER_22)
+on.defeat(41, lbl_49c, VARGAS_D6)
+on.defeat(44, lbl_4b6, IMPERIALCOMMANDER_30)
+on.defeat(46, lbl_4c1, IMPERIALCOMMANDER_31)
+on.defeat(47, lbl_4c9, IMPERIALCOMMANDER_32)
+on.defeat(48, lbl_4d1, IMPERIALCOMMANDER_33)
+on.defeat(50, lbl_4e1, IMPERIALCOMMANDER_34)
+on.defeat(51, lbl_4e9, IMPERIALCOMMANDER_35)
+on.defeat(52, lbl_4f1, IMPERIALCOMMANDER_36)
+on.defeat(53, lbl_4f9, ZORUM_1A)
+on.defeat(58, lbl_5c8, MORGAN_1B)
+on.defeat(61, lbl_606, IMPERIALCOMMANDER_37)
+on.defeat(8, lbl_619, VARGAS_D6, IMPERIALCOMMANDER_30, IMPERIALCOMMANDER_31, IMPERIALCOMMANDER_32, IMPERIALCOMMANDER_33, IMPERIALCOMMANDER_34, IMPERIALCOMMANDER_35, IMPERIALCOMMANDER_36)
+on.defeat(62, lbl_622, VARGAS_D6, IMPERIALCOMMANDER_30, IMPERIALCOMMANDER_31, IMPERIALCOMMANDER_32, IMPERIALCOMMANDER_33, IMPERIALCOMMANDER_34, IMPERIALCOMMANDER_35, IMPERIALCOMMANDER_36, IMPERIALCOMMANDER_37, ZORUM_1A, MORGAN_1B)
+on.defeat(56, lbl_627, VARGAS_D6, IMPERIALCOMMANDER_30, IMPERIALCOMMANDER_31, IMPERIALCOMMANDER_32, IMPERIALCOMMANDER_33, IMPERIALCOMMANDER_34, IMPERIALCOMMANDER_35, IMPERIALCOMMANDER_36, IMPERIALCOMMANDER_37, ZORUM_1A)
+on.defeat(42, lbl_630, IMPERIALCOMMANDER_30, IMPERIALCOMMANDER_31, IMPERIALCOMMANDER_32, IMPERIALCOMMANDER_33, IMPERIALCOMMANDER_34, IMPERIALCOMMANDER_35, IMPERIALCOMMANDER_36)
+on.defeat(63, lbl_63d, KEITH_07, COMMANDER_21, COMMANDER_22)
+on.damage(18, lbl_65e, NULL_FF, HEIN_05, 0xff, 0x00)
+on.damage(26, lbl_67c, NULL_FF, CHERIE_04, 0xff, 0x00)
+on.damage(30, lbl_6a1, NULL_FF, LIANA_02, 0xff, 0x00)
+on.damage(35, lbl_6b0, NULL_FF, COMMANDER_21, 0xff, 0x00)
+on.damage(43, lbl_6bc, NPC_SUBUNIT_F1, VARGAS_D6, 0x00, 0x00)
+on.damage(45, lbl_6c5, IMPERIALCOMMANDER_30, NULL_FF, 0x00, 0xff)
+break
+
+# Position-Triggered Events
+on.bound(13, lbl_37c, NPC_COMMANDER_F0, 2, 2, 2, 2, 0x00, 0x00)
+on.bound(14, lbl_39c, MORGAN_1B, 11, 33, 21, 34, 0x00, 0x00)
+break
+
+# Turn-Triggered Events
+on.turn(7, lbl_2e9, ENEMY, 7, 0x00)
+on.turn(9, lbl_2f1, ALLY, 2, 0x00)
+on.turn(10, lbl_307, ENEMY, 1, 0x00)
+on.turn(11, lbl_327, ALLY, 4, 0x00)
+on.turn(12, lbl_352, ALLY, 3, 0x00)
+on.turn(1, lbl_36e, ENEMY, 0, 0x00)
+on.turn(0, lbl_377, ENEMY, 0, 0x00)
+break
+
+# Core Events
+lbl_1ea:
+  focus.point(13, 2, FAST)
+  cursor.set(NULL_00)
+  unit.position(KEITH_07, PRESET, PRESET)
+  unit.showsub(KEITH_07)
+  unit.position(COMMANDER_22, PRESET, PRESET)
+  unit.showsub(COMMANDER_22)
+  screen.fadein(4)
+  cursor.set(ERWIN_01)
+  bgm(ALLY, ENEMY2_VARGAS)
+  unit.position(VARGAS_D6, PRESET, PRESET)
+  unit.showsub(VARGAS_D6)
+  unit.position(IMPERIALCOMMANDER_30, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_30)
+  unit.position(IMPERIALCOMMANDER_31, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_31)
+  unit.position(IMPERIALCOMMANDER_32, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_32)
+  unit.position(IMPERIALCOMMANDER_33, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_33)
+  unit.position(IMPERIALCOMMANDER_34, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_34)
+  unit.position(IMPERIALCOMMANDER_35, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_35)
+  unit.position(IMPERIALCOMMANDER_36, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_36)
+  unit.position(COMMANDER_21, PRESET, PRESET)
+  unit.showsub(COMMANDER_21)
+  msg(COMMANDER_21, KEITH_07, FIGHTER_BLACK, FOLLOW, 1)
+# General Keith! Imperial troops have laid siege to our castle!\0
+  msg(KEITH_07, DOWN_F5, KEITH, FOLLOW, 2)
+# Even with my years of experience, they still caught us by surprise ...\r\nSomehow ..., we have to hold out until the princess returns.\0
+  msg(IMPERIALCOMMANDER_30, VARGAS_D6, KNIGHT1_GREEN, FOLLOW, 3)
+# General Vargas! It seems our diversion was a success.\r\nKalxath took the bulk of its forces to defend the shrine. The garrison left will be no match for us.\0
+  msg(VARGAS_D6, IMPERIALCOMMANDER_30, VARGAS, FOLLOW, 4)
+# Colonel Zorum and Morgan did surprisingly well as a team. I'll have to pair them again.\r\nSoldiers of the Blazing Dragon Army, the time has come to end Kalxath's meddling!\0
+  msg(IMPERIALCOMMANDER_30, VARGAS_D6, KNIGHT1_GREEN, FOLLOW, 5)
+# Yes, Sir!\0
+  msg(IMPERIALCOMMANDER_36, VARGAS_D6, HAWKKNIGHT_GREEN, FOLLOW, 6)
+# General, Sir! We have a problem. The enemy is at our rear!\0
+  msg(VARGAS_D6, DOWN_F5, VARGAS, FOLLOW, 7)
+# What--!?\0
+  bgm(ALLY, ALLY6)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.showsub(HEIN_05)
+  unit.position(SCOTT_06, PRESET, PRESET)
+  unit.showsub(SCOTT_06)
+  unit.position(ROHGA_0B, PRESET, PRESET)
+  unit.showsub(ROHGA_0B)
+  unit.position(CHERIE_04, PRESET, PRESET)
+  unit.showsub(CHERIE_04)
+  unit.position(LIANA_02, PRESET, PRESET)
+  unit.showsub(LIANA_02)
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.showsub(ERWIN_01)
+  msg(ERWIN_01, CHERIE_04, ERWIN, FOLLOW, 8)
+# It looks like we're not too late.\0
+  msg(KEITH_07, CHERIE_04, KEITH, FOLLOW, 9)
+# It's the princess! Everyone, our princess has returned!\0
+  msg(COMMANDER_22, KEITH_07, FIGHTER_BLACK, FOLLOW, 10)
+# Huzzah!\0
+  msg(HEIN_05, CHERIE_04, HEIN, FOLLOW, 11)
+# Wha--!? The princess ...?\0
+  msg(CHERIE_04, VARGAS_D6, CHERIE, FOLLOW, 12)
+# Keith, everyone! Thank heaven you're all safe!\r\nIt's just like Rayguard sleaze to attack while I was away.\0
+  msg(VARGAS_D6, CHERIE_04, VARGAS, FOLLOW, 13)
+# "Rayguard sleaze?" Miss, it seems you have no clue as to what "strategy" is.\r\nIf you can't recognise such basic tactics, then you are indeed a moron.\0
+  msg(CHERIE_04, VARGAS_D6, CHERIE_ANGRY, FOLLOW, 14)
+# M, moron ...!? You muscle-bound creep, I won't forgive such an insult!\0
+  msg(HEIN_05, CHERIE_04, HEIN, FOLLOW, 15)
+# So you mean ... Cherie is ... the princess ... of Kalxath ...!?\r\nSigh ... My image of a "princess" is thoroughly smashed ...\0
+  msg(CHERIE_04, HEIN_05, CHERIE, FOLLOW, 16)
+# What was that--!?\0
+  msg(HEIN_05, RIGHT_F7, HEIN, FOLLOW, 17)
+# Oh ... N, nothing ...\0
+  msg(ERWIN_01, CHERIE_04, ERWIN, FOLLOW, 18)
+# Enough bickering. We must attack immediately!\r\nWithout any backup, the castle soldiers can't repel Rayguard for long.\0
+  msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 19)
+# Thank you! I appreciate your help.\0
+  local.sum($0a47d0, $07eb58)
+  local.sum($0a47d0, $07eb59)
+  local.sum($0a47d0, $07eb5a)
+  local.sum($0a47d0, $07eb5b)
+  local.sum($0a47d0, $07eb5c)
+  local.sum($0a47d0, $07eb5d)
+  local.sum($0a47d0, $07eb5e)
+break
+
+lbl_2e9:
+  subroutine(lbl_8ee)
+  local.sum($0a47d1, $07eb58)
+break
+
+lbl_2f1:
+  branch.unit.dead(lbl_305, SCOTT_06)
+  msg(SCOTT_06, ERWIN_01, SCOTT, FOLLOW, 20)
+# Finally, a chance to put all my years of study to use.\r\nThe Blazing Dragon Army, the Blue Dragon Knights, the Dark Dragon Sorcerers, and the Water Dragon Navy ...\r\nThese four divisions constitute the main force of the Rayguard Imperial Army.\r\nGeneral Vargas is an extraordinary military officer and a man to be feared.\r\nIf such a major division of the Imperial Army has been sent here, the Empire must be set on crushing Kalxath.\0
+  branch.unit.dead(lbl_305, CHERIE_04)
+  msg(CHERIE_04, SCOTT_06, CHERIE, FOLLOW, 21)
+# Of all nations in El Sallia, only Kalxath is a strong enough power to oppose Rayguard.\r\nAs long as our kingdom holds strong, the Empire will never be able to conquer El Sallia.\0
+lbl_305:
+break
+
+lbl_307:
+  msg(VARGAS_D6, IMPERIALCOMMANDER_35, VARGAS, FOLLOW, 22)
+# All elite units, there's no time to waste! Take the castle, double quick!\0
+  msg(IMPERIALCOMMANDER_35, VARGAS_D6, KNIGHT1_GREEN, FOLLOW, 23)
+# Yes, Sir!\0
+  msg(VARGAS_D6, IMPERIALCOMMANDER_30, VARGAS, FOLLOW, 24)
+# All other troops, engage the enemy at our rear!\r\nWe must keep them out until we have taken the castle!\0
+  msg(IMPERIALCOMMANDER_30, VARGAS_D6, KNIGHT1_GREEN, FOLLOW, 25)
+# Understood!\0
+  msg(VARGAS_D6, UP_F4, VARGAS, FOLLOW, 26)
+# Kalxath is the dominant force in the the League of Anti-Imperialists.\r\nIf Kalxath falls, its allies will capitulate, one by one, to our Empire's power.\r\nIf we succeed here, it will only be a matter of time before all of El Sallia is united under Imperial control.\r\nGive it your best, men! For the glory of the Rayguard Kaiser!\0
+break
+
+lbl_327:
+  branch.unit.dead(lbl_33a, CHERIE_04)
+  msg(CHERIE_04, UP_F4, CHERIE, FOLLOW, 27)
+# Somehow, ... everyone is still holding out.\0
+  msg(ERWIN_01, CHERIE_04, ERWIN, FOLLOW, 28)
+# We need to hurry!\0
+  goto(lbl_340)
+lbl_33a:
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 29)
+# Castle Kalxath has endured this long, but ... Everyone, we must hurry!\0
+lbl_340:
+  branch.unit.dead(lbl_350, SCOTT_06)
+  msg(SCOTT_06, RIGHT_F7, SCOTT, FOLLOW, 30)
+# Since the enemies are strong, we'll need to use magic attacks.\r\nUnleashing a magic attack from a distance will weaken them enough to give our soldiers an opportunity to strike.\r\nIf we rush in and count on our strength alone to overpower them, many of our men will die in vain.\0
+  msg(ERWIN_01, SCOTT_06, ERWIN, FOLLOW, 31)
+# I see.\0
+lbl_350:
+break
+
+lbl_352:
+  branch.unit.dead(lbl_36c, SCOTT_06)
+  branch.unit.dead(lbl_36c, HEIN_05)
+  msg(SCOTT_06, HEIN_05, SCOTT, FOLLOW, 32)
+# When the enemy attacks, try to form a wall using troops that give us an advantage.\r\nDon't try to be a hero by engaging the enemy alone. You'll only receive damage instead of dealing it.\0
+  msg(HEIN_05, SCOTT_06, HEIN, FOLLOW, 33)
+# So after you guys block them, I should cast Fireball and Attack, right?\0
+  msg(SCOTT_06, HEIN_05, SCOTT, FOLLOW, 34)
+# That's right. Every enemy loss will increase our chance of victory.\0
+lbl_36c:
+break
+
+lbl_36e:
+  local.sub($0a47d0, $07eb5d)
+  unit.clearbit(IMPERIALCOMMANDER_37, $17, 2)
+break
+
+lbl_377:
+  local.sub($0a47d0, $07eb59)
+break
+
+lbl_37c:
+  branch.eq.global(lbl_39a, $0a4794, $07eb5f)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 35)
+# Through a window, you spot a bird's nest.\r\nRooting through the feathers in the bottom, you find a flask.\r\nThe liquid in the flask seems to be the colour of the sea ...\0
+  prompt.ok(lbl_39a)
+  unit.raisestat(59, 1)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 37)
+# DF raised by 1 point!\0
+  global.sum($0a4794, $07eb5f)
+lbl_39a:
+break
+
+lbl_39c:
+  local.sub($0a47d0, $07eb5c)
+break
+
+lbl_3a1:
+  msg(ERWIN_01, VARGAS_D6, ERWIN, NOFOLLOW, 38)
+# Let's go!\0
+  msg(VARGAS_D6, ERWIN_01, VARGAS, NOFOLLOW, 39)
+# Bah! I'll take you all down!\0
+break
+
+lbl_3af:
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 40)
+# Ugh ..., from now on ...\0
+  gameover()
+break
+
+lbl_3b8:
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 41)
+# Defeated ... It seems I'll be leaving the lines before you ...\0
+  local.sum($0a47d2, $07eb5a)
+break
+
+lbl_3c3:
+  msg(SCOTT_06, RIGHT_F7, SCOTT, FOLLOW, 42)
+# Imperial troops! Don't be so haughty!\0
+break
+
+lbl_3cb:
+  msg(SCOTT_06, DOWN_F5, SCOTT_DEAD, FOLLOW, 43)
+# Shit! If only I had more power--!\0
+break
+
+lbl_3d3:
+  msg(ROHGA_0B, VARGAS_D6, ROHGA, NOFOLLOW, 44)
+# So you're General Vargas of the Blazing Dragon Army!\r\nLet's see how skilled you really are!\0
+  msg(VARGAS_D6, ROHGA_0B, VARGAS, NOFOLLOW, 45)
+# I like your spirit, boy! By what name are you called? I'll carve it on your gravestone.\0
+  msg(ROHGA_0B, VARGAS_D6, ROHGA, NOFOLLOW, 46)
+# Fuck you! The name is Rohga.\r\nI'll be sure to inform your wife that was the name of the man who killed you!\0
+  msg(VARGAS_D6, ROHGA_0B, VARGAS, NOFOLLOW, 47)
+# Hah! What a brazen lad!\0
+break
+
+lbl_3ed:
+  msg(ROHGA_0B, RIGHT_F7, ROHGA, NOFOLLOW, 48)
+# God damn it, move! You weaklings are in my way!\0
+break
+
+lbl_3f5:
+  msg(ROHGA_0B, DOWN_F5, ROHGA_DEAD, FOLLOW, 49)
+# To think that I, Rohga, the great mercenary, am going to die here ...\0
+break
+
+lbl_3fd:
+  msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 50)
+# We do better when we cooperate.\r\n_NAME_! For this battle, I'll follow your orders. What would you have me do?\0
+break
+
+lbl_405:
+  msg(CHERIE_04, DOWN_F5, CHERIE_DEAD, FOLLOW, 51)
+# To have fallen at the castle I came to protect ...\0
+  local.sum($0a47d3, $07eb5a)
+break
+
+lbl_410:
+  msg(CHERIE_04, RIGHT_F7, CHERIE_ANGRY, NOFOLLOW, 52)
+# I cannot permit you to attack my castle!\0
+break
+
+lbl_418:
+  msg(LIANA_02, VARGAS_D6, LIANA, NOFOLLOW, 53)
+# Please! Just take your troops and leave this country!\0
+  msg(VARGAS_D6, LIANA_02, VARGAS, NOFOLLOW, 54)
+# You're brave, girl. Sadly, you think too highly of your ability.\0
+break
+
+lbl_426:
+  msg(LIANA_02, DOWN_F5, LIANA_DEAD, FOLLOW, 55)
+# I'm sorry ... I ... can't ... any more--\0
+  local.sum($0a47d3, $07eb5e)
+break
+
+lbl_431:
+  msg(KEITH_07, RIGHT_F7, KEITH, FOLLOW, 56)
+# We'll fight to the last man!\0
+  msg(COMMANDER_21, KEITH_07, FIGHTER_BLACK, FOLLOW, 57)
+# Yeah!\0
+break
+
+lbl_43f:
+  msg(KEITH_07, DOWN_F5, KEITH_DEAD, FOLLOW, 58)
+# Princess, my failure is inexcusable ...\0
+  branch.unit.dead(lbl_44f, CHERIE_04)
+  msg(CHERIE_04, KEITH_07, CHERIE, FOLLOW, 59)
+# Keith!\0
+lbl_44f:
+break
+
+lbl_451:
+  msg(COMMANDER_21, DOWN_F5, FIGHTER_BLACK, FOLLOW, 60)
+# We can't lose now that our princess has returned!\0
+break
+
+lbl_459:
+  msg(COMMANDER_21, DOWN_F5, FIGHTER_BLACK, NOFOLLOW, 61)
+# This is not a place for you to trespass. Go away!\0
+break
+
+lbl_461:
+  msg(COMMANDER_21, DOWN_F5, FIGHTER_BLACK_DEAD, FOLLOW, 62)
+# P, princess--!\0
+  local.sum($0a47d4, $07eb5b)
+break
+
+lbl_46c:
+  msg(COMMANDER_22, RIGHT_F7, FIGHTER_BLACK, NOFOLLOW, 63)
+# I'll show you what the Kalxath army can do!\0
+break
+
+lbl_474:
+  msg(COMMANDER_22, RIGHT_F7, FIGHTER_BLACK, NOFOLLOW, 64)
+# Well then, let's see what you're made of!\0
+break
+
+lbl_47c:
+  msg(COMMANDER_22, DOWN_F5, FIGHTER_BLACK_DEAD, FOLLOW, 65)
+# I ... I can't hold out any more.\0
+break
+
+lbl_484:
+  msg(VARGAS_D6, LEFT_F6, VARGAS, NOFOLLOW, 66)
+# Don't relax your guard!\r\nEven if Kalxath is just a frontier country, they're no stranger to battle!\0
+break
+
+lbl_48c:
+  msg(VARGAS_D6, LEFT_F6, VARGAS, NOFOLLOW, 67)
+# Taste the power of an Imperial general!\0
+break
+
+lbl_494:
+  msg(VARGAS_D6, COMMANDER_21, VARGAS, NOFOLLOW, 68)
+# Show me the might of Kalxath's army.\0
+break
+
+lbl_49c:
+  branch.ne.global(lbl_4a9, $0a47d5, $07eb5a)
+  msg(VARGAS_D6, DOWN_F5, VARGAS_DEAD, FOLLOW, 69)
+# Ugh ... I don't think I can go on any longer ...\0
+  goto(lbl_4af)
+lbl_4a9:
+  msg(VARGAS_D6, DOWN_F5, VARGAS_DEAD, FOLLOW, 70)
+# Damn, I'm an idiot. I was too careless ... Cough ...\r\nI have to retreat! Everyone, don't stop the attack--no matter what!\0
+lbl_4af:
+  local.sum($0a47d5, $07eb5b)
+  unit.retreat(VARGAS_D6)
+break
+
+lbl_4b6:
+  msg(IMPERIALCOMMANDER_30, DOWN_F5, KNIGHT1_GREEN_DEAD, FOLLOW, 71)
+# Gah--! How can this be?\0
+  local.sum($0a47d5, $07eb5d)
+break
+
+lbl_4c1:
+  msg(IMPERIALCOMMANDER_31, DOWN_F5, KNIGHT1_GREEN_DEAD, FOLLOW, 72)
+# G, General Vargas ...\0
+break
+
+lbl_4c9:
+  msg(IMPERIALCOMMANDER_32, DOWN_F5, KNIGHT1_GREEN_DEAD, FOLLOW, 73)
+# How regrettable ... To fall in such a place ...\0
+break
+
+lbl_4d1:
+  msg(IMPERIALCOMMANDER_33, DOWN_F5, FIGHTER_GREEN_DEAD, FOLLOW, 74)
+# I don't want to die ...\0
+break
+
+lbl_4d9:
+  msg(IMPERIALCOMMANDER_34, LEFT_F6, GLADIATOR_GREEN, NOFOLLOW, 75)
+# Let me through!\0
+break
+
+lbl_4e1:
+  msg(IMPERIALCOMMANDER_34, DOWN_F5, GLADIATOR_GREEN_DEAD, FOLLOW, 76)
+# Gah--!\0
+break
+
+lbl_4e9:
+  msg(IMPERIALCOMMANDER_35, DOWN_F5, GLADIATOR_GREEN_DEAD, FOLLOW, 77)
+# I've served for the glory of the Rayguard Empire!\0
+break
+
+lbl_4f1:
+  msg(IMPERIALCOMMANDER_36, DOWN_F5, HAWKKNIGHT_GREEN_DEAD, FOLLOW, 78)
+# My vision ... is fading ... Alas, poor me ...\0
+break
+
+lbl_4f9:
+  msg(ZORUM_1A, DOWN_F5, ZORUM_DEAD, FOLLOW, 79)
+# Gahhh--! Not bad ...\0
+  branch.unit.dead(lbl_51e, VARGAS_D6)
+  msg(VARGAS_D6, ZORUM_1A, VARGAS, FOLLOW, 80)
+# Colonel Zorum, retreat! I'll handle the rest.\0
+  msg(ZORUM_1A, VARGAS_D6, ZORUM_DEAD, FOLLOW, 81)
+# B, but, General ...\0
+  msg(VARGAS_D6, ZORUM_1A, VARGAS, FOLLOW, 82)
+# I can't let you die in such a battle. Not like this ...\r\nRetreat and reorganize your troops. Remember, as a soldier, your fate is mine to decide.\0
+  msg(ZORUM_1A, VARGAS_D6, ZORUM_DEAD, FOLLOW, 83)
+# W, well then ..., I'm retreating ...\0
+  goto(lbl_524)
+lbl_51e:
+  msg(ZORUM_1A, ERWIN_01, ZORUM_DEAD, NOFOLLOW, 84)
+# El Sallian brats! Don't think you've won! Our fight isn't over!\0
+lbl_524:
+  unit.retreat(ZORUM_1A)
+break
+
+lbl_528:
+  msg(MORGAN_1B, DOWN_F5, MORGAN, FOLLOW, 85)
+# Oh, I just remembered. There's this report I've been meaning to make to Egbert.\0
+  branch.unit.dead(lbl_577, IMPERIALCOMMANDER_37)
+  msg(IMPERIALCOMMANDER_37, MORGAN_1B, PRIEST_GREEN, FOLLOW, 86)
+# Commander Morgan!?\0
+  msg(MORGAN_1B, IMPERIALCOMMANDER_37, MORGAN, FOLLOW, 87)
+# Hey you! Cover me, I'm departing.\0
+  msg(IMPERIALCOMMANDER_37, MORGAN_1B, PRIEST_GREEN, FOLLOW, 88)
+# Wh, wh, what!? If you leave things like this ...\0
+  msg(MORGAN_1B, IMPERIALCOMMANDER_37, MORGAN, FOLLOW, 89)
+# Don't worry, we still clearly have the advantage. Just keep on fighting.\0
+  msg(IMPERIALCOMMANDER_37, MORGAN_1B, PRIEST_GREEN, FOLLOW, 90)
+# Then ... why are you fleeing battle, Commander Morgan?\0
+  msg(MORGAN_1B, IMPERIALCOMMANDER_37, MORGAN, FOLLOW, 91)
+# Well, I'm fleeing because-- Hey, shut up!\r\nI'm not running away! I just have a very, very, very urgent report to make.\r\nNow hurry and get back to die--err ... "securing" my departure!\0
+  msg(IMPERIALCOMMANDER_37, MORGAN_1B, PRIEST_GREEN, FOLLOW, 92)
+# You can't be serious ...\0
+  unit.setbit(IMPERIALCOMMANDER_37, $17, 2)
+  unit.setbyte(IMPERIALCOMMANDER_37, $2c, 0x1b)
+  unit.setbyte(IMPERIALCOMMANDER_37, $2d, 0x00)
+  unit.setbit(IMPERIALCOMMANDER_37, $17, 6)
+  unit.clearbit(IMPERIALCOMMANDER_37, $17, 1)
+  unit.clearbit(IMPERIALCOMMANDER_37, $17, 5)
+  local.sub($0a47d0, $07eb58)
+lbl_577:
+  unit.setbit(MORGAN_1B, $17, 0)
+  unit.setbyte(MORGAN_1B, $22, 0x11)
+  unit.setbyte(MORGAN_1B, $23, 0x22)
+  unit.setbit(MORGAN_1B, $17, 6)
+  local.sub($0a47d0, $07eb5e)
+break
+
+lbl_58c:
+  branch.unit.dead(lbl_599, VARGAS_D6)
+  msg(MORGAN_1B, UP_F4, MORGAN, FOLLOW, 93)
+# Even with General Vargas here, the situation worsens ...\r\nHmmm ... I don't want to die here ... I wonder what can I do ...\0
+  goto(lbl_59f)
+lbl_599:
+  msg(MORGAN_1B, UP_F4, MORGAN, FOLLOW, 94)
+# Even General Vargas retreated. It won't help if I stay here ...\r\nI wasn't planning to die here ... I wonder what else I can do ...\0
+lbl_59f:
+  local.sub($0a47d0, $07eb5b)
+break
+
+lbl_5a4:
+  msg(MORGAN_1B, UP_F4, MORGAN, FOLLOW, 95)
+# Oh well, I'm leaving! Hya ha ha ...\0
+  unit.retreat(MORGAN_1B)
+  local.sum($0a47d6, $07eb5f)
+  branch.ne.global(lbl_5b6, $0a47d7, $07eb58)
+  subroutine(lbl_6ce)
+lbl_5b6:
+break
+
+lbl_5b8:
+  msg(MORGAN_1B, LEFT_F6, MORGAN, NOFOLLOW, 96)
+# Shriek! Y, you caught up with me already!?\0
+break
+
+lbl_5c0:
+  msg(MORGAN_1B, LEFT_F6, MORGAN, NOFOLLOW, 97)
+# Gwa ha ha! Well, let me thank you for our last encounter ...\0
+break
+
+lbl_5c8:
+  msg(MORGAN_1B, DOWN_F5, MORGAN_DEAD, FOLLOW, 98)
+# Ugh ... Such pain ... argh--! Can't stop bleeding ...!\r\nGah--! Master Egbert ...!\0
+  branch.unit.dead(lbl_5d8, ZORUM_1A)
+  msg(ZORUM_1A, DOWN_F5, ZORUM, FOLLOW, 99)
+# Damn ... Even him ...\0
+lbl_5d8:
+break
+
+lbl_5da:
+  branch.unit.dead(lbl_5ea, MORGAN_1B)
+  msg(MORGAN_1B, IMPERIALCOMMANDER_37, MORGAN, FOLLOW, 100)
+# Now, go! Teach them a lesson!\0
+  msg(IMPERIALCOMMANDER_37, MORGAN_1B, PRIEST_GREEN, FOLLOW, 101)
+# Yes!\0
+lbl_5ea:
+break
+
+lbl_5ec:
+  branch.unit.dead(lbl_5fc, MORGAN_1B)
+  msg(MORGAN_1B, IMPERIALCOMMANDER_37, MORGAN, FOLLOW, 102)
+# Damn it! Stop following me!\r\nIt's your job to fight those nincompoops so I have time to retr--uh, to depart!\r\nFight them ... Or you'll regret it.\0
+  msg(IMPERIALCOMMANDER_37, MORGAN_1B, PRIEST_GREEN, FOLLOW, 103)
+# Y, yes, Sir ...\0
+lbl_5fc:
+break
+
+lbl_5fe:
+  msg(IMPERIALCOMMANDER_37, LEFT_F6, PRIEST_GREEN, FOLLOW, 104)
+# Let's go!\0
+break
+
+lbl_606:
+  msg(IMPERIALCOMMANDER_37, DOWN_F5, PRIEST_GREEN_DEAD, FOLLOW, 105)
+# Shriek!\0
+  unit.cleanup()
+  branch.unit.dead(lbl_617, MORGAN_1B)
+  msg(MORGAN_1B, IMPERIALCOMMANDER_37, MORGAN, FOLLOW, 106)
+# Eh? What useless subordinates!\0
+lbl_617:
+break
+
+lbl_619:
+  unit.cleanup()
+  subroutine(lbl_8ee)
+  local.sum($0a47d0, $07eb5f)
+break
+
+lbl_622:
+  subroutine(lbl_6ce)
+break
+
+lbl_627:
+  branch.ne.global(lbl_62e, $0a47d6, $07eb5f)
+  subroutine(lbl_6ce)
+lbl_62e:
+break
+
+lbl_630:
+  unit.cleanup()
+  branch.unit.dead(lbl_63b, VARGAS_D6)
+  msg(VARGAS_D6, DOWN_F5, VARGAS_ANGRY, FOLLOW, 107)
+# Hmmm, those kids are doing quite well.\r\nI never expected them to corner my troops.\0
+lbl_63b:
+break
+
+lbl_63d:
+  unit.cleanup()
+  branch.unit.dead(lbl_64b, CHERIE_04)
+  msg(CHERIE_04, DOWN_F5, CHERIE, FOLLOW, 108)
+# No way ... I can't believe Castle Kalxath is fallen ...\0
+  goto(lbl_651)
+lbl_64b:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 109)
+# Damn! I was too late ...\0
+lbl_651:
+  branch.unit.dead(lbl_65b, VARGAS_D6)
+  msg(VARGAS_D6, UP_F4, VARGAS, FOLLOW, 110)
+# Ha ha ha! Well done! You're excellent soldiers!\0
+lbl_65b:
+  gameover()
+break
+
+lbl_65e:
+  msg(HEIN_05, RIGHT_F7, HEIN, FOLLOW, 111)
+# Ouch!\r\nI wouldn't have come here if I had known this would happen.\0
+  branch.unit.dead(lbl_67a, CHERIE_04)
+  msg(CHERIE_04, HEIN_05, CHERIE, FOLLOW, 112)
+# Hein, what are you saying? You're a man, aren't you? Hang in there!\0
+  msg(HEIN_05, CHERIE_04, HEIN, FOLLOW, 113)
+# I'm a magician. Actual combat isn't my thing.\r\nCherie, I think the reason you're okay is because you're manlier than most men.\0
+  msg(CHERIE_04, HEIN_05, CHERIE_ANGRY, FOLLOW, 114)
+# "M, manly!?" How cruel!\r\nI will never ever help you again, Hein-- even if you need it!\0
+lbl_67a:
+break
+
+lbl_67c:
+  unit.cleanup()
+  msg(CHERIE_04, RIGHT_F7, CHERIE_ANGRY, FOLLOW, 115)
+# I can't be beaten here!\0
+  branch.unit.dead(lbl_69f, KEITH_07)
+  msg(KEITH_07, CHERIE_04, KEITH, FOLLOW, 116)
+# P, princess!?\0
+  msg(CHERIE_04, KEITH_07, CHERIE, FOLLOW, 117)
+# I'm all right! A scratch like that won't kill me.\0
+  msg(KEITH_07, CHERIE_04, KEITH, FOLLOW, 118)
+# For heaven's sake, please don't fight so much. I can't let our princess die here ...\0
+  msg(CHERIE_04, KEITH_07, CHERIE, FOLLOW, 119)
+# What are you saying?\r\nI can't leave battle while others are still fighting desperately!\0
+lbl_69f:
+break
+
+lbl_6a1:
+  unit.cleanup()
+  msg(LIANA_02, RIGHT_F7, LIANA_DEAD, FOLLOW, 120)
+# Eeek!\0
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 121)
+# Damn it! Liana's in danger! Everyone, defend her!\0
+break
+
+lbl_6b0:
+  unit.cleanup()
+  msg(COMMANDER_21, DOWN_F5, FIGHTER_BLACK, FOLLOW, 122)
+# Such power is to be expected of the Empire ... But we shall not fall!\0
+  local.sub($0a47d0, $07eb5a)
+break
+
+lbl_6bc:
+  unit.cleanup()
+  msg(VARGAS_D6, LEFT_F6, VARGAS, FOLLOW, 123)
+# Shit ... You are doing quite well.\0
+break
+
+lbl_6c5:
+  unit.cleanup()
+  msg(IMPERIALCOMMANDER_30, DOWN_F5, KNIGHT1_GREEN, FOLLOW, 124)
+# You've already lost!\0
+break
+
+lbl_6ce:
+  unit.cleanup()
+  scenarioclear()
+  msg(CHERIE_04, RIGHT_F7, CHERIE, FOLLOW, 127)
+# Nobody's hurt?\0
+  branch.unit.dead(lbl_74d, KEITH_07)
+  msg(KEITH_07, CHERIE_04, KEITH, FOLLOW, 128)
+# It's amazing we're safe.\0
+  branch.units.dead(lbl_71b, COMMANDER_21, COMMANDER_22)
+  msg(COMMANDER_21, RIGHT_F7, FIGHTER_BLACK, FOLLOW, 129)
+# Thanks to _NAME_, we were able to able to repel Rayguard's assault.\0
+  msg(KEITH_07, CHERIE_04, KEITH, FOLLOW, 130)
+# Princess ... You should properly thank _NAME_.\0
+  branch.ne.global(lbl_707, $0a4789, $07eb58)
+  msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 131)
+# I guess so ...\r\nHmm--! Where'd that armour go ...?\r\nI'm sorry, I must have given it to someone. I don't have it any more.\0
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 132)
+# Do I already have it? Was it ... a dream?\0
+  goto(lbl_718)
+lbl_707:
+  msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 133)
+# Ah, yes. I present you with this suit of armour from our ancestors.\r\nIt's probably not the strongest armour, but it's very light and provides very good defence.\0
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 134)
+# Obtained Dragon Scale.\0
+  global.sum($0a4789, $07eb58)
+  item.add(DRAGONSCALE)
+lbl_718:
+  goto(lbl_74d)
+lbl_71b:
+  branch.unit.dead(lbl_72e, COMMANDER_21)
+  msg(KEITH_07, CHERIE_04, KEITH, FOLLOW, 135)
+# Thanks to you, I was saved.\0
+  msg(KEITH_07, COMMANDER_21, KEITH, FOLLOW, 125)
+# Well done.\r\nYou protected this castle from the Blazing Dragon Army's attack.\0
+  goto(lbl_74d)
+lbl_72e:
+  branch.unit.dead(lbl_741, COMMANDER_22)
+  msg(KEITH_07, CHERIE_04, KEITH, FOLLOW, 136)
+# Thanks to you, I was saved.\0
+  msg(KEITH_07, COMMANDER_22, KEITH, FOLLOW, 125)
+# Well done.\r\nYou protected this castle from the Blazing Dragon Army's attack.\0
+  goto(lbl_74d)
+lbl_741:
+  msg(KEITH_07, CHERIE_04, KEITH, FOLLOW, 137)
+# I'm sorry, Princess ... My failure is inexcusable.\0
+  msg(CHERIE_04, KEITH_07, CHERIE, FOLLOW, 138)
+# It's all right, Keith.\r\nYou saved the castle from the siege of the Blazing Dragon Army.\0
+lbl_74d:
+  branch.unit.dead(lbl_75d, HEIN_05)
+  msg(HEIN_05, RIGHT_F7, HEIN, FOLLOW, 139)
+# I've heard Kalxath described as an enormous castle. Would Liana be safe within its walls?\0
+  msg(CHERIE_04, HEIN_05, CHERIE, FOLLOW, 140)
+# Certainly! You can leave her care to us.\0
+lbl_75d:
+  branch.unit.dead(lbl_76a, SCOTT_06)
+  msg(SCOTT_06, ERWIN_01, SCOTT, FOLLOW, 141)
+# Well, then ... I have fulfilled my duty. I must return home now.\0
+  goto(lbl_770)
+lbl_76a:
+  msg(SCOTT_06, ERWIN_01, SCOTT_DEAD, FOLLOW, 142)
+# Well ... It seems my current experience wasn't any help.\r\nI should return to Salrath and continue my studies.\0
+lbl_770:
+  branch.unit.dead(lbl_793, HEIN_05)
+  msg(HEIN_05, SCOTT_06, HEIN, FOLLOW, 143)
+# What a pity! Scott, if you leave, who will tutor me in strategy?\0
+  branch.unit.dead(lbl_787, SCOTT_06)
+  msg(SCOTT_06, HEIN_05, SCOTT, FOLLOW, 201)
+# Yeah ... You can't depend on others forever.\0
+  goto(lbl_78d)
+lbl_787:
+  msg(SCOTT_06, DOWN_F5, SCOTT_DEAD, NOFOLLOW, 201)
+# Yeah ... You can't depend on others forever.\0
+lbl_78d:
+  msg(HEIN_05, SCOTT_06, HEIN, FOLLOW, 144)
+# Curses ... I guess I have no choice.\r\nIt seems I'll have to study troop affinity on my own.\0
+lbl_793:
+  msg(ERWIN_01, SCOTT_06, ERWIN, FOLLOW, 145)
+# Well then, take care ...\0
+  branch.unit.dead(lbl_7a6, SCOTT_06)
+  msg(SCOTT_06, ERWIN_01, SCOTT, FOLLOW, 202)
+# I really must be on my way ...\0
+  goto(lbl_7ac)
+lbl_7a6:
+  msg(SCOTT_06, DOWN_F5, SCOTT_DEAD, NOFOLLOW, 202)
+# I really must be on my way ...\0
+lbl_7ac:
+  unit.retreat(SCOTT_06)
+  msg(NULL_00, DOWN_F5, NULL, NOFOLLOW, 146)
+# Scott leaves the entourage ...\0
+  branch.unit.dead(lbl_7c1, COMMANDER_22)
+  msg(COMMANDER_22, ERWIN_01, FIGHTER_BLACK, FOLLOW, 147)
+# Sir _NAME_, a guest has requested to see you.\0
+  goto(lbl_7cb)
+lbl_7c1:
+  focus.unit(ERWIN_01)
+  msg(SOLDIER_20, ERWIN_01, SOLDIER1_SILVER, NOFOLLOW, 148)
+# Sir _NAME_, a guest has requested to see you.\0
+lbl_7cb:
+  focus.unit(ERWIN_01)
+  msg(PRIEST_24, ERWIN_01, ABBOT_WHITE, NOFOLLOW, 149)
+# We meet again, _NAME_.\0
+  msg(ERWIN_01, PRIEST_24, ERWIN, FOLLOW, 150)
+# Your Holiness! Welcome.\0
+  msg(PRIEST_24, ERWIN_01, ABBOT_WHITE, NOFOLLOW, 151)
+# I've been investigating some ancient manuscripts archived in our shrine.\r\nIt seems I've found the source of the Dark Blade's power.\0
+  msg(ERWIN_01, PRIEST_24, ERWIN, FOLLOW, 152)
+# That's good ... What do you mean its "power?"\0
+  msg(PRIEST_24, RIGHT_F7, ABBOT_WHITE, NOFOLLOW, 153)
+# Alhazard houses an even more terrible power than we first suspected.\r\nNot only does it raise its user's abilities, but it also allows him to contact the demon world.\0
+  msg(HEIN_05, PRIEST_24, HEIN, FOLLOW, 154)
+# The demon world!? But it is said no magician in El Sallia possesses such power.\0
+  msg(PRIEST_24, ERWIN_01, ABBOT_WHITE, NOFOLLOW, 155)
+# Indeed, you are correct.\r\nHowever, the manuscript says when the sword combines with the Dark Rod, it will become capable of commanding demons.\0
+  branch.unit.dead(lbl_803, LIANA_02)
+  msg(LIANA_02, PRIEST_24, LIANA, FOLLOW, 156)
+# The Dark Rod? Legends say one blast from this wand can level a kingdom.\0
+lbl_803:
+  msg(CHERIE_04, PRIEST_24, CHERIE, FOLLOW, 157)
+# If such a weapon is used, we would have no way to resist. What can we do?\0
+  msg(PRIEST_24, CHERIE_04, ABBOT_WHITE, NOFOLLOW, 158)
+# There is more to tell. Alhazard has yet to reach its full power.\r\nThe Dark Rod is necessary to completely revive it.\0
+  branch.unit.dead(lbl_819, HEIN_05)
+  msg(HEIN_05, PRIEST_24, HEIN, FOLLOW, 159)
+# I see ...\r\nThat's why the Imperial Army is searching so desperately for the ancient scrolls.\0
+lbl_819:
+  msg(ERWIN_01, PRIEST_24, ERWIN, FOLLOW, 160)
+# Couldn't Alhazard be used without the Dark Rod ...?\0
+  msg(PRIEST_24, ERWIN_01, ABBOT_WHITE, NOFOLLOW, 161)
+# I don't think so ... I have yet to discover where the Dark Rod is enshrined.\0
+  msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 162)
+# Then let us make haste to the Rall River.\r\nIt's said a powerful magician over seven hundred years old lives there in seclusion.\r\nIf there is anyone in El Sallia who knows about this "Dark Rod," it must be she.\r\n_NAME_, let's go together!\0
+  msg(ERWIN_01, CHERIE_04, ERWIN, FOLLOW, 163)
+# Are you sure? It may be better if you stay here to defend Castle Kalxath.\0
+  msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 164)
+# Unfortunately, the Empire's new ambition is our priority.\r\nIf the power of Alhazard is released, this castle won't matter any more.\0
+  msg(KEITH_07, ERWIN_01, KEITH, FOLLOW, 165)
+# Indeed. I will accompany you as well.\0
+  msg(CHERIE_04, KEITH_07, CHERIE, FOLLOW, 166)
+# What? You plan to come, too?\0
+  msg(KEITH_07, ERWIN_01, KEITH, FOLLOW, 167)
+# Of course! My charge is to defend the princess of Kalxath.\0
+  msg(NULL_00, DOWN_F5, NULL, NOFOLLOW, 168)
+# Keith joins the entourage!\0
+  branch.unit.dead(lbl_859, LIANA_02)
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 169)
+# Then ... I guess you shall be away to the river now ...\0
+lbl_859:
+  msg(ERWIN_01, CHERIE_04, ERWIN, FOLLOW, 170)
+# We cannot allow the Empire to do as it pleases.\0
+  msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 171)
+# Yes, let us depart at once.\0
+  branch.unit.dead(lbl_86f, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 172)
+# I'll lend a hand, too! I want to see this legendary magician.\r\nI wonder what kind of person she is ...\0
+lbl_86f:
+  branch.unit.dead(lbl_882, KEITH_07)
+  msg(KEITH_07, RIGHT_F7, KEITH, FOLLOW, 173)
+# Okay. Troops, prepare to set out.\0
+  msg(SOLDIER_20, KEITH_07, SOLDIER1_SILVER, NOFOLLOW, 174)
+# Yes, Sir!\0
+  goto(lbl_888)
+lbl_882:
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 175)
+# Let's hurry! We must obtain this Dark Rod before the Empire.\0
+lbl_888:
+  msg(LIANA_02, ERWIN_01, LIANA_SAD, NOFOLLOW, 176)
+# _NAME_ ...\0
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 177)
+# Liana, please stay here. The castle guards will be able to protect you.\r\nWithin Castle Kalxath, you needn't be afraid any more.\0
+  branch.unit.dead(lbl_89e, CHERIE_04)
+  msg(CHERIE_04, LIANA_02, CHERIE, FOLLOW, 178)
+# That's right! While you remain with us, you'll be treated like a guest!\0
+lbl_89e:
+  msg(LIANA_02, CHERIE_04, LIANA_SAD, NOFOLLOW, 179)
+# No ... that's not it ...\r\n_NAME_ ... I wish to go with you.\0
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 180)
+# What! Liana, it will be dangerous ...\0
+  branch.unit.dead(lbl_8b7, LIANA_02)
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 126)
+# Even a girl like me can fight! I can't stand having to sit by while others fight!\r\n_NAME_, please let me come with you!\0
+  goto(lbl_8bd)
+lbl_8b7:
+  msg(LIANA_02, DOWN_F5, LIANA_DEAD, NOFOLLOW, 126)
+# Even a girl like me can fight! I can't stand having to sit by while others fight!\r\n_NAME_, please let me come with you!\0
+lbl_8bd:
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 181)
+# ...\0
+  branch.unit.dead(lbl_8cd, CHERIE_04)
+  msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 182)
+# _NAME_ ... don't worry.\r\nThe Rall River is a fairly stable region that has gone unclaimed by any kingdom for over several hundred years.\r\nCould it be ... you fear you cannot protect her ...?\0
+lbl_8cd:
+  msg(LIANA_02, ERWIN_01, LIANA_SAD, NOFOLLOW, 183)
+# ...\0
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 184)
+# Fine ... Liana, you must promise me one thing.\r\nIf we are forced to engage the Empire, you must flee and return to Kalxath. Understood?\0
+  msg(LIANA_02, ERWIN_01, LIANA, NOFOLLOW, 185)
+# Thank you ... I'm sorry to make such an unreasonable request ...\0
+  msg(KEITH_07, LIANA_02, KEITH, NOFOLLOW, 186)
+# Princess, I'm ready.\0
+  msg(CHERIE_04, ERWIN_01, CHERIE, NOFOLLOW, 187)
+# Well then, let's move out!\0
+  loadscenario(5)
+endsub
+
+lbl_8ee:
+  bgm(ALLY, ENEMY3_MORGAN)
+  bgm(ENEMY, ENEMY3_MORGAN)
+  unit.deploy(IMPERIALCOMMANDER_37, 14, 29)
+  unit.deploy(MORGAN_1B, 17, 28)
+  unit.deploy(ZORUM_1A, 19, 29)
+  branch.eq.global(lbl_95d, $0a47d1, $07eb58)
+  msg(MORGAN_1B, ZORUM_1A, MORGAN, FOLLOW, 188)
+# I've caught up with you at last!\0
+  msg(ZORUM_1A, LEFT_F6, ZORUM, FOLLOW, 189)
+# Shit! How could we have failed to take Kalxath ...?\0
+  branch.unit.dead(lbl_951, VARGAS_D6)
+  msg(VARGAS_D6, ZORUM_1A, VARGAS, FOLLOW, 190)
+# How are you, Zorum? I was worried.\0
+  msg(ZORUM_1A, VARGAS_D6, ZORUM, FOLLOW, 191)
+# I'm sorry, General Vargas.\r\nWe both failed to acquire the stone tablet and to lure Kalxath's army away from home.\0
+  msg(VARGAS_D6, ZORUM_1A, VARGAS, FOLLOW, 192)
+# Don't worry ... What's done is done.\r\nConcentrate on taking Castle Kalxath now.\0
+  msg(ZORUM_1A, VARGAS_D6, ZORUM, FOLLOW, 193)
+# Yes, Sir!\0
+  msg(MORGAN_1B, VARGAS_D6, MORGAN, FOLLOW, 194)
+# Hee hee hee ... I have an interesting story for you, General Vargas.\r\nHave you heard of Liana, the young girl Leon's forces are scrambling for? She was with those brats today.\r\nWe're in luck! We can capture both her and the castle ... Hya ha ha!\0
+  msg(VARGAS_D6, MORGAN_1B, VARGAS, FOLLOW, 195)
+# My orders are only to capture Castle Kalxath.\r\nRegarding this girl, Liana, I have no interest. I'll leave her to you.\0
+  msg(MORGAN_1B, VARGAS_D6, MORGAN, FOLLOW, 196)
+# Hya ha ha! I can't believe you don't want her!\r\nWell then, I'll capture her, and then ... who knows ... Hee hee hee.\0
+  unit.setbit(MORGAN_1B, $17, 1)
+  unit.setbyte(MORGAN_1B, $21, 0x02)
+  unit.setbit(ZORUM_1A, $17, 1)
+  unit.setbyte(ZORUM_1A, $21, 0x01)
+  goto(lbl_95a)
+lbl_951:
+  msg(MORGAN_1B, ZORUM_1A, MORGAN, FOLLOW, 197)
+# It seems that the General has withdrawn.\r\nWe have no choice, then, but to take this girl to the Imperial Capital by ourselves.\0
+  subroutine(lbl_96a)
+lbl_95a:
+  goto(lbl_966)
+lbl_95d:
+  msg(MORGAN_1B, ZORUM_1A, MORGAN, FOLLOW, 198)
+# It seems that the General has withdrawn.\r\nWe have no choice, then, but to take this girl to the Imperial Capital by ourselves.\0
+  subroutine(lbl_96a)
+lbl_966:
+  bgm(ALLY, ALLY6)
+endsub
+
+lbl_96a:
+  msg(ZORUM_1A, MORGAN_1B, ZORUM, FOLLOW, 199)
+# For once, we're on the same page.\r\nOkay, Morgan, let's go!\0
+  msg(MORGAN_1B, ZORUM_1A, MORGAN, FOLLOW, 200)
+# Hee hee hee!\0
+  unit.setbit(MORGAN_1B, $17, 1)
+  unit.setbyte(MORGAN_1B, $21, 0x02)
+  unit.setbit(ZORUM_1A, $17, 1)
+  unit.setbyte(ZORUM_1A, $21, 0x02)
+endsub
+

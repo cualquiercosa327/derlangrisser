@@ -158,12 +158,12 @@ break
 lbl_27e:
   msg(LEON_D5, UP_F4, LEON, FOLLOW, 25)
 # I will take care of their commander. The rest of you, after the girl!\0
-  branch.ifdead(lbl_291, IMPERIALCOMMANDER_2F)
+  branch.unit.dead(lbl_291, IMPERIALCOMMANDER_2F)
   msg(IMPERIALCOMMANDER_2F, LAIRD_18, SWORDSMAN1_GREEN, FOLLOW, 26)
 # Yes, Sir!\0
   goto(lbl_2a4)
 lbl_291:
-  branch.ifdead(lbl_29e, IMPERIALCOMMANDER_30)
+  branch.unit.dead(lbl_29e, IMPERIALCOMMANDER_30)
   msg(IMPERIALCOMMANDER_30, LAIRD_18, SWORDSMAN1_GREEN, FOLLOW, 27)
 # Understood!\0
   goto(lbl_2a4)
@@ -193,15 +193,15 @@ lbl_2c8:
 break
 
 lbl_2cd:
-  branch.ifdead(lbl_2d7, LAIRD_18)
+  branch.unit.dead(lbl_2d7, LAIRD_18)
   msg(LAIRD_18, UP_F4, LAIRD, FOLLOW, 32)
 # They're tougher than I thought! Don't let her get away!\0
 lbl_2d7:
 break
 
 lbl_2d9:
-  branch.ifdead(lbl_2ed, SCOTT_06)
-  branch.ifdead(lbl_2ed, HEIN_05)
+  branch.unit.dead(lbl_2ed, SCOTT_06)
+  branch.unit.dead(lbl_2ed, HEIN_05)
   msg(SCOTT_06, RIGHT_F7, SCOTT, FOLLOW, 33)
 # Hein, have you learnt the spell Attack?\r\nIt can increase the attack power of one of your hired units for one turn.\0
   msg(HEIN_05, SCOTT_06, HEIN, FOLLOW, 34)
@@ -232,7 +232,7 @@ lbl_308:
 # Well done! Estool is just a little further down this road!\0
   msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 37)
 # Okay!\0
-  branch.ifdead(lbl_325, LAIRD_18)
+  branch.unit.dead(lbl_325, LAIRD_18)
   msg(LAIRD_18, LEFT_F6, LAIRD, FOLLOW, 38)
 # It's hopeless. I must withdraw ...\0
 lbl_325:
@@ -324,13 +324,13 @@ lbl_3c9:
 break
 
 lbl_3d4:
-  branch.ifdead(lbl_3de, LAIRD_18)
+  branch.unit.dead(lbl_3de, LAIRD_18)
   msg(LAIRD_18, DOWN_F5, LAIRD, FOLLOW, 56)
 # Our mission is complete. Let's return to headquarters.\0
 lbl_3de:
   msg(LIANA_02, RIGHT_F7, LIANA_ANGRY, FOLLOW, 57)
 # No, get away! Leave me alone!\0
-  branch.ifdead(lbl_3ee, HEIN_05)
+  branch.unit.dead(lbl_3ee, HEIN_05)
   msg(HEIN_05, LIANA_02, HEIN, FOLLOW, 58)
 # Liana!\0
 lbl_3ee:
@@ -360,7 +360,7 @@ lbl_40f:
 break
 
 lbl_417:
-  branch.ifdead(lbl_424, SCOTT_06)
+  branch.unit.dead(lbl_424, SCOTT_06)
   msg(LOREN_2B, SCOTT_06, LOREN, FOLLOW, 64)
 # So this is my fate ... It seems this war will be fought by a younger generation.\r\nBut, as long as there's life in this body, the Imperials won't reach the shrine.\r\nI must buy Scott more time ... He has great potential, but lacks experience.\0
   goto(lbl_42a)
@@ -381,14 +381,14 @@ break
 lbl_440:
   msg(LOREN_2B, DOWN_F5, LOREN_DEAD, FOLLOW, 67)
 # I am ... done for--\0
-  branch.ifdead(lbl_458, SCOTT_06)
+  branch.unit.dead(lbl_458, SCOTT_06)
   msg(SCOTT_06, LOREN_2B, SCOTT, FOLLOW, 68)
 # Father! You can't fight any more in that condition!\r\nPlease retire from the field.\0
   msg(LOREN_2B, SCOTT_06, LOREN_DEAD, FOLLOW, 69)
 # Then I'll trust you to hold off the enemy ... You must get Liana to safety!\0
   unit.retreat(LOREN_2B)
 lbl_458:
-  branch.ifdead(lbl_46a, LAIRD_18)
+  branch.unit.dead(lbl_46a, LAIRD_18)
   msg(LAIRD_18, LIANA_02, LAIRD, FOLLOW, 70)
 # Quick! After the girl!\0
   unit.setbit(LAIRD_18, $17, 1)
@@ -462,7 +462,7 @@ lbl_4e0:
 break
 
 lbl_500:
-  branch.ifdead(lbl_519, IMPERIALCOMMANDER_2F)
+  branch.unit.dead(lbl_519, IMPERIALCOMMANDER_2F)
   msg(LAIRD_18, DOWN_F5, LAIRD_DEAD, FOLLOW, 89)
 # It's ... It's not over yet--!\0
   msg(IMPERIALCOMMANDER_2F, LAIRD_18, SWORDSMAN1_GREEN, NOFOLLOW, 172)
@@ -471,7 +471,7 @@ lbl_500:
 # I mustn't lose, I must ...\0
   goto(lbl_551)
 lbl_519:
-  branch.ifdead(lbl_532, IMPERIALCOMMANDER_30)
+  branch.unit.dead(lbl_532, IMPERIALCOMMANDER_30)
   msg(LAIRD_18, DOWN_F5, LAIRD_DEAD, FOLLOW, 91)
 # It's ... not over yet. I--!\0
   msg(IMPERIALCOMMANDER_30, LAIRD_18, SWORDSMAN1_GREEN, NOFOLLOW, 172)
@@ -480,7 +480,7 @@ lbl_519:
 # I ... can't believe it ...\0
   goto(lbl_551)
 lbl_532:
-  branch.ifdead(lbl_54b, IMPERIALCOMMANDER_31)
+  branch.unit.dead(lbl_54b, IMPERIALCOMMANDER_31)
   msg(LAIRD_18, DOWN_F5, LAIRD_DEAD, FOLLOW, 93)
 # If I lose ... then ...?\0
   msg(IMPERIALCOMMANDER_31, LAIRD_18, FIGHTER_GREEN, NOFOLLOW, 172)
@@ -554,7 +554,7 @@ break
 
 lbl_5b4:
   unit.cleanup()
-  branch.ifdead(lbl_5c4, LAIRD_18)
+  branch.unit.dead(lbl_5c4, LAIRD_18)
   msg(LAIRD_18, LEFT_F6, LAIRD, FOLLOW, 104)
 # Shit ... I had the tactical advantage ...\r\nHow could I have been defeated ...!?\0
   unit.retreat(LAIRD_18)
@@ -605,7 +605,7 @@ lbl_60e:
   unit.setbyte(LIANA_02, $2d, 0x00)
   goto(lbl_67d)
 lbl_641:
-  branch.ifdead(lbl_67a, HEIN_05)
+  branch.unit.dead(lbl_67a, HEIN_05)
   msg(HEIN_05, LIANA_02, HEIN, FOLLOW, 119)
 # Don't worry, I'll protect her!\0
   prompt.ok(lbl_674)
@@ -629,7 +629,7 @@ lbl_67d:
 endsub
 
 lbl_67e:
-  branch.ifdead(lbl_6b7, SCOTT_06)
+  branch.unit.dead(lbl_6b7, SCOTT_06)
   msg(SCOTT_06, LIANA_02, SCOTT, FOLLOW, 124)
 # Why not leave her to me, then?\0
   prompt.ok(lbl_6b1)
@@ -660,7 +660,7 @@ lbl_6bb:
   unit.deploy(IMPERIALCOMMANDER_32, 18, 25)
   msg(IMPERIALCOMMANDER_32, LIANA_02, FIGHTER_GREEN, FOLLOW, 129)
 # Get them!\0
-  branch.ifdead(lbl_6da, SCOTT_06)
+  branch.unit.dead(lbl_6da, SCOTT_06)
   msg(SCOTT_06, IMPERIALCOMMANDER_32, SCOTT, FOLLOW, 130)
 # Oh, shit! It's an ambush!\0
 lbl_6da:
@@ -676,7 +676,7 @@ lbl_6e4:
   unit.deploy(IMPERIALCOMMANDER_34, 24, 7)
   msg(IMPERIALCOMMANDER_34, LEFT_F6, FIGHTER_GREEN, FOLLOW, 132)
 # Surround them! If we work together, they won't have a chance!\0
-  branch.ifdead(lbl_705, HEIN_05)
+  branch.unit.dead(lbl_705, HEIN_05)
   msg(HEIN_05, RIGHT_F7, HEIN_ANGRY, FOLLOW, 133)
 # Oh, shit! Even more Imperial soldiers ...!\0
   goto(lbl_70b)
@@ -697,7 +697,7 @@ lbl_70b:
 # I was just passing through, but I'll help you against the Imperial Army.\r\nHey, redhead! Let me give you a piece of advice. You need to keep your cool-- and stop being so reckless!\0
   msg(ERWIN_01, ROHGA_0B, ERWIN, FOLLOW, 139)
 # Who is this guy and where is he from ...?\r\nHe doesn't seem to be one of the Imperials ...\0
-  branch.ifdead(lbl_73d, SCOTT_CE)
+  branch.unit.dead(lbl_73d, SCOTT_CE)
   msg(SCOTT_06, ERWIN_01, SCOTT, FOLLOW, 140)
 # I think he's a mercenary. Why would he ...?\0
 lbl_73d:
@@ -707,7 +707,7 @@ endsub
 lbl_741:
   unit.cleanup()
   scenarioclear()
-  branch.ifdead(lbl_794, ROHGA_0B)
+  branch.unit.dead(lbl_794, ROHGA_0B)
   branch.ne.global(lbl_754, $0a47d1, $07eb5d)
   msg(ROHGA_0B, RIGHT_F7, ROHGA_ANGRY, FOLLOW, 141)
 # Halt, stranger! What is your business here ...?\r\nToo late ... he's already left.\0
@@ -724,7 +724,7 @@ lbl_75a:
 # Honestly, we don't know either. For now we're just trying to get her to safety.\0
   msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 146)
 # That's it? Not a very interesting story so far!\r\nWell, I can't reveal much about myself for personal reasons. Maybe some day I'll be able to tell you more.\r\nI bet it's quite a bitch having the Empire after you, isn't it?\0
-  branch.ifdead(lbl_77f, SCOTT_06)
+  branch.unit.dead(lbl_77f, SCOTT_06)
   msg(SCOTT_06, ERWIN_01, SCOTT, FOLLOW, 147)
 # Look, as much as I'd love to chat, ...\r\nWe really must be off. We're on our way to Estool to seek the priest's help.\0
   goto(lbl_785)
@@ -740,7 +740,7 @@ lbl_785:
 lbl_794:
   msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 151)
 # Whew, it's finally over.\0
-  branch.ifdead(lbl_7a4, HEIN_05)
+  branch.unit.dead(lbl_7a4, HEIN_05)
   msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 152)
 # The Imperial Army won't give up so easily, though.\0
 lbl_7a4:
@@ -763,7 +763,7 @@ lbl_7a4:
   msg(ROHGA_0B, DOWN_F5, ROHGA_DEAD, NOFOLLOW, 161)
 # I'm on the verge of death and you still want me to follow you ...?\r\nWell, all right then! I guess I'll tag along and see what you can do ...\0
 lbl_7da:
-  branch.ifdead(lbl_7f3, SCOTT_06)
+  branch.unit.dead(lbl_7f3, SCOTT_06)
   msg(SCOTT_06, LIANA_02, SCOTT, FOLLOW, 162)
 # By the way, Liana ...\r\nDo you have any idea what the Imperial Knights want with you?\0
   msg(LIANA_02, SCOTT_06, LIANA_SAD, FOLLOW, 163)
@@ -779,7 +779,7 @@ lbl_7f3:
   msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 110)
 # At any rate, let's hurry! More Imperial reinforcements may come at any time.\0
 lbl_805:
-  branch.ifdead(lbl_83d, LOREN_2B)
+  branch.unit.dead(lbl_83d, LOREN_2B)
   branch.eq.global(lbl_831, $0a4791, $07eb5f)
   msg(LOREN_2B, ERWIN_01, LOREN, FOLLOW, 166)
 # Wait. I have something for you before you depart. Take this sword.\0

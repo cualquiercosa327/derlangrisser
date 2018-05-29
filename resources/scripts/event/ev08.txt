@@ -148,8 +148,8 @@ lbl_26d:
 break
 
 lbl_27b:
-  branch.ifdead(lbl_29b, RIDEL_7F)
-  branch.ifdead(lbl_292, EVANZE_80)
+  branch.unit.dead(lbl_29b, RIDEL_7F)
+  branch.unit.dead(lbl_292, EVANZE_80)
   msg(EVANZE_80, RIDEL_7F, PRIEST_WHITE, FOLLOW, 19)
 # Ridel! They are powerful foes indeed!\r\nBut no matter how strong they may be, we have to hold them off until His Lordship's troops arrive, ... no matter the cost.\0
   msg(RIDEL_7F, EVANZE_80, FIGHTER_BLACK, FOLLOW, 20)
@@ -161,7 +161,7 @@ lbl_292:
 lbl_298:
   goto(lbl_2a5)
 lbl_29b:
-  branch.ifdead(lbl_2a5, EVANZE_80)
+  branch.unit.dead(lbl_2a5, EVANZE_80)
   msg(EVANZE_80, RIDEL_7F, PRIEST_WHITE, FOLLOW, 22)
 # Ridel--!\0
 lbl_2a5:
@@ -189,7 +189,7 @@ break
 
 lbl_2d3:
   unit.cleanup()
-  branch.ifdead(lbl_2de, LEON_D5)
+  branch.unit.dead(lbl_2de, LEON_D5)
   msg(LEON_D5, BALDO_19, LEON, FOLLOW, 27)
 # Okay, mission accomplished. Let us head back to the Imperial Capital.\0
 lbl_2de:
@@ -201,7 +201,7 @@ lbl_2de:
 break
 
 lbl_2ed:
-  branch.ifdead(lbl_300, HEIN_05)
+  branch.unit.dead(lbl_300, HEIN_05)
   msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 30)
 # I knew it, _NAME_! There can be no more doubt-- the knights are here for Liana!\0
   msg(ERWIN_01, HEIN_05, ERWIN, FOLLOW, 31)
@@ -292,7 +292,7 @@ break
 lbl_3a0:
   msg(VILLAGER_25, DOWN_F5, VILLAGER_YELLOW, FOLLOW, 48)
 # Help!\0
-  branch.ifdead(lbl_3c5, IMPERIALCOMMANDER_2F)
+  branch.unit.dead(lbl_3c5, IMPERIALCOMMANDER_2F)
   msg(IMPERIALCOMMANDER_2F, LEON_D5, SWORDSMAN1_GREEN, FOLLOW, 49)
 # General Leon! What should we do with this villager?\r\nNobody was supposed to discover our actions here.\0
   msg(LEON_D5, IMPERIALCOMMANDER_2F, LEON, FOLLOW, 50)
@@ -317,7 +317,7 @@ lbl_3d9:
 # Hey, you! Move it! You are in my way!\0
   msg(VILLAGER_25, BALDO_19, VILLAGER_YELLOW, NOFOLLOW, 57)
 # Eeek! Help me!\0
-  branch.ifdead(lbl_3ef, LAIRD_18)
+  branch.unit.dead(lbl_3ef, LAIRD_18)
   msg(LAIRD_18, BALDO_19, LAIRD, NOFOLLOW, 58)
 # Baldo, wait! You are forbidden to act without orders!\0
 lbl_3ef:
@@ -344,7 +344,7 @@ break
 lbl_413:
   msg(RIDEL_7F, DOWN_F5, FIGHTER_BLACK_DEAD, FOLLOW, 63)
 # Evanze ... I am sorry ...\0
-  branch.ifdead(lbl_430, EVANZE_80)
+  branch.unit.dead(lbl_430, EVANZE_80)
   msg(EVANZE_80, RIDEL_7F, PRIEST_WHITE, FOLLOW, 64)
 # Nooo! Ridel, you mustn't die! We had a promise!\r\nYou said we'd be together ... forever ...\0
   unit.cleanup()
@@ -360,7 +360,7 @@ break
 lbl_433:
   msg(EVANZE_80, DOWN_F5, PRIEST_WHITE_DEAD, FOLLOW, 66)
 # Shriek--!\0
-  branch.ifdead(lbl_468, RIDEL_7F)
+  branch.unit.dead(lbl_468, RIDEL_7F)
   msg(RIDEL_7F, EVANZE_80, FIGHTER_BLACK, FOLLOW, 67)
 # Evanze! Hang on!\0
   unit.face(EVANZE_80, RIDEL_7F)
@@ -380,11 +380,11 @@ lbl_468:
 break
 
 lbl_46a:
-  branch.ifdead(lbl_47f, LEON_D5)
+  branch.unit.dead(lbl_47f, LEON_D5)
   unit.cleanup()
   msg(LEON_D5, DOWN_F5, LEON, FOLLOW, 73)
 # All right, let us go and assist Baldo with the girl!\0
-  branch.ifdead(lbl_47f, LAIRD_18)
+  branch.unit.dead(lbl_47f, LAIRD_18)
   msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 74)
 # Yes, Sir!\0
 lbl_47f:
@@ -416,7 +416,7 @@ lbl_4af:
 # We shall not divulge our mission's purpose to those not involved.\0
   msg(ERWIN_01, LEON_D5, ERWIN_ANGRY, NOFOLLOW, 80)
 # I've heard not only that the Blue Dragon Knights are the strongest in the land ...\r\nbut also that they value chivalry above all else! Why now do you engage in such a contemptible act!?\0
-  branch.ifdead(lbl_4ce, LAIRD_18)
+  branch.unit.dead(lbl_4ce, LAIRD_18)
   msg(LAIRD_18, ERWIN_01, LAIRD, NOFOLLOW, 186)
 # Be silent! I cannot bear your ignorance!\r\nThe General does not undertake this mission of his own volition!\r\nWe act today only due to a direct order from Kaiser Bernhardt himself!\0
   goto(lbl_4d4)
@@ -445,7 +445,7 @@ break
 lbl_4f8:
   msg(LAIRD_18, LEON_D5, LAIRD_DEAD, FOLLOW, 85)
 # General Leon!\0
-  branch.ifdead(lbl_508, LEON_D5)
+  branch.unit.dead(lbl_508, LEON_D5)
   msg(LEON_D5, LAIRD_18, LEON, FOLLOW, 86)
 # Do not be foolhardy! I'll handle the rest!\0
 lbl_508:
@@ -549,8 +549,8 @@ lbl_5fd:
   msg(BALDO_19, DOWN_F5, BALDO_DEAD, FOLLOW, 113)
 # Impossible ... G, General Leon!\0
   unit.cleanup()
-  branch.ifdead(lbl_639, LEON_D5)
-  branch.ifdead(lbl_633, LAIRD_18)
+  branch.unit.dead(lbl_639, LEON_D5)
+  branch.unit.dead(lbl_633, LAIRD_18)
   msg(LEON_D5, BALDO_19, LEON, FOLLOW, 114)
 # What!? How is it possible ... Baldo has been ... bested?\0
   msg(LEON_D5, LAIRD_18, LEON, FOLLOW, 115)
@@ -573,9 +573,9 @@ lbl_639:
   unit.deploy(COMMANDER_21, 14, 1)
   unit.deploy(COMMANDER_22, 9, 3)
   unit.deploy(SCOTT_06, 15, 3)
-  branch.ifalive(lbl_66d, LEON_D5)
-  branch.ifalive(lbl_66a, LAIRD_18)
-  branch.ifalive(lbl_66a, IMPERIALCOMMANDER_2F)
+  branch.unit.alive(lbl_66d, LEON_D5)
+  branch.unit.alive(lbl_66a, LAIRD_18)
+  branch.unit.alive(lbl_66a, IMPERIALCOMMANDER_2F)
   msg(LOREN_2B, DOWN_F5, LOREN, FOLLOW, 120)
 # I came as soon as I received word of the trouble here ...\r\nWhat in Lushiris' name ...!?\0
   msg(SCOTT_06, LOREN_2B, SCOTT, FOLLOW, 121)
@@ -590,12 +590,12 @@ lbl_66d:
   msg(SCOTT_06, LOREN_2B, SCOTT, FOLLOW, 124)
 # We must drive out the Imperial Knights!\0
 lbl_679:
-  branch.ifdead(lbl_683, HEIN_05)
+  branch.unit.dead(lbl_683, HEIN_05)
   msg(HEIN_05, LOREN_2B, HEIN, FOLLOW, 125)
 # It's the local Lord's army!\0
 lbl_683:
-  branch.ifdead(lbl_6a6, LAIRD_18)
-  branch.ifdead(lbl_6a0, LEON_D5)
+  branch.unit.dead(lbl_6a6, LAIRD_18)
+  branch.unit.dead(lbl_6a0, LEON_D5)
   msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 126)
 # Enemy reinforcements have arrived!\0
   msg(LEON_D5, LAIRD_18, LEON, FOLLOW, 127)
@@ -609,7 +609,7 @@ lbl_6a0:
 lbl_6a6:
   unit.retreat(IMPERIALCOMMANDER_2F)
   unit.retreat(LAIRD_18)
-  branch.ifdead(lbl_6b4, LEON_D5)
+  branch.unit.dead(lbl_6b4, LEON_D5)
   msg(LEON_D5, LIANA_02, LEON, FOLLOW, 130)
 # Lady Liana ... We shall be returning to finish this.\0
 lbl_6b4:
@@ -631,7 +631,7 @@ lbl_6b4:
 # I'm fine, Lady Liana.\r\nYou needn't call me "Lord _NAME_." I've never been much for formality.\r\nJust call me _NAME_.\0
   msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 138)
 # Well then, you can call me Liana.\0
-  branch.ifdead(lbl_6f7, HEIN_05)
+  branch.unit.dead(lbl_6f7, HEIN_05)
   msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 139)
 # You were amazing out there, _NAME_!\0
   msg(LIANA_02, HEIN_05, LIANA, FOLLOW, 140)
@@ -642,8 +642,8 @@ lbl_6f7:
   msg(ERWIN_01, LOREN_2B, ERWIN, FOLLOW, 142)
 # His Lordship is right. Let us depart immediately.\0
   branch.eq.global(lbl_73c, $0a4792, $07eb5b)
-  branch.ifdead(lbl_73c, RIDEL_7F)
-  branch.ifdead(lbl_73c, EVANZE_80)
+  branch.unit.dead(lbl_73c, RIDEL_7F)
+  branch.unit.dead(lbl_73c, EVANZE_80)
   msg(RIDEL_7F, ERWIN_01, FIGHTER_BLACK, FOLLOW, 143)
 # Wait a moment! I am sorry I wasn't able to provide better support ...\0
   msg(ERWIN_01, RIDEL_7F, ERWIN, FOLLOW, 144)
@@ -660,7 +660,7 @@ lbl_6f7:
   msg(ERWIN_01, RIDEL_7F, ERWIN, FOLLOW, 149)
 # I guess so ...\0
 lbl_73c:
-  branch.ifdead(lbl_74f, HEIN_05)
+  branch.unit.dead(lbl_74f, HEIN_05)
   msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 150)
 # Well then, let's be on our way. It's getting dark, and my stomach is already growling!\0
   msg(LIANA_02, HEIN_05, LIANA, FOLLOW, 151)
@@ -750,7 +750,7 @@ lbl_81c:
 break
 
 lbl_836:
-  branch.ifdead(lbl_852, LAIRD_18)
+  branch.unit.dead(lbl_852, LAIRD_18)
   msg(IMPERIALCOMMANDER_2F, LEFT_F6, SWORDSMAN1_GREEN, FOLLOW, 176)
 # Hmph, ... only these two? Barely even worth the effort.\0
   msg(LEON_D5, IMPERIALCOMMANDER_2F, LEON, FOLLOW, 177)
@@ -834,14 +834,14 @@ lbl_8d5:
 # How cruel ...\0
   msg(LIANA_02, LEON_D5, LIANA_ANGRY, NOFOLLOW, 195)
 # Remember your promise! Don't harm the people of this village!\0
-  branch.ifdead(lbl_91f, LEON_D5)
+  branch.unit.dead(lbl_91f, LEON_D5)
   msg(LEON_D5, LIANA_02, LEON, FOLLOW, 196)
 # I never said anything about sparing those who would brandish arms against us.\0
   msg(LIANA_02, DOWN_F5, LIANA_SAD, FOLLOW, 197)
 # But--!\0
   msg(LIANA_02, UP_F4, LIANA, FOLLOW, 198)
 # I beg you, please! Just let me go with them to the Imperial Capital!\r\nIf I go with the Imperial Army, all of this will be over ...\0
-  branch.ifdead(lbl_90a, RIDEL_7F)
+  branch.unit.dead(lbl_90a, RIDEL_7F)
   msg(RIDEL_7F, DOWN_F5, FIGHTER_BLACK, FOLLOW, 199)
 # I ... can't ...\r\nI ... can't ... allow that ...\0
   msg(LEON_D5, RIDEL_7F, LEON, FOLLOW, 200)
@@ -857,7 +857,7 @@ lbl_90a:
 lbl_91c:
   goto(lbl_92f)
 lbl_91f:
-  branch.ifdead(lbl_92f, LAIRD_18)
+  branch.unit.dead(lbl_92f, LAIRD_18)
   msg(LAIRD_18, LIANA_02, LAIRD, FOLLOW, 204)
 # I cannot forgive those who would interfere ... This is the only way!\0
   msg(LIANA_02, DOWN_F5, LIANA_SAD, FOLLOW, 205)

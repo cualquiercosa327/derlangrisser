@@ -1,0 +1,218 @@
+# Movement-Triggered Events
+on.move(16, lbl_47c, JESSICA_14, 1, 0xff)
+on.move(17, lbl_4b9, JESSICA_14, 2, 0xff)
+on.move(21, lbl_4fd, EGBERT_D8, 1, 0xff)
+on.move(22, lbl_502, EGBERT_D8, 2, 0xff)
+on.move(25, lbl_54d, CAMILLA_A1, 1, 0xff)
+on.move(29, lbl_612, IMPERIALCOMMANDER_31, 1, 0xff)
+on.move(31, lbl_62e, IMPERIALCOMMANDER_32, 0, 0xff)
+on.move(36, lbl_670, ZORUM_1A, 0, 0xff)
+on.move(40, lbl_6c7, VARGAS_D6, 0, 0xff)
+on.move(4, lbl_6cf, VARGAS_D6, 0, 0xff)
+break
+
+# Attack-Triggered Events
+on.attack(19, lbl_4db, LIANA_02, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(23, lbl_519, NULL_FF, EGBERT_D8, 0xff, 0x00, 0xff)
+on.attack(37, lbl_688, ZORUM_1A, NULL_FF, 0x00, 0xff, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(10, lbl_44a, ERWIN_01)
+on.defeat(11, lbl_454, HEIN_05)
+on.defeat(12, lbl_45c, CHERIE_04)
+on.defeat(13, lbl_464, ROHGA_0B)
+on.defeat(14, lbl_46c, KEITH_07)
+on.defeat(15, lbl_474, LESTER_09)
+on.defeat(18, lbl_4cb, JESSICA_14)
+on.defeat(20, lbl_4e3, LIANA_02)
+on.defeat(24, lbl_521, EGBERT_D8)
+on.defeat(26, lbl_568, CAMILLA_A1)
+on.defeat(28, lbl_60a, IMPERIALCOMMANDER_30)
+on.defeat(30, lbl_626, IMPERIALCOMMANDER_31)
+on.defeat(32, lbl_650, IMPERIALCOMMANDER_32)
+on.defeat(33, lbl_658, IMPERIALCOMMANDER_33)
+on.defeat(34, lbl_660, IMPERIALCOMMANDER_34)
+on.defeat(35, lbl_668, IMPERIALCOMMANDER_38)
+on.defeat(38, lbl_690, ZORUM_1A)
+on.defeat(41, lbl_6e3, VARGAS_D6)
+on.damage(27, lbl_7a5, NULL_FF, CAMILLA_A1, 0xff, 0x00)
+on.damage(39, lbl_7b8, NULL_FF, ZORUM_1A, 0xff, 0x00)
+break
+
+# Position-Triggered Events
+on.bound(7, lbl_42e, NPC_COMMANDER_F0, 17, 9, 17, 9, 0x00, 0x00)
+on.bound(8, lbl_440, NPC_SUBUNIT_F1, 1, 26, 23, 42, 0x00, 0x00)
+on.bound(9, lbl_445, VARGAS_D6, 13, 38, 15, 40, 0x00, 0x00)
+break
+
+# Turn-Triggered Events
+on.turn(5, lbl_3cc, ENEMY, 2, 0x00)
+on.turn(6, lbl_3ec, ALLY, 2, 0x00)
+on.turn(0, lbl_3f1, ALLY, 0, 0x00)
+on.turn(1, lbl_3fa, ENEMY, 0, 0x00)
+on.turn(2, lbl_403, ENEMY, 0, 0x00)
+on.turn(42, lbl_74f, ALLY, 2, 0x00)
+on.turn(43, lbl_771, ALLY, 18, 0x00)
+on.turn(44, lbl_777, ALLY, 3, 0x00)
+break
+
+# Core Events
+lbl_136:
+  bgm(ALLY, ALLY1)
+  screen.map(13)
+  focus.point(13, 14, FAST)
+  cursor.set(NULL_00)
+  cursor.hide()
+  unit.position(HEIN_05, 13, 14)
+  unit.position(CHERIE_04, 14, 14)
+  unit.position(ERWIN_01, 13, 15)
+  unit.position(LIANA_02, 14, 15)
+  unit.position(KEITH_07, 13, 16)
+  unit.position(ROHGA_0B, 14, 16)
+  unit.face(HEIN_05, UP_F4)
+  unit.face(CHERIE_04, UP_F4)
+  unit.face(ERWIN_01, UP_F4)
+  unit.face(LIANA_02, UP_F4)
+  unit.face(KEITH_07, UP_F4)
+  unit.face(ROHGA_0B, UP_F4)
+  screen.fadein(4)
+  unit.face(HEIN_05, RIGHT_F7)
+  delay(60)
+  unit.face(HEIN_05, UP_F4)
+  delay(60)
+  unit.face(HEIN_05, LEFT_F6)
+  delay(60)
+  unit.face(HEIN_05, UP_F4)
+  msg(HEIN_05, CHERIE_04, HEIN, NOFOLLOW, 1)
+# Cherie, how much further to the magician's home?\0
+  msg(CHERIE_04, HEIN_05, CHERIE, NOFOLLOW, 2)
+# I believe it should be just beyond this bridge.\0
+  msg(HEIN_05, CHERIE_04, HEIN, NOFOLLOW, 3)
+# She's over seven hundred years old ... I wonder. What kind of person could she be?\0
+  unit.move(HEIN_05, 13, 13)
+  msg(HEIN_05, DOWN_F5, HEIN, NOFOLLOW, 4)
+# Everyone, come on! Let's hurry!\0
+  msg(LIANA_02, HEIN_05, LIANA, NOFOLLOW, 5)
+# Excited, aren't you, Hein?\0
+  msg(HEIN_05, LIANA_02, HEIN, NOFOLLOW, 6)
+# Of course! To meet such a magic user is a once in a lifetime chance!\r\nIf you're all going to drag your feet, then I'll run on ahead!\0
+  unit.move(HEIN_05, 13, 12)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 7)
+# Halt, you bastards!\0
+  msg(HEIN_05, UP_F4, HEIN, NOFOLLOW, 8)
+# Me ...?\0
+  cursor.set(ERWIN_01)
+  focus.point(13, 11, FAST)
+  cursor.set(NULL_00)
+  bgm(ALLY, ALLY3)
+  unit.position(LESTER_09, 13, 9)
+  unit.showsub(LESTER_09)
+  unit.position(COMMANDER_21, 15, 8)
+  unit.showsub(COMMANDER_21)
+  unit.position(COMMANDER_22, 11, 8)
+  unit.showsub(COMMANDER_22)
+  msg(LESTER_09, HEIN_05, LESTER, FOLLOW, 9)
+# You fucking Imperials! You'll cross this bridge over my dead body!\0
+  msg(HEIN_05, LESTER_09, HEIN, FOLLOW, 10)
+# Just a minute! We're not the Imperial Army.\r\nWe just came to meet with the renowned magician. Let us pass!\0
+  msg(LESTER_09, HEIN_05, LESTER, FOLLOW, 11)
+# I won't allow some party of strangers from nowhere to meet Jessica.\r\nGet out of my sight!\0
+  msg(CHERIE_04, LESTER_09, CHERIE, FOLLOW, 12)
+# Wait a moment!\0
+  unit.move(CHERIE_04, 14, 11)
+  msg(CHERIE_04, LESTER_09, CHERIE, FOLLOW, 13)
+# I'm the princess of Kalxath, Cherie.\r\nWe came a long way to see the great magician. Could you please show us the way?\0
+  msg(LESTER_09, KEITH_07, LESTER, FOLLOW, 14)
+# You expect me to believe you're the princess of Kalxath? Don't bullshit me!\r\nWhy would the princess ever come to such a remote region?\r\nWiggle back wherever you came from, cutie, before my lonely mates here start getting ideas.\0
+  msg(CHERIE_04, LESTER_09, CHERIE_ANGRY, FOLLOW, 15)
+# What was that--!?\0
+  unit.move(KEITH_07, 13, 11)
+  msg(KEITH_07, LESTER_09, KEITH, FOLLOW, 16)
+# If there's anything I can count on never to change, it's your hospitality.\r\nLong time no see, Lester.\0
+  msg(LESTER_09, KEITH_07, LESTER, FOLLOW, 17)
+# You're ... Oh man, Keith! It's really Keith!\r\nSo that girl ... really is the princess?\0
+  msg(KEITH_07, LESTER_09, KEITH, FOLLOW, 18)
+# Indeed.\0
+  unit.move(LESTER_09, 14, 10)
+  delay(90)
+  msg(LESTER_09, CHERIE_04, LESTER, FOLLOW, 19)
+# Forgive my rudeness, Princess. Keith told me a lot about you.\0
+  msg(CHERIE_04, LESTER_09, CHERIE, FOLLOW, 20)
+# A lot ...? Like what?\0
+  msg(LESTER_09, CHERIE_04, LESTER, FOLLOW, 21)
+# Um, well ...\0
+  unit.face(LESTER_09, RIGHT_F7)
+  msg(LESTER_09, RIGHT_F7, LESTER, FOLLOW, 22)
+# Nothing much! You're better off not knowing.\0
+  msg(CHERIE_04, KEITH_07, CHERIE_ANGRY, FOLLOW, 23)
+# Keith ... I'm going to hurt you.\0
+  msg(LESTER_09, CHERIE_04, LESTER, FOLLOW, 24)
+# Well, well ... settle down, Princess! I'll guide you to Jessica!\0
+  msg(LESTER_09, COMMANDER_21, LESTER, FOLLOW, 25)
+# Hey mates, stay here and guard the area.\0
+  msg(COMMANDER_21, LESTER_09, PIRATE_PURPLE, FOLLOW, 26)
+# Aye aye, boss!\0
+  delay(60)
+  screen.fadeout(4)
+  cursor.show()
+  unit.retreat(COMMANDER_21)
+  unit.retreat(COMMANDER_22)
+  unit.retreat(HEIN_05)
+  unit.retreat(CHERIE_04)
+  unit.retreat(ERWIN_01)
+  unit.retreat(LIANA_02)
+  unit.retreat(KEITH_07)
+  unit.retreat(ROHGA_0B)
+  unit.retreat(LESTER_09)
+  unit.hideall()
+  screen.map(5)
+  bgm(ALLY, REQUIEM2)
+  focus.point(16, 11, FAST)
+  unit.position(ERWIN_01, 16, 13)
+  unit.position(HEIN_05, 15, 14)
+  unit.position(KEITH_07, 16, 14)
+  unit.position(CHERIE_04, 17, 14)
+  unit.position(ROHGA_0B, 18, 14)
+  unit.position(LIANA_02, 14, 14)
+  unit.position(LESTER_09, 17, 13)
+  unit.position(JESSICA_14, PRESET, PRESET)
+  unit.face(ERWIN_01, UP_F4)
+  unit.face(HEIN_05, UP_F4)
+  unit.face(ROHGA_0B, UP_F4)
+  unit.face(CHERIE_04, UP_F4)
+  unit.face(LIANA_02, UP_F4)
+  unit.face(KEITH_07, UP_F4)
+  unit.face(LESTER_09, UP_F4)
+  unit.face(JESSICA_14, DOWN_F5)
+  screen.fadein(4)
+  unit.move(LESTER_09, 17, 11)
+  msg(LESTER_09, JESSICA_14, LESTER, NOFOLLOW, 27)
+# Lady Jessica! These people were looking for you.\0
+  unit.face(LESTER_09, DOWN_F5)
+  msg(JESSICA_14, DOWN_F5, JESSICA, NOFOLLOW, 28)
+# Welcome, everyone. I am Jessica.\0
+  msg(HEIN_05, JESSICA_14, HEIN, NOFOLLOW, 29)
+# What!? This is the woman who has lived for hundreds of years ...?\r\nShe looks so ... young!\0
+  unit.move(ERWIN_01, 16, 11)
+  unit.face(LESTER_09, LEFT_F6)
+  msg(ERWIN_01, JESSICA_14, ERWIN, NOFOLLOW, 30)
+# Pleased to meet you, Jessica, I'm _NAME_.\r\nWe needed some advice, so we came here to see you. To tell the truth ...\0
+  msg(JESSICA_14, ERWIN_01, JESSICA, NOFOLLOW, 31)
+# It's about the Dark Blade ... isn't it?\r\nThen I imagine you want to know where you can find the Dark Rod.\0
+  msg(CHERIE_04, JESSICA_14, CHERIE, NOFOLLOW, 32)
+# Amazing. How does she do that?\0
+  msg(JESSICA_14, CHERIE_04, JESSICA, NOFOLLOW, 33)
+# A wave of evil is rippling across our world.\r\nThe Imperial Army has begun invasions everywhere.\r\nAll this negative energy is a sign Alhazard is being used for the Kaiser's ambitions.\0
+  msg(HEIN_05, JESSICA_14, HEIN, NOFOLLOW, 34)
+# Amazing! She already knows so much ...\0
+  msg(JESSICA_14, ERWIN_01, JESSICA, NOFOLLOW, 35)
+# Despite this, Alhazard is not at its strongest yet.\r\nYou must prevent it from awakening to its true form.\0
+  msg(ERWIN_01, JESSICA_14, ERWIN, NOFOLLOW, 36)
+# That is why we want to get hold of the Dark Rod before the Empire!\r\nWe want to prevent more damage from being done!\0
+  msg(JESSICA_14, ERWIN_01, JESSICA, NOFOLLOW, 37)
+# The Dark Rod is enshrined in the Sanctuary of Reitel.\0
+  msg(ERWIN_01, JESSICA_14, ERWIN, NOFOLLOW, 38)
+# The Sanctuary of Reitel, eh? Hmmm ...\0
+  bgm(ALLY, ENEMY5_EGBERT)
+  cursor.set(ERWIN_01)

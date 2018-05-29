@@ -174,7 +174,7 @@ lbl_2cb:
 # What was that!?\r\nI don't need to take such insults from a demented pervert with a Lolita complex!\0
   msg(MORGAN_1B, ZORUM_1A, MORGAN, FOLLOW, 25)
 # Y, you ... Damn you!\0
-  branch.ifdead(lbl_2f9, HEIN_05)
+  branch.unit.dead(lbl_2f9, HEIN_05)
   msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 26)
 # Sigh ... It appears teamwork isn't their strong suit ...\0
 lbl_2f9:
@@ -183,7 +183,7 @@ lbl_2f9:
 break
 
 lbl_301:
-  branch.ifdead(lbl_335, SCOTT_06)
+  branch.unit.dead(lbl_335, SCOTT_06)
   msg(SCOTT_06, LEFT_F6, SCOTT, FOLLOW, 28)
 # Our enemies are probably planning to use elves.\r\nElves are excellent bowmen capable of long-range attacks. We'll need to be careful in our approach.\0
   msg(ERWIN_01, SCOTT_06, ERWIN, FOLLOW, 29)
@@ -204,13 +204,13 @@ lbl_335:
 break
 
 lbl_337:
-  branch.ifdead(lbl_35e, ROHGA_0B)
+  branch.unit.dead(lbl_35e, ROHGA_0B)
   msg(ROHGA_0B, MORGAN_1B, ROHGA, FOLLOW, 36)
 # These guys are a stubborn bunch!\0
-  branch.ifdead(lbl_35b, MORGAN_1B)
+  branch.unit.dead(lbl_35b, MORGAN_1B)
   msg(MORGAN_1B, ROHGA_0B, MORGAN, FOLLOW, 37)
 # Hee hee hee! Thank you, I consider that a compliment!\0
-  branch.ifdead(lbl_35b, ZORUM_1A)
+  branch.unit.dead(lbl_35b, ZORUM_1A)
   msg(ZORUM_1A, MORGAN_1B, ZORUM, FOLLOW, 38)
 # God, you've got to be the most bothersome ass I've ever been assigned to work with.\0
   msg(MORGAN_1B, ZORUM_1A, MORGAN, FOLLOW, 39)
@@ -220,14 +220,14 @@ lbl_35b:
 lbl_35e:
   msg(ERWIN_01, LEFT_F6, ERWIN, FOLLOW, 40)
 # Looks like this "stubborn" group bit off more than they could chew!\r\nYou can't back out now!\0
-  branch.ifdead(lbl_36e, ZORUM_1A)
+  branch.unit.dead(lbl_36e, ZORUM_1A)
   msg(ZORUM_1A, ERWIN_01, ZORUM, FOLLOW, 41)
 # You're not doing much better!\0
 lbl_36e:
 break
 
 lbl_370:
-  branch.ifdead(lbl_38a, MORGAN_1B)
+  branch.unit.dead(lbl_38a, MORGAN_1B)
   msg(MORGAN_1B, ZORUM_1A, MORGAN, FOLLOW, 42)
 # Ack! What's taking him so long!?\r\nHey, "Mister Commander!" Get the lead out and start killing these guys!\0
   msg(ZORUM_1A, MORGAN_1B, ZORUM, FOLLOW, 43)
@@ -243,7 +243,7 @@ lbl_38c:
 break
 
 lbl_391:
-  branch.ifdead(lbl_3c1, ROHGA_0B)
+  branch.unit.dead(lbl_3c1, ROHGA_0B)
   msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 45)
 # Man ... You have an amazing eye for battle ...\0
   msg(ERWIN_01, ROHGA_0B, ERWIN, FOLLOW, 46)
@@ -263,7 +263,7 @@ lbl_3c1:
 break
 
 lbl_3c3:
-  branch.ifdead(lbl_3cd, CHERIE_04)
+  branch.unit.dead(lbl_3cd, CHERIE_04)
   msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 51)
 # Everyone, be careful!\r\nAlthough Kalxath has won a few battles against the Imperial Army, this one won't be easy.\0
 lbl_3cd:
@@ -276,10 +276,10 @@ break
 
 lbl_3d7:
   subroutine(lbl_923)
-  branch.ifdead(lbl_3fd, HEIN_05)
+  branch.unit.dead(lbl_3fd, HEIN_05)
   msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 52)
 # We're in trouble, _NAME_! The Imperial Army is launching an ambush!\0
-  branch.ifdead(lbl_3ee, ZORUM_1A)
+  branch.unit.dead(lbl_3ee, ZORUM_1A)
   msg(ZORUM_1A, ERWIN_01, ZORUM, FOLLOW, 53)
 # Ha ha ha! Now that is what we call a "strategy!"\r\nGo forth, men! Fetch us that tablet!\0
 lbl_3ee:
@@ -388,7 +388,7 @@ lbl_4a0:
   unit.cleanup()
   msg(MORGAN_1B, LIANA_02, MORGAN, FOLLOW, 74)
 # Mwa ha ha! Die, die! Diiiiiieeeeee!!\0
-  branch.ifdead(lbl_4bb, ZORUM_1A)
+  branch.unit.dead(lbl_4bb, ZORUM_1A)
   msg(ZORUM_1A, LIANA_02, ZORUM, FOLLOW, 75)
 # Damn it! The Maiden of Light is ...!\0
 lbl_4bb:
@@ -528,7 +528,7 @@ lbl_5de:
   msg(PRIEST_75, LEFT_F6, VILLAGER_YELLOW, FOLLOW, 111)
 # Gahh!\0
   unit.cleanup()
-  branch.ifdead(lbl_5f7, IMPERIALCOMMANDER_32)
+  branch.unit.dead(lbl_5f7, IMPERIALCOMMANDER_32)
   msg(IMPERIALCOMMANDER_32, RIGHT_F7, GLADIATOR_GREEN, FOLLOW, 112)
 # Mmmm ... Raw, warm blood tastes as good as I always imagined ...\0
   unit.setbit(IMPERIALCOMMANDER_32, $17, 1)
@@ -568,7 +568,7 @@ lbl_619:
 # Yes ... Widdle Morgan ...\0
   msg(MORGAN_1B, LIANA_02, MORGAN, FOLLOW, 121)
 # How odd ... It seems my magic didn't work quite right.\r\nSomeone throw me a bone! Why can't anything ever go the way I plan!?\0
-  branch.ifdead(lbl_65c, ZORUM_1A)
+  branch.unit.dead(lbl_65c, ZORUM_1A)
   msg(ZORUM_1A, MORGAN_1B, ZORUM, FOLLOW, 122)
 # Gah ha ha ha! Morgan, you're one pathetic excuse for a sorcerer.\0
   msg(MORGAN_1B, ZORUM_1A, MORGAN, FOLLOW, 123)
@@ -578,7 +578,7 @@ lbl_619:
   msg(MORGAN_1B, ZORUM_1A, MORGAN, FOLLOW, 125)
 # You son of a bitch! Well ... that's all right.\r\nSeeing you cower in the back like that is satisfactory enough, "Commander Zorum." Hee hee hee!\0
 lbl_65c:
-  branch.ifdead(lbl_666, HEIN_05)
+  branch.unit.dead(lbl_666, HEIN_05)
   msg(HEIN_05, LIANA_02, HEIN, FOLLOW, 126)
 # What's wrong!? Be strong, Liana!\0
 lbl_666:
@@ -690,7 +690,7 @@ break
 lbl_73b:
   unit.cleanup()
   scenarioclear()
-  branch.ifdead(lbl_756, CHERIE_04)
+  branch.unit.dead(lbl_756, CHERIE_04)
   msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 148)
 # It looks like the battle is over.\0
   msg(ERWIN_01, CHERIE_04, ERWIN, FOLLOW, 149)
@@ -727,10 +727,10 @@ lbl_78d:
   msg(LIANA_02, ERWIN_01, LIANA_SAD, FOLLOW, 161)
 # Thank you everyone ... for thinking about me ...\0
 lbl_7a3:
-  branch.ifdead(lbl_7bd, SCOTT_06)
+  branch.unit.dead(lbl_7bd, SCOTT_06)
   msg(SCOTT_06, ERWIN_01, SCOTT, FOLLOW, 162)
 # By the way, what should we do about Liana?\0
-  branch.ifdead(lbl_7b7, HEIN_05)
+  branch.unit.dead(lbl_7b7, HEIN_05)
   msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 163)
 # Eventually, even the largest Shrine of Light won't be enough to keep the Imperials at bay.\0
 lbl_7b7:
@@ -749,13 +749,13 @@ lbl_7c6:
 # What is it, Liana?\0
   msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 168)
 # Please, let me fight too!\0
-  branch.ifdead(lbl_7e8, HEIN_05)
+  branch.unit.dead(lbl_7e8, HEIN_05)
   msg(HEIN_05, LIANA_02, HEIN, FOLLOW, 169)
 # No way! It's too dangerous for a young lady on the battlefield.\0
 lbl_7e8:
   msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 170)
 # But all of you have to endure so much ... just because of me.\r\nIt was for my sake ... that ... that all of you got hurt.\0
-  branch.ifdead(lbl_7f8, CHERIE_04)
+  branch.unit.dead(lbl_7f8, CHERIE_04)
   msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 171)
 # I think we should let her come. Or do you lack confidence in your ability to protect her ...?\0
 lbl_7f8:
@@ -767,7 +767,7 @@ lbl_7f8:
 # Thank you, _NAME_!\0
   msg(NULL_00, DOWN_F5, NULL, NOFOLLOW, 175)
 # Liana joins the entourage!\0
-  branch.ifdead(lbl_82f, ROHGA_0B)
+  branch.unit.dead(lbl_82f, ROHGA_0B)
   msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 176)
 # Well, that's that. It seems like everything has worked out.\r\nAfter that battle, I have to say, I like your spirit!\0
   msg(ERWIN_01, ROHGA_0B, ERWIN, FOLLOW, 177)
@@ -785,7 +785,7 @@ lbl_82f:
   msg(ROHGA_0B, DOWN_F5, ROHGA_DEAD, NOFOLLOW, 182)
 # However, I sense that you'll do great things. Together we'd be rich!\r\nThe problem's that you're too inexperienced. Talk with me! I'll teach you everything!\r\n_NAME_! I'll train you to be a great leader!\r\nBut you better damn well live up to my expectations. You're going to cost me a fortune, you know?\0
 lbl_841:
-  branch.ifdead(lbl_857, CHERIE_04)
+  branch.unit.dead(lbl_857, CHERIE_04)
   msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 183)
 # Well then, let's hurry to Kalxath. I have to tell them of this!\0
   msg(NULL_00, DOWN_F5, NULL, FOLLOW, 184)
@@ -793,3 +793,183 @@ lbl_841:
   msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 185)
 # Also, I'd like to give you all a big welcome.\0
 lbl_857:
+  branch.units.dead(lbl_889, PRIEST_24, PRIEST_75)
+  branch.eq.global(lbl_883, $0a4788, $07eb5f)
+  msg(PRIEST_75, ERWIN_01, VILLAGER_YELLOW, FOLLOW, 186)
+# Wait up a second! At least, let me thank you for helping us ...\0
+  msg(PRIEST_24, ERWIN_01, ABBOT_WHITE, FOLLOW, 187)
+# Thanks to you, the shrine is safe, but there's not much we can do for you without trouble.\0
+  msg(PRIEST_75, ERWIN_01, VILLAGER_YELLOW, FOLLOW, 188)
+# Please accept this cross. May it always bring you Lushiris' blessing.\0
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 189)
+# Obtained Cross.\0
+  item.add(CROSS)
+  global.sum($0a4788, $07eb5f)
+  goto(lbl_889)
+lbl_883:
+  msg(PRIEST_75, ERWIN_01, VILLAGER_YELLOW, FOLLOW, 190)
+# I can't do anything for you, but I'll pray for your safe journey.\0
+lbl_889:
+  msg(ERWIN_01, LEFT_F6, ERWIN, FOLLOW, 191)
+# Well then, let's be off!\0
+  loadscenario(4)
+break
+
+lbl_893:
+  branch.eq.global(lbl_89a, $0a47d7, $07eb5c)
+  subroutine(lbl_923)
+lbl_89a:
+break
+
+lbl_89c:
+  subroutine(lbl_9d4)
+break
+
+lbl_8a1:
+  subroutine(lbl_9d4)
+break
+
+lbl_8a6:
+  unit.cleanup()
+  branch.unit.dead(lbl_8d6, ZORUM_1A)
+  msg(ZORUM_1A, ERWIN_01, ZORUM, FOLLOW, 192)
+# Hmmm, well done ... No matter, though! Witness my real power!\r\nEveryone, charge!\0
+  unit.clearbit(ZORUM_1A, $17, 0)
+  unit.clearbit(IMPERIALCOMMANDER_2F, $17, 0)
+  unit.clearbit(IMPERIALCOMMANDER_30, $17, 0)
+  unit.clearbit(IMPERIALCOMMANDER_32, $17, 0)
+  branch.eq.global(lbl_8d6, $0a47d0, $07eb5f)
+  branch.unit.dead(lbl_8d6, MORGAN_1B)
+  msg(MORGAN_1B, ZORUM_1A, MORGAN, FOLLOW, 193)
+# Argh! Slow! Slow! Slow!\r\nWith a stupid commander like you, we're not going to get in a decent attack, much less win. No way ...\0
+  unit.clearbit(MORGAN_1B, $17, 0)
+  local.sum($0a47d0, $07eb5f)
+lbl_8d6:
+break
+
+lbl_8d8:
+  unit.cleanup()
+  subroutine(lbl_96b)
+  local.sum($0a47d1, $07eb5b)
+break
+
+lbl_8e1:
+  unit.cleanup()
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 194)
+# How dishonourable! They're going after Liana! Hurry! Go and help her!\0
+break
+
+lbl_8ea:
+  unit.cleanup()
+  msg(ROHGA_0B, RIGHT_F7, ROHGA, NOFOLLOW, 195)
+# Hmph ... Is that all you can do!? Don't drag this out!\0
+break
+
+lbl_8f3:
+  unit.cleanup()
+  msg(IMPERIALCOMMANDER_32, DOWN_F5, GLADIATOR_GREEN, FOLLOW, 196)
+# Ho ho, let's boogie.\0
+break
+
+lbl_8fc:
+  msg(MORGAN_1B, RIGHT_F7, MORGAN, NOFOLLOW, 198)
+# Hya ha ha! How interesting. Can you still fight like that?\0
+endsub
+
+lbl_903:
+  branch.unit.dead(lbl_910, MORGAN_1B)
+  msg(MORGAN_1B, RIGHT_F7, MORGAN, FOLLOW, 199)
+# Hya ha ha! This is too, too sweet!\r\nYou dare oppose me, an Imperial Commander, with your feeble power?\0
+  goto(lbl_91a)
+lbl_910:
+  branch.unit.dead(lbl_91a, ZORUM_1A)
+  msg(ZORUM_1A, RIGHT_F7, ZORUM, FOLLOW, 200)
+# Hya ha ha! The Blazing Dragon Army's strength is unsurpassed!\0
+lbl_91a:
+endsub
+
+lbl_91b:
+  unit.cleanup()
+  msg(MORGAN_1B, RIGHT_F7, MORGAN, FOLLOW, 201)
+# Wah ha ha! Be more aggressive!\r\nWe'll teach you how foolish it is to stand against us!\0
+endsub
+
+lbl_923:
+  unit.cleanup()
+  bgm(ALLY, ALLY2)
+  bgm(ENEMY, ALLY4)
+  unit.deploy(IMPERIALCOMMANDER_34, 5, 27)
+  unit.deploy(IMPERIALCOMMANDER_35, 22, 27)
+  msg(IMPERIALCOMMANDER_34, LEFT_F6, FIGHTER_GREEN, FOLLOW, 202)
+# Hold it!\0
+endsub
+
+lbl_939:
+  branch.unit.dead(lbl_950, CHERIE_04)
+  msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 197)
+# The Empire's after the girl, isn't it?\r\nI see... If that's so, how about coming to Castle Kalxath?\0
+  branch.unit.dead(lbl_94d, HEIN_05)
+  msg(HEIN_05, DOWN_F5, HEIN, FOLLOW, 203)
+# Castle Kalxath ...?\0
+lbl_94d:
+  goto(lbl_956)
+lbl_950:
+  msg(CHERIE_04, ERWIN_01, CHERIE_DEAD, NOFOLLOW, 197)
+# The Empire's after the girl, isn't it?\r\nI see... If that's so, how about coming to Castle Kalxath?\0
+lbl_956:
+  branch.unit.dead(lbl_96a, SCOTT_06)
+  msg(SCOTT_06, ERWIN_01, SCOTT, FOLLOW, 204)
+# If I remember correctly, Kalxath just might be able to protect Liana.\0
+  branch.unit.dead(lbl_96a, CHERIE_04)
+  msg(CHERIE_04, SCOTT_06, CHERIE, FOLLOW, 205)
+# That's right. Kalxath has many strong soldiers besides me.\0
+lbl_96a:
+endsub
+
+lbl_96b:
+  bgm(ALLY, ALLYREINFORCEMENT1)
+  unit.deploy(CHERIE_04, 3, 33)
+  msg(CHERIE_04, RIGHT_F7, CHERIE, FOLLOW, 206)
+# I found you, Imperial slime! I figured you'd be here after the situation changed!\r\nI can't let you do as you please!\0
+  branch.unit.dead(lbl_998, MORGAN_1B)
+  msg(MORGAN_1B, CHERIE_04, MORGAN, FOLLOW, 207)
+# Ack! Little girl, go home quietly.\r\nI wouldn't want that sweet ass of yours to get bruised here. I have other plans for it ... Hya hya hya!\0
+  msg(CHERIE_04, MORGAN_1B, CHERIE, FOLLOW, 208)
+# Wh, what was that--!? You dirty wizard!\0
+  branch.unit.dead(lbl_992, ZORUM_1A)
+  msg(ZORUM_1A, CHERIE_04, ZORUM, FOLLOW, 209)
+# Yeah, I'm going to have to side with her on that. You certainly are twisted.\0
+lbl_992:
+  msg(MORGAN_1B, CHERIE_04, MORGAN, FOLLOW, 210)
+# You ... Grrr!\0
+lbl_998:
+  branch.unit.dead(lbl_9a8, HEIN_05)
+  msg(HEIN_05, CHERIE_04, HEIN, FOLLOW, 211)
+# Who is that strange girl who just showed up?\0
+  msg(CHERIE_04, HEIN_05, CHERIE, FOLLOW, 212)
+# How rude! Even though I took all the trouble coming to help you.\0
+lbl_9a8:
+  msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 213)
+# Oh ...? You're pretty cute.\r\nI suppose tough girls aren't your type. Should I act a bit more bubbly?\0
+  branch.unit.dead(lbl_9c4, HEIN_05)
+  msg(HEIN_05, CHERIE_04, HEIN, FOLLOW, 214)
+# You ... you don't mean me!? I feel so awkward.\0
+  msg(CHERIE_04, HEIN_05, CHERIE, FOLLOW, 215)
+# Are you stupid!? Who was talking to you!\0
+  msg(HEIN_05, CHERIE_04, HEIN, FOLLOW, 216)
+# Hey ...!\0
+lbl_9c4:
+  msg(ERWIN_01, CHERIE_04, ERWIN, FOLLOW, 217)
+# ... Anyway, please help us.\0
+  msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 218)
+# Heh heh heh. I think he's blushing. How cute!\0
+  local.sum($0a47d7, $07eb5d)
+endsub
+
+lbl_9d4:
+  unit.cleanup()
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 219)
+# Damn! We couldn't protect them ...\0
+  gameover()
+endsub
+
