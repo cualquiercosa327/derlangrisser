@@ -1,0 +1,462 @@
+# Movement-Triggered Events
+on.move(1, lbl_30b, IMPERIALCOMMANDER_31, 0, 0xff)
+on.move(26, lbl_36d, IMPERIALCOMMANDER_35, 1, 0xff)
+break
+
+# Attack-Triggered Events
+on.attack(6, lbl_25f, ERWIN_01, BERNHARDT_16, 0x00, 0x00, 0xff)
+on.attack(7, lbl_26d, ERWIN_01, EGBERT_D8, 0x00, 0x00, 0xff)
+on.attack(14, lbl_2ba, BERNHARDT_16, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(17, lbl_31d, IMPERIALCOMMANDER_31, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(19, lbl_32d, NULL_FF, IMPERIALCOMMANDER_32, 0xff, 0x00, 0xff)
+on.attack(21, lbl_33d, NULL_FF, IMPERIALCOMMANDER_33, 0xff, 0x00, 0xff)
+on.attack(23, lbl_350, IMPERIALCOMMANDER_34, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(24, lbl_35b, ESTO_11, IMPERIALCOMMANDER_34, 0x00, 0x00, 0xff)
+on.attack(24, lbl_360, OSTO_12, IMPERIALCOMMANDER_34, 0x00, 0x00, 0xff)
+on.attack(27, lbl_375, IMPERIALCOMMANDER_35, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(31, lbl_395, IMPERIALCOMMANDER_38, NULL_FF, 0x00, 0xff, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(8, lbl_27b, ERWIN_01)
+on.defeat(9, lbl_285, HEIN_05)
+on.defeat(10, lbl_28d, ROHGA_0B)
+on.defeat(11, lbl_295, SONYA_0C)
+on.defeat(12, lbl_2aa, ESTO_11)
+on.defeat(13, lbl_2b2, OSTO_12)
+on.defeat(15, lbl_2c2, BERNHARDT_16)
+on.defeat(16, lbl_2f6, EGBERT_D8)
+on.defeat(18, lbl_325, IMPERIALCOMMANDER_31)
+on.defeat(20, lbl_335, IMPERIALCOMMANDER_32)
+on.defeat(22, lbl_348, IMPERIALCOMMANDER_33)
+on.defeat(25, lbl_365, IMPERIALCOMMANDER_34)
+on.defeat(28, lbl_37d, IMPERIALCOMMANDER_35)
+on.defeat(29, lbl_385, IMPERIALCOMMANDER_36)
+on.defeat(30, lbl_38d, IMPERIALCOMMANDER_37)
+on.defeat(32, lbl_39d, IMPERIALCOMMANDER_38)
+on.defeat(33, lbl_3a5, IMPERIALCOMMANDER_81)
+on.defeat(34, lbl_43f, IMPERIALCOMMANDER_35, IMPERIALCOMMANDER_36, IMPERIALCOMMANDER_37, IMPERIALCOMMANDER_38)
+break
+
+# Position-Triggered Events
+on.bound(4, lbl_21c, NPC_COMMANDER_F0, 7, 6, 7, 6, 0x00, 0x00)
+on.bound(5, lbl_23a, NPC_COMMANDER_F0, 19, 6, 19, 6, 0x00, 0x00)
+break
+
+# Turn-Triggered Events
+on.turn(2, lbl_1bc, ENEMY, 1, 0x00)
+on.turn(3, lbl_1f2, ALLY, 2, 0x00)
+on.turn(0, lbl_200, ALLY, 0, 0x00)
+break
+
+# Core Events
+lbl_110:
+  bgm(ALLY, ENEMYREINFORCEMENT1)
+  unit.position(BERNHARDT_16, PRESET, PRESET)
+  unit.showsub(BERNHARDT_16)
+  screen.fadein(4)
+  unit.position(EGBERT_D8, PRESET, PRESET)
+  unit.showsub(EGBERT_D8)
+  msg(EGBERT_D8, BERNHARDT_16, EGBERT, FOLLOW, 1)
+# Your Majesty, though I profoundly regret to say it, the invaders have penetrated.\0
+  msg(BERNHARDT_16, EGBERT_D8, BERNHARDT, FOLLOW, 2)
+# Really? Yes, I see now ... Allying with Boser was a dangerous game, one we lost.\r\nEgbert, your wounds look deep. Will you be all right?\0
+  msg(EGBERT_D8, BERNHARDT_16, EGBERT, FOLLOW, 3)
+# I'm by no means in top form, but this is nothing to worry yourself with.\0
+  msg(BERNHARDT_16, EGBERT_D8, BERNHARDT, FOLLOW, 4)
+# Do not forget, we possess the Demons' Might, Alhazard.\r\nEven while sealed, it's not to be taken lightly.\0
+  msg(EGBERT_D8, BERNHARDT_16, EGBERT, FOLLOW, 5)
+# We have readied ourselves and will soon intercept those who have troubled His Majesty.\0
+  unit.position(IMPERIALCOMMANDER_35, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_35)
+  unit.position(IMPERIALCOMMANDER_37, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_37)
+  unit.position(IMPERIALCOMMANDER_38, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_38)
+  unit.position(IMPERIALCOMMANDER_81, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_81)
+  unit.position(IMPERIALCOMMANDER_36, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_36)
+  unit.position(IMPERIALCOMMANDER_33, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_33)
+  unit.position(IMPERIALCOMMANDER_34, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_34)
+  unit.position(IMPERIALCOMMANDER_31, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_31)
+  unit.position(IMPERIALCOMMANDER_32, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_32)
+  msg(IMPERIALCOMMANDER_32, BERNHARDT_16, SWORDSMAN2_GREEN, FOLLOW, 6)
+# We have plenty of men and supplies, Your Majesty. Allow us to cover your withdrawal.\0
+  msg(BERNHARDT_16, IMPERIALCOMMANDER_32, BERNHARDT, FOLLOW, 7)
+# Don't speak foolishness!\r\nI will not hide in some rat hole. I am the Kaiser of Rayguard!\0
+  bgm(ALLY, ALLY2)
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.showsub(ERWIN_01)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.showsub(HEIN_05)
+  unit.position(ROHGA_0B, PRESET, PRESET)
+  unit.showsub(ROHGA_0B)
+  unit.position(SONYA_0C, PRESET, PRESET)
+  unit.showsub(SONYA_0C)
+  unit.position(ESTO_11, PRESET, PRESET)
+  unit.showsub(ESTO_11)
+  unit.position(OSTO_12, PRESET, PRESET)
+  unit.showsub(OSTO_12)
+  msg(ERWIN_01, BERNHARDT_16, ERWIN, FOLLOW, 8)
+# This is the end for you, Kaiser Bernhardt.\0
+  msg(BERNHARDT_16, ERWIN_01, BERNHARDT, FOLLOW, 9)
+# Ahh, ... it's you. The scoundrel _NAME_.\r\nOne side and then the other, whenever it's convenient, hmm? What a fickle young man.\r\nPlease rest assured, you won't be the first traitor to die here.\0
+  local.sum($0a47d0, $07eb58)
+  local.sum($0a47d0, $07eb59)
+break
+
+lbl_1bc:
+  msg(BERNHARDT_16, ERWIN_01, BERNHARDT, FOLLOW, 10)
+# By some miracle, you breached the castle gate with your modest little force.\r\nBut your luck has run out, and your lives are now under my jurisdiction.\r\n_NAME_, you have taken my dream and perverted it with your naive mind.\r\nDrop Langrisser and take your leave. If you do this now, I may even spare you.\0
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 11)
+# Do you take me for a fool, you senile old man?\0
+  bgm(ENEMY, ENEMY8_BOSER)
+  unit.deploy(BOSER_17, 13, 44)
+  msg(BOSER_17, BERNHARDT_16, BOSER, FOLLOW, 12)
+# Langrisser is not fit for this pathetic excuse of an Empire!\0
+  msg(BERNHARDT_16, BOSER_17, BERNHARDT, FOLLOW, 13)
+# Hmmm ... What brings you here, Boser?\0
+  msg(BOSER_17, BERNHARDT_16, BOSER, FOLLOW, 14)
+# The same reason as you-- there's something I desire.\r\nGive me Alhazard and its key. By which I mean, of course, the Dark Rod.\0
+  msg(EGBERT_D8, BOSER_17, EGBERT, FOLLOW, 15)
+# Heh heh heh. You're in for quite a shock, fiend. You'll take neither!\0
+  msg(BERNHARDT_16, BOSER_17, BERNHARDT, FOLLOW, 16)
+# Do you want them badly enough to face a Kaiser and his chief magician?\0
+  bgm(ENEMY, ENEMYREINFORCEMENT1)
+break
+
+lbl_1f2:
+  msg(BOSER_17, ERWIN_01, BOSER, FOLLOW, 17)
+# _NAME_, I have a proposition. Let us take Alhazard and the Dark Rod.\r\nIf we succeed, this world will be ours alone. You will be second only to me.\0
+  msg(ERWIN_01, BOSER_17, ERWIN, FOLLOW, 18)
+# Yes ...\r\nLangrisser and Alhazard ... With both in hand, we would fear nothing!\0
+break
+
+lbl_200:
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 19)
+# As the Kaiser's elite guard, they cannot be overestimated. Remember that.\0
+  branch.unit.dead(lbl_21a, BERNHARDT_16)
+  branch.unit.dead(lbl_214, BOSER_17)
+  msg(BOSER_17, ERWIN_01, BOSER, FOLLOW, 20)
+# So ... this is the kind of person who prevents Alhazard's resurrection, eh?\0
+lbl_214:
+  msg(BERNHARDT_16, ERWIN_01, BERNHARDT, FOLLOW, 21)
+# Langrisser's power is not unlike that of a man.\r\nIf you weary it too much, it may break.\0
+lbl_21a:
+break
+
+lbl_21c:
+  branch.mem.global.eq(lbl_238, $0a478a, $07eb5f)
+  unit.cleanup()
+  prompt.ok(lbl_238)
+  unit.statboost(11, 10)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 23)
+# MDF raised!\0
+  global.sum($0a478a, $07eb5f)
+  subroutine(lbl_258)
+lbl_238:
+break
+
+lbl_23a:
+  branch.mem.global.eq(lbl_256, $0a478a, $07eb5f)
+  unit.cleanup()
+  prompt.ok(lbl_256)
+  unit.statboost(68, 1)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 25)
+# Movement raised!\0
+  global.sum($0a478a, $07eb5f)
+  subroutine(lbl_258)
+lbl_256:
+break
+
+lbl_258:
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 26)
+# You heard something shatter on the opposite pedestal ...\0
+endsub
+
+lbl_25f:
+  msg(ERWIN_01, BERNHARDT_16, ERWIN, NOFOLLOW, 27)
+# Hand over Alhazard.\0
+  msg(BERNHARDT_16, ERWIN_01, BERNHARDT, NOFOLLOW, 28)
+# Heh heh heh. Give me Langrisser first, and I just may consider it.\0
+break
+
+lbl_26d:
+  msg(ERWIN_01, EGBERT_D8, ERWIN, NOFOLLOW, 29)
+# If you don't want to die, give up the Dark Rod!\0
+  msg(EGBERT_D8, ERWIN_01, EGBERT, NOFOLLOW, 30)
+# You think you can beat me. That's your first, and most deadly, mistake.\0
+break
+
+lbl_27b:
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 31)
+# I can't ... die just ... yet ... Aarrrghhh--!\0
+  unit.cleanup()
+  gameover()
+break
+
+lbl_285:
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 32)
+# They really were strong ...\0
+break
+
+lbl_28d:
+  msg(ROHGA_0B, DOWN_F5, ROHGA_DEAD, FOLLOW, 33)
+# I'm not as battle-ready as I thought ...\r\nI need to rest ... just a bit ...\0
+break
+
+lbl_295:
+  branch.unit.dead(lbl_2a2, BOSER_17)
+  msg(SONYA_0C, DOWN_F5, SONYA_DEAD, FOLLOW, 34)
+# Damn ... Right before Lord Boser. Pitiful ...\0
+  goto(lbl_2a8)
+lbl_2a2:
+  msg(SONYA_0C, DOWN_F5, SONYA_DEAD, FOLLOW, 35)
+# Sorry ... I'm exhausted ...\0
+lbl_2a8:
+break
+
+lbl_2aa:
+  msg(ESTO_11, DOWN_F5, ESTO_DEAD, FOLLOW, 36)
+# Ridiculous ... My power is gone ...\0
+break
+
+lbl_2b2:
+  msg(OSTO_12, DOWN_F5, OSTO_DEAD, FOLLOW, 37)
+# Worthless humans! I will feast on you!\0
+break
+
+lbl_2ba:
+  msg(BERNHARDT_16, DOWN_F5, BERNHARDT, FOLLOW, 38)
+# Fiends! Your numbers may have breached our gates, but your luck just ran out!\r\nI forged Rayguard, the mightiest nation in the land! You dare to imagine yourself as stronger than I?\0
+break
+
+lbl_2c2:
+  msg(BERNHARDT_16, DOWN_F5, BERNHARDT_DEAD, FOLLOW, 39)
+# It seems ... I misjudged you ... Are you really ... that powerful ...?\0
+  cast.teleport(BERNHARDT_16, BERNHARDT_16, TELEPORT_OUT, PRESET, PRESET)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 40)
+# Obtained Alhazard.\0
+  msg(ERWIN_01, BERNHARDT_16, ERWIN, FOLLOW, 41)
+# Yes, at last ... We have Alhazard!\0
+  branch.unit.dead(lbl_2e7, BOSER_17)
+  msg(BOSER_17, ERWIN_01, BOSER, FOLLOW, 72)
+# Heh heh heh ... Well done, _NAME_.\r\nAlhazard now lies in its rightful hand.\0
+  goto(lbl_2ed)
+lbl_2e7:
+  msg(BOSER_17, ERWIN_01, BOSER_DEAD, NOFOLLOW, 72)
+# Heh heh heh ... Well done, _NAME_.\r\nAlhazard now lies in its rightful hand.\0
+lbl_2ed:
+  branch.unit.alive(lbl_2f4, EGBERT_D8)
+  subroutine(lbl_3ad)
+lbl_2f4:
+break
+
+lbl_2f6:
+  msg(EGBERT_D8, DOWN_F5, EGBERT_DEAD, FOLLOW, 42)
+# Take joy while you can.\r\nMy plans will manifest, and those swords shall yet be mine.\r\nToday was unfortunate, ... but I look forward to our next encounter, _NAME_.\0
+  cast.teleport(EGBERT_D8, EGBERT_D8, TELEPORT_OUT, PRESET, PRESET)
+  branch.unit.alive(lbl_309, BERNHARDT_16)
+  subroutine(lbl_3ad)
+lbl_309:
+break
+
+lbl_30b:
+  branch.unit.dead(lbl_31b, EGBERT_D8)
+  msg(EGBERT_D8, IMPERIALCOMMANDER_31, EGBERT, FOLLOW, 43)
+# If it is a bloodbath they seek, then let us give them one!\0
+  msg(IMPERIALCOMMANDER_31, LEFT_F6, SWORDSMAN2_GREEN, FOLLOW, 44)
+# I'm counting on you! Let's send them straight to Hell!\0
+lbl_31b:
+break
+
+lbl_31d:
+  msg(IMPERIALCOMMANDER_31, LEFT_F6, SWORDSMAN2_GREEN, NOFOLLOW, 45)
+# To defend His Majesty, I've sworn even my life!\0
+break
+
+lbl_325:
+  msg(IMPERIALCOMMANDER_31, DOWN_F5, SWORDSMAN2_GREEN_DEAD, FOLLOW, 46)
+# Long live the Kaiser!\0
+break
+
+lbl_32d:
+  msg(IMPERIALCOMMANDER_32, LEFT_F6, SWORDSMAN2_GREEN, NOFOLLOW, 47)
+# I regret nothing!\0
+break
+
+lbl_335:
+  msg(IMPERIALCOMMANDER_32, DOWN_F5, SWORDSMAN2_GREEN_DEAD, FOLLOW, 48)
+# Y, Your Majesty ...\0
+break
+
+lbl_33d:
+  msg(IMPERIALCOMMANDER_33, LEFT_F6, HIGHLORD_GREEN, NOFOLLOW, 49)
+# If you're going to fight, then get on with it!\0
+  subroutine(lbl_444)
+break
+
+lbl_348:
+  msg(IMPERIALCOMMANDER_33, DOWN_F5, HIGHLORD_GREEN_DEAD, FOLLOW, 50)
+# I can't be defeated here ... Not yet ... Not now ...\0
+break
+
+lbl_350:
+  msg(IMPERIALCOMMANDER_34, LEFT_F6, HIGHLORD_GREEN, NOFOLLOW, 51)
+# You won't ascend one more stair!\0
+  subroutine(lbl_444)
+break
+
+lbl_35b:
+  subroutine(lbl_45f)
+break
+
+lbl_360:
+  subroutine(lbl_45f)
+break
+
+lbl_365:
+  msg(IMPERIALCOMMANDER_34, DOWN_F5, HIGHLORD_GREEN_DEAD, FOLLOW, 52)
+# Your Majesty ... Forgive ... this ...\0
+break
+
+lbl_36d:
+  msg(IMPERIALCOMMANDER_35, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 53)
+# I will never accept defeat from demons!\r\nI'll perish before you meet His Majesty's eyes!\0
+break
+
+lbl_375:
+  msg(IMPERIALCOMMANDER_35, LEFT_F6, KNIGHT2_GREEN, NOFOLLOW, 54)
+# Your lives shall end here!\0
+break
+
+lbl_37d:
+  msg(IMPERIALCOMMANDER_35, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 55)
+# Im, impossible ... No ... Nooo ...!\0
+break
+
+lbl_385:
+  msg(IMPERIALCOMMANDER_36, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 56)
+# This power that you have ...\0
+break
+
+lbl_38d:
+  msg(IMPERIALCOMMANDER_37, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 57)
+# Decent ... but you're ... not Imperial material ... by any stretch ...\0
+break
+
+lbl_395:
+  msg(IMPERIALCOMMANDER_38, LEFT_F6, PRIEST_GREEN, NOFOLLOW, 58)
+# The last of my life ... To protect the Kaiser--!\0
+break
+
+lbl_39d:
+  msg(IMPERIALCOMMANDER_38, DOWN_F5, PRIEST_GREEN_DEAD, FOLLOW, 59)
+# Ugh ... H, how can they have such power ...?\0
+break
+
+lbl_3a5:
+  msg(IMPERIALCOMMANDER_81, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 60)
+# G, gahh!\0
+break
+
+lbl_3ad:
+  subroutine(lbl_469)
+  scenarioclear()
+  branch.unit.dead(lbl_3be, BOSER_17)
+  msg(BOSER_17, RIGHT_F7, BOSER, FOLLOW, 67)
+# Run, Imperials, like the cowards you are!\r\nNow, reviving Alhazard should be our top priority.\0
+  goto(lbl_3c4)
+lbl_3be:
+  msg(BOSER_17, RIGHT_F7, BOSER_DEAD, NOFOLLOW, 67)
+# Run, Imperials, like the cowards you are!\r\nNow, reviving Alhazard should be our top priority.\0
+lbl_3c4:
+  msg(ERWIN_01, BOSER_17, ERWIN, FOLLOW, 61)
+# I don't need Alhazard's twisted power!\r\nI will unify this world with Langrisser alone!\0
+  branch.unit.dead(lbl_3d7, SONYA_0C)
+  msg(SONYA_0C, ERWIN_01, SONYA, FOLLOW, 68)
+# With Alhazard, I am sure the Demon Tribe will rally to our side.\r\nWe only have to worry about conquering the humans.\0
+  goto(lbl_3dd)
+lbl_3d7:
+  msg(SONYA_0C, ERWIN_01, SONYA_DEAD, NOFOLLOW, 68)
+# With Alhazard, I am sure the Demon Tribe will rally to our side.\r\nWe only have to worry about conquering the humans.\0
+lbl_3dd:
+  branch.unit.dead(lbl_3ea, BOSER_17)
+  msg(BOSER_17, RIGHT_F7, BOSER, FOLLOW, 69)
+# Conquering the humans ... That could be difficult.\r\nAll this talk of unifying the world is good, but I wonder ... Will the Demon Tribe be willing to go along with it?\0
+  goto(lbl_3f0)
+lbl_3ea:
+  msg(BOSER_17, RIGHT_F7, BOSER_DEAD, NOFOLLOW, 69)
+# Conquering the humans ... That could be difficult.\r\nAll this talk of unifying the world is good, but I wonder ... Will the Demon Tribe be willing to go along with it?\0
+lbl_3f0:
+  branch.unit.dead(lbl_3fa, ROHGA_0B)
+  msg(ROHGA_0B, BOSER_17, ROHGA, FOLLOW, 62)
+# That seems to make sense ...\0
+lbl_3fa:
+  msg(ERWIN_01, BOSER_17, ERWIN, FOLLOW, 63)
+# However ... If you intend to break the seal, please do it quickly.\0
+  branch.unit.dead(lbl_40d, BOSER_17)
+  msg(BOSER_17, RIGHT_F7, BOSER, FOLLOW, 70)
+# Let's not get ahead of ourselves. There are preparations to make.\r\nWe need the young girl Liana, the Maiden of Light.\0
+  goto(lbl_413)
+lbl_40d:
+  msg(BOSER_17, RIGHT_F7, BOSER_DEAD, NOFOLLOW, 70)
+# Let's not get ahead of ourselves. There are preparations to make.\r\nWe need the young girl Liana, the Maiden of Light.\0
+lbl_413:
+  branch.unit.dead(lbl_41d, HEIN_05)
+  msg(HEIN_05, BOSER_17, HEIN, FOLLOW, 64)
+# Liana is the Maiden of Light?\0
+lbl_41d:
+  msg(ERWIN_01, BOSER_17, ERWIN, FOLLOW, 65)
+# Yes, I see. We will find Liana.\0
+  branch.unit.dead(lbl_430, BOSER_17)
+  msg(BOSER_17, RIGHT_F7, BOSER, FOLLOW, 71)
+# The Maiden of Light is being sheltered in Castle Kalxath.\r\nYou must cut through Salrath to get there, but they shouldn't pose much threat.\r\nSonya will hear my next plan after you've managed this one.\0
+  goto(lbl_436)
+lbl_430:
+  msg(BOSER_17, RIGHT_F7, BOSER_DEAD, NOFOLLOW, 71)
+# The Maiden of Light is being sheltered in Castle Kalxath.\r\nYou must cut through Salrath to get there, but they shouldn't pose much threat.\r\nSonya will hear my next plan after you've managed this one.\0
+lbl_436:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 66)
+# All right, we're done here. Our next objective is Salrath's conquest!\0
+  loadscenario(58)
+endsub
+
+lbl_43f:
+  local.sub($0a47d0, $07eb58)
+break
+
+lbl_444:
+  branch.mem.local.eq(lbl_45e, $0a47d4, $07eb5b)
+  unit.clearbit(IMPERIALCOMMANDER_31, $17, 0)
+  unit.clearbit(IMPERIALCOMMANDER_32, $17, 0)
+  unit.clearbit(IMPERIALCOMMANDER_33, $17, 0)
+  unit.clearbit(IMPERIALCOMMANDER_34, $17, 0)
+  local.sub($0a47d0, $07eb59)
+  local.sum($0a47d4, $07eb5b)
+lbl_45e:
+endsub
+
+lbl_45f:
+  msg(IMPERIALCOMMANDER_34, LEFT_F6, HIGHLORD_GREEN, NOFOLLOW, 73)
+# Such vile beings! You offend this castle with your presence!\0
+  subroutine(lbl_444)
+endsub
+
+lbl_469:
+  unit.retreat(IMPERIALCOMMANDER_31)
+  unit.retreat(IMPERIALCOMMANDER_32)
+  unit.retreat(IMPERIALCOMMANDER_33)
+  unit.retreat(IMPERIALCOMMANDER_34)
+  unit.retreat(IMPERIALCOMMANDER_35)
+  unit.retreat(IMPERIALCOMMANDER_36)
+  unit.retreat(IMPERIALCOMMANDER_37)
+  unit.retreat(IMPERIALCOMMANDER_38)
+  unit.retreat(IMPERIALCOMMANDER_81)
+endsub
+

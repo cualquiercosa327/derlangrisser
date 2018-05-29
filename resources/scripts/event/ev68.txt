@@ -1,0 +1,575 @@
+# Movement-Triggered Events
+on.move(32, lbl_3c3, BERNHARDT_16, 1, 0xff)
+on.move(0, lbl_3d1, BERNHARDT_16, 0, 0xff)
+on.move(1, lbl_3fd, LEON_D5, 0, 0xff)
+on.move(2, lbl_42d, LAIRD_18, 0, 0xff)
+on.move(13, lbl_44d, VARGAS_D6, 0, 0xff)
+on.move(3, lbl_4d7, IMELDA_D7, 0, 0xff)
+on.move(4, lbl_4f7, EGBERT_D8, 0, 0xff)
+on.move(5, lbl_517, IMPERIALCOMMANDER_35, 0, 0xff)
+break
+
+# Attack-Triggered Events
+on.attack(21, lbl_357, ERWIN_01, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(28, lbl_390, LANA_0A, LEON_D5, 0x00, 0x00, 0xff)
+on.attack(29, lbl_3ab, LEON_D5, LANA_0A, 0x00, 0x00, 0xff)
+on.attack(34, lbl_40d, LANA_0A, LEON_D5, 0xff, 0x00, 0xff)
+on.attack(35, lbl_415, LEON_D5, LANA_0A, 0x00, 0xff, 0xff)
+on.attack(38, lbl_462, VARGAS_D6, ERWIN_01, 0x00, 0xff, 0xff)
+on.attack(39, lbl_46a, VARGAS_D6, ERWIN_01, 0x00, 0x00, 0xff)
+on.attack(41, lbl_4e7, NULL_FF, IMELDA_D7, 0xff, 0x00, 0xff)
+on.attack(44, lbl_52b, NULL_FF, IMPERIALCOMMANDER_35, 0xff, 0x00, 0xff)
+on.attack(46, lbl_53b, NULL_FF, IMPERIALCOMMANDER_36, 0xff, 0x00, 0xff)
+on.attack(48, lbl_54b, IMPERIALCOMMANDER_37, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(50, lbl_55b, IMPERIALCOMMANDER_38, NPC_COMMANDER_F0, 0x00, 0x00, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(22, lbl_35f, ERWIN_01)
+on.defeat(23, lbl_368, HEIN_05)
+on.defeat(24, lbl_370, ROHGA_0B)
+on.defeat(25, lbl_378, SONYA_0C)
+on.defeat(26, lbl_380, ESTO_11)
+on.defeat(27, lbl_388, OSTO_12)
+on.defeat(30, lbl_3b3, LANA_0A)
+on.defeat(31, lbl_3bb, LIANA_02)
+on.defeat(33, lbl_3e7, BERNHARDT_16)
+on.defeat(36, lbl_41d, LEON_D5)
+on.defeat(37, lbl_43d, LAIRD_18)
+on.defeat(40, lbl_472, VARGAS_D6)
+on.defeat(42, lbl_4ef, IMELDA_D7)
+on.defeat(43, lbl_50d, EGBERT_D8)
+on.defeat(45, lbl_533, IMPERIALCOMMANDER_35)
+on.defeat(47, lbl_543, IMPERIALCOMMANDER_36)
+on.defeat(49, lbl_553, IMPERIALCOMMANDER_37)
+on.defeat(51, lbl_563, IMPERIALCOMMANDER_38)
+on.damage(52, lbl_56e, NULL_FF, IMPERIALCOMMANDER_38, 0xff, 0x00)
+on.defeat(53, lbl_576, IMPERIALCOMMANDER_81)
+on.defeat(54, lbl_57e, IMPERIALCOMMANDER_82)
+on.defeat(55, lbl_586, IMPERIALCOMMANDER_35, IMPERIALCOMMANDER_36, IMPERIALCOMMANDER_37, IMPERIALCOMMANDER_38, IMPERIALCOMMANDER_81, IMPERIALCOMMANDER_82)
+break
+
+# Position-Triggered Events
+on.bound(12, lbl_2ee, NPC_COMMANDER_F0, 1, 19, 30, 21, 0x00, 0x00)
+on.bound(14, lbl_310, BERNHARDT_16, 1, 24, 3, 26, 0x00, 0x00)
+on.bound(15, lbl_315, LEON_D5, 1, 24, 3, 26, 0x00, 0x00)
+on.bound(16, lbl_31a, LAIRD_18, 1, 24, 3, 26, 0x00, 0x00)
+on.bound(17, lbl_31f, IMELDA_D7, 1, 24, 3, 26, 0x00, 0x00)
+on.bound(18, lbl_324, EGBERT_D8, 1, 24, 3, 26, 0x00, 0x00)
+on.bound(19, lbl_329, IMELDA_D7, 1, 24, 3, 26, 0x00, 0x00)
+on.bound(20, lbl_32e, NPC_COMMANDER_F0, 22, 24, 22, 24, 0x00, 0x00)
+break
+
+# Turn-Triggered Events
+on.turn(7, lbl_298, ENEMY, 1, 0x00)
+on.turn(8, lbl_2a0, ENEMY, 10, 0x00)
+on.turn(9, lbl_2a8, ENEMY, 17, 0x00)
+on.turn(10, lbl_2b0, ALLY, 18, 0x00)
+on.turn(11, lbl_2dc, ENEMY, 20, 0x00)
+break
+
+# Core Events
+lbl_1a0:
+  bgm(ALLY, ENEMY2_VARGAS)
+  screen.fadein(4)
+  unit.position(LEON_D5, PRESET, PRESET)
+  unit.showsub(LEON_D5)
+  unit.position(LAIRD_18, PRESET, PRESET)
+  unit.showsub(LAIRD_18)
+  unit.position(EGBERT_D8, PRESET, PRESET)
+  unit.showsub(EGBERT_D8)
+  unit.position(IMELDA_D7, PRESET, PRESET)
+  unit.showsub(IMELDA_D7)
+  unit.position(IMPERIALCOMMANDER_35, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_35)
+  unit.position(IMPERIALCOMMANDER_36, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_36)
+  unit.position(IMPERIALCOMMANDER_81, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_81)
+  unit.position(IMPERIALCOMMANDER_82, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_82)
+  unit.position(IMPERIALCOMMANDER_38, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_38)
+  unit.position(VARGAS_D6, PRESET, PRESET)
+  unit.showsub(VARGAS_D6)
+  unit.position(IMPERIALCOMMANDER_37, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_37)
+  unit.position(BERNHARDT_16, PRESET, PRESET)
+  unit.showsub(BERNHARDT_16)
+  msg(LEON_D5, BERNHARDT_16, LEON, FOLLOW, 1)
+# Your Majesty, what shall we do about the traitor?\0
+  msg(BERNHARDT_16, LEON_D5, BERNHARDT, FOLLOW, 2)
+# He is of little concern.\r\nThe boy has enough enemies. His end will come soon enough.\0
+  msg(IMELDA_D7, BERNHARDT_16, IMELDA, FOLLOW, 3)
+# Shouldn't His Majesty rest for a little while?\0
+  msg(BERNHARDT_16, DOWN_F5, BERNHARDT, FOLLOW, 4)
+# Hah! Wounds like these won't fell your Kaiser.\r\nOur troops have momentum. Let them keep it.\0
+  msg(IMELDA_D7, BERNHARDT_16, IMELDA, FOLLOW, 5)
+# But, Your Majesty ...\0
+  msg(IMPERIALCOMMANDER_38, DOWN_F5, HAWKKNIGHT_GREEN, FOLLOW, 6)
+# What!? We're being followed? It, it's _NAME_!\0
+  msg(LEON_D5, UP_F4, LEON, FOLLOW, 7)
+# Damn! They move quickly ...\0
+  bgm(ALLY, ENEMY7_DARKPRINCESS)
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.showsub(ERWIN_01)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.showsub(HEIN_05)
+  unit.position(ROHGA_0B, PRESET, PRESET)
+  unit.showsub(ROHGA_0B)
+  unit.position(SONYA_0C, PRESET, PRESET)
+  unit.showsub(SONYA_0C)
+  unit.position(ESTO_11, PRESET, PRESET)
+  unit.showsub(ESTO_11)
+  unit.position(OSTO_12, PRESET, PRESET)
+  unit.showsub(OSTO_12)
+  unit.position(LANA_0A, PRESET, PRESET)
+  unit.showsub(LANA_0A)
+  unit.position(LIANA_02, PRESET, PRESET)
+  unit.showsub(LIANA_02)
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 8)
+# You won't escape so easily, Kaiser of Rayguard.\0
+  msg(IMELDA_D7, ERWIN_01, IMELDA_ANGRY, FOLLOW, 9)
+# Ah, it's the annoying little brat! I see you're eager to die.\0
+  msg(VARGAS_D6, BERNHARDT_16, VARGAS, FOLLOW, 10)
+# I'll remain and hold them. The rest of you, honour your duty to His Majesty.\0
+  msg(VARGAS_D6, LEON_D5, VARGAS, FOLLOW, 11)
+# Leon, please see to His Majesty's care.\0
+  msg(LEON_D5, VARGAS_0E, LEON, FOLLOW, 12)
+# ...\r\nVery well.\0
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 13)
+# Looks like we're facing the Flaming Fag Brigade, or whatever they call themselves.\0
+  msg(SONYA_0C, ERWIN_01, SONYA, FOLLOW, 14)
+# If we take too much time, we'll lose the main force.\0
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 15)
+# All right, let's strike quickly. Our target is General Vargas!\0
+  unit.setbit(LANA_0A, $17, 4)
+  local.sum($0a47d0, $07eb58)
+  local.sum($0a47d0, $07eb59)
+  local.sum($0a47d0, $07eb5a)
+  local.sum($0a47d0, $07eb5b)
+  local.sum($0a47d0, $07eb5c)
+  local.sum($0a47d0, $07eb5d)
+  local.sum($0a47d0, $07eb5e)
+  global.sub($0a4791, $07eb5e)
+break
+
+lbl_298:
+  msg(VARGAS_D6, ERWIN_01, VARGAS, FOLLOW, 16)
+# Come on then, red-haired brat!\r\nI'll show you the power of the Imperial Blazing Dragon Army's most elite forces!\0
+break
+
+lbl_2a0:
+  msg(VARGAS_D6, ERWIN_01, VARGAS, FOLLOW, 17)
+# It's not over yet! We can still stop them.\0
+break
+
+lbl_2a8:
+  msg(VARGAS_D6, ERWIN_01, VARGAS, FOLLOW, 18)
+# Just a bit longer ... If we can buy ourselves a little more time, then ...\0
+break
+
+lbl_2b0:
+  branch.unit.dead(lbl_2bd, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 19)
+# Watch out, _NAME_. At this rate, we're going to lose the Kaiser!\0
+  goto(lbl_2d4)
+lbl_2bd:
+  branch.unit.dead(lbl_2ca, ROHGA_0B)
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 20)
+# _NAME_! You're taking far too long! Are you letting him go!?\0
+  goto(lbl_2d4)
+lbl_2ca:
+  branch.unit.dead(lbl_2d4, LANA_0A)
+  msg(LANA_0A, ERWIN_01, DARKPRINCESS, FOLLOW, 21)
+# Don't you see, _NAME_!? If you take too much time, you'll lose sight of the Kaiser!\0
+lbl_2d4:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 22)
+# This is getting critical ... Don't waste your time on trash! Focus on their commanders!\0
+break
+
+lbl_2dc:
+  msg(VARGAS_D6, ERWIN_01, VARGAS, FOLLOW, 23)
+# Gwah hah hah! His Majesty is over the horizon! You'll never find him now.\r\nMission complete! Time to withdraw.\0
+  subroutine(lbl_599)
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 24)
+# Grrr ... We took too long ...\0
+  gameover()
+break
+
+lbl_2ee:
+  unit.cleanup()
+  branch.unit.dead(lbl_302, BERNHARDT_16)
+  msg(VARGAS_D6, BERNHARDT_16, VARGAS, FOLLOW, 25)
+# They've crossed the bridge! Your Majesty, please hurry!\0
+  msg(BERNHARDT_16, UP_F4, BERNHARDT, FOLLOW, 26)
+# Of course.\0
+  goto(lbl_308)
+lbl_302:
+  msg(VARGAS_D6, ERWIN_01, VARGAS_ANGRY, FOLLOW, 27)
+# Brat! If you come any further, don't think you'll live.\0
+lbl_308:
+  local.sub($0a47d1, $07eb5d)
+  local.sub($0a47d0, $07eb5d)
+break
+
+lbl_310:
+  local.sub($0a47d0, $07eb58)
+break
+
+lbl_315:
+  local.sub($0a47d0, $07eb59)
+break
+
+lbl_31a:
+  local.sub($0a47d0, $07eb5a)
+break
+
+lbl_31f:
+  local.sub($0a47d0, $07eb5b)
+break
+
+lbl_324:
+  local.sub($0a47d0, $07eb5c)
+break
+
+lbl_329:
+  local.sub($0a47d0, $07eb5b)
+break
+
+lbl_32e:
+  branch.mem.global.eq(lbl_355, $0a478d, $07eb59)
+  unit.cleanup()
+  global.sum($0a478d, $07eb59)
+  prompt.ok(lbl_34f)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 29)
+# The dirty mice run away, leaving the small stone.\r\nAs you pick up the stone, it begins to shine ...\0
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 30)
+# Obtained Rune Stone.\0
+  item.add(RUNESTONE)
+  goto(lbl_355)
+lbl_34f:
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 31)
+# The dirty mice continue to play with the stone and take it away.\0
+lbl_355:
+break
+
+lbl_357:
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 32)
+# Out of the way! We have no time for this nonsense!\0
+break
+
+lbl_35f:
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 33)
+# M, my heart just wasn't in it ...\0
+  gameover()
+break
+
+lbl_368:
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 34)
+# Why ...?\0
+break
+
+lbl_370:
+  msg(ROHGA_0B, DOWN_F5, ROHGA_DEAD, FOLLOW, 35)
+# Damn kids!\0
+break
+
+lbl_378:
+  msg(SONYA_0C, DOWN_F5, SONYA_DEAD, FOLLOW, 36)
+# And we came all this way, too ...\0
+break
+
+lbl_380:
+  msg(ESTO_11, DOWN_F5, ESTO, FOLLOW, 37)
+# Uugghh, I've been ... defeated ...!\0
+break
+
+lbl_388:
+  msg(OSTO_12, DOWN_F5, OSTO, FOLLOW, 38)
+# Arrrrghh--! This host ... too weak ...\0
+break
+
+lbl_390:
+  msg(LANA_0A, LEON_D5, DARKPRINCESS, NOFOLLOW, 39)
+# You're an honourable man. If it can be helped, I don't want to kill you.\r\nLeon, the future is with us. Won't you join our cause?\0
+  msg(LEON_D5, LANA_0A, LEON, NOFOLLOW, 40)
+# ...\r\nYou speak of something that can never be.\r\nA knight swears fealty to his Kaiser, and that oath I will never break.\r\nYou will always be at the tip of my sword, _NAME_ the traitor.\0
+  msg(LANA_0A, LEON_D5, DARKPRINCESS, NOFOLLOW, 41)
+# I guess there's no other way. But this is also Lord Boser's wish ... Have at you, Leon!\0
+  global.sum($0a4791, $07eb5e)
+  unit.clearbit(LEON_D5, $17, 7)
+break
+
+lbl_3ab:
+  msg(LEON_D5, LANA_0A, LEON, FOLLOW, 42)
+# Forgive me, Lana. I must defend His Majesty!\0
+break
+
+lbl_3b3:
+  msg(LANA_0A, DOWN_F5, DARKPRINCESS_DEAD, FOLLOW, 43)
+# Ooh, I was a bit clumsy ... Take care of the rest, please.\0
+break
+
+lbl_3bb:
+  msg(LIANA_02, DOWN_F5, LIANA_DEAD, FOLLOW, 44)
+# W, well done ...! I'm sorry, _NAME_. I have to retreat!\0
+break
+
+lbl_3c3:
+  msg(BERNHARDT_16, VARGAS_D6, BERNHARDT, FOLLOW, 45)
+# Take care of the rest here, Vargas.\0
+  msg(VARGAS_D6, BERNHARDT_16, VARGAS, FOLLOW, 46)
+# Understood.\0
+break
+
+lbl_3d1:
+  msg(BERNHARDT_16, RIGHT_F7, BERNHARDT, FOLLOW, 47)
+# Forgive me ... Take care of the rest.\0
+  msg(VARGAS_D6, BERNHARDT_16, VARGAS, FOLLOW, 48)
+# Worry not! Once these rats have been scattered, I'll soon follow.\0
+  msg(BERNHARDT_16, DOWN_F5, BERNHARDT, FOLLOW, 49)
+# I'll be waiting for you.\0
+  unit.retreat(BERNHARDT_16)
+break
+
+lbl_3e7:
+  msg(BERNHARDT_16, DOWN_F5, BERNHARDT_DEAD, FOLLOW, 50)
+# Ugh! My wound is ..., No, not again ...\0
+  msg(VARGAS_D6, DOWN_F5, VARGAS, FOLLOW, 51)
+# Someone, escort His Majesty to safety!\0
+  msg(SOLDIER_20, DOWN_F5, SWORDSMAN2_GREEN, NOFOLLOW, 52)
+# Your Majesty, this way.\0
+  unit.retreat(BERNHARDT_16)
+break
+
+lbl_3fd:
+  msg(VARGAS_D6, LEON_D5, VARGAS, FOLLOW, 53)
+# Leon, take care of his Majesty.\0
+  msg(LEON_D5, LEFT_F6, LEON, FOLLOW, 54)
+# You have my word. I shall protect him!\0
+  unit.retreat(LEON_D5)
+break
+
+lbl_40d:
+  msg(LEON_D5, LEFT_F6, LEON, NOFOLLOW, 55)
+# You've kept up with us for a while now. That's pretty good.\r\nBut you'll soon be left in the dust.\0
+break
+
+lbl_415:
+  msg(LEON_D5, LEFT_F6, LEON, NOFOLLOW, 56)
+# You shall not pass!\0
+break
+
+lbl_41d:
+  msg(LEON_D5, DOWN_F5, LEON_DEAD, FOLLOW, 57)
+# Curses ... Vargas, it's up to you!\0
+  msg(VARGAS_D6, LEON_D5, VARGAS, FOLLOW, 58)
+# You'd better leave it to me and head out.\0
+  unit.retreat(LEON_D5)
+break
+
+lbl_42d:
+  msg(LAIRD_18, VARGAS_D6, LAIRD, FOLLOW, 59)
+# General Vargas, we shall be praying for your victory!\0
+  msg(VARGAS_D6, LAIRD_18, VARGAS, FOLLOW, 60)
+# Thank you. Now, please look after the Kaiser.\0
+  unit.retreat(LAIRD_18)
+break
+
+lbl_43d:
+  msg(LAIRD_18, DOWN_F5, LAIRD_DEAD, FOLLOW, 61)
+# Ugh, damn it!\0
+  msg(SOLDIER_20, DOWN_F5, SWORDSMAN2_GREEN, NOFOLLOW, 62)
+# Colonel Laird, over here ...\0
+  unit.retreat(LAIRD_18)
+break
+
+lbl_44d:
+  branch.mem.global.ne(lbl_45a, $0a4789, $07eb5b)
+  msg(VARGAS_D6, ERWIN_01, VARGAS, FOLLOW, 63)
+# You'd better look out, brat! This time, I'm paying you back for Zorum's death!\0
+  goto(lbl_460)
+lbl_45a:
+  msg(VARGAS_D6, ERWIN_01, VARGAS, FOLLOW, 64)
+# You'd better look out, brat! This time, I'm really going to kick your ass!\0
+lbl_460:
+break
+
+lbl_462:
+  msg(VARGAS_D6, LEFT_F6, VARGAS, NOFOLLOW, 65)
+# Aaaaarrrghhhhh--!\0
+break
+
+lbl_46a:
+  msg(VARGAS_D6, ERWIN_01, VARGAS, NOFOLLOW, 66)
+# Punk, prepare yourself!\0
+break
+
+lbl_472:
+  msg(VARGAS_D6, DOWN_F5, VARGAS_DEAD, FOLLOW, 67)
+# Ugh, im, impossible ... I, I am General Vargas ... of the Blazing Dragon Army.\r\nUugghhh ... Please look after ... Eliza and ... Emilia ...\0
+  unit.cleanup()
+  branch.unit.dead(lbl_483, BERNHARDT_16)
+  msg(BERNHARDT_16, DOWN_F5, BERNHARDT, FOLLOW, 68)
+# Vargas, you fought splendidly. Your death shall not be wasted, I promise you, old friend.\0
+lbl_483:
+  subroutine(lbl_599)
+  scenarioclear()
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 69)
+# Farewell, General Vargas ...\0
+  branch.unit.dead(lbl_497, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 70)
+# This is the end of the Blazing Dragon Army, isn't it?\0
+lbl_497:
+  branch.unit.dead(lbl_4a1, ROHGA_0B)
+  msg(ROHGA_0B, DOWN_F5, ROHGA, FOLLOW, 71)
+# The mighty Vargas ... He was a great soldier to his last breath.\0
+lbl_4a1:
+  branch.unit.dead(lbl_4ae, SONYA_0C)
+  msg(SONYA_0C, ERWIN_01, SONYA, FOLLOW, 98)
+# We need to concentrate on giving chase, lest they move out of our sight!\0
+  goto(lbl_4b4)
+lbl_4ae:
+  msg(SONYA_0C, UP_F4, SONYA_DEAD, NOFOLLOW, 98)
+# We need to concentrate on giving chase, lest they move out of our sight!\0
+lbl_4b4:
+  msg(ERWIN_01, SONYA_0C, ERWIN, FOLLOW, 72)
+# I couldn't have said it better myself. Instead of running, he faced death.\0
+  branch.unit.dead(lbl_4c7, LANA_0A)
+  msg(LANA_0A, ERWIN_01, DARKPRINCESS, FOLLOW, 99)
+# They are likely headed to Castle Velzeria ...\0
+  goto(lbl_4cd)
+lbl_4c7:
+  msg(LANA_0A, UP_F4, DARKPRINCESS_DEAD, NOFOLLOW, 99)
+# They are likely headed to Castle Velzeria ...\0
+lbl_4cd:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 73)
+# We can't compromise the defence of Castle Velzeria! Everyone, let's get moving!\0
+  loadscenario(62)
+break
+
+lbl_4d7:
+  msg(IMELDA_D7, VARGAS_0E, IMELDA, FOLLOW, 74)
+# Vargas, don't get lost out here. Join up with us soon.\0
+  msg(VARGAS_D6, IMELDA_D7, VARGAS, FOLLOW, 75)
+# I know, I know. Don't worry about me and just get moving.\0
+  unit.retreat(IMELDA_D7)
+break
+
+lbl_4e7:
+  msg(IMELDA_D7, LEFT_F6, IMELDA_ANGRY, NOFOLLOW, 76)
+# Insolent punks! It's payback time!\0
+break
+
+lbl_4ef:
+  msg(IMELDA_D7, DOWN_F5, IMELDA_DEAD, FOLLOW, 77)
+# How dare you! Your punishment will come!\0
+break
+
+lbl_4f7:
+  msg(EGBERT_D8, RIGHT_F7, EGBERT, FOLLOW, 78)
+# Don't die ...\0
+  msg(VARGAS_D6, EGBERT_D8, VARGAS, FOLLOW, 79)
+# You, you have to protect the Empire!\0
+  msg(EGBERT_D8, RIGHT_F7, EGBERT, FOLLOW, 80)
+# Heh, you don't have to go that far.\0
+  unit.retreat(EGBERT_D8)
+break
+
+lbl_50d:
+  msg(EGBERT_D8, DOWN_F5, EGBERT_DEAD, FOLLOW, 81)
+# D, damn these wounds ... How can I succumb to them?\r\nNext time we meet shall be your last!\0
+  unit.retreat(EGBERT_D8)
+break
+
+lbl_517:
+  msg(IMPERIALCOMMANDER_35, VARGAS_D6, KNIGHT2_GREEN, FOLLOW, 82)
+# Maintain forward mobility and engage the enemy!\0
+  msg(VARGAS_D6, IMPERIALCOMMANDER_35, VARGAS, FOLLOW, 83)
+# Please!\0
+  msg(IMPERIALCOMMANDER_35, VARGAS_D6, KNIGHT2_GREEN, FOLLOW, 84)
+# Yes, Sir!\0
+break
+
+lbl_52b:
+  msg(IMPERIALCOMMANDER_35, LEFT_F6, KNIGHT2_GREEN, NOFOLLOW, 85)
+# If you want to get through, you'll have to fell me.\0
+break
+
+lbl_533:
+  msg(IMPERIALCOMMANDER_35, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 86)
+# And you did ...\0
+break
+
+lbl_53b:
+  msg(IMPERIALCOMMANDER_36, LEFT_F6, KNIGHT2_GREEN, NOFOLLOW, 87)
+# Even if you cut me to ribbons, I can't allow you to proceed!\0
+break
+
+lbl_543:
+  msg(IMPERIALCOMMANDER_36, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 88)
+# I can't let you near the Kaiser!\0
+break
+
+lbl_54b:
+  msg(IMPERIALCOMMANDER_37, LEFT_F6, PRIEST_GREEN, NOFOLLOW, 89)
+# You'll have a very painful demise ...\0
+break
+
+lbl_553:
+  msg(IMPERIALCOMMANDER_37, DOWN_F5, PRIEST_GREEN_DEAD, FOLLOW, 90)
+# Ugh, no good ...\0
+break
+
+lbl_55b:
+  msg(IMPERIALCOMMANDER_38, LEFT_F6, HAWKKNIGHT_GREEN, NOFOLLOW, 91)
+# Take that! There will be no prisoners!\0
+break
+
+lbl_563:
+  msg(IMPERIALCOMMANDER_38, DOWN_F5, HAWKKNIGHT_GREEN_DEAD, FOLLOW, 92)
+# Long live the Kaiser! Long live the Empire!\0
+  local.sum($0a47d6, $07eb5c)
+break
+
+lbl_56e:
+  msg(IMPERIALCOMMANDER_38, LEFT_F6, HAWKKNIGHT_GREEN, NOFOLLOW, 93)
+# So you came here of your own accord. You certainly are spirited.\0
+break
+
+lbl_576:
+  msg(IMPERIALCOMMANDER_81, DOWN_F5, HIGHLORD_GREEN_DEAD, FOLLOW, 94)
+# Well done ...\0
+break
+
+lbl_57e:
+  msg(IMPERIALCOMMANDER_82, DOWN_F5, SWORDSMAN2_GREEN_DEAD, FOLLOW, 95)
+# My sword ... I thought my attack was unstoppable ...\0
+break
+
+lbl_586:
+  unit.cleanup()
+  branch.unit.dead(lbl_597, VARGAS_D6)
+  msg(VARGAS_D6, ERWIN_01, VARGAS, FOLLOW, 96)
+# So, I'm the last one left. I'm not giving in. Don't even think it.\r\nI'll provide His Majesty and his troops whatever time and distance they need.\r\nNow then, red-haired punk. Stop your gawking and let us cross blades!\0
+  msg(ERWIN_01, VARGAS_D6, ERWIN, FOLLOW, 97)
+# So you've chased us this far ... You have endurance, all right.\0
+lbl_597:
+break
+
+lbl_599:
+  unit.retreat(IMELDA_D7)
+  unit.retreat(VARGAS_D6)
+  unit.retreat(IMPERIALCOMMANDER_35)
+  unit.retreat(IMPERIALCOMMANDER_36)
+  unit.retreat(IMPERIALCOMMANDER_37)
+  unit.retreat(IMPERIALCOMMANDER_38)
+  unit.retreat(IMPERIALCOMMANDER_81)
+  unit.retreat(IMPERIALCOMMANDER_82)
+  unit.retreat(BERNHARDT_16)
+  unit.retreat(LEON_D5)
+  unit.retreat(LAIRD_18)
+  unit.retreat(EGBERT_D8)
+endsub
+

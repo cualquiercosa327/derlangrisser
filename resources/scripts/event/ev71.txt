@@ -1,0 +1,511 @@
+# Movement-Triggered Events
+on.move(19, lbl_44e, LEON_D5, 0, 0xff)
+on.move(24, lbl_4d3, IMPERIALCOMMANDER_34, 1, 0xff)
+break
+
+# Attack-Triggered Events
+on.attack(4, lbl_2b8, ERWIN_01, BERNHARDT_16, 0x00, 0x00, 0xff)
+on.attack(12, lbl_322, LANA_0A, LEON_D5, 0x00, 0x00, 0xff)
+on.attack(13, lbl_33b, LANA_0A, BERNHARDT_16, 0x00, 0x00, 0xff)
+on.attack(17, lbl_432, EGBERT_D8, NULL_FF, 0x00, 0xff, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(5, lbl_2c6, ERWIN_01)
+on.damage(6, lbl_2d6, ERWIN_01, LEON_D5, 0x00, 0x00)
+on.defeat(7, lbl_2ea, HEIN_05)
+on.defeat(8, lbl_2f2, ROHGA_0B)
+on.defeat(9, lbl_2fa, SONYA_0C)
+on.defeat(10, lbl_312, ESTO_11)
+on.defeat(11, lbl_31a, OSTO_12)
+on.defeat(14, lbl_343, LANA_0A)
+on.defeat(15, lbl_34b, LIANA_02)
+on.defeat(16, lbl_35f, BERNHARDT_16)
+on.defeat(18, lbl_43a, EGBERT_D8)
+on.defeat(20, lbl_481, LEON_D5)
+on.damage(21, lbl_4a6, LEON_D5, LANA_0A, 0x00, 0x00)
+on.defeat(22, lbl_4af, IMPERIALCOMMANDER_32)
+on.defeat(23, lbl_4b7, IMPERIALCOMMANDER_33)
+on.defeat(25, lbl_4eb, IMPERIALCOMMANDER_34)
+on.defeat(26, lbl_4fe, IMPERIALCOMMANDER_35)
+on.defeat(27, lbl_506, IMPERIALCOMMANDER_36)
+on.defeat(28, lbl_50e, IMPERIALCOMMANDER_37)
+on.defeat(29, lbl_516, IMPERIALCOMMANDER_38)
+on.defeat(30, lbl_51e, IMPERIALCOMMANDER_81)
+on.defeat(31, lbl_526, IMPERIALCOMMANDER_82)
+break
+
+# Position-Triggered Events
+on.bound(2, lbl_279, NPC_SUBUNIT_F1, 18, 2, 28, 14, 0x00, 0x00)
+on.bound(3, lbl_27e, NPC_COMMANDER_F0, 12, 5, 12, 5, 0x00, 0x00)
+on.bound(3, lbl_29e, NPC_COMMANDER_F0, 6, 5, 6, 5, 0x00, 0x00)
+break
+
+# Turn-Triggered Events
+on.turn(1, lbl_22c, ALLY, 0, 0x00)
+on.turn(0, lbl_231, ENEMY, 0, 0x00)
+break
+
+# Core Events
+lbl_f6:
+  bgm(ALLY, ENEMY9_BERNHARDT)
+  focus.point(24, 6, FAST)
+  cursor.set(NULL_00)
+  unit.position(BERNHARDT_16, PRESET, PRESET)
+  unit.position(EGBERT_D8, PRESET, PRESET)
+  unit.position(IMPERIALCOMMANDER_31, PRESET, PRESET)
+  unit.position(IMPERIALCOMMANDER_32, PRESET, PRESET)
+  unit.position(IMPERIALCOMMANDER_33, PRESET, PRESET)
+  unit.position(IMPERIALCOMMANDER_34, PRESET, PRESET)
+  unit.position(IMPERIALCOMMANDER_36, PRESET, PRESET)
+  unit.position(IMPERIALCOMMANDER_37, PRESET, PRESET)
+  unit.position(IMPERIALCOMMANDER_38, PRESET, PRESET)
+  unit.position(IMPERIALCOMMANDER_81, PRESET, PRESET)
+  screen.fadein(4)
+  msg(EGBERT_D8, BERNHARDT_16, EGBERT, NOFOLLOW, 1)
+# Your Majesty, how are you faring?\0
+  msg(BERNHARDT_16, EGBERT_10, BERNHARDT, NOFOLLOW, 2)
+# Excellent, excellent.\r\nEgbert, your treatment is effective as ever.\r\nThough I must admit, having that rogue _NAME_ out of the way is as much a relief.\r\nGather your fellows, Egbert. Let us discuss our next move.\0
+  msg(EGBERT_D8, BERNHARDT_16, EGBERT, NOFOLLOW, 3)
+# Your Majesty, ...\r\nIt pains me to say this, but we could not ... we did not rout _NAME_.\r\nVargas and Imelda fought and died honourably, their sacrifices exalt us.\r\nLeon and His Majesty's Blue Dragon Knights meet _NAME_ outside our gates.\r\nI do not know whether he succeeds.\0
+  msg(BERNHARDT_16, EGBERT_10, BERNHARDT, NOFOLLOW, 4)
+# Egbert, I thank you for your honest appraisal.\r\nYour Kaiser's strength has failed him, and for that, he burdened his Empire.\r\nDamn this, Egbert. Was I so weak? Was my Empire ...?\0
+  msg(EGBERT_D8, BERNHARDT_16, EGBERT, NOFOLLOW, 5)
+# Your Majesty ... Well, that is to say ...\0
+  cursor.set(ERWIN_01)
+  bgm(ALLY, ENEMYREINFORCEMENT2)
+  unit.position(IMPERIALCOMMANDER_82, 27, 32)
+  unit.move(IMPERIALCOMMANDER_82, PRESET, PRESET)
+  msg(IMPERIALCOMMANDER_82, BERNHARDT_16, MAGE_GREEN, FOLLOW, 6)
+# I, I bring distressing news!\0
+  msg(BERNHARDT_16, IMPERIALCOMMANDER_82, BERNHARDT, FOLLOW, 7)
+# What has happened? Out with it!\0
+  msg(IMPERIALCOMMANDER_82, BERNHARDT_16, MAGE_GREEN, FOLLOW, 8)
+# General Leon has ... He has fallen at the castle gates!\0
+  bgm(ALLY, ALLY7)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.showsub(HEIN_05)
+  unit.position(ROHGA_0B, PRESET, PRESET)
+  unit.showsub(ROHGA_0B)
+  unit.position(SONYA_0C, PRESET, PRESET)
+  unit.showsub(SONYA_0C)
+  unit.position(ESTO_11, PRESET, PRESET)
+  unit.showsub(ESTO_11)
+  unit.position(OSTO_12, PRESET, PRESET)
+  unit.showsub(OSTO_12)
+  unit.position(LANA_0A, PRESET, PRESET)
+  unit.showsub(LANA_0A)
+  unit.position(LIANA_02, PRESET, PRESET)
+  unit.showsub(LIANA_02)
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.showsub(ERWIN_01)
+  msg(ERWIN_01, BERNHARDT_16, ERWIN, FOLLOW, 9)
+# Bernhardt, Bernhardt ... You're a slippery fellow.\0
+  msg(SONYA_0C, BERNHARDT_16, SONYA, FOLLOW, 10)
+# I've located the last twigs propping up the Imperial shack. Time to kick you away.\0
+  msg(ROHGA_0B, BERNHARDT_16, ROHGA, FOLLOW, 11)
+# Your death has been a long time coming.\r\nDon't be too surprised when I slit your throat.\0
+  bgm(ALLY, ENEMY9_BERNHARDT)
+  msg(BERNHARDT_16, ERWIN_01, BERNHARDT, FOLLOW, 12)
+# Ah, the arrogance and fire of youth ...\r\nSave your words and face me with armament.\r\nI may not look it now, but I was once a soldier, and a good one at that.\r\nYou shall learn how worthy of my generals I am!\0
+  unit.showsub(EGBERT_D8)
+  unit.showsub(IMPERIALCOMMANDER_31)
+  unit.showsub(IMPERIALCOMMANDER_32)
+  unit.showsub(IMPERIALCOMMANDER_33)
+  unit.showsub(IMPERIALCOMMANDER_34)
+  unit.showsub(IMPERIALCOMMANDER_36)
+  unit.showsub(IMPERIALCOMMANDER_37)
+  unit.showsub(IMPERIALCOMMANDER_38)
+  unit.showsub(IMPERIALCOMMANDER_81)
+  unit.showsub(IMPERIALCOMMANDER_82)
+  unit.showsub(BERNHARDT_16)
+  branch.mem.global.eq(lbl_1d6, $0a4791, $07eb5e)
+  unit.setbit(LEON_D5, $17, 7)
+  unit.setbit(LANA_0A, $17, 4)
+lbl_1d6:
+  msg(BERNHARDT_16, ERWIN_01, BERNHARDT, FOLLOW, 13)
+# So, come! I will fell you!\0
+  msg(NULL_00, DOWN_F5, NULL, NOFOLLOW, 14)
+# Heh heh heh ... I have waited for this.\0
+  msg(BERNHARDT_16, DOWN_F5, BERNHARDT, FOLLOW, 15)
+# That voice ...!\0
+  unit.swap(LEON_D5, BOSER_17)
+  cast.teleport(BOSER_17, BOSER_17, TELEPORT_IN, 11, 24)
+  msg(BOSER_17, BERNHARDT_16, BOSER, FOLLOW, 16)
+# Yes, I'm here.\r\nA good vigour, old man. You'll make this most fun.\0
+  msg(BERNHARDT_16, BOSER_17, BERNHARDT, FOLLOW, 17)
+# Boser ...\0
+  msg(ERWIN_01, BOSER_17, ERWIN, FOLLOW, 18)
+# Boser, withdraw. We will handle this.\0
+  msg(ROHGA_0B, BOSER_17, ROHGA, FOLLOW, 19)
+# Yeah, do you think we can't handle a washed up soldier and his fan club?\0
+  msg(BOSER_17, ROHGA_0B, BOSER, FOLLOW, 20)
+# Hmmm ... I had hoped to join in the merriment ...\r\nBut, I suppose I can give you this gift.\r\nEnjoy the slaughter. I'll await you in Velzeria.\0
+  cast.teleport(BOSER_17, BOSER_17, TELEPORT_OUT, PRESET, PRESET)
+  unit.swap(BOSER_17, LEON_D5)
+  msg(ERWIN_01, BERNHARDT_16, ERWIN, FOLLOW, 21)
+# Now, Bernhardt, make your peace.\r\nYou've few words left.\0
+  local.sum($0a47d0, $07eb58)
+  local.sum($0a47d0, $07eb59)
+  bgm(ALLY, ALLY7)
+  global.sub($0a4791, $07eb58)
+break
+
+lbl_22c:
+  bgm(ENEMY, ENEMY9_BERNHARDT)
+break
+
+lbl_231:
+  bgm(ENEMY, ENEMY1_LEON)
+  unit.deploy(IMPERIALCOMMANDER_35, 25, 27)
+  unit.deploy(LEON_D5, 27, 30)
+  msg(LEON_D5, UP_F4, LEON_DEAD_2, FOLLOW, 22)
+# _NAME_ ... Hold it ... there ...\r\nThe Knights ... will ... stop you from ... Reaching ... H, His Majest--\0
+  branch.unit.dead(lbl_24c, EGBERT_D8)
+  msg(EGBERT_D8, LEON_D5, EGBERT, FOLLOW, 23)
+# Leon!\0
+lbl_24c:
+  msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 24)
+# What is this? Those wounds should have ...\0
+  branch.unit.dead(lbl_25c, ROHGA_0B)
+  msg(ROHGA_0B, LEON_D5, ROHGA, FOLLOW, 25)
+# What a guy ...\0
+lbl_25c:
+  msg(BERNHARDT_16, LEON_D5, BERNHARDT, FOLLOW, 26)
+# My god ...! Leon, you've done enough.\r\nAs Kaiser I dissolve your sworn oath.\0
+  msg(LEON_D5, BERNHARDT_16, LEON_DEAD_2, FOLLOW, 27)
+# N, no ... Majesty ... Please allow a dying Knight ... th, this last request ...\0
+  msg(BERNHARDT_16, LEON_D5, BERNHARDT, FOLLOW, 28)
+# Leon, I ... I am deeply moved by your loyalty.\r\nNow, let's show these brigands to their hell!\0
+  msg(LEON_D5, BERNHARDT_16, LEON_DEAD_2, FOLLOW, 29)
+# I thank you, ... Sire.\0
+  local.sub($0a47d0, $07eb59)
+break
+
+lbl_279:
+  local.sub($0a47d0, $07eb58)
+break
+
+lbl_27e:
+  branch.mem.global.eq(lbl_29c, $0a478e, $07eb59)
+  unit.cleanup()
+  prompt.ok(lbl_29c)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 31)
+# The stone radiates a mysterious power.\0
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 32)
+# Obtained Rune Stone.\r\nYou hear the turning of a lock.\0
+  item.add(RUNESTONE)
+  global.sum($0a478e, $07eb59)
+lbl_29c:
+break
+
+lbl_29e:
+  branch.mem.global.eq(lbl_2b6, $0a478e, $07eb58)
+  unit.cleanup()
+  prompt.ok(lbl_2b6)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 34)
+# Obtained Inferno Lance.\r\nYou hear the turning of a lock.\0
+  item.add(INFERNOLANCE)
+  global.sum($0a478e, $07eb58)
+lbl_2b6:
+break
+
+lbl_2b8:
+  msg(ERWIN_01, BERNHARDT_16, ERWIN, NOFOLLOW, 35)
+# The Empire's final curtain draws.\0
+  msg(BERNHARDT_16, ERWIN_01, BERNHARDT, NOFOLLOW, 36)
+# As if I would be felled by mere demons!\0
+break
+
+lbl_2c6:
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 37)
+# Im, impossible ...\0
+  unit.cleanup()
+  msg(BERNHARDT_16, ERWIN_01, BERNHARDT, FOLLOW, 38)
+# Victory here ...? Fate must have been on our side.\r\nOnward to Velzeria and the end of Boser!\0
+  gameover()
+break
+
+lbl_2d6:
+  msg(LEON_D5, ERWIN_01, LEON_DEAD_2, FOLLOW, 39)
+# Gah ...!\0
+  msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 40)
+# Leon, you can barely walk, and you're still trying to fight?\r\nYou're a loyal knight. We get it.\r\nSpare us the shame of killing a cripple.\0
+  msg(LEON_D5, ERWIN_01, LEON_DEAD_2, FOLLOW, 41)
+# Those words only ... strengthen my ... resolve ...\r\nHah hah hah ... Maybe I won't share ... your Hell, _NAME_ ...\0
+break
+
+lbl_2ea:
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 42)
+# Argh! Damn it ... Just a little bit longer--!\0
+break
+
+lbl_2f2:
+  msg(ROHGA_0B, DOWN_F5, ROHGA_DEAD, FOLLOW, 43)
+# Damn! I was ... I was useless--!\0
+break
+
+lbl_2fa:
+  msg(SONYA_0C, DOWN_F5, SONYA_DEAD, FOLLOW, 44)
+# Ow--!\0
+  branch.unit.dead(lbl_310, ROHGA_0B)
+  msg(ROHGA_0B, SONYA_0C, ROHGA, FOLLOW, 45)
+# Sonya, stop fighting or you'll surely die! Retreat now!\0
+  msg(SONYA_0C, ROHGA_0B, SONYA_DEAD, FOLLOW, 46)
+# O, okay ...\0
+lbl_310:
+break
+
+lbl_312:
+  msg(ESTO_11, DOWN_F5, ESTO_DEAD, FOLLOW, 47)
+# Uuuggghhh!\0
+break
+
+lbl_31a:
+  msg(OSTO_12, DOWN_F5, OSTO_DEAD, FOLLOW, 48)
+# Awwwooo!\0
+break
+
+lbl_322:
+  branch.mem.global.eq(lbl_339, $0a4791, $07eb5e)
+  msg(LANA_0A, LEON_D5, DARKPRINCESS, NOFOLLOW, 49)
+# Why did you come? Do you not know futility?\r\nYou might have lived in the shadows, at least.\0
+  msg(LEON_D5, LANA_0A, LEON_DEAD_2, NOFOLLOW, 50)
+# I will never think like that. Our dreams, our goals ... I am merely their servant.\0
+  global.sum($0a4791, $07eb5e)
+  unit.clearbit(LEON_D5, $17, 7)
+lbl_339:
+break
+
+lbl_33b:
+  msg(LANA_0A, BERNHARDT_16, DARKPRINCESS, NOFOLLOW, 51)
+# All who face the dark will meet bloody death!\0
+break
+
+lbl_343:
+  msg(LANA_0A, DOWN_F5, DARKPRINCESS_DEAD, FOLLOW, 52)
+# Uuggh--! _NAME_, I trust you'll handle ... what's left ...\0
+break
+
+lbl_34b:
+  msg(LIANA_02, DOWN_F5, LIANA_DEAD, FOLLOW, 53)
+# The ... the pain--! I can't keep going ...\0
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 54)
+# Liana, don't bother. Please retreat.\0
+  msg(LIANA_02, DOWN_F5, LIANA_DEAD, FOLLOW, 55)
+# I am sorry, _NAME_ ...\0
+break
+
+lbl_35f:
+  bgm(ALLY, REQUIEM1)
+  bgm(ENEMY, REQUIEM1)
+  msg(BERNHARDT_16, DOWN_F5, BERNHARDT_DEAD, FOLLOW, 56)
+# Ugh ... Gaahh ...\0
+  branch.unit.dead(lbl_3a4, LEON_D5)
+  msg(LEON_D5, BERNHARDT_16, LEON_DEAD_2, FOLLOW, 57)
+# Your Majesty, those wounds! No, no--!\0
+  msg(BERNHARDT_16, LEON_D5, BERNHARDT_DEAD, FOLLOW, 58)
+# Everyone, ... calm yourselves. You cannot do ... anything more for your Kaiser.\r\nAside from this, I ask ... How fare the Empire's men?\0
+  msg(LEON_D5, BERNHARDT_16, LEON_DEAD_2, FOLLOW, 59)
+# ...\r\nWe're doing well, Your Majesty.\0
+  msg(BERNHARDT_16, LEON_D5, BERNHARDT_DEAD, FOLLOW, 60)
+# I see, ... that's very good. All of you, I offer my thanks, ... for serving the Empire ...\0
+  msg(LEON_D5, BERNHARDT_16, LEON_DEAD_2, FOLLOW, 61)
+# What are you saying ...? Your Majesty and the Empire, they, they are the same!\0
+  branch.unit.dead(lbl_394, EGBERT_D8)
+  subroutine(lbl_52e)
+lbl_394:
+  msg(BERNHARDT_16, DOWN_F5, BERNHARDT_DEAD, FOLLOW, 62)
+# This is my final request, ... No ... my final order ...\r\nDo not waste yourself ... Do not waste yourself on avenging my death ...\r\nKnights such as you ... exist only in legend, Leon.\r\nPlease, take ... the glory you've earned and start anew ...\r\nThat is ... the best way to serve me. You have as much ... gratitude as I can muster.\r\n_NAME_, ... you may, may have the power to carry out ... my dream ...\r\nPlease end the pain ... and suffering in El Sallia ...\r\nFor an old soldier ... Pl, please end ... it ...\0
+  unit.cleanup()
+  msg(LEON_D5, BERNHARDT_16, LEON_DEAD_2, FOLLOW, 63)
+# Your Majesty ...!\0
+  goto(lbl_404)
+lbl_3a4:
+  branch.unit.dead(lbl_3df, EGBERT_D8)
+  msg(EGBERT_D8, BERNHARDT_16, EGBERT, FOLLOW, 64)
+# Your Majesty, please stand up--!\0
+  msg(BERNHARDT_16, EGBERT_D8, BERNHARDT_DEAD, FOLLOW, 65)
+# Everyone, ... calm yourselves. You cannot do ... anything more for your Kaiser.\r\nAside from this, I ask ... How fare the Empire's men?\0
+  msg(EGBERT_D8, BERNHARDT_16, EGBERT, FOLLOW, 66)
+# ...\r\nWe're doing well, your Majesty.\0
+  msg(BERNHARDT_16, EGBERT_D8, BERNHARDT_DEAD, FOLLOW, 67)
+# I see, ... that's very good. All of you, I offer my thanks, ... for serving the Empire ...\0
+  subroutine(lbl_52e)
+  msg(BERNHARDT_16, EGBERT_D8, BERNHARDT_DEAD, FOLLOW, 68)
+# This is my final request, ... No ... my final order ...\r\nDo not waste yourself ... Do not waste yourself on avenging my death ...\r\nYou have all ... done enough. I give you my thanks ...\0
+  msg(EGBERT_D8, BERNHARDT_16, EGBERT, FOLLOW, 69)
+# ...\0
+  msg(BERNHARDT_16, ERWIN_01, BERNHARDT_DEAD, FOLLOW, 70)
+# _NAME_, ... you may, may have the power to carry out ... my dream ...\r\nPlease end the pain ... and suffering in El Sallia ...\r\nFor an old soldier ... Pl, please end ... it ...\0
+  unit.cleanup()
+  msg(EGBERT_D8, BERNHARDT_16, EGBERT, FOLLOW, 71)
+# Your Majesty ...!\0
+  goto(lbl_404)
+lbl_3df:
+  msg(ERWIN_01, BERNHARDT_16, ERWIN, FOLLOW, 72)
+# So ends Rayguard. How sad ...\0
+  msg(BERNHARDT_16, ERWIN_01, BERNHARDT_DEAD, FOLLOW, 73)
+# I founded this nation with power, and I supplanted many rulers in the doing.\r\nIt is inevitable that the ... same process should repeat.\r\nEven so, I believed I could ... bring an era of peace, a time of rest for El Sallia's people.\r\nThat dream is what my men fought for, and I ... I am dearly sorry to them.\0
+  msg(ERWIN_01, BERNHARDT_16, ERWIN, FOLLOW, 74)
+# How misguidedly sentimental. They knew what they were in for, and they followed you.\r\nIf they didn't, they were idealistic fools, and deserved to die all the same.\r\nPeople are responsible for themselves, as well as for their destinies.\r\nThey followed just as I follow: by choice.\0
+  msg(BERNHARDT_16, ERWIN_01, BERNHARDT_DEAD, FOLLOW, 75)
+# That may be true for you, _NAME_ ... but not every man has your resolve.\r\nMost people have no ... confidence in themselves and no confidence in others.\r\nThey will serve the first who asks their loyalty.\r\nThey lie, cheat, and steal ... They cripple the very society they seek to enjoy.\r\nThese, the commoners, ... will need the firm hand of a Kaiser and his Empire.\0
+  msg(ERWIN_01, BERNHARDT_16, ERWIN, FOLLOW, 76)
+# If that was your goal, then you should have gotten to it sooner.\r\nRest easy, we'll bring order to this world.\0
+  msg(BERNHARDT_16, ERWIN_01, BERNHARDT, FOLLOW, 77)
+# Yes, I know your intent, ... but remember this ...\r\nDarkness and peace are ... not compatible ideals.\r\nOn your path, misery and bloodshed will ... be the ... true rulers of this land.\0
+  unit.cleanup()
+lbl_404:
+  scenarioclear()
+  msg(ERWIN_01, BERNHARDT_16, ERWIN, FOLLOW, 78)
+# Ah, now, now ... I see where you went wrong.\r\nYour mistake came the moment you chose to try and save the weak from their own dangerous stupidity.\r\nFor them, war and hardship are facts of life.\r\nBut, yes, those strong men who lord over them ... They just may live your dream.\r\nObserve from Hell.\0
+  branch.unit.dead(lbl_418, LIANA_02)
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 79)
+# Next come the Descendants. After their defeat, none will oppose us.\0
+  goto(lbl_41e)
+lbl_418:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 80)
+# Last on our list are those pathetic Descendants of Light.\0
+lbl_41e:
+  branch.unit.dead(lbl_428, SONYA_0C)
+  msg(SONYA_0C, ERWIN_01, SONYA, FOLLOW, 81)
+# Lord Boser's ideal world will soon arrive, won't it?\0
+lbl_428:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 82)
+# Everyone, this will be our last battle.\r\nGather your will and let us move out!\0
+  loadscenario(65)
+break
+
+lbl_432:
+  msg(EGBERT_D8, LEFT_F6, EGBERT, NOFOLLOW, 83)
+# Darkness will not prevail. I have worked too long and hard to see otherwise!\r\nYou see, for that purpose, I ... Well, for once, I shall spare you a speech.\r\nOf course, this is provided you kindly succumb.\0
+break
+
+lbl_43a:
+  msg(EGBERT_D8, BERNHARDT_16, EGBERT_DEAD, FOLLOW, 84)
+# I sacrificed ... everything ... to fight the darkness ...\r\nAnd even with all my power ... Even with my studies ... I could not pro... protect ...\r\nI could not protect His Majesty ... or even our Empire.\0
+  msg(BERNHARDT_16, EGBERT_D8, BERNHARDT, FOLLOW, 85)
+# Egbert, please spare yourself the criticism.\r\nYou were an excellent counsel to Empire and Kaiser.\r\nDie well and rest in peace. I shall join you very soon.\0
+  msg(EGBERT_D8, BERNHARDT_16, EGBERT_DEAD, FOLLOW, 86)
+# Grr ... Argh ...\0
+break
+
+lbl_44e:
+  branch.unit.dead(lbl_46d, LANA_0A)
+  msg(LANA_0A, LEON_D5, DARKPRINCESS, FOLLOW, 87)
+# Leon, don't fight any more! This time you really will die!\0
+  msg(LEON_D5, LANA_0A, LEON_DEAD_2, FOLLOW, 88)
+# That does not matter ... I have pledged my life to His Majesty's Empire.\r\nMy word is my bond, ... and I shall not stray from it!\0
+  msg(LANA_0A, LEON_D5, DARKPRINCESS, FOLLOW, 89)
+# Leon ...\0
+  msg(LEON_D5, LANA_0A, LEON_DEAD_2, FOLLOW, 90)
+# If I puzzle you, ... I'm not terribly sorry.\r\nIn fact ... If my actions grieve the forces of darkness ... I will persist wholeheartedly!\0
+  goto(lbl_47f)
+lbl_46d:
+  msg(LEON_D5, ERWIN_01, LEON_DEAD_2, FOLLOW, 91)
+# Have at you, _NAME_!\0
+  msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 92)
+# Leon, enough already! You're a walking corpse.\0
+  msg(LEON_D5, ERWIN_01, LEON_DEAD_2, FOLLOW, 93)
+# I'm fighting for the sake ... of all mankind ...\r\nDon't make me speak. I will save my energy for finishing you ...!\0
+lbl_47f:
+break
+
+lbl_481:
+  msg(LEON_D5, DOWN_F5, LEON_DEAD, FOLLOW, 94)
+# Uugghh--!\r\nI will ... I will--!\0
+  unit.cleanup()
+  branch.unit.dead(lbl_492, LANA_0A)
+  msg(LANA_0A, LEON_D5, DARKPRINCESS, FOLLOW, 95)
+# Farewell, Leon.\0
+lbl_492:
+  msg(ERWIN_01, LEON_D5, ERWIN_SAD, FOLLOW, 96)
+# Farewell, Leon. You were formidable.\0
+  msg(BERNHARDT_16, LEON_D5, BERNHARDT, FOLLOW, 97)
+# No ... Now Leon ... How many people will die for our purposes?\r\nMy enemies, my friends ... everyone has died for me ...\r\nBut I will fight ... I will fight for those who remain!\0
+  local.sum($0a47d2, $07eb5d)
+  global.sum($0a4791, $07eb58)
+break
+
+lbl_4a6:
+  unit.cleanup()
+  msg(LEON_D5, LANA_0A, LEON_DEAD_2, FOLLOW, 98)
+# I'm sorry, Lana.\0
+break
+
+lbl_4af:
+  msg(IMPERIALCOMMANDER_32, DOWN_F5, PRIEST_GREEN_DEAD, FOLLOW, 99)
+# P, protect his Majesty ...\0
+break
+
+lbl_4b7:
+  msg(IMPERIALCOMMANDER_33, DOWN_F5, PRIEST_GREEN_DEAD, FOLLOW, 100)
+# Ah!\0
+  unit.clearbit(IMPERIALCOMMANDER_34, $17, 0)
+  unit.clearbit(IMPERIALCOMMANDER_36, $17, 0)
+  unit.clearbit(IMPERIALCOMMANDER_37, $17, 0)
+  unit.clearbit(IMPERIALCOMMANDER_38, $17, 0)
+  unit.clearbit(IMPERIALCOMMANDER_82, $17, 0)
+break
+
+lbl_4d3:
+  branch.unit.dead(lbl_4e9, EGBERT_D8)
+  msg(IMPERIALCOMMANDER_34, LEFT_F6, HIGHLORD_GREEN, FOLLOW, 101)
+# Let's go. Attack!\0
+  msg(EGBERT_D8, IMPERIALCOMMANDER_34, EGBERT, FOLLOW, 102)
+# There's no need to rush. We should exploit this castle's strategic advantage.\r\nWe didn't choose it for its looks.\0
+  msg(IMPERIALCOMMANDER_34, EGBERT_D8, HIGHLORD_GREEN, FOLLOW, 103)
+# Yes, Sir ... I understand.\0
+lbl_4e9:
+break
+
+lbl_4eb:
+  msg(IMPERIALCOMMANDER_34, DOWN_F5, HIGHLORD_GREEN_DEAD, FOLLOW, 104)
+# Gaahh--! No ... T, take care of the rest!\0
+  unit.cleanup()
+  branch.unit.dead(lbl_4fc, IMPERIALCOMMANDER_33)
+  msg(IMPERIALCOMMANDER_33, LEFT_F6, PRIEST_GREEN, FOLLOW, 105)
+# Your next opponent shall be me!\0
+lbl_4fc:
+break
+
+lbl_4fe:
+  msg(IMPERIALCOMMANDER_35, DOWN_F5, HIGHLORD_GREEN_DEAD, FOLLOW, 106)
+# Ugghh--! N, no good ...\0
+break
+
+lbl_506:
+  msg(IMPERIALCOMMANDER_36, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 107)
+# Glory to the Empire! Glory to our Kaiser!\0
+break
+
+lbl_50e:
+  msg(IMPERIALCOMMANDER_37, DOWN_F5, HIGHLORD_GREEN_DEAD, FOLLOW, 108)
+# C, crap!\0
+break
+
+lbl_516:
+  msg(IMPERIALCOMMANDER_38, DOWN_F5, SWORDSMAN2_GREEN_DEAD, FOLLOW, 109)
+# Aaahhh!\0
+break
+
+lbl_51e:
+  msg(IMPERIALCOMMANDER_81, DOWN_F5, SWORDSMAN2_GREEN_DEAD, FOLLOW, 110)
+# Looks like ... the end ... Grr ... Uugghh!\0
+break
+
+lbl_526:
+  msg(IMPERIALCOMMANDER_82, DOWN_F5, MAGE_RED_DEAD, FOLLOW, 111)
+# My magical power ... It's fading ...\0
+break
+
+lbl_52e:
+  msg(EGBERT_D8, BERNHARDT_16, EGBERT, FOLLOW, 112)
+# I thought I would be ... of far more use ... If I didn't, I would have ...\0
+  msg(BERNHARDT_16, EGBERT_D8, BERNHARDT_DEAD, FOLLOW, 113)
+# Cease speaking, Egbert. I enjoined you to serve, not otherwise.\r\nAnd nobody could have foreseen what has passed.\0
+  msg(EGBERT_D8, BERNHARDT_16, EGBERT, FOLLOW, 114)
+# Your Majesty ...\0
+endsub
+

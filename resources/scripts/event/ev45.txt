@@ -1,0 +1,624 @@
+# Movement-Triggered Events
+on.move(26, lbl_412, VARGAS_0E, 0, 0xff)
+on.move(29, lbl_44e, VILLAGER_25, 1, 0xff)
+on.move(0, lbl_468, VILLAGER_25, 0, 0xff)
+on.move(1, lbl_48e, VILLAGER_26, 0, 0xff)
+on.move(3, lbl_4c3, CHERIE_CC, 0, 0xff)
+on.move(35, lbl_595, COMMANDER_23, 1, 0xff)
+on.move(2, lbl_5a3, COMMANDER_23, 0, 0xff)
+on.move(41, lbl_5e3, COMMANDER_85, 2, 0xff)
+on.move(44, lbl_5fb, COMMANDER_87, 1, 0xff)
+break
+
+# Attack-Triggered Events
+on.attack(12, lbl_378, ERWIN_01, CHERIE_CC, 0x00, 0x00, 0xff)
+on.attack(13, lbl_38c, CHERIE_CC, ERWIN_01, 0x00, 0x00, 0xff)
+on.attack(15, lbl_3aa, HEIN_05, CHERIE_CC, 0x00, 0x00, 0xff)
+on.attack(18, lbl_3cc, ROHGA_0B, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(20, lbl_3dc, NULL_FF, LEON_0D, 0xff, 0x00, 0xff)
+on.attack(21, lbl_3e4, LEON_0D, CHERIE_CC, 0x00, 0x00, 0xff)
+on.attack(23, lbl_3f4, CHERIE_CC, IMELDA_0F, 0x00, 0x00, 0xff)
+on.attack(24, lbl_402, IMELDA_0F, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(27, lbl_41d, VARGAS_0E, CHERIE_CC, 0x00, 0x00, 0xff)
+on.attack(31, lbl_4cb, NULL_FF, CHERIE_CC, 0xff, 0x00, 0xff)
+on.attack(33, lbl_585, COMMANDER_22, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(36, lbl_5b7, COMMANDER_23, NULL_FF, 0x00, 0xff, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(14, lbl_3a0, ERWIN_01)
+on.defeat(16, lbl_3b8, HEIN_05)
+on.damage(17, lbl_3c3, HEIN_05, CHERIE_CC, 0x00, 0xff)
+on.defeat(19, lbl_3d4, ROHGA_0B)
+on.defeat(22, lbl_3ec, LEON_0D)
+on.defeat(25, lbl_40a, IMELDA_0F)
+on.defeat(28, lbl_42b, VARGAS_0E)
+on.defeat(32, lbl_4d1, CHERIE_CC)
+on.defeat(34, lbl_58d, COMMANDER_22)
+on.defeat(37, lbl_5bf, COMMANDER_23)
+on.defeat(38, lbl_5c7, COMMANDER_83)
+on.defeat(39, lbl_5cf, COMMANDER_84)
+on.damage(40, lbl_5da, NULL_FF, COMMANDER_84, 0xff, 0x00)
+on.defeat(42, lbl_5eb, COMMANDER_85)
+on.defeat(43, lbl_5f3, COMMANDER_86)
+on.defeat(45, lbl_603, COMMANDER_87)
+on.defeat(46, lbl_60b, COMMANDER_88)
+on.defeat(47, lbl_613, COMMANDER_89)
+on.defeat(48, lbl_61b, COMMANDER_22, COMMANDER_23, COMMANDER_83, COMMANDER_84, COMMANDER_85, COMMANDER_86, COMMANDER_87, COMMANDER_88, COMMANDER_89)
+break
+
+# Position-Triggered Events
+on.bound(9, lbl_32e, VILLAGER_25, 1, 23, 2, 26, 0x00, 0x00)
+on.bound(10, lbl_333, VILLAGER_26, 1, 23, 2, 26, 0x00, 0x00)
+on.bound(11, lbl_338, NPC_COMMANDER_F0, 19, 15, 19, 15, 0x00, 0x00)
+break
+
+# Turn-Triggered Events
+on.turn(4, lbl_276, ALLY, 2, 0x00)
+on.turn(5, lbl_2ac, ALLY, 7, 0x00)
+on.turn(6, lbl_31b, ENEMY, 7, 0x00)
+on.turn(7, lbl_323, ENEMY, 6, 0x00)
+on.turn(8, lbl_328, ENEMY, 3, 0x00)
+break
+
+# Core Events
+lbl_168:
+  bgm(ALLY, ALLYREINFORCEMENT1)
+  screen.fadein(4)
+  unit.position(VILLAGER_25, PRESET, PRESET)
+  unit.showsub(VILLAGER_25)
+  unit.position(VILLAGER_26, PRESET, PRESET)
+  unit.showsub(VILLAGER_26)
+  unit.position(COMMANDER_22, PRESET, PRESET)
+  unit.showsub(COMMANDER_22)
+  unit.position(COMMANDER_23, PRESET, PRESET)
+  unit.showsub(COMMANDER_23)
+  unit.position(COMMANDER_83, PRESET, PRESET)
+  unit.showsub(COMMANDER_83)
+  unit.position(COMMANDER_84, PRESET, PRESET)
+  unit.showsub(COMMANDER_84)
+  unit.position(COMMANDER_85, PRESET, PRESET)
+  unit.showsub(COMMANDER_85)
+  unit.position(COMMANDER_86, PRESET, PRESET)
+  unit.showsub(COMMANDER_86)
+  unit.position(COMMANDER_87, PRESET, PRESET)
+  unit.showsub(COMMANDER_87)
+  unit.position(COMMANDER_88, PRESET, PRESET)
+  unit.showsub(COMMANDER_88)
+  unit.position(COMMANDER_89, PRESET, PRESET)
+  unit.showsub(COMMANDER_89)
+  focus.point(10, 18, FAST)
+  cursor.set(NULL_00)
+  cursor.hide()
+  unit.position(CHERIE_CC, PRESET, PRESET)
+  unit.move(CHERIE_CC, 10, 17)
+  msg(CHERIE_CC, VILLAGER_26, CHERIE, NOFOLLOW, 1)
+# Everyone, listen up! I'm ordering a full evacuation.\r\nThis town will soon become a battlefield. Please leave as soon as possible.\0
+  msg(VILLAGER_26, CHERIE_CC, VILLAGER_BLUE, NOFOLLOW, 2)
+# What about you, Princess Cherie? Aren't you coming?\0
+  msg(CHERIE_CC, VILLAGER_26, CHERIE, NOFOLLOW, 3)
+# I must remain and fend off the Empire. We can't let them get Langrisser.\r\nForgive me, everyone ... I didn't want the war to come here, but ...\0
+  unit.move(VILLAGER_26, 10, 18)
+  msg(VILLAGER_26, CHERIE_CC, VILLAGER_BLUE, NOFOLLOW, 4)
+# Princess ...\0
+  msg(CHERIE_CC, COMMANDER_23, CHERIE, NOFOLLOW, 5)
+# If you don't leave you'll be caught in the melee! Everyone, please hurry!\0
+  cursor.set(ERWIN_01)
+  msg(COMMANDER_23, CHERIE_CC, HIGHLORD_BLACK, NOFOLLOW, 6)
+# I'll handle the protection of the villagers, Princess!\0
+  focus.unit(CHERIE_CC)
+  cursor.set(NULL_00)
+  delay(30)
+  msg(COMMANDER_89, RIGHT_F7, SWORDSMAN1_BLACK, NOFOLLOW, 7)
+# Eh ...!\0
+  unit.move(COMMANDER_89, 11, 17)
+  msg(COMMANDER_89, CHERIE_CC, SWORDSMAN1_BLACK, NOFOLLOW, 8)
+# Princess, we've spotted the enemy!\0
+  msg(CHERIE_CC, COMMANDER_89, CHERIE, NOFOLLOW, 9)
+# All right! Everyone get into position and prepare for the ambush!\0
+  unit.move(VILLAGER_26, PRESET, PRESET)
+  unit.move(CHERIE_CC, PRESET, PRESET)
+  unit.showsub(CHERIE_CC)
+  unit.move(COMMANDER_89, PRESET, PRESET)
+  cursor.set(ERWIN_01)
+  cursor.show()
+  bgm(ALLY, ENEMY1_LEON)
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.showsub(ERWIN_01)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.showsub(HEIN_05)
+  unit.position(ROHGA_0B, PRESET, PRESET)
+  unit.showsub(ROHGA_0B)
+  unit.position(LEON_0D, PRESET, PRESET)
+  unit.showsub(LEON_0D)
+  unit.position(IMELDA_0F, PRESET, PRESET)
+  unit.showsub(IMELDA_0F)
+  msg(ROHGA_0B, CHERIE_CC, ROHGA, FOLLOW, 10)
+# Well well, what do we have here? It seems Cherie has decided to stage an ambush!\0
+  msg(HEIN_05, ROHGA_0B, HEIN, FOLLOW, 11)
+# The civilians are still evacuating. What should we do, _NAME_?\0
+  msg(IMELDA_0F, HEIN_05, IMELDA, FOLLOW, 12)
+# What a royal pain in the ass. I say we just take the civilians out as well.\0
+  msg(LEON_0D, IMELDA_0F, LEON, FOLLOW, 13)
+# I will have none of that talk.\r\nOur aim is to forever rid this world of bloodshed. The killing of innocents goes against His Majesty's wishes.\0
+  msg(ERWIN_01, LEON_0D, ERWIN, FOLLOW, 14)
+# Exactly. We can't let our troops harm the civilians.\0
+  msg(CHERIE_CC, ERWIN_01, CHERIE, FOLLOW, 15)
+# So you've come, _NAME_!\r\nEven though you may be a Descendant of Light, I won't give up Langrisser to you!\0
+  msg(ERWIN_01, CHERIE_CC, ERWIN, FOLLOW, 16)
+# We will see about that! Let's go, Cherie!\0
+  local.sum($0a47d0, $07eb58)
+  local.sum($0a47d0, $07eb59)
+  local.sum($0a47d0, $07eb5a)
+  local.sum($0a47d0, $07eb5b)
+break
+
+lbl_276:
+  branch.unit.dead(lbl_280, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 17)
+# Despite the situation, this town's layout is perfect for an ambush.\0
+lbl_280:
+  branch.unit.dead(lbl_28a, LEON_0D)
+  msg(LEON_0D, HEIN_05, LEON, FOLLOW, 18)
+# Fighting in the streets will restrict our movement.\r\nBe careful when moving your subordinates.\0
+lbl_28a:
+  msg(ERWIN_01, LEON_0D, ERWIN, FOLLOW, 19)
+# You're right. We should take extra care concerning the cavalry.\0
+  branch.unit.dead(lbl_2aa, ROHGA_0B)
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 20)
+# What about the Serpent Knights?\0
+  branch.unit.dead(lbl_2aa, IMELDA_0F)
+  msg(IMELDA_0F, ROHGA_0B, IMELDA, FOLLOW, 21)
+# If we engage water units on land, we should be okay, wouldn't you think?\0
+  msg(ROHGA_0B, IMELDA_0F, ROHGA, FOLLOW, 22)
+# Yes, we should be.\0
+lbl_2aa:
+break
+
+lbl_2ac:
+  unit.deploy(VARGAS_0E, 29, 30)
+  msg(VARGAS_0E, ERWIN_01, VARGAS, FOLLOW, 23)
+# What's the matter? Is the little pink princess giving our Generals some trouble!?\0
+  branch.unit.dead(lbl_2c0, IMELDA_0F)
+  msg(IMELDA_0F, VARGAS_0E, IMELDA, FOLLOW, 24)
+# General Vargas?\r\nWell, if you look closely, the situation is more troublesome than we had anticipated.\0
+lbl_2c0:
+  branch.unit.dead(lbl_2cd, LEON_0D)
+  msg(LEON_0D, VARGAS_0E, LEON, FOLLOW, 116)
+# General Vargas, shouldn't you be with Lady Eliza?\r\nThe birth of your child is a very important time.\0
+  goto(lbl_2d3)
+lbl_2cd:
+  msg(LEON_0D, VARGAS_0E, LEON_DEAD, NOFOLLOW, 116)
+# General Vargas, shouldn't you be with Lady Eliza?\r\nThe birth of your child is a very important time.\0
+lbl_2d3:
+  msg(VARGAS_0E, LEON_0D, VARGAS, FOLLOW, 25)
+# If I left fellow officers in this mess, I wouldn't be fit to look my newborn child in the eyes!\r\nHmph, I guess I'll just have to rescue you, then!\r\nGah hah hah! Here I come, girlie ...\0
+  msg(ERWIN_01, VARGAS_0E, ERWIN, FOLLOW, 26)
+# General Vargas ...\0
+  branch.mem.global.ne(lbl_2ec, $0a4789, $07eb5b)
+  msg(VARGAS_0E, ERWIN_01, VARGAS, FOLLOW, 27)
+# Heh, don't think that I've forgiven you for what you've done!\r\nHowever, if it is the will of His Majesty for me to help you, then I shall follow your orders.\r\nThat's the duty of any soldier.\r\nBut that's as far as our alliance goes! If it even looks like you might betray us, I'll cut you down.\0
+  goto(lbl_2f2)
+lbl_2ec:
+  msg(VARGAS_0E, ERWIN_01, VARGAS, FOLLOW, 28)
+# Hey, you little punks! I've heard the news, from now on let's be friends!\0
+lbl_2f2:
+  msg(NULL_00, DOWN_F5, NULL, NOFOLLOW, 29)
+# Vargas joins the entourage!\0
+  branch.unit.dead(lbl_319, ROHGA_0B)
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 30)
+# Hmmm, ... such strong allies. Finally a group worthy of my strength.\0
+  branch.unit.dead(lbl_319, HEIN_05)
+  branch.mem.global.ne(lbl_313, $0a4789, $07eb5b)
+  msg(HEIN_05, VARGAS_0E, HEIN, FOLLOW, 31)
+# And a little dangerous.\0
+  goto(lbl_319)
+lbl_313:
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 32)
+# He sure has a heart for battle, don't you think?\0
+lbl_319:
+break
+
+lbl_31b:
+  msg(CHERIE_CC, DOWN_F5, CHERIE, FOLLOW, 33)
+# So even General Vargas is here ... That really puts us into a bind.\r\nBut I don't plan on letting up. You'll never get by me!\0
+break
+
+lbl_323:
+  bgm(ALLY, ENEMY2_VARGAS)
+break
+
+lbl_328:
+  unit.clearbit(COMMANDER_86, $17, 0)
+break
+
+lbl_32e:
+  local.sub($0a47d0, $07eb58)
+break
+
+lbl_333:
+  local.sub($0a47d0, $07eb59)
+break
+
+lbl_338:
+  branch.mem.global.eq(lbl_376, $0a478b, $07eb58)
+  unit.cleanup()
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 34)
+# I am a spirit of the water.\r\nI will bestow upon you wonderful power.\r\nWhat would you request of me?\0
+  prompt.options(lbl_35e, lbl_36a, 35, 36, 37, 0x00, 0xf4, 0x00, 0x00)
+# Increase AT and DF\0
+# Increase MP\0
+# Increase Magic Resistance\0
+  unit.statboost(58, 1)
+  unit.statboost(59, 1)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 38)
+# AT raised by 1 point! DF raised by 1 point!\0
+  goto(lbl_373)
+lbl_35e:
+  unit.statboost(56, 5)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 39)
+# MP raised by 5 points!\0
+  goto(lbl_373)
+lbl_36a:
+  unit.statboost(11, 5)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 40)
+# Magic Resistance raised!\0
+lbl_373:
+  global.sum($0a478b, $07eb58)
+lbl_376:
+break
+
+lbl_378:
+  msg(ERWIN_01, CHERIE_CC, ERWIN, NOFOLLOW, 41)
+# Put down your sword, Cherie! I don't want to hurt you!\0
+  msg(CHERIE_CC, ERWIN_01, CHERIE, NOFOLLOW, 42)
+# That's my line! If you surrender now, I'll forgive you!\0
+  msg(ERWIN_01, CHERIE_CC, ERWIN, NOFOLLOW, 43)
+# I have no choice ... Here I come, Cherie!\0
+break
+
+lbl_38c:
+  msg(CHERIE_CC, ERWIN_01, CHERIE, NOFOLLOW, 44)
+# _NAME_, why, why have you teamed up with the likes of the Empire?\0
+  msg(ERWIN_01, CHERIE_CC, ERWIN, NOFOLLOW, 45)
+# For peace. I've always fought to end war, and this seems the best way to go about that.\0
+  msg(CHERIE_CC, ERWIN_01, CHERIE_ANGRY, NOFOLLOW, 46)
+# So you're saying that if you stayed with us, we couldn't create a peaceful society?\r\nDon't you dare say such a thing, _NAME_!\0
+break
+
+lbl_3a0:
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 47)
+# Im, impossible ... That it should ... end this way--\0
+  unit.cleanup()
+  gameover()
+break
+
+lbl_3aa:
+  msg(HEIN_05, CHERIE_CC, HEIN, NOFOLLOW, 48)
+# Cherie, please give up. You'll only hurt yourself further if you continue.\0
+  msg(CHERIE_CC, HEIN_05, CHERIE_ANGRY, NOFOLLOW, 49)
+# Don't insult me! Do you really think you can best me!?\0
+break
+
+lbl_3b8:
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 50)
+# I'm sorry, I failed ...\0
+  local.sum($0a47d2, $07eb59)
+break
+
+lbl_3c3:
+  unit.cleanup()
+  msg(HEIN_05, DOWN_F5, HEIN, FOLLOW, 51)
+# If you mess with us, you'll get hurt!\0
+break
+
+lbl_3cc:
+  msg(ROHGA_0B, DOWN_F5, ROHGA, NOFOLLOW, 52)
+# You're in the way! Move it!\0
+break
+
+lbl_3d4:
+  msg(ROHGA_0B, DOWN_F5, ROHGA_DEAD, FOLLOW, 53)
+# Damn! Sorry!\0
+break
+
+lbl_3dc:
+  msg(LEON_0D, DOWN_F5, LEON, NOFOLLOW, 54)
+# Heh, how futile ...\0
+break
+
+lbl_3e4:
+  msg(LEON_0D, CHERIE_CC, LEON, NOFOLLOW, 55)
+# Even though you may be a woman, I won't go easy on you!\r\nPrepare yourself!\0
+break
+
+lbl_3ec:
+  msg(LEON_0D, DOWN_F5, LEON_DEAD, FOLLOW, 56)
+# For me to have fallen ...\0
+break
+
+lbl_3f4:
+  msg(CHERIE_CC, IMELDA_0F, CHERIE, NOFOLLOW, 57)
+# Have at you!\0
+  msg(IMELDA_0F, CHERIE_CC, IMELDA, NOFOLLOW, 58)
+# Hmph, what a spirited princess you are.\0
+break
+
+lbl_402:
+  msg(IMELDA_0F, DOWN_F5, IMELDA, NOFOLLOW, 59)
+# I wonder if you can even come close to beating me.\0
+break
+
+lbl_40a:
+  msg(IMELDA_0F, DOWN_F5, IMELDA_DEAD, FOLLOW, 60)
+# How dare you!\r\nI have no choice. I'm out of here!\0
+break
+
+lbl_412:
+  msg(VARGAS_0E, DOWN_F5, VARGAS, NOFOLLOW, 61)
+# Let me see how serious you are!\0
+  subroutine(lbl_632)
+break
+
+lbl_41d:
+  msg(VARGAS_0E, CHERIE_CC, VARGAS, NOFOLLOW, 62)
+# Let's go, young wench!\0
+  msg(CHERIE_CC, VARGAS_0E, CHERIE, NOFOLLOW, 63)
+# Brute strength is no match for experience!\0
+break
+
+lbl_42b:
+  msg(VARGAS_0E, DOWN_F5, VARGAS_DEAD, FOLLOW, 64)
+# Argh! It's not over ...\0
+  branch.unit.dead(lbl_43e, LEON_0D)
+  msg(LEON_0D, VARGAS_0E, LEON, FOLLOW, 65)
+# Vargas!\r\nIf anything happens to you, Lady Eliza will not forgive us. Please, pull out of here!\0
+  goto(lbl_444)
+lbl_43e:
+  msg(ERWIN_01, VARGAS_0E, ERWIN, FOLLOW, 66)
+# Vargas, please get out of here.\r\nBut next time you are needed, please lend us your strength!\0
+lbl_444:
+  msg(VARGAS_0E, ERWIN_01, VARGAS_DEAD, FOLLOW, 67)
+# Guys, sorry ... Thanks for covering my hide.\0
+  unit.retreat(VARGAS_0E)
+break
+
+lbl_44e:
+  msg(CHERIE_CC, VILLAGER_25, CHERIE, FOLLOW, 68)
+# I'm really sorry. To chase you out of your homes like this ...\0
+  msg(VILLAGER_25, CHERIE_CC, VILLAGER_BLUE, FOLLOW, 69)
+# Oh, no.\r\nWe are happy to do as you request, Princess.\r\nBut isn't it possible that we might be killed while escaping?\0
+  msg(CHERIE_CC, VILLAGER_25, CHERIE, FOLLOW, 70)
+# It's all right.\r\nIf _NAME_ is here, he'll make sure no one lays a finger on you.\r\nThe Empire may be an enemy, but marauders they are not. Their aim is peace, much like ours is.\r\nNow, hurry and get out of here!\0
+  msg(VILLAGER_25, CHERIE_CC, VILLAGER_BLUE, FOLLOW, 71)
+# Very well.\0
+break
+
+lbl_468:
+  msg(VILLAGER_25, CHERIE_CC, VILLAGER_BLUE, FOLLOW, 72)
+# We're saved. Princess Cherie, please be safe!\0
+  msg(CHERIE_CC, VILLAGER_25, CHERIE, FOLLOW, 73)
+# There's no need to worry! Take care.\0
+  msg(VILLAGER_25, CHERIE_CC, VILLAGER_BLUE, FOLLOW, 74)
+# Thank you very much.\0
+  unit.retreat(VILLAGER_25)
+  branch.mem.local.eq(lbl_486, $0a47d3, $07eb5e)
+  subroutine(lbl_624)
+  goto(lbl_489)
+lbl_486:
+  subroutine(lbl_62b)
+lbl_489:
+  local.sum($0a47d3, $07eb5e)
+break
+
+lbl_48e:
+  msg(VILLAGER_26, CHERIE_CC, VILLAGER_BLUE, FOLLOW, 75)
+# Whew! We're praying for your victory, Princess!\0
+  msg(CHERIE_CC, VILLAGER_26, CHERIE, FOLLOW, 76)
+# Thank you. I'll do my best!\0
+  msg(VILLAGER_26, CHERIE_CC, VILLAGER_BLUE, FOLLOW, 77)
+# Farewell, Princess Cherie. Please, don't die on us ...\0
+  unit.retreat(VILLAGER_26)
+  branch.mem.local.eq(lbl_4ac, $0a47d3, $07eb5e)
+  subroutine(lbl_624)
+  goto(lbl_4af)
+lbl_4ac:
+  subroutine(lbl_62b)
+lbl_4af:
+  unit.clearbit(COMMANDER_23, $17, 2)
+  unit.setbit(COMMANDER_23, $17, 1)
+  unit.setbyte(COMMANDER_23, $21, 0x0d)
+  local.sum($0a47d3, $07eb5e)
+  local.sub($0a47d0, $07eb5a)
+break
+
+lbl_4c3:
+  msg(CHERIE_CC, LEFT_F6, CHERIE, FOLLOW, 78)
+# It seems as if I'm all alone, doesn't it?\r\nFor once in my life, I wish I'd paid more attention to all those boring old strategy books.\r\nBut I guess I'll just make do. I'll try my hardest from here on out!\0
+break
+
+lbl_4cb:
+  unit.clearbit(CHERIE_CC, $17, 0)
+break
+
+lbl_4d1:
+  msg(CHERIE_CC, DOWN_F5, CHERIE_DEAD, FOLLOW, 79)
+# Ooh ... Any more and I'm toast.\r\nNo choice but to flee.\0
+  unit.retreat(CHERIE_CC)
+  unit.retreat(COMMANDER_22)
+  unit.retreat(COMMANDER_23)
+  unit.retreat(COMMANDER_83)
+  unit.retreat(COMMANDER_84)
+  unit.retreat(COMMANDER_85)
+  unit.retreat(COMMANDER_86)
+  unit.retreat(COMMANDER_87)
+  unit.retreat(COMMANDER_88)
+  unit.retreat(COMMANDER_89)
+  scenarioclear()
+  branch.mem.local.eq(lbl_4fd, $0a47d0, $07eb5d)
+  unit.deploy(VARGAS_0E, 29, 30)
+  subroutine(lbl_632)
+  msg(VARGAS_0E, ERWIN_01, VARGAS, FOLLOW, 80)
+# Hmm? It seems as if we were too late.\0
+lbl_4fd:
+  branch.unit.dead(lbl_54f, VARGAS_0E)
+  branch.mem.global.eq(lbl_50e, $0a478a, $07eb5b)
+  msg(VARGAS_0E, ERWIN_01, VARGAS, FOLLOW, 81)
+# Yeah, we all put our backs into it, heh.\0
+  subroutine(lbl_632)
+lbl_50e:
+  msg(VARGAS_0E, ERWIN_01, VARGAS, FOLLOW, 82)
+# That should be the end of it. So why aren't we off to chase the enemy, already?\0
+  branch.unit.dead(lbl_521, LEON_0D)
+  msg(LEON_0D, VARGAS_0E, LEON, FOLLOW, 83)
+# Vargas, your help today was much appreciated.\r\nPlease return to Lady Eliza quickly, for her sake.\0
+  goto(lbl_527)
+lbl_521:
+  msg(ERWIN_01, VARGAS_0E, ERWIN, FOLLOW, 84)
+# Vargas, the fight is already over.\r\nReturn and watch over Eliza.\0
+lbl_527:
+  branch.unit.dead(lbl_531, IMELDA_0F)
+  msg(IMELDA_0F, VARGAS_0E, IMELDA, FOLLOW, 85)
+# That's right.\r\nToo much anxiety can be hard on a woman, particularly considering what she's going through.\0
+lbl_531:
+  msg(VARGAS_0E, ERWIN_01, VARGAS, FOLLOW, 86)
+# Heh, seems you won't accept my help under these circumstances, eh?\0
+  branch.unit.dead(lbl_541, LEON_0D)
+  msg(LEON_0D, VARGAS_0E, LEON, FOLLOW, 87)
+# There's no need to worry.\r\nThis is for a glorious child of the Empire.\0
+lbl_541:
+  msg(VARGAS_0E, ERWIN_01, VARGAS, FOLLOW, 88)
+# Guys, I'm sorry.\r\nOnce the child is born, I'll rush back to fight with you. Until then, stay safe.\0
+  msg(NULL_00, DOWN_F5, NULL, NOFOLLOW, 89)
+# Vargas leaves the entourage ...\0
+  unit.retreat(VARGAS_0E)
+lbl_54f:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 90)
+# It's over ...\0
+  unit.deploy(IMPERIALCOMMANDER_2F, 1, 25)
+  msg(IMPERIALCOMMANDER_2F, LEON_0D, KNIGHT1_GREEN, FOLLOW, 91)
+# General Leon!\0
+  unit.move(IMPERIALCOMMANDER_2F, 3, 25)
+  msg(IMPERIALCOMMANDER_2F, LEON_0D, KNIGHT1_GREEN, FOLLOW, 92)
+# Colonel Laird has discovered Castle Baldea!\0
+  msg(LEON_0D, IMPERIALCOMMANDER_2F, LEON, FOLLOW, 93)
+# I see. So he found it ... Good work.\0
+  msg(ERWIN_01, LEON_0D, ERWIN, FOLLOW, 94)
+# Castle Baldea? Finally, we'll get our hands on Langrisser.\0
+  msg(LEON_0D, IMPERIALCOMMANDER_2F, LEON, FOLLOW, 95)
+# Onward!\r\nI'll trust you in leading the way!\0
+  msg(IMPERIALCOMMANDER_2F, LEON_0D, KNIGHT1_GREEN, FOLLOW, 96)
+# Yes, Sir!\0
+  loadscenario(39)
+break
+
+lbl_585:
+  msg(COMMANDER_22, DOWN_F5, HIGHLORD_BLACK, NOFOLLOW, 97)
+# Don't let the enemy through!\0
+break
+
+lbl_58d:
+  msg(COMMANDER_22, DOWN_F5, HIGHLORD_BLACK_DEAD, FOLLOW, 98)
+# Not ... yet ...\0
+break
+
+lbl_595:
+  msg(CHERIE_CC, COMMANDER_23, CHERIE, FOLLOW, 99)
+# I entrust you with escorting the villagers out safely!\r\nTake care that they don't get caught up in the battle!\0
+  msg(COMMANDER_23, CHERIE_CC, HIGHLORD_BLACK, FOLLOW, 100)
+# Understood!\0
+break
+
+lbl_5a3:
+  msg(COMMANDER_23, CHERIE_CC, HIGHLORD_BLACK, FOLLOW, 101)
+# Mission complete. Now we're off to join the battle!\0
+  msg(CHERIE_CC, COMMANDER_23, CHERIE, FOLLOW, 102)
+# Okay! But don't go overboard!\0
+  msg(COMMANDER_23, CHERIE_CC, HIGHLORD_BLACK, FOLLOW, 103)
+# Understood!\0
+break
+
+lbl_5b7:
+  msg(COMMANDER_23, DOWN_F5, HIGHLORD_BLACK, FOLLOW, 104)
+# Take no prisoners!\0
+break
+
+lbl_5bf:
+  msg(COMMANDER_23, DOWN_F5, HIGHLORD_BLACK_DEAD, FOLLOW, 105)
+# Ugh, very good ...\0
+break
+
+lbl_5c7:
+  msg(COMMANDER_83, DOWN_F5, SWORDSMAN1_BLACK_DEAD, FOLLOW, 106)
+# Woah!\0
+break
+
+lbl_5cf:
+  msg(COMMANDER_84, DOWN_F5, HAWKKNIGHT_BLACK_DEAD, FOLLOW, 107)
+# To die in such ... a ... place--!\0
+  local.sum($0a47d5, $07eb58)
+break
+
+lbl_5da:
+  unit.cleanup()
+  msg(COMMANDER_84, DOWN_F5, HAWKKNIGHT_BLACK, FOLLOW, 108)
+# You mock me! However, don't think that alone shall get you past!\0
+break
+
+lbl_5e3:
+  msg(COMMANDER_85, DOWN_F5, HAWKKNIGHT_BLACK, FOLLOW, 109)
+# Aim for the enemy's weak point and attack at once! Now, go!\0
+break
+
+lbl_5eb:
+  msg(COMMANDER_85, DOWN_F5, HAWKKNIGHT_BLACK_DEAD, FOLLOW, 110)
+# Ugh!\0
+break
+
+lbl_5f3:
+  msg(COMMANDER_86, DOWN_F5, SERPENTKNIGHT_BLACK_DEAD, FOLLOW, 111)
+# Gaahh!\0
+break
+
+lbl_5fb:
+  msg(COMMANDER_87, RIGHT_F7, KNIGHT2_BLACK, FOLLOW, 112)
+# Let's go! Chase them from this village!\0
+break
+
+lbl_603:
+  msg(COMMANDER_87, DOWN_F5, KNIGHT2_BLACK_DEAD, FOLLOW, 113)
+# Im, impossible ...\0
+break
+
+lbl_60b:
+  msg(COMMANDER_88, DOWN_F5, KNIGHT2_BLACK_DEAD, FOLLOW, 114)
+# No ...\0
+break
+
+lbl_613:
+  msg(COMMANDER_89, DOWN_F5, SWORDSMAN1_BLACK_DEAD, FOLLOW, 115)
+# Is, is this the end ...?\0
+break
+
+lbl_61b:
+  unit.clearbit(CHERIE_CC, $17, 0)
+  local.sub($0a47d0, $07eb5b)
+break
+
+lbl_624:
+  msg(CHERIE_CC, DOWN_F5, CHERIE, FOLLOW, 117)
+# Whew, that group has been safely evacuated.\r\nThere should still be another group of villagers near here ...\0
+endsub
+
+lbl_62b:
+  msg(CHERIE_CC, DOWN_F5, CHERIE, FOLLOW, 118)
+# That's the last of them ... All the civilians have been safely evacuated.\0
+endsub
+
+lbl_632:
+  branch.mem.global.eq(lbl_63d, $0a478a, $07eb5b)
+  unit.expboost(VARGAS_0E, 200)
+  global.sum($0a478a, $07eb5b)
+lbl_63d:
+endsub
+

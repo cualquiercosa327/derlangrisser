@@ -1,0 +1,746 @@
+# Movement-Triggered Events
+on.move(0, lbl_44d, BOSER_17, 0, 0xff)
+on.move(29, lbl_5e9, SONYA_D4, 1, 0xff)
+on.move(40, lbl_688, JESSICA_14, 0, 0xff)
+on.move(43, lbl_6ae, CHERIE_CC, 0, 0xff)
+on.move(45, lbl_6c0, LESTER_D1, 0, 0xff)
+break
+
+# Attack-Triggered Events
+on.attack(11, lbl_3a0, ERWIN_01, BOSER_17, 0x00, 0x00, 0xff)
+on.attack(12, lbl_3b4, ERWIN_01, CHERIE_CC, 0x00, 0x00, 0xff)
+on.attack(15, lbl_3d4, NULL_FF, ROHGA_0B, 0xff, 0x00, 0xff)
+on.attack(16, lbl_3dc, ROHGA_0B, BOSER_17, 0x00, 0x00, 0xff)
+on.attack(17, lbl_3f0, ROHGA_0B, SONYA_D4, 0x00, 0x00, 0xff)
+on.attack(21, lbl_414, IMELDA_0F, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(25, lbl_437, EGBERT_10, BOSER_17, 0x00, 0x00, 0xff)
+on.attack(27, lbl_455, NULL_FF, BOSER_17, 0xff, 0x00, 0xff)
+on.attack(30, lbl_61f, SONYA_D4, ROHGA_0B, 0x00, 0x00, 0xff)
+on.attack(32, lbl_644, ESTO_D9, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(34, lbl_656, OSTO_DA, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(36, lbl_668, VAMPIRELORD_4F, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(41, lbl_696, JESSICA_14, BOSER_17, 0x00, 0x00, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(13, lbl_3c2, ERWIN_01)
+on.defeat(14, lbl_3cc, HEIN_05)
+on.defeat(19, lbl_404, ROHGA_0B)
+on.defeat(20, lbl_40c, LEON_0D)
+on.defeat(22, lbl_41c, IMELDA_0F)
+on.defeat(23, lbl_424, VARGAS_0E)
+on.damage(24, lbl_42f, NULL_FF, VARGAS_0E, 0xff, 0x00)
+on.defeat(26, lbl_445, EGBERT_10)
+on.defeat(28, lbl_460, BOSER_17)
+on.defeat(31, lbl_63a, SONYA_D4)
+on.defeat(33, lbl_64c, ESTO_D9)
+on.defeat(35, lbl_65e, OSTO_DA)
+on.defeat(37, lbl_670, VAMPIRELORD_4F)
+on.defeat(38, lbl_678, VAMPIRELORD_8E)
+on.defeat(39, lbl_680, STONEGOLEM_48)
+on.defeat(42, lbl_6a4, JESSICA_14)
+on.defeat(44, lbl_6b6, CHERIE_CC)
+on.defeat(46, lbl_6c8, LESTER_D1)
+on.defeat(47, lbl_6d2, COMMANDER_8A)
+on.defeat(1, lbl_6da, STONEGOLEM_48, VAMPIRELORD_4F, VAMPIRELORD_8E, ESTO_D9, OSTO_DA, JESSICA_14, CHERIE_CC, LESTER_D1, COMMANDER_8A)
+on.defeat(48, lbl_6df, STONEGOLEM_48, VAMPIRELORD_4F, VAMPIRELORD_8E, ESTO_D9, OSTO_DA, JESSICA_14, CHERIE_CC, LESTER_D1, COMMANDER_8A, SONYA_D4)
+break
+
+# Position-Triggered Events
+on.bound(7, lbl_366, NPC_SUBUNIT_F1, 13, 4, 23, 13, 0x00, 0x00)
+on.bound(8, lbl_36f, ERWIN_01, 14, 10, 22, 15, 0x00, 0x00)
+on.range(9, lbl_384, ERWIN_01, LIANA_CA, 4, 0x00, 0x00, 0x00, 0x00)
+on.range(10, lbl_392, LEON_0D, LANA_CB, 4, 0x00, 0x00, 0x00, 0x00)
+on.range(18, lbl_73c, ROHGA_0B, SONYA_D4, 3, 0x00, 0x00, 0x00, 0x00)
+on.bound(49, lbl_76b, NPC_COMMANDER_F0, 15, 9, 15, 9, 0x00, 0x00)
+on.bound(50, lbl_785, NPC_COMMANDER_F0, 21, 9, 21, 9, 0x00, 0x00)
+break
+
+# Turn-Triggered Events
+on.turn(3, lbl_2e3, ALLY, 1, 0x00)
+on.turn(4, lbl_2ea, ENEMY, 1, 0x00)
+on.turn(5, lbl_310, ALLY, 2, 0x00)
+on.turn(6, lbl_34f, ENEMY, 2, 0x00)
+on.turn(2, lbl_358, ENEMY, 0, 0x00)
+break
+
+# Core Events
+lbl_192:
+  bgm(ALLY, CAVE)
+  focus.point(18, 9, FAST)
+  cursor.set(NULL_00)
+  unit.position(BOSER_17, PRESET, PRESET)
+  unit.position(LIANA_CA, PRESET, PRESET)
+  unit.position(LANA_CB, PRESET, PRESET)
+  screen.fadein(4)
+  delay(40)
+  msg(BOSER_17, DOWN_F5, BOSER, NOFOLLOW, 1)
+# Great and gloried Chaos, reveal your splendour!\0
+  unit.move(BOSER_17, 17, 9)
+  msg(BOSER_17, LEFT_F6, BOSER, NOFOLLOW, 2)
+# Don't wear yourself out, girl ... This will be quite taxing.\0
+  delay(30)
+  cursor.set(ERWIN_01)
+  cast.thunder(BOSER_17, LIANA_CA)
+  unit.setbyte(LIANA_CA, $03, 0x0a)
+  cursor.set(NULL_00)
+  unit.move(BOSER_17, 19, 9)
+  cursor.set(ERWIN_01)
+  cast.thunder(BOSER_17, LANA_CB)
+  cursor.set(NULL_00)
+  unit.setbyte(LANA_CB, $03, 0x0a)
+  unit.move(BOSER_17, PRESET, PRESET)
+  unit.face(BOSER_17, DOWN_F5)
+  delay(20)
+  cursor.set(ERWIN_01)
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.showsub(ERWIN_01)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.showsub(HEIN_05)
+  unit.position(ROHGA_0B, PRESET, PRESET)
+  unit.showsub(ROHGA_0B)
+  unit.position(LEON_0D, PRESET, PRESET)
+  unit.showsub(LEON_0D)
+  unit.position(IMELDA_0F, PRESET, PRESET)
+  unit.showsub(IMELDA_0F)
+  unit.position(EGBERT_10, PRESET, PRESET)
+  unit.showsub(EGBERT_10)
+  unit.position(VARGAS_0E, PRESET, PRESET)
+  unit.showsub(VARGAS_0E)
+  msg(VARGAS_0E, EGBERT_10, VARGAS, FOLLOW, 3)
+# Hey, Egbert.\r\nHis Majesty ordered our presence here, so why is Boser unsealing the blade?\0
+  msg(EGBERT_10, VARGAS_0E, EGBERT, FOLLOW, 4)
+# This too is one of our orders.\r\nWe are to leave things to him and observe.\0
+  msg(VARGAS_0E, UP_F4, VARGAS, FOLLOW, 5)
+# Hmmm ...\0
+  msg(HEIN_05, EGBERT_10, HEIN, FOLLOW, 6)
+# I'm still shocked to find out about Lana.\r\nHow could Liana have had a twin?\0
+  msg(EGBERT_10, HEIN_05, EGBERT, FOLLOW, 7)
+# It is simply the destiny of the one born to be the Maiden of Light.\r\nThere must be balance, and hence, a Maiden of Darkness.\r\nBoser abducted Lana while she was very young for his own ends ...\0
+  msg(ERWIN_01, EGBERT_10, ERWIN, FOLLOW, 8)
+# So he was planning this for quite a long time.\0
+  msg(EGBERT_10, ERWIN_01, EGBERT, FOLLOW, 9)
+# The shrine maidens will dissolve the seal, but that is not enough.\r\nThe sword requires energy, and Lana must offer hers.\0
+  msg(BOSER_17, UP_F4, BOSER, FOLLOW, 10)
+# Ultimate darkness lies within this blade.\r\nEmbrace your darkest desires, Liana ..., and unleash Alhazard's might!\r\nKlatu Verata Niktue Geweald ... Ai Alhazard, Ai Alhazard!\0
+  screen.brightness(5)
+  screen.brightness(0)
+  bgm(ALLY, ENEMY8_BOSER)
+  msg(ERWIN_01, BOSER_17, ERWIN, FOLLOW, 11)
+# Is, is the seal broken?\0
+  msg(EGBERT_10, BOSER_17, EGBERT, FOLLOW, 12)
+# Heh heh heh ..., What terrific energy ...!\0
+  msg(BOSER_17, UP_F4, BOSER, FOLLOW, 13)
+# Aaahhh ... Such power! Now I am truly the Prince of Darkness ...\r\nEmpire, you've served or, rather, outlived your purpose.\0
+  msg(ERWIN_01, BOSER_17, ERWIN_ANGRY, FOLLOW, 14)
+# You'll find you're wrong about that.\0
+  msg(BOSER_17, ERWIN_01, BOSER, FOLLOW, 15)
+# No, with Alhazard in my hand, you're all highly unnecessary.\r\nNot that it wasn't fun to toy with you, but ...\r\nArise, my servants!\0
+  bgm(ALLY, ENEMY4)
+  unit.showsub(BOSER_17)
+  unit.position(SONYA_D4, PRESET, PRESET)
+  unit.showsub(SONYA_D4)
+  unit.position(STONEGOLEM_48, PRESET, PRESET)
+  unit.showsub(STONEGOLEM_48)
+  unit.position(VAMPIRELORD_8E, PRESET, PRESET)
+  unit.showsub(VAMPIRELORD_8E)
+  unit.position(OSTO_DA, PRESET, PRESET)
+  unit.showsub(OSTO_DA)
+  unit.position(ESTO_D9, PRESET, PRESET)
+  unit.showsub(ESTO_D9)
+  unit.position(VAMPIRELORD_4F, PRESET, PRESET)
+  unit.showsub(VAMPIRELORD_4F)
+  msg(SONYA_D4, BOSER_17, SONYA, FOLLOW, 16)
+# Y, you called, Master?\0
+  msg(BOSER_17, SONYA_D4, BOSER, FOLLOW, 17)
+# Ah, Sonya. Alhazard is now mine.\r\nPlease, slaughter these Imperials while I recover from the ritual.\r\nUse this rod if you like.\0
+  msg(SONYA_D4, BOSER_17, SONYA, FOLLOW, 18)
+# Y, yes ... Thank you, Master!\0
+  msg(NULL_00, DOWN_F5, NULL, NOFOLLOW, 19)
+# Sonya obtained the Dark Rod.\0
+  msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 20)
+# No ... Sonya ...? Why?\0
+  msg(ERWIN_01, BOSER_17, ERWIN, FOLLOW, 21)
+# Listen, everyone.\r\nEither we take Alhazard, or Boser will fill this world with misery.\0
+  msg(HEIN_05, BOSER_17, HEIN_ANGRY, FOLLOW, 22)
+# That's right.\r\nUnder his control, everyone will die or become demonic.\0
+  msg(LEON_0D, BOSER_17, LEON, FOLLOW, 23)
+# Everyone, our mission is to retake Alhazard!\0
+  msg(IMELDA_0F, BOSER_17, IMELDA, FOLLOW, 24)
+# You'll pay for your deception, Boser!\0
+  msg(VARGAS_0E, BOSER_17, VARGAS, FOLLOW, 25)
+# You're damned right he will!\r\nAgainst the Empire, he's as good as dead ... just like anyone who would oppose the Kaiser!\0
+  msg(EGBERT_10, ERWIN_01, EGBERT, FOLLOW, 26)
+# It is good of you to gather here for us.\r\nIt will make the fight that much more interesting!\0
+  msg(ERWIN_01, EGBERT_10, ERWIN, FOLLOW, 27)
+# Maybe the "Prince of Darkness" can entertain us longer than the Descendants were able!\0
+  bgm(ALLY, ALLY2)
+  global.sub($0a478f, $07eb5c)
+  local.sum($0a47d0, $07eb58)
+  local.sum($0a47d0, $07eb59)
+  local.sum($0a47d0, $07eb5a)
+break
+
+lbl_2e3:
+  unit.setbyte(LANA_CB, $20, 0x03)
+  unit.refresh()
+break
+
+lbl_2ea:
+  msg(BOSER_17, DOWN_F5, BOSER, FOLLOW, 28)
+# Gwa hah hah ... Against this sword and army, you're nothing but a nuisance.\r\nYou'll all be butchered and humanity will be enslaved. Nothing can be done.\r\nMy servants ... Begin the slaughter, and do not leave a single soul standing!\0
+  branch.unit.dead(lbl_2fa, ESTO_D9)
+  msg(ESTO_D9, ERWIN_01, ESTO, FOLLOW, 29)
+# Gyo hoh hoh!\0
+lbl_2fa:
+  branch.unit.dead(lbl_304, OSTO_DA)
+  msg(OSTO_DA, ERWIN_01, OSTO, FOLLOW, 30)
+# Aaahh--!\0
+lbl_304:
+  branch.unit.dead(lbl_30e, SONYA_D4)
+  msg(SONYA_D4, BOSER_17, SONYA, FOLLOW, 31)
+# ...\0
+lbl_30e:
+break
+
+lbl_310:
+  branch.unit.dead(lbl_34d, SONYA_D4)
+  branch.unit.dead(lbl_34d, ROHGA_0B)
+  msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 32)
+# Sonya ...\0
+  msg(ERWIN_01, ROHGA_0B, ERWIN, FOLLOW, 33)
+# That's right! Sonya is Rohga's little sister.\0
+  branch.unit.dead(lbl_331, VARGAS_0E)
+  msg(VARGAS_0E, ROHGA_0B, VARGAS, FOLLOW, 34)
+# It's painful when siblings are at each others' throats.\r\nCan we attempt persuasion instead?\0
+  goto(lbl_337)
+lbl_331:
+  msg(ERWIN_01, ROHGA_0B, ERWIN, FOLLOW, 35)
+# There's no need for siblings to fight each other ... Won't you talk to her?\0
+lbl_337:
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 36)
+# I'm sorry for the trouble. I'm going to her now. Watch my back!\0
+  msg(ERWIN_01, SONYA_0C, ERWIN, FOLLOW, 37)
+# All right, everyone!\r\nRohga's going to talk Sonya into joining us!\0
+  branch.unit.dead(lbl_34d, IMELDA_0F)
+  msg(IMELDA_0F, ERWIN_01, IMELDA, FOLLOW, 38)
+# It can't be helped ... I'll give you a hand.\0
+lbl_34d:
+break
+
+lbl_34f:
+  branch.mem.local.eq(lbl_356, $0a47d0, $07eb5f)
+  subroutine(lbl_6e4)
+lbl_356:
+break
+
+lbl_358:
+  msg(ERWIN_01, BOSER_17, ERWIN, FOLLOW, 39)
+# Boser, prepare yourself. You're all that's left!\0
+  msg(BOSER_17, ERWIN_01, BOSER, FOLLOW, 40)
+# Don't be fooled, imbecile. I still have Alhazard, and it will rend your worthless hide!\0
+break
+
+lbl_366:
+  branch.mem.local.eq(lbl_36d, $0a47d0, $07eb5e)
+  subroutine(lbl_6e4)
+lbl_36d:
+break
+
+lbl_36f:
+  unit.cleanup()
+  msg(ERWIN_01, BOSER_17, ERWIN_ANGRY, FOLLOW, 41)
+# Boser, you can't escape! Get ready to die!\0
+  msg(BOSER_17, ERWIN_01, BOSER, FOLLOW, 42)
+# You humans are tenacious, if nothing else.\r\nI knew I'd have to massacre you all someday. Hah hah. All the better with Alhazard ...\r\nTell me, _NAME_, do you think you'll hold us for even a moment?\0
+  msg(ERWIN_01, BOSER_17, ERWIN_ANGRY, FOLLOW, 43)
+# Of course. I still wield Langrisser.\r\nWe'll decide this world's destiny, here and now!\0
+break
+
+lbl_384:
+  msg(LIANA_CA, RIGHT_F7, LIANA_SAD, FOLLOW, 44)
+# ...\0
+  msg(ERWIN_01, LIANA_CA, ERWIN, NOFOLLOW, 45)
+# Liana ... Hold out a little longer, I'll save you!\0
+break
+
+lbl_392:
+  msg(LANA_CB, RIGHT_F7, LANA_SAD, FOLLOW, 46)
+# ...\0
+  msg(ERWIN_01, LIANA_CA, ERWIN, NOFOLLOW, 47)
+# My apologies, Lana. Please, hold on.\0
+break
+
+lbl_3a0:
+  msg(ERWIN_01, BOSER_17, ERWIN, NOFOLLOW, 48)
+# All right, Boser. Hand over Alhazard!\0
+  msg(BOSER_17, ERWIN_01, BOSER, NOFOLLOW, 49)
+# Keep on babbling, you mortal shit!\0
+  msg(ERWIN_01, BOSER_17, ERWIN, NOFOLLOW, 50)
+# It's just like a demon to say such things!\0
+break
+
+lbl_3b4:
+  msg(ERWIN_01, CHERIE_CC, ERWIN, NOFOLLOW, 51)
+# Why did you involve yourself now?\r\nWithout your interference, I could have ended this war far sooner!\0
+  msg(CHERIE_CC, ERWIN_01, CHERIE, NOFOLLOW, 52)
+# Alhazard is dangerous! Both demons and humans can wield it.\r\nDon't underestimate that sword!\0
+break
+
+lbl_3c2:
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 53)
+# Wh, what happened ... How could I let Alhazard be taken ...\0
+  unit.cleanup()
+  gameover()
+break
+
+lbl_3cc:
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 54)
+# Gaahh--! What power ...\0
+break
+
+lbl_3d4:
+  msg(ROHGA_0B, RIGHT_F7, ROHGA, NOFOLLOW, 55)
+# Don't get in my way!\0
+break
+
+lbl_3dc:
+  msg(ROHGA_0B, BOSER_17, ROHGA, NOFOLLOW, 56)
+# Why are you controlling Sonya!?\0
+  msg(BOSER_17, ROHGA_0B, BOSER, NOFOLLOW, 57)
+# Sonya joined me of her own free will.\r\nDo you hope to frighten me by swinging your sword and yelling, little boy?\r\nHow fortunate you'll be dead soon ...\0
+  msg(ROHGA_0B, BOSER_17, ROHGA_ANGRY, NOFOLLOW, 58)
+# Heh heh. Go fuck yourself.\r\nYou think Sonya would join you on her own?\r\nAlhazard won't stop me from spilling your brains in the dirt.\0
+break
+
+lbl_3f0:
+  msg(ROHGA_0B, SONYA_D4, ROHGA, NOFOLLOW, 59)
+# Sonya, I don't want to fight you, but ...\0
+  msg(SONYA_D4, ROHGA_0B, SONYA_ANGRY, NOFOLLOW, 60)
+# So it seems brother Rohga is just like everyone else ...\r\nI am ordered to crush all humans, big brother. I suggest you flee!\r\nNo one will trust a half-breed like me except Lord Boser!\0
+  local.sum($0a47d2, $07eb5a)
+  global.sub($0a478f, $07eb5c)
+break
+
+lbl_404:
+  msg(ROHGA_0B, DOWN_F5, ROHGA_DEAD, FOLLOW, 61)
+# S, Sonya ...\0
+break
+
+lbl_40c:
+  msg(LEON_0D, DOWN_F5, LEON_DEAD, FOLLOW, 62)
+# Why wasn't I prepared ... At this of all times ...!\0
+break
+
+lbl_414:
+  msg(IMELDA_0F, RIGHT_F7, IMELDA, NOFOLLOW, 63)
+# Ugh, even seeing you makes me sick!\0
+break
+
+lbl_41c:
+  msg(IMELDA_0F, DOWN_F5, IMELDA_DEAD, FOLLOW, 64)
+# Yes, we did it!\0
+break
+
+lbl_424:
+  msg(VARGAS_0E, DOWN_F5, VARGAS_DEAD, FOLLOW, 65)
+# Ah, not bad ...\0
+  local.sum($0a47d3, $07eb58)
+break
+
+lbl_42f:
+  msg(VARGAS_0E, RIGHT_F7, VARGAS, FOLLOW, 66)
+# This is your ability? Pathetic! Hah hah!\0
+break
+
+lbl_437:
+  msg(EGBERT_10, BOSER_17, EGBERT, NOFOLLOW, 67)
+# Boser, can your power stand against a master magician?\r\nWe'll soon see.\0
+  msg(BOSER_17, EGBERT_10, BOSER, NOFOLLOW, 68)
+# Is that a challenge, filth? Hah hah hah!\r\nHow interesting. Take this!\0
+break
+
+lbl_445:
+  msg(EGBERT_10, DOWN_F5, EGBERT_DEAD, FOLLOW, 69)
+# Why!? I ...\0
+break
+
+lbl_44d:
+  msg(BOSER_17, DOWN_F5, BOSER, FOLLOW, 70)
+# Stay your ground until the Descendants move in, and they shall inadvertently aid us.\r\nThey can engage the Imperials and let us slaughter all our enemies at once!\r\nGwa ha ha!\0
+break
+
+lbl_455:
+  msg(BOSER_17, LEFT_F6, BOSER, NOFOLLOW, 71)
+# At last, my plan bears fruit. Alhazard is unsealed and lies in my hand.\r\nYou humans, especially the Descendants of Light, have caused me much trouble.\r\nBut now, that's impossible. I'm sending you all to hell.\0
+  local.sum($0a47d1, $07eb58)
+break
+
+lbl_460:
+  msg(BOSER_17, DOWN_F5, BOSER_DEAD, FOLLOW, 72)
+# Aaahhh ... The ritual was very demanding ...\r\nI wish it were otherwise, but we must withdraw for now.\r\nHumans, savour a few more breaths ...\r\nWhen I fully recover, I'll wipe you from this world!\0
+  unit.retreat(BOSER_17)
+  unit.retreat(SONYA_D4)
+  unit.retreat(ESTO_D9)
+  unit.retreat(OSTO_DA)
+  unit.retreat(VAMPIRELORD_4F)
+  unit.retreat(VAMPIRELORD_8E)
+  unit.retreat(STONEGOLEM_48)
+  msg(ERWIN_01, BOSER_17, ERWIN, FOLLOW, 73)
+# Wait, Boser!\0
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 74)
+# What in the hell ...? That ceremony really took it out of him.\0
+  branch.unit.dead(lbl_48a, CHERIE_CC)
+  msg(CHERIE_CC, ERWIN_01, CHERIE, FOLLOW, 75)
+# Boser must not control the revived Alhazard. If we don't do something ...\0
+lbl_48a:
+  branch.unit.dead(lbl_494, LESTER_D1)
+  msg(LESTER_D1, UP_F4, LESTER, FOLLOW, 76)
+# Damn, we're in for it now! Should we call back the troops ...?\0
+lbl_494:
+  branch.unit.dead(lbl_49e, JESSICA_14)
+  msg(JESSICA_14, UP_F4, JESSICA, FOLLOW, 77)
+# We don't stand a chance as we are ...\r\nLet's fall back and think of a better strategy.\0
+lbl_49e:
+  unit.retreat(JESSICA_14)
+  unit.retreat(CHERIE_CC)
+  unit.retreat(LESTER_D1)
+  unit.retreat(COMMANDER_8A)
+  scenarioclear()
+  msg(LANA_CB, DOWN_F5, LANA, FOLLOW, 78)
+# Ugh ... Am I ... Is this it--?\0
+  msg(ERWIN_01, LANA_CB, ERWIN, FOLLOW, 79)
+# The Dark Princess is acting pretty strange.\0
+  branch.unit.dead(lbl_4c0, LEON_0D)
+  msg(LEON_0D, ERWIN_01, LEON, FOLLOW, 133)
+# Ah ha!\r\nWith Boser's injury, her mind is free again.\0
+  goto(lbl_4c6)
+lbl_4c0:
+  msg(LEON_0D, ERWIN_01, LEON_DEAD, NOFOLLOW, 133)
+# Ah ha!\r\nWith Boser's injury, her mind is free again.\0
+lbl_4c6:
+  msg(LIANA_CA, LANA_CB, LIANA, FOLLOW, 80)
+# Lana ...! Sister!\0
+  msg(LANA_CB, LIANA_CA, LANA, FOLLOW, 81)
+# Liana! Why ... are we here?\0
+  branch.unit.dead(lbl_4df, LEON_0D)
+  msg(LEON_0D, LANA_CB, LEON, FOLLOW, 82)
+# Are you okay, Lana? Get a hold of yourself!\0
+  goto(lbl_4e5)
+lbl_4df:
+  msg(LEON_0D, UP_F4, LEON_DEAD, NOFOLLOW, 83)
+# Are you okay, Lana?\0
+lbl_4e5:
+  msg(LANA_CB, LEON_0D, LANA, FOLLOW, 84)
+# Leon! Why are you ... here?\r\nAahh ..., I see. I've been under Boser's spell. The power of darkness ...\r\nUgh!\0
+  msg(LIANA_CA, LANA_CB, LIANA, FOLLOW, 85)
+# Sister Lana, are you okay?\0
+  branch.unit.dead(lbl_4fe, LEON_0D)
+  msg(LEON_0D, LANA_CB, LEON, FOLLOW, 134)
+# Be patient.\r\nLana's exhausted from the unsealing ritual.\r\nWe must see her cared for at the castle.\0
+  goto(lbl_504)
+lbl_4fe:
+  msg(LEON_0D, LANA_CB, LEON_DEAD, NOFOLLOW, 134)
+# Be patient.\r\nLana's exhausted from the unsealing ritual.\r\nWe must see her cared for at the castle.\0
+lbl_504:
+  msg(LANA_CB, LEON_0D, LANA, FOLLOW, 86)
+# Oh, oh yes, where's Boser ...?\0
+  branch.unit.dead(lbl_517, EGBERT_10)
+  msg(EGBERT_10, ERWIN_01, EGBERT, FOLLOW, 135)
+# Hmph. It appears neither of our enemies were disabled ...\r\nI wonder whom we should finish first?\r\n_NAME_, I entrust this decision to you.\0
+  goto(lbl_51d)
+lbl_517:
+  msg(EGBERT_10, ERWIN_01, EGBERT_DEAD, NOFOLLOW, 135)
+# Hmph. It appears neither of our enemies were disabled ...\r\nI wonder whom we should finish first?\r\n_NAME_, I entrust this decision to you.\0
+lbl_51d:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 87)
+# We should stop to think about this lest we make any rash mistakes ...\0
+  prompt.ok(lbl_5b4)
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 89)
+# How else can we seize Alhazard ...?\r\nWe should hunt him down immediately!\0
+  branch.unit.dead(lbl_53e, EGBERT_10)
+  msg(EGBERT_10, ERWIN_01, EGBERT, FOLLOW, 146)
+# Hmmm, a wise decision.\r\nBut we need to revive Langrisser to secure our victory.\0
+  goto(lbl_544)
+lbl_53e:
+  msg(EGBERT_10, ERWIN_01, EGBERT_DEAD, NOFOLLOW, 146)
+# Hmmm, a wise decision.\r\nBut we need to revive Langrisser to secure our victory.\0
+lbl_544:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 90)
+# This is amazing!\r\nAre you saying Langrisser can be unsealed as well?\0
+  branch.unit.dead(lbl_557, EGBERT_10)
+  msg(EGBERT_10, ERWIN_01, EGBERT, FOLLOW, 147)
+# Yes, we must unlock every ounce of this blade's power.\r\nHow unfortunate ... We have everything necessary, save for the Holy Rod.\0
+  goto(lbl_55d)
+lbl_557:
+  msg(EGBERT_10, ERWIN_01, EGBERT_DEAD, NOFOLLOW, 147)
+# Yes, we must unlock every ounce of this blade's power.\r\nHow unfortunate ... We have everything necessary, save for the Holy Rod.\0
+lbl_55d:
+  branch.unit.dead(lbl_56a, LEON_0D)
+  msg(LEON_0D, ERWIN_01, LEON, FOLLOW, 148)
+# Laird has been searching for it. We should consult him.\0
+  goto(lbl_570)
+lbl_56a:
+  msg(LEON_0D, ERWIN_01, LEON_DEAD, NOFOLLOW, 148)
+# Laird has been searching for it. We should consult him.\0
+lbl_570:
+  msg(ERWIN_01, LIANA_CA, ERWIN, FOLLOW, 91)
+# Liana ... Lend me your power.\r\nBreak Langrisser's seal and help us capture Alhazard!\0
+  msg(LIANA_CA, ERWIN_01, LIANA_SAD, FOLLOW, 92)
+# B, but ...\0
+  delay(60)
+  msg(LANA_CB, ERWIN_01, LANA_SAD, FOLLOW, 93)
+# ...\r\nAren't we taking back Alhazard because it's too dangerous? Won't Langrisser be the same?\0
+  msg(LIANA_CA, LANA_CB, LIANA, FOLLOW, 94)
+# Shh, Sister!\0
+  msg(ERWIN_01, LANA_CB, ERWIN, FOLLOW, 95)
+# If you aid us, I promise both of you will be well-protected.\0
+  msg(LANA_CB, ERWIN_01, LANA_SAD, FOLLOW, 96)
+# I understand, _NAME_. Let's work together.\0
+  msg(ERWIN_01, LANA_CB, ERWIN, FOLLOW, 97)
+# Thank you.\r\nNow all that remains is to seek out Boser and seal his darkness forever!\0
+  branch.unit.dead(lbl_5a9, VARGAS_0E)
+  msg(VARGAS_0E, DOWN_F5, VARGAS, FOLLOW, 136)
+# We'll finish off Boser after we revive Langrisser.\0
+  goto(lbl_5af)
+lbl_5a9:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 136)
+# We'll finish off Boser after we revive Langrisser.\0
+lbl_5af:
+  loadscenario(46)
+  goto(lbl_5e7)
+lbl_5b4:
+  prompt.ok(lbl_5e4)
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 99)
+# Yes, Boser will be recovering for a while yet.\r\nWe should strike the Army of Light while they're off balance.\0
+  branch.unit.dead(lbl_5cc, EGBERT_10)
+  msg(EGBERT_10, ERWIN_01, EGBERT, FOLLOW, 100)
+# That sounds like the logical choice. Let's hunt them down.\0
+lbl_5cc:
+  branch.unit.dead(lbl_5d9, LEON_0D)
+  msg(LEON_0D, ERWIN_01, LEON, FOLLOW, 101)
+# There's not much time. We should depart.\0
+  goto(lbl_5df)
+lbl_5d9:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 102)
+# Yes, I know. Everyone, seek out and destroy Jessica's troops!\0
+lbl_5df:
+  loadscenario(51)
+  goto(lbl_5e7)
+lbl_5e4:
+  goto(lbl_51d)
+lbl_5e7:
+break
+
+lbl_5e9:
+  branch.unit.dead(lbl_61d, ROHGA_0B)
+  msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 103)
+# Stop it, Sonya. What have you become, darkness' lackey?\0
+  msg(SONYA_D4, ROHGA_0B, SONYA, FOLLOW, 104)
+# Brother ...!\0
+  msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 105)
+# Don't you understand?\r\nBoser's world will be a living hell!\0
+  msg(SONYA_D4, ROHGA_0B, SONYA, FOLLOW, 106)
+# But I ...\0
+  msg(BOSER_17, SONYA_D4, BOSER, FOLLOW, 107)
+# Sonya, please focus.\r\nThat maggot fears our new world. Do not listen to him.\0
+  msg(SONYA_D4, BOSER_17, SONYA, FOLLOW, 108)
+# Y, yes ...! Master Boser ...\0
+  msg(BOSER_17, SONYA_D4, BOSER, FOLLOW, 109)
+# Yes, do not be confused. You know what humans are.\0
+  msg(ROHGA_0B, BOSER_17, ROHGA, FOLLOW, 110)
+# Damn you, Boser ...\0
+lbl_61d:
+break
+
+lbl_61f:
+  branch.mem.local.ne(lbl_62c, $0a47d1, $07eb5f)
+  msg(SONYA_D4, ROHGA_0B, SONYA_ANGRY, NOFOLLOW, 111)
+# Stop trying to control me!\r\nYou're just like other humans! You'll never to listen to me and you'll never understand!\0
+  goto(lbl_638)
+lbl_62c:
+  msg(SONYA_D4, ROHGA_0B, SONYA, NOFOLLOW, 112)
+# Brother ... Brother, why don't you join us?\0
+  msg(ROHGA_0B, SONYA_D4, ROHGA, NOFOLLOW, 113)
+# I can't do that Sonya ...\r\nI don't give a good damn about any cause, but I won't let that asshole take over.\0
+lbl_638:
+break
+
+lbl_63a:
+  msg(SONYA_D4, DOWN_F5, SONYA_DEAD, FOLLOW, 114)
+# Why ... Why can't I best humans...? The next time, surely ...\0
+  unit.retreat(SONYA_D4)
+break
+
+lbl_644:
+  msg(ESTO_D9, DOWN_F5, ESTO, NOFOLLOW, 115)
+# The humans took my land as their own! I'll have my revenge!\0
+break
+
+lbl_64c:
+  msg(ESTO_D9, DOWN_F5, ESTO_DEAD, FOLLOW, 116)
+# This grudge I'll never forget!\0
+  unit.retreat(ESTO_D9)
+break
+
+lbl_656:
+  msg(OSTO_DA, DOWN_F5, OSTO, NOFOLLOW, 117)
+# Tasty morsels, come!\0
+break
+
+lbl_65e:
+  msg(OSTO_DA, DOWN_F5, OSTO_DEAD, FOLLOW, 118)
+# Humans! Hope I don't kill you in your sleep!\r\nI'll be back!\0
+  unit.retreat(OSTO_DA)
+break
+
+lbl_668:
+  msg(VAMPIRELORD_4F, DOWN_F5, VAMPIRELORD, NOFOLLOW, 119)
+# Attack the humans!\0
+break
+
+lbl_670:
+  msg(VAMPIRELORD_4F, DOWN_F5, VAMPIRELORD, FOLLOW, 120)
+# You cursed humans!\0
+break
+
+lbl_678:
+  msg(VAMPIRELORD_8E, DOWN_F5, VAMPIRELORD, FOLLOW, 121)
+# I, I don't ...\0
+break
+
+lbl_680:
+  msg(STONEGOLEM_48, DOWN_F5, GOLEM, FOLLOW, 122)
+# Ughh ...\0
+break
+
+lbl_688:
+  msg(JESSICA_14, BOSER_17, JESSICA, FOLLOW, 123)
+# Boser, your treachery ends here!\0
+  msg(BOSER_17, JESSICA_14, BOSER, FOLLOW, 124)
+# Hmmm ... Hah hah. Do your worst, old hag.\0
+break
+
+lbl_696:
+  msg(JESSICA_14, BOSER_17, JESSICA_ANGRY, NOFOLLOW, 125)
+# You won't have Alhazard!\0
+  msg(BOSER_17, JESSICA_14, BOSER, NOFOLLOW, 126)
+# So you've arrived, Descendants! I won't yield to your so-called justice!\0
+break
+
+lbl_6a4:
+  msg(JESSICA_14, DOWN_F5, JESSICA_DEAD, FOLLOW, 127)
+# Argh ... Both the Imperials and monsters are against us.\r\nThis might be too much ... Some of us are still injured.\0
+  unit.retreat(JESSICA_14)
+break
+
+lbl_6ae:
+  msg(CHERIE_CC, UP_F4, CHERIE, FOLLOW, 128)
+# The Empire is our sworn enemy, but ...\r\nI'd sooner help humans than darkness!\0
+break
+
+lbl_6b6:
+  msg(CHERIE_CC, DOWN_F5, CHERIE_DEAD, FOLLOW, 129)
+# With only a few more men ... I could have ...\r\nThere's no helping it. I must retreat.\0
+  unit.retreat(CHERIE_CC)
+break
+
+lbl_6c0:
+  msg(LESTER_D1, UP_F4, LESTER, FOLLOW, 130)
+# All right you sea swine, show your captain what you're made of!\0
+break
+
+lbl_6c8:
+  msg(LESTER_D1, DOWN_F5, LESTER_DEAD, FOLLOW, 131)
+# Damn this useless blade! Let's escape!\0
+  unit.retreat(LESTER_D1)
+break
+
+lbl_6d2:
+  msg(COMMANDER_8A, DOWN_F5, HIGHLORD_BLACK_DEAD, FOLLOW, 132)
+# Fuck this ...! I can't move!\0
+break
+
+lbl_6da:
+  local.sub($0a47d0, $07eb5a)
+break
+
+lbl_6df:
+  local.sub($0a47d0, $07eb5a)
+break
+
+lbl_6e4:
+  unit.cleanup()
+  bgm(ALLY, ALLY4)
+  bgm(ENEMY, ALLY4)
+  unit.deploy(COMMANDER_8A, 10, 45)
+  unit.deploy(CHERIE_CC, 12, 43)
+  unit.deploy(LESTER_D1, 27, 45)
+  unit.deploy(JESSICA_14, 24, 44)
+  msg(JESSICA_14, UP_F4, JESSICA, FOLLOW, 137)
+# What!? This energy ...\0
+  msg(BOSER_17, JESSICA_14, BOSER, FOLLOW, 138)
+# Hmmm ... so the Descendants of Light have decided to show?\0
+  msg(JESSICA_14, BOSER_17, JESSICA, FOLLOW, 139)
+# Boser! Al, Alhazard ... is it?\0
+  msg(BOSER_17, JESSICA_14, BOSER, FOLLOW, 140)
+# Yes, you're late ... Alhazard was reborn at this altar.\r\nYou'll all be gutter lining when I'm through with you!\0
+  msg(CHERIE_CC, JESSICA_14, CHERIE, FOLLOW, 141)
+# Hmmm ... Boser has Alhazard, _NAME_ has Langrisser ...\r\nDo we stand a chance here?\0
+  msg(LESTER_D1, CHERIE_CC, LESTER, FOLLOW, 142)
+# The stakes are too high. We have to fight!\0
+  msg(CHERIE_CC, UP_F4, CHERIE, FOLLOW, 143)
+# Yes, naturally.\r\nI'll watch for an opportunity to take one of the swords.\r\nWe must defend humanity!\0
+  msg(JESSICA_14, CHERIE_CC, JESSICA, FOLLOW, 144)
+# For a world worth living in, we must defeat both the Empire and the forces of darkness!\0
+  branch.unit.dead(lbl_735, EGBERT_10)
+  msg(EGBERT_10, JESSICA_14, EGBERT, FOLLOW, 145)
+# So they took this long before they could mobilise ...\r\nHeh, my old Master must believe she can simply wait things out ...\r\nWell, that suits us just fine.\r\nI've decided to take Alhazard. We'll see how this figures into her little ploy.\0
+lbl_735:
+  bgm(ALLY, ALLY2)
+  local.sub($0a47d0, $07eb58)
+endsub
+
+lbl_73c:
+  unit.cleanup()
+  msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 149)
+# Sonya! What will it take to end your hatred of humans?\r\nHate only breeds more hate. You must understand that!\0
+  msg(SONYA_D4, ROHGA_0B, SONYA, FOLLOW, 150)
+# You're right, brother ... After you left home, the humans treated me like dirt!\r\nMen publicly beat me ... The children threw stones at me!\r\nI had no friends, no one to love, and no brother ...\r\nNow I've embraced my demon blood and Master Boser.\r\nHumans hated me and now I'll return their hate!\0
+  msg(BOSER_17, SONYA_D4, BOSER, FOLLOW, 151)
+# That's right, Sonya. Humans are selfish beings who need excuses to be kind.\0
+  msg(ROHGA_0B, BOSER_17, ROHGA_ANGRY, FOLLOW, 152)
+# You bastard ...! I'll shut your worthless mouth!\0
+  msg(SONYA_D4, ROHGA_0B, SONYA, FOLLOW, 153)
+# Everyone just go away! S, stop messing with my head!\0
+  unit.retreat(SONYA_D4)
+  msg(ROHGA_0B, SONYA_D4, ROHGA_ANGRY, FOLLOW, 154)
+# S, Sonya!\0
+  local.sub($0a47d0, $07eb59)
+  global.sum($0a478f, $07eb5c)
+break
+
+lbl_76b:
+  branch.mem.global.eq(lbl_783, $0a478c, $07eb58)
+  unit.cleanup()
+  prompt.ok(lbl_783)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 156)
+# Obtained Gleipnir.\r\nHas something vanished from the magic formation?\0
+  item.add(GLEIPNIR)
+  global.sum($0a478c, $07eb58)
+lbl_783:
+break
+
+lbl_785:
+  branch.mem.global.eq(lbl_7a3, $0a478c, $07eb58)
+  unit.cleanup()
+  prompt.ok(lbl_7a3)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 158)
+# A magnificent shield appeared!\0
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 159)
+# Obtained Odin's Buckler.\r\nAnother item just vanished from the magic formation.\0
+  item.add(ODINSBUCKLER)
+  global.sum($0a478c, $07eb58)
+lbl_7a3:
+break
+

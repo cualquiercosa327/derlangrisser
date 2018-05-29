@@ -1,0 +1,635 @@
+# Movement-Triggered Events
+on.move(21, lbl_35b, EGBERT_D8, 1, 0xff)
+on.move(22, lbl_3ba, EGBERT_D8, 2, 0xff)
+on.move(23, lbl_3fa, EGBERT_D8, 3, 0xff)
+on.move(25, lbl_430, EGBERT_D8, 4, 0xff)
+on.move(1, lbl_622, IMPERIALCOMMANDER_38, 0, 0xff)
+break
+
+# Attack-Triggered Events
+on.attack(9, lbl_2c6, ERWIN_01, IMELDA_D7, 0x00, 0x00, 0xff)
+on.attack(16, lbl_306, LANA_0A, LEON_D5, 0x00, 0x00, 0xff)
+on.attack(17, lbl_4b0, LEON_D5, LANA_0A, 0x00, 0x00, 0xff)
+on.attack(26, lbl_4b8, LEON_D5, ERWIN_01, 0x00, 0x00, 0xff)
+on.attack(30, lbl_503, IMELDA_D7, ERWIN_01, 0x00, 0x00, 0xff)
+on.attack(31, lbl_50b, IMELDA_D7, ERWIN_01, 0x00, 0xff, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(10, lbl_2d4, ERWIN_01)
+on.defeat(11, lbl_2de, HEIN_05)
+on.defeat(12, lbl_2e6, ROHGA_0B)
+on.defeat(13, lbl_2ee, SONYA_0C)
+on.defeat(14, lbl_2f6, ESTO_11)
+on.defeat(15, lbl_2fe, OSTO_12)
+on.defeat(18, lbl_328, LANA_0A)
+on.defeat(19, lbl_330, LIANA_02)
+on.defeat(20, lbl_344, BERNHARDT_16)
+on.defeat(7, lbl_466, EGBERT_D8)
+on.defeat(27, lbl_4cd, LEON_D5)
+on.defeat(28, lbl_4e4, LAIRD_18)
+on.defeat(29, lbl_4fb, IMPERIALCOMMANDER_33)
+on.defeat(32, lbl_527, IMELDA_D7)
+on.defeat(34, lbl_60a, IMPERIALCOMMANDER_35)
+on.defeat(35, lbl_612, IMPERIALCOMMANDER_36)
+on.defeat(36, lbl_61a, IMPERIALCOMMANDER_37)
+on.defeat(37, lbl_62a, IMPERIALCOMMANDER_38)
+on.defeat(38, lbl_632, IMPERIALCOMMANDER_81)
+on.defeat(39, lbl_63a, IMPERIALCOMMANDER_82)
+on.defeat(4, lbl_642, IMPERIALCOMMANDER_35, IMPERIALCOMMANDER_36, IMPERIALCOMMANDER_37, IMPERIALCOMMANDER_38, IMPERIALCOMMANDER_81, IMPERIALCOMMANDER_82)
+on.defeat(5, lbl_644, IMPERIALCOMMANDER_33, IMPERIALCOMMANDER_37, IMPERIALCOMMANDER_38)
+break
+
+# Position-Triggered Events
+on.bound(8, lbl_2b2, NPC_SUBUNIT_F1, 15, 1, 15, 30, 0x00, 0x00)
+break
+
+# Turn-Triggered Events
+on.turn(2, lbl_1d9, ENEMY, 1, 0x00)
+on.turn(0, lbl_205, ENEMY, 0, 0x00)
+on.turn(3, lbl_236, ENEMY, 22, 0x00)
+on.turn(6, lbl_24f, ENEMY, 25, 0x00)
+break
+
+# Core Events
+lbl_112:
+  bgm(ALLY, ALLY3)
+  screen.fadein(4)
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.showsub(ERWIN_01)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.showsub(HEIN_05)
+  unit.position(ROHGA_0B, PRESET, PRESET)
+  unit.showsub(ROHGA_0B)
+  unit.position(SONYA_0C, PRESET, PRESET)
+  unit.showsub(SONYA_0C)
+  unit.position(ESTO_11, PRESET, PRESET)
+  unit.showsub(ESTO_11)
+  unit.position(OSTO_12, PRESET, PRESET)
+  unit.showsub(OSTO_12)
+  unit.position(LANA_0A, PRESET, PRESET)
+  unit.showsub(LANA_0A)
+  unit.position(LIANA_02, PRESET, PRESET)
+  unit.showsub(LIANA_02)
+  unit.position(BERNHARDT_16, PRESET, PRESET)
+  unit.showsub(BERNHARDT_16)
+  unit.position(EGBERT_D8, PRESET, PRESET)
+  unit.showsub(EGBERT_D8)
+  unit.position(LEON_D5, PRESET, PRESET)
+  unit.showsub(LEON_D5)
+  unit.position(LAIRD_18, PRESET, PRESET)
+  unit.showsub(LAIRD_18)
+  unit.position(IMELDA_D7, PRESET, PRESET)
+  unit.showsub(IMELDA_D7)
+  unit.position(IMPERIALCOMMANDER_33, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_33)
+  unit.position(IMPERIALCOMMANDER_35, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_35)
+  unit.position(IMPERIALCOMMANDER_36, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_36)
+  unit.position(IMPERIALCOMMANDER_37, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_37)
+  unit.position(IMPERIALCOMMANDER_38, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_38)
+  msg(IMPERIALCOMMANDER_38, IMELDA_D7, MAGE_GREEN, FOLLOW, 1)
+# The enemy is persistent! We've been cut off!\0
+  msg(IMELDA_D7, IMPERIALCOMMANDER_38, IMELDA, FOLLOW, 2)
+# We'll engage them on our terms.\0
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 3)
+# The Empire ends here!\0
+  msg(ROHGA_0B, RIGHT_F7, ROHGA, FOLLOW, 4)
+# You can't run any longer! Or perhaps you intend to jump out to sea?\0
+  msg(HEIN_05, RIGHT_F7, HEIN, FOLLOW, 5)
+# Swimming in armour can't be very easy.\0
+  msg(EGBERT_D8, LEFT_F6, EGBERT, FOLLOW, 6)
+# Vargas was defeated, I see ... These guys are pretty good.\0
+  msg(LEON_D5, EGBERT_D8, LEON, FOLLOW, 7)
+# In order to aid His Majesty's recovery, I administered him a sleeping drought.\r\nIf we fight them now, it will be very difficult.\r\nLaird, do all you can. Halt the enemy's advance!\0
+  msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 8)
+# Yes, General Leon!\0
+  msg(IMELDA_D7, LEON_D5, IMELDA, FOLLOW, 9)
+# We'll finish you for Vargas. He deserved far better than to die by the likes of you.\r\nDo you hear that? We, the Water Dragon Navy, shall crush you to pulp!\r\nEgbert, while I'm dealing with this whelp ... Please take the others to safety.\0
+  msg(EGBERT_D8, IMELDA_D7, EGBERT, FOLLOW, 10)
+# Very well. I'll see to it.\0
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 11)
+# Do you think we'll just let you run? Why do you think we're here?\0
+  branch.mem.global.eq(lbl_1d1, $0a4791, $07eb5e)
+  unit.setbit(LEON_D5, $17, 7)
+  unit.setbit(LANA_0A, $17, 4)
+lbl_1d1:
+  local.sum($0a47d0, $07eb58)
+  local.sum($0a47d0, $07eb59)
+break
+
+lbl_1d9:
+  msg(IMELDA_D7, LEFT_F6, IMELDA, FOLLOW, 12)
+# This isn't how I usually fight, but we're trying to buy time.\r\nWe don't need to move an inch. Hold your positions and engage the enemy as they come!\0
+  branch.unit.dead(lbl_1e9, IMPERIALCOMMANDER_33)
+  msg(IMPERIALCOMMANDER_33, IMELDA_D7, HIGHLORD_GREEN, FOLLOW, 13)
+# Understood!\0
+lbl_1e9:
+  branch.unit.dead(lbl_1f9, IMPERIALCOMMANDER_36)
+  msg(IMELDA_D7, IMPERIALCOMMANDER_36, IMELDA, FOLLOW, 14)
+# Smash their weak spot and thwart this invasion!\0
+  msg(IMPERIALCOMMANDER_36, IMELDA_D7, SERPENTKNIGHT_GREEN, FOLLOW, 15)
+# Yes, we'll break the enemy's front line!\0
+lbl_1f9:
+  branch.unit.dead(lbl_203, EGBERT_D8)
+  msg(IMELDA_D7, EGBERT_D8, IMELDA, FOLLOW, 16)
+# ...\r\nPlease look after the Kaiser, Egbert.\0
+lbl_203:
+break
+
+lbl_205:
+  msg(IMELDA_D7, LEFT_F6, IMELDA, FOLLOW, 17)
+# This has turned into a bloody conflict ...\0
+  bgm(ENEMY, ALLY4)
+  unit.deploy(IMPERIALCOMMANDER_81, 2, 3)
+  msg(IMPERIALCOMMANDER_81, IMELDA_D7, HAWKKNIGHT_GREEN, FOLLOW, 18)
+# General Imelda, we have just returned from reconnaissance.\0
+  unit.deploy(IMPERIALCOMMANDER_82, 2, 28)
+  msg(IMPERIALCOMMANDER_82, IMELDA_D7, HAWKKNIGHT_GREEN, FOLLOW, 19)
+# Hmmm, what's going on?\0
+  msg(IMELDA_D7, IMPERIALCOMMANDER_81, IMELDA, FOLLOW, 20)
+# You've returned just in time.\r\nFlank the enemy from the rear, all of you!\0
+  msg(IMPERIALCOMMANDER_82, IMELDA_D7, HAWKKNIGHT_GREEN, FOLLOW, 21)
+# Understood!\0
+  msg(ERWIN_01, IMPERIALCOMMANDER_81, ERWIN, FOLLOW, 22)
+# Damn it. Reinforcements? We could do without those.\0
+break
+
+lbl_236:
+  branch.mem.local.ne(lbl_243, $0a47d0, $07eb5c)
+  msg(IMELDA_D7, LEFT_F6, IMELDA, FOLLOW, 23)
+# My exit should be here soon.\r\nBut I don't know if ... No, we must keep fighting!\0
+  goto(lbl_24d)
+lbl_243:
+  branch.mem.local.eq(lbl_24d, $0a47d0, $07eb5d)
+  msg(IMELDA_D7, LEFT_F6, IMELDA, FOLLOW, 24)
+# My exit should be here soon.\r\nIf we keep this pace, I may be able to wait things out.\0
+lbl_24d:
+break
+
+lbl_24f:
+  branch.mem.local.ne(lbl_255, $0a47d0, $07eb5f)
+  unit.reset(EGBERT_D8)
+lbl_255:
+  cast.teleport(EGBERT_D8, EGBERT_D8, TELEPORT_TO, 22, 24)
+  msg(EGBERT_D8, IMELDA_D7, EGBERT, FOLLOW, 25)
+# Sorry we've kept you, Imelda. We're ready for you now.\0
+  msg(IMELDA_D7, ERWIN_01, IMELDA, FOLLOW, 26)
+# Hah hah hah hah ... So you had a little preparatory meeting, did you?\r\nGetting all ready for the great Imelda! Boys, it's been fun!\r\nNow, how would you like to play on the water?\0
+  msg(EGBERT_D8, IMELDA_D7, EGBERT, FOLLOW, 113)
+# Watchers of time and space ... Honour your ancient pledge and send them to another land ...\0
+  cast.teleport(EGBERT_D8, IMELDA_D7, TELEPORT_OUT, PRESET, PRESET)
+  cast.teleport(EGBERT_D8, IMPERIALCOMMANDER_33, TELEPORT_OUT, PRESET, PRESET)
+  cast.teleport(EGBERT_D8, IMPERIALCOMMANDER_35, TELEPORT_OUT, PRESET, PRESET)
+  cast.teleport(EGBERT_D8, IMPERIALCOMMANDER_36, TELEPORT_OUT, PRESET, PRESET)
+  cast.teleport(EGBERT_D8, IMPERIALCOMMANDER_37, TELEPORT_OUT, PRESET, PRESET)
+  cast.teleport(EGBERT_D8, IMPERIALCOMMANDER_38, TELEPORT_OUT, PRESET, PRESET)
+  cast.teleport(EGBERT_D8, IMPERIALCOMMANDER_81, TELEPORT_OUT, PRESET, PRESET)
+  cast.teleport(EGBERT_D8, IMPERIALCOMMANDER_82, TELEPORT_OUT, PRESET, PRESET)
+  msg(EGBERT_D8, ERWIN_01, EGBERT, FOLLOW, 27)
+# _NAME_, there's a nice welcoming army waiting for you on the continent.\r\nI think you'll be pleasantly surprised by its numbers. Please, look forward to it.\0
+  cast.teleport(EGBERT_D8, EGBERT_D8, TELEPORT_OUT, PRESET, PRESET)
+  msg(ERWIN_01, EGBERT_D8, ERWIN, FOLLOW, 28)
+# Damn this! We took too long ...!\0
+  gameover()
+break
+
+lbl_2b2:
+  unit.clearbit(IMPERIALCOMMANDER_33, $17, 0)
+  unit.clearbit(IMPERIALCOMMANDER_37, $17, 0)
+  unit.clearbit(IMPERIALCOMMANDER_38, $17, 0)
+  local.sum($0a47d0, $07eb58)
+  local.sub($0a47d0, $07eb59)
+break
+
+lbl_2c6:
+  msg(ERWIN_01, IMELDA_D7, ERWIN, NOFOLLOW, 29)
+# Imelda, your time is up.\0
+  msg(IMELDA_D7, ERWIN_01, IMELDA, NOFOLLOW, 30)
+# Hah, don't speak so casually of my death.\r\nI'll be around long after you taste dirt, _NAME_.\0
+break
+
+lbl_2d4:
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 31)
+# How could I lose ...\0
+  unit.cleanup()
+  gameover()
+break
+
+lbl_2de:
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 32)
+# Argh! You got me ...\0
+break
+
+lbl_2e6:
+  msg(ROHGA_0B, DOWN_F5, ROHGA_DEAD, FOLLOW, 33)
+# God damn it!\0
+break
+
+lbl_2ee:
+  msg(SONYA_0C, DOWN_F5, SONYA_DEAD, FOLLOW, 34)
+# Aarrghh ...!\0
+break
+
+lbl_2f6:
+  msg(ESTO_11, DOWN_F5, ESTO_DEAD, FOLLOW, 35)
+# Ooohh ...\0
+break
+
+lbl_2fe:
+  msg(OSTO_12, DOWN_F5, OSTO_DEAD, FOLLOW, 36)
+# Aaahhh--!\0
+break
+
+lbl_306:
+  branch.mem.local.ne(lbl_313, $0a47d2, $07eb59)
+  msg(LANA_0A, LEON_D5, DARKPRINCESS, NOFOLLOW, 37)
+# Payback is cruel, wouldn't you say, Leon?\0
+  goto(lbl_31f)
+lbl_313:
+  msg(LANA_0A, LEON_D5, DARKPRINCESS, NOFOLLOW, 38)
+# Leon, I don't want to take your life. Surrender, please!\0
+  msg(LEON_D5, LANA_0A, LEON, FOLLOW, 39)
+# I thought this fight was inevitable.\0
+lbl_31f:
+  global.sum($0a4791, $07eb5e)
+  unit.clearbit(LEON_D5, $17, 7)
+break
+
+lbl_328:
+  msg(LANA_0A, DOWN_F5, DARKPRINCESS_DEAD, FOLLOW, 40)
+# Ugh, my strength is ...\0
+break
+
+lbl_330:
+  msg(LIANA_02, DOWN_F5, LIANA_DEAD, FOLLOW, 41)
+# I, I haven't lost yet ...!\0
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 42)
+# Liana, don't be foolish! Get out of here!\0
+  msg(LIANA_02, ERWIN_01, LIANA_DEAD, FOLLOW, 43)
+# Very well ... If you think so, then ...\0
+break
+
+lbl_344:
+  msg(BERNHARDT_16, DOWN_F5, BERNHARDT_DEAD, FOLLOW, 44)
+# Wh, when did you ...?\0
+  msg(EGBERT_D8, BERNHARDT_16, EGBERT, FOLLOW, 45)
+# Grrr, no!\0
+  subroutine(lbl_646)
+  cast.teleport(EGBERT_D8, BERNHARDT_16, TELEPORT_OUT, PRESET, PRESET)
+break
+
+lbl_35b:
+  branch.unit.dead(lbl_3b8, BERNHARDT_16)
+  msg(IMELDA_D7, EGBERT_D8, IMELDA, FOLLOW, 46)
+# Wh, what are you doing, Egbert?\0
+  msg(EGBERT_D8, IMELDA_D7, EGBERT, FOLLOW, 47)
+# Though it pains me to say so, I must teleport His Majesty. There is no alternative.\0
+  msg(IMELDA_D7, EGBERT_D8, IMELDA, FOLLOW, 48)
+# That's a tremendous strain ...! His Majesty is far too weak!\0
+  msg(EGBERT_D8, IMELDA_D7, EGBERT, FOLLOW, 49)
+# Thanks to the sedative, His Majesty sleeps soundly.\r\nIn this state, the process will be far less stressful. He should endure it well.\0
+  branch.unit.dead(lbl_384, LEON_D5)
+  msg(LEON_D5, EGBERT_D8, LEON, FOLLOW, 50)
+# It's our only option.\0
+  goto(lbl_38a)
+lbl_384:
+  msg(IMELDA_D7, EGBERT_D8, IMELDA, FOLLOW, 51)
+# That's true. There's nothing else ...\r\nAll we can do is attempt it.\0
+lbl_38a:
+  msg(EGBERT_D8, UP_F4, EGBERT, FOLLOW, 52)
+# Yes, precisely. Now, let's begin.\0
+  msg(IMELDA_D7, EGBERT_D8, IMELDA, FOLLOW, 53)
+# Okay. It's up to you.\0
+  subroutine(lbl_646)
+  cast.teleport(EGBERT_D8, BERNHARDT_16, TELEPORT_OUT, PRESET, PRESET)
+  branch.unit.dead(lbl_3ac, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 54)
+# This is pretty bad, _NAME_! They're planning on teleporting to escape!\0
+  goto(lbl_3b2)
+lbl_3ac:
+  msg(ERWIN_01, EGBERT_D8, ERWIN, FOLLOW, 55)
+# You think you can get away with a teleport spell?\0
+lbl_3b2:
+  msg(IMELDA_D7, EGBERT_D8, IMELDA, FOLLOW, 56)
+# Everyone, I'll buy more time. Get ready to escape.\0
+lbl_3b8:
+break
+
+lbl_3ba:
+  branch.unit.dead(lbl_3f8, LAIRD_18)
+  branch.unit.dead(lbl_3e3, LEON_D5)
+  msg(EGBERT_D8, LEON_D5, EGBERT, FOLLOW, 57)
+# All right, Leon. Now it's your turn.\0
+  msg(LEON_D5, EGBERT_D8, LEON, FOLLOW, 58)
+# Please send Laird first. I don't mind going after him.\0
+  msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 59)
+# But ... General Leon!\0
+  msg(LEON_D5, LAIRD_18, LEON, FOLLOW, 60)
+# You will move ahead and protect His Majesty. This is an order.\0
+  msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 61)
+# ...\r\nVery well ...\0
+  goto(lbl_3e9)
+lbl_3e3:
+  msg(EGBERT_D8, LAIRD_18, EGBERT, FOLLOW, 62)
+# Well then, Laird, you're next.\0
+lbl_3e9:
+  subroutine(lbl_646)
+  cast.teleport(EGBERT_D8, LAIRD_18, TELEPORT_OUT, PRESET, PRESET)
+  msg(IMELDA_D7, UP_F4, IMELDA, FOLLOW, 63)
+# I wonder how long I can hold out here ...\r\nHmph, that isn't like me! I'll focus on slaughtering every last one of the curs!\0
+lbl_3f8:
+break
+
+lbl_3fa:
+  branch.unit.dead(lbl_42e, LEON_D5)
+  msg(EGBERT_D8, LEON_D5, EGBERT, FOLLOW, 64)
+# Leon, it is your turn.\0
+  msg(LEON_D5, EGBERT_D8, LEON, FOLLOW, 65)
+# Egbert, if you would ... Please send the others ahead.\r\nAfter all, I've handled graver battles than this.\0
+  msg(EGBERT_D8, LEON_D5, EGBERT, FOLLOW, 66)
+# Do not forget your duty.\r\nYou are the leader of the Blue Dragon Knights, the retainer of His Majesty.\r\nNo one can replace you, not even Laird.\0
+  msg(LEON_D5, EGBERT_D8, LEON, FOLLOW, 67)
+# ...\0
+  msg(EGBERT_D8, LEON_D5, EGBERT, FOLLOW, 68)
+# Let's go, Leon. Opposition shall not be tolerated.\0
+  msg(LEON_D5, EGBERT_D8, LEON, FOLLOW, 69)
+# Very well. Get on with it.\0
+  subroutine(lbl_646)
+  cast.teleport(EGBERT_D8, LEON_D5, TELEPORT_OUT, PRESET, PRESET)
+  local.sum($0a47d3, $07eb58)
+lbl_42e:
+break
+
+lbl_430:
+  msg(EGBERT_D8, IMELDA_D7, EGBERT, FOLLOW, 70)
+# Sorry to have kept you, Imelda. I'll send you off at once.\0
+  msg(IMELDA_D7, EGBERT_D8, IMELDA, FOLLOW, 71)
+# ...\r\nHah ... hah hah! What kind of joke is this!?\r\nYou can't zap off a thousand people in a row! If you have any strength left, save yourself!\0
+  branch.mem.local.ne(lbl_449, $0a47d3, $07eb58)
+  msg(IMELDA_D7, EGBERT_D8, IMELDA, FOLLOW, 72)
+# The Kaiser will need his chief counsellor, Egbert.\r\nTake the advice you gave to Leon.\0
+  goto(lbl_44f)
+lbl_449:
+  msg(IMELDA_D7, EGBERT_D8, IMELDA, FOLLOW, 73)
+# A counsellor and his Kaiser should always stick close, wouldn't you agree?\r\nIf you can't do it, who shall?\0
+lbl_44f:
+  msg(EGBERT_D8, IMELDA_D7, EGBERT, FOLLOW, 74)
+# ...\r\nForgive me ... Once my power returns, I will come for you. I swear it.\0
+  cast.teleport(EGBERT_D8, EGBERT_D8, TELEPORT_OUT, PRESET, PRESET)
+  msg(IMELDA_D7, ERWIN_01, IMELDA, FOLLOW, 75)
+# Now that those annoying gentlemen are out of the way, it's time for the main event!\0
+  local.sub($0a47d0, $07eb58)
+break
+
+lbl_466:
+  msg(EGBERT_D8, DOWN_F5, EGBERT_DEAD, FOLLOW, 76)
+# Ugh ... If we don't hurry ...\0
+  branch.mem.local.eq(lbl_479, $0a47d2, $07eb5d)
+  msg(EGBERT_D8, UP_F4, EGBERT_DEAD, FOLLOW, 110)
+# No ... At the least, I wanted to join Leon, Laird and His Majesty.\0
+  goto(lbl_496)
+lbl_479:
+  branch.mem.local.eq(lbl_486, $0a47d2, $07eb5e)
+  msg(EGBERT_D8, UP_F4, EGBERT_DEAD, FOLLOW, 111)
+# No ... At the least, I wanted to join Leon and Laird.\0
+  goto(lbl_496)
+lbl_486:
+  branch.mem.local.eq(lbl_493, $0a47d2, $07eb5f)
+  msg(EGBERT_D8, UP_F4, EGBERT_DEAD, FOLLOW, 112)
+# No ... At the least, I wanted to be with Leon ...\0
+  goto(lbl_496)
+lbl_493:
+  goto(lbl_49f)
+lbl_496:
+  msg(EGBERT_D8, DOWN_F5, EGBERT_DEAD, FOLLOW, 113)
+# Watchers of time and space ... Honour your ancient pledge and send them to another land ...\0
+  subroutine(lbl_64d)
+lbl_49f:
+  msg(EGBERT_D8, IMELDA_D7, EGBERT_DEAD, FOLLOW, 77)
+# Imelda, please take care. I will return for you.\0
+  subroutine(lbl_660)
+  subroutine(lbl_667)
+  local.sub($0a47d0, $07eb58)
+break
+
+lbl_4b0:
+  msg(LEON_D5, LANA_0A, LEON, NOFOLLOW, 78)
+# Why have you come? If you hadn't, I wouldn't have drawn my sword.\0
+break
+
+lbl_4b8:
+  branch.unit.dead(lbl_4c5, BERNHARDT_16)
+  msg(LEON_D5, ERWIN_01, LEON, NOFOLLOW, 79)
+# _NAME_, is it? You are unfit to share the Kaiser's air!\r\nPrepare to die!\0
+  goto(lbl_4cb)
+lbl_4c5:
+  msg(LEON_D5, ERWIN_01, LEON, NOFOLLOW, 80)
+# What's wrong? Had enough? What a weakling you are, traitor _NAME_!\0
+lbl_4cb:
+break
+
+lbl_4cd:
+  msg(LEON_D5, DOWN_F5, LEON_DEAD, FOLLOW, 81)
+# Ugh!\0
+  msg(EGBERT_D8, LEON_D5, EGBERT, FOLLOW, 82)
+# Grr, no!\0
+  subroutine(lbl_646)
+  cast.teleport(EGBERT_D8, LEON_D5, TELEPORT_OUT, PRESET, PRESET)
+break
+
+lbl_4e4:
+  msg(LAIRD_18, DOWN_F5, LAIRD_DEAD, FOLLOW, 83)
+# Aaarrrghh!\0
+  msg(EGBERT_D8, LAIRD_18, EGBERT, FOLLOW, 84)
+# Grr, no!\0
+  subroutine(lbl_646)
+  cast.teleport(EGBERT_D8, LAIRD_18, TELEPORT_OUT, PRESET, PRESET)
+break
+
+lbl_4fb:
+  msg(IMPERIALCOMMANDER_33, DOWN_F5, HIGHLORD_GREEN_DEAD, FOLLOW, 85)
+# General Imelda ..., your forgiveness ... please ...\0
+break
+
+lbl_503:
+  msg(IMELDA_D7, ERWIN_01, IMELDA, NOFOLLOW, 86)
+# I'll take care of you, kid.\0
+break
+
+lbl_50b:
+  branch.mem.local.ne(lbl_515, $0a47d3, $07eb59)
+  subroutine(lbl_674)
+  goto(lbl_525)
+lbl_515:
+  branch.unit.dead(lbl_522, EGBERT_D8)
+  msg(IMELDA_D7, LEFT_F6, IMELDA, NOFOLLOW, 87)
+# Until Egbert sends everyone off, I will not die!\0
+  goto(lbl_525)
+lbl_522:
+  subroutine(lbl_674)
+lbl_525:
+break
+
+lbl_527:
+  branch.unit.dead(lbl_534, LAIRD_18)
+  msg(LAIRD_18, IMELDA_D7, LAIRD, FOLLOW, 88)
+# General Imelda!\0
+  local.sum($0a47d4, $07eb59)
+lbl_534:
+  branch.unit.dead(lbl_541, LEON_D5)
+  msg(LEON_D5, IMELDA_D7, LEON, FOLLOW, 89)
+# Uugghh ... I didn't make it ...\0
+  local.sum($0a47d4, $07eb59)
+lbl_541:
+  branch.mem.local.ne(lbl_54b, $0a47d4, $07eb59)
+  msg(IMELDA_D7, UP_F4, IMELDA_DEAD, FOLLOW, 90)
+# Ah hah hah, how foolish! Why is your face so pale!? I'm not even through with you!\0
+lbl_54b:
+  branch.unit.dead(lbl_594, EGBERT_D8)
+  msg(IMELDA_D7, DOWN_F5, IMELDA_DEAD, FOLLOW, 91)
+# Egbert, what are you doing!? Get out of here now!\r\nDo you want to render my efforts completely useless?\0
+  msg(EGBERT_D8, DOWN_F5, EGBERT, FOLLOW, 92)
+# ...\r\nAll right. I'm going.\0
+  branch.mem.local.eq(lbl_568, $0a47d2, $07eb5d)
+  msg(EGBERT_D8, UP_F4, EGBERT, FOLLOW, 110)
+# No ... At the least, I wanted to join Leon, Laird and His Majesty.\0
+  goto(lbl_585)
+lbl_568:
+  branch.mem.local.eq(lbl_575, $0a47d2, $07eb5e)
+  msg(EGBERT_D8, UP_F4, EGBERT, FOLLOW, 111)
+# No ... At the least, I wanted to join Leon and Laird.\0
+  goto(lbl_585)
+lbl_575:
+  branch.mem.local.eq(lbl_582, $0a47d2, $07eb5f)
+  msg(EGBERT_D8, UP_F4, EGBERT, FOLLOW, 112)
+# No ... At the least, I wanted to be with Leon ...\0
+  goto(lbl_585)
+lbl_582:
+  goto(lbl_58b)
+lbl_585:
+  msg(EGBERT_D8, DOWN_F5, EGBERT, FOLLOW, 93)
+# Watchers of time and space ... Honour your ancient pledge and send us to another land ...\0
+lbl_58b:
+  subroutine(lbl_64d)
+  cast.teleport(EGBERT_D8, EGBERT_D8, TELEPORT_OUT, PRESET, PRESET)
+lbl_594:
+  msg(IMELDA_D7, DOWN_F5, IMELDA_DEAD, FOLLOW, 94)
+# Hah ... hah hah ...!\r\nMy allies escaped, but ... the Queen of the Seas, she's going to ... die here?\r\nA bad deal ... But maybe not.\r\nThat bald-head Vargas ... He is already waiting for me in the next world.\r\nMaybe I can be ... the Queen of Hell ... Ah hah ... hah hah ...\0
+  unit.cleanup()
+  scenarioclear()
+  msg(ERWIN_01, IMELDA_D7, ERWIN, FOLLOW, 95)
+# So this ends the Water Dragon Navy ...?\0
+  branch.unit.dead(lbl_5ac, ROHGA_0B)
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 96)
+# We don't have time to rest. We must go after everyone who escaped with Egbert!\0
+lbl_5ac:
+  msg(ERWIN_01, ROHGA_0B, ERWIN, FOLLOW, 97)
+# But where did Bernhardt and the others run off to?\0
+  branch.unit.dead(lbl_5bf, LANA_0A)
+  msg(LANA_0A, ERWIN_01, DARKPRINCESS, FOLLOW, 114)
+# There's no need to worry. With Egbert's spell, they all must arrive in one place.\0
+  goto(lbl_5c5)
+lbl_5bf:
+  msg(LANA_0A, DOWN_F5, DARKPRINCESS_DEAD, NOFOLLOW, 114)
+# There's no need to worry. With Egbert's spell, they all must arrive in one place.\0
+lbl_5c5:
+  branch.unit.dead(lbl_5cf, SONYA_0C)
+  msg(SONYA_0C, LANA_0A, SONYA, FOLLOW, 98)
+# Do you know?\0
+lbl_5cf:
+  branch.unit.dead(lbl_5dc, LANA_0A)
+  msg(LANA_0A, ERWIN_01, DARKPRINCESS, FOLLOW, 115)
+# The Empire's re-entry point is Twin Castle.\r\nLong ago, a king who stole the power of Langrisser lived there.\0
+  goto(lbl_5e2)
+lbl_5dc:
+  msg(LANA_0A, DOWN_F5, DARKPRINCESS_DEAD, NOFOLLOW, 115)
+# The Empire's re-entry point is Twin Castle.\r\nLong ago, a king who stole the power of Langrisser lived there.\0
+lbl_5e2:
+  branch.unit.dead(lbl_5ec, HEIN_05)
+  msg(HEIN_05, DOWN_F5, HEIN, FOLLOW, 99)
+# Twin Castle, maybe.\r\nIt's the former stronghold of the Dalshis Empire.\0
+lbl_5ec:
+  branch.unit.dead(lbl_600, LIANA_02)
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 100)
+# We can get there with this boat. Let's hurry!\0
+  branch.unit.dead(lbl_600, ROHGA_0B)
+  msg(ROHGA_0B, LIANA_02, ROHGA, FOLLOW, 101)
+# Yes.\r\nThey've evaded us long enough.\0
+lbl_600:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 102)
+# All right. Destination, Twin Castle.\0
+  loadscenario(63)
+break
+
+lbl_60a:
+  msg(IMPERIALCOMMANDER_35, DOWN_F5, SERPENTKNIGHT_GREEN_DEAD, FOLLOW, 103)
+# I should be invincible in the ocean ...!\0
+break
+
+lbl_612:
+  msg(IMPERIALCOMMANDER_36, DOWN_F5, SERPENTKNIGHT_GREEN_DEAD, FOLLOW, 104)
+# B, bastards ...\0
+break
+
+lbl_61a:
+  msg(IMPERIALCOMMANDER_37, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 105)
+# My mounted troops ...\0
+break
+
+lbl_622:
+  msg(IMPERIALCOMMANDER_38, LEFT_F6, MAGE_GREEN, NOFOLLOW, 106)
+# I won't let peasants like you touch His Majesty! Have at you!\0
+break
+
+lbl_62a:
+  msg(IMPERIALCOMMANDER_38, DOWN_F5, MAGE_GREEN_DEAD, FOLLOW, 107)
+# Aarrggghhh ...! How could I lose to a bunch of monsters ...\0
+break
+
+lbl_632:
+  msg(IMPERIALCOMMANDER_81, DOWN_F5, HAWKKNIGHT_GREEN_DEAD, FOLLOW, 108)
+# Did I pick the wrong weapon ...?\0
+break
+
+lbl_63a:
+  msg(IMPERIALCOMMANDER_82, DOWN_F5, HAWKKNIGHT_GREEN_DEAD, FOLLOW, 109)
+# Why couldn't I win ...?\0
+break
+
+lbl_642:
+break
+
+lbl_644:
+break
+
+lbl_646:
+  msg(EGBERT_D8, UP_F4, EGBERT, FOLLOW, 116)
+# Watchers of time and space ... Honour your ancient pledge and send them to another land ...\0
+endsub
+
+lbl_64d:
+  cast.teleport(EGBERT_D8, BERNHARDT_16, TELEPORT_OUT, PRESET, PRESET)
+  cast.teleport(EGBERT_D8, LEON_D5, TELEPORT_OUT, PRESET, PRESET)
+  cast.teleport(EGBERT_D8, LAIRD_18, TELEPORT_OUT, PRESET, PRESET)
+endsub
+
+lbl_660:
+  msg(IMELDA_D7, EGBERT_D8, IMELDA, FOLLOW, 117)
+# All right. We will expect you.\0
+endsub
+
+lbl_667:
+  msg(EGBERT_D8, DOWN_F5, EGBERT, FOLLOW, 118)
+# Watchers of time and space ... Honour your ancient pledge and send me to another land ...\0
+  cast.teleport(EGBERT_D8, EGBERT_D8, TELEPORT_OUT, PRESET, PRESET)
+endsub
+
+lbl_674:
+  msg(IMELDA_D7, LEFT_F6, IMELDA, NOFOLLOW, 119)
+# Until Egbert returns, we cannot die!\0
+endsub
+

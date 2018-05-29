@@ -100,9 +100,13 @@ if (!file_exists("resources/define/unit.txt"))
   die("Fatal error: Unit definitions not found.\n");
 $ar_unit = explode("\n", file_get_contents("resources/define/unit.txt"));
 
-if (!file_exists("resources/define/unit.txt"))
+if (!file_exists("resources/define/spell.txt"))
   die("Fatal error: Unit definitions not found.\n");
-$ar_unit = explode("\n", file_get_contents("resources/define/unit.txt"));
+$ar_spell = explode("\n", file_get_contents("resources/define/spell.txt"));
+
+if (!file_exists("resources/define/class.txt"))
+  die("Fatal error: Unit definitions not found.\n");
+$ar_class = explode("\n", file_get_contents("resources/define/class.txt"));
 
 if (!file_exists("resources/define/team.txt"))
   die("Fatal error: Unit definitions not found.\n");
@@ -798,6 +802,21 @@ for($i = 0; $i < count($events); $i++) {
         fputs($fo, "  screen.fadeout($t_time)\n");
         break;
       
+      // unit.flag(unit)
+      // uint_8[0x34] uint_8[unit]
+      // Marks unit for automated repositioning
+      case 0x34:
+        $t_unit = $ar_unit[fgetb($fd)];
+        fputs($fo, "  unit.flag($t_unit)\n");
+        break;
+      
+      // positionflagged()
+      // uint_8[0x35]
+      // Repositions all flagged units at preconfigured coordinates
+      case 0x35:
+        fputs($fo, "  positionflagged()\n");
+        break;
+      
       // unit.position(unit, x, y)
       // uint_8[0x36] uint_8[unit] uint_8[x] uint_8[y]
       // Position unit at x,y coordinate
@@ -881,6 +900,15 @@ for($i = 0; $i < count($events); $i++) {
         fputs($fo, "  unit.move($t_unit, $t_x, $t_y)\n");
         break;
       
+      // unit.statboost(stat, amount)
+      // uint_8[0x40] uint_8[stat] uint_8[amount]
+      // Raise the current unit's stat by amount
+      case 0x40:
+        $t_stat = fgetb($fd);
+        $t_amount = fgetb($fd);
+        fputs($fo, "  unit.statboost($t_stat, $t_amount)\n");
+        break;
+      
       // screen.mask(r, g, b)
       // uint_8[0x42] uint_8[b] uint_8[g] uint_8[r]
       // Tint the screen with an RGB mask
@@ -913,12 +941,77 @@ for($i = 0; $i < count($events); $i++) {
         fputs($fo, "# " . sctxt($ar_talk[$t_line3 - 1]) . "\\0\n");
         break;
       
+      // unit.reset(unit)
+      // uint_8[0x45] uint_8[unit]
+      // Resets the HP and status of unit to default
+      case 0x45:
+        $t_unit = $ar_unit[fgetb($fd)];
+        fputs($fo, "  unit.reset($t_unit)\n");
+        break;
+      
+      // delay(time)
+      // uint_8[0x46] uint_8[time]
+      // Wait time seconds
+      case 0x46:
+        $t_time = fgetb($fd);
+        fputs($fo, "  delay($t_time)\n");
+        break;
+      
       // screen.map.set(map)
       // uint_8[0x47] uint_8[map]
       // Replace current map set with map
       case 0x47:
         $t_map = fgetb($fd);
         fputs($fo, "  screen.map.set($t_map)\n");
+        break;
+      
+      // loadlushiris()
+      // uint_8[0x48] uint_8[0x00]
+      // Loads Lushiris's backdrop for the character creation quiz
+      case 0x48:
+        fgetc($fd);
+        fputs($fo, "  loadlushiris()\n");
+        break;
+      
+      // setclass(class)
+      // uint_8[0x49] uint_8[0x00] uint_8[class]
+      // Sets Erwin's starting class in character creation quiz
+      case 0x49:
+        fgetc($fd);
+        $t_class = $ar_class[fgetb($fd)];
+        fputs($fo, "  setclass($t_class)\n");
+        break;
+      
+      // unit.attributeboost(attrib, value)
+      // uint_8[0x4a] uint_8[attrib] uint_8[value]
+      // Raises unit's attribute by value
+      case 0x4a:
+        $t_attrib = fgetb($fd);
+        $t_value = fgetb($fd);
+        fputs($fo, "  unit.attributeboost($t_attrib, $t_value)\n");
+        break;
+      
+      // enablehire(unit)
+      // uint_8[0x4b] uint_8[unit]
+      // Enable the hiring of unit during the character creation quiz
+      case 0x4b:
+        $t_unit = $ar_class[fgetb($fd)];
+        fputs($fo, "  enablehire($t_unit)\n");
+        break;
+      
+      // enablemagic(spell)
+      // uint_8[0x4c] uint_8[spell]
+      // Enable the use of magic during the character creation quiz
+      case 0x4c:
+        $t_spell = $ar_spell[fgetb($fd)];
+        fputs($fo, "  enablespell($t_spell)\n");
+        break;
+      
+      // entername()
+      // uint_8[0x4d]
+      // Loads the name entry box during the character creation quiz
+      case 0x4d:
+        fputs($fo, "  entername()\n");
         break;
       
       // money.add(money)
@@ -935,31 +1028,6 @@ for($i = 0; $i < count($events); $i++) {
       // Display Scenario Clear animation
       case 0x4f:
         fputs($fo, "  scenarioclear()\n");
-        break;
-      
-      // unit.statboost(stat, amount)
-      // uint_8[0x40] uint_8[stat] uint_8[amount]
-      // Raise the current unit's stat by amount
-      case 0x40:
-        $t_stat = fgetb($fd);
-        $t_amount = fgetb($fd);
-        fputs($fo, "  unit.statboost($t_stat, $t_amount)\n");
-        break;
-      
-      // unit.reset(unit)
-      // uint_8[0x45] uint_8[unit]
-      // Resets the HP and status of unit to default
-      case 0x45:
-        $t_unit = $ar_unit[fgetb($fd)];
-        fputs($fo, "  unit.reset($t_unit)\n");
-        break;
-      
-      // delay(time)
-      // uint_8[0x46] uint_8[time]
-      // Wait time seconds
-      case 0x46:
-        $t_time = fgetb($fd);
-        fputs($fo, "  delay($t_time)\n");
         break;
       
       // attack(unit1, unit2)

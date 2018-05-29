@@ -1,0 +1,690 @@
+# Movement-Triggered Events
+on.move(16, lbl_395, HEIN_05, 0, 0xff)
+on.move(17, lbl_39d, HEIN_05, 3, 0xff)
+on.move(18, lbl_3b1, HEIN_05, 5, 0xff)
+break
+
+# Attack-Triggered Events
+on.attack(14, lbl_384, ERWIN_01, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(24, lbl_456, WYVERN_57, NPC_COMMANDER_F0, 0x00, 0x00, 0xff)
+on.attack(25, lbl_45e, ERWIN_01, WYVERN_57, 0x00, 0x00, 0xff)
+on.attack(27, lbl_474, KERBEROS_52, NPC_COMMANDER_F0, 0x00, 0x00, 0xff)
+on.attack(29, lbl_499, COMMANDER_23, NPC_COMMANDER_F0, 0x00, 0x00, 0xff)
+on.attack(37, lbl_4ff, ROC_7A, HEIN_05, 0x00, 0xff, 0xff)
+on.attack(3, lbl_50a, HEIN_05, ROC_7A, 0x00, 0x00, 0xff)
+on.attack(38, lbl_51e, ROC_7A, HEIN_05, 0x00, 0x00, 0xff)
+on.attack(39, lbl_529, HEIN_05, ROC_7A, 0x00, 0x00, 0xff)
+on.attack(42, lbl_547, COMMANDER_85, IMELDA_0F, 0x00, 0xff, 0xff)
+on.attack(43, lbl_54f, IMELDA_0F, COMMANDER_85, 0x00, 0x00, 0xff)
+on.attack(45, lbl_56b, COMMANDER_86, LEON_0D, 0x00, 0xff, 0xff)
+on.attack(46, lbl_573, LEON_0D, COMMANDER_86, 0x00, 0x00, 0xff)
+on.attack(47, lbl_581, LEON_0D, COMMANDER_86, 0xff, 0x00, 0xff)
+on.attack(50, lbl_59c, COMMANDER_87, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(51, lbl_5ae, ROHGA_0B, COMMANDER_87, 0x00, 0x00, 0xff)
+on.attack(55, lbl_69b, NULL_FF, WITCH_74, 0xff, 0x00, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(15, lbl_38c, ERWIN_01)
+on.defeat(19, lbl_3cd, HEIN_05)
+on.defeat(20, lbl_3e8, ROHGA_0B)
+on.defeat(21, lbl_409, LEON_0D)
+on.defeat(22, lbl_421, IMELDA_0F)
+on.defeat(23, lbl_448, HEIN_05, ROHGA_0B, LEON_0D, IMELDA_0F)
+on.defeat(26, lbl_46c, WYVERN_57)
+on.defeat(28, lbl_47c, KERBEROS_52)
+on.defeat(30, lbl_4a1, COMMANDER_23)
+on.damage(4, lbl_4b2, NULL_FF, WITCH_73, 0xff, 0x00)
+on.damage(31, lbl_4ba, ERWIN_01, WITCH_73, 0x00, 0x00)
+on.damage(32, lbl_4c5, HEIN_05, WITCH_73, 0x00, 0x00)
+on.damage(33, lbl_4d0, ROHGA_0B, WITCH_73, 0x00, 0x00)
+on.damage(34, lbl_4db, LEON_0D, WITCH_73, 0x00, 0x00)
+on.damage(35, lbl_4e6, IMELDA_0F, WITCH_73, 0x00, 0x00)
+on.defeat(36, lbl_4f1, WITCH_73)
+on.defeat(40, lbl_534, ROC_7A)
+on.damage(41, lbl_53f, NPC_SUBUNIT_F1, ROC_7A, 0x00, 0x00)
+on.defeat(44, lbl_563, COMMANDER_85)
+on.defeat(48, lbl_589, COMMANDER_86)
+on.damage(49, lbl_594, LEON_0D, COMMANDER_86, 0xff, 0x00)
+on.defeat(52, lbl_5e0, COMMANDER_87)
+on.defeat(53, lbl_5e8, WYVERN_57, ROC_7A, COMMANDER_85, COMMANDER_86, COMMANDER_87)
+on.defeat(56, lbl_6a3, WITCH_74)
+break
+
+# Position-Triggered Events
+on.bound(12, lbl_338, NPC_COMMANDER_F0, 1, 12, 19, 22, 0x00, 0x00)
+on.bound(13, lbl_34b, NPC_SUBUNIT_F1, 1, 1, 29, 12, 0x00, 0x00)
+on.bound(54, lbl_601, NPC_COMMANDER_F0, 15, 5, 15, 5, 0x00, 0x00)
+break
+
+# Turn-Triggered Events
+on.turn(5, lbl_2ca, ENEMY, 1, 0x00)
+on.turn(6, lbl_2f0, ENEMY, 20, 0x00)
+on.turn(8, lbl_302, ALLY, 21, 0x00)
+on.turn(9, lbl_30e, ENEMY, 21, 0x00)
+on.turn(10, lbl_320, ALLY, 22, 0x00)
+on.turn(11, lbl_32c, ENEMY, 22, 0x00)
+break
+
+# Core Events
+lbl_19a:
+  focus.point(14, 26, FAST)
+  cursor.set(NULL_00)
+  bgm(ALLY, ENEMY1_LEON)
+  screen.fadein(4)
+  cursor.set(ERWIN_01)
+  unit.position(ROHGA_0B, PRESET, PRESET)
+  unit.showsub(ROHGA_0B)
+  unit.position(IMELDA_0F, PRESET, PRESET)
+  unit.showsub(IMELDA_0F)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.showsub(HEIN_05)
+  unit.position(LEON_0D, PRESET, PRESET)
+  unit.showsub(LEON_0D)
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.showsub(ERWIN_01)
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 1)
+# This cave ... It looks inhabited!\0
+  msg(IMELDA_0F, ERWIN_01, IMELDA, FOLLOW, 2)
+# Who could live here? I wonder ...\0
+  msg(LEON_0D, ERWIN_01, LEON, FOLLOW, 3)
+# Investigating couldn't hurt. Just be on your guard.\0
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 4)
+# Personally, I'm hoping for a little excitement ...\0
+  msg(HEIN_05, UP_F4, HEIN, FOLLOW, 5)
+# There's someone in there!\0
+  unit.face(ERWIN_01, UP_F4)
+  unit.face(HEIN_05, UP_F4)
+  unit.face(ROHGA_0B, UP_F4)
+  unit.face(LEON_0D, UP_F4)
+  unit.face(IMELDA_0F, UP_F4)
+  bgm(ALLY, ALLY4)
+  unit.position(WITCH_73, PRESET, PRESET)
+  unit.position(KERBEROS_52, PRESET, PRESET)
+  unit.showsub(KERBEROS_52)
+  unit.position(COMMANDER_23, PRESET, PRESET)
+  unit.showsub(COMMANDER_23)
+  msg(KERBEROS_52, WITCH_73, KERBEROS, FOLLOW, 6)
+# Someone is coming!\0
+  msg(COMMANDER_23, WITCH_73, SAGE_RED, FOLLOW, 7)
+# Who could it be?\0
+  msg(WITCH_73, DOWN_F5, PRIEST_RED, FOLLOW, 8)
+# Probably just some stragglers.\r\nI wonder why they're here. This cave isn't exactly on the beaten path.\0
+  msg(COMMANDER_23, DOWN_F5, SAGE_RED, FOLLOW, 9)
+# He's that guy everyone keeps calling a maniac.\0
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 10)
+# I know I have a reputation for saying whatever pops into my head, but I'm at a loss here.\0
+  msg(LEON_0D, COMMANDER_23, LEON_ANGRY, FOLLOW, 11)
+# I can't believe they caught me this way ... and now they are calling me a maniac ...!?\0
+  msg(ROHGA_0B, IMELDA_0F, ROHGA, FOLLOW, 12)
+# What's a maniac? Can you eat it?\0
+  msg(IMELDA_0F, ROHGA_0B, IMELDA_ANGRY, FOLLOW, 13)
+# I can't believe I'm hearing this!\0
+  msg(WITCH_73, DOWN_F5, PRIEST_RED, FOLLOW, 14)
+# There seems to be some dissension among them ...\0
+  msg(KERBEROS_52, IMELDA_0F, KERBEROS, FOLLOW, 15)
+# The old lady is getting pretty hysterical.\0
+  msg(IMELDA_0F, UP_F4, IMELDA_ANGRY, FOLLOW, 16)
+# Old ... lady ...?\r\nI'm going to kill you.\0
+  msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 17)
+# Halt, villains!\0
+  bgm(ALLY, ENEMYREINFORCEMENT1)
+  unit.position(WYVERN_57, PRESET, PRESET)
+  unit.showsub(WYVERN_57)
+  unit.position(COMMANDER_87, PRESET, PRESET)
+  unit.showsub(COMMANDER_87)
+  unit.position(COMMANDER_86, PRESET, PRESET)
+  unit.showsub(COMMANDER_86)
+  unit.position(COMMANDER_85, PRESET, PRESET)
+  unit.showsub(COMMANDER_85)
+  unit.position(ROC_7A, PRESET, PRESET)
+  unit.showsub(ROC_7A)
+  msg(ROC_7A, ERWIN_01, PHOENIX_RED, FOLLOW, 18)
+# You won't be laying a finger on anyone today!\0
+  msg(COMMANDER_85, ERWIN_01, GREATDRAGON, FOLLOW, 19)
+# That's right evil-doers!\0
+  msg(WYVERN_57, ERWIN_01, SERPENT, FOLLOW, 20)
+# For we are ...\r\nThe Golden Dragon Youth Defence Force!\0
+  msg(COMMANDER_86, ERWIN_01, LIVINGARMOR, FOLLOW, 21)
+# We have joined forces to stop nefarious deeds and spread justice to all!\0
+  msg(COMMANDER_87, ERWIN_01, HIGHLORD_RED, FOLLOW, 22)
+# Black Ranger is right! We'll bring you guys to justice!\0
+  msg(HEIN_05, DOWN_F5, HEIN_SAD, FOLLOW, 23)
+# Umm ... Kindly explain to me again why we are "maniacs" ...\0
+  msg(ERWIN_01, HEIN_05, ERWIN_ANGRY, FOLLOW, 24)
+# There's no reason to waste words on villain scum! We'll show you!\0
+  msg(ROHGA_0B, LEON_0D, ROHGA, FOLLOW, 25)
+# Well, shall we win another battle? This one looks simple enough.\0
+  msg(LEON_0D, ERWIN_01, LEON, FOLLOW, 26)
+# The spandex-clad superheroes seem to be challenging us ...\r\nDo they really think they can withstand our assault ...?\0
+  msg(IMELDA_0F, ERWIN_01, IMELDA, FOLLOW, 27)
+# You bad guys sure get worked up over a little name-calling, don't you?\0
+  msg(ROC_7A, ERWIN_01, PHOENIX_RED, FOLLOW, 28)
+# Hey, I heard that!\r\nNow hear my fist as it pummels justice into your black hearts!\0
+  msg(ERWIN_01, ROC_7A, ERWIN_ANGRY, FOLLOW, 29)
+# No argument from me!\0
+  bgm(ALLY, ENEMY1_LEON)
+  local.sum($0a47d0, $07eb58)
+  local.sum($0a47d0, $07eb59)
+  local.sum($0a47d0, $07eb5a)
+  local.sum($0a47d0, $07eb5b)
+  local.sum($0a47d0, $07eb5c)
+break
+
+lbl_2ca:
+  msg(COMMANDER_87, WYVERN_57, HIGHLORD_RED, FOLLOW, 30)
+# All right, lets take these guys out!\0
+  msg(COMMANDER_85, WYVERN_57, LIVINGARMOR, FOLLOW, 31)
+# Maybe this isn't such a good idea ... They're pretty strong.\0
+  msg(WYVERN_57, DOWN_F5, SERPENT, FOLLOW, 32)
+# Let's take them to the underworld, boys!\0
+  msg(WITCH_73, DOWN_F5, PRIEST_RED, FOLLOW, 33)
+# Looks like my power's run low. I need to ... power up!\0
+  msg(COMMANDER_23, WITCH_73, SAGE_RED, FOLLOW, 34)
+# Leave it to me! I'll protect you!\0
+  msg(KERBEROS_52, DOWN_F5, KERBEROS, FOLLOW, 35)
+# That's right, my lady. You have nothing to fear!\0
+break
+
+lbl_2f0:
+  branch.mem.local.ne(lbl_300, $0a47d0, $07eb5f)
+  msg(WITCH_74, LEFT_F6, PRIEST_RED, FOLLOW, 36)
+# Fast as fast can be, you'll never catch me! Warp ...!\r\nI'll be back!\0
+  cast.teleport(WITCH_74, WITCH_74, TELEPORT_TO, 15, 8)
+lbl_300:
+break
+
+lbl_302:
+  branch.mem.local.ne(lbl_30c, $0a47d0, $07eb5f)
+  msg(ERWIN_01, WITCH_74, ERWIN, FOLLOW, 37)
+# What? She vanished ... Quick, head for where she was standing!\r\nShe may have left something behind.\0
+lbl_30c:
+break
+
+lbl_30e:
+  branch.mem.local.ne(lbl_31e, $0a47d0, $07eb5f)
+  msg(WITCH_74, LEFT_F6, PRIEST_RED, FOLLOW, 38)
+# Hee hee! This is fun! Warp! Warp!\0
+  cast.teleport(WITCH_74, WITCH_74, TELEPORT_TO, 15, 5)
+lbl_31e:
+break
+
+lbl_320:
+  branch.mem.local.ne(lbl_32a, $0a47d0, $07eb5f)
+  msg(ERWIN_01, WITCH_74, ERWIN, FOLLOW, 39)
+# "I'll be back." What did she mean by that?\0
+lbl_32a:
+break
+
+lbl_32c:
+  branch.mem.local.ne(lbl_336, $0a47d0, $07eb5f)
+  msg(WITCH_74, LEFT_F6, PRIEST_RED, FOLLOW, 40)
+# Again, again, again ... Warp!\r\nWhat the hell ... is this? Damn, it's not working!\0
+lbl_336:
+break
+
+lbl_338:
+  unit.cleanup()
+  msg(WYVERN_57, DOWN_F5, SERPENT, FOLLOW, 41)
+# I'm coming to back you up! Keep your spirits high!\0
+  branch.unit.dead(lbl_349, ROC_7A)
+  msg(ROC_7A, DOWN_F5, PHOENIX_RED, FOLLOW, 42)
+# Yes! I understand!\0
+lbl_349:
+break
+
+lbl_34b:
+  unit.cleanup()
+  branch.unit.dead(lbl_382, WYVERN_57)
+  msg(WYVERN_57, DOWN_F5, SERPENT, FOLLOW, 43)
+# You've done well to come here. Kaiser Circle, lend me strength.\r\nGive me the power to protect everyone!\0
+  branch.unit.dead(lbl_360, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 44)
+# Whoa, more creepiness ...\0
+lbl_360:
+  msg(ERWIN_01, WYVERN_57, ERWIN, FOLLOW, 45)
+# Kaiser Circle ...?\0
+  msg(WYVERN_57, DOWN_F5, SERPENT, FOLLOW, 46)
+# That girl ... You won't get near her!\0
+  branch.unit.dead(lbl_37c, ROHGA_0B)
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 47)
+# What? Come on, you're a 24/18 Wyvern with bats.\r\nYou couldn't have stopped us even on Scenario 1!\0
+  msg(WYVERN_57, ROHGA_0B, SERPENT, FOLLOW, 48)
+# Sh, shut up!\0
+lbl_37c:
+  msg(WITCH_73, WYVERN_57, PRIEST_RED, FOLLOW, 49)
+# You know, I'm sure I'll be okay even without you guys ...\0
+lbl_382:
+break
+
+lbl_384:
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 50)
+# Let's get this over with!\0
+break
+
+lbl_38c:
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 51)
+# Gaahh--! How wretched! In this party ...\0
+  gameover()
+break
+
+lbl_395:
+  msg(HEIN_05, DOWN_F5, HEIN, NOFOLLOW, 52)
+# I know I haven't mentioned it before, but I've dabbled a bit in astrology.\r\nAnd, everyone, today is supposed to be my lucky one.\r\nSo let's move already!\0
+break
+
+lbl_39d:
+  msg(HEIN_05, DOWN_F5, HEIN, NOFOLLOW, 53)
+# The stars were right! I'm totally kicking ass today.\0
+  msg(ERWIN_01, HEIN_05, ERWIN, FOLLOW, 54)
+# Hein ... What are you talking about?\0
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 55)
+# It's nothing ...! Well then, let's go!\0
+break
+
+lbl_3b1:
+  msg(HEIN_05, DOWN_F5, HEIN, NOFOLLOW, 56)
+# So, what about that sword we're searching for? We better hurry this up.\0
+  sfx(78)
+  msg(HEIN_05, DOWN_F5, HEIN, NOFOLLOW, 57)
+# Maybe we should get back to the real mission ...\0
+  msg(ERWIN_01, HEIN_05, ERWIN, FOLLOW, 58)
+# Weren't you just bragging about how much you were "kicking ass?"\0
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 59)
+# Err ... Heh heh, that's right. Back to battle, everyone ...!\0
+break
+
+lbl_3cd:
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 60)
+# Is this the end of Hein, the sorcery prodigy from the village of Salrath?\r\nFarewell, cruel world ...!\r\nLeon, please shine on like the Magic Star you are!\r\nWait, ... what? Who the hell made me to say this ...?\0
+  branch.unit.dead(lbl_3e0, LEON_0D)
+  msg(LEON_0D, HEIN_05, LEON_ANGRY, FOLLOW, 61)
+# Sh, shut up!\0
+  goto(lbl_3e6)
+lbl_3e0:
+  msg(ERWIN_01, HEIN_05, ERWIN, NOFOLLOW, 62)
+# I didn't say anything ...\0
+lbl_3e6:
+break
+
+lbl_3e8:
+  msg(ROHGA_0B, ERWIN_01, ROHGA_DEAD, FOLLOW, 63)
+# To die in such a place ...\0
+  branch.unit.dead(lbl_3fb, HEIN_05)
+  msg(HEIN_05, ROHGA_0B, HEIN, NOFOLLOW, 64)
+# I'm the one doing the narration!\r\nThe aloof mercenary, Rohga. He continues a daring search for his younger sister.\r\nFarewell, Rohga! The world will miss ... its strongest warrior.\0
+  goto(lbl_407)
+lbl_3fb:
+  msg(ERWIN_01, ROHGA_0B, ERWIN, NOFOLLOW, 65)
+# Stop with the drama, already!\r\nIf we die in the middle of nowhere, no one will be searching for anyone!\0
+  msg(ROHGA_0B, ERWIN_01, ROHGA_DEAD, FOLLOW, 66)
+# Sorry, sorry ... I just need a break.\0
+lbl_407:
+break
+
+lbl_409:
+  msg(LEON_0D, DOWN_F5, LEON_DEAD_2, FOLLOW, 67)
+# You think I'd be defeated here?\0
+  branch.unit.dead(lbl_41f, HEIN_05)
+  msg(HEIN_05, RIGHT_F7, HEIN, NOFOLLOW, 68)
+# General Leon of the Empire. Many admire one who is strict with himself, yet kind to others.\r\nFarewell, Leon! Young, noble, and ... blue knight ...!\0
+  msg(LEON_0D, HEIN_05, LEON_DEAD, FOLLOW, 69)
+# Who's the champ ...?\0
+lbl_41f:
+break
+
+lbl_421:
+  msg(IMELDA_0F, RIGHT_F7, IMELDA_DEAD, FOLLOW, 70)
+# Am I ... finished ...?\0
+  branch.unit.dead(lbl_43a, HEIN_05)
+  msg(HEIN_05, RIGHT_F7, HEIN, NOFOLLOW, 71)
+# I knew it! We shouldn't have messed with them and their maniac power.\0
+  msg(IMELDA_0F, HEIN_05, IMELDA_DEAD, FOLLOW, 72)
+# Stop saying maniac! I'm not a maniac, so don't confuse me with one!\0
+  goto(lbl_446)
+lbl_43a:
+  msg(ERWIN_01, IMELDA_0F, ERWIN, NOFOLLOW, 73)
+# Step down! I can't let you lose in a place like this!\0
+  msg(IMELDA_0F, ERWIN_01, IMELDA_DEAD, FOLLOW, 74)
+# Boy, you're too kind ...\0
+lbl_446:
+break
+
+lbl_448:
+  msg(ERWIN_01, RIGHT_F7, ERWIN_SAD, FOLLOW, 75)
+# What's this ...? Am I the only one left!?\r\nWas my command range always this bad? Did my Creator ... Did he even look at the FAQ!?\0
+  msg(WITCH_73, ERWIN_01, PRIEST_RED, FOLLOW, 76)
+# Heh heh heh ... You'll never know!\0
+break
+
+lbl_456:
+  msg(WYVERN_57, LEFT_F6, SERPENT, NOFOLLOW, 77)
+# I can't lose ... For everyone, for my sister's sake, I must not lose!\r\nThe player on the left ... is he who controls the world! Arrow Telios!\0
+break
+
+lbl_45e:
+  msg(ERWIN_01, WYVERN_57, ERWIN, NOFOLLOW, 78)
+# You guys have no chance! Just give up!\0
+  msg(WYVERN_57, ERWIN_01, SERPENT, NOFOLLOW, 79)
+# I'll never give up! Here is ... my Ultimate Blow!\r\nWind and Rain Elemental Arrow!\0
+break
+
+lbl_46c:
+  msg(WYVERN_57, DOWN_F5, SERPENT, FOLLOW, 80)
+# Hey Sis, I need to take a little rest. Is that okay ...?\r\nBye Mr. Dragon ... someday ... someday again ...\0
+break
+
+lbl_474:
+  msg(KERBEROS_52, LEFT_F6, KERBEROS, FOLLOW, 81)
+# It's time to put my power to use! Aaarrggghh!\0
+break
+
+lbl_47c:
+  msg(KERBEROS_52, LEFT_F6, KERBEROS, FOLLOW, 82)
+# Gaaahh--! I've been injured!\0
+  msg(WITCH_73, KERBEROS_52, PRIEST_RED, FOLLOW, 83)
+# Are you all right, Kerberos?\0
+  msg(KERBEROS_52, WITCH_73, KERBEROS, FOLLOW, 84)
+# No, there's no other choice. I must use my secret technique!\0
+  subroutine(lbl_61a)
+  msg(KERBEROS_52, WITCH_73, KERBEROS, FOLLOW, 85)
+# Take care!\0
+break
+
+lbl_499:
+  msg(COMMANDER_23, LEFT_F6, SAGE_RED, FOLLOW, 86)
+# Will I be okay by myself?\0
+break
+
+lbl_4a1:
+  msg(COMMANDER_23, LEFT_F6, SAGE_RED, FOLLOW, 87)
+# I knew it was useless ... Okay, my secret technique!\0
+  subroutine(lbl_61a)
+  msg(COMMANDER_23, LEFT_F6, SAGE_RED, FOLLOW, 88)
+# Well then, time to go!\0
+break
+
+lbl_4b2:
+  msg(WITCH_73, DOWN_F5, PRIEST_RED, FOLLOW, 89)
+# Ooohh ... Don't tease me ...\0
+break
+
+lbl_4ba:
+  msg(WITCH_73, ERWIN_01, PRIEST_RED, FOLLOW, 90)
+# _NAME_ ... It ... hurts.\0
+  local.sub($0a47d0, $07eb5c)
+break
+
+lbl_4c5:
+  msg(WITCH_73, HEIN_05, PRIEST_RED, FOLLOW, 91)
+# Hein ... It ... hurts.\0
+  local.sub($0a47d0, $07eb5c)
+break
+
+lbl_4d0:
+  msg(WITCH_73, ROHGA_0B, PRIEST_RED, FOLLOW, 92)
+# Rohga ... It ... hurts.\0
+  local.sub($0a47d0, $07eb5c)
+break
+
+lbl_4db:
+  msg(WITCH_73, LEON_0D, PRIEST_RED, FOLLOW, 93)
+# Leon ... It ... hurts.\0
+  local.sub($0a47d0, $07eb5c)
+break
+
+lbl_4e6:
+  msg(WITCH_73, IMELDA_0F, PRIEST_RED, FOLLOW, 94)
+# Imelda ... It ... hurts.\0
+  local.sub($0a47d0, $07eb5c)
+break
+
+lbl_4f1:
+  msg(WITCH_73, LEFT_F6, PRIEST_RED, FOLLOW, 95)
+# Shit! Not bad, not bad!\r\nBut you're in trouble now! Kerberos, Sorcerer, everyone! Go for it!\0
+  local.sub($0a47d0, $07eb5f)
+  subroutine(lbl_61a)
+break
+
+lbl_4ff:
+  msg(ROC_7A, LEFT_F6, PHOENIX_RED, NOFOLLOW, 96)
+# Man, the battles lately have been a real pain.\r\nTake this! Typhoon Bolt!\0
+  local.sub($0a47d0, $07eb5b)
+break
+
+lbl_50a:
+  msg(ROC_7A, HEIN_05, PHOENIX_RED, NOFOLLOW, 97)
+# What's wrong, squirt?\0
+  msg(HEIN_05, ROC_7A, HEIN, NOFOLLOW, 98)
+# Don't screw with me! Let's see what you've really got!\0
+  msg(ROC_7A, HEIN_05, PHOENIX_RED, NOFOLLOW, 99)
+# Don't like fun at your expense? Well, maybe my leet skills will entertain you!\r\nSecret Technique: Ascending Super Spiral ... of the Hurricane!\0
+break
+
+lbl_51e:
+  msg(ROC_7A, LEFT_F6, PHOENIX_RED, NOFOLLOW, 100)
+# Take this! Typhoon Bolt!\0
+  local.sub($0a47d0, $07eb5b)
+break
+
+lbl_529:
+  msg(ROC_7A, HEIN_05, PHOENIX_RED, NOFOLLOW, 101)
+# You, you fiend! Do you think to beat me? I'm a champion of justice!\0
+  local.sub($0a47d0, $07eb5b)
+break
+
+lbl_534:
+  msg(ROC_7A, DOWN_F5, PHOENIX_RED, FOLLOW, 102)
+# My name is Ishida, and none of you forget it.\r\nIshida, the Battling Champion. I bid you farewell!\0
+  local.sum($0a47d5, $07eb59)
+break
+
+lbl_53f:
+  msg(ROC_7A, LEFT_F6, PHOENIX_RED, FOLLOW, 103)
+# Not bad, not bad!\0
+break
+
+lbl_547:
+  msg(COMMANDER_85, LEFT_F6, GREATDRAGON, NOFOLLOW, 104)
+# Grrr ... What reckless fools would challenge me!?\r\nDie by my signature move ... Mach Uppercut!\0
+break
+
+lbl_54f:
+  msg(COMMANDER_85, IMELDA_0F, GREATDRAGON, NOFOLLOW, 105)
+# I wouldn't want to hurt a babe like you ...\0
+  msg(IMELDA_0F, COMMANDER_85, IMELDA, NOFOLLOW, 106)
+# Aww, isn't that sweet. Are you hitting on me?\r\nSorry honey ... but I just want to be friends!\0
+  msg(COMMANDER_85, IMELDA_0F, GREATDRAGON, NOFOLLOW, 107)
+# Ow, what pain! You really are merciless ...\r\nBut before you make up your mind, at least take a look at my ultimate moves!\r\nLet's end this right now, lady! Hyper Speed Lavender Splash!\0
+break
+
+lbl_563:
+  msg(COMMANDER_85, DOWN_F5, GREATDRAGON, FOLLOW, 108)
+# Goodbye everyone. See you later ...\r\nFarewell, young warriors ...\0
+break
+
+lbl_56b:
+  msg(COMMANDER_86, LEFT_F6, LIVINGARMOR, NOFOLLOW, 109)
+# I can beat you guys with my right hand alone.\r\nTo be honest, I kind of have to. My left hand is only for holding my head ... Such is the life of a Dullahan.\r\nDon't blink! This next move is my family's succession technique ...\r\nUltra Sword Slash Rolling Thunder Secret Strike!\0
+break
+
+lbl_573:
+  msg(LEON_0D, COMMANDER_86, LEON, NOFOLLOW, 110)
+# Step aside!\0
+  msg(COMMANDER_86, LEON_0D, LIVINGARMOR, NOFOLLOW, 111)
+# Impossible. I've promised a good friend otherwise.\r\nBut I will let you have a taste of my true power!\r\nSecret Strike Engetsu Kagizaki!\0
+break
+
+lbl_581:
+  msg(COMMANDER_86, LEFT_F6, LIVINGARMOR, NOFOLLOW, 112)
+# Endgame ... You think your pitiful attacks can succeed?\r\nThen observe my god-like defence!\0
+break
+
+lbl_589:
+  msg(COMMANDER_86, DOWN_F5, LIVINGARMOR, FOLLOW, 113)
+# Ugh ... It seems you have beaten me ...\r\nFarewell, Tiger ... You always were ... the king of the jungle ...\0
+  local.sum($0a47d6, $07eb59)
+break
+
+lbl_594:
+  msg(COMMANDER_86, LEFT_F6, LIVINGARMOR, FOLLOW, 114)
+# Damn! I must ... maintain my godly defence!\0
+break
+
+lbl_59c:
+  branch.unit.dead(lbl_5a6, WYVERN_57)
+  msg(WYVERN_57, COMMANDER_87, SERPENT, FOLLOW, 115)
+# You asked for it ...! Venom Blade, activate!\0
+lbl_5a6:
+  msg(COMMANDER_87, LEFT_F6, HIGHLORD_RED, FOLLOW, 116)
+# Hmmm ... I'll settle this fight ...\r\nThis next move will prove my genius!\r\nObserve! Cosmic Magnum Ray!\0
+break
+
+lbl_5ae:
+  msg(COMMANDER_87, ROHGA_0B, HIGHLORD_RED, NOFOLLOW, 117)
+# Hmmm ... You're fairly skilled.\0
+  screen.brightness(2)
+  screen.brightness(0)
+  sfx(41)
+  msg(ROHGA_0B, COMMANDER_87, ROHGA, NOFOLLOW, 118)
+# What the hell? A barrier of spirit energy!?\0
+  msg(COMMANDER_87, ROHGA_0B, HIGHLORD_RED, NOFOLLOW, 119)
+# Hah hah! This will be your grave!\r\nYour attacks are futile against us!\0
+  msg(ROHGA_0B, COMMANDER_87, ROHGA, NOFOLLOW, 120)
+# Hah hah hah ... Your power level is weak, old man!\r\nYou thought you could trap me in this pathetic little barrier ...?\r\nGrrrr-aaarrgghh!\0
+  screen.brightness(2)
+  screen.brightness(0)
+  sfx(41)
+  msg(COMMANDER_87, ROHGA_0B, HIGHLORD_RED, NOFOLLOW, 121)
+# What!? You can raise your power level that quickly ...?\0
+  msg(ROHGA_0B, COMMANDER_87, ROHGA, NOFOLLOW, 122)
+# Damn right, I can!\r\nTalk all you want, in five minutes I'm sending you to the next dimension!\0
+break
+
+lbl_5e0:
+  msg(COMMANDER_87, DOWN_F5, HIGHLORD_RED, FOLLOW, 123)
+# No matter how I'm injured, ... I won't give up.\r\nTake my final attack ... Super Star Smash!\0
+break
+
+lbl_5e8:
+  unit.cleanup()
+  bgm(ALLY, REQUIEM2)
+  bgm(ENEMY, REQUIEM2)
+  delay(60)
+  msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 124)
+# Beep ... Beep ... Beep ...\r\nThis is a message from the Masaya broadcast system ...\r\nWe know this scenario is a bit short, but thanks for playing it.\r\nWe appreciate your support!\r\nTo tell you the truth, the Golden Dragon Youth Defence Force's world is incredibly important.\r\nTheir alternate dimension is where the Masaya staff masses its army of plastic soldiers for world conquest ...!\r\nMwa hah hah hah!\r\nNow then, we return you to your regularly scheduled game!\0
+  delay(60)
+  bgm(ALLY, ENEMY1_LEON)
+  bgm(ENEMY, ALLY4)
+break
+
+lbl_601:
+  branch.mem.global.eq(lbl_618, $0a478c, $07eb5a)
+  prompt.ok(lbl_618)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 126)
+# Obtained Assault Suit.\0
+  item.add(ASSAULTSUIT)
+  global.sum($0a478c, $07eb5a)
+lbl_618:
+break
+
+lbl_61a:
+  unit.cleanup()
+  bgm(ALLY, ENEMY7_DARKPRINCESS)
+  bgm(ENEMY, ENEMY7_DARKPRINCESS)
+  msg(WITCH_73, DOWN_F5, PRIEST_RED, FOLLOW, 127)
+# Nooo--! Not Shady too!?\0
+  msg(KERBEROS_52, DOWN_F5, KERBEROS, FOLLOW, 128)
+# How depraved ... To be taken down by Imperial scum!\0
+  msg(COMMANDER_23, DOWN_F5, SAGE_RED, FOLLOW, 129)
+# Argh! It's hopeless!\0
+  msg(WITCH_73, DOWN_F5, PRIEST_RED, FOLLOW, 130)
+# Radical Princess Dark Power ... Make up!\0
+  screen.brightness(10)
+  unit.retreat(WITCH_73)
+  unit.swap(WITCH_73, WITCH_74)
+  unit.deploy(WITCH_74, 15, 5)
+  screen.brightness(0)
+  msg(WITCH_74, DOWN_F5, PRIEST_BLUE, FOLLOW, 131)
+# Beautiful shield-bearing girl, Radical Princess! In the name of the heavens, I'll punish you!\0
+  delay(60)
+  msg(ERWIN_01, WITCH_74, ERWIN, NOFOLLOW, 132)
+# What? How did she transform?\0
+  branch.unit.dead(lbl_65e, ROHGA_0B)
+  msg(ROHGA_0B, WITCH_74, ROHGA, NOFOLLOW, 133)
+# Eh, what was that?\0
+lbl_65e:
+  branch.unit.dead(lbl_668, HEIN_05)
+  msg(HEIN_05, WITCH_74, HEIN, NOFOLLOW, 134)
+# Whoa! How cool! I want to learn that!\0
+lbl_668:
+  branch.unit.dead(lbl_672, IMELDA_0F)
+  msg(IMELDA_0F, WITCH_74, IMELDA, NOFOLLOW, 135)
+# You'll have to wait for puberty, kiddo.\0
+lbl_672:
+  branch.unit.dead(lbl_67c, LEON_0D)
+  msg(LEON_0D, WITCH_74, LEON, NOFOLLOW, 136)
+# Radical Princess, your transformation won't save you now.\0
+lbl_67c:
+  msg(WITCH_74, DOWN_F5, PRIEST_BLUE, FOLLOW, 137)
+# Hah hah! Heaven will punish evil-doers like you!\0
+  local.sum($0a47d3, $07eb5c)
+  local.sum($0a47d3, $07eb5e)
+  local.sum($0a47d4, $07eb5c)
+  local.sum($0a47d0, $07eb5f)
+  local.sub($0a47d0, $07eb58)
+  local.sub($0a47d0, $07eb58)
+  local.sub($0a47d0, $07eb58)
+  bgm(ALLY, ENEMY1_LEON)
+endsub
+
+lbl_69b:
+  msg(WITCH_74, LEFT_F6, PRIEST_BLUE, FOLLOW, 138)
+# I'll show you the power of love! Playtime is over, Empire! Grant me power!\0
+break
+
+lbl_6a3:
+  msg(WITCH_74, LEFT_F6, PRIEST_BLUE_DEAD, FOLLOW, 139)
+# Gaaahhh ... How can ... How can justice lose!? Goodbye, cruel world!\0
+  unit.cleanup()
+  branch.unit.dead(lbl_6b7, KERBEROS_52)
+  msg(KERBEROS_52, RIGHT_F7, KERBEROS, FOLLOW, 146)
+# Hey wait! Don't run away!\0
+  goto(lbl_6c1)
+lbl_6b7:
+  branch.unit.dead(lbl_6c1, COMMANDER_23)
+  msg(COMMANDER_23, LEFT_F6, SAGE_RED, FOLLOW, 146)
+# Hey wait! Don't run away!\0
+lbl_6c1:
+  unit.retreat(KERBEROS_52)
+  unit.retreat(COMMANDER_23)
+  unit.retreat(WYVERN_57)
+  unit.retreat(COMMANDER_87)
+  unit.retreat(COMMANDER_86)
+  unit.retreat(COMMANDER_85)
+  unit.retreat(ROC_7A)
+  scenarioclear()
+  sfx(78)
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 140)
+# Ding dong! The witch is dead! Which old witch? The justice bitch!\0
+  branch.unit.dead(lbl_6e2, ROHGA_0B)
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 141)
+# What the hell are you talking about, _NAME_?\0
+lbl_6e2:
+  branch.unit.dead(lbl_6ec, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 142)
+# That was fun!\0
+lbl_6ec:
+  branch.unit.dead(lbl_6f6, IMELDA_0F)
+  msg(IMELDA_0F, ERWIN_01, IMELDA, FOLLOW, 143)
+# I'm feeling a little tired ...!\0
+lbl_6f6:
+  branch.unit.dead(lbl_700, LEON_0D)
+  msg(LEON_0D, ERWIN_01, LEON, FOLLOW, 144)
+# We've already wasted too much time. Let's hurry ahead.\0
+lbl_700:
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 145)
+# All right then! Onward to Castle Baldea!\0
+  loadscenario(38)
+break
+

@@ -1,0 +1,479 @@
+# Movement-Triggered Events
+on.move(26, lbl_41e, COMMANDER_23, 1, 0xff)
+on.move(0, lbl_44c, COMMANDER_84, 0, 0xff)
+break
+
+# Attack-Triggered Events
+on.attack(6, lbl_2de, ERWIN_01, LESTER_D1, 0x00, 0xff, 0xff)
+on.attack(7, lbl_2e6, ERWIN_01, LESTER_D1, 0x00, 0x00, 0xff)
+on.attack(12, lbl_316, IMELDA_0F, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(14, lbl_326, VARGAS_0E, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(16, lbl_336, EGBERT_10, LESTER_D1, 0x00, 0xff, 0xff)
+on.attack(17, lbl_33e, EGBERT_10, LESTER_D1, 0x00, 0x00, 0xff)
+on.attack(19, lbl_35a, SONYA_0C, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(21, lbl_36a, LESTER_D1, ERWIN_01, 0x00, 0x00, 0xff)
+on.attack(22, lbl_37e, LESTER_D1, EGBERT_10, 0x00, 0x00, 0xff)
+on.attack(24, lbl_40e, COMMANDER_22, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(27, lbl_42c, COMMANDER_23, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(29, lbl_43c, COMMANDER_83, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(31, lbl_454, NULL_FF, COMMANDER_84, 0xff, 0x00, 0xff)
+on.attack(35, lbl_477, COMMANDER_87, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(38, lbl_48f, COMMANDER_89, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(40, lbl_49f, NULL_FF, COMMANDER_8A, 0xff, 0x00, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(8, lbl_2f4, ERWIN_01)
+on.defeat(9, lbl_2fe, HEIN_05)
+on.defeat(10, lbl_306, ROHGA_0B)
+on.defeat(11, lbl_30e, LEON_0D)
+on.defeat(13, lbl_31e, IMELDA_0F)
+on.defeat(15, lbl_32e, VARGAS_0E)
+on.defeat(18, lbl_352, EGBERT_10)
+on.defeat(20, lbl_362, SONYA_0C)
+on.defeat(23, lbl_38c, LESTER_D1)
+on.defeat(25, lbl_416, COMMANDER_22)
+on.defeat(28, lbl_434, COMMANDER_23)
+on.defeat(30, lbl_444, COMMANDER_83)
+on.defeat(32, lbl_45f, COMMANDER_84)
+on.defeat(33, lbl_467, COMMANDER_85)
+on.defeat(34, lbl_46f, COMMANDER_86)
+on.defeat(36, lbl_47f, COMMANDER_87)
+on.defeat(37, lbl_487, COMMANDER_88)
+on.defeat(39, lbl_497, COMMANDER_89)
+on.defeat(41, lbl_4a7, COMMANDER_8A)
+on.defeat(42, lbl_4af, COMMANDER_8B)
+on.defeat(43, lbl_4b7, COMMANDER_22, COMMANDER_23, COMMANDER_83, COMMANDER_84, COMMANDER_85, COMMANDER_86, COMMANDER_87, COMMANDER_88, COMMANDER_89, COMMANDER_8A, COMMANDER_8B)
+on.defeat(44, lbl_4c3, COMMANDER_84, COMMANDER_85)
+break
+
+# Position-Triggered Events
+on.bound(4, lbl_2bf, NPC_SUBUNIT_F1, 1, 1, 13, 34, 0x00, 0x00)
+on.bound(5, lbl_2c4, NPC_COMMANDER_F0, 4, 10, 4, 10, 0x00, 0x00)
+break
+
+# Turn-Triggered Events
+on.turn(3, lbl_266, ENEMY, 3, 0x00)
+on.turn(1, lbl_281, ENEMY, 0, 0x00)
+on.turn(2, lbl_289, ENEMY, 0, 0x00)
+break
+
+# Core Events
+lbl_158:
+  bgm(ALLY, BEACH)
+  screen.fadein(4)
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.showsub(ERWIN_01)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.showsub(HEIN_05)
+  unit.position(ROHGA_0B, PRESET, PRESET)
+  unit.showsub(ROHGA_0B)
+  unit.position(LEON_0D, PRESET, PRESET)
+  unit.showsub(LEON_0D)
+  unit.position(VARGAS_0E, PRESET, PRESET)
+  unit.showsub(VARGAS_0E)
+  unit.position(EGBERT_10, PRESET, PRESET)
+  unit.showsub(EGBERT_10)
+  branch.mem.global.ne(lbl_18b, $0a478f, $07eb5f)
+  unit.position(SONYA_0C, PRESET, PRESET)
+  unit.showsub(SONYA_0C)
+lbl_18b:
+  unit.position(IMELDA_0F, PRESET, PRESET)
+  unit.showsub(IMELDA_0F)
+  msg(IMELDA_0F, VARGAS_0E, IMELDA, FOLLOW, 1)
+# Whew, we landed ahead of schedule. What luck ...\0
+  msg(VARGAS_0E, IMELDA_0F, VARGAS, FOLLOW, 2)
+# Keep moving. If we want to seal both swords, we can't stop to rest.\0
+  branch.unit.dead(lbl_1a7, SONYA_0C)
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 3)
+# Just be glad we defeated Boser.\0
+lbl_1a7:
+  msg(ERWIN_01, VARGAS_0E, ERWIN, FOLLOW, 4)
+# Yes, and don't worry. The Imperial cat shall soon hunt down its mice!\0
+  msg(EGBERT_10, LEFT_F6, EGBERT, FOLLOW, 5)
+# How fortunate those mice have scurried here ...\0
+  bgm(ALLY, ALLY6)
+  unit.position(COMMANDER_23, PRESET, PRESET)
+  unit.showsub(COMMANDER_23)
+  unit.position(COMMANDER_84, PRESET, PRESET)
+  unit.showsub(COMMANDER_84)
+  unit.position(COMMANDER_22, PRESET, PRESET)
+  unit.showsub(COMMANDER_22)
+  unit.position(COMMANDER_85, PRESET, PRESET)
+  unit.showsub(COMMANDER_85)
+  unit.position(COMMANDER_83, PRESET, PRESET)
+  unit.showsub(COMMANDER_83)
+  unit.position(COMMANDER_89, PRESET, PRESET)
+  unit.showsub(COMMANDER_89)
+  unit.position(COMMANDER_88, PRESET, PRESET)
+  unit.showsub(COMMANDER_88)
+  unit.position(COMMANDER_8B, PRESET, PRESET)
+  unit.showsub(COMMANDER_8B)
+  unit.position(COMMANDER_87, PRESET, PRESET)
+  unit.showsub(COMMANDER_87)
+  unit.position(COMMANDER_8A, PRESET, PRESET)
+  unit.showsub(COMMANDER_8A)
+  unit.position(COMMANDER_86, PRESET, PRESET)
+  unit.showsub(COMMANDER_86)
+  unit.position(LESTER_D1, PRESET, PRESET)
+  unit.showsub(LESTER_D1)
+  msg(LEON_0D, LESTER_D1, LEON, FOLLOW, 6)
+# Our favourite enemies ... We'll bombard them before going ashore.\0
+  msg(LESTER_D1, ERWIN_01, LESTER, FOLLOW, 7)
+# I've been waiting for you, _NAME_ ... And you too, Egbert.\0
+  msg(ERWIN_01, LESTER_D1, ERWIN, FOLLOW, 8)
+# Lester ...\0
+  msg(EGBERT_10, LESTER_D1, EGBERT, FOLLOW, 9)
+# Lester, I must extend my gratitude.\r\nI don't know how to repay your watching over Jessica in my stead.\0
+  msg(LESTER_D1, EGBERT_10, LESTER, FOLLOW, 10)
+# What empty words ...\r\nEgbert, I'm thankful one of us will die today.\r\nYou destroyed Jessica's home and broke her heart. You're no friend of hers.\r\nIn fact, she came back so the world wouldn't fall to scum like you.\0
+  msg(EGBERT_10, LESTER_D1, EGBERT, FOLLOW, 11)
+# To end the darkness ... Jessica returned for that reason alone.\0
+  msg(LESTER_D1, EGBERT_10, LESTER, FOLLOW, 12)
+# Isn't that Bernhardt's purpose? To rally the continent and wipe out darkness?\0
+  msg(EGBERT_10, LESTER_D1, EGBERT, FOLLOW, 13)
+# Ever since Boser's revival, I've sought an effective means to combat the darkness.\r\nI settled, in the end, on overwhelming military strength.\r\nI might have waited with Jessica for the Descendants, but time was short ... and I joined the Empire.\r\nThe secondary effects of that decision, I'd rather not discuss.\0
+  msg(LESTER_D1, EGBERT_10, LESTER, FOLLOW, 14)
+# Oh, that's great. So we've both been trying to do the same thing.\r\nFunny, our plan wouldn't have soaked the whole continent in blood!\0
+  msg(EGBERT_10, LESTER_D1, EGBERT, FOLLOW, 15)
+# What's done is done. The Empire is secure.\r\nAny resistance will be quelled or crushed.\0
+  msg(LESTER_D1, EGBERT_10, LESTER, FOLLOW, 16)
+# You've always been impressive, with your bold statements and strategies ...\r\nAnd I think I've finally figured you out.\r\nYou can't bring peace, you just hide behind it. What a convenient excuse.\0
+  msg(ROHGA_0B, LESTER_D1, ROHGA, FOLLOW, 17)
+# Grrr ... Come and get it!\0
+  msg(IMELDA_0F, ERWIN_01, IMELDA, FOLLOW, 18)
+# It'll be tough fighting in a place like this.\0
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 19)
+# Ready the men! I'll hold our enemies.\0
+  msg(ERWIN_01, LEFT_F6, ERWIN, FOLLOW, 20)
+# That's right. We have to get the troops ashore!\0
+  bgm(ALLY, ENEMY6_IMELDA)
+  local.sum($0a47d0, $07eb58)
+  local.sum($0a47d0, $07eb59)
+  local.sum($0a47d0, $07eb5a)
+break
+
+lbl_266:
+  msg(LESTER_D1, RIGHT_F7, LESTER, FOLLOW, 21)
+# If we can pin them, we'll win this fight for sure!\0
+  branch.unit.dead(lbl_279, COMMANDER_88)
+  msg(COMMANDER_88, LESTER_D1, HIGHLORD_BLACK, FOLLOW, 22)
+# I know! We'll bring Jessica some good news ...!\0
+  goto(lbl_27f)
+lbl_279:
+  msg(SOLDIER_20, DOWN_F5, SOLDIER1_SILVER, NOFOLLOW, 23)
+# Hah hah!\0
+lbl_27f:
+break
+
+lbl_281:
+  msg(LESTER_D1, RIGHT_F7, LESTER, FOLLOW, 24)
+# This is dangerous. Kill them if you can.\0
+break
+
+lbl_289:
+  branch.unit.dead(lbl_2bd, EGBERT_10)
+  msg(LESTER_D1, EGBERT_10, LESTER, FOLLOW, 25)
+# Hey, Egbert. There's one last thing I want to know ...\0
+  msg(EGBERT_10, LESTER_D1, EGBERT, FOLLOW, 26)
+# Ask what you'd like.\0
+  msg(LESTER_D1, EGBERT_10, LESTER, FOLLOW, 27)
+# Up until now, Boser's resurrection was simply an omen.\r\n"The world will fall into darkness, ..." because of him, presumably.\r\nWell, I heard from Jessica the reverse is true ...\r\nBoser doesn't bring chaos, chaos brings Boser. Only a bloody world will awaken him.\r\nWhat's your opinion?\0
+  msg(EGBERT_10, LESTER_D1, EGBERT, FOLLOW, 28)
+# ...\r\nI agree with the theory. His Majesty, however, should not know this.\0
+  msg(LESTER_D1, EGBERT_10, LESTER, FOLLOW, 29)
+# Then why did you agree to the Empire's conquest?\r\nDid you want to reawaken the darkness?\0
+  msg(EGBERT_10, LESTER_D1, EGBERT, FOLLOW, 30)
+# Even if I'd known, I wouldn't have changed my decision.\r\nEl Sallia's strife, continued indefinitely, would surely bring eternal darkness.\r\nHowever, we Imperials believe our war will end in lasting peace.\r\nCompared to all the blood in history, we're making a small sacrifice.\0
+  msg(LESTER_D1, EGBERT_10, LESTER_ANGRY, FOLLOW, 31)
+# So you're saying your invasion is justified?\r\nIn war, justice means nothing!\0
+  msg(EGBERT_10, LESTER_D1, EGBERT, FOLLOW, 32)
+# Your beliefs are flawed.\r\nPeace will never come through forcing your ideology. Mankind will always resist.\r\nTrue bliss can only come through mutual understanding.\r\nThat's my conclusion.\r\nOur Empire wishes to both eliminate the darkness and govern justly.\r\nYour time will soon be up, Maybe you'll finally learn how foolish it is to defy us.\0
+lbl_2bd:
+break
+
+lbl_2bf:
+  local.sub($0a47d0, $07eb59)
+break
+
+lbl_2c4:
+  branch.mem.global.eq(lbl_2dc, $0a478b, $07eb5e)
+  unit.cleanup()
+  prompt.ok(lbl_2dc)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 34)
+# Obtained Gleipnir.\0
+  item.add(GLEIPNIR)
+  global.sum($0a478b, $07eb5e)
+lbl_2dc:
+break
+
+lbl_2de:
+  msg(ERWIN_01, RIGHT_F7, ERWIN, NOFOLLOW, 35)
+# Clear the way!\0
+break
+
+lbl_2e6:
+  msg(ERWIN_01, LESTER_D1, ERWIN, NOFOLLOW, 36)
+# Give up, Lester.\0
+  msg(LESTER_D1, ERWIN_01, LESTER, NOFOLLOW, 37)
+# You're kidding! No way am I losing here.\0
+break
+
+lbl_2f4:
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 38)
+# I suffered much to obtain Langrisser and Alhazard ...\0
+  unit.cleanup()
+  gameover()
+break
+
+lbl_2fe:
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 39)
+# Arrghh ...! I won't survive this much longer ...\0
+break
+
+lbl_306:
+  msg(ROHGA_0B, DOWN_F5, ROHGA_DEAD, FOLLOW, 40)
+# Fuck! How careless ...\0
+break
+
+lbl_30e:
+  msg(LEON_0D, DOWN_F5, LEON_DEAD, FOLLOW, 41)
+# This wound is worse ... than I thought. I'm falling back.\0
+break
+
+lbl_316:
+  msg(IMELDA_0F, RIGHT_F7, IMELDA, NOFOLLOW, 42)
+# I'll deck you right in the face if you don't back off!\0
+break
+
+lbl_31e:
+  msg(IMELDA_0F, DOWN_F5, IMELDA_DEAD, FOLLOW, 43)
+# I could use a rest. I'm leaving the situation to you.\0
+break
+
+lbl_326:
+  msg(VARGAS_0E, RIGHT_F7, VARGAS, NOFOLLOW, 44)
+# Just one more ... The Empire's victory will be decided with one more breath!\0
+break
+
+lbl_32e:
+  msg(VARGAS_0E, DOWN_F5, VARGAS_DEAD, FOLLOW, 45)
+# Nooooo! Don't get angry ...\0
+break
+
+lbl_336:
+  msg(EGBERT_10, RIGHT_F7, EGBERT, NOFOLLOW, 46)
+# Ah hah hah ... I can see my reputation intimidates you!\0
+break
+
+lbl_33e:
+  msg(LESTER_D1, EGBERT_10, LESTER, NOFOLLOW, 47)
+# When you disappeared so suddenly ...\r\nDo you know how much Jessica grieved for you?\0
+  msg(EGBERT_10, LESTER_D1, EGBERT, NOFOLLOW, 48)
+# ...\r\nIdeals can easily separate people.\r\nIt was only a matter of time.\0
+  msg(LESTER_D1, EGBERT_10, LESTER, NOFOLLOW, 49)
+# Tsk! Too soft!\0
+break
+
+lbl_352:
+  msg(EGBERT_10, DOWN_F5, EGBERT_DEAD, FOLLOW, 50)
+# Fall back! Save your strength for the next battle!\0
+break
+
+lbl_35a:
+  msg(SONYA_0C, RIGHT_F7, SONYA, FOLLOW, 51)
+# I thought Boser's war on humans would make me happy.\r\nI was wrong ... Fighting and killing for no reason is wrong.\r\nBut this fight isn't pointless. This is our last chance to bring a peaceful world.\r\nWith brother Rohga, I won't lose to you!\0
+break
+
+lbl_362:
+  msg(SONYA_0C, DOWN_F5, SONYA_DEAD, FOLLOW, 52)
+# Aaahh--! I won't forget this!\0
+break
+
+lbl_36a:
+  msg(LESTER_D1, ERWIN_01, LESTER, NOFOLLOW, 53)
+# For your own good, I won't let you pass.\0
+  msg(ERWIN_01, LESTER_D1, ERWIN, NOFOLLOW, 54)
+# What? What do you mean!?\0
+  msg(LESTER_D1, ERWIN_01, LESTER, NOFOLLOW, 55)
+# Hah hah. Don't even try to hurt me!\0
+break
+
+lbl_37e:
+  msg(LESTER_D1, EGBERT_10, LESTER, NOFOLLOW, 56)
+# Egbert!\r\nWith all your pondering, the best you came up with was continental war!?\0
+  msg(EGBERT_10, LESTER_D1, EGBERT, NOFOLLOW, 57)
+# The answer is self-evident. I have no interest in further discussion.\0
+break
+
+lbl_38c:
+  msg(LESTER_D1, DOWN_F5, LESTER_DEAD, FOLLOW, 58)
+# Ugggh--!\r\nHeh heh heh ... What a grave mistake. Heh ...\0
+  bgm(ALLY, REQUIEM1)
+  bgm(ENEMY, REQUIEM1)
+  msg(ERWIN_01, LESTER_D1, ERWIN_SAD, FOLLOW, 59)
+# Lester ...\0
+  branch.unit.dead(lbl_3b4, EGBERT_10)
+  msg(LESTER_D1, EGBERT_10, LESTER_DEAD, FOLLOW, 60)
+# Egbert.\r\nI don't know whether you've been right or wrong in all this ...\r\nBut I've always thought of you as a brother.\r\nAnd as a brother ... I'll tell you that Jessica doesn't want to fight you.\0
+  msg(EGBERT_10, LESTER_D1, EGBERT, FOLLOW, 61)
+# ...\r\nI can't promise anything in that regard.\r\nIf Jessica opposes us, my loyalty's with the Empire.\0
+  msg(LESTER_D1, EGBERT_10, LESTER_DEAD, FOLLOW, 62)
+# Oh, I should have guessed. A typical response ...\r\nI guess I'll never understand why you ran off and fucked over your friends ...\r\nKind of like _NAME_ ...\0
+lbl_3b4:
+  msg(LESTER_D1, ERWIN_01, LESTER_DEAD, FOLLOW, 63)
+# Speaking of you, _NAME_ ...\r\nIt's best if you don't go any further.\0
+  branch.mem.local.ne(lbl_3c7, $0a47d2, $07eb5d)
+  msg(ERWIN_01, LESTER_D1, ERWIN, FOLLOW, 64)
+# How do you respond?\0
+  goto(lbl_3cd)
+lbl_3c7:
+  msg(ERWIN_01, LESTER_D1, ERWIN, FOLLOW, 65)
+# I'll think about it.\0
+lbl_3cd:
+  msg(LESTER_D1, ERWIN_01, LESTER_DEAD, FOLLOW, 66)
+# If you go on, you'll really be in for it ... Hah hah ...\r\nStaying here might be a better idea. Take it from me ...\r\nFuck this ... My eyes are all blurry ...\r\nEgbert ... told ... I ... haven't told ... Good ... bye ...\0
+  unit.cleanup()
+  scenarioclear()
+  branch.unit.dead(lbl_3df, EGBERT_10)
+  msg(EGBERT_10, LESTER_D1, EGBERT, FOLLOW, 67)
+# Soon, this body will pass away, and I'll see you again.\r\nWhen that time comes, let's visit that old house ...\0
+lbl_3df:
+  msg(ERWIN_01, LESTER_D1, ERWIN_SAD, FOLLOW, 68)
+# Lester. I'm sorry ...\0
+  branch.unit.dead(lbl_3fb, LEON_0D)
+  msg(LEON_0D, ERWIN_01, LEON, FOLLOW, 69)
+# What will you do, _NAME_? Will you follow his suggestion and remain here?\0
+  msg(ERWIN_01, LEON_0D, ERWIN, FOLLOW, 70)
+# No. I've come too far.\r\nI'll see this through. The alternative is regret.\0
+  msg(LEON_0D, ERWIN_01, LEON, FOLLOW, 71)
+# Oh ...? Then let's continue.\0
+lbl_3fb:
+  msg(ERWIN_01, LESTER_D1, ERWIN_SAD, FOLLOW, 72)
+# Farewell, ... Lester.\0
+  branch.mem.global.ne(lbl_40a, $0a478f, $07eb5f)
+  loadscenario(49)
+  goto(lbl_40c)
+lbl_40a:
+  loadscenario(76)
+lbl_40c:
+break
+
+lbl_40e:
+  msg(COMMANDER_22, DOWN_F5, HAWKKNIGHT_BLACK, NOFOLLOW, 73)
+# We'll take the front lines with our aerial attack!\0
+break
+
+lbl_416:
+  msg(COMMANDER_22, DOWN_F5, HAWKKNIGHT_BLACK_DEAD, FOLLOW, 74)
+# I don't want to die!\0
+break
+
+lbl_41e:
+  msg(LESTER_D1, COMMANDER_23, LESTER, FOLLOW, 75)
+# Attack them from the sky! Don't give them any room to breathe!\0
+  msg(COMMANDER_23, LESTER_D1, HAWKKNIGHT_BLACK, FOLLOW, 76)
+# Hah hah!\0
+break
+
+lbl_42c:
+  msg(COMMANDER_23, DOWN_F5, HAWKKNIGHT_BLACK, NOFOLLOW, 77)
+# Feed my Dragon!\0
+break
+
+lbl_434:
+  msg(COMMANDER_23, DOWN_F5, HAWKKNIGHT_BLACK_DEAD, FOLLOW, 78)
+# Arrgh! Gaahh--!\0
+break
+
+lbl_43c:
+  msg(COMMANDER_83, UP_F4, HAWKKNIGHT_BLACK, NOFOLLOW, 79)
+# This port will become your grave!\0
+break
+
+lbl_444:
+  msg(COMMANDER_83, DOWN_F5, HAWKKNIGHT_BLACK_DEAD, FOLLOW, 80)
+# Gahhh--!\0
+break
+
+lbl_44c:
+  msg(COMMANDER_84, UP_F4, SERPENTKNIGHT_BLACK, FOLLOW, 81)
+# I'll give it all I've got before I fall to you!\0
+break
+
+lbl_454:
+  msg(COMMANDER_84, UP_F4, SERPENTKNIGHT_BLACK, NOFOLLOW, 82)
+# Take the battle to the sea!\0
+  local.sub($0a47d0, $07eb58)
+break
+
+lbl_45f:
+  msg(COMMANDER_84, DOWN_F5, SERPENTKNIGHT_BLACK_DEAD, FOLLOW, 83)
+# T, too strong!\0
+break
+
+lbl_467:
+  msg(COMMANDER_85, DOWN_F5, SERPENTKNIGHT_BLACK_DEAD, FOLLOW, 84)
+# S, sea ... Return to the sea.\0
+break
+
+lbl_46f:
+  msg(COMMANDER_86, DOWN_F5, MAGE_GRAY_DEAD, FOLLOW, 85)
+# Uugghh--!\0
+break
+
+lbl_477:
+  msg(COMMANDER_87, LEFT_F6, MAGE_GRAY, NOFOLLOW, 86)
+# Swarm them! Sting them to death!\0
+break
+
+lbl_47f:
+  msg(COMMANDER_87, DOWN_F5, MAGE_GRAY_DEAD, FOLLOW, 87)
+# Is, is this it ...?\0
+break
+
+lbl_487:
+  msg(COMMANDER_88, DOWN_F5, HIGHLORD_BLACK_DEAD, FOLLOW, 88)
+# Bleeding ... It won't stop ...! Aaarrrghh ...\0
+break
+
+lbl_48f:
+  msg(COMMANDER_89, LEFT_F6, HIGHLORD_BLACK, NOFOLLOW, 89)
+# We are Sir Lester's elite corps. We fight to the end!\0
+break
+
+lbl_497:
+  msg(COMMANDER_89, DOWN_F5, HIGHLORD_BLACK_DEAD, FOLLOW, 90)
+# Your strength isn't unexpected ...\0
+break
+
+lbl_49f:
+  msg(COMMANDER_8A, LEFT_F6, KNIGHT2_BLACK, NOFOLLOW, 91)
+# We've trained for this day and are in top form!\0
+break
+
+lbl_4a7:
+  msg(COMMANDER_8A, DOWN_F5, KNIGHT2_BLACK_DEAD, FOLLOW, 92)
+# Lester ...\0
+break
+
+lbl_4af:
+  msg(COMMANDER_8B, DOWN_F5, KNIGHT2_BLACK_DEAD, FOLLOW, 93)
+# Is this ... the end ...\0
+break
+
+lbl_4b7:
+  unit.cleanup()
+  msg(LESTER_D1, RIGHT_F7, LESTER, FOLLOW, 94)
+# Fuck! Am I all that's left!?\r\nWell, someone's gonna join me on the trip to Hell!\0
+  local.sub($0a47d0, $07eb5a)
+break
+
+lbl_4c3:
+  unit.cleanup()
+  msg(LESTER_D1, RIGHT_F7, LESTER, FOLLOW, 95)
+# Don't mess with my navy!\0
+  msg(ERWIN_01, LESTER_D1, ERWIN, FOLLOW, 96)
+# You thought you could stop us with your pathetic ability?\0
+break
+

@@ -1,0 +1,455 @@
+# Movement-Triggered Events
+break
+
+# Attack-Triggered Events
+break
+
+# Damage-Triggered Events
+on.defeat(0, lbl_161, UKI_A3)
+on.damage(1, lbl_16f, NULL_FF, UKI_A3, 0xff, 0x00)
+on.defeat(3, lbl_19d, AKITAHN_A4)
+on.damage(4, lbl_1a8, NULL_FF, AKITAHN_A4, 0xff, 0x00)
+on.defeat(6, lbl_1e0, KANIO_A_A2)
+on.damage(7, lbl_1eb, NULL_FF, KANIO_A_A2, 0xff, 0x00)
+on.defeat(8, lbl_1f7, IMPERIALCOMMANDER_32)
+on.damage(9, lbl_202, NULL_FF, IMPERIALCOMMANDER_32, 0xff, 0x00)
+on.defeat(11, lbl_23a, IMPERIALCOMMANDER_33)
+on.damage(12, lbl_245, NULL_FF, IMPERIALCOMMANDER_33, 0xff, 0x00)
+on.defeat(14, lbl_287, IMPERIALCOMMANDER_34)
+on.damage(15, lbl_292, NULL_FF, IMPERIALCOMMANDER_34, 0xff, 0x00)
+on.defeat(17, lbl_2cc, IMPERIALCOMMANDER_35)
+on.damage(18, lbl_2d7, NULL_FF, IMPERIALCOMMANDER_35, 0xff, 0x00)
+on.defeat(20, lbl_30f, IMPERIALCOMMANDER_36)
+on.damage(21, lbl_31a, NULL_FF, IMPERIALCOMMANDER_36, 0xff, 0x00)
+on.defeat(23, lbl_352, IMPERIALCOMMANDER_37)
+on.damage(24, lbl_35d, NULL_FF, IMPERIALCOMMANDER_37, 0xff, 0x00)
+on.defeat(26, lbl_395, IMPERIALCOMMANDER_38)
+on.damage(27, lbl_3a0, NULL_FF, IMPERIALCOMMANDER_38, 0xff, 0x00)
+break
+
+# Position-Triggered Events
+break
+
+# Turn-Triggered Events
+break
+
+# Core Events
+lbl_a4:
+  bgm(ALLY, ALLY1)
+  focus.point(16, 11, FAST)
+  cursor.set(NULL_00)
+  screen.fadein(4)
+  cursor.set(ERWIN_01)
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.showsub(ERWIN_01)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.showsub(HEIN_05)
+  unit.position(ROHGA_0B, PRESET, PRESET)
+  unit.showsub(ROHGA_0B)
+  unit.position(CHERIE_04, PRESET, PRESET)
+  unit.showsub(CHERIE_04)
+  unit.position(KEITH_07, PRESET, PRESET)
+  unit.showsub(KEITH_07)
+  unit.position(LESTER_09, PRESET, PRESET)
+  unit.showsub(LESTER_09)
+  unit.position(LIANA_02, PRESET, PRESET)
+  unit.showsub(LIANA_02)
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 1)
+# This cave is strange ... Did people live here?\0
+  bgm(ALLY, REQUIEM1)
+  unit.position(UKI_A3, PRESET, PRESET)
+  unit.position(AKITAHN_A4, PRESET, PRESET)
+  unit.position(KANIO_A_A2, PRESET, PRESET)
+  unit.position(IMPERIALCOMMANDER_32, PRESET, PRESET)
+  unit.position(IMPERIALCOMMANDER_33, PRESET, PRESET)
+  unit.position(IMPERIALCOMMANDER_34, PRESET, PRESET)
+  unit.position(IMPERIALCOMMANDER_35, PRESET, PRESET)
+  unit.position(IMPERIALCOMMANDER_36, PRESET, PRESET)
+  unit.position(IMPERIALCOMMANDER_37, PRESET, PRESET)
+  unit.position(IMPERIALCOMMANDER_38, PRESET, PRESET)
+  subroutine(lbl_3d8)
+  msg(KANIO_A_A2, ERWIN_01, KNIGHT2_GREEN, FOLLOW, 2)
+# Hello, everybody! Welcome to the second secret stage!\0
+  subroutine(lbl_3d8)
+  msg(KANIO_A_A2, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 3)
+# It is time for the Masayan Quiz.\r\nI'll be your quiz master, Kanio.\r\nHow are you enjoying Der Langrisser?\r\nAfter you are done playing, please fill out the questionnaire postcard.\r\nPlease include your impressions of this stage!\0
+  msg(HEIN_05, KANIO_A_A2, HEIN, FOLLOW, 4)
+# What in the world is he babbling about?\r\nWeird guy ...\0
+  subroutine(lbl_3d8)
+  msg(KANIO_A_A2, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 5)
+# We couldn't spend much time on this secret stage for some reason.\r\nThere might be a few bugs because we built it too fast.\0
+  msg(KANIO_A_A2, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 6)
+# Well, anyway, let me explain the rules.\r\nChallenge the units around this battlefield.\r\nBefore you enter battle, each commander will quiz you.\r\nIf you get the question correct, the battle will proceed as normal.\r\nMake a mistake, and the units will retreat.\r\nThe winning condition is to defeat Uki.\r\nIf you answer every quiz right we will give you a small gift.\r\nWell everyone, do your best!\0
+  unit.showsub(UKI_A3)
+  unit.showsub(AKITAHN_A4)
+  unit.showsub(KANIO_A_A2)
+  unit.showsub(IMPERIALCOMMANDER_32)
+  unit.showsub(IMPERIALCOMMANDER_33)
+  unit.showsub(IMPERIALCOMMANDER_34)
+  unit.showsub(IMPERIALCOMMANDER_35)
+  unit.showsub(IMPERIALCOMMANDER_36)
+  unit.showsub(IMPERIALCOMMANDER_37)
+  unit.showsub(IMPERIALCOMMANDER_38)
+  msg(ROHGA_0B, UP_F4, ROHGA, FOLLOW, 7)
+# What?\r\nI guess we should just attack everyone ...\0
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 8)
+# Why do we have to fight? I think this will be a waste of our time ...\0
+  msg(CHERIE_04, LIANA_02, CHERIE, FOLLOW, 9)
+# I don't know. I think it's a good opportunity to have fun and relax a little.\0
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 10)
+# As long as we're here, it can't be helped.\r\nLet's go, everyone!\0
+break
+
+lbl_161:
+  msg(UKI_A3, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 11)
+# I am defeated!\0
+  subroutine(lbl_3ed)
+  local.sum($0a47d0, $07eb59)
+break
+
+lbl_16f:
+  unit.cleanup()
+  msg(UKI_A3, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 12)
+# Hey hey! Here's a question!\r\nWhat is my name?\0
+  prompt.options(lbl_192, lbl_198, 13, 14, 15, 0x00, 0xf6, 0x00, 0x00)
+# Uki\0
+# Ukiiki\0
+# Ukie\0
+  msg(UKI_A3, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 16)
+# Correct, kids.\r\nNow kids it's time for the Feats of Strength!\0
+  unit.clearbit(UKI_A3, $17, 0)
+  local.sum($0a47d0, $07eb5a)
+  goto(lbl_19b)
+lbl_192:
+  subroutine(lbl_46b)
+  goto(lbl_19b)
+lbl_198:
+  subroutine(lbl_46b)
+lbl_19b:
+break
+
+lbl_19d:
+  msg(AKITAHN_A4, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 17)
+# Hah!\0
+  local.sum($0a47d0, $07eb5c)
+break
+
+lbl_1a8:
+  unit.cleanup()
+  msg(AKITAHN_A4, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 18)
+# Neeext questiooon!\r\nWho am I?\0
+  prompt.options(lbl_1cb, lbl_1d6, 19, 20, 21, 0x00, 0xf6, 0x00, 0x00)
+# Akitahn\0
+# Arkitan\0
+# Akikan\0
+  msg(AKITAHN_A4, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 22)
+# Coooorrreectt!\r\nBzzzt, attack mode on!\0
+  unit.clearbit(AKITAHN_A4, $17, 0)
+  local.sum($0a47d0, $07eb5d)
+  goto(lbl_1de)
+lbl_1cb:
+  msg(AKITAHN_A4, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 23)
+# Wrong. Farewell!\0
+  unit.retreat(AKITAHN_A4)
+  goto(lbl_1de)
+lbl_1d6:
+  msg(AKITAHN_A4, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 24)
+# Wrong. Farewell!\0
+  unit.retreat(AKITAHN_A4)
+lbl_1de:
+break
+
+lbl_1e0:
+  msg(KANIO_A_A2, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 25)
+# Oops.\0
+  local.sum($0a47d0, $07eb5f)
+break
+
+lbl_1eb:
+  unit.cleanup()
+  subroutine(lbl_3d8)
+  msg(KANIO_A_A2, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 26)
+# I'm sorry, you haven't answered all the questions correctly yet!\r\nIt seems you won't get the prize this time, kids!\0
+break
+
+lbl_1f7:
+  msg(IMPERIALCOMMANDER_32, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 27)
+# Nooooo!\0
+  local.sum($0a47d1, $07eb59)
+break
+
+lbl_202:
+  unit.cleanup()
+  msg(IMPERIALCOMMANDER_32, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 28)
+# All righty then, queeestion tiiime!\r\nWhich of the cavalrymen on this stage is heavily armed?\0
+  prompt.options(lbl_225, lbl_230, 29, 30, 31, 0x00, 0xf6, 0x00, 0x00)
+# That one over there!\0
+# Valken\0
+# Valqueso\0
+  msg(IMPERIALCOMMANDER_32, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 32)
+# Correct ...!\r\nThere's a difference between normal cavalrymen and "Assault Suit Maniacs" like him.\r\nYou are really something. Okay, time to finish it up with a super battle!\0
+  unit.clearbit(IMPERIALCOMMANDER_32, $17, 0)
+  local.sum($0a47d1, $07eb5a)
+  goto(lbl_238)
+lbl_225:
+  msg(IMPERIALCOMMANDER_32, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 33)
+# Wrong!\r\nI'll tell you again, you're incorrect.\r\nNo, this isn't a bug or something.\r\nMaybe you should read the choices more carefully?\r\nWell then, I'll be on my way then!\0
+  unit.retreat(IMPERIALCOMMANDER_32)
+  goto(lbl_238)
+lbl_230:
+  msg(IMPERIALCOMMANDER_32, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 34)
+# Not correct ... Farewell!\0
+  unit.retreat(IMPERIALCOMMANDER_32)
+lbl_238:
+break
+
+lbl_23a:
+  msg(IMPERIALCOMMANDER_33, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 35)
+# Eeeek!\0
+  local.sum($0a47d1, $07eb5c)
+break
+
+lbl_245:
+  unit.cleanup()
+  msg(IMPERIALCOMMANDER_33, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 36)
+# Here's a question!\r\nWhat does it mean to be a true "Aniki"?\0
+  prompt.options(lbl_268, lbl_278, 37, 38, 39, 0x00, 0xf6, 0x00, 0x00)
+# Protein\0
+# Body building\0
+# Posing\0
+  msg(IMPERIALCOMMANDER_33, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 40)
+# That's right ...\r\nYou're so good!\0
+  unit.clearbit(IMPERIALCOMMANDER_33, $17, 0)
+  local.sum($0a47d1, $07eb5d)
+  goto(lbl_285)
+lbl_268:
+  msg(IMPERIALCOMMANDER_33, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 41)
+# That's right ...\r\nYou're so good!\0
+  unit.clearbit(IMPERIALCOMMANDER_33, $17, 0)
+  local.sum($0a47d1, $07eb5d)
+  goto(lbl_285)
+lbl_278:
+  msg(IMPERIALCOMMANDER_33, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 42)
+# That's right ...\r\nYou're so good!\0
+  unit.clearbit(IMPERIALCOMMANDER_33, $17, 0)
+  local.sum($0a47d1, $07eb5d)
+lbl_285:
+break
+
+lbl_287:
+  msg(IMPERIALCOMMANDER_34, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 43)
+# Gaaahhh!\0
+  local.sum($0a47d1, $07eb5f)
+break
+
+lbl_292:
+  unit.cleanup()
+  msg(IMPERIALCOMMANDER_34, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 44)
+# Here's a question!\r\nIt's a music question. Name this tune!\0
+  bgm(ALLY, ANIKI)
+  bgm(ENEMY, ANIKI)
+  prompt.options(lbl_2b6, lbl_2c2, 45, 46, 47, 0x00, 0xf6, 0x00, 0x00)
+# "Requiem"\0
+# "Aniki"\0
+# "Iron Body Bash"\0
+  msg(IMPERIALCOMMANDER_34, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 48)
+# Not correct.\r\nMan ... this was an easy one. How did you blow it?\0
+  unit.retreat(IMPERIALCOMMANDER_34)
+  goto(lbl_2ca)
+lbl_2b6:
+  msg(IMPERIALCOMMANDER_34, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 49)
+# Correct!\0
+  local.sum($0a47d2, $07eb58)
+  goto(lbl_2ca)
+lbl_2c2:
+  msg(IMPERIALCOMMANDER_34, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 50)
+# Not correct. You're such a Langrisser noob.\0
+  unit.retreat(IMPERIALCOMMANDER_34)
+lbl_2ca:
+break
+
+lbl_2cc:
+  msg(IMPERIALCOMMANDER_35, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 51)
+# Goood byeee!\0
+  local.sum($0a47d2, $07eb5a)
+break
+
+lbl_2d7:
+  unit.cleanup()
+  msg(IMPERIALCOMMANDER_35, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 52)
+# Well then, another question!\r\nWhere's Masaya's main office located?\0
+  prompt.options(lbl_2f5, lbl_305, 53, 54, 55, 0x00, 0xf6, 0x00, 0x00)
+# Nakameguro\0
+# Nishishinjuku\0
+# Higashishinshuku\0
+  msg(IMPERIALCOMMANDER_35, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 56)
+# Wrong. Look at the game package!\0
+  unit.retreat(IMPERIALCOMMANDER_35)
+  goto(lbl_30d)
+lbl_2f5:
+  msg(IMPERIALCOMMANDER_35, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 57)
+# Correct! Clearly you have mastered bathroom multitasking.\0
+  unit.clearbit(IMPERIALCOMMANDER_35, $17, 0)
+  local.sum($0a47d2, $07eb5b)
+  goto(lbl_30d)
+lbl_305:
+  msg(IMPERIALCOMMANDER_35, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 58)
+# Not correct.\r\nHmmm, you were close!\0
+  unit.retreat(IMPERIALCOMMANDER_35)
+lbl_30d:
+break
+
+lbl_30f:
+  msg(IMPERIALCOMMANDER_36, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 59)
+# Aahhh ...\0
+  local.sum($0a47d2, $07eb5d)
+break
+
+lbl_31a:
+  unit.cleanup()
+  msg(IMPERIALCOMMANDER_36, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 60)
+# Here's a question!\r\nWho is the bearded man in the Super Famicom game "Hashiriya Damashii"?\0
+  prompt.options(lbl_338, lbl_348, 61, 62, 63, 0x00, 0xf6, 0x00, 0x00)
+# Adon\0
+# Varan\0
+# Sampson\0
+  msg(IMPERIALCOMMANDER_36, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 64)
+# Wrong. Good bye!\0
+  unit.retreat(IMPERIALCOMMANDER_36)
+  goto(lbl_350)
+lbl_338:
+  msg(IMPERIALCOMMANDER_36, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 65)
+# Correct! Quite good, eh!?\0
+  local.sum($0a47d2, $07eb5e)
+  unit.clearbit(IMPERIALCOMMANDER_36, $17, 0)
+  goto(lbl_350)
+lbl_348:
+  msg(IMPERIALCOMMANDER_36, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 66)
+# Wrong. Good bye!\0
+  unit.retreat(IMPERIALCOMMANDER_36)
+lbl_350:
+break
+
+lbl_352:
+  msg(IMPERIALCOMMANDER_37, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 67)
+# Aaah ...\0
+  local.sum($0a47d3, $07eb58)
+break
+
+lbl_35d:
+  unit.cleanup()
+  msg(IMPERIALCOMMANDER_37, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 68)
+# Question!\r\nWhat is this game's TV catchphrase?\0
+  prompt.options(lbl_37b, lbl_38b, 69, 70, 71, 0x00, 0xf6, 0x00, 0x00)
+# "This time on SFC"\0
+# "Real anime, no SD-gimps!"\0
+# "Explode on SFC"\0
+  msg(IMPERIALCOMMANDER_37, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 72)
+# Nope. Double-check the ads!\0
+  unit.retreat(IMPERIALCOMMANDER_37)
+  goto(lbl_393)
+lbl_37b:
+  msg(IMPERIALCOMMANDER_37, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 73)
+# Correct, correct. Seen the commercial, eh?\0
+  local.sum($0a47d3, $07eb59)
+  unit.clearbit(IMPERIALCOMMANDER_37, $17, 0)
+  goto(lbl_393)
+lbl_38b:
+  msg(IMPERIALCOMMANDER_37, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 74)
+# Nope, that is absolutely incorrect!\0
+  unit.retreat(IMPERIALCOMMANDER_37)
+lbl_393:
+break
+
+lbl_395:
+  msg(IMPERIALCOMMANDER_38, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 75)
+# I made a mistake ...\0
+  local.sum($0a47d3, $07eb5b)
+break
+
+lbl_3a0:
+  unit.cleanup()
+  msg(IMPERIALCOMMANDER_38, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 76)
+# Question!\r\nWhich floor in the KF Building is Masaya on?\0
+  prompt.options(lbl_3be, lbl_3c9, 77, 78, 79, 0x00, 0xf6, 0x00, 0x00)
+# Second Floor\0
+# Third Floor\0
+# Fourth Floor\0
+  msg(IMPERIALCOMMANDER_38, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 80)
+# Wrong.\0
+  unit.retreat(IMPERIALCOMMANDER_38)
+  goto(lbl_3d6)
+lbl_3be:
+  msg(IMPERIALCOMMANDER_38, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 81)
+# Wrong.\0
+  unit.retreat(IMPERIALCOMMANDER_38)
+  goto(lbl_3d6)
+lbl_3c9:
+  msg(IMPERIALCOMMANDER_38, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 82)
+# That is correct!\r\nI trust we won't be receiving any ticking boxes from you ...\0
+  local.sum($0a47d3, $07eb5c)
+  unit.clearbit(IMPERIALCOMMANDER_38, $17, 0)
+lbl_3d6:
+break
+
+lbl_3d8:
+  unit.face(KANIO_A_A2, RIGHT_F7)
+  delay(10)
+  unit.face(KANIO_A_A2, UP_F4)
+  delay(10)
+  unit.face(KANIO_A_A2, LEFT_F6)
+  delay(10)
+  unit.face(KANIO_A_A2, DOWN_F5)
+  delay(10)
+endsub
+
+lbl_3ed:
+  msg(UKI_A3, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 83)
+# Let's look at the results, kids.\0
+  branch.mem.local.ne(lbl_451, $0a47d0, $07eb5a)
+  branch.mem.local.ne(lbl_451, $0a47d0, $07eb5d)
+  branch.mem.local.ne(lbl_451, $0a47d0, $07eb5e)
+  branch.mem.local.ne(lbl_451, $0a47d1, $07eb5a)
+  branch.mem.local.ne(lbl_451, $0a47d1, $07eb5d)
+  branch.mem.local.ne(lbl_451, $0a47d2, $07eb58)
+  branch.mem.local.ne(lbl_451, $0a47d2, $07eb5b)
+  branch.mem.local.ne(lbl_451, $0a47d2, $07eb5e)
+  branch.mem.local.ne(lbl_451, $0a47d3, $07eb59)
+  branch.mem.local.ne(lbl_451, $0a47d3, $07eb5c)
+  local.sum($0a47d3, $07eb5d)
+  branch.mem.global.eq(lbl_44b, $0a4795, $07eb58)
+  msg(UKI_A3, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 84)
+# Congratulations! Since you got a perfect score, we'll give you this.\0
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 85)
+# Obtained Banana.\0
+  prompt.ok(lbl_442)
+  unit.statboost(58, 1)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 87)
+# Uki's AT raised by 1!\0
+  goto(lbl_448)
+lbl_442:
+  msg(UKI_A3, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 88)
+# Ooooh ...!\r\nSo yummy, yummy. Uki loves bananas!\0
+lbl_448:
+  goto(lbl_451)
+lbl_44b:
+  msg(UKI_A3, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 89)
+# You scored perfectly, but ...\r\nWe're all out of bananas.\0
+lbl_451:
+  branch.mem.local.eq(lbl_45b, $0a47d3, $07eb5d)
+  msg(UKI_A3, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 90)
+# Sigh ... What rookies.\r\nYou kids made far too many mistakes. Did your game even come with a manual!?\r\nSorry kids, no bananas for you.\0
+lbl_45b:
+  msg(UKI_A3, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 91)
+# So many correct answers ...\r\nYou guys have a great future ahead of you in trivia games!\0
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 92)
+# Okay, then. Let's forget this and go ...\0
+  scenarioclear()
+  loadscenario(9)
+endsub
+
+lbl_46b:
+  msg(UKI_A3, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 93)
+# Wrong.\r\nBut since I feel sorry for you, I will kindly stay and fight.\0
+endsub
+

@@ -1,0 +1,768 @@
+# Movement-Triggered Events
+on.move(1, lbl_548, LIANA_CA, 0, 0xff)
+on.move(0, lbl_5bd, LANA_CB, 0, 0xff)
+break
+
+# Attack-Triggered Events
+on.attack(2, lbl_443, LIANA_CA, ERWIN_01, 0x00, 0x00, 0xff)
+on.attack(2, lbl_448, ERWIN_01, LIANA_CA, 0x00, 0x00, 0xff)
+on.attack(11, lbl_44d, LIANA_CA, ERWIN_01, 0x00, 0x00, 0xff)
+on.attack(11, lbl_452, ERWIN_01, LIANA_CA, 0x00, 0x00, 0xff)
+on.attack(12, lbl_457, ERWIN_01, JESSICA_14, 0x00, 0x00, 0xff)
+on.attack(16, lbl_47f, LEON_0D, LANA_CB, 0x00, 0x00, 0xff)
+on.attack(3, lbl_4ae, EGBERT_10, JESSICA_14, 0x00, 0x00, 0xff)
+on.attack(20, lbl_4b6, EGBERT_10, JESSICA_14, 0x00, 0x00, 0xff)
+on.attack(23, lbl_4e3, NULL_FF, JESSICA_14, 0xff, 0x00, 0xff)
+on.attack(24, lbl_4e8, JESSICA_14, EGBERT_10, 0x00, 0x00, 0xff)
+on.attack(30, lbl_602, COMMANDER_83, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(39, lbl_64a, NULL_FF, COMMANDER_8B, 0xff, 0x00, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(13, lbl_465, ERWIN_01)
+on.defeat(14, lbl_46f, HEIN_05)
+on.defeat(15, lbl_477, ROHGA_0B)
+on.defeat(17, lbl_496, LEON_0D)
+on.defeat(18, lbl_49e, IMELDA_0F)
+on.defeat(19, lbl_4a6, VARGAS_0E)
+on.defeat(21, lbl_4d3, EGBERT_10)
+on.defeat(22, lbl_4db, SONYA_0C)
+on.defeat(25, lbl_4f6, JESSICA_14)
+on.defeat(26, lbl_556, LIANA_CA)
+on.damage(4, lbl_5a9, ERWIN_01, LIANA_CA, 0x00, 0x00)
+on.damage(4, lbl_5ae, LIANA_CA, ERWIN_01, 0x00, 0x00)
+on.damage(29, lbl_5b3, ERWIN_01, LIANA_CA, 0x00, 0x00)
+on.damage(29, lbl_5b8, LIANA_CA, ERWIN_01, 0x00, 0x00)
+on.defeat(27, lbl_5c5, LANA_CB)
+on.defeat(31, lbl_60a, COMMANDER_83)
+on.defeat(32, lbl_612, COMMANDER_84)
+on.defeat(33, lbl_61a, COMMANDER_85)
+on.defeat(34, lbl_622, COMMANDER_86)
+on.defeat(35, lbl_62a, COMMANDER_87)
+on.defeat(36, lbl_632, COMMANDER_88)
+on.defeat(37, lbl_63a, COMMANDER_89)
+on.defeat(38, lbl_642, COMMANDER_8A)
+on.defeat(40, lbl_652, COMMANDER_8B)
+on.defeat(41, lbl_65a, COMMANDER_86, COMMANDER_87, COMMANDER_88, COMMANDER_89, COMMANDER_8A)
+on.defeat(42, lbl_663, COMMANDER_83, COMMANDER_84, COMMANDER_85, COMMANDER_86, COMMANDER_87, COMMANDER_88, COMMANDER_89, COMMANDER_8A, COMMANDER_8B)
+on.defeat(43, lbl_668, COMMANDER_83, COMMANDER_85, COMMANDER_88, COMMANDER_89)
+break
+
+# Position-Triggered Events
+on.bound(9, lbl_407, NPC_COMMANDER_F0, 6, 5, 6, 5, 0x00, 0x00)
+on.bound(10, lbl_423, NPC_COMMANDER_F0, 12, 5, 12, 5, 0x00, 0x00)
+on.range(44, lbl_776, EGBERT_10, LIANA_CA, 2, 0x00, 0x00, 0x00, 0x00)
+on.range(45, lbl_7a0, EGBERT_10, LANA_CB, 2, 0x00, 0x00, 0x00, 0x00)
+break
+
+# Turn-Triggered Events
+on.turn(8, lbl_377, ENEMY, 1, 0x00)
+on.turn(5, lbl_3b5, ENEMY, 0, 0x00)
+on.turn(6, lbl_3bd, ENEMY, 0, 0x00)
+on.turn(7, lbl_3df, ALLY, 0, 0x00)
+break
+
+# Core Events
+lbl_17c:
+  bgm(ALLY, ALLY5)
+  screen.fadein(4)
+  unit.position(COMMANDER_89, PRESET, PRESET)
+  unit.showsub(COMMANDER_89)
+  unit.position(COMMANDER_87, PRESET, PRESET)
+  unit.showsub(COMMANDER_87)
+  unit.position(COMMANDER_86, PRESET, PRESET)
+  unit.showsub(COMMANDER_86)
+  unit.position(COMMANDER_88, PRESET, PRESET)
+  unit.showsub(COMMANDER_88)
+  unit.position(COMMANDER_8A, PRESET, PRESET)
+  unit.showsub(COMMANDER_8A)
+  unit.position(COMMANDER_85, PRESET, PRESET)
+  unit.showsub(COMMANDER_85)
+  unit.position(COMMANDER_84, PRESET, PRESET)
+  unit.showsub(COMMANDER_84)
+  unit.position(COMMANDER_83, PRESET, PRESET)
+  unit.showsub(COMMANDER_83)
+  unit.position(COMMANDER_8B, 23, 12)
+  cursor.hide()
+  focus.point(24, 6, FAST)
+  cursor.set(NULL_00)
+  unit.position(LANA_CB, PRESET, PRESET)
+  unit.position(JESSICA_14, PRESET, PRESET)
+  unit.position(LIANA_CA, PRESET, PRESET)
+  msg(LIANA_CA, DOWN_F5, LIANA_SAD, NOFOLLOW, 1)
+# ...\0
+  msg(JESSICA_14, LIANA_CA, JESSICA, NOFOLLOW, 2)
+# What's wrong, Liana?\0
+  unit.face(LIANA_CA, DOWN_F5)
+  delay(30)
+  unit.move(LANA_CB, 22, 8)
+  delay(30)
+  msg(LANA_CB, LIANA_CA, LANA, NOFOLLOW, 3)
+# Liana ...?\0
+  delay(40)
+  unit.face(LIANA_CA, RIGHT_F7)
+  delay(30)
+  unit.face(LIANA_CA, DOWN_F5)
+  delay(30)
+  unit.face(LIANA_CA, RIGHT_F7)
+  delay(30)
+  msg(LIANA_CA, RIGHT_F7, LIANA_SAD, NOFOLLOW, 4)
+# Ah ...\r\nNothing, really. Nothing at all.\0
+  unit.face(LIANA_CA, DOWN_F5)
+  unit.move(LANA_CB, 21, 8)
+  msg(LANA_CB, LIANA_CA, LANA_SAD, NOFOLLOW, 5)
+# It's hard, isn't it, Liana? Having to fight him ...\0
+  msg(LIANA_CA, LANA_CB, LIANA, NOFOLLOW, 6)
+# But, Sister ...\r\nYou too ... Having to fight Leon ...\0
+  unit.move(LANA_CB, 22, 8)
+  delay(15)
+  unit.move(LANA_CB, 23, 8)
+  delay(15)
+  unit.move(LANA_CB, 24, 8)
+  delay(60)
+  msg(LANA_CB, LIANA_CA, LANA_SAD, NOFOLLOW, 7)
+# Since Boser captured me, I've lived a life of darkness and servitude.\r\nOf course, everyone distrusted and loathed me ...\r\nBut he, Leon, was the only one who treated me with kindness.\r\nHe knew all along that I was acting under Boser's control ...\0
+  delay(60)
+  msg(JESSICA_14, DOWN_F5, JESSICA_SAD, NOFOLLOW, 8)
+# ...\r\nYou two need not fight against your will.\r\nIf you wish to return to their side, I won't stop you ...\0
+  unit.move(LANA_CB, 24, 7)
+  msg(LANA_CB, JESSICA_14, LANA, NOFOLLOW, 9)
+# I'm all right, really!\r\nSince my release from Boser, I've done a lot of thinking.\r\nI'm a Descendant of Light, and Boser taught me to hate our way of life ...\r\nBut now that I'm free, I've chosen to fulfil my duty.\r\nEven if I must fight those I love ...\0
+  unit.move(LIANA_CA, 23, 7)
+  msg(LIANA_CA, LANA_CB, LIANA, NOFOLLOW, 10)
+# Sister ...\0
+  msg(LANA_CB, JESSICA_14, LANA_SAD, NOFOLLOW, 11)
+# However, Liana ...\0
+  unit.face(LIANA_CA, DOWN_F5)
+  delay(60)
+  msg(LIANA_CA, JESSICA_14, LIANA_SAD, NOFOLLOW, 12)
+# _NAME_ ...\r\nYou're a Descendant of Light. Why have you chosen to follow the Empire ...?\r\nLady Jessica, why has _NAME_ ...?\0
+  msg(JESSICA_14, LIANA_CA, JESSICA_SAD, NOFOLLOW, 13)
+# As the Descendants of Light, we, in good faith, attempt the task before us.\r\nBut crushing darkness through force may be superior to our methods ...\r\nThese days, I've often considered that ...\0
+  msg(LANA_CB, JESSICA_14, LANA_SAD, NOFOLLOW, 14)
+# Lady Jessica ...\0
+  msg(LIANA_CA, JESSICA_14, LIANA_SAD, NOFOLLOW, 15)
+# I, too, wish to carry out my duty as the Maiden of Light.\r\nBut I just can't ... I can't fight him like this. That's why ...\0
+  msg(JESSICA_14, LIANA_CA, JESSICA, NOFOLLOW, 16)
+# ...\0
+  msg(LIANA_CA, JESSICA_14, LIANA, NOFOLLOW, 17)
+# That's why I want you to erase my memories!\r\nI wish to forget ..., I wish to forget _NAME_!\0
+  msg(LANA_CB, LIANA_CA, LANA_SAD, NOFOLLOW, 18)
+# Liana ...\0
+  msg(JESSICA_14, LIANA_CA, JESSICA_SAD, NOFOLLOW, 19)
+# I see ...\r\nThen in accordance with with her wishes, I shall purge Liana's memory ...\0
+  unit.move(JESSICA_14, 23, 6)
+  unit.face(JESSICA_14, DOWN_F5)
+  bgm(ALLY, REQUIEM2)
+  msg(JESSICA_14, LIANA_CA, JESSICA, FOLLOW, 20)
+# Oh, god of time, knowledge, and mercy! Wipe her mind clean of strife and sadness.\r\nLa Halig Leoht ... Claensian Sinre Gemynd!\0
+  screen.brightness(5)
+  sfx(41)
+  screen.brightness(0)
+  delay(40)
+  msg(LIANA_CA, DOWN_F5, LIANA, FOLLOW, 21)
+# What ...? What am I doing here ...?\0
+  unit.face(LANA_CB, LEFT_F6)
+  delay(40)
+  msg(LANA_CB, RIGHT_F7, LANA_SAD, FOLLOW, 22)
+# Liana ... You went that far ...?\0
+  delay(60)
+  bgm(ALLY, ALLYREINFORCEMENT3)
+  unit.face(LANA_CB, DOWN_F5)
+  unit.move(COMMANDER_8B, 23, 9)
+  cursor.set(ERWIN_01)
+  msg(COMMANDER_8B, JESSICA_14, HIGHLORD_BLACK, FOLLOW, 23)
+# Lady Jessica, watch out!\r\nThe enemy has finally made its way here ...\0
+  cursor.show()
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.showsub(HEIN_05)
+  unit.position(ROHGA_0B, PRESET, PRESET)
+  unit.showsub(ROHGA_0B)
+  unit.position(LEON_0D, PRESET, PRESET)
+  unit.showsub(LEON_0D)
+  unit.position(IMELDA_0F, PRESET, PRESET)
+  unit.showsub(IMELDA_0F)
+  unit.position(VARGAS_0E, PRESET, PRESET)
+  unit.showsub(VARGAS_0E)
+  unit.position(EGBERT_10, PRESET, PRESET)
+  unit.showsub(EGBERT_10)
+  branch.mem.global.ne(lbl_2f0, $0a478f, $07eb5f)
+  unit.position(SONYA_0C, PRESET, PRESET)
+  unit.showsub(SONYA_0C)
+lbl_2f0:
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.showsub(ERWIN_01)
+  msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 24)
+# The top of Twin Castle ... What a structure.\0
+  msg(LEON_0D, ERWIN_01, LEON, FOLLOW, 25)
+# By taking the central passage, we've divided our forces.\r\nIn this situation, our commanders will prove their worth.\0
+  msg(VARGAS_0E, LIANA_CA, VARGAS, FOLLOW, 26)
+# We need to capture the two Maidens, correct?\0
+  msg(ERWIN_01, VARGAS_0E, ERWIN, FOLLOW, 27)
+# That's right. They'll be no good to us dead.\r\nAlways remember that.\0
+  msg(IMELDA_0F, ERWIN_01, IMELDA, FOLLOW, 28)
+# Easier said than done ...\0
+  msg(EGBERT_10, ERWIN_01, EGBERT, FOLLOW, 29)
+# I have some magic that should simplify this.\r\nCover me while I make my way to their position.\0
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 30)
+# If you want my opinion, we should get rid of that woman, Jessica.\r\nShe looks to be the head of their group.\0
+  msg(ERWIN_01, ROHGA_0B, ERWIN, FOLLOW, 31)
+# Whatever works for you. We just need to retrieve the Maidens safely.\0
+  unit.move(COMMANDER_8B, PRESET, PRESET)
+  unit.showsub(COMMANDER_8B)
+  unit.move(JESSICA_14, PRESET, PRESET)
+  unit.showsub(JESSICA_14)
+  msg(JESSICA_14, DOWN_F5, JESSICA, FOLLOW, 32)
+# You two ... Please don't overdo it.\0
+  unit.move(LANA_CB, PRESET, PRESET)
+  msg(LANA_CB, DOWN_F5, LANA, FOLLOW, 33)
+# No, in order to fight them, we must use all our strength.\0
+  unit.showsub(LANA_CB)
+  unit.move(LIANA_CA, PRESET, PRESET)
+  msg(LIANA_CA, DOWN_F5, LIANA, FOLLOW, 34)
+# I will honour my duty ... As the Maiden of Light, I'll fight until the end.\0
+  unit.showsub(LIANA_CA)
+  unit.setbit(LEON_0D, $17, 4)
+  local.sum($0a47d0, $07eb58)
+  local.sum($0a47d0, $07eb59)
+  local.sum($0a47d0, $07eb5a)
+  local.sum($0a47d0, $07eb5b)
+  local.sum($0a47d0, $07eb5c)
+  local.sum($0a47d0, $07eb5d)
+  local.sum($0a47d0, $07eb5e)
+  local.sum($0a47d0, $07eb5f)
+  global.sub($0a478f, $07eb5e)
+  global.sub($0a4790, $07eb5c)
+  global.sub($0a4792, $07eb5e)
+break
+
+lbl_377:
+  msg(JESSICA_14, DOWN_F5, JESSICA, FOLLOW, 35)
+# So, you're finally here.\r\nI suppose this is the end for us.\0
+  branch.unit.dead(lbl_3b3, COMMANDER_87)
+  msg(COMMANDER_87, JESSICA_14, HIGHLORD_BLACK, FOLLOW, 36)
+# By the way, the princess ...? What's happened to Princess Cherie?\0
+  branch.unit.dead(lbl_394, LANA_CB)
+  msg(LANA_CB, DOWN_F5, LANA_SAD, FOLLOW, 108)
+# I no longer feel Cherie's presence. They've probably ...\0
+  goto(lbl_3a7)
+lbl_394:
+  branch.unit.dead(lbl_3a1, LIANA_CA)
+  msg(LIANA_CA, DOWN_F5, LIANA_SAD, FOLLOW, 108)
+# I no longer feel Cherie's presence. They've probably ...\0
+  goto(lbl_3a7)
+lbl_3a1:
+  msg(JESSICA_14, COMMANDER_87, JESSICA_SAD, FOLLOW, 37)
+# I don't think there's any way she would surrender. Hence, she's probably ...\0
+lbl_3a7:
+  msg(COMMANDER_87, JESSICA_14, HIGHLORD_BLACK, FOLLOW, 38)
+# Damn it! This battle is for you, Princess!\0
+  msg(SOLDIER_20, DOWN_F5, SOLDIER2_SILVER, NOFOLLOW, 39)
+# Aaahhhh! Get them!\0
+lbl_3b3:
+break
+
+lbl_3b5:
+  msg(JESSICA_14, DOWN_F5, JESSICA, FOLLOW, 40)
+# With darkness destroyed, there's no longer an enemy to fight.\r\nBut if you insist on governing by force ... We'll make sure you're worthy!\0
+break
+
+lbl_3bd:
+  branch.unit.dead(lbl_3dd, LIANA_CA)
+  branch.unit.dead(lbl_3dd, LANA_CB)
+  msg(JESSICA_14, DOWN_F5, JESSICA, FOLLOW, 41)
+# It seems we're the only ones left ...\r\nLiana, Lana, please escape while you can.\0
+  msg(LANA_CB, JESSICA_14, LANA, FOLLOW, 42)
+# No, Lady Jessica! Why would you say such a thing!?\0
+  msg(LIANA_CA, JESSICA_14, LIANA, FOLLOW, 43)
+# I feel the same ... We will fight until the end as Descendants of Light!\0
+  msg(JESSICA_14, DOWN_F5, JESSICA, FOLLOW, 44)
+# Very well ... Then let's give them everything we have!\0
+lbl_3dd:
+break
+
+lbl_3df:
+  branch.unit.dead(lbl_405, EGBERT_10)
+  branch.unit.dead(lbl_405, JESSICA_14)
+  msg(EGBERT_10, JESSICA_14, EGBERT, FOLLOW, 45)
+# Lady Jessica ... No, I'll refer to you as I did, as Master.\0
+  msg(JESSICA_14, EGBERT_10, JESSICA, FOLLOW, 46)
+# Egbert ...\0
+  msg(EGBERT_10, JESSICA_14, EGBERT, FOLLOW, 47)
+# Consider this, Master. You cannot win. Won't you surrender?\0
+  msg(JESSICA_14, EGBERT_10, JESSICA, FOLLOW, 48)
+# It is a Descendant's duty to keep Langrisser from the wrong hands.\r\nI reject your offer.\0
+  msg(EGBERT_10, JESSICA_14, EGBERT, FOLLOW, 49)
+# Heh heh heh ... How interesting.\r\nYour refusal, at least, brings me a small pleasure.\r\nI've always dreamt of a wizard's duel with you ...\r\nAnd I've learnt much since your tutelage, Master Jessica, as I'll be pleased to show!\0
+lbl_405:
+break
+
+lbl_407:
+  branch.mem.global.eq(lbl_421, $0a478e, $07eb58)
+  unit.cleanup()
+  prompt.ok(lbl_421)
+  item.add(INFERNOLANCE)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 51)
+# Obtained Inferno Lance.\r\nYou hear a lock being closed somewhere else.\0
+  item.add(INFERNOLANCE)
+  global.sum($0a478e, $07eb58)
+lbl_421:
+break
+
+lbl_423:
+  branch.mem.global.eq(lbl_441, $0a478e, $07eb59)
+  unit.cleanup()
+  prompt.ok(lbl_441)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 53)
+# As you take the stone, it emits a mysterious power.\0
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 54)
+# Obtained Rune Stone.\r\nYou hear a lock being closed somewhere else.\0
+  item.add(RUNESTONE)
+  global.sum($0a478e, $07eb59)
+lbl_441:
+break
+
+lbl_443:
+  subroutine(lbl_6d4)
+break
+
+lbl_448:
+  subroutine(lbl_6d4)
+break
+
+lbl_44d:
+  subroutine(lbl_67a)
+break
+
+lbl_452:
+  subroutine(lbl_67a)
+break
+
+lbl_457:
+  msg(ERWIN_01, JESSICA_14, ERWIN, NOFOLLOW, 55)
+# This is a new era ... And we, the people, should fashion a new world to meet it.\0
+  msg(JESSICA_14, ERWIN_01, JESSICA, NOFOLLOW, 56)
+# I wish to test you, if you think you're so worthy!\0
+break
+
+lbl_465:
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 57)
+# That ... that was it!? Life is so fleeting ...\0
+  unit.cleanup()
+  gameover()
+break
+
+lbl_46f:
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 58)
+# Gahh--! I've been killed ...\0
+break
+
+lbl_477:
+  msg(ROHGA_0B, DOWN_F5, ROHGA_DEAD, FOLLOW, 59)
+# Argh! I can't believe I lost to a bunch of punks!\0
+break
+
+lbl_47f:
+  msg(LEON_0D, LANA_CB, LEON_SAD, NOFOLLOW, 60)
+# Lana, forgive me.\r\nEven if I'm an Imperial soldier, I do not wish to fight you.\0
+  msg(LANA_CB, LEON_0D, LANA_SAD, NOFOLLOW, 61)
+# Please don't let it bother you. I'm no different, ... since I am a Descendant of Light.\0
+  msg(LEON_0D, LANA_CB, LEON_SAD, NOFOLLOW, 62)
+# I'm sorry ...\0
+  local.sub($0a47d0, $07eb58)
+break
+
+lbl_496:
+  msg(LEON_0D, DOWN_F5, LEON_DEAD, FOLLOW, 63)
+# Damn! _NAME_, take care of the rest!\0
+break
+
+lbl_49e:
+  msg(IMELDA_0F, DOWN_F5, IMELDA_DEAD, FOLLOW, 64)
+# Well aren't you hot stuff? I'm out of here!\0
+break
+
+lbl_4a6:
+  msg(VARGAS_0E, DOWN_F5, VARGAS_DEAD, FOLLOW, 65)
+# I've failed ...\0
+break
+
+lbl_4ae:
+  msg(EGBERT_10, JESSICA_14, EGBERT, NOFOLLOW, 66)
+# With my magic, I shall remove the shackles on my master ...\r\nThose known as the Descendants of Light!\0
+break
+
+lbl_4b6:
+  msg(EGBERT_10, JESSICA_14, EGBERT, NOFOLLOW, 67)
+# Master, before my death, I've always wished to duel with you.\r\nWith the legendary sorceress who returned from beyond ...\0
+  msg(JESSICA_14, EGBERT_10, JESSICA_ANGRY, NOFOLLOW, 68)
+# Of all my students, you possessed the greatest talent.\r\nWhy did you waste it serving a tyrant?\0
+  msg(EGBERT_10, JESSICA_14, EGBERT, NOFOLLOW, 69)
+# In truth, I studied your magic to banish the darkness.\r\nWith that goal complete, I pursue greater aims ...\r\nAnd wish to explore the limits of my power.\0
+  msg(JESSICA_14, EGBERT_10, JESSICA_SAD, NOFOLLOW, 70)
+# It seems you've acquired more power than you're fit to handle.\0
+  local.sub($0a47d0, $07eb5b)
+break
+
+lbl_4d3:
+  msg(EGBERT_10, DOWN_F5, EGBERT_DEAD, FOLLOW, 71)
+# What ...? My magic was ineffective.\0
+break
+
+lbl_4db:
+  msg(SONYA_0C, DOWN_F5, SONYA_DEAD, FOLLOW, 72)
+# That's enough ...\0
+break
+
+lbl_4e3:
+  local.sub($0a47d0, $07eb5d)
+break
+
+lbl_4e8:
+  msg(JESSICA_14, EGBERT_10, JESSICA, NOFOLLOW, 73)
+# Egbert, it was just a little longer ...\r\nYou could have brought peace with the Descendants.\r\nIf you'd waited for us, we'd have welcomed you.\0
+  msg(EGBERT_10, JESSICA_14, EGBERT, NOFOLLOW, 74)
+# I'm sure my master is already aware of the reasons.\r\nIn forbidden research, I was nearly possessed by demons.\r\nMy master would have me face these creatures. A terrifying prospect ...\r\nI knew our strength was not sufficient, and so, I chose to aid His Majesty's Empire.\r\nI had, at least, the power and public favour to do that!\r\nHmph, it seems my speech has gotten a bit lengthy. We should finish things.\0
+break
+
+lbl_4f6:
+  msg(JESSICA_14, DOWN_F5, JESSICA_DEAD, FOLLOW, 75)
+# Aaahhh! No ... I'm finished too ...\r\nWith darkness defeated, I guess the world ... no longer needs Descendants ...\r\nMaybe ... this was destiny ...\0
+  unit.cleanup()
+  scenarioclear()
+  branch.unit.dead(lbl_508, EGBERT_10)
+  msg(EGBERT_10, JESSICA_14, EGBERT, FOLLOW, 76)
+# ...\r\nMaster, you've fulfilled your duties admirably.\r\nPlease rest in peace ... and leave this world in our hands.\0
+lbl_508:
+  msg(ERWIN_01, JESSICA_14, ERWIN_SAD, FOLLOW, 77)
+# Farewell, Jessica ...\0
+  branch.unit.dead(lbl_518, LEON_0D)
+  msg(LEON_0D, ERWIN_01, LEON, FOLLOW, 78)
+# So this is the end of the Descendants of Light?\r\nWith this, we shall witness a new world ...\0
+lbl_518:
+  branch.mem.global.ne(lbl_531, $0a478f, $07eb5f)
+  branch.mem.local.eq(lbl_529, $0a47d3, $07eb5a)
+  branch.mem.local.eq(lbl_529, $0a47d3, $07eb5b)
+  subroutine(lbl_6f2)
+  loadscenario(84)
+lbl_529:
+  subroutine(lbl_73f)
+  loadscenario(85)
+  goto(lbl_546)
+lbl_531:
+  branch.mem.local.eq(lbl_541, $0a47d3, $07eb5a)
+  branch.mem.local.eq(lbl_541, $0a47d3, $07eb5b)
+  subroutine(lbl_6f2)
+  global.sum($0a4792, $07eb5e)
+  loadscenario(89)
+lbl_541:
+  subroutine(lbl_73f)
+  loadscenario(90)
+lbl_546:
+break
+
+lbl_548:
+  msg(ERWIN_01, LIANA_CA, ERWIN_SAD, FOLLOW, 79)
+# Liana ... I've never wanted to fight you. Please, give this up.\0
+  msg(LIANA_CA, ERWIN_01, LIANA_SAD, FOLLOW, 80)
+# I am the Maiden of Light ... Even if it costs my life, I shall not abandon my duty!\0
+break
+
+lbl_556:
+  msg(LIANA_CA, DOWN_F5, LIANA_DEAD, FOLLOW, 81)
+# Aaaahh!\0
+  bgm(ALLY, REQUIEM1)
+  bgm(ENEMY, REQUIEM1)
+  msg(ERWIN_01, LIANA_CA, ERWIN_SAD, FOLLOW, 82)
+# Liana!\0
+  branch.mem.local.ne(lbl_575, $0a47d3, $07eb5c)
+  msg(LIANA_CA, DOWN_F5, LIANA_DEAD, FOLLOW, 83)
+# Thank the goddess ... You were not hurt.\r\nI knew ... I knew I ... couldn't bring myself to ... defeat ... you ...\r\nBecause I've always ... always ... _NAME_ ...\0
+  goto(lbl_587)
+lbl_575:
+  msg(LIANA_CA, ERWIN_01, LIANA_DEAD, FOLLOW, 84)
+# _NAME_ ...? I, I ... why ... am I ... fighting ...?\0
+  msg(ERWIN_01, LIANA_CA, ERWIN_SAD, FOLLOW, 85)
+# Liana ...!\0
+  msg(LIANA_CA, ERWIN_01, LIANA_DEAD, FOLLOW, 86)
+# Goodbye, _NAME_ ... I love ... you.\0
+lbl_587:
+  unit.cleanup()
+  msg(ERWIN_01, LIANA_CA, ERWIN_SAD, FOLLOW, 87)
+# Liana!\0
+  bgm(ALLY, ALLYREINFORCEMENT3)
+  bgm(ENEMY, ALLY5)
+  branch.unit.dead(lbl_59e, EGBERT_10)
+  msg(EGBERT_10, LIANA_CA, EGBERT, FOLLOW, 88)
+# How could this have happened? With Liana killed, we won't be able to reseal Alhazard ...\0
+lbl_59e:
+  local.sum($0a47d0, $07eb5c)
+  local.sum($0a47d3, $07eb5d)
+  global.sum($0a478f, $07eb5e)
+break
+
+lbl_5a9:
+  subroutine(lbl_690)
+break
+
+lbl_5ae:
+  subroutine(lbl_690)
+break
+
+lbl_5b3:
+  subroutine(lbl_6ea)
+break
+
+lbl_5b8:
+  subroutine(lbl_6ea)
+break
+
+lbl_5bd:
+  msg(LANA_CB, LEON_0D, LANA_SAD, FOLLOW, 89)
+# I can't do it. I can't fight him ...\0
+break
+
+lbl_5c5:
+  msg(LANA_CB, DOWN_F5, LANA_DEAD, FOLLOW, 90)
+# Ugh! N, no ...\0
+  branch.unit.dead(lbl_5e2, LEON_0D)
+  branch.mem.local.ne(lbl_5dc, $0a47d2, $07eb58)
+  msg(LEON_0D, LANA_CB, LEON_SAD, FOLLOW, 91)
+# Lana ...\0
+  goto(lbl_5e2)
+lbl_5dc:
+  msg(LEON_0D, LANA_CB, LEON_SAD, FOLLOW, 92)
+# You can't die, Lana!\0
+lbl_5e2:
+  branch.unit.dead(lbl_5f3, LEON_0D)
+  msg(LANA_CB, LEON_0D, LANA_DEAD, FOLLOW, 93)
+# Thank you for everything, Leon.\r\nWhen I was under Boser's spell, you told everyone it wasn't me doing those things ...\r\nI ... will never ... forget ... your ... kindness ...\0
+  unit.cleanup()
+  msg(LEON_0D, LANA_CB, LEON_SAD, FOLLOW, 94)
+# Forgive me, Lana. Rest in peace ...\0
+lbl_5f3:
+  branch.unit.dead(lbl_5fd, EGBERT_10)
+  msg(EGBERT_10, LANA_CB, EGBERT, FOLLOW, 95)
+# There's nothing we can do. Our mission's a failure ...\r\nHow could we have let the Maiden of Darkness die?\0
+lbl_5fd:
+  global.sum($0a4790, $07eb5c)
+break
+
+lbl_602:
+  msg(COMMANDER_83, RIGHT_F7, KNIGHT2_BLACK, NOFOLLOW, 96)
+# Arrrgghhh! I won't lose!\0
+break
+
+lbl_60a:
+  msg(COMMANDER_83, DOWN_F5, KNIGHT2_BLACK_DEAD, FOLLOW, 97)
+# You think I've ... lost ...?\0
+break
+
+lbl_612:
+  msg(COMMANDER_84, DOWN_F5, MAGE_GRAY_DEAD, FOLLOW, 98)
+# My power is ... fading ...\0
+break
+
+lbl_61a:
+  msg(COMMANDER_85, DOWN_F5, KNIGHT2_BLACK_DEAD, FOLLOW, 99)
+# I can't ... die! Our kingdom ...\0
+break
+
+lbl_622:
+  msg(COMMANDER_86, DOWN_F5, KNIGHT2_BLACK_DEAD, FOLLOW, 100)
+# It's all over for me, too.\0
+break
+
+lbl_62a:
+  msg(COMMANDER_87, DOWN_F5, HIGHLORD_BLACK_DEAD, FOLLOW, 101)
+# I beg your pardon, Lady Jessica.\0
+break
+
+lbl_632:
+  msg(COMMANDER_88, DOWN_F5, SWORDSMAN2_BLACK_DEAD, FOLLOW, 102)
+# Arrrggghhh! My, my arm!\0
+break
+
+lbl_63a:
+  msg(COMMANDER_89, DOWN_F5, SWORDSMAN2_BLACK_DEAD, FOLLOW, 103)
+# At least ... I still have a weapon ...\0
+break
+
+lbl_642:
+  msg(COMMANDER_8A, DOWN_F5, SAGE_GRAY_DEAD, FOLLOW, 104)
+# Gaahhh--!\0
+break
+
+lbl_64a:
+  msg(COMMANDER_8B, DOWN_F5, HIGHLORD_BLACK, FOLLOW, 105)
+# You will not pass!\0
+break
+
+lbl_652:
+  msg(COMMANDER_8B, DOWN_F5, HIGHLORD_BLACK_DEAD, FOLLOW, 106)
+# L, Lady Jessica ...\0
+break
+
+lbl_65a:
+  unit.cleanup()
+  msg(JESSICA_14, LEFT_F6, JESSICA, FOLLOW, 107)
+# This tower's troops have been utterly destroyed ...\r\nI would never have thought they'd be this powerful ...\0
+break
+
+lbl_663:
+  local.sub($0a47d0, $07eb5e)
+break
+
+lbl_668:
+  local.sub($0a47d0, $07eb5f)
+break
+
+  msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 110)
+# Ah, excellent. This has simplified things.\0
+  msg(EGBERT_10, JESSICA_14, EGBERT, FOLLOW, 111)
+# All that remains is to challenge my master ...\0
+endsub
+
+lbl_67a:
+  msg(LIANA_CA, ERWIN_01, LIANA_SAD, NOFOLLOW, 112)
+# Who ... are you ...?\0
+  msg(ERWIN_01, LIANA_CA, ERWIN, NOFOLLOW, 113)
+# Liana? You don't know who I am?\0
+  msg(LIANA_CA, ERWIN_01, LIANA_SAD, NOFOLLOW, 114)
+# Uuugghh ... Please, just go away!\0
+  local.sub($0a47d0, $07eb5a)
+endsub
+
+lbl_690:
+  unit.cleanup()
+  msg(LIANA_CA, ERWIN_01, LIANA, FOLLOW, 115)
+# _NAME_!? Why, have I ...?\0
+  msg(JESSICA_14, LIANA_CA, JESSICA, FOLLOW, 116)
+# My spell has been broken!? How ...?\r\nNo, there's only one way. Liana must ...\0
+  msg(ERWIN_01, LIANA_CA, ERWIN, FOLLOW, 117)
+# Liana! Do you know who I am!?\0
+  msg(LIANA_CA, ERWIN_01, LIANA, FOLLOW, 118)
+# _NAME_ ...\r\nLady Jessica sealed my memory, but I still ... remember you ...\0
+  msg(JESSICA_14, LIANA_CA, JESSICA, FOLLOW, 119)
+# Your memory was sealed, but your heart still longs for him.\r\nThose feelings must run very deep ...\0
+  msg(ERWIN_01, LIANA_CA, ERWIN, FOLLOW, 120)
+# Liana, I ...\0
+  msg(LIANA_CA, LEFT_F6, LIANA, FOLLOW, 121)
+# No ...! I am the Maiden of Light.\r\nProtecting Langrisser ... is my duty! That's why, I ... Aaahhh ...!\0
+  msg(LIANA_CA, DOWN_F5, LIANA_SAD, FOLLOW, 122)
+# Why ... Why are we enemies?\r\nI don't want to fight, but you left us ... You abandoned me ...\0
+  msg(ERWIN_01, LIANA_CA, ERWIN, FOLLOW, 123)
+# But, Liana! That ...\0
+  msg(LIANA_CA, ERWIN_01, LIANA, FOLLOW, 124)
+# It's all right, I understand. This world can be cruel ...\r\nLet's do battle, _NAME_, and see whose ideal wins!\0
+  local.sub($0a47d0, $07eb59)
+  local.sum($0a47d3, $07eb5c)
+endsub
+
+lbl_6d4:
+  msg(LIANA_CA, ERWIN_01, LIANA_SAD, NOFOLLOW, 125)
+# I wonder why ... when I want to fight you ... I ... cry ...\0
+  msg(ERWIN_01, LIANA_CA, ERWIN_SAD, NOFOLLOW, 126)
+# You erased your memories?\r\nI don't understand ...! Why would you do that? Why must we fight at all!?\0
+  msg(LIANA_CA, ERWIN_01, LIANA_SAD, NOFOLLOW, 127)
+# This ... It's too painful ... Don't talk to me!\0
+  local.sub($0a47d0, $07eb5c)
+endsub
+
+lbl_6ea:
+  unit.cleanup()
+  msg(ERWIN_01, LIANA_CA, ERWIN, FOLLOW, 128)
+# What do you mean? Are you saying you have no idea who I am?\0
+endsub
+
+lbl_6f2:
+  branch.unit.dead(lbl_702, LIANA_CA)
+  msg(ERWIN_01, LIANA_CA, ERWIN, FOLLOW, 129)
+# Now then, you two will be coming with me.\0
+  msg(LIANA_CA, ERWIN_01, LIANA_SAD, FOLLOW, 130)
+# ... We've lost, haven't we?\0
+lbl_702:
+  branch.unit.dead(lbl_725, LANA_CB)
+  branch.unit.dead(lbl_719, LEON_0D)
+  msg(LEON_0D, LANA_CB, LEON, FOLLOW, 131)
+# Lana ...\0
+  msg(LANA_CB, LEON_0D, LANA, FOLLOW, 132)
+# I understand ... I won't resist ...\0
+  goto(lbl_725)
+lbl_719:
+  msg(ERWIN_01, LANA_CB, ERWIN, FOLLOW, 133)
+# I'll be taking you with me, Lana.\0
+  msg(LANA_CB, ERWIN_01, LANA_SAD, FOLLOW, 134)
+# It looks like there's no alternative ...\0
+lbl_725:
+  branch.unit.dead(lbl_738, ROHGA_0B)
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 135)
+# We have the Sword of Light, the Sword of Darkness, and Maidens for each.\r\nAn impressive collection! We're finally finished.\0
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 136)
+# And yet there remains much to be done ...\r\nA new era dawns! Let us return to the Imperial Capital!\0
+  goto(lbl_73e)
+lbl_738:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 137)
+# We have both swords and both Maidens, all that's needed.\r\nA new era begins now!\r\nLet us return to the Imperial Capital.\0
+lbl_73e:
+endsub
+
+lbl_73f:
+  branch.unit.dead(lbl_749, ROHGA_0B)
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 138)
+# We have both swords and both Maidens. Our mission is finished.\0
+lbl_749:
+  branch.unit.dead(lbl_756, EGBERT_10)
+  msg(EGBERT_10, ERWIN_01, EGBERT, FOLLOW, 139)
+# I pains me to say it ... Without both of the maidens ...\r\nAlhazard shall never be able to be sealed again.\0
+  goto(lbl_75c)
+lbl_756:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 140)
+# What worthless luck. We have both swords ...\r\nIf only we could have taken the Maidens, too ...\0
+lbl_75c:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 141)
+# It was a very ambitious goal. Perhaps we were just being unrealistic ...\r\nFrom here on, we must act as Alhazard's guardian.\r\nIt must never again fall into evil hands.\0
+  branch.unit.dead(lbl_76f, LEON_0D)
+  msg(LEON_0D, ERWIN_01, LEON, FOLLOW, 142)
+# That's right. Now, to the Imperial Capital!\0
+  goto(lbl_775)
+lbl_76f:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 143)
+# Now, let's return to our Imperial Capital!\0
+lbl_775:
+endsub
+
+lbl_776:
+  msg(EGBERT_10, LIANA_CA, EGBERT, FOLLOW, 144)
+# Ah, Maiden of Light. Come to me!\0
+  msg(LIANA_CA, EGBERT_10, LIANA, FOLLOW, 145)
+# Wh, what are you ...?\0
+  msg(EGBERT_10, LIANA_CA, EGBERT, FOLLOW, 109)
+# Ecwyose Heolde Lufe!\0
+  cast.teleport(EGBERT_10, LIANA_CA, TELEPORT_OUT, PRESET, PRESET)
+  branch.unit.dead(lbl_79b, LANA_CB)
+  msg(EGBERT_10, LANA_CB, EGBERT, FOLLOW, 146)
+# Heh heh heh ... Only the Maiden of Darkness now remains.\r\nThis should prove easy enough.\0
+  goto(lbl_79e)
+lbl_79b:
+  subroutine(lbl_66d)
+lbl_79e:
+break
+
+lbl_7a0:
+  msg(EGBERT_10, LANA_CB, EGBERT, FOLLOW, 147)
+# So, Maiden of Darkness. Come to me!\0
+  msg(LANA_CB, EGBERT_10, LANA, FOLLOW, 148)
+# Ah, no thank you ...\0
+  msg(EGBERT_10, LANA_CB, EGBERT, FOLLOW, 109)
+# Ecwyose Heolde Lufe!\0
+  cast.teleport(EGBERT_10, LANA_CB, TELEPORT_OUT, PRESET, PRESET)
+  branch.unit.dead(lbl_7c5, LIANA_CA)
+  msg(EGBERT_10, LIANA_CA, EGBERT, FOLLOW, 149)
+# Heh heh heh ... Only the Maiden of Light now remains.\r\nThis should prove easy enough.\0
+  goto(lbl_7c8)
+lbl_7c5:
+  subroutine(lbl_66d)
+lbl_7c8:
+break
+

@@ -1,0 +1,1121 @@
+# Movement-Triggered Events
+on.move(33, lbl_6c8, VARGAS_0E, 0, 0xff)
+on.move(36, lbl_6de, LAIRD_18, 1, 0xff)
+on.move(0, lbl_73a, JESSICA_14, 0, 0xff)
+on.move(43, lbl_790, CHERIE_CC, 0, 0xff)
+break
+
+# Attack-Triggered Events
+on.attack(20, lbl_663, ERWIN_01, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(22, lbl_675, HEIN_05, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(23, lbl_67d, NULL_FF, HEIN_05, 0xff, 0x00, 0xff)
+on.attack(25, lbl_68d, NULL_FF, ROHGA_0B, 0xff, 0x00, 0xff)
+on.attack(27, lbl_69d, LEON_0D, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(28, lbl_6a5, NULL_FF, LEON_0D, 0xff, 0x00, 0xff)
+on.attack(31, lbl_6b8, NULL_FF, IMELDA_0F, 0xff, 0x00, 0xff)
+on.attack(39, lbl_74f, JESSICA_14, ERWIN_01, 0x00, 0x00, 0xff)
+on.attack(40, lbl_75d, JESSICA_14, ERWIN_01, 0x00, 0xff, 0xff)
+on.attack(41, lbl_765, KEITH_CF, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(44, lbl_7c1, CHERIE_CC, ERWIN_01, 0x00, 0x00, 0xff)
+on.attack(45, lbl_7cf, CHERIE_CC, ERWIN_01, 0x00, 0xff, 0xff)
+on.attack(47, lbl_833, COMMANDER_83, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(49, lbl_843, COMMANDER_84, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(51, lbl_853, COMMANDER_85, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(53, lbl_863, COMMANDER_86, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(57, lbl_87e, COMMANDER_88, NULL_FF, 0x00, 0xff, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(21, lbl_66b, ERWIN_01)
+on.defeat(24, lbl_685, HEIN_05)
+on.defeat(26, lbl_695, ROHGA_0B)
+on.defeat(29, lbl_6ad, LEON_0D)
+on.defeat(32, lbl_6c0, IMELDA_0F)
+on.defeat(34, lbl_6d3, VARGAS_0E)
+on.defeat(37, lbl_722, LAIRD_18)
+on.defeat(42, lbl_76d, KEITH_CF)
+on.defeat(46, lbl_7d7, CHERIE_CC)
+on.defeat(48, lbl_83b, COMMANDER_83)
+on.defeat(50, lbl_84b, COMMANDER_84)
+on.defeat(52, lbl_85b, COMMANDER_85)
+on.defeat(54, lbl_86b, COMMANDER_86)
+on.defeat(55, lbl_873, COMMANDER_87)
+on.defeat(58, lbl_886, COMMANDER_88)
+on.defeat(59, lbl_88e, COMMANDER_89)
+on.defeat(60, lbl_896, COMMANDER_8A)
+on.defeat(61, lbl_89e, JESSICA_14, KEITH_CF, COMMANDER_83, COMMANDER_84, COMMANDER_85, COMMANDER_86, COMMANDER_87, COMMANDER_88, COMMANDER_89, COMMANDER_8A)
+on.defeat(62, lbl_8a7, CHERIE_CC, JESSICA_14, KEITH_CF, COMMANDER_83, COMMANDER_84, COMMANDER_85, COMMANDER_86, COMMANDER_87, COMMANDER_88, COMMANDER_89, COMMANDER_8A)
+on.defeat(63, lbl_8ac, CHERIE_CC, JESSICA_14)
+on.defeat(38, lbl_8b9, KEITH_CF, COMMANDER_83, COMMANDER_84, COMMANDER_85, COMMANDER_86, COMMANDER_87, COMMANDER_88, COMMANDER_89, COMMANDER_8A)
+on.damage(30, lbl_8bb, LEON_0D, NULL_FF, 0x00, 0xff)
+on.damage(35, lbl_8c4, NULL_FF, VARGAS_0E, 0xff, 0x00)
+on.damage(56, lbl_8cd, NULL_FF, COMMANDER_87, 0xff, 0x00)
+break
+
+# Position-Triggered Events
+on.bound(10, lbl_543, LEON_0D, 15, 4, 16, 5, 0x00, 0x00)
+on.bound(10, lbl_589, ERWIN_01, 15, 4, 16, 5, 0x00, 0x00)
+on.bound(11, lbl_5bf, CHERIE_CC, 15, 4, 16, 5, 0x00, 0x00)
+on.bound(11, lbl_5d4, JESSICA_14, 15, 4, 16, 5, 0x00, 0x00)
+on.bound(12, lbl_5e9, ERWIN_01, 13, 6, 18, 10, 0x00, 0x00)
+on.bound(13, lbl_5f2, LEON_0D, 13, 6, 18, 10, 0x00, 0x00)
+on.bound(14, lbl_5fb, HEIN_05, 15, 4, 16, 5, 0x00, 0x00)
+on.bound(15, lbl_604, ROHGA_0B, 15, 4, 16, 5, 0x00, 0x00)
+on.bound(16, lbl_60d, IMELDA_0F, 15, 4, 16, 5, 0x00, 0x00)
+on.bound(17, lbl_616, VARGAS_0E, 15, 4, 16, 5, 0x00, 0x00)
+on.bound(18, lbl_61f, LAIRD_18, 13, 6, 18, 10, 0x00, 0x00)
+on.bound(19, lbl_62c, NPC_COMMANDER_F0, 16, 24, 16, 24, 0x00, 0x00)
+break
+
+# Turn-Triggered Events
+on.turn(1, lbl_425, ENEMY, 2, 0x00)
+on.turn(2, lbl_43d, ALLY, 2, 0x00)
+on.turn(3, lbl_46d, ENEMY, 8, 0x00)
+on.turn(4, lbl_4d2, ALLY, 7, 0x00)
+on.turn(5, lbl_4e3, ENEMY, 1, 0x00)
+on.turn(6, lbl_513, ENEMY, 10, 0x00)
+on.turn(7, lbl_521, ALLY, 8, 0x00)
+on.turn(8, lbl_526, ENEMY, 6, 0x00)
+on.turn(9, lbl_52b, ALLY, 3, 0x00)
+break
+
+# Core Events
+lbl_216:
+  bgm(ALLY, NIGHT)
+  cursor.set(NULL_00)
+  screen.map.set(15)
+  unit.swap(COMMANDER_87, PRIEST_75)
+  unit.position(ELIZA_A5, 6, 14)
+  unit.position(VARGAS_0E, 12, 16)
+  unit.position(PRIEST_75, 8, 14)
+  unit.face(PRIEST_75, DOWN_F5)
+  cursor.set(NULL_00)
+  focus.point(13, 15, FAST)
+  unit.face(VARGAS_0E, LEFT_F6)
+  cursor.hide()
+  screen.fadein(8)
+  delay(60)
+  unit.move(VARGAS_0E, 12, 16)
+  delay(60)
+  msg(VARGAS_0E, DOWN_F5, VARGAS, NOFOLLOW, 1)
+# ...\0
+  delay(30)
+  unit.move(VARGAS_0E, 13, 16)
+  delay(10)
+  unit.move(VARGAS_0E, 14, 16)
+  delay(10)
+  unit.move(VARGAS_0E, 15, 16)
+  delay(60)
+  msg(VARGAS_0E, RIGHT_F7, VARGAS, NOFOLLOW, 2)
+# Hmmm ...\0
+  delay(30)
+  unit.move(VARGAS_0E, 12, 16)
+  delay(60)
+  unit.face(VARGAS_0E, DOWN_F5)
+  delay(30)
+  msg(VARGAS_0E, DOWN_F5, VARGAS, NOFOLLOW, 3)
+# A little longer.\0
+  delay(30)
+  msg(VARGAS_0E, DOWN_F5, VARGAS, NOFOLLOW, 4)
+# ...\r\nGrr--! I can't stand it!\0
+  unit.move(VARGAS_0E, 12, 18)
+  unit.move(VARGAS_0E, 15, 18)
+  unit.move(VARGAS_0E, 14, 16)
+  unit.move(VARGAS_0E, 13, 15)
+  unit.move(VARGAS_0E, 12, 16)
+  msg(VARGAS_0E, DOWN_F5, VARGAS, NOFOLLOW, 5)
+# Just ... A little longer ...\0
+  delay(60)
+  sfx(70)
+  sfx(70)
+  bgm(ALLY, LIANA)
+  msg(VARGAS_0E, LEFT_F6, VARGAS, NOFOLLOW, 6)
+# O, oh!\0
+  unit.move(PRIEST_75, 10, 16)
+  msg(PRIEST_75, VARGAS_0E, PRIEST_GREEN, NOFOLLOW, 7)
+# Lord Vargas, congratulations! You're the father of a baby girl!\0
+  msg(VARGAS_0E, LEFT_F6, VARGAS, NOFOLLOW, 8)
+# O, oh! Eliza!\0
+  unit.face(ELIZA_A5, RIGHT_F7)
+  cursor.set(ERWIN_01)
+  focus.point(5, 16, SLOW)
+  cursor.set(NULL_00)
+  unit.move(PRIEST_75, 10, 17)
+  unit.move(VARGAS_0E, 8, 16)
+  unit.move(PRIEST_75, 9, 16)
+  unit.face(PRIEST_75, LEFT_F6)
+  unit.move(VARGAS_0E, 7, 14)
+  msg(VARGAS_0E, LEFT_F6, VARGAS, NOFOLLOW, 9)
+# Oh! Such a charming lass she is!\r\nShe'll grow up to be beautiful, just like Eliza! I'm the world's luckiest man!\0
+  msg(ELIZA_A5, RIGHT_F7, ELIZA, NOFOLLOW, 10)
+# My dear, might you have some cloth to wrap her in?\0
+  unit.face(VARGAS_0E, RIGHT_F7)
+  delay(10)
+  unit.face(VARGAS_0E, LEFT_F6)
+  delay(10)
+  unit.face(VARGAS_0E, RIGHT_F7)
+  delay(10)
+  unit.face(VARGAS_0E, LEFT_F6)
+  delay(10)
+  msg(VARGAS_0E, LEFT_F6, VARGAS, NOFOLLOW, 11)
+# Of course we've got some! We're here in our humble, well-stocked home!\0
+  unit.face(PRIEST_75, LEFT_F6)
+  msg(PRIEST_75, VARGAS_0E, PRIEST_GREEN, NOFOLLOW, 12)
+# Such a happy occasion!\0
+  delay(30)
+  msg(ELIZA_A5, RIGHT_F7, ELIZA, NOFOLLOW, 13)
+# Forgive me, dear.\r\nDidn't you really want a baby boy?\0
+  msg(VARGAS_0E, DOWN_F5, VARGAS, NOFOLLOW, 14)
+# Yes, ... I did.\0
+  unit.move(VARGAS_0E, 7, 15)
+  delay(40)
+  unit.face(VARGAS_0E, LEFT_F6)
+  delay(20)
+  msg(VARGAS_0E, LEFT_F6, VARGAS, NOFOLLOW, 15)
+# But I've thought of a name for a daughter, too!\0
+  msg(ELIZA_A5, RIGHT_F7, ELIZA, NOFOLLOW, 16)
+# My, what name have you thought of?\0
+  msg(VARGAS_0E, LEFT_F6, VARGAS, NOFOLLOW, 17)
+# How about Emilia?\0
+  msg(ELIZA_A5, RIGHT_F7, ELIZA, NOFOLLOW, 18)
+# Emilia ...\r\nEmilia is a good name for her.\0
+  unit.move(VARGAS_0E, 7, 14)
+  unit.face(VARGAS_0E, LEFT_F6)
+  msg(ELIZA_A5, RIGHT_F7, ELIZA, NOFOLLOW, 19)
+# Well, my wee lass, your name shall be Emilia.\0
+  msg(VARGAS_0E, LEFT_F6, VARGAS, NOFOLLOW, 20)
+# Emilia, do you understand? I'm your Papa!\0
+  delay(30)
+  msg(ELIZA_A5, RIGHT_F7, ELIZA, NOFOLLOW, 21)
+# My, I wonder if she does understand? It looks like she's smiling ...\0
+  screen.fadeout(6)
+  unit.retreat(VARGAS_0E)
+  unit.retreat(PRIEST_75)
+  unit.swap(PRIEST_75, COMMANDER_87)
+  unit.retreat(ELIZA_A5)
+  cursor.show()
+  screen.map.set(9)
+  unit.hideall()
+  bgm(ALLY, ALLY5)
+  cursor.set(ERWIN_01)
+  unit.position(LAIRD_18, PRESET, PRESET)
+  unit.showsub(LAIRD_18)
+  screen.fadein(4)
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.showsub(ERWIN_01)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.showsub(HEIN_05)
+  unit.position(ROHGA_0B, PRESET, PRESET)
+  unit.showsub(ROHGA_0B)
+  unit.position(LEON_0D, PRESET, PRESET)
+  unit.showsub(LEON_0D)
+  unit.position(IMELDA_0F, PRESET, PRESET)
+  unit.showsub(IMELDA_0F)
+  msg(LAIRD_18, LEON_0D, LAIRD, FOLLOW, 22)
+# General Leon, one moment please.\0
+  msg(LEON_0D, LAIRD_18, LEON, FOLLOW, 23)
+# Colonel, your service is beyond measure. Excellent work! Our goal lies within reach.\0
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 24)
+# Hmmm ... I wonder if our troubles will be over so easily.\0
+  msg(IMELDA_0F, LAIRD_18, IMELDA, FOLLOW, 25)
+# Speaking of which, where is Langrisser?\0
+  msg(LAIRD_18, IMELDA_0F, LAIRD, FOLLOW, 26)
+# It lies on the central altar.\0
+  focus.point(15, 4, FAST)
+  delay(40)
+  msg(HEIN_05, UP_F4, HEIN, NOFOLLOW, 27)
+# Well, let's get this over with.\0
+  msg(ROHGA_0B, RIGHT_F7, ROHGA, FOLLOW, 28)
+# ...!\r\nThis won't be as simple as you make it sound!\0
+  bgm(ALLY, ALLY4)
+  unit.position(COMMANDER_89, 28, 2)
+  unit.showsub(COMMANDER_89)
+  unit.position(COMMANDER_88, PRESET, PRESET)
+  unit.showsub(COMMANDER_88)
+  unit.position(KEITH_CF, PRESET, PRESET)
+  unit.showsub(KEITH_CF)
+  unit.position(COMMANDER_85, PRESET, PRESET)
+  unit.showsub(COMMANDER_85)
+  unit.position(COMMANDER_83, PRESET, PRESET)
+  unit.showsub(COMMANDER_83)
+  unit.position(COMMANDER_84, PRESET, PRESET)
+  unit.showsub(COMMANDER_84)
+  unit.position(COMMANDER_86, PRESET, PRESET)
+  unit.showsub(COMMANDER_86)
+  unit.position(COMMANDER_87, PRESET, PRESET)
+  unit.showsub(COMMANDER_87)
+  unit.position(COMMANDER_8A, PRESET, PRESET)
+  unit.showsub(COMMANDER_8A)
+  unit.position(JESSICA_14, PRESET, PRESET)
+  unit.showsub(JESSICA_14)
+  msg(JESSICA_14, LEFT_F6, JESSICA, FOLLOW, 29)
+# We didn't come here just to deliver Langrisser to you!\0
+  msg(LEON_0D, RIGHT_F7, LEON, FOLLOW, 30)
+# What a bother.\0
+  msg(LAIRD_18, LEON_0D, LAIRD, FOLLOW, 31)
+# General Leon, let's hurry. We must get the sword before they do.\0
+  msg(LEON_0D, ERWIN_01, LEON, FOLLOW, 32)
+# Indeed.\r\nEgbert said only two people besides myself are able to draw the sword.\r\nOur strategy must take them into consideration.\0
+  msg(ERWIN_01, LEON_0D, ERWIN, FOLLOW, 33)
+# I see.\r\nIn any case, let's move. Time to get Langrisser!\0
+  bgm(ALLY, ALLY5)
+  local.sum($0a47d0, $07eb58)
+break
+
+lbl_425:
+  branch.unit.dead(lbl_43b, JESSICA_14)
+  msg(JESSICA_14, LEFT_F6, JESSICA, FOLLOW, 34)
+# It makes no difference. Even if Cherie should come here ...\0
+  msg(KEITH_CF, JESSICA_14, KEITH, FOLLOW, 35)
+# Please wait a little longer.\r\nWe can't say at this point whether we've truly lost.\0
+  msg(JESSICA_14, LEFT_F6, JESSICA, FOLLOW, 36)
+# I understand. Until Cherie comes, do the best you can.\0
+lbl_43b:
+break
+
+lbl_43d:
+  msg(ERWIN_01, LEON_0D, ERWIN, FOLLOW, 37)
+# Leon, you and I are both Descendants of Light?\0
+  msg(LEON_0D, ERWIN_01, LEON, FOLLOW, 38)
+# Yes, Egbert said something to that effect. This sword proves our heritage.\r\nThe soldier Dieharte, my ancestor, is said to have been given it a century ago.\0
+  msg(ERWIN_01, LEON_0D, ERWIN, FOLLOW, 39)
+# The blade has a unique design. I've never seen another like it.\0
+  msg(LEON_0D, ERWIN_01, LEON, FOLLOW, 40)
+# It is what they call a katana.\r\nAs a sword for killing, it has no match.\0
+  msg(ERWIN_01, LEON_0D, ERWIN, FOLLOW, 41)
+# I see.\r\nAll that considered, I wonder which of us should approach the altar.\0
+  branch.unit.dead(lbl_465, ROHGA_0B)
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 42)
+# Either of you will do. Just remember why we seek the sword.\0
+lbl_465:
+  msg(LEON_0D, ERWIN_01, LEON, FOLLOW, 43)
+# By offering Langrisser to His Majesty, we shall forge a noble, prosperous world.\r\nThe whole continent may join in an era of peace.\0
+break
+
+lbl_46d:
+  unit.deploy(CHERIE_CC, 28, 42)
+  branch.unit.dead(lbl_47b, KEITH_CF)
+  msg(KEITH_CF, CHERIE_CC, KEITH, FOLLOW, 44)
+# Princess, please wait!\0
+lbl_47b:
+  msg(CHERIE_CC, UP_F4, CHERIE, FOLLOW, 45)
+# Hey! What's the news on Langrisser?\0
+  branch.unit.dead(lbl_494, JESSICA_14)
+  msg(JESSICA_14, CHERIE_CC, JESSICA, FOLLOW, 46)
+# The Imperial Army doesn't have it either.\r\nIf you take advantage of your mobility, you might make it in time.\r\nI'll support you from here.\r\nPlease, go with all haste to the altar, ... and return with Langrisser!\0
+  msg(CHERIE_CC, UP_F4, CHERIE, FOLLOW, 47)
+# Cherie of Kalxath, heading out!\0
+  goto(lbl_4a4)
+lbl_494:
+  msg(CHERIE_CC, UP_F4, CHERIE, FOLLOW, 48)
+# The Imperial Army doesn't have it either.\r\nWe've still got time. Everyone, defend the altar! Don't let Langrisser fall to the Empire!\0
+  branch.unit.dead(lbl_4a4, KEITH_CF)
+  msg(KEITH_CF, CHERIE_CC, KEITH, FOLLOW, 49)
+# Understood!\0
+lbl_4a4:
+  branch.unit.dead(lbl_4b7, LEON_0D)
+  msg(LEON_0D, ERWIN_01, LEON, FOLLOW, 50)
+# So, a Dragon Knight has come ...\r\nHurry, _NAME_. Don't let them take the sword!\0
+  msg(ERWIN_01, LEON_0D, ERWIN, FOLLOW, 51)
+# Understood.\0
+  goto(lbl_4bd)
+lbl_4b7:
+  msg(ERWIN_01, CHERIE_CC, ERWIN, FOLLOW, 52)
+# Jessica's here ... Looks like we'd better hurry.\0
+lbl_4bd:
+  bgm(ALLY, ALLY5)
+  unit.setbit(JESSICA_14, $17, 6)
+  unit.setbit(JESSICA_14, $17, 0)
+  unit.setbyte(JESSICA_14, $22, 0x10)
+  unit.setbyte(JESSICA_14, $23, 0x05)
+break
+
+lbl_4d2:
+  subroutine(lbl_985)
+  msg(VARGAS_0E, ERWIN_01, VARGAS, FOLLOW, 53)
+# We're going to win this. I've got a wife and a new daughter to honour!\r\nGet ready for a major ass-kicking!\0
+  msg(NULL_00, DOWN_F5, NULL, NOFOLLOW, 54)
+# Vargas re-joins the entourage!\0
+break
+
+lbl_4e3:
+  branch.unit.dead(lbl_511, JESSICA_14)
+  msg(KEITH_CF, JESSICA_14, KEITH, FOLLOW, 55)
+# Lady Jessica!\r\nI heard that those who are not Descendants of Light can't draw the Holy Blade.\r\nIf that's so, let's use all our power to defeat _NAME_ before he gets Langrisser.\r\nIf we do that, then we can remove it at our leisure.\0
+  msg(JESSICA_14, KEITH_CF, JESSICA, FOLLOW, 56)
+# No ...\r\nIf my memory is clear, that man, Leon, can also draw Langrisser.\0
+  msg(KEITH_CF, JESSICA_14, KEITH, FOLLOW, 57)
+# What? Impossible--! He's a Descendant of Light?\0
+  msg(JESSICA_14, KEITH_CF, JESSICA, FOLLOW, 58)
+# If that foreign sword he holds is genuine, then he's a Descendant.\0
+  msg(KEITH_CF, JESSICA_14, KEITH, FOLLOW, 59)
+# In that case, we've no choice but to take Langrisser before either of them.\0
+  msg(JESSICA_14, KEITH_CF, JESSICA, FOLLOW, 60)
+# That's right.\r\nI'll approach the central altar. Everyone, please offer me your support.\0
+  msg(KEITH_CF, JESSICA_14, KEITH, FOLLOW, 61)
+# Yes, my Lady!\0
+lbl_511:
+break
+
+lbl_513:
+  unit.setbit(CHERIE_CC, $17, 0)
+  unit.setbyte(CHERIE_CC, $22, 0x10)
+  unit.setbyte(CHERIE_CC, $23, 0x05)
+break
+
+lbl_521:
+  bgm(ENEMY, ALLYREINFORCEMENT1)
+break
+
+lbl_526:
+  bgm(ALLY, ENEMY2_VARGAS)
+break
+
+lbl_52b:
+  msg(ERWIN_01, KEITH_CF, ERWIN, FOLLOW, 62)
+# Watch out! Keith's aerial army has arrived!\0
+  branch.unit.dead(lbl_53b, LEON_0D)
+  msg(LEON_0D, ERWIN_01, LEON, FOLLOW, 63)
+# This isn't a good time to hit them.\r\nAdvance slowly until that girl, Cherie, appears.\0
+lbl_53b:
+  msg(ERWIN_01, LEON_0D, ERWIN, FOLLOW, 64)
+# Everyone, lend a hand!\r\nWe'll be in trouble if the route to the altar isn't secure!\r\nIf the aerial army blocks us, Cherie will snatch Langrisser.\0
+break
+
+lbl_543:
+  unit.cleanup()
+  branch.mem.global.ne(lbl_559, $0a478f, $07eb58)
+  msg(LEON_0D, UP_F4, LEON, FOLLOW, 65)
+# ...?\r\nA star and a Pegasus ...? It's rusted so much it will probably snap.\r\nMight as well take it, but my mission has not changed.\0
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 66)
+# Obtained Masayan Sword.\0
+  item.add(MASAYANSWORD)
+  goto(lbl_567)
+lbl_559:
+  msg(LEON_0D, UP_F4, LEON, FOLLOW, 67)
+# Hmmm ... So, this is Langrisser.\0
+  subroutine(lbl_ac8)
+  item.add(LANGRISSER)
+  global.sum($0a478f, $07eb58)
+lbl_567:
+  branch.unit.dead(lbl_577, JESSICA_14)
+  msg(JESSICA_14, LEON_0D, JESSICA, FOLLOW, 68)
+# You really are another Descendant!\r\nIt seems that katana of yours is the real thing ...\0
+  msg(LEON_0D, JESSICA_14, LEON, FOLLOW, 69)
+# Egbert of the Dark Dragon Sorcerers said the same.\r\n"Only a Descendant of Light can draw the sword ..."\r\nI have inherited this weapon as generations have before me. I meet, therefore, the qualification of Descendant.\0
+lbl_577:
+  subroutine(lbl_967)
+  subroutine(lbl_9c4)
+  scenarioclear()
+  msg(ERWIN_01, LEON_0D, ERWIN, FOLLOW, 70)
+# You did it, Leon.\r\nThe day of one great Imperial continent will dawn before our very eyes.\r\nAnd this new nation will have no need for war.\0
+  subroutine(lbl_911)
+break
+
+lbl_589:
+  unit.cleanup()
+  branch.mem.global.ne(lbl_5a4, $0a478f, $07eb58)
+  subroutine(lbl_ae1)
+  subroutine(lbl_967)
+  subroutine(lbl_9c4)
+  scenarioclear()
+  msg(ERWIN_01, LEON_0D, ERWIN, FOLLOW, 71)
+# The day of one great Imperial continent will dawn before our very eyes.\r\nAnd this new nation will have no need for war.\0
+  subroutine(lbl_911)
+  goto(lbl_5bd)
+lbl_5a4:
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 72)
+# So this ... This is Langrisser!\0
+  subroutine(lbl_ac8)
+  item.add(LANGRISSER)
+  scenarioclear()
+  branch.unit.dead(lbl_5ba, JESSICA_14)
+  msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 73)
+# I didn't make it ...\0
+lbl_5ba:
+  subroutine(lbl_af0)
+lbl_5bd:
+break
+
+lbl_5bf:
+  unit.cleanup()
+  msg(CHERIE_04, UP_F4, CHERIE, FOLLOW, 74)
+# This weapon is Langrisser, the Legendary Sword!\0
+  subroutine(lbl_ac8)
+  msg(ERWIN_01, CHERIE_CC, ERWIN, FOLLOW, 75)
+# Damn it ...! I can't let Cherie get ahead of me ...\0
+  subroutine(lbl_ab6)
+break
+
+lbl_5d4:
+  unit.cleanup()
+  msg(JESSICA_14, UP_F4, JESSICA, FOLLOW, 76)
+# Langrisser ... Once more, the world needs you ...\0
+  subroutine(lbl_ac8)
+  msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 77)
+# Shit, I'm too late! If that girl draws it ...\0
+  subroutine(lbl_ab6)
+break
+
+lbl_5e9:
+  unit.cleanup()
+  msg(ERWIN_01, UP_F4, ERWIN, NOFOLLOW, 78)
+# So that's it ... That's Langrisser ...!\0
+break
+
+lbl_5f2:
+  unit.cleanup()
+  msg(LEON_0D, UP_F4, LEON, NOFOLLOW, 79)
+# The Holy Blade, Langrisser ...\r\nWith this sword's power, I can end the troubles of the world.\0
+break
+
+lbl_5fb:
+  unit.cleanup()
+  msg(HEIN_05, UP_F4, HEIN, FOLLOW, 80)
+# So, this is Langrisser.\r\nWhat could possibly give it such awesome power?\r\nWhat? I can't draw it after all!\0
+break
+
+lbl_604:
+  unit.cleanup()
+  msg(ROHGA_0B, UP_F4, ROHGA, FOLLOW, 81)
+# So, this is Langrisser.\r\nDamn, what the hell! Can't budge it!\0
+break
+
+lbl_60d:
+  unit.cleanup()
+  msg(IMELDA_0F, UP_F4, IMELDA, FOLLOW, 82)
+# Hmmm ... Looks like I can try to take it.\r\nWhat the ...? I can't draw it!\0
+break
+
+lbl_616:
+  unit.cleanup()
+  msg(VARGAS_0E, UP_F4, VARGAS, FOLLOW, 83)
+# If I use my mystic power, I'll surely remove it!\r\nNo ... Why? It won't move!\0
+break
+
+lbl_61f:
+  unit.cleanup()
+  msg(LAIRD_18, UP_F4, LAIRD, NOFOLLOW, 84)
+# Making it this far is a good start. Soon, we can turn around and attack the enemy.\0
+  unit.clearbit(LAIRD_18, $17, 0)
+break
+
+lbl_62c:
+  branch.mem.global.eq(lbl_661, $0a478a, $07eb5d)
+  unit.cleanup()
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 85)
+# A single beautiful flower floats on a plank in the waves. What will you do with it?\0
+  prompt.options(lbl_64c, lbl_655, 86, 87, 88, 0x00, 0xf4, 0x00, 0x00)
+# Leave it behind\0
+# Try to pick it\0
+# Remove the plank\0
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 89)
+# The plank was swallowed by the waves.\0
+  goto(lbl_65e)
+lbl_64c:
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 90)
+# You left the flower behind ...\0
+  goto(lbl_65e)
+lbl_655:
+  unit.statboost(58, 3)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 91)
+# Inside the flower, a flower sprite appears.\r\nThe flower sprite beams a smile and disappears into the flower.\r\nAT raised by 3 points!\0
+lbl_65e:
+  global.sum($0a478a, $07eb5d)
+lbl_661:
+break
+
+lbl_663:
+  msg(ERWIN_01, RIGHT_F7, ERWIN_ANGRY, NOFOLLOW, 92)
+# Out of my way! I won't let you stand between me and the altar!\0
+break
+
+lbl_66b:
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 93)
+# Impossible--! Langrisser taken before my very eyes ...\0
+  unit.cleanup()
+  gameover()
+break
+
+lbl_675:
+  msg(HEIN_05, ERWIN_01, HEIN, NOFOLLOW, 94)
+# Leave the rest to me! _NAME_'s bunch, get the sword!\0
+break
+
+lbl_67d:
+  msg(HEIN_05, RIGHT_F7, HEIN, NOFOLLOW, 95)
+# I won't back down!\0
+break
+
+lbl_685:
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 96)
+# Gaahh--! Shit!\0
+break
+
+lbl_68d:
+  msg(ROHGA_0B, RIGHT_F7, ROHGA, NOFOLLOW, 97)
+# You're a damned fool to attack me. You only live once!\0
+break
+
+lbl_695:
+  msg(ROHGA_0B, DOWN_F5, ROHGA_DEAD, FOLLOW, 98)
+# Damn it all! I leave the rest to you!\0
+break
+
+lbl_69d:
+  msg(LEON_0D, RIGHT_F7, LEON, NOFOLLOW, 99)
+# Hand over Langrisser so we can realise our ideal!\0
+break
+
+lbl_6a5:
+  msg(LEON_0D, RIGHT_F7, LEON, NOFOLLOW, 100)
+# Until I have Langrisser, I cannot accept defeat!\0
+break
+
+lbl_6ad:
+  msg(LEON_0D, DOWN_F5, LEON_DEAD, FOLLOW, 101)
+# Ugh! What a magnificent enemy ...\r\n_NAME_! Sorry, but you'll have to take over from here!\0
+  local.sum($0a47d3, $07eb5e)
+break
+
+lbl_6b8:
+  msg(IMELDA_0F, RIGHT_F7, IMELDA, NOFOLLOW, 102)
+# You think you can win against General Imelda of the Water Dragon Navy?\0
+break
+
+lbl_6c0:
+  msg(IMELDA_0F, DOWN_F5, IMELDA_DEAD, FOLLOW, 103)
+# Why? I just don't get it!\0
+break
+
+lbl_6c8:
+  msg(VARGAS_0E, UP_F4, VARGAS, FOLLOW, 104)
+# I'm unshakable. I'm fearless. Right now, let's go!\0
+  subroutine(lbl_8d6)
+break
+
+lbl_6d3:
+  msg(VARGAS_0E, DOWN_F5, VARGAS_DEAD, FOLLOW, 105)
+# Damn ... This is getting out of hand!\0
+  local.sum($0a47d4, $07eb5b)
+break
+
+lbl_6de:
+  msg(LAIRD_18, LEON_0D, LAIRD, FOLLOW, 106)
+# General Leon, what would you have me do?\r\nShall I take the offensive or maintain our defence?\0
+  prompt.options(lbl_705, lbl_71a, 107, 108, 109, 0x00, 0xf4, 0x00, 0x00)
+# Stand by for now\0
+# Clear a path to the altar\0
+# It's your decision\0
+  msg(LAIRD_18, LEON_0D, LAIRD, FOLLOW, 110)
+# As you wish.\r\nI'll stand against the enemy while you secure passage into the castle.\0
+  unit.setbit(LAIRD_18, $17, 0)
+  unit.setbyte(LAIRD_18, $22, 0x09)
+  unit.setbyte(LAIRD_18, $23, 0x27)
+  goto(lbl_720)
+lbl_705:
+  msg(LAIRD_18, LEON_0D, LAIRD, FOLLOW, 111)
+# Understood. My troops will secure a path to the altar.\0
+  unit.setbit(LAIRD_18, $17, 0)
+  unit.setbyte(LAIRD_18, $22, 0x10)
+  unit.setbyte(LAIRD_18, $23, 0x04)
+  goto(lbl_720)
+lbl_71a:
+  msg(LAIRD_18, LEON_0D, LAIRD, FOLLOW, 112)
+# Leave it up to me. I'll keep an eye on things, and fill in where I'm needed.\0
+lbl_720:
+break
+
+lbl_722:
+  msg(LAIRD_18, DOWN_F5, LAIRD, FOLLOW, 113)
+# Uughh--! To be defeated here of all places ...\0
+  branch.unit.dead(lbl_738, LEON_0D)
+  msg(LEON_0D, LAIRD_18, LEON, FOLLOW, 114)
+# Laird, you've done well. Fall back for now!\0
+  msg(LAIRD_18, LEON_0D, LAIRD, FOLLOW, 115)
+# General Leon ... My apologies.\r\nNext time you call upon me, I'll do better.\0
+lbl_738:
+break
+
+lbl_73a:
+  branch.mem.local.ne(lbl_747, $0a47d4, $07eb5e)
+  msg(JESSICA_14, UP_F4, JESSICA, FOLLOW, 116)
+# Looks like I'm the only one left.\r\nDon't worry, I won't give up!\0
+  goto(lbl_74d)
+lbl_747:
+  msg(JESSICA_14, UP_F4, JESSICA, FOLLOW, 117)
+# Since Cherie's been wounded, all I can do is take Langrisser.\r\nEveryone, please help me out!\0
+lbl_74d:
+break
+
+lbl_74f:
+  msg(JESSICA_14, ERWIN_01, JESSICA, NOFOLLOW, 118)
+# You're just going to abandon your destiny? You were chosen to protect Langrisser!\0
+  msg(ERWIN_01, JESSICA_14, ERWIN, NOFOLLOW, 119)
+# I don't recall accepting such a mission!\r\nWith Langrisser, we could end the strife. We could end the bloodshed.\r\nThat's why we must have that sword.\0
+break
+
+lbl_75d:
+  msg(JESSICA_14, LEFT_F6, JESSICA, NOFOLLOW, 120)
+# Please step aside!\0
+break
+
+lbl_765:
+  msg(KEITH_CF, LEFT_F6, KEITH, NOFOLLOW, 121)
+# You won't get any farther than this!\0
+break
+
+lbl_76d:
+  branch.unit.dead(lbl_786, CHERIE_CC)
+  msg(KEITH_CF, CHERIE_CC, KEITH_DEAD, FOLLOW, 122)
+# P, Princess ... I apologise ...\0
+  msg(CHERIE_CC, KEITH_CF, CHERIE, FOLLOW, 123)
+# That's enough, Keith. Rest for a little while.\0
+  msg(KEITH_CF, CHERIE_CC, KEITH_DEAD, FOLLOW, 124)
+# All right ...\0
+  goto(lbl_78c)
+lbl_786:
+  msg(KEITH_CF, DOWN_F5, KEITH_DEAD, FOLLOW, 125)
+# No ... Can I do no more ...?\r\nSend my apologies to the Princess. I can no longer aid our alliance. I, I must withdraw ...\0
+lbl_78c:
+  unit.retreat(KEITH_CF)
+break
+
+lbl_790:
+  branch.unit.dead(lbl_7ad, JESSICA_14)
+  branch.unit.dead(lbl_7a4, KEITH_CF)
+  msg(CHERIE_CC, KEITH_CF, CHERIE, FOLLOW, 126)
+# Hee hee! Time for lift off! Let's go, go, go!\0
+  msg(KEITH_CF, CHERIE_CC, KEITH, FOLLOW, 127)
+# Yes, ma'am! Your wish is my command, my Princess!\0
+lbl_7a4:
+  msg(CHERIE_CC, UP_F4, CHERIE, FOLLOW, 128)
+# Don't let the Empire near Langrisser!\0
+  goto(lbl_7b3)
+lbl_7ad:
+  msg(CHERIE_CC, UP_F4, CHERIE, FOLLOW, 129)
+# In Lady Jessica's stead, I will take Langrisser!\0
+lbl_7b3:
+  msg(ERWIN_01, CHERIE_CC, ERWIN, FOLLOW, 130)
+# Cherie will not get Langrisser. Stop her by any means necessary!\0
+  msg(CHERIE_CC, ERWIN_01, CHERIE, FOLLOW, 131)
+# I may be a bit behind, but I'll catch up fast!\0
+break
+
+lbl_7c1:
+  msg(CHERIE_CC, ERWIN_01, CHERIE, NOFOLLOW, 132)
+# I've no desire to let the Empire further its aims.\r\n_NAME_, prepare yourself!\0
+  msg(ERWIN_01, CHERIE_CC, ERWIN, NOFOLLOW, 133)
+# I will pursue my dream to the end.\r\nBecause of my determination, I can triumph over any opponent, even you, Cherie.\0
+break
+
+lbl_7cf:
+  msg(CHERIE_CC, LEFT_F6, CHERIE, NOFOLLOW, 134)
+# Think you can dodge my sword?\0
+break
+
+lbl_7d7:
+  branch.unit.dead(lbl_7ff, JESSICA_14)
+  msg(CHERIE_CC, JESSICA_14, CHERIE_DEAD, FOLLOW, 135)
+# Aaahhh--! I'm still hurt from fighting earlier ...\0
+  msg(JESSICA_14, CHERIE_CC, JESSICA, FOLLOW, 136)
+# Cherie, know when you're at your limits. I'll take care of everything from here on.\0
+  msg(CHERIE_CC, JESSICA_14, CHERIE_DEAD, FOLLOW, 137)
+# Thanks, Lady Jessica ...\0
+  unit.setbit(JESSICA_14, $17, 0)
+  unit.setbyte(JESSICA_14, $22, 0x10)
+  unit.setbyte(JESSICA_14, $23, 0x05)
+  local.sub($0a47d0, $07eb58)
+  goto(lbl_82b)
+lbl_7ff:
+  branch.mem.local.ne(lbl_80c, $0a47d4, $07eb5e)
+  msg(CHERIE_CC, ERWIN_01, CHERIE_DEAD, FOLLOW, 138)
+# _NAME_, your strength is truly incredible ... To have defeated everyone ...\r\nYou won't be so lucky next time.\r\nAs soon as our army has recovered, we'll crush your ambitions!\0
+  goto(lbl_82b)
+lbl_80c:
+  branch.unit.dead(lbl_825, KEITH_CF)
+  msg(CHERIE_CC, DOWN_F5, CHERIE_DEAD, FOLLOW, 139)
+# Lady Jessica's not alone as long as I'm still around ...\0
+  msg(KEITH_CF, CHERIE_CC, KEITH, FOLLOW, 140)
+# Princess! Please, stop gambling with the devil and retreat!\r\nWe shall annihilate those Imperials and protect Langrisser!\r\nDon't worry about us. We can handle it!\0
+  msg(CHERIE_CC, KEITH_CF, CHERIE_DEAD, FOLLOW, 141)
+# Forgive me ... Please, do as you've said ...\0
+  goto(lbl_82b)
+lbl_825:
+  msg(CHERIE_CC, DOWN_F5, CHERIE_DEAD, FOLLOW, 142)
+# Lady Jessica's not alone as long as I'm around ...\r\nBut I'm done fighting for now. Everyone, I beg of you, ... wipe out those Imperials.\0
+lbl_82b:
+  unit.retreat(CHERIE_CC)
+  unit.clearbit(JESSICA_14, $17, 6)
+break
+
+lbl_833:
+  msg(COMMANDER_83, LEFT_F6, KNIGHT2_BLACK, NOFOLLOW, 143)
+# Taste our power!\0
+break
+
+lbl_83b:
+  msg(COMMANDER_83, DOWN_F5, KNIGHT2_BLACK_DEAD, FOLLOW, 144)
+# H, how regrettable ...\0
+break
+
+lbl_843:
+  msg(COMMANDER_84, LEFT_F6, KNIGHT2_BLACK, NOFOLLOW, 145)
+# I won't lose to any Imperial Army!\0
+break
+
+lbl_84b:
+  msg(COMMANDER_84, DOWN_F5, KNIGHT2_BLACK_DEAD, FOLLOW, 146)
+# Wh, what strength ...\0
+break
+
+lbl_853:
+  msg(COMMANDER_85, LEFT_F6, MAGE_GRAY, NOFOLLOW, 147)
+# Our skill with magic should not be taken lightly ...\0
+break
+
+lbl_85b:
+  msg(COMMANDER_85, DOWN_F5, MAGE_GRAY_DEAD, FOLLOW, 148)
+# I only made it this far ...\0
+break
+
+lbl_863:
+  msg(COMMANDER_86, LEFT_F6, SWORDSMAN2_BLACK, NOFOLLOW, 149)
+# The sword shall not be taken!\r\nWhoever passes here seals his own death!\0
+break
+
+lbl_86b:
+  msg(COMMANDER_86, DOWN_F5, SWORDSMAN2_BLACK_DEAD, FOLLOW, 150)
+# Gaahh--!\0
+break
+
+lbl_873:
+  msg(COMMANDER_87, DOWN_F5, MAGE_GRAY_DEAD, FOLLOW, 151)
+# Its too early for this ...\0
+  local.sum($0a47d7, $07eb58)
+break
+
+lbl_87e:
+  msg(COMMANDER_88, LEFT_F6, HAWKKNIGHT_BLACK, NOFOLLOW, 152)
+# Feel the power of the Kalxath Aerial Knights!\0
+break
+
+lbl_886:
+  msg(COMMANDER_88, DOWN_F5, HAWKKNIGHT_BLACK_DEAD, FOLLOW, 153)
+# D, damn you!\0
+break
+
+lbl_88e:
+  msg(COMMANDER_89, DOWN_F5, HAWKKNIGHT_BLACK_DEAD, FOLLOW, 154)
+# Damn you, Imperial scum bags!\0
+break
+
+lbl_896:
+  msg(COMMANDER_8A, DOWN_F5, MAGE_GRAY_DEAD, FOLLOW, 155)
+# You all cannot ... have ... Langrisser ...\0
+break
+
+lbl_89e:
+  branch.mem.local.eq(lbl_8a5, $0a47d0, $07eb5b)
+  subroutine(lbl_8e2)
+lbl_8a5:
+break
+
+lbl_8a7:
+  subroutine(lbl_8e2)
+break
+
+lbl_8ac:
+  branch.unit.dead(lbl_8b7, KEITH_CF)
+  unit.cleanup()
+  msg(KEITH_CF, LEFT_F6, KEITH, FOLLOW, 156)
+# Grrr ... Lady Jessica and the Princess have both been defeated ...\r\nFor those mistakes, _NAME_ and Leon, I've no choice but to kill you.\0
+lbl_8b7:
+break
+
+lbl_8b9:
+break
+
+lbl_8bb:
+  unit.cleanup()
+  msg(LEON_0D, RIGHT_F7, LEON, FOLLOW, 157)
+# At least they spared us the sentimental twaddle. Well, on to the next bunch.\0
+break
+
+lbl_8c4:
+  unit.cleanup()
+  msg(VARGAS_0E, RIGHT_F7, VARGAS, FOLLOW, 158)
+# Bastard! You're really crossing the line!\0
+break
+
+lbl_8cd:
+  unit.cleanup()
+  msg(COMMANDER_87, LEFT_F6, MAGE_GRAY, FOLLOW, 159)
+# You Imperials are impressive, making it through to us.\0
+break
+
+lbl_8d6:
+  branch.mem.global.eq(lbl_8e1, $0a478f, $07eb5a)
+  unit.expboost(VARGAS_0E, 55)
+  global.sum($0a478f, $07eb5a)
+lbl_8e1:
+endsub
+
+lbl_8e2:
+  unit.cleanup()
+  scenarioclear()
+  branch.unit.dead(lbl_8ee, LEON_0D)
+  msg(LEON_0D, UP_F4, LEON, FOLLOW, 161)
+# We've brushed aside our foes. There won't be any further hindrance.\0
+lbl_8ee:
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 162)
+# Now, we can approach the altar uninterrupted.\0
+  unit.move(ERWIN_01, 15, 5)
+  branch.mem.global.ne(lbl_902, $0a478f, $07eb58)
+  subroutine(lbl_ae1)
+  goto(lbl_90d)
+lbl_902:
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 163)
+# So this ... So this is Langrisser!\0
+  subroutine(lbl_ac8)
+  item.add(LANGRISSER)
+lbl_90d:
+  subroutine(lbl_af0)
+endsub
+
+lbl_911:
+  msg(LEON_0D, ERWIN_01, LEON, FOLLOW, 164)
+# Aye. From here on, the Empire has our hearts and blades.\0
+  msg(ERWIN_01, LEON_0D, ERWIN, FOLLOW, 165)
+# Indeed. For a peaceful world, we offer our best.\0
+  branch.unit.dead(lbl_927, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 166)
+# That's right!\0
+lbl_927:
+  branch.unit.dead(lbl_931, VARGAS_0E)
+  msg(VARGAS_0E, ERWIN_01, VARGAS, FOLLOW, 167)
+# If only Eliza and my daughter developed boobs like yours!\r\nGah ha ha! Stop acting like pansies and get a move on!\0
+lbl_931:
+  branch.unit.dead(lbl_93b, IMELDA_0F)
+  msg(IMELDA_0F, ERWIN_01, IMELDA, FOLLOW, 168)
+# If you think about it, we have the long-term advantage ...\0
+lbl_93b:
+  branch.mem.local.eq(lbl_951, $0a47d0, $07eb5c)
+  subroutine(lbl_985)
+  msg(VARGAS_0E, ERWIN_01, VARGAS, FOLLOW, 169)
+# Even so, we'd better take our next steps quickly.\r\nBring on the next fight!\0
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 170)
+# Vargas re-joins the entourage!\0
+  subroutine(lbl_8d6)
+lbl_951:
+  branch.unit.dead(lbl_95e, LEON_0D)
+  msg(LEON_0D, DOWN_F5, LEON, FOLLOW, 171)
+# All right, back to the Imperial Capital!\0
+  goto(lbl_964)
+lbl_95e:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 172)
+# All right, time to head back to headquarters!\0
+lbl_964:
+  loadscenario(41)
+endsub
+
+lbl_967:
+  branch.unit.dead(lbl_984, CHERIE_CC)
+  msg(CHERIE_CC, LEON_0D, CHERIE, FOLLOW, 173)
+# I can still do it!\r\nJust because Langrisser has been taken doesn't mean I'll be defeated!\0
+  branch.unit.dead(lbl_97e, JESSICA_14)
+  msg(JESSICA_14, CHERIE_CC, JESSICA, FOLLOW, 160)
+# Please stop, Cherie!\r\nYou're only hurting yourself by fighting with that wound. You should retreat for now.\0
+  goto(lbl_984)
+lbl_97e:
+  msg(JESSICA_14, CHERIE_CC, JESSICA_DEAD, NOFOLLOW, 160)
+# Please stop, Cherie!\r\nYou're only hurting yourself by fighting with that wound. You should retreat for now.\0
+lbl_984:
+endsub
+
+lbl_985:
+  unit.position(VARGAS_0E, 2, 42)
+  unit.showsub(VARGAS_0E)
+  msg(VARGAS_0E, ERWIN_01, VARGAS, FOLLOW, 174)
+# Gah hah hah! I've come to save the day!\0
+  msg(ERWIN_01, VARGAS_0E, ERWIN, FOLLOW, 175)
+# General Vargas!\0
+  branch.unit.dead(lbl_9a4, LEON_0D)
+  msg(LEON_0D, VARGAS_0E, LEON, FOLLOW, 176)
+# Hmmm ... You're in a good mood, Vargas.\r\nIs it really okay to leave your wife alone for this?\0
+  goto(lbl_9aa)
+lbl_9a4:
+  msg(ERWIN_01, VARGAS_0E, ERWIN, FOLLOW, 177)
+# Is it all right to leave Miss Eliza unattended?\0
+lbl_9aa:
+  msg(VARGAS_0E, UP_F4, VARGAS, FOLLOW, 178)
+# Sure! Gah hah! She's already given birth. It was a girl.\r\nMy cute daughter is round as a ball, just like me! Gah hah hah!\0
+  branch.unit.dead(lbl_9bd, HEIN_05)
+  msg(HEIN_05, VARGAS_0E, HEIN, FOLLOW, 179)
+# Geh heh heh. It went as expected ...\0
+  goto(lbl_9c3)
+lbl_9bd:
+  msg(ERWIN_01, VARGAS_0E, ERWIN, FOLLOW, 180)
+# I, I see. Th, that's wonderful ...\0
+lbl_9c3:
+endsub
+
+lbl_9c4:
+  unit.retreat(CHERIE_CC)
+  unit.retreat(JESSICA_14)
+  unit.retreat(KEITH_CF)
+  unit.retreat(COMMANDER_83)
+  unit.retreat(COMMANDER_84)
+  unit.retreat(COMMANDER_85)
+  unit.retreat(COMMANDER_86)
+  unit.retreat(COMMANDER_87)
+  unit.retreat(COMMANDER_88)
+  unit.retreat(COMMANDER_89)
+  unit.retreat(COMMANDER_8A)
+endsub
+
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 181)
+# Good point.\r\nIt's a pity you've all been outmoded. You see, for a grand, unified continent, the Empire's unnecessary.\r\nThis sword and myself will be sufficient.\r\nWhat need is there for the Kaiser ... when I can reign over El Sallia?\0
+  msg(LEON_0D, ERWIN_01, LEON, FOLLOW, 182)
+# Stop playing around. _NAME_!? Hurry up and hand over the sword!\0
+  msg(ERWIN_01, LEON_0D, ERWIN, FOLLOW, 183)
+# Yes, what unlimited power ... My reign over this continent would be quite assured.\0
+  msg(LEON_0D, ERWIN_01, LEON_ANGRY, FOLLOW, 184)
+# No ... You'd betray the Empire? _NAME_!\0
+  msg(ERWIN_01, LEON_0D, ERWIN, FOLLOW, 185)
+# Betray?\r\nYou're not thinking clearly. Someone must bring order to this continent. Why not me?\r\nI have Langrisser.\r\nBringing order ... Ending strife ... I can do it all.\0
+  branch.unit.dead(lbl_a03, CHERIE_CC)
+  msg(CHERIE_CC, ERWIN_01, CHERIE_ANGRY, FOLLOW, 186)
+# _NAME_! Stop talking nonsense!\r\nThen you'd be in direct competition with the Kaiser!\0
+lbl_a03:
+  branch.unit.dead(lbl_a0d, JESSICA_14)
+  msg(JESSICA_14, ERWIN_01, JESSICA_SAD, FOLLOW, 187)
+# It, unfortunately, may come to that.\0
+lbl_a0d:
+  msg(LEON_0D, ERWIN_01, LEON_ANGRY, FOLLOW, 188)
+# You bastard. You think you can just back-stab us all?\0
+  msg(ERWIN_01, LEON_0D, ERWIN, FOLLOW, 189)
+# Well, how about it? Won't you join me?\r\nWithout the Empire weighing us down, we can truly work for peace.\0
+  msg(LEON_0D, ERWIN_01, LEON_ANGRY, FOLLOW, 190)
+# No way.\r\nYou've stolen that dream from His Majesty, the Kaiser.\r\nIt's his vision, and only he can realise it!\0
+  unit.retreat(LEON_0D)
+  unit.retreat(LAIRD_18)
+  msg(ERWIN_01, HEIN_05, ERWIN, FOLLOW, 191)
+# Hein, will you come with me?\0
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 192)
+# S, sure ...\0
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 193)
+# This sounds interesting. I'll lend my sword, too.\0
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 194)
+# Then it's decided ...\r\nWe are now at odds with the Imperial Army.\r\nI can bring peace far more quickly than any Empire.\0
+  branch.mem.global.ne(lbl_a55, $0a4789, $07eb5b)
+  branch.unit.dead(lbl_a4c, VARGAS_0E)
+  msg(VARGAS_0E, ERWIN_01, VARGAS_ANGRY, FOLLOW, 208)
+# _NAME_, you're the most scheming piece of shit I've ever come across.\r\nYou're not worthy of the Empire's boot heels.\r\nYou killed Zorum, and now this ...\r\nWhen you die, it shall be with my knife in your throat. Wait for it, boy.\0
+  goto(lbl_a52)
+lbl_a4c:
+  msg(VARGAS_0E, ERWIN_01, VARGAS_DEAD, NOFOLLOW, 208)
+# _NAME_, you're the most scheming piece of shit I've ever come across.\r\nYou're not worthy of the Empire's boot heels.\r\nYou killed Zorum, and now this ...\r\nWhen you die, it shall be with my knife in your throat. Wait for it, boy.\0
+lbl_a52:
+  goto(lbl_a5f)
+lbl_a55:
+  branch.unit.dead(lbl_a5f, VARGAS_0E)
+  msg(VARGAS_0E, ERWIN_01, VARGAS_ANGRY, FOLLOW, 195)
+# You damned kid ...! You'll pay for this in blood!\0
+lbl_a5f:
+  unit.retreat(VARGAS_0E)
+  unit.retreat(IMELDA_0F)
+  branch.unit.dead(lbl_a6d, JESSICA_14)
+  msg(JESSICA_14, ERWIN_01, JESSICA_SAD, FOLLOW, 196)
+# We also refuse to collaborate with you!\0
+lbl_a6d:
+  subroutine(lbl_9c4)
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 197)
+# Soon, a new world will be born.\r\nAnd those who stand with us shall become its Lords!\0
+  unit.setbyte(LEON_0D, $20, 0x03)
+  unit.refresh()
+  unit.setbyte(IMELDA_0F, $20, 0x03)
+  unit.refresh()
+  unit.setbyte(VARGAS_0E, $20, 0x03)
+  unit.refresh()
+  loadscenario(56)
+endsub
+
+  branch.mem.global.ne(lbl_a8f, $0a4791, $07eb5d)
+  subroutine(lbl_9db)
+lbl_a8f:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 198)
+# With Langrisser in the Kaiser's hands, no enemy will stand against him.\r\nThe Legendary Sword is said to grant its wielder infinite power ...\r\nCan I really give up such an opportunity?\0
+  prompt.ok(lbl_ab2)
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 200)
+# Good point.\r\nIt's fortunate that my goals align so closely with those of the Empire.\r\nI will take Langrisser for the Kaiser, and together we will bring peace and order!\0
+  subroutine(lbl_967)
+  subroutine(lbl_9c4)
+  subroutine(lbl_ada)
+  subroutine(lbl_911)
+  goto(lbl_ab5)
+lbl_ab2:
+  subroutine(lbl_9db)
+lbl_ab5:
+endsub
+
+lbl_ab6:
+  branch.unit.dead(lbl_ac0, LEON_0D)
+  msg(LEON_0D, UP_F4, LEON, FOLLOW, 201)
+# Damn! We are too late!\0
+lbl_ac0:
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 202)
+# How can this be? I was only a few steps short ...\0
+  gameover()
+endsub
+
+lbl_ac8:
+  tile.set(208, 15, 4)
+  tile.set(209, 16, 4)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 203)
+# Obtained Langrisser.\0
+  global.sum($0a478f, $07eb58)
+endsub
+
+lbl_ada:
+  msg(ERWIN_01, LEON_0D, ERWIN, FOLLOW, 204)
+# Our dream is coming closer and closer to its realisation.\r\nWarfare will soon trouble this world no longer ...\0
+endsub
+
+lbl_ae1:
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 205)
+# ...?\r\nWhat's with this sword? It's a piece of junk!\r\nWell, there is no point in just leaving it here ... I may as well take it along.\0
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 206)
+# Obtained the Masayan Sword.\0
+  item.add(MASAYANSWORD)
+endsub
+
+lbl_af0:
+  branch.unit.dead(lbl_afa, LEON_0D)
+  msg(LEON_0D, ERWIN_01, LEON, FOLLOW, 207)
+# You've done well, _NAME_!\r\nWith Langrisser in hand, all the continent will soon know Imperial order.\0
+lbl_afa:
+  branch.mem.global.ne(lbl_b0e, $0a478f, $07eb59)
+  branch.mem.global.ne(lbl_b08, $0a478a, $07eb5a)
+  subroutine(lbl_9db)
+  goto(lbl_b0b)
+lbl_b08:
+  subroutine(lbl_a88)
+lbl_b0b:
+  goto(lbl_b2e)
+lbl_b0e:
+  branch.mem.global.ne(lbl_b18, $0a478a, $07eb5a)
+  subroutine(lbl_a88)
+  goto(lbl_b2e)
+lbl_b18:
+  branch.mem.global.ne(lbl_b2b, $0a4794, $07eb5b)
+  subroutine(lbl_967)
+  subroutine(lbl_9c4)
+  subroutine(lbl_ada)
+  subroutine(lbl_911)
+  goto(lbl_b2e)
+lbl_b2b:
+  subroutine(lbl_a88)
+lbl_b2e:
+endsub
+

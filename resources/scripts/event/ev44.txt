@@ -1,0 +1,927 @@
+# Movement-Triggered Events
+on.move(28, lbl_567, IMELDA_0F, 0, 0xff)
+on.move(5, lbl_5c2, LESTER_D1, 0, 0xff)
+on.move(44, lbl_798, COMMANDER_23, 1, 0xff)
+on.move(3, lbl_7c3, COMMANDER_83, 0, 0xff)
+on.move(4, lbl_7db, COMMANDER_84, 0, 0xff)
+on.move(52, lbl_801, KEITH_CF, 0, 0xff)
+on.move(55, lbl_845, COMMANDER_86, 0, 0xff)
+break
+
+# Attack-Triggered Events
+on.attack(18, lbl_50a, ERWIN_01, KEITH_CF, 0x00, 0x00, 0xff)
+on.attack(19, lbl_521, ERWIN_01, LESTER_D1, 0x00, 0xff, 0xff)
+on.attack(22, lbl_537, HEIN_05, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(24, lbl_547, NULL_FF, ROHGA_0B, 0xff, 0x00, 0xff)
+on.attack(26, lbl_557, NULL_FF, LEON_0D, 0xff, 0x00, 0xff)
+on.attack(30, lbl_580, IMELDA_0F, LESTER_D1, 0x00, 0x00, 0xff)
+on.attack(32, lbl_591, IMELDA_0F, KEITH_CF, 0x00, 0x00, 0xff)
+on.attack(31, lbl_5a2, IMELDA_0F, KEITH_CF, 0x00, 0xff, 0xff)
+on.attack(36, lbl_5d6, LESTER_D1, ERWIN_01, 0x00, 0xff, 0xff)
+on.attack(37, lbl_5de, LESTER_D1, ERWIN_01, 0x00, 0x00, 0xff)
+on.attack(41, lbl_785, NULL_FF, COMMANDER_22, 0xff, 0x00, 0xff)
+on.attack(45, lbl_7ac, COMMANDER_23, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(47, lbl_7cb, COMMANDER_83, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(49, lbl_7e3, NULL_FF, COMMANDER_84, 0xff, 0x00, 0xff)
+on.attack(50, lbl_7ee, COMMANDER_84, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(33, lbl_81c, KEITH_CF, ERWIN_01, 0x00, 0xff, 0xff)
+on.attack(53, lbl_824, KEITH_CF, ERWIN_01, 0x00, 0x00, 0xff)
+on.attack(56, lbl_84d, COMMANDER_86, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(60, lbl_86e, COMMANDER_88, NULL_FF, 0x00, 0xff, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(21, lbl_52d, ERWIN_01)
+on.defeat(23, lbl_53f, HEIN_05)
+on.defeat(25, lbl_54f, ROHGA_0B)
+on.defeat(27, lbl_55f, LEON_0D)
+on.defeat(34, lbl_5ae, IMELDA_0F)
+on.damage(35, lbl_5b9, NULL_FF, IMELDA_0F, 0xff, 0x00)
+on.damage(38, lbl_5f2, NULL_FF, LESTER_D1, 0xff, 0x00)
+on.defeat(39, lbl_60a, LESTER_D1)
+on.defeat(42, lbl_78d, COMMANDER_22)
+on.defeat(46, lbl_7b4, COMMANDER_23)
+on.defeat(48, lbl_7d3, COMMANDER_83)
+on.defeat(51, lbl_7f9, COMMANDER_84)
+on.defeat(54, lbl_82c, KEITH_CF)
+on.defeat(57, lbl_855, COMMANDER_86)
+on.damage(58, lbl_85d, NULL_FF, COMMANDER_87, 0xff, 0x00)
+on.defeat(59, lbl_866, COMMANDER_87)
+on.defeat(61, lbl_876, COMMANDER_88)
+on.defeat(62, lbl_87e, COMMANDER_89)
+on.damage(43, lbl_886, NULL_FF, COMMANDER_22, 0xff, 0x00)
+on.defeat(63, lbl_899, COMMANDER_22, COMMANDER_23, COMMANDER_83, COMMANDER_84)
+on.defeat(40, lbl_89e, COMMANDER_22, COMMANDER_23, COMMANDER_83, COMMANDER_84, KEITH_CF, COMMANDER_86, COMMANDER_87, COMMANDER_88, COMMANDER_89)
+on.defeat(10, lbl_8b9, COMMANDER_23, COMMANDER_84)
+break
+
+# Position-Triggered Events
+on.bound(14, lbl_4b7, NPC_SUBUNIT_F1, 20, 2, 33, 22, 0x00, 0x00)
+on.bound(15, lbl_4bc, NPC_COMMANDER_F0, 37, 2, 37, 2, 0x00, 0x00)
+on.bound(16, lbl_4be, NPC_COMMANDER_F0, 37, 2, 37, 2, 0x00, 0x00)
+on.bound(17, lbl_4fb, ERWIN_01, 33, 17, 33, 17, 0x00, 0x00)
+break
+
+# Turn-Triggered Events
+on.turn(6, lbl_36c, ALLY, 2, 0x00)
+on.turn(7, lbl_380, ENEMY, 6, 0x00)
+on.turn(8, lbl_3ca, ENEMY, 13, 0x00)
+on.turn(9, lbl_3e4, ENEMY, 17, 0x00)
+on.turn(11, lbl_442, ALLY, 6, 0x00)
+on.turn(12, lbl_485, ENEMY, 5, 0x00)
+on.turn(13, lbl_48a, ENEMY, 19, 0x00)
+on.turn(0, lbl_49f, ENEMY, 0, 0x00)
+on.turn(1, lbl_4ad, ENEMY, 0, 0x00)
+on.turn(2, lbl_4b2, ALLY, 0, 0x00)
+break
+
+# Core Events
+lbl_1d4:
+  bgm(ALLY, JESSICA)
+  cursor.set(NULL_00)
+  screen.map.set(21)
+  unit.position(JESSICA_14, 14, 15)
+  unit.position(CHERIE_CC, 14, 17)
+  unit.position(LESTER_D1, 19, 17)
+  unit.position(KEITH_CF, 11, 16)
+  unit.face(JESSICA_14, DOWN_F5)
+  unit.face(CHERIE_CC, UP_F4)
+  unit.face(LESTER_D1, DOWN_F5)
+  unit.face(KEITH_CF, RIGHT_F7)
+  cursor.set(ERWIN_01)
+  cursor.hide()
+  focus.point(15, 17, FAST)
+  screen.fadein(8)
+  cursor.set(NULL_00)
+  delay(120)
+  msg(LESTER_D1, DOWN_F5, LESTER_ANGRY, FOLLOW, 1)
+# Fucking hell! How can that bastard be of holy lineage!?\0
+  msg(JESSICA_14, LESTER_D1, JESSICA, FOLLOW, 2)
+# Lester, don't badmouth _NAME_ so harshly.\r\n_NAME_ decided that the best way to bring peace is through Imperial rule. His goal is still peace ...\0
+  msg(KEITH_CF, JESSICA_14, KEITH, FOLLOW, 3)
+# Lester has every right to be angry, but we shouldn't waste time slandering _NAME_.\r\nWe must think of a plan to prevent _NAME_ and the Imperial Guard from getting their hands on the Holy Sword.\0
+  msg(CHERIE_CC, LESTER_D1, CHERIE_ANGRY, FOLLOW, 4)
+# Keith is right! We don't know what may happen if the Empire holds both legendary blades!\r\nBesides, its my duty as a Descendant of Light to protect Langrisser from being used for greed and power!\0
+  msg(LESTER_D1, CHERIE_CC, LESTER, FOLLOW, 5)
+# Yeah, yeah. I know already! You don't have to yell.\0
+  msg(JESSICA_14, DOWN_F5, JESSICA, FOLLOW, 6)
+# This turn of events is quite a dilemma. I had such high hopes for young _NAME_ ...\r\nWe must formulate a plan to prevent the Empire from reaching Baldea.\0
+  unit.face(KEITH_CF, DOWN_F5)
+  delay(90)
+  unit.face(KEITH_CF, RIGHT_F7)
+  unit.move(KEITH_CF, 13, 16)
+  msg(KEITH_CF, JESSICA_14, KEITH, FOLLOW, 7)
+# What about the Sky Bridge over the Railem Ravine?\r\nThe bridge is the main passage. If it were suddenly gone, the Empire would have to detour.\r\nThat should give us a significant time advantage in beating them to Baldea and finding Langrisser.\0
+  unit.face(CHERIE_CC, LEFT_F6)
+  msg(CHERIE_CC, KEITH_CF, CHERIE, FOLLOW, 8)
+# Keith, ... you don't mean ...\0
+  msg(KEITH_CF, RIGHT_F7, KEITH, FOLLOW, 9)
+# Can you think of another way? It's our best option and this is serious business.\r\nThe Princess and I must rally our divided forces around the nation. We need a volunteer for this important mission ...\0
+  delay(60)
+  unit.move(LESTER_D1, 16, 17)
+  unit.move(LESTER_D1, 16, 20)
+  unit.face(CHERIE_CC, DOWN_F5)
+  unit.face(KEITH_CF, DOWN_F5)
+  msg(KEITH_CF, LESTER_D1, KEITH, FOLLOW, 10)
+# Lester, where are you going?\0
+  msg(LESTER_D1, KEITH_CF, LESTER, FOLLOW, 11)
+# Leave this to me, Keith. If you can't do it, aren't I the only one left fit for the job?\0
+  msg(KEITH_CF, LESTER_D1, KEITH, FOLLOW, 12)
+# B, but ...\0
+  msg(LESTER_D1, DOWN_F5, LESTER, FOLLOW, 13)
+# Don't sweat it. After all, what are friends for?\0
+  delay(40)
+  unit.move(LESTER_D1, 16, 21)
+  msg(KEITH_CF, LESTER_D1, KEITH_SAD, FOLLOW, 14)
+# Lester ... Thank you.\0
+  screen.fadeout(4)
+  unit.retreat(LESTER_D1)
+  unit.retreat(KEITH_CF)
+  unit.retreat(JESSICA_14)
+  unit.retreat(CHERIE_CC)
+  screen.map.set(8)
+  unit.hideall()
+  global.sub($0a4793, $07eb58)
+  bgm(ALLY, ENEMYREINFORCEMENT1)
+  cursor.set(ERWIN_01)
+  unit.position(COMMANDER_22, PRESET, PRESET)
+  screen.fadein(4)
+  unit.showsub(COMMANDER_22)
+  unit.position(COMMANDER_23, PRESET, PRESET)
+  unit.showsub(COMMANDER_23)
+  unit.position(COMMANDER_83, PRESET, PRESET)
+  unit.showsub(COMMANDER_83)
+  unit.position(COMMANDER_84, PRESET, PRESET)
+  unit.showsub(COMMANDER_84)
+  unit.position(LESTER_D1, 38, 12)
+  unit.showsub(LESTER_D1)
+  msg(LESTER_D1, LEFT_F6, LESTER, FOLLOW, 15)
+# Hey, is the bridge ready to be blown yet?\0
+  msg(SOLDIER_20, UP_F4, SOLDIER1_SILVER, NOFOLLOW, 16)
+# Well, the bridge is better constructed than we originally guessed, but we're working.\0
+  msg(LESTER_D1, LEFT_F6, LESTER, FOLLOW, 17)
+# Well speed it up, if we don't finish soon, those Imperial jackasses will show up!\0
+  bgm(ALLY, ALLY3)
+  focus.point(6, 13, FAST)
+  cursor.set(NULL_00)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.showsub(HEIN_05)
+  unit.position(ROHGA_0B, PRESET, PRESET)
+  unit.showsub(ROHGA_0B)
+  unit.position(LEON_0D, PRESET, PRESET)
+  unit.showsub(LEON_0D)
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.showsub(ERWIN_01)
+  msg(ERWIN_01, LEON_0D, ERWIN, NOFOLLOW, 18)
+# Leon, how much further until we reach Castle Baldea?\0
+  msg(LEON_0D, ERWIN_01, LEON, NOFOLLOW, 19)
+# Hmmm ... Regrettably, we don't know its exact location.\r\nHowever, the ancient records we've acquired strongly indicate it lies beyond this valley.\0
+  msg(ROHGA_0B, LEON_0D, ROHGA, NOFOLLOW, 20)
+# Ha ha ... So we're on a wild goose chase as far as you know.\r\nI suppose you have Colonel Laird and some advance scouts finding out the specifics?\0
+  msg(LEON_0D, ROHGA_0B, LEON, NOFOLLOW, 21)
+# Exactly. No matter where the castle is, we have to cross this bridge.\0
+  cursor.set(ERWIN_01)
+  cursor.show()
+  msg(COMMANDER_22, LESTER_D1, HIGHLORD_BLACK, FOLLOW, 22)
+# Sir Lester, the Imperial Army!\0
+  msg(LESTER_D1, COMMANDER_22, LESTER, FOLLOW, 23)
+# Son of a bitch! We need more time ...\r\nGuys, hurry the hell up! We don't have all day!\0
+  msg(HEIN_05, LESTER_D1, HEIN, FOLLOW, 24)
+# _NAME_, they look like they're trying to cut down the bridge!\0
+  msg(LEON_0D, LESTER_D1, LEON, FOLLOW, 25)
+# If they succeed, we shall not be able to reach Baldea before Jessica's group!\r\n\0
+  msg(ERWIN_01, RIGHT_F7, ERWIN, NOFOLLOW, 26)
+# We still have time! We must beat Jessica's group to Baldea and obtain Langrisser first!\0
+  msg(ROHGA_0B, RIGHT_F7, ROHGA, NOFOLLOW, 27)
+# Heh, with a force that small we'll be able to slice through them with ease.\r\nHell, they'll probably scatter before the bridge collapses anyway.\0
+  msg(ERWIN_01, RIGHT_F7, ERWIN, NOFOLLOW, 28)
+# Okay, let's break through! Keep your guard up, they could be planning something.\0
+  msg(LESTER_D1, COMMANDER_23, LESTER, FOLLOW, 29)
+# It looks like they still plan to advance! Prepare to intercept!\0
+  msg(COMMANDER_23, LESTER_D1, KNIGHT1_BLACK, FOLLOW, 30)
+# Just leave it to us, boss.\0
+  msg(LESTER_D1, COMMANDER_23, LESTER, FOLLOW, 31)
+# And don't let up on the bridge! Don't be distracted by the fight--just keep working.\0
+  msg(SOLDIER_20, UP_F4, SOLDIER1_SILVER, NOFOLLOW, 32)
+# Understood, Sir.\0
+  unit.setbyte(JESSICA_14, $20, 0x03)
+  unit.refresh()
+  unit.setbyte(CHERIE_CC, $20, 0x03)
+  unit.refresh()
+  local.sum($0a47d0, $07eb58)
+  local.sum($0a47d0, $07eb59)
+  local.sum($0a47d0, $07eb5a)
+  local.sum($0a47d0, $07eb5b)
+  local.sum($0a47d0, $07eb5c)
+  local.sum($0a47d0, $07eb5d)
+  global.sub($0a478a, $07eb5a)
+  global.sub($0a4793, $07eb58)
+break
+
+lbl_36c:
+  msg(ERWIN_01, LEON_0D, ERWIN, FOLLOW, 33)
+# If we don't make it in time, we'll lose our chance at beating Jessica's group!\r\nIt might be asking a bit much, but give me your all! We must win!\0
+  msg(LEON_0D, ERWIN_01, LEON, FOLLOW, 34)
+# Don't be impatient, we're going our fastest.\0
+  msg(HEIN_05, LEON_0D, HEIN, FOLLOW, 35)
+# We're going, we're going! Come on everyone, hurry!\0
+break
+
+lbl_380:
+  msg(LESTER_D1, LEFT_F6, LESTER_ANGRY, FOLLOW, 36)
+# Workers! What's the news on the bridge!?\0
+  msg(SOLDIER_20, RIGHT_F7, SOLDIER1_SILVER, NOFOLLOW, 37)
+# I'm very sorry, Sir! It will only be just a little bit longer!\0
+  msg(LESTER_D1, LEFT_F6, LESTER, NOFOLLOW, 38)
+# I see ... Well, we have to do something before we're cut down here!\0
+  msg(SOLDIER_20, LEFT_F6, SOLDIER1_SILVER, NOFOLLOW, 39)
+# Yes, Sir!\0
+  branch.unit.dead(lbl_3ab, KEITH_CF)
+  msg(KEITH_CF, LESTER_D1, KEITH, FOLLOW, 40)
+# We'll stop their advance here! Continue the operation, Lester!\0
+  msg(LESTER_D1, KEITH_CF, LESTER, FOLLOW, 41)
+# Keith, you're a life saver! Go kick some ass for me, too!\0
+  goto(lbl_3c8)
+lbl_3ab:
+  branch.unit.dead(lbl_3bb, COMMANDER_84)
+  msg(COMMANDER_84, LESTER_D1, KNIGHT1_BLACK, FOLLOW, 172)
+# In order to stop the enemy in their tracks, we need to give it our all!\0
+  subroutine(lbl_923)
+  goto(lbl_3c8)
+lbl_3bb:
+  branch.unit.dead(lbl_3c8, COMMANDER_23)
+  msg(COMMANDER_23, LESTER_D1, KNIGHT1_BLACK, FOLLOW, 172)
+# In order to stop the enemy in their tracks, we need to give it our all!\0
+  subroutine(lbl_923)
+lbl_3c8:
+break
+
+lbl_3ca:
+  msg(LESTER_D1, LEFT_F6, LESTER_ANGRY, FOLLOW, 42)
+# Guys, what the hell is taking so long!?\0
+  msg(SOLDIER_20, RIGHT_F7, SOLDIER1_SILVER, NOFOLLOW, 43)
+# Just a little longer! The supporting ropes have all been severed!\r\nThe only things left are the main ropes!\0
+  msg(LESTER_D1, LEFT_F6, LESTER_ANGRY, FOLLOW, 44)
+# Come on, get the lead out and drop it already!\0
+  msg(SOLDIER_20, RIGHT_F7, SOLDIER1_SILVER, NOFOLLOW, 45)
+# Yes, Sir!\0
+break
+
+lbl_3e4:
+  msg(LESTER_D1, LEFT_F6, LESTER_ANGRY, FOLLOW, 46)
+# Isn't it about time to get out of here?\0
+  msg(SOLDIER_20, RIGHT_F7, SOLDIER1_SILVER, NOFOLLOW, 47)
+# Right now, we're in the middle of severing the main ropes.\r\nIf we cut two more, then the bridge is sure to fall! We beg your patience!\0
+  branch.mem.local.eq(lbl_404, $0a47d1, $07eb5a)
+  msg(LESTER_D1, LEFT_F6, LESTER_ANGRY, FOLLOW, 48)
+# Troops, get off the bridge! At this rate, you'll fall, too!\0
+  branch.unit.dead(lbl_404, KEITH_CF)
+  msg(KEITH_CF, LEFT_F6, KEITH, FOLLOW, 49)
+# Our aerial squadron will keep the enemy busy while your troops withdraw, Lester!\0
+lbl_404:
+  unit.setbit(COMMANDER_23, $17, 0)
+  unit.setbyte(COMMANDER_23, $22, 0x27)
+  unit.setbyte(COMMANDER_23, $23, 0x0a)
+  unit.setbit(COMMANDER_84, $17, 0)
+  unit.setbyte(COMMANDER_84, $22, 0x29)
+  unit.setbyte(COMMANDER_84, $23, 0x0d)
+  unit.setbit(COMMANDER_83, $17, 0)
+  unit.setbyte(COMMANDER_83, $22, 0x29)
+  unit.setbyte(COMMANDER_83, $23, 0x0b)
+  unit.setbit(COMMANDER_22, $17, 0)
+  unit.setbyte(COMMANDER_22, $22, 0x25)
+  unit.setbyte(COMMANDER_22, $23, 0x0e)
+  unit.setbit(LESTER_D1, $17, 0)
+  unit.setbyte(LESTER_D1, $22, 0x24)
+  unit.setbyte(LESTER_D1, $23, 0x0c)
+break
+
+lbl_442:
+  unit.deploy(IMELDA_0F, 2, 13)
+  msg(IMELDA_0F, RIGHT_F7, IMELDA, FOLLOW, 50)
+# It seems you boys are in a bit of trouble. Need a hand?\0
+  branch.unit.dead(lbl_459, LEON_0D)
+  msg(LEON_0D, IMELDA_0F, LEON, FOLLOW, 51)
+# General Imelda of the Imperial Water Dragon Navy has come to lend us a hand?\0
+  goto(lbl_465)
+lbl_459:
+  msg(ERWIN_01, IMELDA_0F, ERWIN, FOLLOW, 52)
+# Wow ...\0
+  msg(IMELDA_0F, ERWIN_01, IMELDA, FOLLOW, 53)
+# What, haven't you ever seen a grown woman before? Don't be so shy.\0
+lbl_465:
+  msg(LESTER_D1, IMELDA_0F, LESTER, FOLLOW, 54)
+# The chick General of the Water Dragon Navy? God damn it--!\r\nReinforcements at a time like this are the last thing we need.\0
+  msg(IMELDA_0F, RIGHT_F7, IMELDA, FOLLOW, 55)
+# All right boys, its time you learnt a little lesson!\0
+  msg(ERWIN_01, LEFT_F6, ERWIN, FOLLOW, 56)
+# Well then, let's get back to work. Everyone, do your best!\0
+  msg(IMELDA_0F, RIGHT_F7, IMELDA, FOLLOW, 57)
+# So, you're that redheaded upstart who gave Leon so much trouble ...\r\nLet's see what you're made of, little man. Give me some orders!\0
+  msg(NULL_00, DOWN_F5, NULL, NOFOLLOW, 58)
+# Imelda joins the entourage!\0
+break
+
+lbl_485:
+  bgm(ALLY, ENEMY6_IMELDA)
+break
+
+lbl_48a:
+  msg(SOLDIER_20, RIGHT_F7, SOLDIER1_SILVER, NOFOLLOW, 59)
+# Mission accomplished! The bridge has been cut down!\0
+  msg(LESTER_D1, ERWIN_01, LESTER, FOLLOW, 60)
+# Ha ha ha! Eat it, shit wads! See you next fall, _NAME_!\0
+  msg(ERWIN_01, LESTER_D1, ERWIN_ANGRY, FOLLOW, 61)
+# Damn!\r\nEveryone withdraw! The bridge is going to fall!\0
+  gameover()
+break
+
+lbl_49f:
+  msg(KEITH_CF, LESTER_D1, KEITH, FOLLOW, 62)
+# Sir Lester, accept my apologies for putting a sea veteran like yourself up to this.\r\nI came as soon as possible to assist you, but ...\0
+  msg(LESTER_D1, KEITH_CF, LESTER, FOLLOW, 63)
+# Its no big deal, Keith! Besides, we're pals, aren't we?\r\nPlus, seeing the Kalxath Aerial Knights in full action over this terrain is awesome.\0
+break
+
+lbl_4ad:
+  subroutine(lbl_8c9)
+break
+
+lbl_4b2:
+  subroutine(lbl_92a)
+break
+
+lbl_4b7:
+  local.sub($0a47d0, $07eb59)
+break
+
+lbl_4bc:
+break
+
+lbl_4be:
+  branch.mem.global.eq(lbl_4f9, $0a478a, $07eb5c)
+  unit.cleanup()
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 64)
+# In the forest, you find a wooden platform boxed in by trees.\r\nThere appears to be a small sprite sitting nearby.\r\nWhat will you do to it?\0
+  prompt.options(lbl_4e7, lbl_4f0, 65, 66, 67, 0x00, 0xf4, 0x00, 0x00)
+# Try to make it laugh.\0
+# Scare it away\0
+# Don't say anything\0
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 68)
+# Hey, you're a funny guy. I'll help you out!\0
+  unit.statboost(11, 10)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 69)
+# Magic Resistance raised!\0
+  goto(lbl_4f6)
+lbl_4e7:
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 70)
+# You're the kind of people we hate!\r\nLeave us sprites alone!\0
+  goto(lbl_4f6)
+lbl_4f0:
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 71)
+# Since you didn't call out to the sprite, it left.\0
+lbl_4f6:
+  global.sum($0a478a, $07eb5c)
+lbl_4f9:
+break
+
+lbl_4fb:
+  branch.mem.global.eq(lbl_508, $0a4793, $07eb58)
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 72)
+# Hmm? There's an entrance to somewhere here ...\r\nBut, we can't worry about that now! We'll explore it later.\0
+  global.sum($0a4793, $07eb58)
+lbl_508:
+break
+
+lbl_50a:
+  msg(ERWIN_01, KEITH_CF, ERWIN, NOFOLLOW, 73)
+# Keith, get out of the way!\0
+  msg(KEITH_CF, ERWIN_01, KEITH, NOFOLLOW, 74)
+# I'm afraid I cannot comply with your command.\r\nOtherwise, you gentlemen might obtain Langrisser.\r\nThis is our, the people of Kalxath's, duty. In the beginning, I fought with you to protect Langrisser, but ...\r\nThe princess is also saddened by this turn of events ... We have no choice but to battle.\0
+  msg(ERWIN_01, KEITH_CF, ERWIN, NOFOLLOW, 75)
+# If that's the only way, then so be it!\0
+  local.sum($0a47d2, $07eb5b)
+break
+
+lbl_521:
+  branch.mem.local.eq(lbl_52b, $0a47d2, $07eb5c)
+  msg(ERWIN_01, RIGHT_F7, ERWIN_ANGRY, NOFOLLOW, 76)
+# Make way!\0
+lbl_52b:
+break
+
+lbl_52d:
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 77)
+# Ugh! It's over for me ...\0
+  unit.cleanup()
+  gameover()
+break
+
+lbl_537:
+  msg(HEIN_05, RIGHT_F7, HEIN, NOFOLLOW, 78)
+# Take that!\0
+break
+
+lbl_53f:
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 79)
+# Sorry ... I've been ... slain--!\0
+break
+
+lbl_547:
+  msg(ROHGA_0B, RIGHT_F7, ROHGA, NOFOLLOW, 80)
+# If you wish to die, then come at me!\0
+break
+
+lbl_54f:
+  msg(ROHGA_0B, DOWN_F5, ROHGA_DEAD, FOLLOW, 81)
+# Ugh! I've failed!\0
+break
+
+lbl_557:
+  msg(LEON_0D, RIGHT_F7, LEON, NOFOLLOW, 82)
+# Don't get in my way!\0
+break
+
+lbl_55f:
+  msg(LEON_0D, DOWN_F5, LEON_DEAD, FOLLOW, 83)
+# For me to have fallen ..., it seems as if I bit off more than I could chew.\0
+break
+
+lbl_567:
+  branch.mem.local.ne(lbl_575, $0a47d3, $07eb5d)
+  subroutine(lbl_92a)
+  focus.unit(IMELDA_0F)
+  goto(lbl_57b)
+lbl_575:
+  msg(IMELDA_0F, DOWN_F5, IMELDA, NOFOLLOW, 84)
+# All right, come on!\0
+lbl_57b:
+  subroutine(lbl_949)
+break
+
+lbl_580:
+  msg(IMELDA_0F, LESTER_D1, IMELDA, NOFOLLOW, 85)
+# Ah, what an incredible man.\r\nIf you are able to beat me, maybe we can get to know each other a little better ...\0
+  msg(LESTER_D1, IMELDA_0F, LESTER, NOFOLLOW, 86)
+# Quit fuckin' with me, bitch!\0
+  local.sum($0a47d3, $07eb5f)
+break
+
+lbl_591:
+  msg(IMELDA_0F, KEITH_CF, IMELDA, NOFOLLOW, 87)
+# Die!\0
+  msg(KEITH_CF, IMELDA_0F, KEITH, NOFOLLOW, 88)
+# Ugh, oh no! Did I screw up!?\0
+  local.sum($0a47d4, $07eb59)
+break
+
+lbl_5a2:
+  branch.mem.local.eq(lbl_5ac, $0a47d3, $07eb5e)
+  msg(IMELDA_0F, LEFT_F6, IMELDA, FOLLOW, 89)
+# You're revolting to behold! Disappear into nothingness!\0
+lbl_5ac:
+break
+
+lbl_5ae:
+  msg(IMELDA_0F, DOWN_F5, IMELDA_DEAD, FOLLOW, 90)
+# Argh! I think I went a little overboard, probably.\r\nTake care of the rest!\0
+  local.sum($0a47d4, $07eb5b)
+break
+
+lbl_5b9:
+  unit.cleanup()
+  msg(IMELDA_0F, RIGHT_F7, IMELDA, NOFOLLOW, 91)
+# Well, aren't you being smart?\0
+break
+
+lbl_5c2:
+  msg(LESTER_D1, LEFT_F6, LESTER, FOLLOW, 92)
+# Looks like I have to fill in for Keith now, too ...\0
+  msg(ERWIN_01, LESTER_D1, ERWIN, FOLLOW, 93)
+# If you continue this, you won't have any hope of victory, you know!\r\nWhy not relent and let us pass?\0
+  msg(LESTER_D1, ERWIN_01, LESTER, FOLLOW, 94)
+# Fat chance. I'm staying until the bridge falls!\0
+break
+
+lbl_5d6:
+  msg(LESTER_D1, LEFT_F6, LESTER_ANGRY, NOFOLLOW, 95)
+# Hey! Who said you could cross without paying the toll? This troll is coming to collect!\0
+break
+
+lbl_5de:
+  msg(LESTER_D1, ERWIN_01, LESTER, NOFOLLOW, 96)
+# _NAME_, I never would have thought in a million years ...\r\nYou would team up with the Empire ...\0
+  msg(ERWIN_01, LESTER_D1, ERWIN, NOFOLLOW, 97)
+# People can be easily separated by their ideals ...\0
+  msg(LESTER_D1, ERWIN_01, LESTER, NOFOLLOW, 98)
+# Well, that's life! Every person walks his own path, after all. Now, fight!\0
+break
+
+lbl_5f2:
+  unit.cleanup()
+  msg(LESTER_09, LEFT_F6, LESTER_ANGRY, FOLLOW, 99)
+# What the hell is keeping you guys!?\0
+  msg(SOLDIER_20, UP_F4, SOLDIER1_SILVER, NOFOLLOW, 100)
+# Just a little longer! Just wait a little bit longer!\0
+  msg(LESTER_09, LEFT_F6, LESTER, FOLLOW, 101)
+# Get the lead out, guys ... At this rate, we aren't going make it.\0
+  local.sub($0a47d0, $07eb5b)
+break
+
+lbl_60a:
+  branch.unit.dead(lbl_61d, KEITH_CF)
+  msg(KEITH_CF, LESTER_D1, KEITH, FOLLOW, 102)
+# Master Lester!\0
+  msg(LESTER_D1, KEITH_CF, LESTER_DEAD, FOLLOW, 103)
+# Sorry about this, man! it's all my fault ...\r\nI failed in the mission to stop them from crossing the bridge! Guys, let's pull out!\0
+  goto(lbl_630)
+lbl_61d:
+  branch.mem.local.ne(lbl_62a, $0a47d5, $07eb58)
+  msg(LESTER_D1, ERWIN_01, LESTER_DEAD, FOLLOW, 104)
+# Ugh ... Shit! Just as I thought ... I couldn't pull it off by myself.\r\nWorkers! The plan's a bust! Let's get amscray!\0
+  goto(lbl_630)
+lbl_62a:
+  msg(LESTER_D1, ERWIN_01, LESTER_DEAD, FOLLOW, 105)
+# Argh, well done, _NAME_ ...\r\nYou won't have it this easy next time, though ... Let's retreat, guys!\0
+lbl_630:
+  unit.retreat(LESTER_D1)
+  unit.retreat(COMMANDER_22)
+  unit.retreat(COMMANDER_23)
+  unit.retreat(COMMANDER_83)
+  unit.retreat(COMMANDER_84)
+  unit.retreat(KEITH_CF)
+  unit.retreat(COMMANDER_86)
+  unit.retreat(COMMANDER_87)
+  unit.retreat(COMMANDER_88)
+  unit.retreat(COMMANDER_89)
+  scenarioclear()
+  msg(ERWIN_01, RIGHT_F7, ERWIN_SAD, FOLLOW, 106)
+# Lester ...\0
+  branch.unit.dead(lbl_655, LEON_0D)
+  msg(LEON_0D, ERWIN_01, LEON, FOLLOW, 107)
+# Hmmm, ... indeed. You've lived up to my expectations, _NAME_!\r\nFrom now on, let's work hard for the glory of our Empire!\0
+lbl_655:
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 108)
+# That means a lot to me, Leon. However, just exactly what am I fighting for ...?\0
+  prompt.options(lbl_697, lbl_6d3, 109, 110, 111, 0x00, 0xf4, 0x00, 0x00)
+# To end all wars\0
+# To obtain power\0
+# I don't know yet ...\0
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 112)
+# That's right.\r\nThe way to end the war is to unite the continent, just like the Empire is doing.\0
+  branch.unit.dead(lbl_67a, LEON_0D)
+  msg(LEON_0D, ERWIN_01, LEON, FOLLOW, 169)
+# Exactly, _NAME_.\r\nIn order to accomplish that, we must first quickly obtain Langrisser.\0
+  goto(lbl_680)
+lbl_67a:
+  msg(LEON_0D, ERWIN_01, LEON_DEAD, NOFOLLOW, 169)
+# Exactly, _NAME_.\r\nIn order to accomplish that, we must first quickly obtain Langrisser.\0
+lbl_680:
+  branch.unit.dead(lbl_68a, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 113)
+# To end the wars, _NAME_ is going to lend his strength to the Rayguard Empire!\0
+lbl_68a:
+  branch.unit.dead(lbl_694, ROHGA_0B)
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 114)
+# All right, let's get moving. We need to obtain Langrisser quickly.\0
+lbl_694:
+  goto(lbl_71f)
+lbl_697:
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 115)
+# That's right.\r\nIf one possesses tremendous power, one can end wars quickly by crushing opponents.\r\nOnce stopped, other countries would capitulate on our terms, and war would cease out of fear of retribution!\r\nIt's only natural I take up arms with the Empire in a situation like this.\0
+  branch.unit.dead(lbl_6a7, ROHGA_0B)
+  msg(ROHGA_0B, RIGHT_F7, ROHGA, FOLLOW, 116)
+# Indeed, the Empire is mighty.\r\nAnd foolish are the weak who would bear arms against the mighty.\0
+lbl_6a7:
+  branch.unit.dead(lbl_6b4, HEIN_05)
+  msg(HEIN_05, RIGHT_F7, HEIN, FOLLOW, 170)
+# And if we have Langrisser ...\0
+  goto(lbl_6ba)
+lbl_6b4:
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 170)
+# And if we have Langrisser ...\0
+lbl_6ba:
+  branch.unit.dead(lbl_6c7, LEON_0D)
+  msg(LEON_0D, ERWIN_01, LEON, FOLLOW, 171)
+# Exactly ...\r\nIf we allow Langrisser to fall into the hands of our enemies, this war will last indefinitely.\0
+  goto(lbl_6cd)
+lbl_6c7:
+  msg(LEON_0D, ERWIN_01, LEON_DEAD, NOFOLLOW, 171)
+# Exactly ...\r\nIf we allow Langrisser to fall into the hands of our enemies, this war will last indefinitely.\0
+lbl_6cd:
+  global.sum($0a478a, $07eb5a)
+  goto(lbl_71f)
+lbl_6d3:
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 117)
+# I don't know.\r\nWhy did I turn against my friends for my selfish reasons? Am I dedicated to the Empire, or to myself ...?\0
+  branch.unit.dead(lbl_6e9, ROHGA_0B)
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 118)
+# Well, if the Empire succeeds in this war, they would unite the continent under one ruler.\r\nWith only one ruler, there would be no state to bear arms against another.\r\nIs it not peace and the end of war on El Sallia's soil your goal?\0
+  subroutine(lbl_8c2)
+  goto(lbl_6f6)
+lbl_6e9:
+  branch.unit.dead(lbl_6f6, LEON_0D)
+  msg(LEON_0D, ERWIN_01, LEON, FOLLOW, 119)
+# If the Kaiser rules the continent, no one would oppose him! War would end.\0
+  subroutine(lbl_8c2)
+lbl_6f6:
+  branch.unit.dead(lbl_703, HEIN_05)
+  msg(HEIN_05, RIGHT_F7, HEIN, FOLLOW, 170)
+# And if we have Langrisser ...\0
+  goto(lbl_709)
+lbl_703:
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 170)
+# And if we have Langrisser ...\0
+lbl_709:
+  branch.unit.dead(lbl_716, LEON_0D)
+  msg(LEON_0D, ERWIN_01, LEON, FOLLOW, 171)
+# Exactly ...\r\nIf we allow Langrisser to fall into the hands of our enemies, this war will last indefinitely.\0
+  goto(lbl_71c)
+lbl_716:
+  msg(LEON_0D, ERWIN_01, LEON_DEAD, NOFOLLOW, 171)
+# Exactly ...\r\nIf we allow Langrisser to fall into the hands of our enemies, this war will last indefinitely.\0
+lbl_71c:
+  global.sum($0a478f, $07eb5b)
+lbl_71f:
+  branch.mem.local.eq(lbl_758, $0a47d1, $07eb5b)
+  unit.deploy(IMELDA_0F, 2, 13)
+  msg(IMELDA_0F, ERWIN_01, IMELDA, FOLLOW, 120)
+# That was fast. You didn't leave any for me ...\0
+  branch.unit.dead(lbl_73a, LEON_0D)
+  msg(LEON_0D, IMELDA_0F, LEON, FOLLOW, 121)
+# General Imelda of the Water Dragon Navy, I presume ...\0
+  goto(lbl_740)
+lbl_73a:
+  msg(ERWIN_01, IMELDA_0F, ERWIN, FOLLOW, 122)
+# Hmm? What the ...\0
+lbl_740:
+  msg(IMELDA_0F, ERWIN_01, IMELDA, FOLLOW, 123)
+# You're _NAME_, aren't you? I've heard about you.\r\nI'm Imelda of the Water Dragon Navy.\r\nI came here to help you out a bit, but it seems as though I wasn't needed.\0
+  msg(ERWIN_01, IMELDA_0F, ERWIN, FOLLOW, 124)
+# That's not true. The more allies we obtain, the stronger we'll become.\r\nPlease, join us!\0
+  msg(IMELDA_0F, ERWIN_01, IMELDA, FOLLOW, 125)
+# All right, little boy. Don't get so excited over me.\0
+  msg(NULL_00, DOWN_F5, NULL, NOFOLLOW, 126)
+# Imelda joins the entourage!\0
+lbl_758:
+  subroutine(lbl_949)
+  subroutine(lbl_942)
+  branch.mem.global.ne(lbl_781, $0a4793, $07eb58)
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 127)
+# Oh, before I forget! I found a weird opening before, but what should I do about it?\0
+  prompt.ok(lbl_77b)
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 129)
+# The truth is, I found a weird entrance while we were in the midst of fighting.\r\nThere may be something in there that will aid the Empire. Let's go in!\0
+  loadscenario(73)
+  goto(lbl_781)
+lbl_77b:
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 130)
+# Nah.\r\nWe really need to find Langrisser. I think it's best if I just forget about it.\0
+lbl_781:
+  loadscenario(38)
+break
+
+lbl_785:
+  msg(COMMANDER_22, LEFT_F6, HIGHLORD_BLACK, NOFOLLOW, 131)
+# If you're going to come, hurry up!\0
+break
+
+lbl_78d:
+  msg(COMMANDER_22, DOWN_F5, HIGHLORD_BLACK_DEAD, FOLLOW, 132)
+# I wanted to ... protect ... Les ... te--\0
+  local.sum($0a47d5, $07eb5b)
+break
+
+lbl_798:
+  msg(COMMANDER_23, LESTER_D1, KNIGHT1_BLACK, FOLLOW, 133)
+# We are off to intercept the enemy.\0
+  msg(LESTER_D1, COMMANDER_23, LESTER, FOLLOW, 134)
+# Don't be on the bridge when it collapses!\0
+  msg(COMMANDER_23, LESTER_D1, KNIGHT1_BLACK, FOLLOW, 135)
+# Yes, Sir!\0
+break
+
+lbl_7ac:
+  msg(COMMANDER_23, LEFT_F6, KNIGHT1_BLACK, NOFOLLOW, 136)
+# You shall not pass!\r\nIf you intend to, you must defeat me in battle, first!\0
+break
+
+lbl_7b4:
+  msg(COMMANDER_23, LESTER_D1, KNIGHT1_BLACK_DEAD, FOLLOW, 137)
+# Sir Lester, please take care of the rest ...\0
+  unit.cleanup()
+  msg(LESTER_D1, LEFT_F6, LESTER_SAD, FOLLOW, 138)
+# Damn guys ... Don't just throw away your lives.\0
+break
+
+lbl_7c3:
+  msg(COMMANDER_83, LEFT_F6, PRIEST_WHITE, FOLLOW, 139)
+# We must protect Sir Lester!\0
+break
+
+lbl_7cb:
+  msg(COMMANDER_83, LEFT_F6, PRIEST_WHITE, FOLLOW, 140)
+# I won't hand Langrisser over to you!\0
+break
+
+lbl_7d3:
+  msg(COMMANDER_83, LESTER_D1, PRIEST_WHITE_DEAD, FOLLOW, 141)
+# H, hurry ... Hurry, drop the ...\0
+break
+
+lbl_7db:
+  msg(COMMANDER_84, LEFT_F6, KNIGHT1_BLACK, FOLLOW, 142)
+# Even if it means I lose my life, I shall not let you through!\r\nAttack!\0
+break
+
+lbl_7e3:
+  msg(COMMANDER_84, LEFT_F6, KNIGHT1_BLACK, NOFOLLOW, 143)
+# We cannot withdraw from here!\0
+  local.sub($0a47d0, $07eb5c)
+break
+
+lbl_7ee:
+  msg(COMMANDER_84, LEFT_F6, KNIGHT1_BLACK, NOFOLLOW, 144)
+# Attack!\0
+  local.sub($0a47d0, $07eb5c)
+break
+
+lbl_7f9:
+  msg(COMMANDER_84, DOWN_F5, KNIGHT1_BLACK_DEAD, FOLLOW, 145)
+# Gaahh!\0
+break
+
+lbl_801:
+  msg(KEITH_CF, RIGHT_F7, KEITH, FOLLOW, 146)
+# Inform every aerial squad!\r\nFlank the imperial troops on the bridge and attack! Go!\0
+  branch.unit.dead(lbl_814, COMMANDER_87)
+  msg(COMMANDER_87, KEITH_CF, HAWKKNIGHT_BLACK, FOLLOW, 147)
+# Yes, Sir!\0
+  goto(lbl_81a)
+lbl_814:
+  msg(COMMANDER_88, KEITH_CF, HAWKKNIGHT_BLACK, NOFOLLOW, 148)
+# Gotcha!\0
+lbl_81a:
+break
+
+lbl_81c:
+  msg(KEITH_CF, LEFT_F6, KEITH, NOFOLLOW, 149)
+# Witness the might of the Kalxath Aerial Knights!\0
+break
+
+lbl_824:
+  msg(KEITH_CF, ERWIN_01, KEITH, NOFOLLOW, 150)
+# I didn't wish to fight you as an enemy ... However, such is war.\0
+break
+
+lbl_82c:
+  msg(KEITH_CF, LESTER_D1, KEITH_DEAD, FOLLOW, 151)
+# Ugh--! Forgive me, Master Lester. It seems I was of no help ...\0
+  msg(LESTER_D1, KEITH_CF, LESTER, FOLLOW, 152)
+# Keith!\r\nAre you all right!? Buying us this much time was more than enough!\r\nDon't be stupid, just get out of here!\0
+  msg(KEITH_CF, LESTER_D1, KEITH_DEAD, FOLLOW, 153)
+# Forgive me ..., my friend.\r\nI'll return the favour someday, I promise!\0
+  unit.retreat(KEITH_CF)
+  local.sub($0a47d0, $07eb5d)
+break
+
+lbl_845:
+  msg(COMMANDER_86, LEFT_F6, HAWKKNIGHT_BLACK, FOLLOW, 154)
+# Hurry up! Follow Sir Keith!\0
+break
+
+lbl_84d:
+  msg(COMMANDER_86, LEFT_F6, HAWKKNIGHT_BLACK, NOFOLLOW, 155)
+# I won't let you cross this valley!\0
+break
+
+lbl_855:
+  msg(COMMANDER_86, LEFT_F6, HAWKKNIGHT_BLACK_DEAD, FOLLOW, 156)
+# Im, impossible ...\0
+break
+
+lbl_85d:
+  unit.cleanup()
+  msg(COMMANDER_87, LEFT_F6, HAWKKNIGHT_BLACK, NOFOLLOW, 157)
+# You're pretty good, aren't you?\0
+break
+
+lbl_866:
+  msg(COMMANDER_87, DOWN_F5, HAWKKNIGHT_BLACK_DEAD, FOLLOW, 158)
+# I ...\0
+break
+
+lbl_86e:
+  msg(COMMANDER_88, LEFT_F6, HAWKKNIGHT_BLACK, NOFOLLOW, 159)
+# I can't let you go any further!\0
+break
+
+lbl_876:
+  msg(COMMANDER_88, DOWN_F5, HAWKKNIGHT_BLACK_DEAD, FOLLOW, 160)
+# The Empire's troops ... are ... well ... trained.\0
+break
+
+lbl_87e:
+  msg(COMMANDER_89, LEFT_F6, HAWKKNIGHT_BLACK_DEAD, FOLLOW, 161)
+# You're strong, too strong ...!\0
+break
+
+lbl_886:
+  unit.cleanup()
+  msg(COMMANDER_22, LEFT_F6, HIGHLORD_BLACK, FOLLOW, 162)
+# Ugh, strong ...\0
+  msg(LESTER_D1, COMMANDER_22, LESTER, FOLLOW, 163)
+# Don't be rash! Those guys are very powerful!\0
+  unit.clearbit(COMMANDER_22, $17, 0)
+break
+
+lbl_899:
+  subroutine(lbl_8c9)
+break
+
+lbl_89e:
+  unit.cleanup()
+  msg(LESTER_D1, LEFT_F6, LESTER, FOLLOW, 164)
+# I can't believe this ... I'm the only one left ...\r\nHowever, I won't give up so fast! I'm seeing this through to the end!\0
+  msg(SOLDIER_20, UP_F4, SOLDIER1_SILVER, NOFOLLOW, 165)
+# Aye, sir! We'll aid you with all our strength!\0
+  msg(LESTER_D1, LEFT_F6, LESTER, FOLLOW, 166)
+# Please!\0
+  msg(LESTER_D1, ERWIN_01, LESTER, FOLLOW, 167)
+# All right, _NAME_. Come on!\0
+break
+
+lbl_8b9:
+  unit.cleanup()
+  msg(LESTER_D1, LEFT_F6, LESTER, FOLLOW, 168)
+# Damn it! Our assault troops have been fucked.\r\nThe only people left to handle this are us. These guys are too much.\0
+break
+
+lbl_8c2:
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 173)
+# So far, this is the proper course of action ...\0
+endsub
+
+lbl_8c9:
+  branch.mem.local.eq(lbl_922, $0a47d3, $07eb5d)
+  unit.cleanup()
+  bgm(ENEMY, ALLY4)
+  bgm(ALLY, ALLY4)
+  unit.position(KEITH_CF, 22, 23)
+  unit.showsub(KEITH_CF)
+  unit.deploy(COMMANDER_86, 25, 23)
+  unit.deploy(COMMANDER_87, 28, 22)
+  unit.deploy(COMMANDER_88, 31, 22)
+  unit.deploy(COMMANDER_89, 34, 21)
+  msg(ERWIN_01, KEITH_CF, ERWIN, FOLLOW, 174)
+# What? Reinforcements?\0
+  msg(KEITH_CF, LESTER_D1, KEITH, FOLLOW, 175)
+# Sir Lester! Is the bridge ready to be dropped?\0
+  msg(LESTER_D1, KEITH_CF, LESTER, FOLLOW, 176)
+# Sorry, bud ...\r\nThings were going smoothly until you-know-who showed up ...\0
+  msg(KEITH_CF, LESTER_D1, KEITH, FOLLOW, 177)
+# We'll take care of them. In the meantime, please bring down the bridge.\0
+  msg(LESTER_D1, KEITH_CF, LESTER, FOLLOW, 178)
+# Thanks for the help.\0
+  local.sub($0a47d0, $07eb58)
+  local.sum($0a47d3, $07eb5d)
+  branch.mem.local.ne(lbl_915, $0a47d3, $07eb5c)
+  local.sub($0a47d0, $07eb5a)
+lbl_915:
+  branch.mem.local.ne(lbl_91f, $0a47d1, $07eb5c)
+  bgm(ALLY, ENEMY6_IMELDA)
+  goto(lbl_922)
+lbl_91f:
+  bgm(ALLY, ALLY3)
+lbl_922:
+endsub
+
+lbl_923:
+  msg(LESTER_D1, LEFT_F6, LESTER, FOLLOW, 179)
+# Go for it!\0
+endsub
+
+lbl_92a:
+  branch.mem.local.eq(lbl_941, $0a47d8, $07eb58)
+  msg(IMELDA_0F, KEITH_CF, IMELDA, FOLLOW, 180)
+# Don't worry about the pixie loving insects in the air.\r\nI brought a detachment of High Elves with me. They'll snipe those pigeon riders right out of the sky!\0
+  branch.unit.dead(lbl_93e, KEITH_CF)
+  msg(KEITH_CF, IMELDA_0F, KEITH, FOLLOW, 181)
+# Damn ...! It would be wise to not get too close to that woman!\0
+lbl_93e:
+  local.sum($0a47d8, $07eb58)
+lbl_941:
+endsub
+
+lbl_942:
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 182)
+# All right! Let's go, everyone!\r\nFor the sake of claiming the legendary holy blade!\0
+endsub
+
+lbl_949:
+  branch.mem.global.eq(lbl_954, $0a478a, $07eb58)
+  unit.expboost(IMELDA_0F, 150)
+  global.sum($0a478a, $07eb58)
+lbl_954:
+endsub
+

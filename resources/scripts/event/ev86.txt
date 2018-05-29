@@ -1,0 +1,460 @@
+# Movement-Triggered Events
+break
+
+# Attack-Triggered Events
+break
+
+# Damage-Triggered Events
+break
+
+# Position-Triggered Events
+break
+
+# Turn-Triggered Events
+break
+
+# Core Events
+lbl_18:
+  loadlushiris()
+  screen.fadein(4)
+  branch.mem.global.eq(lbl_3b, $0a4791, $07eb5c)
+  msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 1)
+# Welcome to El Sallia. My name is Lushiris. As the Goddess of Light, I have summoned you from above.\0
+  msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 2)
+# Our world has once again become exposed to the threat of evil.\0
+  msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 3)
+# I have long waited for a courageous person like you to appear.\0
+  msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 4)
+# In order to see if you are the one who can save this world, I must ask you some questions.\0
+  global.sum($0a4791, $07eb5c)
+lbl_3b:
+  msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 5)
+# To begin with, please tell me your name.\0
+  entername()
+  loadlushiris()
+  screen.fadein(4)
+  msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 6)
+# Well then, _NAME_, please answer my questions honestly.\0
+  subroutine(lbl_51)
+break
+
+lbl_51:
+  msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 7)
+# While resupplying, your enemy has launched a surprise attack. What will you do?\0
+  prompt.options(lbl_99, lbl_9f, 8, 9, 10, 0x00, 0xf6, 0x00, 0x00)
+# Retreat\0
+# Defend\0
+# Counterattack\0
+  msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 11)
+# Where do you believe God resides?\0
+  prompt.options(lbl_85, lbl_93, 12, 13, 14, 0x00, 0xf6, 0x00, 0x00)
+# God does not exist\0
+# In the heavens above\0
+# Within each of our hearts\0
+  setclass(WARLOCK_0E)
+  unit.attributeboost(12, 255)
+  enablehire(SOLDIER_7B)
+  enablespell(MAGICARROW)
+  subroutine(lbl_10c)
+  goto(lbl_96)
+lbl_85:
+  setclass(BISHOP_E2)
+  unit.attributeboost(12, 255)
+  enablehire(MONK_77)
+  subroutine(lbl_10c)
+  goto(lbl_96)
+lbl_93:
+  subroutine(lbl_d2)
+lbl_96:
+  goto(lbl_a2)
+lbl_99:
+  subroutine(lbl_a3)
+  goto(lbl_a2)
+lbl_9f:
+  subroutine(lbl_d2)
+lbl_a2:
+endsub
+
+lbl_a3:
+  msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 15)
+# What is the essential quality of a matchless unit?\0
+  prompt.options(lbl_c0, lbl_ce, 16, 17, 18, 0x00, 0xf6, 0x00, 0x00)
+# Destructive power\0
+# Leadership\0
+# Mobility\0
+  setclass(GLADIATOR_35)
+  enablehire(BARBARIAN_78)
+  subroutine(lbl_135)
+  goto(lbl_d1)
+lbl_c0:
+  setclass(FIGHTER_03)
+  unit.attributeboost(12, 1)
+  enablehire(SOLDIER_7B)
+  subroutine(lbl_135)
+  goto(lbl_d1)
+lbl_ce:
+  subroutine(lbl_d2)
+lbl_d1:
+endsub
+
+lbl_d2:
+  msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 19)
+# Which of these would you like at your next house?\0
+  prompt.options(lbl_f2, lbl_100, 20, 21, 22, 0x00, 0xf6, 0x00, 0x00)
+# The salty brine of sea air\0
+# The soft breath of spring\0
+# A fresh, gentle breeze\0
+  setclass(PIRATE_4E)
+  unit.attributeboost(12, 1)
+  enablehire(MERMAN_A1)
+  subroutine(lbl_162)
+  goto(lbl_10b)
+lbl_f2:
+  setclass(KNIGHT_07)
+  unit.attributeboost(12, 1)
+  enablehire(TROOPER_83)
+  subroutine(lbl_162)
+  goto(lbl_10b)
+lbl_100:
+  setclass(HAWKKNIGHT_F0)
+  unit.attributeboost(12, 1)
+  enablehire(HARPY_A9)
+  subroutine(lbl_162)
+lbl_10b:
+endsub
+
+lbl_10c:
+  msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 23)
+# If this world collapses into crisis and ruin, what will save it?\0
+  prompt.options(lbl_126, lbl_12e, 24, 25, 26, 0x00, 0xf6, 0x00, 0x00)
+# Great and powerful gods\0
+# A wealth of knowledge\0
+# My own strength\0
+  enablespell(FORCEHEAL1)
+  subroutine(lbl_18d)
+  goto(lbl_134)
+lbl_126:
+  enablespell(THUNDER)
+  subroutine(lbl_1c1)
+  goto(lbl_134)
+lbl_12e:
+  unit.attributeboost(4, 1)
+  subroutine(lbl_1f3)
+lbl_134:
+endsub
+
+lbl_135:
+  msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 27)
+# If you gained command of a new unit, what would you demand of it?\0
+  prompt.options(lbl_152, lbl_15b, 28, 29, 30, 0x00, 0xf6, 0x00, 0x00)
+# Military might\0
+# Perfect control\0
+# High morale\0
+  unit.attributeboost(12, 1)
+  enablehire(TROOPER_83)
+  subroutine(lbl_1c1)
+  goto(lbl_161)
+lbl_152:
+  unit.attributeboost(35, 1)
+  subroutine(lbl_1f3)
+  goto(lbl_161)
+lbl_15b:
+  unit.attributeboost(34, 1)
+  subroutine(lbl_222)
+lbl_161:
+endsub
+
+lbl_162:
+  msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 31)
+# Ideally, what abilities should an excellent army possess?\0
+  prompt.options(lbl_17d, lbl_186, 32, 33, 34, 0x00, 0xf6, 0x00, 0x00)
+# A powerful commander\0
+# Impenetrable defence\0
+# Power to smash and destroy\0
+  unit.attributeboost(4, 1)
+  subroutine(lbl_1f3)
+  goto(lbl_18c)
+lbl_17d:
+  unit.attributeboost(35, 1)
+  subroutine(lbl_222)
+  goto(lbl_18c)
+lbl_186:
+  unit.attributeboost(34, 1)
+  subroutine(lbl_250)
+lbl_18c:
+endsub
+
+lbl_18d:
+  msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 35)
+# When faced by a being of total darkness, what do you consider it as?\0
+  prompt.options(lbl_1ad, lbl_1b8, 36, 37, 38, 0x00, 0xf6, 0x00, 0x00)
+# As a vicious enemy\0
+# As a being to worship\0
+# One not to be trifled with\0
+  global.sum($0a4789, $07eb5f)
+  enablespell(TURNUNDEAD)
+  unit.attributeboost(1, 4)
+  subroutine(lbl_282)
+  goto(lbl_1c0)
+lbl_1ad:
+  global.sum($0a4789, $07eb5e)
+  item.add(DEVILAXE)
+  subroutine(lbl_2ae)
+  goto(lbl_1c0)
+lbl_1b8:
+  item.add(WIZARDSROBE)
+  unit.attributeboost(1, 2)
+  subroutine(lbl_2d9)
+lbl_1c0:
+endsub
+
+lbl_1c1:
+  msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 39)
+# To what cause do you plan to devote your life?\0
+  prompt.options(lbl_1de, lbl_1ea, 40, 41, 42, 0x00, 0xf6, 0x00, 0x00)
+# To protect the ones I love\0
+# To strengthen myself\0
+# To fulfil my dreams\0
+  enablespell(PROTECTION1)
+  unit.attributeboost(1, 4)
+  subroutine(lbl_282)
+  goto(lbl_1f2)
+lbl_1de:
+  unit.attributeboost(4, 2)
+  unit.attributeboost(5, 1)
+  subroutine(lbl_2ae)
+  goto(lbl_1f2)
+lbl_1ea:
+  enablespell(ATTACK1)
+  unit.attributeboost(1, 4)
+  subroutine(lbl_2d9)
+lbl_1f2:
+endsub
+
+lbl_1f3:
+  msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 43)
+# An ally unit has been enveloped, but yours is also in danger. What would be your command?\0
+  prompt.options(lbl_210, lbl_21a, 44, 45, 46, 0x00, 0xf6, 0x00, 0x00)
+# Order a retreat\0
+# Hold out for reinforcements\0
+# Rush to their aid\0
+  unit.attributeboost(3, 7)
+  item.add(SWIFTBOOTS)
+  subroutine(lbl_2ae)
+  goto(lbl_221)
+lbl_210:
+  item.add(SHIELD)
+  enablespell(PROTECTION1)
+  subroutine(lbl_2d9)
+  goto(lbl_221)
+lbl_21a:
+  item.add(CROSS)
+  enablespell(HEAL1)
+  subroutine(lbl_308)
+lbl_221:
+endsub
+
+lbl_222:
+  msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 47)
+# What do you most strive to obtain in this life?\0
+  prompt.options(lbl_23f, lbl_24a, 48, 49, 50, 0x00, 0xf6, 0x00, 0x00)
+# Knowledge\0
+# Wealth\0
+# Power\0
+  enablespell(THUNDER)
+  unit.attributeboost(1, 4)
+  subroutine(lbl_2d9)
+  goto(lbl_24f)
+lbl_23f:
+  money.add(300)
+  item.add(SHIELD)
+  subroutine(lbl_308)
+  goto(lbl_24f)
+lbl_24a:
+  item.add(MAGICWAND)
+  subroutine(lbl_336)
+lbl_24f:
+endsub
+
+lbl_250:
+  msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 51)
+# If you gained a position of great power, how would you use it?\0
+  prompt.options(lbl_26a, lbl_279, 52, 53, 54, 0x00, 0xf6, 0x00, 0x00)
+# To protect my people\0
+# To rule over all\0
+# To promote justice\0
+  item.add(AMULET)
+  subroutine(lbl_2d9)
+  goto(lbl_281)
+lbl_26a:
+  unit.attributeboost(5, 2)
+  unit.attributeboost(4, 1)
+  global.sum($0a4791, $07eb5d)
+  subroutine(lbl_308)
+  goto(lbl_281)
+lbl_279:
+  enablehire(MONK_77)
+  unit.statboost(58, 1)
+  subroutine(lbl_336)
+lbl_281:
+endsub
+
+lbl_282:
+  msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 55)
+# What kind of thing is love to you?\0
+  prompt.options(lbl_29f, lbl_2a7, 56, 57, 58, 0x00, 0xf6, 0x00, 0x00)
+# Something given mutually\0
+# Something one receives\0
+# A source of infinite power\0
+  enablespell(CHARM)
+  unit.attributeboost(1, 1)
+  subroutine(lbl_360)
+  goto(lbl_2ad)
+lbl_29f:
+  item.add(WARHAMMER)
+  subroutine(lbl_360)
+  goto(lbl_2ad)
+lbl_2a7:
+  unit.attributeboost(4, 1)
+  subroutine(lbl_360)
+lbl_2ad:
+endsub
+
+lbl_2ae:
+  msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 59)
+# What is it you expect from this world?\0
+  prompt.options(lbl_2c9, lbl_2d2, 60, 61, 62, 0x00, 0xf6, 0x00, 0x00)
+# Love, hope and courage\0
+# Freedom to live as I please\0
+# Order and unity\0
+  unit.attributeboost(4, 1)
+  subroutine(lbl_360)
+  goto(lbl_2d8)
+lbl_2c9:
+  unit.attributeboost(1, 2)
+  subroutine(lbl_360)
+  goto(lbl_2d8)
+lbl_2d2:
+  unit.attributeboost(5, 1)
+  subroutine(lbl_360)
+lbl_2d8:
+endsub
+
+lbl_2d9:
+  msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 63)
+# What ability must the ruler of a nation possess?\0
+  prompt.options(lbl_2f6, lbl_301, 64, 65, 66, 0x00, 0xf6, 0x00, 0x00)
+# Charisma\0
+# Decisiveness\0
+# Power to take action\0
+  enablespell(CHARM)
+  unit.attributeboost(1, 1)
+  subroutine(lbl_360)
+  goto(lbl_307)
+lbl_2f6:
+  enablespell(QUICK)
+  unit.attributeboost(1, 1)
+  subroutine(lbl_360)
+  goto(lbl_307)
+lbl_301:
+  unit.attributeboost(34, 1)
+  subroutine(lbl_360)
+lbl_307:
+endsub
+
+lbl_308:
+  msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 67)
+# What do you believe is required in order to become a hero?\0
+  prompt.options(lbl_326, lbl_32f, 68, 69, 70, 0x00, 0xf6, 0x00, 0x00)
+# A valiant soul\0
+# Leadership\0
+# Courage\0
+  unit.statboost(11, 10)
+  global.sum($0a4790, $07eb5f)
+  subroutine(lbl_360)
+  goto(lbl_335)
+lbl_326:
+  unit.attributeboost(35, 1)
+  subroutine(lbl_360)
+  goto(lbl_335)
+lbl_32f:
+  unit.attributeboost(34, 1)
+  subroutine(lbl_360)
+lbl_335:
+endsub
+
+lbl_336:
+  msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 71)
+# You are a boy, aren't you?\0
+  prompt.options(lbl_350, lbl_359, 72, 73, 74, 0x00, 0xf6, 0x00, 0x00)
+# No, a romantic\0
+# No, a burning soul\0
+# No, a man of steel\0
+  enablespell(HEAL1)
+  subroutine(lbl_360)
+  goto(lbl_35f)
+lbl_350:
+  unit.attributeboost(4, 1)
+  subroutine(lbl_360)
+  goto(lbl_35f)
+lbl_359:
+  unit.attributeboost(5, 1)
+  subroutine(lbl_360)
+lbl_35f:
+endsub
+
+lbl_360:
+  msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 75)
+# At the outset of battle, what skills do you require of yourself?\0
+  prompt.options(lbl_378, lbl_381, 76, 77, 78, 0x00, 0xf6, 0x00, 0x00)
+# Vast tactical knowledge\0
+# Calm judgement\0
+# Mighty power\0
+  unit.attributeboost(1, 5)
+  goto(lbl_38a)
+lbl_378:
+  unit.attributeboost(5, 1)
+  unit.attributeboost(1, 2)
+  goto(lbl_38a)
+lbl_381:
+  unit.attributeboost(4, 1)
+  unit.attributeboost(5, 1)
+  unit.attributeboost(1, 1)
+lbl_38a:
+  msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 79)
+# What do you look for in an ideal unit?\0
+  prompt.options(lbl_3a8, lbl_3b3, 80, 81, 82, 0x00, 0xf6, 0x00, 0x00)
+# A select few\0
+# Strength in numbers\0
+# I alone am enough\0
+  unit.attributeboost(34, 1)
+  unit.attributeboost(35, 1)
+  unit.attributeboost(12, 255)
+  goto(lbl_3b9)
+lbl_3a8:
+  unit.attributeboost(12, 1)
+  enablespell(ATTACK1)
+  unit.attributeboost(1, 2)
+  goto(lbl_3b9)
+lbl_3b3:
+  unit.attributeboost(4, 2)
+  unit.attributeboost(5, 1)
+lbl_3b9:
+  msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 83)
+# Lastly, for what purpose do you fight?\0
+  prompt.options(lbl_3d1, lbl_3d9, 84, 85, 86, 0x00, 0xf6, 0x00, 0x00)
+# To obtain glory and honour\0
+# To protect my homeland\0
+# To protect my loved ones\0
+  unit.attributeboost(4, 2)
+  goto(lbl_3de)
+lbl_3d1:
+  enablespell(ATTACK1)
+  unit.attributeboost(1, 1)
+  goto(lbl_3de)
+lbl_3d9:
+  enablespell(PROTECTION1)
+  unit.attributeboost(5, 1)
+lbl_3de:
+endsub
+

@@ -1,0 +1,550 @@
+# Movement-Triggered Events
+break
+
+# Attack-Triggered Events
+on.attack(17, lbl_454, NULL_FF, CHERIE_04, 0xff, 0x00, 0xff)
+on.attack(23, lbl_498, ANIKI_70, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(26, lbl_4b0, ANIKI_72, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(29, lbl_4cb, NULL_FF, ANIKI_9C, 0xff, 0x00, 0xff)
+on.attack(34, lbl_4f6, ADON_2C, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(36, lbl_506, SAMPSON_2D, NULL_FF, 0x00, 0xff, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(15, lbl_434, ERWIN_01)
+on.defeat(16, lbl_44c, HEIN_05)
+on.defeat(18, lbl_470, CHERIE_04)
+on.defeat(19, lbl_478, ROHGA_0B)
+on.defeat(20, lbl_480, KEITH_07)
+on.defeat(21, lbl_488, LESTER_09)
+on.defeat(22, lbl_490, LIANA_02)
+on.defeat(24, lbl_4a0, ANIKI_70)
+on.defeat(25, lbl_4a8, ANIKI_71)
+on.defeat(27, lbl_4b8, ANIKI_72)
+on.damage(28, lbl_4c3, ANIKI_72, NULL_FF, 0x00, 0xff)
+on.defeat(30, lbl_4d3, ANIKI_9C)
+on.defeat(31, lbl_4db, ANIKI_9D)
+on.defeat(32, lbl_4e3, ANIKI_9E)
+on.defeat(33, lbl_4eb, VARAN_2E)
+on.defeat(35, lbl_4fe, ADON_2C)
+on.defeat(37, lbl_50e, SAMPSON_2D)
+on.defeat(38, lbl_516, ANIKI_70, ANIKI_71, ANIKI_72, ANIKI_9C, ANIKI_9D, ANIKI_9E, VARAN_2E, ADON_2C, SAMPSON_2D)
+break
+
+# Position-Triggered Events
+on.bound(8, lbl_384, NPC_SUBUNIT_F1, 1, 1, 30, 11, 0x00, 0x00)
+on.bound(10, lbl_393, NPC_COMMANDER_F0, 9, 3, 9, 3, 0x00, 0x00)
+on.bound(11, lbl_3ad, NPC_COMMANDER_F0, 15, 6, 15, 6, 0x00, 0x00)
+on.bound(12, lbl_3c8, NPC_COMMANDER_F0, 16, 6, 16, 6, 0x00, 0x00)
+on.bound(13, lbl_3e3, NPC_COMMANDER_F0, 22, 3, 22, 3, 0x00, 0x00)
+on.bound(14, lbl_41a, NPC_COMMANDER_F0, 16, 10, 16, 10, 0x00, 0x00)
+break
+
+# Turn-Triggered Events
+on.turn(6, lbl_236, ENEMY, 1, 0x00)
+on.turn(7, lbl_248, ENEMY, 6, 0x00)
+on.turn(9, lbl_257, ENEMY, 5, 0x00)
+on.turn(5, lbl_287, ENEMY, 0, 0x00)
+on.turn(4, lbl_315, ENEMY, 0, 0x00)
+on.turn(3, lbl_328, ENEMY, 0, 0x00)
+on.turn(2, lbl_33b, ENEMY, 0, 0x00)
+on.turn(1, lbl_354, ENEMY, 0, 0x00)
+on.turn(0, lbl_371, ENEMY, 0, 0x00)
+break
+
+# Core Events
+lbl_130:
+  bgm(ALLY, ANIKI)
+  focus.point(16, 10, FAST)
+  cursor.set(NULL_00)
+  unit.position(VARAN_2E, PRESET, PRESET)
+  unit.showsub(VARAN_2E)
+  unit.position(SAMPSON_2D, PRESET, PRESET)
+  unit.showsub(SAMPSON_2D)
+  unit.position(ADON_2C, PRESET, PRESET)
+  unit.showsub(ADON_2C)
+  unit.position(ANIKI_70, PRESET, PRESET)
+  unit.showsub(ANIKI_70)
+  unit.position(ANIKI_71, PRESET, PRESET)
+  unit.showsub(ANIKI_71)
+  unit.position(ANIKI_72, PRESET, PRESET)
+  unit.showsub(ANIKI_72)
+  unit.position(ANIKI_9C, PRESET, PRESET)
+  unit.showsub(ANIKI_9C)
+  unit.position(ANIKI_9D, PRESET, PRESET)
+  unit.showsub(ANIKI_9D)
+  unit.position(ANIKI_9E, PRESET, PRESET)
+  unit.showsub(ANIKI_9E)
+  screen.fadein(4)
+  focus.unit(VARAN_2E)
+  cursor.set(ERWIN_01)
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.showsub(ERWIN_01)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.showsub(HEIN_05)
+  unit.position(CHERIE_04, PRESET, PRESET)
+  unit.showsub(CHERIE_04)
+  unit.position(ROHGA_0B, PRESET, PRESET)
+  unit.showsub(ROHGA_0B)
+  unit.position(KEITH_07, PRESET, PRESET)
+  unit.showsub(KEITH_07)
+  unit.position(LESTER_09, PRESET, PRESET)
+  unit.showsub(LESTER_09)
+  unit.position(LIANA_02, PRESET, PRESET)
+  unit.showsub(LIANA_02)
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 1)
+# Is this the Muscular Shrine?\0
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 2)
+# Errr, _NAME_.\r\nI don't think we should investigate further ...\0
+  msg(KEITH_07, ERWIN_01, KEITH, FOLLOW, 3)
+# I agree with Hein.\r\nWhile we're hanging around, the Imperial Army could retrieve the Holy Blade.\0
+  msg(CHERIE_04, UP_F4, CHERIE, FOLLOW, 4)
+# Aaaahh--! What is this?\0
+  msg(VARAN_2E, DOWN_F5, ANIKI_PINK, FOLLOW, 5)
+# Ugh--!\0
+  screen.brightness(3)
+  screen.brightness(0)
+  screen.brightness(4)
+  screen.brightness(0)
+  msg(ADON_2C, DOWN_F5, ANIKI_BLUE, FOLLOW, 6)
+# Aarrghh--!\0
+  screen.brightness(2)
+  screen.brightness(0)
+  screen.brightness(3)
+  screen.brightness(0)
+  msg(SAMPSON_2D, DOWN_F5, ANIKI_BLUE, FOLLOW, 7)
+# Ooooh ...!\0
+  screen.brightness(1)
+  screen.brightness(0)
+  msg(VARAN_2E, SAMPSON_2D, ANIKI_PINK, FOLLOW, 8)
+# Sampson! You should train your body more!\0
+  msg(SAMPSON_2D, VARAN_2E, ANIKI_BLUE, FOLLOW, 9)
+# Sorry, big brother!\0
+  msg(VARAN_2E, CHERIE_04, ANIKI_PINK, FOLLOW, 10)
+# Welcome to the Muscular Shrine!\r\nHuuhn huuh!\0
+  screen.brightness(5)
+  screen.brightness(0)
+  msg(ADON_2C, ERWIN_01, ANIKI_BLUE, FOLLOW, 11)
+# We've been waiting for you! Aaahhh hyah!\0
+  screen.brightness(4)
+  screen.brightness(0)
+  msg(VARAN_2E, ERWIN_01, ANIKI_PINK, FOLLOW, 12)
+# I'm sorry, but you have to die here.\r\nWe'll escape this cave and conquer the world with love and muscles!\r\nHooo ho yaahhh!\0
+  screen.brightness(1)
+  screen.brightness(0)
+  screen.brightness(4)
+  screen.brightness(0)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 13)
+# What the hell!\r\n_NAME_, they're going to try and take over the world if we don't do something!\0
+  msg(ERWIN_01, HEIN_05, ERWIN, FOLLOW, 14)
+# You're right.\r\nWe can't have these guys messing with things. Everyone, let's go!\0
+  msg(CHERIE_04, HEIN_05, CHERIE, FOLLOW, 15)
+# Or we could not ... and say we did?\0
+  local.sum($0a47d0, $07eb58)
+  local.sum($0a47d0, $07eb59)
+  local.sum($0a47d0, $07eb5a)
+  local.sum($0a47d0, $07eb5b)
+  local.sum($0a47d0, $07eb5c)
+  local.sum($0a47d0, $07eb5d)
+  bgm(ALLY, ALLY2)
+break
+
+lbl_236:
+  msg(VARAN_2E, DOWN_F5, ANIKI_PINK, FOLLOW, 16)
+# Now it's our turn! Apostles of Aniki, go! Hunn huuh!\0
+  screen.brightness(4)
+  screen.brightness(0)
+  msg(ANIKI_9D, VARAN_2E, ANIKI_PURPLE, FOLLOW, 17)
+# Yeah!\0
+break
+
+lbl_248:
+  branch.mem.local.eq(lbl_255, $0a47d1, $07eb58)
+  subroutine(lbl_51c)
+  local.sum($0a47d1, $07eb58)
+  local.sub($0a47d0, $07eb58)
+lbl_255:
+break
+
+lbl_257:
+  branch.unit.dead(lbl_285, VARAN_2E)
+  msg(VARAN_2E, DOWN_F5, ANIKI_PINK, FOLLOW, 18)
+# You see our muscles? Oh yeah!\0
+  screen.brightness(4)
+  screen.brightness(0)
+  branch.unit.dead(lbl_285, HEIN_05)
+  msg(HEIN_05, DOWN_F5, HEIN, FOLLOW, 19)
+# Errr ... I have a bad feeling ...\0
+  msg(VARAN_2E, DOWN_F5, ANIKI_PINK, FOLLOW, 20)
+# Hey, little boy there! You look too much like a puny little girly man!\r\nGive me twenty push-ups and fifteen sit-ups when you're done with those!\r\nCome on! Four laps, up and down the stairs!\0
+  msg(HEIN_05, DOWN_F5, HEIN, FOLLOW, 21)
+# I can't understand a word he's saying ...\0
+  branch.unit.dead(lbl_285, VARAN_2E)
+  msg(VARAN_2E, DOWN_F5, ANIKI_PINK, FOLLOW, 22)
+# It's the language of brotherly love and muscles.\r\nIf you keep working on that figure, maybe you'll be manly enough to make it out!\0
+lbl_285:
+break
+
+lbl_287:
+  branch.unit.dead(lbl_310, VARAN_2E)
+  msg(VARAN_2E, DOWN_F5, ANIKI_PINK, FOLLOW, 23)
+# Zero!\0
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 24)
+# This is it! Everyone, run for cover!\r\nThere's no telling what their Sexy Beam will do.\0
+  msg(VARAN_2E, DOWN_F5, ANIKI_PINK, FOLLOW, 25)
+# Whew! That's enough of a workout for one day.\0
+  unit.setbyte(VARAN_2E, $03, 0x00)
+  unit.cleanup()
+  branch.unit.dead(lbl_2b1, ADON_2C)
+  msg(ADON_2C, DOWN_F5, ANIKI_BLUE, FOLLOW, 26)
+# Noooooo--!\0
+  unit.setbyte(ADON_2C, $03, 0x00)
+  unit.cleanup()
+lbl_2b1:
+  branch.unit.dead(lbl_2c0, SAMPSON_2D)
+  msg(SAMPSON_2D, DOWN_F5, ANIKI_BLUE, FOLLOW, 27)
+# Ooh ...!\0
+  unit.setbyte(SAMPSON_2D, $03, 0x00)
+  unit.cleanup()
+lbl_2c0:
+  branch.unit.dead(lbl_2c9, ANIKI_70)
+  unit.setbyte(ANIKI_70, $03, 0x00)
+  unit.cleanup()
+lbl_2c9:
+  branch.unit.dead(lbl_2d2, ANIKI_71)
+  unit.setbyte(ANIKI_71, $03, 0x00)
+  unit.cleanup()
+lbl_2d2:
+  branch.unit.dead(lbl_2db, ANIKI_72)
+  unit.setbyte(ANIKI_72, $03, 0x00)
+  unit.cleanup()
+lbl_2db:
+  branch.unit.dead(lbl_2e4, ANIKI_9C)
+  unit.setbyte(ANIKI_9C, $03, 0x00)
+  unit.cleanup()
+lbl_2e4:
+  branch.unit.dead(lbl_2ed, ANIKI_9D)
+  unit.setbyte(ANIKI_9D, $03, 0x00)
+  unit.cleanup()
+lbl_2ed:
+  branch.unit.dead(lbl_2f6, ANIKI_9E)
+  unit.setbyte(ANIKI_9E, $03, 0x00)
+  unit.cleanup()
+lbl_2f6:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 28)
+# What just happened? He ... self-destructed?\0
+  branch.unit.dead(lbl_310, LIANA_02)
+  msg(LIANA_02, DOWN_F5, LIANA, FOLLOW, 29)
+# They posed in the same position for so long that their veins snapped ...\r\nOr something like that ...\0
+  branch.unit.dead(lbl_310, HEIN_05)
+  msg(HEIN_05, DOWN_F5, HEIN, FOLLOW, 30)
+# Liana, you're came up with that answer pretty fast.\r\nIs there something you want to tell us about ...?\0
+lbl_310:
+  subroutine(lbl_54e)
+break
+
+lbl_315:
+  branch.unit.dead(lbl_326, VARAN_2E)
+  msg(SAMPSON_2D, DOWN_F5, ANIKI_BLUE, FOLLOW, 31)
+# One!\0
+  screen.brightness(4)
+  screen.brightness(0)
+  local.sub($0a47d0, $07eb5d)
+lbl_326:
+break
+
+lbl_328:
+  branch.unit.dead(lbl_339, VARAN_2E)
+  msg(ADON_2C, DOWN_F5, ANIKI_BLUE, FOLLOW, 32)
+# Two!\0
+  screen.brightness(4)
+  screen.brightness(0)
+  local.sub($0a47d0, $07eb5c)
+lbl_339:
+break
+
+lbl_33b:
+  branch.unit.dead(lbl_352, VARAN_2E)
+  msg(VARAN_2E, DOWN_F5, ANIKI_PINK, FOLLOW, 33)
+# Countdown started! Three!\0
+  screen.brightness(4)
+  screen.brightness(0)
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 34)
+# That sounds bad ...!\0
+  local.sub($0a47d0, $07eb5b)
+lbl_352:
+break
+
+lbl_354:
+  branch.unit.dead(lbl_36f, VARAN_2E)
+  msg(VARAN_2E, ADON_2C, ANIKI_PINK, FOLLOW, 35)
+# Sexy Beam energy charged to one-hundred twenty eight percent and counting!\0
+  screen.brightness(4)
+  screen.brightness(0)
+  branch.unit.dead(lbl_36c, HEIN_05)
+  msg(HEIN_05, RIGHT_F7, HEIN, FOLLOW, 36)
+# What the hell!\r\nIt's one-hundred twenty eight percent from the very start!? No way!\0
+lbl_36c:
+  local.sub($0a47d0, $07eb5a)
+lbl_36f:
+break
+
+lbl_371:
+  branch.unit.dead(lbl_382, VARAN_2E)
+  msg(VARAN_2E, ADON_2C, ANIKI_PINK, FOLLOW, 37)
+# Sexy Beam energy charge initiated.\0
+  screen.brightness(4)
+  screen.brightness(0)
+  local.sub($0a47d0, $07eb59)
+lbl_382:
+break
+
+lbl_384:
+  branch.mem.local.eq(lbl_391, $0a47d0, $07eb5f)
+  subroutine(lbl_51c)
+  local.sum($0a47d0, $07eb5f)
+  local.sub($0a47d0, $07eb58)
+lbl_391:
+break
+
+lbl_393:
+  branch.mem.global.eq(lbl_3ab, $0a478e, $07eb5a)
+  unit.cleanup()
+  prompt.ok(lbl_3ab)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 39)
+# The stone shines like gold.\r\nObtained Rune Stone.\0
+  item.add(RUNESTONE)
+  global.sum($0a478e, $07eb5a)
+lbl_3ab:
+break
+
+lbl_3ad:
+  branch.mem.global.eq(lbl_3c6, $0a478e, $07eb5b)
+  unit.cleanup()
+  prompt.ok(lbl_3c6)
+  unit.statboost(59, 1)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 41)
+# Your body became harder.\r\nDF raised by 1!\0
+  global.sum($0a478e, $07eb5b)
+lbl_3c6:
+break
+
+lbl_3c8:
+  branch.mem.global.eq(lbl_3e1, $0a478e, $07eb5c)
+  unit.cleanup()
+  prompt.ok(lbl_3e1)
+  unit.statboost(58, 1)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 43)
+# AT raised by 1!\r\nBut now you smell like unwashed gym socks ...\0
+  global.sum($0a478e, $07eb5c)
+lbl_3e1:
+break
+
+lbl_3e3:
+  branch.mem.global.eq(lbl_418, $0a478e, $07eb5d)
+  unit.cleanup()
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 44)
+# The flat-looking sculpture before you begins to speak.\r\n"Do you know who I am? Do you dare to call my name?"\r\nWhat name will you call?\0
+  prompt.options(lbl_403, lbl_40f, 45, 46, 47, 0x00, 0xf4, 0x00, 0x00)
+# God\0
+# Uminin\0
+# Umineko\0
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 48)
+# "Incorrect ..."\r\nThe sculpture fell silent.\0
+  goto(lbl_415)
+lbl_403:
+  unit.statboost(58, 2)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 49)
+# "Correct ..."\r\nAT raised by 2.\0
+  goto(lbl_415)
+lbl_40f:
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 50)
+# "Incorrect ..."\r\nThe sculpture fell silent.\0
+lbl_415:
+  global.sum($0a478e, $07eb5d)
+lbl_418:
+break
+
+lbl_41a:
+  branch.mem.global.eq(lbl_432, $0a478e, $07eb5e)
+  unit.cleanup()
+  prompt.ok(lbl_432)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 52)
+# Obtained Iron Dumbbell.\0
+  item.add(IRONDUMBELL)
+  global.sum($0a478e, $07eb5e)
+lbl_432:
+break
+
+lbl_434:
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 53)
+# Damn it ... Their Vaseline-oiled muscles deflected my swor--\0
+  branch.unit.dead(lbl_448, VARAN_2E)
+  msg(VARAN_2E, ERWIN_01, ANIKI_PINK, FOLLOW, 54)
+# Hah hah hah, boys!\r\nYou've got to train your body more!\r\nOooohhh yeah!\0
+  screen.brightness(5)
+  screen.brightness(0)
+lbl_448:
+  unit.cleanup()
+  gameover()
+break
+
+lbl_44c:
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 55)
+# I knew I wasn't pumped enough to take on Masaya's Aniki ...\0
+break
+
+lbl_454:
+  msg(CHERIE_04, DOWN_F5, CHERIE, NOFOLLOW, 56)
+# No! I don't want to be a big muscle-bound moron.\0
+  branch.unit.dead(lbl_46e, VARAN_2E)
+  msg(VARAN_2E, DOWN_F5, ANIKI_PINK, FOLLOW, 57)
+# Don't worry, young lady. It only hurts the first time.\r\nUuuhnnn hah!\0
+  screen.brightness(4)
+  screen.brightness(0)
+  msg(CHERIE_04, DOWN_F5, CHERIE, FOLLOW, 58)
+# No! Don't come near me!\0
+lbl_46e:
+break
+
+lbl_470:
+  msg(CHERIE_04, DOWN_F5, CHERIE_DEAD, FOLLOW, 59)
+# I can't believe an Aniki is going to be the last thing my eyes ever see ...\0
+break
+
+lbl_478:
+  msg(ROHGA_0B, DOWN_F5, ROHGA_DEAD, FOLLOW, 60)
+# I can't do this any more.\0
+break
+
+lbl_480:
+  msg(KEITH_07, DOWN_F5, KEITH_DEAD, FOLLOW, 61)
+# This must be a dream ... So many Aniki ... Someone wake me up--!\0
+break
+
+lbl_488:
+  msg(LESTER_09, DOWN_F5, LESTER_DEAD, FOLLOW, 62)
+# My crocodile ... Where have you gone?\r\nWhy did Masaya forget to add you to this game ...?\r\nI hope that wherever you are, you're ... free ...\0
+break
+
+lbl_490:
+  msg(LIANA_02, DOWN_F5, LIANA_DEAD, FOLLOW, 63)
+# So manly and dreamy ...\0
+break
+
+lbl_498:
+  msg(ANIKI_70, LEFT_F6, ANIKI_PURPLE, FOLLOW, 64)
+# Je t'aime.\0
+break
+
+lbl_4a0:
+  msg(ANIKI_70, DOWN_F5, ANIKI_PURPLE, FOLLOW, 65)
+# Senorita!\0
+break
+
+lbl_4a8:
+  msg(ANIKI_71, DOWN_F5, ANIKI_PURPLE, FOLLOW, 66)
+# Oh no! They managed to break my invincible pose ...\0
+break
+
+lbl_4b0:
+  msg(ANIKI_72, DOWN_F5, ANIKI_PURPLE, NOFOLLOW, 67)
+# Look at meee!\0
+break
+
+lbl_4b8:
+  msg(ANIKI_72, DOWN_F5, ANIKI_PURPLE, FOLLOW, 68)
+# Aniki!\0
+  local.sum($0a47d3, $07eb5c)
+break
+
+lbl_4c3:
+  msg(ANIKI_72, DOWN_F5, ANIKI_PURPLE, FOLLOW, 69)
+# Pump it up!\0
+break
+
+lbl_4cb:
+  msg(ANIKI_9C, DOWN_F5, ANIKI_PURPLE, NOFOLLOW, 70)
+# You'll never leave a scratch on my ultimately trained iron body!\0
+break
+
+lbl_4d3:
+  msg(ANIKI_9C, DOWN_F5, ANIKI_PURPLE, FOLLOW, 71)
+# I ... I am beautiful ...\0
+break
+
+lbl_4db:
+  msg(ANIKI_9D, DOWN_F5, ANIKI_PURPLE, FOLLOW, 72)
+# Nice body ... I admire how toned you are, even if you're my enemy ...\0
+break
+
+lbl_4e3:
+  msg(ANIKI_9E, DOWN_F5, ANIKI_PURPLE, FOLLOW, 73)
+# Nooo!\0
+break
+
+lbl_4eb:
+  msg(VARAN_2E, DOWN_F5, ANIKI_PINK, FOLLOW, 74)
+# Nooo!\0
+  local.sum($0a47d0, $07eb5d)
+break
+
+lbl_4f6:
+  msg(ADON_2C, DOWN_F5, ANIKI_BLUE, NOFOLLOW, 75)
+# Hey there, I'm Adon!\0
+break
+
+lbl_4fe:
+  msg(ADON_2C, DOWN_F5, ANIKI_BLUE, FOLLOW, 76)
+# Sampson, Sampson!\0
+break
+
+lbl_506:
+  msg(SAMPSON_2D, DOWN_F5, ANIKI_BLUE, NOFOLLOW, 77)
+# Nice body! I'm Sampson!\0
+break
+
+lbl_50e:
+  msg(SAMPSON_2D, DOWN_F5, ANIKI_BLUE, FOLLOW, 78)
+# Adon, Adon!\0
+break
+
+lbl_516:
+  unit.cleanup()
+  subroutine(lbl_54e)
+break
+
+lbl_51c:
+  branch.unit.dead(lbl_54d, VARAN_2E)
+  branch.unit.dead(lbl_54d, ADON_2C)
+  branch.unit.dead(lbl_54d, SAMPSON_2D)
+  msg(VARAN_2E, ERWIN_01, ANIKI_PINK, FOLLOW, 79)
+# Oooohh ... You're not too bad, boys!\r\nAdon, Sampson, get ready for the Sexy Beam!\0
+  msg(ADON_2C, VARAN_2E, ANIKI_BLUE, FOLLOW, 80)
+# Okay, big brother.\0
+  branch.unit.dead(lbl_547, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 81)
+# Sexy Beam?\r\nI don't know what it is, but it sounds like nothing but trouble!\0
+  msg(ERWIN_01, HEIN_05, ERWIN, FOLLOW, 82)
+# Hurry! We have to stop them before they can fire it!\0
+  goto(lbl_54d)
+lbl_547:
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 83)
+# Sexy Beam?\r\nI don't know what it is, but it sounds like nothing but trouble!\0
+lbl_54d:
+endsub
+
+lbl_54e:
+  scenarioclear()
+  sfx(78)
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 84)
+# Is that all ...? So this is the end of the Aniki's ambition.\r\nTheir conquest of our world was over before it even began.\r\nI am still wondering about that Sexy Beam ...\0
+  branch.unit.dead(lbl_561, CHERIE_04)
+  msg(CHERIE_04, ERWIN_01, CHERIE_ANGRY, FOLLOW, 85)
+# _NAME_.\r\nI told you coming here would just be a waste of our time!\0
+lbl_561:
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 86)
+# At any rate ... It is time to be on our way.\r\nLet us never speak of this again.\0
+  loadscenario(7)
+endsub
+

@@ -1,0 +1,451 @@
+# Movement-Triggered Events
+on.move(18, lbl_3bd, GREATDRAGON_59, 1, 0xff)
+break
+
+# Attack-Triggered Events
+on.attack(6, lbl_342, ERWIN_01, FAIAS_78, 0x00, 0x00, 0xff)
+on.attack(7, lbl_350, ERWIN_01, FAIAS_78, 0x00, 0xff, 0xff)
+on.attack(15, lbl_392, FAIAS_78, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(16, lbl_39a, ERWIN_01, FAIAS_78, 0x00, 0x00, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(5, lbl_32b, ERWIN_01)
+on.defeat(8, lbl_358, ERWIN_01)
+on.defeat(9, lbl_362, HEIN_05)
+on.defeat(10, lbl_36a, CHERIE_04)
+on.defeat(11, lbl_372, AARON_08)
+on.defeat(12, lbl_37a, KEITH_07)
+on.defeat(13, lbl_382, LESTER_09)
+on.defeat(14, lbl_38a, SCOTT_06)
+on.defeat(17, lbl_3b5, FAIAS_78)
+on.defeat(19, lbl_3c5, GREATDRAGON_59)
+on.defeat(20, lbl_3cd, PHOENIX_8C)
+on.defeat(21, lbl_3d5, KRAKEN_65)
+on.defeat(22, lbl_3dd, PHOENIX_8D)
+on.defeat(23, lbl_3e5, JORMUNGANDR_98)
+on.defeat(24, lbl_3ed, PHOENIX_97)
+on.defeat(25, lbl_3f5, GREATDRAGON_5B)
+on.defeat(26, lbl_3fd, GREATDRAGON_5A)
+on.defeat(27, lbl_405, KRAKEN_66)
+on.defeat(28, lbl_40d, FAIAS_78, GREATDRAGON_59, PHOENIX_8C, KRAKEN_65, PHOENIX_8D, JORMUNGANDR_98, PHOENIX_97, GREATDRAGON_5B, GREATDRAGON_5A, KRAKEN_66)
+break
+
+# Position-Triggered Events
+break
+
+# Turn-Triggered Events
+on.turn(0, lbl_27f, ENEMY, 1, 0x00)
+on.turn(1, lbl_2c6, ALLY, 3, 0x00)
+on.turn(2, lbl_2e2, ENEMY, 4, 0x00)
+on.turn(3, lbl_2fa, ALLY, 2, 0x00)
+on.turn(4, lbl_31f, ENEMY, 1, 0x00)
+break
+
+# Core Events
+lbl_d6:
+  screen.map.set(20)
+  bgm(ALLY, ENEMY5_EGBERT)
+  unit.hideall()
+  cursor.set(ERWIN_01)
+  focus.point(18, 5, FAST)
+  unit.flag(FAIAS_78)
+  unit.position(EGBERT_D8, 18, 5)
+  unit.position(LIANA_CA, 18, 6)
+  unit.face(EGBERT_D8, DOWN_F5)
+  unit.face(LIANA_CA, UP_F4)
+  cursor.hide()
+  cursor.set(NULL_00)
+  screen.fadein(4)
+  delay(20)
+  unit.face(LIANA_CA, RIGHT_F7)
+  delay(5)
+  unit.face(LIANA_CA, DOWN_F5)
+  delay(5)
+  unit.face(LIANA_CA, RIGHT_F7)
+  delay(5)
+  unit.face(LIANA_CA, DOWN_F5)
+  delay(20)
+  msg(LIANA_CA, DOWN_F5, LIANA_ANGRY, NOFOLLOW, 1)
+# No! Let me go!\0
+  msg(EGBERT_D8, DOWN_F5, EGBERT, NOFOLLOW, 2)
+# Hmmm.\0
+  unit.face(EGBERT_10, LEFT_F6)
+  delay(2)
+  unit.face(EGBERT_10, DOWN_F5)
+  unit.move(LIANA_CA, 18, 8)
+  msg(LIANA_CA, DOWN_F5, LIANA_ANGRY, NOFOLLOW, 3)
+# Aaahh!\0
+  delay(30)
+  unit.move(EGBERT_D8, 18, 6)
+  delay(20)
+  msg(EGBERT_D8, DOWN_F5, EGBERT, NOFOLLOW, 4)
+# You're struggling in vain. Calm yourself-- escape is impossible.\0
+  unit.move(EGBERT_D8, 18, 7)
+  delay(20)
+  msg(EGBERT_D8, DOWN_F5, EGBERT, NOFOLLOW, 5)
+# Rest long and well for the resurrection ceremony. It really is very draining.\0
+  msg(LIANA_CA, UP_F4, LIANA, NOFOLLOW, 6)
+# ...\0
+  msg(EGBERT_D8, DOWN_F5, EGBERT, NOFOLLOW, 7)
+# Silence is fine.\r\nJust remember, our kindness is a courtesy.\0
+  cursor.set(ERWIN_01)
+  cast.teleport(BOSER_17, BOSER_17, TELEPORT_IN, 19, 6)
+  cursor.set(NULL_00)
+  msg(BOSER_17, EGBERT_D8, BOSER, NOFOLLOW, 8)
+# How go the preparations?\0
+  msg(EGBERT_D8, BOSER_17, EGBERT, NOFOLLOW, 9)
+# They are progressing smoothly. By the way, is it okay for you to go so long without resting?\0
+  unit.move(BOSER_17, 19, 7)
+  msg(BOSER_17, EGBERT_D8, BOSER, NOFOLLOW, 10)
+# Hah hah hah ... Who the hell do you think you are dealing with?\r\nA degree of magical power and focus will be required for the ritual ...\r\nBut these are simple things for me.\0
+  delay(30)
+  msg(EGBERT_D8, DOWN_F5, EGBERT, NOFOLLOW, 11)
+# Ah, you can trust your limits then.\0
+  unit.move(BOSER_17, 18, 5)
+  unit.face(BOSER_17, DOWN_F5)
+  msg(BOSER_17, DOWN_F5, BOSER, NOFOLLOW, 12)
+# Faias!\0
+  cursor.set(ERWIN_01)
+  cast.teleport(FAIAS_78, FAIAS_78, TELEPORT_IN, 19, 6)
+  msg(FAIAS_78, BOSER_17, VAMPIRELORD, NOFOLLOW, 13)
+# You called, Master Boser ...?\0
+  msg(BOSER_17, FAIAS_78, BOSER, NOFOLLOW, 14)
+# The Descendants of Light are headed here as we speak.\r\nMake certain you stop them.\r\nThe ritual must go exactly as planned.\0
+  msg(FAIAS_78, BOSER_17, VAMPIRELORD, NOFOLLOW, 15)
+# Hah hah, yes ... absolutely!\0
+  cast.teleport(FAIAS_78, FAIAS_78, TELEPORT_OUT, PRESET, PRESET)
+  screen.fadeout(5)
+  unit.retreat(EGBERT_D8)
+  unit.setbyte(EGBERT_D8, $20, 0x03)
+  unit.refresh()
+  unit.retreat(LIANA_CA)
+  unit.retreat(BOSER_17)
+  unit.setbyte(BOSER_17, $20, 0x03)
+  unit.refresh()
+  positionflagged()
+  bgm(ALLY, ALLY3)
+  screen.map.set(30)
+  focus.point(20, 14, FAST)
+  cursor.set(NULL_00)
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.showsub(ERWIN_01)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.showsub(HEIN_05)
+  unit.position(CHERIE_04, PRESET, PRESET)
+  unit.showsub(CHERIE_04)
+  unit.position(KEITH_07, PRESET, PRESET)
+  unit.showsub(KEITH_07)
+  unit.position(LESTER_09, PRESET, PRESET)
+  unit.showsub(LESTER_09)
+  unit.position(AARON_08, PRESET, PRESET)
+  unit.showsub(AARON_08)
+  unit.position(SCOTT_06, PRESET, PRESET)
+  unit.showsub(SCOTT_06)
+  screen.fadein(4)
+  cursor.show()
+  cursor.set(ERWIN_01)
+  msg(ERWIN_01, LESTER_09, ERWIN, FOLLOW, 16)
+# Lester, are we nearing Velzeria?\0
+  msg(LESTER_09, ERWIN_01, LESTER, FOLLOW, 17)
+# Don't you worry. We're headed in the right direction.\r\nLeave all the navigation to me. After all ..., I am a man of the sea!\0
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 18)
+# We're lucky the villagers were willing to lend us these boats.\0
+  msg(ERWIN_01, HEIN_05, ERWIN, FOLLOW, 19)
+# Yeah, but still ... It took us a long time before we were able to set off ...\r\nWe have to make up for lost time ...\0
+  bgm(ALLY, ENEMY3_MORGAN)
+  unit.position(FAIAS_78, PRESET, PRESET)
+  unit.showsub(FAIAS_78)
+  unit.position(GREATDRAGON_59, PRESET, PRESET)
+  unit.showsub(GREATDRAGON_59)
+  unit.position(PHOENIX_8C, PRESET, PRESET)
+  unit.showsub(PHOENIX_8C)
+  unit.position(PHOENIX_8D, PRESET, PRESET)
+  unit.showsub(PHOENIX_8D)
+  unit.position(KRAKEN_65, PRESET, PRESET)
+  unit.showsub(KRAKEN_65)
+  unit.position(JORMUNGANDR_98, PRESET, PRESET)
+  unit.showsub(JORMUNGANDR_98)
+  unit.position(PHOENIX_97, PRESET, PRESET)
+  unit.showsub(PHOENIX_97)
+  unit.position(GREATDRAGON_5B, PRESET, PRESET)
+  unit.showsub(GREATDRAGON_5B)
+  unit.position(GREATDRAGON_5A, PRESET, PRESET)
+  unit.showsub(GREATDRAGON_5A)
+  unit.position(KRAKEN_66, PRESET, PRESET)
+  unit.showsub(KRAKEN_66)
+  msg(ERWIN_01, FAIAS_78, ERWIN, FOLLOW, 20)
+# What!? Is that the enemy?\0
+  msg(FAIAS_78, ERWIN_01, VAMPIRELORD, FOLLOW, 21)
+# Ho ho ho ...\r\nHow lucky for us, it's the Descendants of Light!\r\nThis is as far as you walking corpses will get!\0
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 22)
+# That's a lot of monsters, _NAME_ ...\0
+  msg(KEITH_07, ERWIN_01, KEITH, FOLLOW, 23)
+# Be careful!\r\nTheir forces consist mainly of aerial and naval units.\0
+  msg(AARON_08, ERWIN_01, AARON, FOLLOW, 24)
+# This water is going to seriously slow down our movement ...\0
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 25)
+# Flying and naval units, encircle and guard our ground troops.\0
+  msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 26)
+# We'll meet them head on! There's no other way but straight through!\0
+  bgm(ALLY, ALLY3)
+break
+
+lbl_27f:
+  branch.unit.dead(lbl_2b0, FAIAS_78)
+  msg(FAIAS_78, LEFT_F6, VAMPIRELORD, FOLLOW, 27)
+# I have an old score to settle with you, Descendants of Light.\0
+  msg(FAIAS_78, ERWIN_01, VAMPIRELORD, FOLLOW, 28)
+# Especially that red-haired punk, you!\0
+  msg(ERWIN_01, FAIAS_78, ERWIN, FOLLOW, 29)
+# What score could you possibly have with us? We have never met.\0
+  msg(FAIAS_78, ERWIN_01, VAMPIRELORD, FOLLOW, 30)
+# Ha ha ha! You ... really don't remember me?\r\nI had hoped my face would haunt your nightmares for all eternity.\r\nBoser ordered me to massacre the Descendants of Light.\r\nBut when I finally hunted you down, this crumpled old fool got in my way ...\0
+  msg(ERWIN_01, FAIAS_78, ERWIN_ANGRY, FOLLOW, 31)
+# An old ...!\r\nYou ... then it was you! You are the one who murdered Doren!\0
+  msg(FAIAS_78, ERWIN_01, VAMPIRELORD, FOLLOW, 32)
+# Doren ... Hmmm, Doren ...\r\nHeh heh ... Oh yes, that was his name, I believe.\r\nThat little bastard dealt me a scratch that aches even this day.\r\nBut he's dead, and you will soon rejoin him. Today, I will dance in your blood!\0
+  msg(ERWIN_01, FAIAS_78, ERWIN_ANGRY, FOLLOW, 33)
+# For years I wandered ... asking myself what I would do if I found his murderer.\r\nI will never forgive you. Prepare yourself!\0
+  goto(lbl_2c4)
+lbl_2b0:
+  branch.unit.dead(lbl_2ba, GREATDRAGON_59)
+  msg(GREATDRAGON_59, ERWIN_01, WYVERN, FOLLOW, 34)
+# Aaahhh--!\0
+lbl_2ba:
+  branch.unit.dead(lbl_2c4, KRAKEN_65)
+  msg(KRAKEN_65, DOWN_F5, KRAKEN, FOLLOW, 35)
+# Gurgle ...\0
+lbl_2c4:
+break
+
+lbl_2c6:
+  branch.unit.dead(lbl_2e0, FAIAS_78)
+  msg(FAIAS_78, ERWIN_01, VAMPIRELORD, FOLLOW, 36)
+# Gwa ha ha ha!\r\nYou despise me? You want to kill me?\r\nHate and anguish are my source of power!\r\nPunk, let's see if you still remember what that old husk taught!\0
+  msg(ERWIN_01, FAIAS_78, ERWIN_ANGRY, FOLLOW, 37)
+# Heh ...\0
+  branch.unit.dead(lbl_2e0, CHERIE_04)
+  msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 38)
+# _NAME_, don't give in to anger!\r\nIf you fight with rage and pain in your heart, you'll be no better than him!\0
+lbl_2e0:
+break
+
+lbl_2e2:
+  branch.unit.dead(lbl_2f8, FAIAS_78)
+  msg(FAIAS_78, ERWIN_01, VAMPIRELORD, FOLLOW, 39)
+# That girl Liana looked really tasty.\r\nHeh heh heh ...\r\nChop up their bodies and drink their blood. Drive their friends mad with fear.\0
+  msg(ERWIN_01, FAIAS_78, ERWIN_ANGRY, FOLLOW, 40)
+# Faias! You won't do what you like! We will rescue Liana!\0
+  msg(FAIAS_78, ERWIN_01, VAMPIRELORD, FOLLOW, 41)
+# Wryyyyyyyyyy!\r\nYour words are meaningless if you can't defeat me!\0
+lbl_2f8:
+break
+
+lbl_2fa:
+  branch.unit.dead(lbl_31d, SCOTT_06)
+  msg(SCOTT_06, ERWIN_01, SCOTT, FOLLOW, 42)
+# Watch out for enemy sea units!\r\nThey have a superior defence while on water.\0
+  msg(ERWIN_01, SCOTT_06, ERWIN, FOLLOW, 43)
+# Hmmm ... It'll be tough to lure them onto the boats.\0
+  branch.unit.dead(lbl_317, LESTER_09)
+  msg(LESTER_09, ERWIN_01, LESTER, FOLLOW, 44)
+# Don't worry, some thunder magic will send them running to anything dry!\r\nThat spell really stings when they're in the water!\0
+  goto(lbl_31d)
+lbl_317:
+  msg(SCOTT_06, ERWIN_01, SCOTT, FOLLOW, 45)
+# Then use Thunder if you can. It should make quick work of them.\0
+lbl_31d:
+break
+
+lbl_31f:
+  branch.unit.dead(lbl_329, FAIAS_78)
+  msg(FAIAS_78, ERWIN_01, VAMPIRELORD, FOLLOW, 46)
+# Let's do this, knaves!\r\nBoser won't tolerate a failure here! This is my last stand!\0
+lbl_329:
+break
+
+lbl_32b:
+  branch.unit.dead(lbl_338, FAIAS_78)
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 47)
+# Faias ...\0
+  goto(lbl_33e)
+lbl_338:
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 48)
+# Liana ...\0
+lbl_33e:
+  unit.cleanup()
+  gameover()
+break
+
+lbl_342:
+  msg(FAIAS_78, ERWIN_01, VAMPIRELORD, FOLLOW, 49)
+# Fools of light! You did well in getting this far!\r\nBut your good luck won't last forever!\0
+  msg(ERWIN_01, FAIAS_78, ERWIN_ANGRY, FOLLOW, 50)
+# Don't take me lightly!\0
+break
+
+lbl_350:
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 51)
+# Let's do this!\0
+break
+
+lbl_358:
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 52)
+# I was too careless ...\0
+  unit.cleanup()
+  gameover()
+break
+
+lbl_362:
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 53)
+# Argh!\0
+break
+
+lbl_36a:
+  msg(CHERIE_04, DOWN_F5, CHERIE_DEAD, FOLLOW, 54)
+# Ouch! Why did I have to lose--\0
+break
+
+lbl_372:
+  msg(AARON_08, DOWN_F5, AARON_DEAD, FOLLOW, 55)
+# Ugh ... Has my time come to an end?\0
+break
+
+lbl_37a:
+  msg(KEITH_07, DOWN_F5, KEITH_DEAD, FOLLOW, 56)
+# Argh! How could I lose here.\0
+break
+
+lbl_382:
+  msg(LESTER_09, DOWN_F5, LESTER_DEAD, FOLLOW, 57)
+# Ohhh ... Losing is no fun at all--\0
+break
+
+lbl_38a:
+  msg(SCOTT_06, DOWN_F5, SCOTT_DEAD, FOLLOW, 58)
+# I didn't train hard enough ...\0
+break
+
+lbl_392:
+  msg(FAIAS_78, LEFT_F6, VAMPIRELORD, NOFOLLOW, 59)
+# Die!\0
+break
+
+lbl_39a:
+  msg(FAIAS_78, ERWIN_01, VAMPIRELORD, NOFOLLOW, 60)
+# Grrr!\r\nWhen I killed that old wretch, I should have finished you off too!\0
+  branch.mem.local.ne(lbl_3ad, $0a47d0, $07eb58)
+  msg(ERWIN_01, FAIAS_78, ERWIN_ANGRY, NOFOLLOW, 61)
+# You son of a bitch! This is for Doren!\0
+  goto(lbl_3b3)
+lbl_3ad:
+  msg(ERWIN_01, FAIAS_78, ERWIN, NOFOLLOW, 62)
+# What did you say!?\0
+lbl_3b3:
+break
+
+lbl_3b5:
+  msg(FAIAS_78, DOWN_F5, VAMPIRELORD, FOLLOW, 63)
+# Ugh! M, Master Boser! P, please forgive me!\0
+break
+
+lbl_3bd:
+  msg(GREATDRAGON_59, ERWIN_01, WYVERN, FOLLOW, 64)
+# Ohhhh--!\0
+break
+
+lbl_3c5:
+  msg(GREATDRAGON_59, DOWN_F5, WYVERN, FOLLOW, 65)
+# Ugghh ...\0
+break
+
+lbl_3cd:
+  msg(PHOENIX_8C, DOWN_F5, PHOENIX_RED, FOLLOW, 66)
+# Grrrr--!\0
+break
+
+lbl_3d5:
+  msg(KRAKEN_65, DOWN_F5, KRAKEN, FOLLOW, 67)
+# Arrrghh!\0
+break
+
+lbl_3dd:
+  msg(PHOENIX_8D, DOWN_F5, PHOENIX_RED, FOLLOW, 68)
+# Aaahh--!\0
+break
+
+lbl_3e5:
+  msg(JORMUNGANDR_98, DOWN_F5, JORMUNGANDR, FOLLOW, 69)
+# Ugggh ...\0
+break
+
+lbl_3ed:
+  msg(PHOENIX_97, DOWN_F5, PHOENIX_RED, FOLLOW, 70)
+# Aaahh--argghh!\0
+break
+
+lbl_3f5:
+  msg(GREATDRAGON_5B, DOWN_F5, WYVERN, FOLLOW, 71)
+# Oooohh ...!\0
+break
+
+lbl_3fd:
+  msg(GREATDRAGON_5A, DOWN_F5, WYVERN, FOLLOW, 72)
+# Ooohh ...!\0
+break
+
+lbl_405:
+  msg(KRAKEN_66, DOWN_F5, KRAKEN, FOLLOW, 73)
+# Grrr--! Grr ...\0
+break
+
+lbl_40d:
+  unit.cleanup()
+  scenarioclear()
+  msg(ERWIN_01, DOWN_F5, ERWIN_SAD, FOLLOW, 74)
+# He was slain because I was a Descendant of Light ...\r\nDoren gave his life in exchange for mine ...\r\nEveryone close to me dies ... I ... I cannot protect anyone.\0
+  branch.unit.dead(lbl_429, CHERIE_04)
+  msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 75)
+# _NAME_ ... You were destined to be born a Descendant of Light.\r\nBut the reason your allies fight beside you isn't because of your heritage.\r\nIt's because we believe in you.\0
+  branch.unit.dead(lbl_429, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 76)
+# Cherie is absolutely right!\0
+lbl_429:
+  branch.unit.dead(lbl_436, CHERIE_04)
+  msg(ERWIN_01, CHERIE_04, ERWIN, FOLLOW, 77)
+# Thanks everyone. It's still not too late.\r\nWe'll combine all our strength, prevent Alhazard's revival, and protect this world!\r\nI want you all to know ... I couldn't have done this alone.\0
+  goto(lbl_43c)
+lbl_436:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 78)
+# But, we've definitely more to do than just stopping Alhazard's revival!\0
+lbl_43c:
+  branch.unit.dead(lbl_449, LESTER_09)
+  msg(LESTER_09, ERWIN_01, LESTER, FOLLOW, 79)
+# Land ho!\0
+  goto(lbl_44f)
+lbl_449:
+  msg(SOLDIER_20, UP_F4, SOLDIER2_SILVER, NOFOLLOW, 80)
+# I see it too! I can see the shoreline!\0
+lbl_44f:
+  branch.unit.dead(lbl_45c, CHERIE_04)
+  msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 81)
+# At last, Velzeria's just ahead.\0
+  goto(lbl_462)
+lbl_45c:
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 82)
+# At last, we're finally here. Velzeria ...\0
+lbl_462:
+  branch.unit.dead(lbl_46c, SCOTT_06)
+  msg(SCOTT_06, ERWIN_01, SCOTT, FOLLOW, 83)
+# Let's go straight for their headquarters.\0
+lbl_46c:
+  branch.unit.dead(lbl_476, KEITH_07)
+  msg(KEITH_07, ERWIN_01, KEITH, FOLLOW, 84)
+# The enemy has been quiet ... I think we can expect an ambush.\r\nLet's stay focused from here on out.\0
+lbl_476:
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 85)
+# Everyone ... Velzeria is just ahead! Don't give up!\0
+  loadscenario(30)
+break
+

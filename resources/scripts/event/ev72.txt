@@ -1,0 +1,687 @@
+# Movement-Triggered Events
+on.move(3, lbl_478, AARON_D0, 0, 0xff)
+on.move(31, lbl_4d3, CHERIE_CC, 1, 0xff)
+on.move(4, lbl_51f, LESTER_D1, 0, 0xff)
+on.move(36, lbl_55f, COMMANDER_88, 1, 0xff)
+on.move(5, lbl_5ae, LEDIN_95, 0, 0xff)
+break
+
+# Attack-Triggered Events
+on.attack(12, lbl_3ea, ERWIN_01, LEDIN_95, 0x00, 0x00, 0xff)
+on.attack(6, lbl_3f8, ERWIN_01, LUSHIRIS_94, 0x00, 0x00, 0xff)
+on.attack(13, lbl_400, ERWIN_01, JESSICA_14, 0x00, 0x00, 0xff)
+on.attack(21, lbl_44e, LIANA_02, JESSICA_14, 0x00, 0x00, 0xff)
+on.attack(21, lbl_453, JESSICA_14, LIANA_02, 0x00, 0x00, 0xff)
+on.attack(23, lbl_46c, ERWIN_01, JESSICA_14, 0xff, 0x00, 0xff)
+on.attack(26, lbl_4ae, COMMANDER_83, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(28, lbl_4be, NULL_FF, COMMANDER_84, 0xff, 0x00, 0xff)
+on.attack(34, lbl_533, NULL_FF, LESTER_D1, 0xff, 0x00, 0xff)
+on.attack(37, lbl_567, COMMANDER_88, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(41, lbl_587, NULL_FF, LUSHIRIS_94, 0xff, 0x00, 0xff)
+on.attack(42, lbl_592, LUSHIRIS_94, NULL_FF, 0x00, 0xff, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(14, lbl_414, ERWIN_01)
+on.defeat(15, lbl_41e, HEIN_05)
+on.defeat(16, lbl_426, ROHGA_0B)
+on.defeat(17, lbl_42e, SONYA_0C)
+on.defeat(18, lbl_436, ESTO_11)
+on.defeat(19, lbl_43e, OSTO_12)
+on.defeat(20, lbl_446, LANA_0A)
+on.defeat(22, lbl_458, LIANA_02)
+on.defeat(24, lbl_484, AARON_D0)
+on.defeat(25, lbl_4a3, COMMANDER_23)
+on.defeat(27, lbl_4b6, COMMANDER_83)
+on.defeat(29, lbl_4c3, COMMANDER_84)
+on.defeat(30, lbl_4cb, COMMANDER_85)
+on.defeat(32, lbl_4eb, CHERIE_CC)
+on.defeat(35, lbl_538, LESTER_D1)
+on.defeat(38, lbl_56f, COMMANDER_88)
+on.defeat(39, lbl_577, COMMANDER_89)
+on.defeat(40, lbl_57f, COMMANDER_8A)
+on.defeat(43, lbl_59a, LUSHIRIS_94)
+on.defeat(44, lbl_5d8, LEDIN_95)
+on.defeat(45, lbl_5f9, JESSICA_14)
+on.defeat(33, lbl_65a, COMMANDER_23, COMMANDER_83, COMMANDER_84, COMMANDER_85, COMMANDER_88, COMMANDER_89, COMMANDER_8A, AARON_D0, LESTER_D1, LUSHIRIS_94, LEDIN_95)
+on.defeat(46, lbl_667, COMMANDER_23, COMMANDER_83, COMMANDER_84, COMMANDER_85, COMMANDER_88, COMMANDER_89, COMMANDER_8A, AARON_D0, CHERIE_CC, LESTER_D1)
+break
+
+# Position-Triggered Events
+on.bound(10, lbl_394, NPC_COMMANDER_F0, 21, 26, 21, 26, 0x00, 0x00)
+on.bound(11, lbl_3d0, NPC_COMMANDER_F0, 15, 25, 15, 25, 0x00, 0x00)
+break
+
+# Turn-Triggered Events
+on.turn(0, lbl_2c6, ENEMY, 0, 0x00)
+on.turn(1, lbl_300, ALLY, 0, 0x00)
+on.turn(7, lbl_308, ENEMY, 1, 0x00)
+on.turn(2, lbl_328, ENEMY, 0, 0x00)
+on.turn(9, lbl_38e, ENEMY, 3, 0x00)
+break
+
+# Core Events
+lbl_164:
+  bgm(ALLY, BEACH)
+  screen.fadein(4)
+  unit.position(COMMANDER_23, PRESET, PRESET)
+  unit.showsub(COMMANDER_23)
+  unit.position(COMMANDER_83, PRESET, PRESET)
+  unit.showsub(COMMANDER_83)
+  unit.position(COMMANDER_84, PRESET, PRESET)
+  unit.showsub(COMMANDER_84)
+  unit.position(COMMANDER_85, PRESET, PRESET)
+  unit.showsub(COMMANDER_85)
+  unit.position(COMMANDER_88, PRESET, PRESET)
+  unit.showsub(COMMANDER_88)
+  unit.position(COMMANDER_89, PRESET, PRESET)
+  unit.showsub(COMMANDER_89)
+  unit.position(COMMANDER_8A, PRESET, PRESET)
+  unit.showsub(COMMANDER_8A)
+  unit.position(JESSICA_14, PRESET, PRESET)
+  unit.showsub(JESSICA_14)
+  unit.position(AARON_D0, PRESET, PRESET)
+  unit.showsub(AARON_D0)
+  unit.position(LESTER_D1, PRESET, PRESET)
+  unit.showsub(LESTER_D1)
+  unit.position(CHERIE_CC, PRESET, PRESET)
+  focus.point(32, 18, FAST)
+  cursor.set(NULL_00)
+  cursor.hide()
+  unit.face(LESTER_D1, RIGHT_F7)
+  unit.move(CHERIE_CC, 36, 20)
+  unit.face(LESTER_D1, DOWN_F5)
+  unit.move(CHERIE_CC, 29, 20)
+  unit.face(LESTER_D1, LEFT_F6)
+  unit.move(CHERIE_CC, 29, 16)
+  unit.face(LESTER_D1, UP_F4)
+  unit.move(CHERIE_CC, 36, 16)
+  unit.face(LESTER_D1, RIGHT_F7)
+  msg(CHERIE_CC, LESTER_D1, CHERIE, FOLLOW, 1)
+# What a nice ride ... Flying really lifts the soul.\0
+  msg(LESTER_D1, CHERIE_CC, LESTER, FOLLOW, 2)
+# You sure sound chipper, Princess ...\0
+  msg(CHERIE_CC, LESTER_D1, CHERIE, FOLLOW, 3)
+# Ah, how couldn't I? You've never flown so ... Wait, would you like to try?\0
+  delay(10)
+  msg(LESTER_D1, CHERIE_CC, LESTER, FOLLOW, 4)
+# ...\r\nI like my feet on the ground, or actually, on a boat.\r\nI'll just ride the waves, if you don't mind.\0
+  msg(CHERIE_CC, LESTER_D1, CHERIE, FOLLOW, 5)
+# Ahhh, Lester, you're scared of heights?\r\nThat bridge must have been an ordeal.\0
+  unit.face(LESTER_D1, DOWN_F5)
+  delay(60)
+  msg(LESTER_D1, DOWN_F5, LESTER, FOLLOW, 6)
+# Now that you mention it, that job didn't jibe with me.\r\nNow you get why I was Keith's first choice for it, right?\r\nHe knew I don't like dangling in the air ...\0
+  unit.face(CHERIE_CC, RIGHT_F7)
+  delay(30)
+  msg(CHERIE_CC, LESTER_D1, CHERIE, FOLLOW, 7)
+# But you did it anyway ...\r\nYour friendship with Keith must have been very strong.\r\nHe was right to put his faith in you.\0
+  delay(20)
+  unit.face(LESTER_D1, UP_F4)
+  delay(20)
+  msg(LESTER_D1, UP_F4, LESTER_SAD, FOLLOW, 8)
+# ...\r\nKeith, I'll see to your princess, and I'll protect her business. Rest easy, Sir Knight.\0
+  delay(90)
+  cursor.set(ERWIN_01)
+  cursor.show()
+  bgm(ALLY, ALLY6)
+  msg(AARON_D0, JESSICA_14, AARON, FOLLOW, 9)
+# Lady Jessica, I wonder if we should just be waiting.\r\nWhy aren't we observing _NAME_'s battle with Rayguard?\0
+  msg(JESSICA_14, AARON_D0, JESSICA, FOLLOW, 10)
+# Sir Aaron, no matter who wins, the victor will strike us here.\r\nUntil that time, we must put our resources to an adequate defence.\0
+  msg(LESTER_D1, DOWN_F5, LESTER, FOLLOW, 11)
+# I wonder who will come, ... the Empire or _NAME_ ...?\0
+  msg(CHERIE_CC, LESTER_D1, CHERIE, FOLLOW, 12)
+# Indeed ... On top of that, I worry about Liana ...\0
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 13)
+# Oh, there's no need for concern.\0
+  bgm(ALLY, ALLY2)
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.showsub(ERWIN_01)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.showsub(HEIN_05)
+  unit.position(ROHGA_0B, PRESET, PRESET)
+  unit.showsub(ROHGA_0B)
+  unit.position(SONYA_0C, PRESET, PRESET)
+  unit.showsub(SONYA_0C)
+  unit.position(ESTO_11, PRESET, PRESET)
+  unit.showsub(ESTO_11)
+  unit.position(OSTO_12, PRESET, PRESET)
+  unit.showsub(OSTO_12)
+  unit.position(LANA_0A, PRESET, PRESET)
+  unit.showsub(LANA_0A)
+  unit.position(LIANA_02, PRESET, PRESET)
+  unit.showsub(LIANA_02)
+  msg(LIANA_02, CHERIE_CC, LIANA, FOLLOW, 14)
+# As you can see, I'm doing quite well!\0
+  msg(CHERIE_CC, LIANA_02, CHERIE, FOLLOW, 15)
+# Liana! You're ... What's wrong?\0
+  msg(JESSICA_14, LIANA_02, JESSICA, FOLLOW, 16)
+# No ...! I've seen that look before ... She is under Boser's control.\0
+  msg(LESTER_D1, LIANA_02, LESTER, FOLLOW, 17)
+# You say he's using her? God damn it ...!\0
+  msg(CHERIE_CC, LIANA_02, CHERIE, FOLLOW, 18)
+# What are you saying? She is not herself?\0
+  msg(SONYA_0C, CHERIE_CC, SONYA, FOLLOW, 19)
+# That's right ... Right now, she is nought but Boser's puppet.\r\nShe'll dispose of his enemies ... you.\0
+  msg(CHERIE_CC, SONYA_0C, CHERIE_ANGRY, FOLLOW, 20)
+# Th, that's horrible! I won't forgive him for that!\0
+  unit.showsub(CHERIE_CC)
+  msg(ROHGA_0B, CHERIE_CC, ROHGA, FOLLOW, 21)
+# Don't get too far ahead of yourselves.\r\nBefore you go dreaming of revenge, you've got quite a mess to contend with.\r\nIn fact, the only thing you should be thinking about ... is the best way to die!\0
+  msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 22)
+# This is your end! We're through holding back on people like you!\0
+  msg(LESTER_D1, ERWIN_01, LESTER, FOLLOW, 23)
+# Don't lower your guard for even a second!\0
+  local.sum($0a47d0, $07eb58)
+  local.sum($0a47d0, $07eb59)
+  local.sum($0a47d0, $07eb5a)
+  local.sum($0a47d0, $07eb5b)
+  local.sum($0a47d0, $07eb5c)
+  local.sum($0a47d0, $07eb5d)
+  local.sum($0a47d0, $07eb5e)
+break
+
+lbl_2c6:
+  branch.unit.dead(lbl_2d0, COMMANDER_83)
+  msg(COMMANDER_83, JESSICA_14, MAGE_GRAY, FOLLOW, 24)
+# They have made it to the interior!\0
+lbl_2d0:
+  branch.unit.dead(lbl_2da, AARON_D0)
+  msg(AARON_D0, LEFT_F6, AARON, FOLLOW, 25)
+# If they defeated the Empire, ... they're not to be trifled with.\0
+lbl_2da:
+  branch.unit.dead(lbl_2e4, JESSICA_14)
+  msg(JESSICA_14, DOWN_F5, JESSICA, FOLLOW, 26)
+# I shouldn't have ... let down my guard.\0
+lbl_2e4:
+  branch.unit.dead(lbl_2f1, CHERIE_CC)
+  msg(CHERIE_CC, JESSICA_14, CHERIE, FOLLOW, 27)
+# It's not over yet! I'll stop you all somehow!\0
+  goto(lbl_2fb)
+lbl_2f1:
+  branch.unit.dead(lbl_2fb, LESTER_D1)
+  msg(LESTER_D1, JESSICA_14, LESTER, FOLLOW, 28)
+# I'm still alive and kicking, Lady Jessica!\0
+lbl_2fb:
+  local.sub($0a47d0, $07eb59)
+break
+
+lbl_300:
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 29)
+# We have finally breached the interior.\r\nDon't break formation. Stay sharp, everyone!\0
+break
+
+lbl_308:
+  branch.unit.dead(lbl_326, JESSICA_14)
+  msg(JESSICA_14, DOWN_F5, JESSICA, FOLLOW, 30)
+# Let's pull together. Remember, we're fighting for everyone's right to live!\r\nThe darkness will take that away, all of it!\0
+  branch.unit.dead(lbl_31c, LESTER_D1)
+  msg(LESTER_D1, JESSICA_14, LESTER, FOLLOW, 31)
+# Leave it to us!\0
+lbl_31c:
+  branch.unit.dead(lbl_326, CHERIE_CC)
+  msg(CHERIE_CC, JESSICA_14, CHERIE, FOLLOW, 32)
+# I know!\0
+lbl_326:
+break
+
+lbl_328:
+  branch.unit.dead(lbl_38c, JESSICA_14)
+  msg(JESSICA_14, DOWN_F5, JESSICA_SAD, FOLLOW, 33)
+# So, after everything ... It's come down to me.\0
+  msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 34)
+# _NAME_, do you truly think Boser's legions are best for this world?\0
+  msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 35)
+# I don't know ... and I'm not sure I care.\r\nThe important thing is this: we will not pander to weakness.\0
+  msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 36)
+# But don't you understand ... The rule of darkness will make everyone suffer ...!\0
+  msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 37)
+# You say this as if you and the Empire have done particularly well in that regard.\r\nSo much blood on this little continent, and all because of your pride.\r\nMaybe darkness deserves a try. Wouldn't you agree?\0
+  msg(JESSICA_14, DOWN_F5, JESSICA, FOLLOW, 38)
+# I see your morals are bankrupt.\r\nAs you wish, I will appeal to strength.\r\nFram Kadath o Yeless, Le Hlutor Scelde, Lushiris, Beorg Ure!\0
+  unit.swap(CHERIE_CC, LEDIN_95)
+  subroutine(lbl_6e0)
+  unit.deploy(LEDIN_95, 23, 6)
+  msg(ERWIN_01, LUSHIRIS_94, ERWIN, FOLLOW, 39)
+# N, no ...!? This is ... impossible ...!\0
+  branch.unit.dead(lbl_36a, HEIN_05)
+  msg(HEIN_05, LUSHIRIS_94, HEIN, FOLLOW, 40)
+# Lushiris herself? Summoned here ...!?\0
+lbl_36a:
+  branch.unit.dead(lbl_374, ROHGA_0B)
+  msg(ROHGA_0B, LUSHIRIS_94, ROHGA, FOLLOW, 41)
+# The goddess of light! How, how incredible ...!\0
+lbl_374:
+  msg(JESSICA_14, LUSHIRIS_94, JESSICA, FOLLOW, 42)
+# Lushiris ... I ... We thank you.\0
+  msg(LUSHIRIS_94, JESSICA_14, LUSHIRIS, FOLLOW, 43)
+# I've been watching everything from above. You needn't explain.\0
+  msg(LUSHIRIS_94, ERWIN_01, LUSHIRIS, FOLLOW, 44)
+# _NAME_, you think light doesn't exist in this world, and that you will go unpunished.\r\nPlease, approach me with all the strength you possess.\0
+  local.sum($0a47d1, $07eb58)
+  local.sub($0a47d0, $07eb5d)
+lbl_38c:
+break
+
+lbl_38e:
+  unit.clearbit(LESTER_D1, $17, 2)
+break
+
+lbl_394:
+  branch.mem.global.eq(lbl_3ce, $0a478d, $07eb5d)
+  unit.cleanup()
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 45)
+# A voice calls from somewhere far off.\r\n"Humans have not set foot on my island for aeons ..."\r\n"If you require my aid, then just call out my name."\0
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 46)
+# Which name will you call?\0
+  global.sum($0a478d, $07eb5d)
+  prompt.options(lbl_3bd, lbl_3c6, 47, 48, 49, 0x00, 0xf4, 0x00, 0x00)
+# Lushiris\0
+# Chaos\0
+# Odin\0
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 50)
+# "It seems as though we old ones have been forgotten ..."\0
+  goto(lbl_3ce)
+lbl_3bd:
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 51)
+# "It seems as though we old ones have been forgotten ..."\0
+  goto(lbl_3ce)
+lbl_3c6:
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 52)
+# "Yes, my name is Odin. I'll lend you my strength ..."\r\nObtained Odin's Buckler.\0
+  item.add(ODINSBUCKLER)
+lbl_3ce:
+break
+
+lbl_3d0:
+  branch.mem.global.eq(lbl_3e8, $0a478d, $07eb5e)
+  unit.cleanup()
+  prompt.ok(lbl_3e8)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 54)
+# Obtained Inferno Lance.\0
+  item.add(INFERNOLANCE)
+  global.sum($0a478d, $07eb5e)
+lbl_3e8:
+break
+
+lbl_3ea:
+  msg(ERWIN_01, LEDIN_95, ERWIN, NOFOLLOW, 55)
+# I don't care who you are. I won't lose here.\0
+  msg(LEDIN_95, ERWIN_01, LEDIN, NOFOLLOW, 56)
+# You sound just a tad overconfident.\0
+break
+
+lbl_3f8:
+  msg(ERWIN_01, LUSHIRIS_94, ERWIN, NOFOLLOW, 57)
+# Well, aren't you ready? Let us see what true strength is!\0
+break
+
+lbl_400:
+  msg(ERWIN_01, JESSICA_14, ERWIN, NOFOLLOW, 58)
+# Finally, we'll settle things. But never forget, you can still surrender.\0
+  msg(JESSICA_14, ERWIN_01, JESSICA, NOFOLLOW, 59)
+# Sorry, I don't like the way things are going around here. I'm afraid I'll decline.\0
+  msg(ERWIN_01, JESSICA_14, ERWIN_ANGRY, NOFOLLOW, 60)
+# Then die like a fool.\0
+break
+
+lbl_414:
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 61)
+# Why ...!? If only I could ... fight a little longer ...\0
+  unit.cleanup()
+  gameover()
+break
+
+lbl_41e:
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 62)
+# Aaaarrggghh! It's, it's over for me!\0
+break
+
+lbl_426:
+  msg(ROHGA_0B, DOWN_F5, ROHGA_DEAD, FOLLOW, 63)
+# Damn it all ... My old wounds ...\0
+break
+
+lbl_42e:
+  msg(SONYA_0C, DOWN_F5, SONYA_DEAD, FOLLOW, 64)
+# Enough ... That's it!\0
+break
+
+lbl_436:
+  msg(ESTO_11, DOWN_F5, ESTO_DEAD, FOLLOW, 65)
+# Ooooohhh--!\0
+break
+
+lbl_43e:
+  msg(OSTO_12, DOWN_F5, OSTO_DEAD, FOLLOW, 66)
+# Aaaahh--!\0
+break
+
+lbl_446:
+  msg(LANA_0A, DOWN_F5, DARKPRINCESS_DEAD, FOLLOW, 67)
+# Forgive me, Boser, for withdrawing at such a time.\0
+break
+
+lbl_44e:
+  subroutine(lbl_6c9)
+break
+
+lbl_453:
+  subroutine(lbl_6c9)
+break
+
+lbl_458:
+  msg(LIANA_02, DOWN_F5, LIANA_DEAD, FOLLOW, 68)
+# Wh, what ... No ... Who is ... I, what ...? My head! My head--!\0
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 69)
+# Liana, what's going on?\0
+  msg(LIANA_02, ERWIN_01, LIANA_DEAD, FOLLOW, 70)
+# Aahhh ... I'm--all right now. Just concentrate on our victory, _NAME_.\0
+break
+
+lbl_46c:
+  branch.mem.local.eq(lbl_476, $0a47d2, $07eb5d)
+  msg(JESSICA_14, DOWN_F5, JESSICA, NOFOLLOW, 71)
+# Sorry, _NAME_.\r\nYou need a better sparring partner than the Empire if you aim to defeat the legendary Descendants.\0
+lbl_476:
+break
+
+lbl_478:
+  branch.unit.dead(lbl_482, JESSICA_14)
+  msg(AARON_D0, DOWN_F5, AARON, FOLLOW, 72)
+# If you're going to attack, do it! You won't come within six paces of Lady Jessica.\0
+lbl_482:
+break
+
+lbl_484:
+  msg(AARON_D0, DOWN_F5, AARON_DEAD, FOLLOW, 73)
+# Forgive me ... M, my sword technique ... is ... a bit rusty ...\r\nIf I could have fought them ... in my prime, oh how ...\0
+  branch.unit.dead(lbl_4a1, CHERIE_CC)
+  msg(CHERIE_CC, AARON_D0, CHERIE_SAD, FOLLOW, 74)
+# Aaron ...! Snap out of it, Aaron!\0
+  msg(AARON_D0, DOWN_F5, AARON_DEAD, FOLLOW, 75)
+# I'm sorry, I'm ... I just can't any longer ...\0
+  unit.cleanup()
+  msg(CHERIE_CC, AARON_D0, CHERIE_ANGRY, FOLLOW, 76)
+# All right, now I'm pissed! You'll pay, _NAME_!\0
+lbl_4a1:
+break
+
+lbl_4a3:
+  msg(COMMANDER_23, DOWN_F5, SWORDSMAN2_BLACK_DEAD, FOLLOW, 77)
+# Gaahhh!\0
+  local.sub($0a47d0, $07eb5b)
+break
+
+lbl_4ae:
+  msg(COMMANDER_83, LEFT_F6, MAGE_GRAY, NOFOLLOW, 78)
+# Just die!\0
+break
+
+lbl_4b6:
+  msg(COMMANDER_83, DOWN_F5, MAGE_GRAY_DEAD, FOLLOW, 79)
+# I can still ... fight ...\0
+break
+
+lbl_4be:
+  local.sub($0a47d0, $07eb58)
+break
+
+lbl_4c3:
+  msg(COMMANDER_84, DOWN_F5, PRIEST_WHITE_DEAD, FOLLOW, 80)
+# Ah, this blue sky can't be dyed with evil ...\0
+break
+
+lbl_4cb:
+  msg(COMMANDER_85, DOWN_F5, KNIGHT1_BLACK_DEAD, FOLLOW, 81)
+# Gaaahhh--!\0
+break
+
+lbl_4d3:
+  msg(CHERIE_CC, LEFT_F6, CHERIE, FOLLOW, 82)
+# Guys, keep it up! We must protect Jessica!\0
+  branch.unit.dead(lbl_4e9, AARON_D0)
+  msg(AARON_D0, CHERIE_CC, AARON, FOLLOW, 83)
+# I'll take care of her. Don't worry, just fight with all your heart!\0
+  msg(CHERIE_CC, AARON_D0, CHERIE, FOLLOW, 84)
+# Thanks, Aaron!\0
+lbl_4e9:
+break
+
+lbl_4eb:
+  branch.unit.dead(lbl_4f5, LESTER_D1)
+  msg(LESTER_D1, CHERIE_CC, LESTER_ANGRY, FOLLOW, 85)
+# Oh, no! No, ... Cherie!\0
+lbl_4f5:
+  msg(CHERIE_CC, DOWN_F5, CHERIE_DEAD, FOLLOW, 86)
+# I, I guess I didn't ... expect to win against you.\r\n_NAME_, when we are reborn, I hope we can ... lead simpler lives ...\0
+  branch.unit.dead(lbl_50b, JESSICA_14)
+  msg(JESSICA_14, CHERIE_CC, JESSICA_SAD, FOLLOW, 87)
+# Cherie, I'm so sorry. You didn't deserve ...\0
+  msg(CHERIE_CC, JESSICA_14, CHERIE_DEAD, FOLLOW, 88)
+# Don't be sad ...\r\nI, I don't have any regrets ... I ... fought for peace ... to ... the bitterest end ...\0
+lbl_50b:
+  unit.cleanup()
+  branch.unit.dead(lbl_516, AARON_D0)
+  msg(AARON_D0, CHERIE_CC, AARON_SAD, FOLLOW, 89)
+# Princess, I thought of you as a daughter, and even so ... my strength wasn't ...\r\n_NAME_, you have lived long enough! Prepare for vengeance.\0
+lbl_516:
+  branch.mem.local.ne(lbl_51d, $0a47d4, $07eb59)
+  subroutine(lbl_66c)
+lbl_51d:
+break
+
+lbl_51f:
+  msg(LESTER_D1, LEFT_F6, LESTER, FOLLOW, 90)
+# Well then, I suppose I'll move to counter them.\0
+  msg(JESSICA_14, LESTER_D1, JESSICA, FOLLOW, 91)
+# Be careful, Lester.\0
+  msg(LESTER_D1, JESSICA_14, LESTER, FOLLOW, 92)
+# Right!\0
+break
+
+lbl_533:
+  local.sub($0a47d0, $07eb5c)
+break
+
+lbl_538:
+  branch.unit.dead(lbl_54c, CHERIE_CC)
+  msg(LESTER_D1, DOWN_F5, LESTER_DEAD, FOLLOW, 93)
+# Damn it ...! I was careless, wasn't I?\r\nSorry, Keith. Looks like I can't protect Cherie any more ...\0
+  unit.cleanup()
+  msg(CHERIE_CC, LESTER_D1, CHERIE_ANGRY, FOLLOW, 94)
+# No, ... Lester! I can't lose you too!\0
+  goto(lbl_55d)
+lbl_54c:
+  msg(LESTER_D1, DOWN_F5, LESTER_DEAD, FOLLOW, 95)
+# Shit ... Shit! I don't care what happens to me, but Jessica ... must live!\r\nFuck it ... all ...! What a cruel world ...\0
+  unit.cleanup()
+  branch.unit.dead(lbl_55d, JESSICA_14)
+  msg(JESSICA_14, LESTER_D1, JESSICA_SAD, FOLLOW, 96)
+# Lester ... You did very well. Rest in peace.\0
+lbl_55d:
+break
+
+lbl_55f:
+  msg(COMMANDER_88, DOWN_F5, KNIGHT2_BLACK, FOLLOW, 97)
+# All cavalry, attack!\0
+break
+
+lbl_567:
+  msg(COMMANDER_88, LEFT_F6, KNIGHT2_BLACK, NOFOLLOW, 98)
+# Turn them from the castle!\0
+break
+
+lbl_56f:
+  msg(COMMANDER_88, DOWN_F5, KNIGHT2_BLACK_DEAD, FOLLOW, 99)
+# M, my duty hasn't been ...\0
+break
+
+lbl_577:
+  msg(COMMANDER_89, DOWN_F5, SWORDSMAN2_BLACK_DEAD, FOLLOW, 100)
+# I lived a full life. I have no regrets ...\0
+break
+
+lbl_57f:
+  msg(COMMANDER_8A, DOWN_F5, KNIGHT2_BLACK_DEAD, FOLLOW, 101)
+# This is it, isn't it ...?\0
+break
+
+lbl_587:
+  msg(LUSHIRIS_94, LEFT_F6, LUSHIRIS, NOFOLLOW, 102)
+# So, let me witness your so-called power!\0
+  local.sub($0a47d0, $07eb5e)
+break
+
+lbl_592:
+  msg(LUSHIRIS_94, LEFT_F6, LUSHIRIS, NOFOLLOW, 103)
+# The power of darkness is the power of suffering. They are inseparable.\0
+break
+
+lbl_59a:
+  msg(LUSHIRIS_94, DOWN_F5, LUSHIRIS_DEAD, FOLLOW, 104)
+# I have not seen such humans on this plane for many ages ...\r\nIf your leadership brings peace and prosperity, that is well and good.\r\nBut if your rule becomes one of catastrophe, then I shall return.\r\nAnd no human will need summon me ...\0
+  msg(ERWIN_01, LUSHIRIS_94, ERWIN, FOLLOW, 105)
+# What do you mean by that, Lushiris?\0
+  msg(LUSHIRIS_94, ERWIN_01, LUSHIRIS_DEAD, FOLLOW, 106)
+# People often seek more power than what is good for them.\r\nRight now, you are standing on the precipice of insanity.\r\nAnd this world will be whatever you choose to make of it, _NAME_, for better or for worse.\r\nI do not typically interfere in human concerns, but I may make an exception for you.\r\nThough my corporeal body will fade, I will watch from above, ... as I ever have.\0
+break
+
+lbl_5ae:
+  branch.unit.dead(lbl_5c4, JESSICA_14)
+  msg(JESSICA_14, LEDIN_95, JESSICA, FOLLOW, 107)
+# Ledin, King of Baldea. I bid you welcome.\0
+  msg(LEDIN_95, JESSICA_14, LEDIN, FOLLOW, 108)
+# "Ledin" alone is fine. It has been ages since last we met, Jessica.\0
+  msg(LUSHIRIS_94, JESSICA_14, LUSHIRIS, FOLLOW, 109)
+# Naturally, he isn't the true prince you once served.\r\nHe is but shadows and dust conjured from my infinite memory of this world.\r\nI think, however, you shall find my memory is quite good.\0
+lbl_5c4:
+  msg(LEDIN_95, LUSHIRIS_94, LEDIN, FOLLOW, 110)
+# Lushiris, though I appreciate being back ...\r\nCould you enlighten me as to why I have been called back?\0
+  msg(LUSHIRIS_94, LEFT_F6, LUSHIRIS, FOLLOW, 111)
+# I wish to enlist your aid in this battle.\r\nHere, the fate of the Descendants of Light will be decided.\r\nSadly, your descendant, _NAME_, stands against them -- with the darkness.\0
+  msg(LEDIN_95, LUSHIRIS_94, LEDIN, FOLLOW, 112)
+# I see ...\0
+break
+
+lbl_5d8:
+  branch.unit.dead(lbl_5f1, LUSHIRIS_94)
+  msg(LEDIN_95, LUSHIRIS_94, LEDIN_DEAD, FOLLOW, 113)
+# L, Lushiris ... I beg your pardon ...\0
+  msg(LUSHIRIS_94, LEDIN_95, LUSHIRIS, FOLLOW, 114)
+# It's all right. Now, please rest comfortably.\0
+  msg(LEDIN_95, LUSHIRIS_94, LEDIN_DEAD, FOLLOW, 115)
+# I apologise ...\0
+  goto(lbl_5f7)
+lbl_5f1:
+  msg(LEDIN_95, DOWN_F5, LEDIN_DEAD, FOLLOW, 116)
+# I would expect nothing less from a man of my blood. I cannot win here.\r\nI will return to the eternal slumber. Until next time ...\0
+lbl_5f7:
+break
+
+lbl_5f9:
+  branch.mem.local.eq(lbl_632, $0a47d1, $07eb58)
+  msg(JESSICA_14, DOWN_F5, JESSICA_DEAD, FOLLOW, 117)
+# N, not yet ... The Descendants of Light cannot ... they cannot ...\r\nOh shining goddess, hear my plea, and appear before us ...\r\nFram Kadath o Yeless, Le Hlutor Scelde, Lushiris, Beorg Ure!\0
+  subroutine(lbl_6e0)
+  msg(JESSICA_14, LUSHIRIS_94, JESSICA_DEAD, FOLLOW, 118)
+# L, Lushiris ...!?\0
+  msg(LUSHIRIS_94, JESSICA_14, LUSHIRIS, FOLLOW, 119)
+# I have been watching over your battle from above.\r\nPlease, leave the rest in my hands.\0
+  msg(JESSICA_14, DOWN_F5, JESSICA_DEAD, FOLLOW, 120)
+# We could not ... complete the ordained duty of the Descendants of Light ...\r\nPlease, forgive us ...\0
+  unit.cleanup()
+  unit.swap(JESSICA_14, LEDIN_95)
+  msg(LUSHIRIS_94, DOWN_F5, LUSHIRIS, FOLLOW, 121)
+# Slumbering hero who lies within my memory, I call upon your might ...!\r\nWreccan Fram Thin Slaepe, Hatte The Lifde, Ledin!\0
+  unit.deploy(LEDIN_95, 23, 6)
+  msg(LEDIN_95, LUSHIRIS_94, LEDIN, FOLLOW, 122)
+# Did you call for me, Lushiris?\0
+  local.sub($0a47d0, $07eb5d)
+  goto(lbl_651)
+lbl_632:
+  branch.unit.dead(lbl_64b, LUSHIRIS_94)
+  msg(JESSICA_14, LUSHIRIS_94, JESSICA_DEAD, FOLLOW, 123)
+# Th, that's it ... I can't fight any more ...\0
+  msg(LUSHIRIS_94, JESSICA_14, LUSHIRIS, FOLLOW, 124)
+# Jessica, you worked very hard. I entreat you, please rest now.\0
+  msg(JESSICA_14, LUSHIRIS_94, JESSICA_DEAD, FOLLOW, 125)
+# Lushiris ... I beg you ... Please save this world ...\0
+  goto(lbl_651)
+lbl_64b:
+  msg(JESSICA_14, DOWN_F5, JESSICA_DEAD, FOLLOW, 126)
+# Ugh, you ... you have become this powerful ...\0
+lbl_651:
+  branch.mem.local.ne(lbl_658, $0a47d4, $07eb59)
+  subroutine(lbl_66c)
+lbl_658:
+break
+
+lbl_65a:
+  branch.unit.alive(lbl_665, JESSICA_14)
+  branch.unit.alive(lbl_665, CHERIE_CC)
+  subroutine(lbl_66c)
+lbl_665:
+break
+
+lbl_667:
+  local.sub($0a47d0, $07eb5a)
+break
+
+lbl_66c:
+  unit.cleanup()
+  scenarioclear()
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 127)
+# It's over ... Everything is over ...\0
+  branch.unit.dead(lbl_67e, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 128)
+# Good job, _NAME_.\0
+lbl_67e:
+  branch.unit.dead(lbl_688, ROHGA_0B)
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 129)
+# Holy shit ... Incredible! You've even killed a deity!\0
+lbl_688:
+  branch.unit.dead(lbl_692, SONYA_0C)
+  msg(SONYA_0C, ROHGA_0B, SONYA, FOLLOW, 130)
+# Now, things will be different in this world.\0
+lbl_692:
+  branch.unit.dead(lbl_6a6, LANA_0A)
+  msg(LANA_0A, ERWIN_01, DARKPRINCESS, FOLLOW, 131)
+# Hee hee! We've even defeated the goddess of light!\r\nLord Boser shall be very, very pleased!\0
+  branch.unit.dead(lbl_6a6, LIANA_02)
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 132)
+# That's right, my sister. He should free us from our duties as Sealing Maidens.\0
+lbl_6a6:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 133)
+# No enemies remain to oppose us.\r\nWe need to take this kingdom as quickly as possible, and then unite the others.\r\nThat is our objective. We cannot rest.\0
+  branch.unit.dead(lbl_6b6, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 134)
+# Leave it to me!\0
+lbl_6b6:
+  branch.unit.dead(lbl_6c0, LIANA_02)
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 135)
+# _NAME_, I will do anything for you and Master Boser.\0
+lbl_6c0:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 136)
+# First, we will return to Boser. Then, we will take the final steps to our goal.\0
+  loadscenario(87)
+endsub
+
+lbl_6c9:
+  msg(LIANA_02, JESSICA_14, LIANA, NOFOLLOW, 137)
+# Your death means an end to the Descendants of Light.\0
+  msg(JESSICA_14, LIANA_02, JESSICA, NOFOLLOW, 138)
+# You must come to your senses, Liana!\0
+  branch.unit.dead(lbl_6df, SONYA_0C)
+  msg(SONYA_0C, JESSICA_14, SONYA, NOFOLLOW, 139)
+# Don't make me laugh!\r\nYou think words can shake her loyalty to Master Boser?\0
+lbl_6df:
+endsub
+
+lbl_6e0:
+  bgm(ALLY, ALLYREINFORCEMENT3)
+  bgm(ENEMY, ALLY5)
+  unit.deploy(LUSHIRIS_94, 22, 4)
+endsub
+

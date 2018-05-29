@@ -1,0 +1,490 @@
+# Movement-Triggered Events
+on.move(14, lbl_2aa, BERNHARDT_16, 0, 0xff)
+on.move(19, lbl_2f5, LAIRD_18, 1, 0xff)
+on.move(0, lbl_35b, SONYA_D4, 0, 0xff)
+on.move(1, lbl_366, SONYA_D4, 0, 0xff)
+on.move(28, lbl_3cd, GREATDRAGON_59, 1, 0xff)
+break
+
+# Attack-Triggered Events
+on.attack(7, lbl_26e, ROHGA_0B, SONYA_D4, 0x00, 0x00, 0xff)
+on.attack(15, lbl_2b2, BERNHARDT_16, SONYA_D4, 0x00, 0xff, 0xff)
+on.attack(16, lbl_2ba, BERNHARDT_16, SONYA_D4, 0x00, 0x00, 0xff)
+on.attack(17, lbl_2c8, NULL_FF, BERNHARDT_16, 0xff, 0x00, 0xff)
+on.attack(20, lbl_307, LAIRD_18, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(22, lbl_394, SONYA_D4, ROHGA_0B, 0x00, 0xff, 0xff)
+on.attack(23, lbl_39c, SONYA_D4, ROHGA_0B, 0x00, 0x00, 0xff)
+on.attack(32, lbl_3ef, VAMPIRELORD_4F, NULL_FF, 0x00, 0xff, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(5, lbl_25c, ERWIN_01)
+on.defeat(6, lbl_266, HEIN_05)
+on.defeat(9, lbl_282, ROHGA_0B)
+on.defeat(10, lbl_28a, LEON_0D)
+on.defeat(11, lbl_292, IMELDA_0F)
+on.defeat(12, lbl_29a, VARGAS_0E)
+on.defeat(13, lbl_2a2, EGBERT_10)
+on.defeat(18, lbl_2d4, BERNHARDT_16)
+on.defeat(21, lbl_30f, LAIRD_18)
+on.defeat(24, lbl_3aa, SONYA_D4)
+on.defeat(25, lbl_3b5, MASTERDINO_55)
+on.defeat(26, lbl_3bd, MASTERDINO_56)
+on.defeat(27, lbl_3c5, MASTERDINO_90)
+on.defeat(29, lbl_3d5, GREATDRAGON_59)
+on.defeat(30, lbl_3dd, ESTO_D9)
+on.defeat(31, lbl_3e7, STONEGOLEM_48)
+on.defeat(33, lbl_3f7, VAMPIRELORD_4F)
+on.defeat(34, lbl_3ff, OSTO_DA)
+on.defeat(35, lbl_409, STONEGOLEM_49)
+on.defeat(36, lbl_411, GREATDRAGON_5A)
+on.defeat(37, lbl_419, MASTERDINO_55, MASTERDINO_56, MASTERDINO_90)
+on.defeat(38, lbl_422, ESTO_D9, OSTO_DA)
+break
+
+# Position-Triggered Events
+on.bound(4, lbl_242, NPC_COMMANDER_F0, 1, 2, 1, 2, 0x00, 0x00)
+on.range(8, lbl_4ac, ROHGA_0B, SONYA_D4, 3, 0x00, 0x00, 0x00, 0x00)
+break
+
+# Turn-Triggered Events
+on.turn(2, lbl_208, ENEMY, 1, 0x00)
+on.turn(3, lbl_22a, ALLY, 2, 0x00)
+break
+
+# Core Events
+lbl_11c:
+  bgm(ALLY, ENEMY9_BERNHARDT)
+  cursor.set(NULL_00)
+  unit.position(BERNHARDT_16, PRESET, PRESET)
+  unit.showsub(BERNHARDT_16)
+  unit.position(LAIRD_18, PRESET, PRESET)
+  unit.showsub(LAIRD_18)
+  cursor.set(ERWIN_01)
+  screen.fadein(4)
+  unit.position(MASTERDINO_90, PRESET, PRESET)
+  unit.showsub(MASTERDINO_90)
+  unit.position(STONEGOLEM_48, PRESET, PRESET)
+  unit.showsub(STONEGOLEM_48)
+  unit.position(GREATDRAGON_59, PRESET, PRESET)
+  unit.showsub(GREATDRAGON_59)
+  unit.position(VAMPIRELORD_4F, PRESET, PRESET)
+  unit.showsub(VAMPIRELORD_4F)
+  unit.position(STONEGOLEM_49, PRESET, PRESET)
+  unit.showsub(STONEGOLEM_49)
+  unit.position(MASTERDINO_55, PRESET, PRESET)
+  unit.showsub(MASTERDINO_55)
+  unit.position(GREATDRAGON_5A, PRESET, PRESET)
+  unit.showsub(GREATDRAGON_5A)
+  unit.position(MASTERDINO_56, PRESET, PRESET)
+  unit.showsub(MASTERDINO_56)
+  unit.position(ESTO_D9, PRESET, PRESET)
+  unit.showsub(ESTO_D9)
+  unit.position(OSTO_DA, PRESET, PRESET)
+  unit.showsub(OSTO_DA)
+  unit.position(SONYA_D4, PRESET, PRESET)
+  unit.showsub(SONYA_D4)
+  msg(SONYA_D4, BERNHARDT_16, SONYA, FOLLOW, 1)
+# Those two have held their ground quite well.\r\nBut I don't suspect they can keep this up.\0
+  msg(LAIRD_18, SONYA_D4, LAIRD, FOLLOW, 2)
+# Damn! Next time, I won't leave you standing!\0
+  msg(BERNHARDT_16, LAIRD_18, BERNHARDT, FOLLOW, 3)
+# Don't be reckless, Laird. Conserve your strength.\0
+  msg(LAIRD_18, BERNHARDT_16, LAIRD, FOLLOW, 4)
+# Your Majesty, you must be tired.\r\nI'll hold them here! Please, stay back!\0
+  msg(BERNHARDT_16, LAIRD_18, BERNHARDT, FOLLOW, 5)
+# I have no right to be the Kaiser if I'm too weak to defend my own castle.\r\nWe're doing quite well. Keep up the good work.\0
+  msg(SONYA_D4, BERNHARDT_16, SONYA, FOLLOW, 6)
+# It's sad how they'll be dying at their own doorstep.\r\nThey really should have known when to quit.\0
+  bgm(ALLY, ENEMY1_LEON)
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.showsub(ERWIN_01)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.showsub(HEIN_05)
+  unit.position(ROHGA_0B, PRESET, PRESET)
+  unit.showsub(ROHGA_0B)
+  unit.position(IMELDA_0F, PRESET, PRESET)
+  unit.showsub(IMELDA_0F)
+  unit.position(VARGAS_0E, PRESET, PRESET)
+  unit.showsub(VARGAS_0E)
+  unit.position(EGBERT_10, PRESET, PRESET)
+  unit.showsub(EGBERT_10)
+  unit.position(LEON_0D, PRESET, PRESET)
+  unit.showsub(LEON_0D)
+  msg(LEON_0D, SONYA_D4, LEON, FOLLOW, 7)
+# Stand back, fiends. You will not harm His Majesty!\0
+  msg(SONYA_D4, LEON_0D, SONYA, FOLLOW, 8)
+# Fuck! They're here early.\0
+  msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 9)
+# So it's Sonya ...\0
+  msg(LAIRD_18, LEON_0D, LAIRD, FOLLOW, 10)
+# General Leon!\0
+  msg(BERNHARDT_16, ERWIN_01, BERNHARDT, FOLLOW, 11)
+# Excellent timing, Leon.\r\nYou're probably tired from your journey, but could you dispose of these incompetents?\0
+  msg(VARGAS_0E, BERNHARDT_16, VARGAS, FOLLOW, 12)
+# Please, take it easy!\0
+  msg(LEON_0D, BERNHARDT_16, LEON, FOLLOW, 13)
+# Stay safe, Your Majesty.\r\nColonel Laird, protect the Kaiser!\0
+  msg(LAIRD_18, LEON_0D, LAIRD, FOLLOW, 14)
+# Yes, Sir!\0
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 15)
+# All right! Don't spare anyone. Cut them to ribbons!\0
+  global.sub($0a4790, $07eb59)
+  global.sub($0a4790, $07eb5b)
+  local.sum($0a47d0, $07eb58)
+  local.sum($0a47d0, $07eb59)
+break
+
+lbl_208:
+  msg(SONYA_D4, UP_F4, SONYA, FOLLOW, 16)
+# Split up and attack both flanks!\r\nEsto and Osto will go for Bernhardt. The rest of us will take on _NAME_.\0
+  branch.unit.dead(lbl_218, ESTO_D9)
+  msg(ESTO_D9, SONYA_D4, ESTO, FOLLOW, 17)
+# Yes, Sonya!\0
+lbl_218:
+  branch.unit.dead(lbl_222, OSTO_DA)
+  msg(OSTO_DA, SONYA_D4, OSTO, FOLLOW, 18)
+# Crush humans ...!\0
+lbl_222:
+  msg(SONYA_D4, DOWN_F5, SONYA, FOLLOW, 19)
+# Hmmm, ... scatter their reinforcements first!\0
+break
+
+lbl_22a:
+  branch.unit.dead(lbl_240, ROHGA_0B)
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 20)
+# Sorry, _NAME_.\0
+  msg(ERWIN_01, ROHGA_0B, ERWIN, FOLLOW, 21)
+# Rohga, don't say a word. I already know.\r\nGo to Sonya and talk to her, and we'll cover your back.\r\nIf you succeed, we may have an easy victory.\0
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 22)
+# I owe you one!\0
+lbl_240:
+break
+
+lbl_242:
+  branch.mem.global.eq(lbl_25a, $0a478a, $07eb5e)
+  unit.cleanup()
+  prompt.ok(lbl_25a)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 24)
+# Obtained Rune Stone.\0
+  item.add(RUNESTONE)
+  global.sum($0a478a, $07eb5e)
+lbl_25a:
+break
+
+lbl_25c:
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 25)
+# The forces of darkness are much stronger now ... Is this Alhazard's doing?\0
+  unit.cleanup()
+  gameover()
+break
+
+lbl_266:
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 26)
+# We must aid them, and to do that ... I'm sorry.\0
+break
+
+lbl_26e:
+  msg(ROHGA_0B, SONYA_D4, ROHGA, NOFOLLOW, 27)
+# Forgive me, Sonya. This is for the Kaiser!\0
+  msg(SONYA_D4, ROHGA_0B, SONYA_ANGRY, NOFOLLOW, 28)
+# Brother! You're no different from any other human!\r\nYou all hate me for being a half-breed monster!\0
+  local.sum($0a47d1, $07eb58)
+  global.sub($0a4790, $07eb59)
+break
+
+lbl_282:
+  msg(ROHGA_0B, DOWN_F5, ROHGA_DEAD, FOLLOW, 29)
+# Damn it ... I couldn't persuade her ...\0
+break
+
+lbl_28a:
+  msg(LEON_0D, DOWN_F5, LEON_DEAD, FOLLOW, 30)
+# Sorry, _NAME_. Take care of the Kaiser ...\0
+break
+
+lbl_292:
+  msg(IMELDA_0F, DOWN_F5, IMELDA_DEAD, FOLLOW, 31)
+# This is a harsh battle.\0
+break
+
+lbl_29a:
+  msg(VARGAS_0E, DOWN_F5, VARGAS_DEAD, FOLLOW, 32)
+# Uugghhh, ... beaten by ... worthless monsters ...\0
+break
+
+lbl_2a2:
+  msg(EGBERT_10, DOWN_F5, EGBERT_DEAD, FOLLOW, 33)
+# I had no idea monsters were so capable ...\r\nAlhazard's power is amazing.\0
+break
+
+lbl_2aa:
+  msg(BERNHARDT_16, DOWN_F5, BERNHARDT, FOLLOW, 34)
+# The Empire fields the finest commanders of this generation. You'll know that first hand.\0
+break
+
+lbl_2b2:
+  msg(BERNHARDT_16, DOWN_F5, BERNHARDT, NOFOLLOW, 35)
+# Hah hah hah ... I remember when we'd hire any mercenary off the street!\0
+break
+
+lbl_2ba:
+  msg(BERNHARDT_16, SONYA_D4, BERNHARDT, NOFOLLOW, 36)
+# Arrogant little girl. Yes, you're Rohga's sister for certain.\r\nThe Goddess Lushiris will make sure you speak nothing of this to Boser ...\0
+  msg(SONYA_D4, BERNHARDT_16, SONYA_ANGRY, NOFOLLOW, 37)
+# Don't even mention that disgusting name!\0
+break
+
+lbl_2c8:
+  msg(BERNHARDT_16, DOWN_F5, BERNHARDT, NOFOLLOW, 38)
+# Do you think a bunch of slavering beasts can storm a castle? What a joke!\0
+  unit.clearbit(LAIRD_18, $17, 0)
+break
+
+lbl_2d4:
+  msg(BERNHARDT_16, DOWN_F5, BERNHARDT_DEAD, FOLLOW, 39)
+# Arrgh ...! I've come so far ... M, my dream ...\0
+  unit.cleanup()
+  branch.unit.dead(lbl_2e5, LEON_0D)
+  msg(LEON_0D, BERNHARDT_16, LEON_ANGRY, FOLLOW, 40)
+# Your Highness!\0
+lbl_2e5:
+  msg(SONYA_D4, ERWIN_01, SONYA, FOLLOW, 41)
+# Hah hah hah! With the way things are going, even Master Boser will be pleased!\r\nThe era of darkness has begun!\0
+  msg(ERWIN_01, BERNHARDT_16, ERWIN, FOLLOW, 42)
+# No, that can't be! Your Majesty, ... I couldn't protect you.\0
+  unit.cleanup()
+  gameover()
+break
+
+lbl_2f5:
+  branch.unit.dead(lbl_305, LEON_0D)
+  msg(LEON_0D, LAIRD_18, LEON, FOLLOW, 43)
+# Laird, hold your ground!\r\nKeep a tight circle around the Kaiser and secure his position until we get there!\0
+  msg(LAIRD_18, LEON_0D, LAIRD, FOLLOW, 44)
+# Yes, Sir!\0
+lbl_305:
+break
+
+lbl_307:
+  msg(LAIRD_18, RIGHT_F7, LAIRD, NOFOLLOW, 45)
+# No one will get through if Laird's in the way, that's for sure.\0
+break
+
+lbl_30f:
+  branch.unit.dead(lbl_335, LEON_0D)
+  msg(LAIRD_18, DOWN_F5, LAIRD_DEAD, FOLLOW, 46)
+# Leon ... I, I ... think this is it for me ...\r\nHis Highness, protect him ...\0
+  msg(LEON_0D, LAIRD_18, LEON_SAD, FOLLOW, 47)
+# Laird, I won't allow you to die.\r\nTo fall now, after everything we've accomplished ... No, you're not permitted.\r\nStand up, old friend. This battle will soon be over.\0
+  msg(LAIRD_18, DOWN_F5, LAIRD_DEAD, FOLLOW, 48)
+# My ... apologies ... General Leon.\r\nPlease, ... see our dream through ... and help our Kaiser ...\0
+  msg(LEON_0D, LAIRD_18, LEON_SAD, FOLLOW, 49)
+# Laird, ... Laird ...?\r\nDamn this ... Hell won't see you before me!\r\nOpen your eyes, Laird. Please, open your eyes!\0
+  unit.cleanup()
+  msg(LEON_0D, LAIRD_18, LEON_SAD, FOLLOW, 50)
+# We've lost another ally ...\0
+  goto(lbl_348)
+lbl_335:
+  msg(LAIRD_18, BERNHARDT_16, LAIRD_DEAD, FOLLOW, 51)
+# Your Highness ... I think ... I'm ... finished ...\0
+  msg(BERNHARDT_16, LAIRD_18, BERNHARDT, FOLLOW, 52)
+# That's enough. Don't say any more.\0
+  msg(LAIRD_18, BERNHARDT_16, LAIRD_DEAD, FOLLOW, 53)
+# Your dream ... Kaiser ... unite the continent ... please ...\0
+  unit.cleanup()
+lbl_348:
+  msg(BERNHARDT_16, LAIRD_18, BERNHARDT, FOLLOW, 54)
+# Laird, I won't let our life's work go to waste.\r\nWithout a doubt, we will soon see a unified continent!\0
+  global.sum($0a4790, $07eb5b)
+  unit.setbit(OSTO_DA, $17, 1)
+  unit.setbyte(OSTO_DA, $21, 0x16)
+break
+
+lbl_35b:
+  msg(SONYA_D4, BERNHARDT_16, SONYA, FOLLOW, 55)
+# Grr ... At this rate ... Bernhardt, you've been lucky, but you're not leaving here!\0
+  local.sum($0a47d0, $07eb59)
+break
+
+lbl_366:
+  msg(BERNHARDT_16, SONYA_D4, BERNHARDT, FOLLOW, 56)
+# What's wrong, little girl? Has the attack already ended?\0
+  msg(SONYA_D4, BERNHARDT_16, SONYA, FOLLOW, 57)
+# Be quiet! We won't let you live, not after all the demons you've killed!\0
+  branch.unit.dead(lbl_382, LEON_0D)
+  msg(LEON_0D, SONYA_D4, LEON, FOLLOW, 58)
+# Why don't you give up already? Chased all the way here and you still feel like fighting?\0
+  msg(SONYA_D4, LEON_0D, SONYA, FOLLOW, 59)
+# I won't let you foil Boser's plans.\r\nThat is the first step for a world where there are no more humans!\r\nI can kill you Imperials alone! None of you will escape, I'm going to kill you all!\0
+lbl_382:
+  branch.unit.dead(lbl_392, ROHGA_0B)
+  msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 60)
+# Stop it, Sonya!\0
+  msg(SONYA_D4, ROHGA_0B, SONYA, FOLLOW, 61)
+# Shut up! Don't order me around!\0
+lbl_392:
+break
+
+lbl_394:
+  msg(SONYA_D4, LEFT_F6, SONYA, NOFOLLOW, 62)
+# Die!\0
+break
+
+lbl_39c:
+  msg(ROHGA_0B, SONYA_D4, ROHGA, NOFOLLOW, 63)
+# Stop it, Sonya!\0
+  msg(SONYA_D4, ROHGA_0B, SONYA, NOFOLLOW, 64)
+# My brother is terrible!\r\nGet in my way and you'll end up like this!\0
+break
+
+lbl_3aa:
+  msg(SONYA_D4, DOWN_F5, SONYA_DEAD, FOLLOW, 65)
+# Aaahhh--!\r\nH, How ... How dare you ...\r\nNext time we meet, Boser and I are going to bury you for good!\0
+  subroutine(lbl_427)
+break
+
+lbl_3b5:
+  msg(MASTERDINO_55, DOWN_F5, MASTERDINO, FOLLOW, 66)
+# Uugghh!\0
+break
+
+lbl_3bd:
+  msg(MASTERDINO_56, DOWN_F5, MASTERDINO, FOLLOW, 67)
+# Arrghh!\0
+break
+
+lbl_3c5:
+  msg(MASTERDINO_90, DOWN_F5, MASTERDINO, FOLLOW, 68)
+# Ooohhh!\0
+break
+
+lbl_3cd:
+  msg(GREATDRAGON_59, DOWN_F5, WYVERN, FOLLOW, 69)
+# Aaahh--!\0
+break
+
+lbl_3d5:
+  msg(GREATDRAGON_59, DOWN_F5, WYVERN, FOLLOW, 70)
+# Oohh ... oh ...\0
+break
+
+lbl_3dd:
+  msg(ESTO_D9, DOWN_F5, ESTO_DEAD, FOLLOW, 71)
+# Ugh ... what power ...\0
+  unit.retreat(ESTO_D9)
+break
+
+lbl_3e7:
+  msg(STONEGOLEM_48, DOWN_F5, GOLEM, FOLLOW, 72)
+# Oohh ...\0
+break
+
+lbl_3ef:
+  msg(VAMPIRELORD_4F, LEFT_F6, VAMPIRELORD, FOLLOW, 73)
+# You are fools for turning against Boser.\r\nMaybe Hell's the best place for your craziness!\0
+break
+
+lbl_3f7:
+  msg(VAMPIRELORD_4F, DOWN_F5, VAMPIRELORD, FOLLOW, 74)
+# How could ... mere mortals end a lord such as I ...\r\nGwarg--! Th, They have ... Langrisser--!\0
+break
+
+lbl_3ff:
+  msg(OSTO_DA, DOWN_F5, OSTO_DEAD, FOLLOW, 75)
+# Sonya ... Stand back ...\0
+  unit.retreat(OSTO_DA)
+break
+
+lbl_409:
+  msg(STONEGOLEM_49, DOWN_F5, GOLEM, FOLLOW, 76)
+# Uugghh ...\0
+break
+
+lbl_411:
+  msg(GREATDRAGON_5A, DOWN_F5, WYVERN, FOLLOW, 77)
+# Uugghh ... Ugh ...\0
+break
+
+lbl_419:
+  local.sub($0a47d0, $07eb58)
+  unit.clearbit(SONYA_D4, $17, 0)
+break
+
+lbl_422:
+  local.sub($0a47d0, $07eb59)
+break
+
+lbl_427:
+  unit.retreat(SONYA_D4)
+  unit.retreat(MASTERDINO_55)
+  unit.retreat(MASTERDINO_56)
+  unit.retreat(MASTERDINO_90)
+  unit.retreat(GREATDRAGON_59)
+  unit.retreat(ESTO_D9)
+  unit.retreat(OSTO_DA)
+  unit.retreat(STONEGOLEM_48)
+  unit.retreat(STONEGOLEM_49)
+  unit.retreat(VAMPIRELORD_4F)
+  unit.retreat(VAMPIRELORD_8E)
+  scenarioclear()
+  msg(ERWIN_01, SONYA_D4, ERWIN, FOLLOW, 78)
+# Hmmm ... Somehow, we forced them back.\0
+  branch.unit.dead(lbl_44e, LEON_0D)
+  msg(LEON_0D, BERNHARDT_16, LEON, FOLLOW, 79)
+# Your Highness, you're safe!\0
+lbl_44e:
+  msg(BERNHARDT_16, ERWIN_01, BERNHARDT, FOLLOW, 80)
+# Today, we have conquered.\r\nBoser will, however, regroup and launch a concerted strike.\r\nAt that time, only our greatest, perhaps miraculous, effort will bring victory.\0
+  branch.unit.dead(lbl_45e, EGBERT_10)
+  msg(EGBERT_10, BERNHARDT_16, EGBERT, FOLLOW, 81)
+# They're here much earlier than we planned.\r\nLetting them unlock Alhazard was a bad idea. It will be a liability.\0
+lbl_45e:
+  msg(ERWIN_01, BERNHARDT_16, ERWIN, FOLLOW, 82)
+# Pursue them immediately.\0
+  msg(BERNHARDT_16, ERWIN_01, BERNHARDT, FOLLOW, 83)
+# They won't give us any rest, so we'll make our stand here.\r\nBoser has recovered. If we let him go unchecked, the world will be damned.\0
+  branch.unit.dead(lbl_474, LEON_0D)
+  msg(LEON_0D, BERNHARDT_16, LEON, FOLLOW, 84)
+# Yes, I see. We'll surely defeat the darkness next time.\0
+lbl_474:
+  branch.unit.dead(lbl_4a3, LAIRD_18)
+  branch.unit.dead(lbl_4a3, LEON_0D)
+  branch.mem.global.eq(lbl_4a3, $0a4790, $07eb5a)
+  msg(LAIRD_18, LEON_0D, LAIRD, FOLLOW, 85)
+# Wait, Leon! Please take this lance.\0
+  msg(LEON_0D, LAIRD_18, LEON, FOLLOW, 86)
+# What is this?\0
+  msg(LAIRD_18, LEON_0D, LAIRD, FOLLOW, 87)
+# I present you this gift for liberating us from the savages.\0
+  msg(LEON_0D, LAIRD_18, LEON, FOLLOW, 88)
+# Hmmm, ... it appears expertly crafted. I'll make good use of it.\0
+  msg(NULL_00, DOWN_F5, NULL, NOFOLLOW, 89)
+# Obtained Inferno Lance.\0
+  item.add(INFERNOLANCE)
+  global.sum($0a4790, $07eb5a)
+lbl_4a3:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 90)
+# Now, let's go! We'll defeat Boser this time!\0
+  loadscenario(54)
+endsub
+
+lbl_4ac:
+  msg(ROHGA_0B, SONYA_0C, ROHGA, FOLLOW, 91)
+# Sonya, stop fighting for Boser. He's manipulating you!\0
+  msg(SONYA_D4, ROHGA_0B, SONYA, FOLLOW, 92)
+# You're wrong! Over time, Boser has come to understand me!\r\nNext you'll say that the humans who persecuted me are really trying to help!\0
+  msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 93)
+# No, think about it.\r\nMaybe if you'd never met that creep, humans wouldn't have looked down on you.\r\nDon't you see? Boser's been warping you to be his obedient dog!\0
+  msg(SONYA_D4, ROHGA_0B, SONYA, FOLLOW, 94)
+# I am ... a dog ...!?\r\nDon't try to condemn me. Brother, you are one of the Empire's dogs!\0
+  msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 95)
+# Actually, I joined by my own free will, just like you can. Come on and give it a shot.\0
+  msg(SONYA_D4, ROHGA_0B, SONYA, FOLLOW, 96)
+# ...\r\nBrother is only saying that because he doesn't understand how terrifying Boser can be.\r\nI can no longer escape from the darkness, ... from Boser.\r\nI don't have the strength to win this battle any more.\r\nI'm withdrawing for now, but next time, I won't hold back, Brother!\0
+  msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 97)
+# Sonya!\0
+  global.sum($0a4790, $07eb59)
+  subroutine(lbl_427)
+break
+

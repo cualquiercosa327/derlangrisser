@@ -1,0 +1,1330 @@
+# Movement-Triggered Events
+on.move(35, lbl_747, LEON_D5, 0, 0xff)
+on.move(39, lbl_773, ROHGA_D3, 1, 0xff)
+on.move(44, lbl_7b6, IMPERIALCOMMANDER_31, 1, 0xff)
+on.move(47, lbl_7ed, IMPERIALCOMMANDER_32, 1, 0xff)
+on.move(4, lbl_81c, IMPERIALCOMMANDER_33, 0, 0xff)
+on.move(51, lbl_85c, IMPERIALCOMMANDER_35, 1, 0xff)
+on.move(53, lbl_876, IMPERIALCOMMANDER_36, 1, 0xff)
+break
+
+# Attack-Triggered Events
+on.attack(25, lbl_699, ERWIN_01, ROHGA_D3, 0x00, 0x00, 0xff)
+on.attack(36, lbl_74f, LEON_D5, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(37, lbl_757, NULL_FF, LEON_D5, 0xff, 0x00, 0xff)
+on.attack(40, lbl_77d, ROHGA_D3, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(41, lbl_785, ERWIN_01, ROHGA_D3, 0xff, 0x00, 0xff)
+on.attack(45, lbl_7d3, IMPERIALCOMMANDER_31, NULL_FF, 0x00, 0xff, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(26, lbl_6ad, ERWIN_01)
+on.defeat(27, lbl_6b7, HEIN_05)
+on.defeat(28, lbl_6c9, CHERIE_04)
+on.defeat(29, lbl_6db, KEITH_07)
+on.defeat(30, lbl_6ed, LESTER_09)
+on.defeat(31, lbl_6ff, SCOTT_06)
+on.defeat(32, lbl_711, LIANA_02)
+on.defeat(33, lbl_723, LANA_03)
+on.defeat(34, lbl_735, AARON_08)
+on.defeat(38, lbl_75f, LEON_D5)
+on.defeat(42, lbl_78d, ROHGA_D3)
+on.damage(43, lbl_7ae, NULL_FF, ROHGA_D3, 0xff, 0x00)
+on.defeat(46, lbl_7db, IMPERIALCOMMANDER_31)
+on.defeat(48, lbl_80a, IMPERIALCOMMANDER_32)
+on.defeat(49, lbl_838, IMPERIALCOMMANDER_33)
+on.defeat(50, lbl_84a, IMPERIALCOMMANDER_34)
+on.defeat(52, lbl_864, IMPERIALCOMMANDER_35)
+on.defeat(54, lbl_87e, IMPERIALCOMMANDER_36)
+on.defeat(55, lbl_890, IMPERIALCOMMANDER_37)
+on.defeat(56, lbl_8a2, IMPERIALCOMMANDER_38)
+on.defeat(57, lbl_8b4, IMPERIALCOMMANDER_81)
+on.defeat(6, lbl_8c6, ROHGA_D3, IMPERIALCOMMANDER_31, IMPERIALCOMMANDER_32, IMPERIALCOMMANDER_33, IMPERIALCOMMANDER_34, IMPERIALCOMMANDER_35, IMPERIALCOMMANDER_36, IMPERIALCOMMANDER_37, IMPERIALCOMMANDER_38, IMPERIALCOMMANDER_81)
+on.defeat(58, lbl_8ea, LEON_D5, IMPERIALCOMMANDER_31, IMPERIALCOMMANDER_32, IMPERIALCOMMANDER_33, IMPERIALCOMMANDER_34, IMPERIALCOMMANDER_35, IMPERIALCOMMANDER_36, IMPERIALCOMMANDER_37, IMPERIALCOMMANDER_38, IMPERIALCOMMANDER_81)
+break
+
+# Position-Triggered Events
+on.bound(10, lbl_4a8, NPC_SUBUNIT_F1, 7, 15, 9, 15, 0x00, 0x00)
+on.bound(10, lbl_4d0, ENEMY_SUBUNIT_F3, 7, 15, 9, 15, 0x00, 0x00)
+on.bound(12, lbl_4f8, NPC_SUBUNIT_F1, 13, 8, 13, 8, 0x00, 0x00)
+on.bound(12, lbl_520, ENEMY_SUBUNIT_F3, 13, 8, 13, 8, 0x00, 0x00)
+on.bound(13, lbl_548, NPC_SUBUNIT_F1, 19, 8, 19, 8, 0x00, 0x00)
+on.bound(13, lbl_570, ENEMY_SUBUNIT_F3, 19, 8, 19, 8, 0x00, 0x00)
+on.bound(14, lbl_598, NPC_SUBUNIT_F1, 23, 15, 25, 15, 0x00, 0x00)
+on.bound(14, lbl_5c0, ENEMY_SUBUNIT_F3, 23, 15, 25, 15, 0x00, 0x00)
+on.bound(15, lbl_5e8, NPC_COMMANDER_F0, 8, 13, 8, 13, 0x00, 0x00)
+on.bound(15, lbl_5f5, ENEMY_COMMANDER_F2, 8, 13, 8, 13, 0x00, 0x00)
+on.bound(16, lbl_602, NPC_COMMANDER_F0, 13, 6, 13, 6, 0x00, 0x00)
+on.bound(16, lbl_60f, ENEMY_COMMANDER_F2, 13, 6, 13, 6, 0x00, 0x00)
+on.bound(17, lbl_61c, NPC_COMMANDER_F0, 19, 6, 19, 6, 0x00, 0x00)
+on.bound(17, lbl_629, ENEMY_COMMANDER_F2, 19, 6, 19, 6, 0x00, 0x00)
+on.bound(18, lbl_636, NPC_COMMANDER_F0, 24, 13, 24, 13, 0x00, 0x00)
+on.bound(18, lbl_643, ENEMY_COMMANDER_F2, 24, 13, 24, 13, 0x00, 0x00)
+on.bound(19, lbl_650, ENEMY_COMMANDER_F2, 1, 20, 30, 29, 0x00, 0x00)
+on.bound(20, lbl_668, ENEMY_COMMANDER_F2, 1, 23, 30, 29, 0x00, 0x00)
+on.bound(21, lbl_66d, ENEMY_COMMANDER_F2, 1, 46, 30, 46, 0x00, 0x00)
+on.bound(23, lbl_672, ENEMY_COMMANDER_F2, 1, 46, 30, 46, 0x00, 0x00)
+on.bound(24, lbl_694, ENEMY_COMMANDER_F2, 1, 46, 30, 46, 0x00, 0x00)
+on.bound(63, lbl_e27, NPC_COMMANDER_F0, 29, 9, 29, 9, 0x00, 0x00)
+break
+
+# Turn-Triggered Events
+on.turn(5, lbl_44b, ENEMY, 5, 0x00)
+on.turn(7, lbl_479, ENEMY, 1, 0x00)
+on.turn(8, lbl_485, ALLY, 5, 0x00)
+on.turn(9, lbl_48a, ALLY, 2, 0x00)
+break
+
+# Core Events
+lbl_202:
+  bgm(ALLY, ENEMYREINFORCEMENT1)
+  cursor.set(NULL_00)
+  tile.set(255, 7, 10)
+  tile.set(255, 7, 11)
+  tile.set(255, 7, 12)
+  tile.set(255, 7, 13)
+  tile.set(255, 7, 14)
+  tile.set(255, 8, 10)
+  tile.set(255, 8, 11)
+  tile.set(255, 8, 12)
+  tile.set(255, 8, 13)
+  tile.set(255, 8, 14)
+  tile.set(255, 9, 10)
+  tile.set(255, 9, 11)
+  tile.set(255, 9, 12)
+  tile.set(255, 9, 13)
+  tile.set(255, 9, 14)
+  tile.set(255, 11, 2)
+  tile.set(255, 11, 3)
+  tile.set(255, 11, 4)
+  tile.set(255, 11, 5)
+  tile.set(255, 11, 6)
+  tile.set(255, 11, 7)
+  tile.set(255, 12, 2)
+  tile.set(255, 12, 3)
+  tile.set(255, 12, 4)
+  tile.set(255, 12, 5)
+  tile.set(255, 12, 6)
+  tile.set(255, 12, 7)
+  tile.set(255, 13, 2)
+  tile.set(255, 13, 3)
+  tile.set(255, 13, 4)
+  tile.set(255, 13, 5)
+  tile.set(255, 13, 6)
+  tile.set(255, 13, 7)
+  tile.set(255, 14, 2)
+  tile.set(255, 14, 3)
+  tile.set(255, 14, 4)
+  tile.set(255, 14, 5)
+  tile.set(255, 14, 6)
+  tile.set(255, 14, 7)
+  tile.set(255, 15, 2)
+  tile.set(255, 15, 3)
+  tile.set(255, 15, 4)
+  tile.set(255, 15, 5)
+  tile.set(255, 15, 6)
+  tile.set(255, 15, 7)
+  tile.set(255, 17, 2)
+  tile.set(255, 17, 3)
+  tile.set(255, 17, 4)
+  tile.set(255, 17, 5)
+  tile.set(255, 17, 6)
+  tile.set(255, 17, 7)
+  tile.set(255, 18, 2)
+  tile.set(255, 18, 3)
+  tile.set(255, 18, 4)
+  tile.set(255, 18, 5)
+  tile.set(255, 18, 6)
+  tile.set(255, 18, 7)
+  tile.set(255, 19, 2)
+  tile.set(255, 19, 3)
+  tile.set(255, 19, 4)
+  tile.set(255, 19, 5)
+  tile.set(255, 19, 6)
+  tile.set(255, 19, 7)
+  tile.set(255, 20, 2)
+  tile.set(255, 20, 3)
+  tile.set(255, 20, 4)
+  tile.set(255, 20, 5)
+  tile.set(255, 20, 6)
+  tile.set(255, 20, 7)
+  tile.set(255, 21, 2)
+  tile.set(255, 21, 3)
+  tile.set(255, 21, 4)
+  tile.set(255, 21, 5)
+  tile.set(255, 21, 6)
+  tile.set(255, 21, 7)
+  tile.set(255, 23, 10)
+  tile.set(255, 23, 11)
+  tile.set(255, 23, 12)
+  tile.set(255, 23, 13)
+  tile.set(255, 23, 14)
+  tile.set(255, 24, 10)
+  tile.set(255, 24, 11)
+  tile.set(255, 24, 12)
+  tile.set(255, 24, 13)
+  tile.set(255, 24, 14)
+  tile.set(255, 25, 10)
+  tile.set(255, 25, 11)
+  tile.set(255, 25, 12)
+  tile.set(255, 25, 13)
+  tile.set(255, 25, 14)
+  screen.fadein(4)
+  cursor.set(ERWIN_01)
+  unit.hide(ROHGA_D3, SUBUNIT)
+  unit.hide(IMPERIALCOMMANDER_31, SUBUNIT)
+  unit.hide(IMPERIALCOMMANDER_32, SUBUNIT)
+  unit.position(ROHGA_D3, PRESET, PRESET)
+  unit.position(IMPERIALCOMMANDER_31, PRESET, PRESET)
+  unit.position(IMPERIALCOMMANDER_32, PRESET, PRESET)
+  unit.position(IMPERIALCOMMANDER_33, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_33)
+  unit.position(IMPERIALCOMMANDER_34, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_34)
+  unit.position(IMPERIALCOMMANDER_35, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_35)
+  unit.position(IMPERIALCOMMANDER_36, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_36)
+  unit.position(IMPERIALCOMMANDER_37, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_37)
+  unit.position(IMPERIALCOMMANDER_38, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_38)
+  unit.position(IMPERIALCOMMANDER_81, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_81)
+  randomize.holyrod(0, 1, 2, 3)
+  msg(ROHGA_D3, UP_F4, ROHGA, FOLLOW, 1)
+# The Holy Rod is on an altar inside this temple.\0
+  msg(IMPERIALCOMMANDER_31, ROHGA_D3, SWORDSMAN2_GREEN, FOLLOW, 2)
+# We'll have to split up and check each area individually.\0
+  msg(ROHGA_D3, IMPERIALCOMMANDER_31, ROHGA, FOLLOW, 3)
+# Won't this waste a lot of time ...?\0
+  msg(ROHGA_D3, DOWN_F5, ROHGA, FOLLOW, 4)
+# What? Somebody is approaching! Is it the enemy!?\0
+  bgm(ALLY, ALLY5)
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.showsub(ERWIN_01)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.showsub(HEIN_05)
+  unit.position(CHERIE_04, PRESET, PRESET)
+  unit.showsub(CHERIE_04)
+  unit.position(KEITH_07, PRESET, PRESET)
+  unit.showsub(KEITH_07)
+  unit.position(LESTER_09, PRESET, PRESET)
+  unit.showsub(LESTER_09)
+  unit.position(SCOTT_06, PRESET, PRESET)
+  unit.showsub(SCOTT_06)
+  unit.position(LIANA_02, PRESET, PRESET)
+  unit.showsub(LIANA_02)
+  branch.mem.global.eq(lbl_409, $0a4793, $07eb5d)
+  unit.position(AARON_08, PRESET, PRESET)
+  unit.showsub(AARON_08)
+  goto(lbl_40f)
+lbl_409:
+  unit.position(LANA_03, PRESET, PRESET)
+  unit.showsub(LANA_03)
+lbl_40f:
+  branch.unit.dead(lbl_41c, LANA_03)
+  msg(LANA_03, UP_F4, LANA, FOLLOW, 5)
+# It's here. Somewhere within these ruins we'll find the Holy Rod.\0
+  goto(lbl_422)
+lbl_41c:
+  msg(LIANA_02, UP_F4, LIANA, FOLLOW, 6)
+# According to this ancient scripture ...\r\nThe Holy Rod should be somewhere in these ruins.\0
+lbl_422:
+  msg(LESTER_09, HEIN_05, LESTER, FOLLOW, 7)
+# Hey, Hein ... Don't you know any spells that could locate it?\0
+  msg(HEIN_05, LESTER_09, HEIN, FOLLOW, 8)
+# Heh, if only life were so simple, Lester ...\0
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 9)
+# Is that Rohga leading the enemy search party ...?\r\nYes, it is him!\0
+  msg(ROHGA_D3, ERWIN_01, ROHGA, FOLLOW, 10)
+# _NAME_'s bunch?\r\nMove fast! We must find it before they do!\0
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 11)
+# He seems to be after the rod as well.\r\nLet's hurry!\0
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 12)
+# Everyone, let's go!\r\nWe cannot back down, even for a former ally!\0
+  local.sum($0a47d0, $07eb5c)
+break
+
+lbl_44b:
+  unit.deploy(LEON_D5, 16, 45)
+  branch.unit.dead(lbl_468, ROHGA_D3)
+  msg(LEON_D5, UP_F4, LEON, FOLLOW, 13)
+# Sorry for being late.\0
+  msg(ROHGA_D3, LEON_D5, ROHGA, FOLLOW, 14)
+# Leon! Are you all right?\r\nWeren't you injured in the battle before?\r\nPlease, let me handle this, Sir.\0
+  msg(LEON_D5, ROHGA_D3, LEON, FOLLOW, 15)
+# Simple wounds like these will not keep me from my duty.\0
+  goto(lbl_474)
+lbl_468:
+  msg(LEON_D5, UP_F4, LEON, FOLLOW, 16)
+# Damn! We're a little late!\0
+  msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 17)
+# Leon!\0
+lbl_474:
+  local.sum($0a47d0, $07eb5e)
+break
+
+lbl_479:
+  branch.unit.dead(lbl_483, ROHGA_D3)
+  msg(ROHGA_D3, IMPERIALCOMMANDER_31, ROHGA, FOLLOW, 18)
+# We're going to split up and search for it.\r\nI'm going to look in the left room in the back.\r\nWe must do whatever it takes to get the Holy Rod before they do!\0
+lbl_483:
+break
+
+lbl_485:
+  bgm(ENEMY, ENEMY1_LEON)
+break
+
+lbl_48a:
+  branch.unit.dead(lbl_4a6, ROHGA_D3)
+  msg(ERWIN_01, ROHGA_D3, ERWIN, FOLLOW, 19)
+# Rohga ...!\r\nI would never imagine I'd meet you again in such a situation ...\0
+  msg(ROHGA_D3, ERWIN_01, ROHGA, FOLLOW, 20)
+# I was once a mercenary.\r\nIn our world, friends often become enemies.\0
+  msg(ERWIN_01, ROHGA_D3, ERWIN, FOLLOW, 21)
+# So you're going to battle for money?\0
+  msg(ROHGA_D3, ERWIN_01, ROHGA, FOLLOW, 22)
+# I'm not sure ...\r\nNo, for now, the money isn't important.\r\nHeh heh ... Maybe I've just wanted to fight with you.\0
+lbl_4a6:
+break
+
+lbl_4a8:
+  subroutine(lbl_90e)
+  branch.mem.local.ne(lbl_4c3, $0a47d0, $07eb58)
+  tile.set(253, 8, 12)
+  focus.point(8, 12, SLOW)
+  subroutine(lbl_932)
+  subroutine(lbl_a9a)
+  subroutine(lbl_c0b)
+  goto(lbl_4ce)
+lbl_4c3:
+  branch.mem.local.eq(lbl_4ce, $0a47d1, $07eb5b)
+  focus.point(8, 12, SLOW)
+  subroutine(lbl_9ce)
+lbl_4ce:
+break
+
+lbl_4d0:
+  subroutine(lbl_90e)
+  branch.mem.local.ne(lbl_4eb, $0a47d0, $07eb58)
+  tile.set(253, 8, 12)
+  focus.point(8, 12, SLOW)
+  subroutine(lbl_9a3)
+  subroutine(lbl_ab2)
+  subroutine(lbl_c0b)
+  goto(lbl_4f6)
+lbl_4eb:
+  branch.mem.local.eq(lbl_4f6, $0a47d1, $07eb5b)
+  focus.point(8, 12, SLOW)
+  subroutine(lbl_a3f)
+lbl_4f6:
+break
+
+lbl_4f8:
+  subroutine(lbl_917)
+  branch.mem.local.ne(lbl_513, $0a47d0, $07eb59)
+  tile.set(253, 13, 5)
+  focus.point(13, 5, SLOW)
+  subroutine(lbl_932)
+  subroutine(lbl_a9a)
+  subroutine(lbl_c30)
+  goto(lbl_51e)
+lbl_513:
+  branch.mem.local.eq(lbl_51e, $0a47d1, $07eb5b)
+  focus.point(13, 5, SLOW)
+  subroutine(lbl_9ce)
+lbl_51e:
+break
+
+lbl_520:
+  subroutine(lbl_917)
+  branch.mem.local.ne(lbl_53b, $0a47d0, $07eb59)
+  tile.set(253, 13, 5)
+  focus.point(13, 5, SLOW)
+  subroutine(lbl_9a3)
+  subroutine(lbl_ab2)
+  subroutine(lbl_c30)
+  goto(lbl_546)
+lbl_53b:
+  branch.mem.local.eq(lbl_546, $0a47d1, $07eb5b)
+  focus.point(13, 5, SLOW)
+  subroutine(lbl_a3f)
+lbl_546:
+break
+
+lbl_548:
+  subroutine(lbl_920)
+  branch.mem.local.ne(lbl_563, $0a47d0, $07eb5a)
+  tile.set(253, 19, 5)
+  focus.point(19, 5, SLOW)
+  subroutine(lbl_932)
+  subroutine(lbl_a9a)
+  subroutine(lbl_c55)
+  goto(lbl_56e)
+lbl_563:
+  branch.mem.local.eq(lbl_56e, $0a47d1, $07eb5b)
+  focus.point(19, 5, SLOW)
+  subroutine(lbl_9ce)
+lbl_56e:
+break
+
+lbl_570:
+  subroutine(lbl_920)
+  branch.mem.local.ne(lbl_58b, $0a47d0, $07eb5a)
+  tile.set(253, 19, 5)
+  focus.point(19, 5, SLOW)
+  subroutine(lbl_9a3)
+  subroutine(lbl_ab2)
+  subroutine(lbl_c55)
+  goto(lbl_596)
+lbl_58b:
+  branch.mem.local.eq(lbl_596, $0a47d1, $07eb5b)
+  focus.point(19, 5, SLOW)
+  subroutine(lbl_a3f)
+lbl_596:
+break
+
+lbl_598:
+  subroutine(lbl_929)
+  branch.mem.local.ne(lbl_5b3, $0a47d0, $07eb5b)
+  tile.set(253, 24, 12)
+  focus.point(24, 12, SLOW)
+  subroutine(lbl_932)
+  subroutine(lbl_a9a)
+  subroutine(lbl_c7a)
+  goto(lbl_5be)
+lbl_5b3:
+  branch.mem.local.eq(lbl_5be, $0a47d1, $07eb5b)
+  focus.point(24, 12, SLOW)
+  subroutine(lbl_9ce)
+lbl_5be:
+break
+
+lbl_5c0:
+  subroutine(lbl_929)
+  branch.mem.local.ne(lbl_5db, $0a47d0, $07eb5b)
+  tile.set(253, 24, 12)
+  focus.point(24, 12, SLOW)
+  subroutine(lbl_9a3)
+  subroutine(lbl_ab2)
+  subroutine(lbl_c7a)
+  goto(lbl_5e6)
+lbl_5db:
+  branch.mem.local.eq(lbl_5e6, $0a47d1, $07eb5b)
+  focus.point(24, 12, SLOW)
+  subroutine(lbl_a3f)
+lbl_5e6:
+break
+
+lbl_5e8:
+  branch.mem.local.ne(lbl_5f3, $0a47d0, $07eb58)
+  tile.set(254, 8, 12)
+  subroutine(lbl_aca)
+lbl_5f3:
+break
+
+lbl_5f5:
+  branch.mem.local.ne(lbl_600, $0a47d0, $07eb58)
+  tile.set(254, 8, 12)
+  subroutine(lbl_b0f)
+lbl_600:
+break
+
+lbl_602:
+  branch.mem.local.ne(lbl_60d, $0a47d0, $07eb59)
+  tile.set(254, 13, 5)
+  subroutine(lbl_aca)
+lbl_60d:
+break
+
+lbl_60f:
+  branch.mem.local.ne(lbl_61a, $0a47d0, $07eb59)
+  tile.set(254, 13, 5)
+  subroutine(lbl_b0f)
+lbl_61a:
+break
+
+lbl_61c:
+  branch.mem.local.ne(lbl_627, $0a47d0, $07eb5a)
+  tile.set(254, 19, 5)
+  subroutine(lbl_aca)
+lbl_627:
+break
+
+lbl_629:
+  branch.mem.local.ne(lbl_634, $0a47d0, $07eb5a)
+  tile.set(254, 19, 5)
+  subroutine(lbl_b0f)
+lbl_634:
+break
+
+lbl_636:
+  branch.mem.local.ne(lbl_641, $0a47d0, $07eb5b)
+  tile.set(254, 24, 12)
+  subroutine(lbl_aca)
+lbl_641:
+break
+
+lbl_643:
+  branch.mem.local.ne(lbl_64e, $0a47d0, $07eb5b)
+  tile.set(254, 24, 12)
+  subroutine(lbl_b0f)
+lbl_64e:
+break
+
+lbl_650:
+  local.sub($0a47d2, $07eb5c)
+  branch.equipped(lbl_666, ENEMY, HOLYRODPLUS, 1, 20, 30, 29)
+  local.sub($0a47d0, $07eb5c)
+  local.sum($0a47d2, $07eb5c)
+  unit.clearbit(IMPERIALCOMMANDER_33, $17, 0)
+lbl_666:
+break
+
+lbl_668:
+  local.sub($0a47d2, $07eb5b)
+break
+
+lbl_66d:
+  local.sub($0a47d2, $07eb5e)
+break
+
+lbl_672:
+  local.sub($0a47d3, $07eb58)
+  branch.equipped(lbl_692, ENEMY, HOLYRODPLUS, 1, 46, 30, 46)
+  branch.unit.dead(lbl_688, ROHGA_D3)
+  msg(ROHGA_D3, UP_F4, ROHGA, FOLLOW, 23)
+# All right! The operation is complete! Withdraw!\0
+lbl_688:
+  subroutine(lbl_bf6)
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 24)
+# Damn, if we had a little more time ...\0
+  gameover()
+lbl_692:
+break
+
+lbl_694:
+  local.sub($0a47d2, $07eb5f)
+break
+
+lbl_699:
+  msg(ROHGA_D3, ERWIN_01, ROHGA, NOFOLLOW, 25)
+# _NAME_ ...\r\nI'm not much of a talker. For me, everything I know, everything I feel, I learn through my sword.\r\nEver since I met you, I've wanted to do battle with you just once!\r\nShow me what kind of a man you are!\0
+  msg(ERWIN_01, ROHGA_D3, ERWIN, NOFOLLOW, 26)
+# Rohga ... I don't want this!\0
+  msg(ROHGA_D3, ERWIN_01, ROHGA, NOFOLLOW, 27)
+# _NAME_ ...\r\nThe time for such words is long past.\r\nI buried our former allegience in that cemetery with Uccles!\r\nCome on, fight me, and don't hold back!\0
+break
+
+lbl_6ad:
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 28)
+# Gah ... Is this the end for me ...?\0
+  unit.cleanup()
+  gameover()
+break
+
+lbl_6b7:
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 29)
+# It seems I'm not as strong as I thought ...\0
+  branch.unit.attrib.eq(lbl_6c7, HEIN_05, 9, 14)
+  holyrodlost()
+  bgm(ENEMY, ENEMYREINFORCEMENT2)
+lbl_6c7:
+break
+
+lbl_6c9:
+  msg(CHERIE_04, DOWN_F5, CHERIE_DEAD, FOLLOW, 30)
+# Ouch!\r\nHow dare you do such things to a polite young lady!\0
+  branch.unit.attrib.eq(lbl_6d9, CHERIE_04, 9, 14)
+  holyrodlost()
+  bgm(ENEMY, ENEMYREINFORCEMENT2)
+lbl_6d9:
+break
+
+lbl_6db:
+  msg(KEITH_07, DOWN_F5, KEITH_DEAD, FOLLOW, 31)
+# Gah-- I've failed ...\0
+  branch.unit.attrib.eq(lbl_6eb, KEITH_07, 9, 14)
+  holyrodlost()
+  bgm(ENEMY, ENEMYREINFORCEMENT2)
+lbl_6eb:
+break
+
+lbl_6ed:
+  msg(LESTER_09, DOWN_F5, LESTER_DEAD, FOLLOW, 32)
+# Shit ...! You did better than I thought!\0
+  branch.unit.attrib.eq(lbl_6fd, LESTER_09, 9, 14)
+  holyrodlost()
+  bgm(ENEMY, ENEMYREINFORCEMENT2)
+lbl_6fd:
+break
+
+lbl_6ff:
+  msg(SCOTT_06, DOWN_F5, SCOTT_DEAD, FOLLOW, 33)
+# Aahhh! This is my limit ... I can't do any more ...\0
+  branch.unit.attrib.eq(lbl_70f, SCOTT_06, 9, 14)
+  holyrodlost()
+  bgm(ENEMY, ENEMYREINFORCEMENT2)
+lbl_70f:
+break
+
+lbl_711:
+  msg(LIANA_02, DOWN_F5, LIANA_DEAD, FOLLOW, 34)
+# Aaah--! I blew it ...\0
+  branch.unit.attrib.eq(lbl_721, LIANA_02, 9, 14)
+  holyrodlost()
+  bgm(ENEMY, ENEMYREINFORCEMENT2)
+lbl_721:
+break
+
+lbl_723:
+  msg(LANA_03, DOWN_F5, LANA_DEAD, FOLLOW, 35)
+# I'm sorry ... I'll retreat ...\0
+  branch.unit.attrib.eq(lbl_733, LANA_03, 9, 14)
+  holyrodlost()
+  bgm(ENEMY, ENEMYREINFORCEMENT2)
+lbl_733:
+break
+
+lbl_735:
+  msg(AARON_08, DOWN_F5, AARON_DEAD, FOLLOW, 36)
+# Argh, I can't take this!\0
+  branch.unit.attrib.eq(lbl_745, AARON_08, 9, 14)
+  holyrodlost()
+  bgm(ENEMY, ENEMYREINFORCEMENT2)
+lbl_745:
+break
+
+lbl_747:
+  msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 37)
+# _NAME_!\r\nI will not let you, or any enemy of the Empire, take the Holy Rod!\0
+break
+
+lbl_74f:
+  msg(LEON_D5, LEFT_F6, LEON, NOFOLLOW, 38)
+# Move! You're in the way!\0
+break
+
+lbl_757:
+  msg(LEON_D5, LEFT_F6, LEON, FOLLOW, 39)
+# I will not be defeated!\r\nI'm not the sort who would fall from a few scratches!\0
+break
+
+lbl_75f:
+  msg(LEON_D5, DOWN_F5, LEON_DEAD, FOLLOW, 40)
+# My wound still hasn't healed ...\r\n_NAME_, I will pay you back for this!\0
+  unit.retreat(LEON_D5)
+  branch.unit.attrib.eq(lbl_771, LEON_D5, 9, 14)
+  holyrodlost()
+  bgm(ALLY, ALLYREINFORCEMENT1)
+lbl_771:
+break
+
+lbl_773:
+  msg(ROHGA_D3, UP_F4, ROHGA, FOLLOW, 41)
+# I won't tolerate failure! Find the Rod, now!\0
+  unit.showsub(ROHGA_D3)
+break
+
+lbl_77d:
+  msg(ROHGA_D3, LEFT_F6, ROHGA, NOFOLLOW, 42)
+# It's nothing personal, but we're enemies now. I'm going to kill you.\0
+break
+
+lbl_785:
+  msg(ROHGA_D3, LEFT_F6, ROHGA, FOLLOW, 43)
+# Tsk, tsk! You annoying rats!\0
+break
+
+lbl_78d:
+  msg(ROHGA_D3, DOWN_F5, ROHGA_DEAD, FOLLOW, 44)
+# Such strength ... To imagine there are fighters even more powerful than I ...\r\nI'm proud to have battled with and against a warrior as great as you, _NAME_.\0
+  msg(ERWIN_01, ROHGA_D3, ERWIN, FOLLOW, 45)
+# Rohga ...\0
+  msg(ROHGA_D3, ERWIN_01, ROHGA_DEAD, FOLLOW, 46)
+# Farewell ...!\r\nMay we meet again in the underworld!\0
+  branch.unit.attrib.eq(lbl_7a9, ROHGA_D3, 9, 14)
+  holyrodlost()
+  bgm(ALLY, ALLYREINFORCEMENT1)
+lbl_7a9:
+  local.sum($0a47d5, $07eb5b)
+break
+
+lbl_7ae:
+  msg(ROHGA_D3, LEFT_F6, ROHGA, FOLLOW, 47)
+# Damn ... You're pretty good!\0
+break
+
+lbl_7b6:
+  branch.unit.dead(lbl_7c9, ROHGA_D3)
+  msg(ROHGA_D3, IMPERIALCOMMANDER_31, ROHGA, FOLLOW, 48)
+# You, search over there!\0
+  msg(IMPERIALCOMMANDER_31, ROHGA_D3, SWORDSMAN2_GREEN, FOLLOW, 49)
+# Yes, Sir!\0
+  goto(lbl_7cf)
+lbl_7c9:
+  msg(IMPERIALCOMMANDER_31, LEFT_F6, SWORDSMAN2_GREEN, FOLLOW, 50)
+# I will search the left.\0
+lbl_7cf:
+  unit.showsub(IMPERIALCOMMANDER_31)
+break
+
+lbl_7d3:
+  msg(IMPERIALCOMMANDER_31, LEFT_F6, SWORDSMAN2_GREEN, NOFOLLOW, 51)
+# Stay there and be quiet!\0
+break
+
+lbl_7db:
+  msg(IMPERIALCOMMANDER_31, DOWN_F5, SWORDSMAN2_GREEN_DEAD, FOLLOW, 52)
+# This isn't happening ...\0
+  branch.unit.attrib.eq(lbl_7eb, IMPERIALCOMMANDER_31, 9, 14)
+  holyrodlost()
+  bgm(ALLY, ALLYREINFORCEMENT1)
+lbl_7eb:
+break
+
+lbl_7ed:
+  branch.unit.dead(lbl_800, ROHGA_D3)
+  msg(ROHGA_D3, IMPERIALCOMMANDER_32, ROHGA, FOLLOW, 53)
+# You, go to the right!\0
+  msg(IMPERIALCOMMANDER_32, ROHGA_D3, SWORDSMAN2_GREEN, FOLLOW, 54)
+# Certainly.\0
+  goto(lbl_806)
+lbl_800:
+  msg(IMPERIALCOMMANDER_32, RIGHT_F7, SWORDSMAN2_GREEN, FOLLOW, 55)
+# I will search the right room!\0
+lbl_806:
+  unit.showsub(IMPERIALCOMMANDER_32)
+break
+
+lbl_80a:
+  msg(IMPERIALCOMMANDER_32, DOWN_F5, SWORDSMAN2_GREEN_DEAD, FOLLOW, 56)
+# Ughh ... I cannot die now ...\0
+  branch.unit.attrib.eq(lbl_81a, IMPERIALCOMMANDER_32, 9, 14)
+  holyrodlost()
+  bgm(ALLY, ALLYREINFORCEMENT1)
+lbl_81a:
+break
+
+lbl_81c:
+  branch.unit.dead(lbl_826, ROHGA_D3)
+  msg(ROHGA_D3, IMPERIALCOMMANDER_33, ROHGA, FOLLOW, 57)
+# We're going to escape! Move the enemies' cavalry!\0
+lbl_826:
+  msg(IMPERIALCOMMANDER_33, LEFT_F6, HIGHLORD_GREEN, FOLLOW, 58)
+# Yes, Sir! I will secure a path for the retreat.\0
+  branch.unit.dead(lbl_836, ROHGA_D3)
+  msg(ROHGA_D3, IMPERIALCOMMANDER_33, ROHGA, FOLLOW, 59)
+# I have your word!\0
+lbl_836:
+break
+
+lbl_838:
+  msg(IMPERIALCOMMANDER_33, DOWN_F5, HIGHLORD_GREEN_DEAD, FOLLOW, 60)
+# Gahh ...\0
+  branch.unit.attrib.eq(lbl_848, IMPERIALCOMMANDER_33, 9, 14)
+  holyrodlost()
+  bgm(ALLY, ALLYREINFORCEMENT1)
+lbl_848:
+break
+
+lbl_84a:
+  msg(IMPERIALCOMMANDER_34, DOWN_F5, HIGHLORD_GREEN_DEAD, FOLLOW, 61)
+# Ughh ... my strength ... is ... leaving me ...\0
+  branch.unit.attrib.eq(lbl_85a, IMPERIALCOMMANDER_34, 9, 14)
+  holyrodlost()
+  bgm(ALLY, ALLYREINFORCEMENT1)
+lbl_85a:
+break
+
+lbl_85c:
+  msg(IMPERIALCOMMANDER_35, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 62)
+# We shall aid Rohga! Charge!\0
+break
+
+lbl_864:
+  msg(IMPERIALCOMMANDER_35, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 63)
+# I am sorry, my beloved ...\r\nI don't think I'll survive this time ...\0
+  branch.unit.attrib.eq(lbl_874, IMPERIALCOMMANDER_35, 9, 14)
+  holyrodlost()
+  bgm(ALLY, ALLYREINFORCEMENT1)
+lbl_874:
+break
+
+lbl_876:
+  msg(IMPERIALCOMMANDER_36, DOWN_F5, PRIEST_GREEN, FOLLOW, 64)
+# Ha ha ha ... En garde!\0
+break
+
+lbl_87e:
+  msg(IMPERIALCOMMANDER_36, DOWN_F5, PRIEST_GREEN_DEAD, FOLLOW, 65)
+# You are strong indeed ...\0
+  branch.unit.attrib.eq(lbl_88e, IMPERIALCOMMANDER_36, 9, 14)
+  holyrodlost()
+  bgm(ALLY, ALLYREINFORCEMENT1)
+lbl_88e:
+break
+
+lbl_890:
+  msg(IMPERIALCOMMANDER_37, DOWN_F5, PRIEST_GREEN_DEAD, FOLLOW, 66)
+# Aahh--! I can't ...\0
+  branch.unit.attrib.eq(lbl_8a0, IMPERIALCOMMANDER_37, 9, 14)
+  holyrodlost()
+  bgm(ALLY, ALLYREINFORCEMENT1)
+lbl_8a0:
+break
+
+lbl_8a2:
+  msg(IMPERIALCOMMANDER_38, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 67)
+# At last, the time for me to meet my departed friends has come ...\r\nGah--arrgghh ...!\0
+  branch.unit.attrib.eq(lbl_8b2, IMPERIALCOMMANDER_38, 9, 14)
+  holyrodlost()
+  bgm(ALLY, ALLYREINFORCEMENT1)
+lbl_8b2:
+break
+
+lbl_8b4:
+  msg(IMPERIALCOMMANDER_81, DOWN_F5, HIGHLORD_GREEN_DEAD, FOLLOW, 68)
+# Gah--!\0
+  branch.unit.attrib.eq(lbl_8c4, IMPERIALCOMMANDER_81, 9, 14)
+  holyrodlost()
+  bgm(ALLY, ALLYREINFORCEMENT1)
+lbl_8c4:
+break
+
+lbl_8c6:
+  unit.cleanup()
+  branch.mem.local.eq(lbl_8e5, $0a47d1, $07eb5b)
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 69)
+# Finally, it's over ...\0
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 70)
+# Well, let's find the Holy Rod.\0
+  msg(SOLDIER_20, UP_F4, SOLDIER1_SILVER, NOFOLLOW, 71)
+# I've found it! This is the Holy Rod!\0
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 72)
+# Obtained Holy Rod.\0
+  item.add(HOLYRODPLUS)
+lbl_8e5:
+  subroutine(lbl_b72)
+break
+
+lbl_8ea:
+  unit.cleanup()
+  branch.mem.local.eq(lbl_909, $0a47d1, $07eb5b)
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 73)
+# Finally, it's over ...\0
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 74)
+# Well, let's find the Holy Rod.\0
+  msg(SOLDIER_20, UP_F4, SOLDIER1_SILVER, NOFOLLOW, 75)
+# I've found it! This is the Holy Rod!\0
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 76)
+# Obtained Holy Rod.\0
+  item.add(HOLYRODPLUS)
+lbl_909:
+  subroutine(lbl_b72)
+break
+
+lbl_90e:
+  local.sum($0a47d7, $07eb5b)
+  screen.map.unlock(7, 10, 9, 14)
+endsub
+
+lbl_917:
+  local.sum($0a47d7, $07eb5c)
+  screen.map.unlock(11, 2, 15, 7)
+endsub
+
+lbl_920:
+  local.sum($0a47d7, $07eb5d)
+  screen.map.unlock(17, 2, 21, 7)
+endsub
+
+lbl_929:
+  local.sum($0a47d7, $07eb5e)
+  screen.map.unlock(23, 10, 25, 14)
+endsub
+
+lbl_932:
+  branch.unit.ne(lbl_940, ERWIN_01, 0x00)
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 77)
+# There it is!\0
+  goto(lbl_9a2)
+lbl_940:
+  branch.unit.ne(lbl_94e, HEIN_05, 0x00)
+  msg(HEIN_05, UP_F4, HEIN, FOLLOW, 78)
+# Oh! I found it!\0
+  goto(lbl_9a2)
+lbl_94e:
+  branch.unit.ne(lbl_95c, CHERIE_04, 0x00)
+  msg(CHERIE_04, UP_F4, CHERIE, FOLLOW, 79)
+# It's here!\0
+  goto(lbl_9a2)
+lbl_95c:
+  branch.unit.ne(lbl_96a, KEITH_07, 0x00)
+  msg(KEITH_07, UP_F4, KEITH, FOLLOW, 80)
+# I've discovered it!\0
+  goto(lbl_9a2)
+lbl_96a:
+  branch.unit.ne(lbl_978, LESTER_09, 0x00)
+  msg(LESTER_09, UP_F4, LESTER, FOLLOW, 81)
+# Heh heh. I've found it!\0
+  goto(lbl_9a2)
+lbl_978:
+  branch.unit.ne(lbl_986, SCOTT_06, 0x00)
+  msg(SCOTT_06, UP_F4, SCOTT, FOLLOW, 82)
+# Here it is!\0
+  goto(lbl_9a2)
+lbl_986:
+  branch.unit.ne(lbl_994, LIANA_02, 0x00)
+  msg(LIANA_02, UP_F4, LIANA, FOLLOW, 83)
+# There it is. It's right here!\0
+  goto(lbl_9a2)
+lbl_994:
+  branch.unit.ne(lbl_9a2, LANA_03, 0x00)
+  msg(LANA_03, UP_F4, LANA, FOLLOW, 84)
+# I found it here!\0
+  goto(lbl_9a2)
+lbl_9a2:
+endsub
+
+lbl_9a3:
+  branch.unit.ne(lbl_9b1, ROHGA_D3, 0x00)
+  msg(ROHGA_D3, UP_F4, ROHGA, FOLLOW, 85)
+# Found it!\0
+  goto(lbl_9cd)
+lbl_9b1:
+  branch.unit.ne(lbl_9bf, IMPERIALCOMMANDER_31, 0x00)
+  msg(IMPERIALCOMMANDER_31, UP_F4, SWORDSMAN2_GREEN, FOLLOW, 86)
+# Here it is!\0
+  goto(lbl_9cd)
+lbl_9bf:
+  branch.unit.ne(lbl_9cd, IMPERIALCOMMANDER_32, 0x00)
+  msg(IMPERIALCOMMANDER_32, UP_F4, SWORDSMAN2_GREEN, FOLLOW, 87)
+# I have discovered it!\0
+  goto(lbl_9cd)
+lbl_9cd:
+endsub
+
+lbl_9ce:
+  branch.unit.ne(lbl_9dc, ERWIN_01, 0x00)
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 88)
+# It's not here ...\0
+  goto(lbl_a3e)
+lbl_9dc:
+  branch.unit.ne(lbl_9ea, HEIN_05, 0x00)
+  msg(HEIN_05, UP_F4, HEIN, FOLLOW, 89)
+# Tsk, can't find it.\0
+  goto(lbl_a3e)
+lbl_9ea:
+  branch.unit.ne(lbl_9f8, CHERIE_04, 0x00)
+  msg(CHERIE_04, UP_F4, CHERIE, FOLLOW, 90)
+# It doesn't look like it's here.\0
+  goto(lbl_a3e)
+lbl_9f8:
+  branch.unit.ne(lbl_a06, KEITH_07, 0x00)
+  msg(KEITH_07, UP_F4, KEITH, FOLLOW, 91)
+# It's not here ...\0
+  goto(lbl_a3e)
+lbl_a06:
+  branch.unit.ne(lbl_a14, LESTER_09, 0x00)
+  msg(LESTER_09, UP_F4, LESTER, FOLLOW, 92)
+# Damn, not here.\0
+  goto(lbl_a3e)
+lbl_a14:
+  branch.unit.ne(lbl_a22, SCOTT_06, 0x00)
+  msg(SCOTT_06, UP_F4, SCOTT, FOLLOW, 93)
+# It's not over here.\0
+  goto(lbl_a3e)
+lbl_a22:
+  branch.unit.ne(lbl_a30, LIANA_02, 0x00)
+  msg(LIANA_02, UP_F4, LIANA, FOLLOW, 94)
+# I can't find it.\0
+  goto(lbl_a3e)
+lbl_a30:
+  branch.unit.ne(lbl_a3e, LANA_03, 0x00)
+  msg(LANA_03, UP_F4, LANA, FOLLOW, 95)
+# Hmmm, seems like it's not here.\0
+  goto(lbl_a3e)
+lbl_a3e:
+endsub
+
+lbl_a3f:
+  branch.unit.ne(lbl_a5d, ROHGA_D3, 0x00)
+  msg(ROHGA_D3, UP_F4, ROHGA, FOLLOW, 96)
+# Damn! It's not here. Search the other rooms!\0
+  branch.mem.local.eq(lbl_a5a, $0a47d1, $07eb5d)
+  unit.setbit(ROHGA_D3, $17, 0)
+  unit.setbyte(ROHGA_D3, $22, 0x13)
+  unit.setbyte(ROHGA_D3, $23, 0x08)
+lbl_a5a:
+  goto(lbl_a99)
+lbl_a5d:
+  branch.unit.ne(lbl_a7b, IMPERIALCOMMANDER_31, 0x00)
+  msg(IMPERIALCOMMANDER_31, DOWN_F5, SWORDSMAN2_GREEN, FOLLOW, 97)
+# There's nothing here!\0
+  branch.mem.local.eq(lbl_a78, $0a47d1, $07eb5d)
+  unit.setbit(IMPERIALCOMMANDER_31, $17, 0)
+  unit.setbyte(IMPERIALCOMMANDER_31, $22, 0x13)
+  unit.setbyte(IMPERIALCOMMANDER_31, $23, 0x08)
+lbl_a78:
+  goto(lbl_a99)
+lbl_a7b:
+  branch.unit.ne(lbl_a99, IMPERIALCOMMANDER_32, 0x00)
+  msg(IMPERIALCOMMANDER_32, DOWN_F5, SWORDSMAN2_GREEN, FOLLOW, 98)
+# Not here ...\0
+  branch.mem.local.eq(lbl_a96, $0a47d1, $07eb5d)
+  unit.setbit(IMPERIALCOMMANDER_32, $17, 0)
+  unit.setbyte(IMPERIALCOMMANDER_32, $22, 0x13)
+  unit.setbyte(IMPERIALCOMMANDER_32, $23, 0x08)
+lbl_a96:
+  goto(lbl_a99)
+lbl_a99:
+endsub
+
+lbl_a9a:
+  branch.unit.dead(lbl_aa7, ROHGA_D3)
+  msg(ROHGA_D3, LEFT_F6, ROHGA, FOLLOW, 99)
+# Hurry! We can't let them leave with the Holy Rod!\0
+  goto(lbl_ab1)
+lbl_aa7:
+  branch.unit.dead(lbl_ab1, IMPERIALCOMMANDER_31)
+  msg(IMPERIALCOMMANDER_31, LEFT_F6, SWORDSMAN2_GREEN, FOLLOW, 100)
+# You won't take the Holy Rod!\0
+lbl_ab1:
+endsub
+
+lbl_ab2:
+  branch.unit.dead(lbl_abf, ROHGA_D3)
+  msg(ROHGA_D3, LEFT_F6, ROHGA, FOLLOW, 101)
+# All right, listen up, everybody!\r\nGather around the temple, and prepare for the enemies attack!\0
+  goto(lbl_ac9)
+lbl_abf:
+  branch.unit.dead(lbl_ac9, IMPERIALCOMMANDER_31)
+  msg(IMPERIALCOMMANDER_31, LEFT_F6, SWORDSMAN2_GREEN, FOLLOW, 102)
+# Men, battle stations!\r\nGather at the temple entrance. We must repel the enemy.\0
+lbl_ac9:
+endsub
+
+lbl_aca:
+  local.sum($0a47d1, $07eb5b)
+  branch.unit.sex(lbl_ada, 0)
+  msg(NULL_79, RIGHT_F7, NULL, FOLLOW, 103)
+# I have taken the Holy Rod!\0
+  goto(lbl_ae0)
+lbl_ada:
+  msg(NULL_79, RIGHT_F7, NULL, FOLLOW, 104)
+# I found the Holy Rod!\0
+lbl_ae0:
+  unit.setbyte(NULL_79, $09, 0x0e)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 105)
+# Obtained Holy Rod.\0
+  bgm(ALLY, ALLYREINFORCEMENT1)
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 106)
+# All right, let's go outside!\0
+  branch.unit.ne(lbl_afe, ERWIN_01, 0x01)
+  msg(NULL_79, ERWIN_01, NULL, FOLLOW, 107)
+# Yes, Sir!\0
+lbl_afe:
+  unit.clearbit(ENEMY_SUBUNIT_F3, $17, 0)
+  unit.setbit(ENEMY_SUBUNIT_F3, $17, 1)
+  unit.setbyte(ENEMY_SUBUNIT_F3, $21, 0x79)
+  unit.setbit(ENEMY_SUBUNIT_F3, $17, 5)
+endsub
+
+lbl_b0f:
+  local.sum($0a47d1, $07eb5b)
+  bgm(ENEMY, ENEMYREINFORCEMENT2)
+  branch.unit.ne(lbl_b27, ROHGA_D3, 0x00)
+  msg(ROHGA_D3, LEFT_F6, ROHGA, FOLLOW, 108)
+# I have the Holy Rod.\r\nI'm heading for the exit, so cover me!\0
+  unit.setbyte(ROHGA_D3, $09, 0x0e)
+  goto(lbl_b3b)
+lbl_b27:
+  msg(NULL_79, LEFT_F6, NULL, FOLLOW, 109)
+# Obtained Holy Rod.\0
+  unit.setbyte(NULL_79, $09, 0x0e)
+  branch.unit.dead(lbl_b3b, ROHGA_D3)
+  msg(ROHGA_D3, LEFT_F6, ROHGA, FOLLOW, 110)
+# All right, let's hurry and escape!\r\nHave the others back me up!\0
+lbl_b3b:
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 111)
+# Damn! They beat us ... Don't let them get away!\r\nTake back the rod!\0
+  unit.clearbit(ROHGA_D3, $17, 0)
+  unit.clearbit(IMPERIALCOMMANDER_31, $17, 0)
+  unit.clearbit(IMPERIALCOMMANDER_32, $17, 0)
+  unit.setbit(ROHGA_D3, $17, 0)
+  unit.setbyte(ROHGA_D3, $22, 0x10)
+  unit.setbyte(ROHGA_D3, $23, 0x2e)
+  unit.setbit(IMPERIALCOMMANDER_31, $17, 0)
+  unit.setbyte(IMPERIALCOMMANDER_31, $22, 0x10)
+  unit.setbyte(IMPERIALCOMMANDER_31, $23, 0x2e)
+  unit.setbit(IMPERIALCOMMANDER_32, $17, 0)
+  unit.setbyte(IMPERIALCOMMANDER_32, $22, 0x10)
+  unit.setbyte(IMPERIALCOMMANDER_32, $23, 0x2e)
+endsub
+
+lbl_b72:
+  unit.cleanup()
+  scenarioclear()
+  branch.mem.global.ne(lbl_bc8, $0a4793, $07eb5d)
+  branch.unit.dead(lbl_b82, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 112)
+# We did it! Now we can stand against Alhazard!\0
+lbl_b82:
+  msg(LANA_03, DOWN_F5, LANA_SAD, FOLLOW, 113)
+# ...\0
+  branch.unit.dead(lbl_b92, LIANA_02)
+  msg(LIANA_02, LANA_03, LIANA, FOLLOW, 114)
+# Big sister ...\0
+lbl_b92:
+  branch.unit.dead(lbl_bae, CHERIE_04)
+  msg(CHERIE_04, LANA_03, CHERIE_SAD, FOLLOW, 115)
+# Fighting Leon is painful for you, isn't it?\0
+  msg(LANA_03, CHERIE_04, LANA_SAD, FOLLOW, 116)
+# N, no ... It's all right ...\r\nAlhazard must be sealed. Even if we have to do things like this ...\0
+  msg(CHERIE_04, LANA_03, CHERIE, FOLLOW, 117)
+# We will end this war.\r\nI just hope we may see a day when we aren't divided as enemies and allies ...\0
+  msg(LANA_03, CHERIE_04, LANA, FOLLOW, 118)
+# Yeah. But first we must release Langrisser's seal.\0
+lbl_bae:
+  msg(ERWIN_01, LANA_03, ERWIN, FOLLOW, 119)
+# At last, we can release Langrisser's seal ...\0
+  msg(LIANA_02, LANA_03, LIANA, FOLLOW, 120)
+# Let's hurry with the incantations, sister!\0
+  msg(LANA_03, LIANA_02, LANA, FOLLOW, 121)
+# Yeah!\0
+  subroutine(lbl_c9f)
+  loadscenario(32)
+  goto(lbl_bf5)
+lbl_bc8:
+  unit.deploy(LANA_03, 16, 45)
+  msg(LANA_03, ERWIN_01, LANA, FOLLOW, 122)
+# It seems as though you've retrieved the Holy Rod.\0
+  msg(ERWIN_01, LANA_03, ERWIN, FOLLOW, 123)
+# Liana!\0
+  msg(LANA_03, ERWIN_01, LANA, FOLLOW, 124)
+# While we wait, Alhazard is gaining strength.\r\nWe must hurry up and release Langrisser!\0
+  msg(ERWIN_01, LANA_03, ERWIN, FOLLOW, 125)
+# At last, we can release Langrisser's seal ...\0
+  msg(LIANA_02, LANA_03, LIANA, FOLLOW, 126)
+# Let's hurry with the incantations, sister!\0
+  msg(LANA_03, LIANA_02, LANA, FOLLOW, 127)
+# Yeah!\0
+  subroutine(lbl_c9f)
+  loadscenario(34)
+lbl_bf5:
+endsub
+
+lbl_bf6:
+  unit.retreat(ROHGA_D3)
+  unit.retreat(IMPERIALCOMMANDER_31)
+  unit.retreat(IMPERIALCOMMANDER_32)
+  unit.retreat(IMPERIALCOMMANDER_33)
+  unit.retreat(IMPERIALCOMMANDER_34)
+  unit.retreat(IMPERIALCOMMANDER_35)
+  unit.retreat(IMPERIALCOMMANDER_36)
+  unit.retreat(IMPERIALCOMMANDER_37)
+  unit.retreat(IMPERIALCOMMANDER_38)
+  unit.retreat(IMPERIALCOMMANDER_81)
+endsub
+
+lbl_c0b:
+  unit.setbit(ROHGA_D3, $17, 0)
+  unit.setbyte(ROHGA_D3, $22, 0x08)
+  unit.setbyte(ROHGA_D3, $23, 0x0d)
+  unit.setbit(IMPERIALCOMMANDER_31, $17, 0)
+  unit.setbyte(IMPERIALCOMMANDER_31, $22, 0x08)
+  unit.setbyte(IMPERIALCOMMANDER_31, $23, 0x0d)
+  unit.setbit(IMPERIALCOMMANDER_32, $17, 0)
+  unit.setbyte(IMPERIALCOMMANDER_32, $22, 0x08)
+  unit.setbyte(IMPERIALCOMMANDER_32, $23, 0x0d)
+endsub
+
+lbl_c30:
+  unit.setbit(ROHGA_D3, $17, 0)
+  unit.setbyte(ROHGA_D3, $22, 0x0d)
+  unit.setbyte(ROHGA_D3, $23, 0x06)
+  unit.setbit(IMPERIALCOMMANDER_31, $17, 0)
+  unit.setbyte(IMPERIALCOMMANDER_31, $22, 0x0d)
+  unit.setbyte(IMPERIALCOMMANDER_31, $23, 0x06)
+  unit.setbit(IMPERIALCOMMANDER_32, $17, 0)
+  unit.setbyte(IMPERIALCOMMANDER_32, $22, 0x0d)
+  unit.setbyte(IMPERIALCOMMANDER_32, $23, 0x06)
+endsub
+
+lbl_c55:
+  unit.setbit(ROHGA_D3, $17, 0)
+  unit.setbyte(ROHGA_D3, $22, 0x13)
+  unit.setbyte(ROHGA_D3, $23, 0x06)
+  unit.setbit(IMPERIALCOMMANDER_31, $17, 0)
+  unit.setbyte(IMPERIALCOMMANDER_31, $22, 0x13)
+  unit.setbyte(IMPERIALCOMMANDER_31, $23, 0x06)
+  unit.setbit(IMPERIALCOMMANDER_32, $17, 0)
+  unit.setbyte(IMPERIALCOMMANDER_32, $22, 0x13)
+  unit.setbyte(IMPERIALCOMMANDER_32, $23, 0x06)
+endsub
+
+lbl_c7a:
+  unit.setbit(ROHGA_D3, $17, 0)
+  unit.setbyte(ROHGA_D3, $22, 0x18)
+  unit.setbyte(ROHGA_D3, $23, 0x0d)
+  unit.setbit(IMPERIALCOMMANDER_31, $17, 0)
+  unit.setbyte(IMPERIALCOMMANDER_31, $22, 0x18)
+  unit.setbyte(IMPERIALCOMMANDER_31, $23, 0x0d)
+  unit.setbit(IMPERIALCOMMANDER_32, $17, 0)
+  unit.setbyte(IMPERIALCOMMANDER_32, $22, 0x18)
+  unit.setbyte(IMPERIALCOMMANDER_32, $23, 0x0d)
+endsub
+
+lbl_c9f:
+  screen.fadeout(4)
+  cursor.set(NULL_00)
+  cursor.hide()
+  unit.retreat(ERWIN_01)
+  unit.retreat(HEIN_05)
+  unit.retreat(CHERIE_04)
+  unit.retreat(KEITH_07)
+  unit.retreat(LESTER_09)
+  unit.retreat(SCOTT_06)
+  unit.retreat(LIANA_02)
+  unit.retreat(AARON_08)
+  unit.retreat(LANA_03)
+  unit.hideall()
+  focus.point(2, 2, FAST)
+  unit.deploy(ERWIN_01, 4, 0)
+  unit.deploy(HEIN_05, 6, 2)
+  unit.deploy(CHERIE_04, 8, 2)
+  unit.deploy(KEITH_07, 15, 2)
+  unit.deploy(LESTER_09, 4, 4)
+  unit.deploy(SCOTT_06, 6, 4)
+  unit.deploy(LIANA_02, 8, 4)
+  branch.mem.global.eq(lbl_ce2, $0a4793, $07eb5d)
+  unit.deploy(AARON_08, 2, 6)
+lbl_ce2:
+  unit.deploy(LANA_03, 4, 6)
+  focus.point(16, 12, FAST)
+  unit.move(LIANA_02, 19, 12)
+  unit.face(LIANA_02, LEFT_F6)
+  unit.move(LANA_03, 13, 12)
+  unit.face(LANA_03, RIGHT_F7)
+  unit.move(ERWIN_01, 16, 13)
+  unit.face(ERWIN_01, UP_F4)
+  unit.move(HEIN_05, 17, 14)
+  unit.face(HEIN_05, UP_F4)
+  unit.move(CHERIE_04, 16, 14)
+  unit.face(CHERIE_04, UP_F4)
+  unit.move(KEITH_07, 15, 14)
+  unit.face(KEITH_07, UP_F4)
+  unit.move(LESTER_09, 15, 15)
+  unit.face(LESTER_09, UP_F4)
+  branch.mem.global.eq(lbl_d26, $0a4793, $07eb5d)
+  unit.move(AARON_08, 16, 15)
+  unit.face(AARON_08, UP_F4)
+lbl_d26:
+  bgm(ALLY, )
+  unit.move(SCOTT_06, 17, 15)
+  unit.face(SCOTT_06, UP_F4)
+  screen.fadein(4)
+  bgm(ALLY, REQUIEM2)
+  unit.move(LANA_03, 14, 12)
+  msg(LANA_03, LIANA_02, LANA, FOLLOW, 128)
+# Unbind the Light that rests within me ...\0
+  screen.brightness(1)
+  screen.brightness(0)
+  unit.move(LIANA_02, 18, 12)
+  msg(LIANA_02, LANA_03, LIANA, FOLLOW, 129)
+# Empower this sword with the power of Light that rests within me ...\0
+  screen.brightness(2)
+  screen.brightness(0)
+  unit.move(LANA_03, 15, 12)
+  msg(LANA_03, LIANA_02, LANA, NOFOLLOW, 130)
+# Charge the Holy Rod with light ...\0
+  screen.brightness(3)
+  screen.brightness(0)
+  unit.move(LIANA_02, 17, 12)
+  msg(LIANA_02, LANA_03, LIANA, NOFOLLOW, 131)
+# Now to bring forth the sword's true power!\0
+  screen.brightness(2)
+  screen.brightness(0)
+  unseal.langrisser()
+  screen.brightness(4)
+  screen.brightness(0)
+  screen.brightness(6)
+  screen.brightness(0)
+  msg(KEITH_07, LIANA_02, KEITH, FOLLOW, 132)
+# What a magnificent glow ...\0
+  msg(CHERIE_04, LIANA_02, CHERIE, FOLLOW, 133)
+# Langrisser's hidden power has been released!\0
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 134)
+# With Langrisser revived, we can show Boser the true power of the Descendants of Light!\0
+  msg(LANA_03, ERWIN_01, LANA, FOLLOW, 135)
+# It will only get tougher from here on out.\r\nHowever, if we work and act as one, we can overcome any difficulty.\r\nIf we all have faith in ourselves, we can succeed.\r\nIf we believe in hope, the Sword of Light will shine even brighter.\0
+  bgm(ALLY, ALLYREINFORCEMENT1)
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 136)
+# I'll ... give it my all!\0
+  unit.move(HEIN_05, 18, 13)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 137)
+# All right! I'm going to give it everything I've got, too!\0
+  branch.mem.global.eq(lbl_dac, $0a4793, $07eb5d)
+  unit.move(CHERIE_04, 18, 14)
+  goto(lbl_db0)
+lbl_dac:
+  unit.move(CHERIE_04, 16, 15)
+lbl_db0:
+  msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 138)
+# We've made it this far ...\r\nWe can do it!\0
+  unit.move(KEITH_07, 14, 13)
+  msg(KEITH_07, ERWIN_01, KEITH, FOLLOW, 139)
+# Let's work together!\0
+  msg(SCOTT_06, ERWIN_01, SCOTT, FOLLOW, 140)
+# As long as I continue to have strength, I'll fight!\0
+  branch.mem.global.eq(lbl_ddd, $0a4793, $07eb5d)
+  unit.move(AARON_08, 14, 14)
+  msg(AARON_08, ERWIN_01, AARON, FOLLOW, 141)
+# I'm up for the challenge!\0
+  msg(LESTER_09, ERWIN_01, LESTER, FOLLOW, 142)
+# You can count on me till the end!\0
+  goto(lbl_de3)
+lbl_ddd:
+  msg(LESTER_09, ERWIN_01, LESTER, FOLLOW, 143)
+# You can count on me till the end!\0
+lbl_de3:
+  branch.mem.global.eq(lbl_df0, $0a4793, $07eb5d)
+  msg(LANA_03, ERWIN_01, LANA, FOLLOW, 144)
+# This is as much as I can do ...\r\nHowever, please do not forget that my prayers are with the Sword of Light.\0
+  goto(lbl_df6)
+lbl_df0:
+  msg(LANA_03, ERWIN_01, LANA, FOLLOW, 145)
+# Let's go! We shall fight as one!\0
+lbl_df6:
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 146)
+# Everyone ...\0
+  unit.face(ERWIN_01, RIGHT_F7)
+  delay(30)
+  unit.face(ERWIN_01, UP_F4)
+  delay(10)
+  unit.face(ERWIN_01, LEFT_F6)
+  delay(30)
+  unit.face(ERWIN_01, DOWN_F5)
+  delay(30)
+  unit.face(ERWIN_01, RIGHT_F7)
+  delay(10)
+  unit.face(ERWIN_01, UP_F4)
+  delay(120)
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 147)
+# All right, let's do it! To Castle Velzeria!\0
+  cursor.show()
+  cursor.set(ERWIN_01)
+endsub
+
+lbl_e27:
+  branch.mem.global.eq(lbl_e3e, $0a478b, $07eb5c)
+  prompt.ok(lbl_e3e)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 150)
+# Obtained Wizard's Robe.\0
+  item.add(WIZARDSROBE)
+  global.sum($0a478b, $07eb5c)
+lbl_e3e:
+break
+

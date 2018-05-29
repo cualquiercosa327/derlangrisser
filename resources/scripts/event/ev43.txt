@@ -1,0 +1,505 @@
+# Movement-Triggered Events
+on.move(2, lbl_358, SONYA_D4, 0, 0xff)
+on.move(3, lbl_43d, SUCCUBUS_68, 0, 0xff)
+on.move(35, lbl_49e, VAMPIRELORD_4F, 0, 0xff)
+break
+
+# Attack-Triggered Events
+on.attack(22, lbl_360, SONYA_D4, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(1, lbl_375, VAMPIRELORD_4F, SONYA_D4, 0xff, 0x00, 0xff)
+on.attack(23, lbl_37d, VAMPIRELORD_4F, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(25, lbl_445, SUCCUBUS_68, SONYA_D4, 0x00, 0x00, 0xff)
+on.attack(36, lbl_4b3, VAMPIRELORD_4F, SONYA_D4, 0x00, 0xff, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(13, lbl_30e, ERWIN_01)
+on.defeat(14, lbl_318, HEIN_05)
+on.defeat(15, lbl_320, CHERIE_04)
+on.defeat(16, lbl_328, KEITH_07)
+on.defeat(17, lbl_330, LESTER_09)
+on.defeat(18, lbl_338, SCOTT_06)
+on.defeat(19, lbl_340, LIANA_02)
+on.defeat(20, lbl_348, LANA_03)
+on.defeat(21, lbl_350, AARON_08)
+on.defeat(24, lbl_38b, SONYA_D4)
+on.defeat(26, lbl_453, SUCCUBUS_68)
+on.damage(27, lbl_45e, NULL_FF, SUCCUBUS_68, 0xff, 0x00)
+on.defeat(28, lbl_466, SUCCUBUS_69)
+on.defeat(29, lbl_46e, GREATDRAGON_59)
+on.defeat(30, lbl_476, GREATDRAGON_5A)
+on.defeat(31, lbl_47e, LIVINGARMOR_4D)
+on.defeat(32, lbl_486, LIVINGARMOR_4E)
+on.defeat(33, lbl_48e, MASTERDINO_55)
+on.defeat(34, lbl_496, MASTERDINO_56)
+on.defeat(37, lbl_4bb, VAMPIRELORD_4F)
+on.defeat(38, lbl_4db, JORMUNGANDR_98)
+on.defeat(39, lbl_4e3, JORMUNGANDR_99)
+break
+
+# Position-Triggered Events
+on.bound(9, lbl_265, NPC_SUBUNIT_F1, 12, 1, 25, 26, 0x00, 0x00)
+on.bound(10, lbl_286, NPC_COMMANDER_F0, 27, 20, 27, 20, 0x00, 0x00)
+on.bound(11, lbl_2a9, NPC_COMMANDER_F0, 7, 6, 7, 6, 0x00, 0x00)
+on.bound(12, lbl_2d2, NPC_COMMANDER_F0, 22, 3, 22, 3, 0x00, 0x00)
+break
+
+# Turn-Triggered Events
+on.turn(4, lbl_1de, ENEMY, 1, 0x00)
+on.turn(5, lbl_1ea, ENEMY, 4, 0x00)
+on.turn(7, lbl_252, ALLY, 3, 0x00)
+on.turn(0, lbl_257, ALLY, 0, 0x00)
+on.turn(8, lbl_25f, ENEMY, 6, 0x00)
+break
+
+# Core Events
+lbl_11e:
+  bgm(ALLY, ALLY3)
+  screen.fadein(4)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.showsub(HEIN_05)
+  unit.position(CHERIE_04, PRESET, PRESET)
+  unit.showsub(CHERIE_04)
+  unit.position(KEITH_07, PRESET, PRESET)
+  unit.showsub(KEITH_07)
+  unit.position(LESTER_09, PRESET, PRESET)
+  unit.showsub(LESTER_09)
+  unit.position(SCOTT_06, PRESET, PRESET)
+  unit.showsub(SCOTT_06)
+  unit.position(LIANA_02, PRESET, PRESET)
+  unit.showsub(LIANA_02)
+  branch.mem.global.ne(lbl_154, $0a4793, $07eb5d)
+  unit.position(LANA_03, PRESET, PRESET)
+  unit.showsub(LANA_03)
+  goto(lbl_15a)
+lbl_154:
+  unit.position(AARON_08, PRESET, PRESET)
+  unit.showsub(AARON_08)
+lbl_15a:
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.showsub(ERWIN_01)
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 1)
+# Just beyond this bridge lies the forbidden soil of Velzeria.\0
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 2)
+# Those demons will think twice before attacking us while we hold Langrisser, I bet!\0
+  msg(KEITH_07, HEIN_05, KEITH, FOLLOW, 3)
+# Maybe so Hein, but you should never underestimate your enemies on the battlefield.\0
+  msg(HEIN_05, KEITH_07, HEIN, FOLLOW, 4)
+# I'll have to remember that, Keith. But I doubt anything will happ--\0
+  bgm(ALLY, ENEMY7_DARKPRINCESS)
+  unit.position(SONYA_D4, 28, 7)
+  msg(SONYA_D4, ERWIN_01, SONYA, FOLLOW, 5)
+# Langrisser's seal is broken, Descendants of Light. However I'll never give in to humans!\r\nUpon the burning Demon Tribe blood of my birth Father, I will rend the flesh from your bones as revenge for my brother!\0
+  unit.move(SONYA_D4, PRESET, PRESET)
+  msg(SONYA_D4, DOWN_F5, SONYA, FOLLOW, 6)
+# My dark brothers and sisters, hear me!\r\nThe Descendants of Light will not see the sunset this day. Avenge our Dark Prince, Boser!\0
+  unit.showsub(SONYA_D4)
+  unit.position(GREATDRAGON_5A, PRESET, PRESET)
+  unit.showsub(GREATDRAGON_5A)
+  unit.position(SUCCUBUS_68, PRESET, PRESET)
+  unit.showsub(SUCCUBUS_68)
+  unit.position(LIVINGARMOR_4D, PRESET, PRESET)
+  unit.showsub(LIVINGARMOR_4D)
+  unit.position(LIVINGARMOR_4E, PRESET, PRESET)
+  unit.showsub(LIVINGARMOR_4E)
+  unit.position(MASTERDINO_55, PRESET, PRESET)
+  unit.showsub(MASTERDINO_55)
+  unit.position(MASTERDINO_56, PRESET, PRESET)
+  unit.showsub(MASTERDINO_56)
+  unit.position(GREATDRAGON_59, PRESET, PRESET)
+  unit.showsub(GREATDRAGON_59)
+  unit.position(SUCCUBUS_69, PRESET, PRESET)
+  unit.showsub(SUCCUBUS_69)
+  msg(SUCCUBUS_69, LEFT_F6, SUCCUBUS_BLUE, FOLLOW, 7)
+# Lord Boser shall be avenged!\r\nWe won't fear the Descendants of Light!\0
+  msg(ERWIN_01, SONYA_D4, ERWIN, FOLLOW, 8)
+# Listen up, everyone! We can't go easy on Sonya, even if she is Rohga's sister!\r\nLet's show them the power of the newly awakened Langrisser. Fight for our ideals. Let's go!\0
+  bgm(ALLY, ALLY3)
+  local.sum($0a47d0, $07eb58)
+  local.sum($0a47d0, $07eb59)
+  local.sum($0a47d0, $07eb5a)
+  local.sum($0a47d0, $07eb5b)
+break
+
+lbl_1de:
+  branch.unit.dead(lbl_1e8, SONYA_D4)
+  msg(SONYA_D4, LEFT_F6, SONYA, FOLLOW, 9)
+# Death to the putrid humans! Yes, ... tear them to shreds!\0
+lbl_1e8:
+break
+
+lbl_1ea:
+  unit.deploy(VAMPIRELORD_4F, 25, 5)
+  branch.unit.dead(lbl_24a, SONYA_D4)
+  msg(SONYA_D4, VAMPIRELORD_4F, SONYA, FOLLOW, 10)
+# I'm counting on you! Destroy the human scum!\0
+  msg(VAMPIRELORD_4F, SONYA_D4, VAMPIRELORD, FOLLOW, 11)
+# Don't tell me what to do, bitch.\r\nI only followed you in the past because of a direct order from Boser himself.\r\nNow that he's dead, I don't have to take any of your shit!\r\nHmph ...! We're gonna have a little bloodbath!\r\nAnd you're cordially invited, you filthy, halfie bitch!\0
+  branch.unit.dead(lbl_20b, SUCCUBUS_68)
+  msg(SUCCUBUS_68, VAMPIRELORD_4F, SUCCUBUS_BLUE, FOLLOW, 81)
+# How interesting!\0
+  goto(lbl_215)
+lbl_20b:
+  branch.unit.dead(lbl_215, SUCCUBUS_69)
+  msg(SUCCUBUS_69, VAMPIRELORD_4F, SUCCUBUS_BLUE, FOLLOW, 81)
+# How interesting!\0
+lbl_215:
+  msg(SONYA_D4, VAMPIRELORD_4F, SONYA, FOLLOW, 12)
+# N, no way! You can't be serious ...\r\nB, but we're friends, aren't we ...!?\0
+  unit.clearbit(SONYA_D4, $17, 0)
+  unit.setbyte(SONYA_D4, $20, 0x08)
+  unit.refresh()
+  unit.setbit(SUCCUBUS_68, $17, 1)
+  unit.setbyte(SUCCUBUS_68, $21, 0xd4)
+  unit.setbit(SUCCUBUS_69, $17, 1)
+  unit.setbyte(SUCCUBUS_69, $21, 0xd4)
+  unit.setbit(SUCCUBUS_68, $17, 6)
+  local.sum($0a47d0, $07eb5e)
+  local.sub($0a47d0, $07eb5a)
+  local.sub($0a47d0, $07eb5b)
+  local.sub($0a47d0, $07eb59)
+  local.sub($0a47d0, $07eb58)
+  goto(lbl_250)
+lbl_24a:
+  msg(VAMPIRELORD_4F, SONYA_D4, VAMPIRELORD, FOLLOW, 13)
+# Let's have at it, Descendants of Trash!\r\nI shall avenge Lord Boser!\0
+lbl_250:
+break
+
+lbl_252:
+  bgm(ENEMY, ENEMYREINFORCEMENT2)
+break
+
+lbl_257:
+  msg(HEIN_05, SONYA_D4, HEIN, FOLLOW, 14)
+# What the hell?\r\nIt seems the enemy has divided into two factions.\0
+break
+
+lbl_25f:
+  unit.setbit(SUCCUBUS_69, $17, 6)
+break
+
+lbl_265:
+  unit.cleanup()
+  bgm(ENEMY, ENEMY8_BOSER)
+  bgm(ALLY, ALLYREINFORCEMENT2)
+  unit.deploy(JORMUNGANDR_98, 14, 2)
+  unit.deploy(JORMUNGANDR_99, 16, 2)
+  branch.unit.dead(lbl_27e, HEIN_05)
+  msg(HEIN_05, JORMUNGANDR_98, HEIN, FOLLOW, 15)
+# _NAME_, it seems she brought backup! Sea Serpents were hiding under water!\0
+lbl_27e:
+  msg(ERWIN_01, JORMUNGANDR_98, ERWIN, FOLLOW, 16)
+# Damn! Be wary near the river, everyone! Aquatic monsters can be quite powerful in water.\0
+break
+
+lbl_286:
+  branch.mem.global.eq(lbl_2a7, $0a478c, $07eb5e)
+  unit.cleanup()
+  global.sum($0a478c, $07eb5e)
+  prompt.ok(lbl_29f)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 18)
+# The small box turned to rust and vanished.\0
+  goto(lbl_2a7)
+lbl_29f:
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 19)
+# The box opens up with a satisfying squeak.\r\nYou lift out the precious gem from within the box.\r\nObtained Rune Stone.\0
+  item.add(RUNESTONE)
+lbl_2a7:
+break
+
+lbl_2a9:
+  branch.mem.global.eq(lbl_2d0, $0a478c, $07eb5f)
+  unit.cleanup()
+  prompt.ok(lbl_2bf)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 21)
+# The chain instantly turns to dust before your eyes.\0
+  goto(lbl_2cd)
+lbl_2bf:
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 22)
+# You carefully remove the chain using your hand.\r\nMoments later, it begins to sparkle.\0
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 23)
+# Obtained Gleipnir.\0
+  item.add(GLEIPNIR)
+lbl_2cd:
+  global.sum($0a478c, $07eb5f)
+lbl_2d0:
+break
+
+lbl_2d2:
+  branch.mem.global.eq(lbl_30c, $0a478c, $07eb5f)
+  unit.cleanup()
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 24)
+# After a little while, a large tree begins speaking.\r\n"You ... human ... Will you please unshackle that chain?"\r\n"That bothersome metal has encircled me for so long ..."\0
+  global.sum($0a478c, $07eb5f)
+  prompt.options(lbl_2f5, lbl_306, 25, 26, 27, 0x00, 0xf4, 0x00, 0x00)
+# Chop it off\0
+# Remove it by hand\0
+# Ignore the tree\0
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 28)
+# In severing the chain with your sword, you injure the tree.\r\nThe large tree falls silent.\0
+  goto(lbl_30c)
+lbl_2f5:
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 29)
+# Using your hands, you courteously remove the chain.\r\n"Thank you ... that chain was a burden these thousand years."\0
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 30)
+# Obtained Gleipnir.\0
+  item.add(GLEIPNIR)
+  goto(lbl_30c)
+lbl_306:
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 31)
+# The tree gives up and remains silent.\0
+lbl_30c:
+break
+
+lbl_30e:
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 32)
+# What!? You won ...?\0
+  unit.cleanup()
+  gameover()
+break
+
+lbl_318:
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 33)
+# Uggh! I never thought they could beat me ...\0
+break
+
+lbl_320:
+  msg(CHERIE_04, DOWN_F5, CHERIE_DEAD, FOLLOW, 34)
+# Horrible! That hurts!\0
+break
+
+lbl_328:
+  msg(KEITH_07, DOWN_F5, KEITH_DEAD, FOLLOW, 35)
+# Not bad ... They knocked me over ...\0
+break
+
+lbl_330:
+  msg(LESTER_09, DOWN_F5, LESTER_DEAD, FOLLOW, 36)
+# Shit! I'm beat!\0
+break
+
+lbl_338:
+  msg(SCOTT_06, DOWN_F5, SCOTT_DEAD, FOLLOW, 37)
+# Arrgh ... Can't win ...\0
+break
+
+lbl_340:
+  msg(LIANA_02, DOWN_F5, LIANA_DEAD, FOLLOW, 38)
+# I'm sorry. I'm going back ...\0
+break
+
+lbl_348:
+  msg(LANA_03, DOWN_F5, LANA_DEAD, FOLLOW, 39)
+# Ugh ... I can't do any more ... I'm sorry ...\0
+break
+
+lbl_350:
+  msg(AARON_08, DOWN_F5, AARON_DEAD, FOLLOW, 40)
+# My back hurts again.\0
+break
+
+lbl_358:
+  msg(SONYA_D4, LEFT_F6, SONYA, FOLLOW, 41)
+# No ... no ... Why!? This world hates me!\r\nEven my demon tribe allies turn against me!\0
+break
+
+lbl_360:
+  branch.mem.local.ne(lbl_36d, $0a47d0, $07eb5e)
+  msg(SONYA_D4, LEFT_F6, SONYA, NOFOLLOW, 42)
+# I won't die like this, I can't die!\r\nNo one will help me, I must survive!\r\nBetrayed again ... Groan! Get out of my way you backstabbing assholes!\0
+  goto(lbl_373)
+lbl_36d:
+  msg(SONYA_D4, LEFT_F6, SONYA, NOFOLLOW, 43)
+# You, ... you humans!\0
+lbl_373:
+break
+
+lbl_375:
+  msg(SONYA_D4, LEFT_F6, SONYA, FOLLOW, 44)
+# Attack me if you will! I won't let you kill me.\r\nThere's no way in hell I'll die here!\0
+break
+
+lbl_37d:
+  msg(VAMPIRELORD_4F, SONYA_D4, VAMPIRELORD, NOFOLLOW, 45)
+# Die!\0
+  msg(SONYA_D4, VAMPIRELORD_4F, SONYA, NOFOLLOW, 46)
+# Why!? Why did this happen?\0
+break
+
+lbl_38b:
+  branch.mem.local.ne(lbl_398, $0a47d0, $07eb5e)
+  msg(SONYA_D4, DOWN_F5, SONYA, FOLLOW, 47)
+# Ooh ...! This is wrong!\r\nAt this rate, I won't be able to win against you ...\r\nHowever, I'll never give up! Humanity and those treacherous demons will perish by my hand!\0
+  goto(lbl_3d0)
+lbl_398:
+  msg(SONYA_D4, DOWN_F5, SONYA_DEAD, FOLLOW, 48)
+# They're so strong ...\r\nIncredible, Langrisser is ... How could humans receive such incredible power ...?\0
+  branch.unit.dead(lbl_3b1, LANA_03)
+  msg(LANA_03, SONYA_D4, LANA, FOLLOW, 49)
+# Sonya, it's not the sword that makes us strong.\r\nWe believed in each other, helped one another, and became a powerful force, all without Langrisser!\0
+  msg(SONYA_D4, LANA_03, SONYA_DEAD, FOLLOW, 80)
+# Ha ha ... Heh heh heh ...\r\nYou'll never understand what its like to be a half-breed.\r\nWhat do you think its like to be betrayed by all those you trusted and loved?\r\nI am always suspicious of others ... But I guess there's no need to worry now ... I die a glorious child of Chaos.\0
+  goto(lbl_3d0)
+lbl_3b1:
+  branch.unit.dead(lbl_3c4, LIANA_02)
+  msg(LIANA_02, SONYA_D4, LIANA, FOLLOW, 50)
+# Sonya, it's not the sword that makes us strong.\r\nWe believed in each other, helped one another, and became a powerful force, all without Langrisser!\0
+  msg(SONYA_D4, LIANA_02, SONYA_DEAD, FOLLOW, 80)
+# Ha ha ... Heh heh heh ...\r\nYou'll never understand what its like to be a half-breed.\r\nWhat do you think its like to be betrayed by all those you trusted and loved?\r\nI am always suspicious of others ... But I guess there's no need to worry now ... I die a glorious child of Chaos.\0
+  goto(lbl_3ca)
+lbl_3c4:
+  msg(ERWIN_01, SONYA_D4, ERWIN, FOLLOW, 51)
+# Sonya, it's not the sword that makes us strong.\r\nWe believed in each other, helped one another, and became a powerful force, all without Langrisser!\0
+lbl_3ca:
+  msg(SONYA_D4, LEFT_F6, SONYA, FOLLOW, 52)
+# I'm so jealous ... of you all ... If I could live again--\0
+lbl_3d0:
+  unit.cleanup()
+  branch.unit.dead(lbl_3dd, VAMPIRELORD_4F)
+  msg(VAMPIRELORD_4F, SONYA_D4, VAMPIRELORD, FOLLOW, 53)
+# Damn! The tide has turned, retreat!\0
+  unit.retreat(VAMPIRELORD_4F)
+lbl_3dd:
+  unit.retreat(JORMUNGANDR_98)
+  unit.retreat(JORMUNGANDR_99)
+  unit.retreat(GREATDRAGON_5A)
+  unit.retreat(SUCCUBUS_68)
+  unit.retreat(MASTERDINO_55)
+  unit.retreat(LIVINGARMOR_4D)
+  unit.retreat(MASTERDINO_56)
+  unit.retreat(LIVINGARMOR_4E)
+  unit.retreat(SUCCUBUS_69)
+  unit.retreat(GREATDRAGON_59)
+  scenarioclear()
+  branch.unit.dead(lbl_3ff, LIANA_02)
+  msg(LIANA_02, DOWN_F5, LIANA_SAD, FOLLOW, 54)
+# Sonya ...\0
+  goto(lbl_409)
+lbl_3ff:
+  branch.unit.dead(lbl_409, LANA_03)
+  msg(LANA_03, DOWN_F5, LANA, FOLLOW, 55)
+# Sonya ...\0
+lbl_409:
+  branch.unit.dead(lbl_420, CHERIE_04)
+  branch.mem.local.ne(lbl_41a, $0a47d0, $07eb5e)
+  msg(CHERIE_04, SONYA_D4, CHERIE_SAD, FOLLOW, 56)
+# This is very heartbreaking ...\r\nHer whole life, people have abandoned her. There was no one she could depend on.\0
+  goto(lbl_420)
+lbl_41a:
+  msg(CHERIE_04, SONYA_D4, CHERIE_SAD, FOLLOW, 57)
+# She never had the chance to see the good side of the human spirit ...\r\nHow sad ...\0
+lbl_420:
+  branch.unit.dead(lbl_42a, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 58)
+# _NAME_, let's make sure her death is the last of this war's tragedies.\0
+lbl_42a:
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 59)
+# Everyone ... let's go! To Velzeria!\0
+  branch.mem.global.eq(lbl_439, $0a4793, $07eb5d)
+  loadscenario(35)
+  goto(lbl_43b)
+lbl_439:
+  loadscenario(23)
+lbl_43b:
+break
+
+lbl_43d:
+  msg(SUCCUBUS_68, SONYA_D4, SUCCUBUS_BLUE, FOLLOW, 60)
+# Your blood is tainted with the putrid stink of humanity!\r\nBecause of this, you will be disposed of!\0
+break
+
+lbl_445:
+  msg(SUCCUBUS_68, SONYA_D4, SUCCUBUS_BLUE, NOFOLLOW, 61)
+# Don't affiliate with us any longer!\r\nYou are the bastard shame of our tribe!\0
+  msg(SONYA_D4, SUCCUBUS_69, SONYA, NOFOLLOW, 62)
+# What ... Why!? What's happening...\0
+break
+
+lbl_453:
+  msg(SUCCUBUS_68, LEFT_F6, SUCCUBUS_BLUE, FOLLOW, 63)
+# Ugh, strong ...\0
+  local.sum($0a47d3, $07eb5b)
+break
+
+lbl_45e:
+  msg(SUCCUBUS_68, LEFT_F6, SUCCUBUS_BLUE, NOFOLLOW, 64)
+# Not bad ...\0
+break
+
+lbl_466:
+  msg(SUCCUBUS_69, LEFT_F6, SUCCUBUS_BLUE, FOLLOW, 65)
+# This is impossible!\0
+break
+
+lbl_46e:
+  msg(GREATDRAGON_59, LEFT_F6, WYVERN, FOLLOW, 66)
+# Gaahh ...\0
+break
+
+lbl_476:
+  msg(GREATDRAGON_5A, DOWN_F5, WYVERN, FOLLOW, 67)
+# Aarrgh!\0
+break
+
+lbl_47e:
+  msg(LIVINGARMOR_4D, DOWN_F5, DULLAHAN_GRAY, FOLLOW, 68)
+# Ugh ...\0
+break
+
+lbl_486:
+  msg(LIVINGARMOR_4E, DOWN_F5, DULLAHAN_GRAY, FOLLOW, 69)
+# ...\0
+break
+
+lbl_48e:
+  msg(MASTERDINO_55, DOWN_F5, MASTERDINO, FOLLOW, 70)
+# Ooohhh--!\0
+break
+
+lbl_496:
+  msg(MASTERDINO_56, DOWN_F5, MASTERDINO, FOLLOW, 71)
+# Ooohhh ...!\0
+break
+
+lbl_49e:
+  branch.mem.local.ne(lbl_4ab, $0a47d0, $07eb5e)
+  msg(VAMPIRELORD_4F, LEFT_F6, VAMPIRELORD, FOLLOW, 72)
+# Destroy everything! This is the will of Boser ...\0
+  goto(lbl_4b1)
+lbl_4ab:
+  msg(VAMPIRELORD_4F, LEFT_F6, VAMPIRELORD, FOLLOW, 73)
+# I've heard that the Descendants of Light have incredible power ...\r\nWe must go about this seriously.\0
+lbl_4b1:
+break
+
+lbl_4b3:
+  msg(VAMPIRELORD_4F, LEFT_F6, VAMPIRELORD, NOFOLLOW, 74)
+# It's over! Cease your futile struggling.\0
+break
+
+lbl_4bb:
+  msg(VAMPIRELORD_4F, LEFT_F6, VAMPIRELORD, FOLLOW, 75)
+# Gahh--! I've been hit ...\r\nCough ... Cough ...\r\nWryyyyyyyyyy!\r\nYou scum ...!\0
+  unit.cleanup()
+  branch.unit.dead(lbl_4cf, SUCCUBUS_68)
+  msg(SUCCUBUS_68, DOWN_F5, SUCCUBUS_BLUE, FOLLOW, 76)
+# Impossible! You defeated the Vampire Lord ...\0
+  goto(lbl_4d9)
+lbl_4cf:
+  branch.unit.dead(lbl_4d9, SUCCUBUS_69)
+  msg(SUCCUBUS_69, DOWN_F5, SUCCUBUS_BLUE, FOLLOW, 77)
+# What is this! You defeated the Vampire Lord ...\r\nHowever, now you shall witness the power of the first family of the night!\0
+lbl_4d9:
+break
+
+lbl_4db:
+  msg(JORMUNGANDR_98, DOWN_F5, JORMUNGANDR, FOLLOW, 78)
+# Ughh ... Ooohhh--!\0
+break
+
+lbl_4e3:
+  msg(JORMUNGANDR_99, DOWN_F5, JORMUNGANDR, FOLLOW, 79)
+# Uuughh--!\0
+break
+

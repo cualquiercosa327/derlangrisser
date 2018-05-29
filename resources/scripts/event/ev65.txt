@@ -1,0 +1,615 @@
+# Movement-Triggered Events
+on.move(6, lbl_4bf, SCOTT_CE, 0, 0xff)
+break
+
+# Attack-Triggered Events
+on.attack(13, lbl_3e4, ERWIN_01, SCOTT_CE, 0x00, 0x00, 0xff)
+on.attack(14, lbl_3f2, ERWIN_01, LOREN_2B, 0x00, 0x00, 0xff)
+on.attack(16, lbl_40a, HEIN_05, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(18, lbl_41a, NULL_FF, ROHGA_0B, 0xff, 0x00, 0xff)
+on.attack(20, lbl_42a, SONYA_0C, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(22, lbl_43a, ESTO_11, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(25, lbl_452, LOREN_2B, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(26, lbl_45a, NULL_FF, LOREN_2B, 0xff, 0x00, 0xff)
+on.attack(28, lbl_4e0, SCOTT_CE, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(30, lbl_536, NULL_FF, COMMANDER_23, 0xff, 0x00, 0xff)
+on.attack(32, lbl_553, COMMANDER_83, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(39, lbl_58b, COMMANDER_89, NULL_FF, 0x00, 0xff, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(15, lbl_400, ERWIN_01)
+on.defeat(17, lbl_412, HEIN_05)
+on.defeat(19, lbl_422, ROHGA_0B)
+on.defeat(21, lbl_432, SONYA_0C)
+on.defeat(23, lbl_442, ESTO_11)
+on.defeat(24, lbl_44a, OSTO_12)
+on.defeat(27, lbl_466, LOREN_2B)
+on.defeat(29, lbl_4e8, SCOTT_CE)
+on.defeat(31, lbl_54b, COMMANDER_23)
+on.defeat(33, lbl_55b, COMMANDER_83)
+on.defeat(34, lbl_563, COMMANDER_84)
+on.defeat(35, lbl_56b, COMMANDER_85)
+on.defeat(36, lbl_573, COMMANDER_86)
+on.defeat(37, lbl_57b, COMMANDER_87)
+on.defeat(38, lbl_583, COMMANDER_88)
+on.defeat(40, lbl_593, COMMANDER_89)
+on.defeat(41, lbl_59b, COMMANDER_8A)
+on.damage(42, lbl_5a6, NULL_FF, COMMANDER_8A, 0xff, 0x00)
+on.defeat(43, lbl_5af, COMMANDER_83, COMMANDER_85, COMMANDER_86, COMMANDER_89, COMMANDER_8A)
+on.defeat(44, lbl_5b4, LOREN_2B, SCOTT_CE)
+break
+
+# Position-Triggered Events
+on.bound(11, lbl_366, SCOTT_CE, 1, 1, 45, 2, 0x00, 0x00)
+on.bound(11, lbl_38c, LOREN_2B, 1, 1, 45, 2, 0x00, 0x00)
+on.bound(12, lbl_3a7, NPC_COMMANDER_F0, 27, 33, 27, 33, 0x00, 0x00)
+break
+
+# Turn-Triggered Events
+on.turn(0, lbl_2e2, ENEMY, 0, 0x00)
+on.turn(8, lbl_2eb, ENEMY, 1, 0x00)
+on.turn(1, lbl_309, ALLY, 0, 0x00)
+on.turn(2, lbl_32d, ENEMY, 0, 0x00)
+on.turn(3, lbl_34f, ALLY, 0, 0x00)
+on.turn(10, lbl_361, ALLY, 8, 0x00)
+break
+
+# Core Events
+lbl_13e:
+  bgm(ALLY, ALLY4)
+  focus.point(25, 17, FAST)
+  cursor.set(NULL_00)
+  cursor.hide()
+  unit.position(LOREN_2B, 26, 17)
+  unit.face(LOREN_2B, LEFT_F6)
+  unit.position(SCOTT_CE, 19, 17)
+  unit.face(LOREN_2B, RIGHT_F7)
+  screen.fadein(4)
+  unit.move(SCOTT_CE, 23, 17)
+  delay(30)
+  msg(SCOTT_CE, LOREN_2B, SCOTT, NOFOLLOW, 1)
+# Father, I have come as you requested.\0
+  msg(LOREN_2B, SCOTT_CE, LOREN, NOFOLLOW, 2)
+# Ah, good. We have just received some troubling news.\r\nIt seems that _NAME_ has left Lady Cherie's side. He is working with the Empire.\0
+  msg(SCOTT_CE, LOREN_2B, SCOTT, NOFOLLOW, 3)
+# You cannot be serious!\0
+  msg(LOREN_2B, SCOTT_CE, LOREN, NOFOLLOW, 4)
+# That is not all. He has taken Langrisser.\0
+  msg(SCOTT_CE, LOREN_2B, SCOTT, NOFOLLOW, 5)
+# For the Imperials?\0
+  delay(30)
+  unit.move(SCOTT_CE, 23, 18)
+  delay(20)
+  unit.move(SCOTT_CE, 23, 19)
+  msg(SCOTT_CE, DOWN_F5, SCOTT, NOFOLLOW, 6)
+# I see ...\r\nThings have become quite grim, have they not?\0
+  msg(LOREN_2B, SCOTT_CE, LOREN, NOFOLLOW, 7)
+# They have ...\0
+  unit.move(SCOTT_CE, 23, 17)
+  msg(SCOTT_CE, LOREN_2B, SCOTT, NOFOLLOW, 8)
+# As things stand, Cherie and her group are in great danger.\r\nWe must send our army for Kalxath. I shall lead the way!\0
+  delay(60)
+  msg(LOREN_2B, SCOTT_CE, LOREN, NOFOLLOW, 9)
+# Well said. Your spirit brings me pride, my son.\0
+  msg(SCOTT_CE, DOWN_F5, SCOTT, NOFOLLOW, 10)
+# You speak too highly of me, Father. It's embarrassing ...\0
+  delay(60)
+  msg(SCOTT_CE, RIGHT_F7, SCOTT, NOFOLLOW, 11)
+# Anyway, I will leave now and marshal our forces.\0
+  delay(30)
+  unit.move(SCOTT_CE, 19, 17)
+  unit.retreat(SCOTT_CE)
+  unit.position(SCOTT_CE, 8, 19)
+  unit.showsub(SCOTT_CE)
+  delay(10)
+  unit.move(LOREN_2B, 26, 16)
+  delay(20)
+  unit.face(LOREN_2B, DOWN_F5)
+  delay(50)
+  msg(LOREN_2B, DOWN_F5, LOREN, NOFOLLOW, 12)
+# Has it been ten years since he came to this house as an orphan ...?\r\nHe has grown to be a splendid young man.\0
+  unit.position(COMMANDER_23, 18, 17)
+  unit.move(COMMANDER_23, 23, 17)
+  msg(COMMANDER_23, LOREN_2B, PRIEST_WHITE, FOLLOW, 13)
+# Lord Loren, I don't believe my own eyes ...\r\nA horde of demons lays siege to our mansion ... and _NAME_ commands them.\0
+  unit.move(LOREN_2B, 23, 16)
+  msg(LOREN_2B, COMMANDER_23, LOREN, FOLLOW, 14)
+# No, ... that can't be ...\r\nHas this world gone mad!? Where is the Empire?\0
+  unit.face(LOREN_2B, RIGHT_F7)
+  delay(60)
+  msg(LOREN_2B, COMMANDER_23, LOREN, FOLLOW, 15)
+# Sound the alarm! All soldiers, assume defensive stations.\0
+  msg(COMMANDER_23, LOREN_2B, PRIEST_WHITE, FOLLOW, 16)
+# Yes, Sir!\0
+  unit.move(LOREN_2B, 18, 16)
+  unit.move(COMMANDER_23, PRESET, PRESET)
+  unit.face(COMMANDER_23, LEFT_F6)
+  unit.move(LOREN_2B, PRESET, PRESET)
+  cursor.set(ERWIN_01)
+  cursor.show()
+  bgm(ALLY, ALLY3)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.showsub(HEIN_05)
+  unit.position(ROHGA_0B, PRESET, PRESET)
+  unit.showsub(ROHGA_0B)
+  unit.position(SONYA_0C, PRESET, PRESET)
+  unit.showsub(SONYA_0C)
+  unit.position(ESTO_11, PRESET, PRESET)
+  unit.showsub(ESTO_11)
+  unit.position(OSTO_12, PRESET, PRESET)
+  unit.showsub(OSTO_12)
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.showsub(ERWIN_01)
+  msg(ERWIN_01, LOREN_2B, ERWIN, FOLLOW, 17)
+# Loren, our business is with Kalxath. Let us pass.\0
+  msg(LOREN_2B, ERWIN_01, LOREN, FOLLOW, 18)
+# The day Salrath yields to demons is the day I fall dead.\r\nNot one of you will cross our line.\0
+  msg(ERWIN_01, LOREN_2B, ERWIN, FOLLOW, 19)
+# So many pointless battles ... Well, no choice. Time to cut down a few more adversaries.\0
+  msg(LOREN_2B, ERWIN_01, LOREN, FOLLOW, 20)
+# We were such fools ... Putting our faith in a blackguard like you.\r\nAt least you're finally with your kindred, right? Bloodthirsty demons seem more suitable companions.\0
+  bgm(ALLY, ALLY4)
+  unit.showsub(LOREN_2B)
+  unit.showsub(COMMANDER_23)
+  unit.position(COMMANDER_83, PRESET, PRESET)
+  unit.showsub(COMMANDER_83)
+  unit.position(COMMANDER_84, PRESET, PRESET)
+  unit.showsub(COMMANDER_84)
+  unit.position(COMMANDER_85, PRESET, PRESET)
+  unit.showsub(COMMANDER_85)
+  unit.position(COMMANDER_86, PRESET, PRESET)
+  unit.showsub(COMMANDER_86)
+  unit.position(COMMANDER_87, PRESET, PRESET)
+  unit.showsub(COMMANDER_87)
+  unit.position(COMMANDER_88, PRESET, PRESET)
+  unit.showsub(COMMANDER_88)
+  unit.position(COMMANDER_89, PRESET, PRESET)
+  unit.showsub(COMMANDER_89)
+  unit.position(COMMANDER_8A, PRESET, PRESET)
+  unit.showsub(COMMANDER_8A)
+  msg(ERWIN_01, LOREN_2B, ERWIN, FOLLOW, 21)
+# No one we meet has a brain in their head.\r\nIf you surrender, we will pass. If you don't, we will slaughter any and all resistance.\r\nLoren, you're a wise man. Make a wise decision.\0
+  msg(SCOTT_CE, LOREN_2B, SCOTT, FOLLOW, 22)
+# Father, ... please don't listen to him.\0
+  msg(LOREN_2B, SCOTT_CE, LOREN, FOLLOW, 23)
+# Do not worry, my son.\r\nYou think Salrath can't fend off a few yellow-livered monsters?\r\nWe scrape things fiercer than them off our boots.\r\nScott, remember my instructions in war ...\r\nThe correct strategy will bring any foe to his knees. One must simply find it!\0
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 24)
+# Only a few men hold the mansion's interior.\0
+  msg(ERWIN_01, HEIN_05, ERWIN, FOLLOW, 25)
+# Is that really all they have? Salrath disappoints me.\r\nMaybe we can cut them down without a single casualty.\0
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 26)
+# Everyone, remember, if this drags on, word will get to Kalxath.\r\nWe need to make excellent use of our time.\0
+  msg(SONYA_0C, ERWIN_01, SONYA, FOLLOW, 27)
+# Against our military strength, Kalxath means nothing.\0
+  msg(ERWIN_01, SONYA_0C, ERWIN, FOLLOW, 28)
+# Don't be hasty, Rohga. We must pursue the best available strategy.\r\nWe took this detour to surprise Kalxath, and we may lose that advantage.\r\nHow can we solve this quickly?\0
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 29)
+# Well, spell-casting should be very effective here!\r\nThe right magic should make this battle a snap.\0
+  msg(ERWIN_01, HEIN_05, ERWIN, FOLLOW, 30)
+# Understood. Hein, I need you to support our forward squads.\0
+  bgm(ALLY, ALLY3)
+  local.sum($0a47d0, $07eb58)
+  local.sum($0a47d0, $07eb59)
+  local.sum($0a47d0, $07eb5a)
+  local.sum($0a47d0, $07eb5b)
+  local.sum($0a47d0, $07eb5c)
+  local.sum($0a47d0, $07eb5d)
+  local.sum($0a47d0, $07eb5e)
+break
+
+lbl_2e2:
+  branch.mem.local.eq(lbl_2e9, $0a47d0, $07eb5f)
+  subroutine(lbl_5fc)
+lbl_2e9:
+break
+
+lbl_2eb:
+  msg(LOREN_2B, SCOTT_CE, LOREN, FOLLOW, 31)
+# Under these conditions, we should hold back and exploit our strong position.\r\nScott, there may be an opening during the battle. Escape as soon as you see it.\0
+  branch.unit.dead(lbl_2fb, COMMANDER_84)
+  msg(COMMANDER_84, LOREN_2B, SWORDSMAN2_BLACK, FOLLOW, 32)
+# We can do better than that! Allow us to create a diversion.\0
+lbl_2fb:
+  msg(LOREN_2B, SCOTT_CE, LOREN, FOLLOW, 33)
+# Hmmm ... Yes, please do.\0
+  msg(SCOTT_CE, LOREN_2B, SCOTT, FOLLOW, 34)
+# Everyone, thank you.\0
+break
+
+lbl_309:
+  msg(ERWIN_01, LOREN_2B, ERWIN, FOLLOW, 35)
+# I ask one last time. Will you surrender?\0
+  branch.unit.dead(lbl_31c, LOREN_2B)
+  msg(LOREN_2B, ERWIN_01, LOREN, FOLLOW, 36)
+# Hah hah hah! What good would that do? What future would we have?\r\nCowering in fear under a cut-throat tyrant and his slavering demons?\r\nI think you've used up your capital with us, sir, and not very prudently.\0
+  goto(lbl_322)
+lbl_31c:
+  msg(SCOTT_CE, ERWIN_01, SCOTT, FOLLOW, 37)
+# I am loyal to Father and to Salrath.\r\nAnd _NAME_, by throwing in with fiends, you're no friend of either!\0
+lbl_322:
+  msg(ERWIN_01, LOREN_2B, ERWIN, FOLLOW, 38)
+# So, death then. That choice has become quite popular ...\0
+  local.sub($0a47d0, $07eb5a)
+break
+
+lbl_32d:
+  branch.mem.local.eq(lbl_34d, $0a47d1, $07eb59)
+  branch.unit.dead(lbl_347, LOREN_2B)
+  msg(LOREN_2B, SCOTT_CE, LOREN, FOLLOW, 39)
+# Scott, ... our enemies are far stronger than expected.\r\nYou must escape when the chance arrives and meet our friends at Kalxath.\r\nTell them _NAME_ has taken arms with darkness ... and seeks to ruin us all.\0
+  msg(SCOTT_CE, LOREN_2B, SCOTT, FOLLOW, 40)
+# But, what about you?\0
+  msg(LOREN_2B, SCOTT_CE, LOREN, FOLLOW, 41)
+# This is not just our problem. The fate of the entire continent lies with you.\r\nUnderstand, Scott. Escape when you can.\0
+lbl_347:
+  local.sub($0a47d0, $07eb58)
+  local.sum($0a47d1, $07eb59)
+lbl_34d:
+break
+
+lbl_34f:
+  msg(ERWIN_01, SCOTT_CE, ERWIN, FOLLOW, 42)
+# No, Scott can't leave! If Kalxath learns our plan, then they'll be prepared.\0
+  branch.unit.dead(lbl_35f, ROHGA_0B)
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 43)
+# Damn it all ... This is troublesome.\0
+lbl_35f:
+break
+
+lbl_361:
+  local.sub($0a47d0, $07eb5a)
+break
+
+lbl_366:
+  msg(SCOTT_CE, UP_F4, SCOTT, FOLLOW, 44)
+# Yes, we've broken through!\0
+  branch.unit.dead(lbl_37f, LOREN_2B)
+  msg(LOREN_2B, SCOTT_CE, LOREN, FOLLOW, 45)
+# Good work, Scott.\0
+  msg(SCOTT_CE, LOREN_2B, SCOTT, FOLLOW, 46)
+# Rest easy, Father. I will ensure our victory at Kalxath.\0
+  goto(lbl_385)
+lbl_37f:
+  msg(SCOTT_CE, LOREN_2B, SCOTT_SAD, FOLLOW, 47)
+# Father, ... watch from the heavens, and witness our victory at Kalxath.\0
+lbl_385:
+  unit.retreat(SCOTT_CE)
+  subroutine(lbl_612)
+break
+
+lbl_38c:
+  unit.cleanup()
+  branch.unit.dead(lbl_39a, SCOTT_CE)
+  msg(LOREN_2B, SCOTT_CE, LOREN, FOLLOW, 48)
+# Imperial troops, hmm? My men are far superior.\0
+  goto(lbl_3a0)
+lbl_39a:
+  msg(LOREN_2B, SCOTT_CE, LOREN, FOLLOW, 49)
+# Scott ... Don't be careless.\r\nKalxath plays at friendship, but they thirst for power just as much as the Empire.\r\nThat's why the two have had such poor relations. Just read your history.\0
+lbl_3a0:
+  unit.retreat(LOREN_2B)
+  subroutine(lbl_612)
+break
+
+lbl_3a7:
+  branch.mem.global.eq(lbl_3e2, $0a478b, $07eb5d)
+  unit.cleanup()
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 50)
+# Several obscure characters are carved into the slate.\r\n"If you want, offer me a prayer. I will grant your fond desire."\r\nWhat do you desire?\0
+  prompt.options(lbl_3ca, lbl_3d6, 51, 52, 53, 0x00, 0xf4, 0x00, 0x00)
+# More troops\0
+# Attack power\0
+# Defence power\0
+  unit.attributeboost(12, 2)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 54)
+# Troops raised.\0
+  goto(lbl_3df)
+lbl_3ca:
+  unit.statboost(58, 1)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 55)
+# AT raised by 1 point.\0
+  goto(lbl_3df)
+lbl_3d6:
+  unit.statboost(59, 1)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 56)
+# DF raised by 1 point.\0
+lbl_3df:
+  global.sum($0a478b, $07eb5d)
+lbl_3e2:
+break
+
+lbl_3e4:
+  msg(SCOTT_CE, ERWIN_01, SCOTT, NOFOLLOW, 57)
+# _NAME_, have you sold your soul!?\r\nWhy are you commanding a horde of monsters!?\0
+  msg(ERWIN_01, SCOTT_CE, ERWIN, NOFOLLOW, 58)
+# I accept any assistance in unifying the continent, man or demon.\0
+break
+
+lbl_3f2:
+  msg(ERWIN_01, LOREN_2B, ERWIN, NOFOLLOW, 59)
+# Persistent bastards ... Loren, have you any idea how insignificant your army is?\0
+  msg(LOREN_2B, ERWIN_01, LOREN, NOFOLLOW, 60)
+# Look around at my manor. If you think we will surrender, then you must be dreaming!\r\nWe are all prepared to lay down our lives to stop you and your minions, _NAME_!\0
+break
+
+lbl_400:
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 61)
+# Th, this world ... Is this the end ...?\0
+  unit.cleanup()
+  gameover()
+break
+
+lbl_40a:
+  msg(HEIN_05, RIGHT_F7, HEIN, NOFOLLOW, 62)
+# You have no chance!\0
+break
+
+lbl_412:
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 63)
+# Salrath's men ... are dedicated ...!\0
+break
+
+lbl_41a:
+  msg(ROHGA_0B, RIGHT_F7, ROHGA, NOFOLLOW, 64)
+# Thinking about attacking me? You have some nerve.\0
+break
+
+lbl_422:
+  msg(ROHGA_0B, DOWN_F5, ROHGA_DEAD, FOLLOW, 65)
+# Damn it, my good hand--! You'll pay for that!\0
+break
+
+lbl_42a:
+  msg(SONYA_0C, RIGHT_F7, SONYA, NOFOLLOW, 66)
+# Your peace is one where humans treat demons like dirt! I will never accept that!\0
+break
+
+lbl_432:
+  msg(SONYA_0C, DOWN_F5, SONYA_DEAD, FOLLOW, 67)
+# You rotten, tricky ... damned humans ... Don't be so arrogant ...!\0
+break
+
+lbl_43a:
+  msg(ESTO_11, RIGHT_F7, ESTO, FOLLOW, 68)
+# Humans, die!\0
+break
+
+lbl_442:
+  msg(ESTO_11, DOWN_F5, ESTO_DEAD, FOLLOW, 69)
+# Uuggghhh--!\0
+break
+
+lbl_44a:
+  msg(OSTO_12, DOWN_F5, OSTO_DEAD, FOLLOW, 70)
+# Aaaah ...!\0
+break
+
+lbl_452:
+  msg(LOREN_2B, LEFT_F6, LOREN, NOFOLLOW, 71)
+# We will not tolerate your vicious bloodshed any longer, _NAME_!\0
+break
+
+lbl_45a:
+  branch.mem.local.ne(lbl_464, $0a47d0, $07eb5f)
+  msg(LOREN_2B, LEFT_F6, LOREN, NOFOLLOW, 72)
+# Until Scott's safe escape, we must not lose!\0
+lbl_464:
+break
+
+lbl_466:
+  branch.unit.dead(lbl_4b7, SCOTT_CE)
+  branch.mem.local.eq(lbl_4a7, $0a47d0, $07eb5f)
+  bgm(ALLY, REQUIEM1)
+  bgm(ENEMY, REQUIEM1)
+  msg(LOREN_2B, SCOTT_CE, LOREN_DEAD, FOLLOW, 73)
+# Uuggghh--! Is this the best I could do!? Scott, forgive me ...\r\nWhatever happens, don't follow the fate of your Father ...\0
+  msg(SCOTT_CE, LOREN_2B, SCOTT_SAD, FOLLOW, 74)
+# Father! Please, hang on!\0
+  msg(LOREN_2B, SCOTT_CE, LOREN_DEAD, FOLLOW, 75)
+# Scott, continue to learn. Always improve your tactics, and travel the Knight's path.\r\nI have no regrets. Save that ... you'd had the chance to be an ordinary child, for a time ...\0
+  msg(SCOTT_CE, LOREN_2B, SCOTT_SAD, FOLLOW, 76)
+# Father ... What are you talking about?\r\nEven though I was an orphan, you raised me as a true son.\r\nYou're the best father I could have wished for!\0
+  msg(LOREN_2B, SCOTT_CE, LOREN_DEAD, FOLLOW, 77)
+# Thank you, Scott. You've indulged an old man's ego till the very end ...\r\nSwear to tell ... Kalxath ...\r\nThe rest, the rest ... I leave to you ... my son ...\0
+  unit.cleanup()
+  msg(SCOTT_CE, LOREN_2B, SCOTT_SAD, FOLLOW, 78)
+# Father!\r\nI swear I'll get to Kalxath. Please, watch over me.\0
+  delay(20)
+  bgm(ALLY, ALLY3)
+  bgm(ENEMY, ALLY4)
+  subroutine(lbl_5fc)
+  goto(lbl_4b4)
+lbl_4a7:
+  msg(LOREN_2B, SCOTT_CE, LOREN_DEAD, FOLLOW, 79)
+# Uuggghhh ... Scott ... I'm done for ... Everything rides ... on you ...\0
+  unit.cleanup()
+  msg(SCOTT_CE, LOREN_2B, SCOTT_SAD, FOLLOW, 80)
+# Father!\r\nI swear I'll get to Kalxath. Please, watch over me.\0
+lbl_4b4:
+  goto(lbl_4bd)
+lbl_4b7:
+  msg(LOREN_2B, DOWN_F5, LOREN_DEAD, FOLLOW, 81)
+# Alas, even Salrath cannot escape its own end ...\r\nMy apologies, dear Scott ... Please ... avenge us ...\0
+lbl_4bd:
+break
+
+lbl_4bf:
+  branch.unit.dead(lbl_4d8, LOREN_2B)
+  msg(LOREN_2B, SCOTT_CE, LOREN, FOLLOW, 82)
+# Leave now, Scott! Go to Kalxath!\0
+  msg(SCOTT_CE, LOREN_2B, SCOTT, FOLLOW, 83)
+# I will, Father. Please stay safe.\0
+  msg(LOREN_2B, SCOTT_CE, LOREN, FOLLOW, 84)
+# I will do my best. Thank you.\0
+  goto(lbl_4de)
+lbl_4d8:
+  msg(SCOTT_CE, DOWN_F5, SCOTT, FOLLOW, 85)
+# Father, I must set out for Kalxath immediately!\0
+lbl_4de:
+break
+
+lbl_4e0:
+  msg(SCOTT_CE, LEFT_F6, SCOTT, NOFOLLOW, 86)
+# I won't be beaten here!\0
+break
+
+lbl_4e8:
+  branch.unit.dead(lbl_522, LOREN_2B)
+  bgm(ALLY, REQUIEM1)
+  bgm(ENEMY, REQUIEM1)
+  msg(SCOTT_CE, LOREN_2B, SCOTT_DEAD, FOLLOW, 87)
+# Aarrgghh--!\0
+  msg(LOREN_2B, SCOTT_CE, LOREN, FOLLOW, 88)
+# Scott!\0
+  msg(SCOTT_CE, LOREN_2B, SCOTT_DEAD, FOLLOW, 89)
+# Forgive me ... Father ...\r\nI trained hard, ... but it wasn't enough ...\0
+  msg(LOREN_2B, SCOTT_CE, LOREN, FOLLOW, 90)
+# Scott ...? Stand up, Scott!\0
+  msg(SCOTT_CE, LOREN_2B, SCOTT_DEAD, FOLLOW, 91)
+# You raised and cared for a nameless orphan like me ... I humbly thank you for that.\r\nAnd after all you've done, ... I've repaid you with my wasteful death ...\r\nFor my Father's best efforts ... For this world ... I die ... Forgive me.\0
+  unit.cleanup()
+  msg(LOREN_2B, SCOTT_CE, LOREN, FOLLOW, 92)
+# Scccotttt!\r\nI've never thought you any less than my own child.\r\nEven if we've different blood, you will always be my son.\r\nThat's ... That's why ...\r\nDamn you, monsters! You'll know a father's vengeance for his child!\0
+  delay(20)
+  bgm(ALLY, ALLY3)
+  bgm(ENEMY, ALLY4)
+  goto(lbl_534)
+lbl_522:
+  msg(SCOTT_CE, ERWIN_01, SCOTT, FOLLOW, 93)
+# _NAME_, why ... why have you ... joined the darkness ...?\0
+  msg(ERWIN_01, SCOTT_CE, ERWIN, FOLLOW, 94)
+# I simply use means as they become available, just like a humble merchant.\r\nDo not worry yourself. Soon, this continent will know my benevolent rule.\0
+  msg(SCOTT_CE, ERWIN_01, SCOTT, FOLLOW, 95)
+# Darkness ... will bring ... this world to Hell ... Don't you ... know ...\0
+lbl_534:
+break
+
+lbl_536:
+  branch.unit.dead(lbl_543, LOREN_2B)
+  msg(COMMANDER_23, LEFT_F6, PRIEST_WHITE, NOFOLLOW, 96)
+# I will protect Loren and Scott!\0
+  goto(lbl_549)
+lbl_543:
+  msg(COMMANDER_23, LEFT_F6, PRIEST_WHITE, NOFOLLOW, 97)
+# At the least, we must protect Scott!\0
+lbl_549:
+break
+
+lbl_54b:
+  msg(COMMANDER_23, DOWN_F5, PRIEST_WHITE_DEAD, FOLLOW, 98)
+# Aaahh--!\0
+break
+
+lbl_553:
+  msg(COMMANDER_83, DOWN_F5, SWORDSMAN2_BLACK, NOFOLLOW, 99)
+# Die!\0
+break
+
+lbl_55b:
+  msg(COMMANDER_83, DOWN_F5, SWORDSMAN2_BLACK_DEAD, FOLLOW, 100)
+# Uuggghh--! Is this the end for me, too ...?\0
+break
+
+lbl_563:
+  msg(COMMANDER_84, DOWN_F5, SWORDSMAN2_BLACK_DEAD, FOLLOW, 101)
+# No ... What are you saying ...?\0
+break
+
+lbl_56b:
+  msg(COMMANDER_85, DOWN_F5, KNIGHT2_BLACK_DEAD, FOLLOW, 102)
+# L, Lord--!\0
+break
+
+lbl_573:
+  msg(COMMANDER_86, DOWN_F5, KNIGHT2_BLACK_DEAD, FOLLOW, 103)
+# Uugghhh ...! My life is over ... alread--?\0
+break
+
+lbl_57b:
+  msg(COMMANDER_87, DOWN_F5, SWORDSMAN2_BLACK_DEAD, FOLLOW, 104)
+# I couldn't protect Scott ...\0
+break
+
+lbl_583:
+  msg(COMMANDER_88, DOWN_F5, MAGE_GRAY_DEAD, FOLLOW, 105)
+# M, my mission ...\0
+break
+
+lbl_58b:
+  msg(COMMANDER_89, DOWN_F5, SERPENTKNIGHT_BLACK, NOFOLLOW, 106)
+# Grrr, die!\0
+break
+
+lbl_593:
+  msg(COMMANDER_89, DOWN_F5, SERPENTKNIGHT_BLACK_DEAD, FOLLOW, 107)
+# We've been defeated ...\0
+break
+
+lbl_59b:
+  msg(COMMANDER_8A, DOWN_F5, SERPENTKNIGHT_BLACK_DEAD, FOLLOW, 108)
+# Everyone, I'm sorry.\0
+  local.sum($0a47d5, $07eb5a)
+break
+
+lbl_5a6:
+  unit.cleanup()
+  msg(COMMANDER_8A, LEFT_F6, SERPENTKNIGHT_BLACK, FOLLOW, 109)
+# Please hurry, Lord Scott! I can't hold them much longer.\0
+break
+
+lbl_5af:
+  local.sub($0a47d0, $07eb59)
+break
+
+lbl_5b4:
+  unit.cleanup()
+  scenarioclear()
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 110)
+# All right, we did it!\0
+  branch.unit.dead(lbl_5df, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 111)
+# Ugh, what a disaster. I'm exhausted.\0
+  branch.unit.dead(lbl_5df, ROHGA_0B)
+  msg(ROHGA_0B, HEIN_05, ROHGA, FOLLOW, 112)
+# We did what had to be done.\r\nStill, it must be hard on you and Hein to kill old comrades.\0
+  focus.unit(HEIN_05)
+  unit.face(HEIN_05, DOWN_F5)
+  delay(30)
+  msg(HEIN_05, DOWN_F5, HEIN_SAD, FOLLOW, 113)
+# Moreover, Cherie's group is next on our list ...\0
+lbl_5df:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 114)
+# Salrath has fallen, and Kalxath will soon follow.\0
+  branch.unit.dead(lbl_5f2, SONYA_0C)
+  msg(SONYA_0C, ERWIN_01, SONYA, FOLLOW, 115)
+# Let's keep up the pace!\0
+  goto(lbl_5f8)
+lbl_5f2:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 116)
+# We'll depart for Kalxath at once!\0
+lbl_5f8:
+  loadscenario(59)
+break
+
+lbl_5fc:
+  unit.setbit(SCOTT_CE, $17, 0)
+  unit.setbyte(SCOTT_CE, $22, 0x0f)
+  unit.setbyte(SCOTT_CE, $23, 0x01)
+  local.sum($0a47d0, $07eb5f)
+  local.sub($0a47d0, $07eb5b)
+  local.sub($0a47d0, $07eb5e)
+endsub
+
+lbl_612:
+  msg(ERWIN_01, SCOTT_CE, ERWIN, FOLLOW, 117)
+# Damn it! They got away!\0
+  branch.unit.dead(lbl_622, SONYA_0C)
+  msg(SONYA_0C, ERWIN_01, SONYA, FOLLOW, 118)
+# We've lost this war. Taking Castle Kalxath will now be impossible ...\0
+lbl_622:
+  msg(ERWIN_01, SCOTT_CE, ERWIN, FOLLOW, 119)
+# We should have considered our tactics more prudently.\0
+  gameover()
+endsub
+

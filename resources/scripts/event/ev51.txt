@@ -1,0 +1,776 @@
+# Movement-Triggered Events
+on.move(8, lbl_3df, JESSICA_14, 0, 0xff)
+on.move(7, lbl_3fa, JESSICA_14, 0, 0xff)
+on.move(34, lbl_447, LESTER_D1, 1, 0xff)
+on.move(0, lbl_44f, LESTER_D1, 0, 0xff)
+on.move(1, lbl_479, KEITH_07, 0, 0xff)
+on.move(9, lbl_5a9, LIANA_CA, 0, 0xff)
+on.move(39, lbl_5cb, COMMANDER_85, 1, 0xff)
+break
+
+# Attack-Triggered Events
+on.attack(18, lbl_35e, ERWIN_01, LIANA_CA, 0x00, 0x00, 0xff)
+on.attack(19, lbl_372, ERWIN_01, CHERIE_CC, 0x00, 0x00, 0xff)
+on.attack(26, lbl_3b2, EGBERT_10, LIANA_CA, 0x00, 0x00, 0xff)
+on.attack(27, lbl_3ba, EGBERT_10, LESTER_D1, 0x00, 0x00, 0xff)
+on.attack(32, lbl_415, CHERIE_CC, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(10, lbl_41d, CHERIE_CC, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(10, lbl_425, ERWIN_01, CHERIE_CC, 0xff, 0x00, 0xff)
+on.attack(11, lbl_457, LESTER_D1, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(40, lbl_5d3, COMMANDER_85, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(42, lbl_5f0, COMMANDER_86, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(44, lbl_60d, COMMANDER_87, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(46, lbl_61d, NULL_FF, COMMANDER_88, 0xff, 0x00, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(20, lbl_380, ERWIN_01)
+on.defeat(21, lbl_38a, HEIN_05)
+on.defeat(22, lbl_392, ROHGA_0B)
+on.defeat(23, lbl_39a, LEON_0D)
+on.defeat(24, lbl_3a2, IMELDA_0F)
+on.defeat(25, lbl_3aa, VARGAS_0E)
+on.defeat(28, lbl_3c8, EGBERT_10)
+on.defeat(30, lbl_408, JESSICA_14)
+on.defeat(33, lbl_42d, CHERIE_CC)
+on.defeat(35, lbl_45f, LESTER_D1)
+on.defeat(36, lbl_4ea, KEITH_CF)
+on.defeat(38, lbl_5b1, LIANA_CA)
+on.defeat(41, lbl_5db, COMMANDER_85)
+on.defeat(43, lbl_5f8, COMMANDER_86)
+on.defeat(45, lbl_615, COMMANDER_87)
+on.defeat(47, lbl_625, COMMANDER_88)
+on.defeat(48, lbl_62d, COMMANDER_8B)
+on.defeat(49, lbl_635, COMMANDER_23)
+on.damage(37, lbl_63d, NULL_FF, KEITH_CF, 0xff, 0x00)
+on.damage(37, lbl_649, KEITH_CF, NULL_FF, 0x00, 0xff)
+on.damage(50, lbl_64e, NULL_FF, LESTER_D1, 0xff, 0x00)
+on.damage(31, lbl_657, NULL_FF, JESSICA_14, 0xff, 0x00)
+on.damage(31, lbl_65d, JESSICA_14, NULL_FF, 0x00, 0xff)
+on.defeat(51, lbl_663, JESSICA_14, CHERIE_CC, LESTER_D1, KEITH_CF, COMMANDER_85, COMMANDER_86, COMMANDER_87, COMMANDER_88, COMMANDER_8B, COMMANDER_23)
+on.defeat(17, lbl_6a5, COMMANDER_85, COMMANDER_86, COMMANDER_87, COMMANDER_88)
+on.defeat(52, lbl_6ae, CHERIE_CC, LESTER_D1, KEITH_CF, COMMANDER_85, COMMANDER_86, COMMANDER_87, COMMANDER_88, COMMANDER_8B, COMMANDER_23)
+break
+
+# Position-Triggered Events
+on.bound(14, lbl_33b, LIANA_CA, 27, 1, 30, 2, 0x00, 0x00)
+on.bound(15, lbl_34b, LIANA_CA, 20, 4, 25, 6, 0x00, 0x00)
+on.bound(15, lbl_350, LIANA_CA, 24, 7, 25, 7, 0x00, 0x00)
+on.bound(16, lbl_355, NPC_SUBUNIT_F1, 3, 8, 30, 22, 0x00, 0x00)
+on.range(29, lbl_756, EGBERT_10, LIANA_CA, 1, 0x00, 0x00, 0x00, 0x00)
+on.bound(55, lbl_7a7, NPC_COMMANDER_F0, 26, 1, 26, 1, 0x00, 0x00)
+break
+
+# Turn-Triggered Events
+on.turn(12, lbl_2c3, ENEMY, 1, 0x00)
+on.turn(2, lbl_2cb, ALLY, 0, 0x00)
+on.turn(3, lbl_300, ALLY, 0, 0x00)
+on.turn(13, lbl_31a, ENEMY, 7, 0x00)
+on.turn(4, lbl_31f, ENEMY, 0, 0x00)
+on.turn(5, lbl_324, ALLY, 0, 0x00)
+on.turn(6, lbl_329, ENEMY, 0, 0x00)
+break
+
+# Core Events
+lbl_1c0:
+  bgm(ALLY, ALLYREINFORCEMENT1)
+  screen.fadein(4)
+  unit.position(LIANA_CA, PRESET, PRESET)
+  unit.showsub(LIANA_CA)
+  unit.position(JESSICA_14, PRESET, PRESET)
+  unit.showsub(JESSICA_14)
+  unit.position(COMMANDER_23, PRESET, PRESET)
+  unit.showsub(COMMANDER_23)
+  unit.position(COMMANDER_8B, PRESET, PRESET)
+  unit.showsub(COMMANDER_8B)
+  unit.position(LESTER_D1, PRESET, PRESET)
+  unit.showsub(LESTER_D1)
+  unit.position(KEITH_CF, PRESET, PRESET)
+  unit.showsub(KEITH_CF)
+  unit.position(COMMANDER_85, PRESET, PRESET)
+  unit.showsub(COMMANDER_85)
+  unit.position(COMMANDER_86, PRESET, PRESET)
+  unit.showsub(COMMANDER_86)
+  unit.position(COMMANDER_87, PRESET, PRESET)
+  unit.showsub(COMMANDER_87)
+  unit.position(COMMANDER_88, PRESET, PRESET)
+  unit.showsub(COMMANDER_88)
+  unit.position(CHERIE_CC, PRESET, PRESET)
+  unit.showsub(CHERIE_CC)
+  msg(CHERIE_CC, DOWN_F5, CHERIE, FOLLOW, 1)
+# Work quickly! We'll need this place as well-fortified as possible!\0
+  msg(COMMANDER_85, CHERIE_CC, HIGHLORD_BLACK, FOLLOW, 2)
+# Our troops are making the preparations as you speak.\0
+  msg(LESTER_D1, CHERIE_CC, LESTER, FOLLOW, 3)
+# The Empire has both Alhazard and Langrisser, don't they ...?\r\nThey won't lay around. They'll crush us in one vulgar display of power.\r\nReally, is there any way to win against these odds?\0
+  msg(JESSICA_14, LESTER_D1, JESSICA, FOLLOW, 4)
+# Don't count us out just yet. We have a few ideas up our sleeves.\r\nBut there's still plenty of work to do.\0
+  msg(KEITH_CF, JESSICA_14, KEITH, FOLLOW, 5)
+# The Empire is moving very fast in this operation ...\r\nAnd even twice the time wouldn't have been enough.\r\nHowever, if we work as one and cover our weaknesses, we'll prevail.\0
+  msg(JESSICA_14, KEITH_CF, JESSICA, FOLLOW, 6)
+# Oh, look! The guests of honour have finally arrived.\0
+  bgm(ALLY, ENEMY2_VARGAS)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.showsub(HEIN_05)
+  unit.position(ROHGA_0B, PRESET, PRESET)
+  unit.showsub(ROHGA_0B)
+  unit.position(LEON_0D, PRESET, PRESET)
+  unit.showsub(LEON_0D)
+  unit.position(IMELDA_0F, PRESET, PRESET)
+  unit.showsub(IMELDA_0F)
+  unit.position(VARGAS_0E, PRESET, PRESET)
+  unit.showsub(VARGAS_0E)
+  unit.position(EGBERT_10, PRESET, PRESET)
+  unit.showsub(EGBERT_10)
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.showsub(ERWIN_01)
+  msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 7)
+# Castle Kalxath? It seems like yesterday ...\r\nWho'd have thought I'd revisit it with my former enemies?\0
+  msg(VARGAS_0E, ERWIN_01, VARGAS, FOLLOW, 8)
+# Gwah hah hah! Last time, we had to pull back because of you!\r\nNow, we'll take Kalxath with ease. Glad you're aboard!\0
+  msg(EGBERT_10, ERWIN_01, EGBERT, FOLLOW, 9)
+# This is their stronghold. If we rout them here, Kalxath will be no more.\r\nWe must achieve victory. His Majesty has requested our greatest efforts.\0
+  msg(IMELDA_0F, EGBERT_10, IMELDA, FOLLOW, 10)
+# Heh heh ... Just leave it to me!\0
+  msg(EGBERT_10, UP_F4, EGBERT, FOLLOW, 11)
+# There are additional orders. We must apprehend the girl named Liana.\r\nIf she dies, our mission is a failure. Keep that in mind.\0
+  msg(ERWIN_01, EGBERT_10, ERWIN, FOLLOW, 12)
+# We need to capture Liana?\0
+  msg(EGBERT_10, ERWIN_01, EGBERT, NOFOLLOW, 13)
+# That's right. We need her to unlock Alhazard's potential.\r\nThe seal placed on the sword may only be dissolved by the Maiden of Light.\0
+  msg(ERWIN_01, EGBERT_10, ERWIN, FOLLOW, 14)
+# So that's why.\0
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 15)
+# So that's why the Empire's been after Liana all this time, isn't it?\0
+  msg(EGBERT_10, ERWIN_01, EGBERT, FOLLOW, 16)
+# Correct.\r\nIf I close in on Liana, I can teleport her and myself to Rayguard.\r\nHold off her meddlesome friends, and I'll take care of the rest.\r\nOf course, it would be ideal if you could kill them all in the process.\0
+  msg(ERWIN_01, EGBERT_10, ERWIN, FOLLOW, 17)
+# Got it. All right, let's go, everyone!\0
+  local.sum($0a47d0, $07eb58)
+  local.sum($0a47d0, $07eb59)
+  local.sum($0a47d0, $07eb5a)
+  local.sum($0a47d0, $07eb5b)
+  local.sum($0a47d0, $07eb5c)
+  local.sum($0a47d0, $07eb5d)
+  local.sum($0a47d0, $07eb5e)
+  local.sum($0a47d0, $07eb58)
+  local.sum($0a47d0, $07eb5f)
+  local.sum($0a47d1, $07eb58)
+  local.sum($0a47d1, $07eb59)
+  local.sum($0a47d1, $07eb5a)
+  local.sum($0a47d1, $07eb5b)
+break
+
+lbl_2c3:
+  msg(CHERIE_CC, DOWN_F5, CHERIE, FOLLOW, 18)
+# It's finally begun ... Who would have dreamt ...\r\n_NAME_, our once staunch friend and ally, lays siege to the castle he protected ...\0
+break
+
+lbl_2cb:
+  branch.unit.dead(lbl_2d8, ROHGA_0B)
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 19)
+# Liana's trying to escape. We can't let that happen!\r\nHurry and catch her!\0
+  goto(lbl_2de)
+lbl_2d8:
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 20)
+# Liana's trying to run away. We can't allow that!\0
+lbl_2de:
+  branch.unit.dead(lbl_2fe, EGBERT_10)
+  msg(EGBERT_10, JESSICA_14, EGBERT, FOLLOW, 21)
+# My teacher never fails to impress. She knows our objective ...\0
+  msg(ERWIN_01, EGBERT_10, ERWIN, FOLLOW, 22)
+# Circling around the back may be the best strategy ... Or, perhaps ...\0
+  branch.unit.dead(lbl_2fe, LEON_0D)
+  msg(LEON_0D, ERWIN_01, LEON, FOLLOW, 23)
+# Don't be hasty, _NAME_.\r\nWe must assess their deployment more fully before devising our plan.\0
+  msg(ERWIN_01, LEON_0D, ERWIN, FOLLOW, 24)
+# Yes, you're right.\r\nWe will skilfully employ our troops and prevent Liana's movement.\0
+lbl_2fe:
+break
+
+lbl_300:
+  unit.setbit(JESSICA_14, $17, 0)
+  unit.setbyte(JESSICA_14, $22, 0x1a)
+  unit.setbyte(JESSICA_14, $23, 0x07)
+  unit.setbit(LIANA_CA, $17, 0)
+  unit.setbyte(LIANA_CA, $22, 0x1d)
+  unit.setbyte(LIANA_CA, $23, 0x01)
+break
+
+lbl_31a:
+  subroutine(lbl_6b3)
+break
+
+lbl_31f:
+  subroutine(lbl_6b3)
+break
+
+lbl_324:
+  local.sub($0a47d0, $07eb5b)
+break
+
+lbl_329:
+  branch.unit.dead(lbl_339, JESSICA_14)
+  msg(JESSICA_14, LIANA_CA, JESSICA, FOLLOW, 25)
+# It's down to Liana and myself, is it?\r\nIf we turn in here, Alhazard will burn this world to ash.\r\nWe must fight to the end!\0
+  msg(LIANA_CA, JESSICA_14, LIANA, FOLLOW, 26)
+# I understand ... and I will help you with all that I have.\0
+lbl_339:
+break
+
+lbl_33b:
+  unit.cleanup()
+  msg(ERWIN_01, LIANA_CA, ERWIN, FOLLOW, 27)
+# Oh no, she's escaped!\0
+  msg(LIANA_CA, ERWIN_01, LIANA_SAD, FOLLOW, 28)
+# The seal on Alhazard must never be broken.\r\nThat's why I cannot let myself be captured ...\r\nFarewell, everyone ... Farewell, _NAME_.\0
+  gameover()
+break
+
+lbl_34b:
+  subroutine(lbl_71c)
+break
+
+lbl_350:
+  subroutine(lbl_71c)
+break
+
+lbl_355:
+  branch.mem.local.eq(lbl_35c, $0a47d2, $07eb59)
+  local.sub($0a47d0, $07eb59)
+lbl_35c:
+break
+
+lbl_35e:
+  msg(ERWIN_01, LIANA_CA, ERWIN, NOFOLLOW, 29)
+# We won't kill you, but you won't escape, either!\0
+  msg(LIANA_CA, ERWIN_01, LIANA_SAD, NOFOLLOW, 30)
+# Ah ... Why do things happen ... as they do ...\0
+  msg(ERWIN_01, LIANA_CA, ERWIN, NOFOLLOW, 31)
+# We're unsealing Alhazard's power! Come join us!\0
+break
+
+lbl_372:
+  msg(ERWIN_01, CHERIE_CC, ERWIN, NOFOLLOW, 32)
+# Don't get in my way, Cherie!\0
+  msg(CHERIE_CC, ERWIN_01, CHERIE, NOFOLLOW, 33)
+# No! I won't back down, ever!\0
+break
+
+lbl_380:
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 34)
+# Ugh! If Alhazard's awakened, is it all over ...?\0
+  unit.cleanup()
+  gameover()
+break
+
+lbl_38a:
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 35)
+# I'm sorry. I was beaten ...\0
+break
+
+lbl_392:
+  msg(ROHGA_0B, DOWN_F5, ROHGA_DEAD, FOLLOW, 36)
+# These Kalxath troops are nothing to sneeze at.\r\nThey caught even me off guard ...\0
+break
+
+lbl_39a:
+  msg(LEON_0D, DOWN_F5, LEON_DEAD, FOLLOW, 37)
+# Damn! These rotten Kalxath soldiers are better than I thought!\0
+break
+
+lbl_3a2:
+  msg(IMELDA_0F, DOWN_F5, IMELDA_DEAD, FOLLOW, 38)
+# Your futile efforts insult my beauty ... I'm leaving!\0
+break
+
+lbl_3aa:
+  msg(VARGAS_0E, DOWN_F5, VARGAS_DEAD, FOLLOW, 39)
+# Ugh, bastard ... Looks like this castle has it in for me.\0
+break
+
+lbl_3b2:
+  msg(EGBERT_10, LIANA_CA, EGBERT, NOFOLLOW, 40)
+# Don't think you can run away from me ...\0
+break
+
+lbl_3ba:
+  msg(LESTER_D1, EGBERT_10, LESTER, NOFOLLOW, 41)
+# Egbert! How dare you come here!\0
+  msg(EGBERT_10, LESTER_D1, EGBERT, NOFOLLOW, 42)
+# Hmph ... Always the spirited lad.\0
+break
+
+lbl_3c8:
+  msg(EGBERT_10, DOWN_F5, EGBERT_DEAD, FOLLOW, 43)
+# Hmph ... Nothing to do but pull out for now.\r\nMy apologies. To catch Liana, you'll need to wipe out our remaining enemies.\0
+  msg(ERWIN_01, EGBERT_10, ERWIN, FOLLOW, 44)
+# Leave it to us, Egbert. We'll ensure this operation's success!\0
+  msg(EGBERT_10, DOWN_F5, EGBERT_DEAD, FOLLOW, 45)
+# ... I'm counting on you.\0
+  local.sum($0a47d3, $07eb5d)
+break
+
+lbl_3df:
+  branch.unit.dead(lbl_3ef, CHERIE_CC)
+  msg(CHERIE_CC, JESSICA_14, CHERIE, FOLLOW, 46)
+# Jessica, please prepare to fall back!\r\nWithout your support, we Descendants of Light would be devastated ...\0
+  msg(JESSICA_14, CHERIE_CC, JESSICA, FOLLOW, 47)
+# ...\r\nI see. Very well, then.\0
+lbl_3ef:
+  msg(JESSICA_14, LIANA_CA, JESSICA, FOLLOW, 48)
+# Let's go, Liana. Please stay close.\0
+  local.sub($0a47d1, $07eb59)
+break
+
+lbl_3fa:
+  msg(JESSICA_14, LIANA_CA, JESSICA, FOLLOW, 49)
+# We don't have much time, Liana! We need to hurry!\0
+  msg(LIANA_CA, JESSICA_14, LIANA, FOLLOW, 50)
+# Yes.\0
+break
+
+lbl_408:
+  msg(JESSICA_14, DOWN_F5, JESSICA_DEAD, FOLLOW, 51)
+# I, I can't move any more ... Liana, go on without me.\0
+  unit.retreat(JESSICA_14)
+  local.sum($0a47d3, $07eb5f)
+break
+
+lbl_415:
+  msg(CHERIE_CC, DOWN_F5, CHERIE_ANGRY, NOFOLLOW, 52)
+# You might get away with this elsewhere, but you won't in Kalxath!\0
+break
+
+lbl_41d:
+  msg(CHERIE_CC, DOWN_F5, CHERIE_ANGRY, NOFOLLOW, 53)
+# How dare you do that to Keith!\0
+break
+
+lbl_425:
+  msg(CHERIE_CC, DOWN_F5, CHERIE_ANGRY, NOFOLLOW, 54)
+# It's payback time!\0
+break
+
+lbl_42d:
+  msg(CHERIE_CC, DOWN_F5, CHERIE_DEAD, FOLLOW, 55)
+# Aaaahh!\0
+  branch.unit.dead(lbl_43d, KEITH_CF)
+  msg(KEITH_CF, CHERIE_CC, KEITH, FOLLOW, 56)
+# Princess!\0
+lbl_43d:
+  msg(CHERIE_CC, DOWN_F5, CHERIE_DEAD, FOLLOW, 57)
+# I'm sorry, Keith ...\r\nIn this condition, I'm just in the way. I'll retreat this time ...\0
+  unit.retreat(CHERIE_CC)
+break
+
+lbl_447:
+  msg(LESTER_D1, DOWN_F5, LESTER, FOLLOW, 58)
+# I'm not going to let Imperial scum near this castle!\r\nI'm going to kick all your asses!\0
+break
+
+lbl_44f:
+  msg(LESTER_D1, DOWN_F5, LESTER_ANGRY, FOLLOW, 59)
+# I won't forgive this! Keith, I'll avenge you!\0
+break
+
+lbl_457:
+  msg(LESTER_D1, DOWN_F5, LESTER_ANGRY, NOFOLLOW, 60)
+# Aaaarrgghhh! This one's for Keith!\0
+break
+
+lbl_45f:
+  branch.unit.dead(lbl_46c, KEITH_CF)
+  msg(LESTER_D1, DOWN_F5, LESTER_DEAD, FOLLOW, 61)
+# Lady Jessica, forgive me! It looks like I can no longer fight ...\0
+  goto(lbl_472)
+lbl_46c:
+  msg(LESTER_D1, DOWN_F5, LESTER_DEAD, FOLLOW, 62)
+# Sorry, Keith. I didn't avenge your death here, but I'll make up for lost time ...\0
+lbl_472:
+  unit.retreat(LESTER_D1)
+  local.sum($0a47d4, $07eb5b)
+break
+
+lbl_479:
+  msg(KEITH_CF, DOWN_F5, KEITH, FOLLOW, 63)
+# At, at this rate ...\0
+  msg(KEITH_CF, CHERIE_CC, KEITH, FOLLOW, 64)
+# Princess, leave this place! Please join Lady Liana and Lady Jessica.\0
+  branch.unit.dead(lbl_492, CHERIE_CC)
+  msg(CHERIE_CC, KEITH_CF, CHERIE, FOLLOW, 114)
+# So you're saying I should abandon Castle Kalxath!?\0
+  goto(lbl_498)
+lbl_492:
+  msg(CHERIE_CC, KEITH_CF, CHERIE_DEAD, NOFOLLOW, 114)
+# So you're saying I should abandon Castle Kalxath!?\0
+lbl_498:
+  msg(KEITH_CF, CHERIE_CC, KEITH, FOLLOW, 65)
+# Attention, everyone in the castle!\r\nWe must retreat for now and plan our counterattack!\0
+  branch.unit.dead(lbl_4ab, CHERIE_CC)
+  msg(CHERIE_CC, KEITH_CF, CHERIE, FOLLOW, 66)
+# But Keith!\0
+  goto(lbl_4b1)
+lbl_4ab:
+  msg(CHERIE_CC, KEITH_CF, CHERIE_DEAD, NOFOLLOW, 67)
+# But Keith!\0
+lbl_4b1:
+  msg(KEITH_CF, CHERIE_CC, KEITH, FOLLOW, 68)
+# I'll stop this invasion with my life!\0
+  msg(KEITH_CF, LESTER_D1, KEITH, FOLLOW, 69)
+# Lord Lester! Please ..., please take care of the others.\0
+  branch.unit.dead(lbl_4ca, LESTER_D1)
+  msg(LESTER_D1, KEITH_CF, LESTER_SAD, FOLLOW, 111)
+# I understand ... Just don't throw your life away.\r\nDon't worry and fight with all your heart!\0
+  goto(lbl_4d0)
+lbl_4ca:
+  msg(LESTER_D1, KEITH_CF, LESTER_DEAD, NOFOLLOW, 111)
+# I understand ... Just don't throw your life away.\r\nDon't worry and fight with all your heart!\0
+lbl_4d0:
+  unit.setbit(LESTER_D1, $17, 0)
+  unit.setbyte(LESTER_D1, $22, 0x17)
+  unit.setbyte(LESTER_D1, $23, 0x04)
+  unit.setbit(CHERIE_CC, $17, 0)
+  unit.setbyte(CHERIE_CC, $22, 0x1a)
+  unit.setbyte(CHERIE_CC, $23, 0x03)
+break
+
+lbl_4ea:
+  branch.mem.local.eq(lbl_55e, $0a47d0, $07eb59)
+  msg(KEITH_CF, DOWN_F5, KEITH_DEAD, FOLLOW, 70)
+# Th, this is it ...\0
+  branch.unit.dead(lbl_501, JESSICA_14)
+  msg(KEITH_CF, CHERIE_CC, KEITH_DEAD, FOLLOW, 71)
+# Princess ... Please leave here. Follow Lady Liana and Lady Jessica ...\0
+  goto(lbl_507)
+lbl_501:
+  msg(KEITH_CF, CHERIE_CC, KEITH_DEAD, FOLLOW, 72)
+# Princess ... Please leave here with Lady Liana ...\0
+lbl_507:
+  branch.unit.dead(lbl_514, CHERIE_CC)
+  msg(CHERIE_CC, KEITH_CF, CHERIE, FOLLOW, 115)
+# Keith! You're saying I should just abandon you all and run away!?\0
+  goto(lbl_51a)
+lbl_514:
+  msg(CHERIE_CC, KEITH_CF, CHERIE_DEAD, NOFOLLOW, 115)
+# Keith! You're saying I should just abandon you all and run away!?\0
+lbl_51a:
+  msg(KEITH_CF, CHERIE_CC, KEITH_DEAD, FOLLOW, 73)
+# I'm ... done for. Please leave with the Princess and plan a ... counterattack.\0
+  branch.unit.dead(lbl_52d, CHERIE_CC)
+  msg(CHERIE_CC, KEITH_CF, CHERIE, FOLLOW, 74)
+# But Keith!\0
+  goto(lbl_533)
+lbl_52d:
+  msg(CHERIE_CC, KEITH_CF, CHERIE_DEAD, NOFOLLOW, 75)
+# But Keith!\0
+lbl_533:
+  msg(KEITH_CF, CHERIE_CC, KEITH_DEAD, FOLLOW, 76)
+# As long as the Princess lives, I have no regrets ...\0
+  branch.unit.dead(lbl_549, LESTER_D1)
+  msg(KEITH_CF, LESTER_D1, KEITH_DEAD, FOLLOW, 77)
+# Lord Lester. Please ..., please look after the others...\0
+  msg(LESTER_D1, KEITH_CF, LESTER_SAD, FOLLOW, 78)
+# Keith ...\0
+lbl_549:
+  msg(KEITH_CF, DOWN_F5, KEITH_DEAD, FOLLOW, 79)
+# For the glory of Kalxath! And for true peace throughout the world!\0
+  unit.setbit(CHERIE_CC, $17, 0)
+  unit.setbyte(CHERIE_CC, $22, 0x1a)
+  unit.setbyte(CHERIE_CC, $23, 0x03)
+  goto(lbl_591)
+lbl_55e:
+  msg(KEITH_CF, DOWN_F5, KEITH_DEAD, FOLLOW, 80)
+# Arrgh! N, not yet ...\r\nWe ... Kalxath ... Can't give in ...\0
+  unit.cleanup()
+  branch.unit.dead(lbl_572, CHERIE_CC)
+  msg(CHERIE_CC, KEITH_CF, CHERIE_SAD, FOLLOW, 81)
+# K, Keith!\0
+  goto(lbl_578)
+lbl_572:
+  msg(CHERIE_CC, KEITH_CF, CHERIE_SAD, NOFOLLOW, 82)
+# K, Keith!\0
+lbl_578:
+  branch.unit.dead(lbl_585, LESTER_D1)
+  msg(LESTER_D1, KEITH_CF, LESTER_SAD, FOLLOW, 83)
+# ...\r\nFarewell, ... my friend.\0
+  goto(lbl_58b)
+lbl_585:
+  msg(LESTER_D1, KEITH_CF, LESTER_SAD, NOFOLLOW, 84)
+# ...\r\nFarewell, ... my friend.\0
+lbl_58b:
+  msg(LIANA_CA, KEITH_CF, LIANA_SAD, FOLLOW, 85)
+# I'm so sorry, Keith ... I ...\r\nIt's all my fault ...\0
+lbl_591:
+  local.sub($0a47d0, $07eb5c)
+  local.sub($0a47d0, $07eb58)
+  local.sub($0a47d1, $07eb5a)
+  local.sub($0a47d1, $07eb5b)
+  local.sum($0a47d4, $07eb58)
+  local.sum($0a47d4, $07eb5d)
+  unit.clearbit(LESTER_D1, $17, 0)
+break
+
+lbl_5a9:
+  msg(LIANA_CA, DOWN_F5, LIANA, FOLLOW, 86)
+# Everyone is fighting for me ...\r\nI can't let them down ... I won't get captured. I have to hurry!\0
+break
+
+lbl_5b1:
+  msg(LIANA_CA, DOWN_F5, LIANA_DEAD, FOLLOW, 87)
+# Aaahh!\0
+  unit.cleanup()
+  branch.unit.dead(lbl_5c2, EGBERT_10)
+  msg(EGBERT_10, LIANA_CA, EGBERT, FOLLOW, 88)
+# The girl has died? What the hell happened!?\0
+lbl_5c2:
+  msg(ERWIN_01, LIANA_CA, ERWIN, FOLLOW, 89)
+# No! Now that Liana has died, Alhazard's seal can't ...!\0
+  gameover()
+break
+
+lbl_5cb:
+  msg(COMMANDER_85, DOWN_F5, HIGHLORD_BLACK, FOLLOW, 90)
+# Don't think you can just barge on in!\0
+break
+
+lbl_5d3:
+  msg(COMMANDER_85, DOWN_F5, HIGHLORD_BLACK, NOFOLLOW, 91)
+# This is personal. I'll make anyone attacking this castle sorry they were born.\0
+break
+
+lbl_5db:
+  branch.unit.dead(lbl_5e8, COMMANDER_86)
+  msg(COMMANDER_85, DOWN_F5, HIGHLORD_BLACK_DEAD, FOLLOW, 112)
+# If I die, then the castle's defence will ...\0
+  goto(lbl_5ee)
+lbl_5e8:
+  msg(COMMANDER_85, DOWN_F5, HIGHLORD_BLACK_DEAD, FOLLOW, 113)
+# I ... cannot allow you to breach ... the walls.\0
+lbl_5ee:
+break
+
+lbl_5f0:
+  msg(COMMANDER_86, DOWN_F5, HIGHLORD_BLACK, NOFOLLOW, 92)
+# If you want to enter the castle, you'll have to get through me!\0
+break
+
+lbl_5f8:
+  branch.unit.dead(lbl_605, COMMANDER_85)
+  msg(COMMANDER_86, DOWN_F5, HIGHLORD_BLACK_DEAD, FOLLOW, 112)
+# If I die, then the castle's defence will ...\0
+  goto(lbl_60b)
+lbl_605:
+  msg(COMMANDER_86, DOWN_F5, HIGHLORD_BLACK_DEAD, FOLLOW, 113)
+# I ... cannot allow you to breach ... the walls.\0
+lbl_60b:
+break
+
+lbl_60d:
+  msg(COMMANDER_87, DOWN_F5, MAGE_GRAY, NOFOLLOW, 93)
+# I won't let this castle fall to the likes of you! Die!\0
+break
+
+lbl_615:
+  msg(COMMANDER_87, DOWN_F5, MAGE_GRAY_DEAD, FOLLOW, 94)
+# My magic should have been unstoppable ... Ugghh!\0
+break
+
+lbl_61d:
+  msg(COMMANDER_88, DOWN_F5, MAGE_GRAY, NOFOLLOW, 95)
+# You must think you're pretty great for coming this far. Too bad you won't go further!\0
+break
+
+lbl_625:
+  msg(COMMANDER_88, DOWN_F5, MAGE_GRAY_DEAD, FOLLOW, 96)
+# I ... I haven't ...\0
+break
+
+lbl_62d:
+  msg(COMMANDER_8B, DOWN_F5, HAWKKNIGHT_BLACK_DEAD, FOLLOW, 97)
+# I, I'm falling!\0
+break
+
+lbl_635:
+  msg(COMMANDER_23, DOWN_F5, HAWKKNIGHT_BLACK_DEAD, FOLLOW, 98)
+# If, If I only had a little more power ...\0
+break
+
+lbl_63d:
+  unit.cleanup()
+  msg(KEITH_CF, DOWN_F5, KEITH, NOFOLLOW, 99)
+# You shall not pass!\0
+  local.sub($0a47d0, $07eb5c)
+break
+
+lbl_649:
+  local.sub($0a47d0, $07eb5c)
+break
+
+lbl_64e:
+  unit.cleanup()
+  msg(LESTER_D1, DOWN_F5, LESTER, FOLLOW, 100)
+# Do you call this a wound? It's barely a scratch!\0
+break
+
+lbl_657:
+  unit.cleanup()
+  subroutine(lbl_6bf)
+break
+
+lbl_65d:
+  unit.cleanup()
+  subroutine(lbl_6bf)
+break
+
+lbl_663:
+  unit.cleanup()
+  scenarioclear()
+  msg(ERWIN_01, LIANA_CA, ERWIN, FOLLOW, 101)
+# Now, Liana. There's nowhere to run.\r\nBe a good girl and come with me.\0
+  msg(LIANA_CA, ERWIN_01, LIANA_SAD, FOLLOW, 102)
+# Why ...? _NAME_, why have you changed so much?\0
+  msg(ERWIN_01, LIANA_CA, ERWIN, FOLLOW, 103)
+# Liana ...\0
+  msg(LIANA_CA, ERWIN_01, LIANA_SAD, FOLLOW, 104)
+# When we first met, you were so kind ... You hated war ...\0
+  msg(ERWIN_01, LIANA_CA, ERWIN, FOLLOW, 105)
+# That hasn't changed.\r\nI want this conflict to end quickly and thoroughly, so I'm lending myself to the Empire.\0
+  msg(LIANA_CA, ERWIN_01, LIANA_ANGRY, FOLLOW, 106)
+# Well, you're doing a terrible job!\r\nCan you say the Empire brought peace to Kalxath? Can you!?\0
+  msg(ERWIN_01, LIANA_CA, ERWIN, FOLLOW, 107)
+# This place may indeed have been a haven of sorts.\r\nBut in all my travels, I've witnessed nothing but siege and bloodshed.\r\nTo truly sever the roots of war, the world needs a strong, unified kingdom!\0
+  msg(LIANA_CA, ERWIN_01, LIANA_SAD, FOLLOW, 108)
+# You have changed, after all ...\r\nThe _NAME_ I knew would not look for peace through tyranny ...\r\nHe'd have faith that everyone wants to live free of suffering!\0
+  msg(ERWIN_01, LIANA_CA, ERWIN, FOLLOW, 109)
+# ...\r\nI'm getting very tired of explaining myself. Liana, I'm taking you with me.\0
+  msg(LIANA_CA, ERWIN_01, LIANA_SAD, FOLLOW, 110)
+# _NAME_ ...\0
+  loadscenario(45)
+break
+
+lbl_6a5:
+  branch.mem.local.eq(lbl_6ac, $0a47d2, $07eb58)
+  local.sub($0a47d0, $07eb59)
+lbl_6ac:
+break
+
+lbl_6ae:
+  local.sub($0a47d0, $07eb5e)
+break
+
+lbl_6b3:
+  branch.mem.local.eq(lbl_6be, $0a47d6, $07eb5d)
+  branch.unit.dead(lbl_6be, JESSICA_14)
+  subroutine(lbl_6bf)
+lbl_6be:
+endsub
+
+lbl_6bf:
+  branch.mem.local.eq(lbl_71b, $0a47d6, $07eb5e)
+  branch.unit.dead(lbl_6e2, KEITH_CF)
+  msg(JESSICA_14, EGBERT_10, JESSICA, FOLLOW, 116)
+# Egbert is pressing forward ... What!? Could he be ...?\0
+  msg(LIANA_CA, JESSICA_14, LIANA, FOLLOW, 117)
+# What's wrong, Lady Jessica?\0
+  msg(JESSICA_14, LIANA_CA, JESSICA, FOLLOW, 118)
+# Liana, run away, now!\0
+  msg(LIANA_CA, JESSICA_14, LIANA, FOLLOW, 119)
+# What?\0
+  goto(lbl_6ee)
+lbl_6e2:
+  msg(JESSICA_14, LIANA_CA, JESSICA, FOLLOW, 120)
+# Liana, you must escape! Make your preparations and go!\r\nThe Empire's aim is not only the fall of Castle Kalxath.\r\nThey're intending to capture you as well!\0
+  msg(LIANA_CA, JESSICA_14, LIANA, FOLLOW, 121)
+# Me ...?\0
+lbl_6ee:
+  msg(JESSICA_14, LIANA_CA, JESSICA, FOLLOW, 122)
+# They probably want you to unseal Alhazard.\r\nI'll guard you all the way to the rear. Hurry and escape!\0
+  unit.setbit(JESSICA_14, $17, 0)
+  unit.setbyte(JESSICA_14, $22, 0x10)
+  unit.setbyte(JESSICA_14, $23, 0x0a)
+  unit.setbit(LIANA_CA, $17, 0)
+  unit.setbyte(LIANA_CA, $22, 0x10)
+  unit.setbyte(LIANA_CA, $23, 0x0a)
+  local.sum($0a47d6, $07eb5d)
+  local.sum($0a47d6, $07eb5e)
+  local.sub($0a47d1, $07eb58)
+  local.sub($0a47d0, $07eb5a)
+  local.sub($0a47d0, $07eb5d)
+lbl_71b:
+endsub
+
+lbl_71c:
+  branch.unit.dead(lbl_74c, JESSICA_14)
+  unit.cleanup()
+  msg(JESSICA_14, LIANA_CA, JESSICA, FOLLOW, 123)
+# Liana, it's only a little bit further!\0
+  msg(LIANA_CA, JESSICA_14, LIANA, FOLLOW, 124)
+# Okay!\0
+  branch.unit.dead(lbl_737, KEITH_CF)
+  msg(KEITH_CF, JESSICA_14, KEITH, FOLLOW, 125)
+# Leave the castle to us and escape, Lady Jessica!\0
+lbl_737:
+  msg(JESSICA_14, UP_F4, JESSICA, FOLLOW, 126)
+# ...\r\nVery well.\0
+  unit.setbit(JESSICA_14, $17, 0)
+  unit.setbyte(JESSICA_14, $22, 0x1c)
+  unit.setbyte(JESSICA_14, $23, 0x02)
+  goto(lbl_752)
+lbl_74c:
+  msg(LIANA_CA, DOWN_F5, LIANA, FOLLOW, 127)
+# If I don't hurry, everyone will have fought for nothing ...\0
+lbl_752:
+  local.sub($0a47d0, $07eb5f)
+endsub
+
+lbl_756:
+  unit.cleanup()
+  bgm(ALLY, ENEMY5_EGBERT)
+  msg(EGBERT_10, LIANA_CA, EGBERT, FOLLOW, 128)
+# Maiden of Light, would you be so kind as to accompany me?\0
+  msg(LIANA_CA, EGBERT_10, LIANA, FOLLOW, 129)
+# No! Let me go!\0
+  branch.unit.dead(lbl_770, JESSICA_14)
+  msg(JESSICA_14, EGBERT_10, JESSICA, FOLLOW, 130)
+# Stop it, Egbert!\0
+lbl_770:
+  branch.unit.dead(lbl_77a, CHERIE_CC)
+  msg(CHERIE_CC, LIANA_CA, CHERIE, FOLLOW, 131)
+# Liana! I'm coming!\0
+lbl_77a:
+  msg(EGBERT_10, LIANA_CA, EGBERT, FOLLOW, 132)
+# Heh heh heh ... I'm afraid you won't get away. Ahem ...\r\nWatchers of time and space ... Honour your ancient pledge and send her to another land ...\0
+  cast.teleport(EGBERT_10, LIANA_CA, TELEPORT_OUT, PRESET, PRESET)
+  branch.unit.dead(lbl_790, CHERIE_CC)
+  msg(CHERIE_CC, LIANA_CA, CHERIE, FOLLOW, 133)
+# Sh, she disappeared ...? Where could she have gone!?\0
+lbl_790:
+  scenarioclear()
+  msg(ERWIN_01, EGBERT_10, ERWIN, FOLLOW, 134)
+# Whew, mission accomplished.\0
+  msg(EGBERT_10, ERWIN_01, EGBERT, FOLLOW, 135)
+# Now the seal can be broken.\r\nTo conduct the ceremony, we must head toward the Underground Shrine.\0
+  msg(ERWIN_01, EGBERT_10, ERWIN, FOLLOW, 136)
+# All right, there's no reason to hang around here. Let's begin our transfer!\0
+  loadscenario(45)
+break
+
+lbl_7a7:
+  branch.mem.global.eq(lbl_7ce, $0a478c, $07eb59)
+  unit.cleanup()
+  prompt.ok(lbl_7bd)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 138)
+# You greedy fellows irritate me to no end!\0
+  goto(lbl_7cb)
+lbl_7bd:
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 139)
+# Go ahead and take this. Humble people are very important, after all.\r\nNow, if you'll excuse me, I'm going back to sleep ...\0
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 140)
+# Obtained Dragon Scale.\0
+  item.add(DRAGONSCALE)
+lbl_7cb:
+  global.sum($0a478c, $07eb59)
+lbl_7ce:
+break
+
