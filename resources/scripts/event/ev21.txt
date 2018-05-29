@@ -1,0 +1,613 @@
+# Movement-Triggered Events
+on.move(31, lbl_4b8, IMELDA_D7, 22, 0xff)
+on.move(32, lbl_4c6, IMELDA_D7, 20, 0xff)
+on.move(39, lbl_525, LAIRD_18, 0, 0xff)
+break
+
+# Attack-Triggered Events
+on.attack(20, lbl_45d, NULL_FF, IMPERIALCOMMANDER_30, 0xff, 0x00, 0xff)
+on.attack(22, lbl_46d, IMPERIALCOMMANDER_31, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(25, lbl_485, IMPERIALCOMMANDER_33, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(26, lbl_48d, NULL_FF, IMPERIALCOMMANDER_33, 0xff, 0x00, 0xff)
+on.attack(28, lbl_4a1, NULL_FF, IMPERIALCOMMANDER_34, 0xff, 0x00, 0xff)
+on.attack(33, lbl_4d4, IMELDA_D7, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(34, lbl_4dc, NULL_FF, IMELDA_D7, 0xff, 0x00, 0xff)
+on.attack(36, lbl_50d, IMPERIALCOMMANDER_35, NULL_FF, 0x00, 0xff, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(13, lbl_41d, ERWIN_01)
+on.defeat(14, lbl_42d, HEIN_05)
+on.defeat(15, lbl_435, CHERIE_04)
+on.defeat(16, lbl_43d, AARON_08)
+on.defeat(17, lbl_445, KEITH_07)
+on.defeat(18, lbl_44d, LESTER_09)
+on.defeat(19, lbl_455, SCOTT_06)
+on.defeat(21, lbl_465, IMPERIALCOMMANDER_30)
+on.defeat(23, lbl_475, IMPERIALCOMMANDER_31)
+on.defeat(24, lbl_47d, IMPERIALCOMMANDER_32)
+on.defeat(27, lbl_499, IMPERIALCOMMANDER_33)
+on.defeat(29, lbl_4ad, IMPERIALCOMMANDER_34)
+on.defeat(35, lbl_4e4, IMELDA_D7)
+on.defeat(37, lbl_515, IMPERIALCOMMANDER_35)
+on.defeat(38, lbl_51d, IMPERIALCOMMANDER_36)
+on.defeat(40, lbl_537, LAIRD_18)
+on.defeat(41, lbl_55c, IMPERIALCOMMANDER_38)
+on.defeat(42, lbl_564, IMPERIALCOMMANDER_32, IMPERIALCOMMANDER_33, IMPERIALCOMMANDER_34)
+on.defeat(10, lbl_569, IMPERIALCOMMANDER_33, IMPERIALCOMMANDER_34)
+on.defeat(3, lbl_58d, IMPERIALCOMMANDER_30, IMPERIALCOMMANDER_31, IMPERIALCOMMANDER_32, IMPERIALCOMMANDER_33, IMPERIALCOMMANDER_34, IMPERIALCOMMANDER_35, IMPERIALCOMMANDER_36, LAIRD_18, IMPERIALCOMMANDER_38)
+break
+
+# Position-Triggered Events
+on.bound(9, lbl_3c9, NPC_SUBUNIT_F1, 25, 1, 32, 29, 0x00, 0x00)
+on.bound(11, lbl_3fe, NPC_SUBUNIT_F1, 20, 1, 32, 29, 0x00, 0x00)
+on.bound(12, lbl_403, NPC_COMMANDER_F0, 4, 10, 4, 10, 0x00, 0x00)
+break
+
+# Turn-Triggered Events
+on.turn(1, lbl_2e9, ALLY, 2, 0x00)
+on.turn(2, lbl_305, ENEMY, 13, 0x00)
+on.turn(4, lbl_329, ENEMY, 18, 0x00)
+on.turn(5, lbl_343, ENEMY, 19, 0x00)
+on.turn(6, lbl_352, ENEMY, 21, 0x00)
+on.turn(7, lbl_376, ENEMY, 23, 0x00)
+on.turn(8, lbl_385, ENEMY, 1, 0x00)
+on.turn(0, lbl_3a3, ALLY, 0, 0x00)
+break
+
+# Core Events
+lbl_13a:
+  bgm(ALLY, NIGHT)
+  cursor.set(NULL_00)
+  screen.map(21)
+  unit.position(LIANA_CA, 5, 2)
+  unit.position(IMPERIALCOMMANDER_30, 7, 8)
+  unit.face(LIANA_CA, LEFT_F6)
+  focus.point(6, 4, FAST)
+  cursor.hide()
+  screen.fadein(8)
+  delay(120)
+  unit.move(LIANA_CA, 5, 5)
+  delay(60)
+  msg(LIANA_CA, DOWN_F5, LIANA_SAD, NOFOLLOW, 1)
+# I wonder how everyone is doing ...?\0
+  delay(60)
+  unit.move(LIANA_CA, 7, 5)
+  msg(LIANA_CA, RIGHT_F7, LIANA_SAD, NOFOLLOW, 2)
+# _NAME_ ...\0
+  delay(30)
+  sfx(18)
+  sfx(18)
+  bgm(ALLY, ENEMY5_EGBERT)
+  msg(LIANA_CA, DOWN_F5, LIANA, NOFOLLOW, 3)
+# Something ...!?\0
+  msg(NULL_00, DOWN_F5, NULL, NOFOLLOW, 4)
+# Intruders!\0
+  sfx(38)
+  unit.face(LIANA_CA, RIGHT_F7)
+  sfx(38)
+  sfx(12)
+  unit.move(LIANA_CA, 6, 5)
+  msg(NULL_00, DOWN_F5, NULL, NOFOLLOW, 5)
+# Ahh!\0
+  sfx(38)
+  unit.face(LIANA_CA, DOWN_F5)
+  msg(NULL_00, DOWN_F5, NULL, NOFOLLOW, 6)
+# The Empire's magicians?\r\nWe shall not allow you into the inner sanctum!\0
+  sfx(18)
+  sfx(18)
+  sfx(12)
+  sfx(41)
+  msg(NULL_00, DOWN_F5, NULL, NOFOLLOW, 7)
+# You won't get any further!\r\nUgh ...!\r\nArgh!\0
+  sfx(12)
+  unit.move(LIANA_CA, 7, 5)
+  unit.face(LIANA_02, DOWN_F5)
+  unit.move(IMPERIALCOMMANDER_30, 7, 6)
+  msg(IMPERIALCOMMANDER_30, LIANA_CA, PRIEST_GREEN, NOFOLLOW, 8)
+# Liana, isn't it?\0
+  unit.move(LIANA_CA, 6, 3)
+  cursor.set(ERWIN_01)
+  cast.teleport(EGBERT_D8, EGBERT_D8, TELEPORT_IN, 6, 2)
+  cursor.set(NULL_00)
+  msg(EGBERT_D8, LIANA_CA, EGBERT, NOFOLLOW, 9)
+# And where do you think you are going, little girl?\r\nWere you thinking of trying to escape from me?\0
+  unit.move(IMPERIALCOMMANDER_30, 7, 4)
+  unit.move(IMPERIALCOMMANDER_30, 6, 4)
+  unit.face(COMMANDER_22, UP_F4)
+  delay(30)
+  unit.face(LIANA_CA, RIGHT_F7)
+  delay(10)
+  unit.face(LIANA_CA, DOWN_F5)
+  delay(35)
+  msg(LIANA_CA, DOWN_F5, LIANA_ANGRY, NOFOLLOW, 10)
+# No! Let go!\r\nHelp me, _NAME_!\0
+  msg(EGBERT_D8, LIANA_CA, EGBERT, NOFOLLOW, 11)
+# You'll be coming with us.\0
+  msg(LIANA_CA, DOWN_F5, LIANA_ANGRY, NOFOLLOW, 12)
+# Ahh!\0
+  cursor.set(ERWIN_01)
+  cast.teleport(LIANA_CA, LIANA_CA, TELEPORT_OUT, PRESET, PRESET)
+  cursor.set(NULL_00)
+  delay(60)
+  msg(EGBERT_D8, IMPERIALCOMMANDER_30, EGBERT, NOFOLLOW, 13)
+# Good ... Our mission was a success.\r\nLet us withdraw.\0
+  msg(IMPERIALCOMMANDER_30, EGBERT_D8, PRIEST_GREEN, NOFOLLOW, 14)
+# Yes, Sir!\0
+  cursor.set(ERWIN_01)
+  cast.teleport(EGBERT_D8, EGBERT_D8, TELEPORT_OUT, PRESET, PRESET)
+  cast.teleport(IMPERIALCOMMANDER_30, IMPERIALCOMMANDER_30, TELEPORT_OUT, PRESET, PRESET)
+  screen.fadeout(4)
+  unit.setbyte(LIANA_CA, $20, 0x03)
+  unit.refresh()
+  screen.map(17)
+  cursor.show()
+  bgm(ALLY, )
+  unit.hideall()
+  bgm(ALLY, BEACH)
+  focus.point(28, 25, FAST)
+  cursor.set(NULL_00)
+  screen.fadein(4)
+  cursor.set(ERWIN_01)
+  unit.position(IMELDA_D7, PRESET, PRESET)
+  unit.showsub(IMELDA_D7)
+  unit.position(IMPERIALCOMMANDER_30, 25, 14)
+  unit.showsub(IMPERIALCOMMANDER_30)
+  unit.position(IMPERIALCOMMANDER_31, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_31)
+  unit.position(IMPERIALCOMMANDER_32, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_32)
+  unit.position(IMPERIALCOMMANDER_33, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_33)
+  unit.position(IMPERIALCOMMANDER_34, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_34)
+  unit.position(IMPERIALCOMMANDER_35, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_35)
+  unit.position(IMPERIALCOMMANDER_36, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_36)
+  msg(IMELDA_D7, IMPERIALCOMMANDER_31, IMELDA, FOLLOW, 15)
+# Why is this taking so long? Are the preparations almost complete?\0
+  msg(IMPERIALCOMMANDER_31, IMELDA_D7, PRIEST_GREEN, FOLLOW, 16)
+# No, not yet. Please, be a little more patient!\0
+  msg(IMELDA_D7, IMPERIALCOMMANDER_31, IMELDA, FOLLOW, 17)
+# Hurry up!\r\nWe have to set sail soon-- our enemy's right behind us.\0
+  bgm(ALLY, ALLY1)
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.showsub(ERWIN_01)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.showsub(HEIN_05)
+  unit.position(CHERIE_04, PRESET, PRESET)
+  unit.showsub(CHERIE_04)
+  unit.position(AARON_08, PRESET, PRESET)
+  unit.showsub(AARON_08)
+  unit.position(KEITH_07, PRESET, PRESET)
+  unit.showsub(KEITH_07)
+  unit.position(LESTER_09, PRESET, PRESET)
+  unit.showsub(LESTER_09)
+  unit.position(SCOTT_06, PRESET, PRESET)
+  unit.showsub(SCOTT_06)
+  msg(HEIN_05, RIGHT_F7, HEIN, FOLLOW, 18)
+# Oh no! The Imperial Army's warship!\0
+  msg(LESTER_09, ERWIN_01, LESTER, FOLLOW, 19)
+# How fortunate! We'll take their sails and head for Velzeria!\0
+  msg(IMELDA_D7, ERWIN_01, IMELDA, FOLLOW, 20)
+# Shit! The enemy has caught up to us.\0
+  msg(IMELDA_D7, IMPERIALCOMMANDER_34, IMELDA, FOLLOW, 21)
+# How much longer will the preparations take?\0
+  msg(IMPERIALCOMMANDER_34, IMELDA_D7, HIGHLORD_GREEN, FOLLOW, 22)
+# Umm ... We still need more time.\r\nThere are so many supplies to load, and we don't have that many soldiers ...\0
+  msg(IMELDA_D7, IMPERIALCOMMANDER_34, IMELDA, FOLLOW, 23)
+# Such inefficiency!\r\nGet to work scum! Don't waste time with your worthless excuses!\0
+  msg(IMELDA_D7, IMPERIALCOMMANDER_33, IMELDA, FOLLOW, 24)
+# Sigh ...\r\nI guess it can't be helped then.\r\nNo matter what, we've got to buy some more time.\0
+  msg(IMPERIALCOMMANDER_34, IMELDA_D7, HIGHLORD_GREEN, FOLLOW, 25)
+# Yes, my Lady. I understand.\r\nWe will hold them back, even if it costs us our lives!\0
+  local.sum($0a47d0, $07eb58)
+break
+
+lbl_2e9:
+  branch.unit.dead(lbl_2fd, CHERIE_04)
+  msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 26)
+# Let's hurry, _NAME_.\r\nEven if we succeed in taking their ship, it's still going to be a long voyage to Velzeria.\0
+  branch.unit.dead(lbl_2fd, AARON_08)
+  msg(AARON_08, CHERIE_04, AARON, FOLLOW, 27)
+# You're right.\r\nEven with a boat like that, the Direth Straits will be a struggle to cross this time of year ...\0
+lbl_2fd:
+  msg(ERWIN_01, AARON_08, ERWIN, FOLLOW, 28)
+# The departure preparations look like they're going slow.\r\nLet's commandeer the ship while we have a chance!\0
+break
+
+lbl_305:
+  msg(IMELDA_D7, LEFT_F6, IMELDA, FOLLOW, 29)
+# How are the preparations? How close are you?\0
+  msg(IMPERIALSOLDIER_77, IMELDA_D7, SOLDIER2_GREEN, NOFOLLOW, 30)
+# We've just finished loading our weapon stocks.\0
+  branch.ne.global(lbl_31e, $0a47d0, $07eb5b)
+  msg(IMELDA_D7, LEFT_F6, IMELDA, FOLLOW, 31)
+# That's it!? Hurry with the rest!\0
+  goto(lbl_327)
+lbl_31e:
+  msg(IMELDA_D7, LEFT_F6, IMELDA, FOLLOW, 32)
+# Hurry up with the rest.\r\nHow goes the battle for our garrison?\0
+  subroutine(lbl_596)
+lbl_327:
+break
+
+lbl_329:
+  msg(IMELDA_D7, LEFT_F6, IMELDA, FOLLOW, 33)
+# Still not done yet?\0
+  msg(IMPERIALSOLDIER_77, IMELDA_D7, SOLDIER2_GREEN, NOFOLLOW, 34)
+# Almost everything is in the hold now.\r\nGive us a little more time, and we're done!\0
+  msg(IMELDA_D7, LEFT_F6, IMELDA, FOLLOW, 35)
+# You screw around, and I'll leave you here!\0
+  msg(IMPERIALSOLDIER_77, IMELDA_D7, SOLDIER2_GREEN, NOFOLLOW, 36)
+# Aye, aye!\r\nCome on lads! Give it all you've got!\0
+break
+
+lbl_343:
+  branch.eq.global(lbl_350, $0a47d0, $07eb5b)
+  msg(IMELDA_D7, LEFT_F6, IMELDA, FOLLOW, 37)
+# Tell me about the battle. Report, now!\0
+  subroutine(lbl_596)
+lbl_350:
+break
+
+lbl_352:
+  msg(IMELDA_D7, LEFT_F6, IMELDA, FOLLOW, 38)
+# You're still not done!?\r\nHow ... You must be the world's most incompetent crew!\0
+  msg(IMPERIALSOLDIER_77, IMELDA_D7, SOLDIER2_GREEN, NOFOLLOW, 39)
+# There's no time!\0
+  branch.eq.global(lbl_36e, $0a47d0, $07eb5b)
+  msg(IMELDA_D7, LEFT_F6, IMELDA, FOLLOW, 40)
+# There's no time!\r\nPut your backs into it! For God sakes, hurry!\0
+  subroutine(lbl_596)
+  goto(lbl_374)
+lbl_36e:
+  msg(IMELDA_D7, LEFT_F6, IMELDA, FOLLOW, 41)
+# There's no time!\r\nWork as though your life depends on it-- because it does.\0
+lbl_374:
+break
+
+lbl_376:
+  msg(IMELDA_D7, ERWIN_01, IMELDA, FOLLOW, 42)
+# Ho ho ho!\r\nIt seems we've made it. Bye bye, little man!\0
+  msg(ERWIN_01, IMELDA_D7, ERWIN, FOLLOW, 43)
+# Shit! We're too late ...\0
+  gameover()
+break
+
+lbl_385:
+  msg(IMELDA_D7, LEFT_F6, IMELDA, FOLLOW, 44)
+# It can't be helped ...\r\nSo, loading all this baggage is going to take a while?\0
+  msg(IMPERIALSOLDIER_77, IMELDA_D7, SOLDIER2_GREEN, NOFOLLOW, 45)
+# We're working on it.\r\nThere's still a good deal to move aboard.\0
+  msg(IMELDA_D7, LEFT_F6, IMELDA, FOLLOW, 46)
+# If they board, I'll have to thank that scruffy peasant boy for our last encounter!\0
+  branch.unit.dead(lbl_3a1, IMPERIALCOMMANDER_32)
+  msg(IMPERIALCOMMANDER_32, IMELDA_D7, SERPENTKNIGHT_GREEN, FOLLOW, 47)
+# O, Of course, General!\0
+lbl_3a1:
+break
+
+lbl_3a3:
+  branch.unit.dead(lbl_3c7, HEIN_05)
+  msg(HEIN_05, IMELDA_D7, HEIN, FOLLOW, 48)
+# I don't get it ... Is she kind to anyone besides herself?\0
+  branch.unit.dead(lbl_3c7, CHERIE_04)
+  msg(CHERIE_04, HEIN_05, CHERIE, FOLLOW, 49)
+# Hein, you worry about the strangest things.\0
+  msg(HEIN_05, CHERIE_04, HEIN, FOLLOW, 50)
+# But that general of theirs seems to hate everyone.\r\nShe rails on her own men, and even the dock workers-- those people are working hard to save her.\0
+  branch.unit.dead(lbl_3c7, KEITH_07)
+  msg(KEITH_07, CHERIE_04, KEITH, FOLLOW, 51)
+# At least the Blue Dragon Knights battle with honour.\r\nImelda and Leon are two of the Empire's four generals ...\r\nYet their behaviour is leagues apart. They treat their men so differently ...\0
+lbl_3c7:
+break
+
+lbl_3c9:
+  msg(IMELDA_D7, LEFT_F6, IMELDA, FOLLOW, 52)
+# Son of a--!\r\nYou think you can take this boat from me?\r\nIt's not going to happen. Too bad for you.\0
+  branch.eq.global(lbl_3ed, $0a47d0, $07eb5b)
+  msg(IMELDA_D7, IMPERIALCOMMANDER_32, IMELDA, FOLLOW, 53)
+# You imbeciles! Really, how can I put up with you!\r\nThe enemy is marching right in front of us! Get moving!\0
+  branch.unit.dead(lbl_3e3, IMPERIALCOMMANDER_32)
+  msg(IMPERIALCOMMANDER_32, IMELDA_D7, SERPENTKNIGHT_GREEN, FOLLOW, 54)
+# Yes, Sir!\0
+lbl_3e3:
+  branch.unit.dead(lbl_3ed, IMPERIALCOMMANDER_35)
+  msg(IMPERIALCOMMANDER_35, IMELDA_D7, HAWKKNIGHT_GREEN, FOLLOW, 55)
+# I'm sorry, General.\0
+lbl_3ed:
+  unit.clearbit(IMPERIALCOMMANDER_32, $17, 0)
+  unit.clearbit(IMPERIALCOMMANDER_35, $17, 0)
+  unit.clearbit(IMPERIALCOMMANDER_36, $17, 0)
+  local.sum($0a47d1, $07eb5a)
+break
+
+lbl_3fe:
+  subroutine(lbl_605)
+break
+
+lbl_403:
+  branch.eq.global(lbl_41b, $0a478b, $07eb5e)
+  unit.cleanup()
+  prompt.ok(lbl_41b)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 57)
+# Obtained Gleipnir.\0
+  item.add(GLEIPNIR)
+  global.sum($0a478b, $07eb5e)
+lbl_41b:
+break
+
+lbl_41d:
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 58)
+# Oh ...! How can I die here ...\0
+  unit.cleanup()
+  msg(IMELDA_0F, ERWIN_01, IMELDA, FOLLOW, 59)
+# Come now. There's no need to hurry.\r\nOpposing me, as always, was a deadly mistake. Ho ho ho ...\0
+  gameover()
+break
+
+lbl_42d:
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 60)
+# No ...\0
+break
+
+lbl_435:
+  msg(CHERIE_04, DOWN_F5, CHERIE_DEAD, FOLLOW, 61)
+# Ouch--! Hey, what are you doing!\0
+break
+
+lbl_43d:
+  msg(AARON_08, DOWN_F5, AARON_DEAD, FOLLOW, 62)
+# Ugh, my old wound is ...\0
+break
+
+lbl_445:
+  msg(KEITH_07, DOWN_F5, KEITH_DEAD, FOLLOW, 63)
+# Damn, not bad! But I should expect as much from the Water Dragon Navy.\0
+break
+
+lbl_44d:
+  msg(LESTER_09, DOWN_F5, LESTER_DEAD, FOLLOW, 64)
+# How reckless ... If you manage to get the ship, let me know!\0
+break
+
+lbl_455:
+  msg(SCOTT_06, DOWN_F5, SCOTT_DEAD, FOLLOW, 65)
+# I'll have to practice more.\0
+break
+
+lbl_45d:
+  msg(IMPERIALCOMMANDER_30, LEFT_F6, PRIEST_GREEN, NOFOLLOW, 66)
+# I can't lose!\0
+break
+
+lbl_465:
+  msg(IMPERIALCOMMANDER_30, DOWN_F5, PRIEST_GREEN_DEAD, FOLLOW, 67)
+# Ugh ...\r\nThey really ... live up to their reputation ...\0
+break
+
+lbl_46d:
+  msg(IMPERIALCOMMANDER_31, LEFT_F6, PRIEST_GREEN, NOFOLLOW, 68)
+# Ha Ha Ha--! Die! All of you, die!\0
+break
+
+lbl_475:
+  msg(IMPERIALCOMMANDER_31, DOWN_F5, PRIEST_GREEN_DEAD, FOLLOW, 69)
+# Eeek! W, why ...\0
+break
+
+lbl_47d:
+  msg(IMPERIALCOMMANDER_32, DOWN_F5, SERPENTKNIGHT_GREEN_DEAD, FOLLOW, 70)
+# Im, Imelda ...\0
+break
+
+lbl_485:
+  msg(IMPERIALCOMMANDER_33, LEFT_F6, HIGHLORD_GREEN, NOFOLLOW, 71)
+# Here I come! I'm going to pulverise you!\0
+break
+
+lbl_48d:
+  msg(IMPERIALCOMMANDER_33, LEFT_F6, HIGHLORD_GREEN, NOFOLLOW, 72)
+# Impertinent fools!\0
+  unit.clearbit(IMPERIALCOMMANDER_33, $17, 0)
+break
+
+lbl_499:
+  msg(IMPERIALCOMMANDER_33, DOWN_F5, HIGHLORD_GREEN_DEAD, FOLLOW, 73)
+# Gah ...! I'm being called away ...\0
+break
+
+lbl_4a1:
+  msg(IMPERIALCOMMANDER_34, LEFT_F6, HIGHLORD_GREEN, FOLLOW, 74)
+# Come on, bring it!\0
+  unit.clearbit(IMPERIALCOMMANDER_34, $17, 0)
+break
+
+lbl_4ad:
+  msg(IMPERIALCOMMANDER_34, DOWN_F5, HIGHLORD_GREEN_DEAD, FOLLOW, 75)
+# General ... Imelda ...\0
+  local.sum($0a47d3, $07eb5e)
+break
+
+lbl_4b8:
+  msg(IMPERIALSOLDIER_77, IMELDA_D7, SOLDIER2_GREEN, NOFOLLOW, 76)
+# Prepare to depart. Ready the mast!\0
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 77)
+# This is bad.\r\nHurry, now!\0
+break
+
+lbl_4c6:
+  msg(IMPERIALSOLDIER_77, IMELDA_D7, SOLDIER2_GREEN, NOFOLLOW, 78)
+# Cut the mooring lines, and raise the anchor!\0
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 79)
+# There's no time. We must win at once!\0
+break
+
+lbl_4d4:
+  msg(IMELDA_D7, LEFT_F6, IMELDA, NOFOLLOW, 80)
+# You should be thankful to die by my hand!\0
+break
+
+lbl_4dc:
+  msg(IMELDA_D7, LEFT_F6, IMELDA, NOFOLLOW, 81)
+# Son of a--! No one should dare raise arms against me!\0
+break
+
+lbl_4e4:
+  msg(IMELDA_D7, DOWN_F5, IMELDA_DEAD, FOLLOW, 82)
+# Gah!\r\nSo ... so beautiful ...\r\nI'm ... in a far ... off place ...\r\nIt's too dark ...\0
+  unit.cleanup()
+  scenarioclear()
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 83)
+# All right, time to set sail!\r\nNext stop, Velzeria!\0
+  branch.eq.global(lbl_509, $0a47d4, $07eb58)
+  branch.unit.dead(lbl_503, LESTER_09)
+  msg(LESTER_09, RIGHT_F7, LESTER, FOLLOW, 84)
+# Raise the anchor! Let's catch some wind.\0
+  goto(lbl_509)
+lbl_503:
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 85)
+# Raise the anchor. All aboard!\0
+lbl_509:
+  loadscenario(15)
+break
+
+lbl_50d:
+  msg(IMPERIALCOMMANDER_35, LEFT_F6, HAWKKNIGHT_GREEN, NOFOLLOW, 86)
+# Until we leave port, I'll command the ship!\0
+break
+
+lbl_515:
+  msg(IMPERIALCOMMANDER_35, DOWN_F5, HAWKKNIGHT_GREEN_DEAD, FOLLOW, 87)
+# Ugh ... I can't fight like this ...\0
+break
+
+lbl_51d:
+  msg(IMPERIALCOMMANDER_36, DOWN_F5, HAWKKNIGHT_GREEN_DEAD, FOLLOW, 88)
+# General Imelda!\r\nGah--!\0
+break
+
+lbl_525:
+  msg(LAIRD_18, ERWIN_01, LAIRD, FOLLOW, 89)
+# Well, let's go!\r\nWe can't let the enemy capture this ship!\r\nLet's buy General Imelda some time!\0
+  branch.unit.dead(lbl_535, IMPERIALCOMMANDER_38)
+  msg(IMPERIALCOMMANDER_38, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 90)
+# Yes, Sir!\0
+lbl_535:
+break
+
+lbl_537:
+  msg(LAIRD_18, DOWN_F5, LAIRD_DEAD, FOLLOW, 91)
+# As we expected. It seems General Leon assesses his enemies quite well.\0
+  msg(IMELDA_D7, LAIRD_18, IMELDA, FOLLOW, 92)
+# Laird ..., thanks a lot.\r\nNext time, leave it to me.\r\nPlease fall back.\r\nIf I let you die, I'll never be able to face Leon again.\0
+  msg(LAIRD_18, IMELDA_D7, LAIRD_DEAD, FOLLOW, 93)
+# I was of no help ...\r\nHow regrettable ...\0
+  msg(IMELDA_D7, LAIRD_18, IMELDA, FOLLOW, 94)
+# That's not true.\r\nYou bought us some more time to escape.\r\nGodspeed, Colonel ...\0
+  msg(LAIRD_18, IMELDA_D7, LAIRD_DEAD, FOLLOW, 95)
+# Yes ...\0
+  unit.retreat(LAIRD_18)
+  bgm(ENEMY, ENEMY6_IMELDA)
+break
+
+lbl_55c:
+  msg(IMPERIALCOMMANDER_38, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 96)
+# Please ... Please give Leon my regards.\0
+break
+
+lbl_564:
+  subroutine(lbl_605)
+break
+
+lbl_569:
+  unit.cleanup()
+  msg(IMELDA_D7, LEFT_F6, IMELDA, FOLLOW, 97)
+# This is totally pathetic!\r\nYou're an embarrassment to your Navy.\r\nDon't you take pride in being a soldier in the Water Dragon Navy?\r\nIf you think you're weak, then you should work on a concentrated attack!\0
+  msg(IMPERIALCOMMANDER_32, IMELDA_D7, SERPENTKNIGHT_GREEN, FOLLOW, 98)
+# Yes, Sir!\0
+  msg(IMPERIALCOMMANDER_35, IMELDA_D7, HAWKKNIGHT_GREEN, FOLLOW, 99)
+# I'm sorry!\0
+  unit.clearbit(IMPERIALCOMMANDER_32, $17, 0)
+  unit.clearbit(IMPERIALCOMMANDER_35, $17, 0)
+  unit.clearbit(IMPERIALCOMMANDER_36, $17, 0)
+  local.sum($0a47d1, $07eb59)
+break
+
+lbl_58d:
+  unit.cleanup()
+  msg(IMELDA_D7, LEFT_F6, IMELDA, FOLLOW, 100)
+# Damn it! My division's falling apart.\r\nWhat useless fools! I'll just have to do this by myself!\0
+break
+
+lbl_596:
+  branch.ne.global(lbl_5cf, $0a47d5, $07eb5a)
+  branch.unit.dead(lbl_5b3, IMPERIALCOMMANDER_31)
+  msg(IMPERIALCOMMANDER_31, IMELDA_D7, PRIEST_GREEN, FOLLOW, 101)
+# General Imelda ...\r\nI'm sorry, but it looks like everyone is going to die ...\0
+  msg(IMELDA_0F, IMPERIALCOMMANDER_31, IMELDA, FOLLOW, 102)
+# Don't slack off!\r\nIf you die, do it delaying our enemy!\0
+  msg(IMPERIALCOMMANDER_31, IMELDA_D7, PRIEST_GREEN, FOLLOW, 103)
+# Yes! Even if it takes my life!\0
+  goto(lbl_5c9)
+lbl_5b3:
+  branch.unit.dead(lbl_5c9, IMPERIALCOMMANDER_30)
+  msg(IMPERIALCOMMANDER_30, IMELDA_D7, PRIEST_GREEN, FOLLOW, 104)
+# Imelda! Th, the troops have been annihilated!\0
+  msg(IMELDA_D7, IMPERIALCOMMANDER_30, PRIEST_GREEN, FOLLOW, 105)
+# Impossible ... We can't wait any longer.\r\nProceed with the departure!\0
+  msg(IMPERIALSOLDIER_77, IMELDA_D7, SOLDIER2_GREEN, NOFOLLOW, 106)
+# Yes! At once!\0
+lbl_5c9:
+  local.sum($0a47d1, $07eb5a)
+  goto(lbl_604)
+lbl_5cf:
+  branch.ne.global(lbl_5f2, $0a47d3, $07eb5e)
+  msg(IMPERIALSOLDIER_77, IMELDA_D7, SOLDIER2_GREEN, NOFOLLOW, 107)
+# Yes! Whatever you say!\0
+  branch.eq.global(lbl_5e9, $0a47d5, $07eb5b)
+  msg(IMELDA_D7, LEFT_F6, IMELDA, FOLLOW, 108)
+# I've said it before, but we don't have enough soldiers for reinforcements.\r\nYou were trained to die for your General. And make no mistake-- today, die you shall!\0
+  local.sum($0a47d5, $07eb5b)
+  goto(lbl_5ef)
+lbl_5e9:
+  msg(IMELDA_0F, LEFT_F6, IMELDA, FOLLOW, 109)
+# Okay ... In that case, continue delaying them!\0
+lbl_5ef:
+  goto(lbl_604)
+lbl_5f2:
+  msg(IMPERIALCOMMANDER_30, IMELDA_D7, PRIEST_GREEN, FOLLOW, 110)
+# Yes! Everyone, fight bravely!\0
+  msg(IMELDA_D7, IMPERIALCOMMANDER_30, IMELDA, FOLLOW, 111)
+# All right! For our General, we must hold the line!\0
+  msg(IMPERIALCOMMANDER_30, IMELDA_D7, PRIEST_GREEN, FOLLOW, 112)
+# Understood!\0
+lbl_604:
+endsub
+
+lbl_605:
+  unit.cleanup()
+  branch.eq.global(lbl_642, $0a47d5, $07eb5c)
+  bgm(ALLY, ALLY4)
+  bgm(ENEMY, ALLY4)
+  unit.deploy(LAIRD_18, 2, 9)
+  unit.deploy(IMPERIALCOMMANDER_38, 2, 32)
+  msg(LAIRD_18, ERWIN_01, LAIRD, FOLLOW, 113)
+# Wait, _NAME_! You won't get away with this!\0
+  msg(ERWIN_01, LAIRD_18, ERWIN, FOLLOW, 114)
+# Laird is here! Of all the times!\0
+  msg(IMELDA_D7, LAIRD_18, IMELDA, FOLLOW, 115)
+# Isn't that Laird!?\r\nYou've come to help us?\r\nI'll have to thank you later!\0
+  msg(LAIRD_18, IMELDA_D7, LAIRD, FOLLOW, 116)
+# Hmph.\r\nWe're here because our General is operating independently on a covert mission.\r\nThough our ranks have thinned, please allow us to assist you.\0
+  msg(IMELDA_D7, LAIRD_18, IMELDA, FOLLOW, 117)
+# Leon must have been worried to have deployed you here.\r\nAnyway, until the boat leaves, please help us impede the enemy!\0
+  msg(LAIRD_18, IMELDA_D7, LAIRD, FOLLOW, 118)
+# Certainly, General Imelda.\r\n_NAME_, you won't be going anywhere today.\r\nKnights, strike for General Leon!\0
+  local.sum($0a47d5, $07eb5c)
+  local.sub($0a47d0, $07eb58)
+lbl_642:
+endsub
+

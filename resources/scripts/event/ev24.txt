@@ -1,0 +1,471 @@
+# Movement-Triggered Events
+on.move(32, lbl_6fa, LEON_D5, 0, 0xff)
+on.move(34, lbl_716, ROHGA_D3, 0, 0xff)
+on.move(4, lbl_78f, IMPERIALCOMMANDER_33, 0, 0xff)
+break
+
+# Attack-Triggered Events
+on.attack(35, lbl_71e, ROHGA_D3, LANA_03, 0x00, 0xff, 0xff)
+on.attack(35, lbl_726, ERWIN_01, ROHGA_D3, 0x00, 0x00, 0xff)
+on.attack(38, lbl_763, IMPERIALCOMMANDER_31, NULL_FF, 0x00, 0xff, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(24, lbl_672, ERWIN_01)
+on.defeat(25, lbl_67c, HEIN_05)
+on.defeat(26, lbl_68e, CHERIE_04)
+on.defeat(27, lbl_6a0, KEITH_07)
+on.defeat(28, lbl_6b2, LESTER_09)
+on.defeat(29, lbl_6c4, SCOTT_06)
+on.defeat(30, lbl_6d6, LIANA_02)
+on.defeat(31, lbl_6e8, LANA_03)
+on.defeat(33, lbl_702, LEON_D5)
+on.defeat(36, lbl_73a, ROHGA_D3)
+on.damage(37, lbl_75b, NULL_FF, ROHGA_D3, 0xff, 0x00)
+on.defeat(39, lbl_76b, IMPERIALCOMMANDER_31)
+on.defeat(40, lbl_77d, IMPERIALCOMMANDER_32)
+on.defeat(41, lbl_79f, IMPERIALCOMMANDER_33)
+on.defeat(42, lbl_7b1, IMPERIALCOMMANDER_34)
+on.defeat(43, lbl_7c3, IMPERIALCOMMANDER_35)
+on.defeat(44, lbl_7d5, IMPERIALCOMMANDER_36)
+on.defeat(45, lbl_7e7, IMPERIALCOMMANDER_37)
+on.defeat(46, lbl_7f9, IMPERIALCOMMANDER_38)
+on.defeat(47, lbl_80b, IMPERIALCOMMANDER_81)
+on.defeat(8, lbl_81d, ROHGA_D3, IMPERIALCOMMANDER_31, IMPERIALCOMMANDER_32, IMPERIALCOMMANDER_33, IMPERIALCOMMANDER_34, IMPERIALCOMMANDER_35, IMPERIALCOMMANDER_36, IMPERIALCOMMANDER_37, IMPERIALCOMMANDER_38, IMPERIALCOMMANDER_81)
+on.defeat(48, lbl_841, LEON_D5, ROHGA_D3, IMPERIALCOMMANDER_31, IMPERIALCOMMANDER_32, IMPERIALCOMMANDER_33, IMPERIALCOMMANDER_34, IMPERIALCOMMANDER_35, IMPERIALCOMMANDER_36, IMPERIALCOMMANDER_37, IMPERIALCOMMANDER_38, IMPERIALCOMMANDER_81)
+break
+
+# Position-Triggered Events
+on.bound(9, lbl_485, NPC_SUBUNIT_F1, 7, 15, 9, 15, 0x00, 0x00)
+on.bound(9, lbl_4ad, ENEMY_SUBUNIT_F3, 7, 15, 9, 15, 0x00, 0x00)
+on.bound(11, lbl_4d5, NPC_SUBUNIT_F1, 13, 8, 13, 8, 0x00, 0x00)
+on.bound(11, lbl_4fd, ENEMY_SUBUNIT_F3, 13, 8, 13, 8, 0x00, 0x00)
+on.bound(12, lbl_525, NPC_SUBUNIT_F1, 19, 8, 19, 8, 0x00, 0x00)
+on.bound(12, lbl_54d, ENEMY_SUBUNIT_F3, 19, 8, 19, 8, 0x00, 0x00)
+on.bound(13, lbl_575, NPC_SUBUNIT_F1, 23, 15, 25, 15, 0x00, 0x00)
+on.bound(13, lbl_59d, ENEMY_SUBUNIT_F3, 23, 15, 25, 15, 0x00, 0x00)
+on.bound(14, lbl_5c5, NPC_COMMANDER_F0, 8, 13, 8, 13, 0x00, 0x00)
+on.bound(14, lbl_5d2, ENEMY_COMMANDER_F2, 8, 13, 8, 13, 0x00, 0x00)
+on.bound(15, lbl_5df, NPC_COMMANDER_F0, 13, 6, 13, 6, 0x00, 0x00)
+on.bound(15, lbl_5ec, ENEMY_COMMANDER_F2, 13, 6, 13, 6, 0x00, 0x00)
+on.bound(16, lbl_5f9, NPC_COMMANDER_F0, 19, 6, 19, 6, 0x00, 0x00)
+on.bound(16, lbl_606, ENEMY_COMMANDER_F2, 19, 6, 19, 6, 0x00, 0x00)
+on.bound(17, lbl_613, NPC_COMMANDER_F0, 24, 13, 24, 13, 0x00, 0x00)
+on.bound(17, lbl_620, ENEMY_COMMANDER_F2, 24, 13, 24, 13, 0x00, 0x00)
+on.bound(18, lbl_62d, ENEMY_COMMANDER_F2, 1, 23, 30, 29, 0x00, 0x00)
+on.bound(19, lbl_641, ENEMY_COMMANDER_F2, 1, 23, 30, 29, 0x00, 0x00)
+on.bound(20, lbl_646, ENEMY_COMMANDER_F2, 1, 46, 30, 46, 0x00, 0x00)
+on.bound(22, lbl_64b, ENEMY_COMMANDER_F2, 1, 46, 30, 46, 0x00, 0x00)
+on.bound(23, lbl_66d, ENEMY_COMMANDER_F2, 1, 46, 30, 46, 0x00, 0x00)
+on.bound(53, lbl_d08, NPC_COMMANDER_F0, 29, 9, 29, 9, 0x00, 0x00)
+break
+
+# Turn-Triggered Events
+on.turn(5, lbl_3fd, ENEMY, 1, 0x00)
+on.turn(6, lbl_452, ALLY, 7, 0x00)
+on.turn(7, lbl_457, ENEMY, 10, 0x00)
+break
+
+# Core Events
+lbl_1c8:
+  bgm(ALLY, ENEMY1_LEON)
+  cursor.set(NULL_00)
+  tile.set(255, 7, 10)
+  tile.set(255, 7, 11)
+  tile.set(255, 7, 12)
+  tile.set(255, 7, 13)
+  tile.set(255, 7, 14)
+  tile.set(255, 8, 10)
+  tile.set(255, 8, 11)
+  tile.set(255, 8, 12)
+  tile.set(255, 8, 13)
+  tile.set(255, 8, 14)
+  tile.set(255, 9, 10)
+  tile.set(255, 9, 11)
+  tile.set(255, 9, 12)
+  tile.set(255, 9, 13)
+  tile.set(255, 9, 14)
+  tile.set(255, 11, 2)
+  tile.set(255, 11, 3)
+  tile.set(255, 11, 4)
+  tile.set(255, 11, 5)
+  tile.set(255, 11, 6)
+  tile.set(255, 11, 7)
+  tile.set(255, 12, 2)
+  tile.set(255, 12, 3)
+  tile.set(255, 12, 4)
+  tile.set(255, 12, 5)
+  tile.set(255, 12, 6)
+  tile.set(255, 12, 7)
+  tile.set(255, 13, 2)
+  tile.set(255, 13, 3)
+  tile.set(255, 13, 4)
+  tile.set(255, 13, 5)
+  tile.set(255, 13, 6)
+  tile.set(255, 13, 7)
+  tile.set(255, 14, 2)
+  tile.set(255, 14, 3)
+  tile.set(255, 14, 4)
+  tile.set(255, 14, 5)
+  tile.set(255, 14, 6)
+  tile.set(255, 14, 7)
+  tile.set(255, 15, 2)
+  tile.set(255, 15, 3)
+  tile.set(255, 15, 4)
+  tile.set(255, 15, 5)
+  tile.set(255, 15, 6)
+  tile.set(255, 15, 7)
+  tile.set(255, 17, 2)
+  tile.set(255, 17, 3)
+  tile.set(255, 17, 4)
+  tile.set(255, 17, 5)
+  tile.set(255, 17, 6)
+  tile.set(255, 17, 7)
+  tile.set(255, 18, 2)
+  tile.set(255, 18, 3)
+  tile.set(255, 18, 4)
+  tile.set(255, 18, 5)
+  tile.set(255, 18, 6)
+  tile.set(255, 18, 7)
+  tile.set(255, 19, 2)
+  tile.set(255, 19, 3)
+  tile.set(255, 19, 4)
+  tile.set(255, 19, 5)
+  tile.set(255, 19, 6)
+  tile.set(255, 19, 7)
+  tile.set(255, 20, 2)
+  tile.set(255, 20, 3)
+  tile.set(255, 20, 4)
+  tile.set(255, 20, 5)
+  tile.set(255, 20, 6)
+  tile.set(255, 20, 7)
+  tile.set(255, 21, 2)
+  tile.set(255, 21, 3)
+  tile.set(255, 21, 4)
+  tile.set(255, 21, 5)
+  tile.set(255, 21, 6)
+  tile.set(255, 21, 7)
+  tile.set(255, 23, 10)
+  tile.set(255, 23, 11)
+  tile.set(255, 23, 12)
+  tile.set(255, 23, 13)
+  tile.set(255, 23, 14)
+  tile.set(255, 24, 10)
+  tile.set(255, 24, 11)
+  tile.set(255, 24, 12)
+  tile.set(255, 24, 13)
+  tile.set(255, 24, 14)
+  tile.set(255, 25, 10)
+  tile.set(255, 25, 11)
+  tile.set(255, 25, 12)
+  tile.set(255, 25, 13)
+  tile.set(255, 25, 14)
+  screen.fadein(4)
+  cursor.set(ERWIN_01)
+  unit.hide(ROHGA_D3, SUBUNIT)
+  unit.hide(IMPERIALCOMMANDER_31, SUBUNIT)
+  unit.hide(IMPERIALCOMMANDER_32, SUBUNIT)
+  unit.position(ROHGA_D3, PRESET, PRESET)
+  unit.position(IMPERIALCOMMANDER_31, PRESET, PRESET)
+  unit.position(IMPERIALCOMMANDER_32, PRESET, PRESET)
+  unit.position(IMPERIALCOMMANDER_33, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_33)
+  unit.position(IMPERIALCOMMANDER_34, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_34)
+  unit.position(IMPERIALCOMMANDER_35, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_35)
+  unit.position(IMPERIALCOMMANDER_36, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_36)
+  unit.position(IMPERIALCOMMANDER_37, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_37)
+  unit.position(IMPERIALCOMMANDER_38, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_38)
+  unit.position(IMPERIALCOMMANDER_81, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_81)
+  randomize.holyrod(0, 1, 2, 3)
+  msg(ROHGA_D3, UP_F4, ROHGA, FOLLOW, 1)
+# The Holy Rod is on an altar inside this temple.\0
+  msg(IMPERIALCOMMANDER_31, ROHGA_D3, SWORDSMAN2_GREEN, FOLLOW, 2)
+# We'll have to split up and check each area individually.\0
+  msg(ROHGA_D3, IMPERIALCOMMANDER_31, ROHGA, FOLLOW, 3)
+# Won't this waste a lot of time ...?\0
+  msg(ROHGA_D3, DOWN_F5, ROHGA, FOLLOW, 4)
+# What? Somebody is approaching! Is it the enemy!?\0
+  bgm(ALLY, ALLY5)
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.showsub(ERWIN_01)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.showsub(HEIN_05)
+  unit.position(CHERIE_04, PRESET, PRESET)
+  unit.showsub(CHERIE_04)
+  unit.position(KEITH_07, PRESET, PRESET)
+  unit.showsub(KEITH_07)
+  unit.position(LESTER_09, PRESET, PRESET)
+  unit.showsub(LESTER_09)
+  unit.position(SCOTT_06, PRESET, PRESET)
+  unit.showsub(SCOTT_06)
+  unit.position(LIANA_02, PRESET, PRESET)
+  unit.showsub(LIANA_02)
+  unit.position(LANA_03, PRESET, PRESET)
+  unit.showsub(LANA_03)
+  msg(LANA_03, ERWIN_01, LANA, FOLLOW, 5)
+# It's here. Somewhere within these ruins we'll find the Holy Rod.\0
+  msg(LESTER_09, HEIN_05, LESTER, FOLLOW, 6)
+# Hey, Hein ... Don't you know any spells that could locate it?\0
+  msg(HEIN_05, LESTER_09, HEIN, FOLLOW, 7)
+# Heh, if only life were so simple, Lester ...\0
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 8)
+# What!\r\nThe Blue Dragon Knights are here ...!\0
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 9)
+# Is that Rohga leading the enemy search party ...?\r\nYes, it is him!\0
+  msg(ROHGA_D3, ERWIN_01, ROHGA, FOLLOW, 10)
+# _NAME_'s bunch?\r\nMove fast! We must find it before they do!\0
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 11)
+# He seems to be after the rod as well.\r\nLet's hurry!\0
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 12)
+# Everyone, let's go!\r\nWe cannot back down, even for a former ally!\0
+  local.sum($0a47d0, $07eb5c)
+break
+
+lbl_3fd:
+  branch.unit.dead(lbl_450, ROHGA_D3)
+  msg(ROHGA_D3, IMPERIALCOMMANDER_31, ROHGA, FOLLOW, 13)
+# Let's split and search!\0
+  branch.unit.dead(lbl_444, IMPERIALCOMMANDER_31)
+  msg(ROHGA_D3, IMPERIALCOMMANDER_31, ROHGA, FOLLOW, 14)
+# I'll check the left interior room.\0
+  unit.move(ROHGA_D3, 14, 17)
+  branch.unit.dead(lbl_43c, IMPERIALCOMMANDER_32)
+  msg(ROHGA_D3, IMPERIALCOMMANDER_31, ROHGA, FOLLOW, 15)
+# You check the left side.\0
+  unit.move(ROHGA_D3, 17, 17)
+  msg(ROHGA_D3, IMPERIALCOMMANDER_32, ROHGA, FOLLOW, 16)
+# You check the right side.\0
+  msg(IMPERIALCOMMANDER_31, ROHGA_D3, SWORDSMAN2_GREEN, FOLLOW, 17)
+# Yes, Sir!\0
+  unit.showsub(IMPERIALCOMMANDER_31)
+  msg(IMPERIALCOMMANDER_32, ROHGA_D3, SWORDSMAN2_GREEN, FOLLOW, 18)
+# Understood.\0
+  unit.showsub(IMPERIALCOMMANDER_32)
+  goto(lbl_444)
+lbl_43c:
+  msg(IMPERIALCOMMANDER_31, ROHGA_D3, SWORDSMAN2_GREEN, FOLLOW, 19)
+# Yes, Sir!\0
+  unit.showsub(IMPERIALCOMMANDER_31)
+lbl_444:
+  unit.move(ROHGA_D3, 14, 14)
+  msg(ROHGA_D3, DOWN_F5, ROHGA, FOLLOW, 20)
+# No matter what, we cannot let them take the Holy Rod!\0
+  unit.showsub(ROHGA_D3)
+lbl_450:
+break
+
+lbl_452:
+  bgm(ENEMY, ENEMY1_LEON)
+break
+
+lbl_457:
+  unit.deploy(LEON_D5, 16, 45)
+  branch.unit.dead(lbl_474, ROHGA_D3)
+  msg(LEON_D5, UP_F4, LEON, FOLLOW, 21)
+# Sorry for being late.\0
+  msg(ROHGA_D3, LEON_D5, ROHGA, FOLLOW, 22)
+# Leon! Are you all right?\r\nWeren't you injured in the battle before?\r\nPlease, let me handle this, Sir.\0
+  msg(LEON_D5, ROHGA_D3, LEON, FOLLOW, 23)
+# Don't worry about me.\r\nI can't leave this all up to you.\0
+  goto(lbl_480)
+lbl_474:
+  msg(LEON_D5, UP_F4, LEON, FOLLOW, 24)
+# Damn! We're a little late!\0
+  msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 25)
+# Leon!\0
+lbl_480:
+  local.sum($0a47d1, $07eb58)
+break
+
+lbl_485:
+  subroutine(lbl_865)
+  branch.ne.global(lbl_4a0, $0a47d0, $07eb58)
+  tile.set(253, 8, 12)
+  focus.point(8, 12, SLOW)
+  subroutine(lbl_889)
+  subroutine(lbl_9f1)
+  subroutine(lbl_b2e)
+  goto(lbl_4ab)
+lbl_4a0:
+  branch.eq.global(lbl_4ab, $0a47d1, $07eb5a)
+  focus.point(8, 12, SLOW)
+  subroutine(lbl_925)
+lbl_4ab:
+break
+
+lbl_4ad:
+  subroutine(lbl_865)
+  branch.ne.global(lbl_4c8, $0a47d0, $07eb58)
+  tile.set(253, 8, 12)
+  focus.point(8, 12, SLOW)
+  subroutine(lbl_8fa)
+  subroutine(lbl_a09)
+  subroutine(lbl_b2e)
+  goto(lbl_4d3)
+lbl_4c8:
+  branch.eq.global(lbl_4d3, $0a47d1, $07eb5a)
+  focus.point(8, 12, SLOW)
+  subroutine(lbl_996)
+lbl_4d3:
+break
+
+lbl_4d5:
+  subroutine(lbl_86e)
+  branch.ne.global(lbl_4f0, $0a47d0, $07eb59)
+  tile.set(253, 13, 5)
+  focus.point(13, 5, SLOW)
+  subroutine(lbl_889)
+  subroutine(lbl_9f1)
+  subroutine(lbl_b53)
+  goto(lbl_4fb)
+lbl_4f0:
+  branch.eq.global(lbl_4fb, $0a47d1, $07eb5a)
+  focus.point(13, 5, SLOW)
+  subroutine(lbl_925)
+lbl_4fb:
+break
+
+lbl_4fd:
+  subroutine(lbl_86e)
+  branch.ne.global(lbl_518, $0a47d0, $07eb59)
+  tile.set(253, 13, 5)
+  focus.point(13, 5, SLOW)
+  subroutine(lbl_8fa)
+  subroutine(lbl_a09)
+  subroutine(lbl_b53)
+  goto(lbl_523)
+lbl_518:
+  branch.eq.global(lbl_523, $0a47d1, $07eb5a)
+  focus.point(13, 5, SLOW)
+  subroutine(lbl_996)
+lbl_523:
+break
+
+lbl_525:
+  subroutine(lbl_877)
+  branch.ne.global(lbl_540, $0a47d0, $07eb5a)
+  tile.set(253, 19, 5)
+  focus.point(19, 5, SLOW)
+  subroutine(lbl_889)
+  subroutine(lbl_9f1)
+  subroutine(lbl_b78)
+  goto(lbl_54b)
+lbl_540:
+  branch.eq.global(lbl_54b, $0a47d1, $07eb5a)
+  focus.point(19, 5, SLOW)
+  subroutine(lbl_925)
+lbl_54b:
+break
+
+lbl_54d:
+  subroutine(lbl_877)
+  branch.ne.global(lbl_568, $0a47d0, $07eb5a)
+  tile.set(253, 19, 5)
+  focus.point(19, 5, SLOW)
+  subroutine(lbl_8fa)
+  subroutine(lbl_a09)
+  subroutine(lbl_b78)
+  goto(lbl_573)
+lbl_568:
+  branch.eq.global(lbl_573, $0a47d1, $07eb5a)
+  focus.point(19, 5, SLOW)
+  subroutine(lbl_996)
+lbl_573:
+break
+
+lbl_575:
+  subroutine(lbl_880)
+  branch.ne.global(lbl_590, $0a47d0, $07eb5b)
+  tile.set(253, 24, 12)
+  focus.point(24, 12, SLOW)
+  subroutine(lbl_889)
+  subroutine(lbl_9f1)
+  subroutine(lbl_b9d)
+  goto(lbl_59b)
+lbl_590:
+  branch.eq.global(lbl_59b, $0a47d1, $07eb5a)
+  focus.point(24, 12, SLOW)
+  subroutine(lbl_925)
+lbl_59b:
+break
+
+lbl_59d:
+  subroutine(lbl_880)
+  branch.ne.global(lbl_5b8, $0a47d0, $07eb5b)
+  tile.set(253, 24, 12)
+  focus.point(24, 12, SLOW)
+  subroutine(lbl_8fa)
+  subroutine(lbl_a09)
+  subroutine(lbl_b9d)
+  goto(lbl_5c3)
+lbl_5b8:
+  branch.eq.global(lbl_5c3, $0a47d1, $07eb5a)
+  focus.point(24, 12, SLOW)
+  subroutine(lbl_996)
+lbl_5c3:
+break
+
+lbl_5c5:
+  branch.ne.global(lbl_5d0, $0a47d0, $07eb58)
+  tile.set(254, 8, 12)
+  subroutine(lbl_a21)
+lbl_5d0:
+break
+
+lbl_5d2:
+  branch.ne.global(lbl_5dd, $0a47d0, $07eb58)
+  tile.set(254, 8, 12)
+  subroutine(lbl_a66)
+lbl_5dd:
+break
+
+lbl_5df:
+  branch.ne.global(lbl_5ea, $0a47d0, $07eb59)
+  tile.set(254, 13, 5)
+  subroutine(lbl_a21)
+lbl_5ea:
+break
+
+lbl_5ec:
+  branch.ne.global(lbl_5f7, $0a47d0, $07eb59)
+  tile.set(254, 13, 5)
+  subroutine(lbl_a66)
+lbl_5f7:
+break
+
+lbl_5f9:
+  branch.ne.global(lbl_604, $0a47d0, $07eb5a)
+  tile.set(254, 19, 5)
+  subroutine(lbl_a21)
+lbl_604:
+break
+
+lbl_606:
+  branch.ne.global(lbl_611, $0a47d0, $07eb5a)
+  tile.set(254, 19, 5)
+  subroutine(lbl_a66)
+lbl_611:
+break
+
+lbl_613:
+  branch.ne.global(lbl_61e, $0a47d0, $07eb5b)
+  tile.set(254, 24, 12)
+  subroutine(lbl_a21)
+lbl_61e:
+break
+
+lbl_620:
+  branch.ne.global(lbl_62b, $0a47d0, $07eb5b)
+  tile.set(254, 24, 12)
+  subroutine(lbl_a66)
+lbl_62b:
+break
+
+lbl_62d:
+  local.sub($0a47d2, $07eb5b)

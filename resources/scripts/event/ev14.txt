@@ -97,3 +97,831 @@ lbl_146:
   unit.face(VILLAGER_25, DOWN_F5)
   msg(WEREWOLF_3A, VILLAGER_25, WEREWOLF, NOFOLLOW, 3)
 # Waooooon!\0
+  attack(WEREWOLF_3A, VILLAGER_25)
+  msg(VILLAGER_25, DOWN_F5, VILLAGER_YELLOW_DEAD, NOFOLLOW, 4)
+# Aaahh ... Somebody ... help--!\0
+  unit.setbyte(VILLAGER_25, $03, 0x00)
+  unit.cleanup()
+  unit.reset(VILLAGER_25)
+  unit.position(VILLAGER_25, 22, 8)
+  unit.showsub(VILLAGER_25)
+  local.sub($0a47d0, $07eb58)
+  cursor.set(ERWIN_01)
+  msg(VILLAGER_25, SONYA_D4, VILLAGER_YELLOW, FOLLOW, 5)
+# Eeek!\0
+  msg(VILLAGER_26, SONYA_D4, VILLAGER_YELLOW, FOLLOW, 6)
+# Why are they doing this ...?\0
+  msg(SONYA_D4, VILLAGER_25, SONYA, FOLLOW, 7)
+# Have you already forgotten?\r\nThat's what I despise about you humans! You're so selfish!\r\nAll of you, go kill as many as you like!\0
+  msg(WEREWOLF_3A, VILLAGER_25, WEREWOLF, FOLLOW, 8)
+# Grrrrr!\0
+  bgm(ALLY, ALLYREINFORCEMENT1)
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.showsub(ERWIN_01)
+  unit.position(CHERIE_04, PRESET, PRESET)
+  unit.showsub(CHERIE_04)
+  unit.position(LIANA_02, PRESET, PRESET)
+  unit.showsub(LIANA_02)
+  unit.position(KEITH_07, PRESET, PRESET)
+  unit.showsub(KEITH_07)
+  unit.position(LESTER_09, PRESET, PRESET)
+  unit.showsub(LESTER_09)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.showsub(HEIN_05)
+  msg(HEIN_05, SONYA_D4, HEIN, FOLLOW, 9)
+# Not again! I'm starting to think we should avoid villages ...\r\n_NAME_, a group of monsters is attacking!\0
+  msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 10)
+# I've never seen such a huge horde of monsters ...\r\nWhat the ...? That girl, ... she seems to be working on the side of the monsters.\0
+  msg(SONYA_D4, ERWIN_01, SONYA, FOLLOW, 11)
+# Huh? Here come some tougher humans!\r\nI'm tired of killing humans who don't put up a fight. Let's have some fun with them!\0
+  unit.showsub(SONYA_D4)
+  unit.showsub(KERBEROS_52)
+  unit.showsub(WEREWOLF_39)
+  unit.showsub(KERBEROS_53)
+  unit.showsub(WEREWOLF_3A)
+  msg(LIANA_02, SONYA_D4, LIANA, FOLLOW, 12)
+# ...?\r\nI sense something more than demon tribe in her ...\0
+  msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 13)
+# ...? Impossible ...! Could she be ...?\0
+  msg(HEIN_05, ROHGA_0B, HEIN, FOLLOW, 14)
+# ...?\r\nRohga, what's the matter?\0
+  msg(ROHGA_0B, HEIN_05, ROHGA, FOLLOW, 15)
+# Oh, ... it's nothing.\0
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 16)
+# Anyway, we must protect the villagers!\0
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 17)
+# Yeah!\0
+  unit.showsub(ROHGA_0B)
+  local.sum($0a47d0, $07eb59)
+  local.sum($0a47d0, $07eb5a)
+  global.sub($0a4789, $07eb5a)
+  global.sub($0a4789, $07eb5d)
+break
+
+lbl_265:
+  branch.unit.dead(lbl_26f, SONYA_D4)
+  msg(SONYA_D4, RIGHT_F7, SONYA, FOLLOW, 18)
+# Let's go, everyone! Crush them!\0
+lbl_26f:
+break
+
+lbl_271:
+  branch.unit.dead(lbl_2a6, SONYA_D4)
+  msg(SONYA_D4, RIGHT_F7, SONYA, FOLLOW, 19)
+# Come forth, those who share my blood!\0
+  bgm(ENEMY, ENEMY8_BOSER)
+  unit.deploy(LICH_4C, 59, 3)
+  unit.deploy(LICH_4A, 56, 5)
+  unit.deploy(LICH_4B, 56, 2)
+  msg(LICH_4C, SONYA_D4, LICH_RED, FOLLOW, 20)
+# Lady Sonya, you called?\0
+  branch.unit.dead(lbl_2a0, ROHGA_0B)
+  msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 21)
+# Sonya!? I knew it, Sonya!\r\nSonya! It's me, Rohga! Have you forgotten me?\0
+  msg(SONYA_D4, ROHGA_0B, SONYA, FOLLOW, 22)
+# ...\0
+lbl_2a0:
+  local.sum($0a47d0, $07eb5d)
+  local.sum($0a47d0, $07eb5e)
+lbl_2a6:
+break
+
+lbl_2a8:
+  subroutine(lbl_7a4)
+break
+
+lbl_2ad:
+  branch.unit.dead(lbl_2e1, ROHGA_0B)
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 23)
+# _NAME_, I have a request ...\0
+  msg(ERWIN_01, ROHGA_0B, ERWIN, FOLLOW, 24)
+# ...? What's wrong?\0
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 25)
+# That girl commanding the monsters, I think she's my younger sister ...\0
+  msg(ERWIN_01, ROHGA_0B, ERWIN, FOLLOW, 26)
+# What!?\0
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 27)
+# I need to be sure. Let me get close to her.\0
+  msg(ERWIN_01, ROHGA_0B, ERWIN, FOLLOW, 28)
+# It's dangerous. Are you sure?\0
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 29)
+# Please ...\0
+  msg(ERWIN_01, ROHGA_0B, ERWIN, FOLLOW, 30)
+# I understand. I'll try to get you as close as I can.\0
+lbl_2e1:
+break
+
+lbl_2e3:
+  branch.unit.dead(lbl_316, LEON_D5)
+  msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 31)
+# _NAME_, correct? Let me lend you a hand.\0
+  branch.unit.dead(lbl_310, CHERIE_04)
+  msg(CHERIE_04, LEON_D5, CHERIE, FOLLOW, 32)
+# The Imperials want to help us? What are they up to?\0
+  msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 33)
+# I'm not sure, but that Leon appears to be an honourable man.\r\nWe can trust him.\0
+  branch.unit.dead(lbl_30d, KEITH_07)
+  msg(KEITH_07, ERWIN_01, KEITH, FOLLOW, 34)
+# I agree.\r\nThe Blue Dragon Knights are formed from the best soldiers in the Empire.\r\nThey're not just strong, but truly honourable as well.\0
+  msg(CHERIE_04, KEITH_07, CHERIE, FOLLOW, 35)
+# Hmmm ..., is that so ...\0
+lbl_30d:
+  goto(lbl_316)
+lbl_310:
+  msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 36)
+# I see ... Sorry about before. Please lend us your strength!\0
+lbl_316:
+break
+
+lbl_318:
+  bgm(ENEMY, ENEMY1_LEON)
+break
+
+lbl_31d:
+  branch.unit.dead(lbl_388, ROHGA_0B)
+  msg(ERWIN_01, ROHGA_0B, ERWIN, FOLLOW, 37)
+# Rohga, was she really your sister?\0
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 38)
+# Yeah, ... I'm positive.\r\nBut why is she doing this ...? I can't believe Sonya could ever kill someone ...\0
+  branch.unit.dead(lbl_33a, HEIN_05)
+  msg(HEIN_05, ROHGA_0B, HEIN, FOLLOW, 39)
+# Then she must be someone else with the same name!\0
+  goto(lbl_340)
+lbl_33a:
+  msg(ERWIN_01, ROHGA_0B, ERWIN, FOLLOW, 40)
+# Are you sure you're not mistaken?\0
+lbl_340:
+  msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 41)
+# Could I mistake my own sister for someone else?\r\nSonya's father was a man of the demon tribe. She had always been shunned for that.\0
+  branch.unit.dead(lbl_353, LIANA_02)
+  msg(LIANA_02, ROHGA_0B, LIANA_SAD, FOLLOW, 42)
+# Is that why she has a grudge against humans?\r\nHow sad it is, being unable to trust people ...\0
+  goto(lbl_359)
+lbl_353:
+  msg(ERWIN_01, ROHGA_0B, ERWIN, FOLLOW, 43)
+# Then does Sonya have a grudge against these people?\0
+lbl_359:
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 44)
+# That's right. This is the village where Sonya and I were brought up.\0
+  branch.unit.dead(lbl_36c, CHERIE_04)
+  msg(CHERIE_04, ROHGA_0B, CHERIE, FOLLOW, 45)
+# What was so terrible that these people did to her?\0
+  goto(lbl_372)
+lbl_36c:
+  msg(ERWIN_01, ROHGA_0B, ERWIN, FOLLOW, 46)
+# I don't know, but she seems to truly despise them for some reason.\0
+lbl_372:
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 47)
+# I don't know exactly.\r\nWhile I was out of the village on work, she left.\r\nBut I never thought we'd meet again like this ...\0
+  branch.unit.dead(lbl_388, SONYA_D4)
+  msg(ERWIN_01, ROHGA_0B, ERWIN, FOLLOW, 48)
+# Her heart is full of hatred for people now.\r\nLet's do what we can ... It's still too early to give up.\0
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 49)
+# Sorry, I really appreciate this.\0
+lbl_388:
+break
+
+lbl_38a:
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 50)
+# Nothing found in the drawers.\0
+break
+
+lbl_392:
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 51)
+# In a forest there are mushrooms with an odd odour.\0
+  prompt.ok(lbl_3ac)
+  unit.statboost(58, 1)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 53)
+# AT raised by 1 point.\0
+  global.sum($0a4794, $07eb5e)
+lbl_3ac:
+break
+
+lbl_3ae:
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 54)
+# Ugh ... I've come so far ...\0
+  unit.cleanup()
+  gameover()
+break
+
+lbl_3b8:
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 55)
+# Argh!\r\nI would've used all my power if I'd known these monsters were this tough.\0
+break
+
+lbl_3c0:
+  msg(CHERIE_04, DOWN_F5, CHERIE_DEAD, FOLLOW, 56)
+# Hah, ... sorry, I'm beaten ...\0
+break
+
+lbl_3c8:
+  msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 57)
+# Sonya! You're Sonya, aren't you!?\0
+  msg(SONYA_D4, ROHGA_0B, SONYA, FOLLOW, 58)
+# Brother!\0
+  msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 59)
+# Why are you trying to kill these villagers?\r\nI have to stop you by any means, ... even if I have to use force!\0
+  msg(SONYA_D4, ROHGA_0B, SONYA, FOLLOW, 60)
+# What are you doing!?\r\nThese people have to die! What do you think they did to me while you were gone!?\r\nI knew it, no one believes anything I say! Even my own brother ...\r\nI hate humans!\0
+  global.sum($0a4789, $07eb5d)
+  global.sub($0a4789, $07eb5a)
+  local.sum($0a47d1, $07eb58)
+break
+
+lbl_3eb:
+  branch.unit.dead(lbl_3f8, SONYA_D4)
+  msg(ROHGA_0B, DOWN_F5, ROHGA_DEAD, FOLLOW, 61)
+# Shit! To be defeated here ... Sonya ...\0
+  goto(lbl_3fe)
+lbl_3f8:
+  msg(ROHGA_0B, DOWN_F5, ROHGA_DEAD, FOLLOW, 62)
+# Crap! Although Sonya is here before my eyes ...!\0
+lbl_3fe:
+break
+
+lbl_400:
+  msg(KEITH_07, DOWN_F5, KEITH_DEAD, FOLLOW, 63)
+# Damn! How could I make such a mistake!\0
+break
+
+lbl_408:
+  msg(LESTER_09, DOWN_F5, LESTER_DEAD, FOLLOW, 64)
+# God damn it! These monsters are quite strong!\0
+break
+
+lbl_410:
+  msg(LIANA_02, DOWN_F5, LIANA_DEAD, FOLLOW, 65)
+# _NAME_ ... I'm sorry ...\0
+break
+
+lbl_418:
+  msg(VILLAGER_25, RIGHT_F7, VILLAGER_YELLOW, NOFOLLOW, 66)
+# Eeek! Help!\0
+break
+
+lbl_420:
+  msg(VILLAGER_25, DOWN_F5, VILLAGER_YELLOW_DEAD, FOLLOW, 67)
+# Ouch ... Why me ...?\0
+break
+
+lbl_428:
+  msg(VILLAGER_26, RIGHT_F7, VILLAGER_YELLOW, NOFOLLOW, 68)
+# No! Stop it!\0
+break
+
+lbl_430:
+  msg(VILLAGER_26, DOWN_F5, VILLAGER_YELLOW_DEAD, FOLLOW, 69)
+# Eeek!\0
+break
+
+lbl_438:
+  msg(LEON_D5, RIGHT_F7, LEON, FOLLOW, 70)
+# My vision is blurry. Haven't I recovered from that last wound?\r\nI guess fighting that dragon by myself was a really bad idea, after all ...\r\nBut helping the villagers is my top priority now. I cannot rest.\0
+break
+
+lbl_440:
+  branch.unit.dead(lbl_462, LAIRD_18)
+  msg(LEON_D5, LAIRD_18, LEON, FOLLOW, 71)
+# Let's go, Laird! We must defeat all the undead monsters.\0
+  msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 72)
+# Please, wait! You were wounded in your recent battle with the monsters.\r\nAre you well enough to fight?\0
+  msg(LEON_D5, LAIRD_18, LEON, FOLLOW, 73)
+# The wound I received while fighting that dragon ...\0
+  msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 74)
+# Such a great wound would kill an ordinary man!\r\nPlease don't push yourself by fighting too much.\r\nIt would be devastating to the Blue Dragon Knights if you died here ...\0
+  msg(LEON_D5, LAIRD_18, LEON, FOLLOW, 75)
+# Hah hah, ... sorry. You need not worry.\r\nWe're just soldiers, here for the villagers' protection.\r\nNow is the time to think of their lives rather than our own!\0
+lbl_462:
+break
+
+lbl_464:
+  msg(LEON_D5, DOWN_F5, LEON_DEAD, FOLLOW, 76)
+# What are you saying!? Fighting with such a wound ...\0
+  local.sum($0a47d3, $07eb5a)
+break
+
+lbl_46f:
+  msg(LAIRD_18, RIGHT_F7, LAIRD, FOLLOW, 77)
+# I'm right behind you, Leon!\r\nLet's drive away those monsters!\0
+break
+
+lbl_477:
+  msg(LAIRD_18, DOWN_F5, LAIRD_DEAD, FOLLOW, 78)
+# I didn't imagine those monsters could be so powerful! We've no choice but to retreat.\0
+break
+
+lbl_47f:
+  msg(LICH_4A, LEFT_F6, LICH_RED, NOFOLLOW, 79)
+# You will die here.\0
+break
+
+lbl_487:
+  msg(LICH_4A, DOWN_F5, LICH_RED, FOLLOW, 80)
+# Impossible ...\0
+break
+
+lbl_48f:
+  msg(WEREWOLF_39, DOWN_F5, WEREWOLF, FOLLOW, 81)
+# Grrraaahhh!\0
+break
+
+lbl_497:
+  msg(WEREWOLF_3A, DOWN_F5, WEREWOLF, FOLLOW, 82)
+# Grrraaahhh!\0
+break
+
+lbl_49f:
+  msg(LICH_4B, DOWN_F5, LICH_RED, FOLLOW, 83)
+# L, Lady Sonya ...\0
+break
+
+lbl_4a7:
+  msg(KERBEROS_52, DOWN_F5, KERBEROS, FOLLOW, 84)
+# Grrrr ...\0
+break
+
+lbl_4af:
+  msg(KERBEROS_53, DOWN_F5, KERBEROS, FOLLOW, 85)
+# Grrrr ...\0
+break
+
+lbl_4b7:
+  msg(LICH_4C, DOWN_F5, LICH_RED, FOLLOW, 86)
+# How could you, human ...\0
+break
+
+lbl_4bf:
+  msg(SONYA_D4, LEFT_F6, SONYA, NOFOLLOW, 87)
+# Who the hell are you!?\r\nYou humans are challenging us!?\r\nDamn you! Damn you, you mean, powerless ... humans!\0
+  branch.unit.dead(lbl_4d3, LIANA_02)
+  msg(LIANA_02, SONYA_D4, LIANA, NOFOLLOW, 88)
+# Ah ... I sense a dark, cold feeling pouring in ...\0
+  focus.unit(SONYA_D4)
+lbl_4d3:
+break
+
+lbl_4d5:
+  msg(SONYA_D4, DOWN_F5, SONYA_DEAD, FOLLOW, 89)
+# Ugh! How could I let a human defeat me ...\r\nI will have my revenge ...\0
+  branch.unit.dead(lbl_4e5, ROHGA_0B)
+  msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 90)
+# Sonya!\0
+lbl_4e5:
+  unit.retreat(SONYA_D4)
+  branch.unit.dead(lbl_4f1, CHERIE_04)
+  msg(CHERIE_04, DOWN_F5, CHERIE, FOLLOW, 91)
+# She's gone.\0
+lbl_4f1:
+  local.sum($0a47d1, $07eb58)
+break
+
+lbl_4f6:
+  unit.cleanup()
+  msg(SONYA_D4, LEFT_F6, SONYA, FOLLOW, 92)
+# Hah hah hah ... Enjoy the pain.\r\nYou humans are not qualified to live on this earth.\0
+break
+
+lbl_4ff:
+  unit.cleanup()
+  msg(LEON_D5, RIGHT_F7, LEON, FOLLOW, 93)
+# Hmph ... I guess I still haven't fully recovered ...\0
+break
+
+  unit.cleanup()
+  scenarioclear()
+  branch.unit.dead(lbl_514, ROHGA_0B)
+  msg(ROHGA_0B, DOWN_F5, ROHGA, FOLLOW, 102)
+# Sonya! What the hell was that?\r\nGentle Sonya couldn't do this!\r\nWhy ...? Damn!\0
+lbl_514:
+  branch.unit.dead(lbl_575, LEON_D5)
+  branch.eq.global(lbl_53a, $0a47d5, $07eb58)
+  msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 103)
+# Excellent work, _NAME_. Though you're an enemy, I commend you.\0
+  msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 104)
+# Thanks. I'm grateful.\0
+  msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 105)
+# No, you don't need to thank me.\r\nAs leader of the Blue Dragon Knights, I just could not stand what she was doing.\0
+  msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 106)
+# I understand. By the way, how is your wound?\0
+  msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 107)
+# You're a strange man indeed to worry about an enemy's wound.\0
+lbl_53a:
+  msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 108)
+# Leon ..., I have a question for you.\0
+  msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 109)
+# Ask.\0
+  msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 110)
+# Why would a man like you, a man who hates these empty, pointless wars, join the army?\r\nYou know that war only brings sadness, don't you?\0
+  msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 111)
+# I can't stand it. Seeing women and children sacrificed on the battlefield ...\r\nSomeone has to take action to rid the world of war. If you hope for peace from the sidelines, it will never come.\r\nThe only way war will ever end is when the continent is unified under one man ... Even through bloody conquest.\r\nSurely it might not be called true peace ... But it must be better than this war-torn age.\0
+  branch.ne.global(lbl_572, $0a4788, $07eb5b)
+  branch.ne.global(lbl_572, $0a4789, $07eb5b)
+  msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 112)
+# I'm not saying that you're wrong, ... but it's not so simple.\r\nI don't think there's such a thing as good or evil in war.\0
+  msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 113)
+# You and I have had different ideas from the beginning, but remember my words!\r\nFor all your good intent, you yourself have sent countless Imperial soldiers to their graves.\r\nWe are not the only ones who have created orphans by this war.\0
+  subroutine(lbl_849)
+  msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 114)
+# Farewell, _NAME_!\0
+  subroutine(lbl_74c)
+lbl_572:
+  subroutine(lbl_576)
+lbl_575:
+endsub
+
+lbl_576:
+  msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 115)
+# That's one way of looking at it.\0
+  msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 116)
+# _NAME_ ...! One man's strength alone can't rid this continent of war.\r\nThe unity of El Sallia under a strong state could stop this pointless bloodshed.\r\nWhat do you think? Will you join my side in ending this war-torn era?\0
+  prompt.ok(lbl_71c)
+  msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 118)
+# Surely the world will know peace under the rule of a single, strong nation ...\0
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 119)
+# Everyone, ...\r\nHere I must say farewell. I'm going with Leon.\0
+  branch.unit.dead(lbl_5cc, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 120)
+# What!? _NAME_, are you leaving us to join the Empire?\0
+  msg(ERWIN_01, HEIN_05, ERWIN, FOLLOW, 121)
+# Yes.\r\nThe best way to calm this war-shattered world is to unify it under a strong, central nation.\r\nThe Empire has the power to do that.\r\nMoreover, Leon doesn't seem like a man who fights for greed or self-interest.\r\nI'll lend the Empire my strength.\0
+  branch.unit.dead(lbl_5b3, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 94)
+# Then I will go, too.\r\n_NAME_ saved my life. I haven't yet returned the favour.\0
+  goto(lbl_5b9)
+lbl_5b3:
+  msg(HEIN_05, ERWIN_01, HEIN_DEAD, NOFOLLOW, 94)
+# Then I will go, too.\r\n_NAME_ saved my life. I haven't yet returned the favour.\0
+lbl_5b9:
+  branch.unit.dead(lbl_5c6, ROHGA_0B)
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 95)
+# I'm going too.\r\nIt's true that my sister, Sonya, cooperates with the Empire.\r\nAs long as the Imperial Army exists, I can see her again.\r\nAnyway, I can't just let her act like that. No one but me seems to be able to stop Sonya.\r\nEven if the only solution is to kill her ...\0
+  goto(lbl_5cc)
+lbl_5c6:
+  msg(ROHGA_0B, ERWIN_01, ROHGA_DEAD, NOFOLLOW, 95)
+# I'm going too.\r\nIt's true that my sister, Sonya, cooperates with the Empire.\r\nAs long as the Imperial Army exists, I can see her again.\r\nAnyway, I can't just let her act like that. No one but me seems to be able to stop Sonya.\r\nEven if the only solution is to kill her ...\0
+lbl_5cc:
+  branch.unit.dead(lbl_60d, LIANA_02)
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 122)
+# Wait, _NAME_!\r\n_NAME_ ...\r\nWhat have you seen in your years of wandering ...?\r\nWhat has the Empire brought to the continent?\r\nLeon already said the Empire has joined hands with darkness. The path to true peace cannot be tainted by evil ...\r\nPlease ...! I beg you to reconsider ...\0
+  prompt.ok(lbl_5fb)
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 124)
+# ...\r\nI've seen the Empire, and while it may leave much to be desired, it has shown me one thing ...\r\nYou cannot reshape the world without controlling unstoppable power.\r\nPower is necessary to create a peaceful world ... Try to understand me, Liana ...\0
+  msg(LIANA_02, ERWIN_01, LIANA_SAD, FOLLOW, 125)
+# I cannot understand this!\r\nThe Empire has shattered many lives on this quest for its so-called "peace."\r\nForce brings only sadness! Besides, Alhazard can't be controlled by human beings!\0
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 126)
+# ... You are wrong, Liana.\r\nYour diplomacy can do nothing to end hate and greed. Force cannot end them either, but it can bring order.\r\nIn a world with order, people may finally find peace. I will realise this world ... I promise ...\0
+  msg(LIANA_02, ERWIN_01, LIANA_SAD, FOLLOW, 127)
+# _NAME_ ...\r\nOne day ... One day you will be able to understand what I mean.\r\nI'm sure of it ...\0
+  unit.retreat(LIANA_02)
+  goto(lbl_60d)
+lbl_5fb:
+  msg(ERWIN_01, LIANA_02, ERWIN_SAD, FOLLOW, 128)
+# Hmmm ... You may be right.\r\nReal peace isn't about using power to subdue war.\r\nUntil people learn how to understand each other and forgive, all the hate and chaos will never truly end.\0
+  msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 129)
+# I'm sorry, Leon ... but she is right. I cannot go with you.\0
+  subroutine(lbl_739)
+  subroutine(lbl_74c)
+lbl_60d:
+  branch.unit.dead(lbl_61f, CHERIE_04)
+  msg(CHERIE_04, ERWIN_01, CHERIE_SAD, FOLLOW, 130)
+# _NAME_ ...\r\nWould you really force us to become your enemies?\r\nI ...\r\nI never imagined I would have to fight against you ...\0
+  msg(ERWIN_01, CHERIE_04, ERWIN, FOLLOW, 131)
+# Cherie ...\0
+  unit.retreat(CHERIE_04)
+lbl_61f:
+  branch.unit.dead(lbl_62b, LESTER_09)
+  msg(LESTER_09, ERWIN_01, LESTER_ANGRY, FOLLOW, 132)
+# Hmph! What a sack of shit you turned out to be!\r\nI can't believe Lady Jessica put her faith in you, but I guess being on Egbert's side fits you better!\r\nLater.\0
+  unit.retreat(LESTER_09)
+lbl_62b:
+  branch.unit.dead(lbl_63d, KEITH_07)
+  msg(KEITH_07, ERWIN_01, KEITH, FOLLOW, 133)
+# _NAME_ ... It seems I have misjudged your character.\r\nWhen you aided us at Castle Kalxath, you did not seem one who would overlook the essence of peace ...\r\nAnd the princess ... What a cruel twist of fate this has been.\0
+  unit.retreat(KEITH_07)
+  msg(ERWIN_01, DOWN_F5, ERWIN_SAD, FOLLOW, 134)
+# Everyone ...\0
+lbl_63d:
+  msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 135)
+# Tell me, Leon, what is our next objective?\0
+  msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 136)
+# We must obtain Langrisser. The revival of Alhazard mustn't be disturbed.\0
+  branch.unit.dead(lbl_65e, LAIRD_18)
+  msg(LEON_D5, LAIRD_18, LEON, FOLLOW, 137)
+# Laird!\r\nI leave you in charge of the Blue Dragon Knights. Take them and seek out Castle Baldea.\0
+  msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 138)
+# Yes, Sir!\0
+  unit.retreat(LAIRD_18)
+  goto(lbl_66a)
+lbl_65e:
+  msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 139)
+# Have Laird go first to look for Castle Baldea.\0
+  msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 140)
+# Good idea ...\0
+lbl_66a:
+  branch.eq.global(lbl_6f0, $0a4792, $07eb5c)
+  msg(LEON_D5, UP_F4, LEON, FOLLOW, 141)
+# It must be this village ...\0
+  focus.point(57, 4, SLOW)
+  cursor.set(NULL_00)
+  cursor.hide()
+  unit.retreat(LEON_D5)
+  unit.swap(LEON_D5, LEON_0D)
+  unit.deploy(LEON_0D, 58, 10)
+  unit.move(LEON_0D, 58, 5)
+  msg(LEON_0D, UP_F4, LEON, NOFOLLOW, 142)
+# "Here lies the Grand Abbot Uccles"\r\nI knew it would be here.\0
+  branch.unit.dead(lbl_6cc, ROHGA_0B)
+  unit.move(ROHGA_0B, 56, 10)
+  unit.move(ROHGA_0B, 56, 5)
+  unit.move(ROHGA_0B, 57, 5)
+  msg(ROHGA_0B, LEON_0D, ROHGA, FOLLOW, 143)
+# You knew Uccles?\0
+  msg(LEON_0D, ROHGA_0B, LEON, FOLLOW, 101)
+# Yes ... He was my father's best friend.\r\nI heard he died about ten years ago.\r\nI haven't had the chance to visit his grave since then.\0
+  msg(ROHGA_0B, UP_F4, ROHGA, FOLLOW, 144)
+# I see ...\0
+  unit.face(LEON_0D, UP_F4)
+  delay(90)
+  msg(ROHGA_0B, UP_F4, ROHGA, FOLLOW, 145)
+# Yes ... He was a kind, gentle man.\0
+  unit.face(LEON_0D, LEFT_F6)
+  delay(60)
+  msg(LEON_0D, UP_F4, LEON, FOLLOW, 146)
+# Yeah ...\0
+  goto(lbl_6e0)
+lbl_6cc:
+  cursor.set(ERWIN_01)
+  msg(ERWIN_01, LEON_0D, ERWIN, FOLLOW, 147)
+# Were you an acquaintance of his?\0
+  msg(LEON_0D, ERWIN_01, LEON, FOLLOW, 101)
+# Yes ... He was my father's best friend.\r\nI heard he died about ten years ago.\r\nI haven't had the chance to visit his grave since then.\0
+  msg(ERWIN_01, LEON_0D, ERWIN, FOLLOW, 148)
+# I see.\0
+lbl_6e0:
+  msg(LEON_0D, ERWIN_01, LEON, FOLLOW, 149)
+# We're working together from now on. You've requested it.\0
+  msg(NULL_00, DOWN_F5, NULL, NOFOLLOW, 150)
+# Leon joins the entourage!\0
+  unit.expboost(LEON_0D, 255)
+lbl_6f0:
+  cursor.set(ERWIN_01)
+  delay(60)
+  msg(LEON_0D, ERWIN_01, LEON, FOLLOW, 151)
+# It's time to depart.\0
+  msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 152)
+# Yes. Let's go to Castle Baldea.\0
+  subroutine(lbl_785)
+  unit.setbyte(LIANA_02, $20, 0x03)
+  unit.refresh()
+  unit.setbyte(CHERIE_04, $20, 0x03)
+  unit.refresh()
+  unit.setbyte(KEITH_07, $20, 0x03)
+  unit.refresh()
+  unit.setbyte(LESTER_09, $20, 0x03)
+  unit.refresh()
+  loadscenario(37)
+  goto(lbl_738)
+lbl_71c:
+  subroutine(lbl_849)
+  branch.unit.dead(lbl_72c, ROHGA_0B)
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 153)
+# Bye, _NAME_.\0
+  goto(lbl_732)
+lbl_72c:
+  msg(ROHGA_0B, DOWN_F5, ROHGA_DEAD, NOFOLLOW, 154)
+# Bye, _NAME_.\0
+lbl_732:
+  subroutine(lbl_739)
+  subroutine(lbl_74c)
+lbl_738:
+endsub
+
+lbl_739:
+  msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 155)
+# _NAME_ ...\r\nToday we met as friends, but that changes nothing. When next we meet, it shall be as enemies.\0
+  msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 156)
+# Yeah ...\0
+  msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 157)
+# What a shame ...\r\nYou have incredible potential. I would have liked to call such a man my comrade.\r\nFarewell, _NAME_!\0
+endsub
+
+lbl_74c:
+  unit.retreat(LAIRD_18)
+  unit.retreat(LEON_D5)
+  unit.retreat(ROHGA_0B)
+  branch.unit.dead(lbl_75c, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 158)
+# He's gone ...\0
+lbl_75c:
+  subroutine(lbl_785)
+  branch.unit.dead(lbl_76c, LIANA_02)
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 96)
+# We should hurry, too. It's still quite a long way to Baldea.\0
+  goto(lbl_772)
+lbl_76c:
+  msg(LIANA_02, ERWIN_01, LIANA_DEAD, NOFOLLOW, 96)
+# We should hurry, too. It's still quite a long way to Baldea.\0
+lbl_772:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 159)
+# We can't just stay here. Let's go to Baldea!\0
+  unit.setbyte(LEON_0D, $20, 0x03)
+  unit.refresh()
+  unit.setbyte(ROHGA_0B, $20, 0x03)
+  unit.refresh()
+  loadscenario(8)
+endsub
+
+lbl_785:
+  branch.units.dead(lbl_7a3, VILLAGER_25, VILLAGER_26)
+  branch.eq.global(lbl_7a3, $0a4792, $07eb5d)
+  msg(VILLAGER_25, ERWIN_01, VILLAGER_YELLOW, FOLLOW, 160)
+# You've helped us, and we must thank you somehow. Please, take this.\0
+  money.add(300)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 161)
+# _NAME_ was handed 300P!\0
+  global.sum($0a4792, $07eb5d)
+lbl_7a3:
+endsub
+
+lbl_7a4:
+  unit.cleanup()
+  branch.eq.global(lbl_841, $0a47d5, $07eb59)
+  bgm(ALLY, ENEMY1_LEON)
+  unit.swap(LEON_0D, LEON_D5)
+  unit.deploy(LEON_D5, 56, 21)
+  unit.deploy(LAIRD_18, 58, 23)
+  branch.unit.dead(lbl_7ca, CHERIE_04)
+  msg(CHERIE_04, LEON_D5, CHERIE, FOLLOW, 162)
+# We've got trouble! It's the Blue Dragon Knights!\0
+  msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 163)
+# Leon and Laird? At a time like this ...\0
+  goto(lbl_7d0)
+lbl_7ca:
+  msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 164)
+# What!? Leon?\0
+lbl_7d0:
+  msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 165)
+# General Leon! The enemy's here.\0
+  msg(LEON_D5, LAIRD_18, LEON, FOLLOW, 166)
+# Yes.\r\nI came here only because something seemed amiss ... I didn't expect to meet them in a place like this ...\0
+  branch.unit.dead(lbl_7f8, SONYA_D4)
+  msg(SONYA_D4, LEON_D5, SONYA, FOLLOW, 167)
+# Crap! Isn't that Leon of the Blue Dragon Knights?\0
+  msg(LEON_D5, SONYA_D4, LEON, FOLLOW, 168)
+# If you collaborate with the Empire, then don't do anything to disgrace its name!\0
+  msg(SONYA_D4, LEON_D5, SONYA, FOLLOW, 169)
+# Shut up! Stop commanding me!\0
+  msg(LEON_D5, SONYA_D4, LEON, FOLLOW, 170)
+# Troublesome girl ...\0
+lbl_7f8:
+  branch.eq.global(lbl_817, $0a47d5, $07eb5a)
+  msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 171)
+# General Leon, this is in our favour.\r\nLet's avenge our last conflict by helping the girl of the demon tribe!\0
+  msg(LEON_D5, LAIRD_18, LEON, FOLLOW, 172)
+# Laird ... Have you forgotten the Code of Chivalry?\r\nWhy would we attack people who protect helpless villagers?\r\nIn the name of the Blue Dragon Knights, I can't drag innocent people into our war.\0
+  msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 173)
+# But, General Leon, we of the Empire are allied with the demon tribe.\r\nIt's not a good idea to fight against them.\0
+  msg(LEON_D5, LAIRD_18, LEON, FOLLOW, 174)
+# I don't care! I'll take all responsibility!\0
+  goto(lbl_838)
+lbl_817:
+  msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 175)
+# _NAME_, was it? So you're the ones who protected the villagers.\0
+  msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 176)
+# Yes, that's right.\0
+  msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 177)
+# That girl leading the monsters is an ally of the Empire.\0
+  msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 178)
+# So you're going to take revenge on us for her?\0
+  msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 179)
+# No, I want to express my gratitude.\r\nWe have no intentions of killing helpless people. I would have stopped her if you hadn't.\0
+  local.sum($0a47d5, $07eb58)
+lbl_838:
+  bgm(ENEMY, ENEMY8_BOSER)
+  local.sub($0a47d0, $07eb5a)
+  local.sum($0a47d5, $07eb59)
+lbl_841:
+endsub
+
+  msg(ERWIN_01, ROHGA_0B, ERWIN, FOLLOW, 180)
+# I see ... Do as you like.\0
+endsub
+
+lbl_849:
+  branch.unit.dead(lbl_85f, ROHGA_0B)
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 97)
+# _NAME_, I'm sorry, but I will go with Leon. I know how Sonya feels ...\r\nAs long as the Imperial Army exists, I can see her again.\r\nAnyway, I can't just let her act like that. No one but me seems to be able to stop Sonya.\r\nEven if the only solution is to kill her ...\0
+  subroutine(lbl_842)
+  msg(ROHGA_0B, LEON_D5, ROHGA, FOLLOW, 98)
+# Leon! Do me a favour. Let me go with you!\0
+  goto(lbl_86e)
+lbl_85f:
+  msg(ROHGA_0B, DOWN_F5, ROHGA_DEAD, NOFOLLOW, 97)
+# _NAME_, I'm sorry, but I will go with Leon. I know how Sonya feels ...\r\nAs long as the Imperial Army exists, I can see her again.\r\nAnyway, I can't just let her act like that. No one but me seems to be able to stop Sonya.\r\nEven if the only solution is to kill her ...\0
+  subroutine(lbl_842)
+  msg(ROHGA_0B, DOWN_F5, ROHGA_DEAD, NOFOLLOW, 98)
+# Leon! Do me a favour. Let me go with you!\0
+lbl_86e:
+  msg(LEON_D5, ROHGA_0B, LEON, FOLLOW, 181)
+# You're a mercenary? What is your name?\0
+  branch.unit.dead(lbl_881, ROHGA_0B)
+  msg(ROHGA_0B, LEON_D5, ROHGA, FOLLOW, 99)
+# My name is Rohga.\r\nAs a general of the Empire, you've probably heard that name before.\0
+  goto(lbl_887)
+lbl_881:
+  msg(ROHGA_0B, DOWN_F5, ROHGA_DEAD, NOFOLLOW, 99)
+# My name is Rohga.\r\nAs a general of the Empire, you've probably heard that name before.\0
+lbl_887:
+  msg(LEON_D5, ROHGA_0B, LEON, FOLLOW, 182)
+# So, you're Rohga? I've heard that you're a skilful mercenary.\r\nOkay, you have permission. I'll be glad to have you with us.\0
+  branch.unit.dead(lbl_89a, ROHGA_0B)
+  msg(ROHGA_0B, LEON_D5, ROHGA, FOLLOW, 100)
+# Thanks, I will surely be a great help to you!\0
+  goto(lbl_8a0)
+lbl_89a:
+  msg(ROHGA_0B, DOWN_F5, ROHGA_DEAD, NOFOLLOW, 100)
+# Thanks, I will surely be a great help to you!\0
+lbl_8a0:
+endsub
+
+lbl_8a1:
+  unit.cleanup()
+  branch.eq.global(lbl_8fa, $0a47d2, $07eb58)
+  msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 183)
+# Stop it, Sonya!\0
+  msg(SONYA_D4, ROHGA_0B, SONYA, FOLLOW, 184)
+# Who's calling my name?\0
+  msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 185)
+# Have you forgotten what I look like?\0
+  msg(SONYA_D4, ROHGA_0B, SONYA, FOLLOW, 186)
+# My brother ... My brother Rohga!?\0
+  msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 187)
+# Sonya, it's you after all!?\r\nIt's important you stop attacking the villagers right now!\0
+  msg(SONYA_D4, ROHGA_0B, SONYA, FOLLOW, 188)
+# Why? Why should I stop?\r\nBrother, you too are on the humans' side ...\0
+  msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 189)
+# I've been searching for you for a long time. I ...\0
+  msg(SONYA_D4, ROHGA_0B, SONYA, FOLLOW, 190)
+# I knew it! Brother, you're too human!\0
+  msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 191)
+# Sonya!\0
+  msg(SONYA_D4, ROHGA_0B, SONYA, FOLLOW, 192)
+# I want all humans to be destroyed!\r\nI'll never, ever forgive your kind!\0
+  msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 193)
+# Sonya! Wait, Sonya!\0
+  unit.retreat(SONYA_D4)
+  branch.unit.dead(lbl_8f4, CHERIE_04)
+  msg(CHERIE_04, DOWN_F5, CHERIE, FOLLOW, 194)
+# She's gone.\0
+lbl_8f4:
+  global.sum($0a4789, $07eb5a)
+  goto(lbl_906)
+lbl_8fa:
+  msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 195)
+# Sonya! Stop killing the villagers. I'll kill you if you don't stop!\0
+  msg(SONYA_D4, ROHGA_0B, SONYA, FOLLOW, 196)
+# Stop commanding me, brother. I've heard enough!\0
+lbl_906:
+  local.sum($0a47d1, $07eb58)
+  branch.ne.global(lbl_92a, $0a47d5, $07eb5c)
+  branch.ne.global(lbl_921, $0a47d0, $07eb5e)
+  branch.ne.global(lbl_91e, $0a47d5, $07eb5d)
+  local.sum($0a47d5, $07eb5a)
+  subroutine(lbl_7a4)
+  subroutine(lbl_508)
+lbl_91e:
+  goto(lbl_92a)
+lbl_921:
+  local.sum($0a47d5, $07eb5a)
+  subroutine(lbl_7a4)
+  subroutine(lbl_508)
+lbl_92a:
+  focus.unit(ROHGA_0B)
+break
+
+  local.sum($0a47d5, $07eb5a)
+  subroutine(lbl_7a4)
+  subroutine(lbl_508)
+endsub
+
+lbl_93a:
+  subroutine(lbl_930)
+break
+
+lbl_93f:
+  subroutine(lbl_930)
+break
+
+lbl_944:
+  branch.unit.alive(lbl_94f, SONYA_D4)
+  branch.eq.global(lbl_94f, $0a47d0, $07eb5e)
+  subroutine(lbl_930)
+lbl_94f:
+break
+
+lbl_951:
+  branch.unit.alive(lbl_958, SONYA_D4)
+  subroutine(lbl_930)
+lbl_958:
+break
+

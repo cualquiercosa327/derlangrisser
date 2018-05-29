@@ -293,7 +293,7 @@ lbl_38c:
   prompt.ok(lbl_3a7)
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 50)
 # A surge of power flows instantly through your body!\r\nAT raised by 1 point!\0
-  unit.raisestat(58, 1)
+  unit.statboost(58, 1)
   global.sum($0a4788, $07eb5c)
 lbl_3a7:
 break

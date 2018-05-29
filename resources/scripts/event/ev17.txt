@@ -1,0 +1,584 @@
+# Movement-Triggered Events
+on.move(20, lbl_32d, VARGAS_D6, 0, 0xff)
+on.move(2, lbl_442, ZORUM_1A, 0, 0xff)
+on.move(3, lbl_490, IMPERIALCOMMANDER_35, 0, 0xff)
+on.move(4, lbl_4b5, IMPERIALCOMMANDER_36, 0, 0xff)
+on.move(5, lbl_4e4, IMPERIALCOMMANDER_37, 0, 0xff)
+on.move(10, lbl_4f4, IMPERIALCOMMANDER_38, 0, 0xff)
+break
+
+# Attack-Triggered Events
+on.attack(22, lbl_399, VARGAS_D6, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(22, lbl_39e, NULL_FF, VARGAS_D6, 0xff, 0x00, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(13, lbl_2f3, ERWIN_01)
+on.defeat(14, lbl_2fd, HEIN_05)
+on.defeat(15, lbl_305, CHERIE_04)
+on.defeat(16, lbl_30d, LIANA_02)
+on.defeat(17, lbl_315, KEITH_07)
+on.defeat(18, lbl_31d, LESTER_09)
+on.defeat(19, lbl_325, AARON_08)
+on.defeat(23, lbl_3a3, VARGAS_D6)
+on.defeat(24, lbl_45f, ZORUM_1A)
+on.defeat(25, lbl_478, IMPERIALCOMMANDER_32)
+on.defeat(26, lbl_480, IMPERIALCOMMANDER_33)
+on.defeat(27, lbl_488, IMPERIALCOMMANDER_34)
+on.defeat(28, lbl_4ad, IMPERIALCOMMANDER_35)
+on.defeat(29, lbl_4dc, IMPERIALCOMMANDER_36)
+on.defeat(30, lbl_4ec, IMPERIALCOMMANDER_37)
+on.defeat(31, lbl_51b, IMPERIALCOMMANDER_38)
+on.defeat(32, lbl_523, IMPERIALCOMMANDER_81)
+on.defeat(0, lbl_52b, IMPERIALCOMMANDER_32, IMPERIALCOMMANDER_33)
+on.defeat(21, lbl_530, IMPERIALCOMMANDER_32, IMPERIALCOMMANDER_33, IMPERIALCOMMANDER_34, IMPERIALCOMMANDER_36, IMPERIALCOMMANDER_37, IMPERIALCOMMANDER_38, IMPERIALCOMMANDER_81)
+break
+
+# Position-Triggered Events
+on.bound(8, lbl_2c7, NPC_SUBUNIT_F1, 8, 16, 18, 29, 0x00, 0x00)
+on.bound(9, lbl_2cf, NPC_SUBUNIT_F1, 16, 16, 30, 29, 0x00, 0x00)
+on.bound(11, lbl_2d4, NPC_SUBUNIT_F1, 1, 14, 30, 25, 0x00, 0x00)
+on.bound(12, lbl_2d9, NPC_COMMANDER_F0, 25, 28, 25, 28, 0x00, 0x00)
+break
+
+# Turn-Triggered Events
+on.turn(6, lbl_23e, ENEMY, 1, 0x00)
+on.turn(7, lbl_27d, ALLY, 2, 0x00)
+break
+
+# Core Events
+lbl_f8:
+  bgm(ALLY, ENEMY3_MORGAN)
+  focus.point(21, 19, FAST)
+  cursor.set(NULL_00)
+  screen.fadein(4)
+  cursor.set(ERWIN_01)
+  branch.ne.global(lbl_11a, $0a4789, $07eb5b)
+  unit.position(IMPERIALCOMMANDER_35, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_35)
+  local.sum($0a47d0, $07eb58)
+  unit.setbyte(ZORUM_1A, $20, 0x03)
+  unit.refresh()
+  goto(lbl_128)
+lbl_11a:
+  unit.position(ZORUM_1A, 21, 19)
+  unit.showsub(ZORUM_1A)
+  local.sum($0a47d0, $07eb59)
+  unit.setbyte(IMPERIALCOMMANDER_35, $20, 0x03)
+  unit.refresh()
+lbl_128:
+  unit.position(IMPERIALCOMMANDER_32, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_32)
+  unit.position(IMPERIALCOMMANDER_33, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_33)
+  unit.position(IMPERIALCOMMANDER_34, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_34)
+  unit.position(IMPERIALCOMMANDER_36, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_36)
+  unit.position(IMPERIALCOMMANDER_38, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_38)
+  unit.position(IMPERIALCOMMANDER_81, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_81)
+  msg(IMPERIALCOMMANDER_32, UP_F4, PRIEST_GREEN, FOLLOW, 1)
+# Let's hope Imelda and the Water Dragon Navy can hold back the enemy ...\0
+  msg(IMPERIALCOMMANDER_34, RIGHT_F7, SWORDSMAN2_GREEN, FOLLOW, 2)
+# Yeah! No matter how strong they are, they can't beat General Imelda.\r\nWe've got no reason to stick around here and build a useless fort.\0
+  branch.eq.global(lbl_165, $0a4789, $07eb5b)
+  msg(ZORUM_1A, DOWN_F5, ZORUM, FOLLOW, 3)
+# They are coming. I'm certain of it.\r\nNo matter how strong General Imelda may be, she'll underestimate their strength.\r\nIf she doesn't take them seriously, she won't win.\r\nAt any rate, General Vargas has already seen just how strong their leader is.\0
+  goto(lbl_16b)
+lbl_165:
+  msg(IMPERIALCOMMANDER_35, DOWN_F5, HIGHLORD_RED, FOLLOW, 4)
+# No matter how strong General Imelda may be, she'll underestimate their strength.\r\nIf she doesn't take them seriously, she won't win.\r\nAt any rate, General Vargas has already seen just how strong their leader is.\0
+lbl_16b:
+  focus.point(12, 27, FAST)
+  cursor.set(NULL_00)
+  unit.position(IMPERIALCOMMANDER_37, 12, 29)
+  unit.move(IMPERIALCOMMANDER_37, PRESET, PRESET)
+  msg(IMPERIALCOMMANDER_37, RIGHT_F7, KNIGHT1_GREEN, FOLLOW, 5)
+# They're coming! The rebel forces are approaching!\0
+  cursor.set(ERWIN_01)
+  branch.eq.global(lbl_18e, $0a4789, $07eb5b)
+  msg(ZORUM_1A, DOWN_F5, ZORUM, FOLLOW, 88)
+# They really did come!\r\nListen up! We can't let them go any further! No matter what, we'll defend this fortress to the end!\0
+  goto(lbl_194)
+lbl_18e:
+  msg(IMPERIALCOMMANDER_35, DOWN_F5, HIGHLORD_RED, FOLLOW, 88)
+# They really did come!\r\nListen up! We can't let them go any further! No matter what, we'll defend this fortress to the end!\0
+lbl_194:
+  msg(IMPERIALCOMMANDER_37, DOWN_F5, KNIGHT1_GREEN, FOLLOW, 6)
+# Right!\0
+  unit.showsub(IMPERIALCOMMANDER_37)
+  bgm(ALLY, ALLY6)
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.showsub(ERWIN_01)
+  unit.position(KEITH_07, PRESET, PRESET)
+  unit.showsub(KEITH_07)
+  unit.position(LESTER_09, PRESET, PRESET)
+  unit.showsub(LESTER_09)
+  unit.position(AARON_08, PRESET, PRESET)
+  unit.showsub(AARON_08)
+  unit.position(CHERIE_04, PRESET, PRESET)
+  unit.showsub(CHERIE_04)
+  unit.position(LIANA_02, PRESET, PRESET)
+  unit.showsub(LIANA_02)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.showsub(HEIN_05)
+  msg(HEIN_05, LIANA_02, HEIN, FOLLOW, 7)
+# Sigh ... Liana, are we there yet? I'm so exhausted.\0
+  msg(LIANA_02, HEIN_05, LIANA, FOLLOW, 8)
+# Castle Baldea should be just over this mountain.\0
+  msg(CHERIE_04, HEIN_05, CHERIE, FOLLOW, 9)
+# Hein, stop being so lazy.\0
+  msg(LESTER_09, UP_F4, LESTER, FOLLOW, 10)
+# Hey, wait! There's an enemy fortress!\0
+  branch.eq.global(lbl_206, $0a4789, $07eb5b)
+  msg(ZORUM_1A, ERWIN_01, ZORUM, FOLLOW, 11)
+# Gwa ha ha ... You made it here at last!\r\nBut this is as far as you go. This place shall be your grave!\0
+  msg(LESTER_09, ZORUM_1A, LESTER, FOLLOW, 12)
+# Who is that guy ...? Have we seen him before?\0
+  msg(HEIN_05, ZORUM_1A, HEIN, FOLLOW, 13)
+# Yeah, it's Colonel Zorum again.\r\nHe's General Vargas' right hand man ... Well, so he says.\0
+  msg(ZORUM_1A, ERWIN_01, ZORUM, FOLLOW, 14)
+# You punk! Are you trying to insult me!?\r\nThis time I'll shut that noisy mouth of yours for good! I'm not holding back any more!\0
+  msg(HEIN_05, ZORUM_1A, HEIN, FOLLOW, 15)
+# Uh oh, he's not going to go easy on me.\0
+  goto(lbl_212)
+lbl_206:
+  msg(IMPERIALCOMMANDER_35, LEFT_F6, HIGHLORD_RED, FOLLOW, 16)
+# General Vargas isn't here, but no matter. We must stop them.\r\nEven with our bare hands, we shall hold them off!\0
+  msg(IMPERIALCOMMANDER_36, IMPERIALCOMMANDER_35, KNIGHT1_GREEN, FOLLOW, 17)
+# Yes, Sir!\0
+lbl_212:
+  msg(CHERIE_04, UP_F4, CHERIE, FOLLOW, 18)
+# How on earth did they find time to build such a fortress?\r\nI'm sure there was never anything this size here before.\0
+  msg(KEITH_07, CHERIE_04, KEITH, FOLLOW, 19)
+# It looks like they did all this just to stop us, Princess.\0
+  msg(ERWIN_01, KEITH_07, ERWIN, FOLLOW, 20)
+# They're really determined, I'll give them that.\0
+  msg(AARON_08, KEITH_07, AARON, FOLLOW, 21)
+# This will be a tough fight.\0
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 22)
+# Then we'll just have to surpass their determination. Everyone, let's go!\0
+  local.sum($0a47d0, $07eb5a)
+  local.sum($0a47d0, $07eb5b)
+  local.sum($0a47d0, $07eb5c)
+  local.sum($0a47d0, $07eb5d)
+break
+
+lbl_23e:
+  branch.unit.dead(lbl_25e, ZORUM_1A)
+  msg(ZORUM_1A, DOWN_F5, ZORUM, FOLLOW, 89)
+# Right now, General Vargas is with Lady Eliza!\r\nWith our strength, we shall defeat the enemy. The songs of our victory will be a lullaby for his new baby!\0
+  branch.unit.dead(lbl_258, IMPERIALCOMMANDER_81)
+  msg(IMPERIALCOMMANDER_81, ZORUM_1A, HAWKKNIGHT_GREEN, FOLLOW, 23)
+# Until we know for sure that the general's baby is born, we cannot die.\0
+  msg(ZORUM_1A, IMPERIALCOMMANDER_81, ZORUM, FOLLOW, 24)
+# Ha ha ha! That's the spirit, men!\r\nLet these kids see the power of the Blazing Dragon Army.\0
+lbl_258:
+  subroutine(lbl_532)
+  goto(lbl_27b)
+lbl_25e:
+  branch.unit.dead(lbl_27b, IMPERIALCOMMANDER_35)
+  msg(IMPERIALCOMMANDER_35, DOWN_F5, HIGHLORD_RED, FOLLOW, 89)
+# Right now, General Vargas is with Lady Eliza!\r\nWith our strength, we shall defeat the enemy. The songs of our victory will be a lullaby for his new baby!\0
+  branch.unit.dead(lbl_272, IMPERIALCOMMANDER_33)
+  msg(IMPERIALCOMMANDER_33, IMPERIALCOMMANDER_35, PRIEST_GREEN, FOLLOW, 25)
+# Yeah! We can't die until we know the General's baby has been born.\0
+lbl_272:
+  msg(IMPERIALCOMMANDER_35, IMPERIALCOMMANDER_33, HIGHLORD_RED, FOLLOW, 26)
+# All right, let's show that little punk the full extent of our power!\0
+  subroutine(lbl_532)
+lbl_27b:
+break
+
+lbl_27d:
+  branch.unit.dead(lbl_2c5, HEIN_05)
+  branch.unit.dead(lbl_2c5, CHERIE_04)
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 27)
+# The enemy is using ballista.\0
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 28)
+# Leave the explanation to me! After Scott left I started to study battle tactics.\r\nBallista use a system of pulleys to hurl rocks and spears, so they have an incredibly long attack range.\r\nFlying troops need to be careful since a single hit from a ballista unit may be enough to take them down.\0
+  msg(CHERIE_04, HEIN_05, CHERIE, FOLLOW, 29)
+# What in the hell are you talking about!?\r\nFlying troops are so fast and agile that ballista won't even have a chance to aim.\r\nTherefore, flying troops have nothing to worry about.\r\nYou stupid wizard! If you don't know what you're talking about, then just keep your mouth shut!\0
+  msg(HEIN_05, CHERIE_04, HEIN, FOLLOW, 30)
+# Hmph ..., how rude!\0
+  branch.unit.dead(lbl_2c5, KEITH_07)
+  msg(KEITH_07, CHERIE_04, KEITH, FOLLOW, 31)
+# That's correct. Among projectile units, ballista are special.\r\nBut Princess, ... when did you study this?\0
+  msg(CHERIE_04, KEITH_07, CHERIE, FOLLOW, 32)
+# Hee hee hee ... That's a Secret.\0
+  msg(KEITH_07, CHERIE_04, KEITH, FOLLOW, 33)
+# However, Princess, your commentary shows your tactical knowledge has a ways to go.\r\nSince aerial units are weak to ballista attacks, if they rush in unprepared, they can be easily wiped out.\0
+  msg(HEIN_05, CHERIE_04, HEIN, FOLLOW, 34)
+# I was right--you were wrong! Told you, told you, told you!\r\nThey really do need to be careful!\0
+  msg(CHERIE_04, HEIN_05, CHERIE, FOLLOW, 35)
+# Hein, I hate you!\0
+  msg(KEITH_07, CHERIE_04, KEITH, FOLLOW, 36)
+# Well, Princess, from now on you should study more carefully.\0
+lbl_2c5:
+break
+
+lbl_2c7:
+  local.sub($0a47d0, $07eb5c)
+  local.sub($0a47d0, $07eb5d)
+break
+
+lbl_2cf:
+  local.sub($0a47d1, $07eb5a)
+break
+
+lbl_2d4:
+  subroutine(lbl_53d)
+break
+
+lbl_2d9:
+  branch.eq.global(lbl_2f1, $0a478b, $07eb5b)
+  unit.cleanup()
+  prompt.ok(lbl_2f1)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 38)
+# Obtained Wizard's Robe.\0
+  item.add(WIZARDSROBE)
+  global.sum($0a478b, $07eb5b)
+lbl_2f1:
+break
+
+lbl_2f3:
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 39)
+# As I would expect from an Imperial fortress ...\r\nWe should have planned more carefully ...\0
+  unit.cleanup()
+  gameover()
+break
+
+lbl_2fd:
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 40)
+# Ouch--! This isn't good.\0
+break
+
+lbl_305:
+  msg(CHERIE_04, DOWN_F5, CHERIE_DEAD, FOLLOW, 41)
+# Oww! Damn, I'll be back later!\0
+break
+
+lbl_30d:
+  msg(LIANA_02, DOWN_F5, LIANA_DEAD, FOLLOW, 42)
+# Aah, ... _NAME_. I'm sorry ...\0
+break
+
+lbl_315:
+  msg(KEITH_07, DOWN_F5, KEITH_DEAD, FOLLOW, 43)
+# Princess ... Sorry ...\0
+break
+
+lbl_31d:
+  msg(LESTER_09, DOWN_F5, LESTER_DEAD, FOLLOW, 44)
+# Shit! I'm done for!\0
+break
+
+lbl_325:
+  msg(AARON_08, DOWN_F5, AARON_DEAD, FOLLOW, 45)
+# Ahh ... I've lost ...\0
+break
+
+lbl_32d:
+  branch.unit.dead(lbl_340, ZORUM_1A)
+  msg(VARGAS_D6, ZORUM_1A, VARGAS, FOLLOW, 46)
+# Colonel Zorum! Let's settle this right now!\r\nConcentrate all attacks on the redheaded punk! He's the rebel scum's leader!\0
+  msg(ZORUM_1A, VARGAS_D6, ZORUM, FOLLOW, 47)
+# Yes, Sir!\0
+  goto(lbl_353)
+lbl_340:
+  branch.ne.global(lbl_34d, $0a47d2, $07eb5d)
+  msg(VARGAS_D6, ERWIN_01, VARGAS_ANGRY, FOLLOW, 48)
+# Redheaded boy! I'll avenge Zorum!\0
+  goto(lbl_353)
+lbl_34d:
+  msg(VARGAS_D6, ERWIN_01, VARGAS_ANGRY, FOLLOW, 49)
+# Redheaded boy! I'll avenge Zorum!\r\nAll troops, concentrate your attacks on the red-haired one!\0
+lbl_353:
+  unit.setbit(IMPERIALCOMMANDER_32, $17, 1)
+  unit.setbyte(IMPERIALCOMMANDER_32, $21, 0x01)
+  unit.setbit(IMPERIALCOMMANDER_33, $17, 1)
+  unit.setbyte(IMPERIALCOMMANDER_33, $21, 0x01)
+  unit.setbit(IMPERIALCOMMANDER_36, $17, 1)
+  unit.setbyte(IMPERIALCOMMANDER_36, $21, 0x01)
+  unit.setbit(IMPERIALCOMMANDER_37, $17, 1)
+  unit.setbyte(IMPERIALCOMMANDER_37, $21, 0x01)
+  unit.setbit(IMPERIALCOMMANDER_38, $17, 1)
+  unit.setbyte(IMPERIALCOMMANDER_38, $21, 0x01)
+  unit.setbit(IMPERIALCOMMANDER_81, $17, 1)
+  unit.setbyte(IMPERIALCOMMANDER_81, $21, 0x01)
+  unit.clearbit(ZORUM_1A, $17, 0)
+  unit.clearbit(IMPERIALCOMMANDER_35, $17, 0)
+  unit.clearbit(IMPERIALCOMMANDER_32, $17, 0)
+  unit.clearbit(IMPERIALCOMMANDER_33, $17, 0)
+  unit.clearbit(IMPERIALCOMMANDER_34, $17, 0)
+break
+
+lbl_399:
+  subroutine(lbl_5d8)
+break
+
+lbl_39e:
+  subroutine(lbl_5d8)
+break
+
+lbl_3a3:
+  bgm(ALLY, REQUIEM1)
+  bgm(ENEMY, REQUIEM1)
+  msg(VARGAS_D6, DOWN_F5, VARGAS_DEAD, FOLLOW, 50)
+# Is this the end ...? Sigh ..., such is the fate of any true soldier.\0
+  unit.deploy(LEON_D5, 30, 8)
+  unit.move(LEON_D5, 28, 9)
+  unit.deploy(LAIRD_18, 30, 7)
+  unit.move(LAIRD_18, 29, 8)
+  cursor.set(NULL_00)
+  msg(LAIRD_18, VARGAS_D6, LAIRD, NOFOLLOW, 51)
+# General Vargas!\0
+  msg(LEON_D5, VARGAS_D6, LEON, NOFOLLOW, 52)
+# Wait! We've come to save you!\0
+  cursor.set(ERWIN_01)
+  msg(VARGAS_D6, LEON_D5, VARGAS_DEAD, FOLLOW, 53)
+# Leon, ... it's too late for that. As a fellow warrior, I have one final request.\r\nMy child is soon to be born. Please tell my wife, Eliza, that ... that I'm not coming home.\r\nTell her her husband fought bravely to the end with his men so his child could grow up in a world without war ...\0
+  msg(LEON_D5, VARGAS_D6, LEON, FOLLOW, 54)
+# Yes, friend ... I swear I'll tell her.\0
+  msg(VARGAS_D6, LEON_D5, VARGAS_DEAD, FOLLOW, 55)
+# I'm sorry to give you such a terrible task ...\0
+  unit.cleanup()
+  msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 56)
+# General Leon ...\0
+  cursor.set(NULL_00)
+  msg(LEON_D5, LAIRD_18, LEON, NOFOLLOW, 57)
+# Laird, you will lead our troops to Castle Baldea!\r\nI must give Vargas' message to Eliza ... I will leave immediately.\0
+  msg(LAIRD_18, LEON_D5, LAIRD, NOFOLLOW, 58)
+# Yes, understood!\0
+  unit.move(LAIRD_18, 30, 8)
+  unit.retreat(LAIRD_18)
+  msg(LEON_D5, ERWIN_01, LEON_ANGRY, NOFOLLOW, 59)
+# _NAME_!\r\nI swear on the name of the Blue Dragon Knights, I will kill you!\r\nRemember this. Farewell, for now.\0
+  unit.move(LEON_D5, 30, 9)
+  unit.retreat(LEON_D5)
+  cursor.set(ERWIN_01)
+  scenarioclear()
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 60)
+# So this is the real face of war ...\0
+  branch.unit.dead(lbl_425, LIANA_02)
+  msg(LIANA_02, DOWN_F5, LIANA_SAD, FOLLOW, 61)
+# It's so sad ...\0
+  branch.unit.dead(lbl_425, CHERIE_04)
+  msg(CHERIE_04, ERWIN_01, CHERIE_SAD, FOLLOW, 62)
+# I hate fighting. Why is it that everyone must kill?\r\nWhy hasn't war disappeared? Aren't there more important things in our lives?\0
+lbl_425:
+  branch.unit.dead(lbl_438, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN_SAD, FOLLOW, 63)
+# Let's go, _NAME_! To end such wars ... Once and for all.\0
+  msg(ERWIN_01, HEIN_05, ERWIN, FOLLOW, 64)
+# Yes, ... we must put an end to all this ...\0
+  goto(lbl_43e)
+lbl_438:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 65)
+# Let's go everyone, for the future of El Sallia.\0
+lbl_43e:
+  loadscenario(11)
+break
+
+lbl_442:
+  msg(ZORUM_1A, VARGAS_D6, ZORUM, FOLLOW, 90)
+# General Vargas! Please leave this to us and return to Lady Eliza.\r\nEven if it costs us our lives, we won't let them pass!\0
+  msg(VARGAS_D6, ZORUM_1A, VARGAS, FOLLOW, 66)
+# Zorum ...!\r\nNo matter how strong I am, it's obvious we're at a disadvantage.\r\nKnowing this, how could I leave you alone to fight as I retreat to safety?\r\nDo you really think I could do such a thing?\0
+  msg(ZORUM_1A, VARGAS_D6, ZORUM, FOLLOW, 91)
+# We don't have anyone waiting for our return!\r\nBut our General has an expecting wife waiting back home ...\0
+  subroutine(lbl_5d1)
+  msg(ZORUM_1A, VARGAS_D6, ZORUM, FOLLOW, 67)
+# If that's true, ... then I'll fight beside my general to the bitter end!\0
+break
+
+lbl_45f:
+  msg(ZORUM_1A, DOWN_F5, ZORUM_DEAD, FOLLOW, 68)
+# Shit, how pathetic ...\r\nGeneral Vargas, avenge me--!\0
+  unit.cleanup()
+  branch.unit.dead(lbl_476, VARGAS_D6)
+  msg(VARGAS_D6, DOWN_F5, VARGAS, FOLLOW, 69)
+# Zorum!\0
+  msg(VARGAS_D6, DOWN_F5, VARGAS_ANGRY, FOLLOW, 70)
+# You fool! You're not allowed to die on me!\0
+lbl_476:
+break
+
+lbl_478:
+  msg(IMPERIALCOMMANDER_32, DOWN_F5, PRIEST_GREEN_DEAD, FOLLOW, 71)
+# Ahhh! If only I could have been a little more useful ...\0
+break
+
+lbl_480:
+  msg(IMPERIALCOMMANDER_33, DOWN_F5, PRIEST_GREEN_DEAD, FOLLOW, 72)
+# G, General Vargas ...\0
+break
+
+lbl_488:
+  msg(IMPERIALCOMMANDER_34, DOWN_F5, SWORDSMAN1_GREEN_DEAD, FOLLOW, 73)
+# R, regretfully ...\0
+break
+
+lbl_490:
+  msg(IMPERIALCOMMANDER_35, VARGAS_D6, HIGHLORD_RED, FOLLOW, 90)
+# General Vargas! Please leave this to us and return to Lady Eliza.\r\nEven if it costs us our lives, we won't let them pass!\0
+  msg(VARGAS_D6, DOWN_F5, VARGAS, FOLLOW, 74)
+# No matter how strong I am, it's obvious we're at a disadvantage.\r\nKnowing this, how could I leave you alone to fight as I retreat to safety?\r\nDo you really think I could do such a thing?\0
+  msg(IMPERIALCOMMANDER_35, VARGAS_D6, HIGHLORD_RED, FOLLOW, 91)
+# We don't have anyone waiting for our return!\r\nBut our General has an expecting wife waiting back home ...\0
+  subroutine(lbl_5d1)
+  msg(IMPERIALCOMMANDER_35, VARGAS_D6, HIGHLORD_RED, FOLLOW, 75)
+# If that's true, ... then we'll fight beside our general to the bitter end!\0
+break
+
+lbl_4ad:
+  msg(IMPERIALCOMMANDER_35, DOWN_F5, HIGHLORD_RED_DEAD, FOLLOW, 76)
+# Ugh ... So it has come to this ...\r\nWith my last ounce of strength I shall ave ... nge ...\0
+break
+
+lbl_4b5:
+  branch.unit.dead(lbl_4c2, IMPERIALCOMMANDER_35)
+  msg(IMPERIALCOMMANDER_35, LEFT_F6, HIGHLORD_RED, FOLLOW, 77)
+# Right flank, attack!\0
+  goto(lbl_4cc)
+lbl_4c2:
+  branch.unit.dead(lbl_4cc, ZORUM_1A)
+  msg(ZORUM_1A, LEFT_F6, ZORUM, FOLLOW, 78)
+# Right flank, attack!\0
+lbl_4cc:
+  unit.clearbit(IMPERIALCOMMANDER_36, $17, 0)
+  unit.clearbit(IMPERIALCOMMANDER_37, $17, 0)
+  msg(IMPERIALCOMMANDER_36, DOWN_F5, KNIGHT1_GREEN, FOLLOW, 79)
+# Right flank, attacking!\0
+break
+
+lbl_4dc:
+  msg(IMPERIALCOMMANDER_36, DOWN_F5, KNIGHT1_GREEN_DEAD, FOLLOW, 80)
+# I, I can still ... fight ...\0
+break
+
+lbl_4e4:
+  msg(IMPERIALCOMMANDER_37, ERWIN_01, KNIGHT1_GREEN, FOLLOW, 81)
+# Attack!\0
+break
+
+lbl_4ec:
+  msg(IMPERIALCOMMANDER_37, DOWN_F5, KNIGHT1_GREEN_DEAD, FOLLOW, 82)
+# Son of a bitch ... You kids won't be so lucky next time!\0
+break
+
+lbl_4f4:
+  branch.unit.dead(lbl_501, IMPERIALCOMMANDER_35)
+  msg(IMPERIALCOMMANDER_35, RIGHT_F7, HIGHLORD_RED, FOLLOW, 83)
+# Left flank attack!\0
+  goto(lbl_50b)
+lbl_501:
+  branch.unit.dead(lbl_50b, ZORUM_1A)
+  msg(ZORUM_1A, RIGHT_F7, ZORUM, FOLLOW, 84)
+# Left flank attack!\0
+lbl_50b:
+  msg(IMPERIALCOMMANDER_38, DOWN_F5, HAWKKNIGHT_GREEN, FOLLOW, 85)
+# Let's go! Take them down!\0
+  unit.clearbit(IMPERIALCOMMANDER_81, $17, 0)
+  unit.clearbit(IMPERIALCOMMANDER_38, $17, 0)
+break
+
+lbl_51b:
+  msg(IMPERIALCOMMANDER_38, DOWN_F5, HAWKKNIGHT_GREEN_DEAD, FOLLOW, 86)
+# L, long live the Empire!\0
+break
+
+lbl_523:
+  msg(IMPERIALCOMMANDER_81, DOWN_F5, HAWKKNIGHT_GREEN_DEAD, FOLLOW, 87)
+# Sh, shit! They're strong ...\0
+break
+
+lbl_52b:
+  subroutine(lbl_53d)
+break
+
+lbl_530:
+break
+
+lbl_532:
+  branch.unit.dead(lbl_53c, IMPERIALCOMMANDER_34)
+  msg(IMPERIALCOMMANDER_34, DOWN_F5, SWORDSMAN1_GREEN, FOLLOW, 93)
+# Argh!\0
+lbl_53c:
+endsub
+
+lbl_53d:
+  branch.eq.global(lbl_597, $0a47d4, $07eb59)
+  unit.cleanup()
+  bgm(ALLY, ENEMY2_VARGAS)
+  bgm(ENEMY, ENEMY2_VARGAS)
+  unit.deploy(VARGAS_D6, 16, 10)
+  branch.unit.dead(lbl_571, ZORUM_1A)
+  msg(VARGAS_D6, ZORUM_1A, VARGAS, FOLLOW, 94)
+# Are you all right, Zorum?\0
+  msg(ZORUM_1A, VARGAS_D6, ZORUM, FOLLOW, 92)
+# General Vargas! Why are you here? Is Lady Eliza okay with this?\0
+  msg(VARGAS_D6, ZORUM_1A, VARGAS, FOLLOW, 95)
+# Tell me, for this important battle, what would you do without my command?\0
+  msg(ZORUM_1A, VARGAS_D6, ZORUM, FOLLOW, 96)
+# But General Vargas ...\0
+  msg(VARGAS_D6, ZORUM_1A, VARGAS, FOLLOW, 97)
+# Silence! Now just think about winning!\0
+  goto(lbl_58b)
+lbl_571:
+  branch.ne.global(lbl_588, $0a47d2, $07eb5d)
+  branch.unit.dead(lbl_57f, IMPERIALCOMMANDER_35)
+  subroutine(lbl_598)
+  goto(lbl_585)
+lbl_57f:
+  msg(VARGAS_D6, DOWN_F5, VARGAS, FOLLOW, 98)
+# You little runt! Look what you've done to my men!\0
+lbl_585:
+  goto(lbl_58b)
+lbl_588:
+  subroutine(lbl_598)
+lbl_58b:
+  local.sub($0a47d0, $07eb5a)
+  local.sub($0a47d0, $07eb5b)
+  local.sum($0a47d4, $07eb59)
+  bgm(ALLY, ALLY6)
+lbl_597:
+endsub
+
+lbl_598:
+  msg(VARGAS_D6, DOWN_F5, VARGAS, FOLLOW, 99)
+# Is everyone okay?\0
+  branch.unit.dead(lbl_5ab, IMPERIALCOMMANDER_35)
+  msg(IMPERIALCOMMANDER_35, VARGAS_D6, HIGHLORD_RED, FOLLOW, 92)
+# General Vargas! Why are you here? Is Lady Eliza okay with this?\0
+  goto(lbl_5b1)
+lbl_5ab:
+  msg(SOLDIER_20, DOWN_F5, SOLDIER1_GREEN, NOFOLLOW, 92)
+# General Vargas! Why are you here? Is Lady Eliza okay with this?\0
+lbl_5b1:
+  msg(VARGAS_D6, DOWN_F5, VARGAS, FOLLOW, 100)
+# Tell me, what would you do without my command in this battle?\0
+  branch.unit.dead(lbl_5c4, IMPERIALCOMMANDER_35)
+  msg(IMPERIALCOMMANDER_35, VARGAS_D6, HIGHLORD_RED, FOLLOW, 101)
+# But General Vargas ...\0
+  goto(lbl_5ca)
+lbl_5c4:
+  msg(SOLDIER_20, DOWN_F5, SOLDIER1_GREEN, NOFOLLOW, 102)
+# But General Vargas ...\0
+lbl_5ca:
+  msg(VARGAS_D6, DOWN_F5, VARGAS, FOLLOW, 103)
+# Thanks for the concern. For now, just concentrate on beating the enemy!\0
+endsub
+
+lbl_5d1:
+  msg(VARGAS_D6, DOWN_F5, VARGAS, FOLLOW, 104)
+# My father was a man who would abandon his comrades to run home.\r\nCan you call that pride?\r\nWhen someone leaves his men to die and saves himself? No, he was a complete coward.\r\nTo think, when I was young, he looked down on me all the time. I won't have my child suffer such feelings ...\r\nA child shouldn't be ashamed of his father.\r\nNo matter the odds, I'll fight without running.\r\nI want to be a brave man, ... a man worthy of praise ... That's all I've ever wanted.\0
+endsub
+
+lbl_5d8:
+  msg(VARGAS_D6, LEFT_F6, VARGAS_ANGRY, NOFOLLOW, 105)
+# I won't die! I'll win and return to my wife and child!\0
+endsub
+

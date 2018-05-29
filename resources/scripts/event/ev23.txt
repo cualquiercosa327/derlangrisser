@@ -1,0 +1,561 @@
+# Movement-Triggered Events
+on.move(17, lbl_349, JESSICA_14, 2, 0xff)
+on.move(0, lbl_371, EGBERT_D8, 0, 0xff)
+on.move(3, lbl_387, IMPERIALCOMMANDER_30, 0, 0xff)
+on.move(4, lbl_3bf, IMPERIALCOMMANDER_33, 0, 0xff)
+break
+
+# Attack-Triggered Events
+on.attack(20, lbl_38f, IMPERIALCOMMANDER_30, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(22, lbl_39f, NULL_FF, IMPERIALCOMMANDER_31, 0xff, 0x00, 0xff)
+on.attack(24, lbl_3af, IMPERIALCOMMANDER_32, NULL_FF, 0x00, 0xff, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(10, lbl_307, ERWIN_01)
+on.defeat(11, lbl_311, HEIN_05)
+on.defeat(12, lbl_319, CHERIE_04)
+on.defeat(13, lbl_321, KEITH_07)
+on.defeat(14, lbl_329, LESTER_09)
+on.defeat(15, lbl_331, AARON_08)
+on.defeat(16, lbl_341, SCOTT_06)
+on.defeat(18, lbl_369, JESSICA_14)
+on.defeat(19, lbl_37c, EGBERT_D8)
+on.defeat(21, lbl_397, IMPERIALCOMMANDER_30)
+on.defeat(23, lbl_3a7, IMPERIALCOMMANDER_31)
+on.defeat(25, lbl_3b7, IMPERIALCOMMANDER_32)
+on.defeat(26, lbl_3c7, IMPERIALCOMMANDER_33)
+on.defeat(27, lbl_3cf, IMPERIALCOMMANDER_34)
+on.damage(28, lbl_3da, IMPERIALCOMMANDER_34, NULL_FF, 0x00, 0xff)
+on.defeat(29, lbl_3e3, IMPERIALCOMMANDER_35)
+on.defeat(30, lbl_3eb, IMPERIALCOMMANDER_36)
+on.defeat(31, lbl_3f3, IMPERIALCOMMANDER_30, IMPERIALCOMMANDER_31, IMPERIALCOMMANDER_32, IMPERIALCOMMANDER_33, IMPERIALCOMMANDER_34, IMPERIALCOMMANDER_35, IMPERIALCOMMANDER_36)
+break
+
+# Position-Triggered Events
+on.bound(7, lbl_231, NPC_SUBUNIT_F1, 1, 1, 35, 25, 0x00, 0x00)
+on.bound(8, lbl_2d3, NPC_COMMANDER_F0, 15, 9, 15, 9, 0x00, 0x00)
+on.bound(9, lbl_2ed, NPC_COMMANDER_F0, 21, 9, 21, 9, 0x00, 0x00)
+break
+
+# Turn-Triggered Events
+on.turn(5, lbl_1da, ENEMY, 1, 0x00)
+on.turn(1, lbl_1f9, ENEMY, 0, 0x00)
+on.turn(2, lbl_218, ALLY, 0, 0x00)
+on.turn(6, lbl_22a, ALLY, 1, 0x00)
+break
+
+# Core Events
+lbl_f2:
+  bgm(ALLY, CAVE)
+  unit.position(EGBERT_D8, PRESET, PRESET)
+  cursor.set(NULL_00)
+  unit.position(DARKPRINCESS_15, PRESET, PRESET)
+  unit.position(LIANA_02, PRESET, PRESET)
+  screen.fadein(4)
+  cursor.set(ERWIN_01)
+  unit.position(IMPERIALCOMMANDER_30, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_30)
+  unit.position(IMPERIALCOMMANDER_31, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_31)
+  unit.position(IMPERIALCOMMANDER_32, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_32)
+  unit.position(IMPERIALCOMMANDER_33, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_33)
+  unit.position(IMPERIALCOMMANDER_34, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_34)
+  unit.position(IMPERIALCOMMANDER_35, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_35)
+  unit.position(IMPERIALCOMMANDER_36, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_36)
+  msg(EGBERT_D8, RIGHT_F7, EGBERT, FOLLOW, 1)
+# Both the Dark Rod and the sealing maidens are here.\r\nThe preparations are complete ...\r\nNow let's commence with Alhazard's revival!\r\nDeofcynn Strengthe ... Blaed of Foregenga ... Alhazard ...\0
+  bgm(ALLY, ALLY1)
+  unit.position(JESSICA_14, PRESET, PRESET)
+  unit.showsub(JESSICA_14)
+  msg(JESSICA_14, UP_F4, JESSICA_ANGRY, FOLLOW, 2)
+# Egbert, stop!\0
+  msg(EGBERT_D8, DOWN_F5, EGBERT, FOLLOW, 3)
+# Hmmm ... You've managed to sniff us out.\0
+  unit.showsub(EGBERT_D8)
+  msg(JESSICA_14, EGBERT_D8, JESSICA_ANGRY, FOLLOW, 4)
+# You must know how dangerous Alhazard is!\0
+  msg(EGBERT_D8, JESSICA_14, EGBERT, FOLLOW, 5)
+# Power is a matter of preference.\r\nUsing Alhazard is no different than abusing the power of light ...\r\nNow, watch the unveiling of a truly magnificent force.\0
+  bgm(ALLY, ALLYREINFORCEMENT2)
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.showsub(ERWIN_01)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.showsub(HEIN_05)
+  unit.position(CHERIE_04, PRESET, PRESET)
+  unit.showsub(CHERIE_04)
+  unit.position(LESTER_09, PRESET, PRESET)
+  unit.showsub(LESTER_09)
+  unit.position(AARON_08, PRESET, PRESET)
+  unit.showsub(AARON_08)
+  unit.position(SCOTT_06, PRESET, PRESET)
+  unit.showsub(SCOTT_06)
+  unit.position(KEITH_07, PRESET, PRESET)
+  unit.showsub(KEITH_07)
+  msg(KEITH_07, UP_F4, KEITH, FOLLOW, 6)
+# So this is the Temple of Evil ... What an eerie place.\0
+  msg(SCOTT_06, UP_F4, SCOTT, FOLLOW, 7)
+# Look at the altar!\0
+  focus.point(18, 7, FAST)
+  unit.face(BOSER_17, DOWN_F5)
+  delay(40)
+  msg(HEIN_05, UP_F4, HEIN, NOFOLLOW, 8)
+# Ahhh! It's Lady Liana and Lana!\0
+  msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 9)
+# The Maiden of Light and the Maiden of Darkness ...\0
+  msg(AARON_08, ERWIN_01, AARON, FOLLOW, 10)
+# The Maiden of Light sealed the Dark Blade ... At least that's my take on it.\0
+  msg(CHERIE_04, AARON_08, CHERIE, FOLLOW, 11)
+# Then what's the Dark Princess' role?\0
+  msg(JESSICA_14, CHERIE_04, JESSICA, FOLLOW, 12)
+# It's her duty to break the seal and become one with darkness.\0
+  msg(LESTER_09, UP_F4, LESTER, FOLLOW, 13)
+# If we're careless, the ceremony will be completed.\0
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 14)
+# That's right. Before the seal is broken, we must defeat Egbert!\r\nGet ready, everyone!\0
+  local.sum($0a47d0, $07eb58)
+  local.sum($0a47d0, $07eb59)
+  local.sum($0a47d0, $07eb5a)
+  local.sum($0a47d0, $07eb5b)
+  local.sum($0a47d0, $07eb5c)
+  global.sub($0a4793, $07eb5d)
+break
+
+lbl_1da:
+  msg(EGBERT_D8, DOWN_F5, EGBERT, FOLLOW, 15)
+# I must concentrate to complete the ritual.\r\nUntil it's complete, don't allow them near the altar!\0
+  branch.unit.dead(lbl_1ed, IMPERIALCOMMANDER_34)
+  msg(IMPERIALCOMMANDER_34, EGBERT_D8, KNIGHT2_GREEN, FOLLOW, 16)
+# Yes, leave it to us ...\0
+  goto(lbl_1f7)
+lbl_1ed:
+  branch.unit.dead(lbl_1f7, IMPERIALCOMMANDER_35)
+  msg(IMPERIALCOMMANDER_35, EGBERT_D8, KNIGHT2_GREEN, FOLLOW, 17)
+# Yes, Sir!\0
+lbl_1f7:
+break
+
+lbl_1f9:
+  branch.unit.dead(lbl_216, EGBERT_D8)
+  msg(EGBERT_D8, DOWN_F5, EGBERT, FOLLOW, 18)
+# The ritual is complete. Alhazard's seal has broken.\r\nAll that remains is to present it to His Majesty.\0
+  branch.unit.dead(lbl_213, JESSICA_14)
+  msg(JESSICA_14, EGBERT_D8, JESSICA_ANGRY, FOLLOW, 19)
+# Stop, Egbert! If Bernhardt uses Alhazard's power, he will become host to Boser!\0
+  msg(EGBERT_D8, JESSICA_14, EGBERT, FOLLOW, 20)
+# In the case of an ordinary person, that may be true.\r\nBut you still can't imagine the true strength of His Majesty. His steely will can repel even Darkness.\r\nI'm certain His Majesty will be able to master Alhazard's power.\0
+lbl_213:
+  local.sub($0a47d0, $07eb58)
+lbl_216:
+break
+
+lbl_218:
+  branch.unit.dead(lbl_222, JESSICA_14)
+  msg(JESSICA_14, UP_F4, JESSICA, FOLLOW, 21)
+# We have a problem. As it is, Bernhardt will possess Alhazard.\0
+lbl_222:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 22)
+# Everyone! Quickly defeat the enemy, then follow Egbert!\0
+break
+
+lbl_22a:
+  unit.setbyte(DARKPRINCESS_15, $20, 0x03)
+  unit.refresh()
+break
+
+lbl_231:
+  unit.cleanup()
+  bgm(ALLY, CAVE)
+  focus.point(18, 11, FAST)
+  delay(70)
+  msg(EGBERT_D8, DOWN_F5, EGBERT, FOLLOW, 23)
+# Hear me, oh slumbering Chaos!\0
+  delay(30)
+  cast.thunder(BOSER_17, LIANA_CA)
+  unit.setbyte(LIANA_CA, $03, 0x0a)
+  cast.thunder(BOSER_17, LANA_CB)
+  unit.setbyte(LANA_CB, $03, 0x0a)
+  unit.face(BOSER_17, DOWN_F5)
+  delay(60)
+  msg(EGBERT_D8, DOWN_F5, EGBERT, FOLLOW, 24)
+# Vanquish the intruding light, unbind the evil centuries old ...\r\nAnd bring forth the power that once was!\r\nGeweald of Uncer Metod, Andwyrdon Thin Cilden ... Aweccan Alhazard!\0
+  screen.brightness(2)
+  screen.brightness(0)
+  screen.brightness(3)
+  screen.brightness(0)
+  bgm(ALLY, ENEMYREINFORCEMENT2)
+  branch.unit.dead(lbl_274, JESSICA_14)
+  msg(JESSICA_14, UP_F4, JESSICA, FOLLOW, 25)
+# Stop, the seal is ...!\0
+  goto(lbl_27e)
+lbl_274:
+  branch.unit.dead(lbl_27e, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 26)
+# Watch out! Alhazard's seal has been lifted!\0
+lbl_27e:
+  screen.brightness(5)
+  screen.brightness(0)
+  msg(EGBERT_D8, DOWN_F5, EGBERT, FOLLOW, 27)
+# Cough ... Cough ... Wheeze ...\r\nTh, this is ...\r\nThe Demons' Might, Alhazard ...\0
+  branch.unit.dead(lbl_292, JESSICA_14)
+  msg(JESSICA_14, EGBERT_D8, JESSICA_SAD, FOLLOW, 28)
+# Egbert! What are you doing!\0
+lbl_292:
+  msg(ERWIN_01, EGBERT_D8, ERWIN, FOLLOW, 29)
+# Damn it! He's taken it.\0
+  msg(EGBERT_D8, DOWN_F5, EGBERT, FOLLOW, 30)
+# I will deliver this sword to His Majesty. Don't let them leave here alive!\0
+  branch.unit.dead(lbl_2ab, IMPERIALCOMMANDER_30)
+  msg(IMPERIALCOMMANDER_30, EGBERT_D8, PRIEST_GREEN, FOLLOW, 31)
+# Understood ...\0
+  goto(lbl_2b5)
+lbl_2ab:
+  branch.unit.dead(lbl_2b5, IMPERIALCOMMANDER_33)
+  msg(IMPERIALCOMMANDER_33, EGBERT_D8, PRIEST_GREEN, FOLLOW, 32)
+# Yes!\0
+lbl_2b5:
+  unit.clearbit(IMPERIALCOMMANDER_30, $17, 0)
+  unit.clearbit(IMPERIALCOMMANDER_33, $17, 0)
+  unit.setbit(IMPERIALCOMMANDER_30, $17, 6)
+  unit.setbit(IMPERIALCOMMANDER_33, $17, 6)
+  local.sub($0a47d0, $07eb5b)
+  local.sub($0a47d0, $07eb5c)
+  local.sub($0a47d0, $07eb59)
+  bgm(ALLY, ALLYREINFORCEMENT2)
+break
+
+lbl_2d3:
+  branch.eq.global(lbl_2eb, $0a478c, $07eb58)
+  unit.cleanup()
+  prompt.ok(lbl_2eb)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 34)
+# Obtained Gleipnir.\r\nHas something vanished from the magic formation?\0
+  item.add(GLEIPNIR)
+  global.sum($0a478c, $07eb58)
+lbl_2eb:
+break
+
+lbl_2ed:
+  branch.eq.global(lbl_305, $0a478c, $07eb58)
+  unit.cleanup()
+  prompt.ok(lbl_305)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 36)
+# A magnificent shield appeared!\r\nObtained Odin's Buckler.\r\nAnother item just vanished from the magic formation.\0
+  item.add(ODINSBUCKLER)
+  global.sum($0a478c, $07eb58)
+lbl_305:
+break
+
+lbl_307:
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 37)
+# Damn, no good ...\0
+  unit.cleanup()
+  gameover()
+break
+
+lbl_311:
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 38)
+# How could we allow Alhazard to ... Right before our very eyes ...\0
+break
+
+lbl_319:
+  msg(CHERIE_04, DOWN_F5, CHERIE_DEAD, FOLLOW, 39)
+# I'm sorry ...\0
+break
+
+lbl_321:
+  msg(KEITH_07, DOWN_F5, KEITH_DEAD, FOLLOW, 40)
+# Ouch! What are you doing!\0
+break
+
+lbl_329:
+  msg(LESTER_09, DOWN_F5, LESTER_DEAD, FOLLOW, 41)
+# This is it ...! Let me fall back, just this once.\r\nForgive me!\0
+break
+
+lbl_331:
+  msg(AARON_08, ERWIN_01, AARON, FOLLOW, 42)
+# I'm sorry everyone ... Please stop Egbert!\0
+  msg(ERWIN_01, AARON_08, ERWIN, FOLLOW, 43)
+# I'm way too old for this kind of fighting ...\r\n_NAME_, watch out for the Princess!\0
+  unit.retreat(AARON_08)
+break
+
+lbl_341:
+  msg(SCOTT_06, DOWN_F5, SCOTT_DEAD, FOLLOW, 44)
+# Ahh, they got me. If only I was a little stronger--\0
+break
+
+lbl_349:
+  branch.unit.dead(lbl_367, EGBERT_D8)
+  msg(JESSICA_14, EGBERT_D8, JESSICA_ANGRY, FOLLOW, 45)
+# Egbert!\r\nEven with Boser defeated, Alhazard's unbridled power is too dangerous.\r\nYou know the horrors that darkness will bring! Why are you doing this!?\0
+  msg(EGBERT_D8, JESSICA_14, EGBERT, FOLLOW, 46)
+# Hmmm ... Such sentimental babble ...\r\nTo achieve my purpose, I will do anything that can guarantee our success!\0
+  msg(JESSICA_14, EGBERT_D8, JESSICA_SAD, FOLLOW, 47)
+# You've changed, Egbert ...\r\nYou've become so wretched ...\0
+  unit.clearbit(JESSICA_14, $17, 0)
+  unit.setbit(JESSICA_14, $17, 6)
+lbl_367:
+break
+
+lbl_369:
+  msg(JESSICA_14, DOWN_F5, JESSICA_DEAD, FOLLOW, 48)
+# Ahh ... Egbert ...\0
+break
+
+lbl_371:
+  msg(EGBERT_D8, RIGHT_F7, EGBERT, FOLLOW, 49)
+# Ha ha ha! You have my sincere apologies.\r\nFarewell, Adviser to the Descendants of Light.\0
+  subroutine(lbl_588)
+break
+
+lbl_37c:
+  msg(EGBERT_D8, DOWN_F5, EGBERT_DEAD, FOLLOW, 50)
+# Impossible! We're too late.\0
+  subroutine(lbl_588)
+break
+
+lbl_387:
+  msg(IMPERIALCOMMANDER_30, DOWN_F5, PRIEST_GREEN, FOLLOW, 51)
+# Let's go.\0
+break
+
+lbl_38f:
+  msg(IMPERIALCOMMANDER_30, LEFT_F6, PRIEST_GREEN, FOLLOW, 52)
+# Die!\0
+break
+
+lbl_397:
+  msg(IMPERIALCOMMANDER_30, DOWN_F5, PRIEST_GREEN_DEAD, FOLLOW, 53)
+# Argh!\0
+break
+
+lbl_39f:
+  msg(IMPERIALCOMMANDER_31, LEFT_F6, PRIEST_GREEN, FOLLOW, 54)
+# You think you can take me? Interesting. Go ahead and try!\0
+break
+
+lbl_3a7:
+  msg(IMPERIALCOMMANDER_31, DOWN_F5, PRIEST_GREEN_DEAD, FOLLOW, 55)
+# Damn!\0
+break
+
+lbl_3af:
+  msg(IMPERIALCOMMANDER_32, LEFT_F6, PRIEST_GREEN, FOLLOW, 56)
+# They're pretty tough ...\0
+break
+
+lbl_3b7:
+  msg(IMPERIALCOMMANDER_32, DOWN_F5, PRIEST_GREEN_DEAD, FOLLOW, 57)
+# Let's go!\0
+break
+
+lbl_3bf:
+  msg(IMPERIALCOMMANDER_33, DOWN_F5, PRIEST_GREEN, FOLLOW, 58)
+# Come! My magic will have you writhing in agony!\0
+break
+
+lbl_3c7:
+  msg(IMPERIALCOMMANDER_33, DOWN_F5, PRIEST_GREEN_DEAD, FOLLOW, 59)
+# Power ... I need more power ...\0
+break
+
+lbl_3cf:
+  msg(IMPERIALCOMMANDER_34, DOWN_F5, HIGHLORD_GREEN_DEAD, FOLLOW, 60)
+# Egbert ... I'm sorry ...\0
+  local.sum($0a47d3, $07eb5c)
+break
+
+lbl_3da:
+  unit.cleanup()
+  msg(IMPERIALCOMMANDER_34, LEFT_F6, HIGHLORD_GREEN, FOLLOW, 61)
+# Hmph. That's all you've got?\0
+break
+
+lbl_3e3:
+  msg(IMPERIALCOMMANDER_35, DOWN_F5, HIGHLORD_GREEN_DEAD, FOLLOW, 62)
+# Egbert ...\0
+break
+
+lbl_3eb:
+  msg(IMPERIALCOMMANDER_36, DOWN_F5, HIGHLORD_GREEN_DEAD, FOLLOW, 63)
+# No good ... I can't hold out any more ...\0
+break
+
+lbl_3f3:
+  unit.cleanup()
+  scenarioclear()
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 64)
+# We managed to save Lana and Liana ...\r\nBut we let him revive Alhazard ...\0
+  branch.eq.global(lbl_406, $0a4793, $07eb5b)
+  unit.expboost(LIANA_02, 150)
+  global.sum($0a4793, $07eb5b)
+lbl_406:
+  msg(LIANA_02, DOWN_F5, LIANA, FOLLOW, 65)
+# Hmmm.\0
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 66)
+# You've come to, Liana!\0
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 67)
+# Aahh ... _NAME_!\0
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 68)
+# Thank goodness, she's okay ...\0
+  msg(NULL_00, DOWN_F5, NULL, NOFOLLOW, 69)
+# Liana joins the entourage!\0
+  branch.unit.dead(lbl_431, CHERIE_04)
+  msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 70)
+# Lana looks fine too.\0
+  goto(lbl_437)
+lbl_431:
+  msg(ERWIN_01, LANA_03, ERWIN, FOLLOW, 71)
+# Lana looks all right, too.\0
+lbl_437:
+  cursor.set(NULL_00)
+  unit.retreat(DARKPRINCESS_15)
+  unit.swap(DARKPRINCESS_15, LANA_03)
+  unit.deploy(LANA_03, 21, 9)
+  cursor.set(ERWIN_01)
+  msg(LANA_03, ERWIN_01, LANA, FOLLOW, 72)
+# I, I was ...\0
+  branch.unit.dead(lbl_457, KEITH_07)
+  msg(KEITH_07, LANA_03, KEITH, FOLLOW, 73)
+# Egbert's spell has been broken.\0
+  goto(lbl_45d)
+lbl_457:
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 74)
+# Has the spell been broken?\0
+lbl_45d:
+  msg(LIANA_02, LANA_03, LIANA, FOLLOW, 75)
+# Sister! Big sister Lana!\0
+  msg(LANA_03, LIANA_02, LANA, FOLLOW, 76)
+# Liana? Is it really you, Liana?\0
+  msg(LIANA_02, LANA_03, LIANA, FOLLOW, 77)
+# Lana, I thought I would never see you again ...\0
+  branch.unit.dead(lbl_479, SCOTT_06)
+  msg(SCOTT_06, LIANA_02, SCOTT, FOLLOW, 78)
+# Huh? I never knew Lady Liana had a sister.\0
+lbl_479:
+  msg(LANA_03, ERWIN_01, LANA, FOLLOW, 79)
+# Speaking of which, why am I here?\0
+  branch.unit.dead(lbl_48c, LESTER_09)
+  msg(LESTER_09, LANA_03, LESTER, FOLLOW, 110)
+# You were controlled by Boser.\r\nAfter Boser was killed, Egbert used his magic on you.\0
+  goto(lbl_492)
+lbl_48c:
+  msg(LESTER_09, LANA_03, LESTER_DEAD, NOFOLLOW, 110)
+# You were controlled by Boser.\r\nAfter Boser was killed, Egbert used his magic on you.\0
+lbl_492:
+  msg(LANA_03, DOWN_F5, LANA, FOLLOW, 80)
+# Boser ...\r\nWhen I was young, I was separated from Liana and kidnapped by Boser.\r\nUggh! My head ...\r\nWhat happened to Alhazard?\0
+  msg(ERWIN_01, LANA_03, ERWIN, FOLLOW, 81)
+# Egbert took it ... But I have no idea where he is.\0
+  msg(LANA_03, ERWIN_01, LANA, FOLLOW, 82)
+# It's okay. If I sense Alhazard's energy wave, I can guide us to its position.\0
+  msg(LANA_03, DOWN_F5, LANA_SAD, FOLLOW, 83)
+# ...\0
+  delay(60)
+  msg(LANA_03, ERWIN_01, LANA, FOLLOW, 84)
+# It seems Kaiser Bernhardt is in Velzeria.\r\nFrom there, I can feel a strong evil ...\0
+  msg(LIANA_02, LANA_03, LIANA, FOLLOW, 85)
+# Underneath Castle Velzeria, I've heard the God of Chaos sleeps.\r\nIt doesn't take a genius to figure out Alhazard was taken there.\0
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 86)
+# Then let's hurry on to Velzeria!\0
+  msg(LANA_03, ERWIN_01, LANA, FOLLOW, 87)
+# No! First we must revive Langrisser.\r\nOnly the Sword of Light can challenge Alhazard now.\r\nLangrisser's true power is yet to be seen.\0
+  branch.unit.dead(lbl_4d1, AARON_08)
+  msg(AARON_08, LANA_03, AARON, FOLLOW, 88)
+# What? You mean it can be even more powerful?\0
+  goto(lbl_4d7)
+lbl_4d1:
+  msg(ERWIN_01, LANA_03, ERWIN, FOLLOW, 89)
+# You mean it has even more untapped power?\0
+lbl_4d7:
+  branch.unit.dead(lbl_4e1, HEIN_05)
+  msg(HEIN_05, LANA_03, HEIN, FOLLOW, 90)
+# Wow ...\0
+lbl_4e1:
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 91)
+# Correct ...\r\nTo break the seal, we need the Holy Rod from the Ruins of Elrad.\0
+  msg(LANA_03, ERWIN_01, LANA_SAD, FOLLOW, 92)
+# While I was controlled, I hurt many innocent people. Please let me help you ...\r\nPlease, at least let me do that much ...\0
+  branch.unit.dead(lbl_4fd, LESTER_09)
+  msg(LESTER_09, LANA_03, LESTER, FOLLOW, 93)
+# Don't worry, no one is blaming you.\0
+  msg(LANA_03, LESTER_09, LANA_SAD, FOLLOW, 94)
+# Thank you.\0
+lbl_4fd:
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 95)
+# Lana joins the entourage!\0
+  branch.eq.global(lbl_50e, $0a4793, $07eb5c)
+  unit.expboost(LANA_03, 580)
+  global.sum($0a4793, $07eb5c)
+lbl_50e:
+  global.sum($0a4793, $07eb5d)
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 96)
+# All right, first we must retrieve the Holy Rod.\0
+  branch.unit.dead(lbl_550, AARON_08)
+  msg(AARON_08, ERWIN_01, AARON, FOLLOW, 97)
+# Well, I'll leave it to you youngsters. This fighting is too much for me ...\0
+  branch.unit.dead(lbl_52b, HEIN_05)
+  msg(HEIN_05, AARON_08, HEIN, FOLLOW, 98)
+# You're going back? You'll be sorely missed.\0
+lbl_52b:
+  branch.unit.dead(lbl_535, CHERIE_04)
+  msg(CHERIE_04, AARON_08, CHERIE, FOLLOW, 99)
+# Master Aaron, please leave it to us. Take a well-deserved rest.\0
+lbl_535:
+  msg(AARON_08, DOWN_F5, AARON, FOLLOW, 100)
+# Everyone, be strong.\0
+  msg(AARON_08, ERWIN_01, AARON, FOLLOW, 101)
+# _NAME_, take care of the Princess!\0
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 102)
+# Aaron leaves the entourage ...\0
+  msg(ERWIN_01, AARON_08, ERWIN, FOLLOW, 103)
+# Take care, Aaron.\0
+  goto(lbl_578)
+lbl_550:
+  msg(AARON_08, ERWIN_01, AARON_DEAD, NOFOLLOW, 104)
+# Sorry, but please try to let me return home.\r\nIt seems I'm too old to fight. If I keep going, I'll just wind up holding you all back.\0
+  msg(ERWIN_01, AARON_08, ERWIN_SAD, FOLLOW, 105)
+# Are you sure? You'll be missed.\0
+  branch.unit.dead(lbl_566, CHERIE_04)
+  msg(CHERIE_04, AARON_08, CHERIE, FOLLOW, 106)
+# Master, I'm strong, so don't worry.\0
+lbl_566:
+  msg(AARON_08, ERWIN_01, AARON_DEAD, NOFOLLOW, 107)
+# _NAME_, take care of the Princess!\0
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 108)
+# Aaron leaves the entourage ...\0
+  msg(ERWIN_01, AARON_08, ERWIN, FOLLOW, 109)
+# Thanks for everything. Farewell.\0
+lbl_578:
+  unit.retreat(AARON_08)
+  unit.setbyte(AARON_08, $20, 0x03)
+  unit.refresh()
+  unit.setbyte(LIANA_02, $20, 0x01)
+  unit.refresh()
+  loadscenario(17)
+break
+
+lbl_588:
+  branch.unit.dead(lbl_598, IMPERIALCOMMANDER_36)
+  msg(EGBERT_D8, IMPERIALCOMMANDER_36, EGBERT, FOLLOW, 111)
+# Everyone! Slaughter the Descendants of Light!\0
+  msg(IMPERIALCOMMANDER_36, EGBERT_D8, HIGHLORD_GREEN, FOLLOW, 112)
+# Yes, Sir!\0
+lbl_598:
+  cast.teleport(EGBERT_D8, EGBERT_D8, TELEPORT_OUT, PRESET, PRESET)
+  bgm(ENEMY, ENEMYREINFORCEMENT1)
+  branch.unit.dead(lbl_5ab, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 113)
+# Aaahh! He ran away!\0
+lbl_5ab:
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 114)
+# We have to hurry up and follow him ...\r\nBut first, we must rescue Liana and Lana!\r\nQuickly, clear out the enemy! Let's go!\0
+endsub
+

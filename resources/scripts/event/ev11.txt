@@ -239,7 +239,7 @@ lbl_37c:
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 35)
 # Through a window, you spot a bird's nest.\r\nRooting through the feathers in the bottom, you find a flask.\r\nThe liquid in the flask seems to be the colour of the sea ...\0
   prompt.ok(lbl_39a)
-  unit.raisestat(59, 1)
+  unit.statboost(59, 1)
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 37)
 # DF raised by 1 point!\0
   global.sum($0a4794, $07eb5f)

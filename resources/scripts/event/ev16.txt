@@ -1,0 +1,718 @@
+# Movement-Triggered Events
+on.move(21, lbl_420, AARON_08, 2, 0xff)
+on.move(2, lbl_42e, AARON_08, 0, 0xff)
+on.move(22, lbl_436, AARON_08, 1, 0xff)
+on.move(29, lbl_4a8, VILLAGER_26, 1, 0xff)
+on.move(25, lbl_4ca, IMELDA_D7, 5, 0xff)
+on.move(0, lbl_637, IMPERIALCOMMANDER_2F, 0, 0xff)
+on.move(40, lbl_667, IMPERIALCOMMANDER_34, 0, 0xff)
+on.move(42, lbl_677, IMPERIALCOMMANDER_35, 0, 0xff)
+on.move(1, lbl_68a, IMPERIALCOMMANDER_36, 0, 0xff)
+on.move(45, lbl_69a, IMPERIALCOMMANDER_37, 0, 0xff)
+break
+
+# Attack-Triggered Events
+on.attack(16, lbl_3f8, CHERIE_04, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(23, lbl_468, AARON_08, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(27, lbl_48e, NULL_FF, VILLAGER_25, 0xff, 0x00, 0xff)
+on.attack(31, lbl_4d6, IMELDA_D7, AARON_08, 0x00, 0x00, 0xff)
+on.attack(32, lbl_4de, NULL_FF, IMELDA_D7, 0xff, 0x00, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(14, lbl_3e0, ERWIN_01)
+on.defeat(15, lbl_3f0, HEIN_05)
+on.defeat(17, lbl_400, CHERIE_04)
+on.defeat(18, lbl_408, LIANA_02)
+on.defeat(19, lbl_410, KEITH_07)
+on.defeat(20, lbl_418, LESTER_09)
+on.defeat(24, lbl_470, AARON_08)
+on.defeat(28, lbl_4a0, VILLAGER_25)
+on.defeat(30, lbl_4b6, VILLAGER_26)
+on.defeat(33, lbl_4e6, IMELDA_D7)
+on.defeat(35, lbl_63f, IMPERIALCOMMANDER_2F)
+on.defeat(36, lbl_647, IMPERIALCOMMANDER_30)
+on.defeat(37, lbl_64f, IMPERIALCOMMANDER_31)
+on.defeat(38, lbl_657, IMPERIALCOMMANDER_32)
+on.defeat(39, lbl_65f, IMPERIALCOMMANDER_33)
+on.defeat(41, lbl_66f, IMPERIALCOMMANDER_34)
+on.defeat(43, lbl_682, IMPERIALCOMMANDER_35)
+on.defeat(44, lbl_692, IMPERIALCOMMANDER_36)
+on.defeat(46, lbl_6a2, IMPERIALCOMMANDER_37)
+on.defeat(47, lbl_6aa, VILLAGER_25, VILLAGER_26)
+on.defeat(48, lbl_6b4, IMPERIALCOMMANDER_31, IMPERIALCOMMANDER_32)
+on.damage(26, lbl_6f5, NULL_FF, AARON_08, 0xff, 0x00)
+on.damage(49, lbl_6fe, NULL_FF, VILLAGER_25, 0xff, 0x00)
+break
+
+# Position-Triggered Events
+on.bound(9, lbl_367, NPC_SUBUNIT_F1, 8, 9, 38, 22, 0x00, 0x00)
+on.bound(10, lbl_381, NPC_SUBUNIT_F1, 6, 3, 19, 15, 0x00, 0x00)
+on.bound(11, lbl_391, VILLAGER_25, 31, 4, 33, 6, 0x00, 0x00)
+on.bound(12, lbl_3a2, NPC_COMMANDER_F0, 6, 3, 6, 3, 0x00, 0x00)
+on.bound(13, lbl_3d8, AARON_08, 33, 10, 33, 10, 0x00, 0x00)
+break
+
+# Turn-Triggered Events
+on.turn(4, lbl_2af, ENEMY, 1, 0x00)
+on.turn(5, lbl_300, ALLY, 2, 0x00)
+on.turn(6, lbl_312, ENEMY, 10, 0x00)
+on.turn(7, lbl_337, ENEMY, 4, 0x00)
+on.turn(8, lbl_35c, ALLY, 10, 0x00)
+on.turn(3, lbl_361, ENEMY, 0, 0x00)
+break
+
+# Core Events
+lbl_160:
+  bgm(ALLY, ENEMY6_IMELDA)
+  unit.position(IMELDA_D7, PRESET, PRESET)
+  cursor.set(NULL_00)
+  unit.hide(IMPERIALCOMMANDER_31, SUBUNIT)
+  unit.hide(IMPERIALCOMMANDER_32, SUBUNIT)
+  unit.hide(AARON_08, SUBUNIT)
+  unit.position(AARON_08, PRESET, PRESET)
+  unit.position(VILLAGER_25, PRESET, PRESET)
+  unit.showsub(VILLAGER_25)
+  unit.position(VILLAGER_26, PRESET, PRESET)
+  unit.showsub(VILLAGER_26)
+  unit.position(IMPERIALCOMMANDER_2F, PRESET, PRESET)
+  unit.position(IMPERIALCOMMANDER_30, PRESET, PRESET)
+  unit.position(IMPERIALCOMMANDER_31, PRESET, PRESET)
+  unit.position(IMPERIALCOMMANDER_32, PRESET, PRESET)
+  unit.position(IMPERIALCOMMANDER_36, PRESET, PRESET)
+  cursor.set(ERWIN_01)
+  screen.fadein(4)
+  msg(IMELDA_D7, AARON_08, IMELDA, FOLLOW, 1)
+# Stubborn, aren't you? Give up before I send you to your grave!\0
+  msg(AARON_08, IMELDA_D7, AARON, FOLLOW, 2)
+# Why don't you end this siege? Taking such a small fort won't bring you any fame.\0
+  msg(IMELDA_D7, AARON_08, IMELDA, FOLLOW, 3)
+# I don't care about fame! Those who ignore my orders shall die!\r\nIf only you had listened the first time, I might have spared your miserable little lives!\0
+  msg(AARON_08, IMELDA_D7, AARON, FOLLOW, 4)
+# I'll never take orders from you! Why don't you act more like a lady?\0
+  msg(IMELDA_D7, AARON_08, IMELDA, FOLLOW, 5)
+# Silence, you fool!\0
+  cursor.set(NULL_00)
+  focus.point(22, 17, FAST)
+  unit.position(KRAMER_1D, 22, 20)
+  msg(KRAMER_1D, IMELDA_D7, KNIGHT2_GREEN_DEAD, NOFOLLOW, 6)
+# G, General Imelda!\0
+  unit.move(KRAMER_1D, 22, 19)
+  delay(20)
+  unit.move(KRAMER_1D, 22, 18)
+  delay(20)
+  unit.move(KRAMER_1D, 22, 17)
+  delay(10)
+  cursor.set(ERWIN_01)
+  msg(IMELDA_D7, KRAMER_1D, IMELDA_ANGRY, FOLLOW, 7)
+# Kramer! You failed the mission, didn't you!?\0
+  msg(KRAMER_1D, IMELDA_D7, KNIGHT2_GREEN_DEAD, FOLLOW, 8)
+# I, I'm sorry, General Imelda, but ...\0
+  cursor.set(NULL_00)
+  focus.point(22, 14, FAST)
+  unit.move(IMELDA_D7, 22, 12)
+  msg(IMELDA_D7, KRAMER_1D, IMELDA_ANGRY, NOFOLLOW, 9)
+# Kramer! How dare you show your face after failing a mission!\0
+  msg(KRAMER_1D, IMELDA_D7, KNIGHT2_GREEN_DEAD, NOFOLLOW, 10)
+# General Imelda! Please give me another chance!\0
+  msg(IMELDA_D7, KRAMER_1D, IMELDA_ANGRY, NOFOLLOW, 11)
+# The Water Dragon Navy does not forgive failure!\0
+  cursor.set(ERWIN_01)
+  cast.thunder(IMELDA_D7, KRAMER_1D)
+  cursor.set(NULL_00)
+  focus.point(22, 14, FAST)
+  msg(KRAMER_1D, IMELDA_D7, KNIGHT2_GREEN_DEAD, NOFOLLOW, 12)
+# I, Ime ... Gahh ...\0
+  unit.setbyte(KRAMER_1D, $03, 0x00)
+  unit.cleanup()
+  msg(IMELDA_D7, DOWN_F5, IMELDA, NOFOLLOW, 13)
+# Hmph! Useless trash!\0
+  unit.move(IMELDA_D7, PRESET, PRESET)
+  cursor.set(ERWIN_01)
+  msg(IMELDA_D7, RIGHT_F7, IMELDA, FOLLOW, 14)
+# Hurry up and begin the attack!\r\nIt will be quite annoying if their reinforcements come from Kalxath.\0
+  msg(IMPERIALCOMMANDER_31, LEFT_F6, FIGHTER_GREEN, FOLLOW, 15)
+# Yes, Sir!\0
+  cursor.set(NULL_00)
+  unit.position(IMPERIALCOMMANDER_33, PRESET, PRESET)
+  cursor.set(ERWIN_01)
+  msg(IMPERIALCOMMANDER_33, DOWN_F5, HIGHLORD_GREEN, FOLLOW, 16)
+# General Imelda! It's their reinforcements!\0
+  msg(IMELDA_D7, DOWN_F5, IMELDA, FOLLOW, 17)
+# Shit! That idiot, Kramer!\0
+  bgm(ALLY, ALLY2)
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.showsub(ERWIN_01)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.showsub(HEIN_05)
+  unit.position(CHERIE_04, PRESET, PRESET)
+  unit.showsub(CHERIE_04)
+  unit.position(LIANA_02, PRESET, PRESET)
+  unit.showsub(LIANA_02)
+  unit.position(KEITH_07, PRESET, PRESET)
+  unit.showsub(KEITH_07)
+  unit.position(LESTER_09, PRESET, PRESET)
+  unit.showsub(LESTER_09)
+  msg(ERWIN_01, IMELDA_D7, ERWIN, FOLLOW, 18)
+# The Imperial Army!?\0
+  msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 19)
+# You're going to regret it if you don't move your troops away from that fort!\0
+  msg(IMELDA_D7, CHERIE_04, IMELDA, FOLLOW, 20)
+# Quite a spirited young girl.\0
+  msg(KEITH_07, CHERIE_04, KEITH, FOLLOW, 21)
+# Princess, she is the Water Dragon Navy's General, Imelda.\0
+  msg(IMELDA_D7, KEITH_07, IMELDA, FOLLOW, 22)
+# Heh heh ... Am I so well-known?\0
+  msg(CHERIE_04, IMELDA_D7, CHERIE, FOLLOW, 23)
+# They still haven't taken the fortress! Let's hurry!\0
+  msg(IMELDA_D7, CHERIE_04, IMELDA, FOLLOW, 24)
+# Don't even dare get in my way!\0
+  unit.showsub(IMELDA_D7)
+  unit.showsub(IMPERIALCOMMANDER_2F)
+  unit.showsub(IMPERIALCOMMANDER_30)
+  unit.showsub(IMPERIALCOMMANDER_33)
+  unit.showsub(IMPERIALCOMMANDER_36)
+  local.sum($0a47d0, $07eb58)
+  local.sum($0a47d0, $07eb59)
+  local.sum($0a47d0, $07eb5a)
+  local.sum($0a47d0, $07eb5b)
+break
+
+lbl_2af:
+  msg(IMELDA_D7, RIGHT_F7, IMELDA, FOLLOW, 25)
+# Go! Attack! Take the stronghold, and don't screw up!\r\nNow is our chance, the enemy can't attack us amongst innocent villagers.\0
+  branch.unit.dead(lbl_2c1, IMPERIALCOMMANDER_31)
+  msg(IMPERIALCOMMANDER_31, IMELDA_D7, FIGHTER_GREEN, FOLLOW, 26)
+# Yes, Sir!\0
+  unit.showsub(IMPERIALCOMMANDER_31)
+lbl_2c1:
+  branch.unit.dead(lbl_2c7, IMPERIALCOMMANDER_32)
+  unit.showsub(IMPERIALCOMMANDER_32)
+lbl_2c7:
+  msg(AARON_08, IMELDA_D7, AARON_ANGRY, FOLLOW, 27)
+# You ... you cowards!\0
+  msg(IMELDA_D7, AARON_08, IMELDA, FOLLOW, 28)
+# Wa ha ha! I'll do whatever it takes to win.\r\nAnd as a bonus, I'll send you all to hell together, so you won't be lonely.\r\nQuite generous, aren't I?\0
+  msg(AARON_08, IMELDA_D7, AARON_ANGRY, FOLLOW, 29)
+# Imelda, you cowardly bitch! Even at my age, I won't lose to such gutless Imperials!\0
+  unit.showsub(AARON_08)
+  branch.eq.global(lbl_2e6, $0a4788, $07eb5e)
+  unit.expboost(AARON_08, 232)
+  global.sum($0a4788, $07eb5e)
+lbl_2e6:
+  unit.setbit(VILLAGER_25, $17, 0)
+  unit.setbyte(VILLAGER_25, $22, 0x20)
+  unit.setbyte(VILLAGER_25, $23, 0x05)
+  unit.setbit(VILLAGER_26, $17, 0)
+  unit.setbyte(VILLAGER_26, $22, 0x1e)
+  unit.setbyte(VILLAGER_26, $23, 0x04)
+break
+
+lbl_300:
+  msg(AARON_08, VILLAGER_25, AARON, FOLLOW, 30)
+# How heartless.\r\nI was foolish to believe someone like her. Everyone, return to the stronghold--immediately!\0
+  branch.unit.dead(lbl_310, VILLAGER_25)
+  msg(VILLAGER_25, AARON_08, VILLAGER_YELLOW, FOLLOW, 31)
+# Y, yes, Sir!\0
+lbl_310:
+break
+
+lbl_312:
+  unit.deploy(IMPERIALCOMMANDER_37, 23, 2)
+  branch.unit.dead(lbl_32f, IMELDA_D7)
+  msg(IMPERIALCOMMANDER_37, IMELDA_D7, KNIGHT1_GREEN, FOLLOW, 32)
+# General Imelda! Reinforcements have arrived!\0
+  msg(IMELDA_D7, IMPERIALCOMMANDER_36, IMELDA, FOLLOW, 33)
+# Right on time ... Now, please deal with this redheaded whelp.\0
+  msg(IMPERIALCOMMANDER_37, IMELDA_D7, KNIGHT1_GREEN, FOLLOW, 34)
+# Yes, Sir!\0
+  goto(lbl_335)
+lbl_32f:
+  msg(IMPERIALCOMMANDER_37, LEFT_F6, KNIGHT1_GREEN, FOLLOW, 35)
+# General Imelda!?\r\nYou're quite strong if you can defeat General Imelda.\r\nFor the honour of the Water Dragon Navy, we can't let you live!\r\nPrepare to die, boy.\0
+lbl_335:
+break
+
+lbl_337:
+  branch.unit.dead(lbl_34a, IMPERIALCOMMANDER_31)
+  msg(IMELDA_D7, IMPERIALCOMMANDER_31, IMELDA, FOLLOW, 137)
+# What the hell is taking so long? The Water Dragon Navy has no room for weaklings!\0
+  msg(IMPERIALCOMMANDER_31, IMELDA_D7, FIGHTER_GREEN, FOLLOW, 36)
+# Yes, forgive me.\0
+  goto(lbl_35a)
+lbl_34a:
+  branch.unit.dead(lbl_35a, IMPERIALCOMMANDER_32)
+  msg(IMELDA_D7, IMPERIALCOMMANDER_32, IMELDA, FOLLOW, 137)
+# What the hell is taking so long? The Water Dragon Navy has no room for weaklings!\0
+  msg(IMPERIALCOMMANDER_32, IMELDA_D7, FIGHTER_GREEN, FOLLOW, 37)
+# Yes, forgive me.\0
+lbl_35a:
+break
+
+lbl_35c:
+  bgm(ENEMY, ENEMYREINFORCEMENT1)
+break
+
+lbl_361:
+  unit.clearbit(IMPERIALCOMMANDER_35, $17, 0)
+break
+
+lbl_367:
+  unit.cleanup()
+  bgm(ALLY, ALLYREINFORCEMENT2)
+  unit.deploy(IMPERIALCOMMANDER_35, 37, 20)
+  unit.deploy(IMPERIALCOMMANDER_34, 14, 18)
+  msg(IMPERIALCOMMANDER_34, ERWIN_01, SERPENTKNIGHT_GREEN, FOLLOW, 38)
+# Feel the power of the Water Dragon Navy!\0
+  msg(ERWIN_01, IMPERIALCOMMANDER_34, ERWIN, FOLLOW, 39)
+# What!? An ambush?\0
+break
+
+lbl_381:
+  unit.clearbit(IMPERIALCOMMANDER_2F, $17, 0)
+  unit.clearbit(IMPERIALCOMMANDER_36, $17, 0)
+  local.sub($0a47d0, $07eb58)
+  local.sub($0a47d0, $07eb59)
+break
+
+lbl_391:
+  unit.setbit(AARON_08, $17, 0)
+  unit.setbyte(AARON_08, $22, 0x20)
+  unit.setbyte(AARON_08, $23, 0x08)
+  local.sub($0a47d0, $07eb5a)
+break
+
+lbl_3a2:
+  branch.eq.global(lbl_3d6, $0a478e, $07eb5f)
+  unit.cleanup()
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 40)
+# You spot a water fowl perched atop a nearby small post.\r\nThe bird is holding a small, glittering stone in its beak.\r\nWhat will you do?\0
+  global.sum($0a478e, $07eb5f)
+  prompt.options(lbl_3c5, lbl_3d0, 41, 42, 43, 0x00, 0xf4, 0x00, 0x00)
+# Startle it\0
+# Reach out\0
+# Ignore it\0
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 44)
+# The water bird gets scared, drops the stone and flies away.\r\nThe stone sinks to the bottom of the lake.\0
+  goto(lbl_3d6)
+lbl_3c5:
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 45)
+# The bird drops the stone in your hand and flies away.\r\nYou wash the stone and it emits a mysterious glow.\r\nObtained Rune Stone.\0
+  item.add(RUNESTONE)
+  goto(lbl_3d6)
+lbl_3d0:
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 46)
+# The bird finally flies away.\0
+lbl_3d6:
+break
+
+lbl_3d8:
+  msg(AARON_08, VILLAGER_25, AARON, FOLLOW, 47)
+# Everyone, ... please run away.\0
+break
+
+lbl_3e0:
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 48)
+# Damn! This is it ...\0
+  unit.cleanup()
+  msg(IMELDA_D7, ERWIN_01, IMELDA, FOLLOW, 49)
+# Ha ha ha! What a humiliating defeat!\0
+  gameover()
+break
+
+lbl_3f0:
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 50)
+# Ouch! I can't fight like this. Sorry I can't hold them back ...\0
+break
+
+lbl_3f8:
+  msg(CHERIE_04, RIGHT_F7, CHERIE, NOFOLLOW, 51)
+# Prepare yourself!\0
+break
+
+lbl_400:
+  msg(CHERIE_04, DOWN_F5, CHERIE_DEAD, FOLLOW, 52)
+# Ugh ... That was a mistake ...\0
+break
+
+lbl_408:
+  msg(LIANA_02, DOWN_F5, LIANA_DEAD, FOLLOW, 53)
+# I'm sorry ...\0
+break
+
+lbl_410:
+  msg(KEITH_07, DOWN_F5, KEITH_DEAD, FOLLOW, 54)
+# Damn! Of all the places!\0
+break
+
+lbl_418:
+  msg(LESTER_09, DOWN_F5, LESTER_DEAD, FOLLOW, 55)
+# Damn! Not too shabby!\0
+break
+
+lbl_420:
+  msg(AARON_08, VILLAGER_25, AARON, FOLLOW, 56)
+# Inside the fortress! Quickly now!\0
+  msg(VILLAGER_25, AARON_08, VILLAGER_YELLOW, FOLLOW, 57)
+# Y, yes!\0
+break
+
+lbl_42e:
+  msg(AARON_08, LEFT_F6, AARON, FOLLOW, 58)
+# No one will enter this fortress!\r\nIf you want to take it, you will have to deal with me first! While I yet draw breath, I will not move a single step!\0
+break
+
+lbl_436:
+  msg(VILLAGER_25, AARON_08, VILLAGER_YELLOW, FOLLOW, 59)
+# Lord Aaron! What will become of us?\0
+  msg(AARON_08, UP_F4, AARON, FOLLOW, 60)
+# Don't worry. Leave it to me.\0
+  msg(IMELDA_D7, AARON_08, IMELDA, FOLLOW, 61)
+# Oh my!\r\nHow could I ever lay a hand on such helpless people!\r\nIf I ever killed them, how would I face myself?\0
+  msg(AARON_08, IMELDA_D7, AARON, FOLLOW, 62)
+# Do you promise you won't attack them?\0
+  msg(IMELDA_D7, AARON_08, IMELDA, FOLLOW, 63)
+# Yes, I promise!\0
+  msg(AARON_08, IMELDA_D7, AARON, FOLLOW, 64)
+# Fine, ... in that case ...\0
+  msg(AARON_08, UP_F4, AARON, FOLLOW, 65)
+# Everyone, ... leave this fortress and evacuate to a safer place.\0
+  msg(VILLAGER_25, AARON_08, VILLAGER_YELLOW, FOLLOW, 66)
+# Yes.\0
+break
+
+lbl_468:
+  msg(AARON_08, RIGHT_F7, AARON, NOFOLLOW, 67)
+# I really do pity you, but you shall die!\0
+break
+
+lbl_470:
+  msg(AARON_08, DOWN_F5, AARON_DEAD, FOLLOW, 68)
+# Indeed, I'm too old for this ...\0
+  branch.unit.dead(lbl_486, CHERIE_04)
+  msg(CHERIE_04, AARON_08, CHERIE, FOLLOW, 69)
+# Sir Aaron! Are you okay?\r\nWe're here to help! Please fall back for now!\0
+  msg(AARON_08, DOWN_F5, AARON_DEAD, FOLLOW, 70)
+# Ugh, sorry ...\0
+lbl_486:
+  local.sum($0a47d3, $07eb59)
+  local.sum($0a47d3, $07eb5a)
+break
+
+lbl_48e:
+  msg(VILLAGER_25, DOWN_F5, VILLAGER_YELLOW, NOFOLLOW, 71)
+# Help!\0
+  branch.unit.dead(lbl_49e, AARON_08)
+  msg(AARON_08, LEFT_F6, AARON, NOFOLLOW, 72)
+# Hey you, Imperial scum!\0
+lbl_49e:
+break
+
+lbl_4a0:
+  msg(VILLAGER_25, DOWN_F5, VILLAGER_YELLOW_DEAD, FOLLOW, 73)
+# Ahhh! My life is ...\0
+break
+
+lbl_4a8:
+  msg(VILLAGER_26, IMELDA_D7, VILLAGER_YELLOW, FOLLOW, 74)
+# Thank you, General Imelda.\0
+  msg(IMELDA_D7, RIGHT_F7, IMELDA, FOLLOW, 75)
+# Get out quickly! I'll kill you myself if you don't move fast enough!\0
+break
+
+lbl_4b6:
+  msg(VILLAGER_26, DOWN_F5, VILLAGER_YELLOW_DEAD, FOLLOW, 76)
+# No ... No ... I don't want to die ...\0
+  unit.clearbit(AARON_08, $17, 0)
+  unit.setbit(AARON_08, $17, 1)
+  unit.setbyte(AARON_08, $21, 0x32)
+break
+
+lbl_4ca:
+  msg(IMELDA_D7, DOWN_F5, IMELDA, FOLLOW, 77)
+# Don't get on my nerves! You still haven't killed that old fart!?\r\nYou're a totally useless bunch of imbeciles. If you don't hurry it up, I'll have your heads!\0
+  unit.clearbit(IMELDA_D7, $17, 0)
+break
+
+lbl_4d6:
+  msg(IMELDA_D7, AARON_08, IMELDA, NOFOLLOW, 78)
+# Well then, I'll send you all to your doom!\0
+break
+
+lbl_4de:
+  msg(IMELDA_D7, LEFT_F6, IMELDA, NOFOLLOW, 79)
+# Eeeek! What impudence!\0
+break
+
+lbl_4e6:
+  msg(IMELDA_D7, DOWN_F5, IMELDA_DEAD, FOLLOW, 80)
+# I, impossible ...\r\nHow can someone as strong and beautiful as me be defeated? I'm retreating!\0
+  unit.retreat(IMELDA_D7)
+  unit.retreat(IMPERIALCOMMANDER_2F)
+  unit.retreat(IMPERIALCOMMANDER_30)
+  unit.retreat(IMPERIALCOMMANDER_31)
+  unit.retreat(IMPERIALCOMMANDER_32)
+  unit.retreat(IMPERIALCOMMANDER_33)
+  unit.retreat(IMPERIALCOMMANDER_34)
+  unit.retreat(IMPERIALCOMMANDER_35)
+  unit.retreat(IMPERIALCOMMANDER_36)
+  unit.retreat(IMPERIALCOMMANDER_37)
+  scenarioclear()
+  msg(ERWIN_01, AARON_08, ERWIN, FOLLOW, 81)
+# Are you all right, Master Swordsman?\0
+  branch.unit.dead(lbl_514, AARON_08)
+  msg(AARON_08, ERWIN_01, AARON, FOLLOW, 82)
+# What!? These old bones won't lose to some group of young upstarts.\0
+  goto(lbl_51a)
+lbl_514:
+  msg(AARON_08, ERWIN_01, AARON_DEAD, NOFOLLOW, 83)
+# What the ...!? These old bones won't lose to some young ...\r\nOuch ... I am getting too old for this.\0
+lbl_51a:
+  branch.unit.dead(lbl_54d, CHERIE_04)
+  branch.ne.global(lbl_544, $0a47d4, $07eb5a)
+  branch.unit.dead(lbl_535, AARON_08)
+  msg(CHERIE_04, AARON_08, CHERIE, FOLLOW, 84)
+# Master! Are you all right?\0
+  msg(AARON_08, CHERIE_04, AARON, FOLLOW, 85)
+# Of course. I won't be beaten so easily.\0
+  goto(lbl_541)
+lbl_535:
+  msg(CHERIE_04, RIGHT_F7, CHERIE, FOLLOW, 86)
+# Master! Are you all right?\0
+  msg(AARON_08, CHERIE_04, AARON_DEAD, NOFOLLOW, 87)
+# Somehow ...\0
+lbl_541:
+  goto(lbl_54a)
+lbl_544:
+  msg(AARON_08, CHERIE_04, CHERIE, FOLLOW, 88)
+# Cherie, you seem healthier than ever.\0
+lbl_54a:
+  goto(lbl_572)
+lbl_54d:
+  branch.unit.dead(lbl_560, AARON_08)
+  msg(CHERIE_04, AARON_08, CHERIE_DEAD, NOFOLLOW, 89)
+# M, master ... Are you all right ...?\0
+  msg(AARON_08, CHERIE_04, AARON, FOLLOW, 90)
+# Cherie! You haven't trained enough! Your form is pathetic ...\0
+  goto(lbl_56c)
+lbl_560:
+  msg(CHERIE_04, DOWN_F5, CHERIE_DEAD, NOFOLLOW, 91)
+# Master ... Are you all right ...?\0
+  msg(AARON_08, CHERIE_04, AARON, NOFOLLOW, 92)
+# What about you, Master Aaron? It seems neither of us have trained enough.\0
+lbl_56c:
+  msg(CHERIE_04, DOWN_F5, CHERIE_DEAD, NOFOLLOW, 93)
+# Sorry ...\0
+lbl_572:
+  branch.ne.global(lbl_58c, $0a4788, $07eb5d)
+  branch.unit.dead(lbl_583, HEIN_05)
+  msg(HEIN_05, CHERIE_04, HEIN, FOLLOW, 94)
+# Huh ... So this old chap is Cherie's weapons teacher?\0
+  goto(lbl_589)
+lbl_583:
+  msg(ERWIN_01, CHERIE_04, ERWIN, FOLLOW, 95)
+# So this old guy is Cherie's fighting instructor ...?\0
+lbl_589:
+  goto(lbl_5b2)
+lbl_58c:
+  branch.unit.dead(lbl_599, HEIN_05)
+  msg(HEIN_05, CHERIE_04, HEIN, FOLLOW, 96)
+# Hey Cherie ... So he's your sword master?\0
+  goto(lbl_59f)
+lbl_599:
+  msg(ERWIN_01, CHERIE_04, ERWIN, FOLLOW, 97)
+# Master Aaron?\0
+lbl_59f:
+  branch.unit.dead(lbl_5ac, CHERIE_04)
+  msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 141)
+# Sir Aaron is the man who taught me to use a sword properly.\0
+  goto(lbl_5b2)
+lbl_5ac:
+  msg(CHERIE_04, AARON_08, CHERIE_DEAD, NOFOLLOW, 141)
+# Sir Aaron is the man who taught me to use a sword properly.\0
+lbl_5b2:
+  branch.unit.dead(lbl_5de, AARON_08)
+  msg(AARON_08, CHERIE_04, AARON, FOLLOW, 98)
+# Well, it's been a while since you've visited, if I recall ...\0
+  branch.unit.dead(lbl_5c9, CHERIE_04)
+  msg(CHERIE_04, AARON_08, CHERIE, FOLLOW, 99)
+# Truth is ...\0
+  goto(lbl_5cf)
+lbl_5c9:
+  msg(CHERIE_04, AARON_08, CHERIE_DEAD, NOFOLLOW, 100)
+# Truth is ...\0
+lbl_5cf:
+  msg(AARON_08, CHERIE_04, AARON, FOLLOW, 101)
+# I already know. It's about the Empire ...\r\nLately, it seems they've been up to something. All this is troubling me ...\0
+  msg(AARON_08, ERWIN_01, AARON, FOLLOW, 140)
+# By the way, seeing you battle made me realise how long it's been since I've last fought...\r\nThank you for helping me out. It is very inspiring to see youngsters like you striking back against those Imperials...\r\nI would like to return the help you gave. I am inviting myself to join your group!\0
+  goto(lbl_5ea)
+lbl_5de:
+  msg(AARON_08, RIGHT_F7, AARON, NOFOLLOW, 102)
+# And those Imperial fiends ...\r\nLately, it seems the Empire has been up to something. All this is troubling me ...\0
+  msg(AARON_08, RIGHT_F7, AARON, NOFOLLOW, 140)
+# By the way, seeing you battle made me realise how long it's been since I've last fought...\r\nThank you for helping me out. It is very inspiring to see youngsters like you striking back against those Imperials...\r\nI would like to return the help you gave. I am inviting myself to join your group!\0
+lbl_5ea:
+  msg(ERWIN_01, AARON_08, ERWIN, FOLLOW, 103)
+# That's reassuring.\0
+  msg(NULL_00, DOWN_F5, NULL, NOFOLLOW, 104)
+# Aaron joins the entourage!\0
+  branch.unit.dead(lbl_628, LESTER_09)
+  msg(LESTER_09, ERWIN_01, LESTER, FOLLOW, 105)
+# Hey! We don't have time for a break.\r\nIf we sit here, the Empire will take Langrisser before us.\0
+  branch.unit.dead(lbl_619, AARON_08)
+  msg(AARON_08, LESTER_09, AARON, FOLLOW, 138)
+# What, Langrisser!? The Holy Blade ...?\0
+  msg(LESTER_09, AARON_08, LESTER, FOLLOW, 139)
+# Yeah, that's the one.\r\nAnyway, we can talk about it as we walk. Let's go, everyone!\0
+  msg(AARON_08, LESTER_09, AARON, FOLLOW, 106)
+# Impatient, aren't you?\0
+  goto(lbl_625)
+lbl_619:
+  msg(AARON_08, LESTER_09, AARON_DEAD, NOFOLLOW, 138)
+# What, Langrisser!? The Holy Blade ...?\0
+  msg(ERWIN_01, LESTER_09, ERWIN, FOLLOW, 139)
+# Yeah, that's the one.\r\nAnyway, we can talk about it as we walk. Let's go, everyone!\0
+lbl_625:
+  goto(lbl_62e)
+lbl_628:
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 107)
+# Let's hurry! We can't let the Imperial Army get their hands on Langrisser!\0
+lbl_62e:
+  unit.setbyte(KRAMER_1D, $20, 0x03)
+  unit.refresh()
+  loadscenario(10)
+break
+
+lbl_637:
+  msg(IMPERIALCOMMANDER_2F, LEFT_F6, HIGHLORD_GREEN, FOLLOW, 108)
+# This will be your final resting place!\0
+break
+
+lbl_63f:
+  msg(IMPERIALCOMMANDER_2F, DOWN_F5, HIGHLORD_GREEN_DEAD, FOLLOW, 109)
+# Gah! I've been injured ...\0
+break
+
+lbl_647:
+  msg(IMPERIALCOMMANDER_30, DOWN_F5, HIGHLORD_GREEN_DEAD, FOLLOW, 110)
+# G, General Imelda!\0
+break
+
+lbl_64f:
+  msg(IMPERIALCOMMANDER_31, DOWN_F5, FIGHTER_GREEN_DEAD, FOLLOW, 111)
+# This is a total defeat ...\0
+break
+
+lbl_657:
+  msg(IMPERIALCOMMANDER_32, DOWN_F5, FIGHTER_GREEN_DEAD, FOLLOW, 112)
+# I don't want to die yet--!\0
+break
+
+lbl_65f:
+  msg(IMPERIALCOMMANDER_33, DOWN_F5, HIGHLORD_GREEN_DEAD, FOLLOW, 113)
+# Gaa--!\0
+break
+
+lbl_667:
+  msg(IMPERIALCOMMANDER_34, DOWN_F5, SERPENTKNIGHT_GREEN, FOLLOW, 114)
+# Let's go! It's time to begin the slaughter!\0
+break
+
+lbl_66f:
+  msg(IMPERIALCOMMANDER_34, DOWN_F5, SERPENTKNIGHT_GREEN_DEAD, FOLLOW, 115)
+# R, regrettably ...\0
+break
+
+lbl_677:
+  msg(IMPERIALCOMMANDER_35, LEFT_F6, SERPENTKNIGHT_GREEN, FOLLOW, 116)
+# You won't cross this bridge!\0
+  local.sub($0a47d0, $07eb5b)
+break
+
+lbl_682:
+  msg(IMPERIALCOMMANDER_35, DOWN_F5, SERPENTKNIGHT_GREEN_DEAD, FOLLOW, 117)
+# Such strength. But how ...?\0
+break
+
+lbl_68a:
+  msg(IMPERIALCOMMANDER_36, LEFT_F6, KNIGHT1_GREEN, FOLLOW, 118)
+# Charge!\0
+break
+
+lbl_692:
+  msg(IMPERIALCOMMANDER_36, DOWN_F5, KNIGHT1_GREEN_DEAD, FOLLOW, 119)
+# Why? Why can't I win ...?\0
+break
+
+lbl_69a:
+  msg(IMPERIALCOMMANDER_37, DOWN_F5, KNIGHT1_GREEN, FOLLOW, 120)
+# Protect General Imelda! Charge!\0
+break
+
+lbl_6a2:
+  msg(IMPERIALCOMMANDER_37, DOWN_F5, KNIGHT1_GREEN_DEAD, FOLLOW, 121)
+# No, that can't be!\0
+break
+
+lbl_6aa:
+  unit.cleanup()
+  msg(ERWIN_01, DOWN_F5, ERWIN_SAD, FOLLOW, 122)
+# Damn it! I screwed up!\0
+  gameover()
+break
+
+lbl_6b4:
+  unit.cleanup()
+  branch.unit.dead(lbl_6f3, AARON_08)
+  msg(AARON_08, RIGHT_F7, AARON, FOLLOW, 123)
+# Ugh--! Some rest at last.\0
+  branch.unit.dead(lbl_6e1, CHERIE_04)
+  msg(CHERIE_04, AARON_08, CHERIE, FOLLOW, 124)
+# Master!\0
+  msg(AARON_08, CHERIE_04, AARON, FOLLOW, 125)
+# Oh, isn't that Cherie? So, your skill has improved?\0
+  msg(CHERIE_04, AARON_08, CHERIE, FOLLOW, 126)
+# Yes! This is a good occasion, Master.\r\nI could show you a few things now, I'd bet!\0
+  msg(AARON_08, CHERIE_04, AARON, FOLLOW, 127)
+# Hmmm, it's been a while since I've fought.\r\nI just exhausted myself. Let's rest for a while ...\0
+  local.sum($0a47d4, $07eb5a)
+  goto(lbl_6e7)
+lbl_6e1:
+  msg(AARON_08, CHERIE_04, AARON, FOLLOW, 128)
+# It's been a while since I've fought.\r\nI just exhausted myself. Let's rest for a while ...\0
+lbl_6e7:
+  unit.setbit(AARON_08, $17, 0)
+  unit.setbyte(AARON_08, $22, 0x20)
+  unit.setbyte(AARON_08, $23, 0x09)
+lbl_6f3:
+break
+
+lbl_6f5:
+  unit.cleanup()
+  msg(AARON_08, RIGHT_F7, AARON, FOLLOW, 129)
+# Attack if you dare, but you won't pass!\0
+break
+
+lbl_6fe:
+  unit.cleanup()
+  branch.unit.dead(lbl_709, CHERIE_04)
+  msg(CHERIE_04, VILLAGER_25, CHERIE_ANGRY, FOLLOW, 130)
+# How awful! How could anyone be so cruel?\0
+lbl_709:
+  branch.unit.dead(lbl_713, KEITH_07)
+  msg(KEITH_07, IMELDA_D7, KEITH, FOLLOW, 131)
+# Imelda is a cruel General. I've heard that she'll do just about anything to win ...\0
+lbl_713:
+  msg(AARON_08, IMELDA_D7, AARON_ANGRY, NOFOLLOW, 132)
+# What are you doing! Stop that immediately!\0
+  msg(IMELDA_D7, AARON_08, IMELDA, FOLLOW, 133)
+# Ha ha ha! Where do you think you are?\r\nYou're on the battlefield! Here, only the strong survive ... Weak fools have no right.\0
+  msg(IMELDA_D7, ERWIN_01, IMELDA, FOLLOW, 134)
+# You don't agree, redhead?\0
+  msg(ERWIN_01, IMELDA_D7, ERWIN_ANGRY, FOLLOW, 135)
+# Strength is for protecting the weak!\r\nPeople like you have no right to speak of strength!\0
+  msg(IMELDA_D7, ERWIN_01, IMELDA, FOLLOW, 136)
+# My, my ... What a poetic little boy you are.\r\nHowever, I don't care about your silly beliefs. I will crush you all!\0
+break
+

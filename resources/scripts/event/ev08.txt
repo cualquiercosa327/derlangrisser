@@ -218,7 +218,7 @@ lbl_308:
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 33)
 # You have spotted a clearing in the middle of the woods ...\r\nInside, a band of cute dwarves are dancing merrily.\r\nOne of the dwarves comes out to offer you a berry.\0
   prompt.ok(lbl_326)
-  unit.raisestat(11, 10)
+  unit.statboost(11, 10)
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 35)
 # Magic Defence raised!\0
   global.sum($0a4794, $07eb5d)
@@ -230,7 +230,7 @@ lbl_328:
   msg(NULL_00, UP_F4, NULL, FOLLOW, 36)
 # A blue potion rests within the open drawer of a chest.\0
   prompt.ok(lbl_346)
-  unit.raisestat(58, 1)
+  unit.statboost(58, 1)
   msg(NULL_00, UP_F4, NULL, FOLLOW, 38)
 # You feel a surge of power!\r\nAT raised by 1 point!\0
   global.sum($0a4792, $07eb5a)

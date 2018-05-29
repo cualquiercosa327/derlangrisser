@@ -576,6 +576,17 @@ for($i = 0; $i < count($events); $i++) {
         fputs($fo, "  unit.showsub($t_unit)\n");
         break;
       
+      // randomize.holyrod(pos1, pos2, pos3, pos4)
+      // uint_8[0x20] uint_8[pos1] uint_8[pos2] uint_8[pos3] uint_8[pos4]
+      // Randomly place the Holy Rod in pos1, pos2, pos3, or pos4
+      case 0x20:
+        $t_pos1 = fgetb($fd);
+        $t_pos2 = fgetb($fd);
+        $t_pos3 = fgetb($fd);
+        $t_pos4 = fgetb($fd);
+        fputs($fo, "  randomize.holyrod($t_pos1, $t_pos2, $t_pos3, $t_pos4)\n");
+        break;
+      
       // tile.set(type, x, y)
       // uint_8[0x21] uint_8[x] uint_8[y] uint_8[type]
       // Change the tile at coordinate x,y to terrain type
@@ -599,6 +610,23 @@ for($i = 0; $i < count($events); $i++) {
         if($t_x == 255) $t_x = "PRESET";
         if($t_y == 255) $t_y = "PRESET";
         fputs($fo, "  burn($t_x, $t_y)\n");
+        break;
+      
+      // screen.brightness(value)
+      // uint_8[0x23] uint_8[value]
+      // Brighten screen by value; 0x00 resets to default
+      case 0x23:
+        $t_value = fgetb($fd);
+        fputs($fo, "  screen.brightness($t_value)\n");
+        break;
+      
+      // unit.expboost(unit, amount)
+      // uint_8[0x24] uint_8[unit] uint_16[amount]
+      // Gives amount experience points to unit
+      case 0x24:
+        $t_unit = $ar_unit[fgetb($fd)];
+        $t_amount = fgetw($fd);
+        fputs($fo, "  unit.expboost($t_unit, $t_amount)\n");
         break;
       
       // cast.fireball(unit, x, y)
@@ -663,6 +691,23 @@ for($i = 0; $i < count($events); $i++) {
         fputs($fo, "  unit.refresh()\n");
         break;
       
+      // unit.swap(unit1, unit2)
+      // uint_8[0x2e] uint_8[unit1] uint_8[unit2]
+      // Swaps unit1 with unit2; mainly used to replace an NPC or Enemy that
+      // is recruited during scenario
+      case 0x2e:
+        $t_unit1 = $ar_unit[fgetb($fd)];
+        $t_unit2 = $ar_unit[fgetb($fd)];
+        fputs($fo, "  unit.swap($t_unit1, $t_unit2)\n");
+        break;
+      
+      // breakbridge()
+      // uint_8[0x2f]
+      // Collapse the bridge in Scenario 8
+      case 0x2f:
+        fputs($fo, "  breakbridge()\n");
+        break;
+      
       // screen.fadeout(time)
       // unit_8[0x38] uint_8[time]
       // Fade screen to black over time seconds
@@ -714,6 +759,14 @@ for($i = 0; $i < count($events); $i++) {
         $t_unit = $ar_unit[fgetb($fd)];
         $t_team = $ar_team[fgetb($fd)];
         fputs($fo, "  unit.align($t_unit, $t_team)\n");
+        break;
+      
+      // sfx(sound)
+      // uint_8[0x3b] uint_8[sound]
+      // Play sound effect sound
+      case 0x3b:
+        $t_sound = fgetb($fd);
+        fputs($fo, "  sfx($t_sound)\n");
         break;
       
       // cusor.set(unit)
@@ -802,13 +855,21 @@ for($i = 0; $i < count($events); $i++) {
         fputs($fo, "  scenarioclear()\n");
         break;
       
-      // unit.raisestat(stat, amount)
+      // unit.statboost(stat, amount)
       // uint_8[0x40] uint_8[stat] uint_8[amount]
       // Raise the current unit's stat by amount
       case 0x40:
         $t_stat = fgetb($fd);
         $t_amount = fgetb($fd);
-        fputs($fo, "  unit.raisestat($t_stat, $t_amount)\n");
+        fputs($fo, "  unit.statboost($t_stat, $t_amount)\n");
+        break;
+      
+      // unit.reset(unit)
+      // uint_8[0x45] uint_8[unit]
+      // Resets the HP and status of unit to default
+      case 0x45:
+        $t_unit = $ar_unit[fgetb($fd)];
+        fputs($fo, "  unit.reset($t_unit)\n");
         break;
       
       // delay(time)
@@ -817,6 +878,24 @@ for($i = 0; $i < count($events); $i++) {
       case 0x46:
         $t_time = fgetb($fd);
         fputs($fo, "  delay($t_time)\n");
+        break;
+      
+      // attack(unit1, unit2)
+      // uint_8[0x51] uint_8[unit1] uint_8[unit2]
+      // Have unit1 attack unit2
+      case 0x51:
+        $t_unit1 = $ar_unit[fgetb($fd)];
+        $t_unit2 = $ar_unit[fgetb($fd)];
+        fputs($fo, "  attack($t_unit1, $t_unit2)\n");
+        break;
+      
+      // cast.thunder(unit1, unit2)
+      // uint_8[0x54] uint_8[unit1] uint_8[unit2]
+      // Caster unit1 targets unit2 with Thunder spell
+      case 0x54:
+        $t_unit1 = $ar_unit[fgetb($fd)];
+        $t_unit2 = $ar_unit[fgetb($fd)];
+        fputs($fo, "  cast.thunder($t_unit1, $t_unit2)\n");
         break;
       
       // break
