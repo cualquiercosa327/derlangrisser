@@ -121,7 +121,7 @@ lbl_1ad:
 break
 
 lbl_1bc:
-  branch.eq.global(lbl_1d0, $0a47d0, $07eb5c)
+  branch.mem.local.eq(lbl_1d0, $0a47d0, $07eb5c)
   branch.unit.dead(lbl_1d0, SCOTT_06)
   msg(SCOTT_06, ERWIN_01, SCOTT, FOLLOW, 13)
 # _NAME_, please, give me orders! Allow me to demonstrate\r\nthe results of my training!\0
@@ -194,7 +194,7 @@ lbl_26c:
 break
 
 lbl_271:
-  branch.eq.global(lbl_289, $0a478a, $07eb5e)
+  branch.mem.global.eq(lbl_289, $0a478a, $07eb5e)
   unit.cleanup()
   prompt.ok(lbl_289)
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 27)
@@ -304,7 +304,7 @@ lbl_319:
 # This time, I'll overlook it. Next time, I won't forgive you!\0
   subroutine(lbl_52c)
 lbl_350:
-  branch.eq.global(lbl_364, $0a47d2, $07eb5a)
+  branch.mem.local.eq(lbl_364, $0a47d2, $07eb5a)
   msg(LEON_D5, DOWN_F5, LEON_DEAD, FOLLOW, 49)
 # Everyone, retreat!\0
   branch.unit.dead(lbl_364, LAIRD_18)
@@ -370,7 +370,7 @@ lbl_3f5:
   msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 66)
 # Yeah, I'll do my best!\0
 lbl_3ff:
-  branch.eq.global(lbl_40a, $0a47d0, $07eb5a)
+  branch.mem.local.eq(lbl_40a, $0a47d0, $07eb5a)
   unit.deploy(SCOTT_06, 9, 22)
   subroutine(lbl_4fa)
 lbl_40a:
@@ -507,7 +507,7 @@ lbl_50d:
 endsub
 
 lbl_51a:
-  branch.eq.global(lbl_52b, $0a4794, $07eb5a)
+  branch.mem.global.eq(lbl_52b, $0a4794, $07eb5a)
   msg(SCOTT_06, RIGHT_F7, SCOTT, FOLLOW, 100)
 # I've been training hard since we last met!\0
   unit.expboost(SCOTT_06, 330)
@@ -519,7 +519,7 @@ lbl_52c:
   branch.unit.dead(lbl_562, LIANA_02)
   msg(LIANA_02, LANA_03, LIANA, FOLLOW, 101)
 # Wait, please! Aren't you my sister, Lana!?\0
-  branch.ne.global(lbl_543, $0a47d3, $07eb5c)
+  branch.mem.local.ne(lbl_543, $0a47d3, $07eb5c)
   msg(LANA_03, LIANA_02, LANA_DEAD, FOLLOW, 93)
 # Sister? I'm your sister? I have, I have a sister ...\r\nArgh--! My ... my head!\0
   goto(lbl_549)
@@ -529,7 +529,7 @@ lbl_543:
 lbl_549:
   msg(LIANA_02, LANA_03, LIANA, FOLLOW, 102)
 # Lana! Are you okay?\0
-  branch.ne.global(lbl_55c, $0a47d3, $07eb5c)
+  branch.mem.local.ne(lbl_55c, $0a47d3, $07eb5c)
   msg(LANA_03, LIANA_02, LANA_DEAD, FOLLOW, 94)
 # Shut up! I have no past!\r\nThe past is unnecessary ... It will be swept away by a future of darkness!\0
   goto(lbl_562)

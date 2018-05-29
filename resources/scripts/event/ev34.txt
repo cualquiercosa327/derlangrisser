@@ -1,0 +1,659 @@
+# Movement-Triggered Events
+on.move(5, lbl_493, DARKPRINCESS_15, 0, 0xff)
+on.move(39, lbl_501, GREATDRAGON_59, 0, 0xff)
+on.move(41, lbl_511, FAIAS_78, 0, 0xff)
+on.move(6, lbl_540, FAIAS_78, 0, 0xff)
+break
+
+# Attack-Triggered Events
+on.attack(14, lbl_42b, NULL_FF, ERWIN_01, 0xff, 0x00, 0xff)
+on.attack(15, lbl_433, ERWIN_01, FAIAS_78, 0x00, 0x00, 0xff)
+on.attack(18, lbl_453, CHERIE_04, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(22, lbl_473, LESTER_09, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(26, lbl_49b, NULL_FF, DARKPRINCESS_15, 0xff, 0x00, 0xff)
+on.attack(31, lbl_4c1, NULL_FF, SUCCUBUS_68, 0xff, 0x00, 0xff)
+on.attack(33, lbl_4d1, SUCCUBUS_69, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(42, lbl_548, FAIAS_78, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(43, lbl_550, NULL_FF, FAIAS_78, 0xff, 0x00, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(16, lbl_441, ERWIN_01)
+on.defeat(17, lbl_44b, HEIN_05)
+on.defeat(19, lbl_45b, CHERIE_04)
+on.defeat(20, lbl_463, AARON_08)
+on.defeat(21, lbl_46b, KEITH_07)
+on.defeat(23, lbl_47b, LESTER_09)
+on.defeat(24, lbl_483, SCOTT_06)
+on.defeat(25, lbl_48b, JESSICA_14)
+on.defeat(27, lbl_4a3, DARKPRINCESS_15)
+on.defeat(29, lbl_4b1, MINOTAUR_63)
+on.defeat(30, lbl_4b9, MINOTAUR_64)
+on.defeat(32, lbl_4c9, SUCCUBUS_68)
+on.defeat(34, lbl_4d9, SUCCUBUS_69)
+on.defeat(35, lbl_4e1, MINOTAUR_9B)
+on.defeat(36, lbl_4e9, KRAKEN_65)
+on.defeat(37, lbl_4f1, KRAKEN_66)
+on.defeat(38, lbl_4f9, PHOENIX_8C)
+on.defeat(40, lbl_509, GREATDRAGON_59)
+on.defeat(44, lbl_558, FAIAS_78)
+on.damage(46, lbl_577, FAIAS_78, NULL_FF, 0x00, 0xff)
+on.defeat(47, lbl_580, SUCCUBUS_68, SUCCUBUS_69, MINOTAUR_63, MINOTAUR_64, MINOTAUR_9B, PHOENIX_8C)
+on.defeat(48, lbl_585, FAIAS_78, SUCCUBUS_68, SUCCUBUS_69, MINOTAUR_63, MINOTAUR_64, MINOTAUR_9B, PHOENIX_8C, GREATDRAGON_59, KRAKEN_65, KRAKEN_66)
+on.defeat(50, lbl_5e1, MINOTAUR_63, MINOTAUR_64, MINOTAUR_9B, SUCCUBUS_68, SUCCUBUS_69, KRAKEN_65, KRAKEN_66, PHOENIX_8C)
+on.defeat(51, lbl_5ee, SUCCUBUS_68, SUCCUBUS_69, MINOTAUR_63, MINOTAUR_64, MINOTAUR_9B, PHOENIX_8C, GREATDRAGON_59, KRAKEN_65, KRAKEN_66)
+break
+
+# Position-Triggered Events
+on.bound(11, lbl_3f8, NPC_SUBUNIT_F1, 20, 2, 31, 31, 0x00, 0x00)
+on.bound(13, lbl_410, NPC_COMMANDER_F0, 21, 13, 21, 13, 0x00, 0x00)
+on.range(45, lbl_69d, ERWIN_01, FAIAS_78, 3, 0x00, 0x00, 0x00, 0x00)
+break
+
+# Turn-Triggered Events
+on.turn(7, lbl_31b, ENEMY, 1, 0x00)
+on.turn(1, lbl_331, ENEMY, 0, 0x00)
+on.turn(0, lbl_339, ALLY, 0, 0x00)
+on.turn(2, lbl_354, ALLY, 0, 0x00)
+on.turn(8, lbl_359, ENEMY, 16, 0x00)
+on.turn(9, lbl_390, ENEMY, 8, 0x00)
+on.turn(10, lbl_395, ALLY, 2, 0x00)
+on.turn(3, lbl_3a7, ENEMY, 0, 0x00)
+on.turn(4, lbl_3ea, ALLY, 0, 0x00)
+break
+
+# Core Events
+lbl_178:
+  screen.map.set(20)
+  bgm(ALLY, ENEMY5_EGBERT)
+  unit.hideall()
+  cursor.set(ERWIN_01)
+  focus.point(18, 5, FAST)
+  unit.swap(KRAKEN_66, EGBERT_D8)
+  unit.position(EGBERT_D8, 18, 5)
+  unit.position(LIANA_CA, 18, 6)
+  unit.face(EGBERT_D8, DOWN_F5)
+  unit.face(LIANA_CA, UP_F4)
+  cursor.hide()
+  cursor.set(NULL_00)
+  screen.fadein(4)
+  delay(20)
+  unit.face(LIANA_CA, RIGHT_F7)
+  delay(5)
+  unit.face(LIANA_CA, DOWN_F5)
+  delay(5)
+  unit.face(LIANA_CA, RIGHT_F7)
+  delay(5)
+  unit.face(LIANA_CA, DOWN_F5)
+  delay(20)
+  msg(LIANA_CA, DOWN_F5, LIANA_ANGRY, NOFOLLOW, 1)
+# No! Let me go!\0
+  msg(EGBERT_D8, DOWN_F5, EGBERT, NOFOLLOW, 2)
+# Hmmm.\0
+  unit.face(EGBERT_10, LEFT_F6)
+  delay(2)
+  unit.face(EGBERT_10, DOWN_F5)
+  unit.move(LIANA_CA, 18, 8)
+  msg(LIANA_CA, DOWN_F5, LIANA_ANGRY, NOFOLLOW, 3)
+# Aaahh!\0
+  delay(30)
+  unit.move(EGBERT_D8, 18, 6)
+  delay(20)
+  msg(EGBERT_D8, DOWN_F5, EGBERT, NOFOLLOW, 4)
+# You're struggling in vain. Calm yourself-- escape is impossible.\0
+  unit.move(EGBERT_D8, 18, 7)
+  delay(20)
+  msg(EGBERT_D8, DOWN_F5, EGBERT, NOFOLLOW, 5)
+# Rest long and well for the resurrection ceremony. It really is very draining.\0
+  msg(LIANA_CA, UP_F4, LIANA, NOFOLLOW, 6)
+# ...\0
+  msg(EGBERT_D8, DOWN_F5, EGBERT, NOFOLLOW, 7)
+# Silence is fine.\r\nJust remember-- kindness is a courtesy.\0
+  cursor.set(ERWIN_01)
+  unit.swap(KRAKEN_65, BOSER_17)
+  cast.teleport(BOSER_17, BOSER_17, TELEPORT_IN, 19, 6)
+  cursor.set(NULL_00)
+  msg(BOSER_17, EGBERT_D8, BOSER, NOFOLLOW, 8)
+# How go the preparations?\0
+  msg(EGBERT_D8, BOSER_17, EGBERT, NOFOLLOW, 9)
+# They are progressing smoothly. By the way, is it okay for you to go so long without resting?\0
+  unit.move(BOSER_17, 19, 7)
+  msg(BOSER_17, EGBERT_D8, BOSER, NOFOLLOW, 10)
+# Hah hah hah ... Who the hell do you think you're dealing with?\r\nA degree of magical power and focus will be required for the ritual ...\r\nBut these are simple things for me.\0
+  delay(30)
+  msg(EGBERT_D8, DOWN_F5, EGBERT, NOFOLLOW, 11)
+# Ah, you can trust your limits then.\0
+  screen.fadeout(5)
+  unit.retreat(EGBERT_D8)
+  unit.setbyte(EGBERT_D8, $20, 0x03)
+  unit.refresh()
+  unit.retreat(LIANA_CA)
+  unit.retreat(BOSER_17)
+  unit.setbyte(BOSER_17, $20, 0x03)
+  unit.refresh()
+  unit.swap(BOSER_17, KRAKEN_65)
+  unit.swap(EGBERT_D8, KRAKEN_66)
+  screen.map.set(19)
+  unit.hideall()
+  focus.point(1, 1, FAST)
+  cursor.show()
+  cursor.set(NULL_00)
+  bgm(ALLY, JESSICA)
+  unit.position(ERWIN_01, PRESET, PRESET)
+  screen.fadein(4)
+  unit.showsub(ERWIN_01)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.showsub(HEIN_05)
+  unit.position(CHERIE_04, PRESET, PRESET)
+  unit.showsub(CHERIE_04)
+  unit.position(KEITH_07, PRESET, PRESET)
+  unit.showsub(KEITH_07)
+  unit.position(LESTER_09, PRESET, PRESET)
+  unit.showsub(LESTER_09)
+  unit.position(AARON_08, PRESET, PRESET)
+  unit.showsub(AARON_08)
+  unit.position(SCOTT_06, PRESET, PRESET)
+  unit.showsub(SCOTT_06)
+  screen.fadein(4)
+  cursor.set(ERWIN_01)
+  msg(AARON_08, RIGHT_F7, AARON, FOLLOW, 12)
+# Hmmm, so this is Velzeria?\0
+  msg(SCOTT_06, ERWIN_01, SCOTT, FOLLOW, 13)
+# Let's hurry up and land.\0
+  bgm(ALLY, ENEMY7_DARKPRINCESS)
+  unit.position(SUCCUBUS_68, PRESET, PRESET)
+  unit.showsub(SUCCUBUS_68)
+  unit.position(SUCCUBUS_69, PRESET, PRESET)
+  unit.showsub(SUCCUBUS_69)
+  unit.position(MINOTAUR_63, PRESET, PRESET)
+  unit.showsub(MINOTAUR_63)
+  unit.position(MINOTAUR_64, PRESET, PRESET)
+  unit.showsub(MINOTAUR_64)
+  unit.position(MINOTAUR_9B, PRESET, PRESET)
+  unit.showsub(MINOTAUR_9B)
+  unit.position(PHOENIX_8C, PRESET, PRESET)
+  unit.showsub(PHOENIX_8C)
+  unit.position(DARKPRINCESS_15, PRESET, PRESET)
+  unit.showsub(DARKPRINCESS_15)
+  msg(DARKPRINCESS_15, ERWIN_01, DARKPRINCESS, FOLLOW, 14)
+# Of course. I had thought you'd be landing here.\0
+  msg(SUCCUBUS_68, DARKPRINCESS_15, SUCCUBUS_BLUE, FOLLOW, 15)
+# Alhazard's ritual of unsealing will soon begin.\r\nEvery one of our enemies must die here.\0
+  msg(DARKPRINCESS_15, SUCCUBUS_68, DARKPRINCESS, FOLLOW, 16)
+# I understand.\0
+  msg(DARKPRINCESS_15, LEFT_F6, DARKPRINCESS, FOLLOW, 17)
+# Now, massacre those whelps!\0
+  msg(LESTER_09, RIGHT_F7, LESTER, FOLLOW, 18)
+# We've become quite a problem, haven't we?\0
+  msg(CHERIE_04, RIGHT_F7, CHERIE, FOLLOW, 19)
+# Why is she in league with darkness?\r\nShe's human, isn't she? Doesn't she know what's good for her?\0
+  msg(ERWIN_01, CHERIE_04, ERWIN, FOLLOW, 20)
+# Yes, of course she's human ... She's Liana's older twin.\0
+  msg(KEITH_07, CHERIE_04, KEITH, FOLLOW, 21)
+# Her mind must be under Boser's control.\r\nThat's the only explanation ...\0
+  msg(HEIN_05, RIGHT_F7, HEIN, FOLLOW, 22)
+# Do your best not to injure Lana.\r\nThis will be hard enough for Liana.\r\nTo have one's only family as an enemy ...\0
+  msg(LESTER_09, HEIN_05, LESTER, FOLLOW, 23)
+# Hein, the battlefield's an unpredictable place. It's harsh and merciless.\r\nWe're trying to prevent the revival of Alhazard.\r\nIf we lose sight of that, we're at a disadvantage.\0
+  msg(HEIN_05, LESTER_09, HEIN, FOLLOW, 24)
+# Lester, I know how you feel.\r\nBut let's just try and do what we can for her!\0
+  msg(ERWIN_01, HEIN_05, ERWIN, FOLLOW, 25)
+# Leave those two to me, and go easy on Lana!\r\nOur team's not going to lose this one.\r\nIt might get ugly, but let's detain that "Dark Princess!"\0
+  msg(DARKPRINCESS_15, ERWIN_01, DARKPRINCESS, FOLLOW, 26)
+# Heh heh heh ...\r\nCome and get me. If you can.\0
+  local.sum($0a47d0, $07eb58)
+  local.sum($0a47d0, $07eb59)
+  local.sum($0a47d0, $07eb5a)
+  local.sum($0a47d0, $07eb5b)
+  local.sum($0a47d0, $07eb5c)
+  local.sum($0a47d0, $07eb5d)
+  local.sum($0a47d0, $07eb5e)
+  bgm(ALLY, ALLY3)
+break
+
+lbl_31b:
+  branch.unit.dead(lbl_32f, DARKPRINCESS_15)
+  msg(DARKPRINCESS_15, LEFT_F6, DARKPRINCESS, FOLLOW, 27)
+# Obliterate the Descendants of Light!\0
+  branch.unit.dead(lbl_32f, SUCCUBUS_68)
+  msg(SUCCUBUS_68, DARKPRINCESS_15, SUCCUBUS_BLUE, FOLLOW, 28)
+# Leave it to us.\r\nWe shall show the puny humans our power.\0
+lbl_32f:
+break
+
+lbl_331:
+  bgm(ALLY, ALLYREINFORCEMENT1)
+  local.sub($0a47d0, $07eb5a)
+break
+
+lbl_339:
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 29)
+# Lana's moving to complete the ceremony. Time's running out ...\0
+  branch.unit.dead(lbl_34f, CHERIE_04)
+  msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 30)
+# But where is the ceremony taking place?\r\nIf we don't know, we can't do anything.\0
+  msg(ERWIN_01, CHERIE_04, ERWIN, FOLLOW, 31)
+# That's Jessica's job.\r\nWe need to concentrate on breaking through.\0
+lbl_34f:
+  local.sub($0a47d0, $07eb59)
+break
+
+lbl_354:
+  subroutine(lbl_666)
+break
+
+lbl_359:
+  branch.unit.dead(lbl_363, FAIAS_78)
+  msg(FAIAS_78, LEFT_F6, VAMPIRELORD, FOLLOW, 32)
+# The ceremony is almost done.\r\nLet's retreat!\0
+lbl_363:
+  unit.retreat(SUCCUBUS_68)
+  unit.retreat(SUCCUBUS_69)
+  unit.retreat(MINOTAUR_63)
+  unit.retreat(MINOTAUR_64)
+  unit.retreat(GREATDRAGON_59)
+  unit.retreat(MINOTAUR_9B)
+  unit.retreat(PHOENIX_8C)
+  unit.retreat(KRAKEN_65)
+  unit.retreat(KRAKEN_66)
+  branch.unit.dead(lbl_37f, FAIAS_78)
+  msg(FAIAS_78, ERWIN_01, VAMPIRELORD, FOLLOW, 33)
+# Weaklings, you shall entertain me!\r\nFinally, the age of darkness has begun!\r\nGwa ha ha ha ...\0
+lbl_37f:
+  unit.retreat(FAIAS_78)
+  msg(JESSICA_14, ERWIN_01, JESSICA_SAD, NOFOLLOW, 34)
+# Ahh! This feeling of dread ...\r\nAlhazard's seal has been broken!\0
+  msg(ERWIN_01, DOWN_F5, ERWIN_SAD, FOLLOW, 35)
+# Wh, what does this mean!?\r\nWe couldn't stop the Dark Blade's revival!\0
+  gameover()
+break
+
+lbl_390:
+  subroutine(lbl_5f3)
+break
+
+lbl_395:
+  branch.unit.dead(lbl_3a5, DARKPRINCESS_15)
+  msg(ERWIN_01, DARKPRINCESS_15, ERWIN, FOLLOW, 36)
+# Stop it, Lana. Boser is already dead, isn't he?\r\nWhy are you following Egbert?\0
+  msg(DARKPRINCESS_15, LEFT_F6, DARKPRINCESS, FOLLOW, 37)
+# Don't talk to me like an old friend, trash.\r\nServing Lord Boser, the Prince of Darkness, suits me well.\r\nAnd that's all you need to know, ... because you're going to die here.\r\nThis is the last place you will ever stand.\0
+lbl_3a5:
+break
+
+lbl_3a7:
+  branch.unit.dead(lbl_3e5, FAIAS_78)
+  msg(FAIAS_78, ERWIN_01, VAMPIRELORD, FOLLOW, 38)
+# Heh heh heh ...\r\nHey there, my little redheaded punk. Come now, there is no need to be so angry.\r\nWe have shared so many wonderful memories together!\r\nRemember Doren? Remember him screaming like a little bitch bathed in his own blood?\r\nI hope you will scream for me the same way!\0
+  msg(ERWIN_01, FAIAS_78, ERWIN_ANGRY, FOLLOW, 39)
+# You son of a bitch ...\0
+  msg(FAIAS_78, ERWIN_01, VAMPIRELORD, FOLLOW, 40)
+# Gwa ha ha ha!\r\nYou despise me? You want to kill me?\r\nHate and anguish are my source of power!\r\nPunk, let's see if you still remember what that old husk taught!\r\nWryyyyyyyyyy!\0
+  branch.unit.dead(lbl_3e5, CHERIE_04)
+  msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 41)
+# _NAME_, don't give in to anger!\r\nIf you fight with rage and pain in your heart, you'll be no better than him!\0
+  msg(ERWIN_01, CHERIE_04, ERWIN_SAD, FOLLOW, 42)
+# I know. Thanks, Cherie ... Doren said that too.\r\n"No matter what happens, you mustn't lose sight of yourself ..."\0
+  msg(CHERIE_04, ERWIN_01, CHERIE_SAD, FOLLOW, 43)
+# _NAME_ ...\0
+  msg(ERWIN_01, CHERIE_04, ERWIN, FOLLOW, 44)
+# I'm all right, Cherie. Don't worry, okay?\r\nIf I lose my head, I'll have no chance of winning.\0
+  msg(FAIAS_78, ERWIN_01, VAMPIRELORD, FOLLOW, 45)
+# Hmmm ... You must be the leader, all right.\r\nYou don't seem as stupid as the rest.\0
+  msg(CHERIE_04, FAIAS_78, CHERIE_ANGRY, FOLLOW, 46)
+# What! You won't be talking so highly of yourself for long!\0
+lbl_3e5:
+  local.sub($0a47d0, $07eb5e)
+break
+
+lbl_3ea:
+  msg(ERWIN_01, FAIAS_78, ERWIN, FOLLOW, 47)
+# Well, the only one left is Faias. You're all alone.\r\nI'll avenge Doren's death!\0
+  msg(FAIAS_78, ERWIN_01, VAMPIRELORD, FOLLOW, 48)
+# Don't make me laugh!\r\nYou really think you can beat me!?\0
+break
+
+lbl_3f8:
+  unit.clearbit(MINOTAUR_63, $17, 0)
+  unit.clearbit(MINOTAUR_64, $17, 0)
+  unit.clearbit(SUCCUBUS_68, $17, 0)
+  unit.clearbit(SUCCUBUS_69, $17, 0)
+  local.sum($0a47d1, $07eb5c)
+  local.sub($0a47d0, $07eb5d)
+break
+
+lbl_410:
+  branch.mem.global.eq(lbl_429, $0a478b, $07eb5f)
+  unit.cleanup()
+  unit.statboost(56, 4)
+  prompt.ok(lbl_429)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 50)
+# MP raised by 4 points!\0
+  global.sum($0a478b, $07eb5f)
+lbl_429:
+break
+
+lbl_42b:
+  msg(ERWIN_01, RIGHT_F7, ERWIN, NOFOLLOW, 51)
+# Here ... Am I really going to die here?\0
+break
+
+lbl_433:
+  msg(FAIAS_78, ERWIN_01, VAMPIRELORD, FOLLOW, 52)
+# Very good ...\r\nBut your luck is about to run out!\0
+  msg(ERWIN_01, FAIAS_78, ERWIN_ANGRY, FOLLOW, 53)
+# You underestimate me.\0
+break
+
+lbl_441:
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 54)
+# Damn! Just as we were arriving in Velzeria ...\0
+  unit.cleanup()
+  gameover()
+break
+
+lbl_44b:
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 55)
+# Ugh! Sorry ... I wish I could keep fighting ...\0
+break
+
+lbl_453:
+  msg(CHERIE_04, RIGHT_F7, CHERIE, NOFOLLOW, 56)
+# Let's go!\0
+break
+
+lbl_45b:
+  msg(CHERIE_04, DOWN_F5, CHERIE_DEAD, FOLLOW, 57)
+# Argh! It doesn't ... hurt--!\0
+break
+
+lbl_463:
+  msg(AARON_08, DOWN_F5, AARON_DEAD, FOLLOW, 58)
+# That's it ... for me. That attack was really exhausting--\0
+break
+
+lbl_46b:
+  msg(KEITH_07, DOWN_F5, KEITH_DEAD, FOLLOW, 59)
+# Grrr! In this important time and place ...\r\nOw! I'm retreating ...!\0
+break
+
+lbl_473:
+  msg(LESTER_09, RIGHT_F7, LESTER, NOFOLLOW, 60)
+# I won't lose to some demon's bastard child!\0
+break
+
+lbl_47b:
+  msg(LESTER_09, DOWN_F5, LESTER_DEAD, FOLLOW, 61)
+# Damn it!\0
+break
+
+lbl_483:
+  msg(SCOTT_06, DOWN_F5, SCOTT_DEAD, FOLLOW, 62)
+# I've been negligent with my battle form ...\0
+break
+
+lbl_48b:
+  msg(JESSICA_14, DOWN_F5, JESSICA_DEAD, FOLLOW, 63)
+# Oh ... Alhazard's seal will be broken, however ...\0
+break
+
+lbl_493:
+  msg(DARKPRINCESS_15, ERWIN_01, DARKPRINCESS, FOLLOW, 64)
+# You really should have been stopped far earlier than this.\r\nI guess we haven't taken you seriously enough.\r\nBut, no matter. This time we'll fight for real.\r\nGo forth my servants!\0
+break
+
+lbl_49b:
+  msg(DARKPRINCESS_15, LEFT_F6, DARKPRINCESS, NOFOLLOW, 65)
+# Impressive! You possess such motivation.\r\nReally, I would expect nothing less from the Descendants of Light.\r\nHow sad that I must finish you!\0
+break
+
+lbl_4a3:
+  local.sum($0a47d3, $07eb5c)
+  msg(DARKPRINCESS_15, DOWN_F5, DARKPRINCESS_DEAD, FOLLOW, 66)
+# Impossible ... How could I lose to humans ...\0
+  subroutine(lbl_5f3)
+break
+
+lbl_4b1:
+  msg(MINOTAUR_63, DOWN_F5, MINOTAUR_A, FOLLOW, 67)
+# Ugghh ...\0
+break
+
+lbl_4b9:
+  msg(MINOTAUR_64, DOWN_F5, MINOTAUR_A, FOLLOW, 68)
+# Gaah--!\0
+break
+
+lbl_4c1:
+  msg(SUCCUBUS_68, LEFT_F6, SUCCUBUS_BLUE, NOFOLLOW, 69)
+# How dare a mortal oppose me!\0
+break
+
+lbl_4c9:
+  msg(SUCCUBUS_68, DOWN_F5, SUCCUBUS_BLUE, FOLLOW, 70)
+# Ughh--aaaah!\0
+break
+
+lbl_4d1:
+  msg(SUCCUBUS_69, RIGHT_F7, SUCCUBUS_BLUE, NOFOLLOW, 71)
+# Ahh, sleep peacefully on my bosom ...\0
+break
+
+lbl_4d9:
+  msg(SUCCUBUS_69, DOWN_F5, SUCCUBUS_BLUE, FOLLOW, 72)
+# How dare you ...\0
+break
+
+lbl_4e1:
+  msg(MINOTAUR_9B, DOWN_F5, MINOTAUR_A, FOLLOW, 73)
+# Argh!\0
+break
+
+lbl_4e9:
+  msg(KRAKEN_65, DOWN_F5, KRAKEN, FOLLOW, 74)
+# Ohhhh--!\0
+break
+
+lbl_4f1:
+  msg(KRAKEN_66, DOWN_F5, KRAKEN, FOLLOW, 75)
+# Oohhh ...\0
+break
+
+lbl_4f9:
+  msg(PHOENIX_8C, DOWN_F5, PHOENIX_RED, FOLLOW, 76)
+# Uggh--!\0
+break
+
+lbl_501:
+  msg(GREATDRAGON_59, RIGHT_F7, WYVERN, FOLLOW, 77)
+# Aaaahh ... Ah!\0
+break
+
+lbl_509:
+  msg(GREATDRAGON_59, DOWN_F5, WYVERN, FOLLOW, 78)
+# Gahh--arrghh!\0
+break
+
+lbl_511:
+  msg(FAIAS_78, ERWIN_01, VAMPIRELORD, FOLLOW, 79)
+# I have an old score to settle with you, Descendants of Light.\r\nEspecially the redheaded one.\0
+  msg(ERWIN_01, FAIAS_78, ERWIN, FOLLOW, 80)
+# What score could you possibly have with us? We have never met.\0
+  msg(FAIAS_78, ERWIN_01, VAMPIRELORD, FOLLOW, 81)
+# Ha ha ha! You ... really don't remember me?\r\nI had hoped my face would haunt your nightmares for all eternity.\r\nBoser ordered me to massacre the Descendants of Light.\r\nBut when I finally hunted you down, this crumpled old fool got in my way ...\0
+  msg(ERWIN_01, FAIAS_78, ERWIN_ANGRY, FOLLOW, 82)
+# An old ...!\r\nYou ... then it was you! You are the one who murdered Doren!\0
+  msg(FAIAS_78, ERWIN_01, VAMPIRELORD, FOLLOW, 83)
+# Doren ... Hmmm, Doren ...\r\nHeh heh ... Oh yes, that was his name, I believe.\r\nThat little bastard dealt me a scratch that aches even this day.\r\nBut he's dead, and you will soon rejoin him. Today, I will dance in your blood!\0
+  msg(ERWIN_01, FAIAS_78, ERWIN_ANGRY, FOLLOW, 84)
+# For years I wandered ... asking myself what I would do if I found his murderer.\r\nI will never forgive you. Prepare yourself!\0
+  msg(FAIAS_78, ERWIN_01, VAMPIRELORD, FOLLOW, 85)
+# Come and get me! Let's go, whelp!\0
+  local.sub($0a47d0, $07eb5b)
+break
+
+lbl_540:
+  msg(FAIAS_78, ERWIN_01, VAMPIRELORD, FOLLOW, 86)
+# I won't fail Boser!\r\nI'll wipe the Descendants' bloodline from this world.\0
+break
+
+lbl_548:
+  msg(FAIAS_78, LEFT_F6, VAMPIRELORD, NOFOLLOW, 87)
+# I'll send you to hell!\0
+break
+
+lbl_550:
+  msg(FAIAS_78, LEFT_F6, VAMPIRELORD, NOFOLLOW, 88)
+# Heh heh heh ... You flatter yourself!\r\nA mere human can't defeat those who channel the powers of darkness!\0
+break
+
+lbl_558:
+  msg(FAIAS_78, DOWN_F5, VAMPIRELORD, FOLLOW, 89)
+# Powerful indeed ...\r\nBut even with that level of skill, opposing Boser is suicide!\r\nA horrible death awaits you in Velzeria ...\r\nIf Alhazard is revived, summoning those with my power is simple.\r\nThough you've beaten me, raising a sword to Boser is equal to asking for death.\r\nSee you in hell! Fwa ha ha ha ... Gwa ha!\0
+  unit.cleanup()
+  branch.mem.local.ne(lbl_56c, $0a47d1, $07eb5f)
+  msg(ERWIN_01, FAIAS_78, ERWIN_SAD, FOLLOW, 90)
+# Doren ... I've avenged you. Rest in peace, my master ...\0
+  goto(lbl_572)
+lbl_56c:
+  msg(ERWIN_01, FAIAS_78, ERWIN_SAD, FOLLOW, 91)
+# By my own hand, I've avenged you ...\r\nI hope you can finally rest in peace, Doren ...\0
+lbl_572:
+  local.sum($0a47d5, $07eb5d)
+break
+
+lbl_577:
+  unit.cleanup()
+  msg(FAIAS_78, LEFT_F6, VAMPIRELORD, FOLLOW, 92)
+# Gwa ha ha ha... Cry, little boy!\0
+break
+
+lbl_580:
+  subroutine(lbl_5f3)
+break
+
+lbl_585:
+  unit.cleanup()
+  scenarioclear()
+  msg(ERWIN_01, DOWN_F5, ERWIN_SAD, FOLLOW, 93)
+# He was slain because I was a Descendant of Light ...\r\nDoren gave his life in exchange for mine ...\r\nEveryone close to me dies ... I ... I cannot protect anyone.\0
+  branch.unit.dead(lbl_597, CHERIE_04)
+  msg(CHERIE_04, ERWIN_01, CHERIE_SAD, FOLLOW, 94)
+# _NAME_ ...\0
+lbl_597:
+  branch.unit.dead(lbl_5ba, JESSICA_14)
+  msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 95)
+# _NAME_ ... You were destined to be born a Descendant of Light.\r\nBut the reason your allies fight beside you isn't because of your heritage.\r\nIt's because we believe in you.\0
+  branch.unit.dead(lbl_5ab, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 96)
+# Yeah, _NAME_!\0
+lbl_5ab:
+  msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 97)
+# What brought you this far wasn't just that ...\r\nIt's not just because you are a Descendant of Light, it's your personality and the choices you've made.\0
+  msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 98)
+# Yes ... It's still not too late.\r\nWe'll combine all our strength, prevent Alhazard's revival, and protect this world!\0
+  goto(lbl_5c0)
+lbl_5ba:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 99)
+# But we must stop the ceremony!\0
+lbl_5c0:
+  branch.mem.local.eq(lbl_5cd, $0a47d6, $07eb59)
+  bgm(ALLY, ALLYREINFORCEMENT1)
+  subroutine(lbl_666)
+  goto(lbl_5d7)
+lbl_5cd:
+  branch.unit.dead(lbl_5d7, JESSICA_14)
+  msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 100)
+# Let's hurry, _NAME_.\r\nIf Alhazard's power is restored, it will be too much for us to handle.\0
+lbl_5d7:
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 101)
+# Let's hurry. The ceremony to unseal Alhazard has begun.\r\nLet's go to the Temple of Darkness and defeat Egbert!\0
+  loadscenario(30)
+break
+
+lbl_5e1:
+  unit.cleanup()
+  branch.unit.dead(lbl_5ec, DARKPRINCESS_15)
+  msg(DARKPRINCESS_15, LEFT_F6, DARKPRINCESS, FOLLOW, 102)
+# Impossible ... Have my battalions have been destroyed?\r\nWhat terrible strength ... Was this destruction wrought by the Descendants of Light?\0
+lbl_5ec:
+break
+
+lbl_5ee:
+  local.sub($0a47d0, $07eb5c)
+break
+
+lbl_5f3:
+  branch.mem.local.eq(lbl_665, $0a47d6, $07eb5c)
+  bgm(ALLY, ALLY4)
+  bgm(ENEMY, ALLY4)
+  unit.deploy(FAIAS_78, 31, 10)
+  msg(FAIAS_78, DARKPRINCESS_15, VAMPIRELORD, FOLLOW, 103)
+# Dark Princess!\r\nEgbert has finished the preparations.\r\nPlease return to the Temple of Darkness.\0
+  branch.mem.local.ne(lbl_614, $0a47d3, $07eb5c)
+  msg(DARKPRINCESS_15, FAIAS_78, DARKPRINCESS_DEAD, FOLLOW, 104)
+# Yes, I understand. Until Alhazard is reborn, I cannot die ...\r\nI will live to witness the new age of darkness!\0
+  goto(lbl_61a)
+lbl_614:
+  msg(DARKPRINCESS_15, FAIAS_78, DARKPRINCESS, FOLLOW, 105)
+# Yes, I see. Alhazard's rebirth is very close now.\r\nFinally, the age of darkness is nigh!\0
+lbl_61a:
+  unit.retreat(DARKPRINCESS_15)
+  branch.unit.dead(lbl_626, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 106)
+# It seems the preparations for the ceremony are underway.\0
+lbl_626:
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 107)
+# There's no time. We must attack now! They must be stopped ...\r\nWe must prevent Alhazard's awakening!\0
+  msg(FAIAS_78, ERWIN_01, VAMPIRELORD, FOLLOW, 108)
+# You won't interfere with the revival of Alhazard.\r\nTo create our world of darkness, we shall protect Prince Boser and General Egbert!\0
+  msg(ERWIN_01, FAIAS_78, ERWIN, FOLLOW, 109)
+# It can't be helped. We must break through their lines.\0
+  msg(FAIAS_78, ERWIN_01, VAMPIRELORD, FOLLOW, 110)
+# Interesting ...\r\nThen I'll share the pain of this old wound with you, boy!\0
+  unit.deploy(KRAKEN_65, 3, 3)
+  unit.deploy(KRAKEN_66, 2, 30)
+  unit.deploy(GREATDRAGON_59, 31, 16)
+  msg(GREATDRAGON_59, LEFT_F6, WYVERN, FOLLOW, 111)
+# Arrggghhhh!\0
+  msg(FAIAS_78, GREATDRAGON_59, VAMPIRELORD, FOLLOW, 112)
+# Fwa ha ha.\r\nWe will burn the Descendants of Light to ashes!\0
+  msg(KRAKEN_65, FAIAS_78, KRAKEN, FOLLOW, 113)
+# Ooohhhhh--!\0
+  local.sum($0a47d6, $07eb5c)
+  local.sub($0a47d0, $07eb58)
+  bgm(ALLY, ALLY3)
+lbl_665:
+endsub
+
+lbl_666:
+  branch.mem.local.eq(lbl_69c, $0a47d6, $07eb59)
+  unit.deploy(JESSICA_14, 34, 30)
+  msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 114)
+# I'm sorry for being late.\r\nI found the Temple of Darkness, but I was forced to take the long route on my return.\0
+  msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 115)
+# You found it?\0
+  msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 116)
+# Yes. It's lies shortly north of here.\r\nThe awakening ritual is already underway.\0
+  branch.unit.dead(lbl_68d, HEIN_05)
+  msg(HEIN_05, JESSICA_14, HEIN, FOLLOW, 117)
+# Jessica! It seems that their ritual has begun!\r\nLana has gone to the Temple of Darkness.\0
+  goto(lbl_693)
+lbl_68d:
+  msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 118)
+# Jessica! It seems the preparations for the ceremony are over.\r\nLana has apparently gone to the Temple of Darkness ...\0
+lbl_693:
+  msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 119)
+# _NAME_, let's hurry! We must stop Alhazard's revival!\0
+  local.sum($0a47d6, $07eb59)
+lbl_69c:
+endsub
+
+lbl_69d:
+  unit.cleanup()
+  msg(ERWIN_01, FAIAS_78, ERWIN, FOLLOW, 120)
+# Faias! You can't escape me! Ready yourself!\0
+  msg(FAIAS_78, ERWIN_01, VAMPIRELORD, FOLLOW, 121)
+# How absurd.\r\nI'll make you bleed just like that worthless old man!\r\nWryyyyyyyyyy!\0
+break
+

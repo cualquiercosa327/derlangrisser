@@ -364,7 +364,7 @@ for($i = 0; $i < count($events); $i++) {
         fputs($fo, "  branch.unit.alive($t_goto, $t_unit)\n");
         break;
       
-      // branch.ne.local(goto, address1, address2)
+      // branch.mem.local.ne(goto, address1, address2)
       // uint_8[0x0a] uint_8[value] uint_16[goto]
       // If local memory address1 and address2 are not equal, goto label
       case 0x06:
@@ -373,10 +373,10 @@ for($i = 0; $i < count($events); $i++) {
         $t_lower = memstr(0x7eb58 + $t_lower);
         $t_goto = fgetw($fd); $pointers[] = $t_goto;
         $t_goto = "lbl_" . dechex($t_goto);
-        fputs($fo, "  branch.ne.global($t_goto, $t_upper, $t_lower)\n");
+        fputs($fo, "  branch.mem.local.ne($t_goto, $t_upper, $t_lower)\n");
         break;
       
-      // branch.eq.local(goto, address1, address2)
+      // branch.mem.local.eq(goto, address1, address2)
       // uint_8[0x0a] uint_8[value] uint_16[goto]
       // If local memory address1 and address2 are equal, goto label
       case 0x07:
@@ -385,7 +385,7 @@ for($i = 0; $i < count($events); $i++) {
         $t_lower = memstr(0x7eb58 + $t_lower);
         $t_goto = fgetw($fd); $pointers[] = $t_goto;
         $t_goto = "lbl_" . dechex($t_goto);
-        fputs($fo, "  branch.eq.global($t_goto, $t_upper, $t_lower)\n");
+        fputs($fo, "  branch.mem.local.eq($t_goto, $t_upper, $t_lower)\n");
         break;
       
       // local.sum(target, variable)
@@ -408,7 +408,7 @@ for($i = 0; $i < count($events); $i++) {
           fputs($fo, "  local.math(UNHANDLED EVAL: $t_action)");
         break;
       
-      // branch.ne.global(goto, address1, address2)
+      // branch.mem.global.ne(goto, address1, address2)
       // uint_8[0x0a] uint_8[value] uint_16[goto]
       // If global memory address1 and address2 are not equal, goto label
       case 0x09:
@@ -417,10 +417,10 @@ for($i = 0; $i < count($events); $i++) {
         $t_lower = memstr(0x7eb58 + $t_lower);
         $t_goto = fgetw($fd); $pointers[] = $t_goto;
         $t_goto = "lbl_" . dechex($t_goto);
-        fputs($fo, "  branch.ne.global($t_goto, $t_upper, $t_lower)\n");
+        fputs($fo, "  branch.mem.global.ne($t_goto, $t_upper, $t_lower)\n");
         break;
       
-      // branch.eq.global(goto, address1, address2)
+      // branch.mem.global.eq(goto, address1, address2)
       // uint_8[0x0a] uint_8[value] uint_16[goto]
       // If global memory address1 and address2 are equal, goto label
       case 0x0a:
@@ -429,7 +429,7 @@ for($i = 0; $i < count($events); $i++) {
         $t_lower = memstr(0x7eb58 + $t_lower);
         $t_goto = fgetw($fd); $pointers[] = $t_goto;
         $t_goto = "lbl_" . dechex($t_goto);
-        fputs($fo, "  branch.eq.global($t_goto, $t_upper, $t_lower)\n");
+        fputs($fo, "  branch.mem.global.eq($t_goto, $t_upper, $t_lower)\n");
         break;
       
       // global.sum(target, variable)
@@ -576,6 +576,21 @@ for($i = 0; $i < count($events); $i++) {
         fputs($fo, "  unit.showsub($t_unit)\n");
         break;
       
+      // screen.map.unlock(x1, y1, x2, y2)
+      // uint_8[0x1f] uint_8[x1] uint_8[y1] uint_8[x2] uint_8[y2]
+      // Unlock map area bounded by (x1, y1) and (x2, y2)
+      case 0x1f:
+        $t_x1 = fgetb($fd);
+        $t_y1 = fgetb($fd);
+        if($t_x1 == 255) $t_x1 = "PRESET";
+        if($t_y1 == 255) $t_y1 = "PRESET";
+        $t_x2 = fgetb($fd);
+        $t_y2 = fgetb($fd);
+        if($t_x2 == 255) $t_x2 = "PRESET";
+        if($t_y2 == 255) $t_y2 = "PRESET";
+        fputs($fo, "  screen.map.unlock($t_x1, $t_y1, $t_x2, $t_y2)\n");
+        break;
+      
       // randomize.holyrod(pos1, pos2, pos3, pos4)
       // uint_8[0x20] uint_8[pos1] uint_8[pos2] uint_8[pos3] uint_8[pos4]
       // Randomly place the Holy Rod in pos1, pos2, pos3, or pos4
@@ -691,6 +706,66 @@ for($i = 0; $i < count($events); $i++) {
         fputs($fo, "  unit.refresh()\n");
         break;
       
+      // branch.unit.sex(goto, sex)
+      // uint_8[0x29] uint_8[sex] uint_16[goto]
+      // If unit's sex equals sex, goto label
+      case 0x29:
+        $t_sex = fgetb($fd);
+        $t_goto = fgetw($fd); $pointers[] = $t_goto;
+        $t_goto = "lbl_" . dechex($t_goto);
+        fputs($fo, "  branch.unit.sex($t_goto, $t_sex)\n");
+        break;
+      
+      // branch.equipped(goto, team, item, x1, y1, x2, y2)
+      // uint_8[0x2a] uint_8[item] uint_8[team] uint[x1] uint[y1] uint[x2] uint[y2] uint_16[goto]
+      // If a unit on team equipped with item enters the area between
+      // coordinates (x1, y1) and (x2, y2), goto label
+      case 0x2a:
+        $t_item = $ar_item[fgetb($fd)];
+        $t_team = $ar_team[fgetb($fd)];
+        $t_x1 = fgetb($fd);
+        $t_y1 = fgetb($fd);
+        if($t_x1 == 255) $t_x1 = "PRESET";
+        if($t_y1 == 255) $t_y1 = "PRESET";
+        $t_x2 = fgetb($fd);
+        $t_y2 = fgetb($fd);
+        if($t_x2 == 255) $t_x2 = "PRESET";
+        if($t_y2 == 255) $t_y2 = "PRESET";
+        $t_goto = fgetw($fd); $pointers[] = $t_goto;
+        $t_goto = "lbl_" . dechex($t_goto);
+        fputs($fo, "  branch.equipped($t_goto, $t_team, $t_item, $t_x1, $t_y1, $t_x2, $t_y2)\n");
+        break;
+      
+      // branch.unit.ne(goto, unit, unk1)
+      // uint_8[0x2b] uint_8[unk1] uint_8[unit] uint_16[goto]
+      // If not unit, goto label
+      case 0x2b:
+        $t_unk1 = hexstr(fgetb($fd));
+        $t_unit = $ar_unit[fgetb($fd)];
+        $t_goto = fgetw($fd); $pointers[] = $t_goto;
+        $t_goto = "lbl_" . dechex($t_goto);
+        fputs($fo, "  branch.unit.ne($t_goto, $t_unit, $t_unk1)\n");
+        break;
+      
+      // branch.unit.attrib.ne(goto, unit, attribute, value)
+      // uint_8[0x2c] uint_8[unit] uint_8[attribute] uint_8[value] uint_16[goto]
+      // If unit attribute does not equal value, goto label
+      case 0x2c:
+        $t_unit = $ar_unit[fgetb($fd)];
+        $t_attribute = fgetb($fd);
+        $t_value = fgetb($fd);
+        $t_goto = fgetw($fd); $pointers[] = $t_goto;
+        $t_goto = "lbl_" . dechex($t_goto);
+        fputs($fo, "  branch.unit.attrib.eq($t_goto, $t_unit, $t_attribute, $t_value)\n");
+        break;
+      
+      // holyrodlost()
+      // uint_8[0x2d]
+      // Trigger Holy Rod Lost event
+      case 0x2d:
+        fputs($fo, "  holyrodlost()\n");
+        break;
+      
       // unit.swap(unit1, unit2)
       // uint_8[0x2e] uint_8[unit1] uint_8[unit2]
       // Swaps unit1 with unit2; mainly used to replace an NPC or Enemy that
@@ -706,6 +781,13 @@ for($i = 0; $i < count($events); $i++) {
       // Collapse the bridge in Scenario 8
       case 0x2f:
         fputs($fo, "  breakbridge()\n");
+        break;
+      
+      // unseal.langrisser()
+      // uint_8[0x31]
+      // Turns Langrisser item into True Langrisser
+      case 0x31:
+        fputs($fo, "  unseal.langrisser()\n");
         break;
       
       // screen.fadeout(time)
@@ -831,12 +913,12 @@ for($i = 0; $i < count($events); $i++) {
         fputs($fo, "# " . sctxt($ar_talk[$t_line3 - 1]) . "\\0\n");
         break;
       
-      // screen.map(map)
+      // screen.map.set(map)
       // uint_8[0x47] uint_8[map]
       // Replace current map set with map
       case 0x47:
         $t_map = fgetb($fd);
-        fputs($fo, "  screen.map($t_map)\n");
+        fputs($fo, "  screen.map.set($t_map)\n");
         break;
       
       // money.add(money)

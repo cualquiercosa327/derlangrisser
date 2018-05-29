@@ -210,7 +210,7 @@ lbl_2ed:
 break
 
 lbl_2ef:
-  branch.eq.global(lbl_2f9, $0a47d1, $07eb59)
+  branch.mem.local.eq(lbl_2f9, $0a47d1, $07eb59)
   subroutine(lbl_6bb)
   local.sum($0a47d1, $07eb59)
 lbl_2f9:
@@ -218,7 +218,7 @@ break
 
 lbl_2fb:
   unit.cleanup()
-  branch.eq.global(lbl_306, $0a47d1, $07eb5b)
+  branch.mem.local.eq(lbl_306, $0a47d1, $07eb5b)
   subroutine(lbl_6e4)
   local.sum($0a47d1, $07eb5b)
 lbl_306:
@@ -274,7 +274,7 @@ lbl_35a:
 break
 
 lbl_36c:
-  branch.eq.global(lbl_38a, $0a4788, $07eb58)
+  branch.mem.global.eq(lbl_38a, $0a4788, $07eb58)
   unit.cleanup()
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 45)
 # In a clearing in the woods, you find small footprints ...\r\nOne set of foot prints leads towards a small hole.\0
@@ -538,7 +538,7 @@ lbl_593:
 break
 
 lbl_59b:
-  branch.eq.global(lbl_5a5, $0a47d1, $07eb58)
+  branch.mem.local.eq(lbl_5a5, $0a47d1, $07eb58)
   subroutine(lbl_6bb)
   local.sum($0a47d1, $07eb58)
 lbl_5a5:
@@ -546,7 +546,7 @@ break
 
 lbl_5a7:
   unit.cleanup()
-  branch.eq.global(lbl_5b2, $0a47d1, $07eb5a)
+  branch.mem.local.eq(lbl_5b2, $0a47d1, $07eb5a)
   subroutine(lbl_6e4)
   local.sum($0a47d1, $07eb5a)
 lbl_5b2:
@@ -708,7 +708,7 @@ lbl_741:
   unit.cleanup()
   scenarioclear()
   branch.unit.dead(lbl_794, ROHGA_0B)
-  branch.ne.global(lbl_754, $0a47d1, $07eb5d)
+  branch.mem.local.ne(lbl_754, $0a47d1, $07eb5d)
   msg(ROHGA_0B, RIGHT_F7, ROHGA_ANGRY, FOLLOW, 141)
 # Halt, stranger! What is your business here ...?\r\nToo late ... he's already left.\0
   goto(lbl_75a)
@@ -780,7 +780,7 @@ lbl_7f3:
 # At any rate, let's hurry! More Imperial reinforcements may come at any time.\0
 lbl_805:
   branch.unit.dead(lbl_83d, LOREN_2B)
-  branch.eq.global(lbl_831, $0a4791, $07eb5f)
+  branch.mem.global.eq(lbl_831, $0a4791, $07eb5f)
   msg(LOREN_2B, ERWIN_01, LOREN, FOLLOW, 166)
 # Wait. I have something for you before you depart. Take this sword.\0
   focus.unit(ERWIN_01)

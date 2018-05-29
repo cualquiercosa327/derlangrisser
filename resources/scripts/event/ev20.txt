@@ -175,8 +175,8 @@ lbl_248:
 break
 
 lbl_250:
-  branch.eq.global(lbl_272, $0a47d0, $07eb5e)
-  branch.eq.global(lbl_25b, $0a47d0, $07eb5d)
+  branch.mem.local.eq(lbl_272, $0a47d0, $07eb5e)
+  branch.mem.local.eq(lbl_25b, $0a47d0, $07eb5d)
   bgm(ENEMY, ALLY4)
 lbl_25b:
   unit.deploy(IMPERIALCOMMANDER_37, 13, 44)
@@ -198,7 +198,7 @@ lbl_279:
 break
 
 lbl_27e:
-  branch.eq.global(lbl_29a, $0a478a, $07eb5f)
+  branch.mem.global.eq(lbl_29a, $0a478a, $07eb5f)
   unit.cleanup()
   prompt.ok(lbl_29a)
   unit.statboost(11, 10)
@@ -210,7 +210,7 @@ lbl_29a:
 break
 
 lbl_29c:
-  branch.eq.global(lbl_2b8, $0a478a, $07eb5f)
+  branch.mem.global.eq(lbl_2b8, $0a478a, $07eb5f)
   unit.cleanup()
   prompt.ok(lbl_2b8)
   unit.statboost(11, 10)

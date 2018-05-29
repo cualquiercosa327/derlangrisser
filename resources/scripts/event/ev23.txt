@@ -230,7 +230,7 @@ lbl_2b5:
 break
 
 lbl_2d3:
-  branch.eq.global(lbl_2eb, $0a478c, $07eb58)
+  branch.mem.global.eq(lbl_2eb, $0a478c, $07eb58)
   unit.cleanup()
   prompt.ok(lbl_2eb)
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 34)
@@ -241,7 +241,7 @@ lbl_2eb:
 break
 
 lbl_2ed:
-  branch.eq.global(lbl_305, $0a478c, $07eb58)
+  branch.mem.global.eq(lbl_305, $0a478c, $07eb58)
   unit.cleanup()
   prompt.ok(lbl_305)
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 36)
@@ -393,7 +393,7 @@ lbl_3f3:
   scenarioclear()
   msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 64)
 # We managed to save Lana and Liana ...\r\nBut we let him revive Alhazard ...\0
-  branch.eq.global(lbl_406, $0a4793, $07eb5b)
+  branch.mem.global.eq(lbl_406, $0a4793, $07eb5b)
   unit.expboost(LIANA_02, 150)
   global.sum($0a4793, $07eb5b)
 lbl_406:
@@ -491,7 +491,7 @@ lbl_4e1:
 lbl_4fd:
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 95)
 # Lana joins the entourage!\0
-  branch.eq.global(lbl_50e, $0a4793, $07eb5c)
+  branch.mem.global.eq(lbl_50e, $0a4793, $07eb5c)
   unit.expboost(LANA_03, 580)
   global.sum($0a4793, $07eb5c)
 lbl_50e:

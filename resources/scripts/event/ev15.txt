@@ -296,7 +296,7 @@ lbl_389:
 break
 
 lbl_395:
-  branch.eq.global(lbl_3d0, $0a478a, $07eb5c)
+  branch.mem.global.eq(lbl_3d0, $0a478a, $07eb5c)
   unit.cleanup()
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 50)
 # You notice a small sapling within a group of four trees.\r\nHidden beneath the sapling you spot a little sprite ...\r\nWhat will you do to it?\0
@@ -401,7 +401,7 @@ lbl_43f:
 break
 
 lbl_46c:
-  branch.ne.global(lbl_479, $0a47d3, $07eb5d)
+  branch.mem.local.ne(lbl_479, $0a47d3, $07eb5d)
   msg(KRAMER_1D, LEFT_F6, KNIGHT2_GREEN, FOLLOW, 71)
 # Just a bit more ... Just a little more time and they'll be ours!\r\nI can do it by myself if I have to!\0
   goto(lbl_47f)
@@ -420,7 +420,7 @@ lbl_486:
 break
 
 lbl_48b:
-  branch.ne.global(lbl_498, $0a47d3, $07eb5d)
+  branch.mem.local.ne(lbl_498, $0a47d3, $07eb5d)
   msg(KRAMER_1D, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 73)
 # Ugh ... The operation failed ...\r\nI must report to General Imelda ... All troops, retreat!\0
   goto(lbl_49e)
@@ -492,7 +492,7 @@ lbl_500:
 # ... That's enough, let's hurry.\0
   global.sum($0a4788, $07eb5d)
 lbl_543:
-  branch.ne.global(lbl_581, $0a4792, $07eb5f)
+  branch.mem.global.ne(lbl_581, $0a4792, $07eb5f)
   msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 90)
 # Hmmm, I just remembered, I saw a cave by the cliff. What should we do ...?\0
   prompt.ok(lbl_578)

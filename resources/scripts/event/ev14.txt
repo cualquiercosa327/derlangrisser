@@ -494,7 +494,7 @@ break
 # Sonya! What the hell was that?\r\nGentle Sonya couldn't do this!\r\nWhy ...? Damn!\0
 lbl_514:
   branch.unit.dead(lbl_575, LEON_D5)
-  branch.eq.global(lbl_53a, $0a47d5, $07eb58)
+  branch.mem.local.eq(lbl_53a, $0a47d5, $07eb58)
   msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 103)
 # Excellent work, _NAME_. Though you're an enemy, I commend you.\0
   msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 104)
@@ -514,8 +514,8 @@ lbl_53a:
 # Why would a man like you, a man who hates these empty, pointless wars, join the army?\r\nYou know that war only brings sadness, don't you?\0
   msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 111)
 # I can't stand it. Seeing women and children sacrificed on the battlefield ...\r\nSomeone has to take action to rid the world of war. If you hope for peace from the sidelines, it will never come.\r\nThe only way war will ever end is when the continent is unified under one man ... Even through bloody conquest.\r\nSurely it might not be called true peace ... But it must be better than this war-torn age.\0
-  branch.ne.global(lbl_572, $0a4788, $07eb5b)
-  branch.ne.global(lbl_572, $0a4789, $07eb5b)
+  branch.mem.global.ne(lbl_572, $0a4788, $07eb5b)
+  branch.mem.global.ne(lbl_572, $0a4789, $07eb5b)
   msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 112)
 # I'm not saying that you're wrong, ... but it's not so simple.\r\nI don't think there's such a thing as good or evil in war.\0
   msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 113)
@@ -618,7 +618,7 @@ lbl_65e:
   msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 140)
 # Good idea ...\0
 lbl_66a:
-  branch.eq.global(lbl_6f0, $0a4792, $07eb5c)
+  branch.mem.global.eq(lbl_6f0, $0a4792, $07eb5c)
   msg(LEON_D5, UP_F4, LEON, FOLLOW, 141)
 # It must be this village ...\0
   focus.point(57, 4, SLOW)
@@ -733,7 +733,7 @@ endsub
 
 lbl_785:
   branch.units.dead(lbl_7a3, VILLAGER_25, VILLAGER_26)
-  branch.eq.global(lbl_7a3, $0a4792, $07eb5d)
+  branch.mem.global.eq(lbl_7a3, $0a4792, $07eb5d)
   msg(VILLAGER_25, ERWIN_01, VILLAGER_YELLOW, FOLLOW, 160)
 # You've helped us, and we must thank you somehow. Please, take this.\0
   money.add(300)
@@ -745,7 +745,7 @@ endsub
 
 lbl_7a4:
   unit.cleanup()
-  branch.eq.global(lbl_841, $0a47d5, $07eb59)
+  branch.mem.local.eq(lbl_841, $0a47d5, $07eb59)
   bgm(ALLY, ENEMY1_LEON)
   unit.swap(LEON_0D, LEON_D5)
   unit.deploy(LEON_D5, 56, 21)
@@ -774,7 +774,7 @@ lbl_7d0:
   msg(LEON_D5, SONYA_D4, LEON, FOLLOW, 170)
 # Troublesome girl ...\0
 lbl_7f8:
-  branch.eq.global(lbl_817, $0a47d5, $07eb5a)
+  branch.mem.local.eq(lbl_817, $0a47d5, $07eb5a)
   msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 171)
 # General Leon, this is in our favour.\r\nLet's avenge our last conflict by helping the girl of the demon tribe!\0
   msg(LEON_D5, LAIRD_18, LEON, FOLLOW, 172)
@@ -846,7 +846,7 @@ endsub
 
 lbl_8a1:
   unit.cleanup()
-  branch.eq.global(lbl_8fa, $0a47d2, $07eb58)
+  branch.mem.local.eq(lbl_8fa, $0a47d2, $07eb58)
   msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 183)
 # Stop it, Sonya!\0
   msg(SONYA_D4, ROHGA_0B, SONYA, FOLLOW, 184)
@@ -883,9 +883,9 @@ lbl_8fa:
 # Stop commanding me, brother. I've heard enough!\0
 lbl_906:
   local.sum($0a47d1, $07eb58)
-  branch.ne.global(lbl_92a, $0a47d5, $07eb5c)
-  branch.ne.global(lbl_921, $0a47d0, $07eb5e)
-  branch.ne.global(lbl_91e, $0a47d5, $07eb5d)
+  branch.mem.local.ne(lbl_92a, $0a47d5, $07eb5c)
+  branch.mem.local.ne(lbl_921, $0a47d0, $07eb5e)
+  branch.mem.local.ne(lbl_91e, $0a47d5, $07eb5d)
   local.sum($0a47d5, $07eb5a)
   subroutine(lbl_7a4)
   subroutine(lbl_508)
@@ -914,7 +914,7 @@ break
 
 lbl_944:
   branch.unit.alive(lbl_94f, SONYA_D4)
-  branch.eq.global(lbl_94f, $0a47d0, $07eb5e)
+  branch.mem.local.eq(lbl_94f, $0a47d0, $07eb5e)
   subroutine(lbl_930)
 lbl_94f:
 break

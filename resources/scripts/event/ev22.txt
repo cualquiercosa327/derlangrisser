@@ -60,7 +60,7 @@ break
 
 # Core Events
 lbl_154:
-  screen.map(20)
+  screen.map.set(20)
   bgm(ALLY, ENEMY5_EGBERT)
   unit.hideall()
   cursor.set(ERWIN_01)
@@ -108,7 +108,7 @@ lbl_154:
   unit.setbyte(EGBERT_D8, $20, 0x03)
   unit.refresh()
   bgm(ALLY, )
-  screen.map(19)
+  screen.map.set(19)
   cursor.show()
   cursor.set(ERWIN_01)
   focus.point(18, 18, SLOW)
@@ -294,7 +294,7 @@ lbl_392:
 break
 
 lbl_3a2:
-  branch.eq.global(lbl_3bb, $0a478b, $07eb5f)
+  branch.mem.global.eq(lbl_3bb, $0a478b, $07eb5f)
   unit.cleanup()
   prompt.ok(lbl_3bb)
   unit.statboost(56, 4)
@@ -472,7 +472,7 @@ lbl_4da:
   msg(FAIAS_78, DOWN_F5, VAMPIRELORD, FOLLOW, 83)
 # Powerful indeed ...\r\nBut even with that level of skill, opposing Bernhardt is suicide!\r\nA horrible death awaits you in Velzeria ...\r\nIf Alhazard is revived, summoning those with my power is simple.\r\nThough you've beaten me, raising a sword to Bernhardt is equal to asking for death.\r\nSee you in hell! Fwa ha ha ha ... Gwa ha!\0
   unit.cleanup()
-  branch.ne.global(lbl_4ee, $0a47d1, $07eb5f)
+  branch.mem.local.ne(lbl_4ee, $0a47d1, $07eb5f)
   msg(ERWIN_01, FAIAS_78, ERWIN_SAD, FOLLOW, 84)
 # Doren ... I've avenged you. Rest in peace, my master ...\0
   goto(lbl_4f4)
@@ -519,7 +519,7 @@ lbl_53d:
   msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 93)
 # But we must stop the ceremony!\0
 lbl_543:
-  branch.eq.global(lbl_550, $0a47d5, $07eb5e)
+  branch.mem.local.eq(lbl_550, $0a47d5, $07eb5e)
   bgm(ALLY, ALLYREINFORCEMENT1)
   subroutine(lbl_5e4)
   goto(lbl_55a)
@@ -542,13 +542,13 @@ lbl_56f:
 break
 
 lbl_571:
-  branch.eq.global(lbl_5e3, $0a47d6, $07eb58)
+  branch.mem.local.eq(lbl_5e3, $0a47d6, $07eb58)
   bgm(ALLY, ALLY4)
   bgm(ENEMY, ALLY4)
   unit.deploy(FAIAS_78, 31, 10)
   msg(FAIAS_78, DARKPRINCESS_15, VAMPIRELORD, FOLLOW, 97)
 # Dark Princess!\r\nEgbert has finished the preparations.\r\nPlease return to the Temple of Darkness.\0
-  branch.ne.global(lbl_592, $0a47d3, $07eb5c)
+  branch.mem.local.ne(lbl_592, $0a47d3, $07eb5c)
   msg(DARKPRINCESS_15, FAIAS_78, DARKPRINCESS_DEAD, FOLLOW, 98)
 # Yes, I understand. Until Alhazard is reborn, I cannot die ...\r\nI will live to witness the new age of darkness!\0
   goto(lbl_598)
@@ -585,7 +585,7 @@ lbl_5e3:
 endsub
 
 lbl_5e4:
-  branch.eq.global(lbl_61a, $0a47d5, $07eb5e)
+  branch.mem.local.eq(lbl_61a, $0a47d5, $07eb5e)
   unit.deploy(JESSICA_14, 34, 30)
   msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 108)
 # I'm sorry for being late.\r\nI found the Temple of Darkness, but I was forced to take the long route on my return.\0

@@ -1,0 +1,59 @@
+# Movement-Triggered Events
+on.move(11, lbl_364, VILLAGER_25, 1, 0xff)
+on.move(1, lbl_3b5, IMELDA_D7, 0, 0xff)
+on.move(21, lbl_480, IMPERIALCOMMANDER_30, 1, 0xff)
+on.move(25, lbl_4b6, IMPERIALCOMMANDER_32, 2, 0xff)
+break
+
+# Attack-Triggered Events
+on.attack(12, lbl_378, NULL_FF, VILLAGER_25, 0xff, 0x00, 0xff)
+on.attack(14, lbl_38b, NULL_FF, VILLAGER_26, 0xff, 0x00, 0xff)
+on.attack(16, lbl_39e, NULL_FF, VILLAGER_27, 0xff, 0x00, 0xff)
+on.attack(18, lbl_3bd, IMELDA_D7, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(19, lbl_3c5, NULL_FF, IMELDA_D7, 0xff, 0x00, 0xff)
+on.attack(22, lbl_48e, NULL_FF, IMPERIALCOMMANDER_30, 0xff, 0x00, 0xff)
+on.attack(22, lbl_496, NULL_FF, IMPERIALCOMMANDER_32, 0xff, 0x00, 0xff)
+on.attack(22, lbl_49e, NULL_FF, IMPERIALCOMMANDER_33, 0xff, 0x00, 0xff)
+on.attack(26, lbl_4be, IMPERIALCOMMANDER_32, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(28, lbl_4ce, IMPERIALCOMMANDER_33, NULL_FF, 0x00, 0xff, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(4, lbl_32a, ERWIN_01)
+on.defeat(5, lbl_334, HEIN_05)
+on.defeat(6, lbl_33c, CHERIE_04)
+on.defeat(7, lbl_344, KEITH_07)
+on.defeat(8, lbl_34c, LESTER_09)
+on.defeat(9, lbl_354, AARON_08)
+on.defeat(10, lbl_35c, SCOTT_06)
+on.defeat(13, lbl_383, VILLAGER_25)
+on.defeat(15, lbl_396, VILLAGER_26)
+on.defeat(17, lbl_3a9, VILLAGER_27)
+on.defeat(20, lbl_3cd, IMELDA_D7)
+on.defeat(23, lbl_4a6, IMPERIALCOMMANDER_30)
+on.defeat(24, lbl_4ae, IMPERIALCOMMANDER_31)
+on.defeat(27, lbl_4c6, IMPERIALCOMMANDER_32)
+on.defeat(29, lbl_4d6, IMPERIALCOMMANDER_33)
+on.defeat(30, lbl_4de, IMPERIALCOMMANDER_34)
+on.defeat(31, lbl_4e6, IMPERIALCOMMANDER_35)
+on.defeat(32, lbl_4ee, IMPERIALCOMMANDER_36)
+on.defeat(33, lbl_4f6, IMPERIALCOMMANDER_37)
+on.damage(34, lbl_501, NULL_FF, IMPERIALCOMMANDER_37, 0xff, 0x00)
+on.defeat(35, lbl_50a, IMPERIALCOMMANDER_38)
+on.defeat(36, lbl_512, VILLAGER_25, VILLAGER_26, VILLAGER_27)
+on.defeat(37, lbl_522, IMPERIALCOMMANDER_34, IMPERIALCOMMANDER_35, IMPERIALCOMMANDER_36, IMPERIALCOMMANDER_37, IMPERIALCOMMANDER_38)
+on.defeat(38, lbl_53a, IMPERIALCOMMANDER_30, IMPERIALCOMMANDER_31, IMPERIALCOMMANDER_32, IMPERIALCOMMANDER_33, IMPERIALCOMMANDER_34, IMPERIALCOMMANDER_35, IMPERIALCOMMANDER_36, IMPERIALCOMMANDER_37, IMPERIALCOMMANDER_38)
+break
+
+# Position-Triggered Events
+on.bound(3, lbl_30a, NPC_COMMANDER_F0, 28, 12, 28, 12, 0x00, 0x00)
+break
+
+# Turn-Triggered Events
+on.turn(2, lbl_2d2, ENEMY, 1, 0x00)
+on.turn(0, lbl_2da, ENEMY, 0, 0x00)
+break
+
+# Core Events
+lbl_136:
+  screen.map.set(12)

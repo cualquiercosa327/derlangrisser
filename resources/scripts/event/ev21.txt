@@ -59,7 +59,7 @@ break
 lbl_13a:
   bgm(ALLY, NIGHT)
   cursor.set(NULL_00)
-  screen.map(21)
+  screen.map.set(21)
   unit.position(LIANA_CA, 5, 2)
   unit.position(IMPERIALCOMMANDER_30, 7, 8)
   unit.face(LIANA_CA, LEFT_F6)
@@ -140,7 +140,7 @@ lbl_13a:
   screen.fadeout(4)
   unit.setbyte(LIANA_CA, $20, 0x03)
   unit.refresh()
-  screen.map(17)
+  screen.map.set(17)
   cursor.show()
   bgm(ALLY, )
   unit.hideall()
@@ -222,7 +222,7 @@ lbl_305:
 # How are the preparations? How close are you?\0
   msg(IMPERIALSOLDIER_77, IMELDA_D7, SOLDIER2_GREEN, NOFOLLOW, 30)
 # We've just finished loading our weapon stocks.\0
-  branch.ne.global(lbl_31e, $0a47d0, $07eb5b)
+  branch.mem.local.ne(lbl_31e, $0a47d0, $07eb5b)
   msg(IMELDA_D7, LEFT_F6, IMELDA, FOLLOW, 31)
 # That's it!? Hurry with the rest!\0
   goto(lbl_327)
@@ -245,7 +245,7 @@ lbl_329:
 break
 
 lbl_343:
-  branch.eq.global(lbl_350, $0a47d0, $07eb5b)
+  branch.mem.local.eq(lbl_350, $0a47d0, $07eb5b)
   msg(IMELDA_D7, LEFT_F6, IMELDA, FOLLOW, 37)
 # Tell me about the battle. Report, now!\0
   subroutine(lbl_596)
@@ -257,7 +257,7 @@ lbl_352:
 # You're still not done!?\r\nHow ... You must be the world's most incompetent crew!\0
   msg(IMPERIALSOLDIER_77, IMELDA_D7, SOLDIER2_GREEN, NOFOLLOW, 39)
 # There's no time!\0
-  branch.eq.global(lbl_36e, $0a47d0, $07eb5b)
+  branch.mem.local.eq(lbl_36e, $0a47d0, $07eb5b)
   msg(IMELDA_D7, LEFT_F6, IMELDA, FOLLOW, 40)
 # There's no time!\r\nPut your backs into it! For God sakes, hurry!\0
   subroutine(lbl_596)
@@ -307,7 +307,7 @@ break
 lbl_3c9:
   msg(IMELDA_D7, LEFT_F6, IMELDA, FOLLOW, 52)
 # Son of a--!\r\nYou think you can take this boat from me?\r\nIt's not going to happen. Too bad for you.\0
-  branch.eq.global(lbl_3ed, $0a47d0, $07eb5b)
+  branch.mem.local.eq(lbl_3ed, $0a47d0, $07eb5b)
   msg(IMELDA_D7, IMPERIALCOMMANDER_32, IMELDA, FOLLOW, 53)
 # You imbeciles! Really, how can I put up with you!\r\nThe enemy is marching right in front of us! Get moving!\0
   branch.unit.dead(lbl_3e3, IMPERIALCOMMANDER_32)
@@ -329,7 +329,7 @@ lbl_3fe:
 break
 
 lbl_403:
-  branch.eq.global(lbl_41b, $0a478b, $07eb5e)
+  branch.mem.global.eq(lbl_41b, $0a478b, $07eb5e)
   unit.cleanup()
   prompt.ok(lbl_41b)
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 57)
@@ -462,7 +462,7 @@ lbl_4e4:
   scenarioclear()
   msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 83)
 # All right, time to set sail!\r\nNext stop, Velzeria!\0
-  branch.eq.global(lbl_509, $0a47d4, $07eb58)
+  branch.mem.local.eq(lbl_509, $0a47d4, $07eb58)
   branch.unit.dead(lbl_503, LESTER_09)
   msg(LESTER_09, RIGHT_F7, LESTER, FOLLOW, 84)
 # Raise the anchor! Let's catch some wind.\0
@@ -543,7 +543,7 @@ lbl_58d:
 break
 
 lbl_596:
-  branch.ne.global(lbl_5cf, $0a47d5, $07eb5a)
+  branch.mem.local.ne(lbl_5cf, $0a47d5, $07eb5a)
   branch.unit.dead(lbl_5b3, IMPERIALCOMMANDER_31)
   msg(IMPERIALCOMMANDER_31, IMELDA_D7, PRIEST_GREEN, FOLLOW, 101)
 # General Imelda ...\r\nI'm sorry, but it looks like everyone is going to die ...\0
@@ -564,10 +564,10 @@ lbl_5c9:
   local.sum($0a47d1, $07eb5a)
   goto(lbl_604)
 lbl_5cf:
-  branch.ne.global(lbl_5f2, $0a47d3, $07eb5e)
+  branch.mem.local.ne(lbl_5f2, $0a47d3, $07eb5e)
   msg(IMPERIALSOLDIER_77, IMELDA_D7, SOLDIER2_GREEN, NOFOLLOW, 107)
 # Yes! Whatever you say!\0
-  branch.eq.global(lbl_5e9, $0a47d5, $07eb5b)
+  branch.mem.local.eq(lbl_5e9, $0a47d5, $07eb5b)
   msg(IMELDA_D7, LEFT_F6, IMELDA, FOLLOW, 108)
 # I've said it before, but we don't have enough soldiers for reinforcements.\r\nYou were trained to die for your General. And make no mistake-- today, die you shall!\0
   local.sum($0a47d5, $07eb5b)
@@ -589,7 +589,7 @@ endsub
 
 lbl_605:
   unit.cleanup()
-  branch.eq.global(lbl_642, $0a47d5, $07eb5c)
+  branch.mem.local.eq(lbl_642, $0a47d5, $07eb5c)
   bgm(ALLY, ALLY4)
   bgm(ENEMY, ALLY4)
   unit.deploy(LAIRD_18, 2, 9)

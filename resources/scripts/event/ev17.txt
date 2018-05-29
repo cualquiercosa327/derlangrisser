@@ -53,7 +53,7 @@ lbl_f8:
   cursor.set(NULL_00)
   screen.fadein(4)
   cursor.set(ERWIN_01)
-  branch.ne.global(lbl_11a, $0a4789, $07eb5b)
+  branch.mem.global.ne(lbl_11a, $0a4789, $07eb5b)
   unit.position(IMPERIALCOMMANDER_35, PRESET, PRESET)
   unit.showsub(IMPERIALCOMMANDER_35)
   local.sum($0a47d0, $07eb58)
@@ -83,7 +83,7 @@ lbl_128:
 # Let's hope Imelda and the Water Dragon Navy can hold back the enemy ...\0
   msg(IMPERIALCOMMANDER_34, RIGHT_F7, SWORDSMAN2_GREEN, FOLLOW, 2)
 # Yeah! No matter how strong they are, they can't beat General Imelda.\r\nWe've got no reason to stick around here and build a useless fort.\0
-  branch.eq.global(lbl_165, $0a4789, $07eb5b)
+  branch.mem.global.eq(lbl_165, $0a4789, $07eb5b)
   msg(ZORUM_1A, DOWN_F5, ZORUM, FOLLOW, 3)
 # They are coming. I'm certain of it.\r\nNo matter how strong General Imelda may be, she'll underestimate their strength.\r\nIf she doesn't take them seriously, she won't win.\r\nAt any rate, General Vargas has already seen just how strong their leader is.\0
   goto(lbl_16b)
@@ -98,7 +98,7 @@ lbl_16b:
   msg(IMPERIALCOMMANDER_37, RIGHT_F7, KNIGHT1_GREEN, FOLLOW, 5)
 # They're coming! The rebel forces are approaching!\0
   cursor.set(ERWIN_01)
-  branch.eq.global(lbl_18e, $0a4789, $07eb5b)
+  branch.mem.global.eq(lbl_18e, $0a4789, $07eb5b)
   msg(ZORUM_1A, DOWN_F5, ZORUM, FOLLOW, 88)
 # They really did come!\r\nListen up! We can't let them go any further! No matter what, we'll defend this fortress to the end!\0
   goto(lbl_194)
@@ -132,7 +132,7 @@ lbl_194:
 # Hein, stop being so lazy.\0
   msg(LESTER_09, UP_F4, LESTER, FOLLOW, 10)
 # Hey, wait! There's an enemy fortress!\0
-  branch.eq.global(lbl_206, $0a4789, $07eb5b)
+  branch.mem.global.eq(lbl_206, $0a4789, $07eb5b)
   msg(ZORUM_1A, ERWIN_01, ZORUM, FOLLOW, 11)
 # Gwa ha ha ... You made it here at last!\r\nBut this is as far as you go. This place shall be your grave!\0
   msg(LESTER_09, ZORUM_1A, LESTER, FOLLOW, 12)
@@ -233,7 +233,7 @@ lbl_2d4:
 break
 
 lbl_2d9:
-  branch.eq.global(lbl_2f1, $0a478b, $07eb5b)
+  branch.mem.global.eq(lbl_2f1, $0a478b, $07eb5b)
   unit.cleanup()
   prompt.ok(lbl_2f1)
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 38)
@@ -288,7 +288,7 @@ lbl_32d:
 # Yes, Sir!\0
   goto(lbl_353)
 lbl_340:
-  branch.ne.global(lbl_34d, $0a47d2, $07eb5d)
+  branch.mem.local.ne(lbl_34d, $0a47d2, $07eb5d)
   msg(VARGAS_D6, ERWIN_01, VARGAS_ANGRY, FOLLOW, 48)
 # Redheaded boy! I'll avenge Zorum!\0
   goto(lbl_353)
@@ -510,7 +510,7 @@ lbl_53c:
 endsub
 
 lbl_53d:
-  branch.eq.global(lbl_597, $0a47d4, $07eb59)
+  branch.mem.local.eq(lbl_597, $0a47d4, $07eb59)
   unit.cleanup()
   bgm(ALLY, ENEMY2_VARGAS)
   bgm(ENEMY, ENEMY2_VARGAS)
@@ -528,7 +528,7 @@ lbl_53d:
 # Silence! Now just think about winning!\0
   goto(lbl_58b)
 lbl_571:
-  branch.ne.global(lbl_588, $0a47d2, $07eb5d)
+  branch.mem.local.ne(lbl_588, $0a47d2, $07eb5d)
   branch.unit.dead(lbl_57f, IMPERIALCOMMANDER_35)
   subroutine(lbl_598)
   goto(lbl_585)

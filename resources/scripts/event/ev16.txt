@@ -196,7 +196,7 @@ lbl_2c7:
   msg(AARON_08, IMELDA_D7, AARON_ANGRY, FOLLOW, 29)
 # Imelda, you cowardly bitch! Even at my age, I won't lose to such gutless Imperials!\0
   unit.showsub(AARON_08)
-  branch.eq.global(lbl_2e6, $0a4788, $07eb5e)
+  branch.mem.global.eq(lbl_2e6, $0a4788, $07eb5e)
   unit.expboost(AARON_08, 232)
   global.sum($0a4788, $07eb5e)
 lbl_2e6:
@@ -283,7 +283,7 @@ lbl_391:
 break
 
 lbl_3a2:
-  branch.eq.global(lbl_3d6, $0a478e, $07eb5f)
+  branch.mem.global.eq(lbl_3d6, $0a478e, $07eb5f)
   unit.cleanup()
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 40)
 # You spot a water fowl perched atop a nearby small post.\r\nThe bird is holding a small, glittering stone in its beak.\r\nWhat will you do?\0
@@ -469,7 +469,7 @@ lbl_514:
 # What the ...!? These old bones won't lose to some young ...\r\nOuch ... I am getting too old for this.\0
 lbl_51a:
   branch.unit.dead(lbl_54d, CHERIE_04)
-  branch.ne.global(lbl_544, $0a47d4, $07eb5a)
+  branch.mem.local.ne(lbl_544, $0a47d4, $07eb5a)
   branch.unit.dead(lbl_535, AARON_08)
   msg(CHERIE_04, AARON_08, CHERIE, FOLLOW, 84)
 # Master! Are you all right?\0
@@ -504,7 +504,7 @@ lbl_56c:
   msg(CHERIE_04, DOWN_F5, CHERIE_DEAD, NOFOLLOW, 93)
 # Sorry ...\0
 lbl_572:
-  branch.ne.global(lbl_58c, $0a4788, $07eb5d)
+  branch.mem.global.ne(lbl_58c, $0a4788, $07eb5d)
   branch.unit.dead(lbl_583, HEIN_05)
   msg(HEIN_05, CHERIE_04, HEIN, FOLLOW, 94)
 # Huh ... So this old chap is Cherie's weapons teacher?\0

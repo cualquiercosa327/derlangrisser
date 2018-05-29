@@ -214,7 +214,7 @@ lbl_306:
 break
 
 lbl_308:
-  branch.eq.global(lbl_326, $0a4794, $07eb5d)
+  branch.mem.global.eq(lbl_326, $0a4794, $07eb5d)
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 33)
 # You have spotted a clearing in the middle of the woods ...\r\nInside, a band of cute dwarves are dancing merrily.\r\nOne of the dwarves comes out to offer you a berry.\0
   prompt.ok(lbl_326)
@@ -226,7 +226,7 @@ lbl_326:
 break
 
 lbl_328:
-  branch.eq.global(lbl_346, $0a4792, $07eb5a)
+  branch.mem.global.eq(lbl_346, $0a4792, $07eb5a)
   msg(NULL_00, UP_F4, NULL, FOLLOW, 36)
 # A blue potion rests within the open drawer of a chest.\0
   prompt.ok(lbl_346)
@@ -641,7 +641,7 @@ lbl_6f7:
 # Well everyone, I'm glad to hear that none of you were harmed.\r\nBut it's too soon to rest easy. The Knights will surely return to finish what they began.\r\nYou'll have to take refuge with me in Salrath for your own sake as well as that of the villagers.\0
   msg(ERWIN_01, LOREN_2B, ERWIN, FOLLOW, 142)
 # His Lordship is right. Let us depart immediately.\0
-  branch.eq.global(lbl_73c, $0a4792, $07eb5b)
+  branch.mem.global.eq(lbl_73c, $0a4792, $07eb5b)
   branch.unit.dead(lbl_73c, RIDEL_7F)
   branch.unit.dead(lbl_73c, EVANZE_80)
   msg(RIDEL_7F, ERWIN_01, FIGHTER_BLACK, FOLLOW, 143)
@@ -679,7 +679,7 @@ lbl_755:
   unit.retreat(ERWIN_01)
   unit.retreat(HEIN_05)
   unit.retreat(LIANA_02)
-  screen.map(15)
+  screen.map.set(15)
   unit.hideall()
   unit.deploy(ERWIN_01, 1, 1)
   cursor.set(ERWIN_01)

@@ -232,7 +232,7 @@ lbl_305:
 break
 
 lbl_310:
-  branch.eq.global(lbl_31f, $0a4789, $07eb59)
+  branch.mem.global.eq(lbl_31f, $0a4789, $07eb59)
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 28)
 # Obtained Rune Stone.\0
   item.add(RUNESTONE)
@@ -484,7 +484,7 @@ lbl_4df:
 # You are too late!\0
   msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 94)
 # It's hopeless ... We can't stop him!\0
-  branch.eq.global(lbl_4fc, $0a47d3, $07eb5a)
+  branch.mem.local.eq(lbl_4fc, $0a47d3, $07eb5a)
   focus.point(11, 3, SLOW)
   subroutine(lbl_4cc)
 lbl_4fc:
@@ -521,7 +521,7 @@ lbl_545:
 lbl_54b:
   msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 100)
 # By Lushiris! I understand ... Egbert was even more clever than I had imagined ...\r\nEveryone, let's finish them quickly.\0
-  branch.ne.global(lbl_55b, $0a4789, $07eb5b)
+  branch.mem.global.ne(lbl_55b, $0a4789, $07eb5b)
   local.sub($0a47d0, $07eb5a)
   local.sub($0a47d0, $07eb59)
 lbl_55b:
@@ -676,7 +676,7 @@ lbl_6c1:
   msg(JESSICA_14, ERWIN_01, JESSICA_DEAD, NOFOLLOW, 90)
 # Farewell, everyone. Take good care of yourselves ...\0
 lbl_6c7:
-  branch.ne.global(lbl_6e1, $0a47d1, $07eb59)
+  branch.mem.local.ne(lbl_6e1, $0a47d1, $07eb59)
   msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 112)
 # We have to go to Baldea, but what should we do about the sanctuary?\r\nIt may still house another secret behind that door near the strange sign.\0
   prompt.ok(lbl_6e1)

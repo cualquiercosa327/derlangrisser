@@ -1,0 +1,611 @@
+# Movement-Triggered Events
+on.move(15, lbl_412, JESSICA_14, 1, 0xff)
+on.move(19, lbl_44a, LEON_D5, 3, 0xff)
+on.move(29, lbl_52a, LAIRD_18, 0, 0xff)
+break
+
+# Attack-Triggered Events
+on.attack(6, lbl_393, ERWIN_01, LEON_D5, 0x00, 0x00, 0xff)
+on.attack(20, lbl_458, LEON_D5, ERWIN_01, 0x00, 0x00, 0xff)
+on.attack(26, lbl_512, IMPERIALCOMMANDER_34, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(30, lbl_532, LAIRD_18, NULL_FF, 0x00, 0xff, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(7, lbl_3a1, ERWIN_01)
+on.damage(8, lbl_3ba, ERWIN_01, LEON_D5, 0x00, 0x00)
+on.defeat(9, lbl_3c2, HEIN_05)
+on.defeat(10, lbl_3ca, CHERIE_04)
+on.defeat(11, lbl_3d2, KEITH_07)
+on.defeat(12, lbl_3da, LESTER_09)
+on.defeat(13, lbl_3e2, LIANA_02)
+on.defeat(14, lbl_3ea, LANA_03)
+on.defeat(16, lbl_432, JESSICA_14)
+on.defeat(17, lbl_43a, SCOTT_06)
+on.defeat(18, lbl_442, AARON_08)
+on.defeat(21, lbl_460, LEON_D5)
+on.defeat(23, lbl_4fa, IMPERIALCOMMANDER_31)
+on.defeat(24, lbl_502, IMPERIALCOMMANDER_32)
+on.defeat(25, lbl_50a, IMPERIALCOMMANDER_33)
+on.defeat(27, lbl_51a, IMPERIALCOMMANDER_34)
+on.defeat(28, lbl_522, IMPERIALCOMMANDER_35)
+on.defeat(31, lbl_53a, LAIRD_18)
+on.damage(32, lbl_579, NULL_FF, LAIRD_18, 0xff, 0x00)
+on.defeat(33, lbl_582, IMPERIALCOMMANDER_36)
+on.damage(34, lbl_58d, NULL_FF, IMPERIALCOMMANDER_36, 0xff, 0x00)
+on.defeat(35, lbl_595, IMPERIALCOMMANDER_37)
+on.defeat(36, lbl_59d, IMPERIALCOMMANDER_81)
+on.defeat(22, lbl_5a5, IMPERIALCOMMANDER_31, IMPERIALCOMMANDER_32, IMPERIALCOMMANDER_33, IMPERIALCOMMANDER_34, IMPERIALCOMMANDER_35, IMPERIALCOMMANDER_36, IMPERIALCOMMANDER_37, IMPERIALCOMMANDER_81, LAIRD_18)
+on.defeat(37, lbl_5e6, IMPERIALCOMMANDER_31, IMPERIALCOMMANDER_32, IMPERIALCOMMANDER_33, IMPERIALCOMMANDER_34, IMPERIALCOMMANDER_35, IMPERIALCOMMANDER_36, IMPERIALCOMMANDER_37, IMPERIALCOMMANDER_81, LAIRD_18, LEON_D5)
+break
+
+# Position-Triggered Events
+on.bound(3, lbl_343, NPC_COMMANDER_F0, 18, 4, 18, 4, 0x00, 0x00)
+on.bound(4, lbl_35e, NPC_COMMANDER_F0, 13, 4, 13, 4, 0x00, 0x00)
+on.range(5, lbl_379, LEON_D5, LANA_03, 2, 0x00, 0x00, 0x00, 0x00)
+break
+
+# Turn-Triggered Events
+on.turn(0, lbl_2e1, ENEMY, 2, 0x00)
+on.turn(1, lbl_2ed, ENEMY, 1, 0x00)
+on.turn(2, lbl_315, ALLY, 2, 0x00)
+break
+
+# Core Events
+lbl_126:
+  bgm(ALLY, ENEMY1_LEON)
+  screen.fadein(4)
+  unit.position(LEON_D5, PRESET, PRESET)
+  unit.position(LAIRD_18, PRESET, PRESET)
+  unit.showsub(LAIRD_18)
+  msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 1)
+# I, I can't believe it!\r\nI would never have thought our enemies would reach this place.\0
+  msg(LEON_D5, LAIRD_18, LEON, FOLLOW, 2)
+# _NAME_ is strong indeed. Powerful enough to make it this far.\r\nBut, he is nothing by himself. He owes it all to the Holy Blade, Langrisser.\0
+  unit.move(LEON_D5, 15, 24)
+  msg(LEON_D5, DOWN_F5, LEON, FOLLOW, 3)
+# He may be strong with with that sword, but our Kaiser forged this country with his own hands!\r\nWe still have a chance!\0
+  msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 4)
+# It's almost time, isn't it?\0
+  msg(LEON_D5, LAIRD_18, LEON, FOLLOW, 5)
+# Yeah ... All right, prepare for the attack!\r\nIf we lose here, they'll be able to enter the castle.\0
+  unit.position(IMPERIALCOMMANDER_31, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_31)
+  unit.position(IMPERIALCOMMANDER_32, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_32)
+  unit.position(IMPERIALCOMMANDER_33, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_33)
+  unit.position(IMPERIALCOMMANDER_34, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_34)
+  unit.position(IMPERIALCOMMANDER_35, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_35)
+  unit.position(IMPERIALCOMMANDER_36, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_36)
+  unit.position(IMPERIALCOMMANDER_37, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_37)
+  msg(LAIRD_18, DOWN_F5, LAIRD, FOLLOW, 6)
+# The battle preparations are complete. They'll arrive any minute.\0
+  delay(30)
+  msg(LEON_D5, UP_F4, LEON, FOLLOW, 7)
+# Listen up!\r\nThis will be the finest hour of the Blue Dragon Knights. Now, our righteousness must shine like the stars!\0
+  msg(IMPERIALCOMMANDER_31, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 8)
+# Glory to Rayguard!\0
+  bgm(ALLY, ALLY2)
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.showsub(ERWIN_01)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.showsub(HEIN_05)
+  unit.position(CHERIE_04, PRESET, PRESET)
+  unit.showsub(CHERIE_04)
+  unit.position(KEITH_07, PRESET, PRESET)
+  unit.showsub(KEITH_07)
+  unit.position(LESTER_09, PRESET, PRESET)
+  unit.showsub(LESTER_09)
+  unit.position(SCOTT_06, PRESET, PRESET)
+  unit.showsub(SCOTT_06)
+  unit.position(LIANA_02, PRESET, PRESET)
+  unit.showsub(LIANA_02)
+  branch.mem.global.ne(lbl_1d5, $0a4793, $07eb5d)
+  unit.position(LANA_03, PRESET, PRESET)
+  unit.showsub(LANA_03)
+  msg(LANA_03, LEON_D5, LANA, FOLLOW, 9)
+# Leon.\0
+  goto(lbl_1db)
+lbl_1d5:
+  unit.position(AARON_08, PRESET, PRESET)
+  unit.showsub(AARON_08)
+lbl_1db:
+  msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 10)
+# You made it, _NAME_.\0
+  msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 11)
+# Leon!\r\nDo you really think that using the power of evil will bring peace to El Sallia?\r\nSurrender! There's no more reason for us to fight!\0
+  msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 12)
+# Hmmm, ... Hah hah! You came all this way just to say that!?\r\nThe Blue Dragon Knights will never run nor hide!\r\nUntil the end, we will fight our noble battle with glory and honour!\0
+  branch.unit.dead(lbl_200, LANA_03)
+  focus.unit(LANA_03)
+  unit.face(LANA_03, DOWN_F5)
+  delay(30)
+  msg(LANA_03, DOWN_F5, LANA, FOLLOW, 13)
+# I can't stop him ...\r\nHis emotions are so painful to hear ...\r\nI can't ... stop him-- But ... I don't want ... don't want to fight him ...\r\nBut--!\0
+lbl_200:
+  bgm(ALLY, ENEMY5_EGBERT)
+  unit.swap(IMPERIALCOMMANDER_81, EGBERT_D8)
+  cast.teleport(EGBERT_D8, EGBERT_D8, TELEPORT_IN, 15, 26)
+  msg(EGBERT_D8, ERWIN_01, EGBERT, FOLLOW, 14)
+# You've come quite a long way, haven't you.\0
+  msg(ERWIN_01, EGBERT_D8, ERWIN, FOLLOW, 15)
+# Egbert!\0
+  msg(EGBERT_D8, ERWIN_01, EGBERT, FOLLOW, 16)
+# I have something interesting to show you.\0
+  cast.teleport(EGBERT_D8, JESSICA_14, TELEPORT_IN, 16, 26)
+  unit.face(JESSICA_14, DOWN_F5)
+  msg(LIANA_02, JESSICA_14, LIANA, FOLLOW, 17)
+# Jessica!\0
+  msg(EGBERT_D8, LIANA_02, EGBERT, FOLLOW, 18)
+# This foolish sorceress tried to lay siege to our castle by her lonesome.\r\nShe underestimated the wrath of Alhazard.\0
+  msg(LEON_D5, EGBERT_D8, LEON, FOLLOW, 19)
+# Wait, Egbert. I had no intention for such an honour-less fight ...\r\nTo use hostages ... It's disgraceful!\0
+  msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 20)
+# This is between me and _NAME_!\r\nNo matter what, you won't interfere. Don't get in my way!\0
+  msg(EGBERT_D8, LEON_D5, EGBERT, FOLLOW, 21)
+# Hah hah hah ... Temper, temper, Leon. That's quite a weakness.\r\nHowever, it serves you well in the proper situation.\r\nFear not for your almighty Code of Chivalry, I will release this woman.\0
+  cast.teleport(EGBERT_D8, JESSICA_14, TELEPORT_TO, 17, 32)
+  msg(EGBERT_D8, LEON_D5, EGBERT, FOLLOW, 22)
+# Well then, I will prepare the welcoming party.\r\nLet us hope it turns out to be an unnecessary precaution.\0
+  cast.teleport(EGBERT_D8, EGBERT_D8, TELEPORT_OUT, PRESET, PRESET)
+  bgm(ALLY, ALLY2)
+  msg(JESSICA_14, EGBERT_D8, JESSICA_DEAD, FOLLOW, 23)
+# Egbert ...\0
+  msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 24)
+# Are you okay, Jessica?\0
+  branch.mem.global.eq(lbl_288, $0a4793, $07eb5d)
+  msg(JESSICA_14, DOWN_F5, JESSICA_DEAD, FOLLOW, 25)
+# Uughhh ...\0
+  msg(LESTER_09, JESSICA_14, LESTER, FOLLOW, 26)
+# Jessica! Are you all right?\0
+  msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 27)
+# Please relax. We're doing fine on our own.\0
+  msg(JESSICA_14, ERWIN_01, JESSICA_DEAD, FOLLOW, 28)
+# I'm sorry, _NAME_. I'd probably just get in the way.\r\nFor now, I'll fall back. Good luck, everyone ...\0
+  cast.teleport(JESSICA_14, JESSICA_14, TELEPORT_OUT, PRESET, PRESET)
+lbl_288:
+  msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 29)
+# _NAME_! Now we must attack with all our might!\0
+  msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 30)
+# Leon! Why are you fighting for this?\r\nBy releasing Alhazard's power, Bernhardt beckons nothing but destruction to this world!\0
+  branch.unit.dead(lbl_2aa, LANA_03)
+  msg(LANA_03, LEON_D5, LANA, FOLLOW, 31)
+# Please, Leon! Stop this futile battle!\0
+  msg(LEON_D5, LANA_03, LEON, FOLLOW, 32)
+# I'm sorry, Lana ...\r\nTo pacify this war-torn world, you need the means to achieve peace!\r\nEven if it's the power of evil!\0
+  msg(LANA_03, LEON_D5, LANA, FOLLOW, 33)
+# That's wrong Leon! There's no such thing as peace through power!\0
+lbl_2aa:
+  msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 34)
+# ...\0
+  unit.swap(EGBERT_D8, IMPERIALCOMMANDER_81)
+  unit.position(IMPERIALCOMMANDER_81, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_81)
+  msg(IMPERIALCOMMANDER_81, LEON_D5, HAWKKNIGHT_GREEN, FOLLOW, 35)
+# Leon! The ambush preparations are complete!\r\nWe're ready to fight any time!\0
+  unit.move(LEON_D5, PRESET, PRESET)
+  msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 36)
+# At last, the final battle has come!\r\nI'll offer you no mercy!\0
+  unit.showsub(LEON_D5)
+  msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 37)
+# Fool ... Well, it can't be helped, can it?\r\nEveryone, let's go!\0
+  branch.unit.dead(lbl_2db, LANA_03)
+  msg(LANA_03, LEON_D5, LANA, FOLLOW, 38)
+# Leon ...\0
+lbl_2db:
+  unit.setbit(LANA_03, $17, 4)
+break
+
+lbl_2e1:
+  branch.unit.dead(lbl_2eb, LEON_D5)
+  msg(LEON_D5, LEFT_F6, LEON, FOLLOW, 39)
+# If we lose here, we have no future.\r\nFight with all the fury of your namesake!\r\nYou are the most elite squadron in the Blue Dragon Knights.\r\nBattle with honour! Hallow and praise our Blue Dragon name!\0
+lbl_2eb:
+break
+
+lbl_2ed:
+  branch.unit.dead(lbl_313, LEON_D5)
+  msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 40)
+# _NAME_!\0
+  msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 41)
+# ...\0
+  msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 42)
+# I have nothing more to say ...\0
+  branch.unit.dead(lbl_30d, LANA_03)
+  msg(LANA_03, LEON_D5, LANA, FOLLOW, 43)
+# Leon ...\0
+lbl_30d:
+  msg(LEON_D5, LEFT_F6, LEON, FOLLOW, 44)
+# Glory to the Empire and the Blue Dragon Knights!\0
+lbl_313:
+break
+
+lbl_315:
+  branch.unit.dead(lbl_341, LEON_D5)
+  branch.unit.dead(lbl_341, LANA_03)
+  msg(LANA_03, LEON_D5, LANA, FOLLOW, 45)
+# Stop Leon!\r\nWhy? Why must you fight us?\r\nIf we join ranks, we can end this.\0
+  msg(LEON_D5, LANA_03, LEON, FOLLOW, 46)
+# Truly, if we were to become allies, we could stop this war ...\r\nBut someday, quarrels will renew, and blood will be shed. Even if this conflict ends, history will repeat itself.\r\nOnly an ideal unified nation, one of potency and stability, will bring any hope of lasting peace.\r\nAnd I swore, together with His Majesty, to achieve our dream of El Sallia's unification!\r\nThe Kaiser is the only one who can do this. This is the surest ... the only path to peace!\r\nIn this plan, _NAME_'s existence is a nuisance.\0
+  msg(LANA_03, LEON_D5, LANA_SAD, FOLLOW, 47)
+# Why ... Why must you fight like this?\0
+  msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 48)
+# I don't want to wash blood with more blood.\r\nWho has the power to bring about peace? The Empire? _NAME_?\0
+  msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 49)
+# ...\0
+  msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 50)
+# Let's go, _NAME_! Mercy is useless. Don't hold back!\0
+lbl_341:
+break
+
+lbl_343:
+  branch.mem.global.eq(lbl_35c, $0a478d, $07eb58)
+  unit.cleanup()
+  prompt.ok(lbl_35c)
+  unit.statboost(58, 1)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 52)
+# AT raised by 1 point!\r\nSomewhere else, the sound of a bottle breaking is heard.\0
+  global.sum($0a478d, $07eb58)
+lbl_35c:
+break
+
+lbl_35e:
+  branch.mem.global.eq(lbl_377, $0a478d, $07eb58)
+  unit.cleanup()
+  prompt.ok(lbl_377)
+  unit.statboost(56, 2)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 54)
+# MP raised by 2 points!\r\nSomewhere else, the sound of a bottle breaking is heard.\0
+  global.sum($0a478d, $07eb58)
+lbl_377:
+break
+
+lbl_379:
+  msg(LANA_03, LEON_D5, LANA_SAD, FOLLOW, 55)
+# Leon, ... Will you listen to no one any more?\0
+  msg(LEON_D5, LANA_03, LEON, FOLLOW, 56)
+# ...\r\nYou know how I feel. I can betray neither the Empire ... nor His Majesty Kaiser Bernhardt.\r\nI will honour my vow as a Knight and serve. His Majesty till the end.\0
+  msg(LANA_03, LEON_D5, LANA, FOLLOW, 57)
+# Leon! There's no one who despises fighting you more than I.\r\nWhy must you continue this fight?\0
+  msg(LEON_D5, LANA_03, LEON, FOLLOW, 58)
+# Truly, wars give birth only to sadness.\r\nBut, if nothing changes, then these wars will never end.\r\nThe Kaiser must unify this continent and form an ideal nation.\r\nFor that reason, this last battle cannot be avoided.\0
+break
+
+lbl_393:
+  msg(ERWIN_01, LEON_D5, ERWIN, NOFOLLOW, 59)
+# You haven't noticed what you're doing is wrong!?\0
+  msg(LEON_D5, ERWIN_01, LEON, NOFOLLOW, 60)
+# I was born to this glorious Empire, raised in this Empire ...\r\nAnd through blood and valour, I've become general of the proud Blue Dragon Knights!\r\nI won't turn my back on the path I've chosen!\0
+break
+
+lbl_3a1:
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 61)
+# Damn!\0
+  msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 62)
+# Did we win? What a tragic battle ...\0
+  msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 63)
+# Is this the end ...?\0
+  unit.cleanup()
+  gameover()
+  local.sum($0a47d1, $07eb58)
+break
+
+lbl_3ba:
+  msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 64)
+# Hmph!\r\nYour skills have improved, _NAME_ ... But you won't get through me!\0
+break
+
+lbl_3c2:
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 65)
+# Ow!\r\nThat last blow ...\0
+break
+
+lbl_3ca:
+  msg(CHERIE_04, DOWN_F5, CHERIE_DEAD, FOLLOW, 66)
+# Just like the Blue Dragon Knights!\r\nBeat them, _NAME_!\0
+break
+
+lbl_3d2:
+  msg(KEITH_07, DOWN_F5, KEITH_DEAD, FOLLOW, 67)
+# Damn! I was unprepared ...\0
+break
+
+lbl_3da:
+  msg(LESTER_09, DOWN_F5, LESTER_DEAD, FOLLOW, 68)
+# Darn! I have been whooped ...\0
+break
+
+lbl_3e2:
+  msg(LIANA_02, DOWN_F5, LIANA_DEAD, FOLLOW, 69)
+# Noooo! I'm sorry, _NAME_ ...\0
+break
+
+lbl_3ea:
+  branch.unit.dead(lbl_40a, LEON_D5)
+  msg(LANA_03, LEON_D5, LANA_DEAD, FOLLOW, 70)
+# Not yet. Just until ... Until we stop Leon ...\0
+  msg(ERWIN_01, LANA_03, ERWIN, FOLLOW, 71)
+# Don't push it! Leave it to me. Fall back, Lana!\0
+  msg(LANA_03, LEON_D5, LANA_DEAD, FOLLOW, 72)
+# Leon ...\0
+  unit.cleanup()
+  msg(LEON_D5, LANA_03, LEON, FOLLOW, 73)
+# Sorry, Lana ...\0
+  goto(lbl_410)
+lbl_40a:
+  msg(LANA_03, DOWN_F5, LANA_DEAD, FOLLOW, 74)
+# I'm sorry ... I'm so useless.\0
+lbl_410:
+break
+
+lbl_412:
+  msg(JESSICA_14, UP_F4, JESSICA_DEAD, FOLLOW, 75)
+# I, I too ... will assist ...\0
+  msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 76)
+# Jessica! Don't overdo it! Leave this to us.\0
+  branch.unit.dead(lbl_428, LESTER_09)
+  msg(LESTER_09, JESSICA_14, LESTER, FOLLOW, 77)
+# Yeah! Jessica, take a break!\0
+lbl_428:
+  msg(JESSICA_14, UP_F4, JESSICA_DEAD, FOLLOW, 78)
+# I understand ...\r\nEveryone, please ... Make sure Alhazard is sealed ...\0
+  unit.retreat(JESSICA_14)
+break
+
+lbl_432:
+  msg(JESSICA_14, DOWN_F5, JESSICA_DEAD, FOLLOW, 79)
+# Ah ... Until we can take back Alhazard ...\0
+break
+
+lbl_43a:
+  msg(SCOTT_06, DOWN_F5, SCOTT_DEAD, FOLLOW, 80)
+# Ugh ...\0
+break
+
+lbl_442:
+  msg(AARON_08, DOWN_F5, AARON_DEAD, FOLLOW, 81)
+# This shouldn't happen ...\0
+break
+
+lbl_44a:
+  msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 82)
+# Even if I must sacrifice my life, I will defeat you!\r\nLet's go, _NAME_!\0
+  msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 83)
+# If this is what you desire!\0
+break
+
+lbl_458:
+  msg(LEON_D5, ERWIN_01, LEON, NOFOLLOW, 84)
+# _NAME_, it's over!\0
+break
+
+lbl_460:
+  branch.mem.local.ne(lbl_46d, $0a47d2, $07eb5e)
+  msg(LEON_D5, DOWN_F5, LEON_DEAD, FOLLOW, 85)
+# You ... shall not ... pass through ...\r\nUghhh ...\0
+  goto(lbl_4f8)
+lbl_46d:
+  msg(LEON_D5, DOWN_F5, LEON_DEAD, FOLLOW, 86)
+# Damn it! Better than I expected ...\0
+  branch.unit.dead(lbl_486, LAIRD_18)
+  msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 87)
+# Leon! Please retreat!\0
+  msg(LEON_D5, LAIRD_18, LEON_DEAD, FOLLOW, 133)
+# Even from death's door, I will not retreat!\0
+  goto(lbl_492)
+lbl_486:
+  msg(SOLDIER_20, LEFT_F6, IMPERIALSOLDIER_GREEN, NOFOLLOW, 88)
+# Leon, retreat!\0
+  msg(LEON_D5, DOWN_F5, LEON_DEAD, FOLLOW, 133)
+# Even from death's door, I will not retreat!\0
+lbl_492:
+  branch.unit.dead(lbl_49f, LAIRD_18)
+  msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 134)
+# No way!\r\nIf Leon is killed, who will protect the Empire of tomorrow?\0
+  goto(lbl_4a5)
+lbl_49f:
+  msg(SOLDIER_20, LEFT_F6, IMPERIALSOLDIER_GREEN, NOFOLLOW, 134)
+# No way!\r\nIf Leon is killed, who will protect the Empire of tomorrow?\0
+lbl_4a5:
+  branch.unit.dead(lbl_4b2, IMPERIALCOMMANDER_31)
+  msg(IMPERIALCOMMANDER_31, LEON_D5, KNIGHT2_GREEN, FOLLOW, 131)
+# That's right! This place is ours for the taking!\0
+  goto(lbl_4c5)
+lbl_4b2:
+  branch.unit.dead(lbl_4bf, IMPERIALCOMMANDER_32)
+  msg(IMPERIALCOMMANDER_32, LEON_D5, KNIGHT2_GREEN, FOLLOW, 131)
+# That's right! This place is ours for the taking!\0
+  goto(lbl_4c5)
+lbl_4bf:
+  msg(IMPERIALSOLDIER_77, LEFT_F6, IMPERIALSOLDIER_GREEN, NOFOLLOW, 131)
+# That's right! This place is ours for the taking!\0
+lbl_4c5:
+  msg(LEON_D5, DOWN_F5, LEON_DEAD, FOLLOW, 89)
+# You ... all ...\0
+  branch.unit.dead(lbl_4f0, LAIRD_18)
+  msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 90)
+# Don't worry. At least we can delay them.\r\nIn the meantime, please take care of your wounds!\0
+  msg(LEON_D5, LAIRD_18, LEON_DEAD, FOLLOW, 91)
+# ...\r\nI understand. I'm counting on you.\0
+  msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 92)
+# Take care ... Take care of our beloved Empire.\0
+  msg(LEON_D5, LAIRD_18, LEON_DEAD, FOLLOW, 93)
+# Don't die on me ...\0
+  msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 94)
+# Yes, Sir!\0
+  goto(lbl_4f6)
+lbl_4f0:
+  msg(LEON_D5, DOWN_F5, LEON_DEAD, FOLLOW, 95)
+# ...\r\nI understand. I'm counting on you ...\0
+lbl_4f6:
+  unit.retreat(LEON_D5)
+lbl_4f8:
+break
+
+lbl_4fa:
+  msg(IMPERIALCOMMANDER_31, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 96)
+# Ugghh!\0
+break
+
+lbl_502:
+  msg(IMPERIALCOMMANDER_32, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 97)
+# This is it ...\0
+break
+
+lbl_50a:
+  msg(IMPERIALCOMMANDER_33, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 98)
+# Leon ...\0
+break
+
+lbl_512:
+  msg(IMPERIALCOMMANDER_34, LEFT_F6, KNIGHT2_GREEN, NOFOLLOW, 99)
+# Attack!\0
+break
+
+lbl_51a:
+  msg(IMPERIALCOMMANDER_34, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 100)
+# Ugh!\r\nI'll never see His Majesty again ...\0
+break
+
+lbl_522:
+  msg(IMPERIALCOMMANDER_35, DOWN_F5, KNIGHT2_GREEN_DEAD, FOLLOW, 101)
+# Ugh ... Leon, I'm sorry, ...\r\nI guess I just don't ... have what it takes ...\0
+break
+
+lbl_52a:
+  msg(LAIRD_18, LEFT_F6, LAIRD, FOLLOW, 102)
+# Attack!\0
+break
+
+lbl_532:
+  msg(LAIRD_18, LEFT_F6, LAIRD, NOFOLLOW, 103)
+# Prepare yourself!\0
+break
+
+lbl_53a:
+  branch.unit.dead(lbl_56e, LEON_D5)
+  msg(LAIRD_18, LEON_D5, LAIRD_DEAD, FOLLOW, 104)
+# Leon, ... It looks like this is the end for me ...\0
+  msg(LEON_D5, LAIRD_18, LEON, FOLLOW, 105)
+# Laird! I won't let you die!\r\nDid you come here to just to perish? Don't die on me, Laird!\0
+  msg(LAIRD_18, LEON_D5, LAIRD_DEAD, FOLLOW, 106)
+# I'm sorry ...\r\nPlease ... with His Majesty ...\r\nAchieve our dream ... a land without war ... and a grand ... and mighty Empire--!\0
+  msg(LEON_D5, LAIRD_18, LEON, FOLLOW, 107)
+# I won't let you leave the Knights before me!\r\nOpen your eyes, Laird! Please, open your eyes!\0
+  focus.unit(LAIRD_18)
+  unit.cleanup()
+  msg(LEON_D5, LAIRD_18, LEON_SAD, FOLLOW, 108)
+# Again, I've lost my closest friend ...\r\nWe must finish this quickly.\r\nWill it be us, or _NAME_?\r\nOnly one will live on. Let us fight now, for all those who have given their lives ... in the name of our Empire!\0
+  branch.unit.dead(lbl_56b, LANA_03)
+  msg(LANA_03, LEON_D5, LANA_SAD, FOLLOW, 109)
+# Leon ...\0
+lbl_56b:
+  goto(lbl_574)
+lbl_56e:
+  msg(LAIRD_18, LEON_D5, LAIRD_DEAD, FOLLOW, 110)
+# General ...\r\nIt looks like this is the end for me ...\r\nPlease ... with His Majesty ...\r\nAchieve our dream ... a land without war ... and a grand ... and mighty Empire--!\0
+lbl_574:
+  local.sum($0a47d4, $07eb58)
+break
+
+lbl_579:
+  unit.cleanup()
+  msg(LAIRD_18, LEFT_F6, LAIRD, FOLLOW, 111)
+# Of course!\r\nI won't give even an inch of ground in this battle! Even if it kills me!\0
+break
+
+lbl_582:
+  msg(IMPERIALCOMMANDER_36, DOWN_F5, PRIEST_GREEN_DEAD, FOLLOW, 112)
+# Ahhh!\0
+  local.sum($0a47d4, $07eb5a)
+break
+
+lbl_58d:
+  msg(IMPERIALCOMMANDER_36, LEFT_F6, PRIEST_GREEN, NOFOLLOW, 113)
+# You think our elite squad will go down that easily?\0
+break
+
+lbl_595:
+  msg(IMPERIALCOMMANDER_37, DOWN_F5, PRIEST_GREEN_DEAD, FOLLOW, 114)
+# Leon!\0
+break
+
+lbl_59d:
+  msg(IMPERIALCOMMANDER_81, DOWN_F5, HAWKKNIGHT_GREEN_DEAD, FOLLOW, 115)
+# Glory to the Empire!\0
+break
+
+lbl_5a5:
+  unit.cleanup()
+  branch.unit.dead(lbl_5e4, LEON_D5)
+  msg(LEON_D5, DOWN_F5, LEON, FOLLOW, 116)
+# So, the noble and storied ranks of our great legion end with me.\r\nI am the last ...\0
+  msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 117)
+# Give up, Leon. You've already lost!\0
+  msg(LEON_D5, DOWN_F5, LEON, FOLLOW, 118)
+# Ha! How could a man like you defeat my division?\0
+  msg(ERWIN_01, LEON_D5, ERWIN, FOLLOW, 119)
+# ...\0
+  msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 120)
+# I am the general of the Blue Dragon Knights!\r\nI will never retreat from here!\0
+  branch.unit.dead(lbl_5de, LANA_03)
+  msg(LANA_03, LEON_D5, LANA_SAD, FOLLOW, 121)
+# Please, Leon!\r\nStop it! I don't want to fight any more with you!\0
+  msg(LEON_D5, LANA_03, LEON, FOLLOW, 122)
+# Lana ... I love ...\r\nNo, I have no right to say that ...\r\nI will fight to the end! For all who have died, I will uphold the honour of the Knights!\0
+  msg(LANA_03, LEON_D5, LANA_SAD, FOLLOW, 123)
+# Leon!\0
+lbl_5de:
+  msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 124)
+# This is the end! Let's go, _NAME_!\0
+lbl_5e4:
+break
+
+lbl_5e6:
+  unit.cleanup()
+  scenarioclear()
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 125)
+# I promise you Leon, I will bring peace to this age of war.\0
+  branch.unit.dead(lbl_5f8, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN_SAD, FOLLOW, 126)
+# Fool.\0
+lbl_5f8:
+  branch.unit.dead(lbl_602, CHERIE_04)
+  msg(CHERIE_04, ERWIN_01, CHERIE_SAD, FOLLOW, 127)
+# He was stubborn, but ... he truly desired peace.\r\nPoor Leon ...\0
+lbl_602:
+  branch.unit.dead(lbl_60c, LANA_03)
+  msg(LANA_03, ERWIN_01, LANA_SAD, FOLLOW, 128)
+# Even while Boser's spell controlled me as the Dark Princess ...\r\nLeon was the only one who treated me with courtesy ... and who made me feel like I was a normal woman.\r\nThere was no one in this world more warm and caring than he was. His heart truly desired nothing but peace ...\0
+lbl_60c:
+  branch.unit.dead(lbl_619, LIANA_02)
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 130)
+# _NAME_ ... I can feel an evil presence nearby.\0
+  goto(lbl_61f)
+lbl_619:
+  msg(LIANA_02, ERWIN_01, LIANA_DEAD, NOFOLLOW, 130)
+# _NAME_ ... I can feel an evil presence nearby.\0
+lbl_61f:
+  branch.unit.dead(lbl_62c, LANA_03)
+  msg(LANA_03, LIANA_02, LANA, FOLLOW, 132)
+# Alhazard is beneath the castle. It's likely to be in an underground temple.\0
+  goto(lbl_632)
+lbl_62c:
+  msg(LANA_03, ERWIN_01, LANA_DEAD, NOFOLLOW, 132)
+# Alhazard is beneath the castle. It's likely to be in an underground temple.\0
+lbl_632:
+  msg(ERWIN_01, RIGHT_F7, ERWIN_SAD, FOLLOW, 129)
+# We must push forward ... and finish this immediately.\0
+  branch.mem.global.ne(lbl_641, $0a4793, $07eb5d)
+  loadscenario(24)
+  goto(lbl_643)
+lbl_641:
+  loadscenario(36)
+lbl_643:
+break
+

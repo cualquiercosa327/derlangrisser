@@ -60,7 +60,7 @@ break
 # Core Events
 lbl_136:
   bgm(ALLY, ALLY1)
-  screen.map(13)
+  screen.map.set(13)
   focus.point(13, 14, FAST)
   cursor.set(NULL_00)
   cursor.hide()
@@ -166,7 +166,7 @@ lbl_136:
   unit.retreat(ROHGA_0B)
   unit.retreat(LESTER_09)
   unit.hideall()
-  screen.map(5)
+  screen.map.set(5)
   bgm(ALLY, REQUIEM2)
   focus.point(16, 11, FAST)
   unit.position(ERWIN_01, 16, 13)
@@ -328,7 +328,7 @@ lbl_42c:
 break
 
 lbl_42e:
-  branch.eq.global(lbl_43e, $0a4789, $07eb59)
+  branch.mem.global.eq(lbl_43e, $0a4789, $07eb59)
   unit.cleanup()
   msg(NULL_00, DOWN_F5, NULL, NOFOLLOW, 61)
 # Obtained Rune Stone.\0
@@ -458,7 +458,7 @@ break
 lbl_521:
   msg(EGBERT_D8, DOWN_F5, EGBERT, FOLLOW, 89)
 # I never imagined you kids had so much power ... However, it matters not.\r\nI shall still reach Reitel before you can stop me!\0
-  branch.eq.global(lbl_53c, $0a47d2, $07eb5d)
+  branch.mem.local.eq(lbl_53c, $0a47d2, $07eb5d)
   msg(EGBERT_D8, ERWIN_01, EGBERT, FOLLOW, 90)
 # But first, let me pay you back for this scratch.\0
   unit.setbyte(EGBERT_D8, $03, 0x01)
@@ -486,7 +486,7 @@ lbl_566:
 break
 
 lbl_568:
-  branch.ne.global(lbl_575, $0a47d3, $07eb5b)
+  branch.mem.local.ne(lbl_575, $0a47d3, $07eb5b)
   msg(CAMILLA_A1, DOWN_F5, PRIEST_GREEN_DEAD, FOLLOW, 96)
 # Even with General Vargas' help, I still ... My duty is complete ...\r\nEgbert must have gotten it by now ... The Dark Rod ...\r\nGahh--!\0
   goto(lbl_57b)
@@ -738,7 +738,7 @@ lbl_7a5:
   unit.cleanup()
   msg(CAMILLA_A1, LEFT_F6, PRIEST_GREEN, FOLLOW, 154)
 # You will go no further!\0
-  branch.eq.global(lbl_7b6, $0a47d1, $07eb58)
+  branch.mem.local.eq(lbl_7b6, $0a47d1, $07eb58)
   subroutine(lbl_7d7)
   local.sum($0a47d1, $07eb58)
 lbl_7b6:

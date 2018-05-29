@@ -1,0 +1,603 @@
+# Movement-Triggered Events
+on.move(20, lbl_4ae, ESTO_D9, 0, 0xff)
+on.move(22, lbl_4c0, OSTO_DA, 0, 0xff)
+on.move(1, lbl_502, MINOTAUR_63, 0, 0xff)
+on.move(2, lbl_516, MINOTAUR_64, 0, 0xff)
+break
+
+# Attack-Triggered Events
+on.attack(25, lbl_4da, NULL_FF, SUCCUBUS_68, 0xff, 0x00, 0xff)
+on.attack(27, lbl_4ea, SUCCUBUS_69, NULL_FF, 0x00, 0xff, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(13, lbl_474, ERWIN_01)
+on.defeat(14, lbl_47e, HEIN_05)
+on.defeat(15, lbl_486, CHERIE_04)
+on.defeat(16, lbl_48e, KEITH_07)
+on.defeat(17, lbl_496, LESTER_09)
+on.defeat(18, lbl_49e, AARON_08)
+on.defeat(19, lbl_4a6, SCOTT_06)
+on.defeat(21, lbl_4b6, ESTO_D9)
+on.defeat(23, lbl_4c8, OSTO_DA)
+on.defeat(24, lbl_4d2, SCYLLA_43)
+on.defeat(26, lbl_4e2, SUCCUBUS_68)
+on.defeat(28, lbl_4f2, SUCCUBUS_69)
+on.defeat(29, lbl_4fa, SUCCUBUS_9A)
+on.defeat(30, lbl_50e, MINOTAUR_63)
+on.defeat(31, lbl_522, MINOTAUR_64)
+on.defeat(32, lbl_52a, KRAKEN_65)
+on.defeat(33, lbl_532, SCYLLA_44)
+on.defeat(34, lbl_53a, VAMPIRELORD_4F)
+on.defeat(35, lbl_542, VAMPIRELORD_4F, ESTO_D9, OSTO_DA)
+on.defeat(7, lbl_5a9, SUCCUBUS_69, SUCCUBUS_9A)
+break
+
+# Position-Triggered Events
+on.range(10, lbl_445, NPC_SUBUNIT_F1, MINOTAUR_63, 5, 0x00, 0x00, 0x00, 0x00)
+on.range(11, lbl_44a, NPC_SUBUNIT_F1, MINOTAUR_64, 5, 0x00, 0x00, 0x00, 0x00)
+on.bound(6, lbl_44f, NPC_SUBUNIT_F1, 21, 1, 32, 34, 0x00, 0x00)
+on.bound(12, lbl_45a, NPC_COMMANDER_F0, 4, 10, 4, 10, 0x00, 0x00)
+break
+
+# Turn-Triggered Events
+on.turn(3, lbl_2f0, ENEMY, 1, 0x00)
+on.turn(0, lbl_31f, ALLY, 2, 0x00)
+on.turn(4, lbl_35b, ENEMY, 5, 0x00)
+on.turn(5, lbl_377, ENEMY, 7, 0x00)
+on.turn(8, lbl_382, ENEMY, 13, 0x00)
+on.turn(9, lbl_3b8, ENEMY, 15, 0x00)
+break
+
+# Core Events
+lbl_106:
+  bgm(ALLY, NIGHT)
+  screen.map.set(21)
+  unit.swap(SCYLLA_43, EGBERT_D8)
+  unit.position(LIANA_CA, 5, 2)
+  unit.position(ESTO_D9, 7, 8)
+  unit.position(OSTO_DA, 13, 1)
+  unit.face(LIANA_CA, DOWN_F5)
+  unit.setbyte(LIANA_CA, $20, 0x03)
+  unit.refresh()
+  focus.point(7, 4, FAST)
+  cursor.set(NULL_00)
+  cursor.hide()
+  screen.fadein(8)
+  delay(120)
+  unit.move(LIANA_CA, 5, 5)
+  delay(60)
+  msg(LIANA_CA, DOWN_F5, LIANA_SAD, NOFOLLOW, 1)
+# I wonder how everyone is doing ...?\0
+  delay(60)
+  unit.move(LIANA_CA, 7, 5)
+  msg(LIANA_CA, RIGHT_F7, LIANA_SAD, NOFOLLOW, 2)
+# _NAME_ ...\0
+  delay(30)
+  sfx(18)
+  sfx(18)
+  bgm(ALLY, ENEMY5_EGBERT)
+  msg(LIANA_CA, DOWN_F5, LIANA, NOFOLLOW, 3)
+# What's going on!? Who sounded the alarm?\0
+  msg(NULL_00, DOWN_F5, NULL, NOFOLLOW, 4)
+# M, monsters!\0
+  sfx(38)
+  unit.face(LIANA_CA, RIGHT_F7)
+  sfx(38)
+  sfx(12)
+  unit.move(LIANA_CA, 6, 5)
+  msg(NULL_00, DOWN_F5, NULL, NOFOLLOW, 5)
+# Arrggh!\0
+  sfx(38)
+  unit.face(LIANA_CA, DOWN_F5)
+  msg(NULL_00, DOWN_F5, NULL, NOFOLLOW, 6)
+# Damn it!\r\nHow did all these monsters get in here!?\0
+  sfx(18)
+  sfx(18)
+  sfx(12)
+  sfx(41)
+  msg(NULL_00, DOWN_F5, NULL, NOFOLLOW, 7)
+# You won't get any further!\r\nUgh ...!\r\nAarrrgghhh!\0
+  sfx(12)
+  unit.move(LIANA_CA, 7, 5)
+  unit.face(LIANA_CA, DOWN_F5)
+  delay(20)
+  unit.move(ESTO_D9, 7, 6)
+  msg(ESTO_D9, LIANA_CA, OSTO, NOFOLLOW, 8)
+# Are you Liana?\0
+  unit.move(LIANA_CA, 6, 2)
+  unit.move(OSTO_DA, 7, 2)
+  msg(OSTO_DA, LIANA_CA, ESTO, NOFOLLOW, 9)
+# Where do you think you're going?\r\nYou think you can escape us?\0
+  unit.move(ESTO_D9, 7, 4)
+  unit.move(ESTO_D9, 6, 3)
+  unit.face(ESTO_D9, UP_F4)
+  cursor.set(ERWIN_01)
+  cast.teleport(EGBERT_D8, EGBERT_D8, TELEPORT_IN, 4, 2)
+  cursor.set(NULL_00)
+  unit.move(EGBERT_D8, 5, 2)
+  unit.face(LIANA_CA, LEFT_F6)
+  msg(EGBERT_D8, LIANA_CA, EGBERT, NOFOLLOW, 10)
+# You needn't overexert your pretty self. We must to move quickly.\0
+  delay(30)
+  unit.face(LIANA_CA, DOWN_F5)
+  delay(10)
+  unit.face(LIANA_CA, RIGHT_F7)
+  delay(35)
+  msg(LIANA_CA, EGBERT_D8, LIANA_ANGRY, NOFOLLOW, 11)
+# No! Let go!\r\nHelp me, _NAME_!\0
+  msg(OSTO_DA, LIANA_CA, ESTO, NOFOLLOW, 12)
+# Lord Boser awaits ...\0
+  msg(LIANA_CA, DOWN_F5, LIANA_ANGRY, NOFOLLOW, 13)
+# Aaaaahhhh!\0
+  cursor.set(ERWIN_01)
+  cast.teleport(LIANA_CA, LIANA_CA, TELEPORT_OUT, PRESET, PRESET)
+  cursor.set(NULL_00)
+  delay(60)
+  msg(EGBERT_D8, LIANA_CA, EGBERT, NOFOLLOW, 14)
+# Ha ha ha! Well, that takes care of her. I will go on ahead.\0
+  cast.teleport(EGBERT_D8, EGBERT_D8, TELEPORT_OUT, PRESET, PRESET)
+  delay(40)
+  msg(OSTO_DA, ESTO_D9, ESTO, NOFOLLOW, 15)
+# Yesss ... Yet another successful mission.\0
+  msg(ESTO_D9, OSTO_DA, OSTO, NOFOLLOW, 16)
+# Let's head to the harbour to stop her little friends in their tracks!\0
+  msg(OSTO_DA, ESTO_D9, ESTO, NOFOLLOW, 17)
+# Let's hurry!\0
+  cursor.set(ERWIN_01)
+  cast.teleport(OSTO_DA, OSTO_DA, TELEPORT_OUT, PRESET, PRESET)
+  cast.teleport(ESTO_D9, ESTO_D9, TELEPORT_OUT, PRESET, PRESET)
+  screen.fadeout(4)
+  unit.swap(EGBERT_D8, SCYLLA_43)
+  screen.map.set(17)
+  bgm(ALLY, )
+  cursor.show()
+  unit.hideall()
+  bgm(ALLY, BEACH)
+  focus.point(29, 16, FAST)
+  cursor.set(NULL_00)
+  screen.fadein(4)
+  cursor.set(ERWIN_01)
+  unit.position(SUCCUBUS_68, PRESET, PRESET)
+  unit.showsub(SUCCUBUS_68)
+  unit.position(SUCCUBUS_69, PRESET, PRESET)
+  unit.showsub(SUCCUBUS_69)
+  unit.position(SUCCUBUS_9A, PRESET, PRESET)
+  unit.showsub(SUCCUBUS_9A)
+  unit.position(MINOTAUR_63, PRESET, PRESET)
+  unit.showsub(MINOTAUR_63)
+  unit.position(MINOTAUR_64, PRESET, PRESET)
+  unit.showsub(MINOTAUR_64)
+  unit.position(KRAKEN_65, PRESET, PRESET)
+  unit.showsub(KRAKEN_65)
+  unit.position(VAMPIRELORD_4F, PRESET, PRESET)
+  unit.showsub(VAMPIRELORD_4F)
+  msg(VAMPIRELORD_4F, SUCCUBUS_68, VAMPIRELORD, FOLLOW, 18)
+# You mean the ship isn't yet readied ...?\0
+  msg(SUCCUBUS_68, VAMPIRELORD_4F, SUCCUBUS_BLUE, FOLLOW, 19)
+# Yes ... The cargo has been difficult to load.\r\nI'm afraid that our departure has been delayed.\0
+  msg(VAMPIRELORD_4F, SUCCUBUS_68, VAMPIRELORD, FOLLOW, 20)
+# We must move quickly!\0
+  msg(SUCCUBUS_68, VAMPIRELORD_4F, SUCCUBUS_BLUE, FOLLOW, 21)
+# Right away, your Lordship!\0
+  bgm(ALLY, ALLY1)
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.showsub(ERWIN_01)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.showsub(HEIN_05)
+  unit.position(CHERIE_04, PRESET, PRESET)
+  unit.showsub(CHERIE_04)
+  unit.position(KEITH_07, PRESET, PRESET)
+  unit.showsub(KEITH_07)
+  unit.position(LESTER_09, PRESET, PRESET)
+  unit.showsub(LESTER_09)
+  unit.position(AARON_08, PRESET, PRESET)
+  unit.showsub(AARON_08)
+  unit.position(SCOTT_06, PRESET, PRESET)
+  unit.showsub(SCOTT_06)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 22)
+# Ahh, we made it at last.\r\nI hope we can find a boat.\0
+  msg(CHERIE_04, RIGHT_F7, CHERIE, FOLLOW, 23)
+# Hmmm, look there!\0
+  focus.unit(VAMPIRELORD_4F)
+  msg(SUCCUBUS_68, VAMPIRELORD_4F, SUCCUBUS_BLUE, FOLLOW, 24)
+# We have a problem!\r\nThe Descendants of Light are now moving in!\0
+  msg(VAMPIRELORD_4F, SUCCUBUS_68, VAMPIRELORD, FOLLOW, 25)
+# What!? Hasten the operation!\0
+  msg(SUCCUBUS_68, VAMPIRELORD_4F, SUCCUBUS_BLUE, FOLLOW, 26)
+# Right away.\0
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 27)
+# That looks like one of the Demon Tribe's boats.\r\nWhat great timing. Let's take it!\0
+  msg(ERWIN_01, HEIN_05, ERWIN, FOLLOW, 28)
+# Sounds like a plan to me, Hein.\0
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 29)
+# All right, everyone!\r\nBefore they depart, let's commandeer the ship!\0
+  local.sum($0a47d0, $07eb58)
+  local.sum($0a47d0, $07eb59)
+  local.sum($0a47d0, $07eb5a)
+break
+
+lbl_2f0:
+  branch.unit.dead(lbl_31d, VAMPIRELORD_4F)
+  branch.unit.dead(lbl_30d, SUCCUBUS_68)
+  msg(SUCCUBUS_68, VAMPIRELORD_4F, SUCCUBUS_BLUE, FOLLOW, 30)
+# Esto and Osto haven't returned yet, have they?\0
+  msg(VAMPIRELORD_4F, SUCCUBUS_68, VAMPIRELORD, FOLLOW, 31)
+# No, Esto and Osto have special orders from Lord Boser.\r\nThey search out the way to revive Alhazard.\0
+  msg(SUCCUBUS_68, VAMPIRELORD_4F, SUCCUBUS_BLUE, FOLLOW, 32)
+# Oh, really ...\0
+  local.sub($0a47d0, $07eb58)
+lbl_30d:
+  msg(VAMPIRELORD_4F, LEFT_F6, VAMPIRELORD, FOLLOW, 33)
+# Listen up, everyone!\r\nThere's no need to wait. We can easily obliterate the Descendants of Light with our own power!\0
+  branch.unit.dead(lbl_31d, SUCCUBUS_69)
+  msg(SUCCUBUS_69, VAMPIRELORD_4F, SUCCUBUS_PINK, FOLLOW, 34)
+# Oooooh! That sounds exciting.\0
+lbl_31d:
+break
+
+lbl_31f:
+  branch.unit.dead(lbl_32c, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 35)
+# They seem to be seeking another component to unseal Alhazard.\r\nJessica said, "To revive Alhazard, the Dark Rod and a catalyst are needed."\0
+  goto(lbl_332)
+lbl_32c:
+  msg(ERWIN_01, VAMPIRELORD_4F, ERWIN, FOLLOW, 36)
+# Are they are looking for the catalyst to release Alhazard?\r\nOh, that's right, Jessica said to revive Alhazard, both the Dark Rod and a catalyst are needed.\0
+lbl_332:
+  branch.unit.dead(lbl_33f, AARON_08)
+  msg(AARON_08, RIGHT_F7, AARON, FOLLOW, 37)
+# Meaning that Alhazard hasn't been released yet.\0
+  goto(lbl_349)
+lbl_33f:
+  branch.unit.dead(lbl_349, CHERIE_04)
+  msg(CHERIE_04, RIGHT_F7, CHERIE, FOLLOW, 38)
+# That means Alhazard hasn't been released yet.\0
+lbl_349:
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 39)
+# It would appear so.\r\nHowever, if they're actively trying to unseal it, then our time is limited.\r\nWe should hurry to Velzeria.\0
+  branch.unit.dead(lbl_359, LESTER_09)
+  msg(LESTER_09, RIGHT_F7, LESTER, FOLLOW, 40)
+# So ... let us go to pick a fight!\r\nIf we don't take that ship to Velzeria, we might not make it.\0
+lbl_359:
+break
+
+lbl_35b:
+  branch.unit.dead(lbl_375, VAMPIRELORD_4F)
+  branch.unit.dead(lbl_375, SUCCUBUS_68)
+  msg(VAMPIRELORD_4F, LEFT_F6, VAMPIRELORD, FOLLOW, 41)
+# How are the departure preparations going?\0
+  msg(SUCCUBUS_68, VAMPIRELORD_4F, SUCCUBUS_BLUE, FOLLOW, 42)
+# Not quite finished ...\r\nPlease wait a little longer.\0
+  msg(VAMPIRELORD_4F, LEFT_F6, WYVERN, FOLLOW, 43)
+# Hurry the hell up!\0
+lbl_375:
+break
+
+lbl_377:
+  subroutine(lbl_5b4)
+  local.sum($0a47d0, $07eb5e)
+  local.sum($0a47d0, $07eb5f)
+break
+
+lbl_382:
+  branch.unit.dead(lbl_3b6, SUCCUBUS_68)
+  branch.unit.dead(lbl_393, ESTO_D9)
+  msg(ESTO_D9, SUCCUBUS_68, WYVERN, FOLLOW, 102)
+# You're still not finished!?\0
+  goto(lbl_3b0)
+lbl_393:
+  branch.unit.dead(lbl_3a0, OSTO_DA)
+  msg(ESTO_D9, SUCCUBUS_68, WYVERN, FOLLOW, 102)
+# You're still not finished!?\0
+  goto(lbl_3b0)
+lbl_3a0:
+  branch.unit.dead(lbl_3ad, VAMPIRELORD_4F)
+  msg(VAMPIRELORD_4F, LEFT_F6, WYVERN, FOLLOW, 44)
+# You're still not finished!?\0
+  goto(lbl_3b0)
+lbl_3ad:
+  goto(lbl_3b6)
+lbl_3b0:
+  msg(SUCCUBUS_68, VAMPIRELORD_4F, SUCCUBUS_BLUE, FOLLOW, 45)
+# The loading will be complete shortly.\r\nPlease have patience.\0
+lbl_3b6:
+break
+
+lbl_3b8:
+  branch.unit.dead(lbl_3de, OSTO_DA)
+  msg(OSTO_DA, LEFT_F6, ESTO, FOLLOW, 46)
+# Hey! The ship still isn't ready!\0
+  branch.unit.dead(lbl_3cf, SUCCUBUS_68)
+  msg(SUCCUBUS_68, VAMPIRELORD_4F, SUCCUBUS_BLUE, FOLLOW, 47)
+# Sorry to keep you waiting.\r\nThe departure preparations are now complete.\0
+  goto(lbl_3d5)
+lbl_3cf:
+  msg(NULL_00, UP_F4, SUCCUBUS_BLUE, NOFOLLOW, 48)
+# Sorry to keep you waiting.\r\nWe can go any time!\0
+lbl_3d5:
+  msg(OSTO_DA, SUCCUBUS_68, ESTO, FOLLOW, 49)
+# All right! Raise the anchor! Let's get out of here.\0
+  goto(lbl_401)
+lbl_3de:
+  branch.unit.dead(lbl_401, ESTO_D9)
+  msg(ESTO_D9, LEFT_F6, OSTO, FOLLOW, 50)
+# Are the ships ready to depart?\0
+  branch.unit.dead(lbl_3f5, SUCCUBUS_68)
+  msg(SUCCUBUS_68, ESTO_D9, SUCCUBUS_BLUE, FOLLOW, 51)
+# Preparations complete.\0
+  goto(lbl_3fb)
+lbl_3f5:
+  msg(NULL_00, UP_F4, SUCCUBUS_BLUE, NOFOLLOW, 52)
+# Preparations complete.\0
+lbl_3fb:
+  msg(ESTO_D9, LEFT_F6, PHOENIX_RED, FOLLOW, 53)
+# All right!\r\nLet's head for Velzeria!\0
+lbl_401:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 54)
+# Damn it!\r\nWe didn't make it in time ...\0
+  scenarioclear()
+  branch.unit.dead(lbl_415, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 55)
+# What should we do?\r\nWe can't go by foot to Velzeria, it would take too long ...\0
+  goto(lbl_428)
+lbl_415:
+  branch.unit.dead(lbl_422, CHERIE_04)
+  msg(CHERIE_04, ERWIN_01, HEIN, FOLLOW, 56)
+# Hmmm, now we have a problem ...\r\nWe could go by foot to Velzeria, but it would take way too much time.\0
+  goto(lbl_428)
+lbl_422:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 57)
+# We're in trouble now ...\r\nIt's not that we can't go to Velzeria by foot, but it would take forever.\0
+lbl_428:
+  branch.unit.dead(lbl_43b, LESTER_09)
+  msg(LESTER_09, ERWIN_01, LESTER, FOLLOW, 58)
+# It won't help just thinking about it.\r\nWe might as well start down the road. We'll probably find another boat on the way.\0
+  msg(ERWIN_01, LESTER_09, ERWIN, FOLLOW, 59)
+# That's an idea ... All right, let's go to Velzeria by road!\0
+  goto(lbl_441)
+lbl_43b:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 60)
+# No point thinking about it any further.\r\nLet's get out of here. To Velzeria we go!\0
+lbl_441:
+  loadscenario(28)
+break
+
+lbl_445:
+  local.sub($0a47d0, $07eb59)
+break
+
+lbl_44a:
+  local.sub($0a47d0, $07eb5a)
+break
+
+lbl_44f:
+  subroutine(lbl_5b4)
+  local.sum($0a47d0, $07eb5f)
+  local.sum($0a47d0, $07eb5d)
+break
+
+lbl_45a:
+  branch.mem.global.eq(lbl_472, $0a478b, $07eb5e)
+  unit.cleanup()
+  prompt.ok(lbl_472)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 62)
+# Obtained Gleipnir.\0
+  item.add(GLEIPNIR)
+  global.sum($0a478b, $07eb5e)
+lbl_472:
+break
+
+lbl_474:
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 63)
+# Damn, this is it--!\0
+  unit.cleanup()
+  gameover()
+break
+
+lbl_47e:
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 64)
+# Owww!\0
+break
+
+lbl_486:
+  msg(CHERIE_04, DOWN_F5, CHERIE_DEAD, FOLLOW, 65)
+# Argh ... I got trashed.\0
+break
+
+lbl_48e:
+  msg(KEITH_07, DOWN_F5, KEITH_DEAD, FOLLOW, 66)
+# Damn!\0
+break
+
+lbl_496:
+  msg(LESTER_09, DOWN_F5, LESTER_DEAD, FOLLOW, 67)
+# Ohh, man! I'm way out of my league!\0
+break
+
+lbl_49e:
+  msg(AARON_08, DOWN_F5, AARON_DEAD, FOLLOW, 68)
+# Oh, my back ...\0
+break
+
+lbl_4a6:
+  msg(SCOTT_06, DOWN_F5, SCOTT_DEAD, FOLLOW, 69)
+# Gaaahh--!\0
+break
+
+lbl_4ae:
+  msg(ESTO_D9, LEFT_F6, ESTO, FOLLOW, 70)
+# We're not your ordinary demons!\0
+break
+
+lbl_4b6:
+  msg(ESTO_D9, DOWN_F5, ESTO_DEAD, FOLLOW, 71)
+# Hya ha ha, ... impressive!\r\nRedheaded mortal, you'll remember this!\0
+  unit.retreat(ESTO_D9)
+break
+
+lbl_4c0:
+  msg(OSTO_DA, LEFT_F6, OSTO, FOLLOW, 72)
+# For Lord Boser!\0
+break
+
+lbl_4c8:
+  msg(OSTO_DA, DOWN_F5, OSTO_DEAD, FOLLOW, 73)
+# Im, impossible ...\0
+  unit.retreat(OSTO_DA)
+break
+
+lbl_4d2:
+  msg(SCYLLA_43, DOWN_F5, SCYLLA_GRAY, FOLLOW, 74)
+# You're just a mere human!\0
+break
+
+lbl_4da:
+  msg(SUCCUBUS_68, LEFT_F6, SUCCUBUS_BLUE, NOFOLLOW, 75)
+# Hee hee hee ... Ready or not, here I come!\0
+break
+
+lbl_4e2:
+  msg(SUCCUBUS_68, DOWN_F5, SUCCUBUS_BLUE, FOLLOW, 76)
+# Y, you ... R, rotten humans!\0
+break
+
+lbl_4ea:
+  msg(SUCCUBUS_69, LEFT_F6, SUCCUBUS_PINK, NOFOLLOW, 77)
+# We will stain the sea red!\0
+break
+
+lbl_4f2:
+  msg(SUCCUBUS_69, DOWN_F5, SUCCUBUS_PINK, FOLLOW, 78)
+# This cannot be happening ...!\0
+break
+
+lbl_4fa:
+  msg(SUCCUBUS_9A, DOWN_F5, SUCCUBUS_BLUE, FOLLOW, 79)
+# H, how are mere humans able to--?\0
+break
+
+lbl_502:
+  msg(MINOTAUR_63, LEFT_F6, MINOTAUR_A, FOLLOW, 80)
+# Ugghhh!\0
+  unit.clearbit(MINOTAUR_63, $17, 0)
+break
+
+lbl_50e:
+  msg(MINOTAUR_63, DOWN_F5, MINOTAUR_A, FOLLOW, 81)
+# Gahh--arghh!\0
+break
+
+lbl_516:
+  msg(MINOTAUR_64, LEFT_F6, MINOTAUR_A, FOLLOW, 82)
+# Ohhh!\0
+  unit.clearbit(MINOTAUR_64, $17, 0)
+break
+
+lbl_522:
+  msg(MINOTAUR_64, DOWN_F5, MINOTAUR_A, FOLLOW, 83)
+# Ugghhh--!\0
+break
+
+lbl_52a:
+  msg(KRAKEN_65, DOWN_F5, KRAKEN, FOLLOW, 84)
+# Oohhhh ...\0
+break
+
+lbl_532:
+  msg(SCYLLA_44, DOWN_F5, SCYLLA_GRAY, FOLLOW, 85)
+# Aaaaahhh--!\0
+break
+
+lbl_53a:
+  msg(VAMPIRELORD_4F, DOWN_F5, VAMPIRELORD, FOLLOW, 86)
+# I suppose we may have underestimated your strength.\r\nHow could a demon be challenged by a mere human? I still don't believe it ...\0
+break
+
+lbl_542:
+  unit.cleanup()
+  branch.unit.dead(lbl_550, SUCCUBUS_68)
+  msg(SUCCUBUS_68, LEFT_F6, SUCCUBUS_BLUE, FOLLOW, 101)
+# Ahhh! How could Esto and Osto have been beaten ...\0
+  goto(lbl_574)
+lbl_550:
+  branch.unit.dead(lbl_55d, SUCCUBUS_69)
+  msg(SUCCUBUS_69, LEFT_F6, SUCCUBUS_PINK, FOLLOW, 101)
+# Ahhh! How could Esto and Osto have been beaten ...\0
+  goto(lbl_574)
+lbl_55d:
+  branch.unit.dead(lbl_56a, SUCCUBUS_9A)
+  msg(SUCCUBUS_9A, LEFT_F6, SUCCUBUS_BLUE, FOLLOW, 101)
+# Ahhh! How could Esto and Osto have been beaten ...\0
+  goto(lbl_574)
+lbl_56a:
+  branch.unit.dead(lbl_574, SCYLLA_44)
+  msg(SCYLLA_43, LEFT_F6, SCYLLA_GRAY, FOLLOW, 101)
+# Ahhh! How could Esto and Osto have been beaten ...\0
+lbl_574:
+  unit.retreat(SUCCUBUS_68)
+  unit.retreat(SUCCUBUS_69)
+  unit.retreat(SUCCUBUS_9A)
+  unit.retreat(MINOTAUR_63)
+  unit.retreat(MINOTAUR_64)
+  unit.retreat(KRAKEN_65)
+  unit.retreat(SCYLLA_43)
+  unit.retreat(SCYLLA_44)
+  scenarioclear()
+  branch.unit.dead(lbl_58f, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 87)
+# Ah, it's over now.\0
+lbl_58f:
+  msg(ERWIN_01, HEIN_05, ERWIN, FOLLOW, 88)
+# We've taken the ship!\r\nWell then, on to Velzeria!\0
+  branch.unit.dead(lbl_59f, CHERIE_04)
+  msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 89)
+# Yeah, let's get going!\r\nIf these monsters were this strong, imagine them after Alhazard's revival.\0
+lbl_59f:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 90)
+# Well, let's head out! To Velzeria!\0
+  loadscenario(26)
+break
+
+lbl_5a9:
+  subroutine(lbl_5b4)
+  local.sum($0a47d0, $07eb5e)
+  local.sum($0a47d0, $07eb5d)
+break
+
+lbl_5b4:
+  unit.cleanup()
+  bgm(ALLY, ALLY4)
+  bgm(ENEMY, ALLY4)
+  unit.deploy(SCYLLA_43, 29, 33)
+  msg(SCYLLA_43, LEFT_F6, SCYLLA_GRAY, FOLLOW, 91)
+# These mortals look skilled.\0
+  unit.deploy(SCYLLA_44, 27, 32)
+  unit.deploy(ESTO_D9, 29, 2)
+  unit.deploy(OSTO_DA, 28, 4)
+  branch.unit.dead(lbl_5ff, VAMPIRELORD_4F)
+  msg(VAMPIRELORD_4F, ESTO_D9, VAMPIRELORD, FOLLOW, 92)
+# Esto, Osto!\0
+  msg(ESTO_D9, VAMPIRELORD_4F, ESTO, FOLLOW, 93)
+# A pity we were late. But we have taken the catalyst.\r\nEgbert has surely notified Lord Boser of this development.\0
+  msg(OSTO_DA, VAMPIRELORD_4F, OSTO, FOLLOW, 94)
+# And are we ready to depart?\0
+  msg(VAMPIRELORD_4F, OSTO_DA, VAMPIRELORD, FOLLOW, 95)
+# I'm sorry. We're not quite done.\0
+  msg(ESTO_D9, VAMPIRELORD_4F, ESTO, FOLLOW, 96)
+# Hurry, then.\0
+  msg(VAMPIRELORD_4F, ESTO_D9, VAMPIRELORD, FOLLOW, 97)
+# Yes ...\0
+  msg(ESTO_D9, ERWIN_01, ESTO, FOLLOW, 98)
+# Ah, the mighty Descendants of Light.\r\nHere you shall all die. You won't get in Lord Boser's way!\0
+lbl_5ff:
+  branch.unit.dead(lbl_613, HEIN_05)
+  msg(HEIN_05, ESTO_D9, HEIN, FOLLOW, 99)
+# Argh, such powerful monsters! We're up against it.\0
+  branch.unit.dead(lbl_613, SCOTT_06)
+  msg(SCOTT_06, HEIN_05, SCOTT, FOLLOW, 100)
+# Those are parasites! They feed on human minds, so be careful.\r\nDon't forget your strategic fundamentals and you'll come out all right.\0
+lbl_613:
+  bgm(ALLY, ALLY1)
+endsub
+

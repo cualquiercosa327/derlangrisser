@@ -1,0 +1,617 @@
+# Movement-Triggered Events
+on.move(1, lbl_36b, VAMPIRELORD_4F, 0, 0xff)
+on.move(2, lbl_383, GREATDRAGON_59, 0, 0xff)
+on.move(34, lbl_3d9, CHAOS_93, 0, 0xff)
+on.move(39, lbl_4ab, EGBERT_D8, 0, 0xff)
+break
+
+# Attack-Triggered Events
+on.attack(6, lbl_2a9, ERWIN_01, CHAOS_93, 0x00, 0x00, 0xff)
+on.attack(7, lbl_2b7, ERWIN_01, SONYA_D4, 0x00, 0x00, 0xff)
+on.attack(9, lbl_2d5, HEIN_05, CHAOS_93, 0x00, 0x00, 0xff)
+on.attack(11, lbl_2e5, CHERIE_04, CHAOS_93, 0x00, 0x00, 0xff)
+on.attack(13, lbl_2f5, KEITH_07, CHAOS_93, 0x00, 0x00, 0xff)
+on.attack(15, lbl_305, LESTER_09, CHAOS_93, 0x00, 0x00, 0xff)
+on.attack(17, lbl_315, SCOTT_06, CHAOS_93, 0x00, 0x00, 0xff)
+on.attack(19, lbl_325, LIANA_02, CHAOS_93, 0x00, 0x00, 0xff)
+on.attack(20, lbl_32d, LIANA_02, SONYA_D4, 0x00, 0x00, 0xff)
+on.attack(22, lbl_343, LANA_03, CHAOS_93, 0x00, 0x00, 0xff)
+on.attack(35, lbl_3e1, CHAOS_93, ERWIN_01, 0x00, 0xff, 0xff)
+on.attack(36, lbl_3e9, CHAOS_93, ERWIN_01, 0x00, 0x00, 0xff)
+on.attack(40, lbl_4bf, EGBERT_D8, CHAOS_93, 0x00, 0x00, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(8, lbl_2cb, ERWIN_01)
+on.defeat(10, lbl_2dd, HEIN_05)
+on.defeat(12, lbl_2ed, CHERIE_04)
+on.defeat(14, lbl_2fd, KEITH_07)
+on.defeat(16, lbl_30d, LESTER_09)
+on.defeat(18, lbl_31d, SCOTT_06)
+on.defeat(21, lbl_33b, LIANA_02)
+on.defeat(23, lbl_34b, LANA_03)
+on.defeat(24, lbl_353, JESSICA_14)
+on.defeat(25, lbl_35b, STONEGOLEM_48)
+on.defeat(26, lbl_363, STONEGOLEM_49)
+on.defeat(27, lbl_373, VAMPIRELORD_4F)
+on.defeat(28, lbl_37b, VAMPIRELORD_8E)
+on.defeat(29, lbl_38b, GREATDRAGON_59)
+on.defeat(30, lbl_393, MASTERDINO_55)
+on.defeat(31, lbl_3c1, GREATDRAGON_5A)
+on.defeat(32, lbl_3c9, SUCCUBUS_68)
+on.defeat(33, lbl_3d1, MASTERDINO_56)
+on.defeat(37, lbl_3f7, CHAOS_93)
+on.damage(38, lbl_4a6, NULL_FF, CHAOS_93, 0xff, 0x00)
+on.defeat(41, lbl_4c7, EGBERT_D8)
+on.defeat(42, lbl_4cf, SONYA_D4)
+on.defeat(43, lbl_589, MASTERDINO_55, MASTERDINO_56)
+on.defeat(44, lbl_58b, SONYA_D4, STONEGOLEM_48, STONEGOLEM_49, VAMPIRELORD_4F, VAMPIRELORD_8E)
+break
+
+# Position-Triggered Events
+on.bound(5, lbl_286, NPC_COMMANDER_F0, 2, 10, 2, 10, 0x00, 0x00)
+break
+
+# Turn-Triggered Events
+on.turn(3, lbl_211, ENEMY, 1, 0x00)
+on.turn(4, lbl_236, ALLY, 2, 0x00)
+on.turn(0, lbl_27b, ALLY, 0, 0x00)
+break
+
+# Core Events
+lbl_14a:
+  bgm(ALLY, ENEMY7_DARKPRINCESS)
+  focus.point(13, 6, FAST)
+  cursor.set(NULL_00)
+  screen.fadein(4)
+  cursor.set(ERWIN_01)
+  cast.teleport(SONYA_D4, SONYA_D4, TELEPORT_IN, 13, 6)
+  msg(SONYA_D4, DOWN_F5, SONYA, FOLLOW, 1)
+# At long last ... Finally, it's all mine ...\r\nWith Alhazard, I can revive Chaos and destroy this filthy world!\r\nWell Alhazard ... Let me see your power!\0
+  unit.face(SONYA_D4, UP_F4)
+  delay(30)
+  sfx(41)
+  screen.brightness(1)
+  screen.brightness(0)
+  screen.brightness(1)
+  screen.brightness(0)
+  sfx(41)
+  sfx(41)
+  unit.position(GREATDRAGON_59, PRESET, PRESET)
+  unit.showsub(GREATDRAGON_59)
+  unit.position(VAMPIRELORD_4F, PRESET, PRESET)
+  unit.showsub(VAMPIRELORD_4F)
+  unit.position(STONEGOLEM_48, PRESET, PRESET)
+  unit.showsub(STONEGOLEM_48)
+  unit.position(MASTERDINO_56, PRESET, PRESET)
+  unit.showsub(MASTERDINO_56)
+  unit.position(SUCCUBUS_68, PRESET, PRESET)
+  unit.showsub(SUCCUBUS_68)
+  unit.position(MASTERDINO_55, PRESET, PRESET)
+  unit.showsub(MASTERDINO_55)
+  unit.position(STONEGOLEM_49, PRESET, PRESET)
+  unit.showsub(STONEGOLEM_49)
+  unit.position(VAMPIRELORD_8E, PRESET, PRESET)
+  unit.showsub(VAMPIRELORD_8E)
+  unit.position(GREATDRAGON_5A, PRESET, PRESET)
+  unit.showsub(GREATDRAGON_5A)
+  msg(SONYA_D4, DOWN_F5, SONYA, FOLLOW, 2)
+# Aha ha ha! Now the humans are like mice in a room of cats!\r\nRun out and play, humans!\0
+  bgm(ALLY, ALLY7)
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.showsub(ERWIN_01)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.showsub(HEIN_05)
+  unit.position(CHERIE_04, PRESET, PRESET)
+  unit.showsub(CHERIE_04)
+  unit.position(KEITH_07, PRESET, PRESET)
+  unit.showsub(KEITH_07)
+  unit.position(LESTER_09, PRESET, PRESET)
+  unit.showsub(LESTER_09)
+  unit.position(SCOTT_06, PRESET, PRESET)
+  unit.showsub(SCOTT_06)
+  unit.position(LIANA_02, PRESET, PRESET)
+  unit.showsub(LIANA_02)
+  unit.position(LANA_03, PRESET, PRESET)
+  unit.showsub(LANA_03)
+  unit.position(JESSICA_14, PRESET, PRESET)
+  unit.showsub(JESSICA_14)
+  msg(JESSICA_14, SONYA_D4, JESSICA, FOLLOW, 3)
+# Sonya, don't revive Chaos! You have no idea how terrible he is!\0
+  msg(SONYA_D4, JESSICA_14, SONYA, FOLLOW, 4)
+# Alhazard, my wish is for the destruction of all life on this miserable excuse for a world!\0
+  msg(ERWIN_01, SONYA_D4, ERWIN, FOLLOW, 5)
+# You won't get away with this!\0
+  msg(SONYA_D4, ERWIN_01, SONYA, FOLLOW, 6)
+# Just you watch me! No one can even touch me!\r\nNot as long as I have Alhazard! Aha ha ha!\0
+  local.sum($0a47d0, $07eb58)
+  local.sum($0a47d0, $07eb59)
+  local.sum($0a47d0, $07eb5a)
+  global.sub($0a4793, $07eb5e)
+break
+
+lbl_211:
+  msg(SONYA_D4, ERWIN_01, SONYA, FOLLOW, 7)
+# Let us make a sacrifice of the Descendants of Light to our glorious god!\r\nEveryone, make sure they don't interfere with my plan!\r\n... Not that I even need to ask you any more. With Alhazard in my grasp, I am your master!\0
+  branch.unit.dead(lbl_224, VAMPIRELORD_4F)
+  msg(VAMPIRELORD_4F, SONYA_D4, VAMPIRELORD, FOLLOW, 8)
+# Indeed ...\0
+  goto(lbl_22e)
+lbl_224:
+  branch.unit.dead(lbl_22e, VAMPIRELORD_8E)
+  msg(VAMPIRELORD_8E, SONYA_D4, VAMPIRELORD, FOLLOW, 9)
+# Mwa ha ha ... Long live Chaos!\0
+lbl_22e:
+  msg(SONYA_D4, ERWIN_01, SONYA, FOLLOW, 10)
+# Destruction! Death! Alhazard, enrapture me with your power ...\r\nThis bliss ...\0
+break
+
+lbl_236:
+  branch.unit.dead(lbl_25b, LIANA_02)
+  msg(LIANA_02, SONYA_D4, LIANA, FOLLOW, 11)
+# Sonya, I understand your feelings, really I do.\r\nBut a girl like you should not utter such things.\0
+  msg(SONYA_D4, LIANA_02, SONYA, FOLLOW, 102)
+# How can you ... How can you understand me!?\r\nHumans, humans ... whenever something bad happened people spat on me and blamed me ...\r\nMy blood is mixed with the Demon Tribe's so they thought I was the cause of everything.\0
+  msg(LIANA_02, SONYA_D4, LIANA, FOLLOW, 12)
+# Sonya ...\0
+  msg(SONYA_D4, LIANA_02, SONYA, FOLLOW, 103)
+# But humans aren't the only ones who've betrayed me.\r\nMy own brethren I believed in, the Demon Tribe--even they turned against me!\r\nI've controlled the ones who've humiliated me with Alhazard.\r\nLater, I will pay you humans back!\r\nWith Alhazard's power I will destroy this stupid world! Then we can perish together!\0
+  msg(LIANA_02, SONYA_D4, LIANA, FOLLOW, 13)
+# You're wrong, Sonya!\r\nI understand ... That sadness in the bottom of your heart, your hatred for humans ...\r\nBoser has taken advantage of that and used it to further his ambitions.\r\nBut by destroying everyone, you will be no better than the people who scorned you!\0
+  goto(lbl_273)
+lbl_25b:
+  msg(ERWIN_01, SONYA_D4, ERWIN, FOLLOW, 14)
+# Humans aren't as bad as you think! Not all humans would persecute you!\0
+  msg(SONYA_D4, ERWIN_01, ERWIN, FOLLOW, 102)
+# How can you ... How can you understand me!?\r\nHumans, humans ... whenever something bad happened people spat on me and blamed me ...\r\nMy blood is mixed with the Demon Tribe's so they thought I was the cause of everything.\0
+  msg(ERWIN_01, SONYA_D4, ERWIN, FOLLOW, 15)
+# Sonya ...\0
+  msg(SONYA_D4, ERWIN_01, ERWIN, FOLLOW, 103)
+# But humans aren't the only ones who've betrayed me.\r\nMy own brethren I believed in, the Demon Tribe--even they turned against me!\r\nI've controlled the ones who've humiliated me with Alhazard.\r\nLater, I will pay you humans back!\r\nWith Alhazard's power I will destroy this stupid world! Then we can perish together!\0
+lbl_273:
+  msg(SONYA_D4, LIANA_02, SONYA, FOLLOW, 16)
+# Shut up! What do you know about anything!?\0
+break
+
+lbl_27b:
+  msg(ERWIN_01, CHAOS_93, ERWIN, FOLLOW, 17)
+# This is the end! Everyone, attack!\0
+  subroutine(lbl_59c)
+break
+
+lbl_286:
+  branch.mem.global.eq(lbl_2a7, $0a478d, $07eb5a)
+  unit.cleanup()
+  prompt.ok(lbl_29e)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 19)
+# Obtained Rune Stone.\0
+  item.add(RUNESTONE)
+  goto(lbl_2a4)
+lbl_29e:
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 20)
+# "Really ..., well in that case ..."\r\nThe face on the wall fell silent.\0
+lbl_2a4:
+  global.sum($0a478d, $07eb5a)
+lbl_2a7:
+break
+
+lbl_2a9:
+  msg(ERWIN_01, CHAOS_93, ERWIN, NOFOLLOW, 21)
+# We will definitely seal the power of evil!\0
+  msg(CHAOS_93, ERWIN_01, CHAOS, NOFOLLOW, 22)
+# I am an ancient god. The power of humanity is too weak to oppose my will.\0
+break
+
+lbl_2b7:
+  msg(ERWIN_01, SONYA_D4, ERWIN, NOFOLLOW, 23)
+# Sonya, stop!\0
+  msg(SONYA_D4, ERWIN_01, SONYA, NOFOLLOW, 24)
+# Shut up, shut the fuck up! Stop fucking with my head! I won't fall for your tricks!\0
+  msg(ERWIN_01, SONYA_D4, ERWIN, NOFOLLOW, 25)
+# Damn--!\0
+break
+
+lbl_2cb:
+  msg(ERWIN_01, DOWN_F5, ERWIN_SAD, FOLLOW, 26)
+# It's no good ... The power of evil--\0
+  unit.cleanup()
+  gameover()
+break
+
+lbl_2d5:
+  msg(HEIN_05, CHAOS_93, HEIN, NOFOLLOW, 27)
+# I trust my magic is strong enough--even strong enough to take on a god.\0
+break
+
+lbl_2dd:
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 28)
+# Gaahhh--! I'm finished ...\0
+break
+
+lbl_2e5:
+  msg(CHERIE_04, CHAOS_93, CHERIE, NOFOLLOW, 29)
+# Victory must be ours!\0
+break
+
+lbl_2ed:
+  msg(CHERIE_04, DOWN_F5, CHERIE_DEAD, FOLLOW, 30)
+# I'm exhausted ...\0
+break
+
+lbl_2f5:
+  msg(KEITH_07, CHAOS_93, KEITH, NOFOLLOW, 31)
+# For this world ... We mustn't give up, or evil shall reign eternal!\0
+break
+
+lbl_2fd:
+  msg(KEITH_07, DOWN_F5, KEITH_DEAD, FOLLOW, 32)
+# Damn ... My strength is at its end--\0
+break
+
+lbl_305:
+  msg(LESTER_09, CHAOS_93, LESTER, NOFOLLOW, 33)
+# Arggh! You will die!\0
+break
+
+lbl_30d:
+  msg(LESTER_09, DOWN_F5, LESTER_DEAD, FOLLOW, 34)
+# Sorry, everyone ...\0
+break
+
+lbl_315:
+  msg(SCOTT_06, CHAOS_93, SCOTT, NOFOLLOW, 35)
+# I won't fail! Even before a dark god!\0
+break
+
+lbl_31d:
+  msg(SCOTT_06, DOWN_F5, SCOTT_DEAD, FOLLOW, 36)
+# No! I just didn't cut it ...\0
+break
+
+lbl_325:
+  msg(LIANA_02, CHAOS_93, LIANA, NOFOLLOW, 37)
+# Lushiris, please give me power!\r\nWe need the power of light to defeat Chaos!\0
+break
+
+lbl_32d:
+  msg(LIANA_02, SONYA_D4, LIANA, NOFOLLOW, 38)
+# Sonya ... There is no need to fight! We're both human beings!\0
+  msg(SONYA_D4, LIANA_02, SONYA, NOFOLLOW, 39)
+# Shut up! You filthy hypocrite!\0
+break
+
+lbl_33b:
+  msg(LIANA_02, DOWN_F5, LIANA_DEAD, FOLLOW, 40)
+# Sorry, _NAME_ ...\0
+break
+
+lbl_343:
+  msg(LANA_03, CHAOS_93, LANA, NOFOLLOW, 41)
+# I'm no longer controlled by Boser! I won't return to a life of darkness!\0
+break
+
+lbl_34b:
+  msg(LANA_03, DOWN_F5, LANA_DEAD, FOLLOW, 42)
+# I'm sorry, everyone ...\0
+break
+
+lbl_353:
+  msg(JESSICA_14, DOWN_F5, JESSICA_DEAD, FOLLOW, 43)
+# Aahh ... How beautiful the sky is ...\0
+break
+
+lbl_35b:
+  msg(STONEGOLEM_48, DOWN_F5, GOLEM, FOLLOW, 44)
+# ...\0
+break
+
+lbl_363:
+  msg(STONEGOLEM_49, DOWN_F5, GOLEM, FOLLOW, 45)
+# ...\0
+break
+
+lbl_36b:
+  msg(VAMPIRELORD_4F, DOWN_F5, VAMPIRELORD, FOLLOW, 46)
+# We will follow Sonya's orders to the letter ...\0
+break
+
+lbl_373:
+  msg(VAMPIRELORD_4F, DOWN_F5, VAMPIRELORD, FOLLOW, 47)
+# How could humans defeat me ...\0
+break
+
+lbl_37b:
+  msg(VAMPIRELORD_8E, DOWN_F5, VAMPIRELORD, FOLLOW, 48)
+# How could a human be this strong ...\0
+break
+
+lbl_383:
+  msg(GREATDRAGON_59, DOWN_F5, WYVERN, FOLLOW, 49)
+# Aarrrghh!\0
+break
+
+lbl_38b:
+  msg(GREATDRAGON_59, DOWN_F5, WYVERN, FOLLOW, 50)
+# Ugghh--\0
+break
+
+lbl_393:
+  msg(MASTERDINO_55, DOWN_F5, MASTERDINO, FOLLOW, 51)
+# Gaahhh!\0
+  branch.unit.dead(lbl_3bf, SONYA_D4)
+  msg(SONYA_D4, DOWN_F5, SONYA, FOLLOW, 52)
+# Behold the mighty Descendants of Light!\r\nI won't hold back any more!\r\nGo forth my servants! Obey the wielder of Alhazard!\0
+  screen.brightness(1)
+  screen.brightness(0)
+  sfx(41)
+  unit.clearbit(GREATDRAGON_59, $17, 0)
+  unit.clearbit(GREATDRAGON_5A, $17, 0)
+  unit.clearbit(VAMPIRELORD_4F, $17, 0)
+  unit.clearbit(VAMPIRELORD_8E, $17, 0)
+  local.sub($0a47d0, $07eb59)
+  local.sub($0a47d0, $07eb5a)
+lbl_3bf:
+break
+
+lbl_3c1:
+  msg(GREATDRAGON_5A, DOWN_F5, WYVERN, FOLLOW, 53)
+# Gaaahhhh--!\0
+break
+
+lbl_3c9:
+  msg(SUCCUBUS_68, DOWN_F5, SUCCUBUS_BLUE, FOLLOW, 54)
+# Argh!\0
+break
+
+lbl_3d1:
+  msg(MASTERDINO_56, DOWN_F5, MASTERDINO, FOLLOW, 55)
+# Gah--!\0
+break
+
+lbl_3d9:
+  msg(CHAOS_93, ERWIN_01, CHAOS, FOLLOW, 56)
+# The Descendants of Light who wield Langrisser ...\r\nConvince me of this power of humans which you so valiantly strive to conquer me with.\0
+break
+
+lbl_3e1:
+  msg(CHAOS_93, LEFT_F6, CHAOS, FOLLOW, 57)
+# Go forth, destroy everything. Let Chaos ensue and restore this planet to its natural state.\0
+break
+
+lbl_3e9:
+  msg(CHAOS_93, ERWIN_01, CHAOS, FOLLOW, 58)
+# Don't interfere! Those who do will be destroyed.\0
+  msg(ERWIN_01, CHAOS_93, ERWIN, FOLLOW, 59)
+# Langrisser! Give us your power!\0
+break
+
+lbl_3f7:
+  bgm(ALLY, JESSICA)
+  bgm(ENEMY, JESSICA)
+  cursor.hide()
+  msg(CHAOS_93, ERWIN_01, CHAOS_DEAD, FOLLOW, 60)
+# Thus is the power of Langrisser, the Sword of Light ...\0
+  msg(ERWIN_01, CHAOS_93, ERWIN, FOLLOW, 61)
+# It is our unity and hope for peace that brought us this victory!\r\nWe didn't depend wholly on Langrisser!\0
+  msg(CHAOS_93, ERWIN_01, CHAOS_DEAD, FOLLOW, 62)
+# But they are one and the same.\r\nThe Holy Blade's ability isn't raw destructive power ...\r\nDon't you understand the real nature of Langrisser? Don't you know how it offers such limitless strength?\r\nIt is a symbol which combines a gathered people's hearts into one.\r\nIt brings humans together and shows them the infinite power of hope.\0
+  msg(ERWIN_01, CHAOS_93, ERWIN, FOLLOW, 63)
+# But why is it called the one and only sword that can oppose Alhazard ...?\0
+  msg(CHAOS_93, ERWIN_01, CHAOS_DEAD, FOLLOW, 64)
+# Alhazard is also a symbol, but for the Demon Tribe.\r\nThose who gather under the sword's banner can change their fate!\0
+  branch.unit.dead(lbl_46b, EGBERT_D8)
+  msg(CHAOS_93, DOWN_F5, CHAOS_DEAD, FOLLOW, 65)
+# And I am the Lord of Chaos. Things aren't finished yet, mortals!\0
+  msg(EGBERT_D8, CHAOS_93, EGBERT, FOLLOW, 66)
+# It seems it's my turn ...\0
+  cast.teleport(EGBERT_D8, EGBERT_D8, TELEPORT_TO, 13, 5)
+  msg(EGBERT_D8, CHAOS_93, EGBERT, FOLLOW, 67)
+# I have no regrets ... This will seal Chaos once and for all!\r\nMy final spell ... A demon banishing ray of holy thunder!\0
+  branch.unit.dead(lbl_445, JESSICA_14)
+  msg(JESSICA_14, EGBERT_D8, JESSICA, FOLLOW, 68)
+# Wait, Egbert! If you use that spell, your life will ...!\0
+lbl_445:
+  msg(EGBERT_D8, CHAOS_93, EGBERT, FOLLOW, 69)
+# Oh gods that rule this world!\r\nMake my spirit shine, and give me the strength to vanquish the darkness!\r\nHalig Geweald Ealles Fordon Fynd ... Holy Falcon Ray!\0
+  screen.brightness(1)
+  screen.brightness(0)
+  msg(CHAOS_93, EGBERT_D8, CHAOS_DEAD, FOLLOW, 70)
+# Noooo!\r\nHow could you ... How could you use that spell!\0
+  msg(EGBERT_D8, JESSICA_14, EGBERT, FOLLOW, 71)
+# Teacher--\0
+  screen.brightness(4)
+  sfx(43)
+  unit.retreat(CHAOS_93)
+  unit.retreat(EGBERT_D8)
+  screen.brightness(0)
+  subroutine(lbl_5f3)
+  goto(lbl_491)
+lbl_46b:
+  branch.unit.dead(lbl_478, HEIN_05)
+  msg(HEIN_05, CHAOS_93, HEIN, FOLLOW, 72)
+# Such are the sacrifices made in war ...\0
+  goto(lbl_47e)
+lbl_478:
+  msg(ERWIN_01, CHAOS_93, ERWIN, FOLLOW, 73)
+# It makes one wonder if all our fighting has been worth it ...\0
+lbl_47e:
+  msg(CHAOS_93, ERWIN_01, CHAOS_DEAD, FOLLOW, 74)
+# It was not a waste.\r\nTo save this world from Chaos, we needed to act together.\0
+  msg(CHAOS_93, ERWIN_01, CHAOS_DEAD, FOLLOW, 75)
+# Hmph, well then, I shall take my leave of you.\r\nHowever, you best not mistakenly think you have "won."\r\nWhen this world calls for me again ... I will return.\r\nMy ... power ... is eternal--\0
+  screen.brightness(4)
+  screen.brightness(0)
+  subroutine(lbl_5f3)
+lbl_491:
+  scenarioclear()
+  branch.unit.dead(lbl_49c, LIANA_02)
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 76)
+# Chaos has ... The evil surge is dissipating ...\0
+lbl_49c:
+  msg(ERWIN_01, CHAOS_93, ERWIN, FOLLOW, 77)
+# It was a long, hard battle.\0
+  loadscenario(80)
+break
+
+lbl_4a6:
+  subroutine(lbl_59c)
+break
+
+lbl_4ab:
+  msg(EGBERT_D8, CHAOS_93, EGBERT, NOFOLLOW, 78)
+# Chaos ...\r\nOnce I learnt your revival was at hand, I began my search for a way to banish you forever!\r\nAnd now, my research has come to fruition! Your life force is sealed!\0
+  msg(CHAOS_93, EGBERT_D8, CHAOS, NOFOLLOW, 79)
+# You've outlived your time, you arrogant pest.\r\nWith magic power gnawing, eating away your body, you've lived an unnaturally long life.\0
+  msg(EGBERT_D8, CHAOS_93, EGBERT, NOFOLLOW, 80)
+# Until the menace of evil is no more, I will not die!\r\nTo end darkness forever, I offer no less than my soul.\r\nRelatives, loved ones, I will sacrifice it all to keep peace in this land!\0
+break
+
+lbl_4bf:
+  msg(EGBERT_D8, CHAOS_93, EGBERT, NOFOLLOW, 81)
+# I will use all of my power and banish you once and for all!\0
+break
+
+lbl_4c7:
+  msg(EGBERT_D8, DOWN_F5, EGBERT, FOLLOW, 82)
+# How can this be!? How can I die without sealing Chaos ...\0
+break
+
+lbl_4cf:
+  msg(SONYA_D4, DOWN_F5, SONYA_DEAD, FOLLOW, 83)
+# In just a little bit ... In just a little bit Chaos shall return ...\r\nWe will destroy the humans ... yes--\0
+  branch.unit.dead(lbl_4e2, LIANA_02)
+  msg(LIANA_02, SONYA_D4, LIANA, FOLLOW, 84)
+# Sonya ...\0
+  goto(lbl_4e8)
+lbl_4e2:
+  msg(ERWIN_01, SONYA_D4, ERWIN, FOLLOW, 85)
+# Sonya ...\0
+lbl_4e8:
+  msg(SONYA_D4, ERWIN_01, SONYA_DEAD, FOLLOW, 86)
+# Blood is ... My blood ... Heh ... ha ... ha--! Alhazard, drink!\r\nChaos! I sacrifice the blood of both Demons and Humans to your glory! Awaken from your long slumber!\r\nDon't think this is over ... Chaos will ... Chaos wi--\0
+  screen.brightness(4)
+  screen.brightness(0)
+  branch.unit.dead(lbl_4ff, LIANA_02)
+  msg(LIANA_02, SONYA_D4, LIANA, FOLLOW, 87)
+# No! Alhazard is emitting an insane amount of dark energy!\0
+  goto(lbl_512)
+lbl_4ff:
+  branch.unit.dead(lbl_50c, HEIN_05)
+  msg(HEIN_05, SONYA_D4, HEIN, FOLLOW, 88)
+# Al, Alhazard is going wild ...! This power is--\0
+  goto(lbl_512)
+lbl_50c:
+  msg(ERWIN_01, SONYA_D4, ERWIN, FOLLOW, 89)
+# Damn!\0
+lbl_512:
+  msg(SONYA_D4, DOWN_F5, SONYA_DEAD, FOLLOW, 90)
+# Chaos! You've granted my wish!\0
+  unit.cleanup()
+  screen.brightness(2)
+  screen.brightness(0)
+  screen.brightness(4)
+  screen.brightness(0)
+  bgm(ALLY, ENEMY4)
+  bgm(ALLY, ALLYREINFORCEMENT3)
+  unit.deploy(CHAOS_93, 13, 4)
+  msg(CHAOS_93, DOWN_F5, CHAOS, FOLLOW, 91)
+# I am the God of Chaos. Your sacrifice has brought me here.\0
+  branch.unit.dead(lbl_53e, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 92)
+# _NAME_! Chaos has awoken!\0
+  goto(lbl_544)
+lbl_53e:
+  msg(ERWIN_01, CHAOS_93, ERWIN, FOLLOW, 93)
+# Chaos!\0
+lbl_544:
+  msg(CHAOS_93, ERWIN_01, CHAOS, FOLLOW, 94)
+# My name is Chaos.\r\nStarting now, I will accomplish the goal for which I was created.\0
+  msg(ERWIN_01, CHAOS_93, ERWIN, FOLLOW, 95)
+# Is that evil incarnate!?\0
+  msg(CHAOS_93, ERWIN_01, CHAOS, FOLLOW, 96)
+# I was born with the dawn of time.\r\nMy purpose is to see this world remains in the flames of chaos for the whole of eternity.\r\nFor the sake of evolution, I maintain a state of entropy. I will break all.\0
+  branch.unit.dead(lbl_563, JESSICA_14)
+  msg(JESSICA_14, CHAOS_93, JESSICA_ANGRY, FOLLOW, 97)
+# We won't allow that!\0
+  goto(lbl_569)
+lbl_563:
+  msg(ERWIN_01, CHAOS_93, ERWIN_ANGRY, FOLLOW, 98)
+# You think you can stop us from bringing this land a well-deserved peace?\0
+lbl_569:
+  msg(CHAOS_93, ERWIN_01, CHAOS, FOLLOW, 99)
+# Peace violates the rules of the universe.\r\nAll who would stand against turmoil and destruction will be eradicated.\0
+  msg(ERWIN_01, CHAOS_93, ERWIN, FOLLOW, 100)
+# I won't let you do that! I will seal you with Langrisser!\0
+  msg(CHAOS_93, ERWIN_01, CHAOS, FOLLOW, 101)
+# Then come challenge me. Witness the limitation of useless, fleeting life ...\0
+  global.sum($0a4793, $07eb5e)
+  local.sub($0a47d0, $07eb58)
+  local.sum($0a47d0, $07eb5b)
+  local.sum($0a47d0, $07eb5c)
+break
+
+lbl_589:
+break
+
+lbl_58b:
+  unit.cleanup()
+  branch.mem.local.ne(lbl_593, $0a47d5, $07eb5b)
+  subroutine(lbl_5d0)
+lbl_593:
+break
+
+  msg(ERWIN_01, CHAOS_93, ERWIN, FOLLOW, 104)
+# It's finished! Alhazard and Langrisser will merge into nothingness.\r\nBalance will be restored and you'll never awaken.\0
+endsub
+
+lbl_59c:
+  branch.mem.local.eq(lbl_5cf, $0a47d5, $07eb5d)
+  unit.cleanup()
+  unit.swap(SONYA_D4, EGBERT_D8)
+  bgm(ALLY, ENEMY5_EGBERT)
+  cast.teleport(EGBERT_D8, EGBERT_D8, TELEPORT_IN, 13, 20)
+  msg(EGBERT_D8, ERWIN_01, EGBERT, FOLLOW, 105)
+# I'll help you. To seal Chaos, I know an ancient, forbidden spell--\r\nThe Holy Falcon Ray.\r\nIf His Majesty was still here, we might have prepared it together ...\0
+  branch.unit.dead(lbl_5bd, JESSICA_14)
+  msg(JESSICA_14, EGBERT_D8, JESSICA, FOLLOW, 106)
+# Holy Falcon Ray ... to perform this spell--\r\nOh no! Egbert, don't! It requires the sacrifice of the caster's soul!\0
+lbl_5bd:
+  msg(EGBERT_D8, ERWIN_01, EGBERT, FOLLOW, 107)
+# This is my way to take responsibility! But I can't hit him with the spell yet ...\r\n_NAME_, please weaken Chaos!\0
+  msg(ERWIN_01, EGBERT_D8, ERWIN, FOLLOW, 108)
+# ... All right.\0
+  bgm(ALLY, ALLYREINFORCEMENT3)
+  local.sum($0a47d5, $07eb5d)
+lbl_5cf:
+endsub
+
+lbl_5d0:
+  unit.cleanup()
+  branch.unit.dead(lbl_5de, CHERIE_04)
+  msg(CHERIE_04, DOWN_F5, CHERIE, FOLLOW, 109)
+# Even in the end, she still couldn't believe in humans ...\r\nHow sad ...\0
+  goto(lbl_5e8)
+lbl_5de:
+  branch.unit.dead(lbl_5e8, LANA_03)
+  msg(LANA_03, DOWN_F5, LANA, FOLLOW, 110)
+# It's so sad ...\0
+lbl_5e8:
+  branch.unit.dead(lbl_5f2, JESSICA_14)
+  msg(JESSICA_14, DOWN_F5, JESSICA, FOLLOW, 111)
+# This is all because of Alhazard's existence.\0
+lbl_5f2:
+endsub
+
+lbl_5f3:
+  unit.retreat(CHAOS_93)
+  unit.retreat(GREATDRAGON_59)
+  unit.retreat(GREATDRAGON_5A)
+  unit.retreat(VAMPIRELORD_4F)
+  unit.retreat(VAMPIRELORD_8E)
+  unit.retreat(STONEGOLEM_48)
+  unit.retreat(STONEGOLEM_49)
+  unit.retreat(MASTERDINO_55)
+  unit.retreat(MASTERDINO_56)
+  unit.retreat(SUCCUBUS_68)
+endsub
+

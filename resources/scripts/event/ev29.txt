@@ -1,0 +1,446 @@
+# Movement-Triggered Events
+on.move(13, lbl_291, SONYA_D4, 1, 0xff)
+break
+
+# Attack-Triggered Events
+on.attack(2, lbl_231, ERWIN_01, SONYA_D4, 0x00, 0xff, 0xff)
+on.attack(3, lbl_239, ERWIN_01, SONYA_D4, 0x00, 0x00, 0xff)
+on.attack(15, lbl_3fb, STONEGOLEM_48, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(18, lbl_413, VAMPIRELORD_4F, NULL_FF, 0x00, 0xff, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(4, lbl_247, ERWIN_01)
+on.defeat(5, lbl_251, HEIN_05)
+on.defeat(6, lbl_259, CHERIE_04)
+on.defeat(7, lbl_261, KEITH_07)
+on.defeat(8, lbl_269, LESTER_09)
+on.defeat(9, lbl_271, SCOTT_06)
+on.defeat(10, lbl_279, LIANA_02)
+on.defeat(11, lbl_281, LANA_03)
+on.defeat(12, lbl_289, JESSICA_14)
+on.defeat(14, lbl_29d, SONYA_D4)
+on.defeat(16, lbl_403, STONEGOLEM_48)
+on.defeat(17, lbl_40b, STONEGOLEM_49)
+on.defeat(19, lbl_41b, VAMPIRELORD_4F)
+on.defeat(20, lbl_423, LIVINGARMOR_4D)
+on.defeat(21, lbl_42b, LIVINGARMOR_4E)
+on.defeat(21, lbl_433, LIVINGARMOR_A6)
+on.defeat(22, lbl_43b, MASTERDINO_55)
+on.defeat(23, lbl_443, PHOENIX_8C)
+on.defeat(24, lbl_44b, PHOENIX_8D)
+on.defeat(25, lbl_453, GREATDRAGON_59)
+on.defeat(26, lbl_45b, GREATDRAGON_59, MASTERDINO_55)
+break
+
+# Position-Triggered Events
+on.bound(1, lbl_20e, NPC_COMMANDER_F0, 2, 10, 2, 10, 0x00, 0x00)
+break
+
+# Turn-Triggered Events
+on.turn(0, lbl_206, ENEMY, 1, 0x00)
+break
+
+# Core Events
+lbl_cc:
+  global.sum($0a4793, $07eb5d)
+  cursor.set(NULL_00)
+  screen.fadein(4)
+  cursor.set(ERWIN_01)
+  bgm(ALLY, ENEMY7_DARKPRINCESS)
+  unit.hide(SONYA_D4, SUBUNIT)
+  unit.position(SONYA_D4, PRESET, PRESET)
+  unit.setbyte(SONYA_D4, $20, 0x03)
+  unit.refresh()
+  focus.point(13, 6, FAST)
+  cursor.hide()
+  cursor.set(NULL_00)
+  msg(SONYA_D4, UP_F4, SONYA, FOLLOW, 1)
+# Ancient Lord of Darkness! My God, Chaos, hear my plea! Enrapture me with your power!\0
+  screen.brightness(4)
+  screen.brightness(0)
+  delay(60)
+  msg(SONYA_D4, UP_F4, SONYA, FOLLOW, 2)
+# N, nothing ...\0
+  unit.move(SONYA_D4, 11, 6)
+  delay(20)
+  unit.move(SONYA_D4, 15, 6)
+  delay(20)
+  unit.move(SONYA_D4, 13, 6)
+  unit.face(SONYA_D4, UP_F4)
+  delay(60)
+  msg(SONYA_D4, UP_F4, SONYA_ANGRY, FOLLOW, 3)
+# Why? Why hasn't Chaos answered my prayer!\r\nIt probably has to do with this disgusting human blood flowing in my veins!\0
+  bgm(ALLY, ENEMYREINFORCEMENT1)
+  cursor.set(ERWIN_01)
+  unit.position(GREATDRAGON_59, PRESET, PRESET)
+  unit.showsub(GREATDRAGON_59)
+  unit.position(MASTERDINO_55, PRESET, PRESET)
+  unit.showsub(MASTERDINO_55)
+  unit.position(VAMPIRELORD_4F, PRESET, PRESET)
+  unit.showsub(VAMPIRELORD_4F)
+  unit.position(LIVINGARMOR_4D, PRESET, PRESET)
+  unit.showsub(LIVINGARMOR_4D)
+  unit.position(LIVINGARMOR_4E, PRESET, PRESET)
+  unit.showsub(LIVINGARMOR_4E)
+  unit.face(SONYA_D4, LEFT_F6)
+  delay(30)
+  unit.position(LIVINGARMOR_A6, PRESET, PRESET)
+  unit.showsub(LIVINGARMOR_A6)
+  unit.face(SONYA_D4, RIGHT_F7)
+  delay(30)
+  unit.position(STONEGOLEM_48, PRESET, PRESET)
+  unit.showsub(STONEGOLEM_48)
+  unit.position(STONEGOLEM_49, PRESET, PRESET)
+  unit.showsub(STONEGOLEM_49)
+  unit.position(PHOENIX_8C, PRESET, PRESET)
+  unit.showsub(PHOENIX_8C)
+  unit.position(PHOENIX_8D, PRESET, PRESET)
+  unit.showsub(PHOENIX_8D)
+  msg(VAMPIRELORD_4F, SONYA_D4, VAMPIRELORD, FOLLOW, 4)
+# Sonya ... What is it you want with his holiness, Chaos?\0
+  msg(SONYA_D4, VAMPIRELORD_4F, SONYA, FOLLOW, 5)
+# Argh! I won't give up until Chaos returns and brings death to this unfair world!\0
+  msg(VAMPIRELORD_4F, SONYA_D4, VAMPIRELORD, FOLLOW, 6)
+# ...\r\nOur god would never answer a vile being with human taint such as you!\0
+  msg(SONYA_D4, DOWN_F5, SONYA, FOLLOW, 7)
+# Damn it all ...\r\nWhy, why did Father have to choose a human as my mother!?\r\nThe word "human" seems to haunt my whole life!\0
+  cursor.show()
+  bgm(ALLY, ALLYREINFORCEMENT2)
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.showsub(ERWIN_01)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.showsub(HEIN_05)
+  unit.position(CHERIE_04, PRESET, PRESET)
+  unit.showsub(CHERIE_04)
+  unit.position(KEITH_07, PRESET, PRESET)
+  unit.showsub(KEITH_07)
+  unit.position(LESTER_09, PRESET, PRESET)
+  unit.showsub(LESTER_09)
+  unit.position(SCOTT_06, PRESET, PRESET)
+  unit.showsub(SCOTT_06)
+  unit.position(LIANA_02, PRESET, PRESET)
+  unit.showsub(LIANA_02)
+  unit.position(LANA_03, PRESET, PRESET)
+  unit.showsub(LANA_03)
+  unit.position(JESSICA_14, PRESET, PRESET)
+  unit.showsub(JESSICA_14)
+  msg(ERWIN_01, SONYA_D4, ERWIN, FOLLOW, 8)
+# Sonya, please don't do it!\0
+  msg(VAMPIRELORD_4F, ERWIN_01, VAMPIRELORD, FOLLOW, 9)
+# Damn! It's those humans!\0
+  msg(LANA_03, SONYA_D4, LANA, FOLLOW, 10)
+# Sonya, when you summon Chaos, what do you plan to do?\0
+  msg(SONYA_D4, LANA_03, SONYA_ANGRY, FOLLOW, 11)
+# Shut up, you wretched bitch! You betrayed Boser for your worthless human friends!\0
+  msg(HEIN_05, SONYA_D4, HEIN, FOLLOW, 12)
+# That's not true! Boser was controlling her with a spell.\r\nOnce Boser was slain, the spell was lifted and she regained her true self. She betrayed no one.\0
+  msg(SONYA_D4, HEIN_05, SONYA_ANGRY, FOLLOW, 13)
+# Either way, it's the same result!\r\nI'll avenge the Prince of Darkness!\0
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 14)
+# Calm down, Sonya. We don't have to fight like this.\r\nWe are trying to rid El Sallia of wars, for the sake of peace! You can come with us!\0
+  msg(SONYA_D4, ERWIN_01, SONYA_ANGRY, FOLLOW, 15)
+# You have no right to call me by name, you scheming human.\r\nYour so-called peace has no place for the Demon Tribe, much less half-breeds like me!\0
+  unit.showsub(SONYA_D4)
+  msg(VAMPIRELORD_4F, SONYA_D4, VAMPIRELORD, FOLLOW, 16)
+# Sonya ... we will ... assist you in killing the humans.\0
+  msg(SONYA_D4, VAMPIRELORD_4F, SONYA, FOLLOW, 17)
+# Humans, Demons ...\r\nNo one wants me. A life of pain and death is all I will ever have.\0
+  unit.setbyte(SONYA_D4, $20, 0x04)
+  unit.refresh()
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 18)
+# Sonya, ... must you fight!? If not for yourself, stop for Rohga. He loved you!\r\nDamn, it's useless! This leaves a bitter taste in my heart ...\0
+break
+
+lbl_206:
+  msg(SONYA_D4, ERWIN_01, SONYA, FOLLOW, 19)
+# Humans, humans, humans, humans!\r\nI wish you all would just die!\0
+break
+
+lbl_20e:
+  branch.mem.global.eq(lbl_22f, $0a478d, $07eb5a)
+  unit.cleanup()
+  global.sum($0a478d, $07eb5a)
+  prompt.ok(lbl_229)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 21)
+# Obtained Rune Stone.\0
+  item.add(RUNESTONE)
+  goto(lbl_22f)
+lbl_229:
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 22)
+# "Really ..., well in that case ..."\r\nThe face on the wall fell silent.\0
+lbl_22f:
+break
+
+lbl_231:
+  msg(ERWIN_01, RIGHT_F7, ERWIN, NOFOLLOW, 23)
+# Let's go!\0
+break
+
+lbl_239:
+  msg(ERWIN_01, SONYA_D4, ERWIN, NOFOLLOW, 24)
+# We can't allow Chaos to return to our world!\0
+  msg(SONYA_D4, ERWIN_01, SONYA, NOFOLLOW, 25)
+# Don't touch me!\r\nDescendants of Light, my ass! You allow prejudice and hate, but say you want peace? Descend to your graves!\0
+break
+
+lbl_247:
+  msg(ERWIN_01, DOWN_F5, ERWIN_SAD, FOLLOW, 26)
+# Th, this is the end ...\0
+  unit.cleanup()
+  gameover()
+break
+
+lbl_251:
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 27)
+# Gah--!\0
+break
+
+lbl_259:
+  msg(CHERIE_04, DOWN_F5, CHERIE_DEAD, FOLLOW, 28)
+# I'm so, so tired ...\0
+break
+
+lbl_261:
+  msg(KEITH_07, DOWN_F5, KEITH_DEAD, FOLLOW, 29)
+# I'm beat ...\0
+break
+
+lbl_269:
+  msg(LESTER_09, DOWN_F5, LESTER_DEAD, FOLLOW, 30)
+# Shit, what a dreadful mistake ... I must fall back!\0
+break
+
+lbl_271:
+  msg(SCOTT_06, DOWN_F5, SCOTT_DEAD, FOLLOW, 31)
+# Damn. I should have practised more ...\0
+break
+
+lbl_279:
+  msg(LIANA_02, DOWN_F5, LIANA_DEAD, FOLLOW, 32)
+# _NAME_ ... I'm sorry, I'll have to fall back\0
+break
+
+lbl_281:
+  msg(LANA_03, DOWN_F5, LANA_DEAD, FOLLOW, 33)
+# Cough ... Damn! I'll be back, don't you worry ...\0
+break
+
+lbl_289:
+  msg(JESSICA_14, DOWN_F5, JESSICA_DEAD, FOLLOW, 34)
+# The ... the sky ... It's so--\0
+break
+
+lbl_291:
+  msg(SONYA_D4, DOWN_F5, SONYA, FOLLOW, 35)
+# Grant me power! I want power to destroy the humans once and for all!\0
+  screen.brightness(4)
+  screen.brightness(0)
+break
+
+lbl_29d:
+  msg(SONYA_D4, DOWN_F5, SONYA_DEAD, FOLLOW, 36)
+# Aah!\0
+  scenarioclear()
+  msg(ERWIN_01, SONYA_D4, ERWIN, FOLLOW, 37)
+# Sonya!\0
+  unit.retreat(GREATDRAGON_59)
+  unit.retreat(MASTERDINO_55)
+  unit.retreat(VAMPIRELORD_4F)
+  unit.retreat(LIVINGARMOR_4D)
+  unit.retreat(LIVINGARMOR_4E)
+  unit.retreat(LIVINGARMOR_A6)
+  unit.retreat(STONEGOLEM_48)
+  unit.retreat(STONEGOLEM_49)
+  unit.retreat(PHOENIX_8C)
+  unit.retreat(PHOENIX_8D)
+  screen.fadeout(4)
+  cursor.set(NULL_00)
+  unit.retreat(SONYA_D4)
+  unit.retreat(ERWIN_01)
+  unit.retreat(HEIN_05)
+  unit.retreat(LIANA_02)
+  unit.retreat(LANA_03)
+  unit.retreat(CHERIE_04)
+  unit.retreat(KEITH_07)
+  unit.retreat(SCOTT_06)
+  unit.retreat(LESTER_09)
+  unit.retreat(JESSICA_14)
+  cursor.set(ERWIN_01)
+  focus.point(5, 6, FAST)
+  cursor.set(NULL_00)
+  cursor.hide()
+  unit.position(SONYA_D4, 1, 1)
+  unit.setbyte(SONYA_D4, $03, 0x00)
+  unit.position(ERWIN_01, 1, 2)
+  unit.position(LIANA_02, 2, 1)
+  unit.setbyte(LIANA_02, $03, 0x0a)
+  unit.position(LANA_03, 2, 2)
+  unit.setbyte(LANA_03, $03, 0x0a)
+  focus.point(13, 6, FAST)
+  cursor.set(NULL_00)
+  cursor.hide()
+  unit.move(SONYA_D4, 13, 6)
+  unit.setbyte(SONYA_D4, $03, 0x00)
+  unit.move(ERWIN_01, 13, 4)
+  unit.move(LIANA_02, 11, 5)
+  unit.setbyte(LIANA_02, $03, 0x0a)
+  unit.move(LANA_03, 15, 5)
+  unit.setbyte(LANA_03, $03, 0x0a)
+  unit.face(SONYA_D4, DOWN_F5)
+  unit.face(ERWIN_01, DOWN_F5)
+  unit.face(LANA_03, LEFT_F6)
+  screen.fadein(4)
+  delay(30)
+  branch.mem.global.ne(lbl_3ab, $0a4789, $07eb5a)
+  msg(SONYA_D4, DOWN_F5, SONYA_DEAD, NOFOLLOW, 38)
+# Ugh ...\0
+  msg(LIANA_02, SONYA_D4, LIANA, NOFOLLOW, 39)
+# Sonya!\0
+  unit.move(ERWIN_01, 13, 5)
+  msg(ERWIN_01, SONYA_D4, ERWIN, NOFOLLOW, 40)
+# Try not to move ... You might injure yourself further. Are you okay?\0
+  delay(20)
+  unit.face(SONYA_D4, LEFT_F6)
+  delay(20)
+  unit.face(SONYA_D4, UP_F4)
+  delay(20)
+  msg(SONYA_D4, UP_F4, SONYA_DEAD, NOFOLLOW, 41)
+# Hah, ... you're showing ... me mercy before I die.\r\nWhy, why are you kind to me now ...?\r\nI thought all humans were backstabbing, double-crossing-- hateful and racist scum ...!\r\nI thought to myself, "These cruel, heartless people, ... I can easily kill them all!"\r\nHah, ... I guess not all humans are so twisted and evil ... after all.\0
+  unit.face(SONYA_0C, DOWN_F5)
+  delay(10)
+  unit.move(LANA_03, 14, 6)
+  msg(LANA_03, SONYA_D4, LANA_SAD, NOFOLLOW, 42)
+# Sonya! Don't die on us! Please!\0
+  unit.face(SONYA_D4, RIGHT_F7)
+  delay(20)
+  msg(SONYA_D4, UP_F4, SONYA_DEAD, NOFOLLOW, 43)
+# It was nice to see this side of humans before my death.\r\nSo warm, ... your hand. I can ... be proud of ... my human blood ... after all.\r\nRohga, I'll be with you soon ...\0
+  unit.face(ERWIN_01, RIGHT_F7)
+  delay(10)
+  unit.face(ERWIN_01, LEFT_F6)
+  delay(10)
+  unit.face(ERWIN_01, RIGHT_F7)
+  delay(10)
+  unit.face(ERWIN_01, LEFT_F6)
+  delay(10)
+  msg(ERWIN_01, SONYA_D4, ERWIN, NOFOLLOW, 44)
+# Sonya!? What are you saying? No! Please, let her live!\0
+  delay(30)
+  msg(SONYA_D4, ERWIN_01, SONYA_DEAD, NOFOLLOW, 45)
+# ...\0
+  unit.cleanup()
+  msg(ERWIN_01, DOWN_F5, ERWIN_ANGRY, NOFOLLOW, 46)
+# This world has wronged Sonya ...\r\nShe deserved a better life. How .. how heartbreaking.\0
+  delay(30)
+  msg(LIANA_02, DOWN_F5, LIANA_SAD, NOFOLLOW, 47)
+# Sonya ... so sad ... Why ...\0
+  goto(lbl_3ef)
+lbl_3ab:
+  msg(SONYA_D4, DOWN_F5, SONYA_DEAD, NOFOLLOW, 48)
+# Argh ...\0
+  unit.move(SONYA_D4, 13, 7)
+  delay(30)
+  unit.move(SONYA_D4, 13, 8)
+  delay(30)
+  msg(SONYA_D4, DOWN_F5, SONYA_DEAD, NOFOLLOW, 49)
+# Chaos ... Why ... Why ...?\0
+  unit.cleanup()
+  unit.face(LANA_03, DOWN_F5)
+  delay(20)
+  unit.move(LANA_03, 14, 6)
+  delay(20)
+  msg(LANA_03, DOWN_F5, LANA_SAD, NOFOLLOW, 50)
+# That girl, ... Sonya, wished for nothing more than to be surrounded by love.\r\nWhile she said she despised everyone, inside she honestly felt lonely.\0
+  msg(ERWIN_01, DOWN_F5, ERWIN_SAD, NOFOLLOW, 51)
+# ...\0
+  msg(LANA_03, LEFT_F6, LANA_SAD, NOFOLLOW, 52)
+# But, we humans have to answer for that.\r\nIf humans didn't persecute that girl ... If we had showed her some understanding ...\0
+  delay(30)
+  msg(LIANA_02, DOWN_F5, LIANA_SAD, NOFOLLOW, 53)
+# Sonya ... so sad ...\0
+  delay(20)
+  unit.move(ERWIN_01, 13, 6)
+lbl_3ef:
+  msg(ERWIN_01, DOWN_F5, ERWIN, NOFOLLOW, 54)
+# This war is merciless ... Tragedies like these are why I choose to wield Langrisser!\r\nThe next generation should not know such suffering. Let us put an end to this war-torn, tear-filled era!\0
+  delay(20)
+  loadscenario(23)
+break
+
+lbl_3fb:
+  msg(STONEGOLEM_48, RIGHT_F7, GOLEM, NOFOLLOW, 55)
+# Grrrrrr ...!\0
+break
+
+lbl_403:
+  msg(STONEGOLEM_48, DOWN_F5, GOLEM, FOLLOW, 56)
+# Aaahhh ...!\0
+break
+
+lbl_40b:
+  msg(STONEGOLEM_49, DOWN_F5, GOLEM, FOLLOW, 57)
+# Arghh--!\0
+break
+
+lbl_413:
+  msg(VAMPIRELORD_4F, RIGHT_F7, VAMPIRELORD, NOFOLLOW, 58)
+# Die, fools! How dare you defile our temple!\0
+break
+
+lbl_41b:
+  msg(VAMPIRELORD_4F, DOWN_F5, VAMPIRELORD, FOLLOW, 59)
+# How could I lose to a mere human...?\0
+break
+
+lbl_423:
+  msg(LIVINGARMOR_4D, DOWN_F5, DULLAHAN_GRAY, FOLLOW, 60)
+# ...\0
+break
+
+lbl_42b:
+  msg(LIVINGARMOR_4E, DOWN_F5, DULLAHAN_GRAY, FOLLOW, 61)
+# ...!\0
+break
+
+lbl_433:
+  msg(LIVINGARMOR_A6, DOWN_F5, DULLAHAN_GRAY, FOLLOW, 62)
+# ...!\0
+break
+
+lbl_43b:
+  msg(MASTERDINO_55, DOWN_F5, MASTERDINO, FOLLOW, 63)
+# Gaahh--!\0
+break
+
+lbl_443:
+  msg(PHOENIX_8C, DOWN_F5, PHOENIX_RED, FOLLOW, 64)
+# Aaahh--!\0
+break
+
+lbl_44b:
+  msg(PHOENIX_8D, DOWN_F5, PHOENIX_RED, FOLLOW, 65)
+# Aahhh!\0
+break
+
+lbl_453:
+  msg(GREATDRAGON_59, DOWN_F5, WYVERN, FOLLOW, 66)
+# Aarrghhh!\0
+break
+
+lbl_45b:
+  branch.unit.dead(lbl_468, LIVINGARMOR_4E)
+  msg(LIVINGARMOR_4E, RIGHT_F7, DULLAHAN_GRAY, FOLLOW, 67)
+# ...\0
+  goto(lbl_472)
+lbl_468:
+  branch.unit.dead(lbl_472, LIVINGARMOR_A6)
+  msg(LIVINGARMOR_A6, RIGHT_F7, DULLAHAN_GRAY, FOLLOW, 68)
+# ...\0
+lbl_472:
+  unit.clearbit(LIVINGARMOR_4E, $17, 0)
+  unit.clearbit(LIVINGARMOR_A6, $17, 0)
+  unit.clearbit(JESSICA_14, $17, 0)
+  unit.setbit(JESSICA_14, $17, 6)
+break
+

@@ -235,7 +235,7 @@ lbl_377:
 break
 
 lbl_37c:
-  branch.eq.global(lbl_39a, $0a4794, $07eb5f)
+  branch.mem.global.eq(lbl_39a, $0a4794, $07eb5f)
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 35)
 # Through a window, you spot a bird's nest.\r\nRooting through the feathers in the bottom, you find a flask.\r\nThe liquid in the flask seems to be the colour of the sea ...\0
   prompt.ok(lbl_39a)
@@ -392,7 +392,7 @@ lbl_494:
 break
 
 lbl_49c:
-  branch.ne.global(lbl_4a9, $0a47d5, $07eb5a)
+  branch.mem.local.ne(lbl_4a9, $0a47d5, $07eb5a)
   msg(VARGAS_D6, DOWN_F5, VARGAS_DEAD, FOLLOW, 69)
 # Ugh ... I don't think I can go on any longer ...\0
   goto(lbl_4af)
@@ -515,7 +515,7 @@ lbl_5a4:
 # Oh well, I'm leaving! Hya ha ha ...\0
   unit.retreat(MORGAN_1B)
   local.sum($0a47d6, $07eb5f)
-  branch.ne.global(lbl_5b6, $0a47d7, $07eb58)
+  branch.mem.local.ne(lbl_5b6, $0a47d7, $07eb58)
   subroutine(lbl_6ce)
 lbl_5b6:
 break
@@ -583,7 +583,7 @@ lbl_622:
 break
 
 lbl_627:
-  branch.ne.global(lbl_62e, $0a47d6, $07eb5f)
+  branch.mem.local.ne(lbl_62e, $0a47d6, $07eb5f)
   subroutine(lbl_6ce)
 lbl_62e:
 break
@@ -682,7 +682,7 @@ lbl_6ce:
 # Thanks to _NAME_, we were able to able to repel Rayguard's assault.\0
   msg(KEITH_07, CHERIE_04, KEITH, FOLLOW, 130)
 # Princess ... You should properly thank _NAME_.\0
-  branch.ne.global(lbl_707, $0a4789, $07eb58)
+  branch.mem.global.ne(lbl_707, $0a4789, $07eb58)
   msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 131)
 # I guess so ...\r\nHmm--! Where'd that armour go ...?\r\nI'm sorry, I must have given it to someone. I don't have it any more.\0
   msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 132)
@@ -879,7 +879,7 @@ lbl_8ee:
   unit.deploy(IMPERIALCOMMANDER_37, 14, 29)
   unit.deploy(MORGAN_1B, 17, 28)
   unit.deploy(ZORUM_1A, 19, 29)
-  branch.eq.global(lbl_95d, $0a47d1, $07eb58)
+  branch.mem.local.eq(lbl_95d, $0a47d1, $07eb58)
   msg(MORGAN_1B, ZORUM_1A, MORGAN, FOLLOW, 188)
 # I've caught up with you at last!\0
   msg(ZORUM_1A, LEFT_F6, ZORUM, FOLLOW, 189)

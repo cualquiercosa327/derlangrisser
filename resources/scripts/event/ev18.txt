@@ -57,7 +57,7 @@ lbl_140:
   bgm(ALLY, NIGHT)
   cursor.set(NULL_00)
   cursor.hide()
-  screen.map(15)
+  screen.map.set(15)
   unit.swap(JESSICA_14, ELIZA_A5)
   unit.swap(LAIRD_18, PRIEST_75)
   unit.position(ELIZA_A5, 6, 14)
@@ -161,7 +161,7 @@ lbl_140:
   unit.retreat(ELIZA_A5)
   unit.swap(ELIZA_A5, JESSICA_14)
   unit.swap(PRIEST_75, LAIRD_18)
-  screen.map(9)
+  screen.map.set(9)
   cursor.set(ERWIN_01)
   cursor.show()
   focus.point(6, 40, FAST)
@@ -283,7 +283,7 @@ lbl_3c1:
 break
 
 lbl_3c7:
-  branch.eq.global(lbl_414, $0a47d0, $07eb5e)
+  branch.mem.local.eq(lbl_414, $0a47d0, $07eb5e)
   unit.position(LEON_D5, 2, 42)
   unit.showsub(LEON_D5)
   branch.unit.dead(lbl_3db, LAIRD_18)
@@ -350,7 +350,7 @@ break
 lbl_460:
   msg(HEIN_05, UP_F4, HEIN, FOLLOW, 61)
 # So this is Langrisser. It looks kind of ordinary ... Is it really so powerful?\r\nWhat!? I can't pull it out.\0
-  branch.ne.global(lbl_487, $0a47d0, $07eb5f)
+  branch.mem.local.ne(lbl_487, $0a47d0, $07eb5f)
   branch.unit.dead(lbl_474, JESSICA_14)
   subroutine(lbl_7c2)
   goto(lbl_481)
@@ -391,7 +391,7 @@ break
 lbl_4b8:
   msg(AARON_08, UP_F4, AARON, FOLLOW, 64)
 # I'm finally here ... What? How strange, ... I can't seem to remove it.\0
-  branch.ne.global(lbl_4dc, $0a47d0, $07eb5f)
+  branch.mem.local.ne(lbl_4dc, $0a47d0, $07eb5f)
   branch.unit.dead(lbl_4cc, JESSICA_14)
   subroutine(lbl_7c2)
   goto(lbl_4d9)
@@ -416,7 +416,7 @@ break
 lbl_4ee:
   msg(KEITH_07, UP_F4, KEITH, FOLLOW, 65)
 # So this is the Legendary Sword ...\r\nWhat? Why can't I pull it out!?\0
-  branch.ne.global(lbl_512, $0a47d0, $07eb5f)
+  branch.mem.local.ne(lbl_512, $0a47d0, $07eb5f)
   branch.unit.dead(lbl_502, JESSICA_14)
   subroutine(lbl_7c2)
   goto(lbl_50f)
@@ -441,7 +441,7 @@ break
 lbl_524:
   msg(LESTER_09, UP_F4, LESTER, FOLLOW, 66)
 # The Legendary Sword is mine!\r\nDamn ...!? Son of a bitch, it's stuck! What the hell?\0
-  branch.ne.global(lbl_548, $0a47d0, $07eb5f)
+  branch.mem.local.ne(lbl_548, $0a47d0, $07eb5f)
   branch.unit.dead(lbl_538, JESSICA_14)
   subroutine(lbl_7c2)
   goto(lbl_545)
@@ -504,7 +504,7 @@ lbl_59d:
 break
 
 lbl_5bb:
-  branch.eq.global(lbl_5f6, $0a478a, $07eb5d)
+  branch.mem.global.eq(lbl_5f6, $0a478a, $07eb5d)
   unit.cleanup()
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 78)
 # A plank floats in the waves. On it lies a beautiful flower.\r\nWhat will you do?\0
@@ -686,7 +686,7 @@ break
 
 lbl_71c:
   unit.cleanup()
-  branch.ne.global(lbl_743, $0a47d0, $07eb5a)
+  branch.mem.local.ne(lbl_743, $0a47d0, $07eb5a)
   bgm(ENEMY, ENEMY1_LEON)
   unit.deploy(LEON_D5, 2, 42)
   unit.face(LEON_D5, UP_F4)
@@ -729,7 +729,7 @@ lbl_77e:
 endsub
 
 lbl_782:
-  branch.ne.global(lbl_797, $0a478f, $07eb58)
+  branch.mem.global.ne(lbl_797, $0a478f, $07eb58)
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 137)
 # Obtained Masayan Sword.\0
   item.add(MASAYANSWORD)
@@ -761,66 +761,66 @@ lbl_7ab:
 endsub
 
 lbl_7c2:
-  branch.ne.global(lbl_7cf, $0a47d1, $07eb5b)
+  branch.mem.local.ne(lbl_7cf, $0a47d1, $07eb5b)
   msg(JESSICA_14, HEIN_05, JESSICA, FOLLOW, 125)
 # Only the Descendants of Light can use Langrisser.\r\nBesides myself, there's Cherie, Liana, and _NAME_.\0
   goto(lbl_7f3)
 lbl_7cf:
-  branch.ne.global(lbl_7dc, $0a47d1, $07eb5f)
+  branch.mem.local.ne(lbl_7dc, $0a47d1, $07eb5f)
   msg(JESSICA_14, AARON_08, JESSICA, FOLLOW, 125)
 # Only the Descendants of Light can use Langrisser.\r\nBesides myself, there's Cherie, Liana, and _NAME_.\0
   goto(lbl_7f3)
 lbl_7dc:
-  branch.ne.global(lbl_7e9, $0a47d2, $07eb59)
+  branch.mem.local.ne(lbl_7e9, $0a47d2, $07eb59)
   msg(JESSICA_14, KEITH_07, JESSICA, FOLLOW, 125)
 # Only the Descendants of Light can use Langrisser.\r\nBesides myself, there's Cherie, Liana, and _NAME_.\0
   goto(lbl_7f3)
 lbl_7e9:
-  branch.ne.global(lbl_7f3, $0a47d2, $07eb5b)
+  branch.mem.local.ne(lbl_7f3, $0a47d2, $07eb5b)
   msg(JESSICA_14, LESTER_09, JESSICA, FOLLOW, 125)
 # Only the Descendants of Light can use Langrisser.\r\nBesides myself, there's Cherie, Liana, and _NAME_.\0
 lbl_7f3:
 endsub
 
 lbl_7f4:
-  branch.ne.global(lbl_801, $0a47d1, $07eb5b)
+  branch.mem.local.ne(lbl_801, $0a47d1, $07eb5b)
   msg(LIANA_02, HEIN_05, LIANA, FOLLOW, 126)
 # I've heard that only the Descendants of Light can use Langrisser.\r\nI think that's what the ancient texts said, so that leaves _NAME_, Cherie and I.\0
   goto(lbl_825)
 lbl_801:
-  branch.ne.global(lbl_80e, $0a47d1, $07eb5f)
+  branch.mem.local.ne(lbl_80e, $0a47d1, $07eb5f)
   msg(LIANA_02, AARON_08, LIANA, FOLLOW, 126)
 # I've heard that only the Descendants of Light can use Langrisser.\r\nI think that's what the ancient texts said, so that leaves _NAME_, Cherie and I.\0
   goto(lbl_825)
 lbl_80e:
-  branch.ne.global(lbl_81b, $0a47d2, $07eb59)
+  branch.mem.local.ne(lbl_81b, $0a47d2, $07eb59)
   msg(LIANA_02, KEITH_07, LIANA, FOLLOW, 126)
 # I've heard that only the Descendants of Light can use Langrisser.\r\nI think that's what the ancient texts said, so that leaves _NAME_, Cherie and I.\0
   goto(lbl_825)
 lbl_81b:
-  branch.ne.global(lbl_825, $0a47d2, $07eb5b)
+  branch.mem.local.ne(lbl_825, $0a47d2, $07eb5b)
   msg(LIANA_02, LESTER_09, JESSICA, FOLLOW, 126)
 # I've heard that only the Descendants of Light can use Langrisser.\r\nI think that's what the ancient texts said, so that leaves _NAME_, Cherie and I.\0
 lbl_825:
 endsub
 
 lbl_826:
-  branch.ne.global(lbl_833, $0a47d1, $07eb5b)
+  branch.mem.local.ne(lbl_833, $0a47d1, $07eb5b)
   msg(ERWIN_01, HEIN_05, ERWIN, FOLLOW, 127)
 # I heard that no one except the Descendants of Light can unsheathe the Legendary Sword.\r\nOf those present, there's just me, Cherie and Liana.\0
   goto(lbl_857)
 lbl_833:
-  branch.ne.global(lbl_840, $0a47d1, $07eb5f)
+  branch.mem.local.ne(lbl_840, $0a47d1, $07eb5f)
   msg(ERWIN_01, AARON_08, ERWIN, FOLLOW, 127)
 # I heard that no one except the Descendants of Light can unsheathe the Legendary Sword.\r\nOf those present, there's just me, Cherie and Liana.\0
   goto(lbl_857)
 lbl_840:
-  branch.ne.global(lbl_84d, $0a47d2, $07eb59)
+  branch.mem.local.ne(lbl_84d, $0a47d2, $07eb59)
   msg(ERWIN_01, KEITH_07, ERWIN, FOLLOW, 127)
 # I heard that no one except the Descendants of Light can unsheathe the Legendary Sword.\r\nOf those present, there's just me, Cherie and Liana.\0
   goto(lbl_857)
 lbl_84d:
-  branch.ne.global(lbl_857, $0a47d2, $07eb5b)
+  branch.mem.local.ne(lbl_857, $0a47d2, $07eb5b)
   msg(ERWIN_01, LESTER_09, ERWIN, FOLLOW, 127)
 # I heard that no one except the Descendants of Light can unsheathe the Legendary Sword.\r\nOf those present, there's just me, Cherie and Liana.\0
 lbl_857:
@@ -828,7 +828,7 @@ endsub
 
 lbl_858:
   scenarioclear()
-  branch.eq.global(lbl_866, $0a47d5, $07eb5b)
+  branch.mem.local.eq(lbl_866, $0a47d5, $07eb5b)
   msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 140)
 # It seems there's nobody left to interfere.\r\nTaking Langrisser will no longer be difficult.\0
   subroutine(lbl_782)
