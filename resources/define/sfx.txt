@@ -1,0 +1,157 @@
+01 - Window Open
+
+02 - Select 1
+
+03 - Command Confirmation
+
+04 - Command Cancel
+
+05 - Equipment
+
+06 - Equipment Drop
+
+07 - Operation Miss
+
+08 - Sword Wielding
+
+09 - Perfect Sword Strength
+
+10 - Projectile 1
+
+11 - Projectile 2
+
+12 - Enemy Kill
+
+13 - Enemy Fall
+
+14 - Combat Sounds - Swords
+
+15 - Flying Arrows
+
+16 - Walking
+
+17 - Iron Bell
+
+18 - Flying Soldier Sounds
+
+19 - Voice of Time
+
+20 - Girl Scream 1 - Right
+
+21 - Girl Scream 1 - Left
+
+22 - Girl Scream 2 - Right
+
+23 - Girl Scream 2 - Left
+
+24 - Monster Scream 1 - Right
+
+25 - Monster Scream 1 - Left
+
+26 - Monster Scream 2 - Right
+
+27 - Monster Scream 2 - Left
+
+28 - Male Scream 1 - Right
+
+29 - Male Scream 1 - Left
+
+30 - Male Scream 2 - Right
+
+31 - Male Scream 2 - Left
+
+32 - Male Scream 3 - Centre
+
+33 - Explosion
+
+34 - Impact
+
+35 - Great Explosion
+
+36 - Magic Miss
+
+37 - Magic Effect
+
+38 - Magic Arrow
+
+39 - Thunder
+
+40 - Fireball
+
+41 - Meteor
+
+42 - Turn Undead
+
+43 - Heal
+
+44 - Heal 1
+
+45 - Sleep, Charm
+
+46 - Zone
+
+47 - Blizzard
+
+48 - Tornado
+
+49 - Attack 1, 2
+
+50 - Mute, Quick, etc.
+
+51 - Again
+
+52 - Decrease, Summon
+
+53 - Blast
+
+54 - Girl Scream 3 - Right
+
+55 - Girl Scream 3 - Left
+
+56 - Male Scream 4 - Right
+
+57 - Male Scream 4 - Left
+
+58 - Monster Scream 3 - Right
+
+59 - Monster Scream 3 - Left
+
+60 - Monster Scream 4 - Right
+
+61 - Monster Scream 4 - Left
+
+62 - Magic Finish
+
+63 - Earthquake
+
+64 - Scenario Clear
+
+65 - SE Stop
+
+66 - Male Scream 5 - Right
+
+67 - Male Scream 5 - Left
+
+68 - Girl Scream 4 - Right
+
+69 - Girl Scream 4 - Left
+
+70 - Girl Scream 5 - Right
+
+71 - Girl Scream 5 - Left
+
+72 - Male Scream 6 - Right
+
+73 - Experience Points
+
+74 - Magic Effect 1
+
+75 - Magic Effect 2
+
+76 - Protection 1, 2
+
+77 - Teleport
+
+78 - Heal 2, Force Heal 2
+
+79 - Langrisser

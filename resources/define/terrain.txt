@@ -1,0 +1,57 @@
+01 - Plains
+
+02 - Rough Ground
+
+03 - Road
+
+04 - Forest
+
+05 - Mountain A
+
+06 - Mountain B
+
+07 - Ocean
+
+08 - Raised Wall
+
+09 - Castle Wall
+
+10 - Castle Interior
+
+11 - Home Interior
+
+12 - Temple Interior
+
+13 - Throne Room
+
+14 - Fishing Bridge
+
+15 - Sky Bridge
+
+16 - Plains
+
+17 - Burning
+
+18 - Burning
+
+19 - Graveyard
+
+20 - Ship Deck
+
+21 - Riverside
+
+22 - City Streets
+
+23 - Ship Deck
+
+24 - Riverside
+
+25 - City Streets
+
+26 - Realm of the Gods
+
+27 - Ruined Castle
+
+28 - High Wall
+
+29 - Forbidden

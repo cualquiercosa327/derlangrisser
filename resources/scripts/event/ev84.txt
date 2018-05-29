@@ -1,0 +1,38 @@
+# Movement-Triggered Events
+break
+
+# Attack-Triggered Events
+break
+
+# Damage-Triggered Events
+break
+
+# Position-Triggered Events
+break
+
+# Turn-Triggered Events
+break
+
+# Core Events
+lbl_18:
+  screen.map.set(1)
+  cursor.set(NULL_00)
+  unit.position(LIANA_02, 5, 18)
+  unit.position(IMPERIALCOMMANDER_31, 5, 22)
+  unit.showsub(IMPERIALCOMMANDER_31)
+  unit.position(LEON_D5, 10, 22)
+  unit.position(LAIRD_18, 11, 18)
+  unit.position(IMPERIALCOMMANDER_30, 10, 26)
+  unit.showsub(IMPERIALCOMMANDER_30)
+  unit.face(LIANA_02, DOWN_F5)
+  unit.face(IMPERIALCOMMANDER_31, UP_F4)
+  unit.face(LEON_D5, LEFT_F6)
+  unit.face(LAIRD_18, DOWN_F5)
+  unit.face(IMPERIALCOMMANDER_30, UP_F4)
+  focus.point(13, 30, FAST)
+  screen.fadein(4)
+  cursor.set(ERWIN_01)
+  focus.point(13, 19, SLOW)
+  focus.point(5, 19, SLOW)
+  delay(30)
+  screen.mask(10, 10, 10)

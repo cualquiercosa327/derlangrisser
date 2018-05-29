@@ -122,13 +122,17 @@ check_scenario() {
   
   %check_sc(82, 30, ec, ee) ; $30ecee Scenario 73
   
+  %check_sc(84, 30, fe, 53) ; $30fe5e Staff Roll
   %check_sc(86, 30, f2, 63) ; $30f263 Lushiris Quiz
   %check_sc(87, 30, f5, 03) ; $30f503 Lushiris Tactics
   
-  ; Untested:
-  ; $30f263 = Lushiris Quiz
-  ; $30f503 = Lushiris Tactics
-
+  %check_sc(88, 30, f5, 5c) ; $30f55c Cutscene: Intro
+  %check_sc(89, 30, f6, 66) ; $30f666 Cutscene: Light Ending
+  %check_sc(90, 30, f7, af) ; $30f7af Cutscene: Imperial Ending1
+  %check_sc(91, 30, f9, bc) ; $30f9bc Cutscene: Imperial Ending2
+  %check_sc(92, 30, fb, 9f) ; $30fb9f Cutscene: Chaos Ending
+  %check_sc(93, 30, fc, 95) ; $30fc95 Cutscene: Independent Ending
+  
   lda $08 : pha
   lda $09 : pha
   jml $00bcb6
@@ -338,6 +342,9 @@ load_ev78() {
 load_ev79() {
   %load_ev(ev79, ev79_end)
 }
+load_ev84() {
+  %load_ev(ev84, ev84_end)
+}
 load_ev82() {
   %load_ev(ev82, ev82_end)
 }
@@ -346,6 +353,24 @@ load_ev86() {
 }
 load_ev87() {
   %load_ev(ev87, ev87_end)
+}
+load_ev88() {
+  %load_ev(ev88, ev88_end)
+}
+load_ev89() {
+  %load_ev(ev89, ev89_end)
+}
+load_ev90() {
+  %load_ev(ev90, ev90_end)
+}
+load_ev91() {
+  %load_ev(ev91, ev91_end)
+}
+load_ev92() {
+  %load_ev(ev92, ev92_end)
+}
+load_ev93() {
+  %load_ev(ev93, ev93_end)
 }
 
 ev08:
@@ -635,6 +660,10 @@ ev82:
   incbin resources/data/e072.bin
 ev82_end:
 
+ev84:
+  incbin resources/events/ev84.dat
+ev84_end:
+
 ev86:
   incbin resources/events/ev86.dat
 ev86_end:
@@ -642,4 +671,28 @@ ev86_end:
 ev87:
   incbin resources/events/ev87.dat
 ev87_end:
+
+ev88:
+  incbin resources/events/ev88.dat
+ev88_end:
+
+ev89:
+  incbin resources/events/ev89.dat
+ev89_end:
+
+ev90:
+  incbin resources/events/ev90.dat
+ev90_end:
+
+ev91:
+  incbin resources/events/ev91.dat
+ev91_end:
+
+ev92:
+  incbin resources/events/ev92.dat
+ev92_end:
+
+ev93:
+  incbin resources/events/ev93.dat
+ev93_end:
 
