@@ -113,11 +113,10 @@ $ar_target = array("COMMANDER", "SUBUNIT");
 // Read event script directory list to an array
 $events = array_values(array_diff(scandir("resources/events"), array('..', '.', ".DS_Store")));
 
-$pointers = array();
-
 
 // Decompile loop
 for($i = 0; $i < count($events); $i++) {
+  $pointers = array();
   $fd = fopen("resources/events/" . $events[$i], "rb");
   $fo = fopen("resources/scripts/event/" . substr($events[$i], 0, -3) . "txt", "w");
   
@@ -726,6 +725,7 @@ for($i = 0; $i < count($events); $i++) {
         break;
     }
   }
+  unset($pointers);
 }
 
 ?>

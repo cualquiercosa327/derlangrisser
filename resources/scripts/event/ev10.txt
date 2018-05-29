@@ -141,10 +141,8 @@ lbl_1d8:
 # I've heard the Empire seeks the tablet to break the seal of Alhazard ...\r\nIf this is true, then I must refuse. The release of Alhazard's power would destroy the world!\0
   msg(ZORUM_1A, PRIEST_24, ZORUM, FOLLOW, 13)
 # In that case, we'll just be confiscating the tablet, then!\0
-lbl_292:
   msg(MORGAN_1B, PRIEST_24, MORGAN, FOLLOW, 14)
 # Phooey, you can have the old man and the others, Zorum.\r\nI'm just here to have fun with little maidens! Hee hee hee ...\r\nHmmm ...?\0
-lbl_298:
   focus.unit(LIANA_02)
   msg(LIANA_02, MORGAN_1B, LIANA, FOLLOW, 15)
 # This isn't good ...\0
@@ -157,7 +155,6 @@ lbl_298:
   msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 19)
 # If that is what you wish ...\0
   bgm(ALLY, ALLY2)
-lbl_2bd:
   local.sum($0a47d0, $07eb58)
   local.sum($0a47d0, $07eb59)
   local.sum($0a47d0, $07eb5a)
@@ -169,7 +166,6 @@ lbl_2cb:
 # Let's go, Morgan. We'll take them out in one strike!\0
   msg(MORGAN_1B, ZORUM_1A, MORGAN, FOLLOW, 21)
 # Let's not, meat for brains, and "Morgan" alone isn't enough.\r\nYou will refer to me as "Commander Morgan!"\0
-lbl_2d7:
   msg(ZORUM_1A, MORGAN_1B, ZORUM, FOLLOW, 22)
 # Oh no, I won't! This time, I'll be the one commanding.\r\nAnd I'll call you whatever I please!\r\nIf you hate being addressed without a title, maybe I can find one more fitting, like "Widdle Morgan."\0
   msg(MORGAN_1B, ZORUM_1A, MORGAN, FOLLOW, 23)
@@ -178,7 +174,6 @@ lbl_2d7:
 # What was that!?\r\nI don't need to take such insults from a demented pervert with a Lolita complex!\0
   msg(MORGAN_1B, ZORUM_1A, MORGAN, FOLLOW, 25)
 # Y, you ... Damn you!\0
-lbl_2ef:
   branch.ifdead(lbl_2f9, HEIN_05)
   msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 26)
 # Sigh ... It appears teamwork isn't their strong suit ...\0
@@ -245,19 +240,16 @@ break
 
 lbl_38c:
   local.sub($0a47d0, $07eb59)
-lbl_38f:
 break
 
 lbl_391:
   branch.ifdead(lbl_3c1, ROHGA_0B)
   msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 45)
 # Man ... You have an amazing eye for battle ...\0
-lbl_39b:
   msg(ERWIN_01, ROHGA_0B, ERWIN, FOLLOW, 46)
 # Is that so? I didn't realise you were one to give compliments.\0
   msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 47)
 # I would have handled this strategy differently ... Do you have any orders for me?\r\nI was originally a mercenary, so taking orders is a great chance for me to see just what commanding skills you have.\r\nSo tell me, boss, what's the plan?\0
-lbl_3a7:
   msg(ERWIN_01, ROHGA_0B, ERWIN, FOLLOW, 48)
 # An interesting idea ...! Well then, I'll show you the way we fight.\0
   msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 49)
@@ -285,7 +277,6 @@ break
 lbl_3d7:
   subroutine(lbl_923)
   branch.ifdead(lbl_3fd, HEIN_05)
-lbl_3de:
   msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 52)
 # We're in trouble, _NAME_! The Imperial Army is launching an ambush!\0
   branch.ifdead(lbl_3ee, ZORUM_1A)
@@ -313,7 +304,6 @@ lbl_40b:
   prompt.ok(lbl_429)
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 59)
 # Obtained Swift Boots.\0
-lbl_424:
   item.add(SWIFTBOOTS)
   global.sum($0a4788, $07eb58)
 lbl_429:
@@ -322,7 +312,6 @@ break
 lbl_42b:
   msg(ERWIN_01, RIGHT_F7, ERWIN, NOFOLLOW, 60)
 # That's as far as you go!\0
-lbl_431:
 break
 
 lbl_433:
@@ -361,7 +350,6 @@ lbl_465:
   msg(LIANA_02, DOWN_F5, LIANA_DEAD, FOLLOW, 67)
 # Argh ... _NAME_--!\0
   unit.cleanup()
-lbl_46c:
   msg(ERWIN_01, LEFT_F6, ERWIN_SAD, FOLLOW, 68)
 # It can't be ... can't be that--!\0
   gameover()
@@ -377,7 +365,6 @@ break
 
 lbl_47f:
   subroutine(lbl_8fc)
-lbl_482:
 break
 
 lbl_484:
@@ -417,10 +404,8 @@ lbl_4cb:
   unit.cleanup()
   msg(MORGAN_1B, RIGHT_F7, MORGAN, FOLLOW, 79)
 # Wah ha ha! Oh, what a lovely turn of events!\r\nMy sincere gratitude to you all! You just saved us a great deal of time!\0
-lbl_4d8:
   msg(ERWIN_01, DOWN_F5, ERWIN_SAD, FOLLOW, 80)
 # Damn it! We should have taken out that guy first--!\0
-lbl_4de:
   gameover()
 lbl_4df:
 break
@@ -459,7 +444,6 @@ break
 lbl_51d:
   msg(CHERIE_04, UP_F4, CHERIE, FOLLOW, 88)
 # Cherie of Kalxath, heading out!\0
-lbl_523:
   msg(SCOTT_06, CHERIE_04, SCOTT, NOFOLLOW, 89)
 # Cherie ...? I think maybe I've met her somewhere before ...\0
 break
@@ -505,7 +489,6 @@ break
 lbl_595:
   msg(CHERIE_04, LEFT_F6, CHERIE, NOFOLLOW, 102)
 # I've never cared much for the Imperial Army!\0
-lbl_59b:
 break
 
 lbl_59d:
@@ -513,7 +496,6 @@ lbl_59d:
 # I guess I overdid it ... I need to take a rest ...\0
   unit.cleanup()
   subroutine(lbl_903)
-lbl_5a7:
 break
 
 lbl_5a9:
@@ -608,5 +590,4 @@ lbl_666:
 # Yeah ... If we somehow defeat Morgan, I'm sure it will break the spell!\0
   msg(MORGAN_1B, ERWIN_01, MORGAN, FOLLOW, 130)
 # Mwa ha ha ha! You think you can beat me with your weak spirit?\r\nWell, if you want to become a zombie, then I'll grant your wish right away. I could always use a few more minions!\0
-lbl_67e:
   unit.clearbit(LIANA_02, $17, 0)

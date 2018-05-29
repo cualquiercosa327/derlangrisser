@@ -65,7 +65,6 @@ break
 # Core Events
 lbl_17a:
   focus.point(10, 42, FAST)
-lbl_17e:
   bgm(ALLY, ALLY1)
   cursor.set(NULL_00)
   unit.hide(IMPERIALCOMMANDER_31, COMMANDER)
@@ -167,7 +166,6 @@ lbl_291:
   branch.ifdead(lbl_29e, IMPERIALCOMMANDER_30)
   msg(IMPERIALCOMMANDER_30, LAIRD_18, SWORDSMAN1_GREEN, FOLLOW, 27)
 # Understood!\0
-lbl_29b:
   goto(lbl_2a4)
 lbl_29e:
   msg(IMPERIALCOMMANDER_31, LAIRD_18, FIGHTER_GREEN, NOFOLLOW, 28)
@@ -221,7 +219,6 @@ break
 lbl_2fb:
   unit.cleanup()
   branch.eq.global(lbl_306, $0a47d1, $07eb5b)
-lbl_300:
   subroutine(lbl_6e4)
   local.sum($0a47d1, $07eb5b)
 lbl_306:
@@ -240,7 +237,6 @@ lbl_308:
 # It's hopeless. I must withdraw ...\0
 lbl_325:
   local.sum($0a47d1, $07eb5d)
-lbl_328:
   subroutine(lbl_840)
   msg(LIANA_02, DOWN_F5, LIANA, FOLLOW, 39)
 # I can't believe we've managed to elude the Imperial Army again.\0
@@ -295,7 +291,6 @@ lbl_38c:
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 48)
 # At the top of the hill, you see a large, mysterious tree.\r\nYou notice strange fruits scattered about beneath it.\0
   prompt.ok(lbl_3a7)
-lbl_39b:
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 50)
 # A surge of power flows instantly through your body!\r\nAT raised by 1 point!\0
   unit.raisestat(58, 1)
@@ -318,7 +313,6 @@ break
 lbl_3bf:
   msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 54)
 # I can't be defeated ... I must protect Liana--!\0
-lbl_3c5:
   unit.cleanup()
   gameover()
 break
@@ -343,7 +337,6 @@ lbl_3ee:
   msg(ERWIN_01, RIGHT_F7, ERWIN_SAD, FOLLOW, 59)
 # I can't let it end like this ... If only I had more power--!\0
   gameover()
-lbl_3f5:
 break
 
 lbl_3f7:
@@ -443,7 +436,6 @@ lbl_48d:
   unit.retreat(IMPERIALCOMMANDER_35)
   unit.move(LEON_D5, 11, 53)
   unit.retreat(LEON_D5)
-lbl_4ce:
 break
 
 lbl_4d0:
@@ -454,7 +446,6 @@ break
 lbl_4d8:
   msg(LEON_D5, LEFT_F6, LEON, NOFOLLOW, 83)
 # I will cut down anyone who stands in our way!\0
-lbl_4de:
 break
 
 lbl_4e0:
@@ -466,7 +457,6 @@ lbl_4e0:
 # Don't be a fool! How can you hold back all our forces alone?\r\nConsider this carefully. Don't throw your life away!\0
   msg(LOREN_2B, LAIRD_18, LOREN, FOLLOW, 87)
 # I cannot back down! While I live, you will not capture that girl!\r\nEven if you are the Imperial Blue Dragon Knights, I will not be easily bested!\0
-lbl_4f8:
   msg(LAIRD_18, LOREN_2B, LAIRD, FOLLOW, 88)
 # Similar words have been spoken by those who lie dead and buried.\r\nIf death is the only way, then have at you!\0
 break
@@ -484,7 +474,6 @@ lbl_519:
   branch.ifdead(lbl_532, IMPERIALCOMMANDER_30)
   msg(LAIRD_18, DOWN_F5, LAIRD_DEAD, FOLLOW, 91)
 # It's ... not over yet. I--!\0
-lbl_523:
   msg(IMPERIALCOMMANDER_30, LAIRD_18, SWORDSMAN1_GREEN, NOFOLLOW, 172)
 # Colonel! If something happens to you, the General would be most put out.\r\nPlease, withdraw from the fray!\0
   msg(LAIRD_18, DOWN_F5, LAIRD_DEAD, FOLLOW, 92)
@@ -628,7 +617,6 @@ lbl_641:
 # Of course! I'll protect her with my life!\0
   unit.setbit(LIANA_02, $17, 2)
   unit.setbyte(LIANA_02, $2c, 0x05)
-lbl_66d:
   unit.setbyte(LIANA_02, $2d, 0x00)
   goto(lbl_677)
 lbl_674:
@@ -652,7 +640,6 @@ lbl_67e:
   msg(SCOTT_06, ERWIN_01, SCOTT, FOLLOW, 128)
 # Fear not, I will ensure her safety!\0
   unit.setbit(LIANA_02, $17, 2)
-lbl_6a6:
   unit.setbyte(LIANA_02, $2c, 0x06)
   unit.setbyte(LIANA_02, $2d, 0x00)
   goto(lbl_6b4)
