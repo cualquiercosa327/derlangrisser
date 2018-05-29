@@ -1,0 +1,155 @@
+# Movement-Triggered Events
+break
+
+# Attack-Triggered Events
+break
+
+# Damage-Triggered Events
+break
+
+# Position-Triggered Events
+break
+
+# Turn-Triggered Events
+break
+
+# Core Events
+lbl_18:
+  screen.map.set(21)
+  rawwrite(0x502c)
+  focus.point(13, 16, FAST)
+  cursor.set(NULL_00)
+  cursor.hide()
+  unit.position(LEON_D5, PRESET, PRESET)
+  unit.showsub(LEON_D5)
+  unit.position(LAIRD_18, PRESET, PRESET)
+  unit.showsub(LAIRD_18)
+  unit.position(COMMANDER_21, PRESET, PRESET)
+  unit.showsub(COMMANDER_21)
+  unit.setbyte(COMMANDER_21, $03, 0x08)
+  screen.fadein(4)
+  unit.move(LEON_D5, 14, 17)
+  msg(LEON_D5, COMMANDER_21, LEON, NOFOLLOW, 1)
+# Where are the ancient texts? Hand them over and you won't be harmed.\0
+  msg(COMMANDER_21, LEON_D5, SAGE_GRAY, NOFOLLOW, 2)
+# I'd never hand them to Imperials like you!\0
+  attack(LEON_D5, COMMANDER_21)
+  unit.cleanup()
+  screen.mask(10, 10, 10)
+  fillmsg(15)
+# \0
+# The armies of the Kaiser will leave\0
+# a wake of devastation as they blaze\0
+# across the continent--bodies piling\0
+# like victims of a vengeful god ...\0
+# \0
+  delay(255)
+  delay(25)
+  screen.fadeout(4)
+  unit.retreat(LEON_D5)
+  unit.retreat(LAIRD_18)
+  screen.mask(0, 0, 0)
+  screen.map.set(3)
+  rawwrite(0x502d)
+  focus.point(13, 8, FAST)
+  cursor.set(NULL_00)
+  unit.position(EGBERT_D8, PRESET, PRESET)
+  unit.position(VILLAGER_25, PRESET, PRESET)
+  unit.showsub(VILLAGER_25)
+  unit.position(VILLAGER_26, PRESET, PRESET)
+  unit.showsub(VILLAGER_26)
+  unit.position(PRIEST_24, PRESET, PRESET)
+  unit.showsub(PRIEST_24)
+  unit.face(PRIEST_24, DOWN_F5)
+  unit.face(EGBERT_10, UP_F4)
+  unit.setbyte(PRIEST_24, $03, 0x03)
+  screen.fadein(4)
+  unit.face(EGBERT_D8, UP_F4)
+  msg(PRIEST_24, EGBERT_D8, ABBOT_WHITE, FOLLOW, 3)
+# No! You must not awaken the powers of darkness!\0
+  msg(EGBERT_D8, PRIEST_24, EGBERT, FOLLOW, 4)
+# With its vast power at our command, the continent can be unified. Surrender quietly!\0
+  cursor.set(ERWIN_01)
+  cast.meteor(EGBERT_D8, 13, 6)
+  unit.cleanup()
+  screen.mask(10, 10, 10)
+  fillmsg(21)
+# \0
+# Little will the Kaiser realise ...\0
+# The ravages of his war lend power\0
+# to an ancient, dormant darkness.\0
+# One who awaits a day of chaos.\0
+# \0
+  delay(255)
+  delay(35)
+  screen.fadeout(4)
+  unit.retreat(EGBERT_D8)
+  unit.retreat(VILLAGER_25)
+  unit.retreat(VILLAGER_26)
+  unit.retreat(PRIEST_24)
+  screen.mask(0, 0, 0)
+  screen.map.set(18)
+  focus.point(15, 22, FAST)
+  cursor.set(NULL_00)
+  unit.position(IMELDA_D7, PRESET, PRESET)
+  unit.showsub(IMELDA_D7)
+  unit.position(COMMANDER_22, PRESET, PRESET)
+  unit.showsub(COMMANDER_22)
+  unit.setbyte(COMMANDER_22, $03, 0x05)
+  screen.fadein(4)
+  msg(COMMANDER_22, IMELDA_D7, SERPENTKNIGHT_BLACK, NOFOLLOW, 5)
+# If we meet our defeat this day, our country will meet its end! We cannot give in!\0
+  msg(IMELDA_D7, COMMANDER_22, IMELDA, NOFOLLOW, 6)
+# Stubborn fools ... Then feel the power of the Water Dragon Navy!\0
+  cursor.set(ERWIN_01)
+  cast.thunder(IMELDA_D7, COMMANDER_22)
+  unit.cleanup()
+  screen.mask(10, 10, 10)
+  fillmsg(27)
+# The ancient Glory of Darkness,\0
+# "Alhazard," will rain terror on the\0
+# people and bleed the land dry ...\0
+# The blade's true nature seeks only\0
+# to lay waste to the land ...\0
+# \0
+  delay(255)
+  delay(140)
+  screen.fadeout(4)
+  unit.retreat(IMELDA_D7)
+  unit.retreat(IMPERIALCOMMANDER_2F)
+  unit.retreat(IMPERIALCOMMANDER_30)
+  unit.retreat(COMMANDER_22)
+  screen.mask(0, 0, 0)
+  screen.map.set(14)
+  rawwrite(0x502e)
+  focus.point(21, 19, FAST)
+  cursor.set(NULL_00)
+  unit.position(VARGAS_D6, PRESET, PRESET)
+  unit.showsub(VARGAS_D6)
+  unit.position(COMMANDER_23, PRESET, PRESET)
+  unit.showsub(COMMANDER_23)
+  unit.face(COMMANDER_23, DOWN_F5)
+  unit.face(VARGAS_D6, UP_F4)
+  screen.fadein(4)
+  unit.setbyte(COMMANDER_23, $03, 0x07)
+  msg(COMMANDER_23, VARGAS_D6, MAGE_GRAY, NOFOLLOW, 7)
+# Now that I know why the Empire wants the Dark Rod, I'll stop you at all costs!\0
+  msg(VARGAS_D6, COMMANDER_23, VARGAS, FOLLOW, 8)
+# Even knowing I am General Vargas you would still fight? Interesting ... then have at you!\0
+  unit.move(VARGAS_D6, 21, 19)
+  attack(VARGAS_D6, COMMANDER_23)
+  unit.cleanup()
+  screen.mask(10, 10, 10)
+  fillmsg(33)
+# In the grip of evil, humanity will\0
+# be choked into ancient darkness ...\0
+# The end can only be prevented with\0
+# the Might of Elthlead, "Langrisser."\0
+# He whom light blesses wields\0
+# the hopes and dreams of humanity.\0
+  delay(255)
+  delay(80)
+  screen.fadeout(4)
+  screen.mask(0, 0, 0)
+break
+

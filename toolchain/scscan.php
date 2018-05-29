@@ -21,10 +21,10 @@ echo "--------------------------------------------------------------------------
 $argv[1] = str_replace(array("\\n", "\\r", "\\t"), array("\n", "\r", "\t"), $argv[1]);
 
 for($i = 0; $i < 94; $i ++) {
-	if(!file_exists("../resources/scripts/en/sc".str_pad($i, 2, "0", STR_PAD_LEFT).".txt"))
+	if(!file_exists("resources/scripts/en/sc".str_pad($i, 2, "0", STR_PAD_LEFT).".txt"))
 		continue;
 
-	$en_file = explode("{end}\n\n", file_get_contents("../resources/scripts/en/sc".str_pad($i, 2, "0", STR_PAD_LEFT).".txt"));
+	$en_file = explode("{end}\n\n", file_get_contents("resources/scripts/en/sc".str_pad($i, 2, "0", STR_PAD_LEFT).".txt"));
 
 	for($k = 0; $k < count($en_file); $k ++) {
 		if(@strpos(strtolower($en_file[$k]), strtolower($argv[1])) !== FALSE) {

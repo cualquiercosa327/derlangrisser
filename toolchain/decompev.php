@@ -64,7 +64,7 @@ function sctxt($text) {
             $text);
   
   // Remove skip tags
-  while(strpos($text, "{skip"))
+  while(strpos($text, "{skip") !== FALSE)
     $text = preg_replace("/\{skip[^}]+\}/", "", $text);
   
   // Transform tags
@@ -113,6 +113,9 @@ if (!file_exists("resources/define/team.txt"))
 $ar_team = explode("\n", file_get_contents("resources/define/team.txt"));
 $ar_target = array("COMMANDER", "SUBUNIT");
 $ar_teleport = array("TELEPORT_OUT", "TELEPORT_TO", "TELEPORT_IN");
+
+$ar_sharetalk = explode("{end}", file_get_contents("resources/scripts/$w_lang/sc84.txt"));
+  
 
 
 // Read event script directory list to an array
@@ -1030,6 +1033,21 @@ for($i = 0; $i < count($events); $i++) {
         fputs($fo, "  scenarioclear()\n");
         break;
       
+      // catch unknown 0x520c use
+      case 0x50:
+        $t_var = fgetb($fd);
+        if($t_var == 0x2c)
+          fputs($fo, "  rawwrite(0x502c)\n");
+        elseif($t_var == 0x2d)
+          fputs($fo, "  rawwrite(0x502d)\n");
+        elseif($t_var == 0x2e)
+          fputs($fo, "  rawwrite(0x502e)\n");
+        else {
+          print "Unhandled exception: 0x50??\n";
+          die();
+        }
+        break;
+      
       // attack(unit1, unit2)
       // uint_8[0x51] uint_8[unit1] uint_8[unit2]
       // Have unit1 attack unit2
@@ -1037,6 +1055,34 @@ for($i = 0; $i < count($events); $i++) {
         $t_unit1 = $ar_unit[fgetb($fd)];
         $t_unit2 = $ar_unit[fgetb($fd)];
         fputs($fo, "  attack($t_unit1, $t_unit2)\n");
+        break;
+      
+      // fillmsg(line)
+      // uint_8[0x52] uint_8[line]
+      // Fills the screen with six lines of text, each one line and terminated
+      // by a \0, used in the intro and staff roll. Only the first line's
+      // offset gets passed.
+      case 0x52:
+        $t_line = fgetb($fd);
+        fputs($fo, "  fillmsg($t_line)\n");
+        fputs($fo, "# " . sctxt($ar_sharetalk[$t_line - 1]) . "\\0\n");
+        fputs($fo, "# " . sctxt($ar_sharetalk[$t_line]) . "\\0\n");
+        fputs($fo, "# " . sctxt($ar_sharetalk[$t_line + 1]) . "\\0\n");
+        fputs($fo, "# " . sctxt($ar_sharetalk[$t_line + 2]) . "\\0\n");
+        fputs($fo, "# " . sctxt($ar_sharetalk[$t_line + 3]) . "\\0\n");
+        fputs($fo, "# " . sctxt($ar_sharetalk[$t_line + 4]) . "\\0\n");
+        break;
+      
+      // cast.meteor(unit, x, y)
+      // uint_8[0x53] uint_8[unit] uint_8[x] uint_8[y]
+      // Caster unit targets coordinate x,y with Meteor spell
+      case 0x53:
+        $t_unit = $ar_unit[fgetb($fd)];
+        $t_x = fgetb($fd);
+        $t_y = fgetb($fd);
+        if($t_x == 255) $t_x = "PRESET";
+        if($t_y == 255) $t_y = "PRESET";
+        fputs($fo, "  cast.meteor($t_unit, $t_x, $t_y)\n");
         break;
       
       // cast.thunder(unit1, unit2)
