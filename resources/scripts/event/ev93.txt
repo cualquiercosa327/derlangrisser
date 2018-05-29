@@ -1,0 +1,209 @@
+# Movement-Triggered Events
+break
+
+# Attack-Triggered Events
+break
+
+# Damage-Triggered Events
+break
+
+# Position-Triggered Events
+break
+
+# Turn-Triggered Events
+break
+
+# Core Events
+lbl_18:
+  bgm(ALLY, ENEMYREINFORCEMENT2)
+  screen.map.set(14)
+  focus.point(13, 26, FAST)
+  unit.position(COMMANDER_83, PRESET, PRESET)
+  unit.showsub(COMMANDER_83)
+  cursor.set(NULL_00)
+  unit.position(ROHGA_0B, PRESET, PRESET)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.position(SONYA_0C, PRESET, PRESET)
+  unit.position(COMMANDER_22, PRESET, PRESET)
+  unit.showsub(COMMANDER_22)
+  unit.position(COMMANDER_23, PRESET, PRESET)
+  unit.showsub(COMMANDER_23)
+  unit.position(COMMANDER_21, PRESET, PRESET)
+  unit.showsub(COMMANDER_21)
+  unit.face(ROHGA_0B, LEFT_F6)
+  cursor.set(ERWIN_01)
+  screen.fadein(4)
+  msg(ROHGA_0B, COMMANDER_83, ROHGA, FOLLOW, 1)
+# Hey you! Aren't you willing to lay down your arms yet!?\0
+  msg(COMMANDER_83, ROHGA_0B, FIGHTER_BLACK, FOLLOW, 2)
+# Argh! But we've come so far ...\r\nTake this!\0
+  unit.move(COMMANDER_83, 13, 25)
+  attack(COMMANDER_83, ROHGA_0B)
+  unit.setbyte(COMMANDER_83, $03, 0x00)
+  unit.cleanup()
+  msg(ROHGA_0B, RIGHT_F7, ROHGA, FOLLOW, 3)
+# Shit! It's no use ... I tried to talk him out of carrying on like this.\r\nHow about you then? Can't you just admit defeat and surrender to us?\0
+  msg(COMMANDER_21, ROHGA_0B, SWORDSMAN1_BLACK, FOLLOW, 4)
+# Damn, they're so strong! But if we lose now ...!\0
+  msg(HEIN_05, COMMANDER_22, HEIN, FOLLOW, 5)
+# Can you seriously keep going? Hrmm, if you insist on fighting, then I won't hold back!\0
+  cast.meteor(HEIN_05, 21, 22)
+  unit.setbyte(COMMANDER_21, $03, 0x00)
+  unit.setbyte(COMMANDER_22, $03, 0x00)
+  unit.setbyte(COMMANDER_23, $03, 0x00)
+  unit.cleanup()
+  focus.point(12, 29, SLOW)
+  cursor.set(NULL_00)
+  unit.setbyte(HEIN_05, $20, 0x04)
+  unit.refresh()
+  unit.move(HEIN_05, 15, 27)
+  msg(HEIN_05, ROHGA_0B, HEIN, FOLLOW, 6)
+# We were lucky ... This victory came easily.\0
+  msg(ROHGA_0B, HEIN_05, ROHGA, FOLLOW, 7)
+# These ones are probably the last of their troops.\r\nAll the others have left, none of them was fool enough to keep resisting us.\0
+  msg(SONYA_0C, ROHGA_0B, SONYA, FOLLOW, 8)
+# Well then, is our battle ended?\0
+  msg(ROHGA_0B, SONYA_0C, ROHGA, FOLLOW, 9)
+# Take a look around! It seems pretty obvious to me!\0
+  msg(HEIN_05, SONYA_0C, HEIN, FOLLOW, 10)
+# In that case, we should hurry back to the castle!\r\nAre you ready to return to King _NAME_?\0
+  msg(ROHGA_0B, SONYA_0C, ROHGA, FOLLOW, 11)
+# Yeah, I'm on my way! Wait up!\0
+  unit.face(HEIN_05, UP_F4)
+  cast.teleport(ROHGA_0B, ROHGA_0B, TELEPORT_OUT, PRESET, PRESET)
+  unit.face(HEIN_05, LEFT_F6)
+  cast.teleport(SONYA_0C, SONYA_0C, TELEPORT_OUT, PRESET, PRESET)
+  unit.face(HEIN_05, DOWN_F5)
+  cast.teleport(HEIN_05, HEIN_05, TELEPORT_OUT, PRESET, PRESET)
+  unit.retreat(ROHGA_0B)
+  unit.retreat(SONYA_0C)
+  screen.fadeout(4)
+  screen.map.set(41)
+  unit.hideall()
+  bgm(ALLY, STORY)
+  focus.point(4, 5, FAST)
+  cursor.set(NULL_00)
+  unit.position(ERWIN_C9, PRESET, PRESET)
+  unit.position(ESTO_11, PRESET, PRESET)
+  unit.position(OSTO_12, PRESET, PRESET)
+  unit.position(ROHGA_0B, 5, 9)
+  unit.position(HEIN_05, 4, 9)
+  unit.position(SONYA_0C, 6, 9)
+  unit.face(ERWIN_C9, DOWN_F5)
+  unit.face(ESTO_11, DOWN_F5)
+  unit.face(OSTO_12, DOWN_F5)
+  screen.fadein(4)
+  delay(30)
+  unit.move(ROHGA_0B, 5, 7)
+  unit.face(ROHGA_0B, UP_F4)
+  unit.move(HEIN_05, 4, 7)
+  unit.face(HEIN_05, UP_F4)
+  unit.move(SONYA_0C, 6, 7)
+  unit.face(SONYA_0C, UP_F4)
+  msg(ROHGA_0B, ERWIN_C9, ROHGA, NOFOLLOW, 12)
+# King _NAME_.\r\nThe years of battle have left the borderlands in ruin. We're working to sweep out the last of the rebels.\0
+  unit.move(ERWIN_C9, 5, 5)
+  msg(ERWIN_C9, DOWN_F5, ERWIN, NOFOLLOW, 13)
+# I'm sorry for all the hardships I've put you through. If only the unification were peaceful ...\r\nThat reminds me, Sonya. What is happening with the Demon Tribe?\0
+  unit.move(SONYA_0C, 6, 6)
+  msg(SONYA_0C, ERWIN_C9, SONYA, NOFOLLOW, 14)
+# The Demon Tribe has agreed not to attempt to use Alhazard to leave Velzeria.\r\nThere haven't been any new reports of monsters invading human lands.\0
+  msg(ERWIN_C9, SONYA_0C, ERWIN, NOFOLLOW, 15)
+# Thank god ... then coexistence of humans and demons may finally become possible.\0
+  msg(SONYA_0C, ERWIN_C9, SONYA, NOFOLLOW, 16)
+# It's what we all wish for now!\0
+  unit.move(SONYA_0C, 6, 7)
+  unit.face(SONYA_0C, UP_F4)
+  msg(ERWIN_C9, HEIN_05, ERWIN, NOFOLLOW, 17)
+# And what of your plans, Hein?\0
+  unit.move(HEIN_05, 4, 6)
+  msg(HEIN_05, ERWIN_C9, HEIN, NOFOLLOW, 18)
+# I'm currently conducting research on forbidden forms of attack magic.\r\nBut more importantly ... I'm trying to discover the magic of living a happy life, hee hee!\0
+  msg(ERWIN_C9, HEIN_05, ERWIN, NOFOLLOW, 19)
+# Well said ... Hein, I hope you find the magic you're looking for.\0
+  unit.move(HEIN_05, 4, 7)
+  unit.face(HEIN_05, UP_F4)
+  delay(30)
+  msg(ERWIN_C9, DOWN_F5, ERWIN, NOFOLLOW, 20)
+# We shared these hardships together, and in time, our pain will surely fade.\0
+  unit.move(ROHGA_0B, 5, 9)
+  unit.retreat(ROHGA_0B)
+  unit.move(HEIN_05, 4, 9)
+  unit.retreat(HEIN_05)
+  unit.move(SONYA_0C, 6, 9)
+  unit.retreat(SONYA_0C)
+  msg(ERWIN_C9, DOWN_F5, ERWIN, NOFOLLOW, 21)
+# Everyone, you're dismissed.\0
+  msg(ESTO_11, DOWN_F5, OSTO, NOFOLLOW, 22)
+# Gruu ...\0
+  cast.teleport(ESTO_11, ESTO_11, TELEPORT_OUT, PRESET, PRESET)
+  cast.teleport(OSTO_12, OSTO_12, TELEPORT_OUT, PRESET, PRESET)
+  branch.mem.global.ne(lbl_219, $0a478f, $07eb5e)
+  delay(40)
+  bgm(ALLY, BGM_OFF)
+  unit.move(ERWIN_C9, 5, 7)
+  msg(ERWIN_C9, DOWN_F5, ERWIN, NOFOLLOW, 23)
+# Over that half-year of violent battle, I united the continent.\r\nBut with the death of the gods, Langrisser and Alhazard have lost their powers.\r\nAt the least ... the orphans left in the wake of war will taste the times of peace we barely dared to dream as children ...\0
+  unit.move(ERWIN_C9, 4, 7)
+  msg(ERWIN_C9, LEFT_F6, ERWIN, NOFOLLOW, 24)
+# One day ... I want to experience and celebrate this new land of ours with you.\r\nLiana ...\0
+  bgm(ALLY, REQUIEM2)
+  rawwrite(0x5600)
+  rawwrite(0x5613)
+  msg(LIANA_02, ERWIN_C9, LIANA, NOFOLLOW, 25)
+# _NAME_ ...\0
+  unit.face(ERWIN_C9, UP_F4)
+  delay(20)
+  msg(ERWIN_C9, LIANA_02, ERWIN, NOFOLLOW, 26)
+# Liana!? You're here!? Wh, why ... how ...?\0
+  rawwrite(0x560f)
+  msg(LIANA_02, ERWIN_C9, LIANA, NOFOLLOW, 27)
+# Oh _NAME_ ... I wanted to congratulate you.\r\nYou've accomplished so much. This continent has finally broken free from its dark times of war ...\0
+  rawwrite(0x560e)
+  msg(ERWIN_C9, LIANA_02, ERWIN_SAD, NOFOLLOW, 28)
+# Yes ... we did it, We actually did it ...\r\nOh Liana ... our promise, I ... I ... still--!\0
+  rawwrite(0x5610)
+  msg(LIANA_02, ERWIN_C9, LIANA, NOFOLLOW, 29)
+# Oh _NAME_ ... Don't say anything.\r\nI understand the pains you've gone through ... I wanted to thank you.\r\n_NAME_, you really did keep your promise! You've brought peace to our world ...\0
+  rawwrite(0x560f)
+  msg(ERWIN_C9, LIANA_02, ERWIN_SAD, NOFOLLOW, 30)
+# ...\0
+  rawwrite(0x560e)
+  msg(LIANA_02, ERWIN_C9, LIANA, NOFOLLOW, 31)
+# I don't want to go so soon ... But I don't have a choice.\0
+  rawwrite(0x5611)
+  unit.move(ERWIN_C9, 5, 4)
+  unit.retreat(LIANA_02)
+  msg(ERWIN_C9, UP_F4, ERWIN_SAD, NOFOLLOW, 32)
+# Liana ...\0
+  delay(30)
+  rawwrite(0x560d)
+  delay(40)
+  msg(ERWIN_C9, DOWN_F5, ERWIN, NOFOLLOW, 33)
+# Liana ... I can protect you! This peace ... this is the world you love!\r\nUntil my flame of life burns out, I'll show you I can protect it all!\0
+  goto(lbl_257)
+lbl_219:
+  screen.fadein(10)
+  delay(60)
+  unit.position(COMMANDER_84, PRESET, PRESET)
+  rawwrite(0x560c)
+  unit.move(COMMANDER_84, 5, 7)
+  msg(COMMANDER_84, UP_F4, FIGHTER_BLUE, NOFOLLOW, 34)
+# King _NAME_! We've found the girl you told us about!\0
+  msg(ERWIN_C9, UP_F4, ERWIN, NOFOLLOW, 35)
+# You ... you what?\0
+  msg(COMMANDER_84, UP_F4, FIGHTER_BLUE, NOFOLLOW, 36)
+# It seems she founded a orphanage in a nearby village to care for children of the war.\r\nShe requested Your Majesty send money to aid in their continued care taking.\0
+  msg(ERWIN_C9, UP_F4, ERWIN, NOFOLLOW, 37)
+# I see ... Send the orphanage 50,000P.\r\nAs king ... this is all I can do. I'm never able to help people with my own hands any more ...\r\nThe longer time flows on ... the more I understand what we've lost in the wars.\r\nThank you, you are dismissed.\0
+  msg(COMMANDER_84, UP_F4, FIGHTER_BLUE, NOFOLLOW, 38)
+# Yes, Sir!\0
+  unit.move(COMMANDER_84, 5, 9)
+  delay(40)
+  unit.move(ERWIN_C9, 5, 7)
+  msg(ERWIN_C9, DOWN_F5, ERWIN, NOFOLLOW, 39)
+# Over that half-year of violent battle, I united the continent.\r\nBut with the death of the gods, Langrisser and Alhazard have lost their powers.\r\nAt the least ... the orphans left in the wake of war will taste the times of peace we barely dared to dream as children ...\0
+  screen.fadeout(20)
+lbl_257:
+break
+

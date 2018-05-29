@@ -107,7 +107,7 @@ lbl_154:
   unit.retreat(EGBERT_D8)
   unit.setbyte(EGBERT_D8, $20, 0x03)
   unit.refresh()
-  bgm(ALLY, )
+  bgm(ALLY, BGM_OFF)
   screen.map.set(19)
   cursor.show()
   cursor.set(ERWIN_01)

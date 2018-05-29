@@ -1121,7 +1121,7 @@ lbl_bc2:
   unit.face(KEITH_07, UP_F4)
   unit.move(LESTER_09, 15, 15)
   unit.face(LESTER_09, UP_F4)
-  bgm(ALLY, )
+  bgm(ALLY, BGM_OFF)
   unit.move(SCOTT_06, 17, 15)
   unit.face(SCOTT_06, UP_F4)
   bgm(ALLY, REQUIEM2)

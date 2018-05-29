@@ -1,0 +1,234 @@
+# Movement-Triggered Events
+break
+
+# Attack-Triggered Events
+break
+
+# Damage-Triggered Events
+break
+
+# Position-Triggered Events
+break
+
+# Turn-Triggered Events
+break
+
+# Core Events
+lbl_18:
+  screen.map.set(11)
+  focus.point(13, 13, FAST)
+  cursor.set(NULL_00)
+  bgm(ALLY, ENEMY9_BERNHARDT)
+  unit.position(IMPERIALCOMMANDER_2F, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_2F)
+  unit.position(IMPERIALCOMMANDER_30, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_30)
+  unit.face(IMPERIALCOMMANDER_30, LEFT_F6)
+  unit.position(EGBERT_10, PRESET, PRESET)
+  unit.position(BERNHARDT_16, PRESET, PRESET)
+  unit.face(BERNHARDT_16, DOWN_F5)
+  unit.face(EGBERT_10, DOWN_F5)
+  unit.position(ERWIN_C9, 13, 12)
+  unit.position(LEON_0D, 12, 12)
+  unit.position(HEIN_05, 14, 12)
+  unit.position(VARGAS_0E, 13, 13)
+  unit.position(IMELDA_0F, 12, 13)
+  unit.position(ROHGA_0B, 14, 13)
+  branch.mem.global.ne(lbl_60, $0a478f, $07eb5f)
+  unit.position(SONYA_0C, 13, 14)
+lbl_60:
+  focus.point(13, 8, FAST)
+  screen.fadein(8)
+  cursor.set(ERWIN_01)
+  unit.move(ERWIN_C9, PRESET, PRESET)
+  unit.face(ERWIN_C9, UP_F4)
+  unit.move(LEON_0D, PRESET, PRESET)
+  unit.face(LEON_0D, UP_F4)
+  unit.move(HEIN_05, PRESET, PRESET)
+  unit.face(HEIN_05, UP_F4)
+  unit.move(VARGAS_0E, PRESET, PRESET)
+  unit.face(VARGAS_0E, UP_F4)
+  unit.move(IMELDA_0F, PRESET, PRESET)
+  unit.face(IMELDA_0F, UP_F4)
+  unit.move(ROHGA_0B, PRESET, PRESET)
+  unit.face(ROHGA_0B, UP_F4)
+  branch.mem.global.ne(lbl_9d, $0a478f, $07eb5f)
+  unit.move(SONYA_0C, PRESET, PRESET)
+  unit.face(SONYA_0C, UP_F4)
+lbl_9d:
+  msg(BERNHARDT_16, DOWN_F5, BERNHARDT, NOFOLLOW, 1)
+# Most well done! With your help, we obtained both Alhazard and Langrisser.\0
+  msg(VARGAS_0E, UP_F4, VARGAS, NOFOLLOW, 2)
+# With the two swords, Your Majesty's desires can finally be realised.\0
+  msg(BERNHARDT_16, DOWN_F5, BERNHARDT, NOFOLLOW, 3)
+# We finally have the power we need to unite our continent.\0
+  msg(LEON_0D, UP_F4, LEON, NOFOLLOW, 4)
+# One land, one king! The age of war should be over for good.\0
+  msg(EGBERT_10, DOWN_F5, EGBERT, NOFOLLOW, 5)
+# We were also able to capture both maidens ...\r\nAfter uniting the continent, we can seal the Dark Blade so the Darkness never returns.\0
+  msg(BERNHARDT_16, DOWN_F5, BERNHARDT, NOFOLLOW, 6)
+# Hmmm ... _NAME_!\0
+  unit.move(ERWIN_C9, 13, 7)
+  rawwrite(0x5607)
+  msg(ERWIN_C9, UP_F4, ERWIN, NOFOLLOW, 7)
+# Yes, Your Majesty?\0
+  msg(BERNHARDT_16, DOWN_F5, BERNHARDT, NOFOLLOW, 8)
+# Your actions during this trying time were impeccable.\r\nHaving seen your skill, I bestow upon you the rank of general. You will command the Radiant Dragon Knights, a Royal Guard.\0
+  msg(ERWIN_C9, UP_F4, ERWIN, NOFOLLOW, 9)
+# Your Majesty ... thank you! I shall prove to be reliable in your service!\0
+  rawwrite(0x5608)
+  unit.move(ERWIN_C9, 13, 8)
+  unit.face(ERWIN_C9, UP_F4)
+  unit.move(EGBERT_10, 14, 8)
+  msg(EGBERT_10, DOWN_F5, EGBERT, NOFOLLOW, 10)
+# As for you, Hein ... You are fit to inherit command of the Dark Dragon Sorcerers ...\0
+  unit.face(HEIN_05, LEFT_F6)
+  delay(10)
+  unit.face(HEIN_05, RIGHT_F7)
+  delay(10)
+  msg(HEIN_05, UP_F4, HEIN, NOFOLLOW, 11)
+# What!? R, really ...?\0
+  msg(IMELDA_0F, HEIN_05, IMELDA, NOFOLLOW, 12)
+# Are you surprised, little boy?\0
+  unit.face(IMELDA_0F, UP_F4)
+  unit.move(EGBERT_10, PRESET, PRESET)
+  msg(EGBERT_10, DOWN_F5, EGBERT, NOFOLLOW, 13)
+# I am going to become the Empire's ambassador and will aid the Kaiser's diplomacy.\r\nI will work to benefit the continent, and to ensure this era remains free of war.\0
+  msg(BERNHARDT_16, DOWN_F5, BERNHARDT, NOFOLLOW, 14)
+# Our first battle has ended.\r\nI trust you shall continue to do your best to succeed. For the sake of a peaceful tomorrow, go forth!\0
+  msg(ERWIN_C9, UP_F4, ERWIN, NOFOLLOW, 15)
+# Yes, my Liege!\0
+  screen.fadeout(8)
+  unit.retreat(IMPERIALCOMMANDER_2F)
+  unit.retreat(IMPERIALCOMMANDER_30)
+  unit.retreat(EGBERT_10)
+  unit.retreat(BERNHARDT_16)
+  unit.retreat(ERWIN_C9)
+  unit.retreat(LEON_0D)
+  unit.retreat(HEIN_05)
+  unit.retreat(VARGAS_0E)
+  unit.retreat(IMELDA_0F)
+  unit.retreat(ROHGA_0B)
+  branch.mem.global.ne(lbl_137, $0a478f, $07eb5f)
+  unit.retreat(SONYA_0C)
+lbl_137:
+  bgm(ALLY, BGM_OFF)
+  branch.mem.global.ne(lbl_1b6, $0a4792, $07eb5e)
+  screen.map.set(8)
+  rawwrite(0x502a)
+  unit.position(ROHGA_0B, 36, 13)
+  unit.position(HEIN_05, 37, 13)
+  unit.position(ERWIN_01, 37, 12)
+  focus.point(30, 5, FAST)
+  cursor.set(NULL_00)
+  screen.fadein(10)
+  delay(30)
+  cursor.set(ERWIN_01)
+  focus.point(30, 16, SLOW)
+  cursor.set(NULL_00)
+  unit.move(ROHGA_0B, 27, 12)
+  unit.move(HEIN_05, 31, 13)
+  unit.move(ERWIN_01, 31, 12)
+  unit.face(HEIN_05, LEFT_F6)
+  msg(ERWIN_01, ROHGA_0B, ERWIN, NOFOLLOW, 16)
+# Rohga?\0
+  unit.face(ROHGA_0B, RIGHT_F7)
+  msg(ERWIN_01, ROHGA_0B, ERWIN, NOFOLLOW, 17)
+# Where are you headed?\0
+  bgm(ALLY, REQUIEM1)
+  msg(ROHGA_0B, ERWIN_01, ROHGA, NOFOLLOW, 18)
+# My journey has ended ... There is nothing left for me ...\0
+  msg(ERWIN_01, ROHGA_0B, ERWIN_SAD, NOFOLLOW, 19)
+# Rohga ...\0
+  unit.move(ROHGA_0B, 27, 13)
+  msg(ROHGA_0B, DOWN_F5, ROHGA, NOFOLLOW, 20)
+# I should have done more ... I could have done more ... Sonya should not have died.\r\nSince I can't continue fighting my way from country to country any more, I'm giving up my days as a mercenary.\r\nI don't know what the future holds for me, but I can't just dwell on Sonya's fate and sit on my ass!\0
+  unit.move(HEIN_05, 28, 13)
+  msg(HEIN_05, ROHGA_0B, HEIN, NOFOLLOW, 21)
+# Why not just take a vacation? You can always return one day when you feel differently.\0
+  msg(ROHGA_0B, DOWN_F5, ROHGA, NOFOLLOW, 22)
+# I can't promise anything.\r\nBut, if I do change my mind, I might show up to make your lives miserable for a while!\0
+  unit.move(ROHGA_0B, 25, 13)
+  unit.retreat(ROHGA_0B)
+  screen.fadeout(10)
+  unit.retreat(ERWIN_01)
+  unit.retreat(HEIN_05)
+  bgm(ALLY, BGM_OFF)
+lbl_1b6:
+  screen.map.set(31)
+  focus.point(19, 23, FAST)
+  cursor.set(NULL_00)
+  bgm(ALLY, OPENING2)
+  unit.position(COMMANDER_21, PRESET, PRESET)
+  unit.showsub(COMMANDER_21)
+  unit.face(COMMANDER_21, DOWN_F5)
+  unit.position(COMMANDER_22, PRESET, PRESET)
+  unit.showsub(COMMANDER_22)
+  unit.position(COMMANDER_23, PRESET, PRESET)
+  unit.showsub(COMMANDER_23)
+  unit.position(COMMANDER_83, PRESET, PRESET)
+  unit.showsub(COMMANDER_83)
+  screen.fadein(8)
+  msg(COMMANDER_83, COMMANDER_21, SAGE_RED, NOFOLLOW, 23)
+# Disperse and strike! If we beat these guys, this port will be ours!\0
+  msg(COMMANDER_21, COMMANDER_22, FIGHTER_BLACK, NOFOLLOW, 24)
+# Get them! These guys are the only thing between us and our booty!\0
+  unit.position(LEON_0D, 25, 25)
+  unit.position(ERWIN_01, 25, 24)
+  unit.setbyte(ERWIN_01, $20, 0x04)
+  unit.refresh()
+  unit.setbyte(LEON_0D, $20, 0x04)
+  unit.refresh()
+  unit.move(LEON_0D, 23, 25)
+  unit.move(ERWIN_01, 23, 24)
+  msg(ERWIN_01, COMMANDER_21, ERWIN, NOFOLLOW, 25)
+# I demand you cease and desist! Halt this senseless violence!\0
+  msg(COMMANDER_23, ERWIN_01, SERPENTKNIGHT_BLACK, NOFOLLOW, 26)
+# Th, the Rayguard Empire!?\0
+  msg(COMMANDER_22, LEON_0D, SAGE_RED, NOFOLLOW, 27)
+# Who cares!? Kill them too! Ha ha!\0
+  unit.setbyte(COMMANDER_22, $03, 0x08)
+  unit.move(COMMANDER_22, 22, 25)
+  attack(COMMANDER_22, LEON_0D)
+  unit.setbyte(COMMANDER_22, $03, 0x00)
+  msg(COMMANDER_22, DOWN_F5, SAGE_RED_DEAD, NOFOLLOW, 28)
+# Ugh! My, my legs are ...\0
+  unit.cleanup()
+  msg(LEON_0D, COMMANDER_23, LEON, NOFOLLOW, 29)
+# It seems I overestimated you.\0
+  delay(30)
+  msg(COMMANDER_23, ERWIN_01, SERPENTKNIGHT_BLACK, NOFOLLOW, 30)
+# Die! You bastards!\0
+  unit.setbyte(COMMANDER_23, $03, 0x08)
+  unit.move(COMMANDER_23, 22, 24)
+  attack(COMMANDER_23, ERWIN_01)
+  unit.setbyte(COMMANDER_23, $03, 0x00)
+  msg(COMMANDER_23, DOWN_F5, SERPENTKNIGHT_BLACK_DEAD, NOFOLLOW, 31)
+# H, how can this be ...!?\0
+  unit.cleanup()
+  msg(ERWIN_01, LEFT_F6, ERWIN, NOFOLLOW, 32)
+# Now that you've witnessed our power, do you still plan to continue this fight?\0
+  msg(COMMANDER_83, RIGHT_F7, SAGE_RED, NOFOLLOW, 33)
+# How strong ...! Th, they're ... too much!\0
+  unit.move(LEON_0D, 18, 24)
+  msg(LEON_0D, LEFT_F6, LEON, NOFOLLOW, 34)
+# If you fools are looking for a swift end, then by all means, keep fighting!\0
+  unit.move(ERWIN_01, 19, 23)
+  msg(ERWIN_01, UP_F4, ERWIN, NOFOLLOW, 35)
+# Why make us spill more blood? Give up and surrender!\0
+  msg(COMMANDER_21, DOWN_F5, FIGHTER_BLACK, NOFOLLOW, 36)
+# Fine ...!\0
+  msg(COMMANDER_83, RIGHT_F7, SAGE_GRAY, NOFOLLOW, 37)
+# We surrender ...\0
+  unit.face(ERWIN_01, DOWN_F5)
+  msg(ERWIN_01, DOWN_F5, ERWIN, NOFOLLOW, 38)
+# Another nation fell to us easily.\0
+  msg(LEON_0D, RIGHT_F7, LEON, NOFOLLOW, 39)
+# You speak too soon. Until the day El Sallia is free of all war, we can never rest.\0
+  unit.move(ERWIN_01, 19, 25)
+  msg(ERWIN_01, DOWN_F5, ERWIN, NOFOLLOW, 40)
+# Until we've wiped the continent clean of war ...?\r\nWe have already come so far ... El Sallia's age of peace is just over the horizon!\0
+  screen.fadeout(20)
+  bgm(ALLY, BGM_OFF)
+break
+

@@ -142,7 +142,7 @@ lbl_13a:
   unit.refresh()
   screen.map.set(17)
   cursor.show()
-  bgm(ALLY, )
+  bgm(ALLY, BGM_OFF)
   unit.hideall()
   bgm(ALLY, BEACH)
   focus.point(28, 25, FAST)

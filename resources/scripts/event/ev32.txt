@@ -150,7 +150,7 @@ lbl_106:
   screen.fadeout(4)
   unit.swap(EGBERT_D8, SCYLLA_43)
   screen.map.set(17)
-  bgm(ALLY, )
+  bgm(ALLY, BGM_OFF)
   cursor.show()
   unit.hideall()
   bgm(ALLY, BEACH)

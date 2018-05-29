@@ -1,0 +1,118 @@
+# Movement-Triggered Events
+break
+
+# Attack-Triggered Events
+break
+
+# Damage-Triggered Events
+break
+
+# Position-Triggered Events
+break
+
+# Turn-Triggered Events
+break
+
+# Core Events
+lbl_18:
+  bgm(ALLY, ENDING1)
+  screen.map.set(38)
+  focus.point(4, 7, FAST)
+  cursor.set(NULL_00)
+  unit.hide(VILLAGER_25, COMMANDER)
+  unit.hide(VILLAGER_26, COMMANDER)
+  unit.hide(VILLAGER_27, COMMANDER)
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.position(LIANA_02, PRESET, PRESET)
+  unit.position(LANA_0A, PRESET, PRESET)
+  unit.position(ROHGA_0B, PRESET, PRESET)
+  unit.position(SONYA_0C, PRESET, PRESET)
+  rawwrite(0x5600)
+  rawwrite(0x5609)
+  unit.face(ERWIN_01, DOWN_F5)
+  unit.setbyte(LANA_0A, $20, 0x04)
+  unit.refresh()
+  unit.face(LANA_0A, LEFT_F6)
+  unit.setbyte(ROHGA_0B, $20, 0x04)
+  unit.refresh()
+  unit.face(ROHGA_0B, LEFT_F6)
+  unit.setbyte(SONYA_0C, $20, 0x04)
+  unit.refresh()
+  unit.face(SONYA_0C, LEFT_F6)
+  screen.fadein(4)
+  msg(ERWIN_01, DOWN_F5, ERWIN, NOFOLLOW, 1)
+# Hmmm ... it seems the power in Langrisser has finally dried up.\0
+  msg(LANA_0A, LEFT_F6, DARKPRINCESS, NOFOLLOW, 2)
+# That's to be expected. The divine energy flowing into the sword has been cut off.\r\nWithout the goddess of light to supply it with her power, it's little different from any common piece of steel.\0
+  msg(HEIN_05, RIGHT_F7, HEIN, NOFOLLOW, 3)
+# I wonder if it's really for the best ...\0
+  msg(BOSER_17, UP_F4, NULL, NOFOLLOW, 4)
+# Hey, I'm just glad the war is finally over!\0
+  cursor.set(ERWIN_01)
+  unit.face(ERWIN_01, UP_F4)
+  unit.face(LIANA_02, UP_F4)
+  unit.face(LANA_0A, UP_F4)
+  cast.teleport(BOSER_17, BOSER_17, TELEPORT_IN, 5, 5)
+  unit.face(BOSER_17, DOWN_F5)
+  rawwrite(0x560a)
+  msg(SONYA_0C, UP_F4, SONYA, NOFOLLOW, 5)
+# Lord Boser! We've come bearing good news!\r\nWe've eliminated both the Empire and the Army of Light. As a bonus, we also took out Lushiris for getting in the way.\0
+  msg(BOSER_17, DOWN_F5, BOSER, NOFOLLOW, 6)
+# Very well done ... You served your purpose even better than I had hoped.\r\nFarewell, Sieghart, I hope you enjoy eternal slumber in that piece of scrap metal that was once Langrisser!\0
+  unit.face(ERWIN_01, DOWN_F5)
+  unit.face(LIANA_02, RIGHT_F7)
+  unit.face(LANA_0A, LEFT_F6)
+  rawwrite(0x560b)
+  sfx(38)
+  sfx(41)
+  msg(ROHGA_0B, LEFT_F6, ROHGA, NOFOLLOW, 7)
+# What ...? It shattered!\r\nThe Holy Blade, Langrisser ...\0
+  msg(BOSER_17, DOWN_F5, BOSER, NOFOLLOW, 8)
+# Love and hope are no more. With Langrisser smashed, this world has no future ...\0
+  msg(BOSER_17, DOWN_F5, BOSER, NOFOLLOW, 9)
+# With Langrisser gone and only Alhazard remaining, we have nothing to fear!\0
+  unit.face(ERWIN_01, UP_F4)
+  unit.face(LIANA_02, UP_F4)
+  unit.face(LANA_0A, UP_F4)
+  rawwrite(0x5612)
+  sfx(38)
+  screen.brightness(4)
+  screen.brightness(0)
+  sfx(62)
+  rawwrite(0x502b)
+  screen.fadein(20)
+  sfx(64)
+  msg(HEIN_05, UP_F4, HEIN, NOFOLLOW, 10)
+# Th, the sky ... It's turning black!\0
+  msg(BOSER_17, DOWN_F5, BOSER, NOFOLLOW, 11)
+# Behold, mortals! This is Alhazard's power! This my true power!\r\nAh hah hah hah!\0
+  screen.fadeout(15)
+  rawwrite(0x5601)
+  unit.retreat(ERWIN_01)
+  unit.retreat(HEIN_05)
+  unit.retreat(LIANA_02)
+  unit.retreat(LANA_0A)
+  unit.retreat(ROHGA_0B)
+  unit.retreat(SONYA_0C)
+  unit.retreat(BOSER_17)
+  screen.map.set(40)
+  focus.point(4, 4, FAST)
+  unit.position(VILLAGER_26, 9, 8)
+  unit.showsub(VILLAGER_26)
+  unit.position(VILLAGER_27, 6, 11)
+  unit.showsub(VILLAGER_27)
+  unit.position(VILLAGER_25, 5, 6)
+  unit.showsub(VILLAGER_25)
+  cursor.set(ERWIN_01)
+  focus.unit(VILLAGER_25)
+  screen.fadein(10)
+  msg(VILLAGER_25, UP_F4, VILLAGER_YELLOW, NOFOLLOW, 12)
+# The sun ... It's ... vanishing ...\0
+  msg(VILLAGER_26, UP_F4, VILLAGER_BLUE, NOFOLLOW, 13)
+# The animals of the forest and the fish of the sea ... Everything is fading away ...\0
+  msg(VILLAGER_27, UP_F4, VILLAGER_RED, NOFOLLOW, 14)
+# What will become of us ...? What lies in store for our future?\0
+  screen.fadeout(20)
+break
+

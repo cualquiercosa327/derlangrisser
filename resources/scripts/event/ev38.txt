@@ -1222,7 +1222,7 @@ lbl_ce2:
   unit.move(AARON_08, 16, 15)
   unit.face(AARON_08, UP_F4)
 lbl_d26:
-  bgm(ALLY, )
+  bgm(ALLY, BGM_OFF)
   unit.move(SCOTT_06, 17, 15)
   unit.face(SCOTT_06, UP_F4)
   screen.fadein(4)

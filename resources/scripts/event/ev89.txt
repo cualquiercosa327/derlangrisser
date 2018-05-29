@@ -15,5 +15,144 @@ break
 
 # Core Events
 lbl_18:
-  bgm(ALLY, )
+  bgm(ALLY, BGM_OFF)
   screen.map.set(38)
+  rawwrite(0x502b)
+  focus.point(4, 7, FAST)
+  cursor.set(NULL_00)
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.position(LIANA_02, PRESET, PRESET)
+  unit.position(LANA_03, PRESET, PRESET)
+  unit.position(LESTER_09, PRESET, PRESET)
+  unit.position(SCOTT_06, PRESET, PRESET)
+  unit.position(CHERIE_04, PRESET, PRESET)
+  unit.position(KEITH_07, PRESET, PRESET)
+  unit.position(AARON_08, PRESET, PRESET)
+  rawwrite(0x5600)
+  rawwrite(0x5602)
+  unit.face(ERWIN_01, DOWN_F5)
+  unit.face(LANA_03, LEFT_F6)
+  unit.face(CHERIE_04, LEFT_F6)
+  unit.face(KEITH_07, LEFT_F6)
+  unit.face(AARON_08, LEFT_F6)
+  cursor.set(ERWIN_01)
+  screen.fadein(4)
+  msg(LANA_03, LEFT_F6, LANA, NOFOLLOW, 1)
+# Langrisser ... This will be your last errand ...\0
+  msg(LIANA_02, RIGHT_F7, LIANA, NOFOLLOW, 2)
+# Langrisser ... Seal the power of Alhazard.\0
+  bgm(ALLY, ENDING1)
+  rawwrite(0x5603)
+  rawwrite(0x5601)
+  screen.fadein(20)
+  sfx(43)
+  rawwrite(0x5026)
+  screen.fadein(20)
+  delay(30)
+  unit.face(ERWIN_01, UP_F4)
+  unit.face(HEIN_05, UP_F4)
+  unit.face(LIANA_02, UP_F4)
+  unit.face(LANA_03, UP_F4)
+  unit.face(SCOTT_06, UP_F4)
+  unit.face(LESTER_09, UP_F4)
+  unit.face(CHERIE_04, UP_F4)
+  unit.face(KEITH_07, UP_F4)
+  unit.face(AARON_08, UP_F4)
+  msg(CHERIE_04, UP_F4, CHERIE, NOFOLLOW, 3)
+# The clouds are finally parting.\0
+  msg(LANA_03, UP_F4, LANA, NOFOLLOW, 4)
+# Alhazard's evil aura is no more.\0
+  msg(LESTER_09, UP_F4, LESTER, NOFOLLOW, 5)
+# About time ... maybe now there can finally be peace in El Sallia.\0
+  msg(HEIN_05, UP_F4, HEIN, NOFOLLOW, 6)
+# That's right! With Alhazard gone, we've beaten evil!\0
+  rawwrite(0x5600)
+  rawwrite(0x5604)
+  msg(ERWIN_01, UP_F4, ERWIN, NOFOLLOW, 7)
+# No ... It's never that simple ...\r\nThough Alhazard's power may be sealed off, that doesn't mean war has ended.\0
+  msg(AARON_08, ERWIN_01, AARON, FOLLOW, 8)
+# Indeed, _NAME_. The Rayguard Empire has been reduced to shambles.\r\nThe fractured states will begin a new war of unification. Such is the way of history.\0
+  unit.move(ERWIN_01, 5, 8)
+  unit.face(HEIN_05, RIGHT_F7)
+  unit.face(LIANA_02, DOWN_F5)
+  unit.face(LANA_03, DOWN_F5)
+  unit.face(SCOTT_06, RIGHT_F7)
+  unit.face(LESTER_09, RIGHT_F7)
+  unit.face(CHERIE_04, LEFT_F6)
+  unit.face(KEITH_07, LEFT_F6)
+  unit.face(AARON_08, LEFT_F6)
+  msg(ERWIN_01, DOWN_F5, ERWIN, NOFOLLOW, 9)
+# That's why ... I must continue my journey.\r\nA journey to realise an ideal world, where people can finally know peace.\0
+  msg(LIANA_02, ERWIN_01, LIANA, NOFOLLOW, 10)
+# You are right ... Until that day, our battle shall never end.\0
+  unit.move(SCOTT_06, 4, 8)
+  msg(SCOTT_06, ERWIN_01, SCOTT, NOFOLLOW, 11)
+# I'll return to Salrath to help my father.\r\nWe will work hard to help create an ideal world.\0
+  unit.move(CHERIE_04, 7, 7)
+  msg(CHERIE_04, ERWIN_01, CHERIE, NOFOLLOW, 12)
+# I'll help too!\r\nWith Kalxath and its neighbouring nations working together, I'm sure we can bring peace to the land.\0
+  msg(KEITH_07, CHERIE_04, KEITH, NOFOLLOW, 13)
+# Now you're finally talking like a princess. Perhaps I can finally retire to quieter life.\0
+  unit.move(HEIN_05, 3, 7)
+  msg(HEIN_05, KEITH_07, HEIN, NOFOLLOW, 14)
+# Well since Cherie has such a crush on me, I'll have to go wherever she does! Hee hee.\0
+  msg(CHERIE_04, HEIN_05, CHERIE, NOFOLLOW, 15)
+# Why you ...! Hein, you're mean! Keith! This is all because of you and your big mouth!\0
+  unit.move(LANA_03, 5, 7)
+  delay(30)
+  msg(LANA_03, DOWN_F5, LANA, NOFOLLOW, 16)
+# If everyone combines his or her strength, one day, we can make peace happen.\0
+  msg(ERWIN_01, UP_F4, ERWIN, NOFOLLOW, 17)
+# I pray you are right ... Well then, everyone, onward! Let's bring peace to this age!\0
+  screen.fadeout(10)
+  unit.retreat(ERWIN_01)
+  unit.retreat(HEIN_05)
+  unit.retreat(LIANA_02)
+  unit.retreat(LANA_03)
+  unit.retreat(SCOTT_06)
+  unit.retreat(LESTER_09)
+  unit.retreat(CHERIE_04)
+  unit.retreat(KEITH_07)
+  unit.retreat(AARON_08)
+  bgm(ALLY, REQUIEM2)
+  screen.map.set(39)
+  focus.point(4, 7, FAST)
+  unit.position(JESSICA_14, PRESET, PRESET)
+  unit.position(LUSHIRIS_94, PRESET, PRESET)
+  unit.face(LUSHIRIS_94, DOWN_F5)
+  unit.face(JESSICA_14, UP_F4)
+  unit.move(JESSICA_14, 5, 4)
+  rawwrite(0x5605)
+  screen.fadein(10)
+  msg(LUSHIRIS_94, DOWN_F5, LUSHIRIS, NOFOLLOW, 18)
+# Is something troubling you, Jessica?\0
+  msg(JESSICA_14, UP_F4, JESSICA, NOFOLLOW, 19)
+# No ... It's nothing, Lushiris.\0
+  msg(LUSHIRIS_94, DOWN_F5, LUSHIRIS, NOFOLLOW, 20)
+# Thanks to _NAME_ and his companions, Alhazard and its evil power have disappeared.\r\nHowever, at the same time, Langrisser has also vanished ...\0
+  rawwrite(0x5606)
+  msg(JESSICA_14, UP_F4, JESSICA, NOFOLLOW, 21)
+# Lushiris, I don't understand what you mean.\0
+  msg(LUSHIRIS_94, DOWN_F5, LUSHIRIS, NOFOLLOW, 22)
+# Sieghart's spirit ... His is the soul of Langrisser.\r\nWith the evil powers of Alhazard sealed off, his soul felt its task had finally ended.\0
+  msg(SIEGHART_96, UP_F4, NULL, NOFOLLOW, 23)
+# Exactly, Jessica.\0
+  msg(JESSICA_14, UP_F4, JESSICA, NOFOLLOW, 24)
+# That voice is ... Sieghart's!\0
+  msg(SIEGHART_96, UP_F4, NULL, NOFOLLOW, 25)
+# The sword and I have changed much over the last several hundred years ...\r\nThe world has been shaped both for us and because of us.\0
+  msg(JESSICA_14, UP_F4, JESSICA, NOFOLLOW, 26)
+# Yes ...\r\nIn this war, the humans worried about their future and took action to make their dreams come true.\0
+  msg(LUSHIRIS_94, DOWN_F5, LUSHIRIS, NOFOLLOW, 27)
+# Just as children separate from parents, so humans now separate from their god ...\r\nJessica, thank you for your service thus far. From now on, I would have you live your own life.\0
+  msg(JESSICA_14, UP_F4, JESSICA, NOFOLLOW, 28)
+# Thank you, my mission has finally ended. Mankind has need of me no more.\r\nBut perhaps for a little longer, I'll stand watch over this new world ...\0
+  cursor.set(ERWIN_01)
+  cast.teleport(JESSICA_14, JESSICA_14, TELEPORT_OUT, PRESET, PRESET)
+  msg(LUSHIRIS_94, DOWN_F5, LUSHIRIS, NOFOLLOW, 29)
+# Sieghart, come ... Let us watch together the dawn of this new age.\0
+  screen.brightness(20)
+  rawwrite(0x5601)
+break
+

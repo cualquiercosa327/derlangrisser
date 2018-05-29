@@ -87,6 +87,7 @@ function sctxt($text) {
 if (!file_exists("resources/define/bgm.txt"))
   die("Fatal error: BGM definitions not found.\n");
 $ar_bgm = explode("\n", file_get_contents("resources/define/bgm.txt"));
+$ar_bgm[255] = "BGM_OFF";
 
 if (!file_exists("resources/define/item.txt"))
   die("Fatal error: Item definitions not found.\n");
@@ -1033,19 +1034,10 @@ for($i = 0; $i < count($events); $i++) {
         fputs($fo, "  scenarioclear()\n");
         break;
       
-      // catch unknown 0x520c use
+      // catch unknown 0x50 use
       case 0x50:
-        $t_var = fgetb($fd);
-        if($t_var == 0x2c)
-          fputs($fo, "  rawwrite(0x502c)\n");
-        elseif($t_var == 0x2d)
-          fputs($fo, "  rawwrite(0x502d)\n");
-        elseif($t_var == 0x2e)
-          fputs($fo, "  rawwrite(0x502e)\n");
-        else {
-          print "Unhandled exception: 0x50??\n";
-          die();
-        }
+        $t_var = "0x50" . substr(hexstr(fgetb($fd)), 2);
+        fputs($fo, "  rawwrite($t_var)\n");
         break;
       
       // attack(unit1, unit2)
@@ -1092,6 +1084,12 @@ for($i = 0; $i < count($events); $i++) {
         $t_unit1 = $ar_unit[fgetb($fd)];
         $t_unit2 = $ar_unit[fgetb($fd)];
         fputs($fo, "  cast.thunder($t_unit1, $t_unit2)\n");
+        break;
+      
+      // catch unknown 0x56 use
+      case 0x56:
+        $t_var = "0x56" . substr(hexstr(fgetb($fd)), 2);
+        fputs($fo, "  rawwrite($t_var)\n");
         break;
       
       // break

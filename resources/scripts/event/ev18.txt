@@ -109,7 +109,7 @@ lbl_140:
   msg(LEON_D5, LEFT_F6, LEON, NOFOLLOW, 12)
 # Vargas would say something like that ...\0
   unit.face(LEON_D5, DOWN_F5)
-  bgm(ALLY, )
+  bgm(ALLY, BGM_OFF)
   unit.move(LEON_D5, 8, 18)
   delay(60)
   bgm(ALLY, REQUIEM1)
