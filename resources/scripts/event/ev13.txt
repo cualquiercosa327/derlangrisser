@@ -1,0 +1,691 @@
+# Movement-Triggered Events
+on.move(21, lbl_383, JESSICA_14, 1, 0xff)
+on.move(5, lbl_3c3, EGBERT_D8, 0, 0xff)
+on.move(26, lbl_3c8, EGBERT_D8, 0, 0xff)
+on.move(4, lbl_41a, LICH_4A, 0, 0xff)
+on.move(39, lbl_492, VARGAS_D6, 0, 0xff)
+break
+
+# Attack-Triggered Events
+on.attack(19, lbl_367, LESTER_09, EGBERT_D8, 0x00, 0x00, 0xff)
+on.attack(22, lbl_391, JESSICA_14, EGBERT_D8, 0x00, 0x00, 0xff)
+on.attack(24, lbl_3a7, LIANA_02, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(28, lbl_43a, LICH_4A, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(29, lbl_442, NULL_FF, LICH_4A, 0xff, 0x00, 0xff)
+on.attack(40, lbl_49a, VARGAS_D6, NULL_FF, 0x00, 0xff, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(14, lbl_33d, ERWIN_01)
+on.defeat(15, lbl_347, HEIN_05)
+on.defeat(16, lbl_34f, CHERIE_04)
+on.defeat(17, lbl_357, ROHGA_0B)
+on.defeat(18, lbl_35f, KEITH_07)
+on.defeat(20, lbl_37b, LESTER_09)
+on.defeat(23, lbl_39f, JESSICA_14)
+on.defeat(25, lbl_3af, LIANA_02)
+on.defeat(27, lbl_40f, EGBERT_D8)
+on.defeat(30, lbl_44a, LICH_4A)
+on.defeat(31, lbl_452, WEREWOLF_39)
+on.defeat(32, lbl_45a, WEREWOLF_3A)
+on.defeat(33, lbl_462, GELGAZER_3F)
+on.defeat(34, lbl_46a, GELGAZER_40)
+on.defeat(35, lbl_472, GHOST_50)
+on.defeat(36, lbl_47a, GHOST_51)
+on.defeat(37, lbl_482, GHOST_7B)
+on.defeat(38, lbl_48a, GHOST_7C)
+on.defeat(41, lbl_4a2, VARGAS_D6)
+on.damage(42, lbl_4ac, VARGAS_D6, NULL_FF, 0x00, 0xff)
+on.defeat(43, lbl_4b5, LICH_4A, GHOST_50, GHOST_51, GELGAZER_3F, GELGAZER_40, WEREWOLF_39, WEREWOLF_3A, VARGAS_D6)
+on.defeat(6, lbl_4ba, LICH_4A, GHOST_50, GHOST_51, GELGAZER_3F, GELGAZER_40, WEREWOLF_39, WEREWOLF_3A)
+on.defeat(44, lbl_4bf, GELGAZER_3F, GELGAZER_40, GHOST_50, GHOST_51, WEREWOLF_39, WEREWOLF_3A)
+break
+
+# Position-Triggered Events
+on.bound(8, lbl_283, NPC_SUBUNIT_F1, 1, 10, 22, 17, 0x00, 0x00)
+on.bound(9, lbl_305, ERWIN_01, 2, 6, 2, 6, 0x00, 0x00)
+on.bound(10, lbl_310, NPC_COMMANDER_F0, 11, 4, 11, 4, 0x00, 0x00)
+on.bound(11, lbl_321, NPC_SUBUNIT_F1, 1, 1, 11, 20, 0x00, 0x00)
+on.bound(12, lbl_327, NPC_SUBUNIT_F1, 12, 1, 22, 20, 0x00, 0x00)
+on.bound(13, lbl_32d, NPC_SUBUNIT_F1, 11, 3, 13, 3, 0x00, 0x00)
+break
+
+# Turn-Triggered Events
+on.turn(0, lbl_212, ALLY, 0, 0x00)
+on.turn(1, lbl_239, ALLY, 0, 0x00)
+on.turn(2, lbl_23e, ENEMY, 0, 0x00)
+on.turn(3, lbl_264, ALLY, 0, 0x00)
+break
+
+# Core Events
+lbl_156:
+  bgm(ALLY, ALLYREINFORCEMENT2)
+  focus.point(11, 7, FAST)
+  cursor.set(NULL_00)
+  screen.fadein(4)
+  cursor.set(ERWIN_01)
+  unit.position(LICH_4A, PRESET, PRESET)
+  unit.showsub(LICH_4A)
+  unit.position(GHOST_50, PRESET, PRESET)
+  unit.showsub(GHOST_50)
+  unit.position(GHOST_51, PRESET, PRESET)
+  unit.showsub(GHOST_51)
+  unit.position(GHOST_7B, PRESET, PRESET)
+  unit.showsub(GHOST_7B)
+  unit.position(GHOST_7C, PRESET, PRESET)
+  unit.showsub(GHOST_7C)
+  unit.position(GELGAZER_3F, PRESET, PRESET)
+  unit.showsub(GELGAZER_3F)
+  unit.position(GELGAZER_40, PRESET, PRESET)
+  unit.showsub(GELGAZER_40)
+  unit.position(WEREWOLF_3A, PRESET, PRESET)
+  unit.showsub(WEREWOLF_3A)
+  unit.position(WEREWOLF_39, PRESET, PRESET)
+  unit.showsub(WEREWOLF_39)
+  cursor.set(ERWIN_01)
+  unit.position(HEIN_05, PRESET, PRESET)
+  unit.showsub(HEIN_05)
+  unit.position(ROHGA_0B, PRESET, PRESET)
+  unit.showsub(ROHGA_0B)
+  unit.position(CHERIE_04, PRESET, PRESET)
+  unit.showsub(CHERIE_04)
+  unit.position(KEITH_07, PRESET, PRESET)
+  unit.showsub(KEITH_07)
+  unit.position(JESSICA_14, PRESET, PRESET)
+  unit.showsub(JESSICA_14)
+  unit.position(LESTER_09, PRESET, PRESET)
+  unit.showsub(LESTER_09)
+  unit.position(LIANA_02, PRESET, PRESET)
+  unit.showsub(LIANA_02)
+  unit.position(ERWIN_01, PRESET, PRESET)
+  unit.showsub(ERWIN_01)
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 1)
+# The Dark Rod is still here. Perhaps there's time ...\0
+  msg(LICH_4A, ERWIN_01, LICH_RED, FOLLOW, 2)
+# You who trespass upon these forbidden grounds, leave now!\r\nThis is a sacred place which no one may enter.\r\nShould you intrude, know well that your lives will end here.\0
+  msg(KEITH_07, UP_F4, KEITH, FOLLOW, 3)
+# What are these creatures ...?\0
+  msg(JESSICA_14, UP_F4, JESSICA, FOLLOW, 4)
+# They appear to be ancient Guardians, ... beings that exist only to protect the Dark Rod.\0
+  msg(CHERIE_04, JESSICA_14, CHERIE, FOLLOW, 5)
+# Then they would prevent Egbert from taking the Dark Rod as well?\0
+  msg(LESTER_09, CHERIE_04, LESTER, FOLLOW, 6)
+# No ... The Guardians are not powerful enough to stop him.\0
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 7)
+# If that's the case, then we must defeat them and claim the Dark Rod first!\0
+  msg(ROHGA_0B, HEIN_05, ROHGA, FOLLOW, 8)
+# Hein, that's far too reckless.\r\nMaybe if our opponents were another group of soldiers ..., instead of these undead terrors.\0
+  bgm(ALLY, ALLY6)
+  local.sum($0a47d0, $07eb58)
+  local.sum($0a47d0, $07eb59)
+  local.sum($0a47d0, $07eb5a)
+  local.sum($0a47d0, $07eb5b)
+  local.sum($0a47d0, $07eb5c)
+  local.sum($0a47d0, $07eb5d)
+break
+
+lbl_212:
+  msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 9)
+# I still cannot believe that, once upon a time, Egbert was Jessica's apprentice.\0
+  msg(JESSICA_14, ERWIN_01, JESSICA_SAD, FOLLOW, 10)
+# Before my rebirth, he had been studying magic under my direction.\r\nGradually, Egbert became obsessed with finding ever more powerful magic ...\r\nAfter he ceased to be my student, he joined Kaiser Bernhardt to build the Rayguard Empire.\0
+  branch.unit.dead(lbl_234, EGBERT_D8)
+  msg(EGBERT_D8, JESSICA_14, EGBERT, FOLLOW, 11)
+# With the Kaiser's and my combined strength, uniting the continent is a simple task.\r\nIf we can unleash Alhazard, we will wield such a power that the rule of our Empire shall never be challenged.\r\nOur dream of continental conquest will become a reality.\0
+  msg(JESSICA_14, EGBERT_D8, JESSICA, FOLLOW, 12)
+# Egbert, ... your words make me regret ever making you my student.\r\nAt least I can still redeem my error by halting your evil ambitions here!\0
+  msg(EGBERT_D8, JESSICA_14, EGBERT, FOLLOW, 13)
+# Another time, perhaps, master. I must return to Rayguard so we may revive Alhazard.\r\nArguing with you is something I currently have no time for.\0
+lbl_234:
+  bgm(ENEMY, ENEMY4)
+break
+
+lbl_239:
+  bgm(ENEMY, ENEMY2_VARGAS)
+break
+
+lbl_23e:
+  unit.deploy(VARGAS_D6, 21, 29)
+  unit.setbyte(VARGAS_D6, $20, 0x04)
+  unit.refresh()
+  msg(VARGAS_D6, ERWIN_01, VARGAS_ANGRY, FOLLOW, 14)
+# Ah, the young ones! So this is where you fled.\0
+  msg(ERWIN_01, VARGAS_D6, ERWIN, FOLLOW, 15)
+# General Vargas!?\0
+  msg(VARGAS_D6, ERWIN_01, VARGAS_ANGRY, FOLLOW, 16)
+# You there, boy! I've been looking for you ... I shall avenge Zorum's death!\0
+  local.sub($0a47d0, $07eb5b)
+  local.sum($0a47d0, $07eb5e)
+  local.sum($0a47d0, $07eb5f)
+break
+
+lbl_264:
+  branch.unit.dead(lbl_271, CHERIE_04)
+  msg(CHERIE_04, LEFT_F6, CHERIE, FOLLOW, 17)
+# Just great!\r\nFirst, we are forced to battle a shrine full of undead Guardians while Egbert steals away with the Dark Rod ...\r\nNow Vargas is here with an axe to grind over a subordinate who was too foolish to retreat ...\0
+  goto(lbl_277)
+lbl_271:
+  msg(ERWIN_01, VARGAS_D6, VARGAS_ANGRY, FOLLOW, 18)
+# First, we get stuck in a shrine full of undead Guardians while Egbert steals the Dark Rod ...\r\nNow Vargas is here with an axe to grind over a subordinate who was too foolish to retreat ...\0
+lbl_277:
+  branch.unit.dead(lbl_281, ROHGA_0B)
+  msg(ROHGA_0B, VARGAS_D6, ROHGA, FOLLOW, 19)
+# Stop complaining and start fighting!\0
+lbl_281:
+break
+
+lbl_283:
+  unit.cleanup()
+  bgm(ENEMY, ENEMY5_EGBERT)
+  bgm(ALLY, ENEMY5_EGBERT)
+  cast.teleport(EGBERT_D8, EGBERT_D8, TELEPORT_IN, 20, 8)
+  msg(EGBERT_D8, DOWN_F5, EGBERT, FOLLOW, 20)
+# Heh, ... as I expected, the Guardians were no match for you.\0
+  msg(ERWIN_01, EGBERT_D8, ERWIN, FOLLOW, 21)
+# Egbert!\0
+  msg(EGBERT_D8, ERWIN_01, EGBERT, FOLLOW, 22)
+# It seems you've beaten some of the Guardians.\r\nI guess I should be polite and say thanks.\0
+  branch.unit.dead(lbl_2af, JESSICA_14)
+  msg(JESSICA_14, EGBERT_D8, JESSICA_ANGRY, FOLLOW, 74)
+# Egbert ..., you must understand how dangerous Alhazard is ...\0
+  goto(lbl_2b5)
+lbl_2af:
+  msg(JESSICA_14, EGBERT_D8, JESSICA_SAD, NOFOLLOW, 74)
+# Egbert ..., you must understand how dangerous Alhazard is ...\0
+lbl_2b5:
+  msg(EGBERT_D8, JESSICA_14, EGBERT, FOLLOW, 23)
+# Any power can be controlled when in the hands of a competent user.\r\nIsn't that what you used to say, Jessica? Or would you rather I still call you my master?\0
+  branch.unit.dead(lbl_2c8, JESSICA_14)
+  msg(JESSICA_14, EGBERT_D8, JESSICA_ANGRY, FOLLOW, 75)
+# I detest being called master by one who has become so corrupted by lust for power!\0
+  goto(lbl_2ce)
+lbl_2c8:
+  msg(JESSICA_14, EGBERT_D8, JESSICA_SAD, NOFOLLOW, 75)
+# I detest being called master by one who has become so corrupted by lust for power!\0
+lbl_2ce:
+  branch.unit.dead(lbl_2db, HEIN_05)
+  msg(HEIN_05, JESSICA_14, HEIN, FOLLOW, 73)
+# What!? Egbert was once one of Jessica's students?\0
+  goto(lbl_2e1)
+lbl_2db:
+  msg(HEIN_05, JESSICA_14, HEIN_DEAD, NOFOLLOW, 73)
+# What!? Egbert was once one of Jessica's students?\0
+lbl_2e1:
+  branch.unit.dead(lbl_2f7, LESTER_09)
+  msg(LESTER_09, HEIN_05, LESTER, FOLLOW, 24)
+# That's right.\r\nHowever, that son of a bitch vanished right after Jessica's rebirth.\0
+  msg(EGBERT_D8, LESTER_09, EGBERT, FOLLOW, 25)
+# Ha ha ha ...\r\nOh Lester ... Sadly, I have more aims in life than to play babysitter for a seven-hundred-year-old.\0
+  msg(LESTER_09, EGBERT_D8, LESTER, FOLLOW, 26)
+# Hmph, ... same sarcastic fuck as ever ...\0
+lbl_2f7:
+  local.sub($0a47d0, $07eb58)
+  local.sub($0a47d0, $07eb5c)
+  bgm(ALLY, ALLYREINFORCEMENT2)
+  bgm(ENEMY, ENEMY4)
+break
+
+lbl_305:
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 27)
+# "The Muscular Shrine ...?" What could this mean? I guess we'll find out later.\0
+  global.sum($0a4789, $07eb5c)
+break
+
+lbl_310:
+  branch.eq.global(lbl_31f, $0a4789, $07eb59)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 28)
+# Obtained Rune Stone.\0
+  item.add(RUNESTONE)
+  global.sum($0a4789, $07eb59)
+lbl_31f:
+break
+
+lbl_321:
+  unit.clearbit(GELGAZER_3F, $17, 0)
+break
+
+lbl_327:
+  unit.clearbit(GELGAZER_40, $17, 0)
+break
+
+lbl_32d:
+  branch.unit.dead(lbl_33b, EGBERT_D8)
+  unit.cleanup()
+  msg(EGBERT_D8, DOWN_F5, EGBERT, FOLLOW, 29)
+# Excellent work, but I still cannot give you the Dark Rod.\0
+  subroutine(lbl_4df)
+lbl_33b:
+break
+
+lbl_33d:
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 30)
+# Gah--! Is this the end ...?\0
+  unit.cleanup()
+  gameover()
+break
+
+lbl_347:
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 31)
+# Gah--! Th, their ancient magic is incredibly powerful!\0
+break
+
+lbl_34f:
+  msg(CHERIE_04, DOWN_F5, CHERIE_DEAD, FOLLOW, 32)
+# No ... I cannot lose here--!\0
+break
+
+lbl_357:
+  msg(ROHGA_0B, DOWN_F5, ROHGA_DEAD, FOLLOW, 33)
+# Curses ... That was a mistake. Sorry, but I must retreat ...\0
+break
+
+lbl_35f:
+  msg(KEITH_07, DOWN_F5, KEITH_DEAD, FOLLOW, 34)
+# Gahh--! Sorry, I overestimated myself\0
+break
+
+lbl_367:
+  msg(LESTER_09, EGBERT_D8, LESTER_ANGRY, NOFOLLOW, 35)
+# I'm here to protect Jessica! You bastards won't lay a hand on her!\0
+  msg(EGBERT_D8, LESTER_09, EGBERT, NOFOLLOW, 36)
+# Hmmm ..., Lester, do you really have so much power?\0
+  msg(LESTER_09, EGBERT_D8, LESTER_ANGRY, NOFOLLOW, 37)
+# You sure have a big mouth. Let's find out if my fist fits!\0
+break
+
+lbl_37b:
+  msg(LESTER_09, DOWN_F5, LESTER_DEAD, FOLLOW, 38)
+# Damn! Not bad ...\0
+break
+
+lbl_383:
+  msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 39)
+# Jessica, stay where you are! It's too dangerous to enter.\0
+  msg(JESSICA_14, UP_F4, JESSICA, FOLLOW, 40)
+# It's true that I haven't fully recovered my power yet ...\r\nHowever, I still have more than enough strength to help you! Just watch!\0
+break
+
+lbl_391:
+  msg(JESSICA_14, EGBERT_D8, JESSICA, NOFOLLOW, 41)
+# Egbert! Prepare yourself!\0
+  msg(EGBERT_D8, JESSICA_14, EGBERT, NOFOLLOW, 42)
+# Hmmm ... Jessica, give up!\0
+break
+
+lbl_39f:
+  msg(JESSICA_14, DOWN_F5, JESSICA_DEAD, FOLLOW, 43)
+# Eeek ... If only I had a little more time ... just a little--!\0
+break
+
+lbl_3a7:
+  msg(LIANA_02, RIGHT_F7, LIANA, NOFOLLOW, 44)
+# I can fight, too!\0
+break
+
+lbl_3af:
+  msg(LIANA_02, DOWN_F5, LIANA_DEAD, FOLLOW, 45)
+# It shouldn't have been like this ...\0
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 46)
+# Liana, are you okay? Please leave this to us. Just hide somewhere safe.\0
+  msg(LIANA_02, DOWN_F5, LIANA_DEAD, FOLLOW, 47)
+# I'm so sorry ... I had said I wouldn't be a burden, but ...\0
+break
+
+lbl_3c3:
+  subroutine(lbl_500)
+break
+
+lbl_3c8:
+  bgm(ENEMY, ENEMY5_EGBERT)
+  msg(EGBERT_D8, LEFT_F6, EGBERT, FOLLOW, 48)
+# Hah hah hah ... Attacking me is but a waste of your power.\0
+  cast.teleport(EGBERT_D8, EGBERT_D8, TELEPORT_TO, 11, 4)
+  msg(EGBERT_D8, UP_F4, EGBERT, FOLLOW, 49)
+# Hmmm ... Could such a plain trinket truly be the Dark Rod?\0
+  msg(ERWIN_01, EGBERT_D8, ERWIN, FOLLOW, 50)
+# Egbert! Stop!\0
+  msg(EGBERT_D8, ERWIN_01, EGBERT, FOLLOW, 51)
+# Shut up! Wait, ... who are you!?\r\nAhh, ... I see. The winged circlet of Baldea. A Descendant of Light ...\0
+  msg(ERWIN_01, EGBERT_D8, ERWIN, FOLLOW, 52)
+# A descendant of what? What are you talking about!?\0
+  msg(EGBERT_D8, ERWIN_01, EGBERT, FOLLOW, 53)
+# Before I left Rayguard, I was told the Descendants of Light would hinder me ...\r\nI guess that warning was wrong, for the Dark Rod is already mine!\r\nHa ha ha!\0
+  subroutine(lbl_4cc)
+  msg(JESSICA_14, EGBERT_D8, JESSICA, FOLLOW, 54)
+# Egbert! Stop!\0
+  local.sub($0a47d0, $07eb5d)
+  unit.setbit(EGBERT_D8, $17, 0)
+  unit.setbyte(EGBERT_D8, $22, 0x0f)
+  unit.setbyte(EGBERT_D8, $23, 0x07)
+break
+
+lbl_40f:
+  msg(EGBERT_D8, DOWN_F5, EGBERT_DEAD, FOLLOW, 55)
+# What on earth is this ...\0
+  subroutine(lbl_4df)
+break
+
+lbl_41a:
+  msg(LICH_4A, LEFT_F6, LICH_RED, FOLLOW, 56)
+# Groan ... So many fools have come today.\r\nNone who set foot within this sacred shrine shall be forgiven!\r\nYou will all die here.\0
+  unit.clearbit(GHOST_50, $17, 0)
+  unit.clearbit(GHOST_51, $17, 0)
+  unit.clearbit(GHOST_7B, $17, 0)
+  unit.clearbit(GHOST_7C, $17, 0)
+  unit.clearbit(WEREWOLF_39, $17, 0)
+  unit.clearbit(WEREWOLF_3A, $17, 0)
+break
+
+lbl_43a:
+  msg(LICH_4A, LEFT_F6, LICH_RED, NOFOLLOW, 57)
+# Die, fools who dared enter this forbidden palace!\0
+break
+
+lbl_442:
+  msg(LICH_4A, LEFT_F6, LICH_RED, NOFOLLOW, 58)
+# A reckless human ... to pick a fight with one such as I.\r\nI will show you the experience of eternity.\0
+break
+
+lbl_44a:
+  msg(LICH_4A, DOWN_F5, LICH_RED, FOLLOW, 59)
+# Impossible--! I cannot be ... defeated--\0
+break
+
+lbl_452:
+  msg(WEREWOLF_39, DOWN_F5, WEREWOLF, FOLLOW, 60)
+# Whelp!\0
+break
+
+lbl_45a:
+  msg(WEREWOLF_3A, DOWN_F5, WEREWOLF, FOLLOW, 61)
+# Awooo ...\0
+break
+
+lbl_462:
+  msg(GELGAZER_3F, DOWN_F5, GELGAZER, FOLLOW, 62)
+# Splurt!\0
+break
+
+lbl_46a:
+  msg(GELGAZER_40, DOWN_F5, GELGAZER, FOLLOW, 63)
+# Glurg!\0
+break
+
+lbl_472:
+  msg(GHOST_50, DOWN_F5, GHOST, FOLLOW, 64)
+# Rest ... At last ...\0
+break
+
+lbl_47a:
+  msg(GHOST_51, DOWN_F5, GHOST, FOLLOW, 65)
+# Finally, some rest ...\0
+break
+
+lbl_482:
+  msg(GHOST_7B, DOWN_F5, GHOST, FOLLOW, 66)
+# No! Anything but that!\r\nZapp!\0
+break
+
+lbl_48a:
+  msg(GHOST_7C, DOWN_F5, GHOST, FOLLOW, 67)
+# Thank ... you ...\0
+break
+
+lbl_492:
+  msg(VARGAS_D6, ERWIN_01, VARGAS, FOLLOW, 68)
+# Zorum ... wait for me!\r\nBefore this day is done, these children's heads will rest on your grave as an offering!\0
+break
+
+lbl_49a:
+  msg(VARGAS_D6, RIGHT_F7, VARGAS_ANGRY, FOLLOW, 69)
+# That's for Colonel Zorum! I'll send you to hell!\0
+break
+
+lbl_4a2:
+  msg(VARGAS_D6, RIGHT_F7, VARGAS_DEAD, FOLLOW, 70)
+# Ugghhh ... I can't die yet!\r\nOne day ... I will surely avenge Zorum! Enjoy what little remains of your lives!\0
+  unit.retreat(VARGAS_D6)
+break
+
+lbl_4ac:
+  unit.cleanup()
+  msg(VARGAS_D6, RIGHT_F7, VARGAS, FOLLOW, 71)
+# Hmm! You're doing quite well!\0
+break
+
+lbl_4b5:
+  subroutine(lbl_55c)
+break
+
+lbl_4ba:
+  subroutine(lbl_55c)
+break
+
+lbl_4bf:
+  unit.cleanup()
+  branch.unit.dead(lbl_4ca, LICH_4A)
+  msg(LICH_4A, DOWN_F5, LICH_RED, FOLLOW, 72)
+# The thieves are stronger than I had expected ...\0
+lbl_4ca:
+break
+
+lbl_4cc:
+  tile.set(224, 11, 3)
+  tile.set(225, 12, 3)
+  msg(NULL_00, DOWN_F5, NULL, NOFOLLOW, 91)
+# The Dark Rod was stolen.\0
+  unit.setbyte(EGBERT_D8, $09, 0x0f)
+endsub
+
+lbl_4df:
+  msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 92)
+# Oh, no! Stop him before he takes the Dark Rod!\0
+  msg(EGBERT_D8, JESSICA_14, EGBERT, FOLLOW, 93)
+# You are too late!\0
+  msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 94)
+# It's hopeless ... We can't stop him!\0
+  branch.eq.global(lbl_4fc, $0a47d3, $07eb5a)
+  focus.point(11, 3, SLOW)
+  subroutine(lbl_4cc)
+lbl_4fc:
+  subroutine(lbl_500)
+endsub
+
+lbl_500:
+  bgm(ENEMY, ENEMY5_EGBERT)
+  bgm(ALLY, ENEMY5_EGBERT)
+  msg(EGBERT_D8, ERWIN_01, EGBERT, FOLLOW, 95)
+# Now that I have the Dark Rod, I can report to his majesty.\r\nDescendants of Light, we shall meet again. That is, if you live that long ...\0
+  branch.unit.dead(lbl_51c, JESSICA_14)
+  msg(JESSICA_14, EGBERT_D8, JESSICA, FOLLOW, 96)
+# Wait!\0
+  msg(EGBERT_D8, JESSICA_14, EGBERT, FOLLOW, 97)
+# Heh heh heh ...\r\nI'll defeat Jessica one day, but not now. A victory over her in such a feeble state is no victory at all.\r\nFarewell.\0
+lbl_51c:
+  cast.teleport(EGBERT_D8, EGBERT_D8, TELEPORT_OUT, PRESET, PRESET)
+  bgm(ENEMY, ENEMY4)
+  bgm(ALLY, ALLYREINFORCEMENT2)
+  branch.unit.dead(lbl_532, HEIN_05)
+  msg(HEIN_05, UP_F4, HEIN, FOLLOW, 98)
+# Damn!\0
+lbl_532:
+  msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 99)
+# Shit, ... he escaped. There's no longer any point in fighting these Guardians, right?\0
+  branch.unit.dead(lbl_545, JESSICA_14)
+  msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 78)
+# Even so, the Guardians have awoken and will not return to their rest.\r\nIf we leave without defeating the Guardians, they will massacre the villagers at the foot of the mountain.\0
+  goto(lbl_54b)
+lbl_545:
+  msg(JESSICA_14, ERWIN_01, JESSICA_DEAD, NOFOLLOW, 78)
+# Even so, the Guardians have awoken and will not return to their rest.\r\nIf we leave without defeating the Guardians, they will massacre the villagers at the foot of the mountain.\0
+lbl_54b:
+  msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 100)
+# By Lushiris! I understand ... Egbert was even more clever than I had imagined ...\r\nEveryone, let's finish them quickly.\0
+  branch.ne.global(lbl_55b, $0a4789, $07eb5b)
+  local.sub($0a47d0, $07eb5a)
+  local.sub($0a47d0, $07eb59)
+lbl_55b:
+endsub
+
+lbl_55c:
+  unit.cleanup()
+  scenarioclear()
+  msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 101)
+# It seems we have vanquished them all ...\0
+  branch.unit.dead(lbl_571, JESSICA_14)
+  msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 77)
+# Regardless, the Dark Rod is in the hands of the Kaiser.\r\nAll that he needs now is a catalyst to release the sword's true power.\0
+  goto(lbl_577)
+lbl_571:
+  msg(JESSICA_14, ERWIN_01, JESSICA_DEAD, NOFOLLOW, 77)
+# Regardless, the Dark Rod is in the hands of the Kaiser.\r\nAll that he needs now is a catalyst to release the sword's true power.\0
+lbl_577:
+  msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 102)
+# The Kaiser needs a catalyst ... What could it be?\0
+  msg(JESSICA_14, ERWIN_01, JESSICA_SAD, NOFOLLOW, 103)
+# I don't know either ...\0
+  branch.unit.dead(lbl_597, CHERIE_04)
+  msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 104)
+# A catalyst to unleash something so powerful can't be a simple object.\0
+  branch.unit.dead(lbl_597, HEIN_05)
+  msg(HEIN_05, CHERIE_04, HEIN, FOLLOW, 105)
+# Hmmm ... You're right. This catalyst may not even be a "thing".\0
+lbl_597:
+  branch.unit.dead(lbl_5a1, KEITH_07)
+  msg(KEITH_07, JESSICA_14, KEITH, FOLLOW, 106)
+# This truly has turned into a nightmare.\r\nThe Dark Rod has been taken, and we don't know anything about the catalyst, either ...\r\nWe should at least find out more about it ...\0
+lbl_5a1:
+  branch.unit.dead(lbl_5ae, JESSICA_14)
+  msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 76)
+# ...\r\nThis is the end ... Langrisser is our only hope.\0
+  goto(lbl_5b4)
+lbl_5ae:
+  msg(JESSICA_14, ERWIN_01, JESSICA_DEAD, NOFOLLOW, 76)
+# ...\r\nThis is the end ... Langrisser is our only hope.\0
+lbl_5b4:
+  branch.unit.dead(lbl_5c1, CHERIE_04)
+  msg(CHERIE_04, JESSICA_14, CHERIE, FOLLOW, 107)
+# Langrisser!? The Legendary Sword!\r\nI can't believe it really exists.\0
+  goto(lbl_5c7)
+lbl_5c1:
+  msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 108)
+# Langrisser? You mean the Legendary Sword?\0
+lbl_5c7:
+  branch.unit.dead(lbl_5d4, JESSICA_14)
+  msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 79)
+# With the Dark Rod in their hands, it's only a matter of time before Alhazard is unsealed.\r\nIn all this world, only one thing can stand against the fully-powered Alhazard: Langrisser, the Sword of Light.\0
+  goto(lbl_5da)
+lbl_5d4:
+  msg(JESSICA_14, ERWIN_01, JESSICA_DEAD, NOFOLLOW, 79)
+# With the Dark Rod in their hands, it's only a matter of time before Alhazard is unsealed.\r\nIn all this world, only one thing can stand against the fully-powered Alhazard: Langrisser, the Sword of Light.\0
+lbl_5da:
+  msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 109)
+# So, where would we find Langrisser?\0
+  branch.unit.dead(lbl_5ed, JESSICA_14)
+  msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 80)
+# Langrisser is sealed within the halls of Castle Baldea ...\r\nHowever, ... the castle vanished long ago from the eyes of man.\0
+  goto(lbl_5f3)
+lbl_5ed:
+  msg(JESSICA_14, ERWIN_01, JESSICA_DEAD, NOFOLLOW, 80)
+# Langrisser is sealed within the halls of Castle Baldea ...\r\nHowever, ... the castle vanished long ago from the eyes of man.\0
+lbl_5f3:
+  branch.unit.dead(lbl_600, LIANA_02)
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 81)
+# Castle Baldea ... I've read of it in old manuscripts in Estool's Shrine of Light.\r\nI may have an idea where it rests today ...\0
+  goto(lbl_606)
+lbl_600:
+  msg(LIANA_02, ERWIN_01, LIANA_DEAD, NOFOLLOW, 81)
+# Castle Baldea ... I've read of it in old manuscripts in Estool's Shrine of Light.\r\nI may have an idea where it rests today ...\0
+lbl_606:
+  branch.unit.dead(lbl_613, JESSICA_14)
+  msg(JESSICA_14, LIANA_02, JESSICA, FOLLOW, 82)
+# Then I entrust Liana to be your guide to Castle Baldea.\r\nIn the meantime, I'll try to persuade other countries to join in opposing the Empire.\0
+  goto(lbl_619)
+lbl_613:
+  msg(JESSICA_14, LIANA_02, JESSICA_DEAD, NOFOLLOW, 82)
+# Then I entrust Liana to be your guide to Castle Baldea.\r\nIn the meantime, I'll try to persuade other countries to join in opposing the Empire.\0
+lbl_619:
+  branch.unit.dead(lbl_626, KEITH_07)
+  msg(KEITH_07, JESSICA_14, KEITH, FOLLOW, 83)
+# The banner of Kalxath should be a good rallying point for anti-imperial nations.\0
+  goto(lbl_62c)
+lbl_626:
+  msg(KEITH_07, JESSICA_14, KEITH_DEAD, NOFOLLOW, 83)
+# The banner of Kalxath should be a good rallying point for anti-imperial nations.\0
+lbl_62c:
+  branch.unit.dead(lbl_639, JESSICA_14)
+  msg(JESSICA_14, KEITH_07, JESSICA, FOLLOW, 84)
+# No ... You must go to Baldea as well to fight the Empire.\r\nIf the Empire is planning to use Alhazard, then they cannot ignore the threat Langrisser poses to their goals.\r\nBefore leaving for Baldea, we should mass our forces. Lester, I want you to go with them to Baldea.\0
+  goto(lbl_63f)
+lbl_639:
+  msg(JESSICA_14, KEITH_07, JESSICA_DEAD, NOFOLLOW, 84)
+# No ... You must go to Baldea as well to fight the Empire.\r\nIf the Empire is planning to use Alhazard, then they cannot ignore the threat Langrisser poses to their goals.\r\nBefore leaving for Baldea, we should mass our forces. Lester, I want you to go with them to Baldea.\0
+lbl_63f:
+  branch.unit.dead(lbl_64c, LESTER_09)
+  msg(LESTER_09, JESSICA_14, LESTER, FOLLOW, 85)
+# Lady Jessica, you know I can't ...\0
+  goto(lbl_652)
+lbl_64c:
+  msg(LESTER_09, JESSICA_14, LESTER_DEAD, NOFOLLOW, 85)
+# Lady Jessica, you know I can't ...\0
+lbl_652:
+  branch.unit.dead(lbl_65f, JESSICA_14)
+  msg(JESSICA_14, LESTER_09, JESSICA, FOLLOW, 86)
+# Lester, worry not about me. I can defend myself.\r\nRight now, all the people of El Sallia are at risk. Defend them instead.\0
+  goto(lbl_665)
+lbl_65f:
+  msg(JESSICA_14, LESTER_09, JESSICA_DEAD, NOFOLLOW, 86)
+# Lester, worry not about me. I can defend myself.\r\nRight now, all the people of El Sallia are at risk. Defend them instead.\0
+lbl_665:
+  branch.unit.dead(lbl_672, LESTER_09)
+  msg(LESTER_09, JESSICA_14, LESTER, FOLLOW, 87)
+# I understand ... Then I'll go with _NAME_ to Baldea.\0
+  goto(lbl_678)
+lbl_672:
+  msg(LESTER_09, JESSICA_14, LESTER_DEAD, NOFOLLOW, 87)
+# I understand ... Then I'll go with _NAME_ to Baldea.\0
+lbl_678:
+  branch.unit.dead(lbl_685, JESSICA_14)
+  msg(JESSICA_14, LIANA_02, JESSICA, FOLLOW, 88)
+# Liana, I can feel a great power emanating from you.\r\nI am still uncertain what it is, but you must be more confident. You are stronger than you yet realise.\0
+  goto(lbl_68b)
+lbl_685:
+  msg(JESSICA_14, LIANA_02, JESSICA_DEAD, NOFOLLOW, 88)
+# Liana, I can feel a great power emanating from you.\r\nI am still uncertain what it is, but you must be more confident. You are stronger than you yet realise.\0
+lbl_68b:
+  branch.unit.dead(lbl_695, LIANA_02)
+  msg(LIANA_02, JESSICA_14, LIANA, FOLLOW, 110)
+# Y, yes!\0
+lbl_695:
+  branch.unit.dead(lbl_6a2, JESSICA_14)
+  msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 89)
+# Hurry then ... to Baldea! Go before the Empire can obtain Langrisser!\0
+  goto(lbl_6a8)
+lbl_6a2:
+  msg(JESSICA_14, ERWIN_01, JESSICA_DEAD, NOFOLLOW, 89)
+# Hurry then ... to Baldea! Go before the Empire can obtain Langrisser!\0
+lbl_6a8:
+  msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 111)
+# I understand. Let us be off.\0
+  branch.unit.dead(lbl_6c1, JESSICA_14)
+  msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 90)
+# Farewell, everyone. Take good care of yourselves ...\0
+  cast.teleport(JESSICA_14, JESSICA_14, TELEPORT_OUT, PRESET, PRESET)
+  goto(lbl_6c7)
+lbl_6c1:
+  msg(JESSICA_14, ERWIN_01, JESSICA_DEAD, NOFOLLOW, 90)
+# Farewell, everyone. Take good care of yourselves ...\0
+lbl_6c7:
+  branch.ne.global(lbl_6e1, $0a47d1, $07eb59)
+  msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 112)
+# We have to go to Baldea, but what should we do about the sanctuary?\r\nIt may still house another secret behind that door near the strange sign.\0
+  prompt.ok(lbl_6e1)
+  msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 114)
+# Well, we may as well see what's through the passage.\r\nHmmm ...! It's the doorway to a second shrine!\r\nMaybe we can find out something more about Alhazard in there.\0
+  loadscenario(71)
+lbl_6e1:
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 115)
+# Let's go! It's time to head for Baldea.\0
+  loadscenario(7)
+endsub
+

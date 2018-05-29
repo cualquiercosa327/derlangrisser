@@ -216,3 +216,671 @@ lbl_136:
 # The Sanctuary of Reitel, eh? Hmmm ...\0
   bgm(ALLY, ENEMY5_EGBERT)
   cursor.set(ERWIN_01)
+  cast.teleport(EGBERT_D8, EGBERT_D8, TELEPORT_IN, 2, 6)
+  msg(EGBERT_D8, JESSICA_14, EGBERT, FOLLOW, 39)
+# Ha ha ha! I see ...\r\nI would have never guessed to look there.\0
+  msg(JESSICA_14, EGBERT_D8, JESSICA, FOLLOW, 40)
+# That voice--!? Egbert!\0
+  unit.face(ERWIN_01, LEFT_F6)
+  unit.face(LESTER_09, LEFT_F6)
+  unit.move(HEIN_05, PRESET, PRESET)
+  msg(HEIN_05, EGBERT_D8, HEIN, FOLLOW, 41)
+# E, Egbert!?\r\nThe legendary magician who supports the Rayguard Empire from the shadows?\r\nThe unknown man who follows the evil ways!\0
+  unit.move(KEITH_07, PRESET, PRESET)
+  msg(KEITH_07, EGBERT_D8, KEITH, FOLLOW, 42)
+# I've heard of him too ...\r\nHe's not only a powerful magician, but also a mighty strategist.\r\nHe's convinced many countries to surrender to the Empire.\0
+  msg(EGBERT_D8, KEITH_07, EGBERT, FOLLOW, 43)
+# Oh ...? My reputation precedes me.\r\nHowever, now that I know where the Dark Rod is, your usefulness has come to an end.\r\nYou all shall perish here.\0
+  msg(JESSICA_14, EGBERT_D8, JESSICA_ANGRY, FOLLOW, 44)
+# Egbert! Stop this!\0
+  msg(EGBERT_D8, JESSICA_14, EGBERT, FOLLOW, 45)
+# He he he ...\r\nIf you're so intent on helping them, I'm afraid you'll share their fate, Jessica.\0
+  msg(LESTER_09, EGBERT_D8, LESTER_ANGRY, FOLLOW, 46)
+# Egbert! You asshole ...\r\nHow dare you show your face in front of Jessica again! Your evil bullshit ends here!\0
+  msg(EGBERT_D8, LESTER_09, EGBERT, FOLLOW, 47)
+# Sigh ... Lester, what are you thinking?\r\nI've already sent your little "mates" to hell. Are you planning to end their loneliness?\0
+  msg(LESTER_09, EGBERT_D8, LESTER_ANGRY, FOLLOW, 48)
+# What the fuck!? I'll never forgive you!\r\nYou son of a bitch, I'll wring your neck until your head pops off! Prepare to die!\0
+  msg(EGBERT_D8, LESTER_09, EGBERT, FOLLOW, 49)
+# Sigh ... idiot! Do you really think I would come here alone?\0
+  bgm(ALLY, ENEMY8_BOSER)
+  unit.position(IMPERIALCOMMANDER_38, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_38)
+  unit.position(IMPERIALCOMMANDER_31, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_31)
+  unit.position(IMPERIALCOMMANDER_30, PRESET, PRESET)
+  unit.showsub(IMPERIALCOMMANDER_30)
+  unit.position(CAMILLA_A1, PRESET, PRESET)
+  unit.showsub(CAMILLA_A1)
+  msg(CAMILLA_A1, EGBERT_D8, PRIEST_GREEN, FOLLOW, 50)
+# Master Egbert! The preparations for our plan are complete.\0
+  unit.move(ROHGA_0B, PRESET, PRESET)
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 51)
+# What? Something smells like oil ...\0
+  unit.move(ERWIN_01, PRESET, PRESET)
+  msg(ERWIN_01, EGBERT_D8, ERWIN, FOLLOW, 52)
+# Watch out! He's planning something!\0
+  unit.move(LIANA_02, PRESET, PRESET)
+  unit.move(CHERIE_04, PRESET, PRESET)
+  unit.move(LESTER_09, PRESET, PRESET)
+  unit.showsub(ERWIN_01)
+  unit.showsub(HEIN_05)
+  unit.showsub(ROHGA_0B)
+  unit.showsub(CHERIE_04)
+  unit.showsub(LIANA_02)
+  unit.showsub(KEITH_07)
+  unit.showsub(JESSICA_14)
+  unit.showsub(LESTER_09)
+  bgm(ALLY, ALLY1)
+  local.sum($0a47d0, $07eb58)
+  local.sum($0a47d0, $07eb59)
+  local.sum($0a47d0, $07eb5a)
+  local.sum($0a47d0, $07eb5b)
+  local.sum($0a47d0, $07eb5c)
+  global.sub($0a4789, $07eb5b)
+break
+
+lbl_3cc:
+  unit.deploy(IMPERIALCOMMANDER_32, 6, 30)
+  unit.deploy(IMPERIALCOMMANDER_33, 8, 32)
+  msg(IMPERIALCOMMANDER_33, LEFT_F6, PIRATE_WHITE, FOLLOW, 53)
+# Two detachments of the Water Dragon Navy are here by order of General Imelda.\r\nWe've come to give you backup.\0
+  branch.unit.dead(lbl_3ea, EGBERT_D8)
+  msg(EGBERT_D8, IMPERIALCOMMANDER_32, EGBERT, FOLLOW, 54)
+# You're just in time. Engage them at once.\0
+  msg(IMPERIALCOMMANDER_32, EGBERT_D8, PIRATE_WHITE, FOLLOW, 55)
+# Yes, Sir! You can depend on us.\0
+lbl_3ea:
+break
+
+lbl_3ec:
+  bgm(ENEMY, ENEMYREINFORCEMENT1)
+break
+
+lbl_3f1:
+  burn(5, 1)
+  rawwrite(0xff08)
+  rawwrite(0xff01)
+break
+
+lbl_3fa:
+  burn(5, 1)
+  rawwrite(0xff08)
+  rawwrite(0xff00)
+break
+
+lbl_403:
+  branch.unit.dead(lbl_42c, VARGAS_D6)
+  msg(CAMILLA_A1, VARGAS_D6, PRIEST_GREEN, FOLLOW, 56)
+# Please listen to me, General Vargas!\r\nI can't let you get in trouble on my behalf.\r\nBesides, as the strongest group of magicians in the Empire, we have our pride.\r\nIt would affect master Egbert's reputation if we relied on your help.\0
+  branch.unit.dead(lbl_426, ZORUM_1A)
+  msg(ZORUM_1A, VARGAS_D6, ZORUM, FOLLOW, 57)
+# What should we do, General?\r\nWe don't have the forces we need to win this fight.\r\nAll we can do is rely on our tactics ...\0
+  msg(VARGAS_D6, ZORUM_1A, VARGAS, FOLLOW, 58)
+# It's already been decided. We can't let these valiant warriors die now, can we?\0
+  msg(ZORUM_1A, VARGAS_D6, ZORUM, FOLLOW, 59)
+# I understand ... Then I, Colonel Zorum, will show you all of my power!\0
+  goto(lbl_42c)
+lbl_426:
+  msg(VARGAS_D6, CAMILLA_A1, VARGAS, FOLLOW, 60)
+# You find a question scrawled at your feet.\r\n"Could you abandon someone who would fight to his death?"\r\n"Who would give all to protect you? I doubt you could ..."\0
+lbl_42c:
+break
+
+lbl_42e:
+  branch.eq.global(lbl_43e, $0a4789, $07eb59)
+  unit.cleanup()
+  msg(NULL_00, DOWN_F5, NULL, NOFOLLOW, 61)
+# Obtained Rune Stone.\0
+  item.add(RUNESTONE)
+  global.sum($0a4789, $07eb59)
+lbl_43e:
+break
+
+lbl_440:
+  subroutine(lbl_7d7)
+break
+
+lbl_445:
+  local.sub($0a47d0, $07eb5c)
+break
+
+lbl_44a:
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 62)
+# Gahh--! To have come so far ...\0
+  unit.cleanup()
+  gameover()
+break
+
+lbl_454:
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 63)
+# How cruel ... To have given me so many cuts and bruises ...\0
+break
+
+lbl_45c:
+  msg(CHERIE_04, DOWN_F5, CHERIE_DEAD, FOLLOW, 64)
+# Ah--!? I'm losing my concentration. Sorry, but I must retreat!\0
+break
+
+lbl_464:
+  msg(ROHGA_0B, DOWN_F5, ROHGA_DEAD, FOLLOW, 65)
+# Wah, shit! I can't fall here! I'll withdraw.\0
+break
+
+lbl_46c:
+  msg(KEITH_07, DOWN_F5, KEITH_DEAD, FOLLOW, 66)
+# Ugh ... I made a mistake.\0
+break
+
+lbl_474:
+  msg(LESTER_09, DOWN_F5, LESTER_DEAD, FOLLOW, 67)
+# Shit! I was too careless.\0
+break
+
+lbl_47c:
+  branch.unit.dead(lbl_4ab, EGBERT_D8)
+  msg(JESSICA_14, EGBERT_D8, JESSICA, FOLLOW, 68)
+# Egbert ...\r\nYou seem intent on breaking the seal of Alhazard at any cost ...\0
+  msg(EGBERT_D8, JESSICA_14, EGBERT, FOLLOW, 69)
+# Oh! So you finally noticed?\r\nHowever, Jessica, since you have just been reborn, you and I both know you lack the strength to stop me.\0
+  msg(JESSICA_14, EGBERT_D8, JESSICA, FOLLOW, 70)
+# Indeed ...\r\nWith the magic of Rebirth, a magician can abandon her old body and be reborn anew ...\r\nYet it's at the cost of her magic power, which is reduced to that of a novice.\r\nStill, ... while I may be weak, I can't overlook your attempts to revive Alhazard!\0
+  msg(EGBERT_D8, JESSICA_14, EGBERT, FOLLOW, 71)
+# Is that right ...? Then I won't hold back, teacher. You'll share their fate!\0
+  branch.unit.dead(lbl_4a8, LESTER_09)
+  msg(LESTER_09, EGBERT_D8, LESTER_ANGRY, FOLLOW, 72)
+# No way! As long as I'm here, you'll never touch her!\0
+  msg(EGBERT_D8, LESTER_09, EGBERT, FOLLOW, 73)
+# Then the easiest solution seems to be making you "not here."\0
+lbl_4a8:
+  goto(lbl_4b7)
+lbl_4ab:
+  msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 74)
+# The Empire is serious about breaking the seal on Alhazard.\0
+  msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 75)
+# Hurry! We can't allow the Empire to take the Dark Rod!\0
+lbl_4b7:
+break
+
+lbl_4b9:
+  branch.unit.dead(lbl_4c9, LESTER_09)
+  msg(LESTER_09, ERWIN_01, LESTER, FOLLOW, 76)
+# Miss Jessica! I'll cover your back. Please, stay near _NAME_.\0
+  msg(JESSICA_14, LESTER_09, JESSICA, FOLLOW, 77)
+# Thank you, Lester. I will try to stay near him.\0
+lbl_4c9:
+break
+
+lbl_4cb:
+  msg(JESSICA_14, DOWN_F5, JESSICA_DEAD, FOLLOW, 78)
+# Ahh--! The sky is so blue ...\0
+  unit.cleanup()
+  msg(ERWIN_01, DOWN_F5, ERWIN_SAD, NOFOLLOW, 79)
+# Damn! I couldn't protect her!\0
+  gameover()
+break
+
+lbl_4db:
+  msg(LIANA_02, RIGHT_F7, LIANA, NOFOLLOW, 80)
+# Everyone has given so much to keep protecting me ... It's my turn to fight, too!\0
+break
+
+lbl_4e3:
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 81)
+# Liana!\0
+  msg(LIANA_02, DOWN_F5, LIANA_DEAD, FOLLOW, 82)
+# I'm sorry ... I wasn't able to help you ...\0
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 83)
+# Don't worry about fighting. Worry about your safety and leave the battle to us.\0
+  msg(LIANA_02, DOWN_F5, LIANA_DEAD, FOLLOW, 84)
+# I'm so sorry ...\0
+break
+
+lbl_4fd:
+  subroutine(lbl_8ed)
+break
+
+lbl_502:
+  msg(EGBERT_D8, JESSICA_14, EGBERT, FOLLOW, 85)
+# Pathetic ... These maggots will die even without my intervention.\r\nWell then, I'll be off to Reitel.\0
+  msg(EGBERT_D8, CAMILLA_A1, EGBERT, FOLLOW, 86)
+# Camilla, come along when you've finished with them.\0
+  msg(CAMILLA_A1, EGBERT_D8, PRIEST_GREEN, FOLLOW, 87)
+# Understood!\0
+  subroutine(lbl_7c0)
+break
+
+lbl_519:
+  msg(EGBERT_D8, LEFT_F6, EGBERT, NOFOLLOW, 88)
+# You dare attack me ...?\0
+break
+
+lbl_521:
+  msg(EGBERT_D8, DOWN_F5, EGBERT, FOLLOW, 89)
+# I never imagined you kids had so much power ... However, it matters not.\r\nI shall still reach Reitel before you can stop me!\0
+  branch.eq.global(lbl_53c, $0a47d2, $07eb5d)
+  msg(EGBERT_D8, ERWIN_01, EGBERT, FOLLOW, 90)
+# But first, let me pay you back for this scratch.\0
+  unit.setbyte(EGBERT_D8, $03, 0x01)
+  subroutine(lbl_8ed)
+  unit.setbyte(EGBERT_D8, $03, 0x00)
+lbl_53c:
+  msg(EGBERT_D8, CAMILLA_A1, EGBERT, FOLLOW, 91)
+# Camilla, the rest is in your hands. Let no one escape.\0
+  msg(CAMILLA_A1, EGBERT_D8, PRIEST_GREEN, FOLLOW, 92)
+# Leave it to me, Sir.\0
+  subroutine(lbl_7c0)
+break
+
+lbl_54d:
+  branch.unit.dead(lbl_560, EGBERT_D8)
+  msg(EGBERT_D8, CAMILLA_A1, EGBERT, FOLLOW, 93)
+# You can't let them escape.\0
+  msg(CAMILLA_A1, EGBERT_D8, PRIEST_GREEN, FOLLOW, 94)
+# Yes, Sir! Understood.\0
+  goto(lbl_566)
+lbl_560:
+  msg(CAMILLA_A1, LEFT_F6, PRIEST_GREEN, FOLLOW, 95)
+# Don't let them escape!\0
+lbl_566:
+break
+
+lbl_568:
+  branch.ne.global(lbl_575, $0a47d3, $07eb5b)
+  msg(CAMILLA_A1, DOWN_F5, PRIEST_GREEN_DEAD, FOLLOW, 96)
+# Even with General Vargas' help, I still ... My duty is complete ...\r\nEgbert must have gotten it by now ... The Dark Rod ...\r\nGahh--!\0
+  goto(lbl_57b)
+lbl_575:
+  msg(CAMILLA_A1, DOWN_F5, PRIEST_GREEN_DEAD, FOLLOW, 97)
+# You ... can hurry ... in vain ...\r\nBy now Egbert must have gotten ... the Dark Rod ... Argh--!\0
+lbl_57b:
+  unit.cleanup()
+  branch.unit.dead(lbl_5b4, VARGAS_D6)
+  branch.unit.dead(lbl_5a5, ZORUM_1A)
+  msg(VARGAS_D6, ERWIN_01, VARGAS, FOLLOW, 98)
+# Damn, how could you!? There's no other choice, we must retreat!\0
+  msg(ZORUM_1A, VARGAS_D6, ZORUM, FOLLOW, 99)
+# But, General Vargas! We can still fight easily.\r\nAnd the enemy has lost most of their main force. Victory can still be ours!\0
+  msg(VARGAS_D6, ZORUM_1A, VARGAS, FOLLOW, 100)
+# Stop it! The flames are rising.\r\nStaying here is dangerous. A soldier shouldn't throw away his life just to beat one lowly enemy.\r\nThere's no glory in burning to death. Besides, we've got a job to do.\r\nFall back!\0
+  msg(ZORUM_1A, VARGAS_D6, ZORUM, FOLLOW, 101)
+# Yes, Sir! I'll follow your command.\0
+  msg(VARGAS_D6, ERWIN_01, VARGAS, FOLLOW, 102)
+# Farewell, kids ... You better hurry!\0
+  goto(lbl_5b1)
+lbl_5a5:
+  msg(VARGAS_D6, ERWIN_01, VARGAS, FOLLOW, 103)
+# One day I'll avenge Zorum, but for now, I have more pressing orders.\r\nI can't wait here forever ...\0
+  msg(VARGAS_D6, ERWIN_01, VARGAS_ANGRY, FOLLOW, 104)
+# You kids better stay alive!\r\nI intend to take your rotting skulls as a grave offering for Zorum!\r\nEnjoy your short lives ... while they last.\0
+lbl_5b1:
+  goto(lbl_5f2)
+lbl_5b4:
+  branch.unit.dead(lbl_5c1, ZORUM_1A)
+  msg(ZORUM_1A, ERWIN_01, ZORUM, FOLLOW, 105)
+# Excellent spirit, kids! But next time we meet, it will be your end!\0
+  goto(lbl_5f2)
+lbl_5c1:
+  branch.unit.dead(lbl_5ce, IMPERIALCOMMANDER_30)
+  msg(IMPERIALCOMMANDER_30, ERWIN_01, PRIEST_GREEN, FOLLOW, 106)
+# Damn! I can't believe Camilla was beaten ...\0
+  goto(lbl_5f2)
+lbl_5ce:
+  branch.unit.dead(lbl_5db, IMPERIALCOMMANDER_31)
+  msg(IMPERIALCOMMANDER_31, ERWIN_01, KNIGHT1_GREEN, FOLLOW, 107)
+# They're too strong! Retreat!\0
+  goto(lbl_5f2)
+lbl_5db:
+  branch.unit.dead(lbl_5e8, IMPERIALCOMMANDER_32)
+  msg(IMPERIALCOMMANDER_32, ERWIN_01, PIRATE_WHITE, FOLLOW, 108)
+# Damn it! What a shame ... I have to withdraw!\0
+  goto(lbl_5f2)
+lbl_5e8:
+  branch.unit.dead(lbl_5f2, IMPERIALCOMMANDER_33)
+  msg(IMPERIALCOMMANDER_33, ERWIN_01, PIRATE_WHITE, FOLLOW, 109)
+# Damn! There's no choice but to withdraw!\0
+lbl_5f2:
+  unit.retreat(IMPERIALCOMMANDER_30)
+  unit.retreat(IMPERIALCOMMANDER_31)
+  unit.retreat(IMPERIALCOMMANDER_32)
+  unit.retreat(IMPERIALCOMMANDER_33)
+  unit.retreat(IMPERIALCOMMANDER_34)
+  unit.retreat(IMPERIALCOMMANDER_38)
+  unit.retreat(VARGAS_D6)
+  unit.retreat(ZORUM_1A)
+  local.sum($0a47d3, $07eb5b)
+  subroutine(lbl_821)
+break
+
+lbl_60a:
+  msg(IMPERIALCOMMANDER_30, DOWN_F5, PRIEST_GREEN, FOLLOW, 110)
+# You, how could you do this ...?\0
+break
+
+lbl_612:
+  msg(IMPERIALCOMMANDER_31, RIGHT_F7, KNIGHT1_GREEN, FOLLOW, 111)
+# We can't let them go! Kill them all! No matter what it takes!\0
+  msg(ERWIN_01, IMPERIALCOMMANDER_31, ERWIN, FOLLOW, 112)
+# Have you lost your mind!? You'll be burned alive if you try something so reckless.\0
+  msg(IMPERIALCOMMANDER_31, ERWIN_01, KNIGHT1_GREEN, FOLLOW, 113)
+# You think so!? I don't care if I burn.\r\nSince the day I enlisted, I've been willing to lay down my life for the Kaiser's dream!\r\nLet's go! It's time for you to die!\0
+break
+
+lbl_626:
+  msg(IMPERIALCOMMANDER_31, DOWN_F5, KNIGHT1_GREEN_DEAD, FOLLOW, 114)
+# Aaah ... I'm dying ...\0
+break
+
+lbl_62e:
+  msg(IMPERIALCOMMANDER_32, LEFT_F6, PIRATE_WHITE, FOLLOW, 115)
+# If we fail today ... we'll never be able to face General Imelda.\r\nIn the name of the Water Dragon Navy, we must not be defeated!\0
+  branch.unit.dead(lbl_64e, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 116)
+# Imelda ...? Who is she?\r\nSomeone fearful, no doubt.\0
+  branch.unit.dead(lbl_648, KEITH_07)
+  msg(KEITH_07, HEIN_05, KEITH, FOLLOW, 117)
+# General Imelda commands the largest division of the Water Dragon Navy.\r\nRumours say she's an especially cruel, cold and unforgiving woman.\0
+lbl_648:
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 118)
+# The Water Dragon Navy? We'll deal with them later.\r\nFirst, we have to break through this line and get to Reitel!\0
+lbl_64e:
+break
+
+lbl_650:
+  msg(IMPERIALCOMMANDER_32, DOWN_F5, PIRATE_WHITE_DEAD, FOLLOW, 119)
+# How am I defeated--?\0
+break
+
+lbl_658:
+  msg(IMPERIALCOMMANDER_33, DOWN_F5, PIRATE_WHITE_DEAD, FOLLOW, 120)
+# Gahh--!\0
+break
+
+lbl_660:
+  msg(IMPERIALCOMMANDER_34, DOWN_F5, HIGHLORD_GREEN_DEAD, FOLLOW, 121)
+# I can't have come so far ... only to die--?\0
+break
+
+lbl_668:
+  msg(IMPERIALCOMMANDER_38, DOWN_F5, PRIEST_GREEN_DEAD, FOLLOW, 122)
+# Wahhh! Mummy ...!\0
+break
+
+lbl_670:
+  msg(ZORUM_1A, LEFT_F6, ZORUM, FOLLOW, 123)
+# Ha ha ha! This place will be your grave!\0
+  branch.unit.dead(lbl_686, VARGAS_D6)
+  msg(VARGAS_D6, ZORUM_1A, VARGAS, FOLLOW, 124)
+# Zorum! Your opponents are strong! Don't be careless!\0
+  msg(ZORUM_1A, VARGAS_D6, ZORUM, FOLLOW, 125)
+# What are you saying, General? There's no way that I, Zorum, can be weaker than mere kids.\0
+lbl_686:
+break
+
+lbl_688:
+  msg(ZORUM_1A, LEFT_F6, ZORUM, FOLLOW, 126)
+# Let's go!\0
+break
+
+lbl_690:
+  msg(ZORUM_1A, LEFT_F6, ZORUM_DEAD, FOLLOW, 127)
+# It's no use! You can't defeat me with such a pathetic attack!\0
+  msg(ZORUM_1A, DOWN_F5, ZORUM_DEAD, NOFOLLOW, 128)
+# Gah ... This is ... blood?\r\nThose kids ... How could they have ...? I--!?\0
+  branch.unit.dead(lbl_6c2, VARGAS_D6)
+  msg(VARGAS_D6, ZORUM_1A, VARGAS, FOLLOW, 129)
+# Zorum! Fool! What did I say about not being careless!?\0
+  msg(ZORUM_1A, VARGAS_D6, ZORUM, FOLLOW, 130)
+# Heh heh ... Sorry General, this time, my brashness was inexcusable.\r\nI never imagined that these kids could be so powerful ...\r\nSeems like this will be our last battle together, General.\0
+  msg(VARGAS_D6, ZORUM_1A, VARGAS, FOLLOW, 131)
+# You can't die! I won't allow it!\r\nAs your commander, it's my job to decide when and where your life should end! You can't die!\0
+  msg(ZORUM_1A, VARGAS_D6, ZORUM, FOLLOW, 132)
+# General Vargas ... I will be waiting on the front lines of the next world ...\0
+  unit.cleanup()
+  msg(VARGAS_D6, DOWN_F5, VARGAS, FOLLOW, 133)
+# Zorum ... Commander Zorum ... You died with honour.\r\nDon't worry, friend. Your sacrifice won't be in vain!\0
+  local.sum($0a47d4, $07eb5f)
+lbl_6c2:
+  global.sum($0a4789, $07eb5b)
+break
+
+lbl_6c7:
+  msg(VARGAS_D6, ERWIN_01, VARGAS, FOLLOW, 134)
+# Here I come, kids. It's time to revisit the defeat at Kalxath on you ten fold.\0
+break
+
+lbl_6cf:
+  msg(CAMILLA_A1, VARGAS_D6, PRIEST_GREEN, FOLLOW, 135)
+# Hold, General Vargas!\r\nAs a ranking officer in the Dark Dragon Sorcerers, I must uphold the honour of my division.\r\nI cannot accept your help.\0
+  msg(VARGAS_D6, CAMILLA_A1, VARGAS, FOLLOW, 136)
+# Listen, Camilla. I came upon this battle while on another mission.\r\nI won't disrupt your operations. I'll fight here by myself.\0
+  msg(CAMILLA_A1, VARGAS_D6, PRIEST_GREEN, FOLLOW, 137)
+# Thank you, General ... I won't forget this.\0
+break
+
+lbl_6e3:
+  msg(VARGAS_D6, DOWN_F5, VARGAS_DEAD, FOLLOW, 138)
+# Those damn kids!\0
+  branch.unit.dead(lbl_70e, ZORUM_1A)
+  msg(ZORUM_1A, VARGAS_D6, ZORUM, FOLLOW, 139)
+# General, please retreat!\0
+  msg(VARGAS_D6, ZORUM_1A, VARGAS_DEAD, FOLLOW, 156)
+# I'm fine ... It's just a flesh wound!\0
+  msg(ZORUM_1A, VARGAS_D6, ZORUM, FOLLOW, 157)
+# You can't fight with a wound like that!\r\nPlease retreat, and leave the enemy for us!\0
+  msg(VARGAS_D6, ZORUM_1A, VARGAS_DEAD, FOLLOW, 158)
+# Sorry, the rest ... is up to you.\0
+  msg(ZORUM_1A, VARGAS_D6, ZORUM, FOLLOW, 140)
+# Fine. If there's no other choice ...\0
+  goto(lbl_74b)
+lbl_70e:
+  branch.unit.dead(lbl_733, IMPERIALCOMMANDER_34)
+  msg(IMPERIALCOMMANDER_34, VARGAS_D6, KNIGHT1_GREEN, FOLLOW, 141)
+# General!\0
+  msg(VARGAS_D6, IMPERIALCOMMANDER_34, VARGAS_DEAD, FOLLOW, 156)
+# I'm fine ... It's just a flesh wound!\0
+  msg(IMPERIALCOMMANDER_34, VARGAS_D6, KNIGHT1_GREEN, FOLLOW, 157)
+# You can't fight with a wound like that!\r\nPlease retreat, and leave the enemy for us!\0
+  msg(VARGAS_D6, IMPERIALCOMMANDER_34, VARGAS_DEAD, FOLLOW, 158)
+# Sorry, the rest ... is up to you.\0
+  msg(IMPERIALCOMMANDER_34, VARGAS_D6, KNIGHT1_GREEN, FOLLOW, 142)
+# Yes!\0
+  goto(lbl_74b)
+lbl_733:
+  msg(CAMILLA_A1, VARGAS_D6, PRIEST_GREEN, FOLLOW, 143)
+# General Vargas!\0
+  msg(VARGAS_D6, CAMILLA_A1, VARGAS_DEAD, FOLLOW, 156)
+# I'm fine ... It's just a flesh wound!\0
+  msg(CAMILLA_A1, VARGAS_D6, PRIEST_GREEN, FOLLOW, 157)
+# You can't fight with a wound like that!\r\nPlease retreat, and leave the enemy for us!\0
+  msg(VARGAS_D6, CAMILLA_A1, VARGAS_DEAD, FOLLOW, 158)
+# Sorry, the rest ... is up to you.\0
+lbl_74b:
+  unit.retreat(VARGAS_D6)
+break
+
+lbl_74f:
+  msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 144)
+# The oil's causing the fire to spread rapidly.\r\nIf we keep fighting here, we'll all be torched alive!\0
+  msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 145)
+# Lady Jessica, please follow me! I'll take out all the enemies blocking our escape!\0
+  msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 146)
+# Very well!\0
+  msg(LESTER_09, ERWIN_01, LESTER, FOLLOW, 147)
+# _NAME_, take care of her.\0
+  unit.clearbit(JESSICA_14, $17, 0)
+  unit.clearbit(LESTER_09, $17, 0)
+break
+
+lbl_771:
+  unit.clearbit(JESSICA_14, $17, 2)
+break
+
+lbl_777:
+  unit.clearbit(JESSICA_14, $17, 6)
+  msg(HEIN_05, JESSICA_14, HEIN, FOLLOW, 148)
+# By the way, Lady Jessica. Would you be my mentor?\r\nTo tell the truth, I'm a student and would appreciate the chance to be such a famous magician's pupil!\0
+  branch.unit.dead(lbl_791, CHERIE_04)
+  msg(CHERIE_04, HEIN_05, CHERIE, FOLLOW, 149)
+# Hein, I'm curious, could you possibly have picked a worse time to ask her about this?\r\nWe should be worrying about the fire right now.\0
+  msg(HEIN_05, CHERIE_04, HEIN, FOLLOW, 150)
+# But if we're all going to die anyway, this may be my only chance to ask her!\r\nCherie, you don't understand ... My future depends on me finding a proper mentor.\0
+lbl_791:
+  msg(JESSICA_14, HEIN_05, JESSICA_SAD, FOLLOW, 151)
+# Sorry ... I no longer accept students.\0
+  msg(HEIN_05, JESSICA_14, HEIN_SAD, FOLLOW, 152)
+# What!? Why ...\0
+  msg(LESTER_09, HEIN_05, LESTER, FOLLOW, 153)
+# Hey, cheer up! Don't be so disappointed ...\0
+break
+
+lbl_7a5:
+  unit.cleanup()
+  msg(CAMILLA_A1, LEFT_F6, PRIEST_GREEN, FOLLOW, 154)
+# You will go no further!\0
+  branch.eq.global(lbl_7b6, $0a47d1, $07eb58)
+  subroutine(lbl_7d7)
+  local.sum($0a47d1, $07eb58)
+lbl_7b6:
+break
+
+lbl_7b8:
+  msg(ZORUM_1A, LEFT_F6, ZORUM, FOLLOW, 155)
+# You think I will be easy prey?\0
+break
+
+lbl_7c0:
+  cast.teleport(EGBERT_D8, EGBERT_D8, TELEPORT_OUT, PRESET, PRESET)
+  msg(ERWIN_01, EGBERT_D8, ERWIN, FOLLOW, 161)
+# Wait!\0
+  branch.unit.dead(lbl_7d6, JESSICA_14)
+  msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 162)
+# He used the Teleport spell.\r\nWe need to get moving or he'll escape. We can't let Egbert get hold of the Dark Rod.\0
+lbl_7d6:
+endsub
+
+lbl_7d7:
+  unit.cleanup()
+  bgm(ALLY, ENEMY2_VARGAS)
+  bgm(ENEMY, ENEMY2_VARGAS)
+  unit.deploy(ZORUM_1A, 20, 40)
+  unit.deploy(IMPERIALCOMMANDER_34, 16, 40)
+  unit.deploy(VARGAS_D6, 17, 44)
+  msg(VARGAS_D6, CAMILLA_A1, VARGAS, FOLLOW, 163)
+# It seems the odds are against you.\r\nWe can't leave the Dark Dragon Sorcerers in such a mess.\r\nZorum, let us help them.\0
+  msg(ZORUM_1A, VARGAS_D6, ZORUM, FOLLOW, 164)
+# Yes!\0
+  msg(CAMILLA_A1, VARGAS_D6, PRIEST_GREEN, FOLLOW, 165)
+# General Vargas, you needn't protect our humble group.\r\nI'm the unit commander. They won't escape, even if we have to fight to the last man.\0
+  msg(VARGAS_D6, CAMILLA_A1, VARGAS, FOLLOW, 166)
+# You need to learn to accept favours.\r\nThere's no use for pride in this kind of situation.\0
+  msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 167)
+# Damn ... Now, of all times!\0
+  msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 168)
+# _NAME_, don't let yourself lose hope!\r\nSwear by your circlet that you'll have courage.\0
+  msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 169)
+# What ...? What does my circlet have to do with anything?\0
+  msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 170)
+# We'll talk about it later. First, we have to get out of here.\0
+  local.sub($0a47d0, $07eb5a)
+  bgm(ALLY, ALLY1)
+endsub
+
+lbl_821:
+  unit.cleanup()
+  scenarioclear()
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 171)
+# Is everyone okay?\0
+  branch.unit.dead(lbl_833, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 172)
+# Somehow, we're still alive.\0
+lbl_833:
+  msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 173)
+# However, now that the enemy knows where the Dark Rod is, we can't stay here.\r\nI'll aid you with my magic.\0
+  msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 174)
+# Thank you.\0
+  branch.unit.dead(lbl_84c, LESTER_09)
+  msg(LESTER_09, ERWIN_01, LESTER, FOLLOW, 175)
+# Which means I've got a chance to show my strength too.\0
+  goto(lbl_852)
+lbl_84c:
+  msg(LESTER_09, DOWN_F5, LESTER_DEAD, NOFOLLOW, 176)
+# I screwed up this time, but watch out!\r\nNext time I'll defeat the enemy before you can even blink!\0
+lbl_852:
+  msg(NULL_00, DOWN_F5, NULL, NOFOLLOW, 177)
+# Lester joins the entourage!\0
+  msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 178)
+# By the way, we were talking about your circlet before ...\0
+  msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 179)
+# This circlet is a memento of my deceased father.\r\nI guess it's been passed down through my family for generations.\r\nWhat's so important about it?\0
+  msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 180)
+# Let me answer you.\r\nOnce, long ago, I served a certain royal family. Their prince had a circlet just like yours.\0
+  msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 181)
+# My swordplay instructor, Doren, once told me a story like that.\r\nI didn't think it was true.\r\nThen I really am a descendant of the Baldean royal family?\0
+  msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 182)
+# Yes, and you are one who is guided by Light.\r\nThose guided by Light are chosen soldiers, destined to defeat enemies in a war over Alhazard, the cursed sword.\r\nIt is fated for the Descendants of Light to wage war against whoever wields Alhazard.\0
+  msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 183)
+# I see ...\r\nI'll stop the revival of Alhazard not just because it's my fate, but for the peace of the land.\r\nIf the Empire gains the power of Alhazard, war will erupt across the continent.\r\nThat's why I have to stop the Empire.\0
+  branch.unit.dead(lbl_886, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 184)
+# By the way, Liana, what will you do now?\r\nIf you follow us further, only danger lies ahead ...\0
+lbl_886:
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 185)
+# Liana.\r\nRemember ...? You promised to return to Kalxath.\0
+  branch.unit.dead(lbl_899, LIANA_02)
+  msg(LIANA_02, ERWIN_01, LIANA_SAD, FOLLOW, 186)
+# ...\0
+  goto(lbl_89f)
+lbl_899:
+  msg(LIANA_02, ERWIN_01, LIANA_SAD, NOFOLLOW, 187)
+# ...\0
+lbl_89f:
+  branch.unit.dead(lbl_8ac, KEITH_07)
+  msg(KEITH_07, ERWIN_01, KEITH, FOLLOW, 159)
+# _NAME_, that's foolish. The Imperial Army is after Liana.\r\nIt's far too dangerous to send her back to Kalxath alone.\r\nWe don't have the time or the manpower to escort her to Kalxath.\0
+  goto(lbl_8b2)
+lbl_8ac:
+  msg(KEITH_07, ERWIN_01, KEITH_DEAD, NOFOLLOW, 159)
+# _NAME_, that's foolish. The Imperial Army is after Liana.\r\nIt's far too dangerous to send her back to Kalxath alone.\r\nWe don't have the time or the manpower to escort her to Kalxath.\0
+lbl_8b2:
+  msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 188)
+# He's right.\r\nWe can't just let Egbert ... or the Empire obtain the Dark Rod.\r\nWe have no time to waste. We should hurry to Reitel.\0
+  branch.unit.dead(lbl_8c5, LIANA_02)
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 160)
+# Please, _NAME_! I want to fight alongside you ...\r\nI know I might be a burden on you, but I don't want to be alone ever again ...\0
+  goto(lbl_8cb)
+lbl_8c5:
+  msg(LIANA_02, ERWIN_01, LIANA_DEAD, NOFOLLOW, 160)
+# Please, _NAME_! I want to fight alongside you ...\r\nI know I might be a burden on you, but I don't want to be alone ever again ...\0
+lbl_8cb:
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 189)
+# Liana ...\r\nWell, I understand. Please be careful on the battlefield.\0
+  branch.unit.dead(lbl_8de, LIANA_02)
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 190)
+# Thank you, _NAME_! I won't let you down!\0
+  goto(lbl_8e4)
+lbl_8de:
+  msg(LIANA_02, ERWIN_01, LIANA_DEAD, NOFOLLOW, 191)
+# Thank you, I won't let you down! _NAME_!\0
+lbl_8e4:
+  msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 192)
+# Then let's go to Reitel!\0
+  loadscenario(6)
+endsub
+
+lbl_8ed:
+  msg(EGBERT_D8, RIGHT_F7, EGBERT, FOLLOW, 193)
+# He he he ... Say goodbye, fools.\r\nBurn to death in this inferno!\0
+  cast.fireball(EGBERT_D8, 5, 1)
+  burn(5, 1)
+  rawwrite(0xff08)
+  rawwrite(0xff00)
+  bgm(ENEMY, ENEMY8_BOSER)
+  msg(LESTER_09, EGBERT_D8, LESTER, FOLLOW, 194)
+# So that's what it was!\r\nThat must be what all the oil was for!\0
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 195)
+# We're downwind of the flames! If we don't move, we're going to be engulfed in no time!\0
+  msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 196)
+# The flames won't reach across the river.\r\nWe have to hurry and get to the other side.\0
+endsub
+

@@ -108,6 +108,7 @@ if (!file_exists("resources/define/team.txt"))
   die("Fatal error: Unit definitions not found.\n");
 $ar_team = explode("\n", file_get_contents("resources/define/team.txt"));
 $ar_target = array("COMMANDER", "SUBUNIT");
+$ar_teleport = array("TELEPORT_OUT", "TELEPORT_TO", "TELEPORT_IN");
 
 
 // Read event script directory list to an array
@@ -575,6 +576,61 @@ for($i = 0; $i < count($events); $i++) {
         fputs($fo, "  unit.showsub($t_unit)\n");
         break;
       
+      // tile.set(type, x, y)
+      // uint_8[0x21] uint_8[x] uint_8[y] uint_8[type]
+      // Change the tile at coordinate x,y to terrain type
+      case 0x21:
+        $t_x = fgetb($fd);
+        $t_y = fgetb($fd);
+        if($t_x == 255) $t_x = "PRESET";
+        if($t_y == 255) $t_y = "PRESET";
+        $t_type = fgetb($fd);
+        fputs($fo, "  tile.set($t_type, $t_x, $t_y)\n");
+        break;
+      
+      // burn(x, y)
+      // uint_8[0x22] uint_8[x] uint_8[y]
+      // Set a fire at coordinates x,y, causing map tiles will become fire
+      // terrain type 0xf0. Fire expands with each turn. During ally phase it
+      // is turn*2+4-1; during enemy phase it is turn*2+4.
+      case 0x22:
+        $t_x = fgetb($fd);
+        $t_y = fgetb($fd);
+        if($t_x == 255) $t_x = "PRESET";
+        if($t_y == 255) $t_y = "PRESET";
+        fputs($fo, "  burn($t_x, $t_y)\n");
+        break;
+      
+      // cast.fireball(unit, x, y)
+      // uint_8[0x25] uint_8[x] uint_8[y]
+      // Caster unit targets coordinates x,y with Fireball spell
+      case 0x25:
+        $t_unit = $ar_unit[fgetb($fd)];
+        $t_x = fgetb($fd);
+        $t_y = fgetb($fd);
+        if($t_x == 255) $t_x = "PRESET";
+        if($t_y == 255) $t_y = "PRESET";
+        fputs($fo, "  cast.fireball($t_unit, $t_x, $t_y)\n");
+        break;
+      
+      // cast.teleport(unit1, unit2, mode, x, y)
+      // uint_8[0x26] uint_8[unit1] uint_8[unit2] uint_8[mode] uint_8[x] uint_8[y]
+      // Caster unit1 targets unit2 to teleport to target coordinates of x,y
+      // Teleport has three modes:
+      // 0x00 - Teleport out of the scenario
+      // 0x01 - Teleport to destination x,y
+      // 0x02 - Teleport into scenario at destination x,y
+      case 0x26:
+        $t_unit1 = $ar_unit[fgetb($fd)];
+        $t_unit2 = $ar_unit[fgetb($fd)];
+        $t_mode = $ar_teleport[fgetb($fd)];
+        $t_x = fgetb($fd);
+        $t_y = fgetb($fd);
+        if($t_x == 255) $t_x = "PRESET";
+        if($t_y == 255) $t_y = "PRESET";
+        fputs($fo, "  cast.teleport($t_unit1, $t_unit2, $t_mode, $t_x, $t_y)\n");
+        break;
+      
       // branch.units.dead(goto, unit, *)
       // uint_8[0x27] uint_8[0x00] uint_8[count] uint_8[unit] * uint_16[goto]
       // If all passed units are dead, goto label
@@ -767,8 +823,11 @@ for($i = 0; $i < count($events); $i++) {
       // uint_16[0xffff]
       // Break execution of the event script until next trigger
       case 0xff:
-        $null = fgetc($fd);
-        fputs($fo, "break\n\n");
+        $next = fgetb($fd);
+        if($next == 0xff)
+          fputs($fo, "break\n\n");
+        else
+          fputs($fo, "  rawwrite(" . hexstr(0xff00 + $next) . ")\n");
         break;
       
       // Catch and print unsupported codes

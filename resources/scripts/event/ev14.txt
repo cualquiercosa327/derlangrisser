@@ -1,0 +1,99 @@
+# Movement-Triggered Events
+on.move(1, lbl_438, LEON_D5, 0, 0xff)
+on.move(24, lbl_440, LEON_D5, 0, 0xff)
+on.move(27, lbl_46f, LAIRD_18, 0, 0xff)
+break
+
+# Attack-Triggered Events
+on.attack(16, lbl_3c8, ROHGA_0B, SONYA_D4, 0x00, 0x00, 0xff)
+on.attack(21, lbl_418, NULL_FF, VILLAGER_25, 0xff, 0x00, 0xff)
+on.attack(22, lbl_428, NULL_FF, VILLAGER_26, 0xff, 0x00, 0xff)
+on.attack(29, lbl_47f, LICH_4A, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(37, lbl_4bf, ROHGA_0B, SONYA_D4, 0xff, 0x00, 0xff)
+break
+
+# Damage-Triggered Events
+on.defeat(13, lbl_3ae, ERWIN_01)
+on.defeat(14, lbl_3b8, HEIN_05)
+on.defeat(15, lbl_3c0, CHERIE_04)
+on.defeat(17, lbl_3eb, ROHGA_0B)
+on.defeat(18, lbl_400, KEITH_07)
+on.defeat(19, lbl_408, LESTER_09)
+on.defeat(20, lbl_410, LIANA_02)
+on.defeat(0, lbl_420, VILLAGER_25)
+on.defeat(23, lbl_430, VILLAGER_26)
+on.defeat(25, lbl_464, LEON_D5)
+on.defeat(28, lbl_477, LAIRD_18)
+on.defeat(30, lbl_487, LICH_4A)
+on.defeat(31, lbl_48f, WEREWOLF_39)
+on.defeat(32, lbl_497, WEREWOLF_3A)
+on.defeat(33, lbl_49f, LICH_4B)
+on.defeat(34, lbl_4a7, KERBEROS_52)
+on.defeat(35, lbl_4af, KERBEROS_53)
+on.defeat(36, lbl_4b7, LICH_4C)
+on.defeat(38, lbl_4d5, SONYA_D4)
+on.damage(39, lbl_4f6, SONYA_D4, NULL_FF, 0x00, 0xff)
+on.damage(26, lbl_4ff, LEON_D5, NULL_FF, 0x00, 0xff)
+on.defeat(46, lbl_93a, SONYA_D4, WEREWOLF_39, WEREWOLF_3A, KERBEROS_52, KERBEROS_53, LICH_4A, LICH_4B, LICH_4C)
+on.defeat(5, lbl_93f, SONYA_D4, WEREWOLF_39, WEREWOLF_3A, KERBEROS_52, KERBEROS_53)
+on.defeat(44, lbl_944, WEREWOLF_39, WEREWOLF_3A, KERBEROS_52, KERBEROS_53)
+on.defeat(45, lbl_951, WEREWOLF_39, WEREWOLF_3A, KERBEROS_52, KERBEROS_53, LICH_4A, LICH_4B, LICH_4C)
+break
+
+# Position-Triggered Events
+on.bound(11, lbl_38a, NPC_COMMANDER_F0, 40, 18, 40, 18, 0x00, 0x00)
+on.bound(12, lbl_392, NPC_COMMANDER_F0, 13, 24, 13, 24, 0x00, 0x00)
+on.range(43, lbl_8a1, ROHGA_0B, SONYA_D4, 3, 0x00, 0x00, 0x00, 0x00)
+break
+
+# Turn-Triggered Events
+on.turn(3, lbl_265, ENEMY, 1, 0x00)
+on.turn(4, lbl_271, ENEMY, 3, 0x00)
+on.turn(7, lbl_2a8, ENEMY, 5, 0x00)
+on.turn(8, lbl_2ad, ALLY, 2, 0x00)
+on.turn(2, lbl_2e3, ALLY, 0, 0x00)
+on.turn(9, lbl_318, ALLY, 5, 0x00)
+on.turn(10, lbl_31d, ALLY, 4, 0x00)
+break
+
+# Core Events
+lbl_146:
+  bgm(ALLY, NIGHT)
+  cursor.set(NULL_00)
+  unit.position(VILLAGER_25, 7, 20)
+  unit.showsub(VILLAGER_25)
+  unit.position(VILLAGER_26, PRESET, PRESET)
+  unit.showsub(VILLAGER_26)
+  unit.position(KERBEROS_52, PRESET, PRESET)
+  unit.position(KERBEROS_53, PRESET, PRESET)
+  unit.position(WEREWOLF_39, PRESET, PRESET)
+  unit.position(WEREWOLF_3A, 5, 21)
+  unit.position(SONYA_D4, PRESET, PRESET)
+  cursor.set(ERWIN_01)
+  unit.position(ROHGA_0B, PRESET, PRESET)
+  screen.fadein(4)
+  unit.face(ROHGA_0B, UP_F4)
+  delay(40)
+  unit.face(ROHGA_0B, LEFT_F6)
+  delay(40)
+  unit.face(ROHGA_0B, RIGHT_F7)
+  delay(40)
+  unit.face(ROHGA_0B, LEFT_F6)
+  delay(40)
+  unit.face(ROHGA_0B, DOWN_F5)
+  delay(30)
+  msg(ROHGA_0B, DOWN_F5, ROHGA, FOLLOW, 1)
+# Hmmm ...? This village ...\r\nI see. It's been a while since I've been back, hasn't it ...\0
+  bgm(ALLY, ENEMYREINFORCEMENT2)
+  focus.point(5, 21, FAST)
+  cursor.set(NULL_00)
+  local.sum($0a47d0, $07eb58)
+  unit.face(WEREWOLF_3A, RIGHT_F7)
+  unit.face(KERBEROS_53, RIGHT_F7)
+  unit.setbyte(VILLAGER_25, $03, 0x05)
+  msg(VILLAGER_25, WEREWOLF_3A, VILLAGER_YELLOW, NOFOLLOW, 2)
+# Help! Somebody, help!\0
+  unit.move(WEREWOLF_3A, PRESET, PRESET)
+  unit.face(VILLAGER_25, DOWN_F5)
+  msg(WEREWOLF_3A, VILLAGER_25, WEREWOLF, NOFOLLOW, 3)
+# Waooooon!\0
