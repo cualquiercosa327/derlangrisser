@@ -147,7 +147,7 @@ lbl_17e:
   unit.showsub(HEIN_05)
   unit.showsub(SCOTT_06)
   unit.showsub(LIANA_02)
-  mem.local.sum($0a47d0, $07eb58)
+  local.sum($0a47d0, $07eb58)
   bgm(ALLY, ALLY3)
 break
 
@@ -176,7 +176,7 @@ lbl_2a4:
 break
 
 lbl_2a6:
-  mem.unit.clearbit(LOREN_2B, $17, 0)
+  unit.clearbit(LOREN_2B, $17, 0)
   msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 29)
 # Liana! Break through, and run for it!\0
   msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 30)
@@ -184,14 +184,14 @@ lbl_2a6:
 break
 
 lbl_2b8:
-  mem.local.sub($0a47d0, $07eb5d)
+  local.sub($0a47d0, $07eb5d)
 break
 
 lbl_2bd:
-  prompt(lbl_2c8)
+  prompt.ok(lbl_2c8)
   subroutine(lbl_5eb)
 lbl_2c8:
-  mem.local.sub($0a47d0, $07eb5c)
+  local.sub($0a47d0, $07eb5c)
 break
 
 lbl_2cd:
@@ -212,18 +212,18 @@ lbl_2ed:
 break
 
 lbl_2ef:
-  branch.mem.global(lbl_2f9, $0a47d1, $07eb59)
+  branch.eq.global(lbl_2f9, $0a47d1, $07eb59)
   subroutine(lbl_6bb)
-  mem.local.sum($0a47d1, $07eb59)
+  local.sum($0a47d1, $07eb59)
 lbl_2f9:
 break
 
 lbl_2fb:
   unit.cleanup()
-  branch.mem.global(lbl_306, $0a47d1, $07eb5b)
+  branch.eq.global(lbl_306, $0a47d1, $07eb5b)
 lbl_300:
   subroutine(lbl_6e4)
-  mem.local.sum($0a47d1, $07eb5b)
+  local.sum($0a47d1, $07eb5b)
 lbl_306:
 break
 
@@ -239,7 +239,7 @@ lbl_308:
   msg(LAIRD_18, LEFT_F6, LAIRD, FOLLOW, 38)
 # It's hopeless. I must withdraw ...\0
 lbl_325:
-  mem.local.sum($0a47d1, $07eb5d)
+  local.sum($0a47d1, $07eb5d)
 lbl_328:
   subroutine(lbl_840)
   msg(LIANA_02, DOWN_F5, LIANA, FOLLOW, 39)
@@ -251,21 +251,21 @@ lbl_336:
   unit.cleanup()
   msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 40)
 # You're doing well! Keep heading down the road!\0
-  mem.local.sum($0a47d1, $07eb5f)
+  local.sum($0a47d1, $07eb5f)
 break
 
 lbl_342:
   unit.cleanup()
   msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 41)
 # You're doing well! Keep heading down the road!\0
-  mem.local.sum($0a47d1, $07eb5f)
+  local.sum($0a47d1, $07eb5f)
 break
 
 lbl_34e:
   unit.cleanup()
   msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 42)
 # You're doing well! Keep heading down the road!\0
-  mem.local.sum($0a47d1, $07eb5f)
+  local.sum($0a47d1, $07eb5f)
 break
 
 lbl_35a:
@@ -274,14 +274,555 @@ lbl_35a:
 # You're doing well! It's only a little further!\0
   msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 44)
 # Okay!\0
-  mem.local.sum($0a47d1, $07eb5e)
+  local.sum($0a47d1, $07eb5e)
 break
 
 lbl_36c:
-  branch.mem.global(lbl_38a, $0a4788, $07eb58)
+  branch.eq.global(lbl_38a, $0a4788, $07eb58)
   unit.cleanup()
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 45)
 # In a clearing in the woods, you find small footprints ...\r\nOne set of foot prints leads towards a small hole.\0
-  prompt(lbl_38a)
+  prompt.ok(lbl_38a)
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 47)
 # Obtained Swift Boots.\0
+  item.add(SWIFTBOOTS)
+  global.sum($0a4788, $07eb58)
+lbl_38a:
+break
+
+lbl_38c:
+  unit.cleanup()
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 48)
+# At the top of the hill, you see a large, mysterious tree.\r\nYou notice strange fruits scattered about beneath it.\0
+  prompt.ok(lbl_3a7)
+lbl_39b:
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 50)
+# A surge of power flows instantly through your body!\r\nAT raised by 1 point!\0
+  unit.raisestat(58, 1)
+  global.sum($0a4788, $07eb5c)
+lbl_3a7:
+break
+
+lbl_3a9:
+  msg(ERWIN_01, RIGHT_F7, ERWIN, NOFOLLOW, 51)
+# Here I come!\0
+break
+
+lbl_3b1:
+  msg(ERWIN_01, LAIRD_18, ERWIN, NOFOLLOW, 52)
+# It will take more than that to stop us! We'll defend Liana to the end!\0
+  msg(LAIRD_18, ERWIN_01, LAIRD, NOFOLLOW, 53)
+# You'll regret not listening to us obediently.\0
+break
+
+lbl_3bf:
+  msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 54)
+# I can't be defeated ... I must protect Liana--!\0
+lbl_3c5:
+  unit.cleanup()
+  gameover()
+break
+
+lbl_3c9:
+  msg(HEIN_05, DOWN_F5, HEIN_DEAD, FOLLOW, 55)
+# Everything was peaceful until you bastards arrived.\0
+  local.sum($0a47d2, $07eb5e)
+break
+
+lbl_3d4:
+  branch.ifdead(lbl_3de, LAIRD_18)
+  msg(LAIRD_18, DOWN_F5, LAIRD, FOLLOW, 56)
+# Our mission is complete. Let's return to headquarters.\0
+lbl_3de:
+  msg(LIANA_02, RIGHT_F7, LIANA_ANGRY, FOLLOW, 57)
+# No, get away! Leave me alone!\0
+  branch.ifdead(lbl_3ee, HEIN_05)
+  msg(HEIN_05, LIANA_02, HEIN, FOLLOW, 58)
+# Liana!\0
+lbl_3ee:
+  msg(ERWIN_01, RIGHT_F7, ERWIN_SAD, FOLLOW, 59)
+# I can't let it end like this ... If only I had more power--!\0
+  gameover()
+lbl_3f5:
+break
+
+lbl_3f7:
+  msg(SCOTT_06, ERWIN_01, SCOTT, FOLLOW, 60)
+# Unfortunately, we are no match for the Imperials with our current manpower.\r\nI will hold the line. Please hurry down the road to Estool.\0
+break
+
+lbl_3ff:
+  msg(SCOTT_06, RIGHT_F7, SCOTT, NOFOLLOW, 61)
+# Stay out of my way!\0
+break
+
+lbl_407:
+  msg(SCOTT_06, DOWN_F5, SCOTT_DEAD, FOLLOW, 62)
+# Oh no! If only I was stronger ...!\0
+break
+
+lbl_40f:
+  msg(LOREN_2B, DOWN_F5, LOREN, FOLLOW, 63)
+# It's payback time!\0
+break
+
+lbl_417:
+  branch.ifdead(lbl_424, SCOTT_06)
+  msg(LOREN_2B, SCOTT_06, LOREN, FOLLOW, 64)
+# So this is my fate ... It seems this war will be fought by a younger generation.\r\nBut, as long as there's life in this body, the Imperials won't reach the shrine.\r\nI must buy Scott more time ... He has great potential, but lacks experience.\0
+  goto(lbl_42a)
+lbl_424:
+  msg(LOREN_2B, ERWIN_01, LOREN, FOLLOW, 65)
+# So this is my fate ... It seems this war will be fought by a younger generation.\r\nBut, as long as there's life in this body, the Imperials won't reach the shrine.\0
+lbl_42a:
+  unit.setbit(LOREN_2B, $17, 0)
+  unit.setbyte(LOREN_2B, $22, 0x0c)
+  unit.setbyte(LOREN_2B, $23, 0x2c)
+break
+
+lbl_438:
+  msg(LOREN_2B, LEFT_F6, LOREN, NOFOLLOW, 66)
+# How dreadful! I cannot permit Imperial scum to roam freely in my lands!\0
+break
+
+lbl_440:
+  msg(LOREN_2B, DOWN_F5, LOREN_DEAD, FOLLOW, 67)
+# I am ... done for--\0
+  branch.ifdead(lbl_458, SCOTT_06)
+  msg(SCOTT_06, LOREN_2B, SCOTT, FOLLOW, 68)
+# Father! You can't fight any more in that condition!\r\nPlease retire from the field.\0
+  msg(LOREN_2B, SCOTT_06, LOREN_DEAD, FOLLOW, 69)
+# Then I'll trust you to hold off the enemy ... You must get Liana to safety!\0
+  unit.retreat(LOREN_2B)
+lbl_458:
+  branch.ifdead(lbl_46a, LAIRD_18)
+  msg(LAIRD_18, LIANA_02, LAIRD, FOLLOW, 70)
+# Quick! After the girl!\0
+  unit.setbit(LAIRD_18, $17, 1)
+  unit.setbyte(LAIRD_18, $21, 0x02)
+lbl_46a:
+break
+
+lbl_46c:
+  msg(ROHGA_0B, DOWN_F5, ROHGA, FOLLOW, 71)
+# Well then, which one looks most challenging?\0
+  msg(ROHGA_0B, IMPERIALCOMMANDER_33, ROHGA, FOLLOW, 72)
+# Those guys look like they'll be entertaining.\0
+break
+
+lbl_47a:
+  msg(ROHGA_0B, LEFT_F6, ROHGA, NOFOLLOW, 73)
+# Ludicrous! You really believe you will be able to best me!?\0
+break
+
+lbl_482:
+  msg(ROHGA_0B, DOWN_F5, ROHGA_DEAD, FOLLOW, 74)
+# I follow my blade!\0
+  local.sum($0a47d4, $07eb59)
+break
+
+lbl_48d:
+  bgm(ENEMY, ENEMY4)
+  unit.deploy(IMPERIALCOMMANDER_35, 13, 53)
+  msg(IMPERIALCOMMANDER_35, LEON_D5, FIGHTER_GREEN, FOLLOW, 75)
+# General Leon!\0
+  unit.move(IMPERIALCOMMANDER_35, 13, 52)
+  msg(IMPERIALCOMMANDER_35, LEON_D5, FIGHTER_GREEN, FOLLOW, 76)
+# General Leon! Villages in the Empire's borderlands are under attack!\r\nMonsters are inflicting heavy casualties on the villagers!\0
+  msg(LEON_D5, IMPERIALCOMMANDER_35, LEON, FOLLOW, 77)
+# What!? Then my home town could be in danger ...!\r\nIf I don't return to defend them ... No, that's too horrible ...\0
+  msg(LEON_D5, LAIRD_18, LEON, FOLLOW, 78)
+# Colonel Laird! I leave you in charge. I must hurry to the village.\0
+  msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 79)
+# Yes, Sir! General, will you be all right by yourself?\0
+  msg(LEON_D5, LAIRD_18, LEON, FOLLOW, 80)
+# I can deal with the monsters on my own. You are to complete our mission here!\0
+  msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 81)
+# Understood, Sir!\0
+  unit.move(IMPERIALCOMMANDER_35, 13, 53)
+  unit.retreat(IMPERIALCOMMANDER_35)
+  unit.move(LEON_D5, 11, 53)
+  unit.retreat(LEON_D5)
+lbl_4ce:
+break
+
+lbl_4d0:
+  msg(LEON_D5, DOWN_F5, LEON_DEAD, FOLLOW, 82)
+# I ... no way ... How can I be defeated by such--!\0
+break
+
+lbl_4d8:
+  msg(LEON_D5, LEFT_F6, LEON, NOFOLLOW, 83)
+# I will cut down anyone who stands in our way!\0
+lbl_4de:
+break
+
+lbl_4e0:
+  msg(LAIRD_18, LOREN_2B, LAIRD, FOLLOW, 84)
+# We are acting under Imperial orders! This your last warning. Do not get in our way!\0
+  msg(LOREN_2B, LAIRD_18, LOREN, FOLLOW, 85)
+# I will not allow you to do as you wish! At all costs, I will stop you!\0
+  msg(LAIRD_18, LOREN_2B, LAIRD, FOLLOW, 86)
+# Don't be a fool! How can you hold back all our forces alone?\r\nConsider this carefully. Don't throw your life away!\0
+  msg(LOREN_2B, LAIRD_18, LOREN, FOLLOW, 87)
+# I cannot back down! While I live, you will not capture that girl!\r\nEven if you are the Imperial Blue Dragon Knights, I will not be easily bested!\0
+lbl_4f8:
+  msg(LAIRD_18, LOREN_2B, LAIRD, FOLLOW, 88)
+# Similar words have been spoken by those who lie dead and buried.\r\nIf death is the only way, then have at you!\0
+break
+
+lbl_500:
+  branch.ifdead(lbl_519, IMPERIALCOMMANDER_2F)
+  msg(LAIRD_18, DOWN_F5, LAIRD_DEAD, FOLLOW, 89)
+# It's ... It's not over yet--!\0
+  msg(IMPERIALCOMMANDER_2F, LAIRD_18, SWORDSMAN1_GREEN, NOFOLLOW, 172)
+# Colonel! If something happens to you, the General would be most put out.\r\nPlease, withdraw from the fray!\0
+  msg(LAIRD_18, IMPERIALCOMMANDER_2F, LAIRD_DEAD, FOLLOW, 90)
+# I mustn't lose, I must ...\0
+  goto(lbl_551)
+lbl_519:
+  branch.ifdead(lbl_532, IMPERIALCOMMANDER_30)
+  msg(LAIRD_18, DOWN_F5, LAIRD_DEAD, FOLLOW, 91)
+# It's ... not over yet. I--!\0
+lbl_523:
+  msg(IMPERIALCOMMANDER_30, LAIRD_18, SWORDSMAN1_GREEN, NOFOLLOW, 172)
+# Colonel! If something happens to you, the General would be most put out.\r\nPlease, withdraw from the fray!\0
+  msg(LAIRD_18, DOWN_F5, LAIRD_DEAD, FOLLOW, 92)
+# I ... can't believe it ...\0
+  goto(lbl_551)
+lbl_532:
+  branch.ifdead(lbl_54b, IMPERIALCOMMANDER_31)
+  msg(LAIRD_18, DOWN_F5, LAIRD_DEAD, FOLLOW, 93)
+# If I lose ... then ...?\0
+  msg(IMPERIALCOMMANDER_31, LAIRD_18, FIGHTER_GREEN, NOFOLLOW, 172)
+# Colonel! If something happens to you, the General would be most put out.\r\nPlease, withdraw from the fray!\0
+  msg(LAIRD_18, DOWN_F5, LAIRD_DEAD, FOLLOW, 94)
+# I lost!? Impossible--!\0
+  goto(lbl_551)
+lbl_54b:
+  msg(LAIRD_18, DOWN_F5, LAIRD_DEAD, FOLLOW, 95)
+# Damn ... How could I have failed--!\r\nGeneral Leon, I apologise for this disgrace ... I am forced to disengage!\0
+lbl_551:
+  global.sum($0a4788, $07eb5b)
+  local.sub($0a47d0, $07eb58)
+  unit.retreat(LAIRD_18)
+break
+
+lbl_55b:
+  msg(IMPERIALCOMMANDER_2F, LEFT_F6, SWORDSMAN1_GREEN, NOFOLLOW, 96)
+# You dare interfere!? Then prepare to meet a swift end!\0
+break
+
+lbl_563:
+  msg(IMPERIALCOMMANDER_2F, DOWN_F5, SWORDSMAN1_GREEN_DEAD, FOLLOW, 97)
+# Again, I am bested by you--! Damn it!\0
+break
+
+lbl_56b:
+  msg(IMPERIALCOMMANDER_30, DOWN_F5, SWORDSMAN1_GREEN_DEAD, FOLLOW, 98)
+# Shit! They are too strong--!\0
+break
+
+lbl_573:
+  msg(IMPERIALCOMMANDER_31, DOWN_F5, FIGHTER_GREEN_DEAD, FOLLOW, 99)
+# How, how can I--?\0
+break
+
+lbl_57b:
+  msg(IMPERIALCOMMANDER_32, DOWN_F5, FIGHTER_GREEN_DEAD, FOLLOW, 100)
+# I take pride in having served for the glory of the Empire!\0
+break
+
+lbl_583:
+  msg(IMPERIALCOMMANDER_33, DOWN_F5, FIGHTER_GREEN_DEAD, FOLLOW, 101)
+# General ... Leon!\0
+break
+
+lbl_58b:
+  msg(IMPERIALCOMMANDER_34, DOWN_F5, FIGHTER_GREEN_DEAD, FOLLOW, 102)
+# Such ... How could I have made such a mistake ...\0
+break
+
+lbl_593:
+  msg(IMPERIALCOMMANDER_35, DOWN_F5, SWORDSMAN1_GREEN_DEAD, FOLLOW, 103)
+# This can't be happening ... To be defeated like this ...\0
+break
+
+lbl_59b:
+  branch.eq.global(lbl_5a5, $0a47d1, $07eb58)
+  subroutine(lbl_6bb)
+  local.sum($0a47d1, $07eb58)
+lbl_5a5:
+break
+
+lbl_5a7:
+  unit.cleanup()
+  branch.eq.global(lbl_5b2, $0a47d1, $07eb5a)
+  subroutine(lbl_6e4)
+  local.sum($0a47d1, $07eb5a)
+lbl_5b2:
+break
+
+lbl_5b4:
+  unit.cleanup()
+  branch.ifdead(lbl_5c4, LAIRD_18)
+  msg(LAIRD_18, LEFT_F6, LAIRD, FOLLOW, 104)
+# Shit ... I had the tactical advantage ...\r\nHow could I have been defeated ...!?\0
+  unit.retreat(LAIRD_18)
+  local.sum($0a47d1, $07eb5d)
+lbl_5c4:
+  subroutine(lbl_741)
+break
+
+lbl_5c9:
+  msg(HEIN_05, DOWN_F5, HEIN, FOLLOW, 105)
+# Grrr!\0
+break
+
+lbl_5d1:
+  msg(LIANA_02, RIGHT_F7, LIANA, FOLLOW, 106)
+# Eeek!\0
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 107)
+# Liana! Are you all right?\0
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 108)
+# I, I think so ...\0
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 109)
+# Everyone! We must protect Liana!\0
+break
+
+lbl_5eb:
+  prompt.ok(lbl_60e)
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 112)
+# Liana, head north along the road to Estool! We'll hold them off!\0
+  msg(LIANA_02, DOWN_F5, LIANA, FOLLOW, 113)
+# O, okay!\0
+  unit.setbit(LIANA_02, $17, 0)
+  unit.setbyte(LIANA_02, $22, 0x0d)
+  unit.setbyte(LIANA_02, $23, 0x01)
+  goto(lbl_67d)
+lbl_60e:
+  unit.clearbit(LIANA_02, $17, 0)
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 114)
+# Liana, you'll be safe at my side.\0
+  prompt.ok(lbl_641)
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 116)
+# Are you sure? Thank you ... _NAME_.\0
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 117)
+# No matter the trouble, I'll defend you with my life! Don't leave my side!\0
+  msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 118)
+# Okay!\0
+  unit.setbit(LIANA_02, $17, 2)
+  unit.setbyte(LIANA_02, $2c, 0x01)
+  unit.setbyte(LIANA_02, $2d, 0x00)
+  goto(lbl_67d)
+lbl_641:
+  branch.ifdead(lbl_67a, HEIN_05)
+  msg(HEIN_05, LIANA_02, HEIN, FOLLOW, 119)
+# Don't worry, I'll protect her!\0
+  prompt.ok(lbl_674)
+  msg(LIANA_02, HEIN_05, LIANA, FOLLOW, 121)
+# Thank you, Hein. I'm sure I would only be a burden to _NAME_.\0
+  msg(ERWIN_01, HEIN_05, ERWIN, FOLLOW, 122)
+# I'm counting on you then, Hein!\0
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 123)
+# Of course! I'll protect her with my life!\0
+  unit.setbit(LIANA_02, $17, 2)
+  unit.setbyte(LIANA_02, $2c, 0x05)
+lbl_66d:
+  unit.setbyte(LIANA_02, $2d, 0x00)
+  goto(lbl_677)
+lbl_674:
+  subroutine(lbl_67e)
+lbl_677:
+  goto(lbl_67d)
+lbl_67a:
+  subroutine(lbl_67e)
+lbl_67d:
+endsub
+
+lbl_67e:
+  branch.ifdead(lbl_6b7, SCOTT_06)
+  msg(SCOTT_06, LIANA_02, SCOTT, FOLLOW, 124)
+# Why not leave her to me, then?\0
+  prompt.ok(lbl_6b1)
+  msg(LIANA_02, SCOTT_06, LIANA, FOLLOW, 126)
+# I appreciate your kindness.\0
+  msg(ERWIN_01, SCOTT_06, ERWIN, FOLLOW, 127)
+# Please, ... take good care of her.\0
+  msg(SCOTT_06, ERWIN_01, SCOTT, FOLLOW, 128)
+# Fear not, I will ensure her safety!\0
+  unit.setbit(LIANA_02, $17, 2)
+lbl_6a6:
+  unit.setbyte(LIANA_02, $2c, 0x06)
+  unit.setbyte(LIANA_02, $2d, 0x00)
+  goto(lbl_6b4)
+lbl_6b1:
+  goto(lbl_5eb)
+lbl_6b4:
+  goto(lbl_6ba)
+lbl_6b7:
+  goto(lbl_5eb)
+lbl_6ba:
+endsub
+
+lbl_6bb:
+  unit.cleanup()
+  bgm(ALLY, ENEMYREINFORCEMENT1)
+  bgm(ENEMY, ENEMYREINFORCEMENT1)
+  unit.deploy(IMPERIALCOMMANDER_31, 7, 16)
+  unit.deploy(IMPERIALCOMMANDER_32, 18, 25)
+  msg(IMPERIALCOMMANDER_32, LIANA_02, FIGHTER_GREEN, FOLLOW, 129)
+# Get them!\0
+  branch.ifdead(lbl_6da, SCOTT_06)
+  msg(SCOTT_06, IMPERIALCOMMANDER_32, SCOTT, FOLLOW, 130)
+# Oh, shit! It's an ambush!\0
+lbl_6da:
+  msg(ERWIN_01, IMPERIALCOMMANDER_32, ERWIN, FOLLOW, 131)
+# I'll slow them down! You must break through! Don't let them harm Liana!\0
+  bgm(ALLY, ALLY1)
+endsub
+
+lbl_6e4:
+  bgm(ALLY, ENEMYREINFORCEMENT2)
+  bgm(ENEMY, ENEMYREINFORCEMENT2)
+  unit.deploy(IMPERIALCOMMANDER_33, 2, 7)
+  unit.deploy(IMPERIALCOMMANDER_34, 24, 7)
+  msg(IMPERIALCOMMANDER_34, LEFT_F6, FIGHTER_GREEN, FOLLOW, 132)
+# Surround them! If we work together, they won't have a chance!\0
+  branch.ifdead(lbl_705, HEIN_05)
+  msg(HEIN_05, RIGHT_F7, HEIN_ANGRY, FOLLOW, 133)
+# Oh, shit! Even more Imperial soldiers ...!\0
+  goto(lbl_70b)
+lbl_705:
+  msg(ERWIN_01, RIGHT_F7, ERWIN_ANGRY, FOLLOW, 134)
+# Damn it to hell! If only I could have held out a little longer--!\0
+lbl_70b:
+  bgm(ALLY, ALLYREINFORCEMENT2)
+  bgm(ENEMY, ALLYREINFORCEMENT2)
+  unit.deploy(ROHGA_0B, 13, 2)
+  msg(IMPERIALCOMMANDER_33, ROHGA_0B, FIGHTER_GREEN, FOLLOW, 135)
+# Someone is coming!\0
+  msg(ROHGA_0B, RIGHT_F7, ROHGA, FOLLOW, 136)
+# What have we here? It seems the Imperial Army is yet again bullying weaklings.\0
+  msg(IMPERIALCOMMANDER_34, ROHGA_0B, FIGHTER_GREEN, FOLLOW, 137)
+# You bastard! Mind your own business or die by my blade!\0
+  msg(ROHGA_0B, IMPERIALCOMMANDER_34, ROHGA, FOLLOW, 138)
+# I was just passing through, but I'll help you against the Imperial Army.\r\nHey, redhead! Let me give you a piece of advice. You need to keep your cool-- and stop being so reckless!\0
+  msg(ERWIN_01, ROHGA_0B, ERWIN, FOLLOW, 139)
+# Who is this guy and where is he from ...?\r\nHe doesn't seem to be one of the Imperials ...\0
+  branch.ifdead(lbl_73d, SCOTT_CE)
+  msg(SCOTT_06, ERWIN_01, SCOTT, FOLLOW, 140)
+# I think he's a mercenary. Why would he ...?\0
+lbl_73d:
+  bgm(ENEMY, ENEMYREINFORCEMENT1)
+endsub
+
+lbl_741:
+  unit.cleanup()
+  scenarioclear()
+  branch.ifdead(lbl_794, ROHGA_0B)
+  branch.ne.global(lbl_754, $0a47d1, $07eb5d)
+  msg(ROHGA_0B, RIGHT_F7, ROHGA_ANGRY, FOLLOW, 141)
+# Halt, stranger! What is your business here ...?\r\nToo late ... he's already left.\0
+  goto(lbl_75a)
+lbl_754:
+  msg(ROHGA_0B, RIGHT_F7, ROHGA_ANGRY, FOLLOW, 142)
+# What a shame! I hoped to hear the story behind the men I was killing.\0
+lbl_75a:
+  msg(ERWIN_01, ROHGA_0B, ERWIN, FOLLOW, 143)
+# Thanks for helping us. I am _NAME_, a traveller. Who are you?\0
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 144)
+# I'm Rohga, a mercenary. So what do the Imperials want with the girl?\0
+  msg(ERWIN_01, ROHGA_0B, ERWIN, FOLLOW, 145)
+# Honestly, we don't know either. For now we're just trying to get her to safety.\0
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 146)
+# That's it? Not a very interesting story so far!\r\nWell, I can't reveal much about myself for personal reasons. Maybe some day I'll be able to tell you more.\r\nI bet it's quite a bitch having the Empire after you, isn't it?\0
+  branch.ifdead(lbl_77f, SCOTT_06)
+  msg(SCOTT_06, ERWIN_01, SCOTT, FOLLOW, 147)
+# Look, as much as I'd love to chat, ...\r\nWe really must be off. We're on our way to Estool to seek the priest's help.\0
+  goto(lbl_785)
+lbl_77f:
+  msg(ERWIN_01, ROHGA_0B, ERWIN, FOLLOW, 148)
+# I see.\r\nWell, we really must be off. We're on our way to Estool to seek the priest's help.\0
+lbl_785:
+  msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 149)
+# Estool? I'm on my way there as well.\0
+  msg(ERWIN_01, ROHGA_0B, ERWIN, FOLLOW, 150)
+# Really? In that case, let's go together.\0
+  goto(lbl_7da)
+lbl_794:
+  msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 151)
+# Whew, it's finally over.\0
+  branch.ifdead(lbl_7a4, HEIN_05)
+  msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 152)
+# The Imperial Army won't give up so easily, though.\0
+lbl_7a4:
+  msg(LIANA_02, DOWN_F5, LIANA_SAD, FOLLOW, 153)
+# When will it all end ...?\0
+  msg(ROHGA_0B, LIANA_02, ROHGA_DEAD, NOFOLLOW, 154)
+# Cough--! Is the Imperial Army gone?\0
+  msg(ERWIN_01, LIANA_02, ERWIN, NOFOLLOW, 155)
+# It's safe for now. They've retreated.\0
+  msg(ROHGA_0B, DOWN_F5, ROHGA_DEAD, NOFOLLOW, 156)
+# Damn! I can't die here! Please have mercy--!\0
+  msg(ERWIN_01, LIANA_02, ERWIN, NOFOLLOW, 157)
+# Don't worry, you're going to be okay. My name is _NAME_.\0
+  msg(ROHGA_0B, DOWN_F5, ROHGA_DEAD, NOFOLLOW, 158)
+# I'm Rohga.\r\nI was searching for someone when ... the soldiers ... gah ... argh!\0
+  msg(LIANA_02, DOWN_F5, LIANA_SAD, NOFOLLOW, 159)
+# Please, try not to move so much. Your wound is serious!\0
+  msg(ERWIN_01, DOWN_F5, ERWIN, NOFOLLOW, 160)
+# Why not come with us, at least until your wound has had time to heal.\0
+  msg(ROHGA_0B, DOWN_F5, ROHGA_DEAD, NOFOLLOW, 161)
+# I'm on the verge of death and you still want me to follow you ...?\r\nWell, all right then! I guess I'll tag along and see what you can do ...\0
+lbl_7da:
+  branch.ifdead(lbl_7f3, SCOTT_06)
+  msg(SCOTT_06, LIANA_02, SCOTT, FOLLOW, 162)
+# By the way, Liana ...\r\nDo you have any idea what the Imperial Knights want with you?\0
+  msg(LIANA_02, SCOTT_06, LIANA_SAD, FOLLOW, 163)
+# None at all ...\0
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 110)
+# At any rate, let's hurry! More Imperial reinforcements may come at any time.\0
+  goto(lbl_805)
+lbl_7f3:
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 164)
+# By the way, Liana ...\r\nDo you have any idea what the Imperial Knights want with you?\0
+  msg(LIANA_02, ERWIN_01, LIANA_SAD, FOLLOW, 165)
+# None at all ...\0
+  msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 110)
+# At any rate, let's hurry! More Imperial reinforcements may come at any time.\0
+lbl_805:
+  branch.ifdead(lbl_83d, LOREN_2B)
+  branch.eq.global(lbl_831, $0a4791, $07eb5f)
+  msg(LOREN_2B, ERWIN_01, LOREN, FOLLOW, 166)
+# Wait. I have something for you before you depart. Take this sword.\0
+  focus.unit(ERWIN_01)
+  msg(NULL_00, UP_F4, NULL, NOFOLLOW, 167)
+# Obtained Long Sword.\0
+  item.add(LONGSWORD)
+  msg(ERWIN_01, LOREN_2B, ERWIN, FOLLOW, 168)
+# Thank you, I will surely guard it.\0
+  msg(LOREN_2B, ERWIN_01, LOREN, FOLLOW, 169)
+# You must keep a careful eye on the road.\0
+  global.sum($0a4791, $07eb5f)
+  goto(lbl_83d)
+lbl_831:
+  msg(LOREN_2B, SCOTT_06, LOREN, FOLLOW, 170)
+# You need to stay alert.\0
+  msg(SCOTT_06, LOREN_2B, SCOTT, FOLLOW, 171)
+# As you say, father.\0
+lbl_83d:
+  loadscenario(3)
+endsub
+
+lbl_840:
+  unit.retreat(LEON_D5)
+  unit.retreat(LAIRD_18)
+  unit.retreat(IMPERIALCOMMANDER_2F)
+  unit.retreat(IMPERIALCOMMANDER_30)
+  unit.retreat(IMPERIALCOMMANDER_31)
+  unit.retreat(IMPERIALCOMMANDER_32)
+  unit.retreat(IMPERIALCOMMANDER_33)
+  unit.retreat(IMPERIALCOMMANDER_34)
+endsub
+

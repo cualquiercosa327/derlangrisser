@@ -64,7 +64,7 @@ break
 # Core Events
 lbl_17e:
   bgm(ALLY, ENEMYREINFORCEMENT2)
-  mem.global.sub($0a4788, $07eb5a)
+  global.sub($0a4788, $07eb5a)
   focus.point(8, 21, FAST)
   cursor.set(NULL_00)
   unit.hide(LAIRD_18, SUBUNIT)
@@ -132,12 +132,12 @@ lbl_17e:
   cursor.set(ERWIN_01)
   unit.showsub(ERWIN_01)
   unit.showsub(HEIN_05)
-  mem.local.sum($0a47d0, $07eb58)
-  mem.local.sum($0a47d0, $07eb59)
-  mem.local.sum($0a47d0, $07eb5a)
-  mem.local.sum($0a47d0, $07eb5b)
-  mem.local.sum($0a47d0, $07eb5c)
-  mem.local.sum($0a47d0, $07eb5d)
+  local.sum($0a47d0, $07eb58)
+  local.sum($0a47d0, $07eb59)
+  local.sum($0a47d0, $07eb5a)
+  local.sum($0a47d0, $07eb5b)
+  local.sum($0a47d0, $07eb5c)
+  local.sum($0a47d0, $07eb5d)
 break
 
 lbl_26d:
@@ -165,8 +165,8 @@ lbl_29b:
   msg(EVANZE_80, RIDEL_7F, PRIEST_WHITE, FOLLOW, 22)
 # Ridel--!\0
 lbl_2a5:
-  mem.unit.clearbit(RIDEL_7F, $17, 0)
-  mem.unit.clearbit(EVANZE_80, $17, 0)
+  unit.clearbit(RIDEL_7F, $17, 0)
+  unit.clearbit(EVANZE_80, $17, 0)
 break
 
 lbl_2af:
@@ -175,7 +175,7 @@ lbl_2af:
 # I have come to rescue you!\0
   msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 24)
 # Thank you for your offer, but please, save yourself!\0
-  mem.local.sum($0a47d1, $07eb58)
+  local.sum($0a47d1, $07eb58)
 break
 
 lbl_2c1:
@@ -184,7 +184,7 @@ lbl_2c1:
 # I will save you, Liana!\0
   msg(LIANA_02, HEIN_05, LIANA, FOLLOW, 26)
 # Hein! Please do not come any closer! I don't want to see you hurt ...\0
-  mem.local.sum($0a47d0, $07eb5f)
+  local.sum($0a47d0, $07eb5f)
 break
 
 lbl_2d3:
@@ -214,31 +214,31 @@ lbl_306:
 break
 
 lbl_308:
-  branch.mem.global(lbl_326, $0a4794, $07eb5d)
+  branch.eq.global(lbl_326, $0a4794, $07eb5d)
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 33)
 # You have spotted a clearing in the middle of the woods ...\r\nInside, a band of cute dwarves are dancing merrily.\r\nOne of the dwarves comes out to offer you a berry.\0
-  prompt(lbl_326)
+  prompt.ok(lbl_326)
   unit.raisestat(11, 10)
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 35)
 # Magic Defence raised!\0
-  mem.global.sum($0a4794, $07eb5d)
+  global.sum($0a4794, $07eb5d)
 lbl_326:
 break
 
 lbl_328:
-  branch.mem.global(lbl_346, $0a4792, $07eb5a)
+  branch.eq.global(lbl_346, $0a4792, $07eb5a)
   msg(NULL_00, UP_F4, NULL, FOLLOW, 36)
 # A blue potion rests within the open drawer of a chest.\0
-  prompt(lbl_346)
+  prompt.ok(lbl_346)
   unit.raisestat(58, 1)
   msg(NULL_00, UP_F4, NULL, FOLLOW, 38)
 # You feel a surge of power!\r\nAT raised by 1 point!\0
-  mem.global.sum($0a4792, $07eb5a)
+  global.sum($0a4792, $07eb5a)
 lbl_346:
 break
 
 lbl_348:
-  mem.local.sub($0a47d0, $07eb5c)
+  local.sub($0a47d0, $07eb5c)
 break
 
 lbl_34d:
@@ -388,10 +388,10 @@ lbl_46a:
   msg(LAIRD_18, LEON_D5, LAIRD, FOLLOW, 74)
 # Yes, Sir!\0
 lbl_47f:
-  mem.unit.setbit(LEON_D5, $17, 1)
-  mem.unit.setbyte(LEON_D5, $21, 0x01)
-  mem.unit.setbit(LAIRD_18, $17, 1)
-  mem.unit.setbyte(LAIRD_18, $21, 0x01)
+  unit.setbit(LEON_D5, $17, 1)
+  unit.setbyte(LEON_D5, $21, 0x01)
+  unit.setbit(LAIRD_18, $17, 1)
+  unit.setbyte(LAIRD_18, $21, 0x01)
 break
 
 lbl_491:
@@ -405,8 +405,8 @@ break
 lbl_4a1:
   msg(LEON_D5, DOWN_F5, LEON_DEAD, FOLLOW, 77)
 # Im, impossible!\r\nHow can I, the leader of the Blue Dragon Knights, possibly lose?\0
-  mem.local.sum($0a47d3, $07eb5e)
-  mem.global.sum($0a4788, $07eb5a)
+  local.sum($0a47d3, $07eb5e)
+  global.sum($0a4788, $07eb5a)
 break
 
 lbl_4af:
@@ -428,7 +428,7 @@ lbl_4d4:
 break
 
 lbl_4d9:
-  mem.local.sub($0a47d0, $07eb5d)
+  local.sub($0a47d0, $07eb5d)
 break
 
 lbl_4de:
@@ -449,7 +449,7 @@ lbl_4f8:
   msg(LEON_D5, LAIRD_18, LEON, FOLLOW, 86)
 # Do not be foolhardy! I'll handle the rest!\0
 lbl_508:
-  mem.global.sum($0a4788, $07eb5a)
+  global.sum($0a4788, $07eb5a)
 break
 
 lbl_50d:
@@ -457,8 +457,8 @@ lbl_50d:
 # Pathetic! More than spears are needed to turn the Blue Dragon Knights!\0
   msg(RIDEL_7F, LAIRD_18, FIGHTER_BLACK, NOFOLLOW, 88)
 # Oh, really ...? Then Sir, allow me to test your boast!\0
-  mem.unit.clearbit(LEON_D5, $17, 1)
-  mem.unit.clearbit(LEON_D5, $17, 5)
+  unit.clearbit(LEON_D5, $17, 1)
+  unit.clearbit(LEON_D5, $17, 5)
 break
 
 lbl_523:
@@ -494,7 +494,7 @@ lbl_563:
 # Stop it! You promised you would not hurt any of them!\0
   msg(BALDO_19, LIANA_02, BALDO, FOLLOW, 101)
 # Shut up, bitch!\r\nNow that we have you under arrest, that "promise" is meaningless!\r\nHa ha ha!\0
-  mem.local.sub($0a47d0, $07eb59)
+  local.sub($0a47d0, $07eb59)
 break
 
 lbl_57a:
@@ -526,18 +526,18 @@ lbl_5b2:
 # Ouch! I'll follow, but please do not pull so roughly!\0
   msg(BALDO_19, LIANA_02, BALDO, NOFOLLOW, 111)
 # God damn, you're quite the impudent little wench--!\r\nDamn it all! The things I have to put up with on these missions ...\0
-  mem.local.sub($0a47d0, $07eb5a)
-  mem.unit.clearbit(LIANA_02, $17, 0)
-  mem.unit.setbit(LIANA_02, $17, 3)
-  mem.unit.setbyte(LIANA_02, $2c, 0x19)
-  mem.unit.setbyte(LIANA_02, $2d, 0x00)
-  mem.unit.clearbit(BALDO_19, $17, 7)
-  mem.unit.clearbit(BALDO_19, $17, 2)
-  mem.unit.setbit(BALDO_19, $17, 0)
-  mem.unit.setbyte(BALDO_19, $22, 0x0c)
-  mem.unit.setbyte(BALDO_19, $23, 0x2a)
-  mem.unit.setbit(VILLAGER_25, $17, 5)
-  mem.local.sub($0a47d0, $07eb58)
+  local.sub($0a47d0, $07eb5a)
+  unit.clearbit(LIANA_02, $17, 0)
+  unit.setbit(LIANA_02, $17, 3)
+  unit.setbyte(LIANA_02, $2c, 0x19)
+  unit.setbyte(LIANA_02, $2d, 0x00)
+  unit.clearbit(BALDO_19, $17, 7)
+  unit.clearbit(BALDO_19, $17, 2)
+  unit.setbit(BALDO_19, $17, 0)
+  unit.setbyte(BALDO_19, $22, 0x0c)
+  unit.setbyte(BALDO_19, $23, 0x2a)
+  unit.setbit(VILLAGER_25, $17, 5)
+  local.sub($0a47d0, $07eb58)
 break
 
 lbl_5f5:
@@ -641,7 +641,7 @@ lbl_6f7:
 # Well everyone, I'm glad to hear that none of you were harmed.\r\nBut it's too soon to rest easy. The Knights will surely return to finish what they began.\r\nYou'll have to take refuge with me in Salrath for your own sake as well as that of the villagers.\0
   msg(ERWIN_01, LOREN_2B, ERWIN, FOLLOW, 142)
 # His Lordship is right. Let us depart immediately.\0
-  branch.mem.global(lbl_73c, $0a4792, $07eb5b)
+  branch.eq.global(lbl_73c, $0a4792, $07eb5b)
   branch.ifdead(lbl_73c, RIDEL_7F)
   branch.ifdead(lbl_73c, EVANZE_80)
   msg(RIDEL_7F, ERWIN_01, FIGHTER_BLACK, FOLLOW, 143)
@@ -650,7 +650,7 @@ lbl_6f7:
 # That's not true. We could never have won if you hadn't drawn the cavalry's attention.\0
   msg(RIDEL_7F, ERWIN_01, FIGHTER_BLACK, FOLLOW, 145)
 # Your words are very kind, good Sir _NAME_.\r\nI know not what to say. Please take this with you as a token of my gratitude.\0
-  mem.money.add(100)
+  money.add(100)
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 146)
 # _NAME_ was handed 100P.\0
   msg(ERWIN_01, RIDEL_7F, ERWIN, FOLLOW, 147)
@@ -765,13 +765,13 @@ break
 lbl_854:
   msg(IMPERIALCOMMANDER_2F, LEFT_F6, SWORDSMAN1_GREEN, NOFOLLOW, 180)
 # Let's go!\0
-  mem.local.sub($0a47d0, $07eb5b)
+  local.sub($0a47d0, $07eb5b)
 break
 
 lbl_85f:
   msg(IMPERIALCOMMANDER_2F, LEFT_F6, SWORDSMAN1_GREEN, NOFOLLOW, 181)
 # I won't go down that easily!\0
-  mem.local.sub($0a47d0, $07eb5b)
+  local.sub($0a47d0, $07eb5b)
 break
 
 lbl_86a:
@@ -780,7 +780,7 @@ lbl_86a:
   unit.cleanup()
   msg(LEON_D5, IMPERIALCOMMANDER_2F, LEON_SAD, FOLLOW, 183)
 # No ...! I allowed one of my subordinates to perish ...\0
-  mem.local.sum($0a47d5, $07eb5b)
+  local.sum($0a47d5, $07eb5b)
 break
 
 lbl_87c:
@@ -795,11 +795,11 @@ break
 lbl_889:
   msg(BALDO_19, LEFT_F6, BALDO, NOFOLLOW, 185)
 # Shit! You impertinent asshole! I'll see you dead for that!\0
-  mem.unit.clearbit(IMPERIALCOMMANDER_2F, $17, 0)
+  unit.clearbit(IMPERIALCOMMANDER_2F, $17, 0)
 break
 
 lbl_895:
-  mem.unit.clearbit(IMPERIALCOMMANDER_2F, $17, 0)
+  unit.clearbit(IMPERIALCOMMANDER_2F, $17, 0)
 break
 
 lbl_89b:
@@ -824,9 +824,9 @@ lbl_8a9:
 # Stop it! You reckless fool!\r\nI issued an order that all troops operating under my command are to refrain from such useless slaughter!\r\nI will not repeat myself again! Anyone disobeying my commands is unnecessary to this operation.\0
   msg(BALDO_19, LEON_D5, BALDO, FOLLOW, 193)
 # Yes, Sir ... I'm sorry ..., General.\0
-  mem.unit.setbit(BALDO_19, $17, 7)
-  mem.unit.clearbit(BALDO_19, $17, 1)
-  mem.unit.clearbit(BALDO_19, $17, 5)
+  unit.setbit(BALDO_19, $17, 7)
+  unit.clearbit(BALDO_19, $17, 1)
+  unit.clearbit(BALDO_19, $17, 5)
 endsub
 
 lbl_8d5:
