@@ -126,8 +126,8 @@ lbl_216:
   msg(VARGAS_0E, DOWN_F5, VARGAS, NOFOLLOW, 5)
 # Just ... A little longer ...\0
   delay(60)
-  sfx(70)
-  sfx(70)
+  sfx(70 - Girl Scream 5 - Right)
+  sfx(70 - Girl Scream 5 - Right)
   bgm(ALLY, LIANA)
   msg(VARGAS_0E, LEFT_F6, VARGAS, NOFOLLOW, 6)
 # O, oh!\0

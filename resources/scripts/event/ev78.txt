@@ -536,7 +536,7 @@ endsub
 
 lbl_54e:
   scenarioclear()
-  sfx(78)
+  sfx(78 - Heal 2, Force Heal 2)
   msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 84)
 # Is that all ...? So this is the end of the Aniki's ambition.\r\nTheir conquest of our world was over before it even began.\r\nI am still wondering about that Sexy Beam ...\0
   branch.unit.dead(lbl_561, CHERIE_04)

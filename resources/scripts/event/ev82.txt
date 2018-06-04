@@ -285,7 +285,7 @@ break
 lbl_3b1:
   msg(HEIN_05, DOWN_F5, HEIN, NOFOLLOW, 56)
 # So, what about that sword we're searching for? We better hurry this up.\0
-  sfx(78)
+  sfx(78 - Heal 2, Force Heal 2)
   msg(HEIN_05, DOWN_F5, HEIN, NOFOLLOW, 57)
 # Maybe we should get back to the real mission ...\0
   msg(ERWIN_01, HEIN_05, ERWIN, FOLLOW, 58)
@@ -545,7 +545,7 @@ lbl_5ae:
 # Hmmm ... You're fairly skilled.\0
   screen.brightness(2)
   screen.brightness(0)
-  sfx(41)
+  sfx(41 - Meteor)
   msg(ROHGA_0B, COMMANDER_87, ROHGA, NOFOLLOW, 118)
 # What the hell? A barrier of spirit energy!?\0
   msg(COMMANDER_87, ROHGA_0B, HIGHLORD_RED, NOFOLLOW, 119)
@@ -554,7 +554,7 @@ lbl_5ae:
 # Hah hah hah ... Your power level is weak, old man!\r\nYou thought you could trap me in this pathetic little barrier ...?\r\nGrrrr-aaarrgghh!\0
   screen.brightness(2)
   screen.brightness(0)
-  sfx(41)
+  sfx(41 - Meteor)
   msg(COMMANDER_87, ROHGA_0B, HIGHLORD_RED, NOFOLLOW, 121)
 # What!? You can raise your power level that quickly ...?\0
   msg(ROHGA_0B, COMMANDER_87, ROHGA, NOFOLLOW, 122)
@@ -664,7 +664,7 @@ lbl_6c1:
   unit.retreat(COMMANDER_85)
   unit.retreat(ROC_7A)
   scenarioclear()
-  sfx(78)
+  sfx(78 - Heal 2, Force Heal 2)
   msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 140)
 # Ding dong! The witch is dead! Which old witch? The justice bitch!\0
   branch.unit.dead(lbl_6e2, ROHGA_0B)

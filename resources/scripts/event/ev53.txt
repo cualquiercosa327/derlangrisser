@@ -147,7 +147,7 @@ lbl_d4:
   delay(20)
   screen.brightness(5)
   unseal.langrisser()
-  sfx(43)
+  sfx(43 - Heal)
   screen.brightness(0)
   delay(30)
   msg(LEON_0D, UP_F4, LEON, NOFOLLOW, 20)

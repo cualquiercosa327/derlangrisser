@@ -46,7 +46,7 @@ lbl_18:
   rawwrite(0x5603)
   rawwrite(0x5601)
   screen.fadein(20)
-  sfx(43)
+  sfx(43 - Heal)
   rawwrite(0x5026)
   screen.fadein(20)
   delay(30)

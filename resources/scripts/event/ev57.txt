@@ -157,7 +157,7 @@ lbl_17c:
   msg(JESSICA_14, LIANA_CA, JESSICA, FOLLOW, 20)
 # Oh, god of time, knowledge, and mercy! Wipe her mind clean of strife and sadness.\r\nLa Halig Leoht ... Claensian Sinre Gemynd!\0
   screen.brightness(5)
-  sfx(41)
+  sfx(41 - Meteor)
   screen.brightness(0)
   delay(40)
   msg(LIANA_CA, DOWN_F5, LIANA, FOLLOW, 21)

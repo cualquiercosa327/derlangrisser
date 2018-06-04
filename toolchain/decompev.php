@@ -89,6 +89,10 @@ if (!file_exists("resources/define/bgm.txt"))
 $ar_bgm = explode("\n", file_get_contents("resources/define/bgm.txt"));
 $ar_bgm[255] = "BGM_OFF";
 
+if (!file_exists("resources/define/sfx.txt"))
+  die("Fatal error: BGM definitions not found.\n");
+$ar_sfx = explode("\n", file_get_contents("resources/define/sfx.txt"));
+
 if (!file_exists("resources/define/item.txt"))
   die("Fatal error: Item definitions not found.\n");
 $ar_item = explode("\n", file_get_contents("resources/define/item.txt"));
@@ -543,7 +547,7 @@ for($i = 0; $i < count($events); $i++) {
       
       // goto(goto)
       // uint_8[0x16] uint_16[goto]
-      // Goto address
+      // Goto label
       case 0x16:
         $t_goto = fgetw($fd); $pointers[] = $t_goto;
         $t_goto = "lbl_" . dechex($t_goto);
@@ -870,7 +874,7 @@ for($i = 0; $i < count($events); $i++) {
       // uint_8[0x3b] uint_8[sound]
       // Play sound effect sound
       case 0x3b:
-        $t_sound = fgetb($fd);
+        $t_sound = $ar_sfx[fgetb($fd)];
         fputs($fo, "  sfx($t_sound)\n");
         break;
       

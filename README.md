@@ -7,6 +7,8 @@
 
 To validate all script files use `make proper` (may be working?).
 
+To remove all build files and the compiled toolchain use `make distclean`.
+
 More information to come...
 
 ## Requirements

@@ -1,57 +1,29 @@
-01 - Plains
-
-02 - Rough Ground
-
-03 - Road
-
-04 - Forest
-
-05 - Mountain A
-
-06 - Mountain B
-
-07 - Ocean
-
-08 - Raised Wall
-
-09 - Castle Wall
-
-10 - Castle Interior
-
-11 - Home Interior
-
-12 - Temple Interior
-
-13 - Throne Room
-
-14 - Fishing Bridge
-
-15 - Sky Bridge
-
-16 - Plains
-
-17 - Burning
-
-18 - Burning
-
-19 - Graveyard
-
-20 - Ship Deck
-
-21 - Riverside
-
-22 - City Streets
-
-23 - Ship Deck
-
-24 - Riverside
-
-25 - City Streets
-
-26 - Realm of the Gods
-
-27 - Ruined Castle
-
-28 - High Wall
-
-29 - Forbidden
+PLAINS_00
+ROUGHGROUND_01
+ROAD_02
+FOREST_03
+MOUNTAINA_04
+MOUNTAINB_05
+OCEAN_06
+RAISEDWALL_07
+CASTLEWALL_08
+CASTLEINTERIOR_09
+HOMEINTERIOR_0A
+TEMPLEINTERIOR_0B
+THRONEROOM_0C
+FISHINGBRIDGE_0D
+SKYBRIDGE_0E
+PLANS_0F
+BURNING_10
+BURNING_11
+GRAVEYARD_12
+SHIPDECK_13
+RIVERSIDE_14
+CITYSTREET_15
+SHIPDECK_16
+RIVERSIDE_17
+CITYSTREET_18
+REALMOFGODS_19
+RUINEDCASTLE_1A
+HIGHWALL_1B
+FORBIDDEN_1C
