@@ -129,7 +129,6 @@ intro()
   jsr write_tilemap
 
   rep #$10
-  jsr half_wait
   jsr fadein
   jsr wait
   jsr fadeout
@@ -145,9 +144,7 @@ intro()
   jsr write_tilemap
 
   rep #$10
-  jsr half_wait
   jsr fadein
-  jsr half_wait
   jsr wait
   jsr fadeout
 
