@@ -1,18 +1,18 @@
 # Movement-Triggered Events
-on.move(7, lbl_340, JESSICA_14, 0, 0xff)
-on.move(6, lbl_352, JESSICA_14, 0, 0xff)
-on.move(25, lbl_393, LESTER_D1, 1, 0xff)
-on.move(0, lbl_3a5, KEITH_07, 0, 0xff)
-on.move(30, lbl_4d1, COMMANDER_85, 1, 0xff)
+on.move(7, lbl_340, JESSICA_14, 0)
+on.move(6, lbl_352, JESSICA_14, 0)
+on.move(25, lbl_393, LESTER_D1, 1)
+on.move(0, lbl_3a5, KEITH_07, 0)
+on.move(30, lbl_4d1, COMMANDER_85, 1)
 break
 
 # Attack-Triggered Events
-on.attack(14, lbl_2d3, ERWIN_01, LIANA_CA, 0x00, 0x00, 0xff)
-on.attack(15, lbl_2e7, ERWIN_01, CHERIE_CC, 0x00, 0x00, 0xff)
-on.attack(31, lbl_4d9, COMMANDER_85, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(33, lbl_4f6, COMMANDER_86, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(35, lbl_513, COMMANDER_87, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(37, lbl_523, NULL_FF, COMMANDER_88, 0xff, 0x00, 0xff)
+on.attack(14, lbl_2d3, ERWIN_01, LIANA_CA, 0x00, 0x00)
+on.attack(15, lbl_2e7, ERWIN_01, CHERIE_CC, 0x00, 0x00)
+on.attack(31, lbl_4d9, COMMANDER_85, NULL_FF, 0x00, 0xff)
+on.attack(33, lbl_4f6, COMMANDER_86, NULL_FF, 0x00, 0xff)
+on.attack(35, lbl_513, COMMANDER_87, NULL_FF, 0x00, 0xff)
+on.attack(37, lbl_523, NULL_FF, COMMANDER_88, 0xff, 0x00)
 break
 
 # Damage-Triggered Events
@@ -42,21 +42,21 @@ on.defeat(13, lbl_5c6, COMMANDER_84, COMMANDER_86, COMMANDER_87, COMMANDER_88)
 break
 
 # Position-Triggered Events
-on.bound(10, lbl_2b0, LIANA_02, 27, 1, 30, 2, 0x00, 0x00)
-on.bound(11, lbl_2c0, LIANA_02, 20, 4, 25, 6, 0x00, 0x00)
-on.bound(11, lbl_2c5, LIANA_02, 24, 7, 25, 7, 0x00, 0x00)
-on.bound(12, lbl_2ca, NPC_SUBUNIT_F1, 3, 16, 30, 22, 0x00, 0x00)
-on.range(44, lbl_678, SONYA_0C, LIANA_CA, 1, 0x00, 0x00, 0x00, 0x00)
-on.bound(45, lbl_6d8, NPC_COMMANDER_F0, 26, 1, 26, 1, 0x00, 0x00)
+on.bound(10, lbl_2b0, LIANA_02, 27, 1, 30, 2)
+on.bound(11, lbl_2c0, LIANA_02, 20, 4, 25, 6)
+on.bound(11, lbl_2c5, LIANA_02, 24, 7, 25, 7)
+on.bound(12, lbl_2ca, NPC_SUBUNIT_F1, 3, 16, 30, 22)
+on.range(44, lbl_678, SONYA_0C, LIANA_CA, 1)
+on.bound(45, lbl_6d8, NPC_COMMANDER_F0, 26, 1, 26, 1)
 break
 
 # Turn-Triggered Events
-on.turn(8, lbl_23e, ENEMY, 1, 0x00)
-on.turn(1, lbl_252, ALLY, 0, 0x00)
-on.turn(2, lbl_287, ENEMY, 0, 0x00)
-on.turn(9, lbl_2a1, ENEMY, 7, 0x00)
-on.turn(3, lbl_2a6, ENEMY, 0, 0x00)
-on.turn(4, lbl_2ab, ALLY, 0, 0x00)
+on.turn(8, lbl_23e, ENEMY, 1)
+on.turn(1, lbl_252, ALLY, 0)
+on.turn(2, lbl_287, ENEMY, 0)
+on.turn(9, lbl_2a1, ENEMY, 7)
+on.turn(3, lbl_2a6, ENEMY, 0)
+on.turn(4, lbl_2ab, ALLY, 0)
 break
 
 # Core Events
@@ -115,15 +115,15 @@ lbl_162:
   msg(CHERIE_CC, ERWIN_01, CHERIE, FOLLOW, 8)
 # Those are demons ... What in the world ... What is going on here ...?\0
   msg(SONYA_0C, CHERIE_CC, SONYA, FOLLOW, 9)
-# This is the heart of the Descendants' operation.\r\nBoser said to put our grind into this battle.\0
+# This is the heart of the Descendants' operation.\r\nBöser said to put our grind into this battle.\0
   msg(ROHGA_0B, SONYA_0C, ROHGA, FOLLOW, 10)
 # Hah, leave it to me!\0
   msg(SONYA_0C, ERWIN_01, SONYA, FOLLOW, 11)
 # Don't go killing recklessly. I have additional orders.\r\nThe maidens of light and darkness are needed to unseal Alhazard.\r\nI will take Liana alive. Remember that.\0
   msg(ERWIN_01, SONYA_0C, ERWIN, FOLLOW, 12)
-# I heard from Boser you planned on kidnapping the girl.\r\nBut how exactly are you going about it?\0
+# I heard from Böser you planned on kidnapping the girl.\r\nBut how exactly are you going about it?\0
   msg(SONYA_0C, ERWIN_01, SONYA, FOLLOW, 13)
-# We will teleport her to Velzeria with this rod Boser has so generously provided.\r\nUntil that happens, I will protect her from any interference.\r\nYou can wipe out these cretins with your arms behind your back.\0
+# We will teleport her to Velzeria with this rod Böser has so generously provided.\r\nUntil that happens, I will protect her from any interference.\r\nYou can wipe out these cretins with your arms behind your back.\0
   msg(ERWIN_01, SONYA_0C, ERWIN, FOLLOW, 14)
 # All right, everyone got that? Let us move out.\0
   local.sum($0a47d0, $07eb58)
@@ -586,7 +586,7 @@ endsub
 lbl_5db:
   branch.mem.local.eq(lbl_624, $0a47d5, $07eb5b)
   msg(JESSICA_14, DOWN_F5, JESSICA, FOLLOW, 105)
-# Why would Boser's underlings be here ...?\r\nPerhaps, if they want ... Yes, that has to be it!\0
+# Why would Böser's underlings be here ...?\r\nPerhaps, if they want ... Yes, that has to be it!\0
   msg(LIANA_CA, JESSICA_14, LIANA, FOLLOW, 106)
 # What is the matter? Jessica?\0
   msg(JESSICA_14, LIANA_CA, JESSICA, FOLLOW, 107)
@@ -594,7 +594,7 @@ lbl_5db:
   msg(LIANA_CA, JESSICA_14, LIANA, FOLLOW, 108)
 # Wh, what ...?\0
   msg(JESSICA_14, LIANA_CA, JESSICA, FOLLOW, 109)
-# Boser may be scheming to exploit your ability in unsealing Alhazard.\r\nI will protect you until you reach the exit. Go immediately!\0
+# Böser may be scheming to exploit your ability in unsealing Alhazard.\r\nI will protect you until you reach the exit. Go immediately!\0
   unit.setbit(JESSICA_14, $17, 0)
   unit.setbyte(JESSICA_14, $22, 0x10)
   unit.setbyte(JESSICA_14, $23, 0x0a)

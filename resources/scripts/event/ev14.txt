@@ -1,15 +1,15 @@
 # Movement-Triggered Events
-on.move(1, lbl_438, LEON_D5, 0, 0xff)
-on.move(24, lbl_440, LEON_D5, 0, 0xff)
-on.move(27, lbl_46f, LAIRD_18, 0, 0xff)
+on.move(1, lbl_438, LEON_D5, 0)
+on.move(24, lbl_440, LEON_D5, 0)
+on.move(27, lbl_46f, LAIRD_18, 0)
 break
 
 # Attack-Triggered Events
-on.attack(16, lbl_3c8, ROHGA_0B, SONYA_D4, 0x00, 0x00, 0xff)
-on.attack(21, lbl_418, NULL_FF, VILLAGER_25, 0xff, 0x00, 0xff)
-on.attack(22, lbl_428, NULL_FF, VILLAGER_26, 0xff, 0x00, 0xff)
-on.attack(29, lbl_47f, LICH_4A, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(37, lbl_4bf, ROHGA_0B, SONYA_D4, 0xff, 0x00, 0xff)
+on.attack(16, lbl_3c8, ROHGA_0B, SONYA_D4, 0x00, 0x00)
+on.attack(21, lbl_418, NULL_FF, VILLAGER_25, 0xff, 0x00)
+on.attack(22, lbl_428, NULL_FF, VILLAGER_26, 0xff, 0x00)
+on.attack(29, lbl_47f, LICH_4A, NULL_FF, 0x00, 0xff)
+on.attack(37, lbl_4bf, ROHGA_0B, SONYA_D4, 0xff, 0x00)
 break
 
 # Damage-Triggered Events
@@ -41,19 +41,19 @@ on.defeat(45, lbl_951, WEREWOLF_39, WEREWOLF_3A, KERBEROS_52, KERBEROS_53, LICH_
 break
 
 # Position-Triggered Events
-on.bound(11, lbl_38a, NPC_COMMANDER_F0, 40, 18, 40, 18, 0x00, 0x00)
-on.bound(12, lbl_392, NPC_COMMANDER_F0, 13, 24, 13, 24, 0x00, 0x00)
-on.range(43, lbl_8a1, ROHGA_0B, SONYA_D4, 3, 0x00, 0x00, 0x00, 0x00)
+on.bound(11, lbl_38a, NPC_COMMANDER_F0, 40, 18, 40, 18)
+on.bound(12, lbl_392, NPC_COMMANDER_F0, 13, 24, 13, 24)
+on.range(43, lbl_8a1, ROHGA_0B, SONYA_D4, 3)
 break
 
 # Turn-Triggered Events
-on.turn(3, lbl_265, ENEMY, 1, 0x00)
-on.turn(4, lbl_271, ENEMY, 3, 0x00)
-on.turn(7, lbl_2a8, ENEMY, 5, 0x00)
-on.turn(8, lbl_2ad, ALLY, 2, 0x00)
-on.turn(2, lbl_2e3, ALLY, 0, 0x00)
-on.turn(9, lbl_318, ALLY, 5, 0x00)
-on.turn(10, lbl_31d, ALLY, 4, 0x00)
+on.turn(3, lbl_265, ENEMY, 1)
+on.turn(4, lbl_271, ENEMY, 3)
+on.turn(7, lbl_2a8, ENEMY, 5)
+on.turn(8, lbl_2ad, ALLY, 2)
+on.turn(2, lbl_2e3, ALLY, 0)
+on.turn(9, lbl_318, ALLY, 5)
+on.turn(10, lbl_31d, ALLY, 4)
 break
 
 # Core Events

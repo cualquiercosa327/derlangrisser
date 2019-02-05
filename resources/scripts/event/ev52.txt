@@ -1,25 +1,25 @@
 # Movement-Triggered Events
-on.move(0, lbl_44d, BOSER_17, 0, 0xff)
-on.move(29, lbl_5e9, SONYA_D4, 1, 0xff)
-on.move(40, lbl_688, JESSICA_14, 0, 0xff)
-on.move(43, lbl_6ae, CHERIE_CC, 0, 0xff)
-on.move(45, lbl_6c0, LESTER_D1, 0, 0xff)
+on.move(0, lbl_44d, BOSER_17, 0)
+on.move(29, lbl_5e9, SONYA_D4, 1)
+on.move(40, lbl_688, JESSICA_14, 0)
+on.move(43, lbl_6ae, CHERIE_CC, 0)
+on.move(45, lbl_6c0, LESTER_D1, 0)
 break
 
 # Attack-Triggered Events
-on.attack(11, lbl_3a0, ERWIN_01, BOSER_17, 0x00, 0x00, 0xff)
-on.attack(12, lbl_3b4, ERWIN_01, CHERIE_CC, 0x00, 0x00, 0xff)
-on.attack(15, lbl_3d4, NULL_FF, ROHGA_0B, 0xff, 0x00, 0xff)
-on.attack(16, lbl_3dc, ROHGA_0B, BOSER_17, 0x00, 0x00, 0xff)
-on.attack(17, lbl_3f0, ROHGA_0B, SONYA_D4, 0x00, 0x00, 0xff)
-on.attack(21, lbl_414, IMELDA_0F, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(25, lbl_437, EGBERT_10, BOSER_17, 0x00, 0x00, 0xff)
-on.attack(27, lbl_455, NULL_FF, BOSER_17, 0xff, 0x00, 0xff)
-on.attack(30, lbl_61f, SONYA_D4, ROHGA_0B, 0x00, 0x00, 0xff)
-on.attack(32, lbl_644, ESTO_D9, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(34, lbl_656, OSTO_DA, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(36, lbl_668, VAMPIRELORD_4F, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(41, lbl_696, JESSICA_14, BOSER_17, 0x00, 0x00, 0xff)
+on.attack(11, lbl_3a0, ERWIN_01, BOSER_17, 0x00, 0x00)
+on.attack(12, lbl_3b4, ERWIN_01, CHERIE_CC, 0x00, 0x00)
+on.attack(15, lbl_3d4, NULL_FF, ROHGA_0B, 0xff, 0x00)
+on.attack(16, lbl_3dc, ROHGA_0B, BOSER_17, 0x00, 0x00)
+on.attack(17, lbl_3f0, ROHGA_0B, SONYA_D4, 0x00, 0x00)
+on.attack(21, lbl_414, IMELDA_0F, NULL_FF, 0x00, 0xff)
+on.attack(25, lbl_437, EGBERT_10, BOSER_17, 0x00, 0x00)
+on.attack(27, lbl_455, NULL_FF, BOSER_17, 0xff, 0x00)
+on.attack(30, lbl_61f, SONYA_D4, ROHGA_0B, 0x00, 0x00)
+on.attack(32, lbl_644, ESTO_D9, NULL_FF, 0x00, 0xff)
+on.attack(34, lbl_656, OSTO_DA, NULL_FF, 0x00, 0xff)
+on.attack(36, lbl_668, VAMPIRELORD_4F, NULL_FF, 0x00, 0xff)
+on.attack(41, lbl_696, JESSICA_14, BOSER_17, 0x00, 0x00)
 break
 
 # Damage-Triggered Events
@@ -47,21 +47,21 @@ on.defeat(48, lbl_6df, STONEGOLEM_48, VAMPIRELORD_4F, VAMPIRELORD_8E, ESTO_D9, O
 break
 
 # Position-Triggered Events
-on.bound(7, lbl_366, NPC_SUBUNIT_F1, 13, 4, 23, 13, 0x00, 0x00)
-on.bound(8, lbl_36f, ERWIN_01, 14, 10, 22, 15, 0x00, 0x00)
-on.range(9, lbl_384, ERWIN_01, LIANA_CA, 4, 0x00, 0x00, 0x00, 0x00)
-on.range(10, lbl_392, LEON_0D, LANA_CB, 4, 0x00, 0x00, 0x00, 0x00)
-on.range(18, lbl_73c, ROHGA_0B, SONYA_D4, 3, 0x00, 0x00, 0x00, 0x00)
-on.bound(49, lbl_76b, NPC_COMMANDER_F0, 15, 9, 15, 9, 0x00, 0x00)
-on.bound(50, lbl_785, NPC_COMMANDER_F0, 21, 9, 21, 9, 0x00, 0x00)
+on.bound(7, lbl_366, NPC_SUBUNIT_F1, 13, 4, 23, 13)
+on.bound(8, lbl_36f, ERWIN_01, 14, 10, 22, 15)
+on.range(9, lbl_384, ERWIN_01, LIANA_CA, 4)
+on.range(10, lbl_392, LEON_0D, LANA_CB, 4)
+on.range(18, lbl_73c, ROHGA_0B, SONYA_D4, 3)
+on.bound(49, lbl_76b, NPC_COMMANDER_F0, 15, 9, 15, 9)
+on.bound(50, lbl_785, NPC_COMMANDER_F0, 21, 9, 21, 9)
 break
 
 # Turn-Triggered Events
-on.turn(3, lbl_2e3, ALLY, 1, 0x00)
-on.turn(4, lbl_2ea, ENEMY, 1, 0x00)
-on.turn(5, lbl_310, ALLY, 2, 0x00)
-on.turn(6, lbl_34f, ENEMY, 2, 0x00)
-on.turn(2, lbl_358, ENEMY, 0, 0x00)
+on.turn(3, lbl_2e3, ALLY, 1)
+on.turn(4, lbl_2ea, ENEMY, 1)
+on.turn(5, lbl_310, ALLY, 2)
+on.turn(6, lbl_34f, ENEMY, 2)
+on.turn(2, lbl_358, ENEMY, 0)
 break
 
 # Core Events
@@ -108,19 +108,19 @@ lbl_192:
   unit.position(VARGAS_0E, PRESET, PRESET)
   unit.showsub(VARGAS_0E)
   msg(VARGAS_0E, EGBERT_10, VARGAS, FOLLOW, 3)
-# Hey, Egbert.\r\nHis Majesty ordered our presence here, so why is Boser unsealing the blade?\0
+# Hey, Egbert.\r\nHis Majesty ordered our presence here, so why is Böser unsealing the blade?\0
   msg(EGBERT_10, VARGAS_0E, EGBERT, FOLLOW, 4)
 # This too is one of our orders.\r\nWe are to leave things to him and observe.\0
   msg(VARGAS_0E, UP_F4, VARGAS, FOLLOW, 5)
 # Hmmm ...\0
   msg(HEIN_05, EGBERT_10, HEIN, FOLLOW, 6)
-# I'm still shocked to find out about Lana.\r\nHow could Liana have had a twin?\0
+# I'm still shocked to find out about Lána.\r\nHow could Liana have had a twin?\0
   msg(EGBERT_10, HEIN_05, EGBERT, FOLLOW, 7)
-# It is simply the destiny of the one born to be the Maiden of Light.\r\nThere must be balance, and hence, a Maiden of Darkness.\r\nBoser abducted Lana while she was very young for his own ends ...\0
+# It is simply the destiny of the one born to be the Maiden of Light.\r\nThere must be balance, and hence, a Maiden of Darkness.\r\nBöser abducted Lána while she was very young for his own ends ...\0
   msg(ERWIN_01, EGBERT_10, ERWIN, FOLLOW, 8)
 # So he was planning this for quite a long time.\0
   msg(EGBERT_10, ERWIN_01, EGBERT, FOLLOW, 9)
-# The shrine maidens will dissolve the seal, but that is not enough.\r\nThe sword requires energy, and Lana must offer hers.\0
+# The shrine maidens will dissolve the seal, but that is not enough.\r\nThe sword requires energy, and Lána must offer hers.\0
   msg(BOSER_17, UP_F4, BOSER, FOLLOW, 10)
 # Ultimate darkness lies within this blade.\r\nEmbrace your darkest desires, Liana ..., and unleash Alhazard's might!\r\nKlatu Verata Niktue Geweald ... Ai Alhazard, Ai Alhazard!\0
   screen.brightness(5)
@@ -161,13 +161,13 @@ lbl_192:
   msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 20)
 # No ... Sonya ...? Why?\0
   msg(ERWIN_01, BOSER_17, ERWIN, FOLLOW, 21)
-# Listen, everyone.\r\nEither we take Alhazard, or Boser will fill this world with misery.\0
+# Listen, everyone.\r\nEither we take Alhazard, or Böser will fill this world with misery.\0
   msg(HEIN_05, BOSER_17, HEIN_ANGRY, FOLLOW, 22)
 # That's right.\r\nUnder his control, everyone will die or become demonic.\0
   msg(LEON_0D, BOSER_17, LEON, FOLLOW, 23)
 # Everyone, our mission is to retake Alhazard!\0
   msg(IMELDA_0F, BOSER_17, IMELDA, FOLLOW, 24)
-# You'll pay for your deception, Boser!\0
+# You'll pay for your deception, Böser!\0
   msg(VARGAS_0E, BOSER_17, VARGAS, FOLLOW, 25)
 # You're damned right he will!\r\nAgainst the Empire, he's as good as dead ... just like anyone who would oppose the Kaiser!\0
   msg(EGBERT_10, ERWIN_01, EGBERT, FOLLOW, 26)
@@ -236,7 +236,7 @@ break
 
 lbl_358:
   msg(ERWIN_01, BOSER_17, ERWIN, FOLLOW, 39)
-# Boser, prepare yourself. You're all that's left!\0
+# Böser, prepare yourself. You're all that's left!\0
   msg(BOSER_17, ERWIN_01, BOSER, FOLLOW, 40)
 # Don't be fooled, imbecile. I still have Alhazard, and it will rend your worthless hide!\0
 break
@@ -250,7 +250,7 @@ break
 lbl_36f:
   unit.cleanup()
   msg(ERWIN_01, BOSER_17, ERWIN_ANGRY, FOLLOW, 41)
-# Boser, you can't escape! Get ready to die!\0
+# Böser, you can't escape! Get ready to die!\0
   msg(BOSER_17, ERWIN_01, BOSER, FOLLOW, 42)
 # You humans are tenacious, if nothing else.\r\nI knew I'd have to massacre you all someday. Hah hah. All the better with Alhazard ...\r\nTell me, _NAME_, do you think you'll hold us for even a moment?\0
   msg(ERWIN_01, BOSER_17, ERWIN_ANGRY, FOLLOW, 43)
@@ -268,12 +268,12 @@ lbl_392:
   msg(LANA_CB, RIGHT_F7, LANA_SAD, FOLLOW, 46)
 # ...\0
   msg(ERWIN_01, LIANA_CA, ERWIN, NOFOLLOW, 47)
-# My apologies, Lana. Please, hold on.\0
+# My apologies, Lána. Please, hold on.\0
 break
 
 lbl_3a0:
   msg(ERWIN_01, BOSER_17, ERWIN, NOFOLLOW, 48)
-# All right, Boser. Hand over Alhazard!\0
+# All right, Böser. Hand over Alhazard!\0
   msg(BOSER_17, ERWIN_01, BOSER, NOFOLLOW, 49)
 # Keep on babbling, you mortal shit!\0
   msg(ERWIN_01, BOSER_17, ERWIN, NOFOLLOW, 50)
@@ -317,7 +317,7 @@ lbl_3f0:
   msg(ROHGA_0B, SONYA_D4, ROHGA, NOFOLLOW, 59)
 # Sonya, I don't want to fight you, but ...\0
   msg(SONYA_D4, ROHGA_0B, SONYA_ANGRY, NOFOLLOW, 60)
-# So it seems brother Rohga is just like everyone else ...\r\nI am ordered to crush all humans, big brother. I suggest you flee!\r\nNo one will trust a half-breed like me except Lord Boser!\0
+# So it seems brother Rohga is just like everyone else ...\r\nI am ordered to crush all humans, big brother. I suggest you flee!\r\nNo one will trust a half-breed like me except Lord Böser!\0
   local.sum($0a47d2, $07eb5a)
   global.sub($0a478f, $07eb5c)
 break
@@ -355,7 +355,7 @@ break
 
 lbl_437:
   msg(EGBERT_10, BOSER_17, EGBERT, NOFOLLOW, 67)
-# Boser, can your power stand against a master magician?\r\nWe'll soon see.\0
+# Böser, can your power stand against a master magician?\r\nWe'll soon see.\0
   msg(BOSER_17, EGBERT_10, BOSER, NOFOLLOW, 68)
 # Is that a challenge, filth? Hah hah hah!\r\nHow interesting. Take this!\0
 break
@@ -387,12 +387,12 @@ lbl_460:
   unit.retreat(VAMPIRELORD_8E)
   unit.retreat(STONEGOLEM_48)
   msg(ERWIN_01, BOSER_17, ERWIN, FOLLOW, 73)
-# Wait, Boser!\0
+# Wait, Böser!\0
   msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 74)
 # What in the hell ...? That ceremony really took it out of him.\0
   branch.unit.dead(lbl_48a, CHERIE_CC)
   msg(CHERIE_CC, ERWIN_01, CHERIE, FOLLOW, 75)
-# Boser must not control the revived Alhazard. If we don't do something ...\0
+# Böser must not control the revived Alhazard. If we don't do something ...\0
 lbl_48a:
   branch.unit.dead(lbl_494, LESTER_D1)
   msg(LESTER_D1, UP_F4, LESTER, FOLLOW, 76)
@@ -413,38 +413,38 @@ lbl_49e:
 # The Dark Princess is acting pretty strange.\0
   branch.unit.dead(lbl_4c0, LEON_0D)
   msg(LEON_0D, ERWIN_01, LEON, FOLLOW, 133)
-# Ah ha!\r\nWith Boser's injury, her mind is free again.\0
+# Ah ha!\r\nWith Böser's injury, her mind is free again.\0
   goto(lbl_4c6)
 lbl_4c0:
   msg(LEON_0D, ERWIN_01, LEON_DEAD, NOFOLLOW, 133)
-# Ah ha!\r\nWith Boser's injury, her mind is free again.\0
+# Ah ha!\r\nWith Böser's injury, her mind is free again.\0
 lbl_4c6:
   msg(LIANA_CA, LANA_CB, LIANA, FOLLOW, 80)
-# Lana ...! Sister!\0
+# Lána ...! Sister!\0
   msg(LANA_CB, LIANA_CA, LANA, FOLLOW, 81)
 # Liana! Why ... are we here?\0
   branch.unit.dead(lbl_4df, LEON_0D)
   msg(LEON_0D, LANA_CB, LEON, FOLLOW, 82)
-# Are you okay, Lana? Get a hold of yourself!\0
+# Are you okay, Lána? Get a hold of yourself!\0
   goto(lbl_4e5)
 lbl_4df:
   msg(LEON_0D, UP_F4, LEON_DEAD, NOFOLLOW, 83)
-# Are you okay, Lana?\0
+# Are you okay, Lána?\0
 lbl_4e5:
   msg(LANA_CB, LEON_0D, LANA, FOLLOW, 84)
-# Leon! Why are you ... here?\r\nAahh ..., I see. I've been under Boser's spell. The power of darkness ...\r\nUgh!\0
+# Leon! Why are you ... here?\r\nAahh ..., I see. I've been under Böser's spell. The power of darkness ...\r\nUgh!\0
   msg(LIANA_CA, LANA_CB, LIANA, FOLLOW, 85)
-# Sister Lana, are you okay?\0
+# Sister Lána, are you okay?\0
   branch.unit.dead(lbl_4fe, LEON_0D)
   msg(LEON_0D, LANA_CB, LEON, FOLLOW, 134)
-# Be patient.\r\nLana's exhausted from the unsealing ritual.\r\nWe must see her cared for at the castle.\0
+# Be patient.\r\nLána's exhausted from the unsealing ritual.\r\nWe must see her cared for at the castle.\0
   goto(lbl_504)
 lbl_4fe:
   msg(LEON_0D, LANA_CB, LEON_DEAD, NOFOLLOW, 134)
-# Be patient.\r\nLana's exhausted from the unsealing ritual.\r\nWe must see her cared for at the castle.\0
+# Be patient.\r\nLána's exhausted from the unsealing ritual.\r\nWe must see her cared for at the castle.\0
 lbl_504:
   msg(LANA_CB, LEON_0D, LANA, FOLLOW, 86)
-# Oh, oh yes, where's Boser ...?\0
+# Oh, oh yes, where's Böser ...?\0
   branch.unit.dead(lbl_517, EGBERT_10)
   msg(EGBERT_10, ERWIN_01, EGBERT, FOLLOW, 135)
 # Hmph. It appears neither of our enemies were disabled ...\r\nI wonder whom we should finish first?\r\n_NAME_, I entrust this decision to you.\0
@@ -498,21 +498,21 @@ lbl_570:
   msg(LANA_CB, ERWIN_01, LANA_SAD, FOLLOW, 96)
 # I understand, _NAME_. Let's work together.\0
   msg(ERWIN_01, LANA_CB, ERWIN, FOLLOW, 97)
-# Thank you.\r\nNow all that remains is to seek out Boser and seal his darkness forever!\0
+# Thank you.\r\nNow all that remains is to seek out Böser and seal his darkness forever!\0
   branch.unit.dead(lbl_5a9, VARGAS_0E)
   msg(VARGAS_0E, DOWN_F5, VARGAS, FOLLOW, 136)
-# We'll finish off Boser after we revive Langrisser.\0
+# We'll finish off Böser after we revive Langrisser.\0
   goto(lbl_5af)
 lbl_5a9:
   msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 136)
-# We'll finish off Boser after we revive Langrisser.\0
+# We'll finish off Böser after we revive Langrisser.\0
 lbl_5af:
   loadscenario(46)
   goto(lbl_5e7)
 lbl_5b4:
   prompt.ok(lbl_5e4)
   msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 99)
-# Yes, Boser will be recovering for a while yet.\r\nWe should strike the Army of Light while they're off balance.\0
+# Yes, Böser will be recovering for a while yet.\r\nWe should strike the Army of Light while they're off balance.\0
   branch.unit.dead(lbl_5cc, EGBERT_10)
   msg(EGBERT_10, ERWIN_01, EGBERT, FOLLOW, 100)
 # That sounds like the logical choice. Let's hunt them down.\0
@@ -539,17 +539,17 @@ lbl_5e9:
   msg(SONYA_D4, ROHGA_0B, SONYA, FOLLOW, 104)
 # Brother ...!\0
   msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 105)
-# Don't you understand?\r\nBoser's world will be a living hell!\0
+# Don't you understand?\r\nBöser's world will be a living hell!\0
   msg(SONYA_D4, ROHGA_0B, SONYA, FOLLOW, 106)
 # But I ...\0
   msg(BOSER_17, SONYA_D4, BOSER, FOLLOW, 107)
 # Sonya, please focus.\r\nThat maggot fears our new world. Do not listen to him.\0
   msg(SONYA_D4, BOSER_17, SONYA, FOLLOW, 108)
-# Y, yes ...! Master Boser ...\0
+# Y, yes ...! Master Böser ...\0
   msg(BOSER_17, SONYA_D4, BOSER, FOLLOW, 109)
 # Yes, do not be confused. You know what humans are.\0
   msg(ROHGA_0B, BOSER_17, ROHGA, FOLLOW, 110)
-# Damn you, Boser ...\0
+# Damn you, Böser ...\0
 lbl_61d:
 break
 
@@ -616,7 +616,7 @@ break
 
 lbl_688:
   msg(JESSICA_14, BOSER_17, JESSICA, FOLLOW, 123)
-# Boser, your treachery ends here!\0
+# Böser, your treachery ends here!\0
   msg(BOSER_17, JESSICA_14, BOSER, FOLLOW, 124)
 # Hmmm ... Hah hah. Do your worst, old hag.\0
 break
@@ -682,11 +682,11 @@ lbl_6e4:
   msg(BOSER_17, JESSICA_14, BOSER, FOLLOW, 138)
 # Hmmm ... so the Descendants of Light have decided to show?\0
   msg(JESSICA_14, BOSER_17, JESSICA, FOLLOW, 139)
-# Boser! Al, Alhazard ... is it?\0
+# Böser! Al, Alhazard ... is it?\0
   msg(BOSER_17, JESSICA_14, BOSER, FOLLOW, 140)
 # Yes, you're late ... Alhazard was reborn at this altar.\r\nYou'll all be gutter lining when I'm through with you!\0
   msg(CHERIE_CC, JESSICA_14, CHERIE, FOLLOW, 141)
-# Hmmm ... Boser has Alhazard, _NAME_ has Langrisser ...\r\nDo we stand a chance here?\0
+# Hmmm ... Böser has Alhazard, _NAME_ has Langrisser ...\r\nDo we stand a chance here?\0
   msg(LESTER_D1, CHERIE_CC, LESTER, FOLLOW, 142)
 # The stakes are too high. We have to fight!\0
   msg(CHERIE_CC, UP_F4, CHERIE, FOLLOW, 143)
@@ -706,7 +706,7 @@ lbl_73c:
   msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 149)
 # Sonya! What will it take to end your hatred of humans?\r\nHate only breeds more hate. You must understand that!\0
   msg(SONYA_D4, ROHGA_0B, SONYA, FOLLOW, 150)
-# You're right, brother ... After you left home, the humans treated me like dirt!\r\nMen publicly beat me ... The children threw stones at me!\r\nI had no friends, no one to love, and no brother ...\r\nNow I've embraced my demon blood and Master Boser.\r\nHumans hated me and now I'll return their hate!\0
+# You're right, brother ... After you left home, the humans treated me like dirt!\r\nMen publicly beat me ... The children threw stones at me!\r\nI had no friends, no one to love, and no brother ...\r\nNow I've embraced my demon blood and Master Böser.\r\nHumans hated me and now I'll return their hate!\0
   msg(BOSER_17, SONYA_D4, BOSER, FOLLOW, 151)
 # That's right, Sonya. Humans are selfish beings who need excuses to be kind.\0
   msg(ROHGA_0B, BOSER_17, ROHGA_ANGRY, FOLLOW, 152)

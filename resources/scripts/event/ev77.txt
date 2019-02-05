@@ -1,45 +1,45 @@
 # Movement-Triggered Events
-on.move(0, lbl_62f, LIANA_CA, 0, 0xff)
-on.move(48, lbl_6c2, LANA_CB, 0, 0xff)
-on.move(4, lbl_6ca, LANA_CB, 0, 0xff)
-on.move(5, lbl_719, LUSHIRIS_94, 0, 0xff)
-on.move(54, lbl_7fa, LEDIN_95, 0, 0xff)
-on.move(6, lbl_80e, LEDIN_95, 0, 0xff)
-on.move(7, lbl_83a, SIEGHART_96, 0, 0xff)
+on.move(0, lbl_62f, LIANA_CA, 0)
+on.move(48, lbl_6c2, LANA_CB, 0)
+on.move(4, lbl_6ca, LANA_CB, 0)
+on.move(5, lbl_719, LUSHIRIS_94, 0)
+on.move(54, lbl_7fa, LEDIN_95, 0)
+on.move(6, lbl_80e, LEDIN_95, 0)
+on.move(7, lbl_83a, SIEGHART_96, 0)
 break
 
 # Attack-Triggered Events
-on.attack(2, lbl_44e, LIANA_CA, ERWIN_01, 0x00, 0x00, 0xff)
-on.attack(2, lbl_453, ERWIN_01, LIANA_CA, 0x00, 0x00, 0xff)
-on.attack(16, lbl_458, LIANA_CA, ERWIN_01, 0x00, 0x00, 0xff)
-on.attack(16, lbl_45d, ERWIN_01, LIANA_CA, 0x00, 0x00, 0xff)
-on.attack(17, lbl_462, ERWIN_01, JESSICA_14, 0x00, 0x00, 0xff)
-on.attack(18, lbl_476, ERWIN_01, LANA_CB, 0x00, 0x00, 0xff)
-on.attack(19, lbl_4a0, ERWIN_01, LUSHIRIS_94, 0x00, 0x00, 0xff)
-on.attack(20, lbl_4b4, ERWIN_01, LEDIN_95, 0x00, 0x00, 0xff)
-on.attack(21, lbl_4da, ERWIN_01, SIEGHART_96, 0x00, 0x00, 0xff)
-on.attack(23, lbl_4fd, HEIN_05, JESSICA_14, 0x00, 0x00, 0xff)
-on.attack(24, lbl_50b, HEIN_05, LIANA_CA, 0x00, 0x00, 0xff)
-on.attack(25, lbl_519, HEIN_05, LANA_CB, 0x00, 0x00, 0xff)
-on.attack(26, lbl_52d, HEIN_05, LUSHIRIS_94, 0x00, 0x00, 0xff)
-on.attack(27, lbl_53b, HEIN_05, LEDIN_95, 0x00, 0x00, 0xff)
-on.attack(29, lbl_54b, ROHGA_0B, JESSICA_14, 0x00, 0x00, 0xff)
-on.attack(30, lbl_559, ROHGA_0B, LIANA_CA, 0x00, 0x00, 0xff)
-on.attack(31, lbl_56d, ROHGA_0B, LANA_CB, 0x00, 0x00, 0xff)
-on.attack(32, lbl_5b1, ROHGA_0B, LUSHIRIS_94, 0x00, 0x00, 0xff)
-on.attack(33, lbl_5b9, ROHGA_0B, LEDIN_95, 0x00, 0x00, 0xff)
-on.attack(34, lbl_5cd, ROHGA_0B, SIEGHART_96, 0x00, 0x00, 0xff)
-on.attack(36, lbl_5e3, SONYA_0C, LUSHIRIS_94, 0x00, 0xff, 0xff)
-on.attack(37, lbl_5eb, SONYA_0C, LUSHIRIS_94, 0x00, 0x00, 0xff)
-on.attack(39, lbl_5fb, ESTO_11, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(41, lbl_60b, NULL_FF, OSTO_12, 0xff, 0x00, 0xff)
-on.attack(44, lbl_637, LIANA_CA, ERWIN_01, 0x00, 0x00, 0xff)
-on.attack(49, lbl_6e5, LANA_CB, ERWIN_01, 0x00, 0x00, 0xff)
-on.attack(50, lbl_700, LANA_CB, SONYA_0C, 0x00, 0x00, 0xff)
-on.attack(52, lbl_721, LUSHIRIS_94, ERWIN_01, 0x00, 0xff, 0xff)
-on.attack(53, lbl_729, LUSHIRIS_94, ERWIN_01, 0x00, 0x00, 0xff)
-on.attack(61, lbl_88c, COMMANDER_88, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(67, lbl_8bf, COMMANDER_23, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(2, lbl_44e, LIANA_CA, ERWIN_01, 0x00, 0x00)
+on.attack(2, lbl_453, ERWIN_01, LIANA_CA, 0x00, 0x00)
+on.attack(16, lbl_458, LIANA_CA, ERWIN_01, 0x00, 0x00)
+on.attack(16, lbl_45d, ERWIN_01, LIANA_CA, 0x00, 0x00)
+on.attack(17, lbl_462, ERWIN_01, JESSICA_14, 0x00, 0x00)
+on.attack(18, lbl_476, ERWIN_01, LANA_CB, 0x00, 0x00)
+on.attack(19, lbl_4a0, ERWIN_01, LUSHIRIS_94, 0x00, 0x00)
+on.attack(20, lbl_4b4, ERWIN_01, LEDIN_95, 0x00, 0x00)
+on.attack(21, lbl_4da, ERWIN_01, SIEGHART_96, 0x00, 0x00)
+on.attack(23, lbl_4fd, HEIN_05, JESSICA_14, 0x00, 0x00)
+on.attack(24, lbl_50b, HEIN_05, LIANA_CA, 0x00, 0x00)
+on.attack(25, lbl_519, HEIN_05, LANA_CB, 0x00, 0x00)
+on.attack(26, lbl_52d, HEIN_05, LUSHIRIS_94, 0x00, 0x00)
+on.attack(27, lbl_53b, HEIN_05, LEDIN_95, 0x00, 0x00)
+on.attack(29, lbl_54b, ROHGA_0B, JESSICA_14, 0x00, 0x00)
+on.attack(30, lbl_559, ROHGA_0B, LIANA_CA, 0x00, 0x00)
+on.attack(31, lbl_56d, ROHGA_0B, LANA_CB, 0x00, 0x00)
+on.attack(32, lbl_5b1, ROHGA_0B, LUSHIRIS_94, 0x00, 0x00)
+on.attack(33, lbl_5b9, ROHGA_0B, LEDIN_95, 0x00, 0x00)
+on.attack(34, lbl_5cd, ROHGA_0B, SIEGHART_96, 0x00, 0x00)
+on.attack(36, lbl_5e3, SONYA_0C, LUSHIRIS_94, 0x00, 0xff)
+on.attack(37, lbl_5eb, SONYA_0C, LUSHIRIS_94, 0x00, 0x00)
+on.attack(39, lbl_5fb, ESTO_11, NULL_FF, 0x00, 0xff)
+on.attack(41, lbl_60b, NULL_FF, OSTO_12, 0xff, 0x00)
+on.attack(44, lbl_637, LIANA_CA, ERWIN_01, 0x00, 0x00)
+on.attack(49, lbl_6e5, LANA_CB, ERWIN_01, 0x00, 0x00)
+on.attack(50, lbl_700, LANA_CB, SONYA_0C, 0x00, 0x00)
+on.attack(52, lbl_721, LUSHIRIS_94, ERWIN_01, 0x00, 0xff)
+on.attack(53, lbl_729, LUSHIRIS_94, ERWIN_01, 0x00, 0x00)
+on.attack(61, lbl_88c, COMMANDER_88, NULL_FF, 0x00, 0xff)
+on.attack(67, lbl_8bf, COMMANDER_23, NULL_FF, 0x00, 0xff)
 break
 
 # Damage-Triggered Events
@@ -73,17 +73,17 @@ on.defeat(69, lbl_8cf, COMMANDER_88, COMMANDER_89, COMMANDER_8A, COMMANDER_8B)
 break
 
 # Position-Triggered Events
-on.bound(10, lbl_41c, NPC_COMMANDER_F0, 10, 12, 21, 14, 0x00, 0x00)
-on.bound(12, lbl_424, NPC_SUBUNIT_F1, 6, 16, 13, 22, 0x00, 0x00)
-on.bound(13, lbl_429, NPC_SUBUNIT_F1, 18, 18, 25, 22, 0x00, 0x00)
-on.bound(14, lbl_42e, NPC_SUBUNIT_F1, 12, 1, 19, 11, 0x00, 0x00)
-on.range(15, lbl_433, ERWIN_01, LIANA_02, 2, 0x00, 0x00, 0x00, 0x00)
-on.bound(70, lbl_8d4, NPC_COMMANDER_F0, 29, 16, 29, 16, 0x00, 0x00)
+on.bound(10, lbl_41c, NPC_COMMANDER_F0, 10, 12, 21, 14)
+on.bound(12, lbl_424, NPC_SUBUNIT_F1, 6, 16, 13, 22)
+on.bound(13, lbl_429, NPC_SUBUNIT_F1, 18, 18, 25, 22)
+on.bound(14, lbl_42e, NPC_SUBUNIT_F1, 12, 1, 19, 11)
+on.range(15, lbl_433, ERWIN_01, LIANA_02, 2)
+on.bound(70, lbl_8d4, NPC_COMMANDER_F0, 29, 16, 29, 16)
 break
 
 # Turn-Triggered Events
-on.turn(9, lbl_3a1, ENEMY, 1, 0x00)
-on.turn(1, lbl_3ad, ENEMY, 0, 0x00)
+on.turn(9, lbl_3a1, ENEMY, 1)
+on.turn(1, lbl_3ad, ENEMY, 0)
 break
 
 # Core Events
@@ -99,7 +99,7 @@ lbl_234:
   msg(LUSHIRIS_94, JESSICA_14, LUSHIRIS, FOLLOW, 1)
 # I understand the situation. But ... is sealing Langrisser the right thing to do?\0
   msg(JESSICA_14, LUSHIRIS_94, JESSICA, FOLLOW, 2)
-# Boser has been defeated-- Alhazard lies in human hands.\r\nI can't foresee Langrisser Being any use to us now ...\r\nSieghart forged the Holy Blade to combat Alhazard. The best choice would seal them both.\0
+# Böser has been defeated-- Alhazard lies in human hands.\r\nI can't foresee Langrisser Being any use to us now ...\r\nSieghart forged the Holy Blade to combat Alhazard. The best choice would seal them both.\0
   msg(LIANA_CA, DOWN_F5, LIANA_SAD, FOLLOW, 3)
 # ...\0
   msg(JESSICA_14, LEFT_F6, JESSICA, FOLLOW, 4)
@@ -343,9 +343,9 @@ lbl_4b4:
   msg(LEDIN_95, ERWIN_01, LEDIN, NOFOLLOW, 59)
 # I'm your ancestor, _NAME_. My blood flows within you.\r\n_NAME_ ... Why have you abandoned your role as my Descendant?\0
   msg(ERWIN_01, LEDIN_95, ERWIN_ANGRY, NOFOLLOW, 60)
-# I destroyed Boser with my own strength. The strength of will.\r\nThe Descendants of Light no longer have any place in our great world.\r\nHumans are strong enough to bring this world peace without the meddling deity you serve.\0
+# I destroyed Böser with my own strength. The strength of will.\r\nThe Descendants of Light no longer have any place in our great world.\r\nHumans are strong enough to bring this world peace without the meddling deity you serve.\0
   msg(LEDIN_95, ERWIN_01, LEDIN, NOFOLLOW, 61)
-# A battle to end all others ...\r\n_NAME_, you and I once shared the very same thoughts.\r\nJessica, Narm, Hawking, Thorn, Albert, Lance ... Chris. We fought Boser and sealed away the darkness.\r\nAfterwards, I took the throne of Baldea and peace reigned in the land for my lifetime.\r\nBut peace under a leader ends with that leader.\r\nYou claimed Langrisser from the ruins of my castle. That throne once ruled over the land you now try to unite.\r\nYou won't live forever, and the peace you create today will, in the end, die with you.\0
+# A battle to end all others ...\r\n_NAME_, you and I once shared the very same thoughts.\r\nJessica, Narm, Hawking, Thorn, Albert, Lance ... Chris. We fought Böser and sealed away the darkness.\r\nAfterwards, I took the throne of Baldea and peace reigned in the land for my lifetime.\r\nBut peace under a leader ends with that leader.\r\nYou claimed Langrisser from the ruins of my castle. That throne once ruled over the land you now try to unite.\r\nYou won't live forever, and the peace you create today will, in the end, die with you.\0
   msg(ERWIN_01, LEDIN_95, ERWIN_ANGRY, NOFOLLOW, 62)
 # Ledin, what you say is very true ...\r\nI am but one man, but if I can deliver the world from chaos and terror for even a short while ...\r\nIf it can even taste true peace, then I will have done better than any of these "gods."\0
 break
@@ -354,9 +354,9 @@ lbl_4da:
   msg(ERWIN_01, SIEGHART_96, ERWIN_ANGRY, NOFOLLOW, 63)
 # Are you the one responsible for the Descendants inheriting this worthless goddess' will!?\0
   msg(SIEGHART_96, ERWIN_01, SIEGHART, NOFOLLOW, 64)
-# Long ago, when I was a boy, Boser took advantage of a massive war amongst humans.\r\nLike a virus, he assaulted us when we were vulnerable and at each other's throats in intrigue and hate.\r\nIn order to stand a chance, the people joined their hearts and crafted a holy sword.\r\nThis weapon, Langrisser, had the power to smash darkness, but it required protection.\r\nThroughout the ages, there have been people who would use the sword for their own ends against fellow man.\r\nThe Descendants of Light exist to see that these men never lay their hands on the holy blade.\0
+# Long ago, when I was a boy, Böser took advantage of a massive war amongst humans.\r\nLike a virus, he assaulted us when we were vulnerable and at each other's throats in intrigue and hate.\r\nIn order to stand a chance, the people joined their hearts and crafted a holy sword.\r\nThis weapon, Langrisser, had the power to smash darkness, but it required protection.\r\nThroughout the ages, there have been people who would use the sword for their own ends against fellow man.\r\nThe Descendants of Light exist to see that these men never lay their hands on the holy blade.\0
   msg(ERWIN_01, SIEGHART_96, ERWIN_ANGRY, NOFOLLOW, 65)
-# We already possess Alhazard!\r\nWith Boser dead and Alhazard in the hands of humans, the mission of the Descendants has ended!\0
+# We already possess Alhazard!\r\nWith Böser dead and Alhazard in the hands of humans, the mission of the Descendants has ended!\0
   msg(SIEGHART_96, ERWIN_01, SIEGHART, NOFOLLOW, 66)
 # Then show me your power.\r\nI shall see if you have the strength to bring this peace you speak of.\0
 break
@@ -439,7 +439,7 @@ lbl_584:
   msg(ROHGA_0B, LANA_CB, ROHGA, NOFOLLOW, 87)
 # It's unfortunate, but I am guessing that guy is probably still alive.\r\nThat guy ... He fought like a steel dragon.\0
   msg(LANA_CB, DOWN_F5, LANA_SAD, NOFOLLOW, 88)
-# General Leon ... you were so kind, even when Boser controlled me ...\r\nI will avenge you!\0
+# General Leon ... you were so kind, even when Böser controlled me ...\r\nI will avenge you!\0
   goto(lbl_5a9)
 lbl_59d:
   msg(ROHGA_0B, LANA_CB, ROHGA, NOFOLLOW, 89)
@@ -624,14 +624,14 @@ break
 
 lbl_700:
   msg(LANA_CB, SONYA_0C, LANA, NOFOLLOW, 128)
-# I may have been your ally under Boser's control, but I am your enemy now!\0
+# I may have been your ally under Böser's control, but I am your enemy now!\0
   msg(SONYA_0C, LANA_CB, SONYA, NOFOLLOW, 129)
 # I'm fighting for humans and demons to co-exist!\r\nThere is nothing wrong with that dream, no matter what anyone says!\0
 break
 
 lbl_70e:
   msg(LANA_CB, DOWN_F5, LANA_DEAD, FOLLOW, 130)
-# So this was my reward for slaving under Boser ... But now ...\0
+# So this was my reward for slaving under Böser ... But now ...\0
   global.sum($0a4790, $07eb5c)
 break
 
@@ -767,7 +767,7 @@ break
 lbl_83a:
   branch.unit.dead(lbl_856, LANA_CB)
   msg(SIEGHART_96, DOWN_F5, SIEGHART, NOFOLLOW, 149)
-# Lana, please be careful. Langrisser's power is immense.\0
+# Lána, please be careful. Langrisser's power is immense.\0
   msg(LANA_CB, SIEGHART_96, LANA, FOLLOW, 150)
 # I know. As a maiden, I understand the two swords better than anyone else.\0
   msg(SIEGHART_96, DOWN_F5, SIEGHART, FOLLOW, 151)
@@ -858,7 +858,7 @@ lbl_8d4:
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 166)
 # An ostentatious sword is buried deep in a pedestal.\r\nOn the pedestal, you see some carefully chiselled words.\r\n"Ye who desires this sabre must vanquish the monster."\r\n"With the fiend dead, thou need not but call my name!"\r\nWhat name will you call?\0
   global.sum($0a478d, $07eb5b)
-  prompt.options(lbl_8f7, lbl_908, 167, 168, 169, 0x00, 0xf4, 0x00, 0x00)
+  prompt.options(lbl_8f7, lbl_908, 167, 168, 169, 0xf4)
 # Langrisser\0
 # Dragon Slayer\0
 # Alhazard\0

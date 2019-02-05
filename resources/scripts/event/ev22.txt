@@ -1,21 +1,21 @@
 # Movement-Triggered Events
-on.move(5, lbl_425, DARKPRINCESS_15, 0, 0xff)
-on.move(34, lbl_46b, JORMUNGANDR_98, 0, 0xff)
-on.move(36, lbl_47b, KRAKEN_65, 0, 0xff)
-on.move(39, lbl_493, FAIAS_78, 0, 0xff)
-on.move(6, lbl_4c2, FAIAS_78, 0, 0xff)
+on.move(5, lbl_425, DARKPRINCESS_15, 0)
+on.move(34, lbl_46b, JORMUNGANDR_98, 0)
+on.move(36, lbl_47b, KRAKEN_65, 0)
+on.move(39, lbl_493, FAIAS_78, 0)
+on.move(6, lbl_4c2, FAIAS_78, 0)
 break
 
 # Attack-Triggered Events
-on.attack(14, lbl_3bd, NULL_FF, ERWIN_01, 0xff, 0x00, 0xff)
-on.attack(15, lbl_3c5, ERWIN_01, FAIAS_78, 0x00, 0x00, 0xff)
-on.attack(18, lbl_3e5, CHERIE_04, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(22, lbl_405, LESTER_09, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(26, lbl_42d, NULL_FF, DARKPRINCESS_15, 0xff, 0x00, 0xff)
-on.attack(29, lbl_443, NULL_FF, SUCCUBUS_68, 0xff, 0x00, 0xff)
-on.attack(30, lbl_44b, SUCCUBUS_68, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(40, lbl_4ca, FAIAS_78, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(41, lbl_4d2, NULL_FF, FAIAS_78, 0xff, 0x00, 0xff)
+on.attack(14, lbl_3bd, NULL_FF, ERWIN_01, 0xff, 0x00)
+on.attack(15, lbl_3c5, ERWIN_01, FAIAS_78, 0x00, 0x00)
+on.attack(18, lbl_3e5, CHERIE_04, NULL_FF, 0x00, 0xff)
+on.attack(22, lbl_405, LESTER_09, NULL_FF, 0x00, 0xff)
+on.attack(26, lbl_42d, NULL_FF, DARKPRINCESS_15, 0xff, 0x00)
+on.attack(29, lbl_443, NULL_FF, SUCCUBUS_68, 0xff, 0x00)
+on.attack(30, lbl_44b, SUCCUBUS_68, NULL_FF, 0x00, 0xff)
+on.attack(40, lbl_4ca, FAIAS_78, NULL_FF, 0x00, 0xff)
+on.attack(41, lbl_4d2, NULL_FF, FAIAS_78, 0xff, 0x00)
 break
 
 # Damage-Triggered Events
@@ -42,20 +42,20 @@ on.defeat(47, lbl_564, PHOENIX_8C, PHOENIX_8D, SUCCUBUS_68, MINOTAUR_63, MINOTAU
 break
 
 # Position-Triggered Events
-on.bound(11, lbl_392, NPC_SUBUNIT_F1, 20, 2, 31, 31, 0x00, 0x00)
-on.bound(13, lbl_3a2, NPC_COMMANDER_F0, 21, 13, 21, 13, 0x00, 0x00)
+on.bound(11, lbl_392, NPC_SUBUNIT_F1, 20, 2, 31, 31)
+on.bound(13, lbl_3a2, NPC_COMMANDER_F0, 21, 13, 21, 13)
 break
 
 # Turn-Triggered Events
-on.turn(7, lbl_2b7, ENEMY, 1, 0x00)
-on.turn(1, lbl_2cd, ENEMY, 0, 0x00)
-on.turn(0, lbl_2d5, ALLY, 0, 0x00)
-on.turn(2, lbl_2f0, ALLY, 0, 0x00)
-on.turn(8, lbl_2f5, ENEMY, 18, 0x00)
-on.turn(9, lbl_32a, ENEMY, 8, 0x00)
-on.turn(10, lbl_32f, ALLY, 2, 0x00)
-on.turn(3, lbl_341, ENEMY, 0, 0x00)
-on.turn(4, lbl_384, ALLY, 0, 0x00)
+on.turn(7, lbl_2b7, ENEMY, 1)
+on.turn(1, lbl_2cd, ENEMY, 0)
+on.turn(0, lbl_2d5, ALLY, 0)
+on.turn(2, lbl_2f0, ALLY, 0)
+on.turn(8, lbl_2f5, ENEMY, 18)
+on.turn(9, lbl_32a, ENEMY, 8)
+on.turn(10, lbl_32f, ALLY, 2)
+on.turn(3, lbl_341, ENEMY, 0)
+on.turn(4, lbl_384, ALLY, 0)
 break
 
 # Core Events
@@ -150,7 +150,7 @@ lbl_154:
   msg(DARKPRINCESS_15, ERWIN_01, DARKPRINCESS, FOLLOW, 9)
 # Just as I expected ...\r\nI figured you would drop anchor here.\0
   msg(ERWIN_01, DARKPRINCESS_15, ERWIN, FOLLOW, 10)
-# Is that Lana!?\0
+# Is that Lána!?\0
   msg(SUCCUBUS_68, DARKPRINCESS_15, SUCCUBUS_BLUE, FOLLOW, 11)
 # Soon the ceremony to awaken Alhazard shall begin.\r\nWe can't let them pass.\0
   msg(DARKPRINCESS_15, SUCCUBUS_68, DARKPRINCESS, FOLLOW, 12)
@@ -166,13 +166,13 @@ lbl_154:
   msg(KEITH_07, CHERIE_04, KEITH, FOLLOW, 17)
 # Egbert is an incredibly powerful wizard, but powerful enough for this ...?\r\nPerhaps someone else is manipulating her ...\0
   msg(HEIN_05, RIGHT_F7, HEIN, FOLLOW, 18)
-# Do your best not to injure Lana.\r\nDon't forget that she is still Liana's sister. Her only kin is her enemy ...\0
+# Do your best not to injure Lána.\r\nDon't forget that she is still Liana's sister. Her only kin is her enemy ...\0
   msg(LESTER_09, HEIN_05, LESTER, FOLLOW, 19)
 # Hein, when you're on the battlefield, shit happens.\r\nReality can be one harsh and merciless bitch, but we have to put stopping Alhazard before all else!\r\nIf we lose sight of that, we're at a disadvantage.\0
   msg(HEIN_05, LESTER_09, HEIN, FOLLOW, 20)
 # Sir Lester ..., I know how you feel.\r\nBut let's just try and do what we can for her!\0
   msg(ERWIN_01, HEIN_05, ERWIN, FOLLOW, 21)
-# I'm concerned about them too, so be careful when you engage Lana.\r\nOur team's not going to lose this one.\r\nIt might get ugly, but let's detain that "Dark Princess!"\0
+# I'm concerned about them too, so be careful when you engage Lána.\r\nOur team's not going to lose this one.\r\nIt might get ugly, but let's detain that "Dark Princess!"\0
   msg(DARKPRINCESS_15, ERWIN_01, DARKPRINCESS, FOLLOW, 22)
 # Heh heh heh ...\r\nYou are planning to show mercy to me? Such a mistake will cost you all dearly.\0
   local.sum($0a47d0, $07eb58)
@@ -202,7 +202,7 @@ break
 
 lbl_2d5:
   msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 25)
-# Lana's moving to complete the ceremony. Time's running out ...\0
+# Lána's moving to complete the ceremony. Time's running out ...\0
   branch.unit.dead(lbl_2eb, CHERIE_04)
   msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 26)
 # But where is the ceremony taking place?\r\nIf we don't know, we can't do anything.\0
@@ -248,9 +248,9 @@ break
 lbl_32f:
   branch.unit.dead(lbl_33f, DARKPRINCESS_15)
   msg(ERWIN_01, DARKPRINCESS_15, ERWIN, FOLLOW, 32)
-# Stop it, Lana. Boser is already dead, isn't he?\r\nWhy are you following Egbert?\0
+# Stop it, Lána. Böser is already dead, isn't he?\r\nWhy are you following Egbert?\0
   msg(DARKPRINCESS_15, LEFT_F6, DARKPRINCESS, FOLLOW, 33)
-# Don't talk to me like an old friend, trash.\r\nThe breaker of the seal, Lord Egbert, and he who wields Alhazard, Lord Bernhardt ...\r\nThey are very precious people to us.\r\nHa ha ha ... In fact, they've agreed to release our god, Chaos ...\r\nAnd Bernhardt has kindly replaced Boser as master of our demonic forces.\r\nDescendants of Light, here you meet your doom!\r\nThis is the last place you will ever stand.\0
+# Don't talk to me like an old friend, trash.\r\nThe breaker of the seal, Lord Egbert, and he who wields Alhazard, Lord Bernhardt ...\r\nThey are very precious people to us.\r\nHa ha ha ... In fact, they've agreed to release our god, Chaos ...\r\nAnd Bernhardt has kindly replaced Böser as master of our demonic forces.\r\nDescendants of Light, here you meet your doom!\r\nThis is the last place you will ever stand.\0
 lbl_33f:
 break
 
@@ -441,7 +441,7 @@ lbl_493:
   msg(ERWIN_01, FAIAS_78, ERWIN, FOLLOW, 74)
 # What score could you possibly have with us? We have never met.\0
   msg(FAIAS_78, ERWIN_01, VAMPIRELORD, FOLLOW, 75)
-# Ha ha ha! You ... really don't remember me?\r\nI had hoped my face would haunt your nightmares for all eternity.\r\nBoser ordered me to massacre the Descendants of Light.\r\nBut when I finally hunted you down, this crumpled old fool got in my way ...\0
+# Ha ha ha! You ... really don't remember me?\r\nI had hoped my face would haunt your nightmares for all eternity.\r\nBöser ordered me to massacre the Descendants of Light.\r\nBut when I finally hunted you down, this crumpled old fool got in my way ...\0
   msg(ERWIN_01, FAIAS_78, ERWIN_ANGRY, FOLLOW, 76)
 # An old ...!\r\nYou ... then it was you! You are the one who murdered Doren!\0
   msg(FAIAS_78, ERWIN_01, VAMPIRELORD, FOLLOW, 77)
@@ -455,7 +455,7 @@ break
 
 lbl_4c2:
   msg(FAIAS_78, ERWIN_01, VAMPIRELORD, FOLLOW, 80)
-# I won't fail Boser!\r\nI'll wipe the Descendants' bloodline from this world.\0
+# I won't fail Böser!\r\nI'll wipe the Descendants' bloodline from this world.\0
 break
 
 lbl_4ca:
@@ -595,11 +595,11 @@ lbl_5e4:
 # Yes. It's lies shortly north of here.\r\nThe awakening ritual is already underway.\0
   branch.unit.dead(lbl_60b, HEIN_05)
   msg(HEIN_05, JESSICA_14, HEIN, FOLLOW, 111)
-# Jessica! It seems that their ritual has begun!\r\nLana has gone to the Temple of Darkness.\0
+# Jessica! It seems that their ritual has begun!\r\nLána has gone to the Temple of Darkness.\0
   goto(lbl_611)
 lbl_60b:
   msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 112)
-# Jessica! It seems the preparations for the ceremony are over.\r\nLana has apparently gone to the Temple of Darkness ...\0
+# Jessica! It seems the preparations for the ceremony are over.\r\nLána has apparently gone to the Temple of Darkness ...\0
 lbl_611:
   msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 113)
 # _NAME_, let's hurry! We must stop Alhazard's revival!\0

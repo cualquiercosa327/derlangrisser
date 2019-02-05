@@ -1,20 +1,20 @@
 # Movement-Triggered Events
-on.move(6, lbl_4bf, SCOTT_CE, 0, 0xff)
+on.move(6, lbl_4bf, SCOTT_CE, 0)
 break
 
 # Attack-Triggered Events
-on.attack(13, lbl_3e4, ERWIN_01, SCOTT_CE, 0x00, 0x00, 0xff)
-on.attack(14, lbl_3f2, ERWIN_01, LOREN_2B, 0x00, 0x00, 0xff)
-on.attack(16, lbl_40a, HEIN_05, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(18, lbl_41a, NULL_FF, ROHGA_0B, 0xff, 0x00, 0xff)
-on.attack(20, lbl_42a, SONYA_0C, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(22, lbl_43a, ESTO_11, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(25, lbl_452, LOREN_2B, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(26, lbl_45a, NULL_FF, LOREN_2B, 0xff, 0x00, 0xff)
-on.attack(28, lbl_4e0, SCOTT_CE, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(30, lbl_536, NULL_FF, COMMANDER_23, 0xff, 0x00, 0xff)
-on.attack(32, lbl_553, COMMANDER_83, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(39, lbl_58b, COMMANDER_89, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(13, lbl_3e4, ERWIN_01, SCOTT_CE, 0x00, 0x00)
+on.attack(14, lbl_3f2, ERWIN_01, LOREN_2B, 0x00, 0x00)
+on.attack(16, lbl_40a, HEIN_05, NULL_FF, 0x00, 0xff)
+on.attack(18, lbl_41a, NULL_FF, ROHGA_0B, 0xff, 0x00)
+on.attack(20, lbl_42a, SONYA_0C, NULL_FF, 0x00, 0xff)
+on.attack(22, lbl_43a, ESTO_11, NULL_FF, 0x00, 0xff)
+on.attack(25, lbl_452, LOREN_2B, NULL_FF, 0x00, 0xff)
+on.attack(26, lbl_45a, NULL_FF, LOREN_2B, 0xff, 0x00)
+on.attack(28, lbl_4e0, SCOTT_CE, NULL_FF, 0x00, 0xff)
+on.attack(30, lbl_536, NULL_FF, COMMANDER_23, 0xff, 0x00)
+on.attack(32, lbl_553, COMMANDER_83, NULL_FF, 0x00, 0xff)
+on.attack(39, lbl_58b, COMMANDER_89, NULL_FF, 0x00, 0xff)
 break
 
 # Damage-Triggered Events
@@ -41,18 +41,18 @@ on.defeat(44, lbl_5b4, LOREN_2B, SCOTT_CE)
 break
 
 # Position-Triggered Events
-on.bound(11, lbl_366, SCOTT_CE, 1, 1, 45, 2, 0x00, 0x00)
-on.bound(11, lbl_38c, LOREN_2B, 1, 1, 45, 2, 0x00, 0x00)
-on.bound(12, lbl_3a7, NPC_COMMANDER_F0, 27, 33, 27, 33, 0x00, 0x00)
+on.bound(11, lbl_366, SCOTT_CE, 1, 1, 45, 2)
+on.bound(11, lbl_38c, LOREN_2B, 1, 1, 45, 2)
+on.bound(12, lbl_3a7, NPC_COMMANDER_F0, 27, 33, 27, 33)
 break
 
 # Turn-Triggered Events
-on.turn(0, lbl_2e2, ENEMY, 0, 0x00)
-on.turn(8, lbl_2eb, ENEMY, 1, 0x00)
-on.turn(1, lbl_309, ALLY, 0, 0x00)
-on.turn(2, lbl_32d, ENEMY, 0, 0x00)
-on.turn(3, lbl_34f, ALLY, 0, 0x00)
-on.turn(10, lbl_361, ALLY, 8, 0x00)
+on.turn(0, lbl_2e2, ENEMY, 0)
+on.turn(8, lbl_2eb, ENEMY, 1)
+on.turn(1, lbl_309, ALLY, 0)
+on.turn(2, lbl_32d, ENEMY, 0)
+on.turn(3, lbl_34f, ALLY, 0)
+on.turn(10, lbl_361, ALLY, 8)
 break
 
 # Core Events
@@ -297,7 +297,7 @@ lbl_3a7:
   unit.cleanup()
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 50)
 # Several obscure characters are carved into the slate.\r\n"If you want, offer me a prayer. I will grant your fond desire."\r\nWhat do you desire?\0
-  prompt.options(lbl_3ca, lbl_3d6, 51, 52, 53, 0x00, 0xf4, 0x00, 0x00)
+  prompt.options(lbl_3ca, lbl_3d6, 51, 52, 53, 0xf4)
 # More troops\0
 # Attack power\0
 # Defence power\0

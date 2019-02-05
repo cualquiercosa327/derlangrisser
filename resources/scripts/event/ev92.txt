@@ -57,7 +57,7 @@ lbl_18:
   unit.face(BOSER_17, DOWN_F5)
   rawwrite(0x560a)
   msg(SONYA_0C, UP_F4, SONYA, NOFOLLOW, 5)
-# Lord Boser! We've come bearing good news!\r\nWe've eliminated both the Empire and the Army of Light. As a bonus, we also took out Lushiris for getting in the way.\0
+# Lord Böser! We've come bearing good news!\r\nWe've eliminated both the Empire and the Army of Light. As a bonus, we also took out Lushiris for getting in the way.\0
   msg(BOSER_17, DOWN_F5, BOSER, NOFOLLOW, 6)
 # Very well done ... You served your purpose even better than I had hoped.\r\nFarewell, Sieghart, I hope you enjoy eternal slumber in that piece of scrap metal that was once Langrisser!\0
   unit.face(ERWIN_01, DOWN_F5)

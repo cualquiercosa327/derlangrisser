@@ -1,34 +1,34 @@
 # Movement-Triggered Events
-on.move(3, lbl_3d0, BERNHARDT_16, 0, 0xff)
-on.move(22, lbl_3e8, BERNHARDT_16, 1, 0xff)
-on.move(30, lbl_519, EGBERT_D8, 1, 0xff)
-on.move(44, lbl_5b9, IMPERIALCOMMANDER_35, 1, 0xff)
+on.move(3, lbl_3d0, BERNHARDT_16, 0)
+on.move(22, lbl_3e8, BERNHARDT_16, 1)
+on.move(30, lbl_519, EGBERT_D8, 1)
+on.move(44, lbl_5b9, IMPERIALCOMMANDER_35, 1)
 break
 
 # Attack-Triggered Events
-on.attack(8, lbl_33b, ERWIN_01, EGBERT_D8, 0x00, 0x00, 0xff)
-on.attack(10, lbl_34c, HEIN_05, EGBERT_D8, 0x00, 0x00, 0xff)
-on.attack(12, lbl_362, NULL_FF, ROHGA_0B, 0xff, 0x00, 0xff)
-on.attack(13, lbl_36a, ROHGA_0B, EGBERT_D8, 0x00, 0x00, 0xff)
-on.attack(15, lbl_38a, SONYA_0C, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(17, lbl_3a4, ESTO_11, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(20, lbl_3c0, OSTO_12, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(23, lbl_3f0, BERNHARDT_16, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(24, lbl_3f8, ERWIN_01, BERNHARDT_16, 0x00, 0x00, 0xff)
-on.attack(25, lbl_406, HEIN_05, BERNHARDT_16, 0x00, 0x00, 0xff)
-on.attack(26, lbl_414, ROHGA_0B, BERNHARDT_16, 0x00, 0x00, 0xff)
-on.attack(27, lbl_41c, SONYA_0C, BERNHARDT_16, 0x00, 0x00, 0xff)
-on.attack(31, lbl_521, EGBERT_D8, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(33, lbl_541, NULL_FF, IMPERIALCOMMANDER_31, 0xff, 0x00, 0xff)
-on.attack(36, lbl_55d, IMPERIALCOMMANDER_32, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(39, lbl_583, IMPERIALCOMMANDER_33, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(42, lbl_5a9, NULL_FF, IMPERIALCOMMANDER_34, 0xff, 0x00, 0xff)
-on.attack(47, lbl_5ee, IMPERIALCOMMANDER_36, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(51, lbl_60e, NULL_FF, IMPERIALCOMMANDER_81, 0xff, 0x00, 0xff)
-on.attack(53, lbl_61e, LEON_D5, ERWIN_01, 0x00, 0x00, 0xff)
-on.attack(54, lbl_626, LEON_D5, HEIN_05, 0x00, 0x00, 0xff)
-on.attack(55, lbl_62e, LEON_D5, ROHGA_0B, 0x00, 0x00, 0xff)
-on.attack(56, lbl_63c, LEON_D5, SONYA_0C, 0x00, 0x00, 0xff)
+on.attack(8, lbl_33b, ERWIN_01, EGBERT_D8, 0x00, 0x00)
+on.attack(10, lbl_34c, HEIN_05, EGBERT_D8, 0x00, 0x00)
+on.attack(12, lbl_362, NULL_FF, ROHGA_0B, 0xff, 0x00)
+on.attack(13, lbl_36a, ROHGA_0B, EGBERT_D8, 0x00, 0x00)
+on.attack(15, lbl_38a, SONYA_0C, NULL_FF, 0x00, 0xff)
+on.attack(17, lbl_3a4, ESTO_11, NULL_FF, 0x00, 0xff)
+on.attack(20, lbl_3c0, OSTO_12, NULL_FF, 0x00, 0xff)
+on.attack(23, lbl_3f0, BERNHARDT_16, NULL_FF, 0x00, 0xff)
+on.attack(24, lbl_3f8, ERWIN_01, BERNHARDT_16, 0x00, 0x00)
+on.attack(25, lbl_406, HEIN_05, BERNHARDT_16, 0x00, 0x00)
+on.attack(26, lbl_414, ROHGA_0B, BERNHARDT_16, 0x00, 0x00)
+on.attack(27, lbl_41c, SONYA_0C, BERNHARDT_16, 0x00, 0x00)
+on.attack(31, lbl_521, EGBERT_D8, NULL_FF, 0x00, 0xff)
+on.attack(33, lbl_541, NULL_FF, IMPERIALCOMMANDER_31, 0xff, 0x00)
+on.attack(36, lbl_55d, IMPERIALCOMMANDER_32, NULL_FF, 0x00, 0xff)
+on.attack(39, lbl_583, IMPERIALCOMMANDER_33, NULL_FF, 0x00, 0xff)
+on.attack(42, lbl_5a9, NULL_FF, IMPERIALCOMMANDER_34, 0xff, 0x00)
+on.attack(47, lbl_5ee, IMPERIALCOMMANDER_36, NULL_FF, 0x00, 0xff)
+on.attack(51, lbl_60e, NULL_FF, IMPERIALCOMMANDER_81, 0xff, 0x00)
+on.attack(53, lbl_61e, LEON_D5, ERWIN_01, 0x00, 0x00)
+on.attack(54, lbl_626, LEON_D5, HEIN_05, 0x00, 0x00)
+on.attack(55, lbl_62e, LEON_D5, ROHGA_0B, 0x00, 0x00)
+on.attack(56, lbl_63c, LEON_D5, SONYA_0C, 0x00, 0x00)
 break
 
 # Damage-Triggered Events
@@ -62,15 +62,15 @@ on.defeat(59, lbl_662, IMPERIALCOMMANDER_34, IMPERIALCOMMANDER_35, IMPERIALCOMMA
 break
 
 # Position-Triggered Events
-on.bound(7, lbl_336, NPC_SUBUNIT_F1, 2, 2, 24, 12, 0x00, 0x00)
+on.bound(7, lbl_336, NPC_SUBUNIT_F1, 2, 2, 24, 12)
 break
 
 # Turn-Triggered Events
-on.turn(4, lbl_2a9, ALLY, 5, 0x00)
-on.turn(5, lbl_2bb, ENEMY, 5, 0x00)
-on.turn(2, lbl_2f6, ENEMY, 0, 0x00)
-on.turn(0, lbl_2ff, ENEMY, 0, 0x00)
-on.turn(1, lbl_331, ALLY, 0, 0x00)
+on.turn(4, lbl_2a9, ALLY, 5)
+on.turn(5, lbl_2bb, ENEMY, 5)
+on.turn(2, lbl_2f6, ENEMY, 0)
+on.turn(0, lbl_2ff, ENEMY, 0)
+on.turn(1, lbl_331, ALLY, 0)
 break
 
 # Core Events

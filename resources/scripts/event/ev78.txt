@@ -2,12 +2,12 @@
 break
 
 # Attack-Triggered Events
-on.attack(17, lbl_454, NULL_FF, CHERIE_04, 0xff, 0x00, 0xff)
-on.attack(23, lbl_498, ANIKI_70, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(26, lbl_4b0, ANIKI_72, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(29, lbl_4cb, NULL_FF, ANIKI_9C, 0xff, 0x00, 0xff)
-on.attack(34, lbl_4f6, ADON_2C, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(36, lbl_506, SAMPSON_2D, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(17, lbl_454, NULL_FF, CHERIE_04, 0xff, 0x00)
+on.attack(23, lbl_498, ANIKI_70, NULL_FF, 0x00, 0xff)
+on.attack(26, lbl_4b0, ANIKI_72, NULL_FF, 0x00, 0xff)
+on.attack(29, lbl_4cb, NULL_FF, ANIKI_9C, 0xff, 0x00)
+on.attack(34, lbl_4f6, ADON_2C, NULL_FF, 0x00, 0xff)
+on.attack(36, lbl_506, SAMPSON_2D, NULL_FF, 0x00, 0xff)
 break
 
 # Damage-Triggered Events
@@ -32,24 +32,24 @@ on.defeat(38, lbl_516, ANIKI_70, ANIKI_71, ANIKI_72, ANIKI_9C, ANIKI_9D, ANIKI_9
 break
 
 # Position-Triggered Events
-on.bound(8, lbl_384, NPC_SUBUNIT_F1, 1, 1, 30, 11, 0x00, 0x00)
-on.bound(10, lbl_393, NPC_COMMANDER_F0, 9, 3, 9, 3, 0x00, 0x00)
-on.bound(11, lbl_3ad, NPC_COMMANDER_F0, 15, 6, 15, 6, 0x00, 0x00)
-on.bound(12, lbl_3c8, NPC_COMMANDER_F0, 16, 6, 16, 6, 0x00, 0x00)
-on.bound(13, lbl_3e3, NPC_COMMANDER_F0, 22, 3, 22, 3, 0x00, 0x00)
-on.bound(14, lbl_41a, NPC_COMMANDER_F0, 16, 10, 16, 10, 0x00, 0x00)
+on.bound(8, lbl_384, NPC_SUBUNIT_F1, 1, 1, 30, 11)
+on.bound(10, lbl_393, NPC_COMMANDER_F0, 9, 3, 9, 3)
+on.bound(11, lbl_3ad, NPC_COMMANDER_F0, 15, 6, 15, 6)
+on.bound(12, lbl_3c8, NPC_COMMANDER_F0, 16, 6, 16, 6)
+on.bound(13, lbl_3e3, NPC_COMMANDER_F0, 22, 3, 22, 3)
+on.bound(14, lbl_41a, NPC_COMMANDER_F0, 16, 10, 16, 10)
 break
 
 # Turn-Triggered Events
-on.turn(6, lbl_236, ENEMY, 1, 0x00)
-on.turn(7, lbl_248, ENEMY, 6, 0x00)
-on.turn(9, lbl_257, ENEMY, 5, 0x00)
-on.turn(5, lbl_287, ENEMY, 0, 0x00)
-on.turn(4, lbl_315, ENEMY, 0, 0x00)
-on.turn(3, lbl_328, ENEMY, 0, 0x00)
-on.turn(2, lbl_33b, ENEMY, 0, 0x00)
-on.turn(1, lbl_354, ENEMY, 0, 0x00)
-on.turn(0, lbl_371, ENEMY, 0, 0x00)
+on.turn(6, lbl_236, ENEMY, 1)
+on.turn(7, lbl_248, ENEMY, 6)
+on.turn(9, lbl_257, ENEMY, 5)
+on.turn(5, lbl_287, ENEMY, 0)
+on.turn(4, lbl_315, ENEMY, 0)
+on.turn(3, lbl_328, ENEMY, 0)
+on.turn(2, lbl_33b, ENEMY, 0)
+on.turn(1, lbl_354, ENEMY, 0)
+on.turn(0, lbl_371, ENEMY, 0)
 break
 
 # Core Events
@@ -345,7 +345,7 @@ lbl_3e3:
   unit.cleanup()
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 44)
 # The flat-looking sculpture before you begins to speak.\r\n"Do you know who I am? Do you dare to call my name?"\r\nWhat name will you call?\0
-  prompt.options(lbl_403, lbl_40f, 45, 46, 47, 0x00, 0xf4, 0x00, 0x00)
+  prompt.options(lbl_403, lbl_40f, 45, 46, 47, 0xf4)
 # God\0
 # Uminin\0
 # Umineko\0

@@ -1,24 +1,24 @@
 # Movement-Triggered Events
-on.move(3, lbl_478, AARON_D0, 0, 0xff)
-on.move(31, lbl_4d3, CHERIE_CC, 1, 0xff)
-on.move(4, lbl_51f, LESTER_D1, 0, 0xff)
-on.move(36, lbl_55f, COMMANDER_88, 1, 0xff)
-on.move(5, lbl_5ae, LEDIN_95, 0, 0xff)
+on.move(3, lbl_478, AARON_D0, 0)
+on.move(31, lbl_4d3, CHERIE_CC, 1)
+on.move(4, lbl_51f, LESTER_D1, 0)
+on.move(36, lbl_55f, COMMANDER_88, 1)
+on.move(5, lbl_5ae, LEDIN_95, 0)
 break
 
 # Attack-Triggered Events
-on.attack(12, lbl_3ea, ERWIN_01, LEDIN_95, 0x00, 0x00, 0xff)
-on.attack(6, lbl_3f8, ERWIN_01, LUSHIRIS_94, 0x00, 0x00, 0xff)
-on.attack(13, lbl_400, ERWIN_01, JESSICA_14, 0x00, 0x00, 0xff)
-on.attack(21, lbl_44e, LIANA_02, JESSICA_14, 0x00, 0x00, 0xff)
-on.attack(21, lbl_453, JESSICA_14, LIANA_02, 0x00, 0x00, 0xff)
-on.attack(23, lbl_46c, ERWIN_01, JESSICA_14, 0xff, 0x00, 0xff)
-on.attack(26, lbl_4ae, COMMANDER_83, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(28, lbl_4be, NULL_FF, COMMANDER_84, 0xff, 0x00, 0xff)
-on.attack(34, lbl_533, NULL_FF, LESTER_D1, 0xff, 0x00, 0xff)
-on.attack(37, lbl_567, COMMANDER_88, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(41, lbl_587, NULL_FF, LUSHIRIS_94, 0xff, 0x00, 0xff)
-on.attack(42, lbl_592, LUSHIRIS_94, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(12, lbl_3ea, ERWIN_01, LEDIN_95, 0x00, 0x00)
+on.attack(6, lbl_3f8, ERWIN_01, LUSHIRIS_94, 0x00, 0x00)
+on.attack(13, lbl_400, ERWIN_01, JESSICA_14, 0x00, 0x00)
+on.attack(21, lbl_44e, LIANA_02, JESSICA_14, 0x00, 0x00)
+on.attack(21, lbl_453, JESSICA_14, LIANA_02, 0x00, 0x00)
+on.attack(23, lbl_46c, ERWIN_01, JESSICA_14, 0xff, 0x00)
+on.attack(26, lbl_4ae, COMMANDER_83, NULL_FF, 0x00, 0xff)
+on.attack(28, lbl_4be, NULL_FF, COMMANDER_84, 0xff, 0x00)
+on.attack(34, lbl_533, NULL_FF, LESTER_D1, 0xff, 0x00)
+on.attack(37, lbl_567, COMMANDER_88, NULL_FF, 0x00, 0xff)
+on.attack(41, lbl_587, NULL_FF, LUSHIRIS_94, 0xff, 0x00)
+on.attack(42, lbl_592, LUSHIRIS_94, NULL_FF, 0x00, 0xff)
 break
 
 # Damage-Triggered Events
@@ -48,16 +48,16 @@ on.defeat(46, lbl_667, COMMANDER_23, COMMANDER_83, COMMANDER_84, COMMANDER_85, C
 break
 
 # Position-Triggered Events
-on.bound(10, lbl_394, NPC_COMMANDER_F0, 21, 26, 21, 26, 0x00, 0x00)
-on.bound(11, lbl_3d0, NPC_COMMANDER_F0, 15, 25, 15, 25, 0x00, 0x00)
+on.bound(10, lbl_394, NPC_COMMANDER_F0, 21, 26, 21, 26)
+on.bound(11, lbl_3d0, NPC_COMMANDER_F0, 15, 25, 15, 25)
 break
 
 # Turn-Triggered Events
-on.turn(0, lbl_2c6, ENEMY, 0, 0x00)
-on.turn(1, lbl_300, ALLY, 0, 0x00)
-on.turn(7, lbl_308, ENEMY, 1, 0x00)
-on.turn(2, lbl_328, ENEMY, 0, 0x00)
-on.turn(9, lbl_38e, ENEMY, 3, 0x00)
+on.turn(0, lbl_2c6, ENEMY, 0)
+on.turn(1, lbl_300, ALLY, 0)
+on.turn(7, lbl_308, ENEMY, 1)
+on.turn(2, lbl_328, ENEMY, 0)
+on.turn(9, lbl_38e, ENEMY, 3)
 break
 
 # Core Events
@@ -157,13 +157,13 @@ lbl_164:
   msg(CHERIE_CC, LIANA_02, CHERIE, FOLLOW, 15)
 # Liana! You're ... What's wrong?\0
   msg(JESSICA_14, LIANA_02, JESSICA, FOLLOW, 16)
-# No ...! I've seen that look before ... She is under Boser's control.\0
+# No ...! I've seen that look before ... She is under Böser's control.\0
   msg(LESTER_D1, LIANA_02, LESTER, FOLLOW, 17)
 # You say he's using her? God damn it ...!\0
   msg(CHERIE_CC, LIANA_02, CHERIE, FOLLOW, 18)
 # What are you saying? She is not herself?\0
   msg(SONYA_0C, CHERIE_CC, SONYA, FOLLOW, 19)
-# That's right ... Right now, she is nought but Boser's puppet.\r\nShe'll dispose of his enemies ... you.\0
+# That's right ... Right now, she is nought but Böser's puppet.\r\nShe'll dispose of his enemies ... you.\0
   msg(CHERIE_CC, SONYA_0C, CHERIE_ANGRY, FOLLOW, 20)
 # Th, that's horrible! I won't forgive him for that!\0
   unit.showsub(CHERIE_CC)
@@ -231,7 +231,7 @@ lbl_328:
   msg(JESSICA_14, DOWN_F5, JESSICA_SAD, FOLLOW, 33)
 # So, after everything ... It's come down to me.\0
   msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 34)
-# _NAME_, do you truly think Boser's legions are best for this world?\0
+# _NAME_, do you truly think Böser's legions are best for this world?\0
   msg(ERWIN_01, JESSICA_14, ERWIN, FOLLOW, 35)
 # I don't know ... and I'm not sure I care.\r\nThe important thing is this: we will not pander to weakness.\0
   msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 36)
@@ -276,7 +276,7 @@ lbl_394:
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 46)
 # Which name will you call?\0
   global.sum($0a478d, $07eb5d)
-  prompt.options(lbl_3bd, lbl_3c6, 47, 48, 49, 0x00, 0xf4, 0x00, 0x00)
+  prompt.options(lbl_3bd, lbl_3c6, 47, 48, 49, 0xf4)
 # Lushiris\0
 # Chaos\0
 # Odin\0
@@ -360,7 +360,7 @@ break
 
 lbl_446:
   msg(LANA_0A, DOWN_F5, DARKPRINCESS_DEAD, FOLLOW, 67)
-# Forgive me, Boser, for withdrawing at such a time.\0
+# Forgive me, Böser, for withdrawing at such a time.\0
 break
 
 lbl_44e:
@@ -648,7 +648,7 @@ lbl_688:
 lbl_692:
   branch.unit.dead(lbl_6a6, LANA_0A)
   msg(LANA_0A, ERWIN_01, DARKPRINCESS, FOLLOW, 131)
-# Hee hee! We've even defeated the goddess of light!\r\nLord Boser shall be very, very pleased!\0
+# Hee hee! We've even defeated the goddess of light!\r\nLord Böser shall be very, very pleased!\0
   branch.unit.dead(lbl_6a6, LIANA_02)
   msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 132)
 # That's right, my sister. He should free us from our duties as Sealing Maidens.\0
@@ -661,10 +661,10 @@ lbl_6a6:
 lbl_6b6:
   branch.unit.dead(lbl_6c0, LIANA_02)
   msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 135)
-# _NAME_, I will do anything for you and Master Boser.\0
+# _NAME_, I will do anything for you and Master Böser.\0
 lbl_6c0:
   msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 136)
-# First, we will return to Boser. Then, we will take the final steps to our goal.\0
+# First, we will return to Böser. Then, we will take the final steps to our goal.\0
   loadscenario(87)
 endsub
 
@@ -675,7 +675,7 @@ lbl_6c9:
 # You must come to your senses, Liana!\0
   branch.unit.dead(lbl_6df, SONYA_0C)
   msg(SONYA_0C, JESSICA_14, SONYA, NOFOLLOW, 139)
-# Don't make me laugh!\r\nYou think words can shake her loyalty to Master Boser?\0
+# Don't make me laugh!\r\nYou think words can shake her loyalty to Master Böser?\0
 lbl_6df:
 endsub
 

@@ -1,20 +1,20 @@
 # Movement-Triggered Events
-on.move(16, lbl_47c, JESSICA_14, 1, 0xff)
-on.move(17, lbl_4b9, JESSICA_14, 2, 0xff)
-on.move(21, lbl_4fd, EGBERT_D8, 1, 0xff)
-on.move(22, lbl_502, EGBERT_D8, 2, 0xff)
-on.move(25, lbl_54d, CAMILLA_A1, 1, 0xff)
-on.move(29, lbl_612, IMPERIALCOMMANDER_31, 1, 0xff)
-on.move(31, lbl_62e, IMPERIALCOMMANDER_32, 0, 0xff)
-on.move(36, lbl_670, ZORUM_1A, 0, 0xff)
-on.move(40, lbl_6c7, VARGAS_D6, 0, 0xff)
-on.move(4, lbl_6cf, VARGAS_D6, 0, 0xff)
+on.move(16, lbl_47c, JESSICA_14, 1)
+on.move(17, lbl_4b9, JESSICA_14, 2)
+on.move(21, lbl_4fd, EGBERT_D8, 1)
+on.move(22, lbl_502, EGBERT_D8, 2)
+on.move(25, lbl_54d, CAMILLA_A1, 1)
+on.move(29, lbl_612, IMPERIALCOMMANDER_31, 1)
+on.move(31, lbl_62e, IMPERIALCOMMANDER_32, 0)
+on.move(36, lbl_670, ZORUM_1A, 0)
+on.move(40, lbl_6c7, VARGAS_D6, 0)
+on.move(4, lbl_6cf, VARGAS_D6, 0)
 break
 
 # Attack-Triggered Events
-on.attack(19, lbl_4db, LIANA_02, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(23, lbl_519, NULL_FF, EGBERT_D8, 0xff, 0x00, 0xff)
-on.attack(37, lbl_688, ZORUM_1A, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(19, lbl_4db, LIANA_02, NULL_FF, 0x00, 0xff)
+on.attack(23, lbl_519, NULL_FF, EGBERT_D8, 0xff, 0x00)
+on.attack(37, lbl_688, ZORUM_1A, NULL_FF, 0x00, 0xff)
 break
 
 # Damage-Triggered Events
@@ -41,20 +41,20 @@ on.damage(39, lbl_7b8, NULL_FF, ZORUM_1A, 0xff, 0x00)
 break
 
 # Position-Triggered Events
-on.bound(7, lbl_42e, NPC_COMMANDER_F0, 17, 9, 17, 9, 0x00, 0x00)
-on.bound(8, lbl_440, NPC_SUBUNIT_F1, 1, 26, 23, 42, 0x00, 0x00)
-on.bound(9, lbl_445, VARGAS_D6, 13, 38, 15, 40, 0x00, 0x00)
+on.bound(7, lbl_42e, NPC_COMMANDER_F0, 17, 9, 17, 9)
+on.bound(8, lbl_440, NPC_SUBUNIT_F1, 1, 26, 23, 42)
+on.bound(9, lbl_445, VARGAS_D6, 13, 38, 15, 40)
 break
 
 # Turn-Triggered Events
-on.turn(5, lbl_3cc, ENEMY, 2, 0x00)
-on.turn(6, lbl_3ec, ALLY, 2, 0x00)
-on.turn(0, lbl_3f1, ALLY, 0, 0x00)
-on.turn(1, lbl_3fa, ENEMY, 0, 0x00)
-on.turn(2, lbl_403, ENEMY, 0, 0x00)
-on.turn(42, lbl_74f, ALLY, 2, 0x00)
-on.turn(43, lbl_771, ALLY, 18, 0x00)
-on.turn(44, lbl_777, ALLY, 3, 0x00)
+on.turn(5, lbl_3cc, ENEMY, 2)
+on.turn(6, lbl_3ec, ALLY, 2)
+on.turn(0, lbl_3f1, ALLY, 0)
+on.turn(1, lbl_3fa, ENEMY, 0)
+on.turn(2, lbl_403, ENEMY, 0)
+on.turn(42, lbl_74f, ALLY, 2)
+on.turn(43, lbl_771, ALLY, 18)
+on.turn(44, lbl_777, ALLY, 3)
 break
 
 # Core Events

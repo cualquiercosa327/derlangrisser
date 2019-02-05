@@ -38,7 +38,7 @@ lbl_18:
   screen.mask(10, 10, 10)
   fillmsg(39)
 # \0
-# {font5}Original {font5}Japanese {font5}Credits\0
+# Original Japanese Credits\0
 # \0
 # -- Executive Producer --\0
 # Mitsuo Shibutani\0
@@ -475,7 +475,7 @@ lbl_18:
   screen.mask(10, 10, 10)
   fillmsg(111)
 # \0
-# {font5}English {font5}Translation {font5}Credits\0
+# English Translation Credits\0
 # \0
 # -- Programming --\0
 # byuu\0
@@ -578,7 +578,7 @@ lbl_18:
 # \0
 # \0
 # Der Langrisser\0
-# {font5}The {font5}Art of {font5}Swords {font5}War\0
+# The Art of Swords War\0
 # \0
 # Completed in _NUM_ turns\0
   screen.fadein(4)

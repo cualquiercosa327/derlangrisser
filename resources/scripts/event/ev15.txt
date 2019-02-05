@@ -1,19 +1,19 @@
 # Movement-Triggered Events
-on.move(0, lbl_42f, KRAMER_1D, 0, 0xff)
-on.move(1, lbl_46c, KRAMER_1D, 0, 0xff)
-on.move(2, lbl_5a6, IMPERIALCOMMANDER_31, 0, 0xff)
+on.move(0, lbl_42f, KRAMER_1D, 0)
+on.move(1, lbl_46c, KRAMER_1D, 0)
+on.move(2, lbl_5a6, IMPERIALCOMMANDER_31, 0)
 break
 
 # Attack-Triggered Events
-on.attack(17, lbl_3d2, ERWIN_01, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(19, lbl_3e4, HEIN_05, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(21, lbl_3f4, CHERIE_04, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(25, lbl_40f, KEITH_07, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(27, lbl_41f, LESTER_09, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(30, lbl_481, KRAMER_1D, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(30, lbl_486, NULL_FF, KRAMER_1D, 0xff, 0x00, 0xff)
-on.attack(32, lbl_58b, IMPERIALCOMMANDER_2F, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(38, lbl_5be, IMPERIALCOMMANDER_33, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(17, lbl_3d2, ERWIN_01, NULL_FF, 0x00, 0xff)
+on.attack(19, lbl_3e4, HEIN_05, NULL_FF, 0x00, 0xff)
+on.attack(21, lbl_3f4, CHERIE_04, NULL_FF, 0x00, 0xff)
+on.attack(25, lbl_40f, KEITH_07, NULL_FF, 0x00, 0xff)
+on.attack(27, lbl_41f, LESTER_09, NULL_FF, 0x00, 0xff)
+on.attack(30, lbl_481, KRAMER_1D, NULL_FF, 0x00, 0xff)
+on.attack(30, lbl_486, NULL_FF, KRAMER_1D, 0xff, 0x00)
+on.attack(32, lbl_58b, IMPERIALCOMMANDER_2F, NULL_FF, 0x00, 0xff)
+on.attack(38, lbl_5be, IMPERIALCOMMANDER_33, NULL_FF, 0x00, 0xff)
 break
 
 # Damage-Triggered Events
@@ -40,23 +40,23 @@ on.damage(35, lbl_609, NULL_FF, IMPERIALCOMMANDER_30, 0xff, 0x00)
 break
 
 # Position-Triggered Events
-on.bound(13, lbl_37b, NPC_COMMANDER_F0, 34, 8, 43, 16, 0x00, 0x00)
-on.bound(14, lbl_384, NPC_COMMANDER_F0, 22, 1, 38, 24, 0x00, 0x00)
-on.bound(15, lbl_389, ERWIN_01, 33, 17, 33, 17, 0x00, 0x00)
-on.bound(16, lbl_395, NPC_COMMANDER_F0, 37, 2, 37, 2, 0x00, 0x00)
+on.bound(13, lbl_37b, NPC_COMMANDER_F0, 34, 8, 43, 16)
+on.bound(14, lbl_384, NPC_COMMANDER_F0, 22, 1, 38, 24)
+on.bound(15, lbl_389, ERWIN_01, 33, 17, 33, 17)
+on.bound(16, lbl_395, NPC_COMMANDER_F0, 37, 2, 37, 2)
 break
 
 # Turn-Triggered Events
-on.turn(3, lbl_261, ALLY, 2, 0x00)
-on.turn(4, lbl_2a5, ENEMY, 1, 0x00)
-on.turn(5, lbl_2b7, ENEMY, 5, 0x00)
-on.turn(6, lbl_2d5, ENEMY, 8, 0x00)
-on.turn(7, lbl_2ef, ENEMY, 13, 0x00)
-on.turn(8, lbl_2fd, ENEMY, 15, 0x00)
-on.turn(9, lbl_30b, ALLY, 15, 0x00)
-on.turn(10, lbl_31d, ALLY, 17, 0x00)
-on.turn(11, lbl_342, ENEMY, 18, 0x00)
-on.turn(12, lbl_365, ALLY, 3, 0x00)
+on.turn(3, lbl_261, ALLY, 2)
+on.turn(4, lbl_2a5, ENEMY, 1)
+on.turn(5, lbl_2b7, ENEMY, 5)
+on.turn(6, lbl_2d5, ENEMY, 8)
+on.turn(7, lbl_2ef, ENEMY, 13)
+on.turn(8, lbl_2fd, ENEMY, 15)
+on.turn(9, lbl_30b, ALLY, 15)
+on.turn(10, lbl_31d, ALLY, 17)
+on.turn(11, lbl_342, ENEMY, 18)
+on.turn(12, lbl_365, ALLY, 3)
 break
 
 # Core Events
@@ -131,7 +131,7 @@ lbl_15a:
   msg(HEIN_05, KRAMER_1D, HEIN, FOLLOW, 4)
 # Oh no ...! Imperial soldiers!\0
   msg(KRAMER_1D, LEFT_F6, KNIGHT2_GREEN, FOLLOW, 5)
-# Curses! You're earlier than I thought!\r\nI, Kramer of the Water Dragon Navy, shall let you proceed no further!\0
+# Curses! You're earlier than I thought!\r\nI, Krämer of the Water Dragon Navy, shall let you proceed no further!\0
   unit.showsub(KRAMER_1D)
   msg(CHERIE_04, RIGHT_F7, CHERIE, FOLLOW, 6)
 # The Imperial forces have made it this far ahead ... Impressive ...\0
@@ -214,7 +214,7 @@ break
 
 lbl_2ef:
   msg(SOLDIER_20, LEFT_F6, SOLDIER1_GREEN, NOFOLLOW, 31)
-# Lord Kramer, we're almost done.\0
+# Lord Krämer, we're almost done.\0
   msg(KRAMER_1D, LEFT_F6, KNIGHT2_GREEN, FOLLOW, 32)
 # Do it quicker! The enemy is stronger than I anticipated.\0
 break
@@ -300,7 +300,7 @@ lbl_395:
   unit.cleanup()
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 50)
 # You notice a small sapling within a group of four trees.\r\nHidden beneath the sapling you spot a little sprite ...\r\nWhat will you do to it?\0
-  prompt.options(lbl_3be, lbl_3c7, 51, 52, 53, 0x00, 0xf4, 0x00, 0x00)
+  prompt.options(lbl_3be, lbl_3c7, 51, 52, 53, 0xf4)
 # Smile at it\0
 # Scare it\0
 # Don't say anything\0
@@ -532,7 +532,7 @@ break
 
 lbl_59b:
   msg(IMPERIALCOMMANDER_30, DOWN_F5, KNIGHT1_GREEN_DEAD, FOLLOW, 101)
-# L, Lord Kramer ...\0
+# L, Lord Krämer ...\0
   local.sum($0a47d4, $07eb5b)
 break
 

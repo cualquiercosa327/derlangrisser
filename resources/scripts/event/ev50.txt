@@ -1,24 +1,24 @@
 # Movement-Triggered Events
-on.move(23, lbl_36d, VILLAGER_25, 1, 0xff)
-on.move(0, lbl_39f, VILLAGER_25, 0, 0xff)
-on.move(1, lbl_3bb, VILLAGER_26, 0, 0xff)
-on.move(30, lbl_496, COMMANDER_22, 1, 0xff)
-on.move(35, lbl_4c4, COMMANDER_83, 1, 0xff)
-on.move(40, lbl_4f2, COMMANDER_86, 1, 0xff)
-on.move(43, lbl_510, COMMANDER_8A, 2, 0xff)
+on.move(23, lbl_36d, VILLAGER_25, 1)
+on.move(0, lbl_39f, VILLAGER_25, 0)
+on.move(1, lbl_3bb, VILLAGER_26, 0)
+on.move(30, lbl_496, COMMANDER_22, 1)
+on.move(35, lbl_4c4, COMMANDER_83, 1)
+on.move(40, lbl_4f2, COMMANDER_86, 1)
+on.move(43, lbl_510, COMMANDER_8A, 2)
 break
 
 # Attack-Triggered Events
-on.attack(10, lbl_307, ERWIN_01, AARON_D0, 0x00, 0x00, 0xff)
-on.attack(12, lbl_31f, HEIN_05, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(20, lbl_355, EGBERT_10, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(21, lbl_35d, NULL_FF, EGBERT_10, 0xff, 0x00, 0xff)
-on.attack(27, lbl_3d7, AARON_D0, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(28, lbl_3df, NULL_FF, AARON_D0, 0xff, 0x00, 0xff)
-on.attack(31, lbl_4a4, COMMANDER_22, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(33, lbl_4b4, COMMANDER_23, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(36, lbl_4d2, COMMANDER_83, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(44, lbl_51e, COMMANDER_8A, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(10, lbl_307, ERWIN_01, AARON_D0, 0x00, 0x00)
+on.attack(12, lbl_31f, HEIN_05, NULL_FF, 0x00, 0xff)
+on.attack(20, lbl_355, EGBERT_10, NULL_FF, 0x00, 0xff)
+on.attack(21, lbl_35d, NULL_FF, EGBERT_10, 0xff, 0x00)
+on.attack(27, lbl_3d7, AARON_D0, NULL_FF, 0x00, 0xff)
+on.attack(28, lbl_3df, NULL_FF, AARON_D0, 0xff, 0x00)
+on.attack(31, lbl_4a4, COMMANDER_22, NULL_FF, 0x00, 0xff)
+on.attack(33, lbl_4b4, COMMANDER_23, NULL_FF, 0x00, 0xff)
+on.attack(36, lbl_4d2, COMMANDER_83, NULL_FF, 0x00, 0xff)
+on.attack(44, lbl_51e, COMMANDER_8A, NULL_FF, 0x00, 0xff)
 break
 
 # Damage-Triggered Events
@@ -48,17 +48,17 @@ on.defeat(48, lbl_560, COMMANDER_22, COMMANDER_23, COMMANDER_83, COMMANDER_84, C
 break
 
 # Position-Triggered Events
-on.bound(7, lbl_2c1, VILLAGER_25, 18, 1, 21, 2, 0x00, 0x00)
-on.bound(8, lbl_2c6, VILLAGER_26, 18, 1, 21, 2, 0x00, 0x00)
-on.bound(9, lbl_2cb, NPC_COMMANDER_F0, 6, 3, 6, 3, 0x00, 0x00)
+on.bound(7, lbl_2c1, VILLAGER_25, 18, 1, 21, 2)
+on.bound(8, lbl_2c6, VILLAGER_26, 18, 1, 21, 2)
+on.bound(9, lbl_2cb, NPC_COMMANDER_F0, 6, 3, 6, 3)
 break
 
 # Turn-Triggered Events
-on.turn(3, lbl_235, ENEMY, 1, 0x00)
-on.turn(2, lbl_255, ALLY, 0, 0x00)
-on.turn(4, lbl_287, ENEMY, 3, 0x00)
-on.turn(5, lbl_2a1, ENEMY, 4, 0x00)
-on.turn(6, lbl_2b3, ENEMY, 5, 0x00)
+on.turn(3, lbl_235, ENEMY, 1)
+on.turn(2, lbl_255, ALLY, 0)
+on.turn(4, lbl_287, ENEMY, 3)
+on.turn(5, lbl_2a1, ENEMY, 4)
+on.turn(6, lbl_2b3, ENEMY, 5)
 break
 
 # Core Events
@@ -202,7 +202,7 @@ lbl_2cb:
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 24)
 # You spot a water fowl perched atop a nearby small post.\r\nThe bird is holding a small, glittering stone in its beak.\r\nWhat will you do?\0
   global.sum($0a478e, $07eb5f)
-  prompt.options(lbl_2ee, lbl_2ff, 25, 26, 27, 0x00, 0xf4, 0x00, 0x00)
+  prompt.options(lbl_2ee, lbl_2ff, 25, 26, 27, 0xf4)
 # Startle it\0
 # Reach out\0
 # Ignore it\0

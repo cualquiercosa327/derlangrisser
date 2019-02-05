@@ -111,7 +111,7 @@ lbl_16f:
   unit.cleanup()
   msg(UKI_A3, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 12)
 # Hey hey! Here's a question!\r\nWhat is my name?\0
-  prompt.options(lbl_192, lbl_198, 13, 14, 15, 0x00, 0xf6, 0x00, 0x00)
+  prompt.options(lbl_192, lbl_198, 13, 14, 15, 0xf6)
 # Uki\0
 # Ukiiki\0
 # Ukie\0
@@ -138,7 +138,7 @@ lbl_1a8:
   unit.cleanup()
   msg(AKITAHN_A4, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 18)
 # Neeext questiooon!\r\nWho am I?\0
-  prompt.options(lbl_1cb, lbl_1d6, 19, 20, 21, 0x00, 0xf6, 0x00, 0x00)
+  prompt.options(lbl_1cb, lbl_1d6, 19, 20, 21, 0xf6)
 # Akitahn\0
 # Arkitan\0
 # Akikan\0
@@ -182,7 +182,7 @@ lbl_202:
   unit.cleanup()
   msg(IMPERIALCOMMANDER_32, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 28)
 # All righty then, queeestion tiiime!\r\nWhich of the cavalrymen on this stage is heavily armed?\0
-  prompt.options(lbl_225, lbl_230, 29, 30, 31, 0x00, 0xf6, 0x00, 0x00)
+  prompt.options(lbl_225, lbl_230, 29, 30, 31, 0xf6)
 # That one over there!\0
 # Valken\0
 # Valqueso\0
@@ -213,7 +213,7 @@ lbl_245:
   unit.cleanup()
   msg(IMPERIALCOMMANDER_33, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 36)
 # Here's a question!\r\nWhat does it mean to be a true "Aniki"?\0
-  prompt.options(lbl_268, lbl_278, 37, 38, 39, 0x00, 0xf6, 0x00, 0x00)
+  prompt.options(lbl_268, lbl_278, 37, 38, 39, 0xf6)
 # Protein\0
 # Body building\0
 # Posing\0
@@ -248,7 +248,7 @@ lbl_292:
 # Here's a question!\r\nIt's a music question. Name this tune!\0
   bgm(ALLY, ANIKI)
   bgm(ENEMY, ANIKI)
-  prompt.options(lbl_2b6, lbl_2c2, 45, 46, 47, 0x00, 0xf6, 0x00, 0x00)
+  prompt.options(lbl_2b6, lbl_2c2, 45, 46, 47, 0xf6)
 # "Requiem"\0
 # "Aniki"\0
 # "Iron Body Bash"\0
@@ -278,7 +278,7 @@ lbl_2d7:
   unit.cleanup()
   msg(IMPERIALCOMMANDER_35, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 52)
 # Well then, another question!\r\nWhere's Masaya's main office located?\0
-  prompt.options(lbl_2f5, lbl_305, 53, 54, 55, 0x00, 0xf6, 0x00, 0x00)
+  prompt.options(lbl_2f5, lbl_305, 53, 54, 55, 0xf6)
 # Nakameguro\0
 # Nishishinjuku\0
 # Higashishinshuku\0
@@ -309,7 +309,7 @@ lbl_31a:
   unit.cleanup()
   msg(IMPERIALCOMMANDER_36, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 60)
 # Here's a question!\r\nWho is the bearded man in the Super Famicom game "Hashiriya Damashii"?\0
-  prompt.options(lbl_338, lbl_348, 61, 62, 63, 0x00, 0xf6, 0x00, 0x00)
+  prompt.options(lbl_338, lbl_348, 61, 62, 63, 0xf6)
 # Adon\0
 # Varan\0
 # Sampson\0
@@ -340,7 +340,7 @@ lbl_35d:
   unit.cleanup()
   msg(IMPERIALCOMMANDER_37, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 68)
 # Question!\r\nWhat is this game's TV catchphrase?\0
-  prompt.options(lbl_37b, lbl_38b, 69, 70, 71, 0x00, 0xf6, 0x00, 0x00)
+  prompt.options(lbl_37b, lbl_38b, 69, 70, 71, 0xf6)
 # "This time on SFC"\0
 # "Real anime, no SD-gimps!"\0
 # "Explode on SFC"\0
@@ -371,7 +371,7 @@ lbl_3a0:
   unit.cleanup()
   msg(IMPERIALCOMMANDER_38, DOWN_F5, KNIGHT2_GREEN, FOLLOW, 76)
 # Question!\r\nWhich floor in the KF Building is Masaya on?\0
-  prompt.options(lbl_3be, lbl_3c9, 77, 78, 79, 0x00, 0xf6, 0x00, 0x00)
+  prompt.options(lbl_3be, lbl_3c9, 77, 78, 79, 0xf6)
 # Second Floor\0
 # Third Floor\0
 # Fourth Floor\0

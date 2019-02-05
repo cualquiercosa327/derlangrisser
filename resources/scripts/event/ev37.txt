@@ -1,14 +1,14 @@
 # Movement-Triggered Events
-on.move(22, lbl_3ff, BOSER_17, 2, 0xff)
-on.move(3, lbl_496, EGBERT_D8, 0, 0xff)
-on.move(33, lbl_4be, BERNHARDT_16, 0, 0xff)
+on.move(22, lbl_3ff, BOSER_17, 2)
+on.move(3, lbl_496, EGBERT_D8, 0)
+on.move(33, lbl_4be, BERNHARDT_16, 0)
 break
 
 # Attack-Triggered Events
-on.attack(25, lbl_467, NULL_FF, IMPERIALCOMMANDER_30, 0xff, 0x00, 0xff)
-on.attack(31, lbl_49b, EGBERT_D8, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(34, lbl_4d8, BERNHARDT_16, BOSER_17, 0x00, 0x00, 0xff)
-on.attack(35, lbl_4e0, NULL_FF, BERNHARDT_16, 0xff, 0x00, 0xff)
+on.attack(25, lbl_467, NULL_FF, IMPERIALCOMMANDER_30, 0xff, 0x00)
+on.attack(31, lbl_49b, EGBERT_D8, NULL_FF, 0x00, 0xff)
+on.attack(34, lbl_4d8, BERNHARDT_16, BOSER_17, 0x00, 0x00)
+on.attack(35, lbl_4e0, NULL_FF, BERNHARDT_16, 0xff, 0x00)
 break
 
 # Damage-Triggered Events
@@ -35,20 +35,20 @@ on.defeat(39, lbl_509, MASTERDINO_55, MASTERDINO_56)
 break
 
 # Position-Triggered Events
-on.range(7, lbl_2dc, BERNHARDT_16, JESSICA_14, 2, 0x00, 0x00, 0x00, 0x00)
-on.bound(8, lbl_2e7, NPC_SUBUNIT_F1, 1, 1, 35, 25, 0x00, 0x00)
-on.bound(9, lbl_354, NPC_COMMANDER_F0, 15, 9, 15, 9, 0x00, 0x00)
-on.bound(10, lbl_36e, NPC_COMMANDER_F0, 21, 9, 21, 9, 0x00, 0x00)
-on.range(11, lbl_38e, BOSER_17, BERNHARDT_16, 3, 0x00, 0x00, 0x00, 0x00)
+on.range(7, lbl_2dc, BERNHARDT_16, JESSICA_14, 2)
+on.bound(8, lbl_2e7, NPC_SUBUNIT_F1, 1, 1, 35, 25)
+on.bound(9, lbl_354, NPC_COMMANDER_F0, 15, 9, 15, 9)
+on.bound(10, lbl_36e, NPC_COMMANDER_F0, 21, 9, 21, 9)
+on.range(11, lbl_38e, BOSER_17, BERNHARDT_16, 3)
 break
 
 # Turn-Triggered Events
-on.turn(4, lbl_21b, ENEMY, 1, 0x00)
-on.turn(0, lbl_233, ENEMY, 0, 0x00)
-on.turn(1, lbl_24c, ALLY, 0, 0x00)
-on.turn(5, lbl_29d, ALLY, 3, 0x00)
-on.turn(2, lbl_2b9, ENEMY, 0, 0x00)
-on.turn(6, lbl_2d5, ALLY, 1, 0x00)
+on.turn(4, lbl_21b, ENEMY, 1)
+on.turn(0, lbl_233, ENEMY, 0)
+on.turn(1, lbl_24c, ALLY, 0)
+on.turn(5, lbl_29d, ALLY, 3)
+on.turn(2, lbl_2b9, ENEMY, 0)
+on.turn(6, lbl_2d5, ALLY, 1)
 break
 
 # Core Events
@@ -121,7 +121,7 @@ lbl_118:
   msg(HEIN_05, BOSER_17, HEIN, NOFOLLOW, 11)
 # What ...!?\0
   msg(CHERIE_04, BOSER_17, CHERIE, FOLLOW, 12)
-# Liana and ... the Dark Princess, Lana!?\0
+# Liana and ... the Dark Princess, Lána!?\0
   msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 13)
 # It seems they're the Maidens of Light and Darkness ...\0
   msg(AARON_08, JESSICA_14, AARON, FOLLOW, 14)
@@ -133,7 +133,7 @@ lbl_118:
   msg(LESTER_09, ERWIN_01, LESTER, FOLLOW, 17)
 # Oh no ...! If we don't hurry, they'll finish the ritual!\0
   msg(ERWIN_01, LESTER_09, ERWIN, FOLLOW, 18)
-# Yeah, you're right.\r\nBefore Alhazard is revived, we must defeat Boser.\r\nFight on, everyone!\0
+# Yeah, you're right.\r\nBefore Alhazard is revived, we must defeat Böser.\r\nFight on, everyone!\0
   local.sum($0a47d0, $07eb58)
   local.sum($0a47d0, $07eb59)
   local.sum($0a47d0, $07eb5a)
@@ -211,7 +211,7 @@ lbl_2b9:
   msg(EGBERT_D8, JESSICA_14, EGBERT, FOLLOW, 35)
 # Heh heh heh ... With this, my objective will be complete.\0
   msg(JESSICA_14, EGBERT_D8, JESSICA, FOLLOW, 36)
-# But ... Why, why are you doing this!?\r\nBoser's death makes no difference! You will merely take his place like that last man ...\r\nDon't you see? He was once just as you are ...\0
+# But ... Why, why are you doing this!?\r\nBöser's death makes no difference! You will merely take his place like that last man ...\r\nDon't you see? He was once just as you are ...\0
   msg(BERNHARDT_16, JESSICA_14, BERNHARDT, FOLLOW, 37)
 # Enough of your babble.\r\nI will resurrect Alhazard, and I will have the strength to wield it.\r\nIt will yield to me!\0
 lbl_2d3:
@@ -232,7 +232,7 @@ lbl_2e7:
   unit.cleanup()
   bgm(ALLY, CAVE)
   msg(ERWIN_01, BOSER_17, ERWIN_ANGRY, FOLLOW, 39)
-# Boser! There's nowhere left for you to run!\r\nHell has a special place for you!\0
+# Böser! There's nowhere left for you to run!\r\nHell has a special place for you!\0
   msg(BOSER_17, DOWN_F5, BOSER, FOLLOW, 40)
 # Hmph, no, I'm afraid not.\r\nIt seems you're too late. How pitiful.\0
   delay(20)
@@ -371,7 +371,7 @@ lbl_40b:
 # Yes, ... I suppose I am fairly exhausted ...\r\nCough ... Fine, ... I'll lend you the sword for now.\r\nDo with it whatever you please ... Hah hah hah ...\0
   unit.cleanup()
   msg(DARKPRINCESS_15, BOSER_17, DARKPRINCESS, FOLLOW, 69)
-# Prince Boser! U, ugh--!\0
+# Prince Böser! U, ugh--!\0
   msg(BERNHARDT_16, BOSER_17, BERNHARDT, FOLLOW, 70)
 # Hmph ... So this is Alhazard ... Finally in my grasp!\0
   unit.setbyte(BERNHARDT_16, $09, 0x12)
@@ -386,16 +386,16 @@ lbl_433:
 lbl_439:
   branch.mem.local.ne(lbl_446, $0a47d3, $07eb58)
   msg(JESSICA_14, BERNHARDT_16, JESSICA, FOLLOW, 73)
-# Egbert's been planning this for a while, it seems.\r\nHe's always used Boser, but now he's betrayed him outright.\r\nWith Alhazard's revival, Egbert was able to summon the Kaiser ...\r\nAnd with Boser weak from the ceremony, Bernhardt was able to overpower him.\r\nNow, Bernhardt controls the unsealed Alhazard. Truly ... an astonishingly well-executed operation.\0
+# Egbert's been planning this for a while, it seems.\r\nHe's always used Böser, but now he's betrayed him outright.\r\nWith Alhazard's revival, Egbert was able to summon the Kaiser ...\r\nAnd with Böser weak from the ceremony, Bernhardt was able to overpower him.\r\nNow, Bernhardt controls the unsealed Alhazard. Truly ... an astonishingly well-executed operation.\0
   goto(lbl_44c)
 lbl_446:
   msg(JESSICA_14, RIGHT_F7, JESSICA, FOLLOW, 74)
-# Egbert's been planning this for a while, it seems.\r\nHe's always used Boser, but now he's betrayed him outright.\r\nWith Alhazard's revival, Egbert was able to summon the Kaiser ...\r\nAnd with Boser weak from the ceremony, they thought they could overpower him.\r\nA well-thought plan, if I do say so myself.\0
+# Egbert's been planning this for a while, it seems.\r\nHe's always used Böser, but now he's betrayed him outright.\r\nWith Alhazard's revival, Egbert was able to summon the Kaiser ...\r\nAnd with Böser weak from the ceremony, they thought they could overpower him.\r\nA well-thought plan, if I do say so myself.\0
 lbl_44c:
   goto(lbl_455)
 lbl_44f:
   msg(ERWIN_01, BERNHARDT_16, ERWIN, FOLLOW, 75)
-# Egbert's been planning this for a while, it seems.\r\nHe's always used Boser, but now he's betrayed him outright.\r\nWith Alhazard's revival, Egbert was able to summon the Kaiser ...\r\nAnd with Boser weak from the ceremony, they thought they could overpower him.\r\nA well-thought plan, if I do say so myself.\0
+# Egbert's been planning this for a while, it seems.\r\nHe's always used Böser, but now he's betrayed him outright.\r\nWith Alhazard's revival, Egbert was able to summon the Kaiser ...\r\nAnd with Böser weak from the ceremony, they thought they could overpower him.\r\nA well-thought plan, if I do say so myself.\0
 lbl_455:
   msg(BERNHARDT_16, DOWN_F5, BERNHARDT, FOLLOW, 76)
 # Heh ...\r\nHowever, it seems we're not yet finished. For you see, you're still alive ...\0
@@ -453,7 +453,7 @@ break
 
 lbl_4be:
   msg(BERNHARDT_16, BOSER_17, BERNHARDT, FOLLOW, 86)
-# Now, Boser-- hand over Alhazard!\0
+# Now, Böser-- hand over Alhazard!\0
   msg(BOSER_17, BERNHARDT_16, BOSER, FOLLOW, 87)
 # Nonsense! To relinquish it to a mere child ...\0
   msg(BERNHARDT_16, BOSER_17, BERNHARDT, FOLLOW, 88)
@@ -463,7 +463,7 @@ break
 
 lbl_4d8:
   msg(BERNHARDT_16, BOSER_17, BERNHARDT, NOFOLLOW, 89)
-# It's over for you, Boser!\0
+# It's over for you, Böser!\0
 break
 
 lbl_4e0:
@@ -508,9 +508,9 @@ lbl_50b:
   msg(BOSER_17, BERNHARDT_16, BOSER, FOLLOW, 99)
 # Hah ... You, you're still alive?\0
   msg(EGBERT_D8, BOSER_17, EGBERT, FOLLOW, 100)
-# Heh heh heh ... It seems you've met my doppelganger.\r\nQuite a spell.\0
+# Heh heh heh ... It seems you've met my doppelgänger.\r\nQuite a spell.\0
   msg(BERNHARDT_16, BOSER_17, BERNHARDT, FOLLOW, 101)
-# Boser ...\r\nYou were trying to use me, but I'm afraid the tables have been turned all along.\0
+# Böser ...\r\nYou were trying to use me, but I'm afraid the tables have been turned all along.\0
   msg(BOSER_17, BERNHARDT_16, BOSER, FOLLOW, 102)
 # Hah ... hah hah!\r\nI wondered why you Imperial scum buckets were so eager to join me.\r\nWhat amusing fools ... to have planned a trespass from the very start ...\r\nBut, in the end, your ploy was quite moronic.\r\nDo you see this sword in my hand? I'm about to rend you a new asshole with it!\0
   msg(BERNHARDT_16, BOSER_17, BERNHARDT, FOLLOW, 103)
@@ -528,7 +528,7 @@ lbl_50b:
   branch.mem.local.ne(lbl_579, $0a47d4, $07eb5f)
   branch.unit.dead(lbl_576, EGBERT_D8)
   msg(EGBERT_D8, LEFT_F6, EGBERT, FOLLOW, 104)
-# Men of the Empire, as of now, you will no longer pay heed to these drooling monsters.\r\nKill Boser, and kill all he commands ...\0
+# Men of the Empire, as of now, you will no longer pay heed to these drooling monsters.\r\nKill Böser, and kill all he commands ...\0
 lbl_576:
   goto(lbl_5a3)
 lbl_579:
@@ -633,7 +633,7 @@ lbl_64e:
   msg(NULL_00, DOWN_F5, NULL, NOFOLLOW, 128)
 # Liana joins the entourage!\0
   msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 129)
-# Lana also seems all right.\0
+# Lána also seems all right.\0
   cursor.set(NULL_00)
   unit.retreat(DARKPRINCESS_15)
   unit.swap(DARKPRINCESS_15, LANA_03)
@@ -646,13 +646,13 @@ lbl_690:
   msg(LANA_03, ERWIN_01, LANA, FOLLOW, 130)
 # I, I ...\0
   msg(KEITH_07, LANA_03, KEITH, FOLLOW, 131)
-# It looks like Boser's power is no more.\0
+# It looks like Böser's power is no more.\0
   msg(LIANA_02, LANA_03, LIANA, FOLLOW, 132)
-# Sister! Lana!\0
+# Sister! Lána!\0
   msg(LANA_03, LIANA_02, LANA, FOLLOW, 133)
 # Liana? Is it really you, Liana?\0
   msg(LIANA_02, LANA_03, LIANA, FOLLOW, 134)
-# Lana, I thought I would never get to see you ...\0
+# Lána, I thought I would never get to see you ...\0
   branch.unit.dead(lbl_6b8, SCOTT_06)
   msg(SCOTT_06, LIANA_02, SCOTT, FOLLOW, 135)
 # I didn't know Liana had a twin.\0
@@ -660,9 +660,9 @@ lbl_6b8:
   msg(LANA_03, LIANA_02, LANA, FOLLOW, 136)
 # By the way, what am I doing here?\0
   msg(LESTER_09, LANA_03, LESTER, FOLLOW, 137)
-# You were being controlled by Boser.\0
+# You were being controlled by Böser.\0
   msg(LANA_03, DOWN_F5, LANA, FOLLOW, 138)
-# By ... Boser ...?\r\nThat's right, when I was but a child, Boser abducted me and would have taken Liana.\r\nGasp ... Alhazard!\0
+# By ... Böser ...?\r\nThat's right, when I was but a child, Böser abducted me and would have taken Liana.\r\nGasp ... Alhazard!\0
   branch.mem.local.ne(lbl_6f7, $0a47d4, $07eb58)
   msg(ERWIN_01, LANA_03, ERWIN, FOLLOW, 139)
 # Bernhardt has it now.\r\nBut we have no idea where he is.\0
@@ -697,23 +697,23 @@ lbl_717:
   msg(LANA_03, ERWIN_01, LANA, FOLLOW, 150)
 # Please, let me help you.\0
   msg(LANA_03, ERWIN_01, LANA_SAD, FOLLOW, 151)
-# While I've been under Boser's control, many innocent people have been wounded and killed.\r\nBy fighting by your side ... Maybe I can make amends for some small part of that ...\0
+# While I've been under Böser's control, many innocent people have been wounded and killed.\r\nBy fighting by your side ... Maybe I can make amends for some small part of that ...\0
   branch.unit.dead(lbl_789, AARON_08)
   msg(AARON_08, ERWIN_01, AARON, FOLLOW, 152)
-# Master _NAME_, I've grown weary of the fight.\r\nIf you wish to take Lana with you, I'll entrust my share to her and rest for a time.\0
+# Master _NAME_, I've grown weary of the fight.\r\nIf you wish to take Lána with you, I'll entrust my share to her and rest for a time.\0
   prompt.ok(lbl_76d)
   branch.unit.dead(lbl_748, LESTER_09)
   msg(LESTER_09, LANA_03, LESTER, FOLLOW, 154)
-# You're welcome to join us!\r\nNo one will look down on you for what happened while you were under Boser's control.\r\nLet's go together!\0
+# You're welcome to join us!\r\nNo one will look down on you for what happened while you were under Böser's control.\r\nLet's go together!\0
   goto(lbl_74e)
 lbl_748:
   msg(ERWIN_01, LANA_03, ERWIN, FOLLOW, 155)
-# There's no need to worry. The blame lies with Boser.\r\nLana, fight with us!\0
+# There's no need to worry. The blame lies with Böser.\r\nLána, fight with us!\0
 lbl_74e:
   msg(LANA_03, LESTER_09, LANA_SAD, FOLLOW, 156)
 # Everyone, thank you very much.\0
   msg(NULL_00, DOWN_F5, NULL, NOFOLLOW, 157)
-# Lana joins the entourage!\0
+# Lána joins the entourage!\0
   msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 158)
 # All right, first we have to get the Holy Rod.\r\nOnce we have it, let's hurry and save Jessica!\0
   global.sum($0a4793, $07eb5d)
@@ -735,11 +735,11 @@ lbl_786:
   goto(lbl_7c1)
 lbl_789:
   msg(AARON_08, ERWIN_01, AARON_DEAD, FOLLOW, 162)
-# Oh, the pain ...\r\nI've grown too old to fight. I'll leave my duties to this young one, Lana.\0
+# Oh, the pain ...\r\nI've grown too old to fight. I'll leave my duties to this young one, Lána.\0
   msg(LANA_03, AARON_08, LANA, FOLLOW, 163)
 # Yes.\0
   msg(AARON_08, LANA_03, AARON_DEAD, FOLLOW, 164)
-# Everything you've done up until now has not been your fault.\r\nNever forget, you were being manipulated by Boser.\r\nNow, the real question is your future plan. If it is okay, I suggest you go with these fellows.\r\nWhen I leave, they're going to need all the help they can get.\0
+# Everything you've done up until now has not been your fault.\r\nNever forget, you were being manipulated by Böser.\r\nNow, the real question is your future plan. If it is okay, I suggest you go with these fellows.\r\nWhen I leave, they're going to need all the help they can get.\0
   branch.unit.dead(lbl_7a5, HEIN_05)
   msg(HEIN_05, AARON_08, HEIN, FOLLOW, 165)
 # Aaron, also well spoken.\0
@@ -747,7 +747,7 @@ lbl_7a5:
   msg(LANA_03, AARON_08, LANA, FOLLOW, 166)
 # Yes! I shall make up for his absence.\0
   msg(NULL_00, DOWN_F5, NULL, NOFOLLOW, 167)
-# Lana joins the entourage!\0
+# Lána joins the entourage!\0
   msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 168)
 # All right, first we have to get the Holy Rod.\r\nOnce we have it, let's hurry and save Jessica!\0
   global.sum($0a4793, $07eb5d)

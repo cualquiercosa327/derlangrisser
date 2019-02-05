@@ -1,28 +1,28 @@
 # Movement-Triggered Events
-on.move(13, lbl_33d, SONYA_0C, 0, 0xff)
-on.move(19, lbl_37e, ESTO_11, 0, 0xff)
-on.move(21, lbl_3a3, OSTO_12, 0, 0xff)
-on.move(24, lbl_3d0, LEON_D5, 0, 0xff)
-on.move(2, lbl_3f0, LEON_D5, 0, 0xff)
-on.move(29, lbl_43f, IMELDA_D7, 1, 0xff)
-on.move(31, lbl_451, VARGAS_D6, 1, 0xff)
-on.move(33, lbl_467, EGBERT_D8, 2, 0xff)
-on.move(3, lbl_46f, EGBERT_D8, 0, 0xff)
+on.move(13, lbl_33d, SONYA_0C, 0)
+on.move(19, lbl_37e, ESTO_11, 0)
+on.move(21, lbl_3a3, OSTO_12, 0)
+on.move(24, lbl_3d0, LEON_D5, 0)
+on.move(2, lbl_3f0, LEON_D5, 0)
+on.move(29, lbl_43f, IMELDA_D7, 1)
+on.move(31, lbl_451, VARGAS_D6, 1)
+on.move(33, lbl_467, EGBERT_D8, 2)
+on.move(3, lbl_46f, EGBERT_D8, 0)
 break
 
 # Attack-Triggered Events
-on.attack(7, lbl_2ef, ERWIN_01, LEON_D5, 0x00, 0xff, 0xff)
-on.attack(8, lbl_2f7, ERWIN_01, LEON_D5, 0x00, 0x00, 0xff)
-on.attack(11, lbl_323, ROHGA_0B, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(14, lbl_350, SONYA_0C, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(15, lbl_358, SONYA_0C, LEON_D5, 0x00, 0x00, 0xff)
-on.attack(22, lbl_3c0, OSTO_12, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(27, lbl_41d, LAIRD_18, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(34, lbl_47a, EGBERT_D8, SONYA_0C, 0x00, 0xff, 0xff)
-on.attack(35, lbl_482, EGBERT_D8, SONYA_0C, 0x00, 0x00, 0xff)
-on.attack(37, lbl_49a, IMPERIALCOMMANDER_34, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(39, lbl_4aa, NULL_FF, IMPERIALCOMMANDER_35, 0xff, 0x00, 0xff)
-on.attack(43, lbl_4ca, IMPERIALCOMMANDER_38, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(7, lbl_2ef, ERWIN_01, LEON_D5, 0x00, 0xff)
+on.attack(8, lbl_2f7, ERWIN_01, LEON_D5, 0x00, 0x00)
+on.attack(11, lbl_323, ROHGA_0B, NULL_FF, 0x00, 0xff)
+on.attack(14, lbl_350, SONYA_0C, NULL_FF, 0x00, 0xff)
+on.attack(15, lbl_358, SONYA_0C, LEON_D5, 0x00, 0x00)
+on.attack(22, lbl_3c0, OSTO_12, NULL_FF, 0x00, 0xff)
+on.attack(27, lbl_41d, LAIRD_18, NULL_FF, 0x00, 0xff)
+on.attack(34, lbl_47a, EGBERT_D8, SONYA_0C, 0x00, 0xff)
+on.attack(35, lbl_482, EGBERT_D8, SONYA_0C, 0x00, 0x00)
+on.attack(37, lbl_49a, IMPERIALCOMMANDER_34, NULL_FF, 0x00, 0xff)
+on.attack(39, lbl_4aa, NULL_FF, IMPERIALCOMMANDER_35, 0xff, 0x00)
+on.attack(43, lbl_4ca, IMPERIALCOMMANDER_38, NULL_FF, 0x00, 0xff)
 break
 
 # Damage-Triggered Events
@@ -50,14 +50,14 @@ on.defeat(46, lbl_5df, IMELDA_D7, VARGAS_D6, IMPERIALCOMMANDER_34, IMPERIALCOMMA
 break
 
 # Position-Triggered Events
-on.bound(6, lbl_2d5, NPC_COMMANDER_F0, 1, 2, 1, 2, 0x00, 0x00)
+on.bound(6, lbl_2d5, NPC_COMMANDER_F0, 1, 2, 1, 2)
 break
 
 # Turn-Triggered Events
-on.turn(4, lbl_202, ALLY, 3, 0x00)
-on.turn(5, lbl_26a, ENEMY, 1, 0x00)
-on.turn(0, lbl_280, ENEMY, 0, 0x00)
-on.turn(1, lbl_2ac, ENEMY, 0, 0x00)
+on.turn(4, lbl_202, ALLY, 3)
+on.turn(5, lbl_26a, ENEMY, 1)
+on.turn(0, lbl_280, ENEMY, 0)
+on.turn(1, lbl_2ac, ENEMY, 0)
 break
 
 # Core Events
@@ -146,14 +146,14 @@ lbl_246:
 # Sonya? What are you doing here?\0
 lbl_24c:
   msg(SONYA_0C, ERWIN_01, SONYA, FOLLOW, 19)
-# Boser ordered us to ally with you.\r\nHis order made me so happy! I get to be with brother Rohga!\r\nAnd _NAME_, the redhead? Boser told me all about you. Now, let's have some orders!\0
+# Böser ordered us to ally with you.\r\nHis order made me so happy! I get to be with brother Rohga!\r\nAnd _NAME_, the redhead? Böser told me all about you. Now, let's have some orders!\0
   msg(NULL_00, DOWN_F5, NULL, NOFOLLOW, 20)
 # Sonya joins the entourage!\r\nEsto joins the entourage!\r\nOsto joins the entourage!\0
   msg(ERWIN_01, SONYA_0C, ERWIN, FOLLOW, 21)
-# So this is Boser's idea? I guess we'll deal with that later.\r\nRight now, let's focus on finishing off Rayguard. Everyone, work together.\0
+# So this is Böser's idea? I guess we'll deal with that later.\r\nRight now, let's focus on finishing off Rayguard. Everyone, work together.\0
   branch.unit.dead(lbl_268, EGBERT_10)
   msg(EGBERT_D8, SONYA_0C, EGBERT, FOLLOW, 22)
-# So now Boser has betrayed us. I always did find him untrustworthy ...\0
+# So now Böser has betrayed us. I always did find him untrustworthy ...\0
 lbl_268:
 break
 
@@ -174,7 +174,7 @@ lbl_280:
   branch.unit.dead(lbl_2a7, EGBERT_D8)
   branch.mem.local.ne(lbl_29b, $0a47d0, $07eb5c)
   msg(EGBERT_D8, LEON_D5, EGBERT, FOLLOW, 26)
-# Don't underestimate him. It's true, we Heavenly Dragons possess the Imperial Army.\r\nBut we must consider both Langrisser's role in this battle and Boser's support.\0
+# Don't underestimate him. It's true, we Heavenly Dragons possess the Imperial Army.\r\nBut we must consider both Langrisser's role in this battle and Böser's support.\0
   goto(lbl_2a1)
 lbl_29b:
   msg(EGBERT_D8, LEON_D5, EGBERT, FOLLOW, 27)
@@ -200,7 +200,7 @@ lbl_2c3:
 # But His Majesty holds Alhazard. With his protection, there's probably no need for concern.\0
 lbl_2cd:
   msg(EGBERT_D8, DOWN_F5, EGBERT, FOLLOW, 32)
-# Boser, Prince of Darkness ...\r\nI'm certain this is just another checkpoint in his grand scheme.\r\nThe Empire must thwart his worthless fantasy.\r\nOur ideals can prevent a nightmarish world!\0
+# Böser, Prince of Darkness ...\r\nI'm certain this is just another checkpoint in his grand scheme.\r\nThe Empire must thwart his worthless fantasy.\r\nOur ideals can prevent a nightmarish world!\0
 lbl_2d3:
 break
 
@@ -275,7 +275,7 @@ lbl_358:
   msg(LEON_D5, SONYA_0C, LEON, NOFOLLOW, 47)
 # The Army of Darkness ... Did they plan this betrayal from the beginning?\0
   msg(SONYA_0C, LEON_D5, SONYA, NOFOLLOW, 48)
-# Master Boser serves no one. We had only our reasons for cooperating with the Empire!\0
+# Master Böser serves no one. We had only our reasons for cooperating with the Empire!\0
 break
 
 lbl_366:
@@ -292,7 +292,7 @@ break
 lbl_37e:
   branch.mem.global.eq(lbl_38f, $0a4790, $07eb5d)
   msg(ESTO_11, UP_F4, ESTO, FOLLOW, 51)
-# Boser ... requests that we aid you.\0
+# Böser ... requests that we aid you.\0
   unit.expboost(ESTO_11, 440)
   global.sum($0a4790, $07eb5d)
 lbl_38f:
@@ -345,7 +345,7 @@ break
 
 lbl_3f0:
   msg(LEON_D5, LEFT_F6, LEON, FOLLOW, 63)
-# Damn you, Boser. What exactly are you trying to accomplish?\0
+# Damn you, Böser. What exactly are you trying to accomplish?\0
   branch.unit.dead(lbl_406, EGBERT_D8)
   msg(EGBERT_D8, LEON_D5, EGBERT, FOLLOW, 64)
 # The resurrection of Alhazard, perhaps?\r\nWe, after all, hold both the Dark Blade and Dark Rod.\0
@@ -414,7 +414,7 @@ break
 
 lbl_46f:
   msg(EGBERT_D8, SONYA_0C, EGBERT, FOLLOW, 77)
-# So Boser betrayed us.\r\nI suspected it would happen, but why now ... He could not have chosen a worse time.\r\nIt is a certainty. His goal is Alhazard and nothing else.\0
+# So Böser betrayed us.\r\nI suspected it would happen, but why now ... He could not have chosen a worse time.\r\nIt is a certainty. His goal is Alhazard and nothing else.\0
   local.sub($0a47d0, $07eb5a)
 break
 
@@ -425,14 +425,14 @@ break
 
 lbl_482:
   msg(EGBERT_10, SONYA_0C, EGBERT, NOFOLLOW, 79)
-# We must let Boser know that Alhazard's seal cannot be broken.\r\nBut do not forget, we must return to His Majesty alive ...\0
+# We must let Böser know that Alhazard's seal cannot be broken.\r\nBut do not forget, we must return to His Majesty alive ...\0
   msg(SONYA_0C, EGBERT_10, SONYA, NOFOLLOW, 80)
 # What the!?\0
 break
 
 lbl_490:
   msg(EGBERT_D8, DOWN_F5, EGBERT_DEAD, FOLLOW, 81)
-# With Langrisser's might, and Boser's allegiance ... Damn you, _NAME_.\r\nI must inform His Majesty of these developments. I can't die here.\0
+# With Langrisser's might, and Böser's allegiance ... Damn you, _NAME_.\r\nI must inform His Majesty of these developments. I can't die here.\0
   unit.retreat(EGBERT_D8)
 break
 
@@ -481,7 +481,7 @@ lbl_4da:
   msg(ERWIN_01, SONYA_0C, ERWIN, FOLLOW, 90)
 # This is too convenient. Why have you decided to betray the Empire?\0
   msg(SONYA_0C, ERWIN_01, SONYA, FOLLOW, 91)
-# Hee hee hee ... It's Master Boser's orders.\r\nBoser only cooperated with them to get Alhazard unsealed.\0
+# Hee hee hee ... It's Master Böser's orders.\r\nBöser only cooperated with them to get Alhazard unsealed.\0
   msg(ERWIN_01, SONYA_0C, ERWIN, FOLLOW, 92)
 # Alhazard ...!?\0
   local.sub($0a47d0, $07eb5b)
@@ -528,7 +528,7 @@ lbl_54d:
   msg(ROHGA_0B, SONYA_0C, ROHGA, FOLLOW, 103)
 # What about at the village a while back? Why did you decide to run away?\0
   msg(SONYA_0C, ROHGA_0B, SONYA, FOLLOW, 104)
-# Because ... Brother showed up allied with humans ...\r\nMaster Boser would have been angry with me if I acted freely.\0
+# Because ... Brother showed up allied with humans ...\r\nMaster Böser would have been angry with me if I acted freely.\0
 lbl_559:
   msg(SONYA_0C, ROHGA_0B, SONYA, FOLLOW, 105)
 # I was always worrying about my Brother ...\0
@@ -538,13 +538,13 @@ lbl_559:
 # All right! I get to fight alongside big brother Rohga!\0
 lbl_56b:
   msg(ERWIN_01, SONYA_0C, ERWIN, FOLLOW, 108)
-# By the way, since Boser directed your assistance here, can you tell us about him?\0
+# By the way, since Böser directed your assistance here, can you tell us about him?\0
   msg(SONYA_0C, ERWIN_01, SONYA, FOLLOW, 121)
-# Boser is the master of the Demon Tribe.\r\nThe world may know him as the Prince of Darkness, but he's a very kind person.\r\nHe saved my life and looked after me ...\r\nHe treats the Demon Tribe with compassion, and he once told me there is no reason for war.\r\nTo bring peace to humans and demons, he needs the sword to govern the darkness, Alhazard.\0
+# Böser is the master of the Demon Tribe.\r\nThe world may know him as the Prince of Darkness, but he's a very kind person.\r\nHe saved my life and looked after me ...\r\nHe treats the Demon Tribe with compassion, and he once told me there is no reason for war.\r\nTo bring peace to humans and demons, he needs the sword to govern the darkness, Alhazard.\0
   msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 109)
-# Ah, I see ...\r\nSo you used the Empire to help Boser find Alhazard?\0
+# Ah, I see ...\r\nSo you used the Empire to help Böser find Alhazard?\0
   msg(SONYA_0C, DOWN_F5, SONYA, FOLLOW, 122)
-# Boser holds one secret to unlocking Alhazard's seal.\r\nAnd I believe the Kaiser possesses Alhazard and the Dark Rod.\0
+# Böser holds one secret to unlocking Alhazard's seal.\r\nAnd I believe the Kaiser possesses Alhazard and the Dark Rod.\0
   goto(lbl_5d5)
 lbl_586:
   branch.unit.dead(lbl_5a5, ROHGA_0B)
@@ -568,13 +568,13 @@ lbl_5a5:
 # Thank you ... for your words ...\0
 lbl_5bd:
   msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 118)
-# So you're here because Boser willed it?\r\nThen, please. I'd like you to tell me about Boser.\0
+# So you're here because Böser willed it?\r\nThen, please. I'd like you to tell me about Böser.\0
   msg(SONYA_0C, DOWN_F5, SONYA_DEAD, NOFOLLOW, 121)
-# Boser is the master of the Demon Tribe.\r\nThe world may know him as the Prince of Darkness, but he's a very kind person.\r\nHe saved my life and looked after me ...\r\nHe treats the Demon Tribe with compassion, and he once told me there is no reason for war.\r\nTo bring peace to humans and demons, he needs the sword to govern the darkness, Alhazard.\0
+# Böser is the master of the Demon Tribe.\r\nThe world may know him as the Prince of Darkness, but he's a very kind person.\r\nHe saved my life and looked after me ...\r\nHe treats the Demon Tribe with compassion, and he once told me there is no reason for war.\r\nTo bring peace to humans and demons, he needs the sword to govern the darkness, Alhazard.\0
   msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 119)
 # Oh? So you used the Empire to help you find Alhazard?\0
   msg(SONYA_0C, DOWN_F5, SONYA_DEAD, NOFOLLOW, 122)
-# Boser holds one secret to unlocking Alhazard's seal.\r\nAnd I believe the Kaiser possesses Alhazard and the Dark Rod.\0
+# Böser holds one secret to unlocking Alhazard's seal.\r\nAnd I believe the Kaiser possesses Alhazard and the Dark Rod.\0
 lbl_5d5:
   msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 120)
 # Now, we will put an end to Bernhardt and take back the Dark Blade.\r\nSonya, Esto, and Osto, your help is appreciated. Together, we will succeed.\r\nVictory will be ours! On to Castle Rayguard!\0

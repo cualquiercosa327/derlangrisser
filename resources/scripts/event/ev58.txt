@@ -1,30 +1,30 @@
 # Movement-Triggered Events
-on.move(2, lbl_40c, LESTER_D1, 0, 0xff)
-on.move(3, lbl_4a1, COMMANDER_22, 0, 0xff)
-on.move(4, lbl_4e7, COMMANDER_84, 0, 0xff)
-on.move(5, lbl_507, COMMANDER_86, 0, 0xff)
-on.move(41, lbl_53b, COMMANDER_8A, 0, 0xff)
+on.move(2, lbl_40c, LESTER_D1, 0)
+on.move(3, lbl_4a1, COMMANDER_22, 0)
+on.move(4, lbl_4e7, COMMANDER_84, 0)
+on.move(5, lbl_507, COMMANDER_86, 0)
+on.move(41, lbl_53b, COMMANDER_8A, 0)
 break
 
 # Attack-Triggered Events
-on.attack(12, lbl_398, ERWIN_01, LESTER_D1, 0x00, 0x00, 0xff)
-on.attack(17, lbl_3c8, IMELDA_0F, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(19, lbl_3d8, VARGAS_0E, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(21, lbl_3e8, EGBERT_10, LESTER_D1, 0x00, 0xff, 0xff)
-on.attack(22, lbl_3f0, EGBERT_10, LESTER_D1, 0x00, 0x00, 0xff)
-on.attack(24, lbl_414, NULL_FF, LESTER_D1, 0xff, 0x00, 0xff)
-on.attack(25, lbl_41a, LESTER_D1, EGBERT_10, 0x00, 0x00, 0xff)
-on.attack(27, lbl_4a9, NULL_FF, COMMANDER_22, 0xff, 0x00, 0xff)
-on.attack(29, lbl_4bc, COMMANDER_23, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(29, lbl_4c7, NULL_FF, COMMANDER_23, 0xff, 0x00, 0xff)
-on.attack(31, lbl_4da, NULL_FF, COMMANDER_83, 0xff, 0x00, 0xff)
-on.attack(33, lbl_4ef, COMMANDER_84, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(36, lbl_50f, COMMANDER_86, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(36, lbl_517, NULL_FF, COMMANDER_86, 0xff, 0x00, 0xff)
-on.attack(38, lbl_525, COMMANDER_89, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(39, lbl_52d, NULL_FF, COMMANDER_89, 0xff, 0x00, 0xff)
-on.attack(42, lbl_543, COMMANDER_8A, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(42, lbl_553, NULL_FF, COMMANDER_8B, 0xff, 0x00, 0xff)
+on.attack(12, lbl_398, ERWIN_01, LESTER_D1, 0x00, 0x00)
+on.attack(17, lbl_3c8, IMELDA_0F, NULL_FF, 0x00, 0xff)
+on.attack(19, lbl_3d8, VARGAS_0E, NULL_FF, 0x00, 0xff)
+on.attack(21, lbl_3e8, EGBERT_10, LESTER_D1, 0x00, 0xff)
+on.attack(22, lbl_3f0, EGBERT_10, LESTER_D1, 0x00, 0x00)
+on.attack(24, lbl_414, NULL_FF, LESTER_D1, 0xff, 0x00)
+on.attack(25, lbl_41a, LESTER_D1, EGBERT_10, 0x00, 0x00)
+on.attack(27, lbl_4a9, NULL_FF, COMMANDER_22, 0xff, 0x00)
+on.attack(29, lbl_4bc, COMMANDER_23, NULL_FF, 0x00, 0xff)
+on.attack(29, lbl_4c7, NULL_FF, COMMANDER_23, 0xff, 0x00)
+on.attack(31, lbl_4da, NULL_FF, COMMANDER_83, 0xff, 0x00)
+on.attack(33, lbl_4ef, COMMANDER_84, NULL_FF, 0x00, 0xff)
+on.attack(36, lbl_50f, COMMANDER_86, NULL_FF, 0x00, 0xff)
+on.attack(36, lbl_517, NULL_FF, COMMANDER_86, 0xff, 0x00)
+on.attack(38, lbl_525, COMMANDER_89, NULL_FF, 0x00, 0xff)
+on.attack(39, lbl_52d, NULL_FF, COMMANDER_89, 0xff, 0x00)
+on.attack(42, lbl_543, COMMANDER_8A, NULL_FF, 0x00, 0xff)
+on.attack(42, lbl_553, NULL_FF, COMMANDER_8B, 0xff, 0x00)
 break
 
 # Damage-Triggered Events
@@ -51,17 +51,17 @@ on.defeat(47, lbl_596, COMMANDER_8A, COMMANDER_8B)
 break
 
 # Position-Triggered Events
-on.bound(8, lbl_341, NPC_SUBUNIT_F1, 12, 1, 28, 26, 0x00, 0x00)
-on.bound(10, lbl_346, NPC_COMMANDER_F0, 27, 20, 27, 20, 0x00, 0x00)
-on.bound(11, lbl_36f, NPC_COMMANDER_F0, 7, 6, 7, 6, 0x00, 0x00)
+on.bound(8, lbl_341, NPC_SUBUNIT_F1, 12, 1, 28, 26)
+on.bound(10, lbl_346, NPC_COMMANDER_F0, 27, 20, 27, 20)
+on.bound(11, lbl_36f, NPC_COMMANDER_F0, 7, 6, 7, 6)
 break
 
 # Turn-Triggered Events
-on.turn(0, lbl_275, ENEMY, 0, 0x00)
-on.turn(6, lbl_29d, ENEMY, 1, 0x00)
-on.turn(7, lbl_2b9, ENEMY, 8, 0x00)
-on.turn(1, lbl_2fa, ENEMY, 0, 0x00)
-on.turn(9, lbl_33c, ALLY, 8, 0x00)
+on.turn(0, lbl_275, ENEMY, 0)
+on.turn(6, lbl_29d, ENEMY, 1)
+on.turn(7, lbl_2b9, ENEMY, 8)
+on.turn(1, lbl_2fa, ENEMY, 0)
+on.turn(9, lbl_33c, ALLY, 8)
 break
 
 # Core Events
@@ -124,7 +124,7 @@ lbl_184:
   msg(LESTER_D1, EGBERT_10, LESTER, FOLLOW, 12)
 # You helped Bernhardt expand his worthless Empire to end the darkness?\r\nWhy do I doubt that?\0
   msg(EGBERT_10, LESTER_D1, EGBERT, FOLLOW, 13)
-# Since Boser's resurrection, I've pondered ways to combat the darkness.\r\nIn the end, rather than gamble on the Descendants, I settled on a more tried and true ally.\r\nI couldn't wait with Jessica for them to show up, you see. It was taking far too long.\r\nFortunately, my alternate means succeeded to a quite enviable degree.\r\nYet, we're not quite finished. We must crush the remaining rebels, including yourself.\0
+# Since Böser's resurrection, I've pondered ways to combat the darkness.\r\nIn the end, rather than gamble on the Descendants, I settled on a more tried and true ally.\r\nI couldn't wait with Jessica for them to show up, you see. It was taking far too long.\r\nFortunately, my alternate means succeeded to a quite enviable degree.\r\nYet, we're not quite finished. We must crush the remaining rebels, including yourself.\0
   msg(LESTER_D1, EGBERT_10, LESTER_ANGRY, FOLLOW, 14)
 # "Rebels!?"\r\nThis isn't a rebellion! You're invading and pillaging every town you come across!\0
   msg(EGBERT_10, LESTER_D1, EGBERT, FOLLOW, 15)
@@ -209,7 +209,7 @@ lbl_2fa:
   msg(EGBERT_10, LESTER_D1, EGBERT, FOLLOW, 37)
 # I don't mind. Ask what you please.\0
   msg(LESTER_D1, EGBERT_10, LESTER, FOLLOW, 38)
-# Up until now, Boser's resurrection was simply an omen.\r\n"The world will fall into darkness, ..." because of him, presumably.\r\nWell, I heard from Jessica the reverse is true ...\r\nBoser doesn't bring chaos: chaos brings Boser. Only a bloody world will awaken him.\r\nWhat's your opinion?\0
+# Up until now, Böser's resurrection was simply an omen.\r\n"The world will fall into darkness, ..." because of him, presumably.\r\nWell, I heard from Jessica the reverse is true ...\r\nBöser doesn't bring chaos: chaos brings Böser. Only a bloody world will awaken him.\r\nWhat's your opinion?\0
   msg(EGBERT_10, LESTER_D1, EGBERT, FOLLOW, 39)
 # ...\r\nI agree with the theory. His Majesty, however, should not know this.\0
   msg(LESTER_D1, EGBERT_10, LESTER_ANGRY, FOLLOW, 40)

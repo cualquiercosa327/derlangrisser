@@ -41,13 +41,13 @@ break
 lbl_51:
   msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 7)
 # While resupplying, your enemy has launched a surprise attack. What will you do?\0
-  prompt.options(lbl_99, lbl_9f, 8, 9, 10, 0x00, 0xf6, 0x00, 0x00)
+  prompt.options(lbl_99, lbl_9f, 8, 9, 10, 0xf6)
 # Retreat\0
 # Defend\0
 # Counterattack\0
   msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 11)
 # Where do you believe God resides?\0
-  prompt.options(lbl_85, lbl_93, 12, 13, 14, 0x00, 0xf6, 0x00, 0x00)
+  prompt.options(lbl_85, lbl_93, 12, 13, 14, 0xf6)
 # God does not exist\0
 # In the heavens above\0
 # Within each of our hearts\0
@@ -78,7 +78,7 @@ endsub
 lbl_a3:
   msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 15)
 # What is the essential quality of a matchless unit?\0
-  prompt.options(lbl_c0, lbl_ce, 16, 17, 18, 0x00, 0xf6, 0x00, 0x00)
+  prompt.options(lbl_c0, lbl_ce, 16, 17, 18, 0xf6)
 # Destructive power\0
 # Leadership\0
 # Mobility\0
@@ -100,7 +100,7 @@ endsub
 lbl_d2:
   msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 19)
 # Which of these would you like at your next house?\0
-  prompt.options(lbl_f2, lbl_100, 20, 21, 22, 0x00, 0xf6, 0x00, 0x00)
+  prompt.options(lbl_f2, lbl_100, 20, 21, 22, 0xf6)
 # The salty brine of sea air\0
 # The soft breath of spring\0
 # A fresh, gentle breeze\0
@@ -126,7 +126,7 @@ endsub
 lbl_10c:
   msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 23)
 # If this world collapses into crisis and ruin, what will save it?\0
-  prompt.options(lbl_126, lbl_12e, 24, 25, 26, 0x00, 0xf6, 0x00, 0x00)
+  prompt.options(lbl_126, lbl_12e, 24, 25, 26, 0xf6)
 # Great and powerful gods\0
 # A wealth of knowledge\0
 # My own strength\0
@@ -146,7 +146,7 @@ endsub
 lbl_135:
   msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 27)
 # If you gained command of a new unit, what would you demand of it?\0
-  prompt.options(lbl_152, lbl_15b, 28, 29, 30, 0x00, 0xf6, 0x00, 0x00)
+  prompt.options(lbl_152, lbl_15b, 28, 29, 30, 0xf6)
 # Military might\0
 # Perfect control\0
 # High morale\0
@@ -167,7 +167,7 @@ endsub
 lbl_162:
   msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 31)
 # Ideally, what abilities should an excellent army possess?\0
-  prompt.options(lbl_17d, lbl_186, 32, 33, 34, 0x00, 0xf6, 0x00, 0x00)
+  prompt.options(lbl_17d, lbl_186, 32, 33, 34, 0xf6)
 # A powerful commander\0
 # Impenetrable defence\0
 # Power to smash and destroy\0
@@ -187,7 +187,7 @@ endsub
 lbl_18d:
   msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 35)
 # When faced by a being of total darkness, what do you consider it as?\0
-  prompt.options(lbl_1ad, lbl_1b8, 36, 37, 38, 0x00, 0xf6, 0x00, 0x00)
+  prompt.options(lbl_1ad, lbl_1b8, 36, 37, 38, 0xf6)
 # As a vicious enemy\0
 # As a being to worship\0
 # One not to be trifled with\0
@@ -211,7 +211,7 @@ endsub
 lbl_1c1:
   msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 39)
 # To what cause do you plan to devote your life?\0
-  prompt.options(lbl_1de, lbl_1ea, 40, 41, 42, 0x00, 0xf6, 0x00, 0x00)
+  prompt.options(lbl_1de, lbl_1ea, 40, 41, 42, 0xf6)
 # To protect the ones I love\0
 # To strengthen myself\0
 # To fulfil my dreams\0
@@ -234,7 +234,7 @@ endsub
 lbl_1f3:
   msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 43)
 # An ally unit has been enveloped, but yours is also in danger. What would be your command?\0
-  prompt.options(lbl_210, lbl_21a, 44, 45, 46, 0x00, 0xf6, 0x00, 0x00)
+  prompt.options(lbl_210, lbl_21a, 44, 45, 46, 0xf6)
 # Order a retreat\0
 # Hold out for reinforcements\0
 # Rush to their aid\0
@@ -257,7 +257,7 @@ endsub
 lbl_222:
   msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 47)
 # What do you most strive to obtain in this life?\0
-  prompt.options(lbl_23f, lbl_24a, 48, 49, 50, 0x00, 0xf6, 0x00, 0x00)
+  prompt.options(lbl_23f, lbl_24a, 48, 49, 50, 0xf6)
 # Knowledge\0
 # Wealth\0
 # Power\0
@@ -279,7 +279,7 @@ endsub
 lbl_250:
   msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 51)
 # If you gained a position of great power, how would you use it?\0
-  prompt.options(lbl_26a, lbl_279, 52, 53, 54, 0x00, 0xf6, 0x00, 0x00)
+  prompt.options(lbl_26a, lbl_279, 52, 53, 54, 0xf6)
 # To protect my people\0
 # To rule over all\0
 # To promote justice\0
@@ -302,7 +302,7 @@ endsub
 lbl_282:
   msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 55)
 # What kind of thing is love to you?\0
-  prompt.options(lbl_29f, lbl_2a7, 56, 57, 58, 0x00, 0xf6, 0x00, 0x00)
+  prompt.options(lbl_29f, lbl_2a7, 56, 57, 58, 0xf6)
 # Something given mutually\0
 # Something one receives\0
 # A source of infinite power\0
@@ -323,7 +323,7 @@ endsub
 lbl_2ae:
   msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 59)
 # What is it you expect from this world?\0
-  prompt.options(lbl_2c9, lbl_2d2, 60, 61, 62, 0x00, 0xf6, 0x00, 0x00)
+  prompt.options(lbl_2c9, lbl_2d2, 60, 61, 62, 0xf6)
 # Love, hope and courage\0
 # Freedom to live as I please\0
 # Order and unity\0
@@ -343,7 +343,7 @@ endsub
 lbl_2d9:
   msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 63)
 # What ability must the ruler of a nation possess?\0
-  prompt.options(lbl_2f6, lbl_301, 64, 65, 66, 0x00, 0xf6, 0x00, 0x00)
+  prompt.options(lbl_2f6, lbl_301, 64, 65, 66, 0xf6)
 # Charisma\0
 # Decisiveness\0
 # Power to take action\0
@@ -365,7 +365,7 @@ endsub
 lbl_308:
   msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 67)
 # What do you believe is required in order to become a hero?\0
-  prompt.options(lbl_326, lbl_32f, 68, 69, 70, 0x00, 0xf6, 0x00, 0x00)
+  prompt.options(lbl_326, lbl_32f, 68, 69, 70, 0xf6)
 # A valiant soul\0
 # Leadership\0
 # Courage\0
@@ -386,7 +386,7 @@ endsub
 lbl_336:
   msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 71)
 # You are a boy, aren't you?\0
-  prompt.options(lbl_350, lbl_359, 72, 73, 74, 0x00, 0xf6, 0x00, 0x00)
+  prompt.options(lbl_350, lbl_359, 72, 73, 74, 0xf6)
 # No, a romantic\0
 # No, a burning soul\0
 # No, a man of steel\0
@@ -406,7 +406,7 @@ endsub
 lbl_360:
   msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 75)
 # At the outset of battle, what skills do you require of yourself?\0
-  prompt.options(lbl_378, lbl_381, 76, 77, 78, 0x00, 0xf6, 0x00, 0x00)
+  prompt.options(lbl_378, lbl_381, 76, 77, 78, 0xf6)
 # Vast tactical knowledge\0
 # Calm judgement\0
 # Mighty power\0
@@ -423,7 +423,7 @@ lbl_381:
 lbl_38a:
   msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 79)
 # What do you look for in an ideal unit?\0
-  prompt.options(lbl_3a8, lbl_3b3, 80, 81, 82, 0x00, 0xf6, 0x00, 0x00)
+  prompt.options(lbl_3a8, lbl_3b3, 80, 81, 82, 0xf6)
 # A select few\0
 # Strength in numbers\0
 # I alone am enough\0
@@ -442,7 +442,7 @@ lbl_3b3:
 lbl_3b9:
   msg(NULL_00, LEFT_F6, NULL, NOFOLLOW, 83)
 # Lastly, for what purpose do you fight?\0
-  prompt.options(lbl_3d1, lbl_3d9, 84, 85, 86, 0x00, 0xf6, 0x00, 0x00)
+  prompt.options(lbl_3d1, lbl_3d9, 84, 85, 86, 0xf6)
 # To obtain glory and honour\0
 # To protect my homeland\0
 # To protect my loved ones\0

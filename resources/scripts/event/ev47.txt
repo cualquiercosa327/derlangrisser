@@ -1,28 +1,28 @@
 # Movement-Triggered Events
-on.move(33, lbl_6c8, VARGAS_0E, 0, 0xff)
-on.move(36, lbl_6de, LAIRD_18, 1, 0xff)
-on.move(0, lbl_73a, JESSICA_14, 0, 0xff)
-on.move(43, lbl_790, CHERIE_CC, 0, 0xff)
+on.move(33, lbl_6c8, VARGAS_0E, 0)
+on.move(36, lbl_6de, LAIRD_18, 1)
+on.move(0, lbl_73a, JESSICA_14, 0)
+on.move(43, lbl_790, CHERIE_CC, 0)
 break
 
 # Attack-Triggered Events
-on.attack(20, lbl_663, ERWIN_01, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(22, lbl_675, HEIN_05, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(23, lbl_67d, NULL_FF, HEIN_05, 0xff, 0x00, 0xff)
-on.attack(25, lbl_68d, NULL_FF, ROHGA_0B, 0xff, 0x00, 0xff)
-on.attack(27, lbl_69d, LEON_0D, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(28, lbl_6a5, NULL_FF, LEON_0D, 0xff, 0x00, 0xff)
-on.attack(31, lbl_6b8, NULL_FF, IMELDA_0F, 0xff, 0x00, 0xff)
-on.attack(39, lbl_74f, JESSICA_14, ERWIN_01, 0x00, 0x00, 0xff)
-on.attack(40, lbl_75d, JESSICA_14, ERWIN_01, 0x00, 0xff, 0xff)
-on.attack(41, lbl_765, KEITH_CF, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(44, lbl_7c1, CHERIE_CC, ERWIN_01, 0x00, 0x00, 0xff)
-on.attack(45, lbl_7cf, CHERIE_CC, ERWIN_01, 0x00, 0xff, 0xff)
-on.attack(47, lbl_833, COMMANDER_83, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(49, lbl_843, COMMANDER_84, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(51, lbl_853, COMMANDER_85, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(53, lbl_863, COMMANDER_86, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(57, lbl_87e, COMMANDER_88, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(20, lbl_663, ERWIN_01, NULL_FF, 0x00, 0xff)
+on.attack(22, lbl_675, HEIN_05, NULL_FF, 0x00, 0xff)
+on.attack(23, lbl_67d, NULL_FF, HEIN_05, 0xff, 0x00)
+on.attack(25, lbl_68d, NULL_FF, ROHGA_0B, 0xff, 0x00)
+on.attack(27, lbl_69d, LEON_0D, NULL_FF, 0x00, 0xff)
+on.attack(28, lbl_6a5, NULL_FF, LEON_0D, 0xff, 0x00)
+on.attack(31, lbl_6b8, NULL_FF, IMELDA_0F, 0xff, 0x00)
+on.attack(39, lbl_74f, JESSICA_14, ERWIN_01, 0x00, 0x00)
+on.attack(40, lbl_75d, JESSICA_14, ERWIN_01, 0x00, 0xff)
+on.attack(41, lbl_765, KEITH_CF, NULL_FF, 0x00, 0xff)
+on.attack(44, lbl_7c1, CHERIE_CC, ERWIN_01, 0x00, 0x00)
+on.attack(45, lbl_7cf, CHERIE_CC, ERWIN_01, 0x00, 0xff)
+on.attack(47, lbl_833, COMMANDER_83, NULL_FF, 0x00, 0xff)
+on.attack(49, lbl_843, COMMANDER_84, NULL_FF, 0x00, 0xff)
+on.attack(51, lbl_853, COMMANDER_85, NULL_FF, 0x00, 0xff)
+on.attack(53, lbl_863, COMMANDER_86, NULL_FF, 0x00, 0xff)
+on.attack(57, lbl_87e, COMMANDER_88, NULL_FF, 0x00, 0xff)
 break
 
 # Damage-Triggered Events
@@ -53,30 +53,30 @@ on.damage(56, lbl_8cd, NULL_FF, COMMANDER_87, 0xff, 0x00)
 break
 
 # Position-Triggered Events
-on.bound(10, lbl_543, LEON_0D, 15, 4, 16, 5, 0x00, 0x00)
-on.bound(10, lbl_589, ERWIN_01, 15, 4, 16, 5, 0x00, 0x00)
-on.bound(11, lbl_5bf, CHERIE_CC, 15, 4, 16, 5, 0x00, 0x00)
-on.bound(11, lbl_5d4, JESSICA_14, 15, 4, 16, 5, 0x00, 0x00)
-on.bound(12, lbl_5e9, ERWIN_01, 13, 6, 18, 10, 0x00, 0x00)
-on.bound(13, lbl_5f2, LEON_0D, 13, 6, 18, 10, 0x00, 0x00)
-on.bound(14, lbl_5fb, HEIN_05, 15, 4, 16, 5, 0x00, 0x00)
-on.bound(15, lbl_604, ROHGA_0B, 15, 4, 16, 5, 0x00, 0x00)
-on.bound(16, lbl_60d, IMELDA_0F, 15, 4, 16, 5, 0x00, 0x00)
-on.bound(17, lbl_616, VARGAS_0E, 15, 4, 16, 5, 0x00, 0x00)
-on.bound(18, lbl_61f, LAIRD_18, 13, 6, 18, 10, 0x00, 0x00)
-on.bound(19, lbl_62c, NPC_COMMANDER_F0, 16, 24, 16, 24, 0x00, 0x00)
+on.bound(10, lbl_543, LEON_0D, 15, 4, 16, 5)
+on.bound(10, lbl_589, ERWIN_01, 15, 4, 16, 5)
+on.bound(11, lbl_5bf, CHERIE_CC, 15, 4, 16, 5)
+on.bound(11, lbl_5d4, JESSICA_14, 15, 4, 16, 5)
+on.bound(12, lbl_5e9, ERWIN_01, 13, 6, 18, 10)
+on.bound(13, lbl_5f2, LEON_0D, 13, 6, 18, 10)
+on.bound(14, lbl_5fb, HEIN_05, 15, 4, 16, 5)
+on.bound(15, lbl_604, ROHGA_0B, 15, 4, 16, 5)
+on.bound(16, lbl_60d, IMELDA_0F, 15, 4, 16, 5)
+on.bound(17, lbl_616, VARGAS_0E, 15, 4, 16, 5)
+on.bound(18, lbl_61f, LAIRD_18, 13, 6, 18, 10)
+on.bound(19, lbl_62c, NPC_COMMANDER_F0, 16, 24, 16, 24)
 break
 
 # Turn-Triggered Events
-on.turn(1, lbl_425, ENEMY, 2, 0x00)
-on.turn(2, lbl_43d, ALLY, 2, 0x00)
-on.turn(3, lbl_46d, ENEMY, 8, 0x00)
-on.turn(4, lbl_4d2, ALLY, 7, 0x00)
-on.turn(5, lbl_4e3, ENEMY, 1, 0x00)
-on.turn(6, lbl_513, ENEMY, 10, 0x00)
-on.turn(7, lbl_521, ALLY, 8, 0x00)
-on.turn(8, lbl_526, ENEMY, 6, 0x00)
-on.turn(9, lbl_52b, ALLY, 3, 0x00)
+on.turn(1, lbl_425, ENEMY, 2)
+on.turn(2, lbl_43d, ALLY, 2)
+on.turn(3, lbl_46d, ENEMY, 8)
+on.turn(4, lbl_4d2, ALLY, 7)
+on.turn(5, lbl_4e3, ENEMY, 1)
+on.turn(6, lbl_513, ENEMY, 10)
+on.turn(7, lbl_521, ALLY, 8)
+on.turn(8, lbl_526, ENEMY, 6)
+on.turn(9, lbl_52b, ALLY, 3)
 break
 
 # Core Events
@@ -277,7 +277,7 @@ lbl_43d:
   msg(ERWIN_01, LEON_0D, ERWIN, FOLLOW, 37)
 # Leon, you and I are both Descendants of Light?\0
   msg(LEON_0D, ERWIN_01, LEON, FOLLOW, 38)
-# Yes, Egbert said something to that effect. This sword proves our heritage.\r\nThe soldier Dieharte, my ancestor, is said to have been given it a century ago.\0
+# Yes, Egbert said something to that effect. This sword proves our heritage.\r\nThe soldier Diehärte, my ancestor, is said to have been given it a century ago.\0
   msg(ERWIN_01, LEON_0D, ERWIN, FOLLOW, 39)
 # The blade has a unique design. I've never seen another like it.\0
   msg(LEON_0D, ERWIN_01, LEON, FOLLOW, 40)
@@ -505,7 +505,7 @@ lbl_62c:
   unit.cleanup()
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 85)
 # A single beautiful flower floats on a plank in the waves. What will you do with it?\0
-  prompt.options(lbl_64c, lbl_655, 86, 87, 88, 0x00, 0xf4, 0x00, 0x00)
+  prompt.options(lbl_64c, lbl_655, 86, 87, 88, 0xf4)
 # Leave it behind\0
 # Try to pick it\0
 # Remove the plank\0
@@ -603,7 +603,7 @@ break
 lbl_6de:
   msg(LAIRD_18, LEON_0D, LAIRD, FOLLOW, 106)
 # General Leon, what would you have me do?\r\nShall I take the offensive or maintain our defence?\0
-  prompt.options(lbl_705, lbl_71a, 107, 108, 109, 0x00, 0xf4, 0x00, 0x00)
+  prompt.options(lbl_705, lbl_71a, 107, 108, 109, 0xf4)
 # Stand by for now\0
 # Clear a path to the altar\0
 # It's your decision\0

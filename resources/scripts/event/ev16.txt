@@ -1,22 +1,22 @@
 # Movement-Triggered Events
-on.move(21, lbl_420, AARON_08, 2, 0xff)
-on.move(2, lbl_42e, AARON_08, 0, 0xff)
-on.move(22, lbl_436, AARON_08, 1, 0xff)
-on.move(29, lbl_4a8, VILLAGER_26, 1, 0xff)
-on.move(25, lbl_4ca, IMELDA_D7, 5, 0xff)
-on.move(0, lbl_637, IMPERIALCOMMANDER_2F, 0, 0xff)
-on.move(40, lbl_667, IMPERIALCOMMANDER_34, 0, 0xff)
-on.move(42, lbl_677, IMPERIALCOMMANDER_35, 0, 0xff)
-on.move(1, lbl_68a, IMPERIALCOMMANDER_36, 0, 0xff)
-on.move(45, lbl_69a, IMPERIALCOMMANDER_37, 0, 0xff)
+on.move(21, lbl_420, AARON_08, 2)
+on.move(2, lbl_42e, AARON_08, 0)
+on.move(22, lbl_436, AARON_08, 1)
+on.move(29, lbl_4a8, VILLAGER_26, 1)
+on.move(25, lbl_4ca, IMELDA_D7, 5)
+on.move(0, lbl_637, IMPERIALCOMMANDER_2F, 0)
+on.move(40, lbl_667, IMPERIALCOMMANDER_34, 0)
+on.move(42, lbl_677, IMPERIALCOMMANDER_35, 0)
+on.move(1, lbl_68a, IMPERIALCOMMANDER_36, 0)
+on.move(45, lbl_69a, IMPERIALCOMMANDER_37, 0)
 break
 
 # Attack-Triggered Events
-on.attack(16, lbl_3f8, CHERIE_04, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(23, lbl_468, AARON_08, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(27, lbl_48e, NULL_FF, VILLAGER_25, 0xff, 0x00, 0xff)
-on.attack(31, lbl_4d6, IMELDA_D7, AARON_08, 0x00, 0x00, 0xff)
-on.attack(32, lbl_4de, NULL_FF, IMELDA_D7, 0xff, 0x00, 0xff)
+on.attack(16, lbl_3f8, CHERIE_04, NULL_FF, 0x00, 0xff)
+on.attack(23, lbl_468, AARON_08, NULL_FF, 0x00, 0xff)
+on.attack(27, lbl_48e, NULL_FF, VILLAGER_25, 0xff, 0x00)
+on.attack(31, lbl_4d6, IMELDA_D7, AARON_08, 0x00, 0x00)
+on.attack(32, lbl_4de, NULL_FF, IMELDA_D7, 0xff, 0x00)
 break
 
 # Damage-Triggered Events
@@ -46,20 +46,20 @@ on.damage(49, lbl_6fe, NULL_FF, VILLAGER_25, 0xff, 0x00)
 break
 
 # Position-Triggered Events
-on.bound(9, lbl_367, NPC_SUBUNIT_F1, 8, 9, 38, 22, 0x00, 0x00)
-on.bound(10, lbl_381, NPC_SUBUNIT_F1, 6, 3, 19, 15, 0x00, 0x00)
-on.bound(11, lbl_391, VILLAGER_25, 31, 4, 33, 6, 0x00, 0x00)
-on.bound(12, lbl_3a2, NPC_COMMANDER_F0, 6, 3, 6, 3, 0x00, 0x00)
-on.bound(13, lbl_3d8, AARON_08, 33, 10, 33, 10, 0x00, 0x00)
+on.bound(9, lbl_367, NPC_SUBUNIT_F1, 8, 9, 38, 22)
+on.bound(10, lbl_381, NPC_SUBUNIT_F1, 6, 3, 19, 15)
+on.bound(11, lbl_391, VILLAGER_25, 31, 4, 33, 6)
+on.bound(12, lbl_3a2, NPC_COMMANDER_F0, 6, 3, 6, 3)
+on.bound(13, lbl_3d8, AARON_08, 33, 10, 33, 10)
 break
 
 # Turn-Triggered Events
-on.turn(4, lbl_2af, ENEMY, 1, 0x00)
-on.turn(5, lbl_300, ALLY, 2, 0x00)
-on.turn(6, lbl_312, ENEMY, 10, 0x00)
-on.turn(7, lbl_337, ENEMY, 4, 0x00)
-on.turn(8, lbl_35c, ALLY, 10, 0x00)
-on.turn(3, lbl_361, ENEMY, 0, 0x00)
+on.turn(4, lbl_2af, ENEMY, 1)
+on.turn(5, lbl_300, ALLY, 2)
+on.turn(6, lbl_312, ENEMY, 10)
+on.turn(7, lbl_337, ENEMY, 4)
+on.turn(8, lbl_35c, ALLY, 10)
+on.turn(3, lbl_361, ENEMY, 0)
 break
 
 # Core Events
@@ -105,14 +105,14 @@ lbl_160:
   delay(10)
   cursor.set(ERWIN_01)
   msg(IMELDA_D7, KRAMER_1D, IMELDA_ANGRY, FOLLOW, 7)
-# Kramer! You failed the mission, didn't you!?\0
+# Krämer! You failed the mission, didn't you!?\0
   msg(KRAMER_1D, IMELDA_D7, KNIGHT2_GREEN_DEAD, FOLLOW, 8)
 # I, I'm sorry, General Imelda, but ...\0
   cursor.set(NULL_00)
   focus.point(22, 14, FAST)
   unit.move(IMELDA_D7, 22, 12)
   msg(IMELDA_D7, KRAMER_1D, IMELDA_ANGRY, NOFOLLOW, 9)
-# Kramer! How dare you show your face after failing a mission!\0
+# Krämer! How dare you show your face after failing a mission!\0
   msg(KRAMER_1D, IMELDA_D7, KNIGHT2_GREEN_DEAD, NOFOLLOW, 10)
 # General Imelda! Please give me another chance!\0
   msg(IMELDA_D7, KRAMER_1D, IMELDA_ANGRY, NOFOLLOW, 11)
@@ -139,7 +139,7 @@ lbl_160:
   msg(IMPERIALCOMMANDER_33, DOWN_F5, HIGHLORD_GREEN, FOLLOW, 16)
 # General Imelda! It's their reinforcements!\0
   msg(IMELDA_D7, DOWN_F5, IMELDA, FOLLOW, 17)
-# Shit! That idiot, Kramer!\0
+# Shit! That idiot, Krämer!\0
   bgm(ALLY, ALLY2)
   unit.position(ERWIN_01, PRESET, PRESET)
   unit.showsub(ERWIN_01)
@@ -288,7 +288,7 @@ lbl_3a2:
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 40)
 # You spot a water fowl perched atop a nearby small post.\r\nThe bird is holding a small, glittering stone in its beak.\r\nWhat will you do?\0
   global.sum($0a478e, $07eb5f)
-  prompt.options(lbl_3c5, lbl_3d0, 41, 42, 43, 0x00, 0xf4, 0x00, 0x00)
+  prompt.options(lbl_3c5, lbl_3d0, 41, 42, 43, 0xf4)
 # Startle it\0
 # Reach out\0
 # Ignore it\0

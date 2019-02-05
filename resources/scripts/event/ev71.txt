@@ -1,13 +1,13 @@
 # Movement-Triggered Events
-on.move(19, lbl_44e, LEON_D5, 0, 0xff)
-on.move(24, lbl_4d3, IMPERIALCOMMANDER_34, 1, 0xff)
+on.move(19, lbl_44e, LEON_D5, 0)
+on.move(24, lbl_4d3, IMPERIALCOMMANDER_34, 1)
 break
 
 # Attack-Triggered Events
-on.attack(4, lbl_2b8, ERWIN_01, BERNHARDT_16, 0x00, 0x00, 0xff)
-on.attack(12, lbl_322, LANA_0A, LEON_D5, 0x00, 0x00, 0xff)
-on.attack(13, lbl_33b, LANA_0A, BERNHARDT_16, 0x00, 0x00, 0xff)
-on.attack(17, lbl_432, EGBERT_D8, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(4, lbl_2b8, ERWIN_01, BERNHARDT_16, 0x00, 0x00)
+on.attack(12, lbl_322, LANA_0A, LEON_D5, 0x00, 0x00)
+on.attack(13, lbl_33b, LANA_0A, BERNHARDT_16, 0x00, 0x00)
+on.attack(17, lbl_432, EGBERT_D8, NULL_FF, 0x00, 0xff)
 break
 
 # Damage-Triggered Events
@@ -36,14 +36,14 @@ on.defeat(31, lbl_526, IMPERIALCOMMANDER_82)
 break
 
 # Position-Triggered Events
-on.bound(2, lbl_279, NPC_SUBUNIT_F1, 18, 2, 28, 14, 0x00, 0x00)
-on.bound(3, lbl_27e, NPC_COMMANDER_F0, 12, 5, 12, 5, 0x00, 0x00)
-on.bound(3, lbl_29e, NPC_COMMANDER_F0, 6, 5, 6, 5, 0x00, 0x00)
+on.bound(2, lbl_279, NPC_SUBUNIT_F1, 18, 2, 28, 14)
+on.bound(3, lbl_27e, NPC_COMMANDER_F0, 12, 5, 12, 5)
+on.bound(3, lbl_29e, NPC_COMMANDER_F0, 6, 5, 6, 5)
 break
 
 # Turn-Triggered Events
-on.turn(1, lbl_22c, ALLY, 0, 0x00)
-on.turn(0, lbl_231, ENEMY, 0, 0x00)
+on.turn(1, lbl_22c, ALLY, 0)
+on.turn(0, lbl_231, ENEMY, 0)
 break
 
 # Core Events
@@ -134,9 +134,9 @@ lbl_1d6:
   msg(BOSER_17, BERNHARDT_16, BOSER, FOLLOW, 16)
 # Yes, I'm here.\r\nA good vigour, old man. You'll make this most fun.\0
   msg(BERNHARDT_16, BOSER_17, BERNHARDT, FOLLOW, 17)
-# Boser ...\0
+# Böser ...\0
   msg(ERWIN_01, BOSER_17, ERWIN, FOLLOW, 18)
-# Boser, withdraw. We will handle this.\0
+# Böser, withdraw. We will handle this.\0
   msg(ROHGA_0B, BOSER_17, ROHGA, FOLLOW, 19)
 # Yeah, do you think we can't handle a washed up soldier and his fan club?\0
   msg(BOSER_17, ROHGA_0B, BOSER, FOLLOW, 20)
@@ -222,7 +222,7 @@ lbl_2c6:
 # Im, impossible ...\0
   unit.cleanup()
   msg(BERNHARDT_16, ERWIN_01, BERNHARDT, FOLLOW, 38)
-# Victory here ...? Fate must have been on our side.\r\nOnward to Velzeria and the end of Boser!\0
+# Victory here ...? Fate must have been on our side.\r\nOnward to Velzeria and the end of Böser!\0
   gameover()
 break
 
@@ -370,7 +370,7 @@ lbl_418:
 lbl_41e:
   branch.unit.dead(lbl_428, SONYA_0C)
   msg(SONYA_0C, ERWIN_01, SONYA, FOLLOW, 81)
-# Lord Boser's ideal world will soon arrive, won't it?\0
+# Lord Böser's ideal world will soon arrive, won't it?\0
 lbl_428:
   msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 82)
 # Everyone, this will be our last battle.\r\nGather your will and let us move out!\0
@@ -431,7 +431,7 @@ break
 lbl_4a6:
   unit.cleanup()
   msg(LEON_D5, LANA_0A, LEON_DEAD_2, FOLLOW, 98)
-# I'm sorry, Lana.\0
+# I'm sorry, Lána.\0
 break
 
 lbl_4af:

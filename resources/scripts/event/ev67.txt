@@ -1,16 +1,16 @@
 # Movement-Triggered Events
-on.move(3, lbl_2d8, ERWIN_01, 1, 0xff)
+on.move(3, lbl_2d8, ERWIN_01, 1)
 break
 
 # Attack-Triggered Events
-on.attack(7, lbl_315, SONYA_0C, BOSER_17, 0x00, 0x00, 0xff)
-on.attack(11, lbl_33b, BOSER_17, ERWIN_01, 0x00, 0x00, 0xff)
-on.attack(12, lbl_343, BOSER_17, SONYA_0C, 0x00, 0x00, 0xff)
-on.attack(13, lbl_34b, BOSER_17, BERNHARDT_16, 0x00, 0x00, 0xff)
-on.attack(20, lbl_401, BERNHARDT_16, BOSER_17, 0x00, 0x00, 0xff)
-on.attack(21, lbl_40f, BERNHARDT_16, ERWIN_01, 0x00, 0x00, 0xff)
-on.attack(23, lbl_54a, EGBERT_D8, BOSER_17, 0x00, 0x00, 0xff)
-on.attack(25, lbl_55c, LEON_D5, ERWIN_01, 0x00, 0x00, 0xff)
+on.attack(7, lbl_315, SONYA_0C, BOSER_17, 0x00, 0x00)
+on.attack(11, lbl_33b, BOSER_17, ERWIN_01, 0x00, 0x00)
+on.attack(12, lbl_343, BOSER_17, SONYA_0C, 0x00, 0x00)
+on.attack(13, lbl_34b, BOSER_17, BERNHARDT_16, 0x00, 0x00)
+on.attack(20, lbl_401, BERNHARDT_16, BOSER_17, 0x00, 0x00)
+on.attack(21, lbl_40f, BERNHARDT_16, ERWIN_01, 0x00, 0x00)
+on.attack(23, lbl_54a, EGBERT_D8, BOSER_17, 0x00, 0x00)
+on.attack(25, lbl_55c, LEON_D5, ERWIN_01, 0x00, 0x00)
 break
 
 # Damage-Triggered Events
@@ -36,12 +36,12 @@ on.defeat(30, lbl_5ae, BERNHARDT_16, BOSER_17)
 break
 
 # Position-Triggered Events
-on.bound(1, lbl_29e, NPC_COMMANDER_F0, 15, 9, 15, 9, 0x00, 0x00)
-on.bound(2, lbl_2b8, NPC_COMMANDER_F0, 21, 9, 21, 9, 0x00, 0x00)
+on.bound(1, lbl_29e, NPC_COMMANDER_F0, 15, 9, 15, 9)
+on.bound(2, lbl_2b8, NPC_COMMANDER_F0, 21, 9, 21, 9)
 break
 
 # Turn-Triggered Events
-on.turn(0, lbl_27b, ALLY, 2, 0x00)
+on.turn(0, lbl_27b, ALLY, 2)
 break
 
 # Core Events
@@ -97,7 +97,7 @@ lbl_ea:
   unit.showsub(ERWIN_01)
   cursor.show()
   msg(ERWIN_01, BOSER_17, ERWIN, FOLLOW, 4)
-# Boser, have you unsealed the blade?\0
+# Böser, have you unsealed the blade?\0
   msg(SONYA_0C, BOSER_17, SONYA, FOLLOW, 5)
 # Ah ... Hah hah ... Incredible. Truly the sword of legend.\0
   msg(HEIN_05, BOSER_17, HEIN, FOLLOW, 6)
@@ -134,7 +134,7 @@ lbl_ea:
   msg(ROHGA_0B, BERNHARDT_16, ROHGA, FOLLOW, 13)
 # Didn't we already knock over that wind bag?\0
   msg(EGBERT_D8, ERWIN_01, EGBERT, FOLLOW, 14)
-# Heh heh heh ... It seems you've met my doppelganger.\r\nQuite a spell.\0
+# Heh heh heh ... It seems you've met my doppelgänger.\r\nQuite a spell.\0
   msg(BOSER_17, EGBERT_D8, BOSER, FOLLOW, 15)
 # Hah hah hah ...\r\nI remember when you Imperial scum buckets were so eager to join me.\r\nNow you'll finally taste what you so desperately wanted.\r\nAlhazard will rend your hides and spill your worthless guts.\0
   unit.showsub(BOSER_17)
@@ -162,12 +162,12 @@ lbl_ea:
   branch.mem.global.eq(lbl_26c, $0a4789, $07eb5e)
   branch.mem.global.ne(lbl_24c, $0a4789, $07eb5f)
   msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 23)
-# Boser is worn out from his big ceremonial moment.\r\nThis presents an opportunity. We could take the quacking bastard out for good.\r\nWe can take him out with the Imperials. Neither stands any chance.\0
+# Böser is worn out from his big ceremonial moment.\r\nThis presents an opportunity. We could take the quacking bastard out for good.\r\nWe can take him out with the Imperials. Neither stands any chance.\0
   subroutine(lbl_6be)
   goto(lbl_269)
 lbl_24c:
   msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 24)
-# We can't let the Empire lay their wretched hands on Langrisser.\r\nOn the other hand, Boser is a wreck from that ancient ritual.\r\nNow we can work with the Empire and finish him. What do you say?\0
+# We can't let the Empire lay their wretched hands on Langrisser.\r\nOn the other hand, Böser is a wreck from that ancient ritual.\r\nNow we can work with the Empire and finish him. What do you say?\0
   prompt.ok(lbl_260)
   subroutine(lbl_6be)
   goto(lbl_269)
@@ -191,9 +191,9 @@ lbl_27b:
   branch.unit.dead(lbl_29c, SONYA_0C)
   branch.unit.dead(lbl_296, BOSER_17)
   msg(SONYA_0C, ERWIN_01, SONYA, FOLLOW, 28)
-# Hey _NAME_, Esto and Osto aren't truly evil monsters!\r\nI think they'll help us if we can defeat Boser.\0
+# Hey _NAME_, Esto and Osto aren't truly evil monsters!\r\nI think they'll help us if we can defeat Böser.\0
   msg(ERWIN_01, SONYA_0C, ERWIN, FOLLOW, 29)
-# I see. So you think Boser is controlling them?\0
+# I see. So you think Böser is controlling them?\0
   goto(lbl_29c)
 lbl_296:
   msg(SONYA_0C, ERWIN_01, SONYA, FOLLOW, 30)
@@ -228,14 +228,14 @@ break
 lbl_2d8:
   branch.mem.global.ne(lbl_2e2, $0a4794, $07eb58)
   msg(ERWIN_01, DOWN_F5, ERWIN, NOFOLLOW, 36)
-# Neither Bernhardt or Boser will stand against me!\r\nLangrisser and Alhazard, with you as my tools, ... I will bring an era of order!\0
+# Neither Bernhardt or Böser will stand against me!\r\nLangrisser and Alhazard, with you as my tools, ... I will bring an era of order!\0
 lbl_2e2:
 break
 
 lbl_2e4:
   branch.mem.global.ne(lbl_2f1, $0a4794, $07eb58)
   msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 37)
-# Would making an enemy of Boser do me any good?\0
+# Would making an enemy of Böser do me any good?\0
   goto(lbl_301)
 lbl_2f1:
   msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 38)
@@ -323,11 +323,11 @@ lbl_386:
   unit.refresh()
   branch.unit.dead(lbl_39e, SONYA_0C)
   msg(SONYA_0C, ESTO_11, SONYA, FOLLOW, 133)
-# Can you hear me? Boser's spell has broken.\r\nRight now, I'm fighting for a world where humans and monsters will live peacefully.\r\nPlease, please, lend us your power!\0
+# Can you hear me? Böser's spell has broken.\r\nRight now, I'm fighting for a world where humans and monsters will live peacefully.\r\nPlease, please, lend us your power!\0
   goto(lbl_3a4)
 lbl_39e:
   msg(SONYA_0C, UP_F4, SONYA_DEAD, NOFOLLOW, 133)
-# Can you hear me? Boser's spell has broken.\r\nRight now, I'm fighting for a world where humans and monsters will live peacefully.\r\nPlease, please, lend us your power!\0
+# Can you hear me? Böser's spell has broken.\r\nRight now, I'm fighting for a world where humans and monsters will live peacefully.\r\nPlease, please, lend us your power!\0
 lbl_3a4:
   branch.unit.dead(lbl_3b1, OSTO_12)
   msg(OSTO_12, SONYA_0C, OSTO, FOLLOW, 134)
@@ -425,7 +425,7 @@ lbl_467:
   msg(LIANA_02, DOWN_F5, LIANA, FOLLOW, 74)
 # Ugh ... Uugghh!\0
   msg(DARKPRINCESS_15, BOSER_17, DARKPRINCESS, FOLLOW, 75)
-# Yes, Master Boser ...\r\nAlhazard ... has it been unlocked?\0
+# Yes, Master Böser ...\r\nAlhazard ... has it been unlocked?\0
   branch.unit.dead(lbl_480, BOSER_17)
   msg(BOSER_17, DARKPRINCESS_15, BOSER, FOLLOW, 135)
 # Dark Princess, with your help, the Glory of Darkness has been restored.\r\nYou have my sincerest appreciation.\0
@@ -453,7 +453,7 @@ lbl_4a9:
   msg(LIANA_02, BOSER_17, LIANA_SAD, FOLLOW, 79)
 # No ... Aaahhh ...! This world will be drenched in misery!\0
   msg(ERWIN_01, BOSER_17, ERWIN, FOLLOW, 80)
-# By the way Boser, what will you do with Liana now?\r\nSurely you don't intend ...\0
+# By the way Böser, what will you do with Liana now?\r\nSurely you don't intend ...\0
   branch.unit.dead(lbl_4c8, BOSER_17)
   msg(BOSER_17, ERWIN_01, BOSER, FOLLOW, 137)
 # Don't worry yourself, I have no reason to kill her.\r\nIn truth, she may still be of use to us ...\r\nDithum Aynde Kaotik Deorc On Kantrelu!\0
@@ -476,7 +476,7 @@ lbl_4ce:
   msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 82)
 # Liana!\0
   msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 83)
-# Don't worry, _NAME_.\r\nBoser and Sister ... By acquiring their power, I may redeem myself.\0
+# Don't worry, _NAME_.\r\nBöser and Sister ... By acquiring their power, I may redeem myself.\0
   msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 84)
 # ...!?\0
   branch.unit.dead(lbl_509, BOSER_17)
@@ -570,7 +570,7 @@ lbl_5ae:
   scenarioclear()
   branch.mem.global.ne(lbl_6bc, $0a4794, $07eb58)
   msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 100)
-# Hah hah hah!\r\nHow can this be? We've grown so ridiculously, ridiculously ... powerful!\r\nWe've crushed the Imperials, shattered the Descendants, and torn Boser to shreds.\r\nAnd our reward ...? Not one, but both legendary swords. Unbelievable!\0
+# Hah hah hah!\r\nHow can this be? We've grown so ridiculously, ridiculously ... powerful!\r\nWe've crushed the Imperials, shattered the Descendants, and torn Böser to shreds.\r\nAnd our reward ...? Not one, but both legendary swords. Unbelievable!\0
   branch.unit.dead(lbl_5c4, HEIN_05)
   msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 101)
 # We did it, _NAME_!\0
@@ -589,16 +589,16 @@ lbl_5d8:
 # Th, this place is ...? Huh, Liana? Are you okay, Liana?\0
   branch.unit.dead(lbl_5f1, SONYA_0C)
   msg(SONYA_0C, LIANA_02, SONYA, FOLLOW, 106)
-# Now that we've defeated Boser, his control over the maidens should soon dissipate.\0
+# Now that we've defeated Böser, his control over the maidens should soon dissipate.\0
   goto(lbl_5f7)
 lbl_5f1:
   msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 107)
-# With Boser defeated, shouldn't his mind control wear off soon?\0
+# With Böser defeated, shouldn't his mind control wear off soon?\0
 lbl_5f7:
   msg(LIANA_02, DARKPRINCESS_15, LIANA, FOLLOW, 108)
-# Sister Lana ... Why am I ...? Al, Alhazard?\0
+# Sister Lána ... Why am I ...? Al, Alhazard?\0
   msg(ERWIN_01, LIANA_02, ERWIN, FOLLOW, 109)
-# Alhazard is here. Boser is already dead.\0
+# Alhazard is here. Böser is already dead.\0
   branch.unit.dead(lbl_60d, HEIN_05)
   msg(HEIN_05, LIANA_02, HEIN, FOLLOW, 110)
 # We've defeated him!\0
@@ -671,19 +671,19 @@ break
 
 lbl_6be:
   msg(ERWIN_01, HEIN_05, ERWIN, FOLLOW, 139)
-# We will take this opportunity to finish things.\r\nWe shall hunt down the Imperial stragglers and annihilate them!\r\nAlso, Hein, Rohga, listen to me! We have no reason to pay Boser any heed.\r\nIf we defeat him swiftly, Alhazard will fall to us!\0
+# We will take this opportunity to finish things.\r\nWe shall hunt down the Imperial stragglers and annihilate them!\r\nAlso, Hein, Rohga, listen to me! We have no reason to pay Böser any heed.\r\nIf we defeat him swiftly, Alhazard will fall to us!\0
   msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 140)
 # What!?\0
   msg(SONYA_0C, ERWIN_01, SONYA, FOLLOW, 141)
-# I'll give you one chance to return to Boser!\r\nOtherwise, from here on, we are enemies.\0
+# I'll give you one chance to return to Böser!\r\nOtherwise, from here on, we are enemies.\0
   msg(ROHGA_0B, SONYA_0C, ROHGA, FOLLOW, 142)
 # Hey now, Sonya! I'd rather not fight you ... How about joining us?\0
   msg(SONYA_0C, ROHGA_0B, SONYA, FOLLOW, 143)
-# Is Brother telling me to betray Master Boser!?\0
+# Is Brother telling me to betray Master Böser!?\0
   msg(ROHGA_0B, SONYA_0C, ROHGA, FOLLOW, 144)
-# When we obtain Alhazard, humans and monsters may be able to co-exist.\r\nBoser only wants a world for monsters, while the Empire only a world for humans.\r\nHowever, we have the ability to establish a world where both can live.\r\nDon't you think that's the best solution?\0
+# When we obtain Alhazard, humans and monsters may be able to co-exist.\r\nBöser only wants a world for monsters, while the Empire only a world for humans.\r\nHowever, we have the ability to establish a world where both can live.\r\nDon't you think that's the best solution?\0
   msg(SONYA_0C, ROHGA_0B, SONYA, FOLLOW, 145)
-# I want to live with brother Rohga too. But Boser's power is ...\0
+# I want to live with brother Rohga too. But Böser's power is ...\0
   msg(ROHGA_0B, SONYA_0C, ROHGA, FOLLOW, 146)
 # Don't worry. We're going to gut his Royal Dark One's ass.\r\nThe people who tie you up aren't touching my little sister without losing their heads.\0
   msg(SONYA_0C, ROHGA_0B, SONYA, FOLLOW, 147)

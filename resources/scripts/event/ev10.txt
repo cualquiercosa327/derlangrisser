@@ -1,33 +1,33 @@
 # Movement-Triggered Events
-on.move(27, lbl_4e1, ROHGA_0B, 1, 0xff)
-on.move(0, lbl_4f5, ROHGA_0B, 0, 0xff)
-on.move(31, lbl_51d, CHERIE_04, 0, 0xff)
-on.move(1, lbl_52b, CHERIE_04, 0, 0xff)
-on.move(34, lbl_5a9, PRIEST_24, 0, 0xff)
-on.move(36, lbl_619, MORGAN_1B, 10, 0xff)
-on.move(50, lbl_6ef, IMPERIALCOMMANDER_31, 0, 0xff)
-on.move(55, lbl_713, IMPERIALCOMMANDER_33, 0, 0xff)
+on.move(27, lbl_4e1, ROHGA_0B, 1)
+on.move(0, lbl_4f5, ROHGA_0B, 0)
+on.move(31, lbl_51d, CHERIE_04, 0)
+on.move(1, lbl_52b, CHERIE_04, 0)
+on.move(34, lbl_5a9, PRIEST_24, 0)
+on.move(36, lbl_619, MORGAN_1B, 10)
+on.move(50, lbl_6ef, IMPERIALCOMMANDER_31, 0)
+on.move(55, lbl_713, IMPERIALCOMMANDER_33, 0)
 break
 
 # Attack-Triggered Events
-on.attack(16, lbl_42b, ERWIN_01, LIANA_02, 0x00, 0xff, 0xff)
-on.attack(18, lbl_43d, HEIN_05, LIANA_02, 0x00, 0xff, 0xff)
-on.attack(20, lbl_44d, LIANA_02, SCOTT_06, 0xff, 0x00, 0xff)
-on.attack(22, lbl_45d, NULL_FF, LIANA_02, 0xff, 0x00, 0xff)
-on.attack(24, lbl_475, ERWIN_01, LIANA_02, 0x00, 0x00, 0xff)
-on.attack(24, lbl_47a, HEIN_05, LIANA_02, 0x00, 0x00, 0xff)
-on.attack(24, lbl_47f, SCOTT_06, LIANA_02, 0x00, 0x00, 0xff)
-on.attack(25, lbl_484, LIANA_02, ERWIN_01, 0x00, 0x00, 0xff)
-on.attack(3, lbl_498, LIANA_02, ERWIN_01, 0x00, 0xff, 0xff)
-on.attack(28, lbl_4fd, ROHGA_0B, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(32, lbl_595, CHERIE_04, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(37, lbl_5d6, NULL_FF, PRIEST_75, 0xff, 0x00, 0xff)
-on.attack(39, lbl_5fc, ZORUM_1A, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(40, lbl_604, NULL_FF, ZORUM_1A, 0xff, 0x00, 0xff)
-on.attack(45, lbl_6a6, NULL_FF, MORGAN_1B, 0xff, 0x00, 0xff)
-on.attack(46, lbl_6ae, MORGAN_1B, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(51, lbl_6f7, IMPERIALCOMMANDER_31, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(56, lbl_71b, IMPERIALCOMMANDER_33, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(16, lbl_42b, ERWIN_01, LIANA_02, 0x00, 0xff)
+on.attack(18, lbl_43d, HEIN_05, LIANA_02, 0x00, 0xff)
+on.attack(20, lbl_44d, LIANA_02, SCOTT_06, 0xff, 0x00)
+on.attack(22, lbl_45d, NULL_FF, LIANA_02, 0xff, 0x00)
+on.attack(24, lbl_475, ERWIN_01, LIANA_02, 0x00, 0x00)
+on.attack(24, lbl_47a, HEIN_05, LIANA_02, 0x00, 0x00)
+on.attack(24, lbl_47f, SCOTT_06, LIANA_02, 0x00, 0x00)
+on.attack(25, lbl_484, LIANA_02, ERWIN_01, 0x00, 0x00)
+on.attack(3, lbl_498, LIANA_02, ERWIN_01, 0x00, 0xff)
+on.attack(28, lbl_4fd, ROHGA_0B, NULL_FF, 0x00, 0xff)
+on.attack(32, lbl_595, CHERIE_04, NULL_FF, 0x00, 0xff)
+on.attack(37, lbl_5d6, NULL_FF, PRIEST_75, 0xff, 0x00)
+on.attack(39, lbl_5fc, ZORUM_1A, NULL_FF, 0x00, 0xff)
+on.attack(40, lbl_604, NULL_FF, ZORUM_1A, 0xff, 0x00)
+on.attack(45, lbl_6a6, NULL_FF, MORGAN_1B, 0xff, 0x00)
+on.attack(46, lbl_6ae, MORGAN_1B, NULL_FF, 0x00, 0xff)
+on.attack(51, lbl_6f7, IMPERIALCOMMANDER_31, NULL_FF, 0x00, 0xff)
+on.attack(56, lbl_71b, IMPERIALCOMMANDER_33, NULL_FF, 0x00, 0xff)
 break
 
 # Damage-Triggered Events
@@ -61,19 +61,19 @@ on.damage(54, lbl_8f3, NULL_FF, IMPERIALCOMMANDER_32, 0xff, 0x00)
 break
 
 # Position-Triggered Events
-on.bound(13, lbl_3d7, NPC_SUBUNIT_F1, 5, 22, 32, 35, 0x00, 0x00)
-on.bound(15, lbl_40b, NPC_COMMANDER_F0, 2, 30, 2, 30, 0x00, 0x00)
+on.bound(13, lbl_3d7, NPC_SUBUNIT_F1, 5, 22, 32, 35)
+on.bound(15, lbl_40b, NPC_COMMANDER_F0, 2, 30, 2, 30)
 break
 
 # Turn-Triggered Events
-on.turn(4, lbl_2cb, ENEMY, 1, 0x00)
-on.turn(5, lbl_301, ALLY, 2, 0x00)
-on.turn(6, lbl_337, ALLY, 8, 0x00)
-on.turn(7, lbl_370, ENEMY, 10, 0x00)
-on.turn(8, lbl_38c, ALLY, 12, 0x00)
-on.turn(9, lbl_391, ALLY, 3, 0x00)
-on.turn(10, lbl_3c3, ALLY, 7, 0x00)
-on.turn(11, lbl_3cf, ALLY, 6, 0x00)
+on.turn(4, lbl_2cb, ENEMY, 1)
+on.turn(5, lbl_301, ALLY, 2)
+on.turn(6, lbl_337, ALLY, 8)
+on.turn(7, lbl_370, ENEMY, 10)
+on.turn(8, lbl_38c, ALLY, 12)
+on.turn(9, lbl_391, ALLY, 3)
+on.turn(10, lbl_3c3, ALLY, 7)
+on.turn(11, lbl_3cf, ALLY, 6)
 break
 
 # Core Events
@@ -455,7 +455,7 @@ lbl_52b:
 # Okay, thanks.\0
   msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 92)
 # So, what should I do?\0
-  prompt.options(lbl_568, lbl_587, 93, 94, 95, 0x00, 0xf6, 0x00, 0x00)
+  prompt.options(lbl_568, lbl_587, 93, 94, 95, 0xf6)
 # Protect the right entrance\0
 # Protect the left entrance\0
 # Stay where you are\0

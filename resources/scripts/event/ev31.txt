@@ -1,23 +1,23 @@
 # Movement-Triggered Events
-on.move(24, lbl_34d, LEON_D5, 0, 0xff)
+on.move(24, lbl_34d, LEON_D5, 0)
 break
 
 # Attack-Triggered Events
-on.attack(5, lbl_281, ERWIN_01, BERNHARDT_16, 0x00, 0x00, 0xff)
-on.attack(8, lbl_2ad, HEIN_05, BERNHARDT_16, 0x00, 0x00, 0xff)
-on.attack(10, lbl_2bd, CHERIE_04, BERNHARDT_16, 0x00, 0x00, 0xff)
-on.attack(12, lbl_2cd, KEITH_07, BERNHARDT_16, 0x00, 0x00, 0xff)
-on.attack(14, lbl_2e3, LESTER_09, BERNHARDT_16, 0x00, 0x00, 0xff)
-on.attack(16, lbl_2f3, LIANA_02, BERNHARDT_16, 0x00, 0x00, 0xff)
-on.attack(18, lbl_309, LANA_03, LEON_0D, 0x00, 0x00, 0xff)
-on.attack(16, lbl_317, LANA_03, BERNHARDT_16, 0x00, 0x00, 0xff)
-on.attack(20, lbl_32d, JESSICA_14, BERNHARDT_16, 0x00, 0x00, 0xff)
-on.attack(22, lbl_33d, SCOTT_06, BERNHARDT_16, 0x00, 0x00, 0xff)
-on.attack(26, lbl_3a8, JESSICA_14, EGBERT_D8, 0x00, 0x00, 0xff)
-on.attack(27, lbl_3b6, JESSICA_14, EGBERT_D8, 0xff, 0x00, 0xff)
-on.attack(28, lbl_3be, EGBERT_D8, JESSICA_14, 0x00, 0x00, 0xff)
-on.attack(30, lbl_3f3, VAMPIRELORD_4F, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(38, lbl_433, NULL_FF, BERNHARDT_16, 0xff, 0x00, 0xff)
+on.attack(5, lbl_281, ERWIN_01, BERNHARDT_16, 0x00, 0x00)
+on.attack(8, lbl_2ad, HEIN_05, BERNHARDT_16, 0x00, 0x00)
+on.attack(10, lbl_2bd, CHERIE_04, BERNHARDT_16, 0x00, 0x00)
+on.attack(12, lbl_2cd, KEITH_07, BERNHARDT_16, 0x00, 0x00)
+on.attack(14, lbl_2e3, LESTER_09, BERNHARDT_16, 0x00, 0x00)
+on.attack(16, lbl_2f3, LIANA_02, BERNHARDT_16, 0x00, 0x00)
+on.attack(18, lbl_309, LANA_03, LEON_0D, 0x00, 0x00)
+on.attack(16, lbl_317, LANA_03, BERNHARDT_16, 0x00, 0x00)
+on.attack(20, lbl_32d, JESSICA_14, BERNHARDT_16, 0x00, 0x00)
+on.attack(22, lbl_33d, SCOTT_06, BERNHARDT_16, 0x00, 0x00)
+on.attack(26, lbl_3a8, JESSICA_14, EGBERT_D8, 0x00, 0x00)
+on.attack(27, lbl_3b6, JESSICA_14, EGBERT_D8, 0xff, 0x00)
+on.attack(28, lbl_3be, EGBERT_D8, JESSICA_14, 0x00, 0x00)
+on.attack(30, lbl_3f3, VAMPIRELORD_4F, NULL_FF, 0x00, 0xff)
+on.attack(38, lbl_433, NULL_FF, BERNHARDT_16, 0xff, 0x00)
 break
 
 # Damage-Triggered Events
@@ -47,9 +47,9 @@ break
 break
 
 # Turn-Triggered Events
-on.turn(2, lbl_23a, ENEMY, 8, 0x00)
-on.turn(3, lbl_23f, ENEMY, 1, 0x00)
-on.turn(0, lbl_247, ENEMY, 0, 0x00)
+on.turn(2, lbl_23a, ENEMY, 8)
+on.turn(3, lbl_23f, ENEMY, 1)
+on.turn(0, lbl_247, ENEMY, 0)
 break
 
 # Core Events
@@ -366,7 +366,7 @@ lbl_3d6:
 # Egbert ... Why couldn't you have waited?\0
   branch.unit.dead(lbl_3f1, JESSICA_14)
   msg(JESSICA_14, DOWN_F5, JESSICA_SAD, FOLLOW, 70)
-# Egbert knew of Boser's imminent return.\r\nThe finding of a power to rival Chaos must have weighed heavily on his mind ...\r\nFor that reason, he dabbled in the forbidden arts. He wanted to seek out ancient and powerful magic.\r\nHe lost his soul ... His flesh became warped and decayed.\r\nBut, he accepted those costs ... All for the sake of helping Bernhardt.\0
+# Egbert knew of Böser's imminent return.\r\nThe finding of a power to rival Chaos must have weighed heavily on his mind ...\r\nFor that reason, he dabbled in the forbidden arts. He wanted to seek out ancient and powerful magic.\r\nHe lost his soul ... His flesh became warped and decayed.\r\nBut, he accepted those costs ... All for the sake of helping Bernhardt.\0
   msg(LESTER_09, DOWN_F5, LESTER_SAD, FOLLOW, 71)
 # I see. Such a rash act ...\r\nSuch a fool ...!\0
 lbl_3f1:
@@ -477,15 +477,15 @@ lbl_4d2:
   msg(LANA_03, LEON_D5, LANA, FOLLOW, 96)
 # Leon!\0
   msg(LEON_D5, LANA_03, LEON_DEAD, FOLLOW, 97)
-# I'm sorry, Lana ...\r\nUntil my death, I want to remain true to what I've believed in.\0
+# I'm sorry, Lána ...\r\nUntil my death, I want to remain true to what I've believed in.\0
   msg(LANA_03, LEON_D5, LANA, FOLLOW, 98)
 # Leon-- I'll go, too! I want to be with you!\0
   branch.unit.dead(lbl_4f2, LIANA_02)
   msg(LIANA_02, LANA_03, LIANA, FOLLOW, 99)
-# Lana, no! You mustn't take your own life!\0
+# Lána, no! You mustn't take your own life!\0
 lbl_4f2:
   msg(LEON_D5, LANA_03, LEON_DEAD, FOLLOW, 100)
-# I'm sorry ... I can't let you do that, my Dark Princess.\r\nThank you and ... Goodbye Lana, my sweet love ...\0
+# I'm sorry ... I can't let you do that, my Dark Princess.\r\nThank you and ... Goodbye Lána, my sweet love ...\0
   msg(LANA_03, LEON_D5, LANA, FOLLOW, 101)
 # No ... No! Leon!\r\nNooooo!\0
 lbl_4fe:

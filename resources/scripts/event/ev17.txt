@@ -1,15 +1,15 @@
 # Movement-Triggered Events
-on.move(20, lbl_32d, VARGAS_D6, 0, 0xff)
-on.move(2, lbl_442, ZORUM_1A, 0, 0xff)
-on.move(3, lbl_490, IMPERIALCOMMANDER_35, 0, 0xff)
-on.move(4, lbl_4b5, IMPERIALCOMMANDER_36, 0, 0xff)
-on.move(5, lbl_4e4, IMPERIALCOMMANDER_37, 0, 0xff)
-on.move(10, lbl_4f4, IMPERIALCOMMANDER_38, 0, 0xff)
+on.move(20, lbl_32d, VARGAS_D6, 0)
+on.move(2, lbl_442, ZORUM_1A, 0)
+on.move(3, lbl_490, IMPERIALCOMMANDER_35, 0)
+on.move(4, lbl_4b5, IMPERIALCOMMANDER_36, 0)
+on.move(5, lbl_4e4, IMPERIALCOMMANDER_37, 0)
+on.move(10, lbl_4f4, IMPERIALCOMMANDER_38, 0)
 break
 
 # Attack-Triggered Events
-on.attack(22, lbl_399, VARGAS_D6, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(22, lbl_39e, NULL_FF, VARGAS_D6, 0xff, 0x00, 0xff)
+on.attack(22, lbl_399, VARGAS_D6, NULL_FF, 0x00, 0xff)
+on.attack(22, lbl_39e, NULL_FF, VARGAS_D6, 0xff, 0x00)
 break
 
 # Damage-Triggered Events
@@ -35,15 +35,15 @@ on.defeat(21, lbl_530, IMPERIALCOMMANDER_32, IMPERIALCOMMANDER_33, IMPERIALCOMMA
 break
 
 # Position-Triggered Events
-on.bound(8, lbl_2c7, NPC_SUBUNIT_F1, 8, 16, 18, 29, 0x00, 0x00)
-on.bound(9, lbl_2cf, NPC_SUBUNIT_F1, 16, 16, 30, 29, 0x00, 0x00)
-on.bound(11, lbl_2d4, NPC_SUBUNIT_F1, 1, 14, 30, 25, 0x00, 0x00)
-on.bound(12, lbl_2d9, NPC_COMMANDER_F0, 25, 28, 25, 28, 0x00, 0x00)
+on.bound(8, lbl_2c7, NPC_SUBUNIT_F1, 8, 16, 18, 29)
+on.bound(9, lbl_2cf, NPC_SUBUNIT_F1, 16, 16, 30, 29)
+on.bound(11, lbl_2d4, NPC_SUBUNIT_F1, 1, 14, 30, 25)
+on.bound(12, lbl_2d9, NPC_COMMANDER_F0, 25, 28, 25, 28)
 break
 
 # Turn-Triggered Events
-on.turn(6, lbl_23e, ENEMY, 1, 0x00)
-on.turn(7, lbl_27d, ALLY, 2, 0x00)
+on.turn(6, lbl_23e, ENEMY, 1)
+on.turn(7, lbl_27d, ALLY, 2)
 break
 
 # Core Events

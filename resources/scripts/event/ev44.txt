@@ -1,33 +1,33 @@
 # Movement-Triggered Events
-on.move(28, lbl_567, IMELDA_0F, 0, 0xff)
-on.move(5, lbl_5c2, LESTER_D1, 0, 0xff)
-on.move(44, lbl_798, COMMANDER_23, 1, 0xff)
-on.move(3, lbl_7c3, COMMANDER_83, 0, 0xff)
-on.move(4, lbl_7db, COMMANDER_84, 0, 0xff)
-on.move(52, lbl_801, KEITH_CF, 0, 0xff)
-on.move(55, lbl_845, COMMANDER_86, 0, 0xff)
+on.move(28, lbl_567, IMELDA_0F, 0)
+on.move(5, lbl_5c2, LESTER_D1, 0)
+on.move(44, lbl_798, COMMANDER_23, 1)
+on.move(3, lbl_7c3, COMMANDER_83, 0)
+on.move(4, lbl_7db, COMMANDER_84, 0)
+on.move(52, lbl_801, KEITH_CF, 0)
+on.move(55, lbl_845, COMMANDER_86, 0)
 break
 
 # Attack-Triggered Events
-on.attack(18, lbl_50a, ERWIN_01, KEITH_CF, 0x00, 0x00, 0xff)
-on.attack(19, lbl_521, ERWIN_01, LESTER_D1, 0x00, 0xff, 0xff)
-on.attack(22, lbl_537, HEIN_05, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(24, lbl_547, NULL_FF, ROHGA_0B, 0xff, 0x00, 0xff)
-on.attack(26, lbl_557, NULL_FF, LEON_0D, 0xff, 0x00, 0xff)
-on.attack(30, lbl_580, IMELDA_0F, LESTER_D1, 0x00, 0x00, 0xff)
-on.attack(32, lbl_591, IMELDA_0F, KEITH_CF, 0x00, 0x00, 0xff)
-on.attack(31, lbl_5a2, IMELDA_0F, KEITH_CF, 0x00, 0xff, 0xff)
-on.attack(36, lbl_5d6, LESTER_D1, ERWIN_01, 0x00, 0xff, 0xff)
-on.attack(37, lbl_5de, LESTER_D1, ERWIN_01, 0x00, 0x00, 0xff)
-on.attack(41, lbl_785, NULL_FF, COMMANDER_22, 0xff, 0x00, 0xff)
-on.attack(45, lbl_7ac, COMMANDER_23, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(47, lbl_7cb, COMMANDER_83, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(49, lbl_7e3, NULL_FF, COMMANDER_84, 0xff, 0x00, 0xff)
-on.attack(50, lbl_7ee, COMMANDER_84, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(33, lbl_81c, KEITH_CF, ERWIN_01, 0x00, 0xff, 0xff)
-on.attack(53, lbl_824, KEITH_CF, ERWIN_01, 0x00, 0x00, 0xff)
-on.attack(56, lbl_84d, COMMANDER_86, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(60, lbl_86e, COMMANDER_88, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(18, lbl_50a, ERWIN_01, KEITH_CF, 0x00, 0x00)
+on.attack(19, lbl_521, ERWIN_01, LESTER_D1, 0x00, 0xff)
+on.attack(22, lbl_537, HEIN_05, NULL_FF, 0x00, 0xff)
+on.attack(24, lbl_547, NULL_FF, ROHGA_0B, 0xff, 0x00)
+on.attack(26, lbl_557, NULL_FF, LEON_0D, 0xff, 0x00)
+on.attack(30, lbl_580, IMELDA_0F, LESTER_D1, 0x00, 0x00)
+on.attack(32, lbl_591, IMELDA_0F, KEITH_CF, 0x00, 0x00)
+on.attack(31, lbl_5a2, IMELDA_0F, KEITH_CF, 0x00, 0xff)
+on.attack(36, lbl_5d6, LESTER_D1, ERWIN_01, 0x00, 0xff)
+on.attack(37, lbl_5de, LESTER_D1, ERWIN_01, 0x00, 0x00)
+on.attack(41, lbl_785, NULL_FF, COMMANDER_22, 0xff, 0x00)
+on.attack(45, lbl_7ac, COMMANDER_23, NULL_FF, 0x00, 0xff)
+on.attack(47, lbl_7cb, COMMANDER_83, NULL_FF, 0x00, 0xff)
+on.attack(49, lbl_7e3, NULL_FF, COMMANDER_84, 0xff, 0x00)
+on.attack(50, lbl_7ee, COMMANDER_84, NULL_FF, 0x00, 0xff)
+on.attack(33, lbl_81c, KEITH_CF, ERWIN_01, 0x00, 0xff)
+on.attack(53, lbl_824, KEITH_CF, ERWIN_01, 0x00, 0x00)
+on.attack(56, lbl_84d, COMMANDER_86, NULL_FF, 0x00, 0xff)
+on.attack(60, lbl_86e, COMMANDER_88, NULL_FF, 0x00, 0xff)
 break
 
 # Damage-Triggered Events
@@ -56,23 +56,23 @@ on.defeat(10, lbl_8b9, COMMANDER_23, COMMANDER_84)
 break
 
 # Position-Triggered Events
-on.bound(14, lbl_4b7, NPC_SUBUNIT_F1, 20, 2, 33, 22, 0x00, 0x00)
-on.bound(15, lbl_4bc, NPC_COMMANDER_F0, 37, 2, 37, 2, 0x00, 0x00)
-on.bound(16, lbl_4be, NPC_COMMANDER_F0, 37, 2, 37, 2, 0x00, 0x00)
-on.bound(17, lbl_4fb, ERWIN_01, 33, 17, 33, 17, 0x00, 0x00)
+on.bound(14, lbl_4b7, NPC_SUBUNIT_F1, 20, 2, 33, 22)
+on.bound(15, lbl_4bc, NPC_COMMANDER_F0, 37, 2, 37, 2)
+on.bound(16, lbl_4be, NPC_COMMANDER_F0, 37, 2, 37, 2)
+on.bound(17, lbl_4fb, ERWIN_01, 33, 17, 33, 17)
 break
 
 # Turn-Triggered Events
-on.turn(6, lbl_36c, ALLY, 2, 0x00)
-on.turn(7, lbl_380, ENEMY, 6, 0x00)
-on.turn(8, lbl_3ca, ENEMY, 13, 0x00)
-on.turn(9, lbl_3e4, ENEMY, 17, 0x00)
-on.turn(11, lbl_442, ALLY, 6, 0x00)
-on.turn(12, lbl_485, ENEMY, 5, 0x00)
-on.turn(13, lbl_48a, ENEMY, 19, 0x00)
-on.turn(0, lbl_49f, ENEMY, 0, 0x00)
-on.turn(1, lbl_4ad, ENEMY, 0, 0x00)
-on.turn(2, lbl_4b2, ALLY, 0, 0x00)
+on.turn(6, lbl_36c, ALLY, 2)
+on.turn(7, lbl_380, ENEMY, 6)
+on.turn(8, lbl_3ca, ENEMY, 13)
+on.turn(9, lbl_3e4, ENEMY, 17)
+on.turn(11, lbl_442, ALLY, 6)
+on.turn(12, lbl_485, ENEMY, 5)
+on.turn(13, lbl_48a, ENEMY, 19)
+on.turn(0, lbl_49f, ENEMY, 0)
+on.turn(1, lbl_4ad, ENEMY, 0)
+on.turn(2, lbl_4b2, ALLY, 0)
 break
 
 # Core Events
@@ -363,7 +363,7 @@ lbl_4be:
   unit.cleanup()
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 64)
 # In the forest, you find a wooden platform boxed in by trees.\r\nThere appears to be a small sprite sitting nearby.\r\nWhat will you do to it?\0
-  prompt.options(lbl_4e7, lbl_4f0, 65, 66, 67, 0x00, 0xf4, 0x00, 0x00)
+  prompt.options(lbl_4e7, lbl_4f0, 65, 66, 67, 0xf4)
 # Try to make it laugh.\0
 # Scare it away\0
 # Don't say anything\0
@@ -563,7 +563,7 @@ lbl_630:
 lbl_655:
   msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 108)
 # That means a lot to me, Leon. However, just exactly what am I fighting for ...?\0
-  prompt.options(lbl_697, lbl_6d3, 109, 110, 111, 0x00, 0xf4, 0x00, 0x00)
+  prompt.options(lbl_697, lbl_6d3, 109, 110, 111, 0xf4)
 # To end all wars\0
 # To obtain power\0
 # I don't know yet ...\0

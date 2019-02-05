@@ -1,20 +1,20 @@
 # Movement-Triggered Events
-on.move(35, lbl_747, LEON_D5, 0, 0xff)
-on.move(39, lbl_773, ROHGA_D3, 1, 0xff)
-on.move(44, lbl_7b6, IMPERIALCOMMANDER_31, 1, 0xff)
-on.move(47, lbl_7ed, IMPERIALCOMMANDER_32, 1, 0xff)
-on.move(4, lbl_81c, IMPERIALCOMMANDER_33, 0, 0xff)
-on.move(51, lbl_85c, IMPERIALCOMMANDER_35, 1, 0xff)
-on.move(53, lbl_876, IMPERIALCOMMANDER_36, 1, 0xff)
+on.move(35, lbl_747, LEON_D5, 0)
+on.move(39, lbl_773, ROHGA_D3, 1)
+on.move(44, lbl_7b6, IMPERIALCOMMANDER_31, 1)
+on.move(47, lbl_7ed, IMPERIALCOMMANDER_32, 1)
+on.move(4, lbl_81c, IMPERIALCOMMANDER_33, 0)
+on.move(51, lbl_85c, IMPERIALCOMMANDER_35, 1)
+on.move(53, lbl_876, IMPERIALCOMMANDER_36, 1)
 break
 
 # Attack-Triggered Events
-on.attack(25, lbl_699, ERWIN_01, ROHGA_D3, 0x00, 0x00, 0xff)
-on.attack(36, lbl_74f, LEON_D5, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(37, lbl_757, NULL_FF, LEON_D5, 0xff, 0x00, 0xff)
-on.attack(40, lbl_77d, ROHGA_D3, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(41, lbl_785, ERWIN_01, ROHGA_D3, 0xff, 0x00, 0xff)
-on.attack(45, lbl_7d3, IMPERIALCOMMANDER_31, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(25, lbl_699, ERWIN_01, ROHGA_D3, 0x00, 0x00)
+on.attack(36, lbl_74f, LEON_D5, NULL_FF, 0x00, 0xff)
+on.attack(37, lbl_757, NULL_FF, LEON_D5, 0xff, 0x00)
+on.attack(40, lbl_77d, ROHGA_D3, NULL_FF, 0x00, 0xff)
+on.attack(41, lbl_785, ERWIN_01, ROHGA_D3, 0xff, 0x00)
+on.attack(45, lbl_7d3, IMPERIALCOMMANDER_31, NULL_FF, 0x00, 0xff)
 break
 
 # Damage-Triggered Events
@@ -44,35 +44,35 @@ on.defeat(58, lbl_8ea, LEON_D5, IMPERIALCOMMANDER_31, IMPERIALCOMMANDER_32, IMPE
 break
 
 # Position-Triggered Events
-on.bound(10, lbl_4a8, NPC_SUBUNIT_F1, 7, 15, 9, 15, 0x00, 0x00)
-on.bound(10, lbl_4d0, ENEMY_SUBUNIT_F3, 7, 15, 9, 15, 0x00, 0x00)
-on.bound(12, lbl_4f8, NPC_SUBUNIT_F1, 13, 8, 13, 8, 0x00, 0x00)
-on.bound(12, lbl_520, ENEMY_SUBUNIT_F3, 13, 8, 13, 8, 0x00, 0x00)
-on.bound(13, lbl_548, NPC_SUBUNIT_F1, 19, 8, 19, 8, 0x00, 0x00)
-on.bound(13, lbl_570, ENEMY_SUBUNIT_F3, 19, 8, 19, 8, 0x00, 0x00)
-on.bound(14, lbl_598, NPC_SUBUNIT_F1, 23, 15, 25, 15, 0x00, 0x00)
-on.bound(14, lbl_5c0, ENEMY_SUBUNIT_F3, 23, 15, 25, 15, 0x00, 0x00)
-on.bound(15, lbl_5e8, NPC_COMMANDER_F0, 8, 13, 8, 13, 0x00, 0x00)
-on.bound(15, lbl_5f5, ENEMY_COMMANDER_F2, 8, 13, 8, 13, 0x00, 0x00)
-on.bound(16, lbl_602, NPC_COMMANDER_F0, 13, 6, 13, 6, 0x00, 0x00)
-on.bound(16, lbl_60f, ENEMY_COMMANDER_F2, 13, 6, 13, 6, 0x00, 0x00)
-on.bound(17, lbl_61c, NPC_COMMANDER_F0, 19, 6, 19, 6, 0x00, 0x00)
-on.bound(17, lbl_629, ENEMY_COMMANDER_F2, 19, 6, 19, 6, 0x00, 0x00)
-on.bound(18, lbl_636, NPC_COMMANDER_F0, 24, 13, 24, 13, 0x00, 0x00)
-on.bound(18, lbl_643, ENEMY_COMMANDER_F2, 24, 13, 24, 13, 0x00, 0x00)
-on.bound(19, lbl_650, ENEMY_COMMANDER_F2, 1, 20, 30, 29, 0x00, 0x00)
-on.bound(20, lbl_668, ENEMY_COMMANDER_F2, 1, 23, 30, 29, 0x00, 0x00)
-on.bound(21, lbl_66d, ENEMY_COMMANDER_F2, 1, 46, 30, 46, 0x00, 0x00)
-on.bound(23, lbl_672, ENEMY_COMMANDER_F2, 1, 46, 30, 46, 0x00, 0x00)
-on.bound(24, lbl_694, ENEMY_COMMANDER_F2, 1, 46, 30, 46, 0x00, 0x00)
-on.bound(63, lbl_e27, NPC_COMMANDER_F0, 29, 9, 29, 9, 0x00, 0x00)
+on.bound(10, lbl_4a8, NPC_SUBUNIT_F1, 7, 15, 9, 15)
+on.bound(10, lbl_4d0, ENEMY_SUBUNIT_F3, 7, 15, 9, 15)
+on.bound(12, lbl_4f8, NPC_SUBUNIT_F1, 13, 8, 13, 8)
+on.bound(12, lbl_520, ENEMY_SUBUNIT_F3, 13, 8, 13, 8)
+on.bound(13, lbl_548, NPC_SUBUNIT_F1, 19, 8, 19, 8)
+on.bound(13, lbl_570, ENEMY_SUBUNIT_F3, 19, 8, 19, 8)
+on.bound(14, lbl_598, NPC_SUBUNIT_F1, 23, 15, 25, 15)
+on.bound(14, lbl_5c0, ENEMY_SUBUNIT_F3, 23, 15, 25, 15)
+on.bound(15, lbl_5e8, NPC_COMMANDER_F0, 8, 13, 8, 13)
+on.bound(15, lbl_5f5, ENEMY_COMMANDER_F2, 8, 13, 8, 13)
+on.bound(16, lbl_602, NPC_COMMANDER_F0, 13, 6, 13, 6)
+on.bound(16, lbl_60f, ENEMY_COMMANDER_F2, 13, 6, 13, 6)
+on.bound(17, lbl_61c, NPC_COMMANDER_F0, 19, 6, 19, 6)
+on.bound(17, lbl_629, ENEMY_COMMANDER_F2, 19, 6, 19, 6)
+on.bound(18, lbl_636, NPC_COMMANDER_F0, 24, 13, 24, 13)
+on.bound(18, lbl_643, ENEMY_COMMANDER_F2, 24, 13, 24, 13)
+on.bound(19, lbl_650, ENEMY_COMMANDER_F2, 1, 20, 30, 29)
+on.bound(20, lbl_668, ENEMY_COMMANDER_F2, 1, 23, 30, 29)
+on.bound(21, lbl_66d, ENEMY_COMMANDER_F2, 1, 46, 30, 46)
+on.bound(23, lbl_672, ENEMY_COMMANDER_F2, 1, 46, 30, 46)
+on.bound(24, lbl_694, ENEMY_COMMANDER_F2, 1, 46, 30, 46)
+on.bound(63, lbl_e27, NPC_COMMANDER_F0, 29, 9, 29, 9)
 break
 
 # Turn-Triggered Events
-on.turn(5, lbl_44b, ENEMY, 5, 0x00)
-on.turn(7, lbl_479, ENEMY, 1, 0x00)
-on.turn(8, lbl_485, ALLY, 5, 0x00)
-on.turn(9, lbl_48a, ALLY, 2, 0x00)
+on.turn(5, lbl_44b, ENEMY, 5)
+on.turn(7, lbl_479, ENEMY, 1)
+on.turn(8, lbl_485, ALLY, 5)
+on.turn(9, lbl_48a, ALLY, 2)
 break
 
 # Core Events
@@ -1257,7 +1257,7 @@ lbl_d26:
   msg(CHERIE_04, LIANA_02, CHERIE, FOLLOW, 133)
 # Langrisser's hidden power has been released!\0
   msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 134)
-# With Langrisser revived, we can show Boser the true power of the Descendants of Light!\0
+# With Langrisser revived, we can show Böser the true power of the Descendants of Light!\0
   msg(LANA_03, ERWIN_01, LANA, FOLLOW, 135)
 # It will only get tougher from here on out.\r\nHowever, if we work and act as one, we can overcome any difficulty.\r\nIf we all have faith in ourselves, we can succeed.\r\nIf we believe in hope, the Sword of Light will shine even brighter.\0
   bgm(ALLY, ALLYREINFORCEMENT1)

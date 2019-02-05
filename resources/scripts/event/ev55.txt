@@ -1,25 +1,25 @@
 # Movement-Triggered Events
-on.move(26, lbl_41e, COMMANDER_23, 1, 0xff)
-on.move(0, lbl_44c, COMMANDER_84, 0, 0xff)
+on.move(26, lbl_41e, COMMANDER_23, 1)
+on.move(0, lbl_44c, COMMANDER_84, 0)
 break
 
 # Attack-Triggered Events
-on.attack(6, lbl_2de, ERWIN_01, LESTER_D1, 0x00, 0xff, 0xff)
-on.attack(7, lbl_2e6, ERWIN_01, LESTER_D1, 0x00, 0x00, 0xff)
-on.attack(12, lbl_316, IMELDA_0F, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(14, lbl_326, VARGAS_0E, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(16, lbl_336, EGBERT_10, LESTER_D1, 0x00, 0xff, 0xff)
-on.attack(17, lbl_33e, EGBERT_10, LESTER_D1, 0x00, 0x00, 0xff)
-on.attack(19, lbl_35a, SONYA_0C, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(21, lbl_36a, LESTER_D1, ERWIN_01, 0x00, 0x00, 0xff)
-on.attack(22, lbl_37e, LESTER_D1, EGBERT_10, 0x00, 0x00, 0xff)
-on.attack(24, lbl_40e, COMMANDER_22, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(27, lbl_42c, COMMANDER_23, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(29, lbl_43c, COMMANDER_83, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(31, lbl_454, NULL_FF, COMMANDER_84, 0xff, 0x00, 0xff)
-on.attack(35, lbl_477, COMMANDER_87, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(38, lbl_48f, COMMANDER_89, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(40, lbl_49f, NULL_FF, COMMANDER_8A, 0xff, 0x00, 0xff)
+on.attack(6, lbl_2de, ERWIN_01, LESTER_D1, 0x00, 0xff)
+on.attack(7, lbl_2e6, ERWIN_01, LESTER_D1, 0x00, 0x00)
+on.attack(12, lbl_316, IMELDA_0F, NULL_FF, 0x00, 0xff)
+on.attack(14, lbl_326, VARGAS_0E, NULL_FF, 0x00, 0xff)
+on.attack(16, lbl_336, EGBERT_10, LESTER_D1, 0x00, 0xff)
+on.attack(17, lbl_33e, EGBERT_10, LESTER_D1, 0x00, 0x00)
+on.attack(19, lbl_35a, SONYA_0C, NULL_FF, 0x00, 0xff)
+on.attack(21, lbl_36a, LESTER_D1, ERWIN_01, 0x00, 0x00)
+on.attack(22, lbl_37e, LESTER_D1, EGBERT_10, 0x00, 0x00)
+on.attack(24, lbl_40e, COMMANDER_22, NULL_FF, 0x00, 0xff)
+on.attack(27, lbl_42c, COMMANDER_23, NULL_FF, 0x00, 0xff)
+on.attack(29, lbl_43c, COMMANDER_83, NULL_FF, 0x00, 0xff)
+on.attack(31, lbl_454, NULL_FF, COMMANDER_84, 0xff, 0x00)
+on.attack(35, lbl_477, COMMANDER_87, NULL_FF, 0x00, 0xff)
+on.attack(38, lbl_48f, COMMANDER_89, NULL_FF, 0x00, 0xff)
+on.attack(40, lbl_49f, NULL_FF, COMMANDER_8A, 0xff, 0x00)
 break
 
 # Damage-Triggered Events
@@ -48,14 +48,14 @@ on.defeat(44, lbl_4c3, COMMANDER_84, COMMANDER_85)
 break
 
 # Position-Triggered Events
-on.bound(4, lbl_2bf, NPC_SUBUNIT_F1, 1, 1, 13, 34, 0x00, 0x00)
-on.bound(5, lbl_2c4, NPC_COMMANDER_F0, 4, 10, 4, 10, 0x00, 0x00)
+on.bound(4, lbl_2bf, NPC_SUBUNIT_F1, 1, 1, 13, 34)
+on.bound(5, lbl_2c4, NPC_COMMANDER_F0, 4, 10, 4, 10)
 break
 
 # Turn-Triggered Events
-on.turn(3, lbl_266, ENEMY, 3, 0x00)
-on.turn(1, lbl_281, ENEMY, 0, 0x00)
-on.turn(2, lbl_289, ENEMY, 0, 0x00)
+on.turn(3, lbl_266, ENEMY, 3)
+on.turn(1, lbl_281, ENEMY, 0)
+on.turn(2, lbl_289, ENEMY, 0)
 break
 
 # Core Events
@@ -86,7 +86,7 @@ lbl_18b:
 # Keep moving. If we want to seal both swords, we can't stop to rest.\0
   branch.unit.dead(lbl_1a7, SONYA_0C)
   msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 3)
-# Just be glad we defeated Boser.\0
+# Just be glad we defeated Böser.\0
 lbl_1a7:
   msg(ERWIN_01, VARGAS_0E, ERWIN, FOLLOW, 4)
 # Yes, and don't worry. The Imperial cat shall soon hunt down its mice!\0
@@ -132,7 +132,7 @@ lbl_1a7:
   msg(LESTER_D1, EGBERT_10, LESTER, FOLLOW, 12)
 # Isn't that Bernhardt's purpose? To rally the continent and wipe out darkness?\0
   msg(EGBERT_10, LESTER_D1, EGBERT, FOLLOW, 13)
-# Ever since Boser's revival, I've sought an effective means to combat the darkness.\r\nI settled, in the end, on overwhelming military strength.\r\nI might have waited with Jessica for the Descendants, but time was short ... and I joined the Empire.\r\nThe secondary effects of that decision, I'd rather not discuss.\0
+# Ever since Böser's revival, I've sought an effective means to combat the darkness.\r\nI settled, in the end, on overwhelming military strength.\r\nI might have waited with Jessica for the Descendants, but time was short ... and I joined the Empire.\r\nThe secondary effects of that decision, I'd rather not discuss.\0
   msg(LESTER_D1, EGBERT_10, LESTER, FOLLOW, 14)
 # Oh, that's great. So we've both been trying to do the same thing.\r\nFunny, our plan wouldn't have soaked the whole continent in blood!\0
   msg(EGBERT_10, LESTER_D1, EGBERT, FOLLOW, 15)
@@ -178,7 +178,7 @@ lbl_289:
   msg(EGBERT_10, LESTER_D1, EGBERT, FOLLOW, 26)
 # Ask what you'd like.\0
   msg(LESTER_D1, EGBERT_10, LESTER, FOLLOW, 27)
-# Up until now, Boser's resurrection was simply an omen.\r\n"The world will fall into darkness, ..." because of him, presumably.\r\nWell, I heard from Jessica the reverse is true ...\r\nBoser doesn't bring chaos, chaos brings Boser. Only a bloody world will awaken him.\r\nWhat's your opinion?\0
+# Up until now, Böser's resurrection was simply an omen.\r\n"The world will fall into darkness, ..." because of him, presumably.\r\nWell, I heard from Jessica the reverse is true ...\r\nBöser doesn't bring chaos, chaos brings Böser. Only a bloody world will awaken him.\r\nWhat's your opinion?\0
   msg(EGBERT_10, LESTER_D1, EGBERT, FOLLOW, 28)
 # ...\r\nI agree with the theory. His Majesty, however, should not know this.\0
   msg(LESTER_D1, EGBERT_10, LESTER, FOLLOW, 29)
@@ -282,7 +282,7 @@ break
 
 lbl_35a:
   msg(SONYA_0C, RIGHT_F7, SONYA, FOLLOW, 51)
-# I thought Boser's war on humans would make me happy.\r\nI was wrong ... Fighting and killing for no reason is wrong.\r\nBut this fight isn't pointless. This is our last chance to bring a peaceful world.\r\nWith brother Rohga, I won't lose to you!\0
+# I thought Böser's war on humans would make me happy.\r\nI was wrong ... Fighting and killing for no reason is wrong.\r\nBut this fight isn't pointless. This is our last chance to bring a peaceful world.\r\nWith brother Rohga, I won't lose to you!\0
 break
 
 lbl_362:

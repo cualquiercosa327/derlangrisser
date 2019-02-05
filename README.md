@@ -13,7 +13,7 @@ More information to come...
 
 ## Requirements
 
-1. PHP 7.0+ installed in /usr/bin/php. This is available by default on all Macs running any version of OS X. For Linux desktops, you should install your relevant `php5-cli` package.
+1. PHP 7.0+ installed in /usr/bin/php. This is available by default on all Macs running any version of OS X. For Linux desktops, you should install your relevant `php7-cli` package.
 2. clang (on OS X) or gcc (on Linux). We have only tested with versions 4.1+.
 
 Windows users are on their own.

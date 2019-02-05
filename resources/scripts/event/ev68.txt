@@ -1,27 +1,27 @@
 # Movement-Triggered Events
-on.move(32, lbl_3c3, BERNHARDT_16, 1, 0xff)
-on.move(0, lbl_3d1, BERNHARDT_16, 0, 0xff)
-on.move(1, lbl_3fd, LEON_D5, 0, 0xff)
-on.move(2, lbl_42d, LAIRD_18, 0, 0xff)
-on.move(13, lbl_44d, VARGAS_D6, 0, 0xff)
-on.move(3, lbl_4d7, IMELDA_D7, 0, 0xff)
-on.move(4, lbl_4f7, EGBERT_D8, 0, 0xff)
-on.move(5, lbl_517, IMPERIALCOMMANDER_35, 0, 0xff)
+on.move(32, lbl_3c3, BERNHARDT_16, 1)
+on.move(0, lbl_3d1, BERNHARDT_16, 0)
+on.move(1, lbl_3fd, LEON_D5, 0)
+on.move(2, lbl_42d, LAIRD_18, 0)
+on.move(13, lbl_44d, VARGAS_D6, 0)
+on.move(3, lbl_4d7, IMELDA_D7, 0)
+on.move(4, lbl_4f7, EGBERT_D8, 0)
+on.move(5, lbl_517, IMPERIALCOMMANDER_35, 0)
 break
 
 # Attack-Triggered Events
-on.attack(21, lbl_357, ERWIN_01, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(28, lbl_390, LANA_0A, LEON_D5, 0x00, 0x00, 0xff)
-on.attack(29, lbl_3ab, LEON_D5, LANA_0A, 0x00, 0x00, 0xff)
-on.attack(34, lbl_40d, LANA_0A, LEON_D5, 0xff, 0x00, 0xff)
-on.attack(35, lbl_415, LEON_D5, LANA_0A, 0x00, 0xff, 0xff)
-on.attack(38, lbl_462, VARGAS_D6, ERWIN_01, 0x00, 0xff, 0xff)
-on.attack(39, lbl_46a, VARGAS_D6, ERWIN_01, 0x00, 0x00, 0xff)
-on.attack(41, lbl_4e7, NULL_FF, IMELDA_D7, 0xff, 0x00, 0xff)
-on.attack(44, lbl_52b, NULL_FF, IMPERIALCOMMANDER_35, 0xff, 0x00, 0xff)
-on.attack(46, lbl_53b, NULL_FF, IMPERIALCOMMANDER_36, 0xff, 0x00, 0xff)
-on.attack(48, lbl_54b, IMPERIALCOMMANDER_37, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(50, lbl_55b, IMPERIALCOMMANDER_38, NPC_COMMANDER_F0, 0x00, 0x00, 0xff)
+on.attack(21, lbl_357, ERWIN_01, NULL_FF, 0x00, 0xff)
+on.attack(28, lbl_390, LANA_0A, LEON_D5, 0x00, 0x00)
+on.attack(29, lbl_3ab, LEON_D5, LANA_0A, 0x00, 0x00)
+on.attack(34, lbl_40d, LANA_0A, LEON_D5, 0xff, 0x00)
+on.attack(35, lbl_415, LEON_D5, LANA_0A, 0x00, 0xff)
+on.attack(38, lbl_462, VARGAS_D6, ERWIN_01, 0x00, 0xff)
+on.attack(39, lbl_46a, VARGAS_D6, ERWIN_01, 0x00, 0x00)
+on.attack(41, lbl_4e7, NULL_FF, IMELDA_D7, 0xff, 0x00)
+on.attack(44, lbl_52b, NULL_FF, IMPERIALCOMMANDER_35, 0xff, 0x00)
+on.attack(46, lbl_53b, NULL_FF, IMPERIALCOMMANDER_36, 0xff, 0x00)
+on.attack(48, lbl_54b, IMPERIALCOMMANDER_37, NULL_FF, 0x00, 0xff)
+on.attack(50, lbl_55b, IMPERIALCOMMANDER_38, NPC_COMMANDER_F0, 0x00, 0x00)
 break
 
 # Damage-Triggered Events
@@ -50,22 +50,22 @@ on.defeat(55, lbl_586, IMPERIALCOMMANDER_35, IMPERIALCOMMANDER_36, IMPERIALCOMMA
 break
 
 # Position-Triggered Events
-on.bound(12, lbl_2ee, NPC_COMMANDER_F0, 1, 19, 30, 21, 0x00, 0x00)
-on.bound(14, lbl_310, BERNHARDT_16, 1, 24, 3, 26, 0x00, 0x00)
-on.bound(15, lbl_315, LEON_D5, 1, 24, 3, 26, 0x00, 0x00)
-on.bound(16, lbl_31a, LAIRD_18, 1, 24, 3, 26, 0x00, 0x00)
-on.bound(17, lbl_31f, IMELDA_D7, 1, 24, 3, 26, 0x00, 0x00)
-on.bound(18, lbl_324, EGBERT_D8, 1, 24, 3, 26, 0x00, 0x00)
-on.bound(19, lbl_329, IMELDA_D7, 1, 24, 3, 26, 0x00, 0x00)
-on.bound(20, lbl_32e, NPC_COMMANDER_F0, 22, 24, 22, 24, 0x00, 0x00)
+on.bound(12, lbl_2ee, NPC_COMMANDER_F0, 1, 19, 30, 21)
+on.bound(14, lbl_310, BERNHARDT_16, 1, 24, 3, 26)
+on.bound(15, lbl_315, LEON_D5, 1, 24, 3, 26)
+on.bound(16, lbl_31a, LAIRD_18, 1, 24, 3, 26)
+on.bound(17, lbl_31f, IMELDA_D7, 1, 24, 3, 26)
+on.bound(18, lbl_324, EGBERT_D8, 1, 24, 3, 26)
+on.bound(19, lbl_329, IMELDA_D7, 1, 24, 3, 26)
+on.bound(20, lbl_32e, NPC_COMMANDER_F0, 22, 24, 22, 24)
 break
 
 # Turn-Triggered Events
-on.turn(7, lbl_298, ENEMY, 1, 0x00)
-on.turn(8, lbl_2a0, ENEMY, 10, 0x00)
-on.turn(9, lbl_2a8, ENEMY, 17, 0x00)
-on.turn(10, lbl_2b0, ALLY, 18, 0x00)
-on.turn(11, lbl_2dc, ENEMY, 20, 0x00)
+on.turn(7, lbl_298, ENEMY, 1)
+on.turn(8, lbl_2a0, ENEMY, 10)
+on.turn(9, lbl_2a8, ENEMY, 17)
+on.turn(10, lbl_2b0, ALLY, 18)
+on.turn(11, lbl_2dc, ENEMY, 20)
 break
 
 # Core Events
@@ -296,14 +296,14 @@ lbl_390:
   msg(LEON_D5, LANA_0A, LEON, NOFOLLOW, 40)
 # ...\r\nYou speak of something that can never be.\r\nA knight swears fealty to his Kaiser, and that oath I will never break.\r\nYou will always be at the tip of my sword, _NAME_ the traitor.\0
   msg(LANA_0A, LEON_D5, DARKPRINCESS, NOFOLLOW, 41)
-# I guess there's no other way. But this is also Lord Boser's wish ... Have at you, Leon!\0
+# I guess there's no other way. But this is also Lord Böser's wish ... Have at you, Leon!\0
   global.sum($0a4791, $07eb5e)
   unit.clearbit(LEON_D5, $17, 7)
 break
 
 lbl_3ab:
   msg(LEON_D5, LANA_0A, LEON, FOLLOW, 42)
-# Forgive me, Lana. I must defend His Majesty!\0
+# Forgive me, Lána. I must defend His Majesty!\0
 break
 
 lbl_3b3:

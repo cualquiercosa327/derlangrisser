@@ -1,27 +1,27 @@
 # Movement-Triggered Events
-on.move(16, lbl_395, HEIN_05, 0, 0xff)
-on.move(17, lbl_39d, HEIN_05, 3, 0xff)
-on.move(18, lbl_3b1, HEIN_05, 5, 0xff)
+on.move(16, lbl_395, HEIN_05, 0)
+on.move(17, lbl_39d, HEIN_05, 3)
+on.move(18, lbl_3b1, HEIN_05, 5)
 break
 
 # Attack-Triggered Events
-on.attack(14, lbl_384, ERWIN_01, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(24, lbl_456, WYVERN_57, NPC_COMMANDER_F0, 0x00, 0x00, 0xff)
-on.attack(25, lbl_45e, ERWIN_01, WYVERN_57, 0x00, 0x00, 0xff)
-on.attack(27, lbl_474, KERBEROS_52, NPC_COMMANDER_F0, 0x00, 0x00, 0xff)
-on.attack(29, lbl_499, COMMANDER_23, NPC_COMMANDER_F0, 0x00, 0x00, 0xff)
-on.attack(37, lbl_4ff, ROC_7A, HEIN_05, 0x00, 0xff, 0xff)
-on.attack(3, lbl_50a, HEIN_05, ROC_7A, 0x00, 0x00, 0xff)
-on.attack(38, lbl_51e, ROC_7A, HEIN_05, 0x00, 0x00, 0xff)
-on.attack(39, lbl_529, HEIN_05, ROC_7A, 0x00, 0x00, 0xff)
-on.attack(42, lbl_547, COMMANDER_85, IMELDA_0F, 0x00, 0xff, 0xff)
-on.attack(43, lbl_54f, IMELDA_0F, COMMANDER_85, 0x00, 0x00, 0xff)
-on.attack(45, lbl_56b, COMMANDER_86, LEON_0D, 0x00, 0xff, 0xff)
-on.attack(46, lbl_573, LEON_0D, COMMANDER_86, 0x00, 0x00, 0xff)
-on.attack(47, lbl_581, LEON_0D, COMMANDER_86, 0xff, 0x00, 0xff)
-on.attack(50, lbl_59c, COMMANDER_87, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(51, lbl_5ae, ROHGA_0B, COMMANDER_87, 0x00, 0x00, 0xff)
-on.attack(55, lbl_69b, NULL_FF, WITCH_74, 0xff, 0x00, 0xff)
+on.attack(14, lbl_384, ERWIN_01, NULL_FF, 0x00, 0xff)
+on.attack(24, lbl_456, WYVERN_57, NPC_COMMANDER_F0, 0x00, 0x00)
+on.attack(25, lbl_45e, ERWIN_01, WYVERN_57, 0x00, 0x00)
+on.attack(27, lbl_474, KERBEROS_52, NPC_COMMANDER_F0, 0x00, 0x00)
+on.attack(29, lbl_499, COMMANDER_23, NPC_COMMANDER_F0, 0x00, 0x00)
+on.attack(37, lbl_4ff, ROC_7A, HEIN_05, 0x00, 0xff)
+on.attack(3, lbl_50a, HEIN_05, ROC_7A, 0x00, 0x00)
+on.attack(38, lbl_51e, ROC_7A, HEIN_05, 0x00, 0x00)
+on.attack(39, lbl_529, HEIN_05, ROC_7A, 0x00, 0x00)
+on.attack(42, lbl_547, COMMANDER_85, IMELDA_0F, 0x00, 0xff)
+on.attack(43, lbl_54f, IMELDA_0F, COMMANDER_85, 0x00, 0x00)
+on.attack(45, lbl_56b, COMMANDER_86, LEON_0D, 0x00, 0xff)
+on.attack(46, lbl_573, LEON_0D, COMMANDER_86, 0x00, 0x00)
+on.attack(47, lbl_581, LEON_0D, COMMANDER_86, 0xff, 0x00)
+on.attack(50, lbl_59c, COMMANDER_87, NULL_FF, 0x00, 0xff)
+on.attack(51, lbl_5ae, ROHGA_0B, COMMANDER_87, 0x00, 0x00)
+on.attack(55, lbl_69b, NULL_FF, WITCH_74, 0xff, 0x00)
 break
 
 # Damage-Triggered Events
@@ -52,18 +52,18 @@ on.defeat(56, lbl_6a3, WITCH_74)
 break
 
 # Position-Triggered Events
-on.bound(12, lbl_338, NPC_COMMANDER_F0, 1, 12, 19, 22, 0x00, 0x00)
-on.bound(13, lbl_34b, NPC_SUBUNIT_F1, 1, 1, 29, 12, 0x00, 0x00)
-on.bound(54, lbl_601, NPC_COMMANDER_F0, 15, 5, 15, 5, 0x00, 0x00)
+on.bound(12, lbl_338, NPC_COMMANDER_F0, 1, 12, 19, 22)
+on.bound(13, lbl_34b, NPC_SUBUNIT_F1, 1, 1, 29, 12)
+on.bound(54, lbl_601, NPC_COMMANDER_F0, 15, 5, 15, 5)
 break
 
 # Turn-Triggered Events
-on.turn(5, lbl_2ca, ENEMY, 1, 0x00)
-on.turn(6, lbl_2f0, ENEMY, 20, 0x00)
-on.turn(8, lbl_302, ALLY, 21, 0x00)
-on.turn(9, lbl_30e, ENEMY, 21, 0x00)
-on.turn(10, lbl_320, ALLY, 22, 0x00)
-on.turn(11, lbl_32c, ENEMY, 22, 0x00)
+on.turn(5, lbl_2ca, ENEMY, 1)
+on.turn(6, lbl_2f0, ENEMY, 20)
+on.turn(8, lbl_302, ALLY, 21)
+on.turn(9, lbl_30e, ENEMY, 21)
+on.turn(10, lbl_320, ALLY, 22)
+on.turn(11, lbl_32c, ENEMY, 22)
 break
 
 # Core Events

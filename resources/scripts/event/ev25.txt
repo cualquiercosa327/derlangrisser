@@ -1,23 +1,23 @@
 # Movement-Triggered Events
-on.move(2, lbl_373, SONYA_D4, 0, 0xff)
-on.move(3, lbl_43f, SUCCUBUS_69, 0, 0xff)
-on.move(42, lbl_4ba, VAMPIRELORD_4F, 0, 0xff)
-on.move(45, lbl_4ea, JORMUNGANDR_98, 0, 0xff)
+on.move(2, lbl_373, SONYA_D4, 0)
+on.move(3, lbl_43f, SUCCUBUS_69, 0)
+on.move(42, lbl_4ba, VAMPIRELORD_4F, 0)
+on.move(45, lbl_4ea, JORMUNGANDR_98, 0)
 break
 
 # Attack-Triggered Events
-on.attack(13, lbl_2ee, ERWIN_01, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(15, lbl_300, NULL_FF, HEIN_05, 0xff, 0x00, 0xff)
-on.attack(19, lbl_323, SCOTT_06, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(21, lbl_333, KEITH_07, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(23, lbl_343, NULL_FF, LESTER_09, 0xff, 0x00, 0xff)
-on.attack(25, lbl_353, LIANA_02, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(27, lbl_363, LANA_03, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(29, lbl_37b, SONYA_D4, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(1, lbl_390, VAMPIRELORD_4F, SONYA_D4, 0xff, 0x00, 0xff)
-on.attack(30, lbl_3a2, VAMPIRELORD_4F, SONYA_D4, 0x00, 0x00, 0xff)
-on.attack(32, lbl_447, SUCCUBUS_69, SONYA_D4, 0x00, 0x00, 0xff)
-on.attack(43, lbl_4cf, VAMPIRELORD_4F, SONYA_D4, 0x00, 0xff, 0xff)
+on.attack(13, lbl_2ee, ERWIN_01, NULL_FF, 0x00, 0xff)
+on.attack(15, lbl_300, NULL_FF, HEIN_05, 0xff, 0x00)
+on.attack(19, lbl_323, SCOTT_06, NULL_FF, 0x00, 0xff)
+on.attack(21, lbl_333, KEITH_07, NULL_FF, 0x00, 0xff)
+on.attack(23, lbl_343, NULL_FF, LESTER_09, 0xff, 0x00)
+on.attack(25, lbl_353, LIANA_02, NULL_FF, 0x00, 0xff)
+on.attack(27, lbl_363, LANA_03, NULL_FF, 0x00, 0xff)
+on.attack(29, lbl_37b, SONYA_D4, NULL_FF, 0x00, 0xff)
+on.attack(1, lbl_390, VAMPIRELORD_4F, SONYA_D4, 0xff, 0x00)
+on.attack(30, lbl_3a2, VAMPIRELORD_4F, SONYA_D4, 0x00, 0x00)
+on.attack(32, lbl_447, SUCCUBUS_69, SONYA_D4, 0x00, 0x00)
+on.attack(43, lbl_4cf, VAMPIRELORD_4F, SONYA_D4, 0x00, 0xff)
 break
 
 # Damage-Triggered Events
@@ -46,18 +46,18 @@ on.defeat(47, lbl_4fa, JORMUNGANDR_99)
 break
 
 # Position-Triggered Events
-on.bound(9, lbl_24b, NPC_COMMANDER_F0, 27, 20, 27, 20, 0x00, 0x00)
-on.bound(10, lbl_26e, NPC_COMMANDER_F0, 7, 6, 7, 6, 0x00, 0x00)
-on.bound(11, lbl_291, NPC_COMMANDER_F0, 22, 3, 22, 3, 0x00, 0x00)
-on.bound(12, lbl_2cd, NPC_COMMANDER_F0, 12, 1, 25, 26, 0x00, 0x00)
+on.bound(9, lbl_24b, NPC_COMMANDER_F0, 27, 20, 27, 20)
+on.bound(10, lbl_26e, NPC_COMMANDER_F0, 7, 6, 7, 6)
+on.bound(11, lbl_291, NPC_COMMANDER_F0, 22, 3, 22, 3)
+on.bound(12, lbl_2cd, NPC_COMMANDER_F0, 12, 1, 25, 26)
 break
 
 # Turn-Triggered Events
-on.turn(4, lbl_223, ENEMY, 1, 0x00)
-on.turn(5, lbl_22f, ENEMY, 4, 0x00)
-on.turn(7, lbl_238, ALLY, 3, 0x00)
-on.turn(0, lbl_23d, ALLY, 0, 0x00)
-on.turn(8, lbl_245, ENEMY, 6, 0x00)
+on.turn(4, lbl_223, ENEMY, 1)
+on.turn(5, lbl_22f, ENEMY, 4)
+on.turn(7, lbl_238, ALLY, 3)
+on.turn(0, lbl_23d, ALLY, 0)
+on.turn(8, lbl_245, ENEMY, 6)
 break
 
 # Core Events
@@ -94,7 +94,7 @@ lbl_15e:
 # Langrisser's seal is broken, Descendants of Light. However I'll never give in to humans!\r\nUpon the burning Demon Tribe blood of my birth Father, I will rend the flesh from your bones as revenge for my brother!\0
   unit.move(SONYA_D4, PRESET, PRESET)
   msg(SONYA_D4, DOWN_F5, SONYA, FOLLOW, 6)
-# My dark brothers and sisters, hear me!\r\nThe Descendants of Light will not see the sunset this day. Avenge our Dark Prince, Boser!\0
+# My dark brothers and sisters, hear me!\r\nThe Descendants of Light will not see the sunset this day. Avenge our Dark Prince, Böser!\0
   unit.showsub(SONYA_D4)
   unit.position(ESTO_D9, PRESET, PRESET)
   unit.showsub(ESTO_D9)
@@ -113,7 +113,7 @@ lbl_15e:
   unit.position(SUCCUBUS_69, PRESET, PRESET)
   unit.showsub(SUCCUBUS_69)
   msg(SUCCUBUS_69, LEFT_F6, SUCCUBUS_BLUE, FOLLOW, 7)
-# Lord Boser shall be avenged!\r\nWe won't fear the Descendants of Light!\0
+# Lord Böser shall be avenged!\r\nWe won't fear the Descendants of Light!\0
   msg(ESTO_D9, ERWIN_01, OSTO, FOLLOW, 8)
 # This time you will die!\0
   msg(OSTO_DA, ERWIN_01, ESTO, FOLLOW, 9)
@@ -192,7 +192,7 @@ lbl_291:
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 20)
 # After a little while, a large tree begins speaking.\r\n"You ... human ... Will you please unshackle that chain?"\r\n"That bothersome metal has encircled me for so long ..."\r\nWhat will you do?\0
   global.sum($0a478c, $07eb5f)
-  prompt.options(lbl_2b4, lbl_2c5, 21, 22, 23, 0x00, 0xf4, 0x00, 0x00)
+  prompt.options(lbl_2b4, lbl_2c5, 21, 22, 23, 0xf4)
 # Chop it off\0
 # Remove it by hand\0
 # Ignore the tree\0
@@ -301,7 +301,7 @@ break
 
 lbl_363:
   msg(LANA_03, RIGHT_F7, LANA, NOFOLLOW, 44)
-# Hey, Boser is dead! Snap out of it already!\0
+# Hey, Böser is dead! Snap out of it already!\0
 break
 
 lbl_36b:
@@ -475,7 +475,7 @@ break
 lbl_4ba:
   branch.mem.local.ne(lbl_4c7, $0a47d0, $07eb5e)
   msg(VAMPIRELORD_4F, LEFT_F6, VAMPIRELORD, FOLLOW, 80)
-# Destroy everything! This is the will of Boser ...\0
+# Destroy everything! This is the will of Böser ...\0
   goto(lbl_4cd)
 lbl_4c7:
   msg(VAMPIRELORD_4F, LEFT_F6, VAMPIRELORD, FOLLOW, 81)
@@ -524,7 +524,7 @@ lbl_509:
   msg(SONYA_D4, VAMPIRELORD_4F, SONYA, FOLLOW, 90)
 # Ah, thanks for coming, friends! Would you be so kind as to help slay these meddlesome humans?\0
   msg(VAMPIRELORD_4F, SONYA_D4, VAMPIRELORD, FOLLOW, 91)
-# Don't tell me what to do, bitch.\r\nI only followed you in the past because of a direct order from Boser himself.\r\nNow that he's dead, I don't have to take any of your shit!\r\nHmph ...! We're gonna have a little bloodbath!\r\nAnd you're cordially invited, you filthy, halfie bitch!\0
+# Don't tell me what to do, bitch.\r\nI only followed you in the past because of a direct order from Böser himself.\r\nNow that he's dead, I don't have to take any of your shit!\r\nHmph ...! We're gonna have a little bloodbath!\r\nAnd you're cordially invited, you filthy, halfie bitch!\0
   branch.unit.dead(lbl_528, SUCCUBUS_69)
   msg(SUCCUBUS_69, VAMPIRELORD_4F, SUCCUBUS_BLUE, FOLLOW, 92)
 # Oh ho ho ho! That sounds like such a lovely idea!\r\nI don't give a rat's ass about you either!\0
@@ -559,7 +559,7 @@ lbl_575:
   goto(lbl_57e)
 lbl_578:
   msg(VAMPIRELORD_4F, SONYA_D4, VAMPIRELORD, FOLLOW, 95)
-# Let's have at it, Descendants of Trash!\r\nI shall avenge Lord Boser!\0
+# Let's have at it, Descendants of Trash!\r\nI shall avenge Lord Böser!\0
 lbl_57e:
 endsub
 

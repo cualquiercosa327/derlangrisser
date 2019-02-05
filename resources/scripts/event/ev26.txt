@@ -1,15 +1,15 @@
 # Movement-Triggered Events
-on.move(15, lbl_401, JESSICA_14, 1, 0xff)
-on.move(18, lbl_431, LEON_D5, 3, 0xff)
-on.move(28, lbl_511, LAIRD_18, 0, 0xff)
+on.move(15, lbl_401, JESSICA_14, 1)
+on.move(18, lbl_431, LEON_D5, 3)
+on.move(28, lbl_511, LAIRD_18, 0)
 break
 
 # Attack-Triggered Events
-on.attack(6, lbl_381, ERWIN_01, LEON_D5, 0x00, 0x00, 0xff)
-on.attack(19, lbl_43f, LEON_D5, ERWIN_01, 0x00, 0x00, 0xff)
-on.attack(25, lbl_4f9, IMPERIALCOMMANDER_34, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(29, lbl_519, LAIRD_18, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(32, lbl_569, NULL_FF, IMPERIALCOMMANDER_36, 0xff, 0x00, 0xff)
+on.attack(6, lbl_381, ERWIN_01, LEON_D5, 0x00, 0x00)
+on.attack(19, lbl_43f, LEON_D5, ERWIN_01, 0x00, 0x00)
+on.attack(25, lbl_4f9, IMPERIALCOMMANDER_34, NULL_FF, 0x00, 0xff)
+on.attack(29, lbl_519, LAIRD_18, NULL_FF, 0x00, 0xff)
+on.attack(32, lbl_569, NULL_FF, IMPERIALCOMMANDER_36, 0xff, 0x00)
 break
 
 # Damage-Triggered Events
@@ -40,15 +40,15 @@ on.defeat(37, lbl_5d2, IMPERIALCOMMANDER_31, IMPERIALCOMMANDER_32, IMPERIALCOMMA
 break
 
 # Position-Triggered Events
-on.bound(3, lbl_331, NPC_COMMANDER_F0, 18, 4, 18, 4, 0x00, 0x00)
-on.bound(4, lbl_34c, NPC_COMMANDER_F0, 13, 4, 13, 4, 0x00, 0x00)
-on.range(5, lbl_367, LEON_D5, LANA_03, 2, 0x00, 0x00, 0x00, 0x00)
+on.bound(3, lbl_331, NPC_COMMANDER_F0, 18, 4, 18, 4)
+on.bound(4, lbl_34c, NPC_COMMANDER_F0, 13, 4, 13, 4)
+on.range(5, lbl_367, LEON_D5, LANA_03, 2)
 break
 
 # Turn-Triggered Events
-on.turn(0, lbl_2cf, ENEMY, 2, 0x00)
-on.turn(1, lbl_2db, ENEMY, 1, 0x00)
-on.turn(2, lbl_303, ALLY, 2, 0x00)
+on.turn(0, lbl_2cf, ENEMY, 2)
+on.turn(1, lbl_2db, ENEMY, 1)
+on.turn(2, lbl_303, ALLY, 2)
 break
 
 # Core Events
@@ -319,12 +319,12 @@ lbl_3d9:
   msg(LANA_03, LEON_D5, LANA_DEAD, FOLLOW, 62)
 # Not yet. Just until ... Until we stop Leon ...\0
   msg(ERWIN_01, LANA_03, ERWIN, FOLLOW, 63)
-# Don't push it! Leave it to me. Fall back, Lana!\0
+# Don't push it! Leave it to me. Fall back, Lána!\0
   msg(LANA_03, LEON_D5, LANA_DEAD, FOLLOW, 64)
 # Leon ...\0
   unit.cleanup()
   msg(LEON_D5, LANA_03, LEON, FOLLOW, 65)
-# Sorry, Lana ...\0
+# Sorry, Lána ...\0
   goto(lbl_3ff)
 lbl_3f9:
   msg(LANA_03, DOWN_F5, LANA_DEAD, FOLLOW, 66)
@@ -545,7 +545,7 @@ lbl_591:
   msg(LANA_03, LEON_D5, LANA_SAD, FOLLOW, 113)
 # Please, Leon! Stop it! I don't want to fight anymore with you!\0
   msg(LEON_D5, LANA_03, LEON, FOLLOW, 114)
-# Lana ... I love ...\r\nNo, I have no right to say that ...\r\nI will fight to the end! For all who have died, I will uphold the honour of the Knights!\0
+# Lána ... I love ...\r\nNo, I have no right to say that ...\r\nI will fight to the end! For all who have died, I will uphold the honour of the Knights!\0
   msg(LANA_03, LEON_D5, LANA_SAD, FOLLOW, 115)
 # Leon!\0
 lbl_5ca:
@@ -568,7 +568,7 @@ lbl_5e4:
 # He was stubborn, but ...\r\nLeon ...\0
 lbl_5ee:
   msg(LANA_03, ERWIN_01, LANA_SAD, FOLLOW, 120)
-# Even while Boser's spell controlled me as the Dark Princess ...\r\nLeon was the only one who treated me with courtesy ... and who made me feel like I was a normal woman.\r\nThere was no one in this world more warm and caring than he was. His heart truly desired nothing but peace ...\0
+# Even while Böser's spell controlled me as the Dark Princess ...\r\nLeon was the only one who treated me with courtesy ... and who made me feel like I was a normal woman.\r\nThere was no one in this world more warm and caring than he was. His heart truly desired nothing but peace ...\0
   branch.unit.dead(lbl_601, LIANA_02)
   msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 122)
 # _NAME_ ... I can feel an evil presence nearby.\0

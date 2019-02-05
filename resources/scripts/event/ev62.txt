@@ -1,46 +1,46 @@
 # Movement-Triggered Events
-on.move(0, lbl_568, VAMPIRELORD_8E, 0, 0xff)
-on.move(57, lbl_63e, CHAOS_93, 0, 0xff)
+on.move(0, lbl_568, VAMPIRELORD_8E, 0)
+on.move(57, lbl_63e, CHAOS_93, 0)
 break
 
 # Attack-Triggered Events
-on.attack(4, lbl_346, ERWIN_01, CHAOS_93, 0x00, 0x00, 0xff)
-on.attack(5, lbl_354, ERWIN_01, BOSER_17, 0x00, 0x00, 0xff)
-on.attack(6, lbl_37c, ERWIN_01, BOSER_17, 0x00, 0xff, 0xff)
-on.attack(8, lbl_392, HEIN_05, CHAOS_93, 0x00, 0xff, 0xff)
-on.attack(9, lbl_39a, HEIN_05, CHAOS_93, 0x00, 0x00, 0xff)
-on.attack(11, lbl_3aa, ROHGA_0B, BOSER_17, 0x00, 0xff, 0xff)
-on.attack(12, lbl_3b6, ROHGA_0B, BOSER_17, 0x00, 0x00, 0xff)
-on.attack(14, lbl_402, ROHGA_0B, CHAOS_93, 0x00, 0x00, 0xff)
-on.attack(16, lbl_43e, LEON_0D, BOSER_17, 0x00, 0x00, 0xff)
-on.attack(17, lbl_44c, LEON_0D, CHAOS_93, 0x00, 0x00, 0xff)
-on.attack(19, lbl_468, IMELDA_0F, CHAOS_93, 0x00, 0xff, 0xff)
-on.attack(20, lbl_470, IMELDA_0F, CHAOS_93, 0x00, 0x00, 0xff)
-on.attack(22, lbl_480, VARGAS_0E, BOSER_17, 0x00, 0x00, 0xff)
-on.attack(22, lbl_488, VARGAS_0E, CHAOS_93, 0x00, 0x00, 0xff)
-on.attack(24, lbl_4a4, EGBERT_10, BOSER_17, 0x00, 0xff, 0xff)
-on.attack(25, lbl_4ac, EGBERT_10, BOSER_17, 0x00, 0x00, 0xff)
-on.attack(26, lbl_4c0, EGBERT_10, CHAOS_93, 0x00, 0x00, 0xff)
-on.attack(28, lbl_4d0, SONYA_0C, BOSER_17, 0x00, 0xff, 0xff)
-on.attack(13, lbl_4d8, SONYA_0C, BOSER_17, 0x00, 0x00, 0xff)
-on.attack(29, lbl_51d, SONYA_0C, CHAOS_93, 0x00, 0x00, 0xff)
-on.attack(31, lbl_552, NULL_FF, BOSER_17, 0xff, 0x00, 0xff)
-on.attack(32, lbl_55a, BOSER_17, SONYA_0C, 0x00, 0x00, 0xff)
-on.attack(33, lbl_570, NULL_FF, VAMPIRELORD_8E, 0xff, 0x00, 0xff)
-on.attack(35, lbl_580, VAMPIRELORD_8F, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(36, lbl_58c, NULL_FF, VAMPIRELORD_8F, 0xff, 0x00, 0xff)
-on.attack(38, lbl_59a, VAMPIRELORD_92, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(39, lbl_5a6, NULL_FF, VAMPIRELORD_92, 0xff, 0x00, 0xff)
-on.attack(42, lbl_5bc, MASTERDINO_55, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(44, lbl_5cc, MASTERDINO_56, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(46, lbl_5dc, SUCCUBUS_69, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(48, lbl_5ec, SUCCUBUS_68, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(50, lbl_5fc, ESTO_D9, SONYA_0C, 0x00, 0xff, 0xff)
-on.attack(51, lbl_604, ESTO_D9, SONYA_0C, 0x00, 0x00, 0xff)
-on.attack(53, lbl_614, OSTO_DA, SONYA_0C, 0x00, 0xff, 0xff)
-on.attack(53, lbl_61c, OSTO_DA, SONYA_0C, 0x00, 0x00, 0xff)
-on.attack(58, lbl_646, CHAOS_93, ERWIN_01, 0x00, 0x00, 0xff)
-on.attack(59, lbl_64e, CHAOS_93, ERWIN_01, 0x00, 0x00, 0xff)
+on.attack(4, lbl_346, ERWIN_01, CHAOS_93, 0x00, 0x00)
+on.attack(5, lbl_354, ERWIN_01, BOSER_17, 0x00, 0x00)
+on.attack(6, lbl_37c, ERWIN_01, BOSER_17, 0x00, 0xff)
+on.attack(8, lbl_392, HEIN_05, CHAOS_93, 0x00, 0xff)
+on.attack(9, lbl_39a, HEIN_05, CHAOS_93, 0x00, 0x00)
+on.attack(11, lbl_3aa, ROHGA_0B, BOSER_17, 0x00, 0xff)
+on.attack(12, lbl_3b6, ROHGA_0B, BOSER_17, 0x00, 0x00)
+on.attack(14, lbl_402, ROHGA_0B, CHAOS_93, 0x00, 0x00)
+on.attack(16, lbl_43e, LEON_0D, BOSER_17, 0x00, 0x00)
+on.attack(17, lbl_44c, LEON_0D, CHAOS_93, 0x00, 0x00)
+on.attack(19, lbl_468, IMELDA_0F, CHAOS_93, 0x00, 0xff)
+on.attack(20, lbl_470, IMELDA_0F, CHAOS_93, 0x00, 0x00)
+on.attack(22, lbl_480, VARGAS_0E, BOSER_17, 0x00, 0x00)
+on.attack(22, lbl_488, VARGAS_0E, CHAOS_93, 0x00, 0x00)
+on.attack(24, lbl_4a4, EGBERT_10, BOSER_17, 0x00, 0xff)
+on.attack(25, lbl_4ac, EGBERT_10, BOSER_17, 0x00, 0x00)
+on.attack(26, lbl_4c0, EGBERT_10, CHAOS_93, 0x00, 0x00)
+on.attack(28, lbl_4d0, SONYA_0C, BOSER_17, 0x00, 0xff)
+on.attack(13, lbl_4d8, SONYA_0C, BOSER_17, 0x00, 0x00)
+on.attack(29, lbl_51d, SONYA_0C, CHAOS_93, 0x00, 0x00)
+on.attack(31, lbl_552, NULL_FF, BOSER_17, 0xff, 0x00)
+on.attack(32, lbl_55a, BOSER_17, SONYA_0C, 0x00, 0x00)
+on.attack(33, lbl_570, NULL_FF, VAMPIRELORD_8E, 0xff, 0x00)
+on.attack(35, lbl_580, VAMPIRELORD_8F, NULL_FF, 0x00, 0xff)
+on.attack(36, lbl_58c, NULL_FF, VAMPIRELORD_8F, 0xff, 0x00)
+on.attack(38, lbl_59a, VAMPIRELORD_92, NULL_FF, 0x00, 0xff)
+on.attack(39, lbl_5a6, NULL_FF, VAMPIRELORD_92, 0xff, 0x00)
+on.attack(42, lbl_5bc, MASTERDINO_55, NULL_FF, 0x00, 0xff)
+on.attack(44, lbl_5cc, MASTERDINO_56, NULL_FF, 0x00, 0xff)
+on.attack(46, lbl_5dc, SUCCUBUS_69, NULL_FF, 0x00, 0xff)
+on.attack(48, lbl_5ec, SUCCUBUS_68, NULL_FF, 0x00, 0xff)
+on.attack(50, lbl_5fc, ESTO_D9, SONYA_0C, 0x00, 0xff)
+on.attack(51, lbl_604, ESTO_D9, SONYA_0C, 0x00, 0x00)
+on.attack(53, lbl_614, OSTO_DA, SONYA_0C, 0x00, 0xff)
+on.attack(53, lbl_61c, OSTO_DA, SONYA_0C, 0x00, 0x00)
+on.attack(58, lbl_646, CHAOS_93, ERWIN_01, 0x00, 0x00)
+on.attack(59, lbl_64e, CHAOS_93, ERWIN_01, 0x00, 0x00)
 break
 
 # Damage-Triggered Events
@@ -69,12 +69,12 @@ on.defeat(61, lbl_737, BOSER_17)
 break
 
 # Position-Triggered Events
-on.bound(3, lbl_331, NPC_SUBUNIT_F1, 2, 4, 22, 14, 0x00, 0x00)
+on.bound(3, lbl_331, NPC_SUBUNIT_F1, 2, 4, 22, 14)
 break
 
 # Turn-Triggered Events
-on.turn(1, lbl_317, ENEMY, 1, 0x00)
-on.turn(2, lbl_31f, ENEMY, 7, 0x00)
+on.turn(1, lbl_317, ENEMY, 1)
+on.turn(2, lbl_31f, ENEMY, 7)
 break
 
 # Core Events
@@ -120,7 +120,7 @@ lbl_226:
   unit.position(SONYA_0C, PRESET, PRESET)
   unit.showsub(SONYA_0C)
   msg(SONYA_0C, BOSER_17, SONYA_ANGRY, FOLLOW, 5)
-# Boser! What were you talking about just now?\0
+# Böser! What were you talking about just now?\0
   msg(BOSER_17, SONYA_0C, BOSER, FOLLOW, 6)
 # Heh heh ... So you heard ...\0
   msg(SONYA_0C, BOSER_17, SONYA_ANGRY, FOLLOW, 7)
@@ -130,18 +130,18 @@ lbl_226:
   goto(lbl_28a)
 lbl_278:
   msg(ROHGA_0B, BOSER_17, ROHGA_ANGRY, FOLLOW, 9)
-# Boser, you bastard! Are you saying you murdered Sonya's father!?\0
+# Böser, you bastard! Are you saying you murdered Sonya's father!?\0
   msg(BOSER_17, ROHGA_0B, BOSER, FOLLOW, 10)
 # Hmmm ... What if I did?\0
   msg(ROHGA_0B, BOSER_17, ROHGA_ANGRY, FOLLOW, 11)
 # You worthless scum ... I'll take revenge for Sonya! I'm gonna beat your ass!\0
 lbl_28a:
   msg(ERWIN_01, BOSER_17, ERWIN, FOLLOW, 12)
-# You can't escape this time, Boser!\r\nYour ambition ends here!\0
+# You can't escape this time, Böser!\r\nYour ambition ends here!\0
   msg(BOSER_17, DOWN_F5, BOSER, FOLLOW, 13)
 # Hmph ...! I won't be defeated by mere insects.\0
   msg(EGBERT_10, BOSER_17, EGBERT, FOLLOW, 14)
-# Boser, I allowed the Dark Blade's resurrection for the Empire's benefit.\r\nI see it's been well cared for. You have our thanks.\0
+# Böser, I allowed the Dark Blade's resurrection for the Empire's benefit.\r\nI see it's been well cared for. You have our thanks.\0
   msg(BOSER_17, EGBERT_10, BOSER, FOLLOW, 15)
 # Hah hah hah ... How amusing.\r\nAlhazard is mine alone!\0
   msg(LEON_0D, BOSER_17, LEON, FOLLOW, 16)
@@ -230,7 +230,7 @@ lbl_371:
   goto(lbl_37a)
 lbl_374:
   msg(ERWIN_01, BOSER_17, ERWIN, NOFOLLOW, 34)
-# Leave this world, Boser! The sooner, the better.\0
+# Leave this world, Böser! The sooner, the better.\0
 lbl_37a:
 break
 
@@ -310,7 +310,7 @@ lbl_40a:
   branch.unit.dead(lbl_430, BOSER_17)
   branch.unit.dead(lbl_427, SONYA_0C)
   msg(ROHGA_0B, SONYA_0C, ROHGA_DEAD, FOLLOW, 50)
-# Sonya ... You've spelt the end for Boser!\0
+# Sonya ... You've spelt the end for Böser!\0
   msg(SONYA_0C, ROHGA_0B, SONYA, FOLLOW, 51)
 # Leave it to me, Brother. We must try to stop this!\0
   msg(ROHGA_0B, SONYA_0C, ROHGA, FOLLOW, 52)
@@ -318,7 +318,7 @@ lbl_40a:
   goto(lbl_42d)
 lbl_427:
   msg(ROHGA_0B, BOSER_17, ROHGA_DEAD, FOLLOW, 53)
-# Boser ... Do you want to die by my hand ...?\r\n_NAME_, please!\0
+# Böser ... Do you want to die by my hand ...?\r\n_NAME_, please!\0
 lbl_42d:
   goto(lbl_43c)
 lbl_430:
@@ -391,7 +391,7 @@ break
 
 lbl_4ac:
   msg(EGBERT_10, BOSER_17, EGBERT, NOFOLLOW, 71)
-# I've known of your resurrection for a very long time ... and as I've known, I've researched.\r\nFortunately, I discovered some truly horrifying spells.\r\nBoser, prepare for your eternal banishment.\0
+# I've known of your resurrection for a very long time ... and as I've known, I've researched.\r\nFortunately, I discovered some truly horrifying spells.\r\nBöser, prepare for your eternal banishment.\0
   msg(BOSER_17, EGBERT_10, BOSER, NOFOLLOW, 72)
 # Don't mock me. Do you want to die?\r\nYou're so withered from black magic, your standing is an impressive feat.\0
   msg(EGBERT_10, BOSER_17, EGBERT, NOFOLLOW, 73)
@@ -448,7 +448,7 @@ break
 lbl_525:
   branch.unit.dead(lbl_53e, ROHGA_0B)
   msg(SONYA_0C, BOSER_17, SONYA_DEAD, FOLLOW, 87)
-# Uugghh ..., Boser!\0
+# Uugghh ..., Böser!\0
   msg(ROHGA_0B, SONYA_0C, ROHGA, FOLLOW, 88)
 # Sonya, don't endanger yourself! Rest and leave him to me!\0
   msg(SONYA_0C, BOSER_17, SONYA_DEAD, FOLLOW, 89)
@@ -456,7 +456,7 @@ lbl_525:
   goto(lbl_550)
 lbl_53e:
   msg(SONYA_0C, BOSER_17, SONYA_DEAD, FOLLOW, 90)
-# Sorry ..., Brother. I couldn't defeat Boser.\0
+# Sorry ..., Brother. I couldn't defeat Böser.\0
   msg(ERWIN_01, SONYA_0C, ERWIN, FOLLOW, 91)
 # It's okay! I'll take him out for you!\r\nRohga and Sonya, both of you deserve some rest!\0
   msg(SONYA_0C, ERWIN_01, SONYA_DEAD, FOLLOW, 92)
@@ -568,7 +568,7 @@ break
 
 lbl_5fc:
   msg(ESTO_D9, LEFT_F6, ESTO, NOFOLLOW, 112)
-# You will not get near Lord Boser!\0
+# You will not get near Lord Böser!\0
 break
 
 lbl_604:
@@ -793,7 +793,7 @@ lbl_7ea:
   msg(BOSER_17, DOWN_F5, BOSER, FOLLOW, 166)
 # Impressive ... Langrisser's power ...\r\nNo matter. With Alhazard, my minions will feast on your your bloodied remains.\0
   msg(ERWIN_01, BOSER_17, ERWIN, FOLLOW, 167)
-# Boser, your life ends here!\0
+# Böser, your life ends here!\0
   msg(BOSER_17, ERWIN_01, BOSER, FOLLOW, 168)
 # Witness the true worth of Alhazard!\0
 lbl_801:

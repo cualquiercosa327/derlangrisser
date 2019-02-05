@@ -1,14 +1,14 @@
 # Movement-Triggered Events
-on.move(17, lbl_349, JESSICA_14, 2, 0xff)
-on.move(0, lbl_371, EGBERT_D8, 0, 0xff)
-on.move(3, lbl_387, IMPERIALCOMMANDER_30, 0, 0xff)
-on.move(4, lbl_3bf, IMPERIALCOMMANDER_33, 0, 0xff)
+on.move(17, lbl_349, JESSICA_14, 2)
+on.move(0, lbl_371, EGBERT_D8, 0)
+on.move(3, lbl_387, IMPERIALCOMMANDER_30, 0)
+on.move(4, lbl_3bf, IMPERIALCOMMANDER_33, 0)
 break
 
 # Attack-Triggered Events
-on.attack(20, lbl_38f, IMPERIALCOMMANDER_30, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(22, lbl_39f, NULL_FF, IMPERIALCOMMANDER_31, 0xff, 0x00, 0xff)
-on.attack(24, lbl_3af, IMPERIALCOMMANDER_32, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(20, lbl_38f, IMPERIALCOMMANDER_30, NULL_FF, 0x00, 0xff)
+on.attack(22, lbl_39f, NULL_FF, IMPERIALCOMMANDER_31, 0xff, 0x00)
+on.attack(24, lbl_3af, IMPERIALCOMMANDER_32, NULL_FF, 0x00, 0xff)
 break
 
 # Damage-Triggered Events
@@ -33,16 +33,16 @@ on.defeat(31, lbl_3f3, IMPERIALCOMMANDER_30, IMPERIALCOMMANDER_31, IMPERIALCOMMA
 break
 
 # Position-Triggered Events
-on.bound(7, lbl_231, NPC_SUBUNIT_F1, 1, 1, 35, 25, 0x00, 0x00)
-on.bound(8, lbl_2d3, NPC_COMMANDER_F0, 15, 9, 15, 9, 0x00, 0x00)
-on.bound(9, lbl_2ed, NPC_COMMANDER_F0, 21, 9, 21, 9, 0x00, 0x00)
+on.bound(7, lbl_231, NPC_SUBUNIT_F1, 1, 1, 35, 25)
+on.bound(8, lbl_2d3, NPC_COMMANDER_F0, 15, 9, 15, 9)
+on.bound(9, lbl_2ed, NPC_COMMANDER_F0, 21, 9, 21, 9)
 break
 
 # Turn-Triggered Events
-on.turn(5, lbl_1da, ENEMY, 1, 0x00)
-on.turn(1, lbl_1f9, ENEMY, 0, 0x00)
-on.turn(2, lbl_218, ALLY, 0, 0x00)
-on.turn(6, lbl_22a, ALLY, 1, 0x00)
+on.turn(5, lbl_1da, ENEMY, 1)
+on.turn(1, lbl_1f9, ENEMY, 0)
+on.turn(2, lbl_218, ALLY, 0)
+on.turn(6, lbl_22a, ALLY, 1)
 break
 
 # Core Events
@@ -105,7 +105,7 @@ lbl_f2:
   unit.face(BOSER_17, DOWN_F5)
   delay(40)
   msg(HEIN_05, UP_F4, HEIN, NOFOLLOW, 8)
-# Ahhh! It's Lady Liana and Lana!\0
+# Ahhh! It's Lady Liana and Lána!\0
   msg(JESSICA_14, ERWIN_01, JESSICA, FOLLOW, 9)
 # The Maiden of Light and the Maiden of Darkness ...\0
   msg(AARON_08, ERWIN_01, AARON, FOLLOW, 10)
@@ -146,7 +146,7 @@ lbl_1f9:
 # The ritual is complete. Alhazard's seal has broken.\r\nAll that remains is to present it to His Majesty.\0
   branch.unit.dead(lbl_213, JESSICA_14)
   msg(JESSICA_14, EGBERT_D8, JESSICA_ANGRY, FOLLOW, 19)
-# Stop, Egbert! If Bernhardt uses Alhazard's power, he will become host to Boser!\0
+# Stop, Egbert! If Bernhardt uses Alhazard's power, he will become host to Böser!\0
   msg(EGBERT_D8, JESSICA_14, EGBERT, FOLLOW, 20)
 # In the case of an ordinary person, that may be true.\r\nBut you still can't imagine the true strength of His Majesty. His steely will can repel even Darkness.\r\nI'm certain His Majesty will be able to master Alhazard's power.\0
 lbl_213:
@@ -294,7 +294,7 @@ break
 lbl_349:
   branch.unit.dead(lbl_367, EGBERT_D8)
   msg(JESSICA_14, EGBERT_D8, JESSICA_ANGRY, FOLLOW, 45)
-# Egbert!\r\nEven with Boser defeated, Alhazard's unbridled power is too dangerous.\r\nYou know the horrors that darkness will bring! Why are you doing this!?\0
+# Egbert!\r\nEven with Böser defeated, Alhazard's unbridled power is too dangerous.\r\nYou know the horrors that darkness will bring! Why are you doing this!?\0
   msg(EGBERT_D8, JESSICA_14, EGBERT, FOLLOW, 46)
 # Hmmm ... Such sentimental babble ...\r\nTo achieve my purpose, I will do anything that can guarantee our success!\0
   msg(JESSICA_14, EGBERT_D8, JESSICA_SAD, FOLLOW, 47)
@@ -392,7 +392,7 @@ lbl_3f3:
   unit.cleanup()
   scenarioclear()
   msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 64)
-# We managed to save Lana and Liana ...\r\nBut we let him revive Alhazard ...\0
+# We managed to save Lána and Liana ...\r\nBut we let him revive Alhazard ...\0
   branch.mem.global.eq(lbl_406, $0a4793, $07eb5b)
   unit.expboost(LIANA_02, 150)
   global.sum($0a4793, $07eb5b)
@@ -409,11 +409,11 @@ lbl_406:
 # Liana joins the entourage!\0
   branch.unit.dead(lbl_431, CHERIE_04)
   msg(CHERIE_04, ERWIN_01, CHERIE, FOLLOW, 70)
-# Lana looks fine too.\0
+# Lána looks fine too.\0
   goto(lbl_437)
 lbl_431:
   msg(ERWIN_01, LANA_03, ERWIN, FOLLOW, 71)
-# Lana looks all right, too.\0
+# Lána looks all right, too.\0
 lbl_437:
   cursor.set(NULL_00)
   unit.retreat(DARKPRINCESS_15)
@@ -431,11 +431,11 @@ lbl_457:
 # Has the spell been broken?\0
 lbl_45d:
   msg(LIANA_02, LANA_03, LIANA, FOLLOW, 75)
-# Sister! Big sister Lana!\0
+# Sister! Big sister Lána!\0
   msg(LANA_03, LIANA_02, LANA, FOLLOW, 76)
 # Liana? Is it really you, Liana?\0
   msg(LIANA_02, LANA_03, LIANA, FOLLOW, 77)
-# Lana, I thought I would never see you again ...\0
+# Lána, I thought I would never see you again ...\0
   branch.unit.dead(lbl_479, SCOTT_06)
   msg(SCOTT_06, LIANA_02, SCOTT, FOLLOW, 78)
 # Huh? I never knew Lady Liana had a sister.\0
@@ -444,14 +444,14 @@ lbl_479:
 # Speaking of which, why am I here?\0
   branch.unit.dead(lbl_48c, LESTER_09)
   msg(LESTER_09, LANA_03, LESTER, FOLLOW, 110)
-# You were controlled by Boser.\r\nAfter Boser was killed, Egbert used his magic on you.\0
+# You were controlled by Böser.\r\nAfter Böser was killed, Egbert used his magic on you.\0
   goto(lbl_492)
 lbl_48c:
   msg(LESTER_09, LANA_03, LESTER_DEAD, NOFOLLOW, 110)
-# You were controlled by Boser.\r\nAfter Boser was killed, Egbert used his magic on you.\0
+# You were controlled by Böser.\r\nAfter Böser was killed, Egbert used his magic on you.\0
 lbl_492:
   msg(LANA_03, DOWN_F5, LANA, FOLLOW, 80)
-# Boser ...\r\nWhen I was young, I was separated from Liana and kidnapped by Boser.\r\nUggh! My head ...\r\nWhat happened to Alhazard?\0
+# Böser ...\r\nWhen I was young, I was separated from Liana and kidnapped by Böser.\r\nUggh! My head ...\r\nWhat happened to Alhazard?\0
   msg(ERWIN_01, LANA_03, ERWIN, FOLLOW, 81)
 # Egbert took it ... But I have no idea where he is.\0
   msg(LANA_03, ERWIN_01, LANA, FOLLOW, 82)
@@ -490,7 +490,7 @@ lbl_4e1:
 # Thank you.\0
 lbl_4fd:
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 95)
-# Lana joins the entourage!\0
+# Lána joins the entourage!\0
   branch.mem.global.eq(lbl_50e, $0a4793, $07eb5c)
   unit.expboost(LANA_03, 580)
   global.sum($0a4793, $07eb5c)
@@ -556,6 +556,6 @@ lbl_598:
 # Aaahh! He ran away!\0
 lbl_5ab:
   msg(ERWIN_01, RIGHT_F7, ERWIN, FOLLOW, 114)
-# We have to hurry up and follow him ...\r\nBut first, we must rescue Liana and Lana!\r\nQuickly, clear out the enemy! Let's go!\0
+# We have to hurry up and follow him ...\r\nBut first, we must rescue Liana and Lána!\r\nQuickly, clear out the enemy! Let's go!\0
 endsub
 

@@ -1,14 +1,14 @@
 # Movement-Triggered Events
-on.move(15, lbl_412, JESSICA_14, 1, 0xff)
-on.move(19, lbl_44a, LEON_D5, 3, 0xff)
-on.move(29, lbl_52a, LAIRD_18, 0, 0xff)
+on.move(15, lbl_412, JESSICA_14, 1)
+on.move(19, lbl_44a, LEON_D5, 3)
+on.move(29, lbl_52a, LAIRD_18, 0)
 break
 
 # Attack-Triggered Events
-on.attack(6, lbl_393, ERWIN_01, LEON_D5, 0x00, 0x00, 0xff)
-on.attack(20, lbl_458, LEON_D5, ERWIN_01, 0x00, 0x00, 0xff)
-on.attack(26, lbl_512, IMPERIALCOMMANDER_34, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(30, lbl_532, LAIRD_18, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(6, lbl_393, ERWIN_01, LEON_D5, 0x00, 0x00)
+on.attack(20, lbl_458, LEON_D5, ERWIN_01, 0x00, 0x00)
+on.attack(26, lbl_512, IMPERIALCOMMANDER_34, NULL_FF, 0x00, 0xff)
+on.attack(30, lbl_532, LAIRD_18, NULL_FF, 0x00, 0xff)
 break
 
 # Damage-Triggered Events
@@ -40,15 +40,15 @@ on.defeat(37, lbl_5e6, IMPERIALCOMMANDER_31, IMPERIALCOMMANDER_32, IMPERIALCOMMA
 break
 
 # Position-Triggered Events
-on.bound(3, lbl_343, NPC_COMMANDER_F0, 18, 4, 18, 4, 0x00, 0x00)
-on.bound(4, lbl_35e, NPC_COMMANDER_F0, 13, 4, 13, 4, 0x00, 0x00)
-on.range(5, lbl_379, LEON_D5, LANA_03, 2, 0x00, 0x00, 0x00, 0x00)
+on.bound(3, lbl_343, NPC_COMMANDER_F0, 18, 4, 18, 4)
+on.bound(4, lbl_35e, NPC_COMMANDER_F0, 13, 4, 13, 4)
+on.range(5, lbl_379, LEON_D5, LANA_03, 2)
 break
 
 # Turn-Triggered Events
-on.turn(0, lbl_2e1, ENEMY, 2, 0x00)
-on.turn(1, lbl_2ed, ENEMY, 1, 0x00)
-on.turn(2, lbl_315, ALLY, 2, 0x00)
+on.turn(0, lbl_2e1, ENEMY, 2)
+on.turn(1, lbl_2ed, ENEMY, 1)
+on.turn(2, lbl_315, ALLY, 2)
 break
 
 # Core Events
@@ -177,7 +177,7 @@ lbl_288:
   msg(LANA_03, LEON_D5, LANA, FOLLOW, 31)
 # Please, Leon! Stop this futile battle!\0
   msg(LEON_D5, LANA_03, LEON, FOLLOW, 32)
-# I'm sorry, Lana ...\r\nTo pacify this war-torn world, you need the means to achieve peace!\r\nEven if it's the power of evil!\0
+# I'm sorry, Lána ...\r\nTo pacify this war-torn world, you need the means to achieve peace!\r\nEven if it's the power of evil!\0
   msg(LANA_03, LEON_D5, LANA, FOLLOW, 33)
 # That's wrong Leon! There's no such thing as peace through power!\0
 lbl_2aa:
@@ -330,12 +330,12 @@ lbl_3ea:
   msg(LANA_03, LEON_D5, LANA_DEAD, FOLLOW, 70)
 # Not yet. Just until ... Until we stop Leon ...\0
   msg(ERWIN_01, LANA_03, ERWIN, FOLLOW, 71)
-# Don't push it! Leave it to me. Fall back, Lana!\0
+# Don't push it! Leave it to me. Fall back, Lána!\0
   msg(LANA_03, LEON_D5, LANA_DEAD, FOLLOW, 72)
 # Leon ...\0
   unit.cleanup()
   msg(LEON_D5, LANA_03, LEON, FOLLOW, 73)
-# Sorry, Lana ...\0
+# Sorry, Lána ...\0
   goto(lbl_410)
 lbl_40a:
   msg(LANA_03, DOWN_F5, LANA_DEAD, FOLLOW, 74)
@@ -557,7 +557,7 @@ lbl_5a5:
   msg(LANA_03, LEON_D5, LANA_SAD, FOLLOW, 121)
 # Please, Leon!\r\nStop it! I don't want to fight any more with you!\0
   msg(LEON_D5, LANA_03, LEON, FOLLOW, 122)
-# Lana ... I love ...\r\nNo, I have no right to say that ...\r\nI will fight to the end! For all who have died, I will uphold the honour of the Knights!\0
+# Lána ... I love ...\r\nNo, I have no right to say that ...\r\nI will fight to the end! For all who have died, I will uphold the honour of the Knights!\0
   msg(LANA_03, LEON_D5, LANA_SAD, FOLLOW, 123)
 # Leon!\0
 lbl_5de:
@@ -581,7 +581,7 @@ lbl_5f8:
 lbl_602:
   branch.unit.dead(lbl_60c, LANA_03)
   msg(LANA_03, ERWIN_01, LANA_SAD, FOLLOW, 128)
-# Even while Boser's spell controlled me as the Dark Princess ...\r\nLeon was the only one who treated me with courtesy ... and who made me feel like I was a normal woman.\r\nThere was no one in this world more warm and caring than he was. His heart truly desired nothing but peace ...\0
+# Even while Böser's spell controlled me as the Dark Princess ...\r\nLeon was the only one who treated me with courtesy ... and who made me feel like I was a normal woman.\r\nThere was no one in this world more warm and caring than he was. His heart truly desired nothing but peace ...\0
 lbl_60c:
   branch.unit.dead(lbl_619, LIANA_02)
   msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 130)

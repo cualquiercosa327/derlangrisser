@@ -1,18 +1,18 @@
 # Movement-Triggered Events
-on.move(1, lbl_29a, IMELDA_D7, 0, 0xff)
-on.move(22, lbl_334, IMPERIALCOMMANDER_33, 2, 0xff)
+on.move(1, lbl_29a, IMELDA_D7, 0)
+on.move(22, lbl_334, IMPERIALCOMMANDER_33, 2)
 break
 
 # Attack-Triggered Events
-on.attack(5, lbl_252, ERWIN_01, IMELDA_D7, 0x00, 0x00, 0xff)
-on.attack(13, lbl_2a2, IMELDA_D7, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(14, lbl_2aa, NULL_FF, IMELDA_D7, 0xff, 0x00, 0xff)
-on.attack(16, lbl_304, IMPERIALCOMMANDER_30, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(18, lbl_314, NULL_FF, IMPERIALCOMMANDER_31, 0xff, 0x00, 0xff)
-on.attack(20, lbl_324, NULL_FF, IMPERIALCOMMANDER_32, 0xff, 0x00, 0xff)
-on.attack(24, lbl_34a, IMPERIALCOMMANDER_34, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(30, lbl_37a, IMPERIALCOMMANDER_81, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(32, lbl_38a, NULL_FF, IMPERIALCOMMANDER_82, 0xff, 0x00, 0xff)
+on.attack(5, lbl_252, ERWIN_01, IMELDA_D7, 0x00, 0x00)
+on.attack(13, lbl_2a2, IMELDA_D7, NULL_FF, 0x00, 0xff)
+on.attack(14, lbl_2aa, NULL_FF, IMELDA_D7, 0xff, 0x00)
+on.attack(16, lbl_304, IMPERIALCOMMANDER_30, NULL_FF, 0x00, 0xff)
+on.attack(18, lbl_314, NULL_FF, IMPERIALCOMMANDER_31, 0xff, 0x00)
+on.attack(20, lbl_324, NULL_FF, IMPERIALCOMMANDER_32, 0xff, 0x00)
+on.attack(24, lbl_34a, IMPERIALCOMMANDER_34, NULL_FF, 0x00, 0xff)
+on.attack(30, lbl_37a, IMPERIALCOMMANDER_81, NULL_FF, 0x00, 0xff)
+on.attack(32, lbl_38a, NULL_FF, IMPERIALCOMMANDER_82, 0xff, 0x00)
 break
 
 # Damage-Triggered Events
@@ -40,13 +40,13 @@ on.defeat(34, lbl_3b6, IMPERIALCOMMANDER_81, IMPERIALCOMMANDER_82)
 break
 
 # Position-Triggered Events
-on.bound(3, lbl_209, NPC_SUBUNIT_F1, 16, 7, 24, 30, 0x00, 0x00)
-on.range(4, lbl_246, NPC_SUBUNIT_F1, IMPERIALCOMMANDER_32, 2, 0x00, 0x00, 0x00, 0x00)
+on.bound(3, lbl_209, NPC_SUBUNIT_F1, 16, 7, 24, 30)
+on.range(4, lbl_246, NPC_SUBUNIT_F1, IMPERIALCOMMANDER_32, 2)
 break
 
 # Turn-Triggered Events
-on.turn(2, lbl_1c7, ENEMY, 1, 0x00)
-on.turn(0, lbl_1d9, ENEMY, 0, 0x00)
+on.turn(2, lbl_1c7, ENEMY, 1)
+on.turn(0, lbl_1d9, ENEMY, 0)
 break
 
 # Core Events
@@ -105,7 +105,7 @@ lbl_114:
   msg(IMELDA_D7, ERWIN_01, IMELDA, FOLLOW, 5)
 # No, not really.\r\nIt would be ... inconvenient if you were to arrive in Velzeria unharmed.\r\nIn fact, it would be ideal if you could die here and now.\0
   msg(ERWIN_01, IMELDA_D7, ERWIN, FOLLOW, 6)
-# You're out of your mind if you think we'll just give up.\r\nWe'll defeat Boser and prevent Alhazard's revival!\0
+# You're out of your mind if you think we'll just give up.\r\nWe'll defeat Böser and prevent Alhazard's revival!\0
   msg(IMELDA_D7, ERWIN_01, IMELDA, FOLLOW, 7)
 # Damn it. This will be difficult, as I anticipated.\0
   bgm(ALLY, ALLY6)
@@ -126,9 +126,9 @@ lbl_1d9:
   msg(IMELDA_D7, ERWIN_01, IMELDA, FOLLOW, 10)
 # This is the end for you!\r\nHere, I crush your cute little dreams of reaching Velzeria.\r\nGwa ha ha!\0
   msg(ERWIN_01, IMELDA_D7, ERWIN, FOLLOW, 11)
-# Why are you against us? Surely you're not acting in Boser's interest!?\0
+# Why are you against us? Surely you're not acting in Böser's interest!?\0
   msg(IMELDA_D7, ERWIN_01, IMELDA, FOLLOW, 12)
-# Obviously, bowing down to the Demon Tribe is quite unbecoming of me.\r\nHowever, I was told to serve Lord Boser should His Majesty perish.\r\nThe Kaiser's last request ... If not for that, I wouldn't share breath with these fiends.\0
+# Obviously, bowing down to the Demon Tribe is quite unbecoming of me.\r\nHowever, I was told to serve Lord Böser should His Majesty perish.\r\nThe Kaiser's last request ... If not for that, I wouldn't share breath with these fiends.\0
   msg(ERWIN_01, IMELDA_D7, ERWIN, FOLLOW, 13)
 # What foolishness!\r\nYou mean you're consorting with demons for the sake of a dead man's wish?\0
   msg(IMELDA_D7, ERWIN_01, IMELDA, FOLLOW, 14)

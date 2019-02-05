@@ -1,13 +1,13 @@
 # Movement-Triggered Events
-on.move(20, lbl_304, JESSICA_14, 0, 0xff)
-on.move(3, lbl_374, BOSER_17, 0, 0xff)
-on.move(31, lbl_468, IMPERIALCOMMANDER_37, 0, 0xff)
+on.move(20, lbl_304, JESSICA_14, 0)
+on.move(3, lbl_374, BOSER_17, 0)
+on.move(31, lbl_468, IMPERIALCOMMANDER_37, 0)
 break
 
 # Attack-Triggered Events
-on.attack(11, lbl_2ba, ERWIN_01, BERNHARDT_16, 0x00, 0x00, 0xff)
-on.attack(21, lbl_324, NULL_FF, BERNHARDT_16, 0xff, 0x00, 0xff)
-on.attack(23, lbl_38e, NULL_FF, BOSER_17, 0xff, 0x00, 0xff)
+on.attack(11, lbl_2ba, ERWIN_01, BERNHARDT_16, 0x00, 0x00)
+on.attack(21, lbl_324, NULL_FF, BERNHARDT_16, 0xff, 0x00)
+on.attack(23, lbl_38e, NULL_FF, BOSER_17, 0xff, 0x00)
 break
 
 # Damage-Triggered Events
@@ -33,18 +33,18 @@ on.defeat(34, lbl_486, IMPERIALCOMMANDER_81)
 break
 
 # Position-Triggered Events
-on.bound(7, lbl_274, NPC_SUBUNIT_F1, 2, 13, 24, 21, 0x00, 0x00)
-on.bound(8, lbl_279, NPC_SUBUNIT_F1, 2, 1, 24, 12, 0x00, 0x00)
-on.bound(9, lbl_27e, NPC_COMMANDER_F0, 7, 6, 7, 6, 0x00, 0x00)
-on.bound(10, lbl_29c, NPC_COMMANDER_F0, 19, 6, 19, 6, 0x00, 0x00)
+on.bound(7, lbl_274, NPC_SUBUNIT_F1, 2, 13, 24, 21)
+on.bound(8, lbl_279, NPC_SUBUNIT_F1, 2, 1, 24, 12)
+on.bound(9, lbl_27e, NPC_COMMANDER_F0, 7, 6, 7, 6)
+on.bound(10, lbl_29c, NPC_COMMANDER_F0, 19, 6, 19, 6)
 break
 
 # Turn-Triggered Events
-on.turn(0, lbl_1e8, ALLY, 0, 0x00)
-on.turn(4, lbl_223, ENEMY, 1, 0x00)
-on.turn(1, lbl_237, ENEMY, 0, 0x00)
-on.turn(5, lbl_248, ALLY, 8, 0x00)
-on.turn(2, lbl_250, ENEMY, 0, 0x00)
+on.turn(0, lbl_1e8, ALLY, 0)
+on.turn(4, lbl_223, ENEMY, 1)
+on.turn(1, lbl_237, ENEMY, 0)
+on.turn(5, lbl_248, ALLY, 8)
+on.turn(2, lbl_250, ENEMY, 0)
 break
 
 # Core Events
@@ -141,11 +141,11 @@ lbl_1e8:
   msg(BOSER_17, JESSICA_14, BOSER, FOLLOW, 17)
 # Heh heh heh ... Meddling sorceresses should learn to stay dead ...\r\nThat's the problem with killing worms--you cut them down, but both halves keep wiggling.\r\nBut since you used the Rebirth spell, I shouldn't underestimate your skill, ... Jessica!\0
   msg(JESSICA_14, BOSER_17, JESSICA, FOLLOW, 18)
-# Boser ..., Prince of Darkness ... When were you revived?\0
+# Böser ..., Prince of Darkness ... When were you revived?\0
   msg(BERNHARDT_16, JESSICA_14, BERNHARDT, FOLLOW, 19)
 # You know him? He is the man who aided me in obtaining Alhazard.\0
   msg(JESSICA_14, BOSER_17, JESSICA, FOLLOW, 20)
-# Now it's all clear to me. Only an absolute fool ... would cooperate with demons!\r\nThis is all Boser's scheme. He's using you!\0
+# Now it's all clear to me. Only an absolute fool ... would cooperate with demons!\r\nThis is all Böser's scheme. He's using you!\0
   msg(BOSER_17, JESSICA_14, BOSER, FOLLOW, 21)
 # Once again, I have been resurrected!\r\nAnd with the waking of Chaos' Glory, darkness shall once again rule this world!\0
   msg(JESSICA_14, BOSER_17, JESSICA_ANGRY, FOLLOW, 22)
@@ -270,7 +270,7 @@ break
 
 lbl_304:
   msg(JESSICA_14, BERNHARDT_16, JESSICA, FOLLOW, 43)
-# Kaiser Bernhardt, that man, Boser, is the Prince of Darkness.\r\nHe gives away power only to manipulate you.\r\nThe strength you've acquired isn't from Alhazard alone!\r\nYou're channelling the energy of Chaos. It will consume you and destroy this world!\0
+# Kaiser Bernhardt, that man, Böser, is the Prince of Darkness.\r\nHe gives away power only to manipulate you.\r\nThe strength you've acquired isn't from Alhazard alone!\r\nYou're channelling the energy of Chaos. It will consume you and destroy this world!\0
   msg(BERNHARDT_16, JESSICA_14, BERNHARDT, FOLLOW, 44)
 # So what if I choose to wield the power of darkness? As Kaiser, it's my prerogative.\r\nLangrisser is no different. Power is power-- its source matters little.\0
   msg(JESSICA_14, BERNHARDT_16, JESSICA_ANGRY, FOLLOW, 45)
@@ -317,7 +317,7 @@ lbl_374:
   msg(BOSER_17, BERNHARDT_16, BOSER, FOLLOW, 56)
 # It appears your reign is at its end, Bernhardt ...\0
   msg(BOSER_17, BERNHARDT_16, BOSER, FOLLOW, 57)
-# Boser, a man of your power is intimidated by the Descendants of Light?\r\nHow ridiculous ... You said they would be easily dealt with.\0
+# Böser, a man of your power is intimidated by the Descendants of Light?\r\nHow ridiculous ... You said they would be easily dealt with.\0
   msg(BOSER_17, BERNHARDT_16, BOSER, FOLLOW, 58)
 # My dear Kaiser ... Who said anything about those worms?\0
   msg(BOSER_17, BERNHARDT_16, BOSER, FOLLOW, 59)
@@ -455,7 +455,7 @@ lbl_495:
 # Perhaps ... He may have gone to the cursed land ...\0
   branch.unit.dead(lbl_4af, LIANA_02)
   msg(LIANA_02, ERWIN_01, LIANA, FOLLOW, 92)
-# Chaos' Glory, Alhazard ...\r\nIt sleeps in Velzeria's darkness until the Keeper of Alhazard awakes. Boser ...\0
+# Chaos' Glory, Alhazard ...\r\nIt sleeps in Velzeria's darkness until the Keeper of Alhazard awakes. Böser ...\0
   branch.unit.dead(lbl_4af, LESTER_09)
   msg(LESTER_09, ERWIN_01, LESTER, FOLLOW, 93)
 # By now, we're too late. The prophecy is everything but reality now.\0

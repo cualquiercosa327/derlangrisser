@@ -1,19 +1,19 @@
 # Movement-Triggered Events
-on.move(22, lbl_411, IMPERIALCOMMANDER_2F, 1, 0xff)
-on.move(4, lbl_488, AARON_D0, 0, 0xff)
-on.move(5, lbl_4d9, COMMANDER_23, 0, 0xff)
-on.move(6, lbl_534, COMMANDER_89, 0, 0xff)
-on.move(7, lbl_552, COMMANDER_8A, 0, 0xff)
+on.move(22, lbl_411, IMPERIALCOMMANDER_2F, 1)
+on.move(4, lbl_488, AARON_D0, 0)
+on.move(5, lbl_4d9, COMMANDER_23, 0)
+on.move(6, lbl_534, COMMANDER_89, 0)
+on.move(7, lbl_552, COMMANDER_8A, 0)
 break
 
 # Attack-Triggered Events
-on.attack(15, lbl_3d7, ERWIN_01, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(18, lbl_3f1, NULL_FF, ROHGA_0B, 0xff, 0x00, 0xff)
-on.attack(23, lbl_44e, NULL_FF, IMPERIALCOMMANDER_2F, 0xff, 0x00, 0xff)
-on.attack(25, lbl_490, AARON_D0, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(30, lbl_4e9, COMMANDER_83, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(30, lbl_4f1, NULL_FF, COMMANDER_83, 0xff, 0x00, 0xff)
-on.attack(38, lbl_542, NULL_FF, COMMANDER_89, 0xff, 0x00, 0xff)
+on.attack(15, lbl_3d7, ERWIN_01, NULL_FF, 0x00, 0xff)
+on.attack(18, lbl_3f1, NULL_FF, ROHGA_0B, 0xff, 0x00)
+on.attack(23, lbl_44e, NULL_FF, IMPERIALCOMMANDER_2F, 0xff, 0x00)
+on.attack(25, lbl_490, AARON_D0, NULL_FF, 0x00, 0xff)
+on.attack(30, lbl_4e9, COMMANDER_83, NULL_FF, 0x00, 0xff)
+on.attack(30, lbl_4f1, NULL_FF, COMMANDER_83, 0xff, 0x00)
+on.attack(38, lbl_542, NULL_FF, COMMANDER_89, 0xff, 0x00)
 break
 
 # Damage-Triggered Events
@@ -45,18 +45,18 @@ on.defeat(45, lbl_5b0, COMMANDER_22, COMMANDER_23, COMMANDER_83, COMMANDER_84, C
 break
 
 # Position-Triggered Events
-on.bound(10, lbl_37d, NPC_SUBUNIT_F1, 5, 9, 23, 17, 0x00, 0x00)
-on.bound(13, lbl_388, NPC_COMMANDER_F0, 15, 29, 15, 29, 0x00, 0x00)
-on.bound(14, lbl_3b7, NPC_COMMANDER_F0, 22, 16, 22, 16, 0x00, 0x00)
+on.bound(10, lbl_37d, NPC_SUBUNIT_F1, 5, 9, 23, 17)
+on.bound(13, lbl_388, NPC_COMMANDER_F0, 15, 29, 15, 29)
+on.bound(14, lbl_3b7, NPC_COMMANDER_F0, 22, 16, 22, 16)
 break
 
 # Turn-Triggered Events
-on.turn(8, lbl_243, ENEMY, 1, 0x00)
-on.turn(3, lbl_2a5, ENEMY, 0, 0x00)
-on.turn(9, lbl_2b1, ALLY, 2, 0x00)
-on.turn(0, lbl_2e4, ENEMY, 0, 0x00)
-on.turn(1, lbl_2f0, ENEMY, 0, 0x00)
-on.turn(2, lbl_365, ALLY, 0, 0x00)
+on.turn(8, lbl_243, ENEMY, 1)
+on.turn(3, lbl_2a5, ENEMY, 0)
+on.turn(9, lbl_2b1, ALLY, 2)
+on.turn(0, lbl_2e4, ENEMY, 0)
+on.turn(1, lbl_2f0, ENEMY, 0)
+on.turn(2, lbl_365, ALLY, 0)
 break
 
 # Core Events
@@ -147,7 +147,7 @@ lbl_243:
 # A forced peace would be a short peace.\r\nSomeone with more power could end it, someone like you. Is that really sufficient?\0
   msg(ERWIN_01, AARON_D0, ERWIN, FOLLOW, 19)
 # Hmmm ...\0
-  prompt.options(lbl_285, lbl_294, 20, 21, 22, 0x00, 0xf4, 0x00, 0x00)
+  prompt.options(lbl_285, lbl_294, 20, 21, 22, 0xf4)
 # It's only natural\0
 # You can't sway me!\0
 # I don't know ...\0

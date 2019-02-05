@@ -1,20 +1,20 @@
 # Movement-Triggered Events
-on.move(30, lbl_5a4, LESTER_D1, 1, 0xff)
+on.move(30, lbl_5a4, LESTER_D1, 1)
 break
 
 # Attack-Triggered Events
-on.attack(10, lbl_3f3, ERWIN_01, LESTER_D1, 0x00, 0x00, 0xff)
-on.attack(11, lbl_401, ERWIN_01, CHERIE_CC, 0x00, 0x00, 0xff)
-on.attack(13, lbl_433, HEIN_05, LESTER_D1, 0x00, 0xff, 0xff)
-on.attack(13, lbl_43b, HEIN_05, LESTER_D1, 0x00, 0x00, 0xff)
-on.attack(15, lbl_45d, ROHGA_0B, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(17, lbl_479, SONYA_0C, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(19, lbl_4a2, ESTO_11, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(23, lbl_4e1, OSTO_12, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(25, lbl_520, HEIN_05, CHERIE_CC, 0x00, 0x00, 0xff)
-on.attack(26, lbl_52e, ROHGA_0B, CHERIE_CC, 0x00, 0x00, 0xff)
-on.attack(27, lbl_542, SONYA_0C, CHERIE_CC, 0x00, 0x00, 0xff)
-on.attack(28, lbl_556, CHERIE_CC, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(10, lbl_3f3, ERWIN_01, LESTER_D1, 0x00, 0x00)
+on.attack(11, lbl_401, ERWIN_01, CHERIE_CC, 0x00, 0x00)
+on.attack(13, lbl_433, HEIN_05, LESTER_D1, 0x00, 0xff)
+on.attack(13, lbl_43b, HEIN_05, LESTER_D1, 0x00, 0x00)
+on.attack(15, lbl_45d, ROHGA_0B, NULL_FF, 0x00, 0xff)
+on.attack(17, lbl_479, SONYA_0C, NULL_FF, 0x00, 0xff)
+on.attack(19, lbl_4a2, ESTO_11, NULL_FF, 0x00, 0xff)
+on.attack(23, lbl_4e1, OSTO_12, NULL_FF, 0x00, 0xff)
+on.attack(25, lbl_520, HEIN_05, CHERIE_CC, 0x00, 0x00)
+on.attack(26, lbl_52e, ROHGA_0B, CHERIE_CC, 0x00, 0x00)
+on.attack(27, lbl_542, SONYA_0C, CHERIE_CC, 0x00, 0x00)
+on.attack(28, lbl_556, CHERIE_CC, NULL_FF, 0x00, 0xff)
 break
 
 # Damage-Triggered Events
@@ -44,18 +44,18 @@ on.defeat(44, lbl_6a7, CHERIE_CC, LESTER_D1, COMMANDER_22, COMMANDER_23, COMMAND
 break
 
 # Position-Triggered Events
-on.bound(6, lbl_389, NPC_COMMANDER_F0, 4, 4, 6, 5, 0x00, 0x00)
-on.bound(7, lbl_39d, NPC_COMMANDER_F0, 17, 4, 19, 5, 0x00, 0x00)
-on.bound(8, lbl_3b1, NPC_COMMANDER_F0, 30, 4, 32, 5, 0x00, 0x00)
-on.bound(9, lbl_3c5, NPC_COMMANDER_F0, 1, 1, 35, 25, 0x00, 0x00)
+on.bound(6, lbl_389, NPC_COMMANDER_F0, 4, 4, 6, 5)
+on.bound(7, lbl_39d, NPC_COMMANDER_F0, 17, 4, 19, 5)
+on.bound(8, lbl_3b1, NPC_COMMANDER_F0, 30, 4, 32, 5)
+on.bound(9, lbl_3c5, NPC_COMMANDER_F0, 1, 1, 35, 25)
 break
 
 # Turn-Triggered Events
-on.turn(1, lbl_27f, ENEMY, 1, 0x00)
-on.turn(2, lbl_2aa, ENEMY, 18, 0x00)
-on.turn(3, lbl_2e3, ENEMY, 23, 0x00)
-on.turn(4, lbl_31c, ENEMY, 25, 0x00)
-on.turn(5, lbl_365, ALLY, 2, 0x00)
+on.turn(1, lbl_27f, ENEMY, 1)
+on.turn(2, lbl_2aa, ENEMY, 18)
+on.turn(3, lbl_2e3, ENEMY, 23)
+on.turn(4, lbl_31c, ENEMY, 25)
+on.turn(5, lbl_365, ALLY, 2)
 break
 
 # Core Events
@@ -129,7 +129,7 @@ lbl_160:
   msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 19)
 # Hmmm ... this place ... Where are we?\0
   msg(SONYA_0C, ERWIN_01, SONYA, FOLLOW, 20)
-# This is ...! This is the gate that bridges our world and Heaven!\r\nBoser told me about it. Through here, we can go to the home of the gods!\0
+# This is ...! This is the gate that bridges our world and Heaven!\r\nBöser told me about it. Through here, we can go to the home of the gods!\0
   msg(HEIN_05, ERWIN_01, HEIN, FOLLOW, 21)
 # Whatever it is, it looks like they they're trying to dismantle it ...\0
   msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 22)
@@ -430,9 +430,9 @@ lbl_4c5:
 # These humans smell unpleasant ... Why is this ...!?\0
   branch.unit.dead(lbl_4dc, SONYA_0C)
   msg(SONYA_0C, OSTO_12, SONYA, FOLLOW, 78)
-# That's because you've reverted to your original form.\r\nBoser's spell made you bloodthirsty. With him dead, you don't hunger for blood.\0
+# That's because you've reverted to your original form.\r\nBöser's spell made you bloodthirsty. With him dead, you don't hunger for blood.\0
   msg(OSTO_12, SONYA_0C, OSTO, FOLLOW, 79)
-# So Boser made us devour humans?\0
+# So Böser made us devour humans?\0
 lbl_4dc:
   local.sum($0a47d2, $07eb5e)
 break
@@ -460,9 +460,9 @@ lbl_504:
 # These humans smell unpleasant ... Why is this ...!?\0
   branch.unit.dead(lbl_51b, SONYA_0C)
   msg(SONYA_0C, OSTO_12, SONYA, FOLLOW, 85)
-# That's because you've reverted to your original form.\r\nBoser's spell made you bloodthirsty. With him dead, you don't hunger for blood.\0
+# That's because you've reverted to your original form.\r\nBöser's spell made you bloodthirsty. With him dead, you don't hunger for blood.\0
   msg(OSTO_12, SONYA_0C, OSTO, FOLLOW, 86)
-# So Boser made us devour humans?\0
+# So Böser made us devour humans?\0
 lbl_51b:
   local.sum($0a47d2, $07eb5d)
 break
@@ -489,7 +489,7 @@ lbl_542:
   msg(CHERIE_CC, SONYA_0C, CHERIE, NOFOLLOW, 93)
 # Humans and demons can never coexist!\0
   msg(SONYA_0C, CHERIE_CC, SONYA, NOFOLLOW, 94)
-# I don't understand why! It has to be all Boser's fault!\0
+# I don't understand why! It has to be all Böser's fault!\0
 break
 
 lbl_556:

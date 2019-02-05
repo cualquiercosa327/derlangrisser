@@ -1,12 +1,12 @@
 # Movement-Triggered Events
-on.move(13, lbl_291, SONYA_D4, 1, 0xff)
+on.move(13, lbl_291, SONYA_D4, 1)
 break
 
 # Attack-Triggered Events
-on.attack(2, lbl_231, ERWIN_01, SONYA_D4, 0x00, 0xff, 0xff)
-on.attack(3, lbl_239, ERWIN_01, SONYA_D4, 0x00, 0x00, 0xff)
-on.attack(15, lbl_3fb, STONEGOLEM_48, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(18, lbl_413, VAMPIRELORD_4F, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(2, lbl_231, ERWIN_01, SONYA_D4, 0x00, 0xff)
+on.attack(3, lbl_239, ERWIN_01, SONYA_D4, 0x00, 0x00)
+on.attack(15, lbl_3fb, STONEGOLEM_48, NULL_FF, 0x00, 0xff)
+on.attack(18, lbl_413, VAMPIRELORD_4F, NULL_FF, 0x00, 0xff)
 break
 
 # Damage-Triggered Events
@@ -34,11 +34,11 @@ on.defeat(26, lbl_45b, GREATDRAGON_59, MASTERDINO_55)
 break
 
 # Position-Triggered Events
-on.bound(1, lbl_20e, NPC_COMMANDER_F0, 2, 10, 2, 10, 0x00, 0x00)
+on.bound(1, lbl_20e, NPC_COMMANDER_F0, 2, 10, 2, 10)
 break
 
 # Turn-Triggered Events
-on.turn(0, lbl_206, ENEMY, 1, 0x00)
+on.turn(0, lbl_206, ENEMY, 1)
 break
 
 # Core Events
@@ -132,9 +132,9 @@ lbl_cc:
   msg(LANA_03, SONYA_D4, LANA, FOLLOW, 10)
 # Sonya, when you summon Chaos, what do you plan to do?\0
   msg(SONYA_D4, LANA_03, SONYA_ANGRY, FOLLOW, 11)
-# Shut up, you wretched bitch! You betrayed Boser for your worthless human friends!\0
+# Shut up, you wretched bitch! You betrayed Böser for your worthless human friends!\0
   msg(HEIN_05, SONYA_D4, HEIN, FOLLOW, 12)
-# That's not true! Boser was controlling her with a spell.\r\nOnce Boser was slain, the spell was lifted and she regained her true self. She betrayed no one.\0
+# That's not true! Böser was controlling her with a spell.\r\nOnce Böser was slain, the spell was lifted and she regained her true self. She betrayed no one.\0
   msg(SONYA_D4, HEIN_05, SONYA_ANGRY, FOLLOW, 13)
 # Either way, it's the same result!\r\nI'll avenge the Prince of Darkness!\0
   msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 14)

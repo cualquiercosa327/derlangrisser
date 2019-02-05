@@ -1,34 +1,34 @@
 # Movement-Triggered Events
-on.move(17, lbl_362, IMPERIALCOMMANDER_37, 1, 0xff)
-on.move(22, lbl_3ab, LAIRD_18, 1, 0xff)
-on.move(25, lbl_407, IMPERIALCOMMANDER_38, 1, 0xff)
-on.move(32, lbl_44f, LEON_D5, 1, 0xff)
-on.move(36, lbl_4a4, IMPERIALCOMMANDER_32, 0, 0xff)
-on.move(39, lbl_4bc, IMPERIALCOMMANDER_33, 0, 0xff)
+on.move(17, lbl_362, IMPERIALCOMMANDER_37, 1)
+on.move(22, lbl_3ab, LAIRD_18, 1)
+on.move(25, lbl_407, IMPERIALCOMMANDER_38, 1)
+on.move(32, lbl_44f, LEON_D5, 1)
+on.move(36, lbl_4a4, IMPERIALCOMMANDER_32, 0)
+on.move(39, lbl_4bc, IMPERIALCOMMANDER_33, 0)
 break
 
 # Attack-Triggered Events
-on.attack(4, lbl_2d7, ERWIN_01, LEON_D5, 0x00, 0x00, 0xff)
-on.attack(5, lbl_2e5, ERWIN_01, LEON_D5, 0x00, 0xff, 0xff)
-on.attack(7, lbl_2f6, HEIN_05, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(9, lbl_306, ROHGA_0B, LEON_D5, 0x00, 0x00, 0xff)
-on.attack(9, lbl_314, ROHGA_0B, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(11, lbl_324, SONYA_0C, LEON_D5, 0x00, 0x00, 0xff)
-on.attack(11, lbl_332, SONYA_0C, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(13, lbl_342, ESTO_11, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(15, lbl_352, OSTO_12, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(18, lbl_374, IMPERIALCOMMANDER_37, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(20, lbl_384, IMPERIALCOMMANDER_31, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(23, lbl_3c3, LAIRD_18, ERWIN_01, 0x00, 0x00, 0xff)
-on.attack(23, lbl_3cb, LAIRD_18, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(26, lbl_40f, NULL_FF, IMPERIALCOMMANDER_38, 0xff, 0x00, 0xff)
-on.attack(28, lbl_42f, NULL_FF, IMPERIALCOMMANDER_36, 0xff, 0x00, 0xff)
-on.attack(30, lbl_43f, IMPERIALCOMMANDER_35, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(33, lbl_457, LEON_D5, ERWIN_01, 0x00, 0x00, 0xff)
-on.attack(34, lbl_465, LEON_D5, HEIN_05, 0x00, 0x00, 0xff)
-on.attack(37, lbl_4ac, IMPERIALCOMMANDER_32, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(40, lbl_4c4, IMPERIALCOMMANDER_33, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(42, lbl_4d4, IMPERIALCOMMANDER_34, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(4, lbl_2d7, ERWIN_01, LEON_D5, 0x00, 0x00)
+on.attack(5, lbl_2e5, ERWIN_01, LEON_D5, 0x00, 0xff)
+on.attack(7, lbl_2f6, HEIN_05, NULL_FF, 0x00, 0xff)
+on.attack(9, lbl_306, ROHGA_0B, LEON_D5, 0x00, 0x00)
+on.attack(9, lbl_314, ROHGA_0B, NULL_FF, 0x00, 0xff)
+on.attack(11, lbl_324, SONYA_0C, LEON_D5, 0x00, 0x00)
+on.attack(11, lbl_332, SONYA_0C, NULL_FF, 0x00, 0xff)
+on.attack(13, lbl_342, ESTO_11, NULL_FF, 0x00, 0xff)
+on.attack(15, lbl_352, OSTO_12, NULL_FF, 0x00, 0xff)
+on.attack(18, lbl_374, IMPERIALCOMMANDER_37, NULL_FF, 0x00, 0xff)
+on.attack(20, lbl_384, IMPERIALCOMMANDER_31, NULL_FF, 0x00, 0xff)
+on.attack(23, lbl_3c3, LAIRD_18, ERWIN_01, 0x00, 0x00)
+on.attack(23, lbl_3cb, LAIRD_18, NULL_FF, 0x00, 0xff)
+on.attack(26, lbl_40f, NULL_FF, IMPERIALCOMMANDER_38, 0xff, 0x00)
+on.attack(28, lbl_42f, NULL_FF, IMPERIALCOMMANDER_36, 0xff, 0x00)
+on.attack(30, lbl_43f, IMPERIALCOMMANDER_35, NULL_FF, 0x00, 0xff)
+on.attack(33, lbl_457, LEON_D5, ERWIN_01, 0x00, 0x00)
+on.attack(34, lbl_465, LEON_D5, HEIN_05, 0x00, 0x00)
+on.attack(37, lbl_4ac, IMPERIALCOMMANDER_32, NULL_FF, 0x00, 0xff)
+on.attack(40, lbl_4c4, IMPERIALCOMMANDER_33, NULL_FF, 0x00, 0xff)
+on.attack(42, lbl_4d4, IMPERIALCOMMANDER_34, NULL_FF, 0x00, 0xff)
 break
 
 # Damage-Triggered Events
@@ -54,15 +54,15 @@ on.defeat(46, lbl_523, LEON_D5, LAIRD_18, IMPERIALCOMMANDER_31, IMPERIALCOMMANDE
 break
 
 # Position-Triggered Events
-on.bound(2, lbl_2a1, NPC_COMMANDER_F0, 18, 4, 18, 4, 0x00, 0x00)
-on.bound(3, lbl_2bc, NPC_COMMANDER_F0, 13, 4, 13, 4, 0x00, 0x00)
-on.bound(47, lbl_574, NPC_COMMANDER_F0, 1, 1, 30, 10, 0x00, 0x00)
-on.bound(48, lbl_596, NPC_SUBUNIT_F1, 15, 5, 16, 6, 0x00, 0x00)
+on.bound(2, lbl_2a1, NPC_COMMANDER_F0, 18, 4, 18, 4)
+on.bound(3, lbl_2bc, NPC_COMMANDER_F0, 13, 4, 13, 4)
+on.bound(47, lbl_574, NPC_COMMANDER_F0, 1, 1, 30, 10)
+on.bound(48, lbl_596, NPC_SUBUNIT_F1, 15, 5, 16, 6)
 break
 
 # Turn-Triggered Events
-on.turn(0, lbl_242, ALLY, 2, 0x00)
-on.turn(1, lbl_26a, ENEMY, 2, 0x00)
+on.turn(0, lbl_242, ALLY, 2)
+on.turn(1, lbl_26a, ENEMY, 2)
 break
 
 # Core Events
@@ -199,7 +199,7 @@ break
 
 lbl_2ed:
   msg(ERWIN_01, DOWN_F5, ERWIN_DEAD, FOLLOW, 26)
-# Damn it ... I was careless in trying to defeat Boser ...\0
+# Damn it ... I was careless in trying to defeat Böser ...\0
   gameover()
 break
 

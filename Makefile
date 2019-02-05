@@ -66,6 +66,17 @@ endif
 	@./toolchain/bin/dbconv
 	@./toolchain/bin/ptobmp
 	@rm ./resources/decomp/*.bin
+	@echo "Decompiling event scripts..."
+	@mkdir -p ./resources/scripts/event
+	@./toolchain/decompev.php &>/dev/null
+
+.PHONY: ips
+ips:
+ifneq ($(MD5),91d62c4cb790fc2fb38b10b68616e228)
+        $(error dl.rom md5 mismatch, expected 91d62c4cb790fc2fb38b10b68616e228)
+endif
+	@echo "Creating IPS patch..."
+	@./toolchain/createips.php
 
 .PHONY: toolchain
 toolchain:

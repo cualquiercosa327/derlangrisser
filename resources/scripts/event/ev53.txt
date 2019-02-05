@@ -2,10 +2,10 @@
 break
 
 # Attack-Triggered Events
-on.attack(5, lbl_38a, ROHGA_0B, SONYA_D4, 0x00, 0x00, 0xff)
-on.attack(5, lbl_3ed, SONYA_D4, ROHGA_0B, 0x00, 0x00, 0xff)
-on.attack(21, lbl_63a, NULL_FF, SUCCUBUS_68, 0xff, 0x00, 0xff)
-on.attack(23, lbl_64a, SUCCUBUS_69, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(5, lbl_38a, ROHGA_0B, SONYA_D4, 0x00, 0x00)
+on.attack(5, lbl_3ed, SONYA_D4, ROHGA_0B, 0x00, 0x00)
+on.attack(21, lbl_63a, NULL_FF, SUCCUBUS_68, 0xff, 0x00)
+on.attack(23, lbl_64a, SUCCUBUS_69, NULL_FF, 0x00, 0xff)
 break
 
 # Damage-Triggered Events
@@ -31,14 +31,14 @@ on.defeat(25, lbl_65a, VAMPIRELORD_4F)
 break
 
 # Position-Triggered Events
-on.range(6, lbl_6a1, ROHGA_0B, SONYA_D4, 3, 0x00, 0x00, 0x00, 0x00)
-on.bound(26, lbl_7c2, NPC_COMMANDER_F0, 18, 4, 18, 4, 0x00, 0x00)
-on.bound(27, lbl_7dd, NPC_COMMANDER_F0, 13, 4, 13, 4, 0x00, 0x00)
+on.range(6, lbl_6a1, ROHGA_0B, SONYA_D4, 3)
+on.bound(26, lbl_7c2, NPC_COMMANDER_F0, 18, 4, 18, 4)
+on.bound(27, lbl_7dd, NPC_COMMANDER_F0, 13, 4, 13, 4)
 break
 
 # Turn-Triggered Events
-on.turn(1, lbl_32b, ENEMY, 1, 0x00)
-on.turn(2, lbl_347, ALLY, 3, 0x00)
+on.turn(1, lbl_32b, ENEMY, 1)
+on.turn(2, lbl_347, ALLY, 3)
 break
 
 # Core Events
@@ -158,7 +158,7 @@ lbl_d4:
   msg(EGBERT_10, DOWN_F5, EGBERT, NOFOLLOW, 22)
 # Hmmm, what fortune.\r\nOur chances of defeating Alhazard have just increased.\0
   msg(ERWIN_01, UP_F4, ERWIN, NOFOLLOW, 23)
-# All right, we go! We'll destroy Boser!\0
+# All right, we go! We'll destroy Böser!\0
   screen.fadeout(6)
   cursor.show()
   screen.map.set(25)
@@ -198,7 +198,7 @@ lbl_d4:
   unit.position(ERWIN_01, PRESET, PRESET)
   unit.showsub(ERWIN_01)
   msg(ERWIN_01, EGBERT_10, ERWIN, FOLLOW, 24)
-# Is Boser still around here?\0
+# Is Böser still around here?\0
   msg(EGBERT_10, ERWIN_01, EGBERT, FOLLOW, 25)
 # He should be in the forbidden land, Velzeria.\r\nThere's an ancient legend about the darkness' imprisonment there.\r\nWe should take the fight to him rather than wait around.\0
   bgm(ALLY, ENEMY7_DARKPRINCESS)
@@ -260,14 +260,14 @@ break
 
 lbl_32b:
   msg(SONYA_D4, DOWN_F5, SONYA, FOLLOW, 36)
-# Master Boser is still napping. We'll have to stop them alone!\0
+# Master Böser is still napping. We'll have to stop them alone!\0
   branch.unit.dead(lbl_33b, ESTO_D9)
   msg(ESTO_D9, SONYA_D4, ESTO, FOLLOW, 37)
 # For an era of evil!\0
 lbl_33b:
   branch.unit.dead(lbl_345, OSTO_DA)
   msg(OSTO_DA, SONYA_D4, OSTO, FOLLOW, 38)
-# For Master Boser!\0
+# For Master Böser!\0
 lbl_345:
 break
 
@@ -285,7 +285,7 @@ lbl_347:
 lbl_367:
   subroutine(lbl_693)
   msg(SONYA_D4, ROHGA_0B, SONYA, FOLLOW, 42)
-# Stop tormenting me! Boser is so much nicer than my brother!\0
+# Stop tormenting me! Böser is so much nicer than my brother!\0
   msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 43)
 # Don't you remember how it was, Sonya? Can't we be family again?\0
 lbl_376:
@@ -391,7 +391,7 @@ lbl_41f:
   msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 67)
 # S, Sonya!\r\nNooooooooooo!\0
   msg(ROHGA_0B, UP_F4, ROHGA_ANGRY, FOLLOW, 68)
-# You bastards ... If Sonya wasn't perverted by you scum ...!\r\nBoser, when we meet, I'll make you beg for Hell!\0
+# You bastards ... If Sonya wasn't perverted by you scum ...!\r\nBöser, when we meet, I'll make you beg for Hell!\0
   goto(lbl_48d)
 lbl_45b:
   unit.move(ERWIN_01, 16, 12)
@@ -402,7 +402,7 @@ lbl_45b:
   msg(ERWIN_01, SONYA_D4, ERWIN_SAD, FOLLOW, 71)
 # No, you're my kid sister.\r\nJust this once, please remember that!\0
   msg(SONYA_D4, ERWIN_01, SONYA_DEAD, FOLLOW, 72)
-# Aahh, so warm. I'll never forget the kindness you've shown me.\r\nIf I'd never met Boser ... No, now it's too late.\0
+# Aahh, so warm. I'll never forget the kindness you've shown me.\r\nIf I'd never met Böser ... No, now it's too late.\0
   subroutine(lbl_69a)
   msg(SONYA_D4, ERWIN_01, SONYA_DEAD, FOLLOW, 73)
 # Tell my brother ... Sonya left behind her hatred and accepted humans, and ...\r\nI'm grateful he came all the way here to find me.\0
@@ -410,7 +410,7 @@ lbl_45b:
 # Sonya, hang on, Sonya!\0
   unit.cleanup()
   msg(ERWIN_01, UP_F4, ERWIN_ANGRY, FOLLOW, 75)
-# If only she saw things as they really were. Without confusion ...\r\nBoser, your end is coming. I will defeat you!\0
+# If only she saw things as they really were. Without confusion ...\r\nBöser, your end is coming. I will defeat you!\0
 lbl_48d:
   global.sum($0a4794, $07eb59)
   screen.fadeout(7)
@@ -507,7 +507,7 @@ lbl_48d:
   unit.move(HEIN_05, 15, 11)
   unit.move(ERWIN_01, 16, 15)
   msg(ERWIN_01, ROHGA_0B, ERWIN, NOFOLLOW, 84)
-# ...\r\nAgainst Boser, I'm at your side, Rohga.\0
+# ...\r\nAgainst Böser, I'm at your side, Rohga.\0
   unit.move(ERWIN_01, 16, 11)
   delay(30)
   msg(ROHGA_0B, UP_F4, ROHGA, NOFOLLOW, 85)
@@ -544,7 +544,7 @@ break
 
 lbl_600:
   msg(OSTO_DA, DOWN_F5, OSTO_DEAD, FOLLOW, 92)
-# When Boser's recovered, ... you will ...\0
+# When Böser's recovered, ... you will ...\0
   unit.retreat(OSTO_DA)
 break
 
@@ -661,7 +661,7 @@ lbl_6a1:
   msg(SONYA_D4, ROHGA_0B, SONYA, FOLLOW, 119)
 # ...\r\nThis era, this war, stole our parents from us. I see that now ...\0
   msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 120)
-# Yes, it has to end.\r\nWe must bring peace, so that others won't suffer as we did ...\r\nHate breeds bloodshed, and bastards like Boser take advantage of it!\r\nDo you understand, Sonya?\0
+# Yes, it has to end.\r\nWe must bring peace, so that others won't suffer as we did ...\r\nHate breeds bloodshed, and bastards like Böser take advantage of it!\r\nDo you understand, Sonya?\0
   msg(SONYA_D4, ROHGA_0B, SONYA, FOLLOW, 121)
 # Brother ...\r\nIf this war ends, can humans and demons live in peace?\0
   msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 122)
@@ -686,12 +686,12 @@ lbl_71a:
 # Thank you, everyone!\0
   branch.unit.dead(lbl_72d, ESTO_D9)
   msg(ESTO_D9, SONYA_D4, ESTO, FOLLOW, 105)
-# Sonya betrayed us. Go tell Boser.\0
+# Sonya betrayed us. Go tell Böser.\0
   goto(lbl_737)
 lbl_72d:
   branch.unit.dead(lbl_737, OSTO_DA)
   msg(OSTO_DA, SONYA_D4, OSTO, FOLLOW, 105)
-# Sonya betrayed us. Go tell Boser.\0
+# Sonya betrayed us. Go tell Böser.\0
 lbl_737:
   subroutine(lbl_662)
   msg(SONYA_D4, DOWN_F5, SONYA, FOLLOW, 129)
@@ -707,16 +707,16 @@ lbl_737:
 lbl_75a:
   branch.unit.dead(lbl_767, EGBERT_10)
   msg(EGBERT_10, ERWIN_01, EGBERT, FOLLOW, 131)
-# Hmph ... Boser's the last detail.\0
+# Hmph ... Böser's the last detail.\0
   goto(lbl_76d)
 lbl_767:
   msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 132)
-# All right! Boser's the only one left!\0
+# All right! Böser's the only one left!\0
 lbl_76d:
   msg(SONYA_0C, ERWIN_01, SONYA, FOLLOW, 133)
-# Boser's inside this castle.\0
+# Böser's inside this castle.\0
   msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 134)
-# Let's strike down Boser at once!\0
+# Let's strike down Böser at once!\0
   global.sum($0a478f, $07eb5f)
   loadscenario(47)
 lbl_77e:

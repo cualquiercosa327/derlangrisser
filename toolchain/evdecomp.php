@@ -59,8 +59,8 @@ function sctxt($text) {
 
   // Remove font tags
   $text = str_replace(
-            array("{font0}", "{font1}", "{font2}", "{font3}", "{font4}"),
-            array("", "", "", "", ""),
+            array("{font0}", "{font1}", "{font2}", "{font3}", "{font4}", "{font5}"),
+            array("", "", "", "", "", ""),
             $text);
   
   // Remove skip tags
@@ -70,7 +70,7 @@ function sctxt($text) {
   // Transform tags
   $text = str_replace(
               array("{06}", "{07}", "{02}", "{03}", "{end}", "{3a}", "{37}", "{38}"),
-              array("\\r", "\\n", "_NAME_", "_NUM_", "\\0", "o", "a", "a"),
+              array("\\r", "\\n", "_NAME_", "_NUM_", "\\0", "ö", "á", "ä"),
               $text);
   
   // Nuke stray spaces
@@ -141,8 +141,8 @@ for($i = 0; $i < count($events); $i++) {
   while(ftell($fd) < $section[0])
     $section[] = fgetw($fd);
   
-  // on.move(priority, goto, unit, turn, unk1)
-  // uint_8[priority] uint_8[unit] uint_8[turn] uint_8[unk1] uint_16[goto]
+  // on.move(priority, goto, unit, turn)
+  // uint_8[priority] uint_8[unit] uint_8[turn] uint_8[0xff] uint_16[goto]
   // When unit moves on turn, goto label
   fputs($fo, "# Movement-Triggered Events\n");
   while(ftell($fd) < $section[1]) {
@@ -151,10 +151,10 @@ for($i = 0; $i < count($events); $i++) {
       $t_priority = $t_cmd;
       $t_unit = $ar_unit[fgetb($fd)];
       $t_turn = fgetb($fd);
-      $t_unk1 = hexstr(fgetb($fd));
+      fseek($fd, 1, SEEK_CUR);
       $t_goto = fgetw($fd); $pointers[] = $t_goto;
       $t_goto = "lbl_" . dechex($t_goto);
-      fputs($fo, "on.move($t_priority, $t_goto, $t_unit, $t_turn, $t_unk1)\n");
+      fputs($fo, "on.move($t_priority, $t_goto, $t_unit, $t_turn)\n");
     }
     else {
       fputs($fo, "break\n\n");
@@ -163,8 +163,8 @@ for($i = 0; $i < count($events); $i++) {
   }
 
 
-  // on.attack(priority, goto, attacker, defender, unk1, unk2, unk3)
-  // uint_8[priority] uint_8[attacker] uint_8[unk1] uint_8[reciever] uint_8[unk2] uint_8[unk3] uint_16[goto]
+  // on.attack(priority, goto, attacker, defender, unk1, unk2)
+  // uint_8[priority] uint_8[attacker] uint_8[unk1] uint_8[reciever] uint_8[unk2] uint_8[0xff] uint_16[goto]
   // When unit attacker attacks unit defender, goto label
   fputs($fo, "# Attack-Triggered Events\n");
   while(ftell($fd) < $section[2]) {
@@ -175,10 +175,10 @@ for($i = 0; $i < count($events); $i++) {
       $t_unk1 = hexstr(fgetb($fd));
       $t_reciever = $ar_unit[fgetb($fd)];
       $t_unk2 = hexstr(fgetb($fd));
-      $t_unk3 = hexstr(fgetb($fd));
+      fseek($fd, 1, SEEK_CUR);
       $t_goto = fgetw($fd); $pointers[] = $t_goto;
       $t_goto = "lbl_" . dechex($t_goto);
-      fputs($fo, "on.attack($t_priority, $t_goto, $t_attacker, $t_reciever, $t_unk1, $t_unk2, $t_unk3)\n");
+      fputs($fo, "on.attack($t_priority, $t_goto, $t_attacker, $t_reciever, $t_unk1, $t_unk2)\n");
     }
     else {
       fputs($fo, "break\n\n");
@@ -230,12 +230,12 @@ for($i = 0; $i < count($events); $i++) {
   }
 
 
-  // on.range(priority, goto, unit1, unit2, radius, unk1, unk2, unk3, unk4)
-  // uint_8[priority] uint_8[unit] uint_8[unit] uint_8[radius] uint_8[unk1] uint_8[unk2] uint_8[unk3] uint_8[unk4] uint_16[goto]
+  // on.range(priority, goto, unit1, unit2, radius)
+  // uint_8[priority] uint_8[unit] uint_8[unit] uint_8[radius] uint_8[0x00] uint_8[0x00] uint_8[0x00] uint_8[0x00] uint_16[goto]
   // When unit1 is within radius tiles of unit2, goto label
   // or
-  // on.bound(priority, goto, unit, x1, y1, x2, y2, unk1, unk2)
-  // uint_8[priority] uint_8[unit] uint_8[unk1] uint_8[unk2] uint_8[x1] uint_8[y1] uint_8[x2] uint_8[y2] uint_16[goto]
+  // on.bound(priority, goto, unit, x1, y1, x2, y2)
+  // uint_8[priority] uint_8[unit] uint_8[0x00] uint_8[0x00] uint_8[x1] uint_8[y1] uint_8[x2] uint_8[y2] uint_16[goto]
   // When unit's position is greater than x1,y1 and less than x2,y2, goto label
   fputs($fo, "# Position-Triggered Events\n");
   while(ftell($fd) < $section[4]) {
@@ -246,12 +246,10 @@ for($i = 0; $i < count($events); $i++) {
       $bytecode[8] = "lbl_" . dechex($bytecode[8]);
       // Bounding Box
       if($bytecode[2] == 0 && $bytecode[3] == 0 )
-          fputs($fo, "on.bound($bytecode[0], $bytecode[8], {$ar_unit[$bytecode[1]]}, $bytecode[4], $bytecode[5], $bytecode[6], $bytecode[7], " . 
-                     hexstr($bytecode[2]) . ", " . hexstr($bytecode[3]) . ")\n");
+          fputs($fo, "on.bound($bytecode[0], $bytecode[8], {$ar_unit[$bytecode[1]]}, $bytecode[4], $bytecode[5], $bytecode[6], $bytecode[7])\n");
       // Range
       else
-          fputs($fo, "on.range($bytecode[0], $bytecode[8], {$ar_unit[$bytecode[1]]}, {$ar_unit[$bytecode[2]]}, $bytecode[3], " .
-                     hexstr($bytecode[4]) . ", " . hexstr($bytecode[5]) . ", " . hexstr($bytecode[6]) . ", " . hexstr($bytecode[7]) . ")\n");
+          fputs($fo, "on.range($bytecode[0], $bytecode[8], {$ar_unit[$bytecode[1]]}, {$ar_unit[$bytecode[2]]}, $bytecode[3])\n");
     }
     else {
       fputs($fo, "break\n\n");
@@ -260,8 +258,8 @@ for($i = 0; $i < count($events); $i++) {
   }
 
   
-  // on.turn(priority, goto, team, turn, unk1)
-  // uint_8[priority] uint_8[team] uint_8[turn] uint_8[unk1] uint_16[goto]
+  // on.turn(priority, goto, team, turn)
+  // uint_8[priority] uint_8[team] uint_8[turn] uint_8[0x00] uint_16[goto]
   // On team phase of turn, goto label
   fputs($fo, "# Turn-Triggered Events\n");
   while(ftell($fd) < $section[5]) {
@@ -270,10 +268,10 @@ for($i = 0; $i < count($events); $i++) {
       $t_priority = $t_cmd;
       $t_team = $ar_team[fgetb($fd)];
       $t_turn = fgetb($fd);
-      $t_unk1 = hexstr(fgetb($fd));
+      fseek($fd, 1, SEEK_CUR);
       $t_goto = fgetw($fd); $pointers[] = $t_goto;
       $t_goto = "lbl_" . dechex($t_goto);
-      fputs($fo, "on.turn($t_priority, $t_goto, $t_team, $t_turn, $t_unk1)\n");
+      fputs($fo, "on.turn($t_priority, $t_goto, $t_team, $t_turn)\n");
     }
     else {
       fputs($fo, "break\n\n");
@@ -748,15 +746,18 @@ for($i = 0; $i < count($events); $i++) {
         fputs($fo, "  branch.equipped($t_goto, $t_team, $t_item, $t_x1, $t_y1, $t_x2, $t_y2)\n");
         break;
       
-      // branch.unit.ne(goto, unit, unk1)
-      // uint_8[0x2b] uint_8[unk1] uint_8[unit] uint_16[goto]
+      // branch.unit.ne(goto, unit, unk)
+      // uint_8[0x2b] uint_8[unk] uint_8[unit] uint_16[goto]
       // If not unit, goto label
+      //
+      // Unknown byte is always 0x00 or 0x01. Only instances of 0x01 appear in
+      // ev24 and ev38 in Erwin branches.
       case 0x2b:
-        $t_unk1 = hexstr(fgetb($fd));
+        $t_unk = hexstr(fgetb($fd));
         $t_unit = $ar_unit[fgetb($fd)];
         $t_goto = fgetw($fd); $pointers[] = $t_goto;
         $t_goto = "lbl_" . dechex($t_goto);
-        fputs($fo, "  branch.unit.ne($t_goto, $t_unit, $t_unk1)\n");
+        fputs($fo, "  branch.unit.ne($t_goto, $t_unit, $t_unk)\n");
         break;
       
       // branch.unit.attrib.ne(goto, unit, attribute, value)
@@ -927,15 +928,14 @@ for($i = 0; $i < count($events); $i++) {
         fputs($fo, "  screen.mask($t_r, $t_g, $t_b)\n");
         break;
       
-      // prompt.options(goto1, goto2, line1, line2, line3, unk1, unk2, unk3, unk4)
-      // uint_8[0x43] uint_8[unk1] uint_8[unk2] uint_8[unk3] uint_8[unk4] uint_8[line1] uint_8[line2] uint_8[line3] uint_8[goto1] uint_8[goto2]
+      // prompt.options(goto1, goto2, line1, line2, line3, unk)
+      // uint_8[0x43] uint_8[0x00] uint_8[unk] uint_8[0x00] uint_8[0x00] uint_8[line1] uint_8[line2] uint_8[line3] uint_8[goto1] uint_8[goto2]
       // Display three-option prompt using the text from line1, line2 and line3,
       // continue on option1, goto address1 on option2, goto address2 on option3
       case 0x43:
-        $t_unk1 = hexstr(fgetb($fd));
-        $t_unk2 = hexstr(fgetb($fd));
-        $t_unk3 = hexstr(fgetb($fd));
-        $t_unk4 = hexstr(fgetb($fd));
+        fseek($fd, 1, SEEK_CUR);
+        $t_unk = hexstr(fgetb($fd));
+        fseek($fd, 2, SEEK_CUR);
         $t_line1 = fgetb($fd);
         $t_line2 = fgetb($fd);
         $t_line3 = fgetb($fd);
@@ -943,7 +943,7 @@ for($i = 0; $i < count($events); $i++) {
         $t_goto2 = fgetw($fd); $pointers[] = $t_goto2;
         $t_goto1 = "lbl_" . dechex($t_goto1);
         $t_goto2 = "lbl_" . dechex($t_goto2);
-        fputs($fo, "  prompt.options($t_goto1, $t_goto2, $t_line1, $t_line2, $t_line3, $t_unk1, $t_unk2, $t_unk3, $t_unk4)\n");
+        fputs($fo, "  prompt.options($t_goto1, $t_goto2, $t_line1, $t_line2, $t_line3, $t_unk)\n");
         fputs($fo, "# " . sctxt($ar_talk[$t_line1 - 1]) . "\\0\n");
         fputs($fo, "# " . sctxt($ar_talk[$t_line2 - 1]) . "\\0\n");
         fputs($fo, "# " . sctxt($ar_talk[$t_line3 - 1]) . "\\0\n");

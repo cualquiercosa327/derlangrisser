@@ -1,15 +1,15 @@
 # Movement-Triggered Events
-on.move(2, lbl_358, SONYA_D4, 0, 0xff)
-on.move(3, lbl_43d, SUCCUBUS_68, 0, 0xff)
-on.move(35, lbl_49e, VAMPIRELORD_4F, 0, 0xff)
+on.move(2, lbl_358, SONYA_D4, 0)
+on.move(3, lbl_43d, SUCCUBUS_68, 0)
+on.move(35, lbl_49e, VAMPIRELORD_4F, 0)
 break
 
 # Attack-Triggered Events
-on.attack(22, lbl_360, SONYA_D4, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(1, lbl_375, VAMPIRELORD_4F, SONYA_D4, 0xff, 0x00, 0xff)
-on.attack(23, lbl_37d, VAMPIRELORD_4F, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(25, lbl_445, SUCCUBUS_68, SONYA_D4, 0x00, 0x00, 0xff)
-on.attack(36, lbl_4b3, VAMPIRELORD_4F, SONYA_D4, 0x00, 0xff, 0xff)
+on.attack(22, lbl_360, SONYA_D4, NULL_FF, 0x00, 0xff)
+on.attack(1, lbl_375, VAMPIRELORD_4F, SONYA_D4, 0xff, 0x00)
+on.attack(23, lbl_37d, VAMPIRELORD_4F, NULL_FF, 0x00, 0xff)
+on.attack(25, lbl_445, SUCCUBUS_68, SONYA_D4, 0x00, 0x00)
+on.attack(36, lbl_4b3, VAMPIRELORD_4F, SONYA_D4, 0x00, 0xff)
 break
 
 # Damage-Triggered Events
@@ -38,18 +38,18 @@ on.defeat(39, lbl_4e3, JORMUNGANDR_99)
 break
 
 # Position-Triggered Events
-on.bound(9, lbl_265, NPC_SUBUNIT_F1, 12, 1, 25, 26, 0x00, 0x00)
-on.bound(10, lbl_286, NPC_COMMANDER_F0, 27, 20, 27, 20, 0x00, 0x00)
-on.bound(11, lbl_2a9, NPC_COMMANDER_F0, 7, 6, 7, 6, 0x00, 0x00)
-on.bound(12, lbl_2d2, NPC_COMMANDER_F0, 22, 3, 22, 3, 0x00, 0x00)
+on.bound(9, lbl_265, NPC_SUBUNIT_F1, 12, 1, 25, 26)
+on.bound(10, lbl_286, NPC_COMMANDER_F0, 27, 20, 27, 20)
+on.bound(11, lbl_2a9, NPC_COMMANDER_F0, 7, 6, 7, 6)
+on.bound(12, lbl_2d2, NPC_COMMANDER_F0, 22, 3, 22, 3)
 break
 
 # Turn-Triggered Events
-on.turn(4, lbl_1de, ENEMY, 1, 0x00)
-on.turn(5, lbl_1ea, ENEMY, 4, 0x00)
-on.turn(7, lbl_252, ALLY, 3, 0x00)
-on.turn(0, lbl_257, ALLY, 0, 0x00)
-on.turn(8, lbl_25f, ENEMY, 6, 0x00)
+on.turn(4, lbl_1de, ENEMY, 1)
+on.turn(5, lbl_1ea, ENEMY, 4)
+on.turn(7, lbl_252, ALLY, 3)
+on.turn(0, lbl_257, ALLY, 0)
+on.turn(8, lbl_25f, ENEMY, 6)
 break
 
 # Core Events
@@ -92,7 +92,7 @@ lbl_15a:
 # Langrisser's seal is broken, Descendants of Light. However I'll never give in to humans!\r\nUpon the burning Demon Tribe blood of my birth Father, I will rend the flesh from your bones as revenge for my brother!\0
   unit.move(SONYA_D4, PRESET, PRESET)
   msg(SONYA_D4, DOWN_F5, SONYA, FOLLOW, 6)
-# My dark brothers and sisters, hear me!\r\nThe Descendants of Light will not see the sunset this day. Avenge our Dark Prince, Boser!\0
+# My dark brothers and sisters, hear me!\r\nThe Descendants of Light will not see the sunset this day. Avenge our Dark Prince, Böser!\0
   unit.showsub(SONYA_D4)
   unit.position(GREATDRAGON_5A, PRESET, PRESET)
   unit.showsub(GREATDRAGON_5A)
@@ -111,7 +111,7 @@ lbl_15a:
   unit.position(SUCCUBUS_69, PRESET, PRESET)
   unit.showsub(SUCCUBUS_69)
   msg(SUCCUBUS_69, LEFT_F6, SUCCUBUS_BLUE, FOLLOW, 7)
-# Lord Boser shall be avenged!\r\nWe won't fear the Descendants of Light!\0
+# Lord Böser shall be avenged!\r\nWe won't fear the Descendants of Light!\0
   msg(ERWIN_01, SONYA_D4, ERWIN, FOLLOW, 8)
 # Listen up, everyone! We can't go easy on Sonya, even if she is Rohga's sister!\r\nLet's show them the power of the newly awakened Langrisser. Fight for our ideals. Let's go!\0
   bgm(ALLY, ALLY3)
@@ -134,7 +134,7 @@ lbl_1ea:
   msg(SONYA_D4, VAMPIRELORD_4F, SONYA, FOLLOW, 10)
 # I'm counting on you! Destroy the human scum!\0
   msg(VAMPIRELORD_4F, SONYA_D4, VAMPIRELORD, FOLLOW, 11)
-# Don't tell me what to do, bitch.\r\nI only followed you in the past because of a direct order from Boser himself.\r\nNow that he's dead, I don't have to take any of your shit!\r\nHmph ...! We're gonna have a little bloodbath!\r\nAnd you're cordially invited, you filthy, halfie bitch!\0
+# Don't tell me what to do, bitch.\r\nI only followed you in the past because of a direct order from Böser himself.\r\nNow that he's dead, I don't have to take any of your shit!\r\nHmph ...! We're gonna have a little bloodbath!\r\nAnd you're cordially invited, you filthy, halfie bitch!\0
   branch.unit.dead(lbl_20b, SUCCUBUS_68)
   msg(SUCCUBUS_68, VAMPIRELORD_4F, SUCCUBUS_BLUE, FOLLOW, 81)
 # How interesting!\0
@@ -162,7 +162,7 @@ lbl_215:
   goto(lbl_250)
 lbl_24a:
   msg(VAMPIRELORD_4F, SONYA_D4, VAMPIRELORD, FOLLOW, 13)
-# Let's have at it, Descendants of Trash!\r\nI shall avenge Lord Boser!\0
+# Let's have at it, Descendants of Trash!\r\nI shall avenge Lord Böser!\0
 lbl_250:
 break
 
@@ -232,7 +232,7 @@ lbl_2d2:
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 24)
 # After a little while, a large tree begins speaking.\r\n"You ... human ... Will you please unshackle that chain?"\r\n"That bothersome metal has encircled me for so long ..."\0
   global.sum($0a478c, $07eb5f)
-  prompt.options(lbl_2f5, lbl_306, 25, 26, 27, 0x00, 0xf4, 0x00, 0x00)
+  prompt.options(lbl_2f5, lbl_306, 25, 26, 27, 0xf4)
 # Chop it off\0
 # Remove it by hand\0
 # Ignore the tree\0
@@ -465,7 +465,7 @@ break
 lbl_49e:
   branch.mem.local.ne(lbl_4ab, $0a47d0, $07eb5e)
   msg(VAMPIRELORD_4F, LEFT_F6, VAMPIRELORD, FOLLOW, 72)
-# Destroy everything! This is the will of Boser ...\0
+# Destroy everything! This is the will of Böser ...\0
   goto(lbl_4b1)
 lbl_4ab:
   msg(VAMPIRELORD_4F, LEFT_F6, VAMPIRELORD, FOLLOW, 73)

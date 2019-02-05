@@ -1,24 +1,24 @@
 # Movement-Triggered Events
-on.move(1, lbl_36b, VAMPIRELORD_4F, 0, 0xff)
-on.move(2, lbl_383, GREATDRAGON_59, 0, 0xff)
-on.move(34, lbl_3d9, CHAOS_93, 0, 0xff)
-on.move(39, lbl_4ab, EGBERT_D8, 0, 0xff)
+on.move(1, lbl_36b, VAMPIRELORD_4F, 0)
+on.move(2, lbl_383, GREATDRAGON_59, 0)
+on.move(34, lbl_3d9, CHAOS_93, 0)
+on.move(39, lbl_4ab, EGBERT_D8, 0)
 break
 
 # Attack-Triggered Events
-on.attack(6, lbl_2a9, ERWIN_01, CHAOS_93, 0x00, 0x00, 0xff)
-on.attack(7, lbl_2b7, ERWIN_01, SONYA_D4, 0x00, 0x00, 0xff)
-on.attack(9, lbl_2d5, HEIN_05, CHAOS_93, 0x00, 0x00, 0xff)
-on.attack(11, lbl_2e5, CHERIE_04, CHAOS_93, 0x00, 0x00, 0xff)
-on.attack(13, lbl_2f5, KEITH_07, CHAOS_93, 0x00, 0x00, 0xff)
-on.attack(15, lbl_305, LESTER_09, CHAOS_93, 0x00, 0x00, 0xff)
-on.attack(17, lbl_315, SCOTT_06, CHAOS_93, 0x00, 0x00, 0xff)
-on.attack(19, lbl_325, LIANA_02, CHAOS_93, 0x00, 0x00, 0xff)
-on.attack(20, lbl_32d, LIANA_02, SONYA_D4, 0x00, 0x00, 0xff)
-on.attack(22, lbl_343, LANA_03, CHAOS_93, 0x00, 0x00, 0xff)
-on.attack(35, lbl_3e1, CHAOS_93, ERWIN_01, 0x00, 0xff, 0xff)
-on.attack(36, lbl_3e9, CHAOS_93, ERWIN_01, 0x00, 0x00, 0xff)
-on.attack(40, lbl_4bf, EGBERT_D8, CHAOS_93, 0x00, 0x00, 0xff)
+on.attack(6, lbl_2a9, ERWIN_01, CHAOS_93, 0x00, 0x00)
+on.attack(7, lbl_2b7, ERWIN_01, SONYA_D4, 0x00, 0x00)
+on.attack(9, lbl_2d5, HEIN_05, CHAOS_93, 0x00, 0x00)
+on.attack(11, lbl_2e5, CHERIE_04, CHAOS_93, 0x00, 0x00)
+on.attack(13, lbl_2f5, KEITH_07, CHAOS_93, 0x00, 0x00)
+on.attack(15, lbl_305, LESTER_09, CHAOS_93, 0x00, 0x00)
+on.attack(17, lbl_315, SCOTT_06, CHAOS_93, 0x00, 0x00)
+on.attack(19, lbl_325, LIANA_02, CHAOS_93, 0x00, 0x00)
+on.attack(20, lbl_32d, LIANA_02, SONYA_D4, 0x00, 0x00)
+on.attack(22, lbl_343, LANA_03, CHAOS_93, 0x00, 0x00)
+on.attack(35, lbl_3e1, CHAOS_93, ERWIN_01, 0x00, 0xff)
+on.attack(36, lbl_3e9, CHAOS_93, ERWIN_01, 0x00, 0x00)
+on.attack(40, lbl_4bf, EGBERT_D8, CHAOS_93, 0x00, 0x00)
 break
 
 # Damage-Triggered Events
@@ -49,13 +49,13 @@ on.defeat(44, lbl_58b, SONYA_D4, STONEGOLEM_48, STONEGOLEM_49, VAMPIRELORD_4F, V
 break
 
 # Position-Triggered Events
-on.bound(5, lbl_286, NPC_COMMANDER_F0, 2, 10, 2, 10, 0x00, 0x00)
+on.bound(5, lbl_286, NPC_COMMANDER_F0, 2, 10, 2, 10)
 break
 
 # Turn-Triggered Events
-on.turn(3, lbl_211, ENEMY, 1, 0x00)
-on.turn(4, lbl_236, ALLY, 2, 0x00)
-on.turn(0, lbl_27b, ALLY, 0, 0x00)
+on.turn(3, lbl_211, ENEMY, 1)
+on.turn(4, lbl_236, ALLY, 2)
+on.turn(0, lbl_27b, ALLY, 0)
 break
 
 # Core Events
@@ -157,7 +157,7 @@ lbl_236:
   msg(SONYA_D4, LIANA_02, SONYA, FOLLOW, 103)
 # But humans aren't the only ones who've betrayed me.\r\nMy own brethren I believed in, the Demon Tribe--even they turned against me!\r\nI've controlled the ones who've humiliated me with Alhazard.\r\nLater, I will pay you humans back!\r\nWith Alhazard's power I will destroy this stupid world! Then we can perish together!\0
   msg(LIANA_02, SONYA_D4, LIANA, FOLLOW, 13)
-# You're wrong, Sonya!\r\nI understand ... That sadness in the bottom of your heart, your hatred for humans ...\r\nBoser has taken advantage of that and used it to further his ambitions.\r\nBut by destroying everyone, you will be no better than the people who scorned you!\0
+# You're wrong, Sonya!\r\nI understand ... That sadness in the bottom of your heart, your hatred for humans ...\r\nBöser has taken advantage of that and used it to further his ambitions.\r\nBut by destroying everyone, you will be no better than the people who scorned you!\0
   goto(lbl_273)
 lbl_25b:
   msg(ERWIN_01, SONYA_D4, ERWIN, FOLLOW, 14)
@@ -287,7 +287,7 @@ break
 
 lbl_343:
   msg(LANA_03, CHAOS_93, LANA, NOFOLLOW, 41)
-# I'm no longer controlled by Boser! I won't return to a life of darkness!\0
+# I'm no longer controlled by Böser! I won't return to a life of darkness!\0
 break
 
 lbl_34b:

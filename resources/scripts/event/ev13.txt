@@ -1,18 +1,18 @@
 # Movement-Triggered Events
-on.move(21, lbl_383, JESSICA_14, 1, 0xff)
-on.move(5, lbl_3c3, EGBERT_D8, 0, 0xff)
-on.move(26, lbl_3c8, EGBERT_D8, 0, 0xff)
-on.move(4, lbl_41a, LICH_4A, 0, 0xff)
-on.move(39, lbl_492, VARGAS_D6, 0, 0xff)
+on.move(21, lbl_383, JESSICA_14, 1)
+on.move(5, lbl_3c3, EGBERT_D8, 0)
+on.move(26, lbl_3c8, EGBERT_D8, 0)
+on.move(4, lbl_41a, LICH_4A, 0)
+on.move(39, lbl_492, VARGAS_D6, 0)
 break
 
 # Attack-Triggered Events
-on.attack(19, lbl_367, LESTER_09, EGBERT_D8, 0x00, 0x00, 0xff)
-on.attack(22, lbl_391, JESSICA_14, EGBERT_D8, 0x00, 0x00, 0xff)
-on.attack(24, lbl_3a7, LIANA_02, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(28, lbl_43a, LICH_4A, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(29, lbl_442, NULL_FF, LICH_4A, 0xff, 0x00, 0xff)
-on.attack(40, lbl_49a, VARGAS_D6, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(19, lbl_367, LESTER_09, EGBERT_D8, 0x00, 0x00)
+on.attack(22, lbl_391, JESSICA_14, EGBERT_D8, 0x00, 0x00)
+on.attack(24, lbl_3a7, LIANA_02, NULL_FF, 0x00, 0xff)
+on.attack(28, lbl_43a, LICH_4A, NULL_FF, 0x00, 0xff)
+on.attack(29, lbl_442, NULL_FF, LICH_4A, 0xff, 0x00)
+on.attack(40, lbl_49a, VARGAS_D6, NULL_FF, 0x00, 0xff)
 break
 
 # Damage-Triggered Events
@@ -42,19 +42,19 @@ on.defeat(44, lbl_4bf, GELGAZER_3F, GELGAZER_40, GHOST_50, GHOST_51, WEREWOLF_39
 break
 
 # Position-Triggered Events
-on.bound(8, lbl_283, NPC_SUBUNIT_F1, 1, 10, 22, 17, 0x00, 0x00)
-on.bound(9, lbl_305, ERWIN_01, 2, 6, 2, 6, 0x00, 0x00)
-on.bound(10, lbl_310, NPC_COMMANDER_F0, 11, 4, 11, 4, 0x00, 0x00)
-on.bound(11, lbl_321, NPC_SUBUNIT_F1, 1, 1, 11, 20, 0x00, 0x00)
-on.bound(12, lbl_327, NPC_SUBUNIT_F1, 12, 1, 22, 20, 0x00, 0x00)
-on.bound(13, lbl_32d, NPC_SUBUNIT_F1, 11, 3, 13, 3, 0x00, 0x00)
+on.bound(8, lbl_283, NPC_SUBUNIT_F1, 1, 10, 22, 17)
+on.bound(9, lbl_305, ERWIN_01, 2, 6, 2, 6)
+on.bound(10, lbl_310, NPC_COMMANDER_F0, 11, 4, 11, 4)
+on.bound(11, lbl_321, NPC_SUBUNIT_F1, 1, 1, 11, 20)
+on.bound(12, lbl_327, NPC_SUBUNIT_F1, 12, 1, 22, 20)
+on.bound(13, lbl_32d, NPC_SUBUNIT_F1, 11, 3, 13, 3)
 break
 
 # Turn-Triggered Events
-on.turn(0, lbl_212, ALLY, 0, 0x00)
-on.turn(1, lbl_239, ALLY, 0, 0x00)
-on.turn(2, lbl_23e, ENEMY, 0, 0x00)
-on.turn(3, lbl_264, ALLY, 0, 0x00)
+on.turn(0, lbl_212, ALLY, 0)
+on.turn(1, lbl_239, ALLY, 0)
+on.turn(2, lbl_23e, ENEMY, 0)
+on.turn(3, lbl_264, ALLY, 0)
 break
 
 # Core Events

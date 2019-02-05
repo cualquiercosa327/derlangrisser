@@ -1,20 +1,20 @@
 # Movement-Triggered Events
-on.move(1, lbl_30b, IMPERIALCOMMANDER_31, 0, 0xff)
-on.move(26, lbl_36d, IMPERIALCOMMANDER_35, 1, 0xff)
+on.move(1, lbl_30b, IMPERIALCOMMANDER_31, 0)
+on.move(26, lbl_36d, IMPERIALCOMMANDER_35, 1)
 break
 
 # Attack-Triggered Events
-on.attack(6, lbl_25f, ERWIN_01, BERNHARDT_16, 0x00, 0x00, 0xff)
-on.attack(7, lbl_26d, ERWIN_01, EGBERT_D8, 0x00, 0x00, 0xff)
-on.attack(14, lbl_2ba, BERNHARDT_16, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(17, lbl_31d, IMPERIALCOMMANDER_31, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(19, lbl_32d, NULL_FF, IMPERIALCOMMANDER_32, 0xff, 0x00, 0xff)
-on.attack(21, lbl_33d, NULL_FF, IMPERIALCOMMANDER_33, 0xff, 0x00, 0xff)
-on.attack(23, lbl_350, IMPERIALCOMMANDER_34, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(24, lbl_35b, ESTO_11, IMPERIALCOMMANDER_34, 0x00, 0x00, 0xff)
-on.attack(24, lbl_360, OSTO_12, IMPERIALCOMMANDER_34, 0x00, 0x00, 0xff)
-on.attack(27, lbl_375, IMPERIALCOMMANDER_35, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(31, lbl_395, IMPERIALCOMMANDER_38, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(6, lbl_25f, ERWIN_01, BERNHARDT_16, 0x00, 0x00)
+on.attack(7, lbl_26d, ERWIN_01, EGBERT_D8, 0x00, 0x00)
+on.attack(14, lbl_2ba, BERNHARDT_16, NULL_FF, 0x00, 0xff)
+on.attack(17, lbl_31d, IMPERIALCOMMANDER_31, NULL_FF, 0x00, 0xff)
+on.attack(19, lbl_32d, NULL_FF, IMPERIALCOMMANDER_32, 0xff, 0x00)
+on.attack(21, lbl_33d, NULL_FF, IMPERIALCOMMANDER_33, 0xff, 0x00)
+on.attack(23, lbl_350, IMPERIALCOMMANDER_34, NULL_FF, 0x00, 0xff)
+on.attack(24, lbl_35b, ESTO_11, IMPERIALCOMMANDER_34, 0x00, 0x00)
+on.attack(24, lbl_360, OSTO_12, IMPERIALCOMMANDER_34, 0x00, 0x00)
+on.attack(27, lbl_375, IMPERIALCOMMANDER_35, NULL_FF, 0x00, 0xff)
+on.attack(31, lbl_395, IMPERIALCOMMANDER_38, NULL_FF, 0x00, 0xff)
 break
 
 # Damage-Triggered Events
@@ -39,14 +39,14 @@ on.defeat(34, lbl_43f, IMPERIALCOMMANDER_35, IMPERIALCOMMANDER_36, IMPERIALCOMMA
 break
 
 # Position-Triggered Events
-on.bound(4, lbl_21c, NPC_COMMANDER_F0, 7, 6, 7, 6, 0x00, 0x00)
-on.bound(5, lbl_23a, NPC_COMMANDER_F0, 19, 6, 19, 6, 0x00, 0x00)
+on.bound(4, lbl_21c, NPC_COMMANDER_F0, 7, 6, 7, 6)
+on.bound(5, lbl_23a, NPC_COMMANDER_F0, 19, 6, 19, 6)
 break
 
 # Turn-Triggered Events
-on.turn(2, lbl_1bc, ENEMY, 1, 0x00)
-on.turn(3, lbl_1f2, ALLY, 2, 0x00)
-on.turn(0, lbl_200, ALLY, 0, 0x00)
+on.turn(2, lbl_1bc, ENEMY, 1)
+on.turn(3, lbl_1f2, ALLY, 2)
+on.turn(0, lbl_200, ALLY, 0)
 break
 
 # Core Events
@@ -60,7 +60,7 @@ lbl_110:
   msg(EGBERT_D8, BERNHARDT_16, EGBERT, FOLLOW, 1)
 # Your Majesty, though I profoundly regret to say it, the invaders have penetrated.\0
   msg(BERNHARDT_16, EGBERT_D8, BERNHARDT, FOLLOW, 2)
-# Really? Yes, I see now ... Allying with Boser was a dangerous game, one we lost.\r\nEgbert, your wounds look deep. Will you be all right?\0
+# Really? Yes, I see now ... Allying with Böser was a dangerous game, one we lost.\r\nEgbert, your wounds look deep. Will you be all right?\0
   msg(EGBERT_D8, BERNHARDT_16, EGBERT, FOLLOW, 3)
 # I'm by no means in top form, but this is nothing to worry yourself with.\0
   msg(BERNHARDT_16, EGBERT_D8, BERNHARDT, FOLLOW, 4)
@@ -120,7 +120,7 @@ lbl_1bc:
   msg(BOSER_17, BERNHARDT_16, BOSER, FOLLOW, 12)
 # Langrisser is not fit for this pathetic excuse of an Empire!\0
   msg(BERNHARDT_16, BOSER_17, BERNHARDT, FOLLOW, 13)
-# Hmmm ... What brings you here, Boser?\0
+# Hmmm ... What brings you here, Böser?\0
   msg(BOSER_17, BERNHARDT_16, BOSER, FOLLOW, 14)
 # The same reason as you-- there's something I desire.\r\nGive me Alhazard and its key. By which I mean, of course, the Dark Rod.\0
   msg(EGBERT_D8, BOSER_17, EGBERT, FOLLOW, 15)
@@ -213,7 +213,7 @@ break
 lbl_295:
   branch.unit.dead(lbl_2a2, BOSER_17)
   msg(SONYA_0C, DOWN_F5, SONYA_DEAD, FOLLOW, 34)
-# Damn ... Right before Lord Boser. Pitiful ...\0
+# Damn ... Right before Lord Böser. Pitiful ...\0
   goto(lbl_2a8)
 lbl_2a2:
   msg(SONYA_0C, DOWN_F5, SONYA_DEAD, FOLLOW, 35)

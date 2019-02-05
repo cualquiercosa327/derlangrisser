@@ -1,21 +1,21 @@
 # Movement-Triggered Events
-on.move(1, lbl_548, LIANA_CA, 0, 0xff)
-on.move(0, lbl_5bd, LANA_CB, 0, 0xff)
+on.move(1, lbl_548, LIANA_CA, 0)
+on.move(0, lbl_5bd, LANA_CB, 0)
 break
 
 # Attack-Triggered Events
-on.attack(2, lbl_443, LIANA_CA, ERWIN_01, 0x00, 0x00, 0xff)
-on.attack(2, lbl_448, ERWIN_01, LIANA_CA, 0x00, 0x00, 0xff)
-on.attack(11, lbl_44d, LIANA_CA, ERWIN_01, 0x00, 0x00, 0xff)
-on.attack(11, lbl_452, ERWIN_01, LIANA_CA, 0x00, 0x00, 0xff)
-on.attack(12, lbl_457, ERWIN_01, JESSICA_14, 0x00, 0x00, 0xff)
-on.attack(16, lbl_47f, LEON_0D, LANA_CB, 0x00, 0x00, 0xff)
-on.attack(3, lbl_4ae, EGBERT_10, JESSICA_14, 0x00, 0x00, 0xff)
-on.attack(20, lbl_4b6, EGBERT_10, JESSICA_14, 0x00, 0x00, 0xff)
-on.attack(23, lbl_4e3, NULL_FF, JESSICA_14, 0xff, 0x00, 0xff)
-on.attack(24, lbl_4e8, JESSICA_14, EGBERT_10, 0x00, 0x00, 0xff)
-on.attack(30, lbl_602, COMMANDER_83, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(39, lbl_64a, NULL_FF, COMMANDER_8B, 0xff, 0x00, 0xff)
+on.attack(2, lbl_443, LIANA_CA, ERWIN_01, 0x00, 0x00)
+on.attack(2, lbl_448, ERWIN_01, LIANA_CA, 0x00, 0x00)
+on.attack(11, lbl_44d, LIANA_CA, ERWIN_01, 0x00, 0x00)
+on.attack(11, lbl_452, ERWIN_01, LIANA_CA, 0x00, 0x00)
+on.attack(12, lbl_457, ERWIN_01, JESSICA_14, 0x00, 0x00)
+on.attack(16, lbl_47f, LEON_0D, LANA_CB, 0x00, 0x00)
+on.attack(3, lbl_4ae, EGBERT_10, JESSICA_14, 0x00, 0x00)
+on.attack(20, lbl_4b6, EGBERT_10, JESSICA_14, 0x00, 0x00)
+on.attack(23, lbl_4e3, NULL_FF, JESSICA_14, 0xff, 0x00)
+on.attack(24, lbl_4e8, JESSICA_14, EGBERT_10, 0x00, 0x00)
+on.attack(30, lbl_602, COMMANDER_83, NULL_FF, 0x00, 0xff)
+on.attack(39, lbl_64a, NULL_FF, COMMANDER_8B, 0xff, 0x00)
 break
 
 # Damage-Triggered Events
@@ -49,17 +49,17 @@ on.defeat(43, lbl_668, COMMANDER_83, COMMANDER_85, COMMANDER_88, COMMANDER_89)
 break
 
 # Position-Triggered Events
-on.bound(9, lbl_407, NPC_COMMANDER_F0, 6, 5, 6, 5, 0x00, 0x00)
-on.bound(10, lbl_423, NPC_COMMANDER_F0, 12, 5, 12, 5, 0x00, 0x00)
-on.range(44, lbl_776, EGBERT_10, LIANA_CA, 2, 0x00, 0x00, 0x00, 0x00)
-on.range(45, lbl_7a0, EGBERT_10, LANA_CB, 2, 0x00, 0x00, 0x00, 0x00)
+on.bound(9, lbl_407, NPC_COMMANDER_F0, 6, 5, 6, 5)
+on.bound(10, lbl_423, NPC_COMMANDER_F0, 12, 5, 12, 5)
+on.range(44, lbl_776, EGBERT_10, LIANA_CA, 2)
+on.range(45, lbl_7a0, EGBERT_10, LANA_CB, 2)
 break
 
 # Turn-Triggered Events
-on.turn(8, lbl_377, ENEMY, 1, 0x00)
-on.turn(5, lbl_3b5, ENEMY, 0, 0x00)
-on.turn(6, lbl_3bd, ENEMY, 0, 0x00)
-on.turn(7, lbl_3df, ALLY, 0, 0x00)
+on.turn(8, lbl_377, ENEMY, 1)
+on.turn(5, lbl_3b5, ENEMY, 0)
+on.turn(6, lbl_3bd, ENEMY, 0)
+on.turn(7, lbl_3df, ALLY, 0)
 break
 
 # Core Events
@@ -121,13 +121,13 @@ lbl_17c:
   unit.move(LANA_CB, 24, 8)
   delay(60)
   msg(LANA_CB, LIANA_CA, LANA_SAD, NOFOLLOW, 7)
-# Since Boser captured me, I've lived a life of darkness and servitude.\r\nOf course, everyone distrusted and loathed me ...\r\nBut he, Leon, was the only one who treated me with kindness.\r\nHe knew all along that I was acting under Boser's control ...\0
+# Since Böser captured me, I've lived a life of darkness and servitude.\r\nOf course, everyone distrusted and loathed me ...\r\nBut he, Leon, was the only one who treated me with kindness.\r\nHe knew all along that I was acting under Böser's control ...\0
   delay(60)
   msg(JESSICA_14, DOWN_F5, JESSICA_SAD, NOFOLLOW, 8)
 # ...\r\nYou two need not fight against your will.\r\nIf you wish to return to their side, I won't stop you ...\0
   unit.move(LANA_CB, 24, 7)
   msg(LANA_CB, JESSICA_14, LANA, NOFOLLOW, 9)
-# I'm all right, really!\r\nSince my release from Boser, I've done a lot of thinking.\r\nI'm a Descendant of Light, and Boser taught me to hate our way of life ...\r\nBut now that I'm free, I've chosen to fulfil my duty.\r\nEven if I must fight those I love ...\0
+# I'm all right, really!\r\nSince my release from Böser, I've done a lot of thinking.\r\nI'm a Descendant of Light, and Böser taught me to hate our way of life ...\r\nBut now that I'm free, I've chosen to fulfil my duty.\r\nEven if I must fight those I love ...\0
   unit.move(LIANA_CA, 23, 7)
   msg(LIANA_CA, LANA_CB, LIANA, NOFOLLOW, 10)
 # Sister ...\0
@@ -271,7 +271,7 @@ lbl_3bd:
   branch.unit.dead(lbl_3dd, LIANA_CA)
   branch.unit.dead(lbl_3dd, LANA_CB)
   msg(JESSICA_14, DOWN_F5, JESSICA, FOLLOW, 41)
-# It seems we're the only ones left ...\r\nLiana, Lana, please escape while you can.\0
+# It seems we're the only ones left ...\r\nLiana, Lána, please escape while you can.\0
   msg(LANA_CB, JESSICA_14, LANA, FOLLOW, 42)
 # No, Lady Jessica! Why would you say such a thing!?\0
   msg(LIANA_CA, JESSICA_14, LIANA, FOLLOW, 43)
@@ -364,7 +364,7 @@ break
 
 lbl_47f:
   msg(LEON_0D, LANA_CB, LEON_SAD, NOFOLLOW, 60)
-# Lana, forgive me.\r\nEven if I'm an Imperial soldier, I do not wish to fight you.\0
+# Lána, forgive me.\r\nEven if I'm an Imperial soldier, I do not wish to fight you.\0
   msg(LANA_CB, LEON_0D, LANA_SAD, NOFOLLOW, 61)
 # Please don't let it bother you. I'm no different, ... since I am a Descendant of Light.\0
   msg(LEON_0D, LANA_CB, LEON_SAD, NOFOLLOW, 62)
@@ -528,18 +528,18 @@ lbl_5c5:
   branch.unit.dead(lbl_5e2, LEON_0D)
   branch.mem.local.ne(lbl_5dc, $0a47d2, $07eb58)
   msg(LEON_0D, LANA_CB, LEON_SAD, FOLLOW, 91)
-# Lana ...\0
+# Lána ...\0
   goto(lbl_5e2)
 lbl_5dc:
   msg(LEON_0D, LANA_CB, LEON_SAD, FOLLOW, 92)
-# You can't die, Lana!\0
+# You can't die, Lána!\0
 lbl_5e2:
   branch.unit.dead(lbl_5f3, LEON_0D)
   msg(LANA_CB, LEON_0D, LANA_DEAD, FOLLOW, 93)
-# Thank you for everything, Leon.\r\nWhen I was under Boser's spell, you told everyone it wasn't me doing those things ...\r\nI ... will never ... forget ... your ... kindness ...\0
+# Thank you for everything, Leon.\r\nWhen I was under Böser's spell, you told everyone it wasn't me doing those things ...\r\nI ... will never ... forget ... your ... kindness ...\0
   unit.cleanup()
   msg(LEON_0D, LANA_CB, LEON_SAD, FOLLOW, 94)
-# Forgive me, Lana. Rest in peace ...\0
+# Forgive me, Lána. Rest in peace ...\0
 lbl_5f3:
   branch.unit.dead(lbl_5fd, EGBERT_10)
   msg(EGBERT_10, LANA_CB, EGBERT, FOLLOW, 95)
@@ -685,13 +685,13 @@ lbl_702:
   branch.unit.dead(lbl_725, LANA_CB)
   branch.unit.dead(lbl_719, LEON_0D)
   msg(LEON_0D, LANA_CB, LEON, FOLLOW, 131)
-# Lana ...\0
+# Lána ...\0
   msg(LANA_CB, LEON_0D, LANA, FOLLOW, 132)
 # I understand ... I won't resist ...\0
   goto(lbl_725)
 lbl_719:
   msg(ERWIN_01, LANA_CB, ERWIN, FOLLOW, 133)
-# I'll be taking you with me, Lana.\0
+# I'll be taking you with me, Lána.\0
   msg(LANA_CB, ERWIN_01, LANA_SAD, FOLLOW, 134)
 # It looks like there's no alternative ...\0
 lbl_725:

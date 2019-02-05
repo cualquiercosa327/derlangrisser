@@ -1,13 +1,13 @@
 # Movement-Triggered Events
-on.move(20, lbl_4ae, ESTO_D9, 0, 0xff)
-on.move(22, lbl_4c0, OSTO_DA, 0, 0xff)
-on.move(1, lbl_502, MINOTAUR_63, 0, 0xff)
-on.move(2, lbl_516, MINOTAUR_64, 0, 0xff)
+on.move(20, lbl_4ae, ESTO_D9, 0)
+on.move(22, lbl_4c0, OSTO_DA, 0)
+on.move(1, lbl_502, MINOTAUR_63, 0)
+on.move(2, lbl_516, MINOTAUR_64, 0)
 break
 
 # Attack-Triggered Events
-on.attack(25, lbl_4da, NULL_FF, SUCCUBUS_68, 0xff, 0x00, 0xff)
-on.attack(27, lbl_4ea, SUCCUBUS_69, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(25, lbl_4da, NULL_FF, SUCCUBUS_68, 0xff, 0x00)
+on.attack(27, lbl_4ea, SUCCUBUS_69, NULL_FF, 0x00, 0xff)
 break
 
 # Damage-Triggered Events
@@ -34,19 +34,19 @@ on.defeat(7, lbl_5a9, SUCCUBUS_69, SUCCUBUS_9A)
 break
 
 # Position-Triggered Events
-on.range(10, lbl_445, NPC_SUBUNIT_F1, MINOTAUR_63, 5, 0x00, 0x00, 0x00, 0x00)
-on.range(11, lbl_44a, NPC_SUBUNIT_F1, MINOTAUR_64, 5, 0x00, 0x00, 0x00, 0x00)
-on.bound(6, lbl_44f, NPC_SUBUNIT_F1, 21, 1, 32, 34, 0x00, 0x00)
-on.bound(12, lbl_45a, NPC_COMMANDER_F0, 4, 10, 4, 10, 0x00, 0x00)
+on.range(10, lbl_445, NPC_SUBUNIT_F1, MINOTAUR_63, 5)
+on.range(11, lbl_44a, NPC_SUBUNIT_F1, MINOTAUR_64, 5)
+on.bound(6, lbl_44f, NPC_SUBUNIT_F1, 21, 1, 32, 34)
+on.bound(12, lbl_45a, NPC_COMMANDER_F0, 4, 10, 4, 10)
 break
 
 # Turn-Triggered Events
-on.turn(3, lbl_2f0, ENEMY, 1, 0x00)
-on.turn(0, lbl_31f, ALLY, 2, 0x00)
-on.turn(4, lbl_35b, ENEMY, 5, 0x00)
-on.turn(5, lbl_377, ENEMY, 7, 0x00)
-on.turn(8, lbl_382, ENEMY, 13, 0x00)
-on.turn(9, lbl_3b8, ENEMY, 15, 0x00)
+on.turn(3, lbl_2f0, ENEMY, 1)
+on.turn(0, lbl_31f, ALLY, 2)
+on.turn(4, lbl_35b, ENEMY, 5)
+on.turn(5, lbl_377, ENEMY, 7)
+on.turn(8, lbl_382, ENEMY, 13)
+on.turn(9, lbl_3b8, ENEMY, 15)
 break
 
 # Core Events
@@ -127,7 +127,7 @@ lbl_106:
   msg(LIANA_CA, EGBERT_D8, LIANA_ANGRY, NOFOLLOW, 11)
 # No! Let go!\r\nHelp me, _NAME_!\0
   msg(OSTO_DA, LIANA_CA, ESTO, NOFOLLOW, 12)
-# Lord Boser awaits ...\0
+# Lord Böser awaits ...\0
   msg(LIANA_CA, DOWN_F5, LIANA_ANGRY, NOFOLLOW, 13)
 # Aaaaahhhh!\0
   cursor.set(ERWIN_01)
@@ -223,7 +223,7 @@ lbl_2f0:
   msg(SUCCUBUS_68, VAMPIRELORD_4F, SUCCUBUS_BLUE, FOLLOW, 30)
 # Esto and Osto haven't returned yet, have they?\0
   msg(VAMPIRELORD_4F, SUCCUBUS_68, VAMPIRELORD, FOLLOW, 31)
-# No, Esto and Osto have special orders from Lord Boser.\r\nThey search out the way to revive Alhazard.\0
+# No, Esto and Osto have special orders from Lord Böser.\r\nThey search out the way to revive Alhazard.\0
   msg(SUCCUBUS_68, VAMPIRELORD_4F, SUCCUBUS_BLUE, FOLLOW, 32)
 # Oh, really ...\0
   local.sub($0a47d0, $07eb58)
@@ -438,7 +438,7 @@ break
 
 lbl_4c0:
   msg(OSTO_DA, LEFT_F6, OSTO, FOLLOW, 72)
-# For Lord Boser!\0
+# For Lord Böser!\0
 break
 
 lbl_4c8:
@@ -579,7 +579,7 @@ lbl_5b4:
   msg(VAMPIRELORD_4F, ESTO_D9, VAMPIRELORD, FOLLOW, 92)
 # Esto, Osto!\0
   msg(ESTO_D9, VAMPIRELORD_4F, ESTO, FOLLOW, 93)
-# A pity we were late. But we have taken the catalyst.\r\nEgbert has surely notified Lord Boser of this development.\0
+# A pity we were late. But we have taken the catalyst.\r\nEgbert has surely notified Lord Böser of this development.\0
   msg(OSTO_DA, VAMPIRELORD_4F, OSTO, FOLLOW, 94)
 # And are we ready to depart?\0
   msg(VAMPIRELORD_4F, OSTO_DA, VAMPIRELORD, FOLLOW, 95)
@@ -589,7 +589,7 @@ lbl_5b4:
   msg(VAMPIRELORD_4F, ESTO_D9, VAMPIRELORD, FOLLOW, 97)
 # Yes ...\0
   msg(ESTO_D9, ERWIN_01, ESTO, FOLLOW, 98)
-# Ah, the mighty Descendants of Light.\r\nHere you shall all die. You won't get in Lord Boser's way!\0
+# Ah, the mighty Descendants of Light.\r\nHere you shall all die. You won't get in Lord Böser's way!\0
 lbl_5ff:
   branch.unit.dead(lbl_613, HEIN_05)
   msg(HEIN_05, ESTO_D9, HEIN, FOLLOW, 99)

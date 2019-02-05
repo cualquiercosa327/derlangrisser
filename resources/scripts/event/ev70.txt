@@ -1,21 +1,21 @@
 # Movement-Triggered Events
-on.move(0, lbl_434, LEON_D5, 0, 0xff)
-on.move(1, lbl_43c, LEON_D5, 0, 0xff)
-on.move(24, lbl_4dc, LAIRD_18, 1, 0xff)
-on.move(32, lbl_562, IMPERIALCOMMANDER_32, 0, 0xff)
-on.move(40, lbl_5ad, IMPERIALCOMMANDER_35, 0, 0xff)
-on.move(44, lbl_5cd, IMPERIALCOMMANDER_38, 0, 0xff)
+on.move(0, lbl_434, LEON_D5, 0)
+on.move(1, lbl_43c, LEON_D5, 0)
+on.move(24, lbl_4dc, LAIRD_18, 1)
+on.move(32, lbl_562, IMPERIALCOMMANDER_32, 0)
+on.move(40, lbl_5ad, IMPERIALCOMMANDER_35, 0)
+on.move(44, lbl_5cd, IMPERIALCOMMANDER_38, 0)
 break
 
 # Attack-Triggered Events
-on.attack(9, lbl_39f, ERWIN_01, LEON_D5, 0x00, 0x00, 0xff)
-on.attack(17, lbl_3f3, LANA_0A, LEON_D5, 0x00, 0x00, 0xff)
-on.attack(20, lbl_444, LEON_D5, ERWIN_01, 0x00, 0x00, 0xff)
-on.attack(25, lbl_4e4, LAIRD_18, ERWIN_01, 0x00, 0x00, 0xff)
-on.attack(26, lbl_4f8, LAIRD_18, ERWIN_01, 0x00, 0xff, 0xff)
-on.attack(29, lbl_53f, IMPERIALCOMMANDER_31, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(33, lbl_56a, NULL_FF, IMPERIALCOMMANDER_32, 0xff, 0x00, 0xff)
-on.attack(47, lbl_5e5, IMPERIALCOMMANDER_81, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(9, lbl_39f, ERWIN_01, LEON_D5, 0x00, 0x00)
+on.attack(17, lbl_3f3, LANA_0A, LEON_D5, 0x00, 0x00)
+on.attack(20, lbl_444, LEON_D5, ERWIN_01, 0x00, 0x00)
+on.attack(25, lbl_4e4, LAIRD_18, ERWIN_01, 0x00, 0x00)
+on.attack(26, lbl_4f8, LAIRD_18, ERWIN_01, 0x00, 0xff)
+on.attack(29, lbl_53f, IMPERIALCOMMANDER_31, NULL_FF, 0x00, 0xff)
+on.attack(33, lbl_56a, NULL_FF, IMPERIALCOMMANDER_32, 0xff, 0x00)
+on.attack(47, lbl_5e5, IMPERIALCOMMANDER_81, NULL_FF, 0x00, 0xff)
 break
 
 # Damage-Triggered Events
@@ -57,16 +57,16 @@ on.defeat(56, lbl_66c, LAIRD_18, IMPERIALCOMMANDER_31, IMPERIALCOMMANDER_32, IMP
 break
 
 # Position-Triggered Events
-on.bound(6, lbl_311, NPC_COMMANDER_F0, 27, 20, 27, 20, 0x00, 0x00)
-on.bound(7, lbl_33a, NPC_COMMANDER_F0, 7, 6, 7, 6, 0x00, 0x00)
-on.bound(8, lbl_363, NPC_COMMANDER_F0, 22, 3, 22, 3, 0x00, 0x00)
+on.bound(6, lbl_311, NPC_COMMANDER_F0, 27, 20, 27, 20)
+on.bound(7, lbl_33a, NPC_COMMANDER_F0, 7, 6, 7, 6)
+on.bound(8, lbl_363, NPC_COMMANDER_F0, 22, 3, 22, 3)
 break
 
 # Turn-Triggered Events
-on.turn(3, lbl_2a3, ENEMY, 1, 0x00)
-on.turn(2, lbl_2cb, ENEMY, 0, 0x00)
-on.turn(4, lbl_2e4, ALLY, 2, 0x00)
-on.turn(5, lbl_30c, ALLY, 0, 0x00)
+on.turn(3, lbl_2a3, ENEMY, 1)
+on.turn(2, lbl_2cb, ENEMY, 0)
+on.turn(4, lbl_2e4, ALLY, 2)
+on.turn(5, lbl_30c, ALLY, 0)
 break
 
 # Core Events
@@ -195,7 +195,7 @@ lbl_2e4:
   msg(LANA_0A, LEON_D5, DARKPRINCESS, FOLLOW, 25)
 # Leon, please stop this!\r\nWhat matters more? The person who brings peace to this land, or that there is peace?\r\nIn a few years, the Kaiser will be nothing but dust. Control will fall to another man who may be less able.\r\nWhy are you so against darkness? Even your Kaiser used it as a tool to achieve his Rayguard dream ...\0
   msg(LEON_D5, LANA_0A, LEON_SAD, FOLLOW, 26)
-# Dark Princess ... I ... pity you.\r\nYou are Boser's toy, and when he tires, you shall learn what our Empire strove to oppose.\0
+# Dark Princess ... I ... pity you.\r\nYou are Böser's toy, and when he tires, you shall learn what our Empire strove to oppose.\0
   msg(LANA_0A, LEON_D5, DARKPRINCESS, FOLLOW, 27)
 # Well, I see one thing. I see you don't properly respect my power.\r\nLeon, your ideals meant nothing. You were simply the largest dog in the kennel.\0
 lbl_30a:
@@ -246,7 +246,7 @@ lbl_363:
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 36)
 # After a little while, a large tree begins speaking.\r\n"You ... human ... Will you please unshackle that chain?"\r\n"That bothersome metal has encircled me for so long ..."\0
   global.sum($0a478c, $07eb5f)
-  prompt.options(lbl_386, lbl_397, 37, 38, 39, 0x00, 0xf4, 0x00, 0x00)
+  prompt.options(lbl_386, lbl_397, 37, 38, 39, 0xf4)
 # Chop it off\0
 # Remove it by hand\0
 # Ignore the tree\0
@@ -316,7 +316,7 @@ break
 
 lbl_3f3:
   msg(LEON_D5, LANA_0A, LEON, NOFOLLOW, 55)
-# Lana ...\0
+# Lána ...\0
   msg(LANA_0A, LEON_D5, DARKPRINCESS, NOFOLLOW, 56)
 # Leon, I don't want you to die. Won't you please join _NAME_ in his cause?\0
   msg(LEON_D5, LANA_0A, LEON, NOFOLLOW, 57)
@@ -335,7 +335,7 @@ lbl_419:
   unit.cleanup()
   branch.unit.dead(lbl_42a, LEON_D5)
   msg(LEON_D5, LANA_0A, LEON, FOLLOW, 62)
-# Forgive me, Lana ...\0
+# Forgive me, Lána ...\0
 lbl_42a:
 break
 

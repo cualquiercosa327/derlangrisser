@@ -1,23 +1,23 @@
 # Movement-Triggered Events
-on.move(1, lbl_4c2, JESSICA_14, 0, 0xff)
-on.move(2, lbl_4de, CHERIE_CC, 0, 0xff)
-on.move(3, lbl_51d, KEITH_CF, 0, 0xff)
-on.move(4, lbl_537, LIANA_CA, 0, 0xff)
-on.move(5, lbl_53f, LIANA_CA, 0, 0xff)
-on.move(40, lbl_5bd, COMMANDER_21, 1, 0xff)
+on.move(1, lbl_4c2, JESSICA_14, 0)
+on.move(2, lbl_4de, CHERIE_CC, 0)
+on.move(3, lbl_51d, KEITH_CF, 0)
+on.move(4, lbl_537, LIANA_CA, 0)
+on.move(5, lbl_53f, LIANA_CA, 0)
+on.move(40, lbl_5bd, COMMANDER_21, 1)
 break
 
 # Attack-Triggered Events
-on.attack(10, lbl_42a, ERWIN_01, CHERIE_CC, 0x00, 0x00, 0xff)
-on.attack(11, lbl_43e, ERWIN_01, LIANA_CA, 0x00, 0x00, 0xff)
-on.attack(12, lbl_455, ERWIN_01, JESSICA_14, 0x00, 0x00, 0xff)
-on.attack(14, lbl_46d, HEIN_05, LIANA_CA, 0x00, 0x00, 0xff)
-on.attack(19, lbl_4a2, NULL_FF, IMELDA_0F, 0xff, 0x00, 0xff)
-on.attack(21, lbl_4b2, VARGAS_0E, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(24, lbl_4e6, CHERIE_CC, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(26, lbl_525, KEITH_CF, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(29, lbl_56f, COMMANDER_84, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(35, lbl_59a, COMMANDER_88, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(10, lbl_42a, ERWIN_01, CHERIE_CC, 0x00, 0x00)
+on.attack(11, lbl_43e, ERWIN_01, LIANA_CA, 0x00, 0x00)
+on.attack(12, lbl_455, ERWIN_01, JESSICA_14, 0x00, 0x00)
+on.attack(14, lbl_46d, HEIN_05, LIANA_CA, 0x00, 0x00)
+on.attack(19, lbl_4a2, NULL_FF, IMELDA_0F, 0xff, 0x00)
+on.attack(21, lbl_4b2, VARGAS_0E, NULL_FF, 0x00, 0xff)
+on.attack(24, lbl_4e6, CHERIE_CC, NULL_FF, 0x00, 0xff)
+on.attack(26, lbl_525, KEITH_CF, NULL_FF, 0x00, 0xff)
+on.attack(29, lbl_56f, COMMANDER_84, NULL_FF, 0x00, 0xff)
+on.attack(35, lbl_59a, COMMANDER_88, NULL_FF, 0x00, 0xff)
 break
 
 # Damage-Triggered Events
@@ -50,14 +50,14 @@ on.defeat(44, lbl_7a1, COMMANDER_84, COMMANDER_85, COMMANDER_86, COMMANDER_87, C
 break
 
 # Position-Triggered Events
-on.bound(7, lbl_386, NPC_COMMANDER_F0, 14, 11, 14, 11, 0x00, 0x00)
-on.bound(8, lbl_3c2, NPC_COMMANDER_F0, 35, 6, 35, 6, 0x00, 0x00)
-on.bound(9, lbl_3dc, NPC_COMMANDER_F0, 10, 6, 10, 6, 0x00, 0x00)
+on.bound(7, lbl_386, NPC_COMMANDER_F0, 14, 11, 14, 11)
+on.bound(8, lbl_3c2, NPC_COMMANDER_F0, 35, 6, 35, 6)
+on.bound(9, lbl_3dc, NPC_COMMANDER_F0, 10, 6, 10, 6)
 break
 
 # Turn-Triggered Events
-on.turn(6, lbl_312, ENEMY, 1, 0x00)
-on.turn(0, lbl_31a, ENEMY, 0, 0x00)
+on.turn(6, lbl_312, ENEMY, 1)
+on.turn(0, lbl_31a, ENEMY, 0)
 break
 
 # Core Events
@@ -246,7 +246,7 @@ lbl_386:
   unit.cleanup()
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 41)
 # From the water's surface, a spirit gazes with interest.\r\nWhat will you do?\0
-  prompt.options(lbl_3a6, lbl_3b7, 42, 43, 44, 0x00, 0xf4, 0x00, 0x00)
+  prompt.options(lbl_3a6, lbl_3b7, 42, 43, 44, 0xf4)
 # Ignore it\0
 # Smile\0
 # Attack\0
@@ -290,7 +290,7 @@ lbl_3dc:
 lbl_3f5:
   msg(NULL_00, DOWN_F5, NULL, NOFOLLOW, 53)
 # "I am the spirit of the flower."\r\n"Thank you, kind-hearted human. I will grant you one wish."\0
-  prompt.options(lbl_413, lbl_422, 54, 55, 56, 0x00, 0xf5, 0x00, 0x00)
+  prompt.options(lbl_413, lbl_422, 54, 55, 56, 0xf5)
 # Wish for knowledge\0
 # Wish for strength\0
 # I need nothing\0

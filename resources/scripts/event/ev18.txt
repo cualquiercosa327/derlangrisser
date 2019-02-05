@@ -1,7 +1,7 @@
 # Movement-Triggered Events
-on.move(0, lbl_63a, LEON_D5, 0, 0xff)
-on.move(32, lbl_685, LEON_D5, 9, 0xff)
-on.move(1, lbl_6b2, LAIRD_18, 0, 0xff)
+on.move(0, lbl_63a, LEON_D5, 0)
+on.move(32, lbl_685, LEON_D5, 9)
+on.move(1, lbl_6b2, LAIRD_18, 0)
 break
 
 # Attack-Triggered Events
@@ -30,26 +30,26 @@ on.defeat(6, lbl_71c, LAIRD_18, IMPERIALCOMMANDER_31, IMPERIALCOMMANDER_32, IMPE
 break
 
 # Position-Triggered Events
-on.bound(8, lbl_447, NPC_SUBUNIT_F1, 6, 1, 25, 19, 0x00, 0x00)
-on.bound(9, lbl_44f, ERWIN_01, 15, 4, 16, 5, 0x00, 0x00)
-on.bound(10, lbl_460, HEIN_05, 15, 4, 16, 5, 0x00, 0x00)
-on.bound(12, lbl_496, CHERIE_04, 15, 4, 16, 5, 0x00, 0x00)
-on.bound(13, lbl_4a7, JESSICA_14, 15, 4, 16, 5, 0x00, 0x00)
-on.bound(14, lbl_4b8, AARON_08, 15, 4, 16, 5, 0x00, 0x00)
-on.bound(16, lbl_4ee, KEITH_07, 15, 4, 16, 5, 0x00, 0x00)
-on.bound(18, lbl_524, LESTER_09, 15, 4, 16, 5, 0x00, 0x00)
-on.bound(20, lbl_55a, LIANA_02, 15, 4, 16, 5, 0x00, 0x00)
-on.bound(21, lbl_56b, LEON_D5, 15, 4, 16, 5, 0x00, 0x00)
-on.bound(22, lbl_59d, LEON_D5, 9, 5, 22, 11, 0x00, 0x00)
-on.bound(23, lbl_5bb, NPC_COMMANDER_F0, 16, 24, 16, 24, 0x00, 0x00)
+on.bound(8, lbl_447, NPC_SUBUNIT_F1, 6, 1, 25, 19)
+on.bound(9, lbl_44f, ERWIN_01, 15, 4, 16, 5)
+on.bound(10, lbl_460, HEIN_05, 15, 4, 16, 5)
+on.bound(12, lbl_496, CHERIE_04, 15, 4, 16, 5)
+on.bound(13, lbl_4a7, JESSICA_14, 15, 4, 16, 5)
+on.bound(14, lbl_4b8, AARON_08, 15, 4, 16, 5)
+on.bound(16, lbl_4ee, KEITH_07, 15, 4, 16, 5)
+on.bound(18, lbl_524, LESTER_09, 15, 4, 16, 5)
+on.bound(20, lbl_55a, LIANA_02, 15, 4, 16, 5)
+on.bound(21, lbl_56b, LEON_D5, 15, 4, 16, 5)
+on.bound(22, lbl_59d, LEON_D5, 9, 5, 22, 11)
+on.bound(23, lbl_5bb, NPC_COMMANDER_F0, 16, 24, 16, 24)
 break
 
 # Turn-Triggered Events
-on.turn(3, lbl_347, ALLY, 7, 0x00)
-on.turn(4, lbl_34f, ENEMY, 1, 0x00)
-on.turn(5, lbl_39b, ENEMY, 2, 0x00)
-on.turn(2, lbl_3c7, ENEMY, 0, 0x00)
-on.turn(7, lbl_416, ALLY, 8, 0x00)
+on.turn(3, lbl_347, ALLY, 7)
+on.turn(4, lbl_34f, ENEMY, 1)
+on.turn(5, lbl_39b, ENEMY, 2)
+on.turn(2, lbl_3c7, ENEMY, 0)
+on.turn(7, lbl_416, ALLY, 8)
 break
 
 # Core Events
@@ -508,7 +508,7 @@ lbl_5bb:
   unit.cleanup()
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 78)
 # A plank floats in the waves. On it lies a beautiful flower.\r\nWhat will you do?\0
-  prompt.options(lbl_5db, lbl_5e4, 79, 80, 81, 0x00, 0xf4, 0x00, 0x00)
+  prompt.options(lbl_5db, lbl_5e4, 79, 80, 81, 0xf4)
 # Leave it alone\0
 # Take the flower\0
 # Break the plank\0
@@ -581,7 +581,7 @@ lbl_63a:
   msg(LEON_D5, ERWIN_01, LEON, FOLLOW, 96)
 # I don't understand, either. Egbert once told me I was a Descendant of Light.\r\nIf that sorceress over there saw my weapon, she might have known this too ...\0
   msg(JESSICA_14, LEON_D5, JESSICA, FOLLOW, 97)
-# That blade ...!?\r\nThat sword you carry looks like the one Dieharte used while fighting the demons hundreds of years ago!\0
+# That blade ...!?\r\nThat sword you carry looks like the one Diehärte used while fighting the demons hundreds of years ago!\0
   msg(LEON_D5, JESSICA_14, LEON, FOLLOW, 98)
 # Hmmm ... How did Egbert know about this.\0
   msg(JESSICA_14, LEON_D5, JESSICA, FOLLOW, 99)

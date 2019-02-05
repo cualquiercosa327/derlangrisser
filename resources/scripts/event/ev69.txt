@@ -1,18 +1,18 @@
 # Movement-Triggered Events
-on.move(21, lbl_35b, EGBERT_D8, 1, 0xff)
-on.move(22, lbl_3ba, EGBERT_D8, 2, 0xff)
-on.move(23, lbl_3fa, EGBERT_D8, 3, 0xff)
-on.move(25, lbl_430, EGBERT_D8, 4, 0xff)
-on.move(1, lbl_622, IMPERIALCOMMANDER_38, 0, 0xff)
+on.move(21, lbl_35b, EGBERT_D8, 1)
+on.move(22, lbl_3ba, EGBERT_D8, 2)
+on.move(23, lbl_3fa, EGBERT_D8, 3)
+on.move(25, lbl_430, EGBERT_D8, 4)
+on.move(1, lbl_622, IMPERIALCOMMANDER_38, 0)
 break
 
 # Attack-Triggered Events
-on.attack(9, lbl_2c6, ERWIN_01, IMELDA_D7, 0x00, 0x00, 0xff)
-on.attack(16, lbl_306, LANA_0A, LEON_D5, 0x00, 0x00, 0xff)
-on.attack(17, lbl_4b0, LEON_D5, LANA_0A, 0x00, 0x00, 0xff)
-on.attack(26, lbl_4b8, LEON_D5, ERWIN_01, 0x00, 0x00, 0xff)
-on.attack(30, lbl_503, IMELDA_D7, ERWIN_01, 0x00, 0x00, 0xff)
-on.attack(31, lbl_50b, IMELDA_D7, ERWIN_01, 0x00, 0xff, 0xff)
+on.attack(9, lbl_2c6, ERWIN_01, IMELDA_D7, 0x00, 0x00)
+on.attack(16, lbl_306, LANA_0A, LEON_D5, 0x00, 0x00)
+on.attack(17, lbl_4b0, LEON_D5, LANA_0A, 0x00, 0x00)
+on.attack(26, lbl_4b8, LEON_D5, ERWIN_01, 0x00, 0x00)
+on.attack(30, lbl_503, IMELDA_D7, ERWIN_01, 0x00, 0x00)
+on.attack(31, lbl_50b, IMELDA_D7, ERWIN_01, 0x00, 0xff)
 break
 
 # Damage-Triggered Events
@@ -41,14 +41,14 @@ on.defeat(5, lbl_644, IMPERIALCOMMANDER_33, IMPERIALCOMMANDER_37, IMPERIALCOMMAN
 break
 
 # Position-Triggered Events
-on.bound(8, lbl_2b2, NPC_SUBUNIT_F1, 15, 1, 15, 30, 0x00, 0x00)
+on.bound(8, lbl_2b2, NPC_SUBUNIT_F1, 15, 1, 15, 30)
 break
 
 # Turn-Triggered Events
-on.turn(2, lbl_1d9, ENEMY, 1, 0x00)
-on.turn(0, lbl_205, ENEMY, 0, 0x00)
-on.turn(3, lbl_236, ENEMY, 22, 0x00)
-on.turn(6, lbl_24f, ENEMY, 25, 0x00)
+on.turn(2, lbl_1d9, ENEMY, 1)
+on.turn(0, lbl_205, ENEMY, 0)
+on.turn(3, lbl_236, ENEMY, 22)
+on.turn(6, lbl_24f, ENEMY, 25)
 break
 
 # Core Events

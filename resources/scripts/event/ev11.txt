@@ -1,31 +1,31 @@
 # Movement-Triggered Events
-on.move(24, lbl_3fd, CHERIE_04, 0, 0xff)
-on.move(31, lbl_431, KEITH_07, 1, 0xff)
-on.move(2, lbl_451, COMMANDER_21, 0, 0xff)
-on.move(39, lbl_484, VARGAS_D6, 2, 0xff)
-on.move(3, lbl_528, MORGAN_1B, 0, 0xff)
-on.move(54, lbl_58c, MORGAN_1B, 0, 0xff)
-on.move(4, lbl_5a4, MORGAN_1B, 0, 0xff)
-on.move(59, lbl_5da, IMPERIALCOMMANDER_37, 0, 0xff)
-on.move(5, lbl_5ec, IMPERIALCOMMANDER_37, 0, 0xff)
+on.move(24, lbl_3fd, CHERIE_04, 0)
+on.move(31, lbl_431, KEITH_07, 1)
+on.move(2, lbl_451, COMMANDER_21, 0)
+on.move(39, lbl_484, VARGAS_D6, 2)
+on.move(3, lbl_528, MORGAN_1B, 0)
+on.move(54, lbl_58c, MORGAN_1B, 0)
+on.move(4, lbl_5a4, MORGAN_1B, 0)
+on.move(59, lbl_5da, IMPERIALCOMMANDER_37, 0)
+on.move(5, lbl_5ec, IMPERIALCOMMANDER_37, 0)
 break
 
 # Attack-Triggered Events
-on.attack(15, lbl_3a1, ERWIN_01, VARGAS_D6, 0x00, 0x00, 0xff)
-on.attack(19, lbl_3c3, SCOTT_06, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(21, lbl_3d3, ROHGA_0B, VARGAS_D6, 0x00, 0x00, 0xff)
-on.attack(22, lbl_3ed, ROHGA_0B, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(27, lbl_410, CHERIE_04, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(28, lbl_418, LIANA_02, VARGAS_D6, 0x00, 0x00, 0xff)
-on.attack(33, lbl_459, COMMANDER_21, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(36, lbl_46c, COMMANDER_22, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(37, lbl_474, NULL_FF, COMMANDER_22, 0xff, 0x00, 0xff)
-on.attack(40, lbl_48c, VARGAS_D6, COMMANDER_21, 0x00, 0xff, 0xff)
-on.attack(40, lbl_494, VARGAS_D6, COMMANDER_21, 0x00, 0x00, 0xff)
-on.attack(49, lbl_4d9, IMPERIALCOMMANDER_34, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(6, lbl_5b8, NULL_FF, MORGAN_1B, 0xff, 0x00, 0xff)
-on.attack(57, lbl_5c0, MORGAN_1B, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(60, lbl_5fe, IMPERIALCOMMANDER_37, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(15, lbl_3a1, ERWIN_01, VARGAS_D6, 0x00, 0x00)
+on.attack(19, lbl_3c3, SCOTT_06, NULL_FF, 0x00, 0xff)
+on.attack(21, lbl_3d3, ROHGA_0B, VARGAS_D6, 0x00, 0x00)
+on.attack(22, lbl_3ed, ROHGA_0B, NULL_FF, 0x00, 0xff)
+on.attack(27, lbl_410, CHERIE_04, NULL_FF, 0x00, 0xff)
+on.attack(28, lbl_418, LIANA_02, VARGAS_D6, 0x00, 0x00)
+on.attack(33, lbl_459, COMMANDER_21, NULL_FF, 0x00, 0xff)
+on.attack(36, lbl_46c, COMMANDER_22, NULL_FF, 0x00, 0xff)
+on.attack(37, lbl_474, NULL_FF, COMMANDER_22, 0xff, 0x00)
+on.attack(40, lbl_48c, VARGAS_D6, COMMANDER_21, 0x00, 0xff)
+on.attack(40, lbl_494, VARGAS_D6, COMMANDER_21, 0x00, 0x00)
+on.attack(49, lbl_4d9, IMPERIALCOMMANDER_34, NULL_FF, 0x00, 0xff)
+on.attack(6, lbl_5b8, NULL_FF, MORGAN_1B, 0xff, 0x00)
+on.attack(57, lbl_5c0, MORGAN_1B, NULL_FF, 0x00, 0xff)
+on.attack(60, lbl_5fe, IMPERIALCOMMANDER_37, NULL_FF, 0x00, 0xff)
 break
 
 # Damage-Triggered Events
@@ -63,18 +63,18 @@ on.damage(45, lbl_6c5, IMPERIALCOMMANDER_30, NULL_FF, 0x00, 0xff)
 break
 
 # Position-Triggered Events
-on.bound(13, lbl_37c, NPC_COMMANDER_F0, 2, 2, 2, 2, 0x00, 0x00)
-on.bound(14, lbl_39c, MORGAN_1B, 11, 33, 21, 34, 0x00, 0x00)
+on.bound(13, lbl_37c, NPC_COMMANDER_F0, 2, 2, 2, 2)
+on.bound(14, lbl_39c, MORGAN_1B, 11, 33, 21, 34)
 break
 
 # Turn-Triggered Events
-on.turn(7, lbl_2e9, ENEMY, 7, 0x00)
-on.turn(9, lbl_2f1, ALLY, 2, 0x00)
-on.turn(10, lbl_307, ENEMY, 1, 0x00)
-on.turn(11, lbl_327, ALLY, 4, 0x00)
-on.turn(12, lbl_352, ALLY, 3, 0x00)
-on.turn(1, lbl_36e, ENEMY, 0, 0x00)
-on.turn(0, lbl_377, ENEMY, 0, 0x00)
+on.turn(7, lbl_2e9, ENEMY, 7)
+on.turn(9, lbl_2f1, ALLY, 2)
+on.turn(10, lbl_307, ENEMY, 1)
+on.turn(11, lbl_327, ALLY, 4)
+on.turn(12, lbl_352, ALLY, 3)
+on.turn(1, lbl_36e, ENEMY, 0)
+on.turn(0, lbl_377, ENEMY, 0)
 break
 
 # Core Events

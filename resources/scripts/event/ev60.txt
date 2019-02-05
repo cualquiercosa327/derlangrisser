@@ -1,20 +1,20 @@
 # Movement-Triggered Events
-on.move(14, lbl_2aa, BERNHARDT_16, 0, 0xff)
-on.move(19, lbl_2f5, LAIRD_18, 1, 0xff)
-on.move(0, lbl_35b, SONYA_D4, 0, 0xff)
-on.move(1, lbl_366, SONYA_D4, 0, 0xff)
-on.move(28, lbl_3cd, GREATDRAGON_59, 1, 0xff)
+on.move(14, lbl_2aa, BERNHARDT_16, 0)
+on.move(19, lbl_2f5, LAIRD_18, 1)
+on.move(0, lbl_35b, SONYA_D4, 0)
+on.move(1, lbl_366, SONYA_D4, 0)
+on.move(28, lbl_3cd, GREATDRAGON_59, 1)
 break
 
 # Attack-Triggered Events
-on.attack(7, lbl_26e, ROHGA_0B, SONYA_D4, 0x00, 0x00, 0xff)
-on.attack(15, lbl_2b2, BERNHARDT_16, SONYA_D4, 0x00, 0xff, 0xff)
-on.attack(16, lbl_2ba, BERNHARDT_16, SONYA_D4, 0x00, 0x00, 0xff)
-on.attack(17, lbl_2c8, NULL_FF, BERNHARDT_16, 0xff, 0x00, 0xff)
-on.attack(20, lbl_307, LAIRD_18, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(22, lbl_394, SONYA_D4, ROHGA_0B, 0x00, 0xff, 0xff)
-on.attack(23, lbl_39c, SONYA_D4, ROHGA_0B, 0x00, 0x00, 0xff)
-on.attack(32, lbl_3ef, VAMPIRELORD_4F, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(7, lbl_26e, ROHGA_0B, SONYA_D4, 0x00, 0x00)
+on.attack(15, lbl_2b2, BERNHARDT_16, SONYA_D4, 0x00, 0xff)
+on.attack(16, lbl_2ba, BERNHARDT_16, SONYA_D4, 0x00, 0x00)
+on.attack(17, lbl_2c8, NULL_FF, BERNHARDT_16, 0xff, 0x00)
+on.attack(20, lbl_307, LAIRD_18, NULL_FF, 0x00, 0xff)
+on.attack(22, lbl_394, SONYA_D4, ROHGA_0B, 0x00, 0xff)
+on.attack(23, lbl_39c, SONYA_D4, ROHGA_0B, 0x00, 0x00)
+on.attack(32, lbl_3ef, VAMPIRELORD_4F, NULL_FF, 0x00, 0xff)
 break
 
 # Damage-Triggered Events
@@ -43,13 +43,13 @@ on.defeat(38, lbl_422, ESTO_D9, OSTO_DA)
 break
 
 # Position-Triggered Events
-on.bound(4, lbl_242, NPC_COMMANDER_F0, 1, 2, 1, 2, 0x00, 0x00)
-on.range(8, lbl_4ac, ROHGA_0B, SONYA_D4, 3, 0x00, 0x00, 0x00, 0x00)
+on.bound(4, lbl_242, NPC_COMMANDER_F0, 1, 2, 1, 2)
+on.range(8, lbl_4ac, ROHGA_0B, SONYA_D4, 3)
 break
 
 # Turn-Triggered Events
-on.turn(2, lbl_208, ENEMY, 1, 0x00)
-on.turn(3, lbl_22a, ALLY, 2, 0x00)
+on.turn(2, lbl_208, ENEMY, 1)
+on.turn(3, lbl_22a, ALLY, 2)
 break
 
 # Core Events
@@ -230,7 +230,7 @@ break
 
 lbl_2ba:
   msg(BERNHARDT_16, SONYA_D4, BERNHARDT, NOFOLLOW, 36)
-# Arrogant little girl. Yes, you're Rohga's sister for certain.\r\nThe Goddess Lushiris will make sure you speak nothing of this to Boser ...\0
+# Arrogant little girl. Yes, you're Rohga's sister for certain.\r\nThe Goddess Lushiris will make sure you speak nothing of this to Böser ...\0
   msg(SONYA_D4, BERNHARDT_16, SONYA_ANGRY, NOFOLLOW, 37)
 # Don't even mention that disgusting name!\0
 break
@@ -250,7 +250,7 @@ lbl_2d4:
 # Your Highness!\0
 lbl_2e5:
   msg(SONYA_D4, ERWIN_01, SONYA, FOLLOW, 41)
-# Hah hah hah! With the way things are going, even Master Boser will be pleased!\r\nThe era of darkness has begun!\0
+# Hah hah hah! With the way things are going, even Master Böser will be pleased!\r\nThe era of darkness has begun!\0
   msg(ERWIN_01, BERNHARDT_16, ERWIN, FOLLOW, 42)
 # No, that can't be! Your Majesty, ... I couldn't protect you.\0
   unit.cleanup()
@@ -316,7 +316,7 @@ lbl_366:
   msg(LEON_0D, SONYA_D4, LEON, FOLLOW, 58)
 # Why don't you give up already? Chased all the way here and you still feel like fighting?\0
   msg(SONYA_D4, LEON_0D, SONYA, FOLLOW, 59)
-# I won't let you foil Boser's plans.\r\nThat is the first step for a world where there are no more humans!\r\nI can kill you Imperials alone! None of you will escape, I'm going to kill you all!\0
+# I won't let you foil Böser's plans.\r\nThat is the first step for a world where there are no more humans!\r\nI can kill you Imperials alone! None of you will escape, I'm going to kill you all!\0
 lbl_382:
   branch.unit.dead(lbl_392, ROHGA_0B)
   msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 60)
@@ -340,7 +340,7 @@ break
 
 lbl_3aa:
   msg(SONYA_D4, DOWN_F5, SONYA_DEAD, FOLLOW, 65)
-# Aaahhh--!\r\nH, How ... How dare you ...\r\nNext time we meet, Boser and I are going to bury you for good!\0
+# Aaahhh--!\r\nH, How ... How dare you ...\r\nNext time we meet, Böser and I are going to bury you for good!\0
   subroutine(lbl_427)
 break
 
@@ -382,7 +382,7 @@ break
 
 lbl_3ef:
   msg(VAMPIRELORD_4F, LEFT_F6, VAMPIRELORD, FOLLOW, 73)
-# You are fools for turning against Boser.\r\nMaybe Hell's the best place for your craziness!\0
+# You are fools for turning against Böser.\r\nMaybe Hell's the best place for your craziness!\0
 break
 
 lbl_3f7:
@@ -435,7 +435,7 @@ lbl_427:
 # Your Highness, you're safe!\0
 lbl_44e:
   msg(BERNHARDT_16, ERWIN_01, BERNHARDT, FOLLOW, 80)
-# Today, we have conquered.\r\nBoser will, however, regroup and launch a concerted strike.\r\nAt that time, only our greatest, perhaps miraculous, effort will bring victory.\0
+# Today, we have conquered.\r\nBöser will, however, regroup and launch a concerted strike.\r\nAt that time, only our greatest, perhaps miraculous, effort will bring victory.\0
   branch.unit.dead(lbl_45e, EGBERT_10)
   msg(EGBERT_10, BERNHARDT_16, EGBERT, FOLLOW, 81)
 # They're here much earlier than we planned.\r\nLetting them unlock Alhazard was a bad idea. It will be a liability.\0
@@ -443,7 +443,7 @@ lbl_45e:
   msg(ERWIN_01, BERNHARDT_16, ERWIN, FOLLOW, 82)
 # Pursue them immediately.\0
   msg(BERNHARDT_16, ERWIN_01, BERNHARDT, FOLLOW, 83)
-# They won't give us any rest, so we'll make our stand here.\r\nBoser has recovered. If we let him go unchecked, the world will be damned.\0
+# They won't give us any rest, so we'll make our stand here.\r\nBöser has recovered. If we let him go unchecked, the world will be damned.\0
   branch.unit.dead(lbl_474, LEON_0D)
   msg(LEON_0D, BERNHARDT_16, LEON, FOLLOW, 84)
 # Yes, I see. We'll surely defeat the darkness next time.\0
@@ -465,23 +465,23 @@ lbl_474:
   global.sum($0a4790, $07eb5a)
 lbl_4a3:
   msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 90)
-# Now, let's go! We'll defeat Boser this time!\0
+# Now, let's go! We'll defeat Böser this time!\0
   loadscenario(54)
 endsub
 
 lbl_4ac:
   msg(ROHGA_0B, SONYA_0C, ROHGA, FOLLOW, 91)
-# Sonya, stop fighting for Boser. He's manipulating you!\0
+# Sonya, stop fighting for Böser. He's manipulating you!\0
   msg(SONYA_D4, ROHGA_0B, SONYA, FOLLOW, 92)
-# You're wrong! Over time, Boser has come to understand me!\r\nNext you'll say that the humans who persecuted me are really trying to help!\0
+# You're wrong! Over time, Böser has come to understand me!\r\nNext you'll say that the humans who persecuted me are really trying to help!\0
   msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 93)
-# No, think about it.\r\nMaybe if you'd never met that creep, humans wouldn't have looked down on you.\r\nDon't you see? Boser's been warping you to be his obedient dog!\0
+# No, think about it.\r\nMaybe if you'd never met that creep, humans wouldn't have looked down on you.\r\nDon't you see? Böser's been warping you to be his obedient dog!\0
   msg(SONYA_D4, ROHGA_0B, SONYA, FOLLOW, 94)
 # I am ... a dog ...!?\r\nDon't try to condemn me. Brother, you are one of the Empire's dogs!\0
   msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 95)
 # Actually, I joined by my own free will, just like you can. Come on and give it a shot.\0
   msg(SONYA_D4, ROHGA_0B, SONYA, FOLLOW, 96)
-# ...\r\nBrother is only saying that because he doesn't understand how terrifying Boser can be.\r\nI can no longer escape from the darkness, ... from Boser.\r\nI don't have the strength to win this battle any more.\r\nI'm withdrawing for now, but next time, I won't hold back, Brother!\0
+# ...\r\nBrother is only saying that because he doesn't understand how terrifying Böser can be.\r\nI can no longer escape from the darkness, ... from Böser.\r\nI don't have the strength to win this battle any more.\r\nI'm withdrawing for now, but next time, I won't hold back, Brother!\0
   msg(ROHGA_0B, SONYA_D4, ROHGA, FOLLOW, 97)
 # Sonya!\0
   global.sum($0a4790, $07eb59)

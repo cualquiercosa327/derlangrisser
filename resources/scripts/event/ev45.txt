@@ -1,28 +1,28 @@
 # Movement-Triggered Events
-on.move(26, lbl_412, VARGAS_0E, 0, 0xff)
-on.move(29, lbl_44e, VILLAGER_25, 1, 0xff)
-on.move(0, lbl_468, VILLAGER_25, 0, 0xff)
-on.move(1, lbl_48e, VILLAGER_26, 0, 0xff)
-on.move(3, lbl_4c3, CHERIE_CC, 0, 0xff)
-on.move(35, lbl_595, COMMANDER_23, 1, 0xff)
-on.move(2, lbl_5a3, COMMANDER_23, 0, 0xff)
-on.move(41, lbl_5e3, COMMANDER_85, 2, 0xff)
-on.move(44, lbl_5fb, COMMANDER_87, 1, 0xff)
+on.move(26, lbl_412, VARGAS_0E, 0)
+on.move(29, lbl_44e, VILLAGER_25, 1)
+on.move(0, lbl_468, VILLAGER_25, 0)
+on.move(1, lbl_48e, VILLAGER_26, 0)
+on.move(3, lbl_4c3, CHERIE_CC, 0)
+on.move(35, lbl_595, COMMANDER_23, 1)
+on.move(2, lbl_5a3, COMMANDER_23, 0)
+on.move(41, lbl_5e3, COMMANDER_85, 2)
+on.move(44, lbl_5fb, COMMANDER_87, 1)
 break
 
 # Attack-Triggered Events
-on.attack(12, lbl_378, ERWIN_01, CHERIE_CC, 0x00, 0x00, 0xff)
-on.attack(13, lbl_38c, CHERIE_CC, ERWIN_01, 0x00, 0x00, 0xff)
-on.attack(15, lbl_3aa, HEIN_05, CHERIE_CC, 0x00, 0x00, 0xff)
-on.attack(18, lbl_3cc, ROHGA_0B, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(20, lbl_3dc, NULL_FF, LEON_0D, 0xff, 0x00, 0xff)
-on.attack(21, lbl_3e4, LEON_0D, CHERIE_CC, 0x00, 0x00, 0xff)
-on.attack(23, lbl_3f4, CHERIE_CC, IMELDA_0F, 0x00, 0x00, 0xff)
-on.attack(24, lbl_402, IMELDA_0F, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(27, lbl_41d, VARGAS_0E, CHERIE_CC, 0x00, 0x00, 0xff)
-on.attack(31, lbl_4cb, NULL_FF, CHERIE_CC, 0xff, 0x00, 0xff)
-on.attack(33, lbl_585, COMMANDER_22, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(36, lbl_5b7, COMMANDER_23, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(12, lbl_378, ERWIN_01, CHERIE_CC, 0x00, 0x00)
+on.attack(13, lbl_38c, CHERIE_CC, ERWIN_01, 0x00, 0x00)
+on.attack(15, lbl_3aa, HEIN_05, CHERIE_CC, 0x00, 0x00)
+on.attack(18, lbl_3cc, ROHGA_0B, NULL_FF, 0x00, 0xff)
+on.attack(20, lbl_3dc, NULL_FF, LEON_0D, 0xff, 0x00)
+on.attack(21, lbl_3e4, LEON_0D, CHERIE_CC, 0x00, 0x00)
+on.attack(23, lbl_3f4, CHERIE_CC, IMELDA_0F, 0x00, 0x00)
+on.attack(24, lbl_402, IMELDA_0F, NULL_FF, 0x00, 0xff)
+on.attack(27, lbl_41d, VARGAS_0E, CHERIE_CC, 0x00, 0x00)
+on.attack(31, lbl_4cb, NULL_FF, CHERIE_CC, 0xff, 0x00)
+on.attack(33, lbl_585, COMMANDER_22, NULL_FF, 0x00, 0xff)
+on.attack(36, lbl_5b7, COMMANDER_23, NULL_FF, 0x00, 0xff)
 break
 
 # Damage-Triggered Events
@@ -48,17 +48,17 @@ on.defeat(48, lbl_61b, COMMANDER_22, COMMANDER_23, COMMANDER_83, COMMANDER_84, C
 break
 
 # Position-Triggered Events
-on.bound(9, lbl_32e, VILLAGER_25, 1, 23, 2, 26, 0x00, 0x00)
-on.bound(10, lbl_333, VILLAGER_26, 1, 23, 2, 26, 0x00, 0x00)
-on.bound(11, lbl_338, NPC_COMMANDER_F0, 19, 15, 19, 15, 0x00, 0x00)
+on.bound(9, lbl_32e, VILLAGER_25, 1, 23, 2, 26)
+on.bound(10, lbl_333, VILLAGER_26, 1, 23, 2, 26)
+on.bound(11, lbl_338, NPC_COMMANDER_F0, 19, 15, 19, 15)
 break
 
 # Turn-Triggered Events
-on.turn(4, lbl_276, ALLY, 2, 0x00)
-on.turn(5, lbl_2ac, ALLY, 7, 0x00)
-on.turn(6, lbl_31b, ENEMY, 7, 0x00)
-on.turn(7, lbl_323, ENEMY, 6, 0x00)
-on.turn(8, lbl_328, ENEMY, 3, 0x00)
+on.turn(4, lbl_276, ALLY, 2)
+on.turn(5, lbl_2ac, ALLY, 7)
+on.turn(6, lbl_31b, ENEMY, 7)
+on.turn(7, lbl_323, ENEMY, 6)
+on.turn(8, lbl_328, ENEMY, 3)
 break
 
 # Core Events
@@ -245,7 +245,7 @@ lbl_338:
   unit.cleanup()
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 34)
 # I am a spirit of the water.\r\nI will bestow upon you wonderful power.\r\nWhat would you request of me?\0
-  prompt.options(lbl_35e, lbl_36a, 35, 36, 37, 0x00, 0xf4, 0x00, 0x00)
+  prompt.options(lbl_35e, lbl_36a, 35, 36, 37, 0xf4)
 # Increase AT and DF\0
 # Increase MP\0
 # Increase Magic Resistance\0

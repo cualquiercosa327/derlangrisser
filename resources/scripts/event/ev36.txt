@@ -1,12 +1,12 @@
 # Movement-Triggered Events
-on.move(18, lbl_3bd, GREATDRAGON_59, 1, 0xff)
+on.move(18, lbl_3bd, GREATDRAGON_59, 1)
 break
 
 # Attack-Triggered Events
-on.attack(6, lbl_342, ERWIN_01, FAIAS_78, 0x00, 0x00, 0xff)
-on.attack(7, lbl_350, ERWIN_01, FAIAS_78, 0x00, 0xff, 0xff)
-on.attack(15, lbl_392, FAIAS_78, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(16, lbl_39a, ERWIN_01, FAIAS_78, 0x00, 0x00, 0xff)
+on.attack(6, lbl_342, ERWIN_01, FAIAS_78, 0x00, 0x00)
+on.attack(7, lbl_350, ERWIN_01, FAIAS_78, 0x00, 0xff)
+on.attack(15, lbl_392, FAIAS_78, NULL_FF, 0x00, 0xff)
+on.attack(16, lbl_39a, ERWIN_01, FAIAS_78, 0x00, 0x00)
 break
 
 # Damage-Triggered Events
@@ -35,11 +35,11 @@ break
 break
 
 # Turn-Triggered Events
-on.turn(0, lbl_27f, ENEMY, 1, 0x00)
-on.turn(1, lbl_2c6, ALLY, 3, 0x00)
-on.turn(2, lbl_2e2, ENEMY, 4, 0x00)
-on.turn(3, lbl_2fa, ALLY, 2, 0x00)
-on.turn(4, lbl_31f, ENEMY, 1, 0x00)
+on.turn(0, lbl_27f, ENEMY, 1)
+on.turn(1, lbl_2c6, ALLY, 3)
+on.turn(2, lbl_2e2, ENEMY, 4)
+on.turn(3, lbl_2fa, ALLY, 2)
+on.turn(4, lbl_31f, ENEMY, 1)
 break
 
 # Core Events
@@ -109,7 +109,7 @@ lbl_d6:
   cursor.set(ERWIN_01)
   cast.teleport(FAIAS_78, FAIAS_78, TELEPORT_IN, 19, 6)
   msg(FAIAS_78, BOSER_17, VAMPIRELORD, NOFOLLOW, 13)
-# You called, Master Boser ...?\0
+# You called, Master Böser ...?\0
   msg(BOSER_17, FAIAS_78, BOSER, NOFOLLOW, 14)
 # The Descendants of Light are headed here as we speak.\r\nMake certain you stop them.\r\nThe ritual must go exactly as planned.\0
   msg(FAIAS_78, BOSER_17, VAMPIRELORD, NOFOLLOW, 15)
@@ -200,7 +200,7 @@ lbl_27f:
   msg(ERWIN_01, FAIAS_78, ERWIN, FOLLOW, 29)
 # What score could you possibly have with us? We have never met.\0
   msg(FAIAS_78, ERWIN_01, VAMPIRELORD, FOLLOW, 30)
-# Ha ha ha! You ... really don't remember me?\r\nI had hoped my face would haunt your nightmares for all eternity.\r\nBoser ordered me to massacre the Descendants of Light.\r\nBut when I finally hunted you down, this crumpled old fool got in my way ...\0
+# Ha ha ha! You ... really don't remember me?\r\nI had hoped my face would haunt your nightmares for all eternity.\r\nBöser ordered me to massacre the Descendants of Light.\r\nBut when I finally hunted you down, this crumpled old fool got in my way ...\0
   msg(ERWIN_01, FAIAS_78, ERWIN_ANGRY, FOLLOW, 31)
 # An old ...!\r\nYou ... then it was you! You are the one who murdered Doren!\0
   msg(FAIAS_78, ERWIN_01, VAMPIRELORD, FOLLOW, 32)
@@ -261,7 +261,7 @@ break
 lbl_31f:
   branch.unit.dead(lbl_329, FAIAS_78)
   msg(FAIAS_78, ERWIN_01, VAMPIRELORD, FOLLOW, 46)
-# Let's do this, knaves!\r\nBoser won't tolerate a failure here! This is my last stand!\0
+# Let's do this, knaves!\r\nBöser won't tolerate a failure here! This is my last stand!\0
 lbl_329:
 break
 
@@ -347,7 +347,7 @@ break
 
 lbl_3b5:
   msg(FAIAS_78, DOWN_F5, VAMPIRELORD, FOLLOW, 63)
-# Ugh! M, Master Boser! P, please forgive me!\0
+# Ugh! M, Master Böser! P, please forgive me!\0
 break
 
 lbl_3bd:

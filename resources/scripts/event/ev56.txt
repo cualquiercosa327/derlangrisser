@@ -1,30 +1,30 @@
 # Movement-Triggered Events
-on.move(1, lbl_50b, CHERIE_CC, 0, 0xff)
-on.move(2, lbl_5e2, COMMANDER_22, 0, 0xff)
-on.move(3, lbl_613, COMMANDER_23, 0, 0xff)
-on.move(4, lbl_64e, COMMANDER_84, 0, 0xff)
-on.move(5, lbl_6a8, COMMANDER_88, 0, 0xff)
-on.move(48, lbl_6d0, COMMANDER_8A, 0, 0xff)
+on.move(1, lbl_50b, CHERIE_CC, 0)
+on.move(2, lbl_5e2, COMMANDER_22, 0)
+on.move(3, lbl_613, COMMANDER_23, 0)
+on.move(4, lbl_64e, COMMANDER_84, 0)
+on.move(5, lbl_6a8, COMMANDER_88, 0)
+on.move(48, lbl_6d0, COMMANDER_8A, 0)
 break
 
 # Attack-Triggered Events
-on.attack(14, lbl_459, ERWIN_01, CHERIE_CC, 0x00, 0x00, 0xff)
-on.attack(16, lbl_477, HEIN_05, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(18, lbl_487, ROHGA_0B, CHERIE_CC, 0x00, 0x00, 0xff)
-on.attack(20, lbl_4a7, LEON_0D, CHERIE_CC, 0x00, 0x00, 0xff)
-on.attack(22, lbl_4bd, IMELDA_0F, CHERIE_CC, 0x00, 0x00, 0xff)
-on.attack(24, lbl_4d3, NULL_FF, VARGAS_0E, 0xff, 0x00, 0xff)
-on.attack(26, lbl_4e3, EGBERT_10, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(29, lbl_513, NULL_FF, CHERIE_CC, 0xff, 0x00, 0xff)
-on.attack(30, lbl_523, CHERIE_CC, ERWIN_01, 0x00, 0x00, 0xff)
-on.attack(32, lbl_5f0, COMMANDER_22, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(34, lbl_61b, COMMANDER_23, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(36, lbl_63e, COMMANDER_83, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(38, lbl_65c, COMMANDER_84, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(40, lbl_66c, COMMANDER_85, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(44, lbl_694, NULL_FF, COMMANDER_87, 0xff, 0x00, 0xff)
-on.attack(49, lbl_6d8, COMMANDER_8A, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(51, lbl_702, COMMANDER_8B, NULL_FF, 0x00, 0xff, 0xff)
+on.attack(14, lbl_459, ERWIN_01, CHERIE_CC, 0x00, 0x00)
+on.attack(16, lbl_477, HEIN_05, NULL_FF, 0x00, 0xff)
+on.attack(18, lbl_487, ROHGA_0B, CHERIE_CC, 0x00, 0x00)
+on.attack(20, lbl_4a7, LEON_0D, CHERIE_CC, 0x00, 0x00)
+on.attack(22, lbl_4bd, IMELDA_0F, CHERIE_CC, 0x00, 0x00)
+on.attack(24, lbl_4d3, NULL_FF, VARGAS_0E, 0xff, 0x00)
+on.attack(26, lbl_4e3, EGBERT_10, NULL_FF, 0x00, 0xff)
+on.attack(29, lbl_513, NULL_FF, CHERIE_CC, 0xff, 0x00)
+on.attack(30, lbl_523, CHERIE_CC, ERWIN_01, 0x00, 0x00)
+on.attack(32, lbl_5f0, COMMANDER_22, NULL_FF, 0x00, 0xff)
+on.attack(34, lbl_61b, COMMANDER_23, NULL_FF, 0x00, 0xff)
+on.attack(36, lbl_63e, COMMANDER_83, NULL_FF, 0x00, 0xff)
+on.attack(38, lbl_65c, COMMANDER_84, NULL_FF, 0x00, 0xff)
+on.attack(40, lbl_66c, COMMANDER_85, NULL_FF, 0x00, 0xff)
+on.attack(44, lbl_694, NULL_FF, COMMANDER_87, 0xff, 0x00)
+on.attack(49, lbl_6d8, COMMANDER_8A, NULL_FF, 0x00, 0xff)
+on.attack(51, lbl_702, COMMANDER_8B, NULL_FF, 0x00, 0xff)
 break
 
 # Damage-Triggered Events
@@ -53,17 +53,17 @@ on.defeat(10, lbl_72c, COMMANDER_83, COMMANDER_84, COMMANDER_85, COMMANDER_86, C
 break
 
 # Position-Triggered Events
-on.bound(11, lbl_3ec, NPC_SUBUNIT_F1, 1, 1, 30, 15, 0x00, 0x00)
-on.bound(12, lbl_401, NPC_SUBUNIT_F1, 1, 14, 29, 24, 0x00, 0x00)
-on.bound(13, lbl_423, NPC_COMMANDER_F0, 16, 29, 16, 29, 0x00, 0x00)
+on.bound(11, lbl_3ec, NPC_SUBUNIT_F1, 1, 1, 30, 15)
+on.bound(12, lbl_401, NPC_SUBUNIT_F1, 1, 14, 29, 24)
+on.bound(13, lbl_423, NPC_COMMANDER_F0, 16, 29, 16, 29)
 break
 
 # Turn-Triggered Events
-on.turn(7, lbl_310, ENEMY, 7, 0x00)
-on.turn(8, lbl_347, ALLY, 2, 0x00)
-on.turn(9, lbl_3a3, ENEMY, 1, 0x00)
-on.turn(0, lbl_3bb, ENEMY, 0, 0x00)
-on.turn(6, lbl_3c7, ENEMY, 0, 0x00)
+on.turn(7, lbl_310, ENEMY, 7)
+on.turn(8, lbl_347, ALLY, 2)
+on.turn(9, lbl_3a3, ENEMY, 1)
+on.turn(0, lbl_3bb, ENEMY, 0)
+on.turn(6, lbl_3c7, ENEMY, 0)
 break
 
 # Core Events
@@ -242,7 +242,7 @@ lbl_351:
 # That's too familiar. Could Rayguard Empire be repeating history?\0
   branch.unit.dead(lbl_391, SONYA_0C)
   msg(SONYA_0C, ROHGA_0B, SONYA, FOLLOW, 43)
-# It's different this time. We put an end to Boser, darkness' incarnation.\r\nWith his demise, monsters can't cause us much trouble.\0
+# It's different this time. We put an end to Böser, darkness' incarnation.\r\nWith his demise, monsters can't cause us much trouble.\0
 lbl_391:
   msg(CHERIE_CC, DOWN_F5, CHERIE, FOLLOW, 44)
 # Too bad none of that matters. This castle will be your grave!\0
@@ -314,7 +314,7 @@ lbl_423:
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 53)
 # There is a notice scrawled behind the three boxes.\r\n"You've stumbled on my hoard! Select a box for your reward."\r\nWhich will you pick?\0
   global.sum($0a478d, $07eb5f)
-  prompt.options(lbl_446, lbl_44f, 54, 55, 56, 0x00, 0xf4, 0x00, 0x00)
+  prompt.options(lbl_446, lbl_44f, 54, 55, 56, 0xf4)
 # The right box\0
 # The middle box\0
 # The left box\0
@@ -501,7 +501,7 @@ lbl_5a9:
   goto(lbl_5c2)
 lbl_5bc:
   msg(ERWIN_01, UP_F4, ERWIN, FOLLOW, 102)
-# That's all well and good, but we can't stay here.\r\nIf we don't bring back Liana and Lana, we can't reseal Alhazard.\0
+# That's all well and good, but we can't stay here.\r\nIf we don't bring back Liana and Lána, we can't reseal Alhazard.\0
 lbl_5c2:
   branch.unit.dead(lbl_5cf, EGBERT_10)
   msg(EGBERT_10, ERWIN_01, EGBERT, FOLLOW, 103)

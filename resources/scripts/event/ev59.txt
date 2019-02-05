@@ -1,27 +1,27 @@
 # Movement-Triggered Events
-on.move(3, lbl_505, JESSICA_14, 0, 0xff)
-on.move(0, lbl_66b, CHERIE_CC, 0, 0xff)
-on.move(1, lbl_6f3, COMMANDER_89, 0, 0xff)
-on.move(41, lbl_717, COMMANDER_8A, 0, 0xff)
+on.move(3, lbl_505, JESSICA_14, 0)
+on.move(0, lbl_66b, CHERIE_CC, 0)
+on.move(1, lbl_6f3, COMMANDER_89, 0)
+on.move(41, lbl_717, COMMANDER_8A, 0)
 break
 
 # Attack-Triggered Events
-on.attack(11, lbl_465, ERWIN_01, CHERIE_CC, 0x00, 0x00, 0xff)
-on.attack(15, lbl_4a4, LEON_0D, CHERIE_CC, 0x00, 0x00, 0xff)
-on.attack(17, lbl_4ba, IMELDA_0F, CHERIE_CC, 0x00, 0x00, 0xff)
-on.attack(5, lbl_4d8, EGBERT_10, JESSICA_14, 0x00, 0x00, 0xff)
-on.attack(20, lbl_4e0, EGBERT_10, JESSICA_14, 0x00, 0x00, 0xff)
-on.attack(22, lbl_50d, JESSICA_14, EGBERT_10, 0x00, 0x00, 0xff)
-on.attack(24, lbl_625, NULL_FF, COMMANDER_22, 0xff, 0x00, 0xff)
-on.attack(26, lbl_635, COMMANDER_23, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(29, lbl_64d, NULL_FF, COMMANDER_84, 0xff, 0x00, 0xff)
-on.attack(32, lbl_673, CHERIE_CC, ERWIN_01, 0x00, 0xff, 0xff)
-on.attack(33, lbl_67b, CHERIE_CC, ERWIN_01, 0x00, 0x00, 0xff)
-on.attack(35, lbl_6d3, COMMANDER_87, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(37, lbl_6e3, NULL_FF, COMMANDER_88, 0xff, 0x00, 0xff)
-on.attack(39, lbl_707, COMMANDER_89, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(42, lbl_71f, COMMANDER_8A, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(44, lbl_72f, NULL_FF, COMMANDER_8B, 0xff, 0x00, 0xff)
+on.attack(11, lbl_465, ERWIN_01, CHERIE_CC, 0x00, 0x00)
+on.attack(15, lbl_4a4, LEON_0D, CHERIE_CC, 0x00, 0x00)
+on.attack(17, lbl_4ba, IMELDA_0F, CHERIE_CC, 0x00, 0x00)
+on.attack(5, lbl_4d8, EGBERT_10, JESSICA_14, 0x00, 0x00)
+on.attack(20, lbl_4e0, EGBERT_10, JESSICA_14, 0x00, 0x00)
+on.attack(22, lbl_50d, JESSICA_14, EGBERT_10, 0x00, 0x00)
+on.attack(24, lbl_625, NULL_FF, COMMANDER_22, 0xff, 0x00)
+on.attack(26, lbl_635, COMMANDER_23, NULL_FF, 0x00, 0xff)
+on.attack(29, lbl_64d, NULL_FF, COMMANDER_84, 0xff, 0x00)
+on.attack(32, lbl_673, CHERIE_CC, ERWIN_01, 0x00, 0xff)
+on.attack(33, lbl_67b, CHERIE_CC, ERWIN_01, 0x00, 0x00)
+on.attack(35, lbl_6d3, COMMANDER_87, NULL_FF, 0x00, 0xff)
+on.attack(37, lbl_6e3, NULL_FF, COMMANDER_88, 0xff, 0x00)
+on.attack(39, lbl_707, COMMANDER_89, NULL_FF, 0x00, 0xff)
+on.attack(42, lbl_71f, COMMANDER_8A, NULL_FF, 0x00, 0xff)
+on.attack(44, lbl_72f, NULL_FF, COMMANDER_8B, 0xff, 0x00)
 break
 
 # Damage-Triggered Events
@@ -48,16 +48,16 @@ on.defeat(46, lbl_73f, COMMANDER_22, COMMANDER_23, COMMANDER_83, COMMANDER_84, C
 break
 
 # Position-Triggered Events
-on.bound(9, lbl_40f, NPC_COMMANDER_F0, 21, 26, 21, 26, 0x00, 0x00)
-on.bound(10, lbl_44b, NPC_COMMANDER_F0, 15, 25, 15, 25, 0x00, 0x00)
+on.bound(9, lbl_40f, NPC_COMMANDER_F0, 21, 26, 21, 26)
+on.bound(10, lbl_44b, NPC_COMMANDER_F0, 15, 25, 15, 25)
 break
 
 # Turn-Triggered Events
-on.turn(6, lbl_36b, ENEMY, 8, 0x00)
-on.turn(2, lbl_3a8, ENEMY, 0, 0x00)
-on.turn(7, lbl_3da, ENEMY, 1, 0x00)
-on.turn(4, lbl_3f6, ENEMY, 0, 0x00)
-on.turn(8, lbl_40a, ALLY, 8, 0x00)
+on.turn(6, lbl_36b, ENEMY, 8)
+on.turn(2, lbl_3a8, ENEMY, 0)
+on.turn(7, lbl_3da, ENEMY, 1)
+on.turn(4, lbl_3f6, ENEMY, 0)
+on.turn(8, lbl_40a, ALLY, 8)
 break
 
 # Core Events
@@ -314,7 +314,7 @@ lbl_40f:
   msg(NULL_00, UP_F4, NULL, NOFOLLOW, 51)
 # A voice calls from somewhere far off.\r\n"Humans have not set foot on my island for aeons ..."\r\n"If you require my aid, then just call out my name."\r\nWhat name will you call?\0
   global.sum($0a478d, $07eb5d)
-  prompt.options(lbl_432, lbl_43b, 52, 53, 54, 0x00, 0xf4, 0x00, 0x00)
+  prompt.options(lbl_432, lbl_43b, 52, 53, 54, 0xf4)
 # Lushiris\0
 # Chaos\0
 # Odin\0
@@ -453,7 +453,7 @@ lbl_51b:
   msg(CHERIE_CC, JESSICA_14, CHERIE_SAD, FOLLOW, 86)
 # Yes, Jessica ...\0
   msg(JESSICA_14, DOWN_F5, JESSICA_DEAD, FOLLOW, 87)
-# Egbert ...\r\nPlease understand what I'm trying to accomplish.\r\nI need to wipe Boser and Chaos from the face of this world, to banish them eternally.\0
+# Egbert ...\r\nPlease understand what I'm trying to accomplish.\r\nI need to wipe Böser and Chaos from the face of this world, to banish them eternally.\0
   branch.unit.dead(lbl_54a, EGBERT_10)
   msg(EGBERT_10, JESSICA_14, EGBERT, FOLLOW, 146)
 # ...\r\nMaster, you've fulfilled your duties admirably.\r\nPlease rest in peace ... and leave this world to our hands.\0
@@ -474,7 +474,7 @@ lbl_550:
   goto(lbl_590)
 lbl_569:
   msg(JESSICA_14, DOWN_F5, JESSICA_DEAD, FOLLOW, 91)
-# Aaahhh! No ... I'm finished too ...\r\nEgbert, I think I see ... I see what you're trying to do.\r\nTo end Boser and Chaos through overwhelming force ... Can you succeed ...?\0
+# Aaahhh! No ... I'm finished too ...\r\nEgbert, I think I see ... I see what you're trying to do.\r\nTo end Böser and Chaos through overwhelming force ... Can you succeed ...?\0
   branch.unit.dead(lbl_57c, EGBERT_10)
   msg(EGBERT_10, JESSICA_14, EGBERT, FOLLOW, 146)
 # ...\r\nMaster, you've fulfilled your duties admirably.\r\nPlease rest in peace ... and leave this world to our hands.\0

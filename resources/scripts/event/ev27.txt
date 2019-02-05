@@ -1,23 +1,23 @@
 # Movement-Triggered Events
-on.move(24, lbl_33e, LEON_D5, 0, 0xff)
+on.move(24, lbl_33e, LEON_D5, 0)
 break
 
 # Attack-Triggered Events
-on.attack(5, lbl_272, ERWIN_01, BERNHARDT_16, 0x00, 0x00, 0xff)
-on.attack(8, lbl_29e, HEIN_05, BERNHARDT_16, 0x00, 0x00, 0xff)
-on.attack(10, lbl_2ae, CHERIE_04, BERNHARDT_16, 0x00, 0x00, 0xff)
-on.attack(12, lbl_2be, KEITH_07, BERNHARDT_16, 0x00, 0x00, 0xff)
-on.attack(14, lbl_2d4, LESTER_09, BERNHARDT_16, 0x00, 0x00, 0xff)
-on.attack(16, lbl_2e4, LIANA_02, BERNHARDT_16, 0x00, 0x00, 0xff)
-on.attack(18, lbl_2fa, LANA_03, LEON_D5, 0x00, 0x00, 0xff)
-on.attack(16, lbl_308, LANA_03, BERNHARDT_16, 0x00, 0x00, 0xff)
-on.attack(20, lbl_31e, JESSICA_14, BERNHARDT_16, 0x00, 0x00, 0xff)
-on.attack(22, lbl_32e, SCOTT_06, BERNHARDT_16, 0x00, 0x00, 0xff)
-on.attack(26, lbl_399, JESSICA_14, EGBERT_D8, 0x00, 0x00, 0xff)
-on.attack(27, lbl_3a7, JESSICA_14, EGBERT_D8, 0xff, 0x00, 0xff)
-on.attack(28, lbl_3af, EGBERT_D8, JESSICA_14, 0x00, 0x00, 0xff)
-on.attack(30, lbl_3e3, VAMPIRELORD_4F, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(38, lbl_423, NULL_FF, BERNHARDT_16, 0xff, 0x00, 0xff)
+on.attack(5, lbl_272, ERWIN_01, BERNHARDT_16, 0x00, 0x00)
+on.attack(8, lbl_29e, HEIN_05, BERNHARDT_16, 0x00, 0x00)
+on.attack(10, lbl_2ae, CHERIE_04, BERNHARDT_16, 0x00, 0x00)
+on.attack(12, lbl_2be, KEITH_07, BERNHARDT_16, 0x00, 0x00)
+on.attack(14, lbl_2d4, LESTER_09, BERNHARDT_16, 0x00, 0x00)
+on.attack(16, lbl_2e4, LIANA_02, BERNHARDT_16, 0x00, 0x00)
+on.attack(18, lbl_2fa, LANA_03, LEON_D5, 0x00, 0x00)
+on.attack(16, lbl_308, LANA_03, BERNHARDT_16, 0x00, 0x00)
+on.attack(20, lbl_31e, JESSICA_14, BERNHARDT_16, 0x00, 0x00)
+on.attack(22, lbl_32e, SCOTT_06, BERNHARDT_16, 0x00, 0x00)
+on.attack(26, lbl_399, JESSICA_14, EGBERT_D8, 0x00, 0x00)
+on.attack(27, lbl_3a7, JESSICA_14, EGBERT_D8, 0xff, 0x00)
+on.attack(28, lbl_3af, EGBERT_D8, JESSICA_14, 0x00, 0x00)
+on.attack(30, lbl_3e3, VAMPIRELORD_4F, NULL_FF, 0x00, 0xff)
+on.attack(38, lbl_423, NULL_FF, BERNHARDT_16, 0xff, 0x00)
 break
 
 # Damage-Triggered Events
@@ -47,10 +47,10 @@ break
 break
 
 # Turn-Triggered Events
-on.turn(2, lbl_226, ENEMY, 8, 0x00)
-on.turn(3, lbl_22b, ENEMY, 1, 0x00)
-on.turn(0, lbl_233, ENEMY, 0, 0x00)
-on.turn(1, lbl_26d, ALLY, 0, 0x00)
+on.turn(2, lbl_226, ENEMY, 8)
+on.turn(3, lbl_22b, ENEMY, 1)
+on.turn(0, lbl_233, ENEMY, 0)
+on.turn(1, lbl_26d, ALLY, 0)
 break
 
 # Core Events
@@ -464,15 +464,15 @@ lbl_496:
   msg(LANA_03, LEON_D5, LANA, FOLLOW, 96)
 # Leon!\0
   msg(LEON_D5, LANA_03, LEON_DEAD, FOLLOW, 97)
-# I'm sorry, Lana ...\r\nUntil my death, I want to remain true to what I've believed in.\0
+# I'm sorry, Lána ...\r\nUntil my death, I want to remain true to what I've believed in.\0
   msg(LANA_03, LEON_D5, LANA, FOLLOW, 98)
 # Leon-- I'll go, too! I want to be with you!\0
   branch.unit.dead(lbl_4da, LIANA_02)
   msg(LIANA_02, LANA_03, LIANA, FOLLOW, 99)
-# Lana, no! You mustn't take your own life!\0
+# Lána, no! You mustn't take your own life!\0
 lbl_4da:
   msg(LEON_D5, LANA_03, LEON_DEAD_2, FOLLOW, 100)
-# I'm sorry ... I can't let you do that, my Dark Princess.\r\nThank you and ... Goodbye Lana, my sweet love ...\0
+# I'm sorry ... I can't let you do that, my Dark Princess.\r\nThank you and ... Goodbye Lána, my sweet love ...\0
   msg(LANA_03, LEON_D5, LANA, FOLLOW, 101)
 # No ... No! Leon!\r\nNooooo!\0
 lbl_4e6:
@@ -627,13 +627,13 @@ lbl_682:
   msg(JESSICA_14, EGBERT_D8, JESSICA, FOLLOW, 124)
 # Egbert, individually, we may have little power.\r\nBut when enough raindrops gather closely, they become a stream, a river, a torrent.\r\nThat is the power of light.\0
   msg(EGBERT_D8, JESSICA_14, EGBERT, FOLLOW, 125)
-# When Boser's rebirth drew near, I first believed ...\r\nI believed that the Descendants of Light would combine their strength and overcome him.\r\nHowever, their power was plainly insufficient at the time.\r\nAnd when I encountered His Majesty in his youth, I had a vision ...\r\nI foresaw that he could grow to surpass the Dark One and defeat him!\r\nOur Kaiser believed that a united, glorious nation could one day bring about a peaceful world.\r\nI cooperated with him for that reason, to be able to realize his dream.\0
+# When Böser's rebirth drew near, I first believed ...\r\nI believed that the Descendants of Light would combine their strength and overcome him.\r\nHowever, their power was plainly insufficient at the time.\r\nAnd when I encountered His Majesty in his youth, I had a vision ...\r\nI foresaw that he could grow to surpass the Dark One and defeat him!\r\nOur Kaiser believed that a united, glorious nation could one day bring about a peaceful world.\r\nI cooperated with him for that reason, to be able to realize his dream.\0
   branch.unit.dead(lbl_698, LESTER_09)
   msg(LESTER_09, EGBERT_D8, LESTER, FOLLOW, 126)
 # Really ...\r\nThen that's why you left Jessica to me and left right after her rebirth?\0
 lbl_698:
   msg(JESSICA_14, EGBERT_D8, JESSICA, FOLLOW, 127)
-# Now that Boser and Bernhardt have been defeated, there is no point in fighting us!\r\nEgbert, my student! I will offer you one more chance to study the infinite possibilities of magic.\0
+# Now that Böser and Bernhardt have been defeated, there is no point in fighting us!\r\nEgbert, my student! I will offer you one more chance to study the infinite possibilities of magic.\0
   msg(EGBERT_D8, JESSICA_14, EGBERT, FOLLOW, 128)
 # Of course, there is no more reason to fight.\r\nBut I have no right to call you teacher.\r\nJessica, please take care.\r\nFarewell, Descendants of Light ...\r\nI will quietly watch what you do with this new world.\0
   cast.teleport(EGBERT_D8, EGBERT_D8, TELEPORT_OUT, PRESET, PRESET)

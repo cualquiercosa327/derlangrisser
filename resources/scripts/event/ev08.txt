@@ -1,30 +1,30 @@
 # Movement-Triggered Events
-on.move(4, lbl_397, VILLAGER_25, 0, 0xff)
-on.move(20, lbl_3a0, VILLAGER_25, 0, 0xff)
-on.move(22, lbl_3f5, RIDEL_7F, 0, 0xff)
-on.move(28, lbl_491, LEON_D5, 0, 0xff)
-on.move(33, lbl_4de, LAIRD_18, 3, 0xff)
-on.move(36, lbl_523, BALDO_19, 1, 0xff)
-on.move(1, lbl_55b, BALDO_19, 0, 0xff)
-on.move(0, lbl_563, BALDO_19, 0, 0xff)
-on.move(40, lbl_81c, IMPERIALCOMMANDER_2F, 0, 0xff)
-on.move(3, lbl_836, IMPERIALCOMMANDER_2F, 0, 0xff)
+on.move(4, lbl_397, VILLAGER_25, 0)
+on.move(20, lbl_3a0, VILLAGER_25, 0)
+on.move(22, lbl_3f5, RIDEL_7F, 0)
+on.move(28, lbl_491, LEON_D5, 0)
+on.move(33, lbl_4de, LAIRD_18, 3)
+on.move(36, lbl_523, BALDO_19, 1)
+on.move(1, lbl_55b, BALDO_19, 0)
+on.move(0, lbl_563, BALDO_19, 0)
+on.move(40, lbl_81c, IMPERIALCOMMANDER_2F, 0)
+on.move(3, lbl_836, IMPERIALCOMMANDER_2F, 0)
 break
 
 # Attack-Triggered Events
-on.attack(15, lbl_357, ERWIN_01, BALDO_19, 0x00, 0x00, 0xff)
-on.attack(16, lbl_36e, ERWIN_01, IMPERIALCOMMANDER_2F, 0x00, 0x00, 0xff)
-on.attack(15, lbl_37e, HEIN_05, BALDO_19, 0x00, 0x00, 0xff)
-on.attack(18, lbl_38f, HEIN_05, BALDO_19, 0x00, 0xff, 0xff)
-on.attack(21, lbl_3d9, NULL_FF, VILLAGER_25, 0xff, 0x00, 0xff)
-on.attack(23, lbl_403, RIDEL_7F, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(24, lbl_40b, NULL_FF, RIDEL_7F, 0xff, 0x00, 0xff)
-on.attack(31, lbl_4af, ERWIN_01, LEON_D5, 0x00, 0x00, 0xff)
-on.attack(32, lbl_4d9, LEON_D5, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(35, lbl_50d, LAIRD_18, RIDEL_7F, 0x00, 0x00, 0xff)
-on.attack(38, lbl_5f5, BALDO_19, VILLAGER_25, 0x00, 0xff, 0xff)
-on.attack(41, lbl_854, IMPERIALCOMMANDER_2F, NULL_FF, 0x00, 0xff, 0xff)
-on.attack(41, lbl_85f, NULL_FF, IMPERIALCOMMANDER_2F, 0xff, 0x00, 0xff)
+on.attack(15, lbl_357, ERWIN_01, BALDO_19, 0x00, 0x00)
+on.attack(16, lbl_36e, ERWIN_01, IMPERIALCOMMANDER_2F, 0x00, 0x00)
+on.attack(15, lbl_37e, HEIN_05, BALDO_19, 0x00, 0x00)
+on.attack(18, lbl_38f, HEIN_05, BALDO_19, 0x00, 0xff)
+on.attack(21, lbl_3d9, NULL_FF, VILLAGER_25, 0xff, 0x00)
+on.attack(23, lbl_403, RIDEL_7F, NULL_FF, 0x00, 0xff)
+on.attack(24, lbl_40b, NULL_FF, RIDEL_7F, 0xff, 0x00)
+on.attack(31, lbl_4af, ERWIN_01, LEON_D5, 0x00, 0x00)
+on.attack(32, lbl_4d9, LEON_D5, NULL_FF, 0x00, 0xff)
+on.attack(35, lbl_50d, LAIRD_18, RIDEL_7F, 0x00, 0x00)
+on.attack(38, lbl_5f5, BALDO_19, VILLAGER_25, 0x00, 0xff)
+on.attack(41, lbl_854, IMPERIALCOMMANDER_2F, NULL_FF, 0x00, 0xff)
+on.attack(41, lbl_85f, NULL_FF, IMPERIALCOMMANDER_2F, 0xff, 0x00)
 break
 
 # Damage-Triggered Events
@@ -45,20 +45,20 @@ on.damage(43, lbl_895, NULL_FF, IMPERIALCOMMANDER_2F, 0xff, 0x00)
 break
 
 # Position-Triggered Events
-on.range(7, lbl_2af, LIANA_02, ERWIN_01, 1, 0x00, 0x00, 0x00, 0x00)
-on.range(8, lbl_2c1, LIANA_02, HEIN_05, 1, 0x00, 0x00, 0x00, 0x00)
-on.bound(9, lbl_2d3, BALDO_19, 11, 42, 18, 42, 0x00, 0x00)
-on.bound(10, lbl_2ed, BALDO_19, 7, 34, 18, 40, 0x00, 0x00)
-on.bound(11, lbl_308, NPC_COMMANDER_F0, 24, 5, 24, 5, 0x00, 0x00)
-on.bound(12, lbl_328, NPC_COMMANDER_F0, 18, 25, 18, 25, 0x00, 0x00)
-on.bound(13, lbl_348, VILLAGER_25, 1, 16, 1, 23, 0x00, 0x00)
-on.range(2, lbl_57a, LIANA_02, BALDO_19, 1, 0x00, 0x00, 0x00, 0x00)
-on.range(37, lbl_5b2, BALDO_19, LIANA_02, 1, 0x00, 0x00, 0x00, 0x00)
+on.range(7, lbl_2af, LIANA_02, ERWIN_01, 1)
+on.range(8, lbl_2c1, LIANA_02, HEIN_05, 1)
+on.bound(9, lbl_2d3, BALDO_19, 11, 42, 18, 42)
+on.bound(10, lbl_2ed, BALDO_19, 7, 34, 18, 40)
+on.bound(11, lbl_308, NPC_COMMANDER_F0, 24, 5, 24, 5)
+on.bound(12, lbl_328, NPC_COMMANDER_F0, 18, 25, 18, 25)
+on.bound(13, lbl_348, VILLAGER_25, 1, 16, 1, 23)
+on.range(2, lbl_57a, LIANA_02, BALDO_19, 1)
+on.range(37, lbl_5b2, BALDO_19, LIANA_02, 1)
 break
 
 # Turn-Triggered Events
-on.turn(6, lbl_26d, ALLY, 2, 0x00)
-on.turn(5, lbl_27b, ALLY, 0, 0x00)
+on.turn(6, lbl_26d, ALLY, 2)
+on.turn(5, lbl_27b, ALLY, 0)
 break
 
 # Core Events
