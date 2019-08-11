@@ -1,8 +1,6 @@
 #!/usr/bin/php -q
 <?php
 
-set_time_limit(6000000);
-
 echo "Der Langrisser Event Decompiler (cli)\n";
 echo "Copyright (c) 2018 Derrick Sobodash\n";
 

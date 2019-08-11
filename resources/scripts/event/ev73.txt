@@ -136,7 +136,7 @@ lbl_19a:
   msg(LEON_D5, VARGAS_D6, LEON, FOLLOW, 12)
 # I understand, General Vargas. You are brave beyond words!\0
   msg(ROHGA_0B, ERWIN_01, ROHGA, FOLLOW, 13)
-# Looks like we're facing the Flaming Fag Brigade, or whatever they call themselves.\0
+# So we're up against the Blazing Dragon Army's rear guard, eh?\0
   msg(SONYA_0C, ERWIN_01, SONYA, FOLLOW, 14)
 # If we take too much time, we'll lose the main force.\0
   msg(ERWIN_01, DOWN_F5, ERWIN, FOLLOW, 15)
